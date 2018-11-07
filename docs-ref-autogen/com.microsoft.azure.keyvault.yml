@@ -3,13 +3,13 @@ items:
 - uid: com.microsoft.azure.keyvault
   id: keyvault
   children:
-  - com.microsoft.azure.keyvault._certificate_identifier
-  - com.microsoft.azure.keyvault._certificate_operation_identifier
-  - com.microsoft.azure.keyvault._issuer_identifier
-  - com.microsoft.azure.keyvault._key_identifier
-  - com.microsoft.azure.keyvault._key_vault_client
-  - com.microsoft.azure.keyvault._object_identifier
-  - com.microsoft.azure.keyvault._secret_identifier
+  - com.microsoft.azure.keyvault.CertificateIdentifier
+  - com.microsoft.azure.keyvault.CertificateOperationIdentifier
+  - com.microsoft.azure.keyvault.IssuerIdentifier
+  - com.microsoft.azure.keyvault.KeyIdentifier
+  - com.microsoft.azure.keyvault.KeyVaultClient
+  - com.microsoft.azure.keyvault.ObjectIdentifier
+  - com.microsoft.azure.keyvault.SecretIdentifier
   href: com.microsoft.azure.keyvault.yml
   langs:
   - java
@@ -103,9 +103,9 @@ references:
   summary: <p>This package contains the classes for key vault JSON web key. </p>
   syntax:
     content: package com.microsoft.azure.keyvault.webkey
-- uid: com.microsoft.azure.keyvault._certificate_identifier
+- uid: com.microsoft.azure.keyvault.CertificateIdentifier
   parent: com.microsoft.azure.keyvault
-  href: com.microsoft.azure.keyvault._certificate_identifier.yml
+  href: com.microsoft.azure.keyvault.CertificateIdentifier.yml
   name: CertificateIdentifier
   nameWithType: CertificateIdentifier
   fullName: com.microsoft.azure.keyvault.CertificateIdentifier
@@ -113,9 +113,9 @@ references:
   summary: <p>The certificate identifier. </p>
   syntax:
     content: public class CertificateIdentifier extends ObjectIdentifier
-- uid: com.microsoft.azure.keyvault._certificate_operation_identifier
+- uid: com.microsoft.azure.keyvault.CertificateOperationIdentifier
   parent: com.microsoft.azure.keyvault
-  href: com.microsoft.azure.keyvault._certificate_operation_identifier.yml
+  href: com.microsoft.azure.keyvault.CertificateOperationIdentifier.yml
   name: CertificateOperationIdentifier
   nameWithType: CertificateOperationIdentifier
   fullName: com.microsoft.azure.keyvault.CertificateOperationIdentifier
@@ -123,9 +123,9 @@ references:
   summary: <p>The certificate operation identifier. </p>
   syntax:
     content: public class CertificateOperationIdentifier extends ObjectIdentifier
-- uid: com.microsoft.azure.keyvault._issuer_identifier
+- uid: com.microsoft.azure.keyvault.IssuerIdentifier
   parent: com.microsoft.azure.keyvault
-  href: com.microsoft.azure.keyvault._issuer_identifier.yml
+  href: com.microsoft.azure.keyvault.IssuerIdentifier.yml
   name: IssuerIdentifier
   nameWithType: IssuerIdentifier
   fullName: com.microsoft.azure.keyvault.IssuerIdentifier
@@ -133,9 +133,9 @@ references:
   summary: <p>The issuer identifier. </p>
   syntax:
     content: public class IssuerIdentifier extends ObjectIdentifier
-- uid: com.microsoft.azure.keyvault._key_identifier
+- uid: com.microsoft.azure.keyvault.KeyIdentifier
   parent: com.microsoft.azure.keyvault
-  href: com.microsoft.azure.keyvault._key_identifier.yml
+  href: com.microsoft.azure.keyvault.KeyIdentifier.yml
   name: KeyIdentifier
   nameWithType: KeyIdentifier
   fullName: com.microsoft.azure.keyvault.KeyIdentifier
@@ -143,9 +143,9 @@ references:
   summary: <p>The Key Vault key identifier. </p>
   syntax:
     content: public class KeyIdentifier extends ObjectIdentifier
-- uid: com.microsoft.azure.keyvault._key_vault_client
+- uid: com.microsoft.azure.keyvault.KeyVaultClient
   parent: com.microsoft.azure.keyvault
-  href: com.microsoft.azure.keyvault._key_vault_client.yml
+  href: com.microsoft.azure.keyvault.KeyVaultClient.yml
   name: KeyVaultClient
   nameWithType: KeyVaultClient
   fullName: com.microsoft.azure.keyvault.KeyVaultClient
@@ -153,9 +153,9 @@ references:
   summary: <p>Initializes a new instance of the KeyVaultClient class. </p>
   syntax:
     content: public class KeyVaultClient
-- uid: com.microsoft.azure.keyvault._object_identifier
+- uid: com.microsoft.azure.keyvault.ObjectIdentifier
   parent: com.microsoft.azure.keyvault
-  href: com.microsoft.azure.keyvault._object_identifier.yml
+  href: com.microsoft.azure.keyvault.ObjectIdentifier.yml
   name: ObjectIdentifier
   nameWithType: ObjectIdentifier
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier
@@ -163,9 +163,9 @@ references:
   summary: <p>The key vault object identifier. </p>
   syntax:
     content: public class ObjectIdentifier
-- uid: com.microsoft.azure.keyvault._secret_identifier
+- uid: com.microsoft.azure.keyvault.SecretIdentifier
   parent: com.microsoft.azure.keyvault
-  href: com.microsoft.azure.keyvault._secret_identifier.yml
+  href: com.microsoft.azure.keyvault.SecretIdentifier.yml
   name: SecretIdentifier
   nameWithType: SecretIdentifier
   fullName: com.microsoft.azure.keyvault.SecretIdentifier

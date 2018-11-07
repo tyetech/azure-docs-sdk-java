@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.azure.management.datalake.store
   id: store
   children:
-  - com.microsoft.azure.management.datalake.store._accounts
-  - com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client
-  - com.microsoft.azure.management.datalake.store._firewall_rules
-  - com.microsoft.azure.management.datalake.store._trusted_id_providers
+  - com.microsoft.azure.management.datalake.store.Accounts
+  - com.microsoft.azure.management.datalake.store.DataLakeStoreAccountManagementClient
+  - com.microsoft.azure.management.datalake.store.FirewallRules
+  - com.microsoft.azure.management.datalake.store.TrustedIdProviders
   href: com.microsoft.azure.management.datalake.store.yml
   langs:
   - java
@@ -34,9 +34,9 @@ references:
   summary: <p>This package contains the models classes for DataLakeStoreAccountManagementClient. Creates an Azure Data Lake Store account management client. </p>
   syntax:
     content: package com.microsoft.azure.management.datalake.store.models
-- uid: com.microsoft.azure.management.datalake.store._accounts
+- uid: com.microsoft.azure.management.datalake.store.Accounts
   parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._accounts.yml
+  href: com.microsoft.azure.management.datalake.store.Accounts.yml
   name: Accounts
   nameWithType: Accounts
   fullName: com.microsoft.azure.management.datalake.store.Accounts
@@ -44,9 +44,9 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in Accounts. </p>
   syntax:
     content: public interface Accounts
-- uid: com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client
+- uid: com.microsoft.azure.management.datalake.store.DataLakeStoreAccountManagementClient
   parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._data_lake_store_account_management_client.yml
+  href: com.microsoft.azure.management.datalake.store.DataLakeStoreAccountManagementClient.yml
   name: DataLakeStoreAccountManagementClient
   nameWithType: DataLakeStoreAccountManagementClient
   fullName: com.microsoft.azure.management.datalake.store.DataLakeStoreAccountManagementClient
@@ -54,9 +54,9 @@ references:
   summary: <p>The interface for DataLakeStoreAccountManagementClient class. </p>
   syntax:
     content: public interface DataLakeStoreAccountManagementClient
-- uid: com.microsoft.azure.management.datalake.store._firewall_rules
+- uid: com.microsoft.azure.management.datalake.store.FirewallRules
   parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._firewall_rules.yml
+  href: com.microsoft.azure.management.datalake.store.FirewallRules.yml
   name: FirewallRules
   nameWithType: FirewallRules
   fullName: com.microsoft.azure.management.datalake.store.FirewallRules
@@ -64,9 +64,9 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in FirewallRules. </p>
   syntax:
     content: public interface FirewallRules
-- uid: com.microsoft.azure.management.datalake.store._trusted_id_providers
+- uid: com.microsoft.azure.management.datalake.store.TrustedIdProviders
   parent: com.microsoft.azure.management.datalake.store
-  href: com.microsoft.azure.management.datalake.store._trusted_id_providers.yml
+  href: com.microsoft.azure.management.datalake.store.TrustedIdProviders.yml
   name: TrustedIdProviders
   nameWithType: TrustedIdProviders
   fullName: com.microsoft.azure.management.datalake.store.TrustedIdProviders

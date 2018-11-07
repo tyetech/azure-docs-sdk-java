@@ -3,9 +3,9 @@ items:
 - uid: com.microsoft.cognitiveservices.speech.util
   id: util
   children:
-  - com.microsoft.cognitiveservices.speech.util._contracts
-  - com.microsoft.cognitiveservices.speech.util._event_handler
-  - com.microsoft.cognitiveservices.speech.util._event_handler_impl
+  - com.microsoft.cognitiveservices.speech.util.Contracts
+  - com.microsoft.cognitiveservices.speech.util.EventHandler
+  - com.microsoft.cognitiveservices.speech.util.EventHandlerImpl
   href: com.microsoft.cognitiveservices.speech.util.yml
   langs:
   - java
@@ -23,9 +23,9 @@ items:
   syntax:
     content: package com.microsoft.cognitiveservices.speech.util
 references:
-- uid: com.microsoft.cognitiveservices.speech.util._contracts
+- uid: com.microsoft.cognitiveservices.speech.util.Contracts
   parent: com.microsoft.cognitiveservices.speech.util
-  href: com.microsoft.cognitiveservices.speech.util._contracts.yml
+  href: com.microsoft.cognitiveservices.speech.util.Contracts.yml
   name: Contracts
   nameWithType: Contracts
   fullName: com.microsoft.cognitiveservices.speech.util.Contracts
@@ -33,9 +33,9 @@ references:
   summary: <p>Contract helper </p>
   syntax:
     content: public class Contracts
-- uid: com.microsoft.cognitiveservices.speech.util._event_handler
+- uid: com.microsoft.cognitiveservices.speech.util.EventHandler
   parent: com.microsoft.cognitiveservices.speech.util
-  href: com.microsoft.cognitiveservices.speech.util._event_handler.yml
+  href: com.microsoft.cognitiveservices.speech.util.EventHandler.yml
   name: EventHandler<T>
   nameWithType: EventHandler<T>
   fullName: com.microsoft.cognitiveservices.speech.util.EventHandler<T>
@@ -46,9 +46,9 @@ references:
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.cognitiveservices.speech.util._event_handler_impl
+- uid: com.microsoft.cognitiveservices.speech.util.EventHandlerImpl
   parent: com.microsoft.cognitiveservices.speech.util
-  href: com.microsoft.cognitiveservices.speech.util._event_handler_impl.yml
+  href: com.microsoft.cognitiveservices.speech.util.EventHandlerImpl.yml
   name: EventHandlerImpl<T>
   nameWithType: EventHandlerImpl<T>
   fullName: com.microsoft.cognitiveservices.speech.util.EventHandlerImpl<T>

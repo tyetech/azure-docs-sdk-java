@@ -3,7 +3,7 @@ items:
 - uid: com.microsoft.applicationinsights.autoconfigure.helpers
   id: helpers
   children:
-  - com.microsoft.applicationinsights.autoconfigure.helpers._ikey_resolver
+  - com.microsoft.applicationinsights.autoconfigure.helpers.IkeyResolver
   href: com.microsoft.applicationinsights.autoconfigure.helpers.yml
   langs:
   - java
@@ -21,9 +21,9 @@ items:
   syntax:
     content: package com.microsoft.applicationinsights.autoconfigure.helpers
 references:
-- uid: com.microsoft.applicationinsights.autoconfigure.helpers._ikey_resolver
+- uid: com.microsoft.applicationinsights.autoconfigure.helpers.IkeyResolver
   parent: com.microsoft.applicationinsights.autoconfigure.helpers
-  href: com.microsoft.applicationinsights.autoconfigure.helpers._ikey_resolver.yml
+  href: com.microsoft.applicationinsights.autoconfigure.helpers.IkeyResolver.yml
   name: IkeyResolver
   nameWithType: IkeyResolver
   fullName: com.microsoft.applicationinsights.autoconfigure.helpers.IkeyResolver

@@ -3,7 +3,7 @@ items:
 - uid: microsoft.servicefabric.actors.remoting.runtime
   id: runtime
   children:
-  - microsoft.servicefabric.actors.remoting.runtime._actor_service_remoting_dispatcher
+  - microsoft.servicefabric.actors.remoting.runtime.ActorServiceRemotingDispatcher
   href: microsoft.servicefabric.actors.remoting.runtime.yml
   langs:
   - java
@@ -20,9 +20,9 @@ items:
   syntax:
     content: package microsoft.servicefabric.actors.remoting.runtime
 references:
-- uid: microsoft.servicefabric.actors.remoting.runtime._actor_service_remoting_dispatcher
+- uid: microsoft.servicefabric.actors.remoting.runtime.ActorServiceRemotingDispatcher
   parent: microsoft.servicefabric.actors.remoting.runtime
-  href: microsoft.servicefabric.actors.remoting.runtime._actor_service_remoting_dispatcher.yml
+  href: microsoft.servicefabric.actors.remoting.runtime.ActorServiceRemotingDispatcher.yml
   name: ActorServiceRemotingDispatcher
   nameWithType: ActorServiceRemotingDispatcher
   fullName: microsoft.servicefabric.actors.remoting.runtime.ActorServiceRemotingDispatcher

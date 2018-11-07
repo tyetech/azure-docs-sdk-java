@@ -3,7 +3,7 @@ items:
 - uid: microsoft.servicefabric.services.communication
   id: communication
   children:
-  - microsoft.servicefabric.services.communication._service_endpoint_collection
+  - microsoft.servicefabric.services.communication.ServiceEndpointCollection
   href: microsoft.servicefabric.services.communication.yml
   langs:
   - java
@@ -35,9 +35,9 @@ references:
   type: Namespace
   syntax:
     content: package microsoft.servicefabric.services.communication.runtime
-- uid: microsoft.servicefabric.services.communication._service_endpoint_collection
+- uid: microsoft.servicefabric.services.communication.ServiceEndpointCollection
   parent: microsoft.servicefabric.services.communication
-  href: microsoft.servicefabric.services.communication._service_endpoint_collection.yml
+  href: microsoft.servicefabric.services.communication.ServiceEndpointCollection.yml
   name: ServiceEndpointCollection
   nameWithType: ServiceEndpointCollection
   fullName: microsoft.servicefabric.services.communication.ServiceEndpointCollection

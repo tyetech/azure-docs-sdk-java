@@ -3,11 +3,11 @@ items:
 - uid: com.microsoft.azure.management
   id: management
   children:
-  - com.microsoft.azure.management._access_management
-  - com.microsoft.azure.management._azure
-  - com.microsoft.azure.management._azure._authenticated
-  - com.microsoft.azure.management._azure._configurable
-  - com.microsoft.azure.management._traffic_manager_tests
+  - com.microsoft.azure.management.AccessManagement
+  - com.microsoft.azure.management.Azure
+  - com.microsoft.azure.management.Azure.Authenticated
+  - com.microsoft.azure.management.Azure.Configurable
+  - com.microsoft.azure.management.TrafficManagerTests
   href: com.microsoft.azure.management.yml
   langs:
   - java
@@ -225,9 +225,9 @@ references:
   summary: <p>This package contains the classes for TrafficManagerManagementClient. </p>
   syntax:
     content: package com.microsoft.azure.management.trafficmanager
-- uid: com.microsoft.azure.management._access_management
+- uid: com.microsoft.azure.management.AccessManagement
   parent: com.microsoft.azure.management
-  href: com.microsoft.azure.management._access_management.yml
+  href: com.microsoft.azure.management.AccessManagement.yml
   name: AccessManagement
   nameWithType: AccessManagement
   fullName: com.microsoft.azure.management.AccessManagement
@@ -235,9 +235,9 @@ references:
   summary: <p>Exposes methods related to managing access permissions in Azure. </p>
   syntax:
     content: public interface AccessManagement
-- uid: com.microsoft.azure.management._azure
+- uid: com.microsoft.azure.management.Azure
   parent: com.microsoft.azure.management
-  href: com.microsoft.azure.management._azure.yml
+  href: com.microsoft.azure.management.Azure.yml
   name: Azure
   nameWithType: Azure
   fullName: com.microsoft.azure.management.Azure
@@ -245,18 +245,18 @@ references:
   summary: <p>The entry point for accessing resource management APIs in Azure. </p>
   syntax:
     content: public class Azure
-- uid: com.microsoft.azure.management._traffic_manager_tests
+- uid: com.microsoft.azure.management.TrafficManagerTests
   parent: com.microsoft.azure.management
-  href: com.microsoft.azure.management._traffic_manager_tests.yml
+  href: com.microsoft.azure.management.TrafficManagerTests.yml
   name: TrafficManagerTests
   nameWithType: TrafficManagerTests
   fullName: com.microsoft.azure.management.TrafficManagerTests
   type: Class
   syntax:
     content: public class TrafficManagerTests
-- uid: com.microsoft.azure.management._azure._authenticated
+- uid: com.microsoft.azure.management.Azure.Authenticated
   parent: com.microsoft.azure.management
-  href: com.microsoft.azure.management._azure._authenticated.yml
+  href: com.microsoft.azure.management.Azure.Authenticated.yml
   name: Azure.Authenticated
   nameWithType: Azure.Authenticated
   fullName: com.microsoft.azure.management.Azure.Authenticated
@@ -264,12 +264,12 @@ references:
   summary: >-
     <p>Provides authenticated access to a subset of Azure APIs that do not require a specific subscription. </p>
 
-    <p>To access the subscription-specific APIs, use <xref uid="com.microsoft.azure.management._azure._authenticated.withSubscription(String)" data-throw-if-not-resolved="false">Authenticated#withSubscription(String)</xref>, or withDefaultSubscription() if a default subscription has already been previously specified (for example, in a previously specified authentication file). </p>
+    <p>To access the subscription-specific APIs, use <xref uid="com.microsoft.azure.management.Azure.Authenticated.withSubscription(String)" data-throw-if-not-resolved="false">Authenticated#withSubscription(String)</xref>, or withDefaultSubscription() if a default subscription has already been previously specified (for example, in a previously specified authentication file). </p>
   syntax:
     content: public interface Authenticated extends AccessManagement
-- uid: com.microsoft.azure.management._azure._configurable
+- uid: com.microsoft.azure.management.Azure.Configurable
   parent: com.microsoft.azure.management
-  href: com.microsoft.azure.management._azure._configurable.yml
+  href: com.microsoft.azure.management.Azure.Configurable.yml
   name: Azure.Configurable
   nameWithType: Azure.Configurable
   fullName: com.microsoft.azure.management.Azure.Configurable
