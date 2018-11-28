@@ -39,7 +39,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -52,7 +52,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
@@ -66,10 +66,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithPublicIPAddress<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithPublicIPAddress<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the network interface IP configuration definition allowing to associate it with a public IP address.</p>
-
-    <p></p>
+  summary: "<p>The stage of the network interface IP configuration definition allowing to associate it with a public IP address.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPublicIPAddress<ParentT>
     typeParameters:
@@ -83,7 +80,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of a network interface IP configuration definition as part of a network interface update. </p>
+  summary: "<p>The entirety of a network interface IP configuration definition as part of a network interface update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends NicIPConfiguration.UpdateDefinitionStages.Blank<ParentT>,NicIPConfiguration.UpdateDefinitionStages.WithAttach<ParentT>,NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>,NicIPConfiguration.UpdateDefinitionStages.WithPrivateIP<ParentT>,NicIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>,NicIPConfiguration.UpdateDefinitionStages.WithPublicIPAddress<ParentT>
     typeParameters:
@@ -97,7 +94,7 @@ references:
   nameWithType: Attachable<ParentT>.attach()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.attach()
   type: Method
-  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  summary: "<p>Attaches this child object's definition to its parent's definition. </p>"
   syntax:
     content: public ParentT attach()
     return:

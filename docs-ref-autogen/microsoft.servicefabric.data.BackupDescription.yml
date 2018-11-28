@@ -170,7 +170,7 @@ references:
   nameWithType: BackupOption
   fullName: microsoft.servicefabric.data.BackupOption
   type: Enum
-  summary: <p>Indicates the kind of the backup. </p>
+  summary: "<p>Indicates the kind of the backup. </p>"
   syntax:
     content: public enum BackupOption
 - uid: microsoft.servicefabric.data.BackupInfo
@@ -180,7 +180,7 @@ references:
   nameWithType: BackupInfo
   fullName: microsoft.servicefabric.data.BackupInfo
   type: Class
-  summary: <p>Provides info about the backup. </p>
+  summary: "<p>Provides info about the backup. </p>"
   syntax:
     content: public class BackupInfo
 - uid: system.fabric.CancellationToken
@@ -190,7 +190,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.data.BackupDescription
@@ -200,5 +200,5 @@ references:
   nameWithType: BackupDescription
   fullName: microsoft.servicefabric.data.BackupDescription
   type: Class
-  summary: <p>A BackupDescription contains all of the information necessary to backup a stateful service replica. </p>
+  summary: "<p>A BackupDescription contains all of the information necessary to backup a stateful service replica. </p>"
   syntax: *o1

@@ -76,10 +76,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -92,10 +89,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -112,10 +106,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -152,10 +143,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   type: Method
-  summary: >-
-    <p>Specifies the availability zone for the managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the availability zone for the managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withAvailabilityZone(AvailabilityZoneId zoneId)
     parameters:
@@ -172,10 +160,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithSku.withSku(DiskSkuTypes sku)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithSku.withSku(DiskSkuTypes sku)
   type: Method
-  summary: >-
-    <p>Specifies the SKU.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(DiskSkuTypes sku)
     parameters:
@@ -192,7 +177,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -212,7 +197,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -229,7 +214,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<Disk>,Resource.DefinitionWithTags<Disk.DefinitionStages.WithCreate>,Disk.DefinitionStages.WithSku,Disk.DefinitionStages.WithAvailabilityZone
 - uid: com.microsoft.azure.management.compute.Disk.Definition
@@ -239,7 +224,7 @@ references:
   nameWithType: Disk.Definition
   fullName: com.microsoft.azure.management.compute.Disk.Definition
   type: Interface
-  summary: <p>The entirety of the managed disk definition. </p>
+  summary: "<p>The entirety of the managed disk definition. </p>"
   syntax:
     content: public interface Definition extends Disk.DefinitionStages.Blank,Disk.DefinitionStages.WithGroup,Disk.DefinitionStages.WithDiskSource,Disk.DefinitionStages.WithWindowsDiskSource,Disk.DefinitionStages.WithLinuxDiskSource,Disk.DefinitionStages.WithData,Disk.DefinitionStages.WithDataDiskSource,Disk.DefinitionStages.WithDataDiskFromVhd,Disk.DefinitionStages.WithDataDiskFromDisk,Disk.DefinitionStages.WithDataDiskFromSnapshot,Disk.DefinitionStages.WithCreateAndSize,Disk.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreateAndSize
@@ -249,5 +234,5 @@ references:
   nameWithType: Disk.DefinitionStages.WithCreateAndSize
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreateAndSize
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to create the disk or optionally specify size. </p>
+  summary: "<p>The stage of the managed disk definition allowing to create the disk or optionally specify size. </p>"
   syntax: *o1

@@ -292,10 +292,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -308,10 +305,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -324,10 +318,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -356,10 +347,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithSku.withBasicSku(int capacity)
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithSku.withBasicSku(int capacity)
   type: Method
-  summary: >-
-    <p>Updates Redis Cache to Basic sku with new capacity.</p>
-
-    <p></p>
+  summary: "<p>Updates Redis Cache to Basic sku with new capacity.</p>\r\n<p></p>"
   syntax:
     content: public Update withBasicSku(int capacity)
     parameters:
@@ -376,10 +364,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithNonSslPort.withNonSslPort()
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithNonSslPort.withNonSslPort()
   type: Method
-  summary: >-
-    <p>Enables non-ssl Redis server port (6379).</p>
-
-    <p></p>
+  summary: "<p>Enables non-ssl Redis server port (6379).</p>\r\n<p></p>"
   syntax:
     content: public Update withNonSslPort()
     return:
@@ -392,10 +377,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithNonSslPort.withoutNonSslPort()
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithNonSslPort.withoutNonSslPort()
   type: Method
-  summary: >-
-    <p>Disables non-ssl Redis server port (6379).</p>
-
-    <p></p>
+  summary: "<p>Disables non-ssl Redis server port (6379).</p>\r\n<p></p>"
   syntax:
     content: public Update withoutNonSslPort()
     return:
@@ -408,10 +390,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithRedisConfiguration.withoutRedisConfiguration()
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithRedisConfiguration.withoutRedisConfiguration()
   type: Method
-  summary: >-
-    <p>Cleans all the configuration settings being set on Redis Cache.</p>
-
-    <p></p>
+  summary: "<p>Cleans all the configuration settings being set on Redis Cache.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutRedisConfiguration()
     return:
@@ -424,10 +403,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithRedisConfiguration.withoutRedisConfiguration(String key)
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithRedisConfiguration.withoutRedisConfiguration(String key)
   type: Method
-  summary: >-
-    <p>Removes specified Redis Cache configuration setting.</p>
-
-    <p></p>
+  summary: "<p>Removes specified Redis Cache configuration setting.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutRedisConfiguration(String key)
     parameters:
@@ -444,7 +420,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -461,10 +437,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithSku.withPremiumSku()
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithSku.withPremiumSku()
   type: Method
-  summary: >-
-    <p>Updates Redis Cache to Premium sku.</p>
-
-    <p></p>
+  summary: "<p>Updates Redis Cache to Premium sku.</p>\r\n<p></p>"
   syntax:
     content: public Update withPremiumSku()
     return:
@@ -477,10 +450,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithSku.withPremiumSku(int capacity)
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithSku.withPremiumSku(int capacity)
   type: Method
-  summary: >-
-    <p>Updates Redis Cache to Premium sku with new capacity.</p>
-
-    <p></p>
+  summary: "<p>Updates Redis Cache to Premium sku with new capacity.</p>\r\n<p></p>"
   syntax:
     content: public Update withPremiumSku(int capacity)
     parameters:
@@ -497,10 +467,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithRedisConfiguration.withRedisConfiguration(Map<String, String> redisConfiguration)
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithRedisConfiguration.withRedisConfiguration(Map<String, String> redisConfiguration)
   type: Method
-  summary: >-
-    <p>All Redis Settings. Few possible keys: rdb-backup-enabled, rdb-storage-connection-string, rdb-backup-frequency, maxmemory-delta, maxmemory-policy, notify-keyspace-events, maxmemory-samples, slowlog-log-slower-than, slowlog-max-len, list-max-ziplist-entries, list-max-ziplist-value, hash-max-ziplist-entries, hash-max-ziplist-value, set -max-intset-entries, zset-max-ziplist-entries, zset-max-ziplist-value etc.</p>
-
-    <p></p>
+  summary: "<p>All Redis Settings. Few possible keys: rdb-backup-enabled, rdb-storage-connection-string, rdb-backup-frequency, maxmemory-delta, maxmemory-policy, notify-keyspace-events, maxmemory-samples, slowlog-log-slower-than, slowlog-max-len, list-max-ziplist-entries, list-max-ziplist-value, hash-max-ziplist-entries, hash-max-ziplist-value, set -max-intset-entries, zset-max-ziplist-entries, zset-max-ziplist-value etc.</p>\r\n<p></p>"
   syntax:
     content: public Update withRedisConfiguration(Map<String, String> redisConfiguration)
     parameters:
@@ -517,10 +484,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithRedisConfiguration.withRedisConfiguration(String key, String value)
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithRedisConfiguration.withRedisConfiguration(String key, String value)
   type: Method
-  summary: >-
-    <p>Specifies Redis Setting. rdb-backup-enabled, rdb-storage-connection-string, rdb-backup-frequency, maxmemory-delta, maxmemory-policy, notify-keyspace-events, maxmemory-samples, slowlog-log-slower-than, slowlog-max-len, list-max-ziplist-entries, list-max-ziplist-value, hash-max-ziplist-entries, hash-max-ziplist-value, set -max-intset-entries, zset-max-ziplist-entries, zset-max-ziplist-value etc.</p>
-
-    <p></p>
+  summary: "<p>Specifies Redis Setting. rdb-backup-enabled, rdb-storage-connection-string, rdb-backup-frequency, maxmemory-delta, maxmemory-policy, notify-keyspace-events, maxmemory-samples, slowlog-log-slower-than, slowlog-max-len, list-max-ziplist-entries, list-max-ziplist-value, hash-max-ziplist-entries, hash-max-ziplist-value, set -max-intset-entries, zset-max-ziplist-entries, zset-max-ziplist-value etc.</p>\r\n<p></p>"
   syntax:
     content: public Update withRedisConfiguration(String key, String value)
     parameters:
@@ -540,10 +504,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithSku.withStandardSku()
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithSku.withStandardSku()
   type: Method
-  summary: >-
-    <p>Updates Redis Cache to Standard sku.</p>
-
-    <p></p>
+  summary: "<p>Updates Redis Cache to Standard sku.</p>\r\n<p></p>"
   syntax:
     content: public Update withStandardSku()
     return:
@@ -556,10 +517,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithSku.withStandardSku(int capacity)
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithSku.withStandardSku(int capacity)
   type: Method
-  summary: >-
-    <p>Updates Redis Cache to Standard sku with new capacity.</p>
-
-    <p></p>
+  summary: "<p>Updates Redis Cache to Standard sku with new capacity.</p>\r\n<p></p>"
   syntax:
     content: public Update withStandardSku(int capacity)
     parameters:
@@ -576,7 +534,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -596,7 +554,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -613,10 +571,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -630,10 +585,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -647,7 +599,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithSku
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithSku
   type: Interface
-  summary: <p>A Redis Cache update stage allowing to change the parameters. </p>
+  summary: "<p>A Redis Cache update stage allowing to change the parameters. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithNonSslPort
@@ -657,7 +609,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithNonSslPort
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithNonSslPort
   type: Interface
-  summary: <p>A Redis Cache update allowing non SSL port to be enabled or disabled. </p>
+  summary: "<p>A Redis Cache update allowing non SSL port to be enabled or disabled. </p>"
   syntax:
     content: public interface WithNonSslPort
 - uid: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithRedisConfiguration
@@ -667,7 +619,7 @@ references:
   nameWithType: RedisCache.UpdateStages.WithRedisConfiguration
   fullName: com.microsoft.azure.management.redis.RedisCache.UpdateStages.WithRedisConfiguration
   type: Interface
-  summary: <p>A Redis Cache update allowing Redis configuration to be modified. </p>
+  summary: "<p>A Redis Cache update allowing Redis configuration to be modified. </p>"
   syntax:
     content: public interface WithRedisConfiguration
 - uid: com.microsoft.azure.management.redis.RedisCache.Update
@@ -677,7 +629,7 @@ references:
   nameWithType: RedisCache.Update
   fullName: com.microsoft.azure.management.redis.RedisCache.Update
   type: Interface
-  summary: <p>The template for a Redis Cache update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a Redis Cache update operation, containing all the settings that can be modified. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId
   parent: com.microsoft.azure.management.resources.fluentcore.arm.models
@@ -686,7 +638,7 @@ references:
   nameWithType: HasId
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId
   type: Interface
-  summary: <p>An interface representing a model that has a resource group name. </p>
+  summary: "<p>An interface representing a model that has a resource group name. </p>"
   syntax:
     content: public interface HasId
 - uid: com.microsoft.azure.management.redis.DayOfWeek
@@ -696,7 +648,7 @@ references:
   nameWithType: DayOfWeek
   fullName: com.microsoft.azure.management.redis.DayOfWeek
   type: Enum
-  summary: <p>Defines values for DayOfWeek. </p>
+  summary: "<p>Defines values for DayOfWeek. </p>"
   syntax:
     content: public enum DayOfWeek
 - uid: com.microsoft.azure.management.redis.ScheduleEntry
@@ -706,6 +658,6 @@ references:
   nameWithType: ScheduleEntry
   fullName: com.microsoft.azure.management.redis.ScheduleEntry
   type: Class
-  summary: <p>Patch schedule entry for a Premium Redis Cache. </p>
+  summary: "<p>Patch schedule entry for a Premium Redis Cache. </p>"
   syntax:
     content: public class ScheduleEntry

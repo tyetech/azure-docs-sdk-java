@@ -44,7 +44,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -57,7 +57,7 @@ references:
   nameWithType: HasHostName.DefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   fullName: com.microsoft.azure.management.network.model.HasHostName.DefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   type: Method
-  summary: <p>Specifies the hostname to reference. </p>
+  summary: "<p>Specifies the hostname to reference. </p>"
   syntax:
     content: public ReturnT withHostName(String hostName)
     parameters:
@@ -74,7 +74,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>.withHttp()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>.withHttp()
   type: Method
-  summary: <p>Specifies that the listener is for the HTTP protocol. </p>
+  summary: "<p>Specifies that the listener is for the HTTP protocol. </p>"
   syntax:
     content: public WithAttach<ParentT> withHttp()
     return:
@@ -87,7 +87,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>.withHttps()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>.withHttps()
   type: Method
-  summary: <p>Specifies that the listener is for the HTTPS protocol. </p>
+  summary: "<p>Specifies that the listener is for the HTTPS protocol. </p>"
   syntax:
     content: public WithSslCertificate<ParentT> withHttps()
     return:
@@ -100,7 +100,7 @@ references:
   nameWithType: HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()
   type: Method
-  summary: <p>Ensures server name indication (SNI) is not required. </p>
+  summary: "<p>Ensures server name indication (SNI) is not required. </p>"
   syntax:
     content: public ReturnT withoutServerNameIndication()
     return:
@@ -113,7 +113,7 @@ references:
   nameWithType: HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withServerNameIndication()
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication.DefinitionStages.WithServerNameIndication<ReturnT>.withServerNameIndication()
   type: Method
-  summary: <p>Requires server name indication (SNI). </p>
+  summary: "<p>Requires server name indication (SNI). </p>"
   syntax:
     content: public ReturnT withServerNameIndication()
     return:
@@ -126,7 +126,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -140,7 +140,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the protocol. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the protocol. </p>"
   syntax:
     content: public interface WithProtocol<ParentT>
     typeParameters:
@@ -154,7 +154,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithHostName<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithHostName<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the hostname of the website for which the traffic is received. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the hostname of the website for which the traffic is received. </p>"
   syntax:
     content: public interface WithHostName<ParentT>
     typeParameters:
@@ -168,7 +168,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithServerNameIndication<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithServerNameIndication<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to require server name indication (SNI). </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to require server name indication (SNI). </p>"
   syntax:
     content: public interface WithServerNameIndication<ParentT>
     typeParameters:
@@ -182,7 +182,7 @@ references:
   nameWithType: ApplicationGatewayListener.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway HTTP listener definition. </p>
+  summary: "<p>The entirety of an application gateway HTTP listener definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayListener.DefinitionStages.Blank<ParentT>,ApplicationGatewayListener.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayListener.DefinitionStages.WithFrontend<ParentT>,ApplicationGatewayListener.DefinitionStages.WithFrontendPort<ParentT>,ApplicationGatewayListener.DefinitionStages.WithSslCertificate<ParentT>,ApplicationGatewayListener.DefinitionStages.WithSslPassword<ParentT>,ApplicationGatewayListener.DefinitionStages.WithHostName<ParentT>
     typeParameters:

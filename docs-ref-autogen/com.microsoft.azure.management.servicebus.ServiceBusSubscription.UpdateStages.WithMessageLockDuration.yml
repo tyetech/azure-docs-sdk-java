@@ -66,6 +66,6 @@ references:
   nameWithType: ServiceBusSubscription.Update
   fullName: com.microsoft.azure.management.servicebus.ServiceBusSubscription.Update
   type: Interface
-  summary: <p>The template for a subscription update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a subscription update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<ServiceBusSubscription>,ServiceBusSubscription.UpdateStages.WithDeleteOnIdle,ServiceBusSubscription.UpdateStages.WithMessageLockDuration,ServiceBusSubscription.UpdateStages.WithDefaultMessageTTL,ServiceBusSubscription.UpdateStages.WithSession,ServiceBusSubscription.UpdateStages.WithMessageBatching,ServiceBusSubscription.UpdateStages.WithExpiredMessageMovedToDeadLetterSubscription,ServiceBusSubscription.UpdateStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount,ServiceBusSubscription.UpdateStages.WithMessageMovedToDeadLetterSubscriptionOnFilterEvaluationException

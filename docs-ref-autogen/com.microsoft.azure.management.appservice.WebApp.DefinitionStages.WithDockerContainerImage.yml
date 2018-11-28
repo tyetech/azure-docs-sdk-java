@@ -165,7 +165,7 @@ references:
   nameWithType: WebApp.Definition
   fullName: com.microsoft.azure.management.appservice.WebApp.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends WebApp.DefinitionStages.Blank,WebApp.DefinitionStages.NewAppServicePlanWithGroup,WebApp.DefinitionStages.WithNewAppServicePlan,WebApp.DefinitionStages.WithDockerContainerImage,WebApp.DefinitionStages.WithCredentials,WebApp.DefinitionStages.WithStartUpCommand,WebApp.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCreate
@@ -175,7 +175,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<WebApp>,WebAppBase.DefinitionStages.WithCreate<WebApp>
 - uid: com.microsoft.azure.management.appservice.RuntimeStack
@@ -185,7 +185,7 @@ references:
   nameWithType: RuntimeStack
   fullName: com.microsoft.azure.management.appservice.RuntimeStack
   type: Class
-  summary: <p>Defines App service pricing tiers. </p>
+  summary: "<p>Defines App service pricing tiers. </p>"
   syntax:
     content: public class RuntimeStack
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithStartUpCommand
@@ -195,7 +195,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithStartUpCommand
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithStartUpCommand
   type: Interface
-  summary: <p>A web app definition allowing docker startup command to be specified. This will replace the "CMD" section in the Dockerfile. </p>
+  summary: "<p>A web app definition allowing docker startup command to be specified. This will replace the \"CMD\" section in the Dockerfile. </p>"
   syntax:
     content: public interface WithStartUpCommand
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCredentials
@@ -205,6 +205,6 @@ references:
   nameWithType: WebApp.DefinitionStages.WithCredentials
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCredentials
   type: Interface
-  summary: <p>A web app definition allowing docker registry credentials to be set. </p>
+  summary: "<p>A web app definition allowing docker registry credentials to be set. </p>"
   syntax:
     content: public interface WithCredentials

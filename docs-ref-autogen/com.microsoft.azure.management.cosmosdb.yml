@@ -56,7 +56,7 @@ references:
   nameWithType: ConsistencyPolicy
   fullName: com.microsoft.azure.management.cosmosdb.ConsistencyPolicy
   type: Class
-  summary: <p>The consistency policy for the DocumentDB database account. </p>
+  summary: "<p>The consistency policy for the DocumentDB database account. </p>"
   syntax:
     content: public class ConsistencyPolicy
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount
@@ -66,7 +66,7 @@ references:
   nameWithType: CosmosDBAccount
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Cosmos DB. </p>
+  summary: "<p>An immutable client-side representation of an Azure Cosmos DB. </p>"
   syntax:
     content: public interface CosmosDBAccount extends GroupableResource<CosmosDBManager, DatabaseAccountInner>,Refreshable<CosmosDBAccount>,Updatable<CosmosDBAccount.Update>
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccounts
@@ -76,7 +76,7 @@ references:
   nameWithType: CosmosDBAccounts
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccounts
   type: Interface
-  summary: <p>Entry point to Cosmos DB management API. </p>
+  summary: "<p>Entry point to Cosmos DB management API. </p>"
   syntax:
     content: public interface CosmosDBAccounts extends SupportsCreating<CosmosDBAccount.DefinitionStages.Blank>,HasManager<CosmosDBManager>,HasInner<DatabaseAccountsInner>,SupportsBatchCreation<CosmosDBAccount>,SupportsGettingById<CosmosDBAccount>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListing<CosmosDBAccount>,SupportsListingByResourceGroup<CosmosDBAccount>,SupportsGettingByResourceGroup<CosmosDBAccount>
 - uid: com.microsoft.azure.management.cosmosdb.DatabaseAccountConnectionString
@@ -86,7 +86,7 @@ references:
   nameWithType: DatabaseAccountConnectionString
   fullName: com.microsoft.azure.management.cosmosdb.DatabaseAccountConnectionString
   type: Class
-  summary: <p>Connection string for the DocumentDB account. </p>
+  summary: "<p>Connection string for the DocumentDB account. </p>"
   syntax:
     content: public class DatabaseAccountConnectionString
 - uid: com.microsoft.azure.management.cosmosdb.DatabaseAccountKind
@@ -96,7 +96,7 @@ references:
   nameWithType: DatabaseAccountKind
   fullName: com.microsoft.azure.management.cosmosdb.DatabaseAccountKind
   type: Class
-  summary: <p>Defines values for DatabaseAccountKind. </p>
+  summary: "<p>Defines values for DatabaseAccountKind. </p>"
   syntax:
     content: public class DatabaseAccountKind
 - uid: com.microsoft.azure.management.cosmosdb.DatabaseAccountOfferType
@@ -106,7 +106,7 @@ references:
   nameWithType: DatabaseAccountOfferType
   fullName: com.microsoft.azure.management.cosmosdb.DatabaseAccountOfferType
   type: Enum
-  summary: <p>Defines values for DatabaseAccountOfferType. </p>
+  summary: "<p>Defines values for DatabaseAccountOfferType. </p>"
   syntax:
     content: public enum DatabaseAccountOfferType
 - uid: com.microsoft.azure.management.cosmosdb.DatabaseAccountPatchParameters
@@ -116,7 +116,7 @@ references:
   nameWithType: DatabaseAccountPatchParameters
   fullName: com.microsoft.azure.management.cosmosdb.DatabaseAccountPatchParameters
   type: Class
-  summary: <p>Parameters for patching Azure DocumentDB database account properties. </p>
+  summary: "<p>Parameters for patching Azure DocumentDB database account properties. </p>"
   syntax:
     content: public class DatabaseAccountPatchParameters
 - uid: com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters
@@ -126,7 +126,7 @@ references:
   nameWithType: DatabaseAccountRegenerateKeyParameters
   fullName: com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters
   type: Class
-  summary: <p>Parameters to regenerate the keys within the database account. </p>
+  summary: "<p>Parameters to regenerate the keys within the database account. </p>"
   syntax:
     content: public class DatabaseAccountRegenerateKeyParameters
 - uid: com.microsoft.azure.management.cosmosdb.DefaultConsistencyLevel
@@ -136,7 +136,7 @@ references:
   nameWithType: DefaultConsistencyLevel
   fullName: com.microsoft.azure.management.cosmosdb.DefaultConsistencyLevel
   type: Enum
-  summary: <p>Defines values for DefaultConsistencyLevel. </p>
+  summary: "<p>Defines values for DefaultConsistencyLevel. </p>"
   syntax:
     content: public enum DefaultConsistencyLevel
 - uid: com.microsoft.azure.management.cosmosdb.FailoverPolicies
@@ -146,7 +146,7 @@ references:
   nameWithType: FailoverPolicies
   fullName: com.microsoft.azure.management.cosmosdb.FailoverPolicies
   type: Class
-  summary: <p>The list of new failover policies for the failover priority change. </p>
+  summary: "<p>The list of new failover policies for the failover priority change. </p>"
   syntax:
     content: public class FailoverPolicies
 - uid: com.microsoft.azure.management.cosmosdb.KeyKind
@@ -156,7 +156,7 @@ references:
   nameWithType: KeyKind
   fullName: com.microsoft.azure.management.cosmosdb.KeyKind
   type: Class
-  summary: <p>Defines values for KeyKind. </p>
+  summary: "<p>Defines values for KeyKind. </p>"
   syntax:
     content: public class KeyKind
 - uid: com.microsoft.azure.management.cosmosdb.Location
@@ -166,7 +166,7 @@ references:
   nameWithType: Location
   fullName: com.microsoft.azure.management.cosmosdb.Location
   type: Class
-  summary: <p>A region in which the Azure DocumentDB database account is deployed. </p>
+  summary: "<p>A region in which the Azure DocumentDB database account is deployed. </p>"
   syntax:
     content: public class Location
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.Blank
@@ -176,7 +176,7 @@ references:
   nameWithType: CosmosDBAccount.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a cosmos db definition. </p>
+  summary: "<p>The first stage of a cosmos db definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.Definition
@@ -186,7 +186,7 @@ references:
   nameWithType: CosmosDBAccount.Definition
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.Definition
   type: Interface
-  summary: <p>Grouping of cosmos db definition stages. </p>
+  summary: "<p>Grouping of cosmos db definition stages. </p>"
   syntax:
     content: public interface Definition extends CosmosDBAccount.DefinitionStages.Blank,CosmosDBAccount.DefinitionStages.WithGroup,CosmosDBAccount.DefinitionStages.WithKind,CosmosDBAccount.DefinitionStages.WithWriteReplication,CosmosDBAccount.DefinitionStages.WithReadReplication,CosmosDBAccount.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages
@@ -196,7 +196,7 @@ references:
   nameWithType: CosmosDBAccount.DefinitionStages
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages
   type: Interface
-  summary: <p>Grouping of cosmos db definition stages. </p>
+  summary: "<p>Grouping of cosmos db definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.Update
@@ -206,7 +206,7 @@ references:
   nameWithType: CosmosDBAccount.Update
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.Update
   type: Interface
-  summary: <p>Grouping of cosmos db update stages. </p>
+  summary: "<p>Grouping of cosmos db update stages. </p>"
   syntax:
     content: public interface Update extends CosmosDBAccount.UpdateStages.WithReadLocations,CosmosDBAccount.UpdateStages.WithOptionals
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages
@@ -216,19 +216,9 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages
   type: Interface
-  summary: <p>Grouping of cosmos db update stages. </p>
+  summary: "<p>Grouping of cosmos db update stages. </p>"
   syntax:
     content: public interface UpdateStages
-- uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
-  parent: com.microsoft.azure.management.cosmosdb
-  href: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithConsistencyPolicy.yml
-  name: CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
-  nameWithType: CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
-  fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
-  type: Interface
-  summary: <p>The stage of the cosmos db definition allowing to set the consistency policy. </p>
-  syntax:
-    content: public interface WithConsistencyPolicy
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithConsistencyPolicy
   parent: com.microsoft.azure.management.cosmosdb
   href: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithConsistencyPolicy.yml
@@ -236,7 +226,17 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithConsistencyPolicy
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithConsistencyPolicy
   type: Interface
-  summary: <p>The stage of the cosmos db update allowing to set the consistency policy. </p>
+  summary: "<p>The stage of the cosmos db update allowing to set the consistency policy. </p>"
+  syntax:
+    content: public interface WithConsistencyPolicy
+- uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
+  parent: com.microsoft.azure.management.cosmosdb
+  href: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithConsistencyPolicy.yml
+  name: CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
+  nameWithType: CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
+  fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithConsistencyPolicy
+  type: Interface
+  summary: "<p>The stage of the cosmos db definition allowing to set the consistency policy. </p>"
   syntax:
     content: public interface WithConsistencyPolicy
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithCreate
@@ -246,7 +246,7 @@ references:
   nameWithType: CosmosDBAccount.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<CosmosDBAccount>,CosmosDBAccount.DefinitionStages.WithConsistencyPolicy,CosmosDBAccount.DefinitionStages.WithReadReplication,CosmosDBAccount.DefinitionStages.WithIpRangeFilter
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithGroup
@@ -256,19 +256,9 @@ references:
   nameWithType: CosmosDBAccount.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the cosmos db definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the cosmos db definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithKind>
-- uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithIpRangeFilter
-  parent: com.microsoft.azure.management.cosmosdb
-  href: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithIpRangeFilter.yml
-  name: CosmosDBAccount.DefinitionStages.WithIpRangeFilter
-  nameWithType: CosmosDBAccount.DefinitionStages.WithIpRangeFilter
-  fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithIpRangeFilter
-  type: Interface
-  summary: <p>The stage of the cosmos db definition allowing to set the IP range filter. </p>
-  syntax:
-    content: public interface WithIpRangeFilter
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithIpRangeFilter
   parent: com.microsoft.azure.management.cosmosdb
   href: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithIpRangeFilter.yml
@@ -276,7 +266,17 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithIpRangeFilter
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithIpRangeFilter
   type: Interface
-  summary: <p>The stage of the cosmos db definition allowing to set the IP range filter. </p>
+  summary: "<p>The stage of the cosmos db definition allowing to set the IP range filter. </p>"
+  syntax:
+    content: public interface WithIpRangeFilter
+- uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithIpRangeFilter
+  parent: com.microsoft.azure.management.cosmosdb
+  href: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithIpRangeFilter.yml
+  name: CosmosDBAccount.DefinitionStages.WithIpRangeFilter
+  nameWithType: CosmosDBAccount.DefinitionStages.WithIpRangeFilter
+  fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithIpRangeFilter
+  type: Interface
+  summary: "<p>The stage of the cosmos db definition allowing to set the IP range filter. </p>"
   syntax:
     content: public interface WithIpRangeFilter
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithKind
@@ -286,7 +286,7 @@ references:
   nameWithType: CosmosDBAccount.DefinitionStages.WithKind
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithKind
   type: Interface
-  summary: <p>The stage of the cosmos db definition allowing to set the database account kind. </p>
+  summary: "<p>The stage of the cosmos db definition allowing to set the database account kind. </p>"
   syntax:
     content: public interface WithKind
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithOptionals
@@ -296,7 +296,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithOptionals
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithOptionals
   type: Interface
-  summary: <p>Grouping of cosmos db update stages. </p>
+  summary: "<p>Grouping of cosmos db update stages. </p>"
   syntax:
     content: public interface WithOptionals extends Resource.UpdateWithTags<WithOptionals>,Appliable<CosmosDBAccount>,CosmosDBAccount.UpdateStages.WithConsistencyPolicy,CosmosDBAccount.UpdateStages.WithIpRangeFilter
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithReadLocations
@@ -306,7 +306,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithReadLocations
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithReadLocations
   type: Interface
-  summary: <p>The stage of the cosmos db definition allowing the definition of a write location. </p>
+  summary: "<p>The stage of the cosmos db definition allowing the definition of a write location. </p>"
   syntax:
     content: public interface WithReadLocations extends Appliable<CosmosDBAccount>
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithReadReplication
@@ -316,7 +316,7 @@ references:
   nameWithType: CosmosDBAccount.DefinitionStages.WithReadReplication
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithReadReplication
   type: Interface
-  summary: <p>The stage of the cosmos db definition allowing the definition of a write location. </p>
+  summary: "<p>The stage of the cosmos db definition allowing the definition of a write location. </p>"
   syntax:
     content: public interface WithReadReplication
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithWriteReplication
@@ -326,6 +326,6 @@ references:
   nameWithType: CosmosDBAccount.DefinitionStages.WithWriteReplication
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.DefinitionStages.WithWriteReplication
   type: Interface
-  summary: <p>The stage of the cosmos db definition allowing the definition of a read location. </p>
+  summary: "<p>The stage of the cosmos db definition allowing the definition of a read location. </p>"
   syntax:
     content: public interface WithWriteReplication

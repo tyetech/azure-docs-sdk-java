@@ -1048,10 +1048,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1064,10 +1061,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1140,12 +1134,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1158,7 +1147,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -1175,10 +1164,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -1192,10 +1178,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -1209,7 +1192,7 @@ references:
   nameWithType: IdentityType
   fullName: com.microsoft.azure.management.sql.IdentityType
   type: Class
-  summary: <p>Defines values for IdentityType. </p>
+  summary: "<p>Defines values for IdentityType. </p>"
   syntax:
     content: public class IdentityType
 - uid: com.microsoft.azure.management.sql.ServerMetric
@@ -1219,7 +1202,7 @@ references:
   nameWithType: ServerMetric
   fullName: com.microsoft.azure.management.sql.ServerMetric
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ServerMetric. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ServerMetric. </p>"
   syntax:
     content: public interface ServerMetric extends HasInner<ServerMetricInner>,HasInner<ServerUsageInner>
 - uid: com.microsoft.azure.management.sql.ServiceObjective
@@ -1229,7 +1212,7 @@ references:
   nameWithType: ServiceObjective
   fullName: com.microsoft.azure.management.sql.ServiceObjective
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Service Objective. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Service Objective. </p>"
   syntax:
     content: public interface ServiceObjective extends HasInner<ServiceObjectiveInner>,Refreshable<ServiceObjective>,HasResourceGroup,HasName,HasId,HasInner<ServiceObjectiveInner>,Refreshable<ServiceObjective>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.RecommendedElasticPool
@@ -1239,7 +1222,7 @@ references:
   nameWithType: RecommendedElasticPool
   fullName: com.microsoft.azure.management.sql.RecommendedElasticPool
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>"
   syntax:
     content: public interface RecommendedElasticPool extends Refreshable<RecommendedElasticPool>,HasInner<RecommendedElasticPoolInner>,HasResourceGroup,HasName,HasId,HasManager<SqlServerManager>,Refreshable<RecommendedElasticPool>,HasInner<RecommendedElasticPoolInner>,HasResourceGroup,HasName,HasId,HasManager<SqlServerManager>
 - uid: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
@@ -1249,7 +1232,7 @@ references:
   nameWithType: SqlRestorableDroppedDatabase
   fullName: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
   type: Interface
-  summary: <p>Response containing Azure SQL restorable dropped database. </p>
+  summary: "<p>Response containing Azure SQL restorable dropped database. </p>"
   syntax:
     content: public interface SqlRestorableDroppedDatabase extends Refreshable<SqlRestorableDroppedDatabase>,HasInner<RestorableDroppedDatabaseInner>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.SqlFirewallRule
@@ -1259,10 +1242,7 @@ references:
   nameWithType: SqlFirewallRule
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>\r\n<p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>"
   syntax:
     content: public interface SqlFirewallRule extends IndependentChild<SqlServerManager>,Refreshable<SqlFirewallRule>,Updatable<SqlFirewallRule.Update>,HasInner<ServerFirewallRuleInner>,ExternalChildResource<SqlFirewallRule, SqlServer>,HasInner<FirewallRuleInner>,HasResourceGroup,Refreshable<SqlFirewallRule>,Updatable<SqlFirewallRule.Update>
 - uid: com.microsoft.azure.management.sql.SqlActiveDirectoryAdministrator
@@ -1272,7 +1252,7 @@ references:
   nameWithType: SqlActiveDirectoryAdministrator
   fullName: com.microsoft.azure.management.sql.SqlActiveDirectoryAdministrator
   type: Interface
-  summary: <p>Response containing the Azure SQL Active Directory administrator. </p>
+  summary: "<p>Response containing the Azure SQL Active Directory administrator. </p>"
   syntax:
     content: public interface SqlActiveDirectoryAdministrator
 - uid: com.microsoft.azure.management.sql.SqlServerAutomaticTuning
@@ -1282,7 +1262,7 @@ references:
   nameWithType: SqlServerAutomaticTuning
   fullName: com.microsoft.azure.management.sql.SqlServerAutomaticTuning
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server automatic tuning object. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server automatic tuning object. </p>"
   syntax:
     content: public interface SqlServerAutomaticTuning
 - uid: com.microsoft.azure.management.sql.ServerVersion
@@ -1292,7 +1272,7 @@ references:
   nameWithType: ServerVersion
   fullName: com.microsoft.azure.management.sql.ServerVersion
   type: Class
-  summary: <p>Defines values for ServerVersion. </p>
+  summary: "<p>Defines values for ServerVersion. </p>"
   syntax:
     content: public class ServerVersion
 - uid: com.microsoft.azure.management.sql.SqlServer.FirewallRules
@@ -1302,7 +1282,7 @@ references:
   nameWithType: SqlServer.FirewallRules
   fullName: com.microsoft.azure.management.sql.SqlServer.FirewallRules
   type: Interface
-  summary: <p>Entry point to firewall rules from the SQL Server. </p>
+  summary: "<p>Entry point to firewall rules from the SQL Server. </p>"
   syntax:
     content: public interface FirewallRules
 - uid: com.microsoft.azure.management.sql.SqlServer.ElasticPools
@@ -1312,7 +1292,7 @@ references:
   nameWithType: SqlServer.ElasticPools
   fullName: com.microsoft.azure.management.sql.SqlServer.ElasticPools
   type: Interface
-  summary: <p>Entry point to elastic pools from the SQL Server. </p>
+  summary: "<p>Entry point to elastic pools from the SQL Server. </p>"
   syntax:
     content: public interface ElasticPools
 - uid: com.microsoft.azure.management.sql.SqlServer.Databases
@@ -1322,6 +1302,6 @@ references:
   nameWithType: SqlServer.Databases
   fullName: com.microsoft.azure.management.sql.SqlServer.Databases
   type: Interface
-  summary: <p>Entry point to databases from the SQL Server. </p>
+  summary: "<p>Entry point to databases from the SQL Server. </p>"
   syntax:
     content: public interface Databases

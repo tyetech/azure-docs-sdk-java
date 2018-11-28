@@ -76,7 +76,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<Registry>,Registry.DefinitionStages.WithAdminUserEnabled,Registry.DefinitionStages.WithWebhook,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.defineWebhook(String)
@@ -86,7 +86,7 @@ references:
   nameWithType: RegistryImpl.defineWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.defineWebhook(String name)
   type: Method
-  summary: <p>Begins the definition of a new webhook to be added to this container registry. </p>
+  summary: "<p>Begins the definition of a new webhook to be added to this container registry. </p>"
   syntax:
     content: public WebhookImpl defineWebhook(String name)
     parameters:

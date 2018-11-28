@@ -60,7 +60,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -73,10 +73,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Specifies an existing public IP address to receive network traffic from. </p>
-
-    <p>If this load balancer already has a frontend referencing this public IP address, that is the frontend that will be used. Else, an automatically named new public frontend will be created implicitly on the load balancer. </p>
+  summary: "<p>Specifies an existing public IP address to receive network traffic from. </p>\r\n<p>If this load balancer already has a frontend referencing this public IP address, that is the frontend that will be used. Else, an automatically named new public frontend will be created implicitly on the load balancer. </p>"
   syntax:
     content: public ReturnT fromExistingPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -93,10 +90,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingPublicIPAddress(String resourceId)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingPublicIPAddress(String resourceId)
   type: Method
-  summary: >-
-    <p>Specifies an existing public IP address to receive network traffic from. </p>
-
-    <p>If this load balancer already has a frontend referencing this public IP address, that is the frontend that will be used. Else, an automatically named new public frontend will be created implicitly on the load balancer. </p>
+  summary: "<p>Specifies an existing public IP address to receive network traffic from. </p>\r\n<p>If this load balancer already has a frontend referencing this public IP address, that is the frontend that will be used. Else, an automatically named new public frontend will be created implicitly on the load balancer. </p>"
   syntax:
     content: public ReturnT fromExistingPublicIPAddress(String resourceId)
     parameters:
@@ -113,10 +107,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies an existing private subnet to receive network traffic from. </p>
-
-    <p>If this load balancer already has a frontend referencing this subnet, that is the frontend that will be used. Else, an automatically named new private frontend will be created implicitly on the load balancer. </p>
+  summary: "<p>Specifies an existing private subnet to receive network traffic from. </p>\r\n<p>If this load balancer already has a frontend referencing this subnet, that is the frontend that will be used. Else, an automatically named new private frontend will be created implicitly on the load balancer. </p>"
   syntax:
     content: public ReturnT fromExistingSubnet(Network network, String subnetName)
     parameters:
@@ -136,10 +127,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingSubnet(String networkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingSubnet(String networkResourceId, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies an existing private subnet to receive network traffic from. </p>
-
-    <p>If this load balancer already has a frontend referencing this subnet, that is the frontend that will be used. Else, an automatically named new private frontend will be created implicitly on the load balancer. </p>
+  summary: "<p>Specifies an existing private subnet to receive network traffic from. </p>\r\n<p>If this load balancer already has a frontend referencing this subnet, that is the frontend that will be used. Else, an automatically named new private frontend will be created implicitly on the load balancer. </p>"
   syntax:
     content: public ReturnT fromExistingSubnet(String networkResourceId, String subnetName)
     parameters:
@@ -159,10 +147,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingSubnet(Subnet subnet)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromExistingSubnet(Subnet subnet)
   type: Method
-  summary: >-
-    <p>Specifies an existing private subnet to receive network traffic from. </p>
-
-    <p>If this load balancer already has a frontend referencing this subnet, that is the frontend that will be used. Else, an automatically named new private frontend will be created implicitly on the load balancer. </p>
+  summary: "<p>Specifies an existing private subnet to receive network traffic from. </p>\r\n<p>If this load balancer already has a frontend referencing this subnet, that is the frontend that will be used. Else, an automatically named new private frontend will be created implicitly on the load balancer. </p>"
   syntax:
     content: public ReturnT fromExistingSubnet(Subnet subnet)
     parameters:
@@ -179,7 +164,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   type: Method
-  summary: <p>Specifies the frontend to receive network traffic from. </p>
+  summary: "<p>Specifies the frontend to receive network traffic from. </p>"
   syntax:
     content: public ReturnT fromFrontend(String frontendName)
     parameters:
@@ -196,7 +181,7 @@ references:
   nameWithType: HasFrontendPort.DefinitionStages.WithFrontendPort<ReturnT>.fromFrontendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasFrontendPort.DefinitionStages.WithFrontendPort<ReturnT>.fromFrontendPort(int port)
   type: Method
-  summary: <p>Specifies the frontend port to receive network traffic on. </p>
+  summary: "<p>Specifies the frontend port to receive network traffic on. </p>"
   syntax:
     content: public ReturnT fromFrontendPort(int port)
     parameters:
@@ -213,10 +198,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromNewPublicIPAddress(String leafDnsLabel)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromNewPublicIPAddress(String leafDnsLabel)
   type: Method
-  summary: >-
-    <p>Specifies that network traffic should be received on a new public IP address that is to be created along with the load balancer in the same region and resource group but under the provided leaf DNS label, assuming it is available. </p>
-
-    <p>A new automatically-named public frontend will be implicitly created on this load balancer for each such new public IP address, so make sure to use a unique DNS label. </p>
+  summary: "<p>Specifies that network traffic should be received on a new public IP address that is to be created along with the load balancer in the same region and resource group but under the provided leaf DNS label, assuming it is available. </p>\r\n<p>A new automatically-named public frontend will be implicitly created on this load balancer for each such new public IP address, so make sure to use a unique DNS label. </p>"
   syntax:
     content: public ReturnT fromNewPublicIPAddress(String leafDnsLabel)
     parameters:
@@ -233,10 +215,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromNewPublicIPAddress(Creatable<PublicIPAddress> pipDefinition)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromNewPublicIPAddress(Creatable<PublicIPAddress> pipDefinition)
   type: Method
-  summary: >-
-    <p>Specifies that network traffic should be received on a new public IP address that is to be created along with the load balancer based on the provided definition. </p>
-
-    <p>A new automatically-named public frontend will be implicitly created on this load balancer for each such new public IP address. </p>
+  summary: "<p>Specifies that network traffic should be received on a new public IP address that is to be created along with the load balancer based on the provided definition. </p>\r\n<p>A new automatically-named public frontend will be implicitly created on this load balancer for each such new public IP address. </p>"
   syntax:
     content: public ReturnT fromNewPublicIPAddress(Creatable<PublicIPAddress> pipDefinition)
     parameters:
@@ -253,10 +232,7 @@ references:
   nameWithType: HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromNewPublicIPAddress()
   fullName: com.microsoft.azure.management.network.model.HasFrontend.DefinitionStages.WithFrontend<ReturnT>.fromNewPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Specifies that network traffic should be received on a new public IP address that is to be automatically created woth default settings along with the load balancer. </p>
-
-    <p>A new automatically-named public frontend will be implicitly created on this load balancer for each such new public IP address. </p>
+  summary: "<p>Specifies that network traffic should be received on a new public IP address that is to be automatically created woth default settings along with the load balancer. </p>\r\n<p>A new automatically-named public frontend will be implicitly created on this load balancer for each such new public IP address. </p>"
   syntax:
     content: public ReturnT fromNewPublicIPAddress()
     return:
@@ -269,10 +245,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithBackend<ReturnT>.toBackend(String backendName)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithBackend<ReturnT>.toBackend(String backendName)
   type: Method
-  summary: >-
-    <p>Specifies a backend on this load balancer to send network traffic to. </p>
-
-    <p>If a backend with the specified name does not yet exist on this load balancer, it will be created automatically. </p>
+  summary: "<p>Specifies a backend on this load balancer to send network traffic to. </p>\r\n<p>If a backend with the specified name does not yet exist on this load balancer, it will be created automatically. </p>"
   syntax:
     content: public WithBackendPort<ReturnT> toBackend(String backendName)
     parameters:
@@ -289,10 +262,7 @@ references:
   nameWithType: HasBackendPort.DefinitionStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasBackendPort.DefinitionStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   type: Method
-  summary: >-
-    <p>Specifies a backend port to send network traffic to. </p>
-
-    <p>If not specified, the same backend port number is assumed as that used by the frontend. </p>
+  summary: "<p>Specifies a backend port to send network traffic to. </p>\r\n<p>If not specified, the same backend port number is assumed as that used by the frontend. </p>"
   syntax:
     content: public ReturnT toBackendPort(int port)
     parameters:
@@ -309,14 +279,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(HasNetworkInterfaces...vms)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(HasNetworkInterfaces...vms)
   type: Method
-  summary: >-
-    <p>Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule. </p>
-
-    <p>This will add references to the primary IP configurations of the primary network interfaces of the provided set of virtual machines. </p>
-
-    <p>If the virtual machines are not in the same availability set, they will not be associated with the backend. </p>
-
-    <p>Only those virtual machines will be associated with the load balancer that already have an existing network interface. Virtual machines without a network interface will be skipped. </p>
+  summary: "<p>Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule. </p>\r\n<p>This will add references to the primary IP configurations of the primary network interfaces of the provided set of virtual machines. </p>\r\n<p>If the virtual machines are not in the same availability set, they will not be associated with the backend. </p>\r\n<p>Only those virtual machines will be associated with the load balancer that already have an existing network interface. Virtual machines without a network interface will be skipped. </p>"
   syntax:
     content: public WithBackendPort<ReturnT> toExistingVirtualMachines(HasNetworkInterfaces...vms)
     parameters:
@@ -333,14 +296,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithVirtualMachine<ReturnT>.toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)
   type: Method
-  summary: >-
-    <p>Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule. </p>
-
-    <p>This will add references to the primary IP configurations of the primary network interfaces of the provided set of virtual machines. </p>
-
-    <p>If the virtual machines are not in the same availability set, they will not be associated with the backend. </p>
-
-    <p>Only those virtual machines will be associated with the load balancer that already have an existing network interface. Virtual machines without a network interface will be skipped. </p>
+  summary: "<p>Adds the specified set of virtual machines, assuming they are from the same availability set, to a new back end address pool to be associated with this load balancing rule. </p>\r\n<p>This will add references to the primary IP configurations of the primary network interfaces of the provided set of virtual machines. </p>\r\n<p>If the virtual machines are not in the same availability set, they will not be associated with the backend. </p>\r\n<p>Only those virtual machines will be associated with the load balancer that already have an existing network interface. Virtual machines without a network interface will be skipped. </p>"
   syntax:
     content: public WithBackendPort<ReturnT> toExistingVirtualMachines(Collection<HasNetworkInterfaces> vms)
     parameters:
@@ -357,7 +313,7 @@ references:
   nameWithType: HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   type: Method
-  summary: <p>Sets the floating IP enablement. </p>
+  summary: "<p>Sets the floating IP enablement. </p>"
   syntax:
     content: public ReturnT withFloatingIP(boolean enabled)
     parameters:
@@ -374,7 +330,7 @@ references:
   nameWithType: HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   type: Method
-  summary: <p>Disables floating IP support. </p>
+  summary: "<p>Disables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPDisabled()
     return:
@@ -387,7 +343,7 @@ references:
   nameWithType: HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   type: Method
-  summary: <p>Enables floating IP support. </p>
+  summary: "<p>Enables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPEnabled()
     return:
@@ -400,7 +356,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithIdleTimeoutInMinutes<ReturnT>.withIdleTimeoutInMinutes(int minutes)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithIdleTimeoutInMinutes<ReturnT>.withIdleTimeoutInMinutes(int minutes)
   type: Method
-  summary: <p>Specifies the number of minutes before an idle connection is closed. </p>
+  summary: "<p>Specifies the number of minutes before an idle connection is closed. </p>"
   syntax:
     content: public WithAttach<ReturnT> withIdleTimeoutInMinutes(int minutes)
     parameters:
@@ -417,7 +373,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithLoadDistribution<ReturnT>.withLoadDistribution(LoadDistribution loadDistribution)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithLoadDistribution<ReturnT>.withLoadDistribution(LoadDistribution loadDistribution)
   type: Method
-  summary: <p>Specifies the load distribution mode. </p>
+  summary: "<p>Specifies the load distribution mode. </p>"
   syntax:
     content: public WithAttach<ReturnT> withLoadDistribution(LoadDistribution loadDistribution)
     parameters:
@@ -434,7 +390,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithProbe<ReturnT>.withProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithProbe<ReturnT>.withProbe(String name)
   type: Method
-  summary: <p>Associates the specified existing HTTP or TCP probe of this load balancer with the load balancing rule. </p>
+  summary: "<p>Associates the specified existing HTTP or TCP probe of this load balancer with the load balancing rule. </p>"
   syntax:
     content: public WithAttach<ReturnT> withProbe(String name)
     parameters:
@@ -451,7 +407,7 @@ references:
   nameWithType: HasProtocol.DefinitionStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.DefinitionStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -468,7 +424,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.Blank<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.Blank<ReturnT>
   type: Interface
-  summary: <p>The first stage of the load balancing rule definition. </p>
+  summary: "<p>The first stage of the load balancing rule definition. </p>"
   syntax:
     content: public interface Blank<ReturnT> extends LoadBalancingRule.DefinitionStages.WithProtocol<ReturnT>
     typeParameters:
@@ -482,10 +438,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithAttach<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithAttach<ReturnT>
   type: Interface
-  summary: >-
-    <p>The final stage of the load balancing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the load balancing rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ReturnT>
     typeParameters:
@@ -499,7 +452,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithProtocol<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithProtocol<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the transport protocol to apply the rule to. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the transport protocol to apply the rule to. </p>"
   syntax:
     content: public interface WithProtocol<ReturnT>
     typeParameters:
@@ -513,7 +466,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithFrontendPort<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithFrontendPort<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the frontend port to load balance. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the frontend port to load balance. </p>"
   syntax:
     content: public interface WithFrontendPort<ReturnT>
     typeParameters:
@@ -527,7 +480,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithFrontend<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithFrontend<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the frontend to associate with the rule. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the frontend to associate with the rule. </p>"
   syntax:
     content: public interface WithFrontend<ReturnT>
     typeParameters:
@@ -541,7 +494,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithBackend<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithBackend<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the backend to associate the rule with. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the backend to associate the rule with. </p>"
   syntax:
     content: public interface WithBackend<ReturnT>
     typeParameters:
@@ -555,7 +508,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithBackendPort<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithBackendPort<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the backend port to send the load-balanced traffic to. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the backend port to send the load-balanced traffic to. </p>"
   syntax:
     content: public interface WithBackendPort<ReturnT>
     typeParameters:

@@ -89,7 +89,7 @@ references:
   nameWithType: com.microsoft.azure.cosmosdb.rx
   fullName: com.microsoft.azure.cosmosdb.rx
   type: Namespace
-  summary: <p>This package provides Rx interfaces for interacting with Azure Cosmos DB. </p>
+  summary: "<p>This package provides Rx interfaces for interacting with Azure Cosmos DB. </p>"
   syntax:
     content: package com.microsoft.azure.cosmosdb.rx
 - uid: com.microsoft.azure.cosmosdb.AccessCondition
@@ -99,7 +99,7 @@ references:
   nameWithType: AccessCondition
   fullName: com.microsoft.azure.cosmosdb.AccessCondition
   type: Class
-  summary: <p>Represents a set of access conditions to be used for operations against the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a set of access conditions to be used for operations against the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class AccessCondition
 - uid: com.microsoft.azure.cosmosdb.AccessConditionType
@@ -109,7 +109,7 @@ references:
   nameWithType: AccessConditionType
   fullName: com.microsoft.azure.cosmosdb.AccessConditionType
   type: Enum
-  summary: <p>Specifies the set of access condition types that can be used for operations in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the set of access condition types that can be used for operations in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum AccessConditionType
 - uid: com.microsoft.azure.cosmosdb.Attachment
@@ -119,10 +119,7 @@ references:
   nameWithType: Attachment
   fullName: com.microsoft.azure.cosmosdb.Attachment
   type: Class
-  summary: >-
-    <p>Represents a document attachment in the Azure Cosmos DB database service. </p>
-
-    <p>Each document may contain zero or more attachments. Attachments can be of any MIME type - text, image, binary data. These are stored externally in Azure Blob storage. Attachments are automatically deleted when the parent document is deleted. </p>
+  summary: "<p>Represents a document attachment in the Azure Cosmos DB database service. </p>\r\n<p>Each document may contain zero or more attachments. Attachments can be of any MIME type - text, image, binary data. These are stored externally in Azure Blob storage. Attachments are automatically deleted when the parent document is deleted. </p>"
   syntax:
     content: public class Attachment extends Resource
 - uid: com.microsoft.azure.cosmosdb.BridgeInternal
@@ -132,7 +129,7 @@ references:
   nameWithType: BridgeInternal
   fullName: com.microsoft.azure.cosmosdb.BridgeInternal
   type: Class
-  summary: <p>This is meant to be used only internally as a bridge access to classes in com.microsoft.azure.cosmosdb </p>
+  summary: "<p>This is meant to be used only internally as a bridge access to classes in com.microsoft.azure.cosmosdb </p>"
   syntax:
     content: public class BridgeInternal
 - uid: com.microsoft.azure.cosmosdb.ChangeFeedOptions
@@ -142,7 +139,7 @@ references:
   nameWithType: ChangeFeedOptions
   fullName: com.microsoft.azure.cosmosdb.ChangeFeedOptions
   type: Class
-  summary: <p>Specifies the options associated with change feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the options associated with change feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ChangeFeedOptions extends FeedOptionsBase
 - uid: com.microsoft.azure.cosmosdb.CommonsBridgeInternal
@@ -161,10 +158,7 @@ references:
   nameWithType: Conflict
   fullName: com.microsoft.azure.cosmosdb.Conflict
   type: Class
-  summary: >-
-    <p>Represents a conflict in the version of a particular resource in the Azure Cosmos DB database service. </p>
-
-    <p>During rare failure scenarios, conflicts are generated for the documents in transit. Clients can inspect the respective conflict instances for resources and operations in conflict. </p>
+  summary: "<p>Represents a conflict in the version of a particular resource in the Azure Cosmos DB database service. </p>\r\n<p>During rare failure scenarios, conflicts are generated for the documents in transit. Clients can inspect the respective conflict instances for resources and operations in conflict. </p>"
   syntax:
     content: public class Conflict extends Resource
 - uid: com.microsoft.azure.cosmosdb.ConflictResolutionMode
@@ -193,10 +187,7 @@ references:
   nameWithType: ConnectionMode
   fullName: com.microsoft.azure.cosmosdb.ConnectionMode
   type: Enum
-  summary: >-
-    <p>Represents the connection mode to be used by the client in the Azure Cosmos DB database service. </p>
-
-    <p>Direct and Gateway connectivity modes are supported. Gateway is the default. Refer to &lt;see&gt;<a href="http://azure.microsoft.com/documentation/articles/documentdb-">http://azure.microsoft.com/documentation/articles/documentdb-</a> interactions-with-resources/connectivity-options&lt;/see&gt; for additional details. </p>
+  summary: "<p>Represents the connection mode to be used by the client in the Azure Cosmos DB database service. </p>\r\n<p>Direct and Gateway connectivity modes are supported. Gateway is the default. Refer to &lt;see&gt;<a href=\"http://azure.microsoft.com/documentation/articles/documentdb-\">http://azure.microsoft.com/documentation/articles/documentdb-</a> interactions-with-resources/connectivity-options&lt;/see&gt; for additional details. </p>"
   syntax:
     content: public enum ConnectionMode
 - uid: com.microsoft.azure.cosmosdb.ConnectionPolicy
@@ -206,7 +197,7 @@ references:
   nameWithType: ConnectionPolicy
   fullName: com.microsoft.azure.cosmosdb.ConnectionPolicy
   type: Class
-  summary: <p>Represents the Connection policy associated with a DocumentClient in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the Connection policy associated with a DocumentClient in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ConnectionPolicy
 - uid: com.microsoft.azure.cosmosdb.ConsistencyLevel
@@ -216,10 +207,7 @@ references:
   nameWithType: ConsistencyLevel
   fullName: com.microsoft.azure.cosmosdb.ConsistencyLevel
   type: Enum
-  summary: >-
-    <p>Represents the consistency levels supported for Cosmos DB client operations in the Azure Cosmos DB database service. </p>
-
-    <p>The requested ConsistencyLevel must match or be weaker than that provisioned for the database account. Consistency levels by order of strength are Strong, BoundedStaleness, Session and Eventual. </p>
+  summary: "<p>Represents the consistency levels supported for Cosmos DB client operations in the Azure Cosmos DB database service. </p>\r\n<p>The requested ConsistencyLevel must match or be weaker than that provisioned for the database account. Consistency levels by order of strength are Strong, BoundedStaleness, Session and Eventual. </p>"
   syntax:
     content: public enum ConsistencyLevel
 - uid: com.microsoft.azure.cosmosdb.ConsistencyPolicy
@@ -229,7 +217,7 @@ references:
   nameWithType: ConsistencyPolicy
   fullName: com.microsoft.azure.cosmosdb.ConsistencyPolicy
   type: Class
-  summary: <p>Encapsulates the settings for consistency policy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates the settings for consistency policy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ConsistencyPolicy extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.Database
@@ -239,10 +227,7 @@ references:
   nameWithType: Database
   fullName: com.microsoft.azure.cosmosdb.Database
   type: Class
-  summary: >-
-    <p>Represents a Database in the Azure Cosmos DB database service. A database manages users, permissions and a set of collections </p>
-
-    <p>Each Azure Cosmos DB Service is able to support multiple independent named databases, with the database being the logical container for data. Each Database consists of one or more collections, each of which in turn contain one or more documents. Since databases are an an administrative resource and the Service Master Key will be required in order to access and successfully complete any action using the User APIs. </p>
+  summary: "<p>Represents a Database in the Azure Cosmos DB database service. A database manages users, permissions and a set of collections </p>\r\n<p>Each Azure Cosmos DB Service is able to support multiple independent named databases, with the database being the logical container for data. Each Database consists of one or more collections, each of which in turn contain one or more documents. Since databases are an an administrative resource and the Service Master Key will be required in order to access and successfully complete any action using the User APIs. </p>"
   syntax:
     content: public class Database extends Resource
 - uid: com.microsoft.azure.cosmosdb.DatabaseAccount
@@ -252,7 +237,7 @@ references:
   nameWithType: DatabaseAccount
   fullName: com.microsoft.azure.cosmosdb.DatabaseAccount
   type: Class
-  summary: <p>Represents a database account in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a database account in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class DatabaseAccount extends Resource
 - uid: com.microsoft.azure.cosmosdb.DatabaseAccountLocation
@@ -262,7 +247,7 @@ references:
   nameWithType: DatabaseAccountLocation
   fullName: com.microsoft.azure.cosmosdb.DatabaseAccountLocation
   type: Class
-  summary: <p>Represents the location of a database account in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the location of a database account in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class DatabaseAccountLocation extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.DatabaseAccountManagerInternal
@@ -281,7 +266,7 @@ references:
   nameWithType: DataType
   fullName: com.microsoft.azure.cosmosdb.DataType
   type: Enum
-  summary: <p>Data types in the Azure Cosmos DB database service. </p>
+  summary: "<p>Data types in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum DataType
 - uid: com.microsoft.azure.cosmosdb.Document
@@ -291,10 +276,7 @@ references:
   nameWithType: Document
   fullName: com.microsoft.azure.cosmosdb.Document
   type: Class
-  summary: >-
-    <p>Represents a document in the Azure Cosmos DB database service. </p>
-
-    <p>A document is a structured JSON document. There is no set schema for the JSON documents, and a document may contain any number of custom properties as well as an optional list of attachments. Document is an application resource and can be authorized using the master key or resource keys. </p>
+  summary: "<p>Represents a document in the Azure Cosmos DB database service. </p>\r\n<p>A document is a structured JSON document. There is no set schema for the JSON documents, and a document may contain any number of custom properties as well as an optional list of attachments. Document is an application resource and can be authorized using the master key or resource keys. </p>"
   syntax:
     content: public class Document extends Resource
 - uid: com.microsoft.azure.cosmosdb.DocumentClientException
@@ -304,14 +286,7 @@ references:
   nameWithType: DocumentClientException
   fullName: com.microsoft.azure.cosmosdb.DocumentClientException
   type: Class
-  summary: >-
-    <p>This class defines a custom exception type for all operations on DocumentClient in the Azure Cosmos DB database service. Applications are expected to catch DocumentClientException and handle errors as appropriate when calling methods on DocumentClient. </p>
-
-    <p>Errors coming from the service during normal execution are converted to DocumentClientException before returning to the application with the following exception: </p>
-
-    <p>When a BE error is encountered during a QueryIterable&lt;T&gt; iteration, an IllegalStateException is thrown instead of DocumentClientException. </p>
-
-    <p>When a transport level error happens that request is not able to reach the service, an IllegalStateException is thrown instead of DocumentClientException. </p>
+  summary: "<p>This class defines a custom exception type for all operations on DocumentClient in the Azure Cosmos DB database service. Applications are expected to catch DocumentClientException and handle errors as appropriate when calling methods on DocumentClient. </p>\r\n<p>Errors coming from the service during normal execution are converted to DocumentClientException before returning to the application with the following exception: </p>\r\n<p>When a BE error is encountered during a QueryIterable&lt;T&gt; iteration, an IllegalStateException is thrown instead of DocumentClientException. </p>\r\n<p>When a transport level error happens that request is not able to reach the service, an IllegalStateException is thrown instead of DocumentClientException. </p>"
   syntax:
     content: public class DocumentClientException
 - uid: com.microsoft.azure.cosmosdb.DocumentCollection
@@ -321,10 +296,7 @@ references:
   nameWithType: DocumentCollection
   fullName: com.microsoft.azure.cosmosdb.DocumentCollection
   type: Class
-  summary: >-
-    <p>Represents a document collection in the Azure Cosmos DB database service. A collection is a named logical container for documents. </p>
-
-    <p>A database may contain zero or more named collections and each collection consists of zero or more JSON documents. Being schema-free, the documents in a collection do not need to share the same structure or fields. Since collections are application resources, they can be authorized using either the master key or resource keys. </p>
+  summary: "<p>Represents a document collection in the Azure Cosmos DB database service. A collection is a named logical container for documents. </p>\r\n<p>A database may contain zero or more named collections and each collection consists of zero or more JSON documents. Being schema-free, the documents in a collection do not need to share the same structure or fields. Since collections are application resources, they can be authorized using either the master key or resource keys. </p>"
   syntax:
     content: public class DocumentCollection extends Resource
 - uid: com.microsoft.azure.cosmosdb.Error
@@ -334,7 +306,7 @@ references:
   nameWithType: Error
   fullName: com.microsoft.azure.cosmosdb.Error
   type: Class
-  summary: <p>Encapsulates error related details in the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates error related details in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Error extends Resource
 - uid: com.microsoft.azure.cosmosdb.ExcludedPath
@@ -344,7 +316,7 @@ references:
   nameWithType: ExcludedPath
   fullName: com.microsoft.azure.cosmosdb.ExcludedPath
   type: Class
-  summary: <p>Represents an excluded path of the IndexingPolicy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents an excluded path of the IndexingPolicy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ExcludedPath extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.FeedOptions
@@ -354,7 +326,7 @@ references:
   nameWithType: FeedOptions
   fullName: com.microsoft.azure.cosmosdb.FeedOptions
   type: Class
-  summary: <p>Specifies the options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class FeedOptions extends FeedOptionsBase
 - uid: com.microsoft.azure.cosmosdb.FeedOptionsBase
@@ -364,7 +336,7 @@ references:
   nameWithType: FeedOptionsBase
   fullName: com.microsoft.azure.cosmosdb.FeedOptionsBase
   type: Class
-  summary: <p>Specifies the common options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the common options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class FeedOptionsBase
 - uid: com.microsoft.azure.cosmosdb.FeedResponse
@@ -386,7 +358,7 @@ references:
   nameWithType: HashIndex
   fullName: com.microsoft.azure.cosmosdb.HashIndex
   type: Class
-  summary: <p>Represents a hash index in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a hash index in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class HashIndex extends Index
 - uid: com.microsoft.azure.cosmosdb.IncludedPath
@@ -396,7 +368,7 @@ references:
   nameWithType: IncludedPath
   fullName: com.microsoft.azure.cosmosdb.IncludedPath
   type: Class
-  summary: <p>Represents an included path of the IndexingPolicy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents an included path of the IndexingPolicy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class IncludedPath extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.Index
@@ -406,7 +378,7 @@ references:
   nameWithType: Index
   fullName: com.microsoft.azure.cosmosdb.Index
   type: Class
-  summary: <p>Represents the index of a collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the index of a collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Index extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.IndexingDirective
@@ -416,7 +388,7 @@ references:
   nameWithType: IndexingDirective
   fullName: com.microsoft.azure.cosmosdb.IndexingDirective
   type: Enum
-  summary: <p>Specifies whether or not the resource is to be indexed in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies whether or not the resource is to be indexed in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum IndexingDirective
 - uid: com.microsoft.azure.cosmosdb.IndexingMode
@@ -426,7 +398,7 @@ references:
   nameWithType: IndexingMode
   fullName: com.microsoft.azure.cosmosdb.IndexingMode
   type: Enum
-  summary: <p>Specifies the supported indexing modes in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the supported indexing modes in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum IndexingMode
 - uid: com.microsoft.azure.cosmosdb.IndexingPolicy
@@ -436,7 +408,7 @@ references:
   nameWithType: IndexingPolicy
   fullName: com.microsoft.azure.cosmosdb.IndexingPolicy
   type: Class
-  summary: <p>Represents the indexing policy configuration for a collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the indexing policy configuration for a collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class IndexingPolicy extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.IndexKind
@@ -446,7 +418,7 @@ references:
   nameWithType: IndexKind
   fullName: com.microsoft.azure.cosmosdb.IndexKind
   type: Enum
-  summary: <p>These are the indexing types available for indexing a path in the Azure Cosmos DB database service. For additional details, refer to <a href="http://azure.microsoft.com/documentation/articles/documentdb-indexing-policies/#ConfigPolicy">http://azure.microsoft.com/documentation/articles/documentdb-indexing-policies/#ConfigPolicy</a>. </p>
+  summary: "<p>These are the indexing types available for indexing a path in the Azure Cosmos DB database service. For additional details, refer to <a href=\"http://azure.microsoft.com/documentation/articles/documentdb-indexing-policies/#ConfigPolicy\">http://azure.microsoft.com/documentation/articles/documentdb-indexing-policies/#ConfigPolicy</a>. </p>"
   syntax:
     content: public enum IndexKind
 - uid: com.microsoft.azure.cosmosdb.JsonSerializable
@@ -456,7 +428,7 @@ references:
   nameWithType: JsonSerializable
   fullName: com.microsoft.azure.cosmosdb.JsonSerializable
   type: Class
-  summary: <p>Represents a base resource that can be serialized to JSON in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a base resource that can be serialized to JSON in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.MediaOptions
@@ -466,7 +438,7 @@ references:
   nameWithType: MediaOptions
   fullName: com.microsoft.azure.cosmosdb.MediaOptions
   type: Class
-  summary: <p>Options used with attachment content (aka media) creation in the Azure Cosmos DB database service. </p>
+  summary: "<p>Options used with attachment content (aka media) creation in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class MediaOptions
 - uid: com.microsoft.azure.cosmosdb.MediaReadMode
@@ -476,7 +448,7 @@ references:
   nameWithType: MediaReadMode
   fullName: com.microsoft.azure.cosmosdb.MediaReadMode
   type: Enum
-  summary: <p>Represents the mode for use with downloading attachment content (aka media) from the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the mode for use with downloading attachment content (aka media) from the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum MediaReadMode
 - uid: com.microsoft.azure.cosmosdb.MediaResponse
@@ -486,7 +458,7 @@ references:
   nameWithType: MediaResponse
   fullName: com.microsoft.azure.cosmosdb.MediaResponse
   type: Class
-  summary: <p>Response associated with retrieving attachment content in the Azure Cosmos DB database service. </p>
+  summary: "<p>Response associated with retrieving attachment content in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class MediaResponse
 - uid: com.microsoft.azure.cosmosdb.Offer
@@ -496,7 +468,7 @@ references:
   nameWithType: Offer
   fullName: com.microsoft.azure.cosmosdb.Offer
   type: Class
-  summary: <p>Represents an offer in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents an offer in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Offer extends Resource
 - uid: com.microsoft.azure.cosmosdb.PartitionKey
@@ -506,7 +478,7 @@ references:
   nameWithType: PartitionKey
   fullName: com.microsoft.azure.cosmosdb.PartitionKey
   type: Class
-  summary: <p>Represents a partition key value in the Azure Cosmos DB database service. A partition key identifies the partition where the document is stored in. </p>
+  summary: "<p>Represents a partition key value in the Azure Cosmos DB database service. A partition key identifies the partition where the document is stored in. </p>"
   syntax:
     content: public class PartitionKey
 - uid: com.microsoft.azure.cosmosdb.PartitionKeyDefinition
@@ -516,7 +488,7 @@ references:
   nameWithType: PartitionKeyDefinition
   fullName: com.microsoft.azure.cosmosdb.PartitionKeyDefinition
   type: Class
-  summary: <p>Represents a partition key definition in the Azure Cosmos DB database service. A partition key definition specifies which document property is used as the partition key in a collection that has multiple partitions. </p>
+  summary: "<p>Represents a partition key definition in the Azure Cosmos DB database service. A partition key definition specifies which document property is used as the partition key in a collection that has multiple partitions. </p>"
   syntax:
     content: public class PartitionKeyDefinition extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.PartitionKeyRange
@@ -526,7 +498,7 @@ references:
   nameWithType: PartitionKeyRange
   fullName: com.microsoft.azure.cosmosdb.PartitionKeyRange
   type: Class
-  summary: <p>Represent a partition key range in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represent a partition key range in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class PartitionKeyRange extends Resource
 - uid: com.microsoft.azure.cosmosdb.PartitionKind
@@ -536,7 +508,7 @@ references:
   nameWithType: PartitionKind
   fullName: com.microsoft.azure.cosmosdb.PartitionKind
   type: Enum
-  summary: <p>Specifies the partition scheme for an multiple-partitioned collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the partition scheme for an multiple-partitioned collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum PartitionKind
 - uid: com.microsoft.azure.cosmosdb.Permission
@@ -546,7 +518,7 @@ references:
   nameWithType: Permission
   fullName: com.microsoft.azure.cosmosdb.Permission
   type: Class
-  summary: <p>Represents a per-User Permission to access a specific resource e.g. Document or Collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a per-User Permission to access a specific resource e.g. Document or Collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Permission extends Resource
 - uid: com.microsoft.azure.cosmosdb.PermissionMode
@@ -556,7 +528,7 @@ references:
   nameWithType: PermissionMode
   fullName: com.microsoft.azure.cosmosdb.PermissionMode
   type: Enum
-  summary: <p>Enumeration specifying applicability of permission in the Azure Cosmos DB database service. </p>
+  summary: "<p>Enumeration specifying applicability of permission in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum PermissionMode
 - uid: com.microsoft.azure.cosmosdb.RangeIndex
@@ -566,7 +538,7 @@ references:
   nameWithType: RangeIndex
   fullName: com.microsoft.azure.cosmosdb.RangeIndex
   type: Class
-  summary: <p>Represents a range index in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a range index in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class RangeIndex extends Index
 - uid: com.microsoft.azure.cosmosdb.ReplicationPolicy
@@ -576,7 +548,7 @@ references:
   nameWithType: ReplicationPolicy
   fullName: com.microsoft.azure.cosmosdb.ReplicationPolicy
   type: Class
-  summary: <p>Encapsulates the replication policy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates the replication policy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ReplicationPolicy extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.RequestOptions
@@ -586,7 +558,7 @@ references:
   nameWithType: RequestOptions
   fullName: com.microsoft.azure.cosmosdb.RequestOptions
   type: Class
-  summary: <p>Encapsulates options that can be specified for a request issued to the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates options that can be specified for a request issued to the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class RequestOptions
 - uid: com.microsoft.azure.cosmosdb.Resource
@@ -596,7 +568,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.cosmosdb.Resource
   type: Class
-  summary: <p>Represents the base resource in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the base resource in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Resource extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.ResourceResponse
@@ -606,10 +578,7 @@ references:
   nameWithType: ResourceResponse<T>
   fullName: com.microsoft.azure.cosmosdb.ResourceResponse<T>
   type: Class
-  summary: >-
-    <p>Represents the service response to a request made from DocumentClient in the Azure Cosmos DB database service. Contains both the resource and the response headers.</p>
-
-    <p></p>
+  summary: "<p>Represents the service response to a request made from DocumentClient in the Azure Cosmos DB database service. Contains both the resource and the response headers.</p>\r\n<p></p>"
   syntax:
     content: public class ResourceResponse<T extends Resource>
     typeParameters:
@@ -623,7 +592,7 @@ references:
   nameWithType: RetryOptions
   fullName: com.microsoft.azure.cosmosdb.RetryOptions
   type: Class
-  summary: <p>Encapsulates retry options in the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates retry options in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class RetryOptions
 - uid: com.microsoft.azure.cosmosdb.SerializationFormattingPolicy
@@ -633,7 +602,7 @@ references:
   nameWithType: SerializationFormattingPolicy
   fullName: com.microsoft.azure.cosmosdb.SerializationFormattingPolicy
   type: Enum
-  summary: <p>The formatting policy associated with JSON serialization in the Azure Cosmos DB database service. </p>
+  summary: "<p>The formatting policy associated with JSON serialization in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum SerializationFormattingPolicy
 - uid: com.microsoft.azure.cosmosdb.SpatialIndex
@@ -643,7 +612,7 @@ references:
   nameWithType: SpatialIndex
   fullName: com.microsoft.azure.cosmosdb.SpatialIndex
   type: Class
-  summary: <p>Represents a spatial index in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a spatial index in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SpatialIndex extends Index
 - uid: com.microsoft.azure.cosmosdb.SqlParameter
@@ -653,7 +622,7 @@ references:
   nameWithType: SqlParameter
   fullName: com.microsoft.azure.cosmosdb.SqlParameter
   type: Class
-  summary: <p>Represents a SQL parameter in the SqlQuerySpec used for queries in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a SQL parameter in the SqlQuerySpec used for queries in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SqlParameter extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.SqlParameterCollection
@@ -663,7 +632,7 @@ references:
   nameWithType: SqlParameterCollection
   fullName: com.microsoft.azure.cosmosdb.SqlParameterCollection
   type: Class
-  summary: <p>Represents a collection of SQL parameters to for a SQL query in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a collection of SQL parameters to for a SQL query in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SqlParameterCollection
 - uid: com.microsoft.azure.cosmosdb.SqlQuerySpec
@@ -673,7 +642,7 @@ references:
   nameWithType: SqlQuerySpec
   fullName: com.microsoft.azure.cosmosdb.SqlQuerySpec
   type: Class
-  summary: <p>Represents a SQL query in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a SQL query in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SqlQuerySpec extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.StoredProcedure
@@ -683,10 +652,7 @@ references:
   nameWithType: StoredProcedure
   fullName: com.microsoft.azure.cosmosdb.StoredProcedure
   type: Class
-  summary: >-
-    <p>Represents a stored procedure in the Azure Cosmos DB database service. </p>
-
-    <p>Cosmos DB allows stored procedures to be executed in the storage tier, directly against a document collection. The script gets executed under ACID transactions on the primary storage partition of the specified collection. For additional details, refer to the server-side JavaScript API documentation. </p>
+  summary: "<p>Represents a stored procedure in the Azure Cosmos DB database service. </p>\r\n<p>Cosmos DB allows stored procedures to be executed in the storage tier, directly against a document collection. The script gets executed under ACID transactions on the primary storage partition of the specified collection. For additional details, refer to the server-side JavaScript API documentation. </p>"
   syntax:
     content: public class StoredProcedure extends Resource
 - uid: com.microsoft.azure.cosmosdb.StoredProcedureResponse
@@ -696,7 +662,7 @@ references:
   nameWithType: StoredProcedureResponse
   fullName: com.microsoft.azure.cosmosdb.StoredProcedureResponse
   type: Class
-  summary: <p>Represents the response returned from a stored procedure in the Azure Cosmos DB database service. Wraps the response body and headers. </p>
+  summary: "<p>Represents the response returned from a stored procedure in the Azure Cosmos DB database service. Wraps the response body and headers. </p>"
   syntax:
     content: public class StoredProcedureResponse
 - uid: com.microsoft.azure.cosmosdb.Trigger
@@ -706,10 +672,7 @@ references:
   nameWithType: Trigger
   fullName: com.microsoft.azure.cosmosdb.Trigger
   type: Class
-  summary: >-
-    <p>Represents a trigger in the Azure Cosmos DB database service. </p>
-
-    <p>Cosmos DB supports pre and post triggers defined in JavaScript to be executed on creates, updates and deletes. For additional details, refer to the server-side JavaScript API documentation. </p>
+  summary: "<p>Represents a trigger in the Azure Cosmos DB database service. </p>\r\n<p>Cosmos DB supports pre and post triggers defined in JavaScript to be executed on creates, updates and deletes. For additional details, refer to the server-side JavaScript API documentation. </p>"
   syntax:
     content: public class Trigger extends Resource
 - uid: com.microsoft.azure.cosmosdb.TriggerOperation
@@ -719,7 +682,7 @@ references:
   nameWithType: TriggerOperation
   fullName: com.microsoft.azure.cosmosdb.TriggerOperation
   type: Enum
-  summary: <p>Specifies the operations on which a trigger should be executed in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the operations on which a trigger should be executed in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum TriggerOperation
 - uid: com.microsoft.azure.cosmosdb.TriggerType
@@ -729,7 +692,7 @@ references:
   nameWithType: TriggerType
   fullName: com.microsoft.azure.cosmosdb.TriggerType
   type: Enum
-  summary: <p>The trigger type in the Azure Cosmos DB database service. </p>
+  summary: "<p>The trigger type in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum TriggerType
 - uid: com.microsoft.azure.cosmosdb.Undefined
@@ -739,7 +702,7 @@ references:
   nameWithType: Undefined
   fullName: com.microsoft.azure.cosmosdb.Undefined
   type: Class
-  summary: <p>Represents the 'Undefined' partition key in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the 'Undefined' partition key in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Undefined extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.UniqueKey
@@ -749,10 +712,7 @@ references:
   nameWithType: UniqueKey
   fullName: com.microsoft.azure.cosmosdb.UniqueKey
   type: Class
-  summary: >-
-    <p>Represents a unique key on that enforces uniqueness constraint on documents in the collection in the Azure Cosmos DB service.</p>
-
-    <p>1) For partitioned collections, the value of partition key is implicitly a part of each unique key. 2) Uniqueness constraint is also enforced for missing values. For instance, if unique key policy defines a unique key with single property path, there could be only one document that has missing value for this property. </p>
+  summary: "<p>Represents a unique key on that enforces uniqueness constraint on documents in the collection in the Azure Cosmos DB service.</p>\r\n<p>1) For partitioned collections, the value of partition key is implicitly a part of each unique key. 2) Uniqueness constraint is also enforced for missing values. For instance, if unique key policy defines a unique key with single property path, there could be only one document that has missing value for this property. </p>"
   syntax:
     content: public class UniqueKey extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.UniqueKeyPolicy
@@ -762,7 +722,7 @@ references:
   nameWithType: UniqueKeyPolicy
   fullName: com.microsoft.azure.cosmosdb.UniqueKeyPolicy
   type: Class
-  summary: <p>Represents the unique key policy configuration for specifying uniqueness constraints on documents in the collection in the Azure Cosmos DB service. </p>
+  summary: "<p>Represents the unique key policy configuration for specifying uniqueness constraints on documents in the collection in the Azure Cosmos DB service. </p>"
   syntax:
     content: public class UniqueKeyPolicy extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.User
@@ -772,7 +732,7 @@ references:
   nameWithType: User
   fullName: com.microsoft.azure.cosmosdb.User
   type: Class
-  summary: <p>Represents a database user in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a database user in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class User extends Resource
 - uid: com.microsoft.azure.cosmosdb.UserDefinedFunction
@@ -782,9 +742,6 @@ references:
   nameWithType: UserDefinedFunction
   fullName: com.microsoft.azure.cosmosdb.UserDefinedFunction
   type: Class
-  summary: >-
-    <p>Represents a user defined function in the Azure Cosmos DB database service. </p>
-
-    <p>Cosmos DB supports JavaScript UDFs which can be used inside queries, stored procedures and triggers. For additional details, refer to the server-side JavaScript API documentation. </p>
+  summary: "<p>Represents a user defined function in the Azure Cosmos DB database service. </p>\r\n<p>Cosmos DB supports JavaScript UDFs which can be used inside queries, stored procedures and triggers. For additional details, refer to the server-side JavaScript API documentation. </p>"
   syntax:
     content: public class UserDefinedFunction extends Resource

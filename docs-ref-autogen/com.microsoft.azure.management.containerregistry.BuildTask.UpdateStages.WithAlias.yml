@@ -70,7 +70,7 @@ references:
   nameWithType: BuildTask.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update extends BuildTask.UpdateStages.WithOSType,BuildTask.UpdateStages.WithSourceControlType,BuildTask.UpdateStages.WithRepositoryUrl,BuildTask.UpdateStages.WithAuthenticationTokenType,BuildTask.UpdateStages.WithAuthenticationToken,BuildTask.UpdateStages.WithAlias,BuildTask.UpdateStages.WithAuthenticationRefreshToken,BuildTask.UpdateStages.WithTokenExpirationTimeInSeconds,BuildTask.UpdateStages.WithAuthenticationTokenAccessScope,BuildTask.UpdateStages.WithCommitTrigger,BuildTask.UpdateStages.WithCpuCoresCount,BuildTask.UpdateStages.WithBuildTimeoutInSeconds,BuildTask.UpdateStages.WithBuildTaskStatus,Resource.UpdateWithTags<Update>,Appliable<BuildTask>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withAlias(String)
@@ -80,10 +80,7 @@ references:
   nameWithType: BuildTaskImpl.withAlias(String alias)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withAlias(String alias)
   type: Method
-  summary: >-
-    <p>Specifies the alternative name for a build task.</p>
-
-    <p></p>
+  summary: "<p>Specifies the alternative name for a build task.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withAlias(String alias)
     parameters:

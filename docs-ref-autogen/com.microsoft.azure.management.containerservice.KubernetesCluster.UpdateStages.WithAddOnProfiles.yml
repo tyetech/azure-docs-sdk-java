@@ -76,7 +76,7 @@ references:
   nameWithType: KubernetesCluster.Update
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount,KubernetesCluster.UpdateStages.WithAddOnProfiles,KubernetesCluster.UpdateStages.WithNetworkProfile,KubernetesCluster.UpdateStages.WithRBAC,Resource.UpdateWithTags<KubernetesCluster.Update>,Appliable<KubernetesCluster>
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withAddOnProfiles(Map<String, ManagedClusterAddonProfile>)
@@ -86,10 +86,7 @@ references:
   nameWithType: KubernetesClusterImpl.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   type: Method
-  summary: >-
-    <p>Updates the cluster's add-on's profiles.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's add-on's profiles.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
     parameters:
@@ -106,6 +103,6 @@ references:
   nameWithType: ManagedClusterAddonProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterAddonProfile
   type: Class
-  summary: <p>A Kubernetes add-on profile for a managed cluster. </p>
+  summary: "<p>A Kubernetes add-on profile for a managed cluster. </p>"
   syntax:
     content: public class ManagedClusterAddonProfile

@@ -150,7 +150,7 @@ references:
   nameWithType: DeploymentSlot.Definition
   fullName: com.microsoft.azure.management.appservice.DeploymentSlot.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends DeploymentSlot.DefinitionStages.Blank,DeploymentSlot.DefinitionStages.WithConfiguration,DeploymentSlot.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.Blank
@@ -160,7 +160,7 @@ references:
   nameWithType: DeploymentSlot.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the deployment slot definition. </p>
+  summary: "<p>The first stage of the deployment slot definition. </p>"
   syntax:
     content: public interface Blank extends DeploymentSlot.DefinitionStages.WithConfiguration
 - uid: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.WithCreate
@@ -170,7 +170,7 @@ references:
   nameWithType: DeploymentSlot.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.appservice.WebApp
@@ -180,7 +180,7 @@ references:
   nameWithType: WebApp
   fullName: com.microsoft.azure.management.appservice.WebApp
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Web App. </p>
+  summary: "<p>An immutable client-side representation of an Azure Web App. </p>"
   syntax:
     content: public interface WebApp extends WebAppBase,Refreshable<WebApp>,Updatable<WebApp.Update>
 - uid: com.microsoft.azure.management.appservice.DeploymentSlot
@@ -190,6 +190,6 @@ references:
   nameWithType: DeploymentSlot
   fullName: com.microsoft.azure.management.appservice.DeploymentSlot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Web App deployment slot. </p>
+  summary: "<p>An immutable client-side representation of an Azure Web App deployment slot. </p>"
   syntax:
     content: public interface DeploymentSlot extends IndependentChildResource<AppServiceManager, SiteInner>,WebAppBase,Refreshable<DeploymentSlot>,Updatable<DeploymentSlot.Update>,HasParent<WebApp>

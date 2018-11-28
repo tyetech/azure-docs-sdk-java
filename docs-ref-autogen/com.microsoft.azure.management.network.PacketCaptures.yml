@@ -39,12 +39,7 @@ references:
   nameWithType: SupportsCreating<T>.define(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating<T>.define(String name)
   type: Method
-  summary: >-
-    <p>Begins a definition for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref>. </p>
-
-    <p>Note that the <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word "with", for example:  and return the next stage of the resource definition, as an interface in the "fluent interface" style. </p>
+  summary: "<p>Begins a definition for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref>. </p>\r\n<p>Note that the <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word \"with\", for example:  and return the next stage of the resource definition, as an interface in the \"fluent interface\" style. </p>"
   syntax:
     content: public T define(String name)
     parameters:
@@ -61,10 +56,7 @@ references:
   nameWithType: SupportsDeletingByName.deleteByName(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByName(String name)
   type: Method
-  summary: >-
-    <p>Deletes a resource from Azure, identifying it by its resource name.</p>
-
-    <p></p>
+  summary: "<p>Deletes a resource from Azure, identifying it by its resource name.</p>\r\n<p></p>"
   syntax:
     content: public void deleteByName(String name)
     parameters:
@@ -78,10 +70,7 @@ references:
   nameWithType: SupportsDeletingByName.deleteByNameAsync(String name, ServiceCallback<Void> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByNameAsync(String name, ServiceCallback<Void> callback)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<Void> deleteByNameAsync(String name, ServiceCallback<Void> callback)
     parameters:
@@ -101,10 +90,7 @@ references:
   nameWithType: SupportsDeletingByName.deleteByNameAsync(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByNameAsync(String name)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteByNameAsync(String name)
     parameters:
@@ -121,10 +107,7 @@ references:
   nameWithType: SupportsGettingByName<T>.getByName(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByName<T>.getByName(String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource name within the current resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource name within the current resource group.</p>\r\n<p></p>"
   syntax:
     content: public T getByName(String name)
     parameters:
@@ -141,10 +124,7 @@ references:
   nameWithType: SupportsGettingByNameAsync<T>.getByNameAsync(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync<T>.getByNameAsync(String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource based on the resource name.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource based on the resource name.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getByNameAsync(String name)
     parameters:
@@ -173,10 +153,7 @@ references:
   nameWithType: SupportsListing<T>.list()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.list()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<T> list()
     return:
@@ -189,10 +166,7 @@ references:
   nameWithType: SupportsListing<T>.listAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listAsync()
     return:
@@ -205,10 +179,7 @@ references:
   nameWithType: SupportsCreating<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating<T>
   type: Interface
-  summary: >-
-    <p>Providing access to creating Azure top level resources. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code) </p>
+  summary: "<p>Providing access to creating Azure top level resources. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code) </p>"
   syntax:
     content: public interface SupportsCreating<T>
     typeParameters:
@@ -222,12 +193,7 @@ references:
   nameWithType: SupportsListing<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>
   type: Interface
-  summary: >-
-    <p>Provides access to listing Azure resources of a specific type in a subscription. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code)</p>
-
-    <p></p>
+  summary: "<p>Provides access to listing Azure resources of a specific type in a subscription. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code)</p>\r\n<p></p>"
   syntax:
     content: public interface SupportsListing<T>
     typeParameters:
@@ -241,10 +207,7 @@ references:
   nameWithType: SupportsGettingByNameAsync<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync<T>
   type: Interface
-  summary: >-
-    <p>Provides access to getting a specific resource based on its name. </p>
-
-    <p>(Note this interface is not intended to be implemented by user code.) </p>
+  summary: "<p>Provides access to getting a specific resource based on its name. </p>\r\n<p>(Note this interface is not intended to be implemented by user code.) </p>"
   syntax:
     content: public interface SupportsGettingByNameAsync<T>
     typeParameters:
@@ -258,10 +221,7 @@ references:
   nameWithType: SupportsDeletingByName
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName
   type: Interface
-  summary: >-
-    <p>Provides access to deleting a resource from Azure, identifying it by its resource name. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code) </p>
+  summary: "<p>Provides access to deleting a resource from Azure, identifying it by its resource name. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code) </p>"
   syntax:
     content: public interface SupportsDeletingByName
 - uid: com.microsoft.azure.management.resources.fluentcore.model.HasInner
@@ -271,10 +231,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:

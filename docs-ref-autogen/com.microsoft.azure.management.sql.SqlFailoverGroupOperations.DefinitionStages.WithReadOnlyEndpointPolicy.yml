@@ -90,7 +90,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The final stage of the SQL Failover Group definition. </p>
+  summary: "<p>The final stage of the SQL Failover Group definition. </p>"
   syntax:
     content: public interface WithCreate extends SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy,SqlFailoverGroupOperations.DefinitionStages.WithDatabase,Resource.DefinitionWithTags<SqlFailoverGroupOperations.DefinitionStages.WithCreate>,Creatable<SqlFailoverGroup>
 - uid: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.SqlFailoverGroupOperationsDefinition
@@ -100,6 +100,6 @@ references:
   nameWithType: SqlFailoverGroupOperations.SqlFailoverGroupOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.SqlFailoverGroupOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlFailoverGroupOperationsDefinition extends SqlFailoverGroupOperations.DefinitionStages.WithSqlServer,SqlFailoverGroupOperations.DefinitionStages.WithReadWriteEndpointPolicy,SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy,SqlFailoverGroupOperations.DefinitionStages.WithPartnerServer,SqlFailoverGroupOperations.DefinitionStages.WithDatabase,SqlFailoverGroupOperations.DefinitionStages.WithCreate

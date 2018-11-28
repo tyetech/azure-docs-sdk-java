@@ -157,7 +157,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -167,10 +167,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -184,6 +181,6 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>

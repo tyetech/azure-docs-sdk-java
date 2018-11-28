@@ -65,7 +65,7 @@ references:
   nameWithType: Webhook.Update
   fullName: com.microsoft.azure.management.containerregistry.Webhook.Update
   type: Interface
-  summary: <p>The entirety of a webhook update. </p>
+  summary: "<p>The entirety of a webhook update. </p>"
   syntax:
     content: public interface Update extends Webhook.UpdateStages.WithTriggerWhen,Webhook.UpdateStages.WithServiceUri,Webhook.UpdateStages.WithCustomHeaders,Webhook.UpdateStages.WithRepositoriesScope,Webhook.UpdateStages.WithDefaultStatus,Resource.UpdateWithTags<Update>,Appliable<Webhook>
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl.withTriggerWhen(WebhookAction...)
@@ -75,10 +75,7 @@ references:
   nameWithType: WebhookImpl.withTriggerWhen(WebhookAction... webhookActions)
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl.withTriggerWhen(WebhookAction... webhookActions)
   type: Method
-  summary: >-
-    <p>Specifies the actions that will trigger the webhook notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the actions that will trigger the webhook notifications.</p>\r\n<p></p>"
   syntax:
     content: public WebhookImpl withTriggerWhen(WebhookAction... webhookActions)
     parameters:

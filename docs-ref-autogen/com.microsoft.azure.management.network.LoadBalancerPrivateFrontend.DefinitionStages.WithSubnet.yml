@@ -87,7 +87,7 @@ references:
   nameWithType: HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -107,7 +107,7 @@ references:
   nameWithType: HasSubnet.DefinitionStages.WithSubnet<ReturnT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.DefinitionStages.WithSubnet<ReturnT>
   type: Interface
-  summary: <p>The stage of a definition allowing to associate a subnet with a resource. </p>
+  summary: "<p>The stage of a definition allowing to associate a subnet with a resource. </p>"
   syntax:
     content: public interface WithSubnet<ReturnT>
     typeParameters:
@@ -121,7 +121,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a private frontend definition. </p>
+  summary: "<p>The entirety of a private frontend definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends LoadBalancerPrivateFrontend.DefinitionStages.Blank<ParentT>,LoadBalancerPrivateFrontend.DefinitionStages.WithAttach<ParentT>,LoadBalancerPrivateFrontend.DefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -135,7 +135,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a private frontend definition. </p>
+  summary: "<p>The first stage of a private frontend definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends LoadBalancerPrivateFrontend.DefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -149,10 +149,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of a private frontend definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the frontend definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of a private frontend definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the frontend definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinitionAlt,HasPrivateIPAddress.DefinitionStages.WithPrivateIPAddress<WithAttach<ParentT>>,LoadBalancerPrivateFrontend.DefinitionStages.WithAvailabilityZone<ParentT>
     typeParameters:
@@ -166,6 +163,6 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>

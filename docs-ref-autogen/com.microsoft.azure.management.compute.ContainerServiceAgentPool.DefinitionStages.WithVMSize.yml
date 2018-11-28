@@ -78,7 +78,7 @@ references:
   nameWithType: ContainerServiceAgentPool.Definition<ParentT>
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a container service agent pool definition as a part of a parent definition. </p>
+  summary: "<p>The entirety of a container service agent pool definition as a part of a parent definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>,ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
     typeParameters:
@@ -92,10 +92,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the DNS label.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the DNS label.</p>\r\n<p></p>"
   syntax:
     content: public interface WithLeafDomainLabel<ParentT>
     typeParameters:
@@ -109,6 +106,6 @@ references:
   nameWithType: ContainerServiceVMSizeTypes
   fullName: com.microsoft.azure.management.compute.ContainerServiceVMSizeTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceVMSizeTypes. </p>
+  summary: "<p>Defines values for ContainerServiceVMSizeTypes. </p>"
   syntax:
     content: public class ContainerServiceVMSizeTypes

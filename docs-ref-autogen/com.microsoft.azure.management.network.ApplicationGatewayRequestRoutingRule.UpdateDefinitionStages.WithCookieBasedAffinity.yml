@@ -40,7 +40,7 @@ references:
   nameWithType: HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withCookieBasedAffinity()
   type: Method
-  summary: <p>Enables cookie based affinity. </p>
+  summary: "<p>Enables cookie based affinity. </p>"
   syntax:
     content: public ReturnT withCookieBasedAffinity()
     return:
@@ -53,7 +53,7 @@ references:
   nameWithType: HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withoutCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withoutCookieBasedAffinity()
   type: Method
-  summary: <p>Disables cookie based affinity. </p>
+  summary: "<p>Disables cookie based affinity. </p>"
   syntax:
     content: public ReturnT withoutCookieBasedAffinity()
     return:
@@ -66,7 +66,7 @@ references:
   nameWithType: HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>
   type: Interface
-  summary: <p>The stage of a definition allowing to enable or disable cookie based affinity. </p>
+  summary: "<p>The stage of a definition allowing to enable or disable cookie based affinity. </p>"
   syntax:
     content: public interface WithCookieBasedAffinity<ReturnT>
     typeParameters:
@@ -80,10 +80,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway request routing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway request routing rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdate,ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithHostName<ParentT>,ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>
     typeParameters:

@@ -39,10 +39,7 @@ references:
   nameWithType: TrafficManagerEndpoint.DefinitionStages.WithNestedProfile<ParentT>.toProfile(TrafficManagerProfile profile)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.DefinitionStages.WithNestedProfile<ParentT>.toProfile(TrafficManagerProfile profile)
   type: Method
-  summary: >-
-    <p>Specifies a nested traffic manager profile for the endpoint.</p>
-
-    <p></p>
+  summary: "<p>Specifies a nested traffic manager profile for the endpoint.</p>\r\n<p></p>"
   syntax:
     content: public WithSourceTrafficRegionThenThreshold<ParentT> toProfile(TrafficManagerProfile profile)
     parameters:
@@ -59,10 +56,7 @@ references:
   nameWithType: TrafficManagerEndpoint.DefinitionStages.WithNestedProfile<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.DefinitionStages.WithNestedProfile<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the traffic manager nested profile endpoint definition allowing to specify the profile.</p>
-
-    <p></p>
+  summary: "<p>The stage of the traffic manager nested profile endpoint definition allowing to specify the profile.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNestedProfile<ParentT>
     typeParameters:
@@ -76,10 +70,7 @@ references:
   nameWithType: TrafficManagerEndpoint.Definition<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>The entirety of a traffic manager profile endpoint definition as a part of parent definition.</p>
-
-    <p></p>
+  summary: "<p>The entirety of a traffic manager profile endpoint definition as a part of parent definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends TrafficManagerEndpoint.DefinitionStages.AzureTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.DefinitionStages.ExternalTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.DefinitionStages.NestedProfileTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.DefinitionStages.WithAzureResource<ParentT>,TrafficManagerEndpoint.DefinitionStages.WithFqdn<ParentT>,TrafficManagerEndpoint.DefinitionStages.WithSourceTrafficRegion<ParentT>,TrafficManagerEndpoint.DefinitionStages.WithSourceTrafficRegionThenThreshold<ParentT>,TrafficManagerEndpoint.DefinitionStages.WithEndpointThreshold<ParentT>,TrafficManagerEndpoint.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -93,7 +84,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:

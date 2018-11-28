@@ -113,7 +113,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(String groupName)
     parameters:
@@ -130,7 +130,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(ResourceGroup group)
     parameters:
@@ -147,10 +147,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithExistingResourceGroup<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing an existing resource group to be selected.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing an existing resource group to be selected.</p>\r\n<p></p>"
   syntax:
     content: public interface WithExistingResourceGroup<T>
     typeParameters:
@@ -164,7 +161,7 @@ references:
   nameWithType: Deployment.Definition
   fullName: com.microsoft.azure.management.resources.Deployment.Definition
   type: Interface
-  summary: <p>Container interface for all the deployment definitions. </p>
+  summary: "<p>Container interface for all the deployment definitions. </p>"
   syntax:
     content: public interface Definition extends Deployment.DefinitionStages.Blank,Deployment.DefinitionStages.WithGroup,Deployment.DefinitionStages.WithTemplate,Deployment.DefinitionStages.WithParameters,Deployment.DefinitionStages.WithMode,Deployment.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.Blank
@@ -174,7 +171,7 @@ references:
   nameWithType: Deployment.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of deployment definition. </p>
+  summary: "<p>The first stage of deployment definition. </p>"
   syntax:
     content: public interface Blank extends Deployment.DefinitionStages.WithGroup
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
@@ -184,7 +181,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithTemplate
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
   type: Interface
-  summary: <p>A deployment definition allowing the template to be specified. </p>
+  summary: "<p>A deployment definition allowing the template to be specified. </p>"
   syntax:
     content: public interface WithTemplate
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.Region
@@ -194,7 +191,7 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -204,10 +201,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -221,6 +215,6 @@ references:
   nameWithType: ResourceGroup
   fullName: com.microsoft.azure.management.resources.ResourceGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource group. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource group. </p>"
   syntax:
     content: public interface ResourceGroup extends Indexable,Resource,Refreshable<ResourceGroup>,HasInner<ResourceGroupInner>,Updatable<ResourceGroup.Update>,HasName

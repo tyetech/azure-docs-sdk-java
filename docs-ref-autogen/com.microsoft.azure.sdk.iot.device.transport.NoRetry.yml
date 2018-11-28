@@ -73,7 +73,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
   type: Interface
-  summary: <p>An interface for the retry policy. </p>
+  summary: "<p>An interface for the retry policy. </p>"
   syntax:
     content: public interface RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.transport.RetryDecision
@@ -83,7 +83,7 @@ references:
   nameWithType: RetryDecision
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryDecision
   type: Class
-  summary: <p>Represents the retry details </p>
+  summary: "<p>Represents the retry details </p>"
   syntax:
     content: public class RetryDecision
 - uid: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy.getRetryDecision(int,TransportException)
@@ -93,10 +93,7 @@ references:
   nameWithType: RetryPolicy.getRetryDecision(int currentRetryCount, TransportException lastException)
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy.getRetryDecision(int currentRetryCount, TransportException lastException)
   type: Method
-  summary: >-
-    <p>Determines whether the operation should be retried and the interval until the next retry.</p>
-
-    <p></p>
+  summary: "<p>Determines whether the operation should be retried and the interval until the next retry.</p>\r\n<p></p>"
   syntax:
     content: public RetryDecision getRetryDecision(int currentRetryCount, TransportException lastException)
     parameters:

@@ -111,10 +111,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withOrderBy(String orderBy)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withOrderBy(String orderBy)
   type: Method
-  summary: >-
-    <p>The ordering. Defaults to newest. Possible values include: 'Newest', 'Oldest'.</p>
-
-    <p></p>
+  summary: "<p>The ordering. Defaults to newest. Possible values include: 'Newest', 'Oldest'.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsGetImagePerformancesDefinitionStages.WithExecute withOrderBy(String orderBy)
     parameters:
@@ -130,10 +127,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withSkip(Integer skip)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withSkip(Integer skip)
   type: Method
-  summary: >-
-    <p>Number of images to skip before beginning the image batch. Defaults to 0.</p>
-
-    <p></p>
+  summary: "<p>Number of images to skip before beginning the image batch. Defaults to 0.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsGetImagePerformancesDefinitionStages.WithExecute withSkip(Integer skip)
     parameters:
@@ -149,10 +143,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withTagIds(List<String> tagIds)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withTagIds(List<String> tagIds)
   type: Method
-  summary: >-
-    <p>A list of tags ids to filter the images. Defaults to all tagged images when null. Limited to 20.</p>
-
-    <p></p>
+  summary: "<p>A list of tags ids to filter the images. Defaults to all tagged images when null. Limited to 20.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsGetImagePerformancesDefinitionStages.WithExecute withTagIds(List<String> tagIds)
     parameters:
@@ -168,10 +159,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withTake(Integer take)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions.withTake(Integer take)
   type: Method
-  summary: >-
-    <p>Maximum number of images to return. Defaults to 50, limited to 256.</p>
-
-    <p></p>
+  summary: "<p>Maximum number of images to return. Defaults to 50, limited to 256.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsGetImagePerformancesDefinitionStages.WithExecute withTake(Integer take)
     parameters:
@@ -187,7 +175,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformancesDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformancesDefinition
@@ -197,7 +185,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagePerformancesDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformancesDefinition
   type: Interface
-  summary: <p>The entirety of getImagePerformances definition. </p>
+  summary: "<p>The entirety of getImagePerformances definition. </p>"
   syntax:
     content: public interface TrainingsGetImagePerformancesDefinition extends Trainings.TrainingsGetImagePerformancesDefinitionStages.WithProjectId,Trainings.TrainingsGetImagePerformancesDefinitionStages.WithIterationId,Trainings.TrainingsGetImagePerformancesDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.models.ImagePerformance
@@ -207,6 +195,6 @@ references:
   nameWithType: ImagePerformance
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.models.ImagePerformance
   type: Class
-  summary: <p>Image performance model. </p>
+  summary: "<p>Image performance model. </p>"
   syntax:
     content: public class ImagePerformance

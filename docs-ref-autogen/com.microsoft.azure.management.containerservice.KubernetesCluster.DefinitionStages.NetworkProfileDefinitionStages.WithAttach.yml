@@ -44,7 +44,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -57,10 +57,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>.withDnsServiceIP(String dnsServiceIP)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>.withDnsServiceIP(String dnsServiceIP)
   type: Method
-  summary: >-
-    <p>Specifies an IP address assigned to the Kubernetes DNS service; it must be within the Kubernetes service address range specified in the service CIDR.</p>
-
-    <p></p>
+  summary: "<p>Specifies an IP address assigned to the Kubernetes DNS service; it must be within the Kubernetes service address range specified in the service CIDR.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDnsServiceIP(String dnsServiceIP)
     parameters:
@@ -77,10 +74,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>.withDockerBridgeCidr(String dockerBridgeCidr)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>.withDockerBridgeCidr(String dockerBridgeCidr)
   type: Method
-  summary: >-
-    <p>Specifies a CIDR notation IP range assigned to the Docker bridge network; it must not overlap with any subnet IP ranges or the Kubernetes service address range.</p>
-
-    <p></p>
+  summary: "<p>Specifies a CIDR notation IP range assigned to the Docker bridge network; it must not overlap with any subnet IP ranges or the Kubernetes service address range.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDockerBridgeCidr(String dockerBridgeCidr)
     parameters:
@@ -97,10 +91,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>.withNetworkPolicy(NetworkPolicy networkPolicy)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>.withNetworkPolicy(NetworkPolicy networkPolicy)
   type: Method
-  summary: >-
-    <p>Specifies the network policy to be used for building the Kubernetes network.</p>
-
-    <p></p>
+  summary: "<p>Specifies the network policy to be used for building the Kubernetes network.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withNetworkPolicy(NetworkPolicy networkPolicy)
     parameters:
@@ -117,10 +108,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>.withPodCidr(String podCidr)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>.withPodCidr(String podCidr)
   type: Method
-  summary: >-
-    <p>Specifies a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>
-
-    <p></p>
+  summary: "<p>Specifies a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withPodCidr(String podCidr)
     parameters:
@@ -137,10 +125,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>.withServiceCidr(String serviceCidr)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>.withServiceCidr(String serviceCidr)
   type: Method
-  summary: >-
-    <p>Specifies a CIDR notation IP range from which to assign service cluster IPs; must not overlap with any subnet IP ranges.</p>
-
-    <p></p>
+  summary: "<p>Specifies a CIDR notation IP range from which to assign service cluster IPs; must not overlap with any subnet IP ranges.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withServiceCidr(String serviceCidr)
     parameters:
@@ -157,10 +142,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify the network policy.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify the network policy.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNetworkPolicy<ParentT>
     typeParameters:
@@ -174,10 +156,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPodCidr<ParentT>
     typeParameters:
@@ -191,10 +170,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign service cluster IPs.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign service cluster IPs.</p>\r\n<p></p>"
   syntax:
     content: public interface WithServiceCidr<ParentT>
     typeParameters:
@@ -208,10 +184,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify an IP address assigned to the Kubernetes DNS service.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify an IP address assigned to the Kubernetes DNS service.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDnsServiceIP<ParentT>
     typeParameters:
@@ -225,10 +198,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify a CIDR notation IP range assigned to the Docker bridge network.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify a CIDR notation IP range assigned to the Docker bridge network.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDockerBridgeCidr<ParentT>
     typeParameters:
@@ -242,7 +212,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -256,7 +226,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   type: Interface
-  summary: <p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>
+  summary: "<p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>"
   syntax:
     content: public interface NetworkProfileDefinition<ParentT> extends KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -270,10 +240,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a network profile definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a network profile definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
     typeParameters:

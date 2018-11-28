@@ -202,7 +202,7 @@ references:
   nameWithType: Shard
   fullName: com.microsoft.azure.elasticdb.shard.base.Shard
   type: Class
-  summary: <p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid="com.microsoft.azure.elasticdb.shard.base.ShardLocation" data-throw-if-not-resolved="false">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid="com.microsoft.azure.elasticdb.shard.base.PointMapping" data-throw-if-not-resolved="false">PointMapping</xref> and <xref uid="com.microsoft.azure.elasticdb.shard.base.RangeMapping" data-throw-if-not-resolved="false">RangeMapping</xref>). </p>
+  summary: "<p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid=\"com.microsoft.azure.elasticdb.shard.base.ShardLocation\" data-throw-if-not-resolved=\"false\">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid=\"com.microsoft.azure.elasticdb.shard.base.PointMapping\" data-throw-if-not-resolved=\"false\">PointMapping</xref> and <xref uid=\"com.microsoft.azure.elasticdb.shard.base.RangeMapping\" data-throw-if-not-resolved=\"false\">RangeMapping</xref>). </p>"
   syntax:
     content: public class Shard
 - uid: com.microsoft.azure.elasticdb.shard.base.MappingStatus
@@ -212,7 +212,7 @@ references:
   nameWithType: MappingStatus
   fullName: com.microsoft.azure.elasticdb.shard.base.MappingStatus
   type: Enum
-  summary: <p>Status of a mapping. </p>
+  summary: "<p>Status of a mapping. </p>"
   syntax:
     content: public enum MappingStatus
 - uid: com.microsoft.azure.elasticdb.shard.base.ShardKey
@@ -222,7 +222,7 @@ references:
   nameWithType: ShardKey
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardKey
   type: Class
-  summary: <p>Shard key value. Wraps the type and value and allows normalization/denormalization for serialization. </p>
+  summary: "<p>Shard key value. Wraps the type and value and allows normalization/denormalization for serialization. </p>"
   syntax:
     content: public class ShardKey
 - uid: com.microsoft.azure.elasticdb.shard.base.PointMapping
@@ -232,6 +232,6 @@ references:
   nameWithType: PointMapping
   fullName: com.microsoft.azure.elasticdb.shard.base.PointMapping
   type: Class
-  summary: <p>Represents a mapping between the singleton key value of a shardlet (a point) and a <xref uid="com.microsoft.azure.elasticdb.shard.base.Shard" data-throw-if-not-resolved="false">Shard</xref>. </p>
+  summary: "<p>Represents a mapping between the singleton key value of a shardlet (a point) and a <xref uid=\"com.microsoft.azure.elasticdb.shard.base.Shard\" data-throw-if-not-resolved=\"false\">Shard</xref>. </p>"
   syntax:
     content: public class PointMapping implements IShardProvider<Object>,IMappingInfoProvider

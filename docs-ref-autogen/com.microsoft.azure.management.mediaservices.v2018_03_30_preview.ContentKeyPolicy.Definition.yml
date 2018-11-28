@@ -33,7 +33,7 @@ references:
   nameWithType: ContentKeyPolicy.DefinitionStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithDescription.withDescription(String description)
   type: Method
-  summary: <p>Specifies description. </p>
+  summary: "<p>Specifies description. </p>"
   syntax:
     content: public WithCreate withDescription(String description)
     parameters:
@@ -48,7 +48,7 @@ references:
   nameWithType: ContentKeyPolicy.DefinitionStages.WithMediaservice.withExistingMediaservice(String resourceGroupName, String accountName)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithMediaservice.withExistingMediaservice(String resourceGroupName, String accountName)
   type: Method
-  summary: <p>Specifies resourceGroupName, accountName. </p>
+  summary: "<p>Specifies resourceGroupName, accountName. </p>"
   syntax:
     content: public WithOptions withExistingMediaservice(String resourceGroupName, String accountName)
     parameters:
@@ -65,7 +65,7 @@ references:
   nameWithType: ContentKeyPolicy.DefinitionStages.WithOptions.withOptions(List<ContentKeyPolicyOption> options)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithOptions.withOptions(List<ContentKeyPolicyOption> options)
   type: Method
-  summary: <p>Specifies options. </p>
+  summary: "<p>Specifies options. </p>"
   syntax:
     content: public WithCreate withOptions(List<ContentKeyPolicyOption> options)
     parameters:
@@ -80,7 +80,7 @@ references:
   nameWithType: ContentKeyPolicy.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a ContentKeyPolicy definition. </p>
+  summary: "<p>The first stage of a ContentKeyPolicy definition. </p>"
   syntax:
     content: public interface Blank extends ContentKeyPolicy.DefinitionStages.WithMediaservice
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithMediaservice
@@ -90,7 +90,7 @@ references:
   nameWithType: ContentKeyPolicy.DefinitionStages.WithMediaservice
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithMediaservice
   type: Interface
-  summary: <p>The stage of the contentkeypolicy definition allowing to specify Mediaservice. </p>
+  summary: "<p>The stage of the contentkeypolicy definition allowing to specify Mediaservice. </p>"
   syntax:
     content: public interface WithMediaservice
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithOptions
@@ -100,7 +100,7 @@ references:
   nameWithType: ContentKeyPolicy.DefinitionStages.WithOptions
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithOptions
   type: Interface
-  summary: <p>The stage of the contentkeypolicy definition allowing to specify Options. </p>
+  summary: "<p>The stage of the contentkeypolicy definition allowing to specify Options. </p>"
   syntax:
     content: public interface WithOptions
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithCreate
@@ -110,6 +110,6 @@ references:
   nameWithType: ContentKeyPolicy.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.ContentKeyPolicy.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

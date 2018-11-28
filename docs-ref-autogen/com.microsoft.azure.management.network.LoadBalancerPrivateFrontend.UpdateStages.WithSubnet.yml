@@ -69,7 +69,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.Update
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.Update
   type: Interface
-  summary: <p>The entirety of a private frontend update as part of a load balancer update. </p>
+  summary: "<p>The entirety of a private frontend update as part of a load balancer update. </p>"
   syntax:
     content: public interface Update extends Settable<LoadBalancer.Update>,LoadBalancerPrivateFrontend.UpdateStages.WithSubnet,HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress<Update>
 - uid: com.microsoft.azure.management.network.Network
@@ -79,6 +79,6 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>

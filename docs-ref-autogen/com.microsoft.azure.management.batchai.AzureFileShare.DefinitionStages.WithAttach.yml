@@ -39,7 +39,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -80,7 +80,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -118,10 +118,7 @@ references:
   nameWithType: AzureFileShare.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.AzureFileShare.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of azure file share reference.</p>
-
-    <p></p>
+  summary: "<p>Definition of azure file share reference.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends AzureFileShare.DefinitionStages.Blank<ParentT>,AzureFileShare.DefinitionStages.WithAzureFileUrl<ParentT>,AzureFileShare.DefinitionStages.WithRelativeMountPath<ParentT>,AzureFileShare.DefinitionStages.WithAzureStorageCredentials<ParentT>,AzureFileShare.DefinitionStages.WithAttach<ParentT>
     typeParameters:

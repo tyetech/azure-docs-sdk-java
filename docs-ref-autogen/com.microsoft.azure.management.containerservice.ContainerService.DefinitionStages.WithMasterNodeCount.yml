@@ -62,7 +62,7 @@ references:
   nameWithType: ContainerService.Definition
   fullName: com.microsoft.azure.management.containerservice.ContainerService.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a container service. </p>
+  summary: "<p>Container interface for all the definitions related to a container service. </p>"
   syntax:
     content: public interface Definition extends ContainerService.DefinitionStages.Blank,ContainerService.DefinitionStages.WithGroup,ContainerService.DefinitionStages.WithOrchestrator,ContainerService.DefinitionStages.WithMasterNodeCount,ContainerService.DefinitionStages.WithLinux,ContainerService.DefinitionStages.WithLinuxRootUsername,ContainerService.DefinitionStages.WithLinuxSshKey,ContainerService.DefinitionStages.WithAgentPool,ContainerService.DefinitionStages.WithServicePrincipalProfile,ContainerService.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool
@@ -72,7 +72,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithAgentPool
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify an agent pool profile. </p>
+  summary: "<p>The stage of the container service definition allowing to specify an agent pool profile. </p>"
   syntax:
     content: public interface WithAgentPool
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterNodeCount(ContainerServiceMasterProfileCount)
@@ -82,7 +82,7 @@ references:
   nameWithType: ContainerServiceImpl.withMasterNodeCount(ContainerServiceMasterProfileCount profileCount)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterNodeCount(ContainerServiceMasterProfileCount profileCount)
   type: Method
-  summary: <p>Specifies the master node count. </p>
+  summary: "<p>Specifies the master node count. </p>"
   syntax:
     content: public ContainerServiceImpl withMasterNodeCount(ContainerServiceMasterProfileCount profileCount)
     parameters:
@@ -99,6 +99,6 @@ references:
   nameWithType: ContainerServiceMasterProfileCount
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceMasterProfileCount
   type: Enum
-  summary: <p>The minimum valid number of master nodes. </p>
+  summary: "<p>The minimum valid number of master nodes. </p>"
   syntax:
     content: public enum ContainerServiceMasterProfileCount

@@ -66,7 +66,7 @@ references:
   nameWithType: KubernetesCluster.Definition
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
   type: Interface
-  summary: <p>Interface for all the definitions related to a Kubernetes cluster. </p>
+  summary: "<p>Interface for all the definitions related to a Kubernetes cluster. </p>"
   syntax:
     content: public interface Definition extends KubernetesCluster.DefinitionStages.Blank,KubernetesCluster.DefinitionStages.WithGroup,KubernetesCluster.DefinitionStages.WithVersion,KubernetesCluster.DefinitionStages.WithLinuxRootUsername,KubernetesCluster.DefinitionStages.WithLinuxSshKey,KubernetesCluster.DefinitionStages.WithServicePrincipalClientId,KubernetesCluster.DefinitionStages.WithServicePrincipalProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAgentPool,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithAddOnProfiles,KubernetesCluster.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
@@ -76,7 +76,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the service principal secret. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the service principal secret. </p>"
   syntax:
     content: public interface WithServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withServicePrincipalClientId(String)
@@ -86,10 +86,7 @@ references:
   nameWithType: KubernetesClusterImpl.withServicePrincipalClientId(String clientId)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withServicePrincipalClientId(String clientId)
   type: Method
-  summary: >-
-    <p>Properties for Kubernetes cluster service principal.</p>
-
-    <p></p>
+  summary: "<p>Properties for Kubernetes cluster service principal.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withServicePrincipalClientId(String clientId)
     parameters:

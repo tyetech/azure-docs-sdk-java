@@ -398,12 +398,7 @@ references:
   nameWithType: ClientEntity
   fullName: com.microsoft.azure.servicebus.primitives.ClientEntity
   type: Class
-  summary: >-
-    <p>Contract for all client entities with Open-Close/Abort state m/c </p>
-
-    <p>main-purpose: closeAll related entities </p>
-
-    <p>Internal-class </p>
+  summary: "<p>Contract for all client entities with Open-Close/Abort state m/c </p>\r\n<p>main-purpose: closeAll related entities </p>\r\n<p>Internal-class </p>"
   syntax:
     content: public class ClientEntity
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityType
@@ -422,7 +417,7 @@ references:
   nameWithType: MessagingFactory
   fullName: com.microsoft.azure.servicebus.primitives.MessagingFactory
   type: Class
-  summary: <p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>
+  summary: "<p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>"
   syntax:
     content: public class MessagingFactory extends ClientEntity
 - uid: com.microsoft.azure.servicebus.primitives.MiscRequestResponseOperationHandler
@@ -454,9 +449,6 @@ references:
   nameWithType: RuleDescription
   fullName: com.microsoft.azure.servicebus.rules.RuleDescription
   type: Class
-  summary: >-
-    <p>Representation of a rule defined on service bus topics.</p>
-
-    <p></p>
+  summary: "<p>Representation of a rule defined on service bus topics.</p>\r\n<p></p>"
   syntax:
     content: public class RuleDescription

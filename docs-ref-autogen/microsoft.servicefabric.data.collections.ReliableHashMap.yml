@@ -1326,7 +1326,7 @@ references:
   nameWithType: ReliableCollection
   fullName: microsoft.servicefabric.data.collections.ReliableCollection
   type: Interface
-  summary: <p>Defines methods for manipulating Reliable Collections. </p>
+  summary: "<p>Defines methods for manipulating Reliable Collections. </p>"
   syntax:
     content: public interface ReliableCollection extends ReliableState
 - uid: microsoft.servicefabric.data.ReliableState.getName()
@@ -1336,10 +1336,7 @@ references:
   nameWithType: ReliableState.getName()
   fullName: microsoft.servicefabric.data.ReliableState.getName()
   type: Method
-  summary: >-
-    <p>Gets a value indicating the unique name for <xref uid="microsoft.servicefabric.data.ReliableState" data-throw-if-not-resolved="false">ReliableState</xref></p>
-
-    <p></p>
+  summary: "<p>Gets a value indicating the unique name for <xref uid=\"microsoft.servicefabric.data.ReliableState\" data-throw-if-not-resolved=\"false\">ReliableState</xref></p>\r\n<p></p>"
   syntax:
     content: public URI getName()
     return:
@@ -1361,7 +1358,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.data.utilities.AsyncEnumeration
@@ -1371,10 +1368,7 @@ references:
   nameWithType: AsyncEnumeration<E>
   fullName: microsoft.servicefabric.data.utilities.AsyncEnumeration<E>
   type: Interface
-  summary: >-
-    <p>Asynchronous enumerator</p>
-
-    <p></p>
+  summary: "<p>Asynchronous enumerator</p>\r\n<p></p>"
   syntax:
     content: public interface AsyncEnumeration<E>
     typeParameters:
@@ -1388,10 +1382,7 @@ references:
   nameWithType: KeyValuePair<K,V>
   fullName: microsoft.servicefabric.data.utilities.KeyValuePair<K,V>
   type: Class
-  summary: >-
-    <p>A pair maintaining a key and a value.</p>
-
-    <p></p>
+  summary: "<p>A pair maintaining a key and a value.</p>\r\n<p></p>"
   syntax:
     content: public class KeyValuePair<K extends String,V>
     typeParameters:
@@ -1408,7 +1399,7 @@ references:
   nameWithType: LockMode
   fullName: microsoft.servicefabric.data.collections.LockMode
   type: Enum
-  summary: <p>Specifies how reliable collections will lock resources, which determines how the resources can be accessed by concurrent transactions. </p>
+  summary: "<p>Specifies how reliable collections will lock resources, which determines how the resources can be accessed by concurrent transactions. </p>"
   syntax:
     content: public enum LockMode
 - uid: microsoft.servicefabric.data.collections.ReliableCollection.clearAsync()
@@ -1418,7 +1409,7 @@ references:
   nameWithType: ReliableCollection.clearAsync()
   fullName: microsoft.servicefabric.data.collections.ReliableCollection.clearAsync()
   type: Method
-  summary: <p>Removes all state from the <xref uid="microsoft.servicefabric.data.collections.ReliableCollection" data-throw-if-not-resolved="false">ReliableCollection</xref>, including replicated and persisted store. </p>
+  summary: "<p>Removes all state from the <xref uid=\"microsoft.servicefabric.data.collections.ReliableCollection\" data-throw-if-not-resolved=\"false\">ReliableCollection</xref>, including replicated and persisted store. </p>"
   syntax:
     content: public CompletableFuture<Void> clearAsync()
     return:
@@ -1431,10 +1422,7 @@ references:
   nameWithType: ReliableCollection.getCount()
   fullName: microsoft.servicefabric.data.collections.ReliableCollection.getCount()
   type: Method
-  summary: >-
-    <p>Gets the number of elements contained in the <xref uid="microsoft.servicefabric.data.collections.ReliableCollection" data-throw-if-not-resolved="false">ReliableCollection</xref></p>
-
-    <p></p>
+  summary: "<p>Gets the number of elements contained in the <xref uid=\"microsoft.servicefabric.data.collections.ReliableCollection\" data-throw-if-not-resolved=\"false\">ReliableCollection</xref></p>\r\n<p></p>"
   syntax:
     content: public long getCount()
     return:

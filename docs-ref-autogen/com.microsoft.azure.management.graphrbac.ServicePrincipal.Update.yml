@@ -41,10 +41,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -57,10 +54,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -73,10 +67,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -93,7 +84,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithCredential.defineCertificateCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithCredential.defineCertificateCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a certificate credential. </p>
+  summary: "<p>Starts the definition of a certificate credential. </p>"
   syntax:
     content: public CertificateCredential.UpdateDefinitionStages.Blank<Update> defineCertificateCredential(String name)
     parameters:
@@ -110,7 +101,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithCredential.definePasswordCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithCredential.definePasswordCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a password credential. </p>
+  summary: "<p>Starts the definition of a password credential. </p>"
   syntax:
     content: public PasswordCredential.UpdateDefinitionStages.Blank<Update> definePasswordCredential(String name)
     parameters:
@@ -139,7 +130,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithRoleAssignment.withNewRole(BuiltInRole role, String scope)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithRoleAssignment.withNewRole(BuiltInRole role, String scope)
   type: Method
-  summary: <p>Assigns a new role to the service principal. </p>
+  summary: "<p>Assigns a new role to the service principal. </p>"
   syntax:
     content: public Update withNewRole(BuiltInRole role, String scope)
     parameters:
@@ -159,7 +150,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithRoleAssignment.withNewRoleInResourceGroup(BuiltInRole role, ResourceGroup resourceGroup)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithRoleAssignment.withNewRoleInResourceGroup(BuiltInRole role, ResourceGroup resourceGroup)
   type: Method
-  summary: <p>Assigns a new role to the service principal. </p>
+  summary: "<p>Assigns a new role to the service principal. </p>"
   syntax:
     content: public Update withNewRoleInResourceGroup(BuiltInRole role, ResourceGroup resourceGroup)
     parameters:
@@ -179,7 +170,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithRoleAssignment.withNewRoleInSubscription(BuiltInRole role, String subscriptionId)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithRoleAssignment.withNewRoleInSubscription(BuiltInRole role, String subscriptionId)
   type: Method
-  summary: <p>Assigns a new role to the service principal. </p>
+  summary: "<p>Assigns a new role to the service principal. </p>"
   syntax:
     content: public Update withNewRoleInSubscription(BuiltInRole role, String subscriptionId)
     parameters:
@@ -199,7 +190,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithCredential.withoutCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithCredential.withoutCredential(String name)
   type: Method
-  summary: <p>Removes a credential. </p>
+  summary: "<p>Removes a credential. </p>"
   syntax:
     content: public Update withoutCredential(String name)
     parameters:
@@ -216,7 +207,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithRoleAssignment.withoutRole(RoleAssignment roleAssignment)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithRoleAssignment.withoutRole(RoleAssignment roleAssignment)
   type: Method
-  summary: <p>Removes a role from the service principal. </p>
+  summary: "<p>Removes a role from the service principal. </p>"
   syntax:
     content: public Update withoutRole(RoleAssignment roleAssignment)
     parameters:
@@ -233,10 +224,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -250,7 +238,7 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithCredential
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithCredential
   type: Interface
-  summary: <p>A service principal update allowing credentials to be specified. </p>
+  summary: "<p>A service principal update allowing credentials to be specified. </p>"
   syntax:
     content: public interface WithCredential
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithRoleAssignment
@@ -260,6 +248,6 @@ references:
   nameWithType: ServicePrincipal.UpdateStages.WithRoleAssignment
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.UpdateStages.WithRoleAssignment
   type: Interface
-  summary: <p>A service principal update allowing role assignments to be added. </p>
+  summary: "<p>A service principal update allowing role assignments to be added. </p>"
   syntax:
     content: public interface WithRoleAssignment

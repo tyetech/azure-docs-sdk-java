@@ -42,10 +42,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -58,10 +55,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -74,10 +68,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -165,7 +156,7 @@ references:
   nameWithType: LocalNetworkGateway.UpdateStages.WithAddressSpace.withoutAddressSpace(String cidr)
   fullName: com.microsoft.azure.management.network.LocalNetworkGateway.UpdateStages.WithAddressSpace.withoutAddressSpace(String cidr)
   type: Method
-  summary: '<p>Remove address space. Note: address space will be removed only in case of exact cidr string match. </p>'
+  summary: "<p>Remove address space. Note: address space will be removed only in case of exact cidr string match. </p>"
   syntax:
     content: public Update withoutAddressSpace(String cidr)
     parameters:
@@ -181,7 +172,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -198,7 +189,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -218,7 +209,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -235,10 +226,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -252,10 +240,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -269,7 +254,7 @@ references:
   nameWithType: LocalNetworkGateway.UpdateStages.WithIPAddress
   fullName: com.microsoft.azure.management.network.LocalNetworkGateway.UpdateStages.WithIPAddress
   type: Interface
-  summary: <p>The stage of the local network gateway update allowing to change IP address of local network gateway. </p>
+  summary: "<p>The stage of the local network gateway update allowing to change IP address of local network gateway. </p>"
   syntax:
     content: public interface WithIPAddress
 - uid: com.microsoft.azure.management.network.LocalNetworkGateway.UpdateStages.WithAddressSpace
@@ -279,7 +264,7 @@ references:
   nameWithType: LocalNetworkGateway.UpdateStages.WithAddressSpace
   fullName: com.microsoft.azure.management.network.LocalNetworkGateway.UpdateStages.WithAddressSpace
   type: Interface
-  summary: <p>The stage of the local network gateway update allowing to specify the address spaces. </p>
+  summary: "<p>The stage of the local network gateway update allowing to specify the address spaces. </p>"
   syntax:
     content: public interface WithAddressSpace
 - uid: com.microsoft.azure.management.network.LocalNetworkGateway.UpdateStages.WithBgp
@@ -289,6 +274,6 @@ references:
   nameWithType: LocalNetworkGateway.UpdateStages.WithBgp
   fullName: com.microsoft.azure.management.network.LocalNetworkGateway.UpdateStages.WithBgp
   type: Interface
-  summary: <p>The stage of update allowing to specify local network gateway's BGP speaker settings. </p>
+  summary: "<p>The stage of update allowing to specify local network gateway's BGP speaker settings. </p>"
   syntax:
     content: public interface WithBgp

@@ -314,7 +314,7 @@ references:
   nameWithType: ADLStoreOptions
   fullName: com.microsoft.azure.datalake.store.ADLStoreOptions
   type: Class
-  summary: <p>Options to configure the behavior of <xref uid="com.microsoft.azure.datalake.store.ADLStoreClient" data-throw-if-not-resolved="false">ADLStoreClient</xref></p>
+  summary: "<p>Options to configure the behavior of <xref uid=\"com.microsoft.azure.datalake.store.ADLStoreClient\" data-throw-if-not-resolved=\"false\">ADLStoreClient</xref></p>"
   syntax: *o1
 - uid: com.microsoft.azure.datalake.store.ADLException
   parent: com.microsoft.azure.datalake.store
@@ -323,7 +323,7 @@ references:
   nameWithType: ADLException
   fullName: com.microsoft.azure.datalake.store.ADLException
   type: Class
-  summary: <p>Exception type returned by Azure Data Lake SDK methods. Derives from <xref uid="" data-throw-if-not-resolved="false">IOException</xref>. Contains a number of additional fields that contain information about the success or failure of a server call. </p>
+  summary: "<p>Exception type returned by Azure Data Lake SDK methods. Derives from <xref uid=\"\" data-throw-if-not-resolved=\"false\">IOException</xref>. Contains a number of additional fields that contain information about the success or failure of a server call. </p>"
   syntax:
     content: public class ADLException
 - uid: com.microsoft.azure.datalake.store.ADLFileInputStream
@@ -333,12 +333,7 @@ references:
   nameWithType: ADLFileInputStream
   fullName: com.microsoft.azure.datalake.store.ADLFileInputStream
   type: Class
-  summary: >-
-    <p>ADLFileInputStream can be used to read data from an open file on ADL. It is a buffering stream, that reads data from the server in bulk, and then satisfies user reads from the buffer. Default buffer size is 4MB.</p>
-
-    <p>
-
-      <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe. </p>
+  summary: "<p>ADLFileInputStream can be used to read data from an open file on ADL. It is a buffering stream, that reads data from the server in bulk, and then satisfies user reads from the buffer. Default buffer size is 4MB.</p>\r\n<p>\r\n  <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe. </p>"
   syntax:
     content: public class ADLFileInputStream
 - uid: com.microsoft.azure.datalake.store.ADLStoreClient
@@ -348,11 +343,6 @@ references:
   nameWithType: ADLStoreClient
   fullName: com.microsoft.azure.datalake.store.ADLStoreClient
   type: Class
-  summary: >-
-    <p>
-
-      <code>ADLStoreClient 
-
-        </code> class represents a client to Azure Data Lake. It can be used to perform operations on files and directories. </p>
+  summary: "<p>\r\n  <code>ADLStoreClient \r\n    </code> class represents a client to Azure Data Lake. It can be used to perform operations on files and directories. </p>"
   syntax:
     content: public class ADLStoreClient

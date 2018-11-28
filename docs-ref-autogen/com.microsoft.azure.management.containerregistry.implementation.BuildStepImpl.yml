@@ -589,10 +589,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -605,10 +602,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -621,10 +615,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -641,10 +632,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -657,10 +645,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -677,10 +662,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -741,10 +723,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -757,10 +736,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -773,7 +749,7 @@ references:
   nameWithType: BuildStep
   fullName: com.microsoft.azure.management.containerregistry.BuildStep
   type: Interface
-  summary: <p>An object that represents a build step for a build task in a container registry. </p>
+  summary: "<p>An object that represents a build step for a build task in a container registry. </p>"
   syntax:
     content: public interface BuildStep extends ExternalChildResource<BuildStep, BuildTask>,HasName,HasId,HasInner<BuildStepInner>,Refreshable<BuildStep>,Updatable<BuildStep.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinition
@@ -783,7 +759,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface BuildTaskBuildStepsDefinition
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.Update
@@ -793,7 +769,7 @@ references:
   nameWithType: BuildStep.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update
 - uid: com.microsoft.azure.management.containerregistry.DockerBuildStepUpdateParameters
@@ -803,7 +779,7 @@ references:
   nameWithType: DockerBuildStepUpdateParameters
   fullName: com.microsoft.azure.management.containerregistry.DockerBuildStepUpdateParameters
   type: Class
-  summary: <p>The properties for updating a docker build step. </p>
+  summary: "<p>The properties for updating a docker build step. </p>"
   syntax:
     content: public class DockerBuildStepUpdateParameters
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
@@ -813,7 +789,7 @@ references:
   nameWithType: BuildTaskImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
   type: Class
-  summary: <p>Implementation for BuildTask. </p>
+  summary: "<p>Implementation for BuildTask. </p>"
   syntax:
     content: public class BuildTaskImpl
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepInner
@@ -823,7 +799,7 @@ references:
   nameWithType: BuildStepInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepInner
   type: Class
-  summary: <p>Build step resource properties. </p>
+  summary: "<p>Build step resource properties. </p>"
   syntax:
     content: public class BuildStepInner
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource.id()
@@ -845,7 +821,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.containerregistry.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.provisioningState()
@@ -867,7 +843,7 @@ references:
   nameWithType: BuildStepImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl
   type: Class
-  summary: <p>Implementation for Build Step. </p>
+  summary: "<p>Implementation for Build Step. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch.withBranch(String)
   parent: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
@@ -876,10 +852,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch.withBranch(String branch)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch.withBranch(String branch)
   type: Method
-  summary: >-
-    <p>Specifies the branch required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the branch required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withBranch(String branch)
     parameters:
@@ -896,10 +869,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext.withContextPath(String contextPath)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext.withContextPath(String contextPath)
   type: Method
-  summary: >-
-    <p>Specifies the relative context path for a docker build in the source required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the relative context path for a docker build in the source required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withContextPath(String contextPath)
     parameters:
@@ -916,10 +886,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   type: Method
-  summary: >-
-    <p>Specifies the Docker file path required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Docker file path required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withDockerFilePath(String dockerFilePath)
     parameters:
@@ -936,10 +903,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   type: Method
-  summary: >-
-    <p>Specifies the image names for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the image names for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImageNames(String... imageNames)
     parameters:
@@ -956,10 +920,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImageCacheEnabled()
     return:
@@ -972,10 +933,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImageCacheDisabled()
     return:
@@ -988,10 +946,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImagePushEnabled()
     return:
@@ -1004,10 +959,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should not be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should not be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImagePushDisabled()
     return:
@@ -1020,10 +972,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument.buildArgument(String name, String value, boolean secrecy)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument.buildArgument(String name, String value, boolean secrecy)
   type: Method
-  summary: >-
-    <p>Specifies the build argument settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build argument settings.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate buildArgument(String name, String value, boolean secrecy)
     parameters:
@@ -1046,12 +995,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:

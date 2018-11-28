@@ -78,7 +78,7 @@ references:
   nameWithType: DomainContact.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a domain contact definition. </p>
+  summary: "<p>The entirety of a domain contact definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends DomainContact.DefinitionStages.Blank<ParentT>,DomainContact.DefinitionStages.WithFirstName<ParentT>,DomainContact.DefinitionStages.WithMiddleName<ParentT>,DomainContact.DefinitionStages.WithAddressLine1<ParentT>,DomainContact.DefinitionStages.WithAddressLine2<ParentT>,DomainContact.DefinitionStages.WithCity<ParentT>,DomainContact.DefinitionStages.WithStateOrProvince<ParentT>,DomainContact.DefinitionStages.WithCountry<ParentT>,DomainContact.DefinitionStages.WithPostalCode<ParentT>,DomainContact.DefinitionStages.WithEmail<ParentT>,DomainContact.DefinitionStages.WithPhoneCountryCode<ParentT>,DomainContact.DefinitionStages.WithPhoneNumber<ParentT>,DomainContact.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -92,7 +92,7 @@ references:
   nameWithType: DomainContact.DefinitionStages.WithPhoneNumber<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPhoneNumber<ParentT>
   type: Interface
-  summary: <p>The stage of contact definition allowing phone number to be set. </p>
+  summary: "<p>The stage of contact definition allowing phone number to be set. </p>"
   syntax:
     content: public interface WithPhoneNumber<ParentT>
     typeParameters:
@@ -106,6 +106,6 @@ references:
   nameWithType: CountryPhoneCode
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.CountryPhoneCode
   type: Class
-  summary: <p>Defines values for country codes for phone number prefixes. E.g. the country code for +1 123 456 7890 is '+1'. </p>
+  summary: "<p>Defines values for country codes for phone number prefixes. E.g. the country code for +1 123 456 7890 is '+1'. </p>"
   syntax:
     content: public class CountryPhoneCode extends ExpandableStringEnum<CountryPhoneCode>

@@ -69,7 +69,7 @@ references:
   nameWithType: ContainerService.Definition
   fullName: com.microsoft.azure.management.containerservice.ContainerService.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a container service. </p>
+  summary: "<p>Container interface for all the definitions related to a container service. </p>"
   syntax:
     content: public interface Definition extends ContainerService.DefinitionStages.Blank,ContainerService.DefinitionStages.WithGroup,ContainerService.DefinitionStages.WithOrchestrator,ContainerService.DefinitionStages.WithMasterNodeCount,ContainerService.DefinitionStages.WithLinux,ContainerService.DefinitionStages.WithLinuxRootUsername,ContainerService.DefinitionStages.WithLinuxSshKey,ContainerService.DefinitionStages.WithAgentPool,ContainerService.DefinitionStages.WithServicePrincipalProfile,ContainerService.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux
@@ -79,7 +79,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinux
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux
   type: Interface
-  summary: <p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>
+  summary: "<p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>"
   syntax:
     content: public interface WithLinux
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withServicePrincipal(String,String)
@@ -89,7 +89,7 @@ references:
   nameWithType: ContainerServiceImpl.withServicePrincipal(String clientId, String secret)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withServicePrincipal(String clientId, String secret)
   type: Method
-  summary: <p>Properties for cluster service principals. </p>
+  summary: "<p>Properties for cluster service principals. </p>"
   syntax:
     content: public ContainerServiceImpl withServicePrincipal(String clientId, String secret)
     parameters:

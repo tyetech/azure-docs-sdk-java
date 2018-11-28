@@ -42,7 +42,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -55,7 +55,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>.withLeafDomainLabel(String dnsLabel)
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>.withLeafDomainLabel(String dnsLabel)
   type: Method
-  summary: <p>Specify the DNS prefix to be used to create the FQDN for the agent pool. </p>
+  summary: "<p>Specify the DNS prefix to be used to create the FQDN for the agent pool. </p>"
   syntax:
     content: public WithAttach<ParentT> withLeafDomainLabel(String dnsLabel)
     parameters:
@@ -72,7 +72,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>.withVMCount(int count)
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>.withVMCount(int count)
   type: Method
-  summary: <p>Specifies the number of agents (VMs) to host docker containers. Allowed values must be in the range of 1 to 100 (inclusive). </p>
+  summary: "<p>Specifies the number of agents (VMs) to host docker containers. Allowed values must be in the range of 1 to 100 (inclusive). </p>"
   syntax:
     content: public WithVMSize<ParentT> withVMCount(int count)
     parameters:
@@ -89,7 +89,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>.withVMSize(ContainerServiceVMSizeTypes vmSize)
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>.withVMSize(ContainerServiceVMSizeTypes vmSize)
   type: Method
-  summary: <p>Specifies the size of the agents VMs. </p>
+  summary: "<p>Specifies the size of the agents VMs. </p>"
   syntax:
     content: public WithLeafDomainLabel<ParentT> withVMSize(ContainerServiceVMSizeTypes vmSize)
     parameters:
@@ -106,7 +106,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>
+  summary: "<p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -120,10 +120,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a container service agent pool definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a container service agent pool definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT>
     typeParameters:
@@ -137,10 +134,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent VM size.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent VM size.</p>\r\n<p></p>"
   syntax:
     content: public interface WithVMSize<ParentT>
     typeParameters:
@@ -154,10 +148,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the DNS label.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the DNS label.</p>\r\n<p></p>"
   syntax:
     content: public interface WithLeafDomainLabel<ParentT>
     typeParameters:

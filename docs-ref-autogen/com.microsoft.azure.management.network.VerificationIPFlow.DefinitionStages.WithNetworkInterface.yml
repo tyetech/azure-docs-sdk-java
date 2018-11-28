@@ -66,7 +66,7 @@ references:
   nameWithType: VerificationIPFlow.DefinitionStages.WithExecute
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.DefinitionStages.WithExecute
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required parameters to execute an action, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required parameters to execute an action, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithExecute extends Executable<VerificationIPFlow>,VerificationIPFlow.DefinitionStages.WithNetworkInterface
 - uid: com.microsoft.azure.management.network.VerificationIPFlow
@@ -76,6 +76,6 @@ references:
   nameWithType: VerificationIPFlow
   fullName: com.microsoft.azure.management.network.VerificationIPFlow
   type: Interface
-  summary: <p>A client-side reperesentation allowing to verify IP packet flow from specific vm based on direction, protocol, local IP, remote IP, local port and remote port. </p>
+  summary: "<p>A client-side reperesentation allowing to verify IP packet flow from specific vm based on direction, protocol, local IP, remote IP, local port and remote port. </p>"
   syntax:
     content: public interface VerificationIPFlow extends Executable<VerificationIPFlow>,HasParent<NetworkWatcher>

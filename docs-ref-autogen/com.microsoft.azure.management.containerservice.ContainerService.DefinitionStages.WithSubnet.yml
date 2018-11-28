@@ -69,7 +69,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends ContainerService.DefinitionStages.WithMasterDnsPrefix,ContainerService.DefinitionStages.WithDiagnostics,ContainerService.DefinitionStages.WithMasterVMSize,ContainerService.DefinitionStages.WithMasterStorageProfile,ContainerService.DefinitionStages.WithMasterOSDiskSize,ContainerService.DefinitionStages.WithSubnet,Creatable<ContainerService>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withSubnet(String,String)
@@ -79,10 +79,7 @@ references:
   nameWithType: ContainerServiceImpl.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>\r\n<p></p>"
   syntax:
     content: public ContainerServiceImpl withSubnet(String networkId, String subnetName)
     parameters:

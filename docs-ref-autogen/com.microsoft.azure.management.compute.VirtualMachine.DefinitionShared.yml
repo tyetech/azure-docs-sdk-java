@@ -85,10 +85,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -101,10 +98,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -121,10 +115,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -137,10 +128,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithExtension.defineNewExtension(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithExtension.defineNewExtension(String name)
   type: Method
-  summary: >-
-    <p>Starts the definition of an extension to be attached to the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Starts the definition of an extension to be attached to the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public VirtualMachineExtension.DefinitionStages.Blank<WithCreate> defineNewExtension(String name)
     parameters:
@@ -181,10 +169,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics()
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics()
   type: Method
-  summary: >-
-    <p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withBootDiagnostics()
     return:
@@ -197,10 +182,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics(Creatable<StorageAccount> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics(Creatable<StorageAccount> creatable)
   type: Method
-  summary: >-
-    <p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withBootDiagnostics(Creatable<StorageAccount> creatable)
     parameters:
@@ -217,10 +199,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withBootDiagnostics(StorageAccount storageAccount)
     parameters:
@@ -237,10 +216,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics(String storageAccountBlobEndpointUri)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithBootDiagnostics.withBootDiagnostics(String storageAccountBlobEndpointUri)
   type: Method
-  summary: >-
-    <p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies that boot diagnostics needs to be enabled in the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withBootDiagnostics(String storageAccountBlobEndpointUri)
     parameters:
@@ -257,7 +233,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithAvailabilitySet.withExistingAvailabilitySet(AvailabilitySet availabilitySet)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithAvailabilitySet.withExistingAvailabilitySet(AvailabilitySet availabilitySet)
   type: Method
-  summary: <p>Specifies an existing availability set to associate with the virtual machine. </p>
+  summary: "<p>Specifies an existing availability set to associate with the virtual machine. </p>"
   syntax:
     content: public WithCreate withExistingAvailabilitySet(AvailabilitySet availabilitySet)
     parameters:
@@ -274,10 +250,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithNetwork.withExistingPrimaryNetwork(Network network)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithNetwork.withExistingPrimaryNetwork(Network network)
   type: Method
-  summary: >-
-    <p>Associates an existing virtual network with the virtual machine's primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing virtual network with the virtual machine's primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithSubnet withExistingPrimaryNetwork(Network network)
     parameters:
@@ -294,10 +267,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
   type: Method
-  summary: >-
-    <p>Associates an existing network interface with the virtual machine as its primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing network interface with the virtual machine as its primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
     parameters:
@@ -314,10 +284,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPublicIPAddress.withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress.withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the VM's primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the VM's primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -334,12 +301,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithSecondaryNetworkInterface.withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithSecondaryNetworkInterface.withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
   type: Method
-  summary: >-
-    <p>Associates an existing network interface with the virtual machine. </p>
-
-    <p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing network interface with the virtual machine. </p>\r\n<p>Note this method's effect is additive, i.e. each time it is used, the new secondary network interface added to the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingSecondaryNetworkInterface(NetworkInterface networkInterface)
     parameters:
@@ -356,12 +318,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>Specifies an existing storage account to put the VM's OS and data disk VHD in. </p>
-
-    <p>An OS disk based on a marketplace or a user image (generalized image) will be stored in this storage account.</p>
-
-    <p></p>
+  summary: "<p>Specifies an existing storage account to put the VM's OS and data disk VHD in. </p>\r\n<p>An OS disk based on a marketplace or a user image (generalized image) will be stored in this storage account.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -378,10 +335,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withLatestLinuxImage(String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withLatestLinuxImage(String publisher, String offer, String sku)
   type: Method
-  summary: >-
-    <p>Specifies that the latest version of a marketplace Linux image is to be used as the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the latest version of a marketplace Linux image is to be used as the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManagedOrUnmanaged withLatestLinuxImage(String publisher, String offer, String sku)
     parameters:
@@ -404,10 +358,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withLatestWindowsImage(String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withLatestWindowsImage(String publisher, String offer, String sku)
   type: Method
-  summary: >-
-    <p>Specifies that the latest version of a marketplace Windows image should to be used as the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the latest version of a marketplace Windows image should to be used as the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManagedOrUnmanaged withLatestWindowsImage(String publisher, String offer, String sku)
     parameters:
@@ -430,10 +381,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withLinuxCustomImage(String customImageId)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withLinuxCustomImage(String customImageId)
   type: Method
-  summary: >-
-    <p>Specifies the resource ID of a Linux custom image to be used as the virtual machines' OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies the resource ID of a Linux custom image to be used as the virtual machines' OS.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManaged withLinuxCustomImage(String customImageId)
     parameters:
@@ -450,10 +398,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity()
     return:
@@ -466,10 +411,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity(int tokenPort)
     parameters:
@@ -486,7 +428,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithAvailabilitySet.withNewAvailabilitySet(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithAvailabilitySet.withNewAvailabilitySet(String name)
   type: Method
-  summary: <p>Specifies the name of a new availability set to associate with the virtual machine. </p>
+  summary: "<p>Specifies the name of a new availability set to associate with the virtual machine. </p>"
   syntax:
     content: public WithCreate withNewAvailabilitySet(String name)
     parameters:
@@ -503,7 +445,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithAvailabilitySet.withNewAvailabilitySet(Creatable<AvailabilitySet> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithAvailabilitySet.withNewAvailabilitySet(Creatable<AvailabilitySet> creatable)
   type: Method
-  summary: <p>Specifies definition of a not-yet-created availability set definition to associate the virtual machine with. </p>
+  summary: "<p>Specifies definition of a not-yet-created availability set definition to associate the virtual machine with. </p>"
   syntax:
     content: public WithCreate withNewAvailabilitySet(Creatable<AvailabilitySet> creatable)
     parameters:
@@ -520,10 +462,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithNetwork.withNewPrimaryNetwork(Creatable<Network> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithNetwork.withNewPrimaryNetwork(Creatable<Network> creatable)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the virtual machine's primary network interface, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the virtual machine's primary network interface, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP withNewPrimaryNetwork(Creatable<Network> creatable)
     parameters:
@@ -540,12 +479,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithNetwork.withNewPrimaryNetwork(String addressSpace)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithNetwork.withNewPrimaryNetwork(String addressSpace)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the virtual machine's primary network interface. </p>
-
-    <p>The virtual network will be created in the same resource group and region as of virtual machine, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the virtual machine's primary network interface. </p>\r\n<p>The virtual network will be created in the same resource group and region as of virtual machine, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP withNewPrimaryNetwork(String addressSpace)
     parameters:
@@ -562,10 +496,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withNewPrimaryNetworkInterface(Creatable<NetworkInterface> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withNewPrimaryNetworkInterface(Creatable<NetworkInterface> creatable)
   type: Method
-  summary: >-
-    <p>Creates a new network interface to associate with the virtual machine as its primary network interface, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Creates a new network interface to associate with the virtual machine as its primary network interface, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withNewPrimaryNetworkInterface(Creatable<NetworkInterface> creatable)
     parameters:
@@ -582,10 +513,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPublicIPAddress.withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress.withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
   type: Method
-  summary: >-
-    <p>Creates a new public IP address to associate with the VM's primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address to associate with the VM's primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
     parameters:
@@ -602,12 +530,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPublicIPAddress.withNewPrimaryPublicIPAddress(String leafDnsLabel)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress.withNewPrimaryPublicIPAddress(String leafDnsLabel)
   type: Method
-  summary: >-
-    <p>Creates a new public IP address in the same region and resource group as the resource, with the specified DNS label and associates it with the VM's primary network interface. </p>
-
-    <p>The internal name for the public IP address will be derived from the DNS label.</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address in the same region and resource group as the resource, with the specified DNS label and associates it with the VM's primary network interface. </p>\r\n<p>The internal name for the public IP address will be derived from the DNS label.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withNewPrimaryPublicIPAddress(String leafDnsLabel)
     parameters:
@@ -624,12 +547,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithSecondaryNetworkInterface.withNewSecondaryNetworkInterface(Creatable<NetworkInterface> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithSecondaryNetworkInterface.withNewSecondaryNetworkInterface(Creatable<NetworkInterface> creatable)
   type: Method
-  summary: >-
-    <p>Creates a new network interface to associate with the virtual machine, based on the provided definition. </p>
-
-    <p>Note this method's effect is additive, i.e. each time it is used, a new secondary network interface added to the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Creates a new network interface to associate with the virtual machine, based on the provided definition. </p>\r\n<p>Note this method's effect is additive, i.e. each time it is used, a new secondary network interface added to the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewSecondaryNetworkInterface(Creatable<NetworkInterface> creatable)
     parameters:
@@ -646,12 +564,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   type: Method
-  summary: >-
-    <p>Specifies the name of a new storage account to put the VM's OS and data disk VHD into. </p>
-
-    <p>Only an OS disk based on a marketplace image will be stored in the new storage account. An OS disk based on a user image will be stored in the same storage account as the user image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name of a new storage account to put the VM's OS and data disk VHD into. </p>\r\n<p>Only an OS disk based on a marketplace image will be stored in the new storage account. An OS disk based on a user image will be stored in the same storage account as the user image.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(String name)
     parameters:
@@ -668,12 +581,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   type: Method
-  summary: >-
-    <p>Specifies the definition of a not-yet-created storage account to put the VM's OS and data disk VHDs into. </p>
-
-    <p>Only the OS disk based on a marketplace image will be stored in the new storage account. An OS disk based on a user image will be stored in the same storage account as the user image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the definition of a not-yet-created storage account to put the VM's OS and data disk VHDs into. </p>\r\n<p>Only the OS disk based on a marketplace image will be stored in the new storage account. An OS disk based on a user image will be stored in the same storage account as the user image.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(Creatable<StorageAccount> creatable)
     parameters:
@@ -690,10 +598,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the caching type for the OS disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the caching type for the OS disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskCaching(CachingTypes cachingType)
     parameters:
@@ -710,10 +615,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskEncryptionSettings(DiskEncryptionSettings settings)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskEncryptionSettings(DiskEncryptionSettings settings)
   type: Method
-  summary: >-
-    <p>Specifies the encryption settings for the OS Disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the encryption settings for the OS Disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskEncryptionSettings(DiskEncryptionSettings settings)
     parameters:
@@ -730,10 +632,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   type: Method
-  summary: >-
-    <p>Specifies the name for the OS Disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name for the OS Disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskName(String name)
     parameters:
@@ -750,10 +649,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskSizeInGB(Integer size)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskSizeInGB(Integer size)
   type: Method
-  summary: >-
-    <p>Specifies the size of the OSDisk in GB.</p>
-
-    <p></p>
+  summary: "<p>Specifies the size of the OSDisk in GB.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskSizeInGB(Integer size)
     parameters:
@@ -770,10 +666,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskSizeInGB(int size)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOSDiskSettings.withOSDiskSizeInGB(int size)
   type: Method
-  summary: >-
-    <p>Specifies the size of the OSDisk in GB.</p>
-
-    <p></p>
+  summary: "<p>Specifies the size of the OSDisk in GB.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskSizeInGB(int size)
     parameters:
@@ -790,10 +683,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPublicIPAddress.withoutPrimaryPublicIPAddress()
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress.withoutPrimaryPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Specifies that the VM should not have a public IP address.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the VM should not have a public IP address.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withoutPrimaryPublicIPAddress()
     return:
@@ -806,10 +696,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPlan.withPlan(PurchasePlan plan)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPlan.withPlan(PurchasePlan plan)
   type: Method
-  summary: >-
-    <p>Specifies the purchase plan for the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies the purchase plan for the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPlan(PurchasePlan plan)
     parameters:
@@ -826,10 +713,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
   type: Method
-  summary: >-
-    <p>Specifies a known marketplace Linux image to be used for the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies a known marketplace Linux image to be used for the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManagedOrUnmanaged withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
     parameters:
@@ -846,10 +730,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
   type: Method
-  summary: >-
-    <p>Specifies a known marketplace Windows image to be used for the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies a known marketplace Windows image to be used for the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManagedOrUnmanaged withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
     parameters:
@@ -866,10 +747,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrivateIP.withPrimaryPrivateIPAddressDynamic()
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrivateIP.withPrimaryPrivateIPAddressDynamic()
   type: Method
-  summary: >-
-    <p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for the VM's primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for the VM's primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithPublicIPAddress withPrimaryPrivateIPAddressDynamic()
     return:
@@ -882,10 +760,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrivateIP.withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrivateIP.withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
   type: Method
-  summary: >-
-    <p>Assigns the specified static private IP address within the specified existing virtual network subnet to the VM's primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Assigns the specified static private IP address within the specified existing virtual network subnet to the VM's primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithPublicIPAddress withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
     parameters:
@@ -902,10 +777,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPlan.withPromotionalPlan(PurchasePlan plan, String promotionCode)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPlan.withPromotionalPlan(PurchasePlan plan, String promotionCode)
   type: Method
-  summary: >-
-    <p>Specifies the purchase plan for the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies the purchase plan for the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPromotionalPlan(PurchasePlan plan, String promotionCode)
     parameters:
@@ -925,10 +797,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithVMSize.withSize(String sizeName)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithVMSize.withSize(String sizeName)
   type: Method
-  summary: >-
-    <p>Selects the size of the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Selects the size of the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSize(String sizeName)
     parameters:
@@ -945,10 +814,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithVMSize.withSize(VirtualMachineSizeTypes size)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithVMSize.withSize(VirtualMachineSizeTypes size)
   type: Method
-  summary: >-
-    <p>Specifies the size of the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies the size of the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSize(VirtualMachineSizeTypes size)
     parameters:
@@ -965,10 +831,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withSpecializedOSDisk(Disk disk, OperatingSystemTypes osType)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withSpecializedOSDisk(Disk disk, OperatingSystemTypes osType)
   type: Method
-  summary: >-
-    <p>Specifies a specialized operating system managed disk to be attached to the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies a specialized operating system managed disk to be attached to the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withSpecializedOSDisk(Disk disk, OperatingSystemTypes osType)
     parameters:
@@ -988,10 +851,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withSpecializedOSUnmanagedDisk(String osDiskUrl, OperatingSystemTypes osType)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withSpecializedOSUnmanagedDisk(String osDiskUrl, OperatingSystemTypes osType)
   type: Method
-  summary: >-
-    <p>Specifies a specialized operating system unmanaged disk to be attached to the virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies a specialized operating system unmanaged disk to be attached to the virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithUnmanagedCreate withSpecializedOSUnmanagedDisk(String osDiskUrl, OperatingSystemTypes osType)
     parameters:
@@ -1011,10 +871,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withSpecificLinuxImageVersion(ImageReference imageReference)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withSpecificLinuxImageVersion(ImageReference imageReference)
   type: Method
-  summary: >-
-    <p>Specifies a version of a market-place Linux image to be used as the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies a version of a market-place Linux image to be used as the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManagedOrUnmanaged withSpecificLinuxImageVersion(ImageReference imageReference)
     parameters:
@@ -1031,10 +888,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withSpecificWindowsImageVersion(ImageReference imageReference)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withSpecificWindowsImageVersion(ImageReference imageReference)
   type: Method
-  summary: >-
-    <p>Specifies a version of a marketplace Windows image to be used as the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies a version of a marketplace Windows image to be used as the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManagedOrUnmanaged withSpecificWindowsImageVersion(ImageReference imageReference)
     parameters:
@@ -1051,10 +905,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withStoredLinuxImage(String imageUrl)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withStoredLinuxImage(String imageUrl)
   type: Method
-  summary: >-
-    <p>Specifies a user (generalized) Linux image to be used for the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies a user (generalized) Linux image to be used for the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameUnmanaged withStoredLinuxImage(String imageUrl)
     parameters:
@@ -1071,10 +922,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withStoredWindowsImage(String imageUrl)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withStoredWindowsImage(String imageUrl)
   type: Method
-  summary: >-
-    <p>Specifies the user (generalized) Windows image to be used for the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user (generalized) Windows image to be used for the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameUnmanaged withStoredWindowsImage(String imageUrl)
     parameters:
@@ -1091,10 +939,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithSubnet.withSubnet(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithSubnet.withSubnet(String name)
   type: Method
-  summary: >-
-    <p>Associates a subnet with the virtual machine's primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Associates a subnet with the virtual machine's primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP withSubnet(String name)
     parameters:
@@ -1111,7 +956,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1131,7 +976,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1148,10 +993,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS.withWindowsCustomImage(String customImageId)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS.withWindowsCustomImage(String customImageId)
   type: Method
-  summary: >-
-    <p>Specifies the resource ID of a Windows custom image to be used as the virtual machine's OS.</p>
-
-    <p></p>
+  summary: "<p>Specifies the resource ID of a Windows custom image to be used as the virtual machine's OS.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManaged withWindowsCustomImage(String customImageId)
     parameters:
@@ -1168,7 +1010,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a virtual machine definition. </p>
+  summary: "<p>The first stage of a virtual machine definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithGroup
@@ -1178,7 +1020,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithNetwork
@@ -1188,7 +1030,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithNetwork
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithNetwork
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify a virtual network with the new primary network interface. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify a virtual network with the new primary network interface. </p>"
   syntax:
     content: public interface WithNetwork
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithSubnet
@@ -1198,7 +1040,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify the virtual network subnet for a new primary network interface. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify the virtual network subnet for a new primary network interface. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrivateIP
@@ -1208,7 +1050,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrivateIP
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrivateIP
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify a private IP address within a virtual network subnet. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify a private IP address within a virtual network subnet. </p>"
   syntax:
     content: public interface WithPrivateIP
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress
@@ -1218,7 +1060,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPublicIPAddress
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to associate a public IP address with its primary network interface. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to associate a public IP address with its primary network interface. </p>"
   syntax:
     content: public interface WithPublicIPAddress
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface
@@ -1228,7 +1070,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify the primary network interface. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify the primary network interface. </p>"
   syntax:
     content: public interface WithPrimaryNetworkInterface
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS
@@ -1238,7 +1080,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithOS
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithOS
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify the operating system image. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify the operating system image. </p>"
   syntax:
     content: public interface WithOS
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithCreate
@@ -1248,7 +1090,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionManaged
@@ -1258,7 +1100,7 @@ references:
   nameWithType: VirtualMachine.DefinitionManaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionManaged
   type: Interface
-  summary: <p>The entirety of the managed disk based virtual machine definition. </p>
+  summary: "<p>The entirety of the managed disk based virtual machine definition. </p>"
   syntax:
     content: public interface DefinitionManaged extends VirtualMachine.DefinitionShared,VirtualMachine.DefinitionStages.WithLinuxRootUsernameManaged,VirtualMachine.DefinitionStages.WithLinuxRootPasswordOrPublicKeyManaged,VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManaged,VirtualMachine.DefinitionStages.WithWindowsAdminPasswordManaged,VirtualMachine.DefinitionStages.WithFromImageCreateOptionsManaged,VirtualMachine.DefinitionStages.WithLinuxCreateManaged,VirtualMachine.DefinitionStages.WithWindowsCreateManaged,VirtualMachine.DefinitionStages.WithManagedCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionManagedOrUnmanaged
@@ -1268,6 +1110,6 @@ references:
   nameWithType: VirtualMachine.DefinitionManagedOrUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionManagedOrUnmanaged
   type: Interface
-  summary: <p>The entirety of the virtual machine definition. </p>
+  summary: "<p>The entirety of the virtual machine definition. </p>"
   syntax:
     content: public interface DefinitionManagedOrUnmanaged extends VirtualMachine.DefinitionShared,VirtualMachine.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged,VirtualMachine.DefinitionStages.WithLinuxRootPasswordOrPublicKeyManagedOrUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminPasswordManagedOrUnmanaged,VirtualMachine.DefinitionStages.WithFromImageCreateOptionsManagedOrUnmanaged,VirtualMachine.DefinitionStages.WithLinuxCreateManagedOrUnmanaged,VirtualMachine.DefinitionStages.WithWindowsCreateManagedOrUnmanaged,VirtualMachine.DefinitionStages.WithManagedCreate,VirtualMachine.DefinitionStages.WithUnmanagedCreate

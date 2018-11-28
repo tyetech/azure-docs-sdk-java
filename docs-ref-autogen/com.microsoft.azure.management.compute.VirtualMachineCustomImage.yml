@@ -229,10 +229,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -245,10 +242,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -321,7 +315,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -338,10 +332,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -355,7 +346,7 @@ references:
   nameWithType: ImageOSDisk
   fullName: com.microsoft.azure.management.compute.ImageOSDisk
   type: Class
-  summary: <p>Describes an Operating System disk. </p>
+  summary: "<p>Describes an Operating System disk. </p>"
   syntax:
     content: public class ImageOSDisk
 - uid: com.microsoft.azure.management.compute.ImageDataDisk
@@ -365,6 +356,6 @@ references:
   nameWithType: ImageDataDisk
   fullName: com.microsoft.azure.management.compute.ImageDataDisk
   type: Class
-  summary: <p>Describes a data disk. </p>
+  summary: "<p>Describes a data disk. </p>"
   syntax:
     content: public class ImageDataDisk

@@ -37,10 +37,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -53,10 +50,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -73,10 +67,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -113,7 +104,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -133,7 +124,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -150,7 +141,7 @@ references:
   nameWithType: NetworkWatcher.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.network.NetworkWatcher.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a network watcher definition. </p>
+  summary: "<p>The first stage of a network watcher definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.network.NetworkWatcher.DefinitionStages.WithGroup
@@ -160,7 +151,7 @@ references:
   nameWithType: NetworkWatcher.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.network.NetworkWatcher.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the network watcher definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the network watcher definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.network.NetworkWatcher.DefinitionStages.WithCreate
@@ -170,6 +161,6 @@ references:
   nameWithType: NetworkWatcher.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.NetworkWatcher.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A network watcher with sufficient inputs to create a new network watcher in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A network watcher with sufficient inputs to create a new network watcher in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

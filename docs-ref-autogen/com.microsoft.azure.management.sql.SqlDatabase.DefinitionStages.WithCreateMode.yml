@@ -74,7 +74,7 @@ references:
   nameWithType: SqlDatabase.Definition
   fullName: com.microsoft.azure.management.sql.SqlDatabase.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends SqlDatabase.DefinitionStages.Blank<ParentT>,SqlDatabase.DefinitionStages.WithCreate,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>,SqlDatabase.DefinitionStages.WithCreateMode<ParentT>,SqlDatabase.DefinitionStages.WithCreateWithLessOptions
 - uid: com.microsoft.azure.management.sql.SqlDatabase.SqlDatabaseDefinition
@@ -84,10 +84,7 @@ references:
   nameWithType: SqlDatabase.SqlDatabaseDefinition<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.SqlDatabaseDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Container interface for all the definitions that need to be implemented.</p>
-
-    <p></p>
+  summary: "<p>Container interface for all the definitions that need to be implemented.</p>\r\n<p></p>"
   syntax:
     content: public interface SqlDatabaseDefinition<ParentT> extends SqlDatabase.DefinitionStages.Blank<ParentT>,SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>,SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>,SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>,SqlDatabase.DefinitionStages.WithImportFrom<ParentT>,SqlDatabase.DefinitionStages.WithStorageKey<ParentT>,SqlDatabase.DefinitionStages.WithAuthentication<ParentT>,SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithCreateMode<ParentT>,SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>,SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
     typeParameters:
@@ -101,7 +98,7 @@ references:
   nameWithType: CreateMode
   fullName: com.microsoft.azure.management.sql.CreateMode
   type: Class
-  summary: <p>Defines values for CreateMode. </p>
+  summary: "<p>Defines values for CreateMode. </p>"
   syntax:
     content: public class CreateMode
 - uid: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreateWithLessOptions
@@ -111,6 +108,6 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithCreateWithLessOptions
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreateWithLessOptions
   type: Interface
-  summary: <p>A SQL Database definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Database definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreateWithLessOptions

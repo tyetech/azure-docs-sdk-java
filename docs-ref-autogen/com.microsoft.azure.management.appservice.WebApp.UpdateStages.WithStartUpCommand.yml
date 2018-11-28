@@ -80,10 +80,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -96,10 +93,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -112,10 +106,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -144,7 +135,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithDockerContainerImage.withBuiltInImage(RuntimeStack runtimeStack)
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithDockerContainerImage.withBuiltInImage(RuntimeStack runtimeStack)
   type: Method
-  summary: <p>Specifies the docker container image to be a built in one. </p>
+  summary: "<p>Specifies the docker container image to be a built in one. </p>"
   syntax:
     content: public Update withBuiltInImage(RuntimeStack runtimeStack)
     parameters:
@@ -161,7 +152,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithAppServicePlan.withExistingAppServicePlan(AppServicePlan appServicePlan)
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithAppServicePlan.withExistingAppServicePlan(AppServicePlan appServicePlan)
   type: Method
-  summary: <p>Uses an existing app service plan for the web app. </p>
+  summary: "<p>Uses an existing app service plan for the web app. </p>"
   syntax:
     content: public Update withExistingAppServicePlan(AppServicePlan appServicePlan)
     parameters:
@@ -178,10 +169,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(PricingTier pricingTier)
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(PricingTier pricingTier)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewAppServicePlan(PricingTier pricingTier)
     parameters:
@@ -198,10 +186,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)
     parameters:
@@ -218,10 +203,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithAppServicePlan.withNewFreeAppServicePlan()
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithAppServicePlan.withNewFreeAppServicePlan()
   type: Method
-  summary: >-
-    <p>Creates a new free app service plan. This will fail if there are 10 or more free plans in the current subscription.</p>
-
-    <p></p>
+  summary: "<p>Creates a new free app service plan. This will fail if there are 10 or more free plans in the current subscription.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewFreeAppServicePlan()
     return:
@@ -234,10 +216,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithAppServicePlan.withNewSharedAppServicePlan()
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithAppServicePlan.withNewSharedAppServicePlan()
   type: Method
-  summary: >-
-    <p>Creates a new shared app service plan.</p>
-
-    <p></p>
+  summary: "<p>Creates a new shared app service plan.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewSharedAppServicePlan()
     return:
@@ -250,7 +229,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithDockerContainerImage.withPrivateDockerHubImage(String imageAndTag)
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithDockerContainerImage.withPrivateDockerHubImage(String imageAndTag)
   type: Method
-  summary: <p>Specifies the docker container image to be one from Docker Hub. </p>
+  summary: "<p>Specifies the docker container image to be one from Docker Hub. </p>"
   syntax:
     content: public WithCredentials withPrivateDockerHubImage(String imageAndTag)
     parameters:
@@ -267,7 +246,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithDockerContainerImage.withPrivateRegistryImage(String imageAndTag, String serverUrl)
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithDockerContainerImage.withPrivateRegistryImage(String imageAndTag, String serverUrl)
   type: Method
-  summary: <p>Specifies the docker container image to be one from a private registry. </p>
+  summary: "<p>Specifies the docker container image to be one from a private registry. </p>"
   syntax:
     content: public WithCredentials withPrivateRegistryImage(String imageAndTag, String serverUrl)
     parameters:
@@ -287,7 +266,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithDockerContainerImage.withPublicDockerHubImage(String imageAndTag)
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithDockerContainerImage.withPublicDockerHubImage(String imageAndTag)
   type: Method
-  summary: <p>Specifies the docker container image to be one from Docker Hub. </p>
+  summary: "<p>Specifies the docker container image to be one from Docker Hub. </p>"
   syntax:
     content: public WithStartUpCommand withPublicDockerHubImage(String imageAndTag)
     parameters:
@@ -304,6 +283,6 @@ references:
   nameWithType: WebApp.Update
   fullName: com.microsoft.azure.management.appservice.WebApp.Update
   type: Interface
-  summary: <p>The template for a web app update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a web app update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<WebApp>,WebApp.UpdateStages.WithAppServicePlan,WebAppBase.Update<WebApp>,WebApp.UpdateStages.WithDockerContainerImage

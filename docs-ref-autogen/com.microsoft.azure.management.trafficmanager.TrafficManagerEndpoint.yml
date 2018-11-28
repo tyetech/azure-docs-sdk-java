@@ -272,10 +272,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -288,10 +285,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -304,10 +298,7 @@ references:
   nameWithType: ExternalChildResource<FluentModelT,ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource<FluentModelT,ParentT>
   type: Interface
-  summary: >-
-    <p>Represents an external child resource.</p>
-
-    <p></p>
+  summary: "<p>Represents an external child resource.</p>\r\n<p></p>"
   syntax:
     content: public interface ExternalChildResource<FluentModelT,ParentT> extends ChildResource<ParentT>,Refreshable<FluentModelT>
     typeParameters:
@@ -324,10 +315,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -341,7 +329,7 @@ references:
   nameWithType: TrafficManagerAzureEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerAzureEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile Azure endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile Azure endpoint. </p>"
   syntax:
     content: public interface TrafficManagerAzureEndpoint extends TrafficManagerEndpoint
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerExternalEndpoint
@@ -351,7 +339,7 @@ references:
   nameWithType: TrafficManagerExternalEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerExternalEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile external endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile external endpoint. </p>"
   syntax:
     content: public interface TrafficManagerExternalEndpoint
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerNestedProfileEndpoint
@@ -361,7 +349,7 @@ references:
   nameWithType: TrafficManagerNestedProfileEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerNestedProfileEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile nested profile endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile nested profile endpoint. </p>"
   syntax:
     content: public interface TrafficManagerNestedProfileEndpoint
 - uid: com.microsoft.azure.management.trafficmanager.EndpointType
@@ -371,7 +359,7 @@ references:
   nameWithType: EndpointType
   fullName: com.microsoft.azure.management.trafficmanager.EndpointType
   type: Enum
-  summary: <p>Possible endpoint types supported in a Traffic manager profile. </p>
+  summary: "<p>Possible endpoint types supported in a Traffic manager profile. </p>"
   syntax:
     content: public enum EndpointType
 - uid: com.microsoft.azure.management.trafficmanager.EndpointMonitorStatus
@@ -381,6 +369,6 @@ references:
   nameWithType: EndpointMonitorStatus
   fullName: com.microsoft.azure.management.trafficmanager.EndpointMonitorStatus
   type: Class
-  summary: <p>Defines values for EndpointMonitorStatus. </p>
+  summary: "<p>Defines values for EndpointMonitorStatus. </p>"
   syntax:
     content: public class EndpointMonitorStatus

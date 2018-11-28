@@ -66,7 +66,7 @@ references:
   nameWithType: StreamingEndpoint.Definition
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingEndpoint.Definition
   type: Interface
-  summary: <p>The entirety of the StreamingEndpoint definition. </p>
+  summary: "<p>The entirety of the StreamingEndpoint definition. </p>"
   syntax:
     content: public interface Definition extends StreamingEndpoint.DefinitionStages.Blank,StreamingEndpoint.DefinitionStages.WithMediaservice,StreamingEndpoint.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingEndpoint.DefinitionStages.Blank
@@ -76,7 +76,7 @@ references:
   nameWithType: StreamingEndpoint.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingEndpoint.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a StreamingEndpoint definition. </p>
+  summary: "<p>The first stage of a StreamingEndpoint definition. </p>"
   syntax:
     content: public interface Blank extends StreamingEndpoint.DefinitionStages.WithMediaservice
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingEndpoint.DefinitionStages.WithCreate
@@ -86,6 +86,6 @@ references:
   nameWithType: StreamingEndpoint.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingEndpoint.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends StreamingEndpoint.DefinitionStages.WithAccessControl,StreamingEndpoint.DefinitionStages.WithAvailabilitySetName,StreamingEndpoint.DefinitionStages.WithCdnEnabled,StreamingEndpoint.DefinitionStages.WithCdnProfile,StreamingEndpoint.DefinitionStages.WithCdnProvider,StreamingEndpoint.DefinitionStages.WithCrossSiteAccessPolicies,StreamingEndpoint.DefinitionStages.WithCustomHostNames,StreamingEndpoint.DefinitionStages.WithDescription,StreamingEndpoint.DefinitionStages.WithLocation,StreamingEndpoint.DefinitionStages.WithMaxCacheAge,StreamingEndpoint.DefinitionStages.WithScaleUnits,StreamingEndpoint.DefinitionStages.WithTags

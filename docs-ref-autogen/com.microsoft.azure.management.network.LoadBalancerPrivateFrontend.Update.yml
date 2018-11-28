@@ -34,12 +34,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -52,7 +47,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.UpdateStages.WithSubnet.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.UpdateStages.WithSubnet.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this private frontend of the internal load balancer. </p>
+  summary: "<p>Assigns the specified subnet to this private frontend of the internal load balancer. </p>"
   syntax:
     content: public Update withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -72,7 +67,7 @@ references:
   nameWithType: HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   type: Method
-  summary: <p>Enables dynamic private IP address allocation within the associated subnet. </p>
+  summary: "<p>Enables dynamic private IP address allocation within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressDynamic()
     return:
@@ -85,7 +80,7 @@ references:
   nameWithType: HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   type: Method
-  summary: <p>Assigns the specified static private IP address within the associated subnet. </p>
+  summary: "<p>Assigns the specified static private IP address within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressStatic(String ipAddress)
     parameters:
@@ -102,10 +97,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -119,7 +111,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.UpdateStages.WithSubnet
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.UpdateStages.WithSubnet
   type: Interface
-  summary: <p>The stage of a private frontend update allowing to specify a subnet from the selected network. </p>
+  summary: "<p>The stage of a private frontend update allowing to specify a subnet from the selected network. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress
@@ -129,7 +121,7 @@ references:
   nameWithType: HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateStages.WithPrivateIPAddress<ReturnT>
   type: Interface
-  summary: <p>The stage of an update allowing to modify the private IP address. </p>
+  summary: "<p>The stage of an update allowing to modify the private IP address. </p>"
   syntax:
     content: public interface WithPrivateIPAddress<ReturnT>
     typeParameters:

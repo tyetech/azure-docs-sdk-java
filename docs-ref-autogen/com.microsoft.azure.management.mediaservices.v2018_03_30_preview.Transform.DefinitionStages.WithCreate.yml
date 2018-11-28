@@ -31,7 +31,7 @@ references:
   nameWithType: Transform.DefinitionStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Transform.DefinitionStages.WithDescription.withDescription(String description)
   type: Method
-  summary: <p>Specifies description. </p>
+  summary: "<p>Specifies description. </p>"
   syntax:
     content: public WithCreate withDescription(String description)
     parameters:
@@ -46,7 +46,7 @@ references:
   nameWithType: Transform.DefinitionStages.WithDescription
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Transform.DefinitionStages.WithDescription
   type: Interface
-  summary: <p>The stage of the transform definition allowing to specify Description. </p>
+  summary: "<p>The stage of the transform definition allowing to specify Description. </p>"
   syntax:
     content: public interface WithDescription
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Transform.Definition
@@ -56,6 +56,6 @@ references:
   nameWithType: Transform.Definition
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Transform.Definition
   type: Interface
-  summary: <p>The entirety of the Transform definition. </p>
+  summary: "<p>The entirety of the Transform definition. </p>"
   syntax:
     content: public interface Definition extends Transform.DefinitionStages.Blank,Transform.DefinitionStages.WithMediaservice,Transform.DefinitionStages.WithOutputs,Transform.DefinitionStages.WithCreate

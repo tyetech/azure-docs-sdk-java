@@ -484,7 +484,7 @@ references:
   nameWithType: TaskContainerSettings
   fullName: com.microsoft.azure.batch.protocol.models.TaskContainerSettings
   type: Class
-  summary: <p>The container settings for a task. </p>
+  summary: "<p>The container settings for a task. </p>"
   syntax:
     content: public class TaskContainerSettings
 - uid: com.microsoft.azure.batch.protocol.models.ResourceFile
@@ -494,7 +494,7 @@ references:
   nameWithType: ResourceFile
   fullName: com.microsoft.azure.batch.protocol.models.ResourceFile
   type: Class
-  summary: <p>A file to be downloaded from Azure blob storage to a compute node. </p>
+  summary: "<p>A file to be downloaded from Azure blob storage to a compute node. </p>"
   syntax:
     content: public class ResourceFile
 - uid: com.microsoft.azure.batch.protocol.models.EnvironmentSetting
@@ -504,7 +504,7 @@ references:
   nameWithType: EnvironmentSetting
   fullName: com.microsoft.azure.batch.protocol.models.EnvironmentSetting
   type: Class
-  summary: <p>An environment variable to be set on a task process. </p>
+  summary: "<p>An environment variable to be set on a task process. </p>"
   syntax:
     content: public class EnvironmentSetting
 - uid: com.microsoft.azure.batch.protocol.models.UserIdentity
@@ -514,7 +514,7 @@ references:
   nameWithType: UserIdentity
   fullName: com.microsoft.azure.batch.protocol.models.UserIdentity
   type: Class
-  summary: <p>The definition of the user identity under which the task is run. Specify either the userName or autoUser property, but not both. On CloudServiceConfiguration pools, this user is logged in with the INTERACTIVE flag. On Windows VirtualMachineConfiguration pools, this user is logged in with the BATCH flag. </p>
+  summary: "<p>The definition of the user identity under which the task is run. Specify either the userName or autoUser property, but not both. On CloudServiceConfiguration pools, this user is logged in with the INTERACTIVE flag. On Windows VirtualMachineConfiguration pools, this user is logged in with the BATCH flag. </p>"
   syntax:
     content: public class UserIdentity
 - uid: com.microsoft.azure.batch.protocol.models.StartTask
@@ -524,5 +524,5 @@ references:
   nameWithType: StartTask
   fullName: com.microsoft.azure.batch.protocol.models.StartTask
   type: Class
-  summary: <p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax: *o1

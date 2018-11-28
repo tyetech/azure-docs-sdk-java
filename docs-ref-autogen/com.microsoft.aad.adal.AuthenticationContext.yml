@@ -1516,7 +1516,7 @@ references:
   nameWithType: ITokenCacheStore
   fullName: com.microsoft.aad.adal.ITokenCacheStore
   type: Interface
-  summary: <p>Minimal interface needed by ADAL for cache. </p>
+  summary: "<p>Minimal interface needed by ADAL for cache. </p>"
   syntax:
     content: public interface ITokenCacheStore
 - uid: com.microsoft.aad.adal.UserInfo
@@ -1526,7 +1526,7 @@ references:
   nameWithType: UserInfo
   fullName: com.microsoft.aad.adal.UserInfo
   type: Class
-  summary: <p>Contains information of a single user. </p>
+  summary: "<p>Contains information of a single user. </p>"
   syntax:
     content: public class UserInfo
 - uid: com.microsoft.aad.adal.AuthenticationCallback
@@ -1536,10 +1536,7 @@ references:
   nameWithType: AuthenticationCallback<T>
   fullName: com.microsoft.aad.adal.AuthenticationCallback<T>
   type: Interface
-  summary: >-
-    <p>Callback to use with token request. User implements this callback to use result in their context.</p>
-
-    <p></p>
+  summary: "<p>Callback to use with token request. User implements this callback to use result in their context.</p>\r\n<p></p>"
   syntax:
     content: public interface AuthenticationCallback<T>
     typeParameters:
@@ -1552,7 +1549,7 @@ references:
   nameWithType: AuthenticationResult
   fullName: com.microsoft.aad.adal.AuthenticationResult
   type: Class
-  summary: <p>Result class to keep code, token and other info Serializable properties Mark temp properties as Transient if you dont want to keep them in serialization. </p>
+  summary: "<p>Result class to keep code, token and other info Serializable properties Mark temp properties as Transient if you dont want to keep them in serialization. </p>"
   syntax:
     content: public class AuthenticationResult
 - uid: com.microsoft.aad.adal.PromptBehavior
@@ -1562,7 +1559,7 @@ references:
   nameWithType: PromptBehavior
   fullName: com.microsoft.aad.adal.PromptBehavior
   type: Enum
-  summary: <p>Prompt Behaviors that sets the behavior for authentication activity launch. </p>
+  summary: "<p>Prompt Behaviors that sets the behavior for authentication activity launch. </p>"
   syntax:
     content: public enum PromptBehavior
 - uid: com.microsoft.aad.adal.IWindowComponent
@@ -1572,7 +1569,7 @@ references:
   nameWithType: IWindowComponent
   fullName: com.microsoft.aad.adal.IWindowComponent
   type: Interface
-  summary: <p>Implement this interface to pass fragment. </p>
+  summary: "<p>Implement this interface to pass fragment. </p>"
   syntax:
     content: public interface IWindowComponent
 - uid: com.microsoft.aad.adal.AuthenticationException
@@ -1582,7 +1579,7 @@ references:
   nameWithType: AuthenticationException
   fullName: com.microsoft.aad.adal.AuthenticationException
   type: Class
-  summary: <p>ADAL exception. </p>
+  summary: "<p>ADAL exception. </p>"
   syntax:
     content: public class AuthenticationException
 - uid: com.microsoft.aad.adal.AuthenticationContext.acquireTokenSilentAsync(String,String,String,AuthenticationCallback<AuthenticationResult>)
@@ -1592,8 +1589,5 @@ references:
   nameWithType: AuthenticationContext.acquireTokenSilentAsync(String resource, String clientId, String userId, AuthenticationCallback<AuthenticationResult> callback)
   fullName: com.microsoft.aad.adal.AuthenticationContext.acquireTokenSilentAsync(String resource, String clientId, String userId, AuthenticationCallback<AuthenticationResult> callback)
   type: Method
-  summary: >-
-    <p>The function will first look at the cache and automatically checks for the token expiration. Additionally, if no suitable access token is found in the cache, but refresh token is available, the function will use the refresh token automatically. This method will not show UI for the user. If prompt is needed, the method will return an exception</p>
-
-    <p></p>
+  summary: "<p>The function will first look at the cache and automatically checks for the token expiration. Additionally, if no suitable access token is found in the cache, but refresh token is available, the function will use the refresh token automatically. This method will not show UI for the user. If prompt is needed, the method will return an exception</p>\r\n<p></p>"
   syntax: *o1

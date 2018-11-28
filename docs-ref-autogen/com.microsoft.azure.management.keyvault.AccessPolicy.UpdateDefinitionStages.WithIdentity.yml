@@ -232,10 +232,7 @@ references:
   nameWithType: AccessPolicy.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of an access policy definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of an access policy definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends AccessPolicy.UpdateDefinitionStages.WithIdentity<ParentT>
     typeParameters:
@@ -249,10 +246,7 @@ references:
   nameWithType: AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the access policy definition. </p>
-
-    <p>At this stage, more permissions can be added or application ID can be specified, or the access policy definition can be attached to the parent key vault update using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the access policy definition. </p>\r\n<p>At this stage, more permissions can be added or application ID can be specified, or the access policy definition can be attached to the parent key vault update using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,AccessPolicy.UpdateDefinitionStages.WithPermissions<ParentT>
     typeParameters:
@@ -266,7 +260,7 @@ references:
   nameWithType: ActiveDirectoryUser
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD user. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD user. </p>"
   syntax:
     content: public interface ActiveDirectoryUser extends ActiveDirectoryObject,HasInner<UserInner>,Updatable<ActiveDirectoryUser.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
@@ -276,7 +270,7 @@ references:
   nameWithType: ActiveDirectoryGroup
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD group. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD group. </p>"
   syntax:
     content: public interface ActiveDirectoryGroup extends ActiveDirectoryObject,HasInner<ADGroupInner>,Updatable<ActiveDirectoryGroup.Update>
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal
@@ -286,6 +280,6 @@ references:
   nameWithType: ServicePrincipal
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD service principal. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD service principal. </p>"
   syntax:
     content: public interface ServicePrincipal extends ActiveDirectoryObject,HasInner<ServicePrincipalInner>,Updatable<ServicePrincipal.Update>

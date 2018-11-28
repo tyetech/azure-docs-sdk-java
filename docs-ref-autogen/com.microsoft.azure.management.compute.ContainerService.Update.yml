@@ -38,10 +38,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -70,10 +64,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -102,7 +93,7 @@ references:
   nameWithType: ContainerService.UpdateStages.WithUpdateAgentPoolCount.withAgentVMCount(int agentCount)
   fullName: com.microsoft.azure.management.compute.ContainerService.UpdateStages.WithUpdateAgentPoolCount.withAgentVMCount(int agentCount)
   type: Method
-  summary: <p>Enables diagnostics. </p>
+  summary: "<p>Enables diagnostics. </p>"
   syntax:
     content: public Update withAgentVMCount(int agentCount)
     parameters:
@@ -119,7 +110,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -136,7 +127,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -156,7 +147,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -173,10 +164,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -190,10 +178,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -207,6 +192,6 @@ references:
   nameWithType: ContainerService.UpdateStages.WithUpdateAgentPoolCount
   fullName: com.microsoft.azure.management.compute.ContainerService.UpdateStages.WithUpdateAgentPoolCount
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specific diagnostic settings. </p>
+  summary: "<p>The stage of the container service definition allowing to specific diagnostic settings. </p>"
   syntax:
     content: public interface WithUpdateAgentPoolCount

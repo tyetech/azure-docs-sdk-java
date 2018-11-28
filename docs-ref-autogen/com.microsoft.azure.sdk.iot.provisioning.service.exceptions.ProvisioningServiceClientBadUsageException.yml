@@ -238,7 +238,7 @@ references:
   nameWithType: ProvisioningServiceClientServiceException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException
   type: Class
-  summary: <p>This is the subset of the Device Provisioning Service exceptions for the exceptions reported by the Service. </p>
+  summary: "<p>This is the subset of the Device Provisioning Service exceptions for the exceptions reported by the Service. </p>"
   syntax:
     content: public class ProvisioningServiceClientServiceException
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadFormatException
@@ -248,12 +248,7 @@ references:
   nameWithType: ProvisioningServiceClientBadFormatException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadFormatException
   type: Class
-  summary: >-
-    <p>Create bad message format exception</p>
-
-    <p>The body of the Http request is not valid; for example, it cannot be parsed, or the object cannot be validated. </p>
-
-    <p>HTTP status code 400. </p>
+  summary: "<p>Create bad message format exception</p>\r\n<p>The body of the Http request is not valid; for example, it cannot be parsed, or the object cannot be validated. </p>\r\n<p>HTTP status code 400. </p>"
   syntax:
     content: public class ProvisioningServiceClientBadFormatException extends ProvisioningServiceClientBadUsageException
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientNotFoundException
@@ -263,12 +258,7 @@ references:
   nameWithType: ProvisioningServiceClientNotFoundException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientNotFoundException
   type: Class
-  summary: >-
-    <p>Create Device Provisioning Service not found exception</p>
-
-    <p>The Device Provisioning Service instance, or a resource (e.g. an enrollment) does not exist. </p>
-
-    <p>HTTP status code 404. </p>
+  summary: "<p>Create Device Provisioning Service not found exception</p>\r\n<p>The Device Provisioning Service instance, or a resource (e.g. an enrollment) does not exist. </p>\r\n<p>HTTP status code 404. </p>"
   syntax:
     content: public class ProvisioningServiceClientNotFoundException
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientPreconditionFailedException
@@ -278,12 +268,7 @@ references:
   nameWithType: ProvisioningServiceClientPreconditionFailedException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientPreconditionFailedException
   type: Class
-  summary: >-
-    <p>Create precondition failed exception</p>
-
-    <p>The ETag in the request does not match the ETag of the existing resource, as per RFC7232. </p>
-
-    <p>HTTP status code 412. </p>
+  summary: "<p>Create precondition failed exception</p>\r\n<p>The ETag in the request does not match the ETag of the existing resource, as per RFC7232. </p>\r\n<p>HTTP status code 412. </p>"
   syntax:
     content: public class ProvisioningServiceClientPreconditionFailedException
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTooManyRequestsException
@@ -293,12 +278,7 @@ references:
   nameWithType: ProvisioningServiceClientTooManyRequestsException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTooManyRequestsException
   type: Class
-  summary: >-
-    <p>Create too many requests exception</p>
-
-    <p>Operations are being throttled by the service. For specific service limits, see IoT Hub Device Provisioning Service limits. </p>
-
-    <p>HTTP status code 429. </p>
+  summary: "<p>Create too many requests exception</p>\r\n<p>Operations are being throttled by the service. For specific service limits, see IoT Hub Device Provisioning Service limits. </p>\r\n<p>HTTP status code 429. </p>"
   syntax:
     content: public class ProvisioningServiceClientTooManyRequestsException
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnathorizedException
@@ -308,11 +288,6 @@ references:
   nameWithType: ProvisioningServiceClientUnathorizedException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnathorizedException
   type: Class
-  summary: >-
-    <p>Create unauthorized exception</p>
-
-    <p>The authorization token cannot be validated; for example, it is expired or does not apply to the request’s URI. This error code is also returned to devices as part of the TPM attestation flow. </p>
-
-    <p>HTTP status code 401 </p>
+  summary: "<p>Create unauthorized exception</p>\r\n<p>The authorization token cannot be validated; for example, it is expired or does not apply to the request’s URI. This error code is also returned to devices as part of the TPM attestation flow. </p>\r\n<p>HTTP status code 401 </p>"
   syntax:
     content: public class ProvisioningServiceClientUnathorizedException

@@ -66,7 +66,7 @@ references:
   nameWithType: WebDeployment.Definition
   fullName: com.microsoft.azure.management.appservice.WebDeployment.Definition
   type: Interface
-  summary: <p>The entirety of web deployment parameters definition. </p>
+  summary: "<p>The entirety of web deployment parameters definition. </p>"
   syntax:
     content: public interface Definition extends WebDeployment.DefinitionStages.WithPackageUri,WebDeployment.DefinitionStages.WithExecute
 - uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExecute
@@ -76,6 +76,6 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithExecute
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExecute
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithExecute extends Executable<WebDeployment>,WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted,WebDeployment.DefinitionStages.WithAddOnPackage,WebDeployment.DefinitionStages.WithSetParameters

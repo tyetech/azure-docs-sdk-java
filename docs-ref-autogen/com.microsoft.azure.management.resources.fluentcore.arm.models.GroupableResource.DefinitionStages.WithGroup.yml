@@ -43,7 +43,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(String groupName)
     parameters:
@@ -60,7 +60,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(ResourceGroup group)
     parameters:
@@ -77,10 +77,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithNewResourceGroup<T>.withNewResourceGroup(String name)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithNewResourceGroup<T>.withNewResourceGroup(String name)
   type: Method
-  summary: >-
-    <p>Creates a new resource group to put the resource in. </p>
-
-    <p>The group will be created in the same location as the resource. </p>
+  summary: "<p>Creates a new resource group to put the resource in. </p>\r\n<p>The group will be created in the same location as the resource. </p>"
   syntax:
     content: public T withNewResourceGroup(String name)
     parameters:
@@ -97,10 +94,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithNewResourceGroup<T>.withNewResourceGroup()
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithNewResourceGroup<T>.withNewResourceGroup()
   type: Method
-  summary: >-
-    <p>Creates a new resource group to put the resource in. </p>
-
-    <p>The group will be created in the same location as the resource. The group's name is automatically derived from the resource's name. </p>
+  summary: "<p>Creates a new resource group to put the resource in. </p>\r\n<p>The group will be created in the same location as the resource. The group's name is automatically derived from the resource's name. </p>"
   syntax:
     content: public T withNewResourceGroup()
     return:
@@ -113,7 +107,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithCreatableResourceGroup<T>.withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithCreatableResourceGroup<T>.withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
   type: Method
-  summary: <p>Creates a new resource group to put the resource in, based on the definition specified. </p>
+  summary: "<p>Creates a new resource group to put the resource in, based on the definition specified. </p>"
   syntax:
     content: public T withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
     parameters:
@@ -130,10 +124,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithExistingResourceGroup<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing an existing resource group to be selected.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing an existing resource group to be selected.</p>\r\n<p></p>"
   syntax:
     content: public interface WithExistingResourceGroup<T>
     typeParameters:
@@ -147,10 +138,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithNewResourceGroup<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithNewResourceGroup<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing a new resource group to be created in the same region as groupable resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing a new resource group to be created in the same region as groupable resource.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNewResourceGroup<T>
     typeParameters:

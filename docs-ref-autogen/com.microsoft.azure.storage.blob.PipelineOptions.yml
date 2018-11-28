@@ -351,7 +351,7 @@ references:
   nameWithType: RequestRetryOptions
   fullName: com.microsoft.azure.storage.blob.RequestRetryOptions
   type: Class
-  summary: <p>Options for configuring the <xref uid="com.microsoft.azure.storage.blob.RequestRetryFactory" data-throw-if-not-resolved="false">RequestRetryFactory</xref>. Please refer to the Factory for more information. Note that there is no option for overall operation timeout. This is because Rx object have a timeout field which provides this functionality. </p>
+  summary: "<p>Options for configuring the <xref uid=\"com.microsoft.azure.storage.blob.RequestRetryFactory\" data-throw-if-not-resolved=\"false\">RequestRetryFactory</xref>. Please refer to the Factory for more information. Note that there is no option for overall operation timeout. This is because Rx object have a timeout field which provides this functionality. </p>"
   syntax:
     content: public class RequestRetryOptions
 - uid: com.microsoft.azure.storage.blob.RequestRetryOptions.DEFAULT
@@ -361,7 +361,7 @@ references:
   nameWithType: RequestRetryOptions.DEFAULT
   fullName: com.microsoft.azure.storage.blob.RequestRetryOptions.DEFAULT
   type: Field
-  summary: '<p>An object representing default retry values: Exponential backoff, maxTries=4, tryTimeout=30, retryDelayInMs=4000, maxRetryDelayInMs=120000, secondaryHost=null. </p>'
+  summary: "<p>An object representing default retry values: Exponential backoff, maxTries=4, tryTimeout=30, retryDelayInMs=4000, maxRetryDelayInMs=120000, secondaryHost=null. </p>"
   syntax:
     content: >-
       public static final RequestRetryOptions DEFAULT= new RequestRetryOptions(RetryPolicyType.EXPONENTIAL, null,
@@ -375,7 +375,7 @@ references:
   nameWithType: LoggingOptions
   fullName: com.microsoft.azure.storage.blob.LoggingOptions
   type: Class
-  summary: <p>Options to configure the <xref uid="com.microsoft.azure.storage.blob.LoggingFactory" data-throw-if-not-resolved="false">LoggingFactory</xref>. Please refer to the Factory for more information. </p>
+  summary: "<p>Options to configure the <xref uid=\"com.microsoft.azure.storage.blob.LoggingFactory\" data-throw-if-not-resolved=\"false\">LoggingFactory</xref>. Please refer to the Factory for more information. </p>"
   syntax:
     content: public class LoggingOptions
 - uid: com.microsoft.azure.storage.blob.LoggingOptions.DEFAULT
@@ -385,10 +385,7 @@ references:
   nameWithType: LoggingOptions.DEFAULT
   fullName: com.microsoft.azure.storage.blob.LoggingOptions.DEFAULT
   type: Field
-  summary: >-
-    <p>Default logging options.<code>MinDurationToLogSlowRequestsInMs 
-
-        </code> is set to 3000; </p>
+  summary: "<p>Default logging options.<code>MinDurationToLogSlowRequestsInMs \r\n    </code> is set to 3000; </p>"
   syntax:
     content: public static final LoggingOptions DEFAULT= new LoggingOptions(3000)
     return:
@@ -400,7 +397,7 @@ references:
   nameWithType: TelemetryOptions
   fullName: com.microsoft.azure.storage.blob.TelemetryOptions
   type: Class
-  summary: <p>Options for configuring the <xref uid="com.microsoft.azure.storage.blob.TelemetryFactory" data-throw-if-not-resolved="false">TelemetryFactory</xref>. Please refer to the Factory for more information. </p>
+  summary: "<p>Options for configuring the <xref uid=\"com.microsoft.azure.storage.blob.TelemetryFactory\" data-throw-if-not-resolved=\"false\">TelemetryFactory</xref>. Please refer to the Factory for more information. </p>"
   syntax:
     content: public class TelemetryOptions
 - uid: com.microsoft.azure.storage.blob.PipelineOptions
@@ -410,7 +407,7 @@ references:
   nameWithType: PipelineOptions
   fullName: com.microsoft.azure.storage.blob.PipelineOptions
   type: Class
-  summary: <p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid="com.microsoft.azure.storage.blob.StorageURL" data-throw-if-not-resolved="false">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>
+  summary: "<p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid=\"com.microsoft.azure.storage.blob.StorageURL\" data-throw-if-not-resolved=\"false\">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.StorageURL
   parent: com.microsoft.azure.storage.blob
@@ -419,6 +416,6 @@ references:
   nameWithType: StorageURL
   fullName: com.microsoft.azure.storage.blob.StorageURL
   type: Class
-  summary: <p>Represents a URL to a Azure storage object. Typically this class is only needed to generate a new pipeline. In most cases, one of the other URL types will be more useful. </p>
+  summary: "<p>Represents a URL to a Azure storage object. Typically this class is only needed to generate a new pipeline. In most cases, one of the other URL types will be more useful. </p>"
   syntax:
     content: public class StorageURL

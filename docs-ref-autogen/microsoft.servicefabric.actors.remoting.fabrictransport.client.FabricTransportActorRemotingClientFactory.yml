@@ -120,12 +120,7 @@ references:
   nameWithType: FabricTransportServiceRemotingClientFactory.FabricTransportServiceRemotingClientFactory(FabricTransportRemotingSettings fabricTransportSettings, ServiceRemotingCallbackClient callbackClient, ServicePartitionResolver servicePartitionResolver, List<ExceptionHandler> exceptionHandlers, String traceId)
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.client.FabricTransportServiceRemotingClientFactory.FabricTransportServiceRemotingClientFactory(FabricTransportRemotingSettings fabricTransportSettings, ServiceRemotingCallbackClient callbackClient, ServicePartitionResolver servicePartitionResolver, List<ExceptionHandler> exceptionHandlers, String traceId)
   type: Constructor
-  summary: >-
-    <p>Constructs a fabric transport based service remoting client factory.</p>
-
-    <p>
-
-      <b>Remarks:</b>This factory uses an internal fabric transport exception handler to handle exceptions at the fabric TCP transport level and a <xref uid="" data-throw-if-not-resolved="false">ServiceRemotingExceptionHandler</xref>, in addition to the exception handlers supplied to the constructor. </p>
+  summary: "<p>Constructs a fabric transport based service remoting client factory.</p>\r\n<p>\r\n  <b>Remarks:</b>This factory uses an internal fabric transport exception handler to handle exceptions at the fabric TCP transport level and a <xref uid=\"\" data-throw-if-not-resolved=\"false\">ServiceRemotingExceptionHandler</xref>, in addition to the exception handlers supplied to the constructor. </p>"
   syntax:
     content: public FabricTransportServiceRemotingClientFactory(FabricTransportRemotingSettings fabricTransportSettings, ServiceRemotingCallbackClient callbackClient, ServicePartitionResolver servicePartitionResolver, List<ExceptionHandler> exceptionHandlers, String traceId)
     parameters:
@@ -151,10 +146,7 @@ references:
   nameWithType: FabricTransportServiceRemotingClientFactory.getClientAsync(URI serviceUri, ServicePartitionKey partitionKey, TargetReplicaSelector targetReplicaSelector, String listenerName, OperationRetrySettings retrySettings)
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.client.FabricTransportServiceRemotingClientFactory.getClientAsync(URI serviceUri, ServicePartitionKey partitionKey, TargetReplicaSelector targetReplicaSelector, String listenerName, OperationRetrySettings retrySettings)
   type: Method
-  summary: >-
-    <p>Resolves a partition of the specified service containing one or more communication listeners and returns a client to communicate to the endpoint corresponding to the given listenerName. The endpoint of the service is of the form - {"Endpoints":{"Listener1":"Endpoint1","Listener2":"Endpoint2" ...}}</p>
-
-    <p></p>
+  summary: "<p>Resolves a partition of the specified service containing one or more communication listeners and returns a client to communicate to the endpoint corresponding to the given listenerName. The endpoint of the service is of the form - {\"Endpoints\":{\"Listener1\":\"Endpoint1\",\"Listener2\":\"Endpoint2\" ...}}</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ServiceRemotingClient> getClientAsync(URI serviceUri, ServicePartitionKey partitionKey, TargetReplicaSelector targetReplicaSelector, String listenerName, OperationRetrySettings retrySettings)
     parameters:
@@ -183,10 +175,7 @@ references:
   nameWithType: FabricTransportServiceRemotingClientFactory.getClientAsync(ResolvedServicePartition previousRsp, TargetReplicaSelector targetReplicaSelector, String listenerName, OperationRetrySettings retrySettings)
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.client.FabricTransportServiceRemotingClientFactory.getClientAsync(ResolvedServicePartition previousRsp, TargetReplicaSelector targetReplicaSelector, String listenerName, OperationRetrySettings retrySettings)
   type: Method
-  summary: >-
-    <p>Re-resolves a partition of the specified service containing one or more communication listeners and returns a client to communicate to the endpoint corresponding to the given listenerName. The endpoint of the service is of the form - {"Endpoints":{"Listener1":"Endpoint1","Listener2":"Endpoint2" ...}}</p>
-
-    <p></p>
+  summary: "<p>Re-resolves a partition of the specified service containing one or more communication listeners and returns a client to communicate to the endpoint corresponding to the given listenerName. The endpoint of the service is of the form - {\"Endpoints\":{\"Listener1\":\"Endpoint1\",\"Listener2\":\"Endpoint2\" ...}}</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ServiceRemotingClient> getClientAsync(ResolvedServicePartition previousRsp, TargetReplicaSelector targetReplicaSelector, String listenerName, OperationRetrySettings retrySettings)
     parameters:
@@ -212,10 +201,7 @@ references:
   nameWithType: FabricTransportServiceRemotingClientFactory.reportOperationExceptionAsync(ServiceRemotingClient client, ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.client.FabricTransportServiceRemotingClientFactory.reportOperationExceptionAsync(ServiceRemotingClient client, ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
   type: Method
-  summary: >-
-    <p>Handles the exceptions that occur in the CommunicationClient when sending a message to the Service</p>
-
-    <p></p>
+  summary: "<p>Handles the exceptions that occur in the CommunicationClient when sending a message to the Service</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<OperationRetryControl> reportOperationExceptionAsync(ServiceRemotingClient client, ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
     parameters:
@@ -238,10 +224,7 @@ references:
   nameWithType: CommunicationClientFactory<TCommunicationClient>.reportOperationExceptionAsync(TCommunicationClient client, ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
   fullName: microsoft.servicefabric.services.communication.client.CommunicationClientFactory<TCommunicationClient extends CommunicationClient>.reportOperationExceptionAsync(TCommunicationClient client, ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
   type: Method
-  summary: >-
-    <p>Handles the exceptions that occur in the CommunicationClient when sending a message to the Service</p>
-
-    <p></p>
+  summary: "<p>Handles the exceptions that occur in the CommunicationClient when sending a message to the Service</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<OperationRetryControl> reportOperationExceptionAsync(TCommunicationClient client, ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
     parameters:
@@ -264,7 +247,7 @@ references:
   nameWithType: FabricTransportServiceRemotingClientFactory
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.client.FabricTransportServiceRemotingClientFactory
   type: Class
-  summary: <p>An <xref uid="microsoft.servicefabric.services.remoting.client.ServiceRemotingClientFactory" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.client.ServiceRemotingClientFactory</xref> that uses Fabric TCP transport to create <xref uid="microsoft.servicefabric.services.remoting.client.ServiceRemotingClient" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.client.ServiceRemotingClient</xref> that communicate with stateless and stateful services over interfaces that are remoted via <xref uid="microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener</xref>. </p>
+  summary: "<p>An <xref uid=\"microsoft.servicefabric.services.remoting.client.ServiceRemotingClientFactory\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.client.ServiceRemotingClientFactory</xref> that uses Fabric TCP transport to create <xref uid=\"microsoft.servicefabric.services.remoting.client.ServiceRemotingClient\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.client.ServiceRemotingClient</xref> that communicate with stateless and stateful services over interfaces that are remoted via <xref uid=\"microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener</xref>. </p>"
   syntax:
     content: public class FabricTransportServiceRemotingClientFactory
 - uid: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingCallbackClient
@@ -274,7 +257,7 @@ references:
   nameWithType: ServiceRemotingCallbackClient
   fullName: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingCallbackClient
   type: Interface
-  summary: <p>Defines the interface that must be implemented for providing callback mechanism from the remoting listener to the client. </p>
+  summary: "<p>Defines the interface that must be implemented for providing callback mechanism from the remoting listener to the client. </p>"
   syntax:
     content: public interface ServiceRemotingCallbackClient
 - uid: microsoft.servicefabric.services.remoting.fabrictransport.FabricTransportRemotingSettings
@@ -284,7 +267,7 @@ references:
   nameWithType: FabricTransportRemotingSettings
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.FabricTransportRemotingSettings
   type: Class
-  summary: <p>Settings that configures the FabricTransport communication. </p>
+  summary: "<p>Settings that configures the FabricTransport communication. </p>"
   syntax:
     content: public class FabricTransportRemotingSettings
 - uid: microsoft.servicefabric.services.client.ServicePartitionResolver
@@ -294,7 +277,7 @@ references:
   nameWithType: ServicePartitionResolver
   fullName: microsoft.servicefabric.services.client.ServicePartitionResolver
   type: Interface
-  summary: <p>Implements the class that helps in determining the endpoint of a service. </p>
+  summary: "<p>Implements the class that helps in determining the endpoint of a service. </p>"
   syntax:
     content: public interface ServicePartitionResolver
 - uid: microsoft.servicefabric.services.communication.client.ExceptionHandler
@@ -304,7 +287,7 @@ references:
   nameWithType: ExceptionHandler
   fullName: microsoft.servicefabric.services.communication.client.ExceptionHandler
   type: Interface
-  summary: <p>Defines the interface for handling the exceptions encountered in communicating with service fabric services. </p>
+  summary: "<p>Defines the interface for handling the exceptions encountered in communicating with service fabric services. </p>"
   syntax:
     content: public interface ExceptionHandler
 - uid: microsoft.servicefabric.services.client.FabricServicePartitionResolver.getDefault()
@@ -314,10 +297,7 @@ references:
   nameWithType: FabricServicePartitionResolver.getDefault()
   fullName: microsoft.servicefabric.services.client.FabricServicePartitionResolver.getDefault()
   type: Method
-  summary: >-
-    <p>Gets the default ServicePartitionResolver</p>
-
-    <p></p>
+  summary: "<p>Gets the default ServicePartitionResolver</p>\r\n<p></p>"
   syntax:
     content: public static ServicePartitionResolver getDefault()
     return:
@@ -330,7 +310,7 @@ references:
   nameWithType: ServiceRemotingClientFactory
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingClientFactory
   type: Interface
-  summary: <p>Defines the interface that must be implemented for providing the remoting communication client factory. </p>
+  summary: "<p>Defines the interface that must be implemented for providing the remoting communication client factory. </p>"
   syntax:
     content: public interface ServiceRemotingClientFactory
 - uid: microsoft.servicefabric.services.remoting.client.ServiceRemotingClient
@@ -340,7 +320,7 @@ references:
   nameWithType: ServiceRemotingClient
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingClient
   type: Interface
-  summary: <p>Defines the interface that must be implemented to provide a client for Service Remoting communication. </p>
+  summary: "<p>Defines the interface that must be implemented to provide a client for Service Remoting communication. </p>"
   syntax:
     content: public interface ServiceRemotingClient
 - uid: microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener
@@ -350,6 +330,6 @@ references:
   nameWithType: FabricTransportServiceRemotingListener
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener
   type: Class
-  summary: <p>An <xref uid="" data-throw-if-not-resolved="false">ServiceRemotingListener</xref> that uses fabric TCP transport to provide interface remoting for stateless and stateful services. </p>
+  summary: "<p>An <xref uid=\"\" data-throw-if-not-resolved=\"false\">ServiceRemotingListener</xref> that uses fabric TCP transport to provide interface remoting for stateless and stateful services. </p>"
   syntax:
     content: public class FabricTransportServiceRemotingListener

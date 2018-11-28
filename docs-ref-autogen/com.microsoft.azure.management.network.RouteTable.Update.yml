@@ -42,10 +42,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -58,10 +55,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -74,10 +68,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -94,10 +85,7 @@ references:
   nameWithType: RouteTable.UpdateStages.WithRoute.defineRoute(String name)
   fullName: com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.defineRoute(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new route to add to the route table. </p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">Route.UpdateDefinitionStages.WithAttach#attach()</xref></p>
+  summary: "<p>Begins the definition of a new route to add to the route table. </p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">Route.UpdateDefinitionStages.WithAttach#attach()</xref></p>"
   syntax:
     content: public Route.UpdateDefinitionStages.Blank<Update> defineRoute(String name)
     parameters:
@@ -126,7 +114,7 @@ references:
   nameWithType: RouteTable.UpdateStages.WithRoute.updateRoute(String name)
   fullName: com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.updateRoute(String name)
   type: Method
-  summary: <p>Begins the update of an existing route on this route table. </p>
+  summary: "<p>Begins the update of an existing route on this route table. </p>"
   syntax:
     content: public Route.Update updateRoute(String name)
     parameters:
@@ -143,7 +131,7 @@ references:
   nameWithType: RouteTable.UpdateStages.WithRoute.withoutRoute(String name)
   fullName: com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.withoutRoute(String name)
   type: Method
-  summary: <p>Removes the specified route from the route table. </p>
+  summary: "<p>Removes the specified route from the route table. </p>"
   syntax:
     content: public Update withoutRoute(String name)
     parameters:
@@ -160,7 +148,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -177,10 +165,7 @@ references:
   nameWithType: RouteTable.UpdateStages.WithRoute.withRoute(String destinationAddressPrefix, RouteNextHopType nextHop)
   fullName: com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.withRoute(String destinationAddressPrefix, RouteNextHopType nextHop)
   type: Method
-  summary: >-
-    <p>Creates a non-virtual appliance route. </p>
-
-    <p>The name is generated automatically. </p>
+  summary: "<p>Creates a non-virtual appliance route. </p>\r\n<p>The name is generated automatically. </p>"
   syntax:
     content: public Update withRoute(String destinationAddressPrefix, RouteNextHopType nextHop)
     parameters:
@@ -200,7 +185,7 @@ references:
   nameWithType: RouteTable.UpdateStages.WithRoute.withRouteViaVirtualAppliance(String destinationAddressPrefix, String ipAddress)
   fullName: com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.withRouteViaVirtualAppliance(String destinationAddressPrefix, String ipAddress)
   type: Method
-  summary: <p>Creates a route via a virtual appliance. </p>
+  summary: "<p>Creates a route via a virtual appliance. </p>"
   syntax:
     content: public Update withRouteViaVirtualAppliance(String destinationAddressPrefix, String ipAddress)
     parameters:
@@ -220,7 +205,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -240,7 +225,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -257,10 +242,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -274,10 +256,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -291,6 +270,6 @@ references:
   nameWithType: RouteTable.UpdateStages.WithRoute
   fullName: com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute
   type: Interface
-  summary: <p>The stage of the route table definition allowing to add, remove or modify routes. </p>
+  summary: "<p>The stage of the route table definition allowing to add, remove or modify routes. </p>"
   syntax:
     content: public interface WithRoute

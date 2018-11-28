@@ -1231,10 +1231,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -1247,10 +1244,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -1263,10 +1257,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1283,10 +1274,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -1299,10 +1287,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1319,10 +1304,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -1371,10 +1353,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1387,10 +1366,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1403,7 +1379,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinition
@@ -1413,7 +1389,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinition
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface QueuedQuickBuildDefinition
 - uid: com.microsoft.azure.management.containerregistry.Build.Update
@@ -1423,7 +1399,7 @@ references:
   nameWithType: Build.Update
   fullName: com.microsoft.azure.management.containerregistry.Build.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update
 - uid: com.microsoft.azure.management.containerregistry.QuickBuildRequest
@@ -1433,7 +1409,7 @@ references:
   nameWithType: QuickBuildRequest
   fullName: com.microsoft.azure.management.containerregistry.QuickBuildRequest
   type: Class
-  summary: <p>The queue build request parameters for a quick build. </p>
+  summary: "<p>The queue build request parameters for a quick build. </p>"
   syntax:
     content: public class QuickBuildRequest
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -1443,7 +1419,7 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax:
     content: public class RegistryImpl
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildInner
@@ -1453,7 +1429,7 @@ references:
   nameWithType: BuildInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildInner
   type: Class
-  summary: <p>Build resource properties. </p>
+  summary: "<p>Build resource properties. </p>"
   syntax:
     content: public class BuildInner
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource.id()
@@ -1499,7 +1475,7 @@ references:
   nameWithType: BuildStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildStatus
   type: Class
-  summary: <p>Defines values for BuildStatus. </p>
+  summary: "<p>Defines values for BuildStatus. </p>"
   syntax:
     content: public class BuildStatus
 - uid: com.microsoft.azure.management.containerregistry.Build.status()
@@ -1533,7 +1509,7 @@ references:
   nameWithType: BuildType
   fullName: com.microsoft.azure.management.containerregistry.BuildType
   type: Class
-  summary: <p>Defines values for BuildType. </p>
+  summary: "<p>Defines values for BuildType. </p>"
   syntax:
     content: public class BuildType
 - uid: com.microsoft.azure.management.containerregistry.Build.buildType()
@@ -1591,7 +1567,7 @@ references:
   nameWithType: ImageDescriptor
   fullName: com.microsoft.azure.management.containerregistry.ImageDescriptor
   type: Class
-  summary: <p>Properties for a registry image. </p>
+  summary: "<p>Properties for a registry image. </p>"
   syntax:
     content: public class ImageDescriptor
 - uid: com.microsoft.azure.management.containerregistry.Build.outputImages()
@@ -1625,7 +1601,7 @@ references:
   nameWithType: ImageUpdateTrigger
   fullName: com.microsoft.azure.management.containerregistry.ImageUpdateTrigger
   type: Class
-  summary: <p>The image update trigger that caused a build. </p>
+  summary: "<p>The image update trigger that caused a build. </p>"
   syntax:
     content: public class ImageUpdateTrigger
 - uid: com.microsoft.azure.management.containerregistry.Build.imageUpdateTrigger()
@@ -1647,7 +1623,7 @@ references:
   nameWithType: GitCommitTrigger
   fullName: com.microsoft.azure.management.containerregistry.GitCommitTrigger
   type: Class
-  summary: <p>The git commit trigger that caused a build. </p>
+  summary: "<p>The git commit trigger that caused a build. </p>"
   syntax:
     content: public class GitCommitTrigger
 - uid: com.microsoft.azure.management.containerregistry.Build.gitCommitTrigger()
@@ -1681,7 +1657,7 @@ references:
   nameWithType: OsType
   fullName: com.microsoft.azure.management.containerregistry.OsType
   type: Class
-  summary: <p>Defines values for OsType. </p>
+  summary: "<p>Defines values for OsType. </p>"
   syntax:
     content: public class OsType
 - uid: com.microsoft.azure.management.containerregistry.Build.osType()
@@ -1715,7 +1691,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.containerregistry.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState
 - uid: com.microsoft.azure.management.containerregistry.Build.provisioningState()
@@ -1761,7 +1737,7 @@ references:
   nameWithType: BuildImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildImpl
   type: Class
-  summary: <p>Implementation for Build. </p>
+  summary: "<p>Implementation for Build. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.containerregistry.Build.UpdateStages.WithArchiving.withArchivingEnabled()
   parent: com.microsoft.azure.management.containerregistry.Build.UpdateStages.WithArchiving
@@ -1770,10 +1746,7 @@ references:
   nameWithType: Build.UpdateStages.WithArchiving.withArchivingEnabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.UpdateStages.WithArchiving.withArchivingEnabled()
   type: Method
-  summary: >-
-    <p>Specifies the archiving is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies the archiving is enabled.</p>\r\n<p></p>"
   syntax:
     content: public Build.Update withArchivingEnabled()
     return:
@@ -1786,10 +1759,7 @@ references:
   nameWithType: Build.UpdateStages.WithArchiving.withArchivingDisabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.UpdateStages.WithArchiving.withArchivingDisabled()
   type: Method
-  summary: >-
-    <p>Specifies the archiving is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies the archiving is disabled.</p>\r\n<p></p>"
   syntax:
     content: public Build.Update withArchivingDisabled()
     return:
@@ -1802,12 +1772,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1820,10 +1785,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithOSType.withOSType(OsType osType)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithOSType.withOSType(OsType osType)
   type: Method
-  summary: >-
-    <p>Specifies the OS type required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the OS type required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithSourceLocation withOSType(OsType osType)
     parameters:
@@ -1840,10 +1802,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithSourceLocation.withSourceLocation(String sourceLocation)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithSourceLocation.withSourceLocation(String sourceLocation)
   type: Method
-  summary: >-
-    <p>Specifies the source location required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source location required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithDockerFilePath withSourceLocation(String sourceLocation)
     parameters:
@@ -1860,10 +1819,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   type: Method
-  summary: >-
-    <p>Specifies the Docker file path required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Docker file path required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withDockerFilePath(String dockerFilePath)
     parameters:
@@ -1880,7 +1836,7 @@ references:
   nameWithType: BuildArgumentImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildArgumentImpl
   type: Class
-  summary: <p>Implementation for container group's volume definition stages interface. </p>
+  summary: "<p>Implementation for container group's volume definition stages interface. </p>"
   syntax:
     content: public class BuildArgumentImpl implements Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<Build.QueuedQuickBuildDefinitionStages.WithCreate>
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildArgument.defineBuildArgument(String)
@@ -1890,10 +1846,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildArgument.defineBuildArgument(String name)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildArgument.defineBuildArgument(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of the build argument settings.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of the build argument settings.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<QueuedQuickBuildDefinitionStages.WithCreate> defineBuildArgument(String name)
     parameters:
@@ -1910,10 +1863,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   type: Method
-  summary: >-
-    <p>Specifies the CPU configuration in terms of number of cores required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the CPU configuration in terms of number of cores required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withCpuCoresCount(int count)
     parameters:
@@ -1930,10 +1880,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the build timeout.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build timeout.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
     parameters:
@@ -1950,10 +1897,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   type: Method
-  summary: >-
-    <p>Specifies the image names for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the image names for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImageNames(String... imageNames)
     parameters:
@@ -1970,10 +1914,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheEnabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is enabled.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImageCacheEnabled()
     return:
@@ -1986,10 +1927,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheDisabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is disabled.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImageCacheDisabled()
     return:
@@ -2002,10 +1940,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushEnabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImagePushEnabled()
     return:
@@ -2018,10 +1953,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushDisabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should not be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should not be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImagePushDisabled()
     return:

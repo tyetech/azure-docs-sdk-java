@@ -937,7 +937,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.data.ConditionalValue
@@ -947,10 +947,7 @@ references:
   nameWithType: ConditionalValue<TValue>
   fullName: microsoft.servicefabric.data.ConditionalValue<TValue>
   type: Class
-  summary: >-
-    <p>Result class returned by DistributedCollections APIs that may or may not return a value.</p>
-
-    <p></p>
+  summary: "<p>Result class returned by DistributedCollections APIs that may or may not return a value.</p>\r\n<p></p>"
   syntax:
     content: public class ConditionalValue<TValue>
     typeParameters:
@@ -964,7 +961,7 @@ references:
   nameWithType: ActorStateManager
   fullName: microsoft.servicefabric.actors.runtime.ActorStateManager
   type: Interface
-  summary: <p>Represents the interface that state manager for <xref uid="microsoft.servicefabric.actors.Actor" data-throw-if-not-resolved="false">Actor</xref> implements. </p>
+  summary: "<p>Represents the interface that state manager for <xref uid=\"microsoft.servicefabric.actors.Actor\" data-throw-if-not-resolved=\"false\">Actor</xref> implements. </p>"
   syntax: *o1
 - uid: microsoft.servicefabric.actors.runtime.ActorStateManager.saveStateAsync(CancellationToken)
   parent: microsoft.servicefabric.actors.runtime.ActorStateManager
@@ -973,10 +970,7 @@ references:
   nameWithType: ActorStateManager.saveStateAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ActorStateManager.saveStateAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Saves all the cached state changes (add/update/remove) that were made since last call to <xref uid="microsoft.servicefabric.actors.runtime.ActorStateManager.saveStateAsync(CancellationToken)" data-throw-if-not-resolved="false">ActorStateManager#saveStateAsync(CancellationToken)</xref> by actor runtime or by user explicitly.</p>
-
-    <p></p>
+  summary: "<p>Saves all the cached state changes (add/update/remove) that were made since last call to <xref uid=\"microsoft.servicefabric.actors.runtime.ActorStateManager.saveStateAsync(CancellationToken)\" data-throw-if-not-resolved=\"false\">ActorStateManager#saveStateAsync(CancellationToken)</xref> by actor runtime or by user explicitly.</p>\r\n<p></p>"
   syntax: *o2
 - uid: microsoft.servicefabric.actors.Actor
   parent: microsoft.servicefabric.actors
@@ -985,6 +979,6 @@ references:
   nameWithType: Actor
   fullName: microsoft.servicefabric.actors.Actor
   type: Interface
-  summary: <p>Base interface for inheriting reliable actor interfaces. </p>
+  summary: "<p>Base interface for inheriting reliable actor interfaces. </p>"
   syntax:
     content: public interface Actor

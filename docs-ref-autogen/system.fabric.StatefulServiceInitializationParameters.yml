@@ -100,10 +100,7 @@ references:
   nameWithType: ServiceInitializationParameters.getCodePackageActivationContext()
   fullName: system.fabric.ServiceInitializationParameters.getCodePackageActivationContext()
   type: Method
-  summary: >-
-    <p>Specifies the activation context that is associated with the code package that contains the service.</p>
-
-    <p></p>
+  summary: "<p>Specifies the activation context that is associated with the code package that contains the service.</p>\r\n<p></p>"
   syntax:
     content: public FabricCodePackageActivationContext getCodePackageActivationContext()
     return:
@@ -116,10 +113,7 @@ references:
   nameWithType: ServiceInitializationParameters.getInitializationData()
   fullName: system.fabric.ServiceInitializationParameters.getInitializationData()
   type: Method
-  summary: >-
-    <p>Specifies custom initialization data that is provided by the creator of the service as part of the service description.</p>
-
-    <p></p>
+  summary: "<p>Specifies custom initialization data that is provided by the creator of the service as part of the service description.</p>\r\n<p></p>"
   syntax:
     content: public byte [] getInitializationData()
     return:
@@ -132,10 +126,7 @@ references:
   nameWithType: ServiceInitializationParameters.getPartitionId()
   fullName: system.fabric.ServiceInitializationParameters.getPartitionId()
   type: Method
-  summary: >-
-    <p>Specifies the unique identifier of the service partition.</p>
-
-    <p></p>
+  summary: "<p>Specifies the unique identifier of the service partition.</p>\r\n<p></p>"
   syntax:
     content: public UUID getPartitionId()
     return:
@@ -148,10 +139,7 @@ references:
   nameWithType: ServiceInitializationParameters.getServiceName()
   fullName: system.fabric.ServiceInitializationParameters.getServiceName()
   type: Method
-  summary: >-
-    <p>Indicates the Service Fabric name of the service.</p>
-
-    <p></p>
+  summary: "<p>Indicates the Service Fabric name of the service.</p>\r\n<p></p>"
   syntax:
     content: public URI getServiceName()
     return:
@@ -164,10 +152,7 @@ references:
   nameWithType: ServiceInitializationParameters.getServiceTypeName()
   fullName: system.fabric.ServiceInitializationParameters.getServiceTypeName()
   type: Method
-  summary: >-
-    <p>Indicates the name of the type of the service.</p>
-
-    <p></p>
+  summary: "<p>Indicates the name of the type of the service.</p>\r\n<p></p>"
   syntax:
     content: public String getServiceTypeName()
     return:
@@ -180,10 +165,7 @@ references:
   nameWithType: ServiceInitializationParameters
   fullName: system.fabric.ServiceInitializationParameters
   type: Class
-  summary: >-
-    <p>
-
-      <b>Remarks:</b>Derived types define initialization data that are specific to stateless and stateful services. </p>
+  summary: "<p>\r\n  <b>Remarks:</b>Derived types define initialization data that are specific to stateless and stateful services. </p>"
   syntax:
     content: public class ServiceInitializationParameters
 - uid: system.fabric.FabricCodePackageActivationContext
@@ -193,6 +175,6 @@ references:
   nameWithType: FabricCodePackageActivationContext
   fullName: system.fabric.FabricCodePackageActivationContext
   type: Class
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax:
     content: public class FabricCodePackageActivationContext implements CodePackageActivationContext

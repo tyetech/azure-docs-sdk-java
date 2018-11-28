@@ -1124,10 +1124,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -1140,10 +1137,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -1156,10 +1150,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1176,10 +1167,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -1192,10 +1180,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1212,10 +1197,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -1288,10 +1270,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1304,10 +1283,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1380,12 +1356,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1398,7 +1369,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -1415,7 +1386,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -1432,7 +1403,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -1449,7 +1420,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1469,7 +1440,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1489,7 +1460,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1506,7 +1477,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1523,7 +1494,7 @@ references:
   nameWithType: ContainerService
   fullName: com.microsoft.azure.management.containerservice.ContainerService
   type: Interface
-  summary: <p>A client-side representation for a container service. </p>
+  summary: "<p>A client-side representation for a container service. </p>"
   syntax:
     content: public interface ContainerService extends GroupableResource<ContainerServiceManager, ContainerServiceInner>,Refreshable<ContainerService>,Updatable<ContainerService.Update>,OrchestratorServiceBase
 - uid: com.microsoft.azure.management.containerservice.ContainerService.Definition
@@ -1533,7 +1504,7 @@ references:
   nameWithType: ContainerService.Definition
   fullName: com.microsoft.azure.management.containerservice.ContainerService.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a container service. </p>
+  summary: "<p>Container interface for all the definitions related to a container service. </p>"
   syntax:
     content: public interface Definition
 - uid: com.microsoft.azure.management.containerservice.ContainerService.Update
@@ -1543,7 +1514,7 @@ references:
   nameWithType: ContainerService.Update
   fullName: com.microsoft.azure.management.containerservice.ContainerService.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner
@@ -1553,7 +1524,7 @@ references:
   nameWithType: ContainerServiceInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner
   type: Class
-  summary: <p>Container service. </p>
+  summary: "<p>Container service. </p>"
   syntax:
     content: public class ContainerServiceInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
@@ -1563,7 +1534,7 @@ references:
   nameWithType: ContainerServiceManager
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
   type: Class
-  summary: <p>Entry point to Azure Container Service management. </p>
+  summary: "<p>Entry point to Azure Container Service management. </p>"
   syntax:
     content: public class ContainerServiceManager
 - uid: com.microsoft.azure.management.containerservice.ContainerService.masterNodeCount()
@@ -1585,7 +1556,7 @@ references:
   nameWithType: ContainerServiceOrchestratorTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceOrchestratorTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceOrchestratorTypes. </p>
+  summary: "<p>Defines values for ContainerServiceOrchestratorTypes. </p>"
   syntax:
     content: public class ContainerServiceOrchestratorTypes
 - uid: com.microsoft.azure.management.containerservice.ContainerService.orchestratorType()
@@ -1631,7 +1602,7 @@ references:
   nameWithType: ContainerServiceAgentPool
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool
   type: Interface
-  summary: <p>A client-side representation for a container service agent pool. </p>
+  summary: "<p>A client-side representation for a container service agent pool. </p>"
   syntax:
     content: public interface ContainerServiceAgentPool extends ChildResource<OrchestratorServiceBase>,HasInner<ContainerServiceAgentPoolProfile>
 - uid: com.microsoft.azure.management.containerservice.ContainerService.agentPools()
@@ -1713,7 +1684,7 @@ references:
   nameWithType: ContainerServiceStorageProfileTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceStorageProfileTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceStorageProfileTypes. </p>
+  summary: "<p>Defines values for ContainerServiceStorageProfileTypes. </p>"
   syntax:
     content: public class ContainerServiceStorageProfileTypes
 - uid: com.microsoft.azure.management.containerservice.ContainerService.masterStorageProfile()
@@ -1771,7 +1742,7 @@ references:
   nameWithType: ContainerServiceImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl
   type: Class
-  summary: <p>The implementation for ContainerService and its create and update interfaces. </p>
+  summary: "<p>The implementation for ContainerService and its create and update interfaces. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount.withMasterNodeCount(ContainerServiceMasterProfileCount)
   parent: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount
@@ -1780,7 +1751,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterNodeCount.withMasterNodeCount(ContainerServiceMasterProfileCount count)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount.withMasterNodeCount(ContainerServiceMasterProfileCount count)
   type: Method
-  summary: <p>Specifies the master node count. </p>
+  summary: "<p>Specifies the master node count. </p>"
   syntax:
     content: public WithAgentPool withMasterNodeCount(ContainerServiceMasterProfileCount count)
     parameters:
@@ -1797,7 +1768,7 @@ references:
   nameWithType: ContainerServiceMasterProfileCount
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceMasterProfileCount
   type: Enum
-  summary: <p>The minimum valid number of master nodes. </p>
+  summary: "<p>The minimum valid number of master nodes. </p>"
   syntax:
     content: public enum ContainerServiceMasterProfileCount
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterDnsPrefix.withMasterDnsPrefix(String)
@@ -1807,10 +1778,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterDnsPrefix.withMasterDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterDnsPrefix.withMasterDnsPrefix(String dnsPrefix)
   type: Method
-  summary: >-
-    <p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMasterDnsPrefix(String dnsPrefix)
     parameters:
@@ -1827,10 +1795,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a agent pool profile to be attached to the container service.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a agent pool profile to be attached to the container service.</p>\r\n<p></p>"
   syntax:
     content: public ContainerServiceAgentPool.DefinitionStages.Blank<WithCreate> defineAgentPool(String name)
     parameters:
@@ -1847,7 +1812,7 @@ references:
   nameWithType: ContainerService.UpdateStages.WithDiagnostics.withDiagnostics()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics.withDiagnostics()
   type: Method
-  summary: <p>Enables diagnostics. </p>
+  summary: "<p>Enables diagnostics. </p>"
   syntax:
     content: public Update withDiagnostics()
     return:
@@ -1860,7 +1825,7 @@ references:
   nameWithType: ContainerService.UpdateStages.WithDiagnostics.withoutDiagnostics()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics.withoutDiagnostics()
   type: Method
-  summary: <p>Disables diagnostics. </p>
+  summary: "<p>Disables diagnostics. </p>"
   syntax:
     content: public Update withoutDiagnostics()
     return:
@@ -1873,7 +1838,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinux.withLinux()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux.withLinux()
   type: Method
-  summary: <p>Begins the definition to specify Linux settings. </p>
+  summary: "<p>Begins the definition to specify Linux settings. </p>"
   syntax:
     content: public WithLinuxRootUsername withLinux()
     return:
@@ -1886,7 +1851,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   type: Method
-  summary: <p>Begins the definition to specify Linux root username. </p>
+  summary: "<p>Begins the definition to specify Linux root username. </p>"
   syntax:
     content: public WithLinuxSshKey withRootUsername(String rootUserName)
     parameters:
@@ -1903,7 +1868,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   type: Method
-  summary: <p>Begins the definition to specify Linux ssh key. </p>
+  summary: "<p>Begins the definition to specify Linux ssh key. </p>"
   syntax:
     content: public WithMasterNodeCount withSshKey(String sshKeyData)
     parameters:
@@ -1920,7 +1885,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator.withSwarmOrchestration()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator.withSwarmOrchestration()
   type: Method
-  summary: <p>Specifies the Swarm orchestration type for the container service. </p>
+  summary: "<p>Specifies the Swarm orchestration type for the container service. </p>"
   syntax:
     content: public WithLinux withSwarmOrchestration()
     return:
@@ -1933,7 +1898,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator.withDcosOrchestration()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator.withDcosOrchestration()
   type: Method
-  summary: <p>Specifies the DCOS orchestration type for the container service. </p>
+  summary: "<p>Specifies the DCOS orchestration type for the container service. </p>"
   syntax:
     content: public WithLinux withDcosOrchestration()
     return:
@@ -1946,7 +1911,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator.withKubernetesOrchestration()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator.withKubernetesOrchestration()
   type: Method
-  summary: <p>Specifies the Kubernetes orchestration type for the container service. </p>
+  summary: "<p>Specifies the Kubernetes orchestration type for the container service. </p>"
   syntax:
     content: public WithServicePrincipalProfile withKubernetesOrchestration()
     return:
@@ -1959,7 +1924,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithServicePrincipalProfile.withServicePrincipal(String clientId, String secret)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithServicePrincipalProfile.withServicePrincipal(String clientId, String secret)
   type: Method
-  summary: <p>Properties for cluster service principals. </p>
+  summary: "<p>Properties for cluster service principals. </p>"
   syntax:
     content: public WithLinux withServicePrincipal(String clientId, String secret)
     parameters:
@@ -1979,10 +1944,7 @@ references:
   nameWithType: ContainerService.UpdateStages.WithUpdateAgentPoolCount.withAgentVirtualMachineCount(int agentCount)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithUpdateAgentPoolCount.withAgentVirtualMachineCount(int agentCount)
   type: Method
-  summary: >-
-    <p>Updates the agent pool virtual machine count.</p>
-
-    <p></p>
+  summary: "<p>Updates the agent pool virtual machine count.</p>\r\n<p></p>"
   syntax:
     content: public Update withAgentVirtualMachineCount(int agentCount)
     parameters:
@@ -1999,7 +1961,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterVMSize.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterVMSize.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   type: Method
-  summary: <p>Specifies the size of the master VMs, default set to "Standard_D2_v2". </p>
+  summary: "<p>Specifies the size of the master VMs, default set to \"Standard_D2_v2\". </p>"
   syntax:
     content: public WithCreate withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
     parameters:
@@ -2016,7 +1978,7 @@ references:
   nameWithType: ContainerServiceVMSizeTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceVMSizeTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceVMSizeTypes. </p>
+  summary: "<p>Defines values for ContainerServiceVMSizeTypes. </p>"
   syntax:
     content: public class ContainerServiceVMSizeTypes
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile.withMasterStorageProfile(ContainerServiceStorageProfileTypes)
@@ -2026,10 +1988,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterStorageProfile.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   type: Method
-  summary: >-
-    <p>Specifies the storage kind to be used for every machine in master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage kind to be used for every machine in master pool.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
     parameters:
@@ -2046,10 +2005,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterOSDiskSize.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterOSDiskSize.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   type: Method
-  summary: >-
-    <p>OS Disk Size in GB to be used for every machine in the master pool.</p>
-
-    <p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>
+  summary: "<p>OS Disk Size in GB to be used for every machine in the master pool.</p>\r\n<p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>"
   syntax:
     content: public WithCreate withMasterOSDiskSizeInGB(int osDiskSizeInGB)
     parameters:
@@ -2066,10 +2022,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSubnet(String networkId, String subnetName)
     parameters:

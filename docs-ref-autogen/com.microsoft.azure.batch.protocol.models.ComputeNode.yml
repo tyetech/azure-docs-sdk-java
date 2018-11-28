@@ -1338,7 +1338,7 @@ references:
   nameWithType: ComputeNodeState
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState
   type: Enum
-  summary: <p>Defines values for ComputeNodeState. </p>
+  summary: "<p>Defines values for ComputeNodeState. </p>"
   syntax:
     content: public enum ComputeNodeState
 - uid: com.microsoft.azure.batch.protocol.models.SchedulingState
@@ -1348,7 +1348,7 @@ references:
   nameWithType: SchedulingState
   fullName: com.microsoft.azure.batch.protocol.models.SchedulingState
   type: Enum
-  summary: <p>Defines values for SchedulingState. </p>
+  summary: "<p>Defines values for SchedulingState. </p>"
   syntax:
     content: public enum SchedulingState
 - uid: com.microsoft.azure.batch.protocol.models.TaskInformation
@@ -1358,7 +1358,7 @@ references:
   nameWithType: TaskInformation
   fullName: com.microsoft.azure.batch.protocol.models.TaskInformation
   type: Class
-  summary: <p>Information about a task running on a compute node. </p>
+  summary: "<p>Information about a task running on a compute node. </p>"
   syntax:
     content: public class TaskInformation
 - uid: com.microsoft.azure.batch.protocol.models.StartTask
@@ -1368,7 +1368,7 @@ references:
   nameWithType: StartTask
   fullName: com.microsoft.azure.batch.protocol.models.StartTask
   type: Class
-  summary: <p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class StartTask
 - uid: com.microsoft.azure.batch.protocol.models.StartTaskInformation
@@ -1378,7 +1378,7 @@ references:
   nameWithType: StartTaskInformation
   fullName: com.microsoft.azure.batch.protocol.models.StartTaskInformation
   type: Class
-  summary: <p>Information about a start task running on a compute node. </p>
+  summary: "<p>Information about a start task running on a compute node. </p>"
   syntax:
     content: public class StartTaskInformation
 - uid: com.microsoft.azure.batch.protocol.models.CertificateReference
@@ -1388,7 +1388,7 @@ references:
   nameWithType: CertificateReference
   fullName: com.microsoft.azure.batch.protocol.models.CertificateReference
   type: Class
-  summary: <p>A reference to a certificate to be installed on compute nodes in a pool. </p>
+  summary: "<p>A reference to a certificate to be installed on compute nodes in a pool. </p>"
   syntax:
     content: public class CertificateReference
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeError
@@ -1398,7 +1398,7 @@ references:
   nameWithType: ComputeNodeError
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeError
   type: Class
-  summary: <p>An error encountered by a compute node. </p>
+  summary: "<p>An error encountered by a compute node. </p>"
   syntax:
     content: public class ComputeNodeError
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeEndpointConfiguration
@@ -1408,7 +1408,7 @@ references:
   nameWithType: ComputeNodeEndpointConfiguration
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeEndpointConfiguration
   type: Class
-  summary: <p>The endpoint configuration for the compute node. </p>
+  summary: "<p>The endpoint configuration for the compute node. </p>"
   syntax:
     content: public class ComputeNodeEndpointConfiguration
 - uid: com.microsoft.azure.batch.protocol.models.NodeAgentInformation
@@ -1418,7 +1418,7 @@ references:
   nameWithType: NodeAgentInformation
   fullName: com.microsoft.azure.batch.protocol.models.NodeAgentInformation
   type: Class
-  summary: <p>Information about the node agent. The Batch node agent is a program that runs on each node in the pool and provides Batch capability on the compute node. </p>
+  summary: "<p>Information about the node agent. The Batch node agent is a program that runs on each node in the pool and provides Batch capability on the compute node. </p>"
   syntax:
     content: public class NodeAgentInformation
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNode
@@ -1428,5 +1428,5 @@ references:
   nameWithType: ComputeNode
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNode
   type: Class
-  summary: <p>A compute node in the Batch service. </p>
+  summary: "<p>A compute node in the Batch service. </p>"
   syntax: *o1

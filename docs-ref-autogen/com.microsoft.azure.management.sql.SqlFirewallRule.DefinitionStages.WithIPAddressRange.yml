@@ -84,7 +84,7 @@ references:
   nameWithType: SqlFirewallRule.Definition
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends SqlFirewallRule.DefinitionStages.Blank<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.Blank
@@ -94,12 +94,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the SQL Server Firewall Rule definition.</p>
-
-    <p>
-
-    The first stage of the SQL Server definition. </p>
+  summary: "<p>The first stage of the SQL Server Firewall Rule definition.</p>\r\n<p>\r\nThe first stage of the SQL Server definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>
     typeParameters:
@@ -113,10 +108,7 @@ references:
   nameWithType: SqlFirewallRule.SqlFirewallRuleDefinition<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.SqlFirewallRuleDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Container interface for all the definitions that need to be implemented.</p>
-
-    <p></p>
+  summary: "<p>Container interface for all the definitions that need to be implemented.</p>\r\n<p></p>"
   syntax:
     content: public interface SqlFirewallRuleDefinition<ParentT> extends SqlFirewallRule.DefinitionStages.Blank<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -130,10 +122,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Firewall Rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the SQL Firewall Rule definition can be attached to the parent SQL Server definition. </p>
+  summary: "<p>The final stage of the SQL Firewall Rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the SQL Firewall Rule definition can be attached to the parent SQL Server definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition
     typeParameters:
@@ -147,6 +136,6 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<SqlFirewallRule>

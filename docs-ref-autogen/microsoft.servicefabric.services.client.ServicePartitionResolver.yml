@@ -122,7 +122,7 @@ references:
   nameWithType: FabricServicePartitionResolver
   fullName: microsoft.servicefabric.services.client.FabricServicePartitionResolver
   type: Class
-  summary: <p>Implements the class that helps in determining the endpoint of a service. This class wraps the FabricClient's <xref uid="" data-throw-if-not-resolved="false">system.fabric.client.ServiceManagementClient#resolveServicePartitionAsync(java.net.URI)</xref> method, and implements a back-off/retry mechanism on errors from that method. </p>
+  summary: "<p>Implements the class that helps in determining the endpoint of a service. This class wraps the FabricClient's <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.client.ServiceManagementClient#resolveServicePartitionAsync(java.net.URI)</xref> method, and implements a back-off/retry mechanism on errors from that method. </p>"
   syntax:
     content: public class FabricServicePartitionResolver implements ServicePartitionResolver
 - uid: system.fabric.ResolvedServicePartition
@@ -132,10 +132,7 @@ references:
   nameWithType: ResolvedServicePartition
   fullName: system.fabric.ResolvedServicePartition
   type: Class
-  summary: >-
-    <p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>
-
-    <p></p>
+  summary: "<p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>\r\n<p></p>"
   syntax:
     content: public class ResolvedServicePartition
 - uid: microsoft.servicefabric.services.client.FabricServicePartitionResolver.resolveAsync(URI,ServicePartitionKey,Duration,Duration)
@@ -145,10 +142,7 @@ references:
   nameWithType: FabricServicePartitionResolver.resolveAsync(URI serviceUri, ServicePartitionKey partitionKey, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   fullName: microsoft.servicefabric.services.client.FabricServicePartitionResolver.resolveAsync(URI serviceUri, ServicePartitionKey partitionKey, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   type: Method
-  summary: >-
-    <p>Resolves a partition of the specified service by invoking <xref uid="" data-throw-if-not-resolved="false">system.fabric.client.ServiceManagementClient#resolveServicePartitionAsync(URI)</xref> method with back-off/retry on retriable errors.</p>
-
-    <p></p>
+  summary: "<p>Resolves a partition of the specified service by invoking <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.client.ServiceManagementClient#resolveServicePartitionAsync(URI)</xref> method with back-off/retry on retriable errors.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ResolvedServicePartition> resolveAsync(URI serviceUri, ServicePartitionKey partitionKey, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
     parameters:
@@ -174,7 +168,7 @@ references:
   nameWithType: ServicePartitionKey
   fullName: microsoft.servicefabric.services.client.ServicePartitionKey
   type: Class
-  summary: <p>Defines a key to address a service partition. </p>
+  summary: "<p>Defines a key to address a service partition. </p>"
   syntax:
     content: public class ServicePartitionKey
 - uid: microsoft.servicefabric.services.client.FabricServicePartitionResolver.resolveAsync(ResolvedServicePartition,Duration,Duration)
@@ -184,10 +178,7 @@ references:
   nameWithType: FabricServicePartitionResolver.resolveAsync(ResolvedServicePartition previousRsp, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   fullName: microsoft.servicefabric.services.client.FabricServicePartitionResolver.resolveAsync(ResolvedServicePartition previousRsp, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   type: Method
-  summary: >-
-    <p>Resolves a partition of the specified service with backoff/ retry on retriable errors. This takes in the resolved service partition that was got via an earlier invocation of the ResolveAsync() method. This api-overload is used in cases where the client knows that the resolved service partition that it has is no longer valid.</p>
-
-    <p></p>
+  summary: "<p>Resolves a partition of the specified service with backoff/ retry on retriable errors. This takes in the resolved service partition that was got via an earlier invocation of the ResolveAsync() method. This api-overload is used in cases where the client knows that the resolved service partition that it has is no longer valid.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ResolvedServicePartition> resolveAsync(ResolvedServicePartition previousRsp, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
     parameters:

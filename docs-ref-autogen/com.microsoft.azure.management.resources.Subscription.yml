@@ -239,7 +239,7 @@ references:
   nameWithType: Indexable
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Indexable
   type: Interface
-  summary: <p>Base interface for all models that can be indexed by a key. </p>
+  summary: "<p>Base interface for all models that can be indexed by a key. </p>"
   syntax:
     content: public interface Indexable
 - uid: com.microsoft.azure.management.resources.fluentcore.model.HasInner
@@ -249,10 +249,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -266,7 +263,7 @@ references:
   nameWithType: SubscriptionState
   fullName: com.microsoft.azure.management.resources.SubscriptionState
   type: Enum
-  summary: <p>Defines values for SubscriptionState. </p>
+  summary: "<p>Defines values for SubscriptionState. </p>"
   syntax:
     content: public enum SubscriptionState
 - uid: com.microsoft.azure.management.resources.SubscriptionPolicies
@@ -276,7 +273,7 @@ references:
   nameWithType: SubscriptionPolicies
   fullName: com.microsoft.azure.management.resources.SubscriptionPolicies
   type: Class
-  summary: <p>Subscription policies. </p>
+  summary: "<p>Subscription policies. </p>"
   syntax:
     content: public class SubscriptionPolicies
 - uid: com.microsoft.azure.management.resources.Location
@@ -286,7 +283,7 @@ references:
   nameWithType: Location
   fullName: com.microsoft.azure.management.resources.Location
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure location. </p>
+  summary: "<p>An immutable client-side representation of an Azure location. </p>"
   syntax:
     content: public interface Location extends Indexable,HasInner<LocationInner>,HasName
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.Region
@@ -296,6 +293,6 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region

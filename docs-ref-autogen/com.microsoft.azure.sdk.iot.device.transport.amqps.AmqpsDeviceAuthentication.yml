@@ -265,7 +265,7 @@ references:
   nameWithType: AmqpsDeviceOperations.closeLinks()
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.closeLinks()
   type: Method
-  summary: <p>Closes receiver and sender link if they are not null </p>
+  summary: "<p>Closes receiver and sender link if they are not null </p>"
   syntax:
     content: protected void closeLinks()
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.convertFromProton(AmqpsMessage,DeviceClientConfig)
@@ -275,10 +275,7 @@ references:
   nameWithType: AmqpsDeviceOperations.convertFromProton(AmqpsMessage amqpsMessage, DeviceClientConfig deviceClientConfig)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.convertFromProton(AmqpsMessage amqpsMessage, DeviceClientConfig deviceClientConfig)
   type: Method
-  summary: >-
-    <p>Prototype (empty) function for operation specific implementations to convert Proton message to IoTHubMessage</p>
-
-    <p></p>
+  summary: "<p>Prototype (empty) function for operation specific implementations to convert Proton message to IoTHubMessage</p>\r\n<p></p>"
   syntax:
     content: protected AmqpsConvertFromProtonReturnValue convertFromProton(AmqpsMessage amqpsMessage, DeviceClientConfig deviceClientConfig)
     parameters:
@@ -298,10 +295,7 @@ references:
   nameWithType: AmqpsDeviceOperations.convertToProton(Message message)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.convertToProton(Message message)
   type: Method
-  summary: >-
-    <p>Prototype (empty) function for operation specific implementations to convert IoTHubMessage to Proton message</p>
-
-    <p></p>
+  summary: "<p>Prototype (empty) function for operation specific implementations to convert IoTHubMessage to Proton message</p>\r\n<p></p>"
   syntax:
     content: protected AmqpsConvertToProtonReturnValue convertToProton(Message message)
     parameters:
@@ -318,7 +312,7 @@ references:
   nameWithType: AmqpsDeviceOperations.getMessageFromReceiverLink(String linkName)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.getMessageFromReceiverLink(String linkName)
   type: Method
-  summary: <p>Reads the received buffer and handles the link </p>
+  summary: "<p>Reads the received buffer and handles the link </p>"
   syntax:
     content: protected AmqpsMessage getMessageFromReceiverLink(String linkName)
     parameters:
@@ -335,7 +329,7 @@ references:
   nameWithType: AmqpsDeviceOperations.initLink(Link link)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.initLink(Link link)
   type: Method
-  summary: <p>Initializes the link's other endpoint according to its type </p>
+  summary: "<p>Initializes the link's other endpoint according to its type </p>"
   syntax:
     content: protected synchronized void initLink(Link link)
     parameters:
@@ -362,7 +356,7 @@ references:
   nameWithType: AmqpsDeviceOperations.iotHubMessageToProtonMessage(Message message)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.iotHubMessageToProtonMessage(Message message)
   type: Method
-  summary: <p>Converts an iothub message to a proton message </p>
+  summary: "<p>Converts an iothub message to a proton message </p>"
   syntax:
     content: protected MessageImpl iotHubMessageToProtonMessage(Message message)
     parameters:
@@ -379,10 +373,7 @@ references:
   nameWithType: AmqpsDeviceOperations.isLinkFound(String linkName)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.isLinkFound(String linkName)
   type: Method
-  summary: >-
-    <p>Prototype (empty) function for operation specific implementations to identify if the given link is owned by the operation</p>
-
-    <p></p>
+  summary: "<p>Prototype (empty) function for operation specific implementations to identify if the given link is owned by the operation</p>\r\n<p></p>"
   syntax:
     content: protected Boolean isLinkFound(String linkName)
     parameters:
@@ -399,7 +390,7 @@ references:
   nameWithType: AmqpsDeviceOperations.openLinks(Session session)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.openLinks(Session session)
   type: Method
-  summary: <p>Opens receiver and sender link </p>
+  summary: "<p>Opens receiver and sender link </p>"
   syntax:
     content: protected synchronized void openLinks(Session session)
     parameters:
@@ -415,7 +406,7 @@ references:
   nameWithType: AmqpsDeviceOperations.operationLinksOpened()
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.operationLinksOpened()
   type: Method
-  summary: <p>Gets the status of the operation's links </p>
+  summary: "<p>Gets the status of the operation's links </p>"
   syntax:
     content: public Boolean operationLinksOpened()
     return:
@@ -428,10 +419,7 @@ references:
   nameWithType: AmqpsDeviceOperations.protonMessageToIoTHubMessage(MessageImpl protonMsg)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.protonMessageToIoTHubMessage(MessageImpl protonMsg)
   type: Method
-  summary: >-
-    <p>Convert a proton message to an IotHub transport message</p>
-
-    <p></p>
+  summary: "<p>Convert a proton message to an IotHub transport message</p>\r\n<p></p>"
   syntax:
     content: protected IotHubTransportMessage protonMessageToIoTHubMessage(MessageImpl protonMsg)
     parameters:
@@ -536,7 +524,7 @@ references:
   nameWithType: AmqpsDeviceOperations.sendMessageAndGetDeliveryHash(MessageType messageType, byte[] msgData, int offset, int length, byte[] deliveryTag)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.sendMessageAndGetDeliveryHash(MessageType messageType, byte[] msgData, int offset, int length, byte[] deliveryTag)
   type: Method
-  summary: <p>Sends the given message and returns with the delivery hash </p>
+  summary: "<p>Sends the given message and returns with the delivery hash </p>"
   syntax:
     content: protected synchronized AmqpsSendReturnValue sendMessageAndGetDeliveryHash(MessageType messageType, byte[] msgData, int offset, int length, byte[] deliveryTag)
     parameters:
@@ -625,7 +613,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.TransportException
@@ -644,6 +632,6 @@ references:
   nameWithType: AmqpsMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsMessage
   type: Class
-  summary: <p>Extension of the QPID-Proton-J MessageImpl class which implements the Message interface. Adds a Delivery object as a private member variable and adds a new ACK_TYPE enum. Adds the ability to easily acknowledge a single message. </p>
+  summary: "<p>Extension of the QPID-Proton-J MessageImpl class which implements the Message interface. Adds a Delivery object as a private member variable and adds a new ACK_TYPE enum. Adds the ability to easily acknowledge a single message. </p>"
   syntax:
     content: public class AmqpsMessage

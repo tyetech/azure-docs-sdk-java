@@ -129,20 +129,7 @@ references:
   nameWithType: EventData
   fullName: com.microsoft.azure.eventhubs.EventData
   type: Interface
-  summary: >-
-    <p>The data structure encapsulating the Event being sent-to and received-from EventHubs. Each EventHubs partition can be visualized as a Stream of <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>. </p>
-
-    <p>Serializing a received <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> with AMQP sections other than ApplicationProperties (with primitive java types) and Data section is not supported. </p>
-
-    <p>Here's how AMQP message sections map to <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>. Here's the reference used for AMQP 1.0 specification: <a href="http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-complete-v1.0-os.pdf">http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-complete-v1.0-os.pdf</a><pre>
-
-    i.   <xref uid="com.microsoft.azure.eventhubs.EventData.getProperties()" data-throw-if-not-resolved="false">getProperties()</xref> - AMQPMessage.ApplicationProperties section
-
-    ii.  <xref uid="com.microsoft.azure.eventhubs.EventData.getBytes()" data-throw-if-not-resolved="false">getBytes()</xref> - if AMQPMessage.Body has Data section
-
-    iii. <xref uid="com.microsoft.azure.eventhubs.EventData.getObject()" data-throw-if-not-resolved="false">getObject()</xref> - if AMQPMessage.Body has AMQPValue or AMQPSequence sections
-
-    </pre> While using client libraries released by Microsoft Azure EventHubs, sections (i) and (ii) alone are sufficient. Section (iii) is used for advanced scenarios, where the sending application uses third-party AMQP library to send the message to EventHubs and the receiving application uses this client library to receive <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>. </p>
+  summary: "<p>The data structure encapsulating the Event being sent-to and received-from EventHubs. Each EventHubs partition can be visualized as a Stream of <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref>. </p>\r\n<p>Serializing a received <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref> with AMQP sections other than ApplicationProperties (with primitive java types) and Data section is not supported. </p>\r\n<p>Here's how AMQP message sections map to <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref>. Here's the reference used for AMQP 1.0 specification: <a href=\"http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-complete-v1.0-os.pdf\">http://docs.oasis-open.org/amqp/core/v1.0/os/amqp-core-complete-v1.0-os.pdf</a><pre>\r\ni.   <xref uid=\"com.microsoft.azure.eventhubs.EventData.getProperties()\" data-throw-if-not-resolved=\"false\">getProperties()</xref> - AMQPMessage.ApplicationProperties section\r\nii.  <xref uid=\"com.microsoft.azure.eventhubs.EventData.getBytes()\" data-throw-if-not-resolved=\"false\">getBytes()</xref> - if AMQPMessage.Body has Data section\r\niii. <xref uid=\"com.microsoft.azure.eventhubs.EventData.getObject()\" data-throw-if-not-resolved=\"false\">getObject()</xref> - if AMQPMessage.Body has AMQPValue or AMQPSequence sections\r\n</pre> While using client libraries released by Microsoft Azure EventHubs, sections (i) and (ii) alone are sufficient. Section (iii) is used for advanced scenarios, where the sending application uses third-party AMQP library to send the message to EventHubs and the receiving application uses this client library to receive <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref>. </p>"
   syntax:
     content: public interface EventData
 - uid: com.microsoft.azure.eventhubs.EventDataBatch
@@ -152,7 +139,7 @@ references:
   nameWithType: EventDataBatch
   fullName: com.microsoft.azure.eventhubs.EventDataBatch
   type: Interface
-  summary: <p>Helper for creating a batch/collection of EventData objects to be used while Sending to EventHubs </p>
+  summary: "<p>Helper for creating a batch/collection of EventData objects to be used while Sending to EventHubs </p>"
   syntax:
     content: public interface EventDataBatch
 - uid: com.microsoft.azure.eventhubs.EventDataBatch.tryAdd(final EventData)
@@ -162,10 +149,7 @@ references:
   nameWithType: EventDataBatch.tryAdd(final EventData eventData)
   fullName: com.microsoft.azure.eventhubs.EventDataBatch.tryAdd(final EventData eventData)
   type: Method
-  summary: >-
-    <p>Add's <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> to <xref uid="com.microsoft.azure.eventhubs.EventDataBatch" data-throw-if-not-resolved="false">EventDataBatch</xref>, if permitted by the batch's size limit. This method is not thread-safe.</p>
-
-    <p></p>
+  summary: "<p>Add's <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref> to <xref uid=\"com.microsoft.azure.eventhubs.EventDataBatch\" data-throw-if-not-resolved=\"false\">EventDataBatch</xref>, if permitted by the batch's size limit. This method is not thread-safe.</p>\r\n<p></p>"
   syntax:
     content: public boolean tryAdd(final EventData eventData)
     parameters:
@@ -191,10 +175,7 @@ references:
   nameWithType: EventHubClient
   fullName: com.microsoft.azure.eventhubs.EventHubClient
   type: Interface
-  summary: >-
-    <p>Anchor class - all EventHub client operations STARTS here.</p>
-
-    <p></p>
+  summary: "<p>Anchor class - all EventHub client operations STARTS here.</p>\r\n<p></p>"
   syntax:
     content: public interface EventHubClient
 - uid: com.microsoft.azure.eventhubs.PartitionSender
@@ -204,10 +185,7 @@ references:
   nameWithType: PartitionSender
   fullName: com.microsoft.azure.eventhubs.PartitionSender
   type: Interface
-  summary: >-
-    <p>This sender class is a logical representation of sending events to a specific EventHub partition. Do not use this class if you do not care about sending events to specific partitions. Instead, use <xref uid="com.microsoft.azure.eventhubs.EventHubClient.send(final EventData)" data-throw-if-not-resolved="false">EventHubClient#send</xref> method.</p>
-
-    <p></p>
+  summary: "<p>This sender class is a logical representation of sending events to a specific EventHub partition. Do not use this class if you do not care about sending events to specific partitions. Instead, use <xref uid=\"com.microsoft.azure.eventhubs.EventHubClient.send(final EventData)\" data-throw-if-not-resolved=\"false\">EventHubClient#send</xref> method.</p>\r\n<p></p>"
   syntax:
     content: public interface PartitionSender
 - uid: com.microsoft.azure.eventhubs.PartitionSender.createBatch(BatchOptions)
@@ -217,10 +195,7 @@ references:
   nameWithType: PartitionSender.createBatch(BatchOptions options)
   fullName: com.microsoft.azure.eventhubs.PartitionSender.createBatch(BatchOptions options)
   type: Method
-  summary: >-
-    <p>Creates an Empty Collection of <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>. The same partitionKey must be used while sending these events using <xref uid="com.microsoft.azure.eventhubs.PartitionSender.send(EventDataBatch)" data-throw-if-not-resolved="false">PartitionSender#send(EventDataBatch)</xref>.</p>
-
-    <p></p>
+  summary: "<p>Creates an Empty Collection of <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref>. The same partitionKey must be used while sending these events using <xref uid=\"com.microsoft.azure.eventhubs.PartitionSender.send(EventDataBatch)\" data-throw-if-not-resolved=\"false\">PartitionSender#send(EventDataBatch)</xref>.</p>\r\n<p></p>"
   syntax:
     content: public EventDataBatch createBatch(BatchOptions options)
     parameters:
@@ -237,10 +212,7 @@ references:
   nameWithType: EventHubClient.createBatch(BatchOptions options)
   fullName: com.microsoft.azure.eventhubs.EventHubClient.createBatch(BatchOptions options)
   type: Method
-  summary: >-
-    <p>Creates an Empty Collection of <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>. The same partitionKey must be used while sending these events using <xref uid="com.microsoft.azure.eventhubs.EventHubClient.send(final EventDataBatch)" data-throw-if-not-resolved="false">EventHubClient#send(EventDataBatch)</xref>.</p>
-
-    <p></p>
+  summary: "<p>Creates an Empty Collection of <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref>. The same partitionKey must be used while sending these events using <xref uid=\"com.microsoft.azure.eventhubs.EventHubClient.send(final EventDataBatch)\" data-throw-if-not-resolved=\"false\">EventHubClient#send(EventDataBatch)</xref>.</p>\r\n<p></p>"
   syntax:
     content: public EventDataBatch createBatch(BatchOptions options)
     parameters:

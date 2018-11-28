@@ -675,12 +675,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -693,7 +688,7 @@ references:
   nameWithType: CdnEndpoint.Update
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.Update
   type: Interface
-  summary: <p>The entirety of a CDN endpoint update as part of a CDN profile update. </p>
+  summary: "<p>The entirety of a CDN endpoint update as part of a CDN profile update. </p>"
   syntax:
     content: public interface Update extends Settable<CdnProfile.Update>
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateStandardEndpoint
@@ -703,7 +698,7 @@ references:
   nameWithType: CdnEndpoint.UpdateStandardEndpoint
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateStandardEndpoint
   type: Interface
-  summary: <p>The stage of an CDN profile endpoint update allowing to specify endpoint properties. </p>
+  summary: "<p>The stage of an CDN profile endpoint update allowing to specify endpoint properties. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.cdn.QueryStringCachingBehavior
   parent: com.microsoft.azure.management.cdn
@@ -712,7 +707,7 @@ references:
   nameWithType: QueryStringCachingBehavior
   fullName: com.microsoft.azure.management.cdn.QueryStringCachingBehavior
   type: Enum
-  summary: <p>Defines values for QueryStringCachingBehavior. </p>
+  summary: "<p>Defines values for QueryStringCachingBehavior. </p>"
   syntax:
     content: public enum QueryStringCachingBehavior
 - uid: com.microsoft.azure.management.cdn.GeoFilter
@@ -722,7 +717,7 @@ references:
   nameWithType: GeoFilter
   fullName: com.microsoft.azure.management.cdn.GeoFilter
   type: Class
-  summary: <p>Rules defining user geo access within a CDN endpoint. </p>
+  summary: "<p>Rules defining user geo access within a CDN endpoint. </p>"
   syntax:
     content: public class GeoFilter
 - uid: com.microsoft.azure.management.cdn.GeoFilterActions
@@ -732,7 +727,7 @@ references:
   nameWithType: GeoFilterActions
   fullName: com.microsoft.azure.management.cdn.GeoFilterActions
   type: Enum
-  summary: <p>Defines values for GeoFilterActions. </p>
+  summary: "<p>Defines values for GeoFilterActions. </p>"
   syntax:
     content: public enum GeoFilterActions
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode
@@ -742,6 +737,6 @@ references:
   nameWithType: CountryIsoCode
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode
   type: Class
-  summary: <p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>
+  summary: "<p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>"
   syntax:
     content: public class CountryIsoCode extends ExpandableStringEnum<CountryIsoCode>

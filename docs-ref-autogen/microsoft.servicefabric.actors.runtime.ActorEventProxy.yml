@@ -261,7 +261,7 @@ references:
   nameWithType: ProxyBase.continueWith(CompletableFuture<Object> future)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.continueWith(CompletableFuture<Object> future)
   type: Method
-  summary: <p>Called by the generated proxy class to continue after getting the response body that does not have value. </p>
+  summary: "<p>Called by the generated proxy class to continue after getting the response body that does not have value. </p>"
   syntax:
     content: protected CompletableFuture<?> continueWith(CompletableFuture<Object> future)
     parameters:
@@ -278,7 +278,7 @@ references:
   nameWithType: ProxyBase.getReturnValue(int interfaceId, int methodId, Object responseBody)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.getReturnValue(int interfaceId, int methodId, Object responseBody)
   type: Method
-  summary: <p>Implemented by the derived class to type cast the response body and extract the value from it. </p>
+  summary: "<p>Implemented by the derived class to type cast the response body and extract the value from it. </p>"
   syntax:
     content: protected abstract Object getReturnValue(int interfaceId, int methodId, Object responseBody)
     parameters:
@@ -301,7 +301,7 @@ references:
   nameWithType: ProxyBase.invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
   type: Method
-  summary: <p>Called by the generated proxy class to send the message to the remote object. </p>
+  summary: "<p>Called by the generated proxy class to send the message to the remote object. </p>"
   syntax:
     content: protected void invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
     parameters:
@@ -321,7 +321,7 @@ references:
   nameWithType: ProxyBase.invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>
+  summary: "<p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>"
   syntax:
     content: protected CompletableFuture<Object> invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
     parameters:
@@ -350,7 +350,7 @@ references:
   nameWithType: ProxyBase.invokeAsync(int interfaceId, int methodId, byte[] requestMsgBodyBytes, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.invokeAsync(int interfaceId, int methodId, byte[] requestMsgBodyBytes, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>
+  summary: "<p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>"
   syntax:
     content: protected abstract CompletableFuture<byte[]> invokeAsync(int interfaceId, int methodId, byte[] requestMsgBodyBytes, CancellationToken cancellationToken)
     parameters:
@@ -376,7 +376,7 @@ references:
   nameWithType: ProxyBase.ProxyBase()
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.ProxyBase()
   type: Constructor
-  summary: <p>Initializes a new instance of the ProxyBase class. </p>
+  summary: "<p>Initializes a new instance of the ProxyBase class. </p>"
   syntax:
     content: protected ProxyBase()
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyBase
@@ -386,7 +386,7 @@ references:
   nameWithType: ProxyBase
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase
   type: Class
-  summary: <p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>
+  summary: "<p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>"
   syntax:
     content: public class ProxyBase
 - uid: microsoft.servicefabric.actors.runtime.ActorEventProxy
@@ -396,5 +396,5 @@ references:
   nameWithType: ActorEventProxy
   fullName: microsoft.servicefabric.actors.runtime.ActorEventProxy
   type: Class
-  summary: <p>Provides the base implementation for the proxy to invoke methods on actor event subscribers. </p>
+  summary: "<p>Provides the base implementation for the proxy to invoke methods on actor event subscribers. </p>"
   syntax: *o1

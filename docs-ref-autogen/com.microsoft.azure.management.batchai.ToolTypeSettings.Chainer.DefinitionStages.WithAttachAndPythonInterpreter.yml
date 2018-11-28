@@ -40,7 +40,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -99,7 +99,7 @@ references:
   nameWithType: ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the Chainer settings definition. At this stage, any remaining optional settings can be specified, or the Chainer settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the Chainer settings definition. At this stage, any remaining optional settings can be specified, or the Chainer settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>
     typeParameters:
@@ -113,7 +113,7 @@ references:
   nameWithType: ToolTypeSettings.DefinitionStages.WithPythonInterpreter<ReturnT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithPythonInterpreter<ReturnT>
   type: Interface
-  summary: <p>Specifies the path to python interpreter. </p>
+  summary: "<p>Specifies the path to python interpreter. </p>"
   syntax:
     content: public interface WithPythonInterpreter<ReturnT>
     typeParameters:
@@ -127,10 +127,7 @@ references:
   nameWithType: ToolTypeSettings.Chainer.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of Chainer settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of Chainer settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>,ToolTypeSettings.Chainer.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
     typeParameters:

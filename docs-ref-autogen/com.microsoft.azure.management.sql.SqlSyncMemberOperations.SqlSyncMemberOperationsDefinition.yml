@@ -46,10 +46,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -82,10 +76,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -122,10 +113,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSyncDirection.withDatabaseType(SyncDirection syncDirection)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection.withDatabaseType(SyncDirection syncDirection)
   type: Method
-  summary: >-
-    <p>Sets the sync direction.</p>
-
-    <p></p>
+  summary: "<p>Sets the sync direction.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithCreate withDatabaseType(SyncDirection syncDirection)
     parameters:
@@ -142,10 +130,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase.withExistingDatabaseName(String databaseName)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase.withExistingDatabaseName(String databaseName)
   type: Method
-  summary: >-
-    <p>Sets the name of the database on which the sync Member is hosted.</p>
-
-    <p></p>
+  summary: "<p>Sets the name of the database on which the sync Member is hosted.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName withExistingDatabaseName(String databaseName)
     parameters:
@@ -162,10 +147,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server name and resource group it belongs to.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server name and resource group it belongs to.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase withExistingSqlServer(String resourceGroupName, String sqlServerName)
     parameters:
@@ -185,10 +167,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSqlServer.withExistingSyncGroup(SqlSyncGroup sqlSyncGroup)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer.withExistingSyncGroup(SqlSyncGroup sqlSyncGroup)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server for the new Sync Member.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server for the new Sync Member.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer withExistingSyncGroup(SqlSyncGroup sqlSyncGroup)
     parameters:
@@ -205,10 +184,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName.withExistingSyncGroupName(String syncGroupName)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName.withExistingSyncGroupName(String syncGroupName)
   type: Method
-  summary: >-
-    <p>Sets the name of the database on which the sync Member is hosted.</p>
-
-    <p></p>
+  summary: "<p>Sets the name of the database on which the sync Member is hosted.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer withExistingSyncGroupName(String syncGroupName)
     parameters:
@@ -225,10 +201,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType.withMemberDatabaseType(SyncMemberDbType databaseType)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType.withMemberDatabaseType(SyncMemberDbType databaseType)
   type: Method
-  summary: >-
-    <p>Sets the member database type.</p>
-
-    <p></p>
+  summary: "<p>Sets the member database type.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithSyncDirection withMemberDatabaseType(SyncMemberDbType databaseType)
     parameters:
@@ -245,10 +218,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberPassword.withMemberPassword(String password)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword.withMemberPassword(String password)
   type: Method
-  summary: >-
-    <p>Sets the member SQL Database password.</p>
-
-    <p></p>
+  summary: "<p>Sets the member SQL Database password.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType withMemberPassword(String password)
     parameters:
@@ -265,10 +235,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer.withMemberSqlDatabase(SqlDatabase sqlDatabase)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer.withMemberSqlDatabase(SqlDatabase sqlDatabase)
   type: Method
-  summary: >-
-    <p>Sets the member SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the member SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithMemberUserName withMemberSqlDatabase(SqlDatabase sqlDatabase)
     parameters:
@@ -285,10 +252,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase.withMemberSqlDatabaseName(String sqlDatabaseName)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase.withMemberSqlDatabaseName(String sqlDatabaseName)
   type: Method
-  summary: >-
-    <p>Sets the member SQL Database name.</p>
-
-    <p></p>
+  summary: "<p>Sets the member SQL Database name.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithMemberUserName withMemberSqlDatabaseName(String sqlDatabaseName)
     parameters:
@@ -305,10 +269,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer.withMemberSqlServerName(String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer.withMemberSqlServerName(String sqlServerName)
   type: Method
-  summary: >-
-    <p>Sets the member SQL server name.</p>
-
-    <p></p>
+  summary: "<p>Sets the member SQL server name.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase withMemberSqlServerName(String sqlServerName)
     parameters:
@@ -325,10 +286,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberUserName.withMemberUserName(String userName)
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName.withMemberUserName(String userName)
   type: Method
-  summary: >-
-    <p>Sets the member SQL Database username.</p>
-
-    <p></p>
+  summary: "<p>Sets the member SQL Database username.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncMemberOperations.DefinitionStages.WithMemberPassword withMemberUserName(String userName)
     parameters:
@@ -345,7 +303,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSqlServer
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer
   type: Interface
-  summary: <p>The first stage of the SQL Sync Member definition. </p>
+  summary: "<p>The first stage of the SQL Sync Member definition. </p>"
   syntax:
     content: public interface WithSqlServer
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase
@@ -355,7 +313,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the parent database name. </p>
+  summary: "<p>The SQL Sync Member definition to set the parent database name. </p>"
   syntax:
     content: public interface WithSyncMemberDatabase
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName
@@ -365,7 +323,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the parent database name. </p>
+  summary: "<p>The SQL Sync Member definition to set the parent database name. </p>"
   syntax:
     content: public interface WithSyncGroupName
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer
@@ -375,7 +333,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the member server and database. </p>
+  summary: "<p>The SQL Sync Member definition to set the member server and database. </p>"
   syntax:
     content: public interface WithMemberSqlServer
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase
@@ -385,7 +343,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the member database. </p>
+  summary: "<p>The SQL Sync Member definition to set the member database. </p>"
   syntax:
     content: public interface WithMemberSqlDatabase
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName
@@ -395,7 +353,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberUserName
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the member database user name. </p>
+  summary: "<p>The SQL Sync Member definition to set the member database user name. </p>"
   syntax:
     content: public interface WithMemberUserName
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword
@@ -405,7 +363,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberPassword
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the member database password. </p>
+  summary: "<p>The SQL Sync Member definition to set the member database password. </p>"
   syntax:
     content: public interface WithMemberPassword
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType
@@ -415,7 +373,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the database type. </p>
+  summary: "<p>The SQL Sync Member definition to set the database type. </p>"
   syntax:
     content: public interface WithMemberDatabaseType
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection
@@ -425,7 +383,7 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithSyncDirection
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection
   type: Interface
-  summary: <p>The SQL Sync Member definition to set the sync direction. </p>
+  summary: "<p>The SQL Sync Member definition to set the sync direction. </p>"
   syntax:
     content: public interface WithSyncDirection
 - uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithCreate
@@ -435,6 +393,6 @@ references:
   nameWithType: SqlSyncMemberOperations.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The final stage of the SQL Sync Member definition. </p>
+  summary: "<p>The final stage of the SQL Sync Member definition. </p>"
   syntax:
     content: public interface WithCreate

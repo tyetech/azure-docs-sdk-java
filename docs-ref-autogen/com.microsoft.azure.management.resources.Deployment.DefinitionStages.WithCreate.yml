@@ -62,10 +62,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -78,10 +75,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -98,10 +92,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -138,10 +129,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -155,7 +143,7 @@ references:
   nameWithType: Deployment.Definition
   fullName: com.microsoft.azure.management.resources.Deployment.Definition
   type: Interface
-  summary: <p>Container interface for all the deployment definitions. </p>
+  summary: "<p>Container interface for all the deployment definitions. </p>"
   syntax:
     content: public interface Definition extends Deployment.DefinitionStages.Blank,Deployment.DefinitionStages.WithGroup,Deployment.DefinitionStages.WithTemplate,Deployment.DefinitionStages.WithParameters,Deployment.DefinitionStages.WithMode,Deployment.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.Deployment
@@ -165,6 +153,6 @@ references:
   nameWithType: Deployment
   fullName: com.microsoft.azure.management.resources.Deployment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment. </p>"
   syntax:
     content: public interface Deployment extends Indexable,Refreshable<Deployment>,Updatable<Deployment.Update>,HasInner<DeploymentExtendedInner>,HasManager<ResourceManager>,HasName

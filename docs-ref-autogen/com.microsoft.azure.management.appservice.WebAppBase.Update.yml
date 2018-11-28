@@ -83,10 +83,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -99,10 +96,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -115,10 +109,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -135,7 +126,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAuthentication<FluentT>.defineAuthentication()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAuthentication<FluentT>.defineAuthentication()
   type: Method
-  summary: <p>Specifies the definition of a new authentication configuration. </p>
+  summary: "<p>Specifies the definition of a new authentication configuration. </p>"
   syntax:
     content: public WebAppAuthentication.UpdateDefinitionStages.Blank<Update<FluentT>> defineAuthentication()
     return:
@@ -148,7 +139,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.defineHostnameBinding()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.defineHostnameBinding()
   type: Method
-  summary: <p>Starts the definition of a new host name binding. </p>
+  summary: "<p>Starts the definition of a new host name binding. </p>"
   syntax:
     content: public HostNameBinding.UpdateDefinitionStages.Blank<Update<FluentT>> defineHostnameBinding()
     return:
@@ -161,7 +152,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSourceControl<FluentT>.defineSourceControl()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSourceControl<FluentT>.defineSourceControl()
   type: Method
-  summary: <p>Starts the definition of a new source control. </p>
+  summary: "<p>Starts the definition of a new source control. </p>"
   syntax:
     content: public WebAppSourceControl.UpdateDefinitionStages.Blank<Update<FluentT>> defineSourceControl()
     return:
@@ -174,7 +165,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameSslBinding<FluentT>.defineSslBinding()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameSslBinding<FluentT>.defineSslBinding()
   type: Method
-  summary: <p>Starts a definition of an SSL binding. </p>
+  summary: "<p>Starts a definition of an SSL binding. </p>"
   syntax:
     content: public HostNameSslBinding.UpdateDefinitionStages.Blank<Update<FluentT>> defineSslBinding()
     return:
@@ -199,7 +190,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAuthentication<FluentT>.updateAuthentication()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAuthentication<FluentT>.updateAuthentication()
   type: Method
-  summary: <p>Updates the authentication configuration of the web app. </p>
+  summary: "<p>Updates the authentication configuration of the web app. </p>"
   syntax:
     content: public WebAppAuthentication.Update<Update<FluentT>> updateAuthentication()
     return:
@@ -212,7 +203,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSetting(String key, String value)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSetting(String key, String value)
   type: Method
-  summary: <p>Adds an app setting to the web app. </p>
+  summary: "<p>Adds an app setting to the web app. </p>"
   syntax:
     content: public Update<FluentT> withAppSetting(String key, String value)
     parameters:
@@ -232,7 +223,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettings(Map<String, String> settings)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettings(Map<String, String> settings)
   type: Method
-  summary: <p>Specifies the app settings for the web app as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies the app settings for the web app as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public Update<FluentT> withAppSettings(Map<String, String> settings)
     parameters:
@@ -249,7 +240,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettingStickiness(String key, boolean sticky)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withAppSettingStickiness(String key, boolean sticky)
   type: Method
-  summary: <p>Changes the stickiness of an app setting. </p>
+  summary: "<p>Changes the stickiness of an app setting. </p>"
   syntax:
     content: public Update<FluentT> withAppSettingStickiness(String key, boolean sticky)
     parameters:
@@ -269,7 +260,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withAutoSwapSlotName(String slotName)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withAutoSwapSlotName(String slotName)
   type: Method
-  summary: <p>Specifies the slot name to auto-swap when a deployment is completed in this web app / deployment slot. </p>
+  summary: "<p>Specifies the slot name to auto-swap when a deployment is completed in this web app / deployment slot. </p>"
   syntax:
     content: public Update<FluentT> withAutoSwapSlotName(String slotName)
     parameters:
@@ -286,7 +277,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithClientAffinityEnabled<FluentT>.withClientAffinityEnabled(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientAffinityEnabled<FluentT>.withClientAffinityEnabled(boolean enabled)
   type: Method
-  summary: <p>Specifies if client affinity is enabled. </p>
+  summary: "<p>Specifies if client affinity is enabled. </p>"
   syntax:
     content: public Update<FluentT> withClientAffinityEnabled(boolean enabled)
     parameters:
@@ -303,7 +294,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithClientCertEnabled<FluentT>.withClientCertEnabled(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientCertEnabled<FluentT>.withClientCertEnabled(boolean enabled)
   type: Method
-  summary: <p>Specifies if client cert is enabled. </p>
+  summary: "<p>Specifies if client cert is enabled. </p>"
   syntax:
     content: public Update<FluentT> withClientCertEnabled(boolean enabled)
     parameters:
@@ -320,7 +311,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithConnectionString<FluentT>.withConnectionString(String name, String value, ConnectionStringType type)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString<FluentT>.withConnectionString(String name, String value, ConnectionStringType type)
   type: Method
-  summary: <p>Adds a connection string to the web app. </p>
+  summary: "<p>Adds a connection string to the web app. </p>"
   syntax:
     content: public Update<FluentT> withConnectionString(String name, String value, ConnectionStringType type)
     parameters:
@@ -343,7 +334,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithConnectionString<FluentT>.withConnectionStringStickiness(String name, boolean sticky)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString<FluentT>.withConnectionStringStickiness(String name, boolean sticky)
   type: Method
-  summary: <p>Changes the stickiness of a connection string. </p>
+  summary: "<p>Changes the stickiness of a connection string. </p>"
   syntax:
     content: public Update<FluentT> withConnectionStringStickiness(String name, boolean sticky)
     parameters:
@@ -363,7 +354,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withDefaultDocument(String document)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withDefaultDocument(String document)
   type: Method
-  summary: <p>Adds a default document. </p>
+  summary: "<p>Adds a default document. </p>"
   syntax:
     content: public Update<FluentT> withDefaultDocument(String document)
     parameters:
@@ -380,7 +371,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withDefaultDocuments(List<String> documents)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withDefaultDocuments(List<String> documents)
   type: Method
-  summary: <p>Adds a list of default documents. </p>
+  summary: "<p>Adds a list of default documents. </p>"
   syntax:
     content: public Update<FluentT> withDefaultDocuments(List<String> documents)
     parameters:
@@ -397,7 +388,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withJavaVersion(JavaVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withJavaVersion(JavaVersion version)
   type: Method
-  summary: <p>Specifies the Java version. </p>
+  summary: "<p>Specifies the Java version. </p>"
   syntax:
     content: public WithWebContainer<FluentT> withJavaVersion(JavaVersion version)
     parameters:
@@ -414,7 +405,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSourceControl<FluentT>.withLocalGitSourceControl()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSourceControl<FluentT>.withLocalGitSourceControl()
   type: Method
-  summary: <p>Specifies the source control to be a local Git repository on the web app. </p>
+  summary: "<p>Specifies the source control to be a local Git repository on the web app. </p>"
   syntax:
     content: public Update<FluentT> withLocalGitSourceControl()
     return:
@@ -427,7 +418,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withManagedHostnameBindings(AppServiceDomain domain, String... hostnames)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withManagedHostnameBindings(AppServiceDomain domain, String... hostnames)
   type: Method
-  summary: <p>Defines a list of host names of an Azure managed domain. The DNS record type is defaulted to be CNAME except for the root level domain ("@"). </p>
+  summary: "<p>Defines a list of host names of an Azure managed domain. The DNS record type is defaulted to be CNAME except for the root level domain (\"@\"). </p>"
   syntax:
     content: public Update<FluentT> withManagedHostnameBindings(AppServiceDomain domain, String... hostnames)
     parameters:
@@ -447,7 +438,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withManagedPipelineMode(ManagedPipelineMode managedPipelineMode)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withManagedPipelineMode(ManagedPipelineMode managedPipelineMode)
   type: Method
-  summary: <p>Specifies the managed pipeline mode. </p>
+  summary: "<p>Specifies the managed pipeline mode. </p>"
   syntax:
     content: public Update<FluentT> withManagedPipelineMode(ManagedPipelineMode managedPipelineMode)
     parameters:
@@ -464,7 +455,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withNetFrameworkVersion(NetFrameworkVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withNetFrameworkVersion(NetFrameworkVersion version)
   type: Method
-  summary: <p>Specifies the .NET Framework version. </p>
+  summary: "<p>Specifies the .NET Framework version. </p>"
   syntax:
     content: public Update<FluentT> withNetFrameworkVersion(NetFrameworkVersion version)
     parameters:
@@ -481,7 +472,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAppSettings<FluentT>.withoutAppSetting(String key)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withoutAppSetting(String key)
   type: Method
-  summary: <p>Removes an app setting from the web app. </p>
+  summary: "<p>Removes an app setting from the web app. </p>"
   syntax:
     content: public Update<FluentT> withoutAppSetting(String key)
     parameters:
@@ -498,7 +489,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAuthentication<FluentT>.withoutAuthentication()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAuthentication<FluentT>.withoutAuthentication()
   type: Method
-  summary: <p>Turns off the authentication on the web app. </p>
+  summary: "<p>Turns off the authentication on the web app. </p>"
   syntax:
     content: public Update<FluentT> withoutAuthentication()
     return:
@@ -511,7 +502,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithConnectionString<FluentT>.withoutConnectionString(String name)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString<FluentT>.withoutConnectionString(String name)
   type: Method
-  summary: <p>Removes a connection string from the web app. </p>
+  summary: "<p>Removes a connection string from the web app. </p>"
   syntax:
     content: public Update<FluentT> withoutConnectionString(String name)
     parameters:
@@ -528,7 +519,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)
   type: Method
-  summary: <p>Removes a default document. </p>
+  summary: "<p>Removes a default document. </p>"
   syntax:
     content: public Update<FluentT> withoutDefaultDocument(String document)
     parameters:
@@ -545,7 +536,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withoutHostnameBinding(String hostname)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withoutHostnameBinding(String hostname)
   type: Method
-  summary: <p>Unbinds a hostname from the web app. </p>
+  summary: "<p>Unbinds a hostname from the web app. </p>"
   syntax:
     content: public Update<FluentT> withoutHostnameBinding(String hostname)
     parameters:
@@ -562,7 +553,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withoutJava()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withoutJava()
   type: Method
-  summary: <p>Turn off Java support. </p>
+  summary: "<p>Turn off Java support. </p>"
   syntax:
     content: public Update<FluentT> withoutJava()
     return:
@@ -575,7 +566,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withoutPython()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withoutPython()
   type: Method
-  summary: <p>Turn off Python support. </p>
+  summary: "<p>Turn off Python support. </p>"
   syntax:
     content: public Update<FluentT> withoutPython()
     return:
@@ -588,7 +579,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSourceControl<FluentT>.withoutSourceControl()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSourceControl<FluentT>.withoutSourceControl()
   type: Method
-  summary: <p>Removes source control for deployment from the web app. </p>
+  summary: "<p>Removes source control for deployment from the web app. </p>"
   syntax:
     content: public Update<FluentT> withoutSourceControl()
     return:
@@ -601,7 +592,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameSslBinding<FluentT>.withoutSslBinding(String hostname)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameSslBinding<FluentT>.withoutSslBinding(String hostname)
   type: Method
-  summary: <p>Removes an SSL binding for a specific hostname. </p>
+  summary: "<p>Removes an SSL binding for a specific hostname. </p>"
   syntax:
     content: public Update<FluentT> withoutSslBinding(String hostname)
     parameters:
@@ -618,7 +609,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withPhpVersion(PhpVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withPhpVersion(PhpVersion version)
   type: Method
-  summary: <p>Specifies the PHP version. </p>
+  summary: "<p>Specifies the PHP version. </p>"
   syntax:
     content: public Update<FluentT> withPhpVersion(PhpVersion version)
     parameters:
@@ -635,7 +626,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withPlatformArchitecture(PlatformArchitecture platform)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withPlatformArchitecture(PlatformArchitecture platform)
   type: Method
-  summary: <p>Specifies the platform architecture to use. </p>
+  summary: "<p>Specifies the platform architecture to use. </p>"
   syntax:
     content: public Update<FluentT> withPlatformArchitecture(PlatformArchitecture platform)
     parameters:
@@ -652,7 +643,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withPythonVersion(PythonVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withPythonVersion(PythonVersion version)
   type: Method
-  summary: <p>Specifies the Python version. </p>
+  summary: "<p>Specifies the Python version. </p>"
   syntax:
     content: public Update<FluentT> withPythonVersion(PythonVersion version)
     parameters:
@@ -669,7 +660,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withRemoteDebuggingDisabled()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withRemoteDebuggingDisabled()
   type: Method
-  summary: <p>Disables remote debugging. </p>
+  summary: "<p>Disables remote debugging. </p>"
   syntax:
     content: public Update<FluentT> withRemoteDebuggingDisabled()
     return:
@@ -682,7 +673,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withRemoteDebuggingEnabled(RemoteVisualStudioVersion remoteVisualStudioVersion)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withRemoteDebuggingEnabled(RemoteVisualStudioVersion remoteVisualStudioVersion)
   type: Method
-  summary: <p>Specifies the Visual Studio version for remote debugging. </p>
+  summary: "<p>Specifies the Visual Studio version for remote debugging. </p>"
   syntax:
     content: public Update<FluentT> withRemoteDebuggingEnabled(RemoteVisualStudioVersion remoteVisualStudioVersion)
     parameters:
@@ -699,7 +690,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>.withScmSiteAlsoStopped(boolean scmSiteAlsoStopped)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>.withScmSiteAlsoStopped(boolean scmSiteAlsoStopped)
   type: Method
-  summary: <p>Specifies if SCM site is also stopped when the web app is stopped. </p>
+  summary: "<p>Specifies if SCM site is also stopped when the web app is stopped. </p>"
   syntax:
     content: public Update<FluentT> withScmSiteAlsoStopped(boolean scmSiteAlsoStopped)
     parameters:
@@ -716,7 +707,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAppSettings<FluentT>.withStickyAppSetting(String key, String value)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withStickyAppSetting(String key, String value)
   type: Method
-  summary: <p>Adds an app setting to the web app. This app setting will stay at the slot during a swap. </p>
+  summary: "<p>Adds an app setting to the web app. This app setting will stay at the slot during a swap. </p>"
   syntax:
     content: public Update<FluentT> withStickyAppSetting(String key, String value)
     parameters:
@@ -736,7 +727,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAppSettings<FluentT>.withStickyAppSettings(Map<String, String> settings)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings<FluentT>.withStickyAppSettings(Map<String, String> settings)
   type: Method
-  summary: <p>Specifies the app settings for the web app as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. These app settings will stay at the slot during a swap. </p>
+  summary: "<p>Specifies the app settings for the web app as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. These app settings will stay at the slot during a swap. </p>"
   syntax:
     content: public Update<FluentT> withStickyAppSettings(Map<String, String> settings)
     parameters:
@@ -753,7 +744,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithConnectionString<FluentT>.withStickyConnectionString(String name, String value, ConnectionStringType type)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString<FluentT>.withStickyConnectionString(String name, String value, ConnectionStringType type)
   type: Method
-  summary: <p>Adds a connection string to the web app. This connection string will stay at the slot during a swap. </p>
+  summary: "<p>Adds a connection string to the web app. This connection string will stay at the slot during a swap. </p>"
   syntax:
     content: public Update<FluentT> withStickyConnectionString(String name, String value, ConnectionStringType type)
     parameters:
@@ -776,7 +767,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withThirdPartyHostnameBinding(String domain, String... hostnames)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>.withThirdPartyHostnameBinding(String domain, String... hostnames)
   type: Method
-  summary: <p>Defines a list of host names of an externally purchased domain. The hostnames must be configured before hand to point to the web app. </p>
+  summary: "<p>Defines a list of host names of an externally purchased domain. The hostnames must be configured before hand to point to the web app. </p>"
   syntax:
     content: public Update<FluentT> withThirdPartyHostnameBinding(String domain, String... hostnames)
     parameters:
@@ -796,7 +787,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withWebAppAlwaysOn(boolean alwaysOn)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withWebAppAlwaysOn(boolean alwaysOn)
   type: Method
-  summary: <p>Specifies if the VM powering the web app is always powered on. </p>
+  summary: "<p>Specifies if the VM powering the web app is always powered on. </p>"
   syntax:
     content: public Update<FluentT> withWebAppAlwaysOn(boolean alwaysOn)
     parameters:
@@ -813,7 +804,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withWebSocketsEnabled(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>.withWebSocketsEnabled(boolean enabled)
   type: Method
-  summary: <p>Specifies if web sockets are enabled. </p>
+  summary: "<p>Specifies if web sockets are enabled. </p>"
   syntax:
     content: public Update<FluentT> withWebSocketsEnabled(boolean enabled)
     parameters:
@@ -830,10 +821,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -847,7 +835,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithClientAffinityEnabled<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientAffinityEnabled<FluentT>
   type: Interface
-  summary: <p>The stage of the web app update allowing setting if client affinity is enabled. </p>
+  summary: "<p>The stage of the web app update allowing setting if client affinity is enabled. </p>"
   syntax:
     content: public interface WithClientAffinityEnabled<FluentT>
     typeParameters:
@@ -861,7 +849,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithClientCertEnabled<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientCertEnabled<FluentT>
   type: Interface
-  summary: <p>The stage of the web app update allowing setting if client cert is enabled. </p>
+  summary: "<p>The stage of the web app update allowing setting if client cert is enabled. </p>"
   syntax:
     content: public interface WithClientCertEnabled<FluentT>
     typeParameters:
@@ -875,7 +863,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithScmSiteAlsoStopped<FluentT>
   type: Interface
-  summary: <p>The stage of the web app update allowing setting if SCM site is also stopped when the web app is stopped. </p>
+  summary: "<p>The stage of the web app update allowing setting if SCM site is also stopped when the web app is stopped. </p>"
   syntax:
     content: public interface WithScmSiteAlsoStopped<FluentT>
     typeParameters:
@@ -889,7 +877,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSiteConfigs<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs<FluentT>
   type: Interface
-  summary: <p>The stage of the web app update allowing other configurations to be set. These configurations can be cloned when creating or swapping with a deployment slot. </p>
+  summary: "<p>The stage of the web app update allowing other configurations to be set. These configurations can be cloned when creating or swapping with a deployment slot. </p>"
   syntax:
     content: public interface WithSiteConfigs<FluentT>
     typeParameters:
@@ -903,7 +891,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAppSettings<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings<FluentT>
   type: Interface
-  summary: <p>A web app update stage allowing app settings to be set. </p>
+  summary: "<p>A web app update stage allowing app settings to be set. </p>"
   syntax:
     content: public interface WithAppSettings<FluentT>
     typeParameters:
@@ -917,7 +905,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithConnectionString<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString<FluentT>
   type: Interface
-  summary: <p>A web app update stage allowing connection strings to be set. </p>
+  summary: "<p>A web app update stage allowing connection strings to be set. </p>"
   syntax:
     content: public interface WithConnectionString<FluentT>
     typeParameters:
@@ -931,7 +919,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithSourceControl<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSourceControl<FluentT>
   type: Interface
-  summary: <p>A web app update stage allowing source control to be set. </p>
+  summary: "<p>A web app update stage allowing source control to be set. </p>"
   syntax:
     content: public interface WithSourceControl<FluentT>
     typeParameters:
@@ -945,7 +933,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameBinding<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameBinding<FluentT>
   type: Interface
-  summary: <p>The stage of the web app update allowing host name binding to be set. </p>
+  summary: "<p>The stage of the web app update allowing host name binding to be set. </p>"
   syntax:
     content: public interface WithHostNameBinding<FluentT>
     typeParameters:
@@ -959,7 +947,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithHostNameSslBinding<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameSslBinding<FluentT>
   type: Interface
-  summary: <p>The stage of the web app update allowing SSL binding to be set. </p>
+  summary: "<p>The stage of the web app update allowing SSL binding to be set. </p>"
   syntax:
     content: public interface WithHostNameSslBinding<FluentT>
     typeParameters:
@@ -973,7 +961,7 @@ references:
   nameWithType: WebAppBase.UpdateStages.WithAuthentication<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAuthentication<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing authentication to be set. </p>
+  summary: "<p>A web app definition stage allowing authentication to be set. </p>"
   syntax:
     content: public interface WithAuthentication<FluentT>
     typeParameters:

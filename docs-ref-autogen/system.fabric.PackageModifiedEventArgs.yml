@@ -186,7 +186,7 @@ references:
   nameWithType: PackageRemovedEventArgs<T>
   fullName: system.fabric.PackageRemovedEventArgs<T>
   type: Class
-  summary: <p>Describes a package removed event. </p>
+  summary: "<p>Describes a package removed event. </p>"
   syntax:
     content: public class PackageRemovedEventArgs<T>
     typeParameters:
@@ -200,7 +200,7 @@ references:
   nameWithType: CodePackage
   fullName: system.fabric.CodePackage
   type: Class
-  summary: <p>Represents the code package definition. </p>
+  summary: "<p>Represents the code package definition. </p>"
   syntax:
     content: public class CodePackage
 - uid: system.fabric.ConfigurationPackage
@@ -210,7 +210,7 @@ references:
   nameWithType: ConfigurationPackage
   fullName: system.fabric.ConfigurationPackage
   type: Class
-  summary: <p>Represents a configuration package. </p>
+  summary: "<p>Represents a configuration package. </p>"
   syntax:
     content: public class ConfigurationPackage
 - uid: system.fabric.DataPackage
@@ -220,7 +220,7 @@ references:
   nameWithType: DataPackage
   fullName: system.fabric.DataPackage
   type: Class
-  summary: <p>Defines a data package of an application. </p>
+  summary: "<p>Defines a data package of an application. </p>"
   syntax:
     content: public class DataPackage
 - uid: system.fabric.CodePackageActivationContext.getCodePackageRemovedEvent()
@@ -230,10 +230,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageRemovedEvent()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageRemovedEvent()
   type: Method
-  summary: >-
-    <p>CodePackageRemovedEvent should be used to register listeners to listen to the events that are generated on removing a Code package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>CodePackageRemovedEvent should be used to register listeners to listen to the events that are generated on removing a Code package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageRemovedEventArgs<CodePackage>> getCodePackageRemovedEvent()
     return:
@@ -246,10 +243,7 @@ references:
   nameWithType: CodePackageActivationContext.getConfigurationPackageRemovedEvent()
   fullName: system.fabric.CodePackageActivationContext.getConfigurationPackageRemovedEvent()
   type: Method
-  summary: >-
-    <p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Config package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Config package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageRemovedEventArgs<ConfigurationPackage>> getConfigurationPackageRemovedEvent()
     return:
@@ -262,10 +256,7 @@ references:
   nameWithType: CodePackageActivationContext.getDataPackageRemovedEvent()
   fullName: system.fabric.CodePackageActivationContext.getDataPackageRemovedEvent()
   type: Method
-  summary: >-
-    <p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Data package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Data package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageRemovedEventArgs<DataPackage>> getDataPackageRemovedEvent()
     return:

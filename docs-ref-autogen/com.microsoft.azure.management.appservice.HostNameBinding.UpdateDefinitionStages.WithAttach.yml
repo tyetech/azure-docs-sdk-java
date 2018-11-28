@@ -39,7 +39,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -52,7 +52,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
@@ -66,7 +66,7 @@ references:
   nameWithType: HostNameBinding.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of a hostname binding definition as part of a web app update. </p>
+  summary: "<p>The entirety of a hostname binding definition as part of a web app update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends HostNameBinding.UpdateDefinitionStages.Blank<ParentT>,HostNameBinding.UpdateDefinitionStages.WithDomain<ParentT>,HostNameBinding.UpdateDefinitionStages.WithSubDomain<ParentT>,HostNameBinding.UpdateDefinitionStages.WithHostNameDnsRecordType<ParentT>,HostNameBinding.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:

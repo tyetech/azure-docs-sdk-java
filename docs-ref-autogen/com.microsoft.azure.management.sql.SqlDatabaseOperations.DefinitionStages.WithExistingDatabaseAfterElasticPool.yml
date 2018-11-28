@@ -46,10 +46,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -82,10 +76,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -98,10 +89,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool.fromRestorePoint(RestorePoint restorePoint)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool.fromRestorePoint(RestorePoint restorePoint)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions fromRestorePoint(RestorePoint restorePoint)
     parameters:
@@ -118,10 +106,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool.fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool.fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
     parameters:
@@ -141,10 +126,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithSampleDatabaseAfterElasticPool.fromSample(SampleName sampleName)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithSampleDatabaseAfterElasticPool.fromSample(SampleName sampleName)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions fromSample(SampleName sampleName)
     parameters:
@@ -161,10 +143,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithImportFromAfterElasticPool.importFrom(String storageUri)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithImportFromAfterElasticPool.importFrom(String storageUri)
   type: Method
-  summary: >-
-    <p>Creates a new database from a BACPAC file.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a BACPAC file.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseOperations.DefinitionStages.WithStorageKeyAfterElasticPool importFrom(String storageUri)
     parameters:
@@ -181,10 +160,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithImportFromAfterElasticPool.importFrom(StorageAccount storageAccount, String containerName, String fileName)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithImportFromAfterElasticPool.importFrom(StorageAccount storageAccount, String containerName, String fileName)
   type: Method
-  summary: >-
-    <p>Creates a new database from a BACPAC file.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a BACPAC file.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseOperations.DefinitionStages.WithAuthenticationAfterElasticPool importFrom(StorageAccount storageAccount, String containerName, String fileName)
     parameters:
@@ -231,10 +207,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithCollationAfterElasticPoolOptions.withCollation(String collation)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCollationAfterElasticPoolOptions.withCollation(String collation)
   type: Method
-  summary: >-
-    <p>Sets the collation for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the collation for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAfterElasticPoolOptions withCollation(String collation)
     parameters:
@@ -251,10 +224,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithMaxSizeBytesAfterElasticPoolOptions.withMaxSizeBytes(long maxSizeBytes)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithMaxSizeBytesAfterElasticPoolOptions.withMaxSizeBytes(long maxSizeBytes)
   type: Method
-  summary: >-
-    <p>Sets the max size in bytes for SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the max size in bytes for SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAfterElasticPoolOptions withMaxSizeBytes(long maxSizeBytes)
     parameters:
@@ -271,12 +241,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId.withSourceDatabase(String sourceDatabaseId)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId.withSourceDatabase(String sourceDatabaseId)
   type: Method
-  summary: >-
-    <p>Sets the resource if of source database for the SQL Database. </p>
-
-    <p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>
-
-    <p></p>
+  summary: "<p>Sets the resource if of source database for the SQL Database. </p>\r\n<p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseOperations.DefinitionStages.WithCreateMode withSourceDatabase(String sourceDatabaseId)
     parameters:
@@ -293,12 +258,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId.withSourceDatabase(SqlDatabase sourceDatabase)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId.withSourceDatabase(SqlDatabase sourceDatabase)
   type: Method
-  summary: >-
-    <p>Sets the resource if of source database for the SQL Database. </p>
-
-    <p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>
-
-    <p></p>
+  summary: "<p>Sets the resource if of source database for the SQL Database. </p>\r\n<p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseOperations.DefinitionStages.WithCreateMode withSourceDatabase(SqlDatabase sourceDatabase)
     parameters:
@@ -315,7 +275,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -335,7 +295,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -352,7 +312,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithImportFromAfterElasticPool
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithImportFromAfterElasticPool
   type: Interface
-  summary: <p>The SQL Database definition to import a BACPAC file as the source database. </p>
+  summary: "<p>The SQL Database definition to import a BACPAC file as the source database. </p>"
   syntax:
     content: public interface WithImportFromAfterElasticPool
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool
@@ -362,7 +322,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool
   type: Interface
-  summary: <p>The SQL Database definition to set a restore point as the source database within an elastic pool. </p>
+  summary: "<p>The SQL Database definition to set a restore point as the source database within an elastic pool. </p>"
   syntax:
     content: public interface WithRestorePointDatabaseAfterElasticPool
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithSampleDatabaseAfterElasticPool
@@ -372,7 +332,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithSampleDatabaseAfterElasticPool
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithSampleDatabaseAfterElasticPool
   type: Interface
-  summary: <p>The SQL Database definition to set a sample database as the source database within an elastic pool. </p>
+  summary: "<p>The SQL Database definition to set a sample database as the source database within an elastic pool. </p>"
   syntax:
     content: public interface WithSampleDatabaseAfterElasticPool
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId
@@ -382,7 +342,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId
   type: Interface
-  summary: <p>The SQL Database definition to set the source database id for database. </p>
+  summary: "<p>The SQL Database definition to set the source database id for database. </p>"
   syntax:
     content: public interface WithSourceDatabaseId
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions
@@ -392,6 +352,6 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions
   type: Interface
-  summary: <p>The final stage of the SQL Database definition after the SQL Elastic Pool definition. </p>
+  summary: "<p>The final stage of the SQL Database definition after the SQL Elastic Pool definition. </p>"
   syntax:
     content: public interface WithCreateAfterElasticPoolOptions extends SqlDatabaseOperations.DefinitionStages.WithCollationAfterElasticPoolOptions,SqlDatabaseOperations.DefinitionStages.WithMaxSizeBytesAfterElasticPoolOptions,SqlDatabaseOperations.DefinitionStages.WithCreateFinal

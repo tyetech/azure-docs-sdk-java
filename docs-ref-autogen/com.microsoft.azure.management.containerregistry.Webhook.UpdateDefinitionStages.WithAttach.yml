@@ -45,7 +45,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -58,10 +58,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>.enabled(boolean defaultStatus)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>.enabled(boolean defaultStatus)
   type: Method
-  summary: >-
-    <p>Specifies the default status of the webhook; default is "enabled".</p>
-
-    <p></p>
+  summary: "<p>Specifies the default status of the webhook; default is \"enabled\".</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> enabled(boolean defaultStatus)
     parameters:
@@ -78,12 +75,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>.withCustomHeader(String name, String value)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>.withCustomHeader(String name, String value)
   type: Method
-  summary: >-
-    <p>Specifies a custom header that will be added to notifications. </p>
-
-    <p>Consecutive calls to this method will add additional headers.</p>
-
-    <p></p>
+  summary: "<p>Specifies a custom header that will be added to notifications. </p>\r\n<p>Consecutive calls to this method will add additional headers.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withCustomHeader(String name, String value)
     parameters:
@@ -103,10 +95,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>.withCustomHeaders(Map<String, String> customHeaders)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>.withCustomHeaders(Map<String, String> customHeaders)
   type: Method
-  summary: >-
-    <p>Specifies the custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withCustomHeaders(Map<String, String> customHeaders)
     parameters:
@@ -123,12 +112,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>.withRepositoriesScope(String repositoriesScope)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>.withRepositoriesScope(String repositoriesScope)
   type: Method
-  summary: >-
-    <p>Specifies the scope of repositories where the event can be triggered. </p>
-
-    <p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of repositories where the event can be triggered. </p>\r\n<p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withRepositoriesScope(String repositoriesScope)
     parameters:
@@ -145,10 +129,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithTags<ParentT>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTags<ParentT>.withTag(String key, String value)
   type: Method
-  summary: >-
-    <p>Adds a tag to the webhook.</p>
-
-    <p></p>
+  summary: "<p>Adds a tag to the webhook.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withTag(String key, String value)
     parameters:
@@ -168,10 +149,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithTags<ParentT>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTags<ParentT>.withTags(Map<String, String> tags)
   type: Method
-  summary: >-
-    <p>Specifies tags for the webhook.</p>
-
-    <p></p>
+  summary: "<p>Specifies tags for the webhook.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withTags(Map<String, String> tags)
     parameters:
@@ -188,10 +166,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCustomHeaders<ParentT>
     typeParameters:
@@ -205,10 +180,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRepositoriesScope<ParentT>
     typeParameters:
@@ -222,10 +194,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDefaultStatus<ParentT>
     typeParameters:
@@ -239,10 +208,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithTags<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTags<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the tags.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the tags.</p>\r\n<p></p>"
   syntax:
     content: public interface WithTags<ParentT>
     typeParameters:
@@ -256,7 +222,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
@@ -270,7 +236,7 @@ references:
   nameWithType: Webhook.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container registry's webhook update definition. </p>
+  summary: "<p>Grouping of the container registry's webhook update definition. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Webhook.UpdateDefinitionStages.Blank<ParentT>,Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>,Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>,Webhook.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:

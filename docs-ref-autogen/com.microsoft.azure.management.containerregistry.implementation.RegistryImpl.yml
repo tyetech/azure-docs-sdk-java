@@ -1180,10 +1180,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -1196,10 +1193,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -1212,10 +1206,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1232,10 +1223,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -1248,10 +1236,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1268,10 +1253,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -1344,10 +1326,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1360,10 +1339,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1436,7 +1412,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -1453,7 +1429,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -1470,7 +1446,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -1487,7 +1463,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1507,7 +1483,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1527,7 +1503,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1544,7 +1520,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1561,7 +1537,7 @@ references:
   nameWithType: Registry
   fullName: com.microsoft.azure.management.containerregistry.Registry
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure registry. </p>
+  summary: "<p>An immutable client-side representation of an Azure registry. </p>"
   syntax:
     content: public interface Registry extends GroupableResource<ContainerRegistryManager, RegistryInner>,Refreshable<Registry>,Updatable<Registry.Update>
 - uid: com.microsoft.azure.management.containerregistry.Registry.Definition
@@ -1571,7 +1547,7 @@ references:
   nameWithType: Registry.Definition
   fullName: com.microsoft.azure.management.containerregistry.Registry.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a registry. </p>
+  summary: "<p>Container interface for all the definitions related to a registry. </p>"
   syntax:
     content: public interface Definition extends Registry.DefinitionStages.Blank,Registry.DefinitionStages.WithGroup,Registry.DefinitionStages.WithSku,Registry.DefinitionStages.WithStorageAccount,Registry.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.Registry.Update
@@ -1581,7 +1557,7 @@ references:
   nameWithType: Registry.Update
   fullName: com.microsoft.azure.management.containerregistry.Registry.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryUpdateParametersInner
@@ -1591,7 +1567,7 @@ references:
   nameWithType: RegistryUpdateParametersInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryUpdateParametersInner
   type: Class
-  summary: <p>The parameters for updating a container registry. </p>
+  summary: "<p>The parameters for updating a container registry. </p>"
   syntax:
     content: public class RegistryUpdateParametersInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksImpl
@@ -1601,7 +1577,7 @@ references:
   nameWithType: WebhooksImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksImpl
   type: Class
-  summary: <p>Represents a webhook collection associated with a container registry. </p>
+  summary: "<p>Represents a webhook collection associated with a container registry. </p>"
   syntax:
     content: public class WebhooksImpl
 - uid: com.microsoft.azure.management.containerregistry.QueuedBuildOperations
@@ -1611,7 +1587,7 @@ references:
   nameWithType: QueuedBuildOperations
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations
   type: Interface
-  summary: <p>Grouping of container registry queued build actions. </p>
+  summary: "<p>Grouping of container registry queued build actions. </p>"
   syntax:
     content: public interface QueuedBuildOperations
 - uid: com.microsoft.azure.management.containerregistry.BuildTaskOperations
@@ -1621,7 +1597,7 @@ references:
   nameWithType: BuildTaskOperations
   fullName: com.microsoft.azure.management.containerregistry.BuildTaskOperations
   type: Interface
-  summary: <p>Grouping of container registry build task actions. </p>
+  summary: "<p>Grouping of container registry build task actions. </p>"
   syntax:
     content: public interface BuildTaskOperations
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryInner
@@ -1631,7 +1607,7 @@ references:
   nameWithType: RegistryInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryInner
   type: Class
-  summary: <p>An object that represents a container registry. </p>
+  summary: "<p>An object that represents a container registry. </p>"
   syntax:
     content: public class RegistryInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
@@ -1641,7 +1617,7 @@ references:
   nameWithType: ContainerRegistryManager
   fullName: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
   type: Class
-  summary: <p>Entry point to Azure container registry management. </p>
+  summary: "<p>Entry point to Azure container registry management. </p>"
   syntax:
     content: public class ContainerRegistryManager
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -1651,7 +1627,7 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Updatable.update()
   parent: com.microsoft.azure.management.resources.fluentcore.model.Updatable
@@ -1660,12 +1636,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1678,7 +1649,7 @@ references:
   nameWithType: Sku
   fullName: com.microsoft.azure.management.containerregistry.Sku
   type: Class
-  summary: <p>The SKU of a container registry. </p>
+  summary: "<p>The SKU of a container registry. </p>"
   syntax:
     content: public class Sku
 - uid: com.microsoft.azure.management.containerregistry.Registry.sku()
@@ -1760,7 +1731,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithSku.withClassicSku()
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithSku.withClassicSku()
   type: Method
-  summary: <p>Creates a container registry with a 'Classic' SKU type. </p>
+  summary: "<p>Creates a container registry with a 'Classic' SKU type. </p>"
   syntax:
     content: public WithStorageAccount withClassicSku()
     return:
@@ -1773,7 +1744,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithSku.withBasicSku()
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithSku.withBasicSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Basic' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Basic' SKU type. </p>"
   syntax:
     content: public WithCreate withBasicSku()
     return:
@@ -1786,7 +1757,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithSku.withStandardSku()
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithSku.withStandardSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Standard' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Standard' SKU type. </p>"
   syntax:
     content: public WithCreate withStandardSku()
     return:
@@ -1799,7 +1770,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithSku.withPremiumSku()
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithSku.withPremiumSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Premium' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Premium' SKU type. </p>"
   syntax:
     content: public WithCreate withPremiumSku()
     return:
@@ -1812,12 +1783,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>The parameters of a storage account for the container registry. </p>
-
-    <p>If specified, the storage account must be in the same physical location as the container registry.</p>
-
-    <p></p>
+  summary: "<p>The parameters of a storage account for the container registry. </p>\r\n<p>If specified, the storage account must be in the same physical location as the container registry.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -1834,7 +1800,7 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount.withExistingStorageAccount(String)
@@ -1844,12 +1810,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithStorageAccount.withExistingStorageAccount(String id)
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount.withExistingStorageAccount(String id)
   type: Method
-  summary: >-
-    <p>The ID of an existing storage account for the container registry. </p>
-
-    <p>If specified, the storage account must be in the same physical location as the container registry.</p>
-
-    <p></p>
+  summary: "<p>The ID of an existing storage account for the container registry. </p>\r\n<p>If specified, the storage account must be in the same physical location as the container registry.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingStorageAccount(String id)
     parameters:
@@ -1866,12 +1827,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithStorageAccount.withNewStorageAccount(String storageAccountName)
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount.withNewStorageAccount(String storageAccountName)
   type: Method
-  summary: >-
-    <p>The parameters for a storage account for the container registry. </p>
-
-    <p>A new storage account with default setting and specified name will be created.</p>
-
-    <p></p>
+  summary: "<p>The parameters for a storage account for the container registry. </p>\r\n<p>A new storage account with default setting and specified name will be created.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(String storageAccountName)
     parameters:
@@ -1888,12 +1844,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   type: Method
-  summary: >-
-    <p>The parameters for a storage account for the container registry. </p>
-
-    <p>If specified, the storage account must be in the same physical location as the container registry.</p>
-
-    <p></p>
+  summary: "<p>The parameters for a storage account for the container registry. </p>\r\n<p>If specified, the storage account must be in the same physical location as the container registry.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(Creatable<StorageAccount> creatable)
     parameters:
@@ -1910,10 +1861,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -1927,7 +1875,7 @@ references:
   nameWithType: Registry.UpdateStages.WithAdminUserEnabled.withRegistryNameAsAdminUser()
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithAdminUserEnabled.withRegistryNameAsAdminUser()
   type: Method
-  summary: <p>Enable admin user. </p>
+  summary: "<p>Enable admin user. </p>"
   syntax:
     content: public Update withRegistryNameAsAdminUser()
     return:
@@ -1940,7 +1888,7 @@ references:
   nameWithType: Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()
   type: Method
-  summary: <p>Disable admin user. </p>
+  summary: "<p>Disable admin user. </p>"
   syntax:
     content: public Update withoutRegistryNameAsAdminUser()
     return:
@@ -1953,7 +1901,7 @@ references:
   nameWithType: RegistryCredentials
   fullName: com.microsoft.azure.management.containerregistry.RegistryCredentials
   type: Interface
-  summary: <p>Response containing the login credentials for a container registry. </p>
+  summary: "<p>Response containing the login credentials for a container registry. </p>"
   syntax:
     content: public interface RegistryCredentials
 - uid: com.microsoft.azure.management.containerregistry.Registry.getCredentials()
@@ -1987,7 +1935,7 @@ references:
   nameWithType: Registry.regenerateCredential(AccessKeyType accessKeyType)
   fullName: com.microsoft.azure.management.containerregistry.Registry.regenerateCredential(AccessKeyType accessKeyType)
   type: Method
-  summary: <p>Regenerates one of the login credentials for the specified container registry. </p>
+  summary: "<p>Regenerates one of the login credentials for the specified container registry. </p>"
   syntax:
     content: public RegistryCredentials regenerateCredential(AccessKeyType accessKeyType)
     parameters:
@@ -2004,7 +1952,7 @@ references:
   nameWithType: AccessKeyType
   fullName: com.microsoft.azure.management.containerregistry.AccessKeyType
   type: Class
-  summary: <p>Defines values for admin user access key names. </p>
+  summary: "<p>Defines values for admin user access key names. </p>"
   syntax:
     content: public class AccessKeyType extends ExpandableStringEnum<AccessKeyType>
 - uid: com.microsoft.azure.management.containerregistry.Registry.regenerateCredentialAsync(AccessKeyType)
@@ -2014,10 +1962,7 @@ references:
   nameWithType: Registry.regenerateCredentialAsync(AccessKeyType accessKeyType)
   fullName: com.microsoft.azure.management.containerregistry.Registry.regenerateCredentialAsync(AccessKeyType accessKeyType)
   type: Method
-  summary: >-
-    <p>Regenerates one of the login credentials for the specified container registry.</p>
-
-    <p></p>
+  summary: "<p>Regenerates one of the login credentials for the specified container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<RegistryCredentials> regenerateCredentialAsync(AccessKeyType accessKeyType)
     parameters:
@@ -2034,7 +1979,7 @@ references:
   nameWithType: RegistryUsage
   fullName: com.microsoft.azure.management.containerregistry.RegistryUsage
   type: Class
-  summary: <p>The quota usage for a container registry. </p>
+  summary: "<p>The quota usage for a container registry. </p>"
   syntax:
     content: public class RegistryUsage
 - uid: com.microsoft.azure.management.containerregistry.Registry.listQuotaUsages()
@@ -2044,10 +1989,7 @@ references:
   nameWithType: Registry.listQuotaUsages()
   fullName: com.microsoft.azure.management.containerregistry.Registry.listQuotaUsages()
   type: Method
-  summary: >-
-    <p>Lists the quota usages for the specified container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists the quota usages for the specified container registry.</p>\r\n<p></p>"
   syntax:
     content: public Collection<RegistryUsage> listQuotaUsages()
     return:
@@ -2060,10 +2002,7 @@ references:
   nameWithType: Registry.listQuotaUsagesAsync()
   fullName: com.microsoft.azure.management.containerregistry.Registry.listQuotaUsagesAsync()
   type: Method
-  summary: >-
-    <p>Lists the quota usages for the specified container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists the quota usages for the specified container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<RegistryUsage> listQuotaUsagesAsync()
     return:
@@ -2076,7 +2015,7 @@ references:
   nameWithType: WebhookOperations
   fullName: com.microsoft.azure.management.containerregistry.WebhookOperations
   type: Interface
-  summary: <p>Grouping of container registry webhook actions. </p>
+  summary: "<p>Grouping of container registry webhook actions. </p>"
   syntax:
     content: public interface WebhookOperations
 - uid: com.microsoft.azure.management.containerregistry.Registry.webhooks()
@@ -2122,7 +2061,7 @@ references:
   nameWithType: SourceUploadDefinition
   fullName: com.microsoft.azure.management.containerregistry.SourceUploadDefinition
   type: Interface
-  summary: <p>The source repository properties for a build task. </p>
+  summary: "<p>The source repository properties for a build task. </p>"
   syntax:
     content: public interface SourceUploadDefinition
 - uid: com.microsoft.azure.management.containerregistry.Registry.getBuildSourceUploadUrl()
@@ -2144,10 +2083,7 @@ references:
   nameWithType: Registry.getBuildSourceUploadUrlAsync()
   fullName: com.microsoft.azure.management.containerregistry.Registry.getBuildSourceUploadUrlAsync()
   type: Method
-  summary: >-
-    <p>Gets the upload location for the user to be able to upload the source asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Gets the upload location for the user to be able to upload the source asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<SourceUploadDefinition> getBuildSourceUploadUrlAsync()
     return:
@@ -2160,7 +2096,7 @@ references:
   nameWithType: Registry.UpdateStages.WithWebhook.withoutWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.withoutWebhook(String name)
   type: Method
-  summary: <p>Removes a webhook from the container registry. </p>
+  summary: "<p>Removes a webhook from the container registry. </p>"
   syntax:
     content: public Update withoutWebhook(String name)
     parameters:
@@ -2177,7 +2113,7 @@ references:
   nameWithType: WebhookImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl
   type: Class
-  summary: <p>Implementation for Webhook. </p>
+  summary: "<p>Implementation for Webhook. </p>"
   syntax:
     content: public class WebhookImpl
 - uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.updateWebhook(String)
@@ -2187,7 +2123,7 @@ references:
   nameWithType: Registry.UpdateStages.WithWebhook.updateWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.updateWebhook(String name)
   type: Method
-  summary: <p>Begins the description of an update of an existing webhook of this container registry. </p>
+  summary: "<p>Begins the description of an update of an existing webhook of this container registry. </p>"
   syntax:
     content: public Webhook.UpdateResourceStages.Blank<Update> updateWebhook(String name)
     parameters:
@@ -2204,7 +2140,7 @@ references:
   nameWithType: Registry.UpdateStages.WithWebhook.defineWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.defineWebhook(String name)
   type: Method
-  summary: <p>Begins the definition of a new webhook to be added to this container registry. </p>
+  summary: "<p>Begins the definition of a new webhook to be added to this container registry. </p>"
   syntax:
     content: public Webhook.UpdateDefinitionStages.Blank<Update> defineWebhook(String name)
     parameters:

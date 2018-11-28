@@ -109,10 +109,7 @@ references:
   nameWithType: Examples.ExamplesListDefinitionStages.WithAllOptions.withSkip(Integer skip)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinitionStages.WithAllOptions.withSkip(Integer skip)
   type: Method
-  summary: >-
-    <p>The number of entries to skip. Default value is 0.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to skip. Default value is 0.</p>\r\n<p></p>"
   syntax:
     content: public ExamplesListDefinitionStages.WithExecute withSkip(Integer skip)
     parameters:
@@ -128,10 +125,7 @@ references:
   nameWithType: Examples.ExamplesListDefinitionStages.WithAllOptions.withTake(Integer take)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinitionStages.WithAllOptions.withTake(Integer take)
   type: Method
-  summary: >-
-    <p>The number of entries to return. Maximum page size is 500. Default is 100.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to return. Maximum page size is 500. Default is 100.</p>\r\n<p></p>"
   syntax:
     content: public ExamplesListDefinitionStages.WithExecute withTake(Integer take)
     parameters:
@@ -147,7 +141,7 @@ references:
   nameWithType: Examples.ExamplesListDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinition
@@ -157,7 +151,7 @@ references:
   nameWithType: Examples.ExamplesListDefinition
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinition
   type: Interface
-  summary: <p>The entirety of list definition. </p>
+  summary: "<p>The entirety of list definition. </p>"
   syntax:
     content: public interface ExamplesListDefinition extends Examples.ExamplesListDefinitionStages.WithAppId,Examples.ExamplesListDefinitionStages.WithVersionId,Examples.ExamplesListDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.models.LabeledUtterance
@@ -167,6 +161,6 @@ references:
   nameWithType: LabeledUtterance
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.models.LabeledUtterance
   type: Class
-  summary: <p>A prediction and label pair of an example. </p>
+  summary: "<p>A prediction and label pair of an example. </p>"
   syntax:
     content: public class LabeledUtterance

@@ -65,7 +65,7 @@ references:
   nameWithType: AppServiceCertificateOrders
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrders
   type: Interface
-  summary: <p>Entry point for app service certificate order management API. </p>
+  summary: "<p>Entry point for app service certificate order management API. </p>"
   syntax:
     content: public interface AppServiceCertificateOrders extends SupportsCreating<AppServiceCertificateOrder.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<AppServiceCertificateOrder>,SupportsGettingByResourceGroup<AppServiceCertificateOrder>,SupportsListing<AppServiceCertificateOrder>,SupportsGettingById<AppServiceCertificateOrder>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<AppServiceCertificateOrdersInner>
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificates
@@ -75,7 +75,7 @@ references:
   nameWithType: AppServiceCertificates
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificates
   type: Interface
-  summary: <p>Entry point for certificate management API. </p>
+  summary: "<p>Entry point for certificate management API. </p>"
   syntax:
     content: public interface AppServiceCertificates extends SupportsCreating<AppServiceCertificate.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<AppServiceCertificate>,SupportsListing<AppServiceCertificate>,SupportsGettingByResourceGroup<AppServiceCertificate>,SupportsGettingById<AppServiceCertificate>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<CertificatesInner>
 - uid: com.microsoft.azure.management.appservice.AppServiceDomains
@@ -85,7 +85,7 @@ references:
   nameWithType: AppServiceDomains
   fullName: com.microsoft.azure.management.appservice.AppServiceDomains
   type: Interface
-  summary: <p>Entry point for domain management API. </p>
+  summary: "<p>Entry point for domain management API. </p>"
   syntax:
     content: public interface AppServiceDomains extends SupportsCreating<AppServiceDomain.DefinitionStages.Blank>,SupportsListing<AppServiceDomain>,SupportsListingByResourceGroup<AppServiceDomain>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsGettingByResourceGroup<AppServiceDomain>,SupportsGettingById<AppServiceDomain>,HasManager<AppServiceManager>,HasInner<DomainsInner>
 - uid: com.microsoft.azure.management.appservice.AppServicePlans
@@ -95,7 +95,7 @@ references:
   nameWithType: AppServicePlans
   fullName: com.microsoft.azure.management.appservice.AppServicePlans
   type: Interface
-  summary: <p>Entry point for App Service plan management API. </p>
+  summary: "<p>Entry point for App Service plan management API. </p>"
   syntax:
     content: public interface AppServicePlans extends SupportsCreating<AppServicePlan.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<AppServicePlan>,SupportsListing<AppServicePlan>,SupportsGettingByResourceGroup<AppServicePlan>,SupportsGettingById<AppServicePlan>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<AppServicePlansInner>
 - uid: com.microsoft.azure.management.appservice.DomainContact
@@ -105,7 +105,7 @@ references:
   nameWithType: DomainContact
   fullName: com.microsoft.azure.management.appservice.DomainContact
   type: Interface
-  summary: <p>A domain contact definition. </p>
+  summary: "<p>A domain contact definition. </p>"
   syntax:
     content: public interface DomainContact extends HasInner<Contact>,ChildResource<AppServiceDomain>
 - uid: com.microsoft.azure.management.appservice.DomainLegalAgreement
@@ -115,7 +115,7 @@ references:
   nameWithType: DomainLegalAgreement
   fullName: com.microsoft.azure.management.appservice.DomainLegalAgreement
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure domain legal agreement. </p>
+  summary: "<p>An immutable client-side representation of an Azure domain legal agreement. </p>"
   syntax:
     content: public interface DomainLegalAgreement extends HasInner<TldLegalAgreementInner>
 - uid: com.microsoft.azure.management.appservice.FunctionApps
@@ -125,7 +125,7 @@ references:
   nameWithType: FunctionApps
   fullName: com.microsoft.azure.management.appservice.FunctionApps
   type: Interface
-  summary: <p>Entry point for web app management API. </p>
+  summary: "<p>Entry point for web app management API. </p>"
   syntax:
     content: public interface FunctionApps extends SupportsCreating<FunctionApp.DefinitionStages.Blank>,SupportsDeletingById,SupportsListing<FunctionApp>,SupportsListingByResourceGroup<FunctionApp>,SupportsGettingByResourceGroup<FunctionApp>,SupportsGettingById<FunctionApp>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<WebAppsInner>
 - uid: com.microsoft.azure.management.appservice.HostNameBinding
@@ -135,7 +135,7 @@ references:
   nameWithType: HostNameBinding
   fullName: com.microsoft.azure.management.appservice.HostNameBinding
   type: Interface
-  summary: <p>An immutable representation of a host name binding. </p>
+  summary: "<p>An immutable representation of a host name binding. </p>"
   syntax:
     content: public interface HostNameBinding
 - uid: com.microsoft.azure.management.appservice.HostNameSslBinding
@@ -145,7 +145,7 @@ references:
   nameWithType: HostNameSslBinding
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding
   type: Interface
-  summary: <p>An immutable representation of an host name SSL binding. </p>
+  summary: "<p>An immutable representation of an host name SSL binding. </p>"
   syntax:
     content: public interface HostNameSslBinding
 - uid: com.microsoft.azure.management.appservice.WebAppAuthentication
@@ -155,7 +155,7 @@ references:
   nameWithType: WebAppAuthentication
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication
   type: Interface
-  summary: <p>A web app authentication configuration in a web app. </p>
+  summary: "<p>A web app authentication configuration in a web app. </p>"
   syntax:
     content: public interface WebAppAuthentication
 - uid: com.microsoft.azure.management.appservice.WebApps
@@ -165,7 +165,7 @@ references:
   nameWithType: WebApps
   fullName: com.microsoft.azure.management.appservice.WebApps
   type: Interface
-  summary: <p>Entry point for web app management API. </p>
+  summary: "<p>Entry point for web app management API. </p>"
   syntax:
     content: public interface WebApps
 - uid: com.microsoft.azure.management.appservice.WebAppSourceControl
@@ -175,7 +175,7 @@ references:
   nameWithType: WebAppSourceControl
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl
   type: Interface
-  summary: <p>An immutable representation of a web app source control configuration in a web app. </p>
+  summary: "<p>An immutable representation of a web app source control configuration in a web app. </p>"
   syntax:
     content: public interface WebAppSourceControl
 - uid: com.microsoft.azure.management.batch.Application
@@ -185,7 +185,7 @@ references:
   nameWithType: Application
   fullName: com.microsoft.azure.management.batch.Application
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Batch account application. </p>
+  summary: "<p>An immutable client-side representation of an Azure Batch account application. </p>"
   syntax:
     content: public interface Application extends ExternalChildResource<Application, BatchAccount>,HasInner<ApplicationInner>
 - uid: com.microsoft.azure.management.batch.ApplicationPackage
@@ -195,7 +195,7 @@ references:
   nameWithType: ApplicationPackage
   fullName: com.microsoft.azure.management.batch.ApplicationPackage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Batch application package. </p>
+  summary: "<p>An immutable client-side representation of an Azure Batch application package. </p>"
   syntax:
     content: public interface ApplicationPackage extends ExternalChildResource<ApplicationPackage, Application>,HasInner<ApplicationPackageInner>
 - uid: com.microsoft.azure.management.batch.BatchAccounts
@@ -205,7 +205,7 @@ references:
   nameWithType: BatchAccounts
   fullName: com.microsoft.azure.management.batch.BatchAccounts
   type: Interface
-  summary: <p>Entry point to Azure Batch account management API. </p>
+  summary: "<p>Entry point to Azure Batch account management API. </p>"
   syntax:
     content: public interface BatchAccounts extends SupportsCreating<BatchAccount.DefinitionStages.Blank>,SupportsListing<BatchAccount>,SupportsListingByResourceGroup<BatchAccount>,SupportsGettingByResourceGroup<BatchAccount>,SupportsGettingById<BatchAccount>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<BatchAccount>,SupportsBatchDeletion,HasManager<BatchManager>,HasInner<BatchAccountsInner>
 - uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem
@@ -215,7 +215,7 @@ references:
   nameWithType: AzureBlobFileSystem
   fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem
   type: Interface
-  summary: <p>Client-side representation for AzureBlobFileSystemReference. </p>
+  summary: "<p>Client-side representation for AzureBlobFileSystemReference. </p>"
   syntax:
     content: public interface AzureBlobFileSystem extends Indexable,HasInner<AzureBlobFileSystemReference>
 - uid: com.microsoft.azure.management.batchai.AzureFileShare
@@ -225,7 +225,7 @@ references:
   nameWithType: AzureFileShare
   fullName: com.microsoft.azure.management.batchai.AzureFileShare
   type: Interface
-  summary: <p>Client-side representation for AzureFileShareReference. </p>
+  summary: "<p>Client-side representation for AzureFileShareReference. </p>"
   syntax:
     content: public interface AzureFileShare extends Indexable,HasInner<AzureFileShareReference>
 - uid: com.microsoft.azure.management.batchai.BatchAICluster
@@ -235,7 +235,7 @@ references:
   nameWithType: BatchAICluster
   fullName: com.microsoft.azure.management.batchai.BatchAICluster
   type: Interface
-  summary: <p>Entry point for Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAICluster extends HasInner<ClusterInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAICluster>,Updatable<BatchAICluster.Update>
 - uid: com.microsoft.azure.management.batchai.BatchAIClusters
@@ -245,7 +245,7 @@ references:
   nameWithType: BatchAIClusters
   fullName: com.microsoft.azure.management.batchai.BatchAIClusters
   type: Interface
-  summary: <p>Entry point to Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAIClusters extends SupportsCreating<BatchAICluster.DefinitionStages.Blank>,SupportsListing<BatchAICluster>,SupportsGettingById<BatchAICluster>,SupportsGettingByNameAsync<BatchAICluster>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<ClustersInner>,HasParent<BatchAIWorkspace>
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment
@@ -255,7 +255,7 @@ references:
   nameWithType: BatchAIExperiment
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment
   type: Interface
-  summary: <p>Entry point for Batch AI Experiment management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI Experiment management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiment extends HasInner<ExperimentInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiments
@@ -265,7 +265,7 @@ references:
   nameWithType: BatchAIExperiments
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiments
   type: Interface
-  summary: <p>Entry point to Batch AI experiments management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI experiments management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiments extends SupportsCreating<BatchAIExperiment.DefinitionStages.WithCreate>,SupportsListing<BatchAIExperiment>,SupportsGettingById<BatchAIExperiment>,SupportsGettingByNameAsync<BatchAIExperiment>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<ExperimentsInner>,HasParent<BatchAIWorkspace>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer
@@ -275,7 +275,7 @@ references:
   nameWithType: BatchAIFileServer
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer
   type: Interface
-  summary: <p>Entry point for Batch AI file server management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI file server management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServer extends HasInner<FileServerInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIFileServer>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServers
@@ -285,7 +285,7 @@ references:
   nameWithType: BatchAIFileServers
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServers
   type: Interface
-  summary: <p>Entry point to Batch AI file servers management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI file servers management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServers extends SupportsCreating<BatchAIFileServer.DefinitionStages.Blank>,SupportsListing<BatchAIFileServer>,SupportsGettingById<BatchAIFileServer>,SupportsGettingByNameAsync<BatchAIFileServer>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<FileServersInner>
 - uid: com.microsoft.azure.management.batchai.BatchAIJob
@@ -295,7 +295,7 @@ references:
   nameWithType: BatchAIJob
   fullName: com.microsoft.azure.management.batchai.BatchAIJob
   type: Interface
-  summary: <p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>
+  summary: "<p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>"
   syntax:
     content: public interface BatchAIJob extends HasInner<JobInner>,Indexable,HasId,HasName,Refreshable<BatchAIJob>
 - uid: com.microsoft.azure.management.batchai.BatchAIJobs
@@ -305,7 +305,7 @@ references:
   nameWithType: BatchAIJobs
   fullName: com.microsoft.azure.management.batchai.BatchAIJobs
   type: Interface
-  summary: <p>Entry point for Batch AI jobs management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI jobs management API in Azure. </p>"
   syntax:
     content: public interface BatchAIJobs extends SupportsCreating<BatchAIJob.DefinitionStages.Blank>,SupportsListing<BatchAIJob>,SupportsGettingByName<BatchAIJob>,SupportsGettingById<BatchAIJob>,SupportsGettingByNameAsync<BatchAIJob>,SupportsDeletingByName,SupportsDeletingById,HasInner<JobsInner>,HasManager<BatchAIManager>,HasParent<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIUsage
@@ -315,7 +315,7 @@ references:
   nameWithType: BatchAIUsage
   fullName: com.microsoft.azure.management.batchai.BatchAIUsage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Batch AI resource usage info object. </p>
+  summary: "<p>An immutable client-side representation of an Azure Batch AI resource usage info object. </p>"
   syntax:
     content: public interface BatchAIUsage extends HasInner<UsageInner>
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspaces
@@ -325,7 +325,7 @@ references:
   nameWithType: BatchAIWorkspaces
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspaces
   type: Interface
-  summary: <p>Entry point to virtual network gateways management API in Azure. </p>
+  summary: "<p>Entry point to virtual network gateways management API in Azure. </p>"
   syntax:
     content: public interface BatchAIWorkspaces extends SupportsCreating<BatchAIWorkspace.DefinitionStages.Blank>,SupportsListing<BatchAIWorkspace>,SupportsListingByResourceGroup<BatchAIWorkspace>,SupportsGettingByResourceGroup<BatchAIWorkspace>,SupportsGettingById<BatchAIWorkspace>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<BatchAIWorkspace>,HasManager<BatchAIManager>,HasInner<WorkspacesInner>
 - uid: com.microsoft.azure.management.batchai.ContainerImageSettings
@@ -335,7 +335,7 @@ references:
   nameWithType: ContainerImageSettings
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings
   type: Interface
-  summary: <p>Specifies settings for container image. </p>
+  summary: "<p>Specifies settings for container image. </p>"
   syntax:
     content: public interface ContainerImageSettings extends Indexable,HasParent<BatchAIJob>,HasInner<OutputDirectory>
 - uid: com.microsoft.azure.management.batchai.FileServer
@@ -345,7 +345,7 @@ references:
   nameWithType: FileServer
   fullName: com.microsoft.azure.management.batchai.FileServer
   type: Interface
-  summary: <p>Client-side representation for FileServerReference. </p>
+  summary: "<p>Client-side representation for FileServerReference. </p>"
   syntax:
     content: public interface FileServer extends Indexable,HasInner<FileServerReference>
 - uid: com.microsoft.azure.management.batchai.NodeSetupTask
@@ -355,7 +355,7 @@ references:
   nameWithType: NodeSetupTask
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask
   type: Interface
-  summary: <p>A client-side representation of a mode setup task of a Batch AI cluster. </p>
+  summary: "<p>A client-side representation of a mode setup task of a Batch AI cluster. </p>"
   syntax:
     content: public interface NodeSetupTask
 - uid: com.microsoft.azure.management.batchai.OutputDirectorySettings
@@ -365,7 +365,7 @@ references:
   nameWithType: OutputDirectorySettings
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings
   type: Interface
-  summary: <p>Specifies the settings for output directory. </p>
+  summary: "<p>Specifies the settings for output directory. </p>"
   syntax:
     content: public interface OutputDirectorySettings
 - uid: com.microsoft.azure.management.batchai.OutputFile
@@ -375,7 +375,7 @@ references:
   nameWithType: OutputFile
   fullName: com.microsoft.azure.management.batchai.OutputFile
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI output file. </p>
+  summary: "<p>An immutable client-side representation of Batch AI output file. </p>"
   syntax:
     content: public interface OutputFile
 - uid: com.microsoft.azure.management.batchai.RemoteLoginInformation
@@ -385,7 +385,7 @@ references:
   nameWithType: RemoteLoginInformation
   fullName: com.microsoft.azure.management.batchai.RemoteLoginInformation
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>
+  summary: "<p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>"
   syntax:
     content: public interface RemoteLoginInformation
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe
@@ -395,7 +395,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe
   type: Interface
-  summary: <p>Specifies the settings for Caffe job. </p>
+  summary: "<p>Specifies the settings for Caffe job. </p>"
   syntax:
     content: public interface Caffe extends Indexable,HasParent<BatchAIJob>,HasInner<CaffeSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2
@@ -405,7 +405,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe2
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2
   type: Interface
-  summary: <p>Specifies the settings for Caffe2 job. </p>
+  summary: "<p>Specifies the settings for Caffe2 job. </p>"
   syntax:
     content: public interface Caffe2 extends Indexable,HasParent<BatchAIJob>,HasInner<Caffe2Settings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer
@@ -415,7 +415,7 @@ references:
   nameWithType: ToolTypeSettings.Chainer
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer
   type: Interface
-  summary: <p>Specifies the settings for Chainer job. </p>
+  summary: "<p>Specifies the settings for Chainer job. </p>"
   syntax:
     content: public interface Chainer extends Indexable,HasParent<BatchAIJob>,HasInner<ChainerSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit
@@ -425,7 +425,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit
   type: Interface
-  summary: <p>Client-side representation for Microsoft Cognitive Toolkit settings. </p>
+  summary: "<p>Client-side representation for Microsoft Cognitive Toolkit settings. </p>"
   syntax:
     content: public interface CognitiveToolkit extends Indexable,HasParent<BatchAIJob>,HasInner<CNTKsettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi
@@ -435,7 +435,7 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi
   type: Interface
-  summary: <p>Client-side representation for the settings for a custom MPI job. </p>
+  summary: "<p>Client-side representation for the settings for a custom MPI job. </p>"
   syntax:
     content: public interface CustomMpi extends Indexable,HasParent<BatchAIJob>,HasInner<CustomMpiSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit
@@ -445,7 +445,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit
   type: Interface
-  summary: <p>Client-side representation for the settings for a custom toolkit job. </p>
+  summary: "<p>Client-side representation for the settings for a custom toolkit job. </p>"
   syntax:
     content: public interface CustomToolkit extends Indexable,HasParent<BatchAIJob>,HasInner<CustomToolkitSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod
@@ -455,7 +455,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod
   type: Interface
-  summary: <p>Client-side representation for Horovod job settings. </p>
+  summary: "<p>Client-side representation for Horovod job settings. </p>"
   syntax:
     content: public interface Horovod
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch
@@ -465,7 +465,7 @@ references:
   nameWithType: ToolTypeSettings.PyTorch
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch
   type: Interface
-  summary: <p>Client-side representation for PyTorch toolkit settings. </p>
+  summary: "<p>Client-side representation for PyTorch toolkit settings. </p>"
   syntax:
     content: public interface PyTorch
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow
@@ -475,7 +475,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow
   type: Interface
-  summary: <p>Specifies the settings for TensorFlow job. </p>
+  summary: "<p>Specifies the settings for TensorFlow job. </p>"
   syntax:
     content: public interface TensorFlow
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint
@@ -485,7 +485,7 @@ references:
   nameWithType: CdnEndpoint
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure CDN endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure CDN endpoint. </p>"
   syntax:
     content: public interface CdnEndpoint extends ExternalChildResource<CdnEndpoint, CdnProfile>,HasInner<EndpointInner>
 - uid: com.microsoft.azure.management.cdn.CdnProfiles
@@ -495,7 +495,7 @@ references:
   nameWithType: CdnProfiles
   fullName: com.microsoft.azure.management.cdn.CdnProfiles
   type: Interface
-  summary: <p>Entry point for CDN profile management API. </p>
+  summary: "<p>Entry point for CDN profile management API. </p>"
   syntax:
     content: public interface CdnProfiles extends SupportsCreating<CdnProfile.DefinitionStages.Blank>,SupportsListing<CdnProfile>,SupportsListingByResourceGroup<CdnProfile>,SupportsGettingByResourceGroup<CdnProfile>,SupportsGettingById<CdnProfile>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<CdnProfile>,SupportsBatchDeletion,HasManager<CdnManager>,HasInner<ProfilesInner>
 - uid: com.microsoft.azure.management.compute.AvailabilitySets
@@ -505,7 +505,7 @@ references:
   nameWithType: AvailabilitySets
   fullName: com.microsoft.azure.management.compute.AvailabilitySets
   type: Interface
-  summary: <p>Entry point to availability set management API. </p>
+  summary: "<p>Entry point to availability set management API. </p>"
   syntax:
     content: public interface AvailabilitySets extends SupportsListingByResourceGroup<AvailabilitySet>,SupportsGettingByResourceGroup<AvailabilitySet>,SupportsGettingById<AvailabilitySet>,SupportsListing<AvailabilitySet>,SupportsCreating<AvailabilitySet.DefinitionStages.Blank>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<AvailabilitySet>,HasManager<ComputeManager>,HasInner<AvailabilitySetsInner>
 - uid: com.microsoft.azure.management.compute.ComputeUsage
@@ -515,7 +515,7 @@ references:
   nameWithType: ComputeUsage
   fullName: com.microsoft.azure.management.compute.ComputeUsage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure compute resource usage info object. </p>
+  summary: "<p>An immutable client-side representation of an Azure compute resource usage info object. </p>"
   syntax:
     content: public interface ComputeUsage extends HasInner<UsageInner>
 - uid: com.microsoft.azure.management.compute.ContainerServiceAgentPool
@@ -525,7 +525,7 @@ references:
   nameWithType: ContainerServiceAgentPool
   fullName: com.microsoft.azure.management.compute.ContainerServiceAgentPool
   type: Interface
-  summary: <p>A client-side representation for a container service agent pool. </p>
+  summary: "<p>A client-side representation for a container service agent pool. </p>"
   syntax:
     content: public interface ContainerServiceAgentPool extends ChildResource<ContainerService>,HasInner<ContainerServiceAgentPoolProfile>
 - uid: com.microsoft.azure.management.compute.ContainerServices
@@ -535,7 +535,7 @@ references:
   nameWithType: ContainerServices
   fullName: com.microsoft.azure.management.compute.ContainerServices
   type: Interface
-  summary: <p>Entry point to container service management API. </p>
+  summary: "<p>Entry point to container service management API. </p>"
   syntax:
     content: public interface ContainerServices extends SupportsCreating<ContainerService.DefinitionStages.Blank>,HasManager<ComputeManager>,HasInner<ContainerServicesInner>,SupportsBatchCreation<ContainerService>,SupportsListing<ContainerService>,SupportsGettingById<ContainerService>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<ContainerService>,SupportsGettingByResourceGroup<ContainerService>
 - uid: com.microsoft.azure.management.compute.Disks
@@ -545,7 +545,7 @@ references:
   nameWithType: Disks
   fullName: com.microsoft.azure.management.compute.Disks
   type: Interface
-  summary: <p>Entry point to managed disk management API in Azure. </p>
+  summary: "<p>Entry point to managed disk management API in Azure. </p>"
   syntax:
     content: public interface Disks extends SupportsCreating<Disk.DefinitionStages.Blank>,SupportsListing<Disk>,SupportsListingByResourceGroup<Disk>,SupportsGettingByResourceGroup<Disk>,SupportsGettingById<Disk>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<Disk>,SupportsBatchDeletion,HasManager<ComputeManager>,HasInner<DisksInner>
 - uid: com.microsoft.azure.management.compute.Snapshots
@@ -555,7 +555,7 @@ references:
   nameWithType: Snapshots
   fullName: com.microsoft.azure.management.compute.Snapshots
   type: Interface
-  summary: <p>Entry point to managed snapshot management API in Azure. </p>
+  summary: "<p>Entry point to managed snapshot management API in Azure. </p>"
   syntax:
     content: public interface Snapshots
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk
@@ -565,7 +565,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk
   type: Interface
-  summary: <p>An immutable client-side representation of a data disk image in an image resource. </p>
+  summary: "<p>An immutable client-side representation of a data disk image in an image resource. </p>"
   syntax:
     content: public interface CustomImageDataDisk extends HasInner<ImageDataDisk>,ChildResource<VirtualMachineCustomImage>
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImages
@@ -575,7 +575,7 @@ references:
   nameWithType: VirtualMachineCustomImages
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImages
   type: Interface
-  summary: <p>Entry point to custom virtual machine image management. </p>
+  summary: "<p>Entry point to custom virtual machine image management. </p>"
   syntax:
     content: public interface VirtualMachineCustomImages
 - uid: com.microsoft.azure.management.compute.VirtualMachineDataDisk
@@ -585,7 +585,7 @@ references:
   nameWithType: VirtualMachineDataDisk
   fullName: com.microsoft.azure.management.compute.VirtualMachineDataDisk
   type: Interface
-  summary: <p>A managed data disk of a virtual machine. </p>
+  summary: "<p>A managed data disk of a virtual machine. </p>"
   syntax:
     content: public interface VirtualMachineDataDisk
 - uid: com.microsoft.azure.management.compute.VirtualMachineExtensionBase
@@ -595,7 +595,7 @@ references:
   nameWithType: VirtualMachineExtensionBase
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtensionBase
   type: Interface
-  summary: <p>An immutable client-side representation of an extension associated with virtual machine. </p>
+  summary: "<p>An immutable client-side representation of an extension associated with virtual machine. </p>"
   syntax:
     content: public interface VirtualMachineExtensionBase
 - uid: com.microsoft.azure.management.compute.VirtualMachineExtensionImage
@@ -605,10 +605,7 @@ references:
   nameWithType: VirtualMachineExtensionImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtensionImage
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure virtual machine extension image. </p>
-
-    <p>Note: Azure virtual machine extension image is also referred as virtual machine extension handler. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine extension image. </p>\r\n<p>Note: Azure virtual machine extension image is also referred as virtual machine extension handler. </p>"
   syntax:
     content: public interface VirtualMachineExtensionImage
 - uid: com.microsoft.azure.management.compute.VirtualMachineExtensionImageType
@@ -618,7 +615,7 @@ references:
   nameWithType: VirtualMachineExtensionImageType
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtensionImageType
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine extension image type. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine extension image type. </p>"
   syntax:
     content: public interface VirtualMachineExtensionImageType
 - uid: com.microsoft.azure.management.compute.VirtualMachineExtensionImageVersion
@@ -628,7 +625,7 @@ references:
   nameWithType: VirtualMachineExtensionImageVersion
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtensionImageVersion
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine extension image version. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine extension image version. </p>"
   syntax:
     content: public interface VirtualMachineExtensionImageVersion
 - uid: com.microsoft.azure.management.compute.VirtualMachineImage
@@ -638,7 +635,7 @@ references:
   nameWithType: VirtualMachineImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineImage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine image. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine image. </p>"
   syntax:
     content: public interface VirtualMachineImage
 - uid: com.microsoft.azure.management.compute.VirtualMachines
@@ -648,7 +645,7 @@ references:
   nameWithType: VirtualMachines
   fullName: com.microsoft.azure.management.compute.VirtualMachines
   type: Interface
-  summary: <p>Entry point to virtual machine management API. </p>
+  summary: "<p>Entry point to virtual machine management API. </p>"
   syntax:
     content: public interface VirtualMachines
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension
@@ -658,7 +655,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension
   type: Interface
-  summary: <p>An immutable client-side representation of an extension associated with virtual machines in a scale set. </p>
+  summary: "<p>An immutable client-side representation of an extension associated with virtual machines in a scale set. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetExtension
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSets
@@ -668,7 +665,7 @@ references:
   nameWithType: VirtualMachineScaleSets
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSets
   type: Interface
-  summary: <p>Entry point to virtual machine scale set management API. </p>
+  summary: "<p>Entry point to virtual machine scale set management API. </p>"
   syntax:
     content: public interface VirtualMachineScaleSets
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetUnmanagedDataDisk
@@ -678,7 +675,7 @@ references:
   nameWithType: VirtualMachineScaleSetUnmanagedDataDisk
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetUnmanagedDataDisk
   type: Interface
-  summary: <p>Describes definition and update stages of unmanaged data disk of a scale set. </p>
+  summary: "<p>Describes definition and update stages of unmanaged data disk of a scale set. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetUnmanagedDataDisk
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetVM
@@ -688,7 +685,7 @@ references:
   nameWithType: VirtualMachineScaleSetVM
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetVM
   type: Interface
-  summary: <p>An immutable client-side representation of a virtual machine instance in an Azure virtual machine scale set. </p>
+  summary: "<p>An immutable client-side representation of a virtual machine instance in an Azure virtual machine scale set. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetVM
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetVMs
@@ -698,7 +695,7 @@ references:
   nameWithType: VirtualMachineScaleSetVMs
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetVMs
   type: Interface
-  summary: <p>Entry point to virtual machine scale set instance management API. </p>
+  summary: "<p>Entry point to virtual machine scale set instance management API. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetVMs
 - uid: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk
@@ -708,7 +705,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk
   type: Interface
-  summary: <p>A native data disk of a virtual machine. </p>
+  summary: "<p>A native data disk of a virtual machine. </p>"
   syntax:
     content: public interface VirtualMachineUnmanagedDataDisk
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroups
@@ -718,7 +715,7 @@ references:
   nameWithType: ContainerGroups
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroups
   type: Interface
-  summary: <p>Entry point to the container instance management API. </p>
+  summary: "<p>Entry point to the container instance management API. </p>"
   syntax:
     content: public interface ContainerGroups extends SupportsCreating<ContainerGroup.DefinitionStages.Blank>,HasManager<ContainerInstanceManager>,HasInner<ContainerGroupsInner>,SupportsBatchCreation<ContainerGroup>,SupportsGettingByResourceGroup<ContainerGroup>,SupportsGettingById<ContainerGroup>,SupportsDeletingByResourceGroup,SupportsDeletingById,SupportsBatchDeletion,SupportsListingByResourceGroup<ContainerGroup>,SupportsListing<ContainerGroup>
 - uid: com.microsoft.azure.management.containerregistry.Build
@@ -728,7 +725,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildStep
@@ -738,7 +735,7 @@ references:
   nameWithType: BuildStep
   fullName: com.microsoft.azure.management.containerregistry.BuildStep
   type: Interface
-  summary: <p>An object that represents a build step for a build task in a container registry. </p>
+  summary: "<p>An object that represents a build step for a build task in a container registry. </p>"
   syntax:
     content: public interface BuildStep extends ExternalChildResource<BuildStep, BuildTask>,HasName,HasId,HasInner<BuildStepInner>,Refreshable<BuildStep>,Updatable<BuildStep.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildTask
@@ -748,7 +745,7 @@ references:
   nameWithType: BuildTask
   fullName: com.microsoft.azure.management.containerregistry.BuildTask
   type: Interface
-  summary: <p>An object that represents a build task for a container registry. </p>
+  summary: "<p>An object that represents a build task for a container registry. </p>"
   syntax:
     content: public interface BuildTask extends ExternalChildResource<BuildTask, Registry>,Resource,HasInner<BuildTaskInner>,Refreshable<BuildTask>,Updatable<BuildTask.Update>
 - uid: com.microsoft.azure.management.containerregistry.CheckNameAvailabilityResult
@@ -758,7 +755,7 @@ references:
   nameWithType: CheckNameAvailabilityResult
   fullName: com.microsoft.azure.management.containerregistry.CheckNameAvailabilityResult
   type: Interface
-  summary: <p>The result of checking for container registry name availability. </p>
+  summary: "<p>The result of checking for container registry name availability. </p>"
   syntax:
     content: public interface CheckNameAvailabilityResult extends HasInner<RegistryNameStatusInner>
 - uid: com.microsoft.azure.management.containerregistry.Registries
@@ -768,7 +765,7 @@ references:
   nameWithType: Registries
   fullName: com.microsoft.azure.management.containerregistry.Registries
   type: Interface
-  summary: <p>Entry point to the registry management API. </p>
+  summary: "<p>Entry point to the registry management API. </p>"
   syntax:
     content: public interface Registries
 - uid: com.microsoft.azure.management.containerregistry.SourceRepositoryProperties
@@ -778,7 +775,7 @@ references:
   nameWithType: SourceRepositoryProperties
   fullName: com.microsoft.azure.management.containerregistry.SourceRepositoryProperties
   type: Interface
-  summary: <p>The source repository properties for a build task. </p>
+  summary: "<p>The source repository properties for a build task. </p>"
   syntax:
     content: public interface SourceRepositoryProperties
 - uid: com.microsoft.azure.management.containerregistry.SourceUploadDefinition
@@ -788,7 +785,7 @@ references:
   nameWithType: SourceUploadDefinition
   fullName: com.microsoft.azure.management.containerregistry.SourceUploadDefinition
   type: Interface
-  summary: <p>The source repository properties for a build task. </p>
+  summary: "<p>The source repository properties for a build task. </p>"
   syntax:
     content: public interface SourceUploadDefinition
 - uid: com.microsoft.azure.management.containerregistry.Webhook
@@ -798,7 +795,7 @@ references:
   nameWithType: Webhook
   fullName: com.microsoft.azure.management.containerregistry.Webhook
   type: Interface
-  summary: <p>An object that represents a webhook for a container registry. </p>
+  summary: "<p>An object that represents a webhook for a container registry. </p>"
   syntax:
     content: public interface Webhook
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool
@@ -808,7 +805,7 @@ references:
   nameWithType: ContainerServiceAgentPool
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool
   type: Interface
-  summary: <p>A client-side representation for a container service agent pool. </p>
+  summary: "<p>A client-side representation for a container service agent pool. </p>"
   syntax:
     content: public interface ContainerServiceAgentPool extends ChildResource<OrchestratorServiceBase>,HasInner<ContainerServiceAgentPoolProfile>
 - uid: com.microsoft.azure.management.containerservice.ContainerServices
@@ -818,7 +815,7 @@ references:
   nameWithType: ContainerServices
   fullName: com.microsoft.azure.management.containerservice.ContainerServices
   type: Interface
-  summary: <p>Entry point to container service management API. </p>
+  summary: "<p>Entry point to container service management API. </p>"
   syntax:
     content: public interface ContainerServices extends SupportsCreating<ContainerService.DefinitionStages.Blank>,HasManager<ContainerServiceManager>,HasInner<ContainerServicesInner>,SupportsBatchCreation<ContainerService>,SupportsListing<ContainerService>,SupportsGettingById<ContainerService>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<ContainerService>,SupportsGettingByResourceGroup<ContainerService>
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool
@@ -828,7 +825,7 @@ references:
   nameWithType: KubernetesClusterAgentPool
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool
   type: Interface
-  summary: <p>A client-side representation for a Kubernetes cluster agent pool. </p>
+  summary: "<p>A client-side representation for a Kubernetes cluster agent pool. </p>"
   syntax:
     content: public interface KubernetesClusterAgentPool
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusters
@@ -838,7 +835,7 @@ references:
   nameWithType: KubernetesClusters
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters
   type: Interface
-  summary: <p>Entry point to managed Kubernetes service management API. </p>
+  summary: "<p>Entry point to managed Kubernetes service management API. </p>"
   syntax:
     content: public interface KubernetesClusters
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterUpgradeProfile
@@ -848,7 +845,7 @@ references:
   nameWithType: KubernetesClusterUpgradeProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterUpgradeProfile
   type: Interface
-  summary: <p>The result of checking for the Kubernetes cluster's upgrade profile. </p>
+  summary: "<p>The result of checking for the Kubernetes cluster's upgrade profile. </p>"
   syntax:
     content: public interface KubernetesClusterUpgradeProfile
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccounts
@@ -858,7 +855,7 @@ references:
   nameWithType: CosmosDBAccounts
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccounts
   type: Interface
-  summary: <p>Entry point to Cosmos DB management API. </p>
+  summary: "<p>Entry point to Cosmos DB management API. </p>"
   syntax:
     content: public interface CosmosDBAccounts extends SupportsCreating<CosmosDBAccount.DefinitionStages.Blank>,HasManager<CosmosDBManager>,HasInner<DatabaseAccountsInner>,SupportsBatchCreation<CosmosDBAccount>,SupportsGettingById<CosmosDBAccount>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListing<CosmosDBAccount>,SupportsListingByResourceGroup<CosmosDBAccount>,SupportsGettingByResourceGroup<CosmosDBAccount>
 - uid: com.microsoft.azure.management.dns.DnsRecordSet
@@ -868,7 +865,7 @@ references:
   nameWithType: DnsRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet
   type: Interface
-  summary: <p>An immutable client-side representation of a record set in Azure DNS Zone. </p>
+  summary: "<p>An immutable client-side representation of a record set in Azure DNS Zone. </p>"
   syntax:
     content: public interface DnsRecordSet extends ExternalChildResource<DnsRecordSet, DnsZone>,HasInner<RecordSetInner>
 - uid: com.microsoft.azure.management.dns.DnsZones
@@ -878,7 +875,7 @@ references:
   nameWithType: DnsZones
   fullName: com.microsoft.azure.management.dns.DnsZones
   type: Interface
-  summary: <p>Entry point to DNS zone management API in Azure. </p>
+  summary: "<p>Entry point to DNS zone management API in Azure. </p>"
   syntax:
     content: public interface DnsZones extends SupportsCreating<DnsZone.DefinitionStages.Blank>,SupportsListing<DnsZone>,SupportsListingByResourceGroup<DnsZone>,SupportsGettingByResourceGroup<DnsZone>,SupportsGettingById<DnsZone>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<DnsZone>,SupportsBatchDeletion,HasManager<DnsZoneManager>,HasInner<ZonesInner>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication
@@ -888,7 +885,7 @@ references:
   nameWithType: ActiveDirectoryApplication
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD application. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD application. </p>"
   syntax:
     content: public interface ActiveDirectoryApplication extends ActiveDirectoryObject,HasInner<ApplicationInner>,Updatable<ActiveDirectoryApplication.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplications
@@ -898,7 +895,7 @@ references:
   nameWithType: ActiveDirectoryApplications
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplications
   type: Interface
-  summary: <p>Entry point to application management API. </p>
+  summary: "<p>Entry point to application management API. </p>"
   syntax:
     content: public interface ActiveDirectoryApplications extends SupportsListing<ActiveDirectoryApplication>,SupportsGettingById<ActiveDirectoryApplication>,SupportsGettingByNameAsync<ActiveDirectoryApplication>,SupportsCreating<ActiveDirectoryApplication.DefinitionStages.Blank>,SupportsBatchCreation<ActiveDirectoryApplication>,SupportsDeletingById,HasManager<GraphRbacManager>,HasInner<ApplicationsInner>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
@@ -908,7 +905,7 @@ references:
   nameWithType: ActiveDirectoryGroup
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD group. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD group. </p>"
   syntax:
     content: public interface ActiveDirectoryGroup extends ActiveDirectoryObject,HasInner<ADGroupInner>,Updatable<ActiveDirectoryGroup.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroups
@@ -918,7 +915,7 @@ references:
   nameWithType: ActiveDirectoryGroups
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroups
   type: Interface
-  summary: <p>Entry point to AD group management API. </p>
+  summary: "<p>Entry point to AD group management API. </p>"
   syntax:
     content: public interface ActiveDirectoryGroups extends SupportsListing<ActiveDirectoryGroup>,SupportsGettingById<ActiveDirectoryGroup>,SupportsGettingByNameAsync<ActiveDirectoryGroup>,SupportsCreating<ActiveDirectoryGroup.DefinitionStages.Blank>,SupportsDeletingById,HasManager<GraphRbacManager>,HasInner<GroupsInner>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser
@@ -928,7 +925,7 @@ references:
   nameWithType: ActiveDirectoryUser
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD user. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD user. </p>"
   syntax:
     content: public interface ActiveDirectoryUser extends ActiveDirectoryObject,HasInner<UserInner>,Updatable<ActiveDirectoryUser.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUsers
@@ -938,7 +935,7 @@ references:
   nameWithType: ActiveDirectoryUsers
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUsers
   type: Interface
-  summary: <p>Entry point to AD user management API. </p>
+  summary: "<p>Entry point to AD user management API. </p>"
   syntax:
     content: public interface ActiveDirectoryUsers extends SupportsGettingById<ActiveDirectoryUser>,SupportsGettingByNameAsync<ActiveDirectoryUser>,SupportsListing<ActiveDirectoryUser>,SupportsCreating<ActiveDirectoryUser.DefinitionStages.Blank>,SupportsDeletingById,HasManager<GraphRbacManager>,HasInner<UsersInner>
 - uid: com.microsoft.azure.management.graphrbac.CertificateCredential
@@ -948,7 +945,7 @@ references:
   nameWithType: CertificateCredential
   fullName: com.microsoft.azure.management.graphrbac.CertificateCredential
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD credential. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD credential. </p>"
   syntax:
     content: public interface CertificateCredential extends Credential,HasInner<KeyCredentialInner>
 - uid: com.microsoft.azure.management.graphrbac.PasswordCredential
@@ -958,7 +955,7 @@ references:
   nameWithType: PasswordCredential
   fullName: com.microsoft.azure.management.graphrbac.PasswordCredential
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD credential. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD credential. </p>"
   syntax:
     content: public interface PasswordCredential
 - uid: com.microsoft.azure.management.graphrbac.RoleAssignment
@@ -968,7 +965,7 @@ references:
   nameWithType: RoleAssignment
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD role assignment. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD role assignment. </p>"
   syntax:
     content: public interface RoleAssignment
 - uid: com.microsoft.azure.management.graphrbac.RoleAssignments
@@ -978,7 +975,7 @@ references:
   nameWithType: RoleAssignments
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignments
   type: Interface
-  summary: <p>Entry point to role assignment management API. </p>
+  summary: "<p>Entry point to role assignment management API. </p>"
   syntax:
     content: public interface RoleAssignments
 - uid: com.microsoft.azure.management.graphrbac.RoleDefinition
@@ -988,7 +985,7 @@ references:
   nameWithType: RoleDefinition
   fullName: com.microsoft.azure.management.graphrbac.RoleDefinition
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD role definition. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD role definition. </p>"
   syntax:
     content: public interface RoleDefinition
 - uid: com.microsoft.azure.management.graphrbac.RoleDefinitions
@@ -998,7 +995,7 @@ references:
   nameWithType: RoleDefinitions
   fullName: com.microsoft.azure.management.graphrbac.RoleDefinitions
   type: Interface
-  summary: <p>Entry point to role definition management API. </p>
+  summary: "<p>Entry point to role definition management API. </p>"
   syntax:
     content: public interface RoleDefinitions
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal
@@ -1008,7 +1005,7 @@ references:
   nameWithType: ServicePrincipal
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD service principal. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD service principal. </p>"
   syntax:
     content: public interface ServicePrincipal
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipals
@@ -1018,7 +1015,7 @@ references:
   nameWithType: ServicePrincipals
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipals
   type: Interface
-  summary: <p>Entry point to service principal management API. </p>
+  summary: "<p>Entry point to service principal management API. </p>"
   syntax:
     content: public interface ServicePrincipals
 - uid: com.microsoft.azure.management.keyvault.AccessPolicy
@@ -1028,7 +1025,7 @@ references:
   nameWithType: AccessPolicy
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy
   type: Interface
-  summary: <p>An immutable client-side representation of a key vault access policy. </p>
+  summary: "<p>An immutable client-side representation of a key vault access policy. </p>"
   syntax:
     content: public interface AccessPolicy extends ChildResource<Vault>,HasInner<AccessPolicyEntry>
 - uid: com.microsoft.azure.management.keyvault.Vaults
@@ -1038,7 +1035,7 @@ references:
   nameWithType: Vaults
   fullName: com.microsoft.azure.management.keyvault.Vaults
   type: Interface
-  summary: <p>Entry point for key vaults management API. </p>
+  summary: "<p>Entry point for key vaults management API. </p>"
   syntax:
     content: public interface Vaults
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackend
@@ -1048,7 +1045,7 @@ references:
   nameWithType: ApplicationGatewayBackend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend
   type: Interface
-  summary: <p>A client-side representation of an application gateway backend. </p>
+  summary: "<p>A client-side representation of an application gateway backend. </p>"
   syntax:
     content: public interface ApplicationGatewayBackend extends HasInner<ApplicationGatewayBackendAddressPoolInner>,ChildResource<ApplicationGateway>,HasBackendNics
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration
@@ -1058,7 +1055,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration
   type: Interface
-  summary: <p>A client-side representation of an application gateway's backend HTTP configuration. </p>
+  summary: "<p>A client-side representation of an application gateway's backend HTTP configuration. </p>"
   syntax:
     content: public interface ApplicationGatewayBackendHttpConfiguration extends HasInner<ApplicationGatewayBackendHttpSettingsInner>,ChildResource<ApplicationGateway>,HasProtocol<ApplicationGatewayProtocol>,HasPort
 - uid: com.microsoft.azure.management.network.ApplicationGatewayFrontend
@@ -1068,7 +1065,7 @@ references:
   nameWithType: ApplicationGatewayFrontend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend
   type: Interface
-  summary: <p>A client-side representation of an application gateway frontend. </p>
+  summary: "<p>A client-side representation of an application gateway frontend. </p>"
   syntax:
     content: public interface ApplicationGatewayFrontend extends HasInner<ApplicationGatewayFrontendIPConfigurationInner>,ChildResource<ApplicationGateway>,HasPrivateIPAddress,HasSubnet,HasPublicIPAddress
 - uid: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration
@@ -1078,7 +1075,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration
   type: Interface
-  summary: <p>A client-side representation of an application gateway IP configuration. </p>
+  summary: "<p>A client-side representation of an application gateway IP configuration. </p>"
   syntax:
     content: public interface ApplicationGatewayIPConfiguration extends HasInner<ApplicationGatewayIPConfigurationInner>,ChildResource<ApplicationGateway>
 - uid: com.microsoft.azure.management.network.ApplicationGatewayListener
@@ -1088,7 +1085,7 @@ references:
   nameWithType: ApplicationGatewayListener
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener
   type: Interface
-  summary: <p>A client-side representation of an application gateway's HTTP listener. </p>
+  summary: "<p>A client-side representation of an application gateway's HTTP listener. </p>"
   syntax:
     content: public interface ApplicationGatewayListener extends HasInner<ApplicationGatewayHttpListenerInner>,ChildResource<ApplicationGateway>,HasSslCertificate<ApplicationGatewaySslCertificate>,HasPublicIPAddress,HasProtocol<ApplicationGatewayProtocol>,HasHostName,HasServerNameIndication,HasSubnet
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProbe
@@ -1098,7 +1095,7 @@ references:
   nameWithType: ApplicationGatewayProbe
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe
   type: Interface
-  summary: <p>A client-side representation of an application gateway probe. </p>
+  summary: "<p>A client-side representation of an application gateway probe. </p>"
   syntax:
     content: public interface ApplicationGatewayProbe extends HasInner<ApplicationGatewayProbeInner>,ChildResource<ApplicationGateway>,HasProtocol<ApplicationGatewayProtocol>
 - uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule
@@ -1108,7 +1105,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule
   type: Interface
-  summary: <p>A client-side representation of an application gateway request routing rule. </p>
+  summary: "<p>A client-side representation of an application gateway request routing rule. </p>"
   syntax:
     content: public interface ApplicationGatewayRequestRoutingRule extends HasInner<ApplicationGatewayRequestRoutingRuleInner>,ChildResource<ApplicationGateway>,HasPublicIPAddress,HasSslCertificate<ApplicationGatewaySslCertificate>,HasFrontendPort,HasBackendPort,HasHostName,HasCookieBasedAffinity,HasServerNameIndication
 - uid: com.microsoft.azure.management.network.ApplicationGateways
@@ -1118,7 +1115,7 @@ references:
   nameWithType: ApplicationGateways
   fullName: com.microsoft.azure.management.network.ApplicationGateways
   type: Interface
-  summary: <p>Entry point to application gateway management API in Azure. </p>
+  summary: "<p>Entry point to application gateway management API in Azure. </p>"
   syntax:
     content: public interface ApplicationGateways extends SupportsCreating<ApplicationGateway.DefinitionStages.Blank>,SupportsListing<ApplicationGateway>,SupportsListingByResourceGroup<ApplicationGateway>,SupportsGettingByResourceGroup<ApplicationGateway>,SupportsGettingById<ApplicationGateway>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<ApplicationGateway>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<ApplicationGatewaysInner>
 - uid: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate
@@ -1128,7 +1125,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate
   type: Interface
-  summary: <p>A client-side representation of an application gateway SSL certificate. </p>
+  summary: "<p>A client-side representation of an application gateway SSL certificate. </p>"
   syntax:
     content: public interface ApplicationGatewaySslCertificate extends HasInner<ApplicationGatewaySslCertificateInner>,ChildResource<ApplicationGateway>
 - uid: com.microsoft.azure.management.network.FlowLogSettings
@@ -1138,7 +1135,7 @@ references:
   nameWithType: FlowLogSettings
   fullName: com.microsoft.azure.management.network.FlowLogSettings
   type: Interface
-  summary: <p>Client-side representation of the configuration of flow log, associated with network watcher and an Azure resource. </p>
+  summary: "<p>Client-side representation of the configuration of flow log, associated with network watcher and an Azure resource. </p>"
   syntax:
     content: public interface FlowLogSettings extends HasParent<NetworkWatcher>,HasInner<FlowLogInformationInner>,Updatable<FlowLogSettings.Update>,Refreshable<FlowLogSettings>
 - uid: com.microsoft.azure.management.network.LoadBalancerBackend
@@ -1148,7 +1145,7 @@ references:
   nameWithType: LoadBalancerBackend
   fullName: com.microsoft.azure.management.network.LoadBalancerBackend
   type: Interface
-  summary: <p>A client-side representation of a load balancer backend address pool. </p>
+  summary: "<p>A client-side representation of a load balancer backend address pool. </p>"
   syntax:
     content: public interface LoadBalancerBackend
 - uid: com.microsoft.azure.management.network.LoadBalancerFrontend
@@ -1158,7 +1155,7 @@ references:
   nameWithType: LoadBalancerFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancerFrontend
   type: Interface
-  summary: <p>An client-side representation of a load balancer frontend. </p>
+  summary: "<p>An client-side representation of a load balancer frontend. </p>"
   syntax:
     content: public interface LoadBalancerFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatPool
@@ -1168,7 +1165,7 @@ references:
   nameWithType: LoadBalancerInboundNatPool
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool
   type: Interface
-  summary: <p>A client-side representation of an inbound NAT pool. </p>
+  summary: "<p>A client-side representation of an inbound NAT pool. </p>"
   syntax:
     content: public interface LoadBalancerInboundNatPool
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule
@@ -1178,7 +1175,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule
   type: Interface
-  summary: <p>An immutable client-side representation of an inbound NAT rule. </p>
+  summary: "<p>An immutable client-side representation of an inbound NAT rule. </p>"
   syntax:
     content: public interface LoadBalancerInboundNatRule
 - uid: com.microsoft.azure.management.network.LoadBalancerProbe
@@ -1188,7 +1185,7 @@ references:
   nameWithType: LoadBalancerProbe
   fullName: com.microsoft.azure.management.network.LoadBalancerProbe
   type: Interface
-  summary: <p>A client-side representation of a load balancing probe. </p>
+  summary: "<p>A client-side representation of a load balancing probe. </p>"
   syntax:
     content: public interface LoadBalancerProbe
 - uid: com.microsoft.azure.management.network.LoadBalancers
@@ -1198,7 +1195,7 @@ references:
   nameWithType: LoadBalancers
   fullName: com.microsoft.azure.management.network.LoadBalancers
   type: Interface
-  summary: <p>Entry point to load balancer management API in Azure. </p>
+  summary: "<p>Entry point to load balancer management API in Azure. </p>"
   syntax:
     content: public interface LoadBalancers
 - uid: com.microsoft.azure.management.network.LoadBalancingRule
@@ -1208,7 +1205,7 @@ references:
   nameWithType: LoadBalancingRule
   fullName: com.microsoft.azure.management.network.LoadBalancingRule
   type: Interface
-  summary: <p>A client-side representation of an HTTP load balancing rule. </p>
+  summary: "<p>A client-side representation of an HTTP load balancing rule. </p>"
   syntax:
     content: public interface LoadBalancingRule
 - uid: com.microsoft.azure.management.network.LocalNetworkGateways
@@ -1218,7 +1215,7 @@ references:
   nameWithType: LocalNetworkGateways
   fullName: com.microsoft.azure.management.network.LocalNetworkGateways
   type: Interface
-  summary: <p>Entry point to local network gateways management API in Azure. </p>
+  summary: "<p>Entry point to local network gateways management API in Azure. </p>"
   syntax:
     content: public interface LocalNetworkGateways
 - uid: com.microsoft.azure.management.network.NetworkInterfaceBase
@@ -1228,7 +1225,7 @@ references:
   nameWithType: NetworkInterfaceBase
   fullName: com.microsoft.azure.management.network.NetworkInterfaceBase
   type: Interface
-  summary: <p>The base network interface shared across regular and virtual machine scale set network interface. </p>
+  summary: "<p>The base network interface shared across regular and virtual machine scale set network interface. </p>"
   syntax:
     content: public interface NetworkInterfaceBase
 - uid: com.microsoft.azure.management.network.NetworkInterfaces
@@ -1238,7 +1235,7 @@ references:
   nameWithType: NetworkInterfaces
   fullName: com.microsoft.azure.management.network.NetworkInterfaces
   type: Interface
-  summary: <p>Entry point to network interface management. </p>
+  summary: "<p>Entry point to network interface management. </p>"
   syntax:
     content: public interface NetworkInterfaces
 - uid: com.microsoft.azure.management.network.NetworkPeering
@@ -1248,7 +1245,7 @@ references:
   nameWithType: NetworkPeering
   fullName: com.microsoft.azure.management.network.NetworkPeering
   type: Interface
-  summary: <p>An client-side representation of a network peering. </p>
+  summary: "<p>An client-side representation of a network peering. </p>"
   syntax:
     content: public interface NetworkPeering
 - uid: com.microsoft.azure.management.network.NetworkPeerings
@@ -1258,7 +1255,7 @@ references:
   nameWithType: NetworkPeerings
   fullName: com.microsoft.azure.management.network.NetworkPeerings
   type: Interface
-  summary: <p>Entry point to network peering management API. </p>
+  summary: "<p>Entry point to network peering management API. </p>"
   syntax:
     content: public interface NetworkPeerings
 - uid: com.microsoft.azure.management.network.Networks
@@ -1268,7 +1265,7 @@ references:
   nameWithType: Networks
   fullName: com.microsoft.azure.management.network.Networks
   type: Interface
-  summary: <p>Entry point to virtual network management API in Azure. </p>
+  summary: "<p>Entry point to virtual network management API in Azure. </p>"
   syntax:
     content: public interface Networks
 - uid: com.microsoft.azure.management.network.NetworkSecurityGroups
@@ -1278,7 +1275,7 @@ references:
   nameWithType: NetworkSecurityGroups
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroups
   type: Interface
-  summary: <p>Entry point to network security group management. </p>
+  summary: "<p>Entry point to network security group management. </p>"
   syntax:
     content: public interface NetworkSecurityGroups
 - uid: com.microsoft.azure.management.network.NetworkSecurityRule
@@ -1288,7 +1285,7 @@ references:
   nameWithType: NetworkSecurityRule
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule
   type: Interface
-  summary: <p>A network security rule in a network security group. </p>
+  summary: "<p>A network security rule in a network security group. </p>"
   syntax:
     content: public interface NetworkSecurityRule
 - uid: com.microsoft.azure.management.network.NetworkUsage
@@ -1298,7 +1295,7 @@ references:
   nameWithType: NetworkUsage
   fullName: com.microsoft.azure.management.network.NetworkUsage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure compute resource usage info object. </p>
+  summary: "<p>An immutable client-side representation of an Azure compute resource usage info object. </p>"
   syntax:
     content: public interface NetworkUsage
 - uid: com.microsoft.azure.management.network.NetworkWatchers
@@ -1308,7 +1305,7 @@ references:
   nameWithType: NetworkWatchers
   fullName: com.microsoft.azure.management.network.NetworkWatchers
   type: Interface
-  summary: <p>Entry point for Network Watcher API in Azure. </p>
+  summary: "<p>Entry point for Network Watcher API in Azure. </p>"
   syntax:
     content: public interface NetworkWatchers
 - uid: com.microsoft.azure.management.network.NicIPConfiguration
@@ -1318,7 +1315,7 @@ references:
   nameWithType: NicIPConfiguration
   fullName: com.microsoft.azure.management.network.NicIPConfiguration
   type: Interface
-  summary: <p>An IP configuration in a network interface. </p>
+  summary: "<p>An IP configuration in a network interface. </p>"
   syntax:
     content: public interface NicIPConfiguration
 - uid: com.microsoft.azure.management.network.PacketCapture
@@ -1328,7 +1325,7 @@ references:
   nameWithType: PacketCapture
   fullName: com.microsoft.azure.management.network.PacketCapture
   type: Interface
-  summary: <p>Client-side representation of Packet capture object, associated with Network Watcher. </p>
+  summary: "<p>Client-side representation of Packet capture object, associated with Network Watcher. </p>"
   syntax:
     content: public interface PacketCapture
 - uid: com.microsoft.azure.management.network.PacketCaptures
@@ -1338,7 +1335,7 @@ references:
   nameWithType: PacketCaptures
   fullName: com.microsoft.azure.management.network.PacketCaptures
   type: Interface
-  summary: <p>Entry point to packet captures management API in Azure. </p>
+  summary: "<p>Entry point to packet captures management API in Azure. </p>"
   syntax:
     content: public interface PacketCaptures
 - uid: com.microsoft.azure.management.network.PacketCaptureStatus
@@ -1348,7 +1345,7 @@ references:
   nameWithType: PacketCaptureStatus
   fullName: com.microsoft.azure.management.network.PacketCaptureStatus
   type: Interface
-  summary: <p>Status of packet capture session. </p>
+  summary: "<p>Status of packet capture session. </p>"
   syntax:
     content: public interface PacketCaptureStatus
 - uid: com.microsoft.azure.management.network.PCFilter
@@ -1358,7 +1355,7 @@ references:
   nameWithType: PCFilter
   fullName: com.microsoft.azure.management.network.PCFilter
   type: Interface
-  summary: <p>Client-side representation of packet capture filter. </p>
+  summary: "<p>Client-side representation of packet capture filter. </p>"
   syntax:
     content: public interface PCFilter
 - uid: com.microsoft.azure.management.network.PublicIPAddresses
@@ -1368,7 +1365,7 @@ references:
   nameWithType: PublicIPAddresses
   fullName: com.microsoft.azure.management.network.PublicIPAddresses
   type: Interface
-  summary: <p>Entry point to public IP address management. </p>
+  summary: "<p>Entry point to public IP address management. </p>"
   syntax:
     content: public interface PublicIPAddresses
 - uid: com.microsoft.azure.management.network.Route
@@ -1378,7 +1375,7 @@ references:
   nameWithType: Route
   fullName: com.microsoft.azure.management.network.Route
   type: Interface
-  summary: <p>An immutable client-side representation of a route of a route table. </p>
+  summary: "<p>An immutable client-side representation of a route of a route table. </p>"
   syntax:
     content: public interface Route
 - uid: com.microsoft.azure.management.network.RouteTables
@@ -1388,7 +1385,7 @@ references:
   nameWithType: RouteTables
   fullName: com.microsoft.azure.management.network.RouteTables
   type: Interface
-  summary: <p>Entry point to route table management. </p>
+  summary: "<p>Entry point to route table management. </p>"
   syntax:
     content: public interface RouteTables
 - uid: com.microsoft.azure.management.network.SecurityGroupView
@@ -1398,7 +1395,7 @@ references:
   nameWithType: SecurityGroupView
   fullName: com.microsoft.azure.management.network.SecurityGroupView
   type: Interface
-  summary: <p>The information about security rules applied to the specified VM.. </p>
+  summary: "<p>The information about security rules applied to the specified VM.. </p>"
   syntax:
     content: public interface SecurityGroupView
 - uid: com.microsoft.azure.management.network.Subnet
@@ -1408,7 +1405,7 @@ references:
   nameWithType: Subnet
   fullName: com.microsoft.azure.management.network.Subnet
   type: Interface
-  summary: <p>A client-side representation of a subnet of a virtual network. </p>
+  summary: "<p>A client-side representation of a subnet of a virtual network. </p>"
   syntax:
     content: public interface Subnet
 - uid: com.microsoft.azure.management.network.Topology
@@ -1418,7 +1415,7 @@ references:
   nameWithType: Topology
   fullName: com.microsoft.azure.management.network.Topology
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Topology info object, associated with network watcher. </p>
+  summary: "<p>An immutable client-side representation of an Azure Topology info object, associated with network watcher. </p>"
   syntax:
     content: public interface Topology
 - uid: com.microsoft.azure.management.network.VirtualMachineScaleSetNetworkInterfaces
@@ -1428,7 +1425,7 @@ references:
   nameWithType: VirtualMachineScaleSetNetworkInterfaces
   fullName: com.microsoft.azure.management.network.VirtualMachineScaleSetNetworkInterfaces
   type: Interface
-  summary: <p>Entry point to virtual machine scale set network interface management API. </p>
+  summary: "<p>Entry point to virtual machine scale set network interface management API. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetNetworkInterfaces
 - uid: com.microsoft.azure.management.network.VirtualMachineScaleSetNicIPConfiguration
@@ -1438,7 +1435,7 @@ references:
   nameWithType: VirtualMachineScaleSetNicIPConfiguration
   fullName: com.microsoft.azure.management.network.VirtualMachineScaleSetNicIPConfiguration
   type: Interface
-  summary: <p>An IP configuration in a network interface associated with a virtual machine scale set. </p>
+  summary: "<p>An IP configuration in a network interface associated with a virtual machine scale set. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetNicIPConfiguration
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewayConnections
@@ -1448,7 +1445,7 @@ references:
   nameWithType: VirtualNetworkGatewayConnections
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayConnections
   type: Interface
-  summary: <p>Entry point for virtual network gateway connections management API in Azure. </p>
+  summary: "<p>Entry point for virtual network gateway connections management API in Azure. </p>"
   syntax:
     content: public interface VirtualNetworkGatewayConnections
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration
@@ -1458,7 +1455,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration
   type: Interface
-  summary: <p>A client-side representation of an virtual network gateway IP configuration. </p>
+  summary: "<p>A client-side representation of an virtual network gateway IP configuration. </p>"
   syntax:
     content: public interface VirtualNetworkGatewayIPConfiguration
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateways
@@ -1468,7 +1465,7 @@ references:
   nameWithType: VirtualNetworkGateways
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateways
   type: Interface
-  summary: <p>Entry point to virtual network gateways management API in Azure. </p>
+  summary: "<p>Entry point to virtual network gateways management API in Azure. </p>"
   syntax:
     content: public interface VirtualNetworkGateways
 - uid: com.microsoft.azure.management.redis.RedisCaches
@@ -1478,7 +1475,7 @@ references:
   nameWithType: RedisCaches
   fullName: com.microsoft.azure.management.redis.RedisCaches
   type: Interface
-  summary: <p>Entry point for Redis Cache management API. </p>
+  summary: "<p>Entry point for Redis Cache management API. </p>"
   syntax:
     content: public interface RedisCaches
 - uid: com.microsoft.azure.management.resources.Deployment
@@ -1488,7 +1485,7 @@ references:
   nameWithType: Deployment
   fullName: com.microsoft.azure.management.resources.Deployment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment. </p>"
   syntax:
     content: public interface Deployment extends Indexable,Refreshable<Deployment>,Updatable<Deployment.Update>,HasInner<DeploymentExtendedInner>,HasManager<ResourceManager>,HasName
 - uid: com.microsoft.azure.management.resources.DeploymentExportResult
@@ -1498,7 +1495,7 @@ references:
   nameWithType: DeploymentExportResult
   fullName: com.microsoft.azure.management.resources.DeploymentExportResult
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment template export result. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment template export result. </p>"
   syntax:
     content: public interface DeploymentExportResult extends HasInner<DeploymentExportResultInner>
 - uid: com.microsoft.azure.management.resources.DeploymentOperation
@@ -1508,7 +1505,7 @@ references:
   nameWithType: DeploymentOperation
   fullName: com.microsoft.azure.management.resources.DeploymentOperation
   type: Interface
-  summary: <p>An immutable client-side representation of a deployment operation. </p>
+  summary: "<p>An immutable client-side representation of a deployment operation. </p>"
   syntax:
     content: public interface DeploymentOperation extends Indexable,Refreshable<DeploymentOperation>,HasInner<DeploymentOperationInner>
 - uid: com.microsoft.azure.management.resources.Feature
@@ -1518,7 +1515,7 @@ references:
   nameWithType: Feature
   fullName: com.microsoft.azure.management.resources.Feature
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure feature. </p>
+  summary: "<p>An immutable client-side representation of an Azure feature. </p>"
   syntax:
     content: public interface Feature extends Indexable,HasInner<FeatureResultInner>,HasName
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource
@@ -1528,7 +1525,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -1545,7 +1542,7 @@ references:
   nameWithType: Location
   fullName: com.microsoft.azure.management.resources.Location
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure location. </p>
+  summary: "<p>An immutable client-side representation of an Azure location. </p>"
   syntax:
     content: public interface Location
 - uid: com.microsoft.azure.management.resources.PolicyAssignment
@@ -1555,7 +1552,7 @@ references:
   nameWithType: PolicyAssignment
   fullName: com.microsoft.azure.management.resources.PolicyAssignment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy assignment. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy assignment. </p>"
   syntax:
     content: public interface PolicyAssignment
 - uid: com.microsoft.azure.management.resources.PolicyDefinition
@@ -1565,7 +1562,7 @@ references:
   nameWithType: PolicyDefinition
   fullName: com.microsoft.azure.management.resources.PolicyDefinition
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy. </p>"
   syntax:
     content: public interface PolicyDefinition
 - uid: com.microsoft.azure.management.resources.Provider
@@ -1575,7 +1572,7 @@ references:
   nameWithType: Provider
   fullName: com.microsoft.azure.management.resources.Provider
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource provider. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource provider. </p>"
   syntax:
     content: public interface Provider
 - uid: com.microsoft.azure.management.resources.ResourceGroup
@@ -1585,7 +1582,7 @@ references:
   nameWithType: ResourceGroup
   fullName: com.microsoft.azure.management.resources.ResourceGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource group. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource group. </p>"
   syntax:
     content: public interface ResourceGroup
 - uid: com.microsoft.azure.management.resources.ResourceGroupExportResult
@@ -1595,7 +1592,7 @@ references:
   nameWithType: ResourceGroupExportResult
   fullName: com.microsoft.azure.management.resources.ResourceGroupExportResult
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment template export result. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment template export result. </p>"
   syntax:
     content: public interface ResourceGroupExportResult
 - uid: com.microsoft.azure.management.resources.Subscription
@@ -1605,7 +1602,7 @@ references:
   nameWithType: Subscription
   fullName: com.microsoft.azure.management.resources.Subscription
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure subscription. </p>
+  summary: "<p>An immutable client-side representation of an Azure subscription. </p>"
   syntax:
     content: public interface Subscription
 - uid: com.microsoft.azure.management.resources.Tenant
@@ -1615,7 +1612,7 @@ references:
   nameWithType: Tenant
   fullName: com.microsoft.azure.management.resources.Tenant
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure tenant. </p>
+  summary: "<p>An immutable client-side representation of an Azure tenant. </p>"
   syntax:
     content: public interface Tenant
 - uid: com.microsoft.azure.management.search.CheckNameAvailabilityResult
@@ -1625,7 +1622,7 @@ references:
   nameWithType: CheckNameAvailabilityResult
   fullName: com.microsoft.azure.management.search.CheckNameAvailabilityResult
   type: Interface
-  summary: <p>The result of checking for Search service name availability. </p>
+  summary: "<p>The result of checking for Search service name availability. </p>"
   syntax:
     content: public interface CheckNameAvailabilityResult extends HasInner<CheckNameAvailabilityOutputInner>
 - uid: com.microsoft.azure.management.search.SearchServices
@@ -1635,7 +1632,7 @@ references:
   nameWithType: SearchServices
   fullName: com.microsoft.azure.management.search.SearchServices
   type: Interface
-  summary: <p>Entry point to Search service management API in Azure. </p>
+  summary: "<p>Entry point to Search service management API in Azure. </p>"
   syntax:
     content: public interface SearchServices
 - uid: com.microsoft.azure.management.servicebus.AuthorizationKeys
@@ -1645,7 +1642,7 @@ references:
   nameWithType: AuthorizationKeys
   fullName: com.microsoft.azure.management.servicebus.AuthorizationKeys
   type: Interface
-  summary: <p>Authorization key and connection string of authorization rule associated with Service Bus entities. </p>
+  summary: "<p>Authorization key and connection string of authorization rule associated with Service Bus entities. </p>"
   syntax:
     content: public interface AuthorizationKeys extends HasInner<ResourceListKeysInner>
 - uid: com.microsoft.azure.management.servicebus.CheckNameAvailabilityResult
@@ -1655,7 +1652,7 @@ references:
   nameWithType: CheckNameAvailabilityResult
   fullName: com.microsoft.azure.management.servicebus.CheckNameAvailabilityResult
   type: Interface
-  summary: <p>The result of checking for Service Bus namespace name availability. </p>
+  summary: "<p>The result of checking for Service Bus namespace name availability. </p>"
   syntax:
     content: public interface CheckNameAvailabilityResult extends HasInner<CheckNameAvailabilityResultInner>
 - uid: com.microsoft.azure.management.servicebus.NamespaceAuthorizationRules
@@ -1665,7 +1662,7 @@ references:
   nameWithType: NamespaceAuthorizationRules
   fullName: com.microsoft.azure.management.servicebus.NamespaceAuthorizationRules
   type: Interface
-  summary: <p>Entry point to namespace authorization rules management API. </p>
+  summary: "<p>Entry point to namespace authorization rules management API. </p>"
   syntax:
     content: public interface NamespaceAuthorizationRules
 - uid: com.microsoft.azure.management.servicebus.QueueAuthorizationRules
@@ -1675,7 +1672,7 @@ references:
   nameWithType: QueueAuthorizationRules
   fullName: com.microsoft.azure.management.servicebus.QueueAuthorizationRules
   type: Interface
-  summary: <p>Entry point to queue authorization rules management API. </p>
+  summary: "<p>Entry point to queue authorization rules management API. </p>"
   syntax:
     content: public interface QueueAuthorizationRules
 - uid: com.microsoft.azure.management.servicebus.Queues
@@ -1685,7 +1682,7 @@ references:
   nameWithType: Queues
   fullName: com.microsoft.azure.management.servicebus.Queues
   type: Interface
-  summary: <p>Entry point to service bus queue management API in Azure. </p>
+  summary: "<p>Entry point to service bus queue management API in Azure. </p>"
   syntax:
     content: public interface Queues
 - uid: com.microsoft.azure.management.servicebus.ServiceBusNamespaces
@@ -1695,7 +1692,7 @@ references:
   nameWithType: ServiceBusNamespaces
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespaces
   type: Interface
-  summary: <p>Entry point to Service Bus namespace API in Azure. </p>
+  summary: "<p>Entry point to Service Bus namespace API in Azure. </p>"
   syntax:
     content: public interface ServiceBusNamespaces
 - uid: com.microsoft.azure.management.servicebus.ServiceBusOperation
@@ -1705,7 +1702,7 @@ references:
   nameWithType: ServiceBusOperation
   fullName: com.microsoft.azure.management.servicebus.ServiceBusOperation
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure service bus operation description object. </p>
+  summary: "<p>An immutable client-side representation of an Azure service bus operation description object. </p>"
   syntax:
     content: public interface ServiceBusOperation
 - uid: com.microsoft.azure.management.servicebus.ServiceBusOperations
@@ -1715,7 +1712,7 @@ references:
   nameWithType: ServiceBusOperations
   fullName: com.microsoft.azure.management.servicebus.ServiceBusOperations
   type: Interface
-  summary: <p>Entry point for service bus operations management API. </p>
+  summary: "<p>Entry point for service bus operations management API. </p>"
   syntax:
     content: public interface ServiceBusOperations
 - uid: com.microsoft.azure.management.servicebus.ServiceBusSubscriptions
@@ -1725,7 +1722,7 @@ references:
   nameWithType: ServiceBusSubscriptions
   fullName: com.microsoft.azure.management.servicebus.ServiceBusSubscriptions
   type: Interface
-  summary: <p>Entry point to service bus queue management API in Azure. </p>
+  summary: "<p>Entry point to service bus queue management API in Azure. </p>"
   syntax:
     content: public interface ServiceBusSubscriptions
 - uid: com.microsoft.azure.management.servicebus.Topic
@@ -1735,7 +1732,7 @@ references:
   nameWithType: Topic
   fullName: com.microsoft.azure.management.servicebus.Topic
   type: Interface
-  summary: <p>Type representing Service Bus topic. </p>
+  summary: "<p>Type representing Service Bus topic. </p>"
   syntax:
     content: public interface Topic
 - uid: com.microsoft.azure.management.servicebus.TopicAuthorizationRules
@@ -1745,7 +1742,7 @@ references:
   nameWithType: TopicAuthorizationRules
   fullName: com.microsoft.azure.management.servicebus.TopicAuthorizationRules
   type: Interface
-  summary: <p>Entry point to topic authorization rules management API. </p>
+  summary: "<p>Entry point to topic authorization rules management API. </p>"
   syntax:
     content: public interface TopicAuthorizationRules
 - uid: com.microsoft.azure.management.servicebus.Topics
@@ -1755,7 +1752,7 @@ references:
   nameWithType: Topics
   fullName: com.microsoft.azure.management.servicebus.Topics
   type: Interface
-  summary: <p>Entry point to Service Bus topic management API in Azure. </p>
+  summary: "<p>Entry point to Service Bus topic management API in Azure. </p>"
   syntax:
     content: public interface Topics
 - uid: com.microsoft.azure.management.sql.CheckNameAvailabilityResult
@@ -1765,7 +1762,7 @@ references:
   nameWithType: CheckNameAvailabilityResult
   fullName: com.microsoft.azure.management.sql.CheckNameAvailabilityResult
   type: Interface
-  summary: <p>The result of checking for the SQL server name availability. </p>
+  summary: "<p>The result of checking for the SQL server name availability. </p>"
   syntax:
     content: public interface CheckNameAvailabilityResult extends HasInner<CheckNameAvailabilityResponseInner>
 - uid: com.microsoft.azure.management.sql.DatabaseMetric
@@ -1775,7 +1772,7 @@ references:
   nameWithType: DatabaseMetric
   fullName: com.microsoft.azure.management.sql.DatabaseMetric
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL DatabaseMetric. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL DatabaseMetric. </p>"
   syntax:
     content: public interface DatabaseMetric extends HasInner<DatabaseMetricInner>
 - uid: com.microsoft.azure.management.sql.ElasticPoolActivity
@@ -1785,7 +1782,7 @@ references:
   nameWithType: ElasticPoolActivity
   fullName: com.microsoft.azure.management.sql.ElasticPoolActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ElasticPool's Activity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ElasticPool's Activity. </p>"
   syntax:
     content: public interface ElasticPoolActivity extends HasInner<ElasticPoolActivityInner>,HasResourceGroup,HasName,HasId,HasInner<ElasticPoolActivityInner>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.ElasticPoolDatabaseActivity
@@ -1795,7 +1792,7 @@ references:
   nameWithType: ElasticPoolDatabaseActivity
   fullName: com.microsoft.azure.management.sql.ElasticPoolDatabaseActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ElasticPool's Database Activity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ElasticPool's Database Activity. </p>"
   syntax:
     content: public interface ElasticPoolDatabaseActivity extends HasInner<ElasticPoolDatabaseActivityInner>,HasResourceGroup,HasName,HasId,HasInner<ElasticPoolDatabaseActivityInner>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.RecommendedElasticPool
@@ -1805,7 +1802,7 @@ references:
   nameWithType: RecommendedElasticPool
   fullName: com.microsoft.azure.management.sql.RecommendedElasticPool
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>"
   syntax:
     content: public interface RecommendedElasticPool
 - uid: com.microsoft.azure.management.sql.RecommendedElasticPoolMetric
@@ -1815,7 +1812,7 @@ references:
   nameWithType: RecommendedElasticPoolMetric
   fullName: com.microsoft.azure.management.sql.RecommendedElasticPoolMetric
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Replication link. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Replication link. </p>"
   syntax:
     content: public interface RecommendedElasticPoolMetric
 - uid: com.microsoft.azure.management.sql.RegionCapabilities
@@ -1825,7 +1822,7 @@ references:
   nameWithType: RegionCapabilities
   fullName: com.microsoft.azure.management.sql.RegionCapabilities
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL server capabilities for a given region. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL server capabilities for a given region. </p>"
   syntax:
     content: public interface RegionCapabilities
 - uid: com.microsoft.azure.management.sql.ReplicationLink
@@ -1835,7 +1832,7 @@ references:
   nameWithType: ReplicationLink
   fullName: com.microsoft.azure.management.sql.ReplicationLink
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Replication link. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Replication link. </p>"
   syntax:
     content: public interface ReplicationLink
 - uid: com.microsoft.azure.management.sql.RestorePoint
@@ -1845,7 +1842,7 @@ references:
   nameWithType: RestorePoint
   fullName: com.microsoft.azure.management.sql.RestorePoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>"
   syntax:
     content: public interface RestorePoint
 - uid: com.microsoft.azure.management.sql.ServerMetric
@@ -1855,7 +1852,7 @@ references:
   nameWithType: ServerMetric
   fullName: com.microsoft.azure.management.sql.ServerMetric
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ServerMetric. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ServerMetric. </p>"
   syntax:
     content: public interface ServerMetric
 - uid: com.microsoft.azure.management.sql.ServerUsage
@@ -1865,7 +1862,7 @@ references:
   nameWithType: ServerUsage
   fullName: com.microsoft.azure.management.sql.ServerUsage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL server usage metric. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL server usage metric. </p>"
   syntax:
     content: public interface ServerUsage
 - uid: com.microsoft.azure.management.sql.ServiceLevelObjectiveUsageMetric
@@ -1875,7 +1872,7 @@ references:
   nameWithType: ServiceLevelObjectiveUsageMetric
   fullName: com.microsoft.azure.management.sql.ServiceLevelObjectiveUsageMetric
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's service level objective usage metric. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's service level objective usage metric. </p>"
   syntax:
     content: public interface ServiceLevelObjectiveUsageMetric
 - uid: com.microsoft.azure.management.sql.ServiceObjective
@@ -1885,7 +1882,7 @@ references:
   nameWithType: ServiceObjective
   fullName: com.microsoft.azure.management.sql.ServiceObjective
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Service Objective. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Service Objective. </p>"
   syntax:
     content: public interface ServiceObjective
 - uid: com.microsoft.azure.management.sql.ServiceTierAdvisor
@@ -1895,7 +1892,7 @@ references:
   nameWithType: ServiceTierAdvisor
   fullName: com.microsoft.azure.management.sql.ServiceTierAdvisor
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Service tier advisor. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Service tier advisor. </p>"
   syntax:
     content: public interface ServiceTierAdvisor
 - uid: com.microsoft.azure.management.sql.SloUsageMetricInterface
@@ -1905,7 +1902,7 @@ references:
   nameWithType: SloUsageMetricInterface
   fullName: com.microsoft.azure.management.sql.SloUsageMetricInterface
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's SloUsageMetric. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's SloUsageMetric. </p>"
   syntax:
     content: public interface SloUsageMetricInterface
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -1915,10 +1912,7 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase
 - uid: com.microsoft.azure.management.sql.SqlDatabaseAutomaticTuning
@@ -1928,7 +1922,7 @@ references:
   nameWithType: SqlDatabaseAutomaticTuning
   fullName: com.microsoft.azure.management.sql.SqlDatabaseAutomaticTuning
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database automatic tuning object. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database automatic tuning object. </p>"
   syntax:
     content: public interface SqlDatabaseAutomaticTuning
 - uid: com.microsoft.azure.management.sql.SqlDatabaseExportRequest
@@ -1938,7 +1932,7 @@ references:
   nameWithType: SqlDatabaseExportRequest
   fullName: com.microsoft.azure.management.sql.SqlDatabaseExportRequest
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Database export operation request. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Database export operation request. </p>"
   syntax:
     content: public interface SqlDatabaseExportRequest
 - uid: com.microsoft.azure.management.sql.SqlDatabaseImportExportResponse
@@ -1948,7 +1942,7 @@ references:
   nameWithType: SqlDatabaseImportExportResponse
   fullName: com.microsoft.azure.management.sql.SqlDatabaseImportExportResponse
   type: Interface
-  summary: <p>Response containing result of the Azure SQL Database import or export operation. </p>
+  summary: "<p>Response containing result of the Azure SQL Database import or export operation. </p>"
   syntax:
     content: public interface SqlDatabaseImportExportResponse
 - uid: com.microsoft.azure.management.sql.SqlDatabaseImportRequest
@@ -1958,7 +1952,7 @@ references:
   nameWithType: SqlDatabaseImportRequest
   fullName: com.microsoft.azure.management.sql.SqlDatabaseImportRequest
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Database import operation request. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Database import operation request. </p>"
   syntax:
     content: public interface SqlDatabaseImportRequest
 - uid: com.microsoft.azure.management.sql.SqlDatabaseMetric
@@ -1968,7 +1962,7 @@ references:
   nameWithType: SqlDatabaseMetric
   fullName: com.microsoft.azure.management.sql.SqlDatabaseMetric
   type: Interface
-  summary: <p>Response containing the Azure SQL Database metric. </p>
+  summary: "<p>Response containing the Azure SQL Database metric. </p>"
   syntax:
     content: public interface SqlDatabaseMetric
 - uid: com.microsoft.azure.management.sql.SqlDatabaseMetricAvailability
@@ -1978,7 +1972,7 @@ references:
   nameWithType: SqlDatabaseMetricAvailability
   fullName: com.microsoft.azure.management.sql.SqlDatabaseMetricAvailability
   type: Interface
-  summary: <p>Response containing the Azure SQL Database metric availability. </p>
+  summary: "<p>Response containing the Azure SQL Database metric availability. </p>"
   syntax:
     content: public interface SqlDatabaseMetricAvailability
 - uid: com.microsoft.azure.management.sql.SqlDatabaseMetricDefinition
@@ -1988,7 +1982,7 @@ references:
   nameWithType: SqlDatabaseMetricDefinition
   fullName: com.microsoft.azure.management.sql.SqlDatabaseMetricDefinition
   type: Interface
-  summary: <p>Response containing the Azure SQL Database metric definition. </p>
+  summary: "<p>Response containing the Azure SQL Database metric definition. </p>"
   syntax:
     content: public interface SqlDatabaseMetricDefinition
 - uid: com.microsoft.azure.management.sql.SqlDatabaseMetricValue
@@ -1998,7 +1992,7 @@ references:
   nameWithType: SqlDatabaseMetricValue
   fullName: com.microsoft.azure.management.sql.SqlDatabaseMetricValue
   type: Interface
-  summary: <p>Response containing the Azure SQL Database metric value. </p>
+  summary: "<p>Response containing the Azure SQL Database metric value. </p>"
   syntax:
     content: public interface SqlDatabaseMetricValue
 - uid: com.microsoft.azure.management.sql.SqlDatabases
@@ -2008,7 +2002,7 @@ references:
   nameWithType: SqlDatabases
   fullName: com.microsoft.azure.management.sql.SqlDatabases
   type: Interface
-  summary: <p>Entry point to SQL Database management API. </p>
+  summary: "<p>Entry point to SQL Database management API. </p>"
   syntax:
     content: public interface SqlDatabases
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy
@@ -2018,7 +2012,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy
   type: Interface
-  summary: <p>A representation of the Azure SQL Database threat detection policy. </p>
+  summary: "<p>A representation of the Azure SQL Database threat detection policy. </p>"
   syntax:
     content: public interface SqlDatabaseThreatDetectionPolicy
 - uid: com.microsoft.azure.management.sql.SqlDatabaseUsageMetric
@@ -2028,7 +2022,7 @@ references:
   nameWithType: SqlDatabaseUsageMetric
   fullName: com.microsoft.azure.management.sql.SqlDatabaseUsageMetric
   type: Interface
-  summary: <p>The result of SQL server usages per SQL Database. </p>
+  summary: "<p>The result of SQL server usages per SQL Database. </p>"
   syntax:
     content: public interface SqlDatabaseUsageMetric
 - uid: com.microsoft.azure.management.sql.SqlElasticPool
@@ -2038,10 +2032,7 @@ references:
   nameWithType: SqlElasticPool
   fullName: com.microsoft.azure.management.sql.SqlElasticPool
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>
-
-    <p>An immutable client-side representation of an Azure SQL ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>\r\n<p>An immutable client-side representation of an Azure SQL ElasticPool. </p>"
   syntax:
     content: public interface SqlElasticPool
 - uid: com.microsoft.azure.management.sql.SqlElasticPools
@@ -2051,7 +2042,7 @@ references:
   nameWithType: SqlElasticPools
   fullName: com.microsoft.azure.management.sql.SqlElasticPools
   type: Interface
-  summary: <p>Entry point to SQL Elastic Pool management API. </p>
+  summary: "<p>Entry point to SQL Elastic Pool management API. </p>"
   syntax:
     content: public interface SqlElasticPools
 - uid: com.microsoft.azure.management.sql.SqlEncryptionProtector
@@ -2061,7 +2052,7 @@ references:
   nameWithType: SqlEncryptionProtector
   fullName: com.microsoft.azure.management.sql.SqlEncryptionProtector
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>"
   syntax:
     content: public interface SqlEncryptionProtector
 - uid: com.microsoft.azure.management.sql.SqlFailoverGroup
@@ -2071,7 +2062,7 @@ references:
   nameWithType: SqlFailoverGroup
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Failover Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Failover Group. </p>"
   syntax:
     content: public interface SqlFailoverGroup
 - uid: com.microsoft.azure.management.sql.SqlFirewallRule
@@ -2081,10 +2072,7 @@ references:
   nameWithType: SqlFirewallRule
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>\r\n<p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>"
   syntax:
     content: public interface SqlFirewallRule
 - uid: com.microsoft.azure.management.sql.SqlFirewallRules
@@ -2094,7 +2082,7 @@ references:
   nameWithType: SqlFirewallRules
   fullName: com.microsoft.azure.management.sql.SqlFirewallRules
   type: Interface
-  summary: <p>Entry point to SQL FirewallRule management API. </p>
+  summary: "<p>Entry point to SQL FirewallRule management API. </p>"
   syntax:
     content: public interface SqlFirewallRules
 - uid: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
@@ -2104,7 +2092,7 @@ references:
   nameWithType: SqlRestorableDroppedDatabase
   fullName: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
   type: Interface
-  summary: <p>Response containing Azure SQL restorable dropped database. </p>
+  summary: "<p>Response containing Azure SQL restorable dropped database. </p>"
   syntax:
     content: public interface SqlRestorableDroppedDatabase
 - uid: com.microsoft.azure.management.sql.SqlServerAutomaticTuning
@@ -2114,7 +2102,7 @@ references:
   nameWithType: SqlServerAutomaticTuning
   fullName: com.microsoft.azure.management.sql.SqlServerAutomaticTuning
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server automatic tuning object. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server automatic tuning object. </p>"
   syntax:
     content: public interface SqlServerAutomaticTuning
 - uid: com.microsoft.azure.management.sql.SqlServerDnsAlias
@@ -2124,7 +2112,7 @@ references:
   nameWithType: SqlServerDnsAlias
   fullName: com.microsoft.azure.management.sql.SqlServerDnsAlias
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>"
   syntax:
     content: public interface SqlServerDnsAlias
 - uid: com.microsoft.azure.management.sql.SqlServerKey
@@ -2134,7 +2122,7 @@ references:
   nameWithType: SqlServerKey
   fullName: com.microsoft.azure.management.sql.SqlServerKey
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Key. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Key. </p>"
   syntax:
     content: public interface SqlServerKey
 - uid: com.microsoft.azure.management.sql.SqlServers
@@ -2144,7 +2132,7 @@ references:
   nameWithType: SqlServers
   fullName: com.microsoft.azure.management.sql.SqlServers
   type: Interface
-  summary: <p>Entry point to SQL Server management API. </p>
+  summary: "<p>Entry point to SQL Server management API. </p>"
   syntax:
     content: public interface SqlServers
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
@@ -2154,7 +2142,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicy
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>"
   syntax:
     content: public interface SqlServerSecurityAlertPolicy
 - uid: com.microsoft.azure.management.sql.SqlSubscriptionUsageMetric
@@ -2164,7 +2152,7 @@ references:
   nameWithType: SqlSubscriptionUsageMetric
   fullName: com.microsoft.azure.management.sql.SqlSubscriptionUsageMetric
   type: Interface
-  summary: <p>The result of SQL server usages per current subscription. </p>
+  summary: "<p>The result of SQL server usages per current subscription. </p>"
   syntax:
     content: public interface SqlSubscriptionUsageMetric
 - uid: com.microsoft.azure.management.sql.SqlSyncFullSchemaProperty
@@ -2174,7 +2162,7 @@ references:
   nameWithType: SqlSyncFullSchemaProperty
   fullName: com.microsoft.azure.management.sql.SqlSyncFullSchemaProperty
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>"
   syntax:
     content: public interface SqlSyncFullSchemaProperty
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup
@@ -2184,7 +2172,7 @@ references:
   nameWithType: SqlSyncGroup
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>"
   syntax:
     content: public interface SqlSyncGroup
 - uid: com.microsoft.azure.management.sql.SqlSyncGroupLogProperty
@@ -2194,7 +2182,7 @@ references:
   nameWithType: SqlSyncGroupLogProperty
   fullName: com.microsoft.azure.management.sql.SqlSyncGroupLogProperty
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>"
   syntax:
     content: public interface SqlSyncGroupLogProperty
 - uid: com.microsoft.azure.management.sql.SqlSyncMember
@@ -2204,7 +2192,7 @@ references:
   nameWithType: SqlSyncMember
   fullName: com.microsoft.azure.management.sql.SqlSyncMember
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Member. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Member. </p>"
   syntax:
     content: public interface SqlSyncMember
 - uid: com.microsoft.azure.management.sql.SqlVirtualNetworkRule
@@ -2214,7 +2202,7 @@ references:
   nameWithType: SqlVirtualNetworkRule
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Virtual Network Rule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Virtual Network Rule. </p>"
   syntax:
     content: public interface SqlVirtualNetworkRule
 - uid: com.microsoft.azure.management.sql.TransparentDataEncryption
@@ -2224,7 +2212,7 @@ references:
   nameWithType: TransparentDataEncryption
   fullName: com.microsoft.azure.management.sql.TransparentDataEncryption
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryption. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryption. </p>"
   syntax:
     content: public interface TransparentDataEncryption
 - uid: com.microsoft.azure.management.sql.TransparentDataEncryptionActivity
@@ -2234,7 +2222,7 @@ references:
   nameWithType: TransparentDataEncryptionActivity
   fullName: com.microsoft.azure.management.sql.TransparentDataEncryptionActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryptionActivity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryptionActivity. </p>"
   syntax:
     content: public interface TransparentDataEncryptionActivity
 - uid: com.microsoft.azure.management.sql.UpgradeHintInterface
@@ -2244,7 +2232,7 @@ references:
   nameWithType: UpgradeHintInterface
   fullName: com.microsoft.azure.management.sql.UpgradeHintInterface
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's Upgrade hint. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's Upgrade hint. </p>"
   syntax:
     content: public interface UpgradeHintInterface
 - uid: com.microsoft.azure.management.storage.StorageAccounts
@@ -2254,7 +2242,7 @@ references:
   nameWithType: StorageAccounts
   fullName: com.microsoft.azure.management.storage.StorageAccounts
   type: Interface
-  summary: <p>Entry point for storage accounts management API. </p>
+  summary: "<p>Entry point for storage accounts management API. </p>"
   syntax:
     content: public interface StorageAccounts
 - uid: com.microsoft.azure.management.storage.StorageUsage
@@ -2264,7 +2252,7 @@ references:
   nameWithType: StorageUsage
   fullName: com.microsoft.azure.management.storage.StorageUsage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage resource usage info object. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage resource usage info object. </p>"
   syntax:
     content: public interface StorageUsage
 - uid: com.microsoft.azure.management.trafficmanager.GeographicHierarchies
@@ -2274,7 +2262,7 @@ references:
   nameWithType: GeographicHierarchies
   fullName: com.microsoft.azure.management.trafficmanager.GeographicHierarchies
   type: Interface
-  summary: <p>Entry point to Azure traffic manager geographic hierarchy management API in Azure. </p>
+  summary: "<p>Entry point to Azure traffic manager geographic hierarchy management API in Azure. </p>"
   syntax:
     content: public interface GeographicHierarchies extends HasManager<TrafficManager>,HasInner<GeographicHierarchiesInner>
 - uid: com.microsoft.azure.management.trafficmanager.GeographicLocation
@@ -2284,7 +2272,7 @@ references:
   nameWithType: GeographicLocation
   fullName: com.microsoft.azure.management.trafficmanager.GeographicLocation
   type: Interface
-  summary: <p>Type representing Geographic Hierarchy region (location). </p>
+  summary: "<p>Type representing Geographic Hierarchy region (location). </p>"
   syntax:
     content: public interface GeographicLocation extends HasName,HasInner<com.microsoft.azure.management.trafficmanager.Region>
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint
@@ -2294,7 +2282,7 @@ references:
   nameWithType: TrafficManagerEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile endpoint. </p>"
   syntax:
     content: public interface TrafficManagerEndpoint
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerProfiles
@@ -2304,6 +2292,6 @@ references:
   nameWithType: TrafficManagerProfiles
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfiles
   type: Interface
-  summary: <p>Entry point to traffic manager profile management API in Azure. </p>
+  summary: "<p>Entry point to traffic manager profile management API in Azure. </p>"
   syntax:
     content: public interface TrafficManagerProfiles

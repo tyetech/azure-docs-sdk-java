@@ -32,7 +32,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withEmailAlias(String emailAlias)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withEmailAlias(String emailAlias)
   type: Method
-  summary: <p>Specifies the email alias of the new user. </p>
+  summary: "<p>Specifies the email alias of the new user. </p>"
   syntax:
     content: public WithPassword withEmailAlias(String emailAlias)
     parameters:
@@ -49,7 +49,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withUserPrincipalName(String userPrincipalName)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withUserPrincipalName(String userPrincipalName)
   type: Method
-  summary: <p>Specifies the user principal name of the user. It must contain one of the verified domains for the tenant. </p>
+  summary: "<p>Specifies the user principal name of the user. It must contain one of the verified domains for the tenant. </p>"
   syntax:
     content: public WithPassword withUserPrincipalName(String userPrincipalName)
     parameters:
@@ -66,7 +66,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
   type: Interface
-  summary: <p>A user definition allowing user principal name to be specified. </p>
+  summary: "<p>A user definition allowing user principal name to be specified. </p>"
   syntax:
     content: public interface WithUserPrincipalName
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.Definition
@@ -76,6 +76,6 @@ references:
   nameWithType: ActiveDirectoryUser.Definition
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition

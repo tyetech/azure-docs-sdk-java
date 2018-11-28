@@ -44,7 +44,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -57,10 +57,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -77,10 +74,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(String resourceId)
     parameters:
@@ -97,7 +91,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Subnet subnet)
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Subnet subnet)
   type: Method
-  summary: <p>Specifies an existing subnet the virtual network gateway should be part of and get its private IP address from. </p>
+  summary: "<p>Specifies an existing subnet the virtual network gateway should be part of and get its private IP address from. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingSubnet(Subnet subnet)
     parameters:
@@ -114,7 +108,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: <p>Specifies an existing subnet the virtual network gateway should be part of and get its private IP address from. </p>
+  summary: "<p>Specifies an existing subnet the virtual network gateway should be part of and get its private IP address from. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -134,7 +128,7 @@ references:
   nameWithType: HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -154,7 +148,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an virtual network gateway IP configuration definition. </p>
+  summary: "<p>The first stage of an virtual network gateway IP configuration definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -168,10 +162,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the virtual network gateway IP configuration definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent virtual network gateway definition. </p>
+  summary: "<p>The final stage of the virtual network gateway IP configuration definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent virtual network gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -185,7 +176,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithPublicIPAddress<ParentT>
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithPublicIPAddress<ParentT>
   type: Interface
-  summary: <p>The stage of virtual network gateway frontend definition allowing to specify an existing public IP address to make the virtual network gateway available at as Internet-facing. </p>
+  summary: "<p>The stage of virtual network gateway frontend definition allowing to specify an existing public IP address to make the virtual network gateway available at as Internet-facing. </p>"
   syntax:
     content: public interface WithPublicIPAddress<ParentT>
     typeParameters:

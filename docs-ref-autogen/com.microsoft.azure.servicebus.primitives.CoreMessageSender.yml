@@ -654,12 +654,7 @@ references:
   nameWithType: ClientEntity
   fullName: com.microsoft.azure.servicebus.primitives.ClientEntity
   type: Class
-  summary: >-
-    <p>Contract for all client entities with Open-Close/Abort state m/c </p>
-
-    <p>main-purpose: closeAll related entities </p>
-
-    <p>Internal-class </p>
+  summary: "<p>Contract for all client entities with Open-Close/Abort state m/c </p>\r\n<p>main-purpose: closeAll related entities </p>\r\n<p>Internal-class </p>"
   syntax:
     content: public class ClientEntity
 - uid: com.microsoft.azure.servicebus.primitives.MessagingFactory
@@ -669,7 +664,7 @@ references:
   nameWithType: MessagingFactory
   fullName: com.microsoft.azure.servicebus.primitives.MessagingFactory
   type: Class
-  summary: <p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>
+  summary: "<p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>"
   syntax:
     content: public class MessagingFactory
 - uid: com.microsoft.azure.servicebus.primitives.RetryPolicy
@@ -679,7 +674,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy
   type: Class
-  summary: <p>Represents an abstraction of a policy for retrying messaging operations when an exception is encountered. Some exceptions encountered by a sender or receiver can be transient like ServerBusy and the operation will succeed if retried. Clients can specify a retry policy using <xref uid="com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder" data-throw-if-not-resolved="false">ConnectionStringBuilder</xref> which guides senders and receivers to automatically retry the failed operation before throwing the exception to the client application. Users should not implement this class, instead should use one of the provided implementations through <xref uid="com.microsoft.azure.servicebus.primitives.RetryPolicy.getDefault()" data-throw-if-not-resolved="false">getDefault</xref> or <xref uid="com.microsoft.azure.servicebus.primitives.RetryPolicy.getNoRetry()" data-throw-if-not-resolved="false">getNoRetry</xref>. </p>
+  summary: "<p>Represents an abstraction of a policy for retrying messaging operations when an exception is encountered. Some exceptions encountered by a sender or receiver can be transient like ServerBusy and the operation will succeed if retried. Clients can specify a retry policy using <xref uid=\"com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder\" data-throw-if-not-resolved=\"false\">ConnectionStringBuilder</xref> which guides senders and receivers to automatically retry the failed operation before throwing the exception to the client application. Users should not implement this class, instead should use one of the provided implementations through <xref uid=\"com.microsoft.azure.servicebus.primitives.RetryPolicy.getDefault()\" data-throw-if-not-resolved=\"false\">getDefault</xref> or <xref uid=\"com.microsoft.azure.servicebus.primitives.RetryPolicy.getNoRetry()\" data-throw-if-not-resolved=\"false\">getNoRetry</xref>. </p>"
   syntax:
     content: public class RetryPolicy
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityType

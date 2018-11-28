@@ -2086,7 +2086,7 @@ references:
   nameWithType: IInheritedBehaviors
   fullName: com.microsoft.azure.batch.IInheritedBehaviors
   type: Interface
-  summary: <p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>
+  summary: "<p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>"
   syntax:
     content: public interface IInheritedBehaviors
 - uid: com.microsoft.azure.batch.BatchClientBehavior
@@ -2096,7 +2096,7 @@ references:
   nameWithType: BatchClientBehavior
   fullName: com.microsoft.azure.batch.BatchClientBehavior
   type: Class
-  summary: <p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>
+  summary: "<p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>"
   syntax:
     content: public class BatchClientBehavior
 - uid: com.microsoft.azure.batch.BatchClient
@@ -2106,7 +2106,7 @@ references:
   nameWithType: BatchClient
   fullName: com.microsoft.azure.batch.BatchClient
   type: Class
-  summary: <p>A client for an Azure Batch account, used to access the Batch service. </p>
+  summary: "<p>A client for an Azure Batch account, used to access the Batch service. </p>"
   syntax:
     content: public class BatchClient
 - uid: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
@@ -2116,10 +2116,7 @@ references:
   nameWithType: IInheritedBehaviors.customBehaviors()
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
   type: Method
-  summary: >-
-    <p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public Collection<BatchClientBehavior> customBehaviors()
     return:
@@ -2132,10 +2129,7 @@ references:
   nameWithType: IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   type: Method
-  summary: >-
-    <p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public IInheritedBehaviors withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
     parameters:
@@ -2152,7 +2146,7 @@ references:
   nameWithType: CloudPool
   fullName: com.microsoft.azure.batch.protocol.models.CloudPool
   type: Class
-  summary: <p>A pool in the Azure Batch service. </p>
+  summary: "<p>A pool in the Azure Batch service. </p>"
   syntax:
     content: public class CloudPool
 - uid: com.microsoft.azure.batch.protocol.models.BatchErrorException
@@ -2162,7 +2156,7 @@ references:
   nameWithType: BatchErrorException
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException
   type: Class
-  summary: <p>Exception thrown for an invalid response with BatchError information. </p>
+  summary: "<p>Exception thrown for an invalid response with BatchError information. </p>"
   syntax:
     content: public class BatchErrorException
 - uid: com.microsoft.azure.batch.DetailLevel
@@ -2172,7 +2166,7 @@ references:
   nameWithType: DetailLevel
   fullName: com.microsoft.azure.batch.DetailLevel
   type: Class
-  summary: <p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>
+  summary: "<p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>"
   syntax:
     content: public class DetailLevel
 - uid: com.microsoft.azure.batch.protocol.models.CloudServiceConfiguration
@@ -2182,7 +2176,7 @@ references:
   nameWithType: CloudServiceConfiguration
   fullName: com.microsoft.azure.batch.protocol.models.CloudServiceConfiguration
   type: Class
-  summary: <p>The configuration for nodes in a pool based on the Azure Cloud Services platform. </p>
+  summary: "<p>The configuration for nodes in a pool based on the Azure Cloud Services platform. </p>"
   syntax:
     content: public class CloudServiceConfiguration
 - uid: com.microsoft.azure.batch.protocol.models.VirtualMachineConfiguration
@@ -2192,7 +2186,7 @@ references:
   nameWithType: VirtualMachineConfiguration
   fullName: com.microsoft.azure.batch.protocol.models.VirtualMachineConfiguration
   type: Class
-  summary: <p>The configuration for compute nodes in a pool based on the Azure Virtual Machines infrastructure. </p>
+  summary: "<p>The configuration for compute nodes in a pool based on the Azure Virtual Machines infrastructure. </p>"
   syntax:
     content: public class VirtualMachineConfiguration
 - uid: com.microsoft.azure.batch.protocol.models.PoolAddParameter
@@ -2202,7 +2196,7 @@ references:
   nameWithType: PoolAddParameter
   fullName: com.microsoft.azure.batch.protocol.models.PoolAddParameter
   type: Class
-  summary: <p>A pool in the Azure Batch service to add. </p>
+  summary: "<p>A pool in the Azure Batch service to add. </p>"
   syntax:
     content: public class PoolAddParameter
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeDeallocationOption
@@ -2212,7 +2206,7 @@ references:
   nameWithType: ComputeNodeDeallocationOption
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeDeallocationOption
   type: Enum
-  summary: <p>Defines values for ComputeNodeDeallocationOption. </p>
+  summary: "<p>Defines values for ComputeNodeDeallocationOption. </p>"
   syntax:
     content: public enum ComputeNodeDeallocationOption
 - uid: com.microsoft.azure.batch.protocol.models.AutoScaleRun
@@ -2222,7 +2216,7 @@ references:
   nameWithType: AutoScaleRun
   fullName: com.microsoft.azure.batch.protocol.models.AutoScaleRun
   type: Class
-  summary: <p>The results and errors from an execution of a pool autoscale formula. </p>
+  summary: "<p>The results and errors from an execution of a pool autoscale formula. </p>"
   syntax:
     content: public class AutoScaleRun
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNode
@@ -2232,7 +2226,7 @@ references:
   nameWithType: ComputeNode
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNode
   type: Class
-  summary: <p>A compute node in the Batch service. </p>
+  summary: "<p>A compute node in the Batch service. </p>"
   syntax:
     content: public class ComputeNode
 - uid: com.microsoft.azure.batch.protocol.models.StartTask
@@ -2242,7 +2236,7 @@ references:
   nameWithType: StartTask
   fullName: com.microsoft.azure.batch.protocol.models.StartTask
   type: Class
-  summary: <p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class StartTask
 - uid: com.microsoft.azure.batch.protocol.models.CertificateReference
@@ -2252,7 +2246,7 @@ references:
   nameWithType: CertificateReference
   fullName: com.microsoft.azure.batch.protocol.models.CertificateReference
   type: Class
-  summary: <p>A reference to a certificate to be installed on compute nodes in a pool. </p>
+  summary: "<p>A reference to a certificate to be installed on compute nodes in a pool. </p>"
   syntax:
     content: public class CertificateReference
 - uid: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
@@ -2262,7 +2256,7 @@ references:
   nameWithType: ApplicationPackageReference
   fullName: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
   type: Class
-  summary: <p>A reference to an application package to be deployed to compute nodes. </p>
+  summary: "<p>A reference to an application package to be deployed to compute nodes. </p>"
   syntax:
     content: public class ApplicationPackageReference
 - uid: com.microsoft.azure.batch.protocol.models.MetadataItem
@@ -2272,7 +2266,7 @@ references:
   nameWithType: MetadataItem
   fullName: com.microsoft.azure.batch.protocol.models.MetadataItem
   type: Class
-  summary: <p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>
+  summary: "<p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>"
   syntax:
     content: public class MetadataItem
 - uid: com.microsoft.azure.batch.protocol.models.PoolUsageMetrics
@@ -2282,7 +2276,7 @@ references:
   nameWithType: PoolUsageMetrics
   fullName: com.microsoft.azure.batch.protocol.models.PoolUsageMetrics
   type: Class
-  summary: <p>Usage metrics for a pool across an aggregation interval. </p>
+  summary: "<p>Usage metrics for a pool across an aggregation interval. </p>"
   syntax:
     content: public class PoolUsageMetrics
 - uid: com.microsoft.azure.batch.protocol.models.PoolStatistics
@@ -2292,6 +2286,6 @@ references:
   nameWithType: PoolStatistics
   fullName: com.microsoft.azure.batch.protocol.models.PoolStatistics
   type: Class
-  summary: <p>Contains utilization and resource usage statistics for the lifetime of a pool. </p>
+  summary: "<p>Contains utilization and resource usage statistics for the lifetime of a pool. </p>"
   syntax:
     content: public class PoolStatistics

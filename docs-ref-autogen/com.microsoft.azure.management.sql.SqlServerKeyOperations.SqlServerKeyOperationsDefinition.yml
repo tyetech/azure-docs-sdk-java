@@ -41,10 +41,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -57,10 +54,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -77,10 +71,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -117,10 +108,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithServerKeyType.withAzureKeyVaultKey(String uri)
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithServerKeyType.withAzureKeyVaultKey(String uri)
   type: Method
-  summary: >-
-    <p>Sets the server key type as "AzureKeyVault" and the URI to the key.</p>
-
-    <p></p>
+  summary: "<p>Sets the server key type as \"AzureKeyVault\" and the URI to the key.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerKeyOperations.DefinitionStages.WithCreate withAzureKeyVaultKey(String uri)
     parameters:
@@ -137,10 +125,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithCreationDate.withCreationDate(DateTime creationDate)
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithCreationDate.withCreationDate(DateTime creationDate)
   type: Method
-  summary: >-
-    <p>Sets the server key creation date.</p>
-
-    <p></p>
+  summary: "<p>Sets the server key creation date.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerKeyOperations.DefinitionStages.WithCreate withCreationDate(DateTime creationDate)
     parameters:
@@ -157,10 +142,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server name and resource group it belongs to.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server name and resource group it belongs to.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerKeyOperations.DefinitionStages.WithServerKeyType withExistingSqlServer(String resourceGroupName, String sqlServerName)
     parameters:
@@ -180,10 +162,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(SqlServer sqlServer)
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(SqlServer sqlServer)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server for the new Server Key.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server for the new Server Key.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerKeyOperations.DefinitionStages.WithServerKeyType withExistingSqlServer(SqlServer sqlServer)
     parameters:
@@ -200,10 +179,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithSqlServer.withExistingSqlServerId(String sqlServerId)
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithSqlServer.withExistingSqlServerId(String sqlServerId)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server for the new Server Key.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server for the new Server Key.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerKeyOperations.DefinitionStages.WithServerKeyType withExistingSqlServerId(String sqlServerId)
     parameters:
@@ -220,10 +196,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithThumbprint.withThumbprint(String thumbprint)
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithThumbprint.withThumbprint(String thumbprint)
   type: Method
-  summary: >-
-    <p>Sets the thumbprint of the server key.</p>
-
-    <p></p>
+  summary: "<p>Sets the thumbprint of the server key.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerKeyOperations.DefinitionStages.WithCreate withThumbprint(String thumbprint)
     parameters:
@@ -240,7 +213,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithSqlServer
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithSqlServer
   type: Interface
-  summary: <p>The first stage of the SQL Server Key definition. </p>
+  summary: "<p>The first stage of the SQL Server Key definition. </p>"
   syntax:
     content: public interface WithSqlServer
 - uid: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithServerKeyType
@@ -250,7 +223,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithServerKeyType
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithServerKeyType
   type: Interface
-  summary: <p>The SQL Server Key definition to set the server key type. </p>
+  summary: "<p>The SQL Server Key definition to set the server key type. </p>"
   syntax:
     content: public interface WithServerKeyType
 - uid: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithThumbprint
@@ -260,7 +233,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithThumbprint
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithThumbprint
   type: Interface
-  summary: <p>The SQL Server Key definition to set the thumbprint. </p>
+  summary: "<p>The SQL Server Key definition to set the thumbprint. </p>"
   syntax:
     content: public interface WithThumbprint
 - uid: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithCreationDate
@@ -270,7 +243,7 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithCreationDate
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithCreationDate
   type: Interface
-  summary: <p>The SQL Server Key definition to set the server key creation date. </p>
+  summary: "<p>The SQL Server Key definition to set the server key creation date. </p>"
   syntax:
     content: public interface WithCreationDate
 - uid: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithCreate
@@ -280,6 +253,6 @@ references:
   nameWithType: SqlServerKeyOperations.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The final stage of the SQL Server Key definition. </p>
+  summary: "<p>The final stage of the SQL Server Key definition. </p>"
   syntax:
     content: public interface WithCreate

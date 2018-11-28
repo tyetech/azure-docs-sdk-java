@@ -96,10 +96,7 @@ references:
   nameWithType: ReliableState.getName()
   fullName: microsoft.servicefabric.data.ReliableState.getName()
   type: Method
-  summary: >-
-    <p>Gets a value indicating the unique name for <xref uid="microsoft.servicefabric.data.ReliableState" data-throw-if-not-resolved="false">ReliableState</xref></p>
-
-    <p></p>
+  summary: "<p>Gets a value indicating the unique name for <xref uid=\"microsoft.servicefabric.data.ReliableState\" data-throw-if-not-resolved=\"false\">ReliableState</xref></p>\r\n<p></p>"
   syntax:
     content: public URI getName()
     return:
@@ -112,7 +109,7 @@ references:
   nameWithType: ReliableState
   fullName: microsoft.servicefabric.data.ReliableState
   type: Interface
-  summary: <p>Defines methods for interacting with all reliable state in Service Fabric. </p>
+  summary: "<p>Defines methods for interacting with all reliable state in Service Fabric. </p>"
   syntax:
     content: public interface ReliableState
 - uid: microsoft.servicefabric.data.collections.ReliableHashMap
@@ -136,10 +133,7 @@ references:
   nameWithType: ReliableHashMap<K,V>.getCount()
   fullName: microsoft.servicefabric.data.collections.ReliableHashMap<K extends String, V>.getCount()
   type: Method
-  summary: >-
-    <p>Gets the number of elements contained in the <xref uid="microsoft.servicefabric.data.collections.ReliableCollection" data-throw-if-not-resolved="false">ReliableCollection</xref></p>
-
-    <p></p>
+  summary: "<p>Gets the number of elements contained in the <xref uid=\"microsoft.servicefabric.data.collections.ReliableCollection\" data-throw-if-not-resolved=\"false\">ReliableCollection</xref></p>\r\n<p></p>"
   syntax:
     content: public long getCount()
     return:
@@ -152,7 +146,7 @@ references:
   nameWithType: ReliableCollection
   fullName: microsoft.servicefabric.data.collections.ReliableCollection
   type: Interface
-  summary: <p>Defines methods for manipulating Reliable Collections. </p>
+  summary: "<p>Defines methods for manipulating Reliable Collections. </p>"
   syntax: *o1
 - uid: microsoft.servicefabric.data.collections.ReliableHashMap.clearAsync()
   parent: microsoft.servicefabric.data.collections.ReliableHashMap
@@ -161,7 +155,7 @@ references:
   nameWithType: ReliableHashMap<K,V>.clearAsync()
   fullName: microsoft.servicefabric.data.collections.ReliableHashMap<K extends String, V>.clearAsync()
   type: Method
-  summary: <p>Removes all state from the <xref uid="microsoft.servicefabric.data.collections.ReliableCollection" data-throw-if-not-resolved="false">ReliableCollection</xref>, including replicated and persisted store. </p>
+  summary: "<p>Removes all state from the <xref uid=\"microsoft.servicefabric.data.collections.ReliableCollection\" data-throw-if-not-resolved=\"false\">ReliableCollection</xref>, including replicated and persisted store. </p>"
   syntax:
     content: public CompletableFuture<Void> clearAsync()
     return:

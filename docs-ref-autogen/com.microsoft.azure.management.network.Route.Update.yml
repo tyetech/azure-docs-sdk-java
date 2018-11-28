@@ -34,12 +34,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -52,7 +47,7 @@ references:
   nameWithType: Route.UpdateStages.WithDestinationAddressPrefix.withDestinationAddressPrefix(String cidr)
   fullName: com.microsoft.azure.management.network.Route.UpdateStages.WithDestinationAddressPrefix.withDestinationAddressPrefix(String cidr)
   type: Method
-  summary: <p>Specifies the destination address prefix to apply the route to. </p>
+  summary: "<p>Specifies the destination address prefix to apply the route to. </p>"
   syntax:
     content: public Update withDestinationAddressPrefix(String cidr)
     parameters:
@@ -69,10 +64,7 @@ references:
   nameWithType: Route.UpdateStages.WithNextHopType.withNextHop(RouteNextHopType nextHopType)
   fullName: com.microsoft.azure.management.network.Route.UpdateStages.WithNextHopType.withNextHop(RouteNextHopType nextHopType)
   type: Method
-  summary: >-
-    <p>Specifies the next hop type. </p>
-
-    <p>To use a virtual appliance, use <xref uid="com.microsoft.azure.management.network.Route.UpdateStages.WithNextHopType.withNextHopToVirtualAppliance(String)" data-throw-if-not-resolved="false">withNextHopToVirtualAppliance(String)</xref> instead and specify its IP address. </p>
+  summary: "<p>Specifies the next hop type. </p>\r\n<p>To use a virtual appliance, use <xref uid=\"com.microsoft.azure.management.network.Route.UpdateStages.WithNextHopType.withNextHopToVirtualAppliance(String)\" data-throw-if-not-resolved=\"false\">withNextHopToVirtualAppliance(String)</xref> instead and specify its IP address. </p>"
   syntax:
     content: public Update withNextHop(RouteNextHopType nextHopType)
     parameters:
@@ -89,7 +81,7 @@ references:
   nameWithType: Route.UpdateStages.WithNextHopType.withNextHopToVirtualAppliance(String ipAddress)
   fullName: com.microsoft.azure.management.network.Route.UpdateStages.WithNextHopType.withNextHopToVirtualAppliance(String ipAddress)
   type: Method
-  summary: <p>Specifies the IP address of the virtual appliance for the next hop to go to. </p>
+  summary: "<p>Specifies the IP address of the virtual appliance for the next hop to go to. </p>"
   syntax:
     content: public Update withNextHopToVirtualAppliance(String ipAddress)
     parameters:
@@ -106,10 +98,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -123,7 +112,7 @@ references:
   nameWithType: Route.UpdateStages.WithDestinationAddressPrefix
   fullName: com.microsoft.azure.management.network.Route.UpdateStages.WithDestinationAddressPrefix
   type: Interface
-  summary: <p>The stage of a route update allowing to modify the destination address prefix. </p>
+  summary: "<p>The stage of a route update allowing to modify the destination address prefix. </p>"
   syntax:
     content: public interface WithDestinationAddressPrefix
 - uid: com.microsoft.azure.management.network.Route.UpdateStages.WithNextHopType
@@ -133,6 +122,6 @@ references:
   nameWithType: Route.UpdateStages.WithNextHopType
   fullName: com.microsoft.azure.management.network.Route.UpdateStages.WithNextHopType
   type: Interface
-  summary: <p>The stage of a route update allowing to specify the next hop type. </p>
+  summary: "<p>The stage of a route update allowing to specify the next hop type. </p>"
   syntax:
     content: public interface WithNextHopType

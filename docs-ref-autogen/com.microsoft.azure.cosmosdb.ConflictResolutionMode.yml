@@ -89,12 +89,7 @@ references:
   nameWithType: ConflictResolutionPolicy.getConflictResolutionPath()
   fullName: com.microsoft.azure.cosmosdb.ConflictResolutionPolicy.getConflictResolutionPath()
   type: Method
-  summary: >-
-    <p>Gets the path which is present in each document in the Azure Cosmos DB service for last writer wins conflict-resolution. This path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked. If the path is unspecified, by default the <xref uid="com.microsoft.azure.cosmosdb.Resource.getTimestamp()" data-throw-if-not-resolved="false">Resource#getTimestamp()</xref> path will be used.</p>
-
-    <p>This value should only be set when using <xref uid="com.microsoft.azure.cosmosdb.ConflictResolutionMode.LastWriterWins" data-throw-if-not-resolved="false">ConflictResolutionMode#LastWriterWins</xref></p>
-
-    <p></p>
+  summary: "<p>Gets the path which is present in each document in the Azure Cosmos DB service for last writer wins conflict-resolution. This path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked. If the path is unspecified, by default the <xref uid=\"com.microsoft.azure.cosmosdb.Resource.getTimestamp()\" data-throw-if-not-resolved=\"false\">Resource#getTimestamp()</xref> path will be used.</p>\r\n<p>This value should only be set when using <xref uid=\"com.microsoft.azure.cosmosdb.ConflictResolutionMode.LastWriterWins\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#LastWriterWins</xref></p>\r\n<p></p>"
   syntax:
     content: public String getConflictResolutionPath()
     return:
@@ -107,10 +102,7 @@ references:
   nameWithType: StoredProcedure
   fullName: com.microsoft.azure.cosmosdb.StoredProcedure
   type: Class
-  summary: >-
-    <p>Represents a stored procedure in the Azure Cosmos DB database service. </p>
-
-    <p>Cosmos DB allows stored procedures to be executed in the storage tier, directly against a document collection. The script gets executed under ACID transactions on the primary storage partition of the specified collection. For additional details, refer to the server-side JavaScript API documentation. </p>
+  summary: "<p>Represents a stored procedure in the Azure Cosmos DB database service. </p>\r\n<p>Cosmos DB allows stored procedures to be executed in the storage tier, directly against a document collection. The script gets executed under ACID transactions on the primary storage partition of the specified collection. For additional details, refer to the server-side JavaScript API documentation. </p>"
   syntax:
     content: public class StoredProcedure
 - uid: com.microsoft.azure.cosmosdb.Conflict
@@ -120,10 +112,7 @@ references:
   nameWithType: Conflict
   fullName: com.microsoft.azure.cosmosdb.Conflict
   type: Class
-  summary: >-
-    <p>Represents a conflict in the version of a particular resource in the Azure Cosmos DB database service. </p>
-
-    <p>During rare failure scenarios, conflicts are generated for the documents in transit. Clients can inspect the respective conflict instances for resources and operations in conflict. </p>
+  summary: "<p>Represents a conflict in the version of a particular resource in the Azure Cosmos DB database service. </p>\r\n<p>During rare failure scenarios, conflicts are generated for the documents in transit. Clients can inspect the respective conflict instances for resources and operations in conflict. </p>"
   syntax:
     content: public class Conflict extends Resource
 - uid: com.microsoft.azure.cosmosdb.ConflictResolutionPolicy.getConflictResolutionProcedure()
@@ -133,36 +122,7 @@ references:
   nameWithType: ConflictResolutionPolicy.getConflictResolutionProcedure()
   fullName: com.microsoft.azure.cosmosdb.ConflictResolutionPolicy.getConflictResolutionProcedure()
   type: Method
-  summary: >-
-    <p>Gets the <xref uid="com.microsoft.azure.cosmosdb.StoredProcedure" data-throw-if-not-resolved="false">StoredProcedure</xref> which is used for conflict resolution in the Azure Cosmos DB service. This stored procedure may be created after the <xref uid="com.microsoft.azure.cosmosdb.DocumentCollection" data-throw-if-not-resolved="false">DocumentCollection</xref> is created and can be changed as required.</p>
-
-    <p>
-
-      <ul>
-
-        <li>
-
-          <p>This value should only be set when using <xref uid="com.microsoft.azure.cosmosdb.ConflictResolutionMode.Custom" data-throw-if-not-resolved="false">ConflictResolutionMode#Custom</xref></p>
-
-        </li>
-
-        <li>
-
-          <p>In case the stored procedure fails or throws an exception, the conflict resolution will default to registering conflicts in the conflicts feed </p>
-
-        </li>
-
-        <li>
-
-          <p>The user can provide the stored procedure </p>
-
-        </li>
-
-      </ul>
-
-    </p>
-
-    <p></p>
+  summary: "<p>Gets the <xref uid=\"com.microsoft.azure.cosmosdb.StoredProcedure\" data-throw-if-not-resolved=\"false\">StoredProcedure</xref> which is used for conflict resolution in the Azure Cosmos DB service. This stored procedure may be created after the <xref uid=\"com.microsoft.azure.cosmosdb.DocumentCollection\" data-throw-if-not-resolved=\"false\">DocumentCollection</xref> is created and can be changed as required.</p>\r\n<p>\r\n  <ul>\r\n    <li>\r\n      <p>This value should only be set when using <xref uid=\"com.microsoft.azure.cosmosdb.ConflictResolutionMode.Custom\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#Custom</xref></p>\r\n    </li>\r\n    <li>\r\n      <p>In case the stored procedure fails or throws an exception, the conflict resolution will default to registering conflicts in the conflicts feed </p>\r\n    </li>\r\n    <li>\r\n      <p>The user can provide the stored procedure </p>\r\n    </li>\r\n  </ul>\r\n</p>\r\n<p></p>"
   syntax:
     content: public String getConflictResolutionProcedure()
     return:

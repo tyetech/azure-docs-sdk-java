@@ -90,10 +90,7 @@ references:
   nameWithType: FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions.withName(String name)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions.withName(String name)
   type: Method
-  summary: >-
-    <p>User defined name, maximum length is 128.</p>
-
-    <p></p>
+  summary: "<p>User defined name, maximum length is 128.</p>\r\n<p></p>"
   syntax:
     content: public FaceListsUpdateDefinitionStages.WithExecute withName(String name)
     parameters:
@@ -109,10 +106,7 @@ references:
   nameWithType: FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions.withUserData(String userData)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions.withUserData(String userData)
   type: Method
-  summary: >-
-    <p>User specified data. Length should not exceed 16KB.</p>
-
-    <p></p>
+  summary: "<p>User specified data. Length should not exceed 16KB.</p>\r\n<p></p>"
   syntax:
     content: public FaceListsUpdateDefinitionStages.WithExecute withUserData(String userData)
     parameters:
@@ -128,7 +122,7 @@ references:
   nameWithType: FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinition
@@ -138,6 +132,6 @@ references:
   nameWithType: FaceLists.FaceListsUpdateDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinition
   type: Interface
-  summary: <p>The entirety of update definition. </p>
+  summary: "<p>The entirety of update definition. </p>"
   syntax:
     content: public interface FaceListsUpdateDefinition extends FaceLists.FaceListsUpdateDefinitionStages.WithFaceListId,FaceLists.FaceListsUpdateDefinitionStages.WithExecute

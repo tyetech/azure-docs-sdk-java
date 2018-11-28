@@ -90,7 +90,7 @@ references:
   nameWithType: BuildStep.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update extends BuildStep.UpdateStages.WithBranch,BuildStep.UpdateStages.WithContext,BuildStep.UpdateStages.WithDockerFilePath,BuildStep.UpdateStages.WithImageNames,BuildStep.UpdateStages.WithImageCache,BuildStep.UpdateStages.WithImagePush,BuildStep.UpdateStages.WithBuildArgument,Appliable<BuildStep>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImageCacheEnabled()
@@ -100,10 +100,7 @@ references:
   nameWithType: BuildStepImpl.withImageCacheEnabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImageCacheEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withImageCacheEnabled()
     return:
@@ -116,10 +113,7 @@ references:
   nameWithType: BuildStepImpl.withImageCacheDisabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImageCacheDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withImageCacheDisabled()
     return:

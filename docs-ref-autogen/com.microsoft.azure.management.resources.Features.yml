@@ -170,10 +170,7 @@ references:
   nameWithType: SupportsListing<T>.list()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.list()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<T> list()
     return:
@@ -186,10 +183,7 @@ references:
   nameWithType: SupportsListing<T>.listAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listAsync()
     return:
@@ -202,12 +196,7 @@ references:
   nameWithType: SupportsListing<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>
   type: Interface
-  summary: >-
-    <p>Provides access to listing Azure resources of a specific type in a subscription. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code)</p>
-
-    <p></p>
+  summary: "<p>Provides access to listing Azure resources of a specific type in a subscription. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code)</p>\r\n<p></p>"
   syntax:
     content: public interface SupportsListing<T>
     typeParameters:
@@ -221,6 +210,6 @@ references:
   nameWithType: Feature
   fullName: com.microsoft.azure.management.resources.Feature
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure feature. </p>
+  summary: "<p>An immutable client-side representation of an Azure feature. </p>"
   syntax:
     content: public interface Feature extends Indexable,HasInner<FeatureResultInner>,HasName

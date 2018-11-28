@@ -35,7 +35,7 @@ references:
   nameWithType: Asset.DefinitionStages.WithAlternateId.withAlternateId(String alternateId)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithAlternateId.withAlternateId(String alternateId)
   type: Method
-  summary: <p>Specifies alternateId. </p>
+  summary: "<p>Specifies alternateId. </p>"
   syntax:
     content: public WithCreate withAlternateId(String alternateId)
     parameters:
@@ -50,7 +50,7 @@ references:
   nameWithType: Asset.DefinitionStages.WithContainer.withContainer(String container)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithContainer.withContainer(String container)
   type: Method
-  summary: <p>Specifies container. </p>
+  summary: "<p>Specifies container. </p>"
   syntax:
     content: public WithCreate withContainer(String container)
     parameters:
@@ -65,7 +65,7 @@ references:
   nameWithType: Asset.DefinitionStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithDescription.withDescription(String description)
   type: Method
-  summary: <p>Specifies description. </p>
+  summary: "<p>Specifies description. </p>"
   syntax:
     content: public WithCreate withDescription(String description)
     parameters:
@@ -80,7 +80,7 @@ references:
   nameWithType: Asset.DefinitionStages.WithMediaservice.withExistingMediaservice(String resourceGroupName, String accountName)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithMediaservice.withExistingMediaservice(String resourceGroupName, String accountName)
   type: Method
-  summary: <p>Specifies resourceGroupName, accountName. </p>
+  summary: "<p>Specifies resourceGroupName, accountName. </p>"
   syntax:
     content: public WithCreate withExistingMediaservice(String resourceGroupName, String accountName)
     parameters:
@@ -97,7 +97,7 @@ references:
   nameWithType: Asset.DefinitionStages.WithStorageAccountName.withStorageAccountName(String storageAccountName)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithStorageAccountName.withStorageAccountName(String storageAccountName)
   type: Method
-  summary: <p>Specifies storageAccountName. </p>
+  summary: "<p>Specifies storageAccountName. </p>"
   syntax:
     content: public WithCreate withStorageAccountName(String storageAccountName)
     parameters:
@@ -112,7 +112,7 @@ references:
   nameWithType: Asset.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a Asset definition. </p>
+  summary: "<p>The first stage of a Asset definition. </p>"
   syntax:
     content: public interface Blank extends Asset.DefinitionStages.WithMediaservice
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithMediaservice
@@ -122,7 +122,7 @@ references:
   nameWithType: Asset.DefinitionStages.WithMediaservice
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithMediaservice
   type: Interface
-  summary: <p>The stage of the asset definition allowing to specify Mediaservice. </p>
+  summary: "<p>The stage of the asset definition allowing to specify Mediaservice. </p>"
   syntax:
     content: public interface WithMediaservice
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithCreate
@@ -132,6 +132,6 @@ references:
   nameWithType: Asset.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Asset.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

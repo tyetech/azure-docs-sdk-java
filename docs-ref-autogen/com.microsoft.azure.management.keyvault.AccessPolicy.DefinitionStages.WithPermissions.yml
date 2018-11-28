@@ -248,10 +248,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the access policy definition. </p>
-
-    <p>At this stage, more permissions can be added or application ID can be specified, or the access policy definition can be attached to the parent key vault definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the access policy definition. </p>\r\n<p>At this stage, more permissions can be added or application ID can be specified, or the access policy definition can be attached to the parent key vault definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdate,AccessPolicy.DefinitionStages.WithPermissions<ParentT>
     typeParameters:
@@ -265,7 +262,7 @@ references:
   nameWithType: KeyPermissions
   fullName: com.microsoft.azure.management.keyvault.KeyPermissions
   type: Class
-  summary: <p>Defines values for KeyPermissions. </p>
+  summary: "<p>Defines values for KeyPermissions. </p>"
   syntax:
     content: public class KeyPermissions
 - uid: com.microsoft.azure.management.keyvault.SecretPermissions
@@ -275,6 +272,6 @@ references:
   nameWithType: SecretPermissions
   fullName: com.microsoft.azure.management.keyvault.SecretPermissions
   type: Class
-  summary: <p>Defines values for SecretPermissions. </p>
+  summary: "<p>Defines values for SecretPermissions. </p>"
   syntax:
     content: public class SecretPermissions

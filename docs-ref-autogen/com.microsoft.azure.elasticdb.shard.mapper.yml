@@ -32,7 +32,7 @@ references:
   nameWithType: BaseShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.BaseShardMapper
   type: Class
-  summary: <p>Base class for keyed mappers. </p>
+  summary: "<p>Base class for keyed mappers. </p>"
   syntax:
     content: public class BaseShardMapper
 - uid: com.microsoft.azure.elasticdb.shard.mapper.ConnectionOptions
@@ -51,7 +51,7 @@ references:
   nameWithType: DefaultShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.DefaultShardMapper
   type: Class
-  summary: <p>Default shard mapper, that basically is a container of shards with no keys. </p>
+  summary: "<p>Default shard mapper, that basically is a container of shards with no keys. </p>"
   syntax:
     content: public class DefaultShardMapper extends BaseShardMapper implements IShardMapper<Shard, Shard>
 - uid: com.microsoft.azure.elasticdb.shard.mapper.IShardMapper
@@ -61,7 +61,7 @@ references:
   nameWithType: IShardMapper<MappingT,ValueT>
   fullName: com.microsoft.azure.elasticdb.shard.mapper.IShardMapper<MappingT,ValueT>
   type: Interface
-  summary: <p>Container for a collection of keys to shards mappings. </p>
+  summary: "<p>Container for a collection of keys to shards mappings. </p>"
   syntax:
     content: public interface IShardMapper<MappingT extends IShardProvider,ValueT>
     typeParameters:
@@ -76,10 +76,7 @@ references:
   nameWithType: ListShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.ListShardMapper
   type: Class
-  summary: >-
-    <p>Mapper from single keys (points) to their corresponding shards.</p>
-
-    <p></p>
+  summary: "<p>Mapper from single keys (points) to their corresponding shards.</p>\r\n<p></p>"
   syntax:
     content: public class ListShardMapper extends BaseShardMapper implements IShardMapper<PointMapping, Object>
 - uid: com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper
@@ -89,9 +86,6 @@ references:
   nameWithType: RangeShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper
   type: Class
-  summary: >-
-    <p>Mapper from a range of keys to their corresponding shards.</p>
-
-    <p></p>
+  summary: "<p>Mapper from a range of keys to their corresponding shards.</p>\r\n<p></p>"
   syntax:
     content: public class RangeShardMapper extends BaseShardMapper implements IShardMapper<RangeMapping, Object>

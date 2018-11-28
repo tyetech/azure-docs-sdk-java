@@ -157,7 +157,7 @@ references:
   nameWithType: WorkspacesInner
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in Workspaces. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in Workspaces. </p>"
   syntax:
     content: public class WorkspacesInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
@@ -167,7 +167,7 @@ references:
   nameWithType: RegistriesInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in Registries. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in Registries. </p>"
   syntax:
     content: public class RegistriesInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
@@ -177,7 +177,7 @@ references:
   nameWithType: ContainerServicesInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in ContainerServices. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in ContainerServices. </p>"
   syntax:
     content: public class ContainerServicesInner implements InnerSupportsGet<ContainerServiceInner>,InnerSupportsDelete<Void>,InnerSupportsListing<ContainerServiceInner>
 - uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
@@ -187,7 +187,7 @@ references:
   nameWithType: ManagedClustersInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in ManagedClusters. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in ManagedClusters. </p>"
   syntax:
     content: public class ManagedClustersInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.getByResourceGroup(String,String)
@@ -197,10 +197,7 @@ references:
   nameWithType: ContainerServicesInner.getByResourceGroup(String resourceGroupName, String containerServiceName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.getByResourceGroup(String resourceGroupName, String containerServiceName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified container service. Gets the properties of the specified container service in the specified subscription and resource group. The operation returns the properties including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified container service. Gets the properties of the specified container service in the specified subscription and resource group. The operation returns the properties including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>\r\n<p></p>"
   syntax:
     content: public ContainerServiceInner getByResourceGroup(String resourceGroupName, String containerServiceName)
     parameters:
@@ -220,10 +217,7 @@ references:
   nameWithType: RegistriesInner.getByResourceGroup(String resourceGroupName, String registryName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.getByResourceGroup(String resourceGroupName, String registryName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified container registry.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified container registry.</p>\r\n<p></p>"
   syntax:
     content: public RegistryInner getByResourceGroup(String resourceGroupName, String registryName)
     parameters:
@@ -243,10 +237,7 @@ references:
   nameWithType: ManagedClustersInner.getByResourceGroup(String resourceGroupName, String resourceName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.getByResourceGroup(String resourceGroupName, String resourceName)
   type: Method
-  summary: >-
-    <p>Gets a managed cluster. Gets the details of the managed cluster with a specified resource group and name.</p>
-
-    <p></p>
+  summary: "<p>Gets a managed cluster. Gets the details of the managed cluster with a specified resource group and name.</p>\r\n<p></p>"
   syntax:
     content: public ManagedClusterInner getByResourceGroup(String resourceGroupName, String resourceName)
     parameters:
@@ -266,10 +257,7 @@ references:
   nameWithType: WorkspacesInner.getByResourceGroup(String resourceGroupName, String workspaceName)
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.getByResourceGroup(String resourceGroupName, String workspaceName)
   type: Method
-  summary: >-
-    <p>Gets information about a Workspace.</p>
-
-    <p></p>
+  summary: "<p>Gets information about a Workspace.</p>\r\n<p></p>"
   syntax:
     content: public WorkspaceInner getByResourceGroup(String resourceGroupName, String workspaceName)
     parameters:
@@ -289,10 +277,7 @@ references:
   nameWithType: ContainerServicesInner.getByResourceGroupAsync(String resourceGroupName, String containerServiceName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.getByResourceGroupAsync(String resourceGroupName, String containerServiceName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified container service. Gets the properties of the specified container service in the specified subscription and resource group. The operation returns the properties including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified container service. Gets the properties of the specified container service in the specified subscription and resource group. The operation returns the properties including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>\r\n<p></p>"
   syntax:
     content: public Observable<ContainerServiceInner> getByResourceGroupAsync(String resourceGroupName, String containerServiceName)
     parameters:
@@ -312,10 +297,7 @@ references:
   nameWithType: RegistriesInner.getByResourceGroupAsync(String resourceGroupName, String registryName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.getByResourceGroupAsync(String resourceGroupName, String registryName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified container registry.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<RegistryInner> getByResourceGroupAsync(String resourceGroupName, String registryName)
     parameters:
@@ -335,10 +317,7 @@ references:
   nameWithType: ManagedClustersInner.getByResourceGroupAsync(String resourceGroupName, String resourceName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.getByResourceGroupAsync(String resourceGroupName, String resourceName)
   type: Method
-  summary: >-
-    <p>Gets a managed cluster. Gets the details of the managed cluster with a specified resource group and name.</p>
-
-    <p></p>
+  summary: "<p>Gets a managed cluster. Gets the details of the managed cluster with a specified resource group and name.</p>\r\n<p></p>"
   syntax:
     content: public Observable<ManagedClusterInner> getByResourceGroupAsync(String resourceGroupName, String resourceName)
     parameters:
@@ -358,10 +337,7 @@ references:
   nameWithType: WorkspacesInner.getByResourceGroupAsync(String resourceGroupName, String workspaceName)
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.getByResourceGroupAsync(String resourceGroupName, String workspaceName)
   type: Method
-  summary: >-
-    <p>Gets information about a Workspace.</p>
-
-    <p></p>
+  summary: "<p>Gets information about a Workspace.</p>\r\n<p></p>"
   syntax:
     content: public Observable<WorkspaceInner> getByResourceGroupAsync(String resourceGroupName, String workspaceName)
     parameters:

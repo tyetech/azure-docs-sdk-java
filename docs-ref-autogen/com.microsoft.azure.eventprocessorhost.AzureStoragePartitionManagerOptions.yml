@@ -123,7 +123,7 @@ references:
   nameWithType: PartitionManagerOptions.DefaultCheckpointTimeoutInSeconds
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.DefaultCheckpointTimeoutInSeconds
   type: Field
-  summary: <p>The default timeout for checkpoint operations. </p>
+  summary: "<p>The default timeout for checkpoint operations. </p>"
   syntax:
     content: public static final int DefaultCheckpointTimeoutInSeconds= 120
     return:
@@ -146,7 +146,7 @@ references:
   nameWithType: PartitionManagerOptions.DefaultLeaseDurationInSeconds
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.DefaultLeaseDurationInSeconds
   type: Field
-  summary: <p>The default duration after which a partition lease will expire unless renewed. </p>
+  summary: "<p>The default duration after which a partition lease will expire unless renewed. </p>"
   syntax:
     content: public static final int DefaultLeaseDurationInSeconds= 30
     return:
@@ -158,7 +158,7 @@ references:
   nameWithType: PartitionManagerOptions.DefaultLeaseRenewIntervalInSeconds
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.DefaultLeaseRenewIntervalInSeconds
   type: Field
-  summary: <p>The default duration between lease renewals. </p>
+  summary: "<p>The default duration between lease renewals. </p>"
   syntax:
     content: public static final int DefaultLeaseRenewIntervalInSeconds= 10
     return:
@@ -203,10 +203,7 @@ references:
   nameWithType: PartitionManagerOptions.getCheckpointTimeoutInSeconds()
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.getCheckpointTimeoutInSeconds()
   type: Method
-  summary: >-
-    <p>Gets the timeout for checkpoint operations. Defaults to DefaultCheckpointTimeoutInSeconds.</p>
-
-    <p></p>
+  summary: "<p>Gets the timeout for checkpoint operations. Defaults to DefaultCheckpointTimeoutInSeconds.</p>\r\n<p></p>"
   syntax:
     content: public int getCheckpointTimeoutInSeconds()
     return:
@@ -219,12 +216,7 @@ references:
   nameWithType: PartitionManagerOptions.getFastScanIntervalInSeconds()
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.getFastScanIntervalInSeconds()
   type: Method
-  summary: >-
-    <p>There are two possible interval times between scans for available partitions, fast and slow. The fast (short) interval is used after a scan in which lease stealing has occurred, to promote quicker rebalancing.</p>
-
-    <p>Defaults to DefaultFastScanIntervalInSeconds.</p>
-
-    <p></p>
+  summary: "<p>There are two possible interval times between scans for available partitions, fast and slow. The fast (short) interval is used after a scan in which lease stealing has occurred, to promote quicker rebalancing.</p>\r\n<p>Defaults to DefaultFastScanIntervalInSeconds.</p>\r\n<p></p>"
   syntax:
     content: public int getFastScanIntervalInSeconds()
     return:
@@ -237,10 +229,7 @@ references:
   nameWithType: PartitionManagerOptions.getLeaseDurationInSeconds()
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.getLeaseDurationInSeconds()
   type: Method
-  summary: >-
-    <p>Gets the duration after which a partition lease will expire unless renewed. Defaults to DefaultLeaseDurationInSeconds.</p>
-
-    <p></p>
+  summary: "<p>Gets the duration after which a partition lease will expire unless renewed. Defaults to DefaultLeaseDurationInSeconds.</p>\r\n<p></p>"
   syntax:
     content: public int getLeaseDurationInSeconds()
     return:
@@ -253,10 +242,7 @@ references:
   nameWithType: PartitionManagerOptions.getLeaseRenewIntervalInSeconds()
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.getLeaseRenewIntervalInSeconds()
   type: Method
-  summary: >-
-    <p>Gets the duration between lease renewals. Defaults to DefaultLeaseRenewIntervalInSeconds.</p>
-
-    <p></p>
+  summary: "<p>Gets the duration between lease renewals. Defaults to DefaultLeaseRenewIntervalInSeconds.</p>\r\n<p></p>"
   syntax:
     content: public int getLeaseRenewIntervalInSeconds()
     return:
@@ -269,12 +255,7 @@ references:
   nameWithType: PartitionManagerOptions.getSlowScanIntervalInSeconds()
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.getSlowScanIntervalInSeconds()
   type: Method
-  summary: >-
-    <p>The slow (long) interval is used after a scan in which lease stealing did not occur, to reduce unnecessary scanning when the system is in steady state.</p>
-
-    <p>Defaults to DefaultSlowScanIntervalInSeconds.</p>
-
-    <p></p>
+  summary: "<p>The slow (long) interval is used after a scan in which lease stealing did not occur, to reduce unnecessary scanning when the system is in steady state.</p>\r\n<p>Defaults to DefaultSlowScanIntervalInSeconds.</p>\r\n<p></p>"
   syntax:
     content: public int getSlowScanIntervalInSeconds()
     return:
@@ -287,12 +268,7 @@ references:
   nameWithType: PartitionManagerOptions.getStartupScanDelayInSeconds()
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.getStartupScanDelayInSeconds()
   type: Method
-  summary: >-
-    <p>Gets the delay time between the first scan for available partitions and the second. This is part of a startup optimization which allows individual hosts to become visible to other hosts, and thereby get a more accurate count of the number of hosts in the system, before they try to estimate how many partitions they should own.</p>
-
-    <p>Defaults to DefaultStartupScanDelayInSeconds.</p>
-
-    <p></p>
+  summary: "<p>Gets the delay time between the first scan for available partitions and the second. This is part of a startup optimization which allows individual hosts to become visible to other hosts, and thereby get a more accurate count of the number of hosts in the system, before they try to estimate how many partitions they should own.</p>\r\n<p>Defaults to DefaultStartupScanDelayInSeconds.</p>\r\n<p></p>"
   syntax:
     content: public int getStartupScanDelayInSeconds()
     return:
@@ -336,10 +312,7 @@ references:
   nameWithType: PartitionManagerOptions.setCheckpointTimeoutInSeconds(int timeout)
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.setCheckpointTimeoutInSeconds(int timeout)
   type: Method
-  summary: >-
-    <p>Sets the timeout for checkpoint operations. Must be greater than 0.</p>
-
-    <p></p>
+  summary: "<p>Sets the timeout for checkpoint operations. Must be greater than 0.</p>\r\n<p></p>"
   syntax:
     content: public void setCheckpointTimeoutInSeconds(int timeout)
     parameters:
@@ -353,10 +326,7 @@ references:
   nameWithType: PartitionManagerOptions.setFastScanIntervalInSeconds(int interval)
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.setFastScanIntervalInSeconds(int interval)
   type: Method
-  summary: >-
-    <p>Sets the time for fast interval.</p>
-
-    <p></p>
+  summary: "<p>Sets the time for fast interval.</p>\r\n<p></p>"
   syntax:
     content: public void setFastScanIntervalInSeconds(int interval)
     parameters:
@@ -370,10 +340,7 @@ references:
   nameWithType: PartitionManagerOptions.setLeaseRenewIntervalInSeconds(int interval)
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.setLeaseRenewIntervalInSeconds(int interval)
   type: Method
-  summary: >-
-    <p>Sets the duration between lease renewals. Must be greater than 0 and less than the current lease duration.</p>
-
-    <p></p>
+  summary: "<p>Sets the duration between lease renewals. Must be greater than 0 and less than the current lease duration.</p>\r\n<p></p>"
   syntax:
     content: public void setLeaseRenewIntervalInSeconds(int interval)
     parameters:
@@ -387,10 +354,7 @@ references:
   nameWithType: PartitionManagerOptions.setSlowScanIntervalInSeconds(int interval)
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.setSlowScanIntervalInSeconds(int interval)
   type: Method
-  summary: >-
-    <p>Sets the time for slow interval.</p>
-
-    <p></p>
+  summary: "<p>Sets the time for slow interval.</p>\r\n<p></p>"
   syntax:
     content: public void setSlowScanIntervalInSeconds(int interval)
     parameters:
@@ -404,10 +368,7 @@ references:
   nameWithType: PartitionManagerOptions.setStartupScanDelayInSeconds(int delay)
   fullName: com.microsoft.azure.eventprocessorhost.PartitionManagerOptions.setStartupScanDelayInSeconds(int delay)
   type: Method
-  summary: >-
-    <p>Sets the delay time in seconds between the first scan and the second.</p>
-
-    <p></p>
+  summary: "<p>Sets the delay time in seconds between the first scan and the second.</p>\r\n<p></p>"
   syntax:
     content: public void setStartupScanDelayInSeconds(int delay)
     parameters:

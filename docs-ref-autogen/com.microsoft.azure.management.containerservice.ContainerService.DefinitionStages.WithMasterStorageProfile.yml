@@ -62,7 +62,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends ContainerService.DefinitionStages.WithMasterDnsPrefix,ContainerService.DefinitionStages.WithDiagnostics,ContainerService.DefinitionStages.WithMasterVMSize,ContainerService.DefinitionStages.WithMasterStorageProfile,ContainerService.DefinitionStages.WithMasterOSDiskSize,ContainerService.DefinitionStages.WithSubnet,Creatable<ContainerService>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterStorageProfile(ContainerServiceStorageProfileTypes)
@@ -72,10 +72,7 @@ references:
   nameWithType: ContainerServiceImpl.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   type: Method
-  summary: >-
-    <p>Specifies the storage kind to be used for every machine in master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage kind to be used for every machine in master pool.</p>\r\n<p></p>"
   syntax:
     content: public ContainerServiceImpl withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
     parameters:
@@ -92,6 +89,6 @@ references:
   nameWithType: ContainerServiceStorageProfileTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceStorageProfileTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceStorageProfileTypes. </p>
+  summary: "<p>Defines values for ContainerServiceStorageProfileTypes. </p>"
   syntax:
     content: public class ContainerServiceStorageProfileTypes

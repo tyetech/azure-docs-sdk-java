@@ -307,7 +307,7 @@ references:
   nameWithType: HasSubnet
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a subnet by its name and network's ID. </p>
+  summary: "<p>An interface representing a model's ability to reference a subnet by its name and network's ID. </p>"
   syntax:
     content: public interface HasSubnet
 - uid: com.microsoft.azure.management.network.model.HasPrivateIPAddress
@@ -317,7 +317,7 @@ references:
   nameWithType: HasPrivateIPAddress
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a private IP address. </p>
+  summary: "<p>An interface representing a model's ability to reference a private IP address. </p>"
   syntax:
     content: public interface HasPrivateIPAddress
 - uid: com.microsoft.azure.management.network.NicIPConfiguration
@@ -327,7 +327,7 @@ references:
   nameWithType: NicIPConfiguration
   fullName: com.microsoft.azure.management.network.NicIPConfiguration
   type: Interface
-  summary: <p>An IP configuration in a network interface. </p>
+  summary: "<p>An IP configuration in a network interface. </p>"
   syntax:
     content: public interface NicIPConfiguration extends NicIPConfigurationBase,HasInner<NetworkInterfaceIPConfigurationInner>,ChildResource<NetworkInterface>,HasPublicIPAddress
 - uid: com.microsoft.azure.management.network.VirtualMachineScaleSetNicIPConfiguration
@@ -337,7 +337,7 @@ references:
   nameWithType: VirtualMachineScaleSetNicIPConfiguration
   fullName: com.microsoft.azure.management.network.VirtualMachineScaleSetNicIPConfiguration
   type: Interface
-  summary: <p>An IP configuration in a network interface associated with a virtual machine scale set. </p>
+  summary: "<p>An IP configuration in a network interface associated with a virtual machine scale set. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetNicIPConfiguration
 - uid: com.microsoft.azure.management.network.Network
@@ -347,7 +347,7 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>
 - uid: com.microsoft.azure.management.network.NetworkSecurityGroup
@@ -357,7 +357,7 @@ references:
   nameWithType: NetworkSecurityGroup
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
   type: Interface
-  summary: <p>Network security group. </p>
+  summary: "<p>Network security group. </p>"
   syntax:
     content: public interface NetworkSecurityGroup extends GroupableResource<NetworkManager, NetworkSecurityGroupInner>,Refreshable<NetworkSecurityGroup>,Updatable<NetworkSecurityGroup.Update>,HasAssociatedSubnets
 - uid: com.microsoft.azure.management.network.IPVersion
@@ -367,7 +367,7 @@ references:
   nameWithType: IPVersion
   fullName: com.microsoft.azure.management.network.IPVersion
   type: Class
-  summary: <p>Defines values for IPVersion. </p>
+  summary: "<p>Defines values for IPVersion. </p>"
   syntax:
     content: public class IPVersion
 - uid: com.microsoft.azure.management.network.LoadBalancerBackend
@@ -377,7 +377,7 @@ references:
   nameWithType: LoadBalancerBackend
   fullName: com.microsoft.azure.management.network.LoadBalancerBackend
   type: Interface
-  summary: <p>A client-side representation of a load balancer backend address pool. </p>
+  summary: "<p>A client-side representation of a load balancer backend address pool. </p>"
   syntax:
     content: public interface LoadBalancerBackend extends HasInner<BackendAddressPoolInner>,ChildResource<LoadBalancer>,HasLoadBalancingRules,HasBackendNics
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule
@@ -387,7 +387,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule
   type: Interface
-  summary: <p>An immutable client-side representation of an inbound NAT rule. </p>
+  summary: "<p>An immutable client-side representation of an inbound NAT rule. </p>"
   syntax:
     content: public interface LoadBalancerInboundNatRule extends HasFrontend,HasBackendPort,HasProtocol<TransportProtocol>,HasFloatingIP,HasFrontendPort,HasInner<InboundNatRuleInner>,ChildResource<LoadBalancer>
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackend
@@ -397,6 +397,6 @@ references:
   nameWithType: ApplicationGatewayBackend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend
   type: Interface
-  summary: <p>A client-side representation of an application gateway backend. </p>
+  summary: "<p>A client-side representation of an application gateway backend. </p>"
   syntax:
     content: public interface ApplicationGatewayBackend extends HasInner<ApplicationGatewayBackendAddressPoolInner>,ChildResource<ApplicationGateway>,HasBackendNics

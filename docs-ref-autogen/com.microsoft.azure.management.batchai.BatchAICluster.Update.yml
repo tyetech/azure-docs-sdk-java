@@ -38,10 +38,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -70,10 +64,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -102,7 +93,7 @@ references:
   nameWithType: BatchAICluster.UpdateStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount)
   type: Method
-  summary: <p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>
+  summary: "<p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>"
   syntax:
     content: public Update withAutoScale(int minimumNodeCount, int maximumNodeCount)
     parameters:
@@ -122,7 +113,7 @@ references:
   nameWithType: BatchAICluster.UpdateStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount, int initialNodeCount)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount, int initialNodeCount)
   type: Method
-  summary: <p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>
+  summary: "<p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>"
   syntax:
     content: public Update withAutoScale(int minimumNodeCount, int maximumNodeCount, int initialNodeCount)
     parameters:
@@ -145,7 +136,7 @@ references:
   nameWithType: BatchAICluster.UpdateStages.WithScaleSettings.withManualScale(int targetNodeCount)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings.withManualScale(int targetNodeCount)
   type: Method
-  summary: <p>Specifies that cluster should be scaled by manual settings. </p>
+  summary: "<p>Specifies that cluster should be scaled by manual settings. </p>"
   syntax:
     content: public Update withManualScale(int targetNodeCount)
     parameters:
@@ -162,7 +153,7 @@ references:
   nameWithType: BatchAICluster.UpdateStages.WithScaleSettings.withManualScale(int targetNodeCount, DeallocationOption deallocationOption)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings.withManualScale(int targetNodeCount, DeallocationOption deallocationOption)
   type: Method
-  summary: <p>Specifies that cluster should be scaled by manual settings. </p>
+  summary: "<p>Specifies that cluster should be scaled by manual settings. </p>"
   syntax:
     content: public Update withManualScale(int targetNodeCount, DeallocationOption deallocationOption)
     parameters:
@@ -182,10 +173,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:

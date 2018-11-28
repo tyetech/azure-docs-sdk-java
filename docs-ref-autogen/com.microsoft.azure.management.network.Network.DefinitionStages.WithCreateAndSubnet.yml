@@ -42,10 +42,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -58,10 +55,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -78,10 +72,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -94,10 +85,7 @@ references:
   nameWithType: Network.DefinitionStages.WithSubnet.defineSubnet(String name)
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithSubnet.defineSubnet(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new subnet to add to the virtual network. </p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">Subnet.DefinitionStages.WithAttach#attach()</xref></p>
+  summary: "<p>Begins the definition of a new subnet to add to the virtual network. </p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">Subnet.DefinitionStages.WithAttach#attach()</xref></p>"
   syntax:
     content: public Subnet.DefinitionStages.Blank<WithCreateAndSubnet> defineSubnet(String name)
     parameters:
@@ -138,12 +126,7 @@ references:
   nameWithType: Network.DefinitionStages.WithCreate.withAddressSpace(String cidr)
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithCreate.withAddressSpace(String cidr)
   type: Method
-  summary: >-
-    <p>Explicitly adds an address space to the virtual network. </p>
-
-    <p>If no address spaces are explicitly specified, a default address space with the CIDR "10.0.0.0/16" will be assigned to the virtual network. </p>
-
-    <p>Note that this method's effect is additive, i.e. each time it is used, a new address space is added to the network. This method does not check for conflicts or overlaps with other address spaces. If there is a conflict, a cloud exception may be thrown at the time the network is created. </p>
+  summary: "<p>Explicitly adds an address space to the virtual network. </p>\r\n<p>If no address spaces are explicitly specified, a default address space with the CIDR \"10.0.0.0/16\" will be assigned to the virtual network. </p>\r\n<p>Note that this method's effect is additive, i.e. each time it is used, a new address space is added to the network. This method does not check for conflicts or overlaps with other address spaces. If there is a conflict, a cloud exception may be thrown at the time the network is created. </p>"
   syntax:
     content: public WithCreateAndSubnet withAddressSpace(String cidr)
     parameters:
@@ -160,10 +143,7 @@ references:
   nameWithType: Network.DefinitionStages.WithCreate.withDnsServer(String ipAddress)
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithCreate.withDnsServer(String ipAddress)
   type: Method
-  summary: >-
-    <p>Specifies the IP address of an existing DNS server to associate with the virtual network. </p>
-
-    <p>Note this method's effect is additive, i.e. each time it is used, a new dns server is added to the network. </p>
+  summary: "<p>Specifies the IP address of an existing DNS server to associate with the virtual network. </p>\r\n<p>Note this method's effect is additive, i.e. each time it is used, a new dns server is added to the network. </p>"
   syntax:
     content: public WithCreate withDnsServer(String ipAddress)
     parameters:
@@ -180,12 +160,7 @@ references:
   nameWithType: Network.DefinitionStages.WithSubnet.withSubnet(String name, String cidr)
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithSubnet.withSubnet(String name, String cidr)
   type: Method
-  summary: >-
-    <p>Explicitly adds a subnet to the virtual network. </p>
-
-    <p>If no subnets are explicitly specified, a default subnet called "subnet1" covering the entire first address space will be created. </p>
-
-    <p>Note this method's effect is additive, i.e. each time it is used, a new subnet is added to the network. </p>
+  summary: "<p>Explicitly adds a subnet to the virtual network. </p>\r\n<p>If no subnets are explicitly specified, a default subnet called \"subnet1\" covering the entire first address space will be created. </p>\r\n<p>Note this method's effect is additive, i.e. each time it is used, a new subnet is added to the network. </p>"
   syntax:
     content: public DefinitionStages.WithCreateAndSubnet withSubnet(String name, String cidr)
     parameters:
@@ -205,7 +180,7 @@ references:
   nameWithType: Network.DefinitionStages.WithSubnet.withSubnets(Map<String, String> nameCidrPairs)
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithSubnet.withSubnets(Map<String, String> nameCidrPairs)
   type: Method
-  summary: <p>Explicitly defines subnets in the virtual network based on the provided map. </p>
+  summary: "<p>Explicitly defines subnets in the virtual network based on the provided map. </p>"
   syntax:
     content: public DefinitionStages.WithCreateAndSubnet withSubnets(Map<String, String> nameCidrPairs)
     parameters:
@@ -222,7 +197,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -242,7 +217,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -259,10 +234,7 @@ references:
   nameWithType: Network.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithCreate
   type: Interface
-  summary: >-
-    <p>The stage of the virtual network definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified, except for adding subnets. </p>
-
-    <p>Subnets can be added only right after the address space is explicitly specified. </p>
+  summary: "<p>The stage of the virtual network definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified, except for adding subnets. </p>\r\n<p>Subnets can be added only right after the address space is explicitly specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<Network>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.network.Network.DefinitionStages.WithSubnet
@@ -272,7 +244,7 @@ references:
   nameWithType: Network.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>The stage of the virtual network definition allowing to add subnets. </p>
+  summary: "<p>The stage of the virtual network definition allowing to add subnets. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.network.Network.Definition
@@ -282,6 +254,6 @@ references:
   nameWithType: Network.Definition
   fullName: com.microsoft.azure.management.network.Network.Definition
   type: Interface
-  summary: <p>The entirety of the virtual network definition. </p>
+  summary: "<p>The entirety of the virtual network definition. </p>"
   syntax:
     content: public interface Definition extends Network.DefinitionStages.Blank,Network.DefinitionStages.WithGroup,Network.DefinitionStages.WithSubnet,Network.DefinitionStages.WithCreate,Network.DefinitionStages.WithCreateAndSubnet

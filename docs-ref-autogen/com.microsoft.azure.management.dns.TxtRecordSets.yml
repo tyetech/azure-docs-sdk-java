@@ -36,10 +36,7 @@ references:
   nameWithType: DnsRecordSets<RecordSetT>.list(String recordSetNameSuffix)
   fullName: com.microsoft.azure.management.dns.DnsRecordSets<RecordSetT>.list(String recordSetNameSuffix)
   type: Method
-  summary: >-
-    <p>Lists all the record sets with the given suffix.</p>
-
-    <p></p>
+  summary: "<p>Lists all the record sets with the given suffix.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<RecordSetT> list(String recordSetNameSuffix)
     parameters:
@@ -56,10 +53,7 @@ references:
   nameWithType: DnsRecordSets<RecordSetT>.list(int pageSize)
   fullName: com.microsoft.azure.management.dns.DnsRecordSets<RecordSetT>.list(int pageSize)
   type: Method
-  summary: >-
-    <p>Lists all the record sets, with number of entries in each page limited to given size.</p>
-
-    <p></p>
+  summary: "<p>Lists all the record sets, with number of entries in each page limited to given size.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<RecordSetT> list(int pageSize)
     parameters:
@@ -76,10 +70,7 @@ references:
   nameWithType: DnsRecordSets<RecordSetT>.list(String recordSetNameSuffix, int pageSize)
   fullName: com.microsoft.azure.management.dns.DnsRecordSets<RecordSetT>.list(String recordSetNameSuffix, int pageSize)
   type: Method
-  summary: >-
-    <p>Lists all the record sets with the given suffix, also limits the number of entries per page to the given page size.</p>
-
-    <p></p>
+  summary: "<p>Lists all the record sets with the given suffix, also limits the number of entries per page to the given page size.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<RecordSetT> list(String recordSetNameSuffix, int pageSize)
     parameters:
@@ -99,10 +90,7 @@ references:
   nameWithType: DnsRecordSets<RecordSetT>.listAsync(String recordSetNameSuffix)
   fullName: com.microsoft.azure.management.dns.DnsRecordSets<RecordSetT>.listAsync(String recordSetNameSuffix)
   type: Method
-  summary: >-
-    <p>Lists all the record sets with the given suffix.</p>
-
-    <p></p>
+  summary: "<p>Lists all the record sets with the given suffix.</p>\r\n<p></p>"
   syntax:
     content: public Observable<RecordSetT> listAsync(String recordSetNameSuffix)
     parameters:
@@ -119,10 +107,7 @@ references:
   nameWithType: DnsRecordSets<RecordSetT>.listAsync(int pageSize)
   fullName: com.microsoft.azure.management.dns.DnsRecordSets<RecordSetT>.listAsync(int pageSize)
   type: Method
-  summary: >-
-    <p>Lists all the record sets, with number of entries in each page limited to given size.</p>
-
-    <p></p>
+  summary: "<p>Lists all the record sets, with number of entries in each page limited to given size.</p>\r\n<p></p>"
   syntax:
     content: public Observable<RecordSetT> listAsync(int pageSize)
     parameters:
@@ -139,10 +124,7 @@ references:
   nameWithType: DnsRecordSets<RecordSetT>.listAsync(String recordSetNameSuffix, int pageSize)
   fullName: com.microsoft.azure.management.dns.DnsRecordSets<RecordSetT>.listAsync(String recordSetNameSuffix, int pageSize)
   type: Method
-  summary: >-
-    <p>Lists all the record sets with the given suffix, also limits the number of entries per page to the given page size.</p>
-
-    <p></p>
+  summary: "<p>Lists all the record sets with the given suffix, also limits the number of entries per page to the given page size.</p>\r\n<p></p>"
   syntax:
     content: public Observable<RecordSetT> listAsync(String recordSetNameSuffix, int pageSize)
     parameters:
@@ -162,10 +144,7 @@ references:
   nameWithType: DnsRecordSets<RecordSetT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSets<RecordSetT>
   type: Interface
-  summary: >-
-    <p>Base interface for all record sets.</p>
-
-    <p></p>
+  summary: "<p>Base interface for all record sets.</p>\r\n<p></p>"
   syntax:
     content: public interface DnsRecordSets<RecordSetT> extends SupportsListing<RecordSetT>,SupportsGettingByName<RecordSetT>,HasParent<DnsZone>
     typeParameters:

@@ -76,10 +76,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -92,10 +89,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -112,10 +106,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -128,7 +119,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithAuthentication<FluentT>.defineAuthentication()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAuthentication<FluentT>.defineAuthentication()
   type: Method
-  summary: <p>Specifies the definition of a new authentication configuration. </p>
+  summary: "<p>Specifies the definition of a new authentication configuration. </p>"
   syntax:
     content: public WebAppAuthentication.DefinitionStages.Blank<WithCreate<FluentT>> defineAuthentication()
     return:
@@ -141,7 +132,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>.defineHostnameBinding()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>.defineHostnameBinding()
   type: Method
-  summary: <p>Starts the definition of a new host name binding. </p>
+  summary: "<p>Starts the definition of a new host name binding. </p>"
   syntax:
     content: public HostNameBinding.DefinitionStages.Blank<WithCreate<FluentT>> defineHostnameBinding()
     return:
@@ -154,7 +145,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSourceControl<FluentT>.defineSourceControl()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSourceControl<FluentT>.defineSourceControl()
   type: Method
-  summary: <p>Starts the definition of a new source control. </p>
+  summary: "<p>Starts the definition of a new source control. </p>"
   syntax:
     content: public WebAppSourceControl.DefinitionStages.Blank<WithCreate<FluentT>> defineSourceControl()
     return:
@@ -167,7 +158,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithHostNameSslBinding<FluentT>.defineSslBinding()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameSslBinding<FluentT>.defineSslBinding()
   type: Method
-  summary: <p>Starts a definition of an SSL binding. </p>
+  summary: "<p>Starts a definition of an SSL binding. </p>"
   syntax:
     content: public HostNameSslBinding.DefinitionStages.Blank<WithCreate<FluentT>> defineSslBinding()
     return:
@@ -204,7 +195,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withAppSetting(String key, String value)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withAppSetting(String key, String value)
   type: Method
-  summary: <p>Adds an app setting to the web app. </p>
+  summary: "<p>Adds an app setting to the web app. </p>"
   syntax:
     content: public WithCreate<FluentT> withAppSetting(String key, String value)
     parameters:
@@ -224,7 +215,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withAppSettings(Map<String, String> settings)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withAppSettings(Map<String, String> settings)
   type: Method
-  summary: <p>Specifies the app settings for the web app as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies the app settings for the web app as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public WithCreate<FluentT> withAppSettings(Map<String, String> settings)
     parameters:
@@ -241,7 +232,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withAutoSwapSlotName(String slotName)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withAutoSwapSlotName(String slotName)
   type: Method
-  summary: <p>Specifies the slot name to auto-swap when a deployment is completed in this web app / deployment slot. </p>
+  summary: "<p>Specifies the slot name to auto-swap when a deployment is completed in this web app / deployment slot. </p>"
   syntax:
     content: public WithCreate<FluentT> withAutoSwapSlotName(String slotName)
     parameters:
@@ -258,7 +249,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithClientAffinityEnabled<FluentT>.withClientAffinityEnabled(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientAffinityEnabled<FluentT>.withClientAffinityEnabled(boolean enabled)
   type: Method
-  summary: <p>Specifies if client affinity is enabled. </p>
+  summary: "<p>Specifies if client affinity is enabled. </p>"
   syntax:
     content: public WithCreate<FluentT> withClientAffinityEnabled(boolean enabled)
     parameters:
@@ -275,7 +266,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithClientCertEnabled<FluentT>.withClientCertEnabled(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientCertEnabled<FluentT>.withClientCertEnabled(boolean enabled)
   type: Method
-  summary: <p>Specifies if client cert is enabled. </p>
+  summary: "<p>Specifies if client cert is enabled. </p>"
   syntax:
     content: public WithCreate<FluentT> withClientCertEnabled(boolean enabled)
     parameters:
@@ -292,7 +283,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithConnectionString<FluentT>.withConnectionString(String name, String value, ConnectionStringType type)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithConnectionString<FluentT>.withConnectionString(String name, String value, ConnectionStringType type)
   type: Method
-  summary: <p>Adds a connection string to the web app. </p>
+  summary: "<p>Adds a connection string to the web app. </p>"
   syntax:
     content: public WithCreate<FluentT> withConnectionString(String name, String value, ConnectionStringType type)
     parameters:
@@ -315,7 +306,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withDefaultDocument(String document)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withDefaultDocument(String document)
   type: Method
-  summary: <p>Adds a default document. </p>
+  summary: "<p>Adds a default document. </p>"
   syntax:
     content: public WithCreate<FluentT> withDefaultDocument(String document)
     parameters:
@@ -332,7 +323,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withDefaultDocuments(List<String> documents)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withDefaultDocuments(List<String> documents)
   type: Method
-  summary: <p>Adds a list of default documents. </p>
+  summary: "<p>Adds a list of default documents. </p>"
   syntax:
     content: public WithCreate<FluentT> withDefaultDocuments(List<String> documents)
     parameters:
@@ -349,7 +340,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withJavaVersion(JavaVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withJavaVersion(JavaVersion version)
   type: Method
-  summary: <p>Specifies the Java version. </p>
+  summary: "<p>Specifies the Java version. </p>"
   syntax:
     content: public WithWebContainer<FluentT> withJavaVersion(JavaVersion version)
     parameters:
@@ -366,7 +357,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSourceControl<FluentT>.withLocalGitSourceControl()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSourceControl<FluentT>.withLocalGitSourceControl()
   type: Method
-  summary: <p>Specifies the source control to be a local Git repository on the web app. </p>
+  summary: "<p>Specifies the source control to be a local Git repository on the web app. </p>"
   syntax:
     content: public WithCreate<FluentT> withLocalGitSourceControl()
     return:
@@ -379,7 +370,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>.withManagedHostnameBindings(AppServiceDomain domain, String... hostnames)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>.withManagedHostnameBindings(AppServiceDomain domain, String... hostnames)
   type: Method
-  summary: <p>Defines a list of host names of an Azure managed domain. The DNS record type is defaulted to be CNAME except for the root level domain ("@"). </p>
+  summary: "<p>Defines a list of host names of an Azure managed domain. The DNS record type is defaulted to be CNAME except for the root level domain (\"@\"). </p>"
   syntax:
     content: public WithCreate<FluentT> withManagedHostnameBindings(AppServiceDomain domain, String... hostnames)
     parameters:
@@ -399,7 +390,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withManagedPipelineMode(ManagedPipelineMode managedPipelineMode)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withManagedPipelineMode(ManagedPipelineMode managedPipelineMode)
   type: Method
-  summary: <p>Specifies the managed pipeline mode. </p>
+  summary: "<p>Specifies the managed pipeline mode. </p>"
   syntax:
     content: public WithCreate<FluentT> withManagedPipelineMode(ManagedPipelineMode managedPipelineMode)
     parameters:
@@ -416,7 +407,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withNetFrameworkVersion(NetFrameworkVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withNetFrameworkVersion(NetFrameworkVersion version)
   type: Method
-  summary: <p>Specifies the .NET Framework version. </p>
+  summary: "<p>Specifies the .NET Framework version. </p>"
   syntax:
     content: public WithCreate<FluentT> withNetFrameworkVersion(NetFrameworkVersion version)
     parameters:
@@ -433,7 +424,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutDefaultDocument(String document)
   type: Method
-  summary: <p>Removes a default document. </p>
+  summary: "<p>Removes a default document. </p>"
   syntax:
     content: public WithCreate<FluentT> withoutDefaultDocument(String document)
     parameters:
@@ -450,7 +441,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutPhp()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withoutPhp()
   type: Method
-  summary: <p>Turn off PHP support. </p>
+  summary: "<p>Turn off PHP support. </p>"
   syntax:
     content: public WithCreate<FluentT> withoutPhp()
     return:
@@ -463,7 +454,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withPhpVersion(PhpVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withPhpVersion(PhpVersion version)
   type: Method
-  summary: <p>Specifies the PHP version. </p>
+  summary: "<p>Specifies the PHP version. </p>"
   syntax:
     content: public WithCreate<FluentT> withPhpVersion(PhpVersion version)
     parameters:
@@ -480,7 +471,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withPlatformArchitecture(PlatformArchitecture platform)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withPlatformArchitecture(PlatformArchitecture platform)
   type: Method
-  summary: <p>Specifies the platform architecture to use. </p>
+  summary: "<p>Specifies the platform architecture to use. </p>"
   syntax:
     content: public WithCreate<FluentT> withPlatformArchitecture(PlatformArchitecture platform)
     parameters:
@@ -497,7 +488,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withPythonVersion(PythonVersion version)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withPythonVersion(PythonVersion version)
   type: Method
-  summary: <p>Specifies the Python version. </p>
+  summary: "<p>Specifies the Python version. </p>"
   syntax:
     content: public WithCreate<FluentT> withPythonVersion(PythonVersion version)
     parameters:
@@ -514,7 +505,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withRemoteDebuggingDisabled()
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withRemoteDebuggingDisabled()
   type: Method
-  summary: <p>Disables remote debugging. </p>
+  summary: "<p>Disables remote debugging. </p>"
   syntax:
     content: public WithCreate<FluentT> withRemoteDebuggingDisabled()
     return:
@@ -527,7 +518,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withRemoteDebuggingEnabled(RemoteVisualStudioVersion remoteVisualStudioVersion)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withRemoteDebuggingEnabled(RemoteVisualStudioVersion remoteVisualStudioVersion)
   type: Method
-  summary: <p>Specifies the Visual Studio version for remote debugging. </p>
+  summary: "<p>Specifies the Visual Studio version for remote debugging. </p>"
   syntax:
     content: public WithCreate<FluentT> withRemoteDebuggingEnabled(RemoteVisualStudioVersion remoteVisualStudioVersion)
     parameters:
@@ -544,7 +535,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithScmSiteAlsoStopped<FluentT>.withScmSiteAlsoStopped(boolean scmSiteAlsoStopped)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithScmSiteAlsoStopped<FluentT>.withScmSiteAlsoStopped(boolean scmSiteAlsoStopped)
   type: Method
-  summary: <p>Specifies if SCM site is also stopped when the web app is stopped. </p>
+  summary: "<p>Specifies if SCM site is also stopped when the web app is stopped. </p>"
   syntax:
     content: public WithCreate<FluentT> withScmSiteAlsoStopped(boolean scmSiteAlsoStopped)
     parameters:
@@ -561,7 +552,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withStickyAppSetting(String key, String value)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withStickyAppSetting(String key, String value)
   type: Method
-  summary: <p>Adds an app setting to the web app. This app setting will be swapped as well after a deployment slot swap. </p>
+  summary: "<p>Adds an app setting to the web app. This app setting will be swapped as well after a deployment slot swap. </p>"
   syntax:
     content: public WithCreate<FluentT> withStickyAppSetting(String key, String value)
     parameters:
@@ -581,7 +572,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withStickyAppSettings(Map<String, String> settings)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAppSettings<FluentT>.withStickyAppSettings(Map<String, String> settings)
   type: Method
-  summary: <p>Specifies the app settings for the web app as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. These app settings will be swapped as well after a deployment slot swap. </p>
+  summary: "<p>Specifies the app settings for the web app as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. These app settings will be swapped as well after a deployment slot swap. </p>"
   syntax:
     content: public WithCreate<FluentT> withStickyAppSettings(Map<String, String> settings)
     parameters:
@@ -598,7 +589,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithConnectionString<FluentT>.withStickyConnectionString(String name, String value, ConnectionStringType type)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithConnectionString<FluentT>.withStickyConnectionString(String name, String value, ConnectionStringType type)
   type: Method
-  summary: <p>Adds a connection string to the web app. This connection string will be swapped as well after a deployment slot swap. </p>
+  summary: "<p>Adds a connection string to the web app. This connection string will be swapped as well after a deployment slot swap. </p>"
   syntax:
     content: public WithCreate<FluentT> withStickyConnectionString(String name, String value, ConnectionStringType type)
     parameters:
@@ -621,7 +612,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -641,7 +632,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -658,7 +649,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>.withThirdPartyHostnameBinding(String domain, String... hostnames)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>.withThirdPartyHostnameBinding(String domain, String... hostnames)
   type: Method
-  summary: <p>Defines a list of host names of an externally purchased domain. The hostnames must be configured before hand to point to the web app. </p>
+  summary: "<p>Defines a list of host names of an externally purchased domain. The hostnames must be configured before hand to point to the web app. </p>"
   syntax:
     content: public WithCreate<FluentT> withThirdPartyHostnameBinding(String domain, String... hostnames)
     parameters:
@@ -678,7 +669,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withWebAppAlwaysOn(boolean alwaysOn)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withWebAppAlwaysOn(boolean alwaysOn)
   type: Method
-  summary: <p>Specifies if the VM powering the web app is always powered on. </p>
+  summary: "<p>Specifies if the VM powering the web app is always powered on. </p>"
   syntax:
     content: public WithCreate<FluentT> withWebAppAlwaysOn(boolean alwaysOn)
     parameters:
@@ -695,7 +686,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withWebSocketsEnabled(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>.withWebSocketsEnabled(boolean enabled)
   type: Method
-  summary: <p>Specifies if web sockets are enabled. </p>
+  summary: "<p>Specifies if web sockets are enabled. </p>"
   syntax:
     content: public WithCreate<FluentT> withWebSocketsEnabled(boolean enabled)
     parameters:
@@ -712,10 +703,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -729,10 +717,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -746,7 +731,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithClientAffinityEnabled<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientAffinityEnabled<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing setting if client affinity is enabled. </p>
+  summary: "<p>A web app definition stage allowing setting if client affinity is enabled. </p>"
   syntax:
     content: public interface WithClientAffinityEnabled<FluentT>
     typeParameters:
@@ -760,7 +745,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithClientCertEnabled<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientCertEnabled<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing setting if client cert is enabled. </p>
+  summary: "<p>A web app definition stage allowing setting if client cert is enabled. </p>"
   syntax:
     content: public interface WithClientCertEnabled<FluentT>
     typeParameters:
@@ -774,7 +759,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithScmSiteAlsoStopped<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithScmSiteAlsoStopped<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing setting if SCM site is also stopped when the web app is stopped. </p>
+  summary: "<p>A web app definition stage allowing setting if SCM site is also stopped when the web app is stopped. </p>"
   syntax:
     content: public interface WithScmSiteAlsoStopped<FluentT>
     typeParameters:
@@ -788,7 +773,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing other configurations to be set. These configurations can be cloned when creating or swapping with a deployment slot. </p>
+  summary: "<p>A web app definition stage allowing other configurations to be set. These configurations can be cloned when creating or swapping with a deployment slot. </p>"
   syntax:
     content: public interface WithSiteConfigs<FluentT>
     typeParameters:
@@ -802,7 +787,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithAppSettings<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAppSettings<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing app settings to be set. </p>
+  summary: "<p>A web app definition stage allowing app settings to be set. </p>"
   syntax:
     content: public interface WithAppSettings<FluentT>
     typeParameters:
@@ -816,7 +801,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithConnectionString<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithConnectionString<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing connection strings to be set. </p>
+  summary: "<p>A web app definition stage allowing connection strings to be set. </p>"
   syntax:
     content: public interface WithConnectionString<FluentT>
     typeParameters:
@@ -830,7 +815,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithSourceControl<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSourceControl<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing source control to be set. </p>
+  summary: "<p>A web app definition stage allowing source control to be set. </p>"
   syntax:
     content: public interface WithSourceControl<FluentT>
     typeParameters:
@@ -844,7 +829,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameBinding<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing host name binding to be specified. </p>
+  summary: "<p>A web app definition stage allowing host name binding to be specified. </p>"
   syntax:
     content: public interface WithHostNameBinding<FluentT>
     typeParameters:
@@ -858,7 +843,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithHostNameSslBinding<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameSslBinding<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing SSL binding to be set. </p>
+  summary: "<p>A web app definition stage allowing SSL binding to be set. </p>"
   syntax:
     content: public interface WithHostNameSslBinding<FluentT>
     typeParameters:
@@ -872,7 +857,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithAuthentication<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAuthentication<FluentT>
   type: Interface
-  summary: <p>A web app definition stage allowing authentication to be set. </p>
+  summary: "<p>A web app definition stage allowing authentication to be set. </p>"
   syntax:
     content: public interface WithAuthentication<FluentT>
     typeParameters:
@@ -886,10 +871,7 @@ references:
   nameWithType: WebAppBase.Definition<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.Definition<FluentT>
   type: Interface
-  summary: >-
-    <p>The entirety of the web app base definition.</p>
-
-    <p></p>
+  summary: "<p>The entirety of the web app base definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<FluentT> extends WebAppBase.DefinitionStages.WithWebContainer<FluentT>,WebAppBase.DefinitionStages.WithCreate<FluentT>
     typeParameters:

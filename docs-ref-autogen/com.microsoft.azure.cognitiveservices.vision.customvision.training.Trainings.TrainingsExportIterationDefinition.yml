@@ -36,10 +36,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public Export execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Export> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithAllOptions.withFlavor(String flavor)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithAllOptions.withFlavor(String flavor)
   type: Method
-  summary: >-
-    <p>The flavor of the target platform (Windows, Linux, ARM, or GPU). Possible values include: 'Linux', 'Windows'.</p>
-
-    <p></p>
+  summary: "<p>The flavor of the target platform (Windows, Linux, ARM, or GPU). Possible values include: 'Linux', 'Windows'.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsExportIterationDefinitionStages.WithExecute withFlavor(String flavor)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithIterationId.withIterationId(UUID iterationId)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId.withIterationId(UUID iterationId)
   type: Method
-  summary: >-
-    <p>The iteration id.</p>
-
-    <p></p>
+  summary: "<p>The iteration id.</p>\r\n<p></p>"
   syntax:
     content: public WithPlatform withIterationId(UUID iterationId)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithPlatform.withPlatform(String platform)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform.withPlatform(String platform)
   type: Method
-  summary: >-
-    <p>The target platform (coreml or tensorflow). Possible values include: 'CoreML', 'TensorFlow', 'DockerFile', 'ONNX'.</p>
-
-    <p></p>
+  summary: "<p>The target platform (coreml or tensorflow). Possible values include: 'CoreML', 'TensorFlow', 'DockerFile', 'ONNX'.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsExportIterationDefinitionStages.WithExecute withPlatform(String platform)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithProjectId.withProjectId(UUID projectId)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithProjectId.withProjectId(UUID projectId)
   type: Method
-  summary: >-
-    <p>The project id.</p>
-
-    <p></p>
+  summary: "<p>The project id.</p>\r\n<p></p>"
   syntax:
     content: public WithIterationId withProjectId(UUID projectId)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithProjectId
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithProjectId
   type: Interface
-  summary: <p>The stage of the definition to be specify projectId. </p>
+  summary: "<p>The stage of the definition to be specify projectId. </p>"
   syntax:
     content: public interface WithProjectId
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId
@@ -154,7 +136,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithIterationId
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId
   type: Interface
-  summary: <p>The stage of the definition to be specify iterationId. </p>
+  summary: "<p>The stage of the definition to be specify iterationId. </p>"
   syntax:
     content: public interface WithIterationId
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform
@@ -164,7 +146,7 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithPlatform
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform
   type: Interface
-  summary: <p>The stage of the definition to be specify platform. </p>
+  summary: "<p>The stage of the definition to be specify platform. </p>"
   syntax:
     content: public interface WithPlatform
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute
@@ -174,6 +156,6 @@ references:
   nameWithType: Trainings.TrainingsExportIterationDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

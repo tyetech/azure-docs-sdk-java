@@ -142,7 +142,7 @@ references:
   nameWithType: Registry.Definition
   fullName: com.microsoft.azure.management.containerregistry.Registry.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a registry. </p>
+  summary: "<p>Container interface for all the definitions related to a registry. </p>"
   syntax:
     content: public interface Definition extends Registry.DefinitionStages.Blank,Registry.DefinitionStages.WithGroup,Registry.DefinitionStages.WithSku,Registry.DefinitionStages.WithStorageAccount,Registry.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount
@@ -152,7 +152,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithStorageAccount
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount
   type: Interface
-  summary: <p>The stage of the registry definition allowing to specify the storage account. </p>
+  summary: "<p>The stage of the registry definition allowing to specify the storage account. </p>"
   syntax:
     content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withClassicSku()
@@ -162,7 +162,7 @@ references:
   nameWithType: RegistryImpl.withClassicSku()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withClassicSku()
   type: Method
-  summary: <p>Creates a container registry with a 'Classic' SKU type. </p>
+  summary: "<p>Creates a container registry with a 'Classic' SKU type. </p>"
   syntax:
     content: public RegistryImpl withClassicSku()
     return:
@@ -175,7 +175,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<Registry>,Registry.DefinitionStages.WithAdminUserEnabled,Registry.DefinitionStages.WithWebhook,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withBasicSku()
@@ -185,7 +185,7 @@ references:
   nameWithType: RegistryImpl.withBasicSku()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withBasicSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Basic' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Basic' SKU type. </p>"
   syntax:
     content: public RegistryImpl withBasicSku()
     return:
@@ -198,7 +198,7 @@ references:
   nameWithType: RegistryImpl.withStandardSku()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withStandardSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Standard' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Standard' SKU type. </p>"
   syntax:
     content: public RegistryImpl withStandardSku()
     return:
@@ -211,7 +211,7 @@ references:
   nameWithType: RegistryImpl.withPremiumSku()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withPremiumSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Premium' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Premium' SKU type. </p>"
   syntax:
     content: public RegistryImpl withPremiumSku()
     return:

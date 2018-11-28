@@ -141,10 +141,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistry.withPrivateImageRegistry(String server, String username, String password)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistry.withPrivateImageRegistry(String server, String username, String password)
   type: Method
-  summary: >-
-    <p>Specifies the private container image registry server login for the container group.</p>
-
-    <p></p>
+  summary: "<p>Specifies the private container image registry server login for the container group.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateImageRegistryOrVolume withPrivateImageRegistry(String server, String username, String password)
     parameters:
@@ -167,7 +164,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistry
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistry
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a private image registry. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a private image registry. </p>"
   syntax:
     content: public interface WithPrivateImageRegistry
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.Definition
@@ -177,7 +174,7 @@ references:
   nameWithType: ContainerGroup.Definition
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.Definition
   type: Interface
-  summary: <p>The entirety of the Azure Container Instance service container group definition. </p>
+  summary: "<p>The entirety of the Azure Container Instance service container group definition. </p>"
   syntax:
     content: public interface Definition extends ContainerGroup.DefinitionStages.Blank,ContainerGroup.DefinitionStages.WithGroup,ContainerGroup.DefinitionStages.WithOsType,ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry,ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume,ContainerGroup.DefinitionStages.WithVolume,ContainerGroup.DefinitionStages.WithFirstContainerInstance,ContainerGroup.DefinitionStages.WithNextContainerInstance,ContainerGroup.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance
@@ -187,7 +184,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithFirstContainerInstance
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify first required container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify first required container instance. </p>"
   syntax:
     content: public interface WithFirstContainerInstance
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume
@@ -197,7 +194,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithVolume
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>"
   syntax:
     content: public interface WithVolume
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()
@@ -207,7 +204,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:

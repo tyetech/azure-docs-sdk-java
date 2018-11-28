@@ -31,7 +31,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -48,7 +48,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>
   fullName: com.microsoft.azure.management.network.model.HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>
   type: Interface
-  summary: <p>The stage of an update allowing to modify the transport protocol. </p>
+  summary: "<p>The stage of an update allowing to modify the transport protocol. </p>"
   syntax:
     content: public interface WithProtocol<ReturnT,ProtocolT>
     typeParameters:
@@ -65,6 +65,6 @@ references:
   nameWithType: LoadBalancerInboundNatPool.Update
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.Update
   type: Interface
-  summary: <p>The entirety of an inbound NAT pool update as part of a load balancer update. </p>
+  summary: "<p>The entirety of an inbound NAT pool update as part of a load balancer update. </p>"
   syntax:
     content: public interface Update extends Settable<LoadBalancer.Update>,LoadBalancerInboundNatPool.UpdateStages.WithProtocol,LoadBalancerInboundNatPool.UpdateStages.WithFrontend,LoadBalancerInboundNatPool.UpdateStages.WithBackendPort,LoadBalancerInboundNatPool.UpdateStages.WithFrontendPortRange

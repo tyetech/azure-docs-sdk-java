@@ -103,7 +103,7 @@ references:
   nameWithType: ITransientErrorDetectionStrategy
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ITransientErrorDetectionStrategy
   type: Interface
-  summary: <p>Defines an interface that must be implemented by custom components responsible for detecting specific transient conditions. </p>
+  summary: "<p>Defines an interface that must be implemented by custom components responsible for detecting specific transient conditions. </p>"
   syntax:
     content: public interface ITransientErrorDetectionStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.SqlDatabaseTransientErrorDetectionStrategy
@@ -113,7 +113,7 @@ references:
   nameWithType: SqlDatabaseTransientErrorDetectionStrategy
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.SqlDatabaseTransientErrorDetectionStrategy
   type: Class
-  summary: <p>Provides the transient error detection logic for transient faults that are specific to SQL Database. </p>
+  summary: "<p>Provides the transient error detection logic for transient faults that are specific to SQL Database. </p>"
   syntax:
     content: public class SqlDatabaseTransientErrorDetectionStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryBehavior
@@ -123,7 +123,7 @@ references:
   nameWithType: RetryBehavior
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryBehavior
   type: Class
-  summary: <p>Defines the retry behavior to use for detecting transient errors. </p>
+  summary: "<p>Defines the retry behavior to use for detecting transient errors. </p>"
   syntax:
     content: public class RetryBehavior
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ITransientErrorDetectionStrategy.isTransient(Exception)
@@ -133,10 +133,7 @@ references:
   nameWithType: ITransientErrorDetectionStrategy.isTransient(Exception ex)
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ITransientErrorDetectionStrategy.isTransient(Exception ex)
   type: Method
-  summary: >-
-    <p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>
-
-    <p></p>
+  summary: "<p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>\r\n<p></p>"
   syntax:
     content: public boolean isTransient(Exception ex)
     parameters:

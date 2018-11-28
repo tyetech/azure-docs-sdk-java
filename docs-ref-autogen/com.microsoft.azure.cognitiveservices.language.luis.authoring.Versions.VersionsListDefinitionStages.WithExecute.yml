@@ -109,10 +109,7 @@ references:
   nameWithType: Versions.VersionsListDefinitionStages.WithAllOptions.withSkip(Integer skip)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsListDefinitionStages.WithAllOptions.withSkip(Integer skip)
   type: Method
-  summary: >-
-    <p>The number of entries to skip. Default value is 0.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to skip. Default value is 0.</p>\r\n<p></p>"
   syntax:
     content: public VersionsListDefinitionStages.WithExecute withSkip(Integer skip)
     parameters:
@@ -128,10 +125,7 @@ references:
   nameWithType: Versions.VersionsListDefinitionStages.WithAllOptions.withTake(Integer take)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsListDefinitionStages.WithAllOptions.withTake(Integer take)
   type: Method
-  summary: >-
-    <p>The number of entries to return. Maximum page size is 500. Default is 100.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to return. Maximum page size is 500. Default is 100.</p>\r\n<p></p>"
   syntax:
     content: public VersionsListDefinitionStages.WithExecute withTake(Integer take)
     parameters:
@@ -147,7 +141,7 @@ references:
   nameWithType: Versions.VersionsListDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsListDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsListDefinition
@@ -157,7 +151,7 @@ references:
   nameWithType: Versions.VersionsListDefinition
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsListDefinition
   type: Interface
-  summary: <p>The entirety of list definition. </p>
+  summary: "<p>The entirety of list definition. </p>"
   syntax:
     content: public interface VersionsListDefinition extends Versions.VersionsListDefinitionStages.WithAppId,Versions.VersionsListDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.models.VersionInfo
@@ -167,6 +161,6 @@ references:
   nameWithType: VersionInfo
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.models.VersionInfo
   type: Class
-  summary: <p>Object model of an application version. </p>
+  summary: "<p>Object model of an application version. </p>"
   syntax:
     content: public class VersionInfo

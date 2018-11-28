@@ -93,7 +93,7 @@ references:
   nameWithType: NetworkPeering.Definition
   fullName: com.microsoft.azure.management.network.NetworkPeering.Definition
   type: Interface
-  summary: <p>The entirety of the network peering definition. </p>
+  summary: "<p>The entirety of the network peering definition. </p>"
   syntax:
     content: public interface Definition extends NetworkPeering.DefinitionStages.Blank,NetworkPeering.DefinitionStages.WithCreate,NetworkPeering.DefinitionStages.WithRemoteNetwork
 - uid: com.microsoft.azure.management.network.NetworkPeering.DefinitionStages.Blank
@@ -103,7 +103,7 @@ references:
   nameWithType: NetworkPeering.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.network.NetworkPeering.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a network peering definition. </p>
+  summary: "<p>The first stage of a network peering definition. </p>"
   syntax:
     content: public interface Blank extends NetworkPeering.DefinitionStages.WithRemoteNetwork
 - uid: com.microsoft.azure.management.network.NetworkPeering.DefinitionStages.WithCreate
@@ -113,7 +113,7 @@ references:
   nameWithType: NetworkPeering.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.NetworkPeering.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of a network peering definition with sufficient inputs to create a new network peering in the cloud, but exposing additional optional settings to specify. </p>
+  summary: "<p>The stage of a network peering definition with sufficient inputs to create a new network peering in the cloud, but exposing additional optional settings to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<NetworkPeering>,NetworkPeering.DefinitionStages.WithGatewayUse,NetworkPeering.DefinitionStages.WithTrafficForwarding,NetworkPeering.DefinitionStages.WithAccess
 - uid: com.microsoft.azure.management.network.Network
@@ -123,6 +123,6 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>

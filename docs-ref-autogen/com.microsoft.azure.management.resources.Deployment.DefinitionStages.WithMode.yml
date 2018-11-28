@@ -62,7 +62,7 @@ references:
   nameWithType: Deployment.Definition
   fullName: com.microsoft.azure.management.resources.Deployment.Definition
   type: Interface
-  summary: <p>Container interface for all the deployment definitions. </p>
+  summary: "<p>Container interface for all the deployment definitions. </p>"
   syntax:
     content: public interface Definition extends Deployment.DefinitionStages.Blank,Deployment.DefinitionStages.WithGroup,Deployment.DefinitionStages.WithTemplate,Deployment.DefinitionStages.WithParameters,Deployment.DefinitionStages.WithMode,Deployment.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
@@ -72,7 +72,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<Deployment>
 - uid: com.microsoft.azure.management.resources.DeploymentMode
@@ -82,6 +82,6 @@ references:
   nameWithType: DeploymentMode
   fullName: com.microsoft.azure.management.resources.DeploymentMode
   type: Enum
-  summary: <p>Defines values for DeploymentMode. </p>
+  summary: "<p>Defines values for DeploymentMode. </p>"
   syntax:
     content: public enum DeploymentMode

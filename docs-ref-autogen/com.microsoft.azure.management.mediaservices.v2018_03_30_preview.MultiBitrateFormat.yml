@@ -106,10 +106,7 @@ references:
   nameWithType: Format.filenamePattern()
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Format.filenamePattern()
   type: Method
-  summary: >-
-    <p>Get the filenamePattern value.</p>
-
-    <p></p>
+  summary: "<p>Get the filenamePattern value.</p>\r\n<p></p>"
   syntax:
     content: public String filenamePattern()
     return:
@@ -122,10 +119,7 @@ references:
   nameWithType: Format.withFilenamePattern(String filenamePattern)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Format.withFilenamePattern(String filenamePattern)
   type: Method
-  summary: >-
-    <p>Set the filenamePattern value.</p>
-
-    <p></p>
+  summary: "<p>Set the filenamePattern value.</p>\r\n<p></p>"
   syntax:
     content: public Format withFilenamePattern(String filenamePattern)
     parameters:
@@ -142,7 +136,7 @@ references:
   nameWithType: Format
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Format
   type: Class
-  summary: <p>Base class for output. </p>
+  summary: "<p>Base class for output. </p>"
   syntax:
     content: public class Format
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Mp4Format
@@ -152,7 +146,7 @@ references:
   nameWithType: Mp4Format
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Mp4Format
   type: Class
-  summary: <p>Describes the properties for an output ISO MP4 file. </p>
+  summary: "<p>Describes the properties for an output ISO MP4 file. </p>"
   syntax:
     content: public class Mp4Format extends MultiBitrateFormat
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.TransportStreamFormat
@@ -162,7 +156,7 @@ references:
   nameWithType: TransportStreamFormat
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.TransportStreamFormat
   type: Class
-  summary: <p>Describes the properties for generating an MPEG-2 Transport Stream (ISO/IEC 13818-1) output video file(s). </p>
+  summary: "<p>Describes the properties for generating an MPEG-2 Transport Stream (ISO/IEC 13818-1) output video file(s). </p>"
   syntax:
     content: public class TransportStreamFormat
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.OutputFile
@@ -172,7 +166,7 @@ references:
   nameWithType: OutputFile
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.OutputFile
   type: Class
-  summary: <p>Represents an output file produced. </p>
+  summary: "<p>Represents an output file produced. </p>"
   syntax:
     content: public class OutputFile
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.MultiBitrateFormat
@@ -182,5 +176,5 @@ references:
   nameWithType: MultiBitrateFormat
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.MultiBitrateFormat
   type: Class
-  summary: <p>Describes the properties for producing a collection of GOP aligned multi-bitrate files. The default behavior is to produce one output file for each video layer which is muxed together with all the audios. The exact output files produced can be controlled by specifying the outputFiles collection. </p>
+  summary: "<p>Describes the properties for producing a collection of GOP aligned multi-bitrate files. The default behavior is to produce one output file for each video layer which is muxed together with all the audios. The exact output files produced can be controlled by specifying the outputFiles collection. </p>"
   syntax: *o1

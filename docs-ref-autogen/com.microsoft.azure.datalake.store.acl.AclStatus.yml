@@ -155,14 +155,7 @@ references:
   nameWithType: AclEntry
   fullName: com.microsoft.azure.datalake.store.acl.AclEntry
   type: Class
-  summary: >-
-    <p>Contains one ACL entry. An ACL entry consists of a scope (access or default), the type of the ACL (user, group, other or mask), the name of the user or group associated with this ACL (can be blank to specify the default permissions for users and groups, and must be blank for mask entries), and the action permitted by this ACL entry. </p>
-
-    <p>An ACL for an object consists of a<code>List 
-
-        </code> of Acl entries. </p>
-
-    <p>This class also provides a number of convenience methods for converting ACL entries and ACLs to and back from strings. </p>
+  summary: "<p>Contains one ACL entry. An ACL entry consists of a scope (access or default), the type of the ACL (user, group, other or mask), the name of the user or group associated with this ACL (can be blank to specify the default permissions for users and groups, and must be blank for mask entries), and the action permitted by this ACL entry. </p>\r\n<p>An ACL for an object consists of a<code>List \r\n    </code> of Acl entries. </p>\r\n<p>This class also provides a number of convenience methods for converting ACL entries and ACLs to and back from strings. </p>"
   syntax:
     content: public class AclEntry
 - uid: com.microsoft.azure.datalake.store.ADLStoreClient.getAclStatus(String)
@@ -172,10 +165,7 @@ references:
   nameWithType: ADLStoreClient.getAclStatus(String path)
   fullName: com.microsoft.azure.datalake.store.ADLStoreClient.getAclStatus(String path)
   type: Method
-  summary: >-
-    <p>Queries the ACLs and permissions for a file or directory.</p>
-
-    <p></p>
+  summary: "<p>Queries the ACLs and permissions for a file or directory.</p>\r\n<p></p>"
   syntax:
     content: public AclStatus getAclStatus(String path)
     parameters:

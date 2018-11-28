@@ -55,7 +55,7 @@ references:
   nameWithType: OutputDirectorySettings.DefinitionStages.WithPathPrefix<ParentT>
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithPathPrefix<ParentT>
   type: Interface
-  summary: '<p>Specifies the prefix path where the output directory will be created. NOTE: This is an absolute path to prefix. E.g. $AZ_BATCHAI_MOUNT_ROOT/MyNFS/MyLogs. You can find the full path to the output directory by combining pathPrefix, jobOutputDirectoryPathSegment (reported by get job) and pathSuffix. </p>'
+  summary: "<p>Specifies the prefix path where the output directory will be created. NOTE: This is an absolute path to prefix. E.g. $AZ_BATCHAI_MOUNT_ROOT/MyNFS/MyLogs. You can find the full path to the output directory by combining pathPrefix, jobOutputDirectoryPathSegment (reported by get job) and pathSuffix. </p>"
   syntax:
     content: public interface WithPathPrefix<ParentT>
     typeParameters:
@@ -69,10 +69,7 @@ references:
   nameWithType: OutputDirectorySettings.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of output directory settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of output directory settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT>
     typeParameters:

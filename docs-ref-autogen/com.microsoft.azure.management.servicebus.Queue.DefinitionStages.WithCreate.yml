@@ -50,10 +50,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -66,10 +63,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -86,10 +80,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -126,10 +117,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithDefaultMessageTTL.withDefaultMessageTTL(Period ttl)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDefaultMessageTTL.withDefaultMessageTTL(Period ttl)
   type: Method
-  summary: >-
-    <p>Specifies the duration after which the message expires. Note: unless it is explicitly overridden the default ttl is infinite (TimeSpan.Max).</p>
-
-    <p></p>
+  summary: "<p>Specifies the duration after which the message expires. Note: unless it is explicitly overridden the default ttl is infinite (TimeSpan.Max).</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDefaultMessageTTL(Period ttl)
     parameters:
@@ -146,10 +134,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithDeleteOnIdle.withDeleteOnIdleDurationInMinutes(int durationInMinutes)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDeleteOnIdle.withDeleteOnIdleDurationInMinutes(int durationInMinutes)
   type: Method
-  summary: >-
-    <p>The idle interval after which the queue is automatically deleted. Note: unless it is explicitly overridden the default delete on idle duration is infinite (TimeSpan.Max).</p>
-
-    <p></p>
+  summary: "<p>The idle interval after which the queue is automatically deleted. Note: unless it is explicitly overridden the default delete on idle duration is infinite (TimeSpan.Max).</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDeleteOnIdleDurationInMinutes(int durationInMinutes)
     parameters:
@@ -166,10 +151,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithDuplicateMessageDetection.withDuplicateMessageDetection(Period duplicateDetectionHistoryDuration)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDuplicateMessageDetection.withDuplicateMessageDetection(Period duplicateDetectionHistoryDuration)
   type: Method
-  summary: >-
-    <p>Specifies the duration of the duplicate message detection history.</p>
-
-    <p></p>
+  summary: "<p>Specifies the duration of the duplicate message detection history.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDuplicateMessageDetection(Period duplicateDetectionHistoryDuration)
     parameters:
@@ -186,10 +168,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithExpiredMessageMovedToDeadLetterQueue.withExpiredMessageMovedToDeadLetterQueue()
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithExpiredMessageMovedToDeadLetterQueue.withExpiredMessageMovedToDeadLetterQueue()
   type: Method
-  summary: >-
-    <p>Specifies that expired message must be moved to dead-letter queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies that expired message must be moved to dead-letter queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExpiredMessageMovedToDeadLetterQueue()
     return:
@@ -202,10 +181,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithExpressMessage.withExpressMessage()
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithExpressMessage.withExpressMessage()
   type: Method
-  summary: >-
-    <p>Specifies that messages in this queue are express hence they can be cached in memory for some time before storing it in messaging store. Note: By default queue is not express.</p>
-
-    <p></p>
+  summary: "<p>Specifies that messages in this queue are express hence they can be cached in memory for some time before storing it in messaging store. Note: By default queue is not express.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExpressMessage()
     return:
@@ -218,10 +194,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithMessageLockDuration.withMessageLockDurationInSeconds(int durationInSeconds)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageLockDuration.withMessageLockDurationInSeconds(int durationInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the amount of time that the message is locked for other receivers. Note: unless it is explicitly overridden the default lock duration is 60 seconds, the maximum allowed value is 300 seconds.</p>
-
-    <p></p>
+  summary: "<p>Specifies the amount of time that the message is locked for other receivers. Note: unless it is explicitly overridden the default lock duration is 60 seconds, the maximum allowed value is 300 seconds.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMessageLockDurationInSeconds(int durationInSeconds)
     parameters:
@@ -238,10 +211,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount.withMessageMovedToDeadLetterQueueOnMaxDeliveryCount(int deliveryCount)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount.withMessageMovedToDeadLetterQueueOnMaxDeliveryCount(int deliveryCount)
   type: Method
-  summary: >-
-    <p>Specifies maximum number of times a message can be delivered. Once this count has exceeded, message will be moved to dead-letter queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies maximum number of times a message can be delivered. Once this count has exceeded, message will be moved to dead-letter queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMessageMovedToDeadLetterQueueOnMaxDeliveryCount(int deliveryCount)
     parameters:
@@ -258,10 +228,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithAuthorizationRule.withNewListenRule(String name)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithAuthorizationRule.withNewListenRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a listen authorization rule for the queue.</p>
-
-    <p></p>
+  summary: "<p>Creates a listen authorization rule for the queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewListenRule(String name)
     parameters:
@@ -278,10 +245,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithAuthorizationRule.withNewManageRule(String name)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithAuthorizationRule.withNewManageRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a manage authorization rule for the queue.</p>
-
-    <p></p>
+  summary: "<p>Creates a manage authorization rule for the queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewManageRule(String name)
     parameters:
@@ -298,10 +262,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithAuthorizationRule.withNewSendRule(String name)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithAuthorizationRule.withNewSendRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a send authorization rule for the queue.</p>
-
-    <p></p>
+  summary: "<p>Creates a send authorization rule for the queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewSendRule(String name)
     parameters:
@@ -318,10 +279,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithMessageBatching.withoutMessageBatching()
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageBatching.withoutMessageBatching()
   type: Method
-  summary: >-
-    <p>Specifies that the default batching should be disabled on this queue. With batching Service Bus can batch multiple message when it write or delete messages from it's internal store.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the default batching should be disabled on this queue. With batching Service Bus can batch multiple message when it write or delete messages from it's internal store.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withoutMessageBatching()
     return:
@@ -334,10 +292,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithPartitioning.withoutPartitioning()
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithPartitioning.withoutPartitioning()
   type: Method
-  summary: >-
-    <p>Specifies that the default partitioning should be disabled on this queue. Note: if the parent Service Bus is Premium SKU then partition cannot be disabled</p>
-
-    <p></p>
+  summary: "<p>Specifies that the default partitioning should be disabled on this queue. Note: if the parent Service Bus is Premium SKU then partition cannot be disabled</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withoutPartitioning()
     return:
@@ -350,10 +305,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithPartitioning.withPartitioning()
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithPartitioning.withPartitioning()
   type: Method
-  summary: >-
-    <p>Specifies that partitioning should be enabled on this queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies that partitioning should be enabled on this queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPartitioning()
     return:
@@ -366,10 +318,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithSession.withSession()
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithSession.withSession()
   type: Method
-  summary: >-
-    <p>Specifies that session support should be enabled for the queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies that session support should be enabled for the queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSession()
     return:
@@ -382,10 +331,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithSize.withSizeInMB(long sizeInMB)
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithSize.withSizeInMB(long sizeInMB)
   type: Method
-  summary: >-
-    <p>Specifies the maximum size of memory allocated for the queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum size of memory allocated for the queue.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSizeInMB(long sizeInMB)
     parameters:
@@ -402,10 +348,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -419,7 +362,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithSize
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithSize
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify size. </p>
+  summary: "<p>The stage of the queue definition allowing to specify size. </p>"
   syntax:
     content: public interface WithSize
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithPartitioning
@@ -429,7 +372,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithPartitioning
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithPartitioning
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify partitioning behaviour. </p>
+  summary: "<p>The stage of the queue definition allowing to specify partitioning behaviour. </p>"
   syntax:
     content: public interface WithPartitioning
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDeleteOnIdle
@@ -439,7 +382,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithDeleteOnIdle
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDeleteOnIdle
   type: Interface
-  summary: <p>The stage of the queue definition allowing to define auto delete behaviour. </p>
+  summary: "<p>The stage of the queue definition allowing to define auto delete behaviour. </p>"
   syntax:
     content: public interface WithDeleteOnIdle
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageLockDuration
@@ -449,7 +392,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithMessageLockDuration
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageLockDuration
   type: Interface
-  summary: <p>The stage of the queue definition allowing to define duration for message lock. </p>
+  summary: "<p>The stage of the queue definition allowing to define duration for message lock. </p>"
   syntax:
     content: public interface WithMessageLockDuration
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDefaultMessageTTL
@@ -459,7 +402,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithDefaultMessageTTL
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDefaultMessageTTL
   type: Interface
-  summary: <p>The stage of the queue definition allowing to define default TTL for messages. </p>
+  summary: "<p>The stage of the queue definition allowing to define default TTL for messages. </p>"
   syntax:
     content: public interface WithDefaultMessageTTL
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithSession
@@ -469,7 +412,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithSession
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithSession
   type: Interface
-  summary: <p>The stage of the queue definition allowing to enable session support. </p>
+  summary: "<p>The stage of the queue definition allowing to enable session support. </p>"
   syntax:
     content: public interface WithSession
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithExpressMessage
@@ -479,7 +422,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithExpressMessage
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithExpressMessage
   type: Interface
-  summary: <p>The stage of the queue definition allowing to mark messages as express messages. </p>
+  summary: "<p>The stage of the queue definition allowing to mark messages as express messages. </p>"
   syntax:
     content: public interface WithExpressMessage
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageBatching
@@ -489,7 +432,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithMessageBatching
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageBatching
   type: Interface
-  summary: <p>The stage of the queue definition allowing specify batching behaviour. </p>
+  summary: "<p>The stage of the queue definition allowing specify batching behaviour. </p>"
   syntax:
     content: public interface WithMessageBatching
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDuplicateMessageDetection
@@ -499,7 +442,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithDuplicateMessageDetection
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithDuplicateMessageDetection
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify duration of the duplicate message detection history. </p>
+  summary: "<p>The stage of the queue definition allowing to specify duration of the duplicate message detection history. </p>"
   syntax:
     content: public interface WithDuplicateMessageDetection
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithExpiredMessageMovedToDeadLetterQueue
@@ -509,7 +452,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithExpiredMessageMovedToDeadLetterQueue
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithExpiredMessageMovedToDeadLetterQueue
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify whether expired message can be moved to secondary dead-letter queue. </p>
+  summary: "<p>The stage of the queue definition allowing to specify whether expired message can be moved to secondary dead-letter queue. </p>"
   syntax:
     content: public interface WithExpiredMessageMovedToDeadLetterQueue
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
@@ -519,7 +462,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify maximum delivery count of message before moving it to dead-letter queue. </p>
+  summary: "<p>The stage of the queue definition allowing to specify maximum delivery count of message before moving it to dead-letter queue. </p>"
   syntax:
     content: public interface WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithAuthorizationRule
@@ -529,7 +472,7 @@ references:
   nameWithType: Queue.DefinitionStages.WithAuthorizationRule
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.WithAuthorizationRule
   type: Interface
-  summary: <p>The stage of the queue definition allowing to add an authorization rule for accessing the queue. </p>
+  summary: "<p>The stage of the queue definition allowing to add an authorization rule for accessing the queue. </p>"
   syntax:
     content: public interface WithAuthorizationRule
 - uid: com.microsoft.azure.management.servicebus.Queue.Definition
@@ -539,7 +482,7 @@ references:
   nameWithType: Queue.Definition
   fullName: com.microsoft.azure.management.servicebus.Queue.Definition
   type: Interface
-  summary: <p>The entirety of the Service Bus queue definition. </p>
+  summary: "<p>The entirety of the Service Bus queue definition. </p>"
   syntax:
     content: public interface Definition extends Queue.DefinitionStages.Blank,Queue.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.Blank
@@ -549,6 +492,6 @@ references:
   nameWithType: Queue.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.servicebus.Queue.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a queue definition. </p>
+  summary: "<p>The first stage of a queue definition. </p>"
   syntax:
     content: public interface Blank extends Queue.DefinitionStages.WithCreate

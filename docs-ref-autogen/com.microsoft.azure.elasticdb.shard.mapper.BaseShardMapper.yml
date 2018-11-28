@@ -978,7 +978,7 @@ references:
   nameWithType: DefaultShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.DefaultShardMapper
   type: Class
-  summary: <p>Default shard mapper, that basically is a container of shards with no keys. </p>
+  summary: "<p>Default shard mapper, that basically is a container of shards with no keys. </p>"
   syntax:
     content: public class DefaultShardMapper
 - uid: com.microsoft.azure.elasticdb.shard.mapper.ListShardMapper
@@ -988,10 +988,7 @@ references:
   nameWithType: ListShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.ListShardMapper
   type: Class
-  summary: >-
-    <p>Mapper from single keys (points) to their corresponding shards.</p>
-
-    <p></p>
+  summary: "<p>Mapper from single keys (points) to their corresponding shards.</p>\r\n<p></p>"
   syntax:
     content: public class ListShardMapper
 - uid: com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper
@@ -1001,10 +998,7 @@ references:
   nameWithType: RangeShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper
   type: Class
-  summary: >-
-    <p>Mapper from a range of keys to their corresponding shards.</p>
-
-    <p></p>
+  summary: "<p>Mapper from a range of keys to their corresponding shards.</p>\r\n<p></p>"
   syntax:
     content: public class RangeShardMapper
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager
@@ -1014,7 +1008,7 @@ references:
   nameWithType: ShardMapManager
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager
   type: Class
-  summary: <p>Serves as the entry point for creation, management and lookup operations over shard maps. </p>
+  summary: "<p>Serves as the entry point for creation, management and lookup operations over shard maps. </p>"
   syntax:
     content: public class ShardMapManager
 - uid: com.microsoft.azure.elasticdb.shard.map.ShardMap
@@ -1024,7 +1018,7 @@ references:
   nameWithType: ShardMap
   fullName: com.microsoft.azure.elasticdb.shard.map.ShardMap
   type: Class
-  summary: <p>Represents a collection of shards and mappings between keys and shards in the collection. </p>
+  summary: "<p>Represents a collection of shards and mappings between keys and shards in the collection. </p>"
   syntax:
     content: public class ShardMap
 - uid: com.microsoft.azure.elasticdb.shard.base.IShardProvider
@@ -1034,7 +1028,7 @@ references:
   nameWithType: IShardProvider<ValueT>
   fullName: com.microsoft.azure.elasticdb.shard.base.IShardProvider<ValueT>
   type: Interface
-  summary: <p>Represents capabilities to provide a Shard along with an associated value. </p>
+  summary: "<p>Represents capabilities to provide a Shard along with an associated value. </p>"
   syntax:
     content: public interface IShardProvider<ValueT>
     typeParameters:
@@ -1047,7 +1041,7 @@ references:
   nameWithType: StoreMapping
   fullName: com.microsoft.azure.elasticdb.shard.store.StoreMapping
   type: Class
-  summary: <p>Storage representation of a mapping b/w key ranges and shards. </p>
+  summary: "<p>Storage representation of a mapping b/w key ranges and shards. </p>"
   syntax:
     content: public class StoreMapping
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementErrorCategory
@@ -1057,7 +1051,7 @@ references:
   nameWithType: ShardManagementErrorCategory
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementErrorCategory
   type: Enum
-  summary: <p>Represents error categories related to Shard Management operations. </p>
+  summary: "<p>Represents error categories related to Shard Management operations. </p>"
   syntax:
     content: public enum ShardManagementErrorCategory
 - uid: com.microsoft.azure.elasticdb.shard.mapper.ConnectionOptions
@@ -1076,7 +1070,7 @@ references:
   nameWithType: IMappingInfoProvider
   fullName: com.microsoft.azure.elasticdb.shard.base.IMappingInfoProvider
   type: Interface
-  summary: <p>Interface that represents capability to provide information relevant to Add/Remove/Update operations for a mapping object. </p>
+  summary: "<p>Interface that represents capability to provide information relevant to Add/Remove/Update operations for a mapping object. </p>"
   syntax:
     content: public interface IMappingInfoProvider
 - uid: com.microsoft.azure.elasticdb.shard.base.LookupOptions
@@ -1086,7 +1080,7 @@ references:
   nameWithType: LookupOptions
   fullName: com.microsoft.azure.elasticdb.shard.base.LookupOptions
   type: Class
-  summary: <p>Specifies where mapping lookup operations will search for mappings. </p>
+  summary: "<p>Specifies where mapping lookup operations will search for mappings. </p>"
   syntax:
     content: public class LookupOptions
 - uid: com.microsoft.azure.elasticdb.shard.base.Range
@@ -1096,7 +1090,7 @@ references:
   nameWithType: Range
   fullName: com.microsoft.azure.elasticdb.shard.base.Range
   type: Class
-  summary: <p>Represents a left-inclusive, right-exclusive range of values. </p>
+  summary: "<p>Represents a left-inclusive, right-exclusive range of values. </p>"
   syntax:
     content: public class Range
 - uid: com.microsoft.azure.elasticdb.shard.base.Shard
@@ -1106,7 +1100,7 @@ references:
   nameWithType: Shard
   fullName: com.microsoft.azure.elasticdb.shard.base.Shard
   type: Class
-  summary: <p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid="com.microsoft.azure.elasticdb.shard.base.ShardLocation" data-throw-if-not-resolved="false">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid="com.microsoft.azure.elasticdb.shard.base.PointMapping" data-throw-if-not-resolved="false">PointMapping</xref> and <xref uid="com.microsoft.azure.elasticdb.shard.base.RangeMapping" data-throw-if-not-resolved="false">RangeMapping</xref>). </p>
+  summary: "<p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid=\"com.microsoft.azure.elasticdb.shard.base.ShardLocation\" data-throw-if-not-resolved=\"false\">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid=\"com.microsoft.azure.elasticdb.shard.base.PointMapping\" data-throw-if-not-resolved=\"false\">PointMapping</xref> and <xref uid=\"com.microsoft.azure.elasticdb.shard.base.RangeMapping\" data-throw-if-not-resolved=\"false\">RangeMapping</xref>). </p>"
   syntax:
     content: public class Shard
 - uid: com.microsoft.azure.elasticdb.shard.base.IMappingUpdate
@@ -1116,7 +1110,7 @@ references:
   nameWithType: IMappingUpdate<StatusT>
   fullName: com.microsoft.azure.elasticdb.shard.base.IMappingUpdate<StatusT>
   type: Interface
-  summary: <p>Common interface for point/range mapping updates. </p>
+  summary: "<p>Common interface for point/range mapping updates. </p>"
   syntax:
     content: public interface IMappingUpdate<StatusT>
     typeParameters:
@@ -1129,7 +1123,7 @@ references:
   nameWithType: ShardKey
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardKey
   type: Class
-  summary: <p>Shard key value. Wraps the type and value and allows normalization/denormalization for serialization. </p>
+  summary: "<p>Shard key value. Wraps the type and value and allows normalization/denormalization for serialization. </p>"
   syntax:
     content: public class ShardKey
 - uid: com.microsoft.azure.elasticdb.shard.base.LockOwnerIdOpType
@@ -1139,6 +1133,6 @@ references:
   nameWithType: LockOwnerIdOpType
   fullName: com.microsoft.azure.elasticdb.shard.base.LockOwnerIdOpType
   type: Enum
-  summary: <p>Set of operations that can be performed on mappings with lockOwnerId. </p>
+  summary: "<p>Set of operations that can be performed on mappings with lockOwnerId. </p>"
   syntax:
     content: public enum LockOwnerIdOpType

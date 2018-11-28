@@ -39,7 +39,7 @@ references:
   nameWithType: HasFrontend.UpdateStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.UpdateStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   type: Method
-  summary: <p>Specifies the frontend. </p>
+  summary: "<p>Specifies the frontend. </p>"
   syntax:
     content: public ReturnT fromFrontend(String frontendName)
     parameters:
@@ -56,7 +56,7 @@ references:
   nameWithType: HasFrontendPort.UpdateStages.WithFrontendPort<ReturnT>.fromFrontendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasFrontendPort.UpdateStages.WithFrontendPort<ReturnT>.fromFrontendPort(int port)
   type: Method
-  summary: <p>Specifies the frontend port to receive network traffic on. </p>
+  summary: "<p>Specifies the frontend port to receive network traffic on. </p>"
   syntax:
     content: public ReturnT fromFrontendPort(int port)
     parameters:
@@ -73,12 +73,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -91,7 +86,7 @@ references:
   nameWithType: HasBackendPort.UpdateStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasBackendPort.UpdateStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   type: Method
-  summary: <p>Specifies a backend port to send network traffic to. </p>
+  summary: "<p>Specifies a backend port to send network traffic to. </p>"
   syntax:
     content: public ReturnT toBackendPort(int port)
     parameters:
@@ -108,7 +103,7 @@ references:
   nameWithType: HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   type: Method
-  summary: <p>Sets the floating IP enablement. </p>
+  summary: "<p>Sets the floating IP enablement. </p>"
   syntax:
     content: public ReturnT withFloatingIP(boolean enabled)
     parameters:
@@ -125,7 +120,7 @@ references:
   nameWithType: HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   type: Method
-  summary: <p>Disables floating IP support. </p>
+  summary: "<p>Disables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPDisabled()
     return:
@@ -138,7 +133,7 @@ references:
   nameWithType: HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   type: Method
-  summary: <p>Enables floating IP support. </p>
+  summary: "<p>Enables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPEnabled()
     return:
@@ -151,7 +146,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateStages.WithIdleTimeout.withIdleTimeoutInMinutes(int minutes)
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithIdleTimeout.withIdleTimeoutInMinutes(int minutes)
   type: Method
-  summary: <p>Specifies the idle connection timeout in minutes. </p>
+  summary: "<p>Specifies the idle connection timeout in minutes. </p>"
   syntax:
     content: public Update withIdleTimeoutInMinutes(int minutes)
     parameters:
@@ -168,7 +163,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -185,10 +180,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -202,7 +194,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateStages.WithBackendPort
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithBackendPort
   type: Interface
-  summary: <p>The stage of an inbound NAT rule update allowing to specify the backend port. </p>
+  summary: "<p>The stage of an inbound NAT rule update allowing to specify the backend port. </p>"
   syntax:
     content: public interface WithBackendPort
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithFloatingIP
@@ -212,7 +204,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateStages.WithFloatingIP
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithFloatingIP
   type: Interface
-  summary: <p>The stage of an inbound NAT rule update allowing to specify whether floating IP should be enabled. </p>
+  summary: "<p>The stage of an inbound NAT rule update allowing to specify whether floating IP should be enabled. </p>"
   syntax:
     content: public interface WithFloatingIP
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithFrontend
@@ -222,7 +214,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateStages.WithFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithFrontend
   type: Interface
-  summary: <p>The stage of an inbound NAT rule update allowing to specify a frontend for the rule to apply to. </p>
+  summary: "<p>The stage of an inbound NAT rule update allowing to specify a frontend for the rule to apply to. </p>"
   syntax:
     content: public interface WithFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithFrontendPort
@@ -232,7 +224,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateStages.WithFrontendPort
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithFrontendPort
   type: Interface
-  summary: <p>The stage of an inbound NAT rule update allowing to specify the frontend port. </p>
+  summary: "<p>The stage of an inbound NAT rule update allowing to specify the frontend port. </p>"
   syntax:
     content: public interface WithFrontendPort
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithIdleTimeout
@@ -242,7 +234,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateStages.WithIdleTimeout
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithIdleTimeout
   type: Interface
-  summary: <p>The stage of an inbound NAT rule update allowing to specify the idle connection timeout for this inbound NAT rule. </p>
+  summary: "<p>The stage of an inbound NAT rule update allowing to specify the idle connection timeout for this inbound NAT rule. </p>"
   syntax:
     content: public interface WithIdleTimeout
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithProtocol
@@ -252,6 +244,6 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateStages.WithProtocol
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateStages.WithProtocol
   type: Interface
-  summary: <p>The stage of an inbound NAT rule update allowing to specify the transport protocol for the rule to apply to. </p>
+  summary: "<p>The stage of an inbound NAT rule update allowing to specify the transport protocol for the rule to apply to. </p>"
   syntax:
     content: public interface WithProtocol

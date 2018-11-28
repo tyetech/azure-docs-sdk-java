@@ -114,7 +114,7 @@ references:
   nameWithType: HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -134,7 +134,7 @@ references:
   nameWithType: HasSubnet.DefinitionStages.WithSubnet<ReturnT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.DefinitionStages.WithSubnet<ReturnT>
   type: Interface
-  summary: <p>The stage of a definition allowing to associate a subnet with a resource. </p>
+  summary: "<p>The stage of a definition allowing to associate a subnet with a resource. </p>"
   syntax:
     content: public interface WithSubnet<ReturnT>
     typeParameters:
@@ -148,7 +148,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an virtual network gateway IP configuration definition. </p>
+  summary: "<p>The first stage of an virtual network gateway IP configuration definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -162,10 +162,7 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the virtual network gateway IP configuration definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent virtual network gateway definition. </p>
+  summary: "<p>The final stage of the virtual network gateway IP configuration definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent virtual network gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition
     typeParameters:
@@ -179,7 +176,7 @@ references:
   nameWithType: Subnet
   fullName: com.microsoft.azure.management.network.Subnet
   type: Interface
-  summary: <p>A client-side representation of a subnet of a virtual network. </p>
+  summary: "<p>A client-side representation of a subnet of a virtual network. </p>"
   syntax:
     content: public interface Subnet extends HasInner<SubnetInner>,ChildResource<Network>
 - uid: com.microsoft.azure.management.network.Network
@@ -189,6 +186,6 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>

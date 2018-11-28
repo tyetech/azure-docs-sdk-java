@@ -34,7 +34,7 @@ references:
   nameWithType: ShardManagementErrorCategory
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementErrorCategory
   type: Enum
-  summary: <p>Represents error categories related to Shard Management operations. </p>
+  summary: "<p>Represents error categories related to Shard Management operations. </p>"
   syntax:
     content: public enum ShardManagementErrorCategory
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementErrorCode
@@ -44,7 +44,7 @@ references:
   nameWithType: ShardManagementErrorCode
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementErrorCode
   type: Enum
-  summary: <p>Represents error codes related to <xref uid="com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager" data-throw-if-not-resolved="false">ShardMapManager</xref> operations. </p>
+  summary: "<p>Represents error codes related to <xref uid=\"com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager\" data-throw-if-not-resolved=\"false\">ShardMapManager</xref> operations. </p>"
   syntax:
     content: public enum ShardManagementErrorCode
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementException
@@ -54,7 +54,7 @@ references:
   nameWithType: ShardManagementException
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementException
   type: Class
-  summary: <p>Representation of exceptions that occur during storage operations. </p>
+  summary: "<p>Representation of exceptions that occur during storage operations. </p>"
   syntax:
     content: public class ShardManagementException
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementTransientErrorDetectionStrategy
@@ -64,7 +64,7 @@ references:
   nameWithType: ShardManagementTransientErrorDetectionStrategy
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementTransientErrorDetectionStrategy
   type: Class
-  summary: <p>Provides the transient error detection logic for transient faults that are specific to Shard map manager. </p>
+  summary: "<p>Provides the transient error detection logic for transient faults that are specific to Shard map manager. </p>"
   syntax:
     content: public class ShardManagementTransientErrorDetectionStrategy implements ITransientErrorDetectionStrategy
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager
@@ -74,7 +74,7 @@ references:
   nameWithType: ShardMapManager
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager
   type: Class
-  summary: <p>Serves as the entry point for creation, management and lookup operations over shard maps. </p>
+  summary: "<p>Serves as the entry point for creation, management and lookup operations over shard maps. </p>"
   syntax:
     content: public class ShardMapManager
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerCreateMode
@@ -84,7 +84,7 @@ references:
   nameWithType: ShardMapManagerCreateMode
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerCreateMode
   type: Enum
-  summary: <p>Describes the creation options for shard map manager storage representation. </p>
+  summary: "<p>Describes the creation options for shard map manager storage representation. </p>"
   syntax:
     content: public enum ShardMapManagerCreateMode
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerFactory
@@ -94,7 +94,7 @@ references:
   nameWithType: ShardMapManagerFactory
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerFactory
   type: Class
-  summary: <p>Factory for <xref uid="com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager" data-throw-if-not-resolved="false">ShardMapManager</xref>s facilitates the creation and management of shard map manager persistent state. Use this class as the entry point to the library's object hierarchy. </p>
+  summary: "<p>Factory for <xref uid=\"com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager\" data-throw-if-not-resolved=\"false\">ShardMapManager</xref>s facilitates the creation and management of shard map manager persistent state. Use this class as the entry point to the library's object hierarchy. </p>"
   syntax:
     content: public class ShardMapManagerFactory
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerLoadPolicy
@@ -104,6 +104,6 @@ references:
   nameWithType: ShardMapManagerLoadPolicy
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerLoadPolicy
   type: Enum
-  summary: <p>Describes the policy used for initialization of <xref uid="com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager" data-throw-if-not-resolved="false">ShardMapManager</xref> from the store. </p>
+  summary: "<p>Describes the policy used for initialization of <xref uid=\"com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager\" data-throw-if-not-resolved=\"false\">ShardMapManager</xref> from the store. </p>"
   syntax:
     content: public enum ShardMapManagerLoadPolicy

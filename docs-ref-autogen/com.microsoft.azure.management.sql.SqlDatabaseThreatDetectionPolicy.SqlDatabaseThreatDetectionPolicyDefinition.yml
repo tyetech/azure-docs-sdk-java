@@ -46,10 +46,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -82,10 +76,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -122,10 +113,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithAlertsFilter.withAlertsFilter(String alertsFilter)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithAlertsFilter.withAlertsFilter(String alertsFilter)
   type: Method
-  summary: >-
-    <p>Sets the security alert policy alerts to be disabled. </p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy alerts to be disabled. </p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withAlertsFilter(String alertsFilter)
     parameters:
@@ -142,10 +130,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withDefaultSecurityAlertPolicy()
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withDefaultSecurityAlertPolicy()
   type: Method
-  summary: >-
-    <p>Sets the security alert policy state to "New".</p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy state to \"New\".</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withDefaultSecurityAlertPolicy()
     return:
@@ -158,10 +143,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailAddresses.withEmailAddresses(String addresses)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailAddresses.withEmailAddresses(String addresses)
   type: Method
-  summary: >-
-    <p>Sets the security alert policy email addresses.</p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy email addresses.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withEmailAddresses(String addresses)
     parameters:
@@ -178,7 +160,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins.withEmailToAccountAdmins()
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins.withEmailToAccountAdmins()
   type: Method
-  summary: <p>Enables the alert to be sent to the account administrators. </p>
+  summary: "<p>Enables the alert to be sent to the account administrators. </p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withEmailToAccountAdmins()
     return:
@@ -191,7 +173,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins.withoutEmailToAccountAdmins()
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins.withoutEmailToAccountAdmins()
   type: Method
-  summary: <p>Disables the alert will be sent to the account administrators. </p>
+  summary: "<p>Disables the alert will be sent to the account administrators. </p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withoutEmailToAccountAdmins()
     return:
@@ -204,10 +186,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withPolicyDisabled()
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withPolicyDisabled()
   type: Method
-  summary: >-
-    <p>Sets the security alert policy state to "Disabled".</p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy state to \"Disabled\".</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withPolicyDisabled()
     return:
@@ -220,10 +199,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withPolicyEnabled()
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withPolicyEnabled()
   type: Method
-  summary: >-
-    <p>Sets the security alert policy state to "Enabled".</p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy state to \"Enabled\".</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint withPolicyEnabled()
     return:
@@ -236,10 +212,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withPolicyNew()
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState.withPolicyNew()
   type: Method
-  summary: >-
-    <p>Sets the security alert policy state to "New".</p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy state to \"New\".</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint withPolicyNew()
     return:
@@ -252,12 +225,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithRetentionDays.withRetentionDays(int retentionDays)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithRetentionDays.withRetentionDays(int retentionDays)
   type: Method
-  summary: >-
-    <p>Sets the security alert policy email addresses. </p>
-
-    <p>Specifies the number of days to keep in the Threat Detection audit logs.</p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy email addresses. </p>\r\n<p>Specifies the number of days to keep in the Threat Detection audit logs.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withRetentionDays(int retentionDays)
     parameters:
@@ -274,10 +242,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageAccountAccessKey.withStorageAccountAccessKey(String storageAccountAccessKey)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageAccountAccessKey.withStorageAccountAccessKey(String storageAccountAccessKey)
   type: Method
-  summary: >-
-    <p>Sets the security alert policy storage access key.</p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy storage access key.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate withStorageAccountAccessKey(String storageAccountAccessKey)
     parameters:
@@ -294,10 +259,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint.withStorageEndpoint(String storageEndpoint)
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint.withStorageEndpoint(String storageEndpoint)
   type: Method
-  summary: >-
-    <p>Sets the security alert policy storage endpoint. </p>
-
-    <p></p>
+  summary: "<p>Sets the security alert policy storage endpoint. </p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageAccountAccessKey withStorageEndpoint(String storageEndpoint)
     parameters:
@@ -314,7 +276,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the SQL database threat detection policy definition. </p>
+  summary: "<p>The first stage of the SQL database threat detection policy definition. </p>"
   syntax:
     content: public interface Blank extends SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState
@@ -324,7 +286,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState
   type: Interface
-  summary: <p>The SQL database threat detection policy definition to set the state. </p>
+  summary: "<p>The SQL database threat detection policy definition to set the state. </p>"
   syntax:
     content: public interface WithSecurityAlertPolicyState
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint
@@ -334,7 +296,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint
   type: Interface
-  summary: <p>The SQL database threat detection policy definition to set the storage endpoint. </p>
+  summary: "<p>The SQL database threat detection policy definition to set the storage endpoint. </p>"
   syntax:
     content: public interface WithStorageEndpoint
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageAccountAccessKey
@@ -344,7 +306,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageAccountAccessKey
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageAccountAccessKey
   type: Interface
-  summary: <p>The SQL database threat detection policy definition to set the storage access key. </p>
+  summary: "<p>The SQL database threat detection policy definition to set the storage access key. </p>"
   syntax:
     content: public interface WithStorageAccountAccessKey
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithAlertsFilter
@@ -354,7 +316,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithAlertsFilter
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithAlertsFilter
   type: Interface
-  summary: <p>The SQL database threat detection policy definition to set the security alert policy alerts to be disabled. </p>
+  summary: "<p>The SQL database threat detection policy definition to set the security alert policy alerts to be disabled. </p>"
   syntax:
     content: public interface WithAlertsFilter
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailAddresses
@@ -364,7 +326,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailAddresses
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailAddresses
   type: Interface
-  summary: <p>The SQL database threat detection policy definition to set the security alert policy email addresses. </p>
+  summary: "<p>The SQL database threat detection policy definition to set the security alert policy email addresses. </p>"
   syntax:
     content: public interface WithEmailAddresses
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithRetentionDays
@@ -374,7 +336,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithRetentionDays
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithRetentionDays
   type: Interface
-  summary: <p>The SQL database threat detection policy definition to set the number of days to keep in the Threat Detection audit logs. </p>
+  summary: "<p>The SQL database threat detection policy definition to set the number of days to keep in the Threat Detection audit logs. </p>"
   syntax:
     content: public interface WithRetentionDays
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins
@@ -384,7 +346,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins
   type: Interface
-  summary: <p>The SQL database threat detection policy definition to set that the alert is sent to the account administrators. </p>
+  summary: "<p>The SQL database threat detection policy definition to set that the alert is sent to the account administrators. </p>"
   syntax:
     content: public interface WithEmailToAccountAdmins
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate
@@ -394,6 +356,6 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The final stage of the SQL database threat detection policy definition. </p>
+  summary: "<p>The final stage of the SQL database threat detection policy definition. </p>"
   syntax:
     content: public interface WithCreate

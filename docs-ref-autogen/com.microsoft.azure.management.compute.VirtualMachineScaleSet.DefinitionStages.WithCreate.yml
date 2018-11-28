@@ -52,10 +52,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -68,10 +65,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -88,10 +82,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -104,10 +95,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithExtension.defineNewExtension(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithExtension.defineNewExtension(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public VirtualMachineScaleSetExtension.DefinitionStages.Blank<WithCreate> defineNewExtension(String name)
     parameters:
@@ -148,10 +136,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCapacity.withCapacity(int capacity)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCapacity.withCapacity(int capacity)
   type: Method
-  summary: >-
-    <p>Specifies the maximum number of virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum number of virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCapacity(int capacity)
     parameters:
@@ -168,10 +153,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix.withComputerNamePrefix(String namePrefix)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix.withComputerNamePrefix(String namePrefix)
   type: Method
-  summary: >-
-    <p>Specifies the name prefix to use for auto-generating the names for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name prefix to use for auto-generating the names for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withComputerNamePrefix(String namePrefix)
     parameters:
@@ -188,10 +170,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCustomData.withCustomData(String base64EncodedCustomData)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCustomData.withCustomData(String base64EncodedCustomData)
   type: Method
-  summary: >-
-    <p>Specifies the custom data for the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the custom data for the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCustomData(String base64EncodedCustomData)
     parameters:
@@ -208,10 +187,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>Specifies an existing storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies an existing storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -228,10 +204,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity()
     return:
@@ -244,10 +217,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity(int tokenPort)
     parameters:
@@ -264,10 +234,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(String name)
     parameters:
@@ -284,10 +251,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(Creatable<StorageAccount> creatable)
     parameters:
@@ -304,10 +268,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the caching type for the operating system disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the caching type for the operating system disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskCaching(CachingTypes cachingType)
     parameters:
@@ -324,10 +285,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   type: Method
-  summary: >-
-    <p>Specifies the name for the OS disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name for the OS disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskName(String name)
     parameters:
@@ -344,10 +302,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()
   type: Method
-  summary: >-
-    <p>Disables over-provisioning of virtual machines.</p>
-
-    <p></p>
+  summary: "<p>Disables over-provisioning of virtual machines.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withoutOverProvisioning()
     return:
@@ -360,10 +315,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean enabled)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean enabled)
   type: Method
-  summary: >-
-    <p>Enables or disables over-provisioning of virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Enables or disables over-provisioning of virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOverProvision(boolean enabled)
     parameters:
@@ -380,10 +332,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvisioning()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvisioning()
   type: Method
-  summary: >-
-    <p>Enables over-provisioning of virtual machines.</p>
-
-    <p></p>
+  summary: "<p>Enables over-provisioning of virtual machines.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOverProvisioning()
     return:
@@ -396,7 +345,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -416,7 +365,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -433,10 +382,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy.withUpgradeMode(UpgradeMode upgradeMode)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy.withUpgradeMode(UpgradeMode upgradeMode)
   type: Method
-  summary: >-
-    <p>Specifies the virtual machine scale set upgrade policy mode.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual machine scale set upgrade policy mode.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withUpgradeMode(UpgradeMode upgradeMode)
     parameters:
@@ -453,10 +399,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -470,7 +413,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify OS disk configurations. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify OS disk configurations. </p>"
   syntax:
     content: public interface WithOSDiskSettings
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix
@@ -480,7 +423,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify the computer name prefix. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify the computer name prefix. </p>"
   syntax:
     content: public interface WithComputerNamePrefix
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCapacity
@@ -490,7 +433,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCapacity
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCapacity
   type: Interface
-  summary: <p>The stage of the virtual machine scale set definition allowing to specify number of virtual machines in the scale set. </p>
+  summary: "<p>The stage of the virtual machine scale set definition allowing to specify number of virtual machines in the scale set. </p>"
   syntax:
     content: public interface WithCapacity
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy
@@ -500,7 +443,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify the upgrade policy. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify the upgrade policy. </p>"
   syntax:
     content: public interface WithUpgradePolicy
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision
@@ -510,7 +453,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify whether or not to over-provision virtual machines in the scale set. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify whether or not to over-provision virtual machines in the scale set. </p>"
   syntax:
     content: public interface WithOverProvision
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount
@@ -520,7 +463,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify the storage account. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify the storage account. </p>"
   syntax:
     content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCustomData
@@ -530,7 +473,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCustomData
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCustomData
   type: Interface
-  summary: <p>The stage of the virtual machine scale set definition allowing to specify the custom data. </p>
+  summary: "<p>The stage of the virtual machine scale set definition allowing to specify the custom data. </p>"
   syntax:
     content: public interface WithCustomData
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithExtension
@@ -540,7 +483,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithExtension
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithExtension
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify extensions. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify extensions. </p>"
   syntax:
     content: public interface WithExtension
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity
@@ -550,7 +493,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity
   type: Interface
-  summary: <p>The stage of the virtual machine scale set definition allowing to enable Managed Service Identity. </p>
+  summary: "<p>The stage of the virtual machine scale set definition allowing to enable Managed Service Identity. </p>"
   syntax:
     content: public interface WithManagedServiceIdentity
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags
@@ -560,10 +503,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -577,7 +517,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachineScaleSet.DefinitionStages.Blank,VirtualMachineScaleSet.DefinitionStages.WithGroup,VirtualMachineScaleSet.DefinitionStages.WithSku,VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithOS,VirtualMachineScaleSet.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedCreate
@@ -587,7 +527,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the VM scale set to be created and optionally allow managed data disks specific settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the VM scale set to be created and optionally allow managed data disks specific settings to be specified. </p>"
   syntax:
     content: public interface WithManagedCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithRoleAndScopeOrCreate
@@ -597,7 +537,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithRoleAndScopeOrCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithRoleAndScopeOrCreate
   type: Interface
-  summary: <p>The stage of the Managed Service Identity enabled virtual machine scale set allowing to set role assignment for a scope. </p>
+  summary: "<p>The stage of the Managed Service Identity enabled virtual machine scale set allowing to set role assignment for a scope. </p>"
   syntax:
     content: public interface WithRoleAndScopeOrCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUnmanagedCreate
@@ -607,6 +547,6 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithUnmanagedCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUnmanagedCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the VM scale set to be created and optionally allow unmanaged data disks specific settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the VM scale set to be created and optionally allow unmanaged data disks specific settings to be specified. </p>"
   syntax:
     content: public interface WithUnmanagedCreate

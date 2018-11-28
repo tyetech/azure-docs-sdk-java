@@ -147,7 +147,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: system.fabric.CancellationTokenSource
@@ -157,7 +157,7 @@ references:
   nameWithType: CancellationTokenSource
   fullName: system.fabric.CancellationTokenSource
   type: Class
-  summary: <p>A CancellationTokenSource is used to create <xref uid="system.fabric.CancellationToken" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> object and manage it. </p>
+  summary: "<p>A CancellationTokenSource is used to create <xref uid=\"system.fabric.CancellationToken\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationToken</xref> object and manage it. </p>"
   syntax:
     content: public class CancellationTokenSource
 - uid: system.fabric.ClaimsCredentials
@@ -167,7 +167,7 @@ references:
   nameWithType: ClaimsCredentials
   fullName: system.fabric.ClaimsCredentials
   type: Class
-  summary: <p>Represents the claim based security credential acquired from STS (security token service). </p>
+  summary: "<p>Represents the claim based security credential acquired from STS (security token service). </p>"
   syntax:
     content: public class ClaimsCredentials extends SecurityCredentials
 - uid: system.fabric.CodePackage
@@ -177,7 +177,7 @@ references:
   nameWithType: CodePackage
   fullName: system.fabric.CodePackage
   type: Class
-  summary: <p>Represents the code package definition. </p>
+  summary: "<p>Represents the code package definition. </p>"
   syntax:
     content: public class CodePackage
 - uid: system.fabric.CodePackageActivationContext
@@ -187,7 +187,7 @@ references:
   nameWithType: CodePackageActivationContext
   fullName: system.fabric.CodePackageActivationContext
   type: Interface
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax:
     content: public interface CodePackageActivationContext
 - uid: system.fabric.ConfigurationPackage
@@ -197,7 +197,7 @@ references:
   nameWithType: ConfigurationPackage
   fullName: system.fabric.ConfigurationPackage
   type: Class
-  summary: <p>Represents a configuration package. </p>
+  summary: "<p>Represents a configuration package. </p>"
   syntax:
     content: public class ConfigurationPackage
 - uid: system.fabric.CredentialType
@@ -216,7 +216,7 @@ references:
   nameWithType: DataPackage
   fullName: system.fabric.DataPackage
   type: Class
-  summary: <p>Defines a data package of an application. </p>
+  summary: "<p>Defines a data package of an application. </p>"
   syntax:
     content: public class DataPackage
 - uid: system.fabric.EncryptionUtility
@@ -226,7 +226,7 @@ references:
   nameWithType: EncryptionUtility
   fullName: system.fabric.EncryptionUtility
   type: Class
-  summary: <p>Utility class to perform encryption and decryption operations. </p>
+  summary: "<p>Utility class to perform encryption and decryption operations. </p>"
   syntax:
     content: public class EncryptionUtility
 - uid: system.fabric.Epoch
@@ -236,12 +236,7 @@ references:
   nameWithType: Epoch
   fullName: system.fabric.Epoch
   type: Class
-  summary: >-
-    <p>Represents the current version of the partition in Service Fabric. </p>
-
-    <p>
-
-      <b>Remarks:</b>An Epoch is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new Epoch from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid="system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the Epoch as it is usually sufficient to know that the Epoch has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>
+  summary: "<p>Represents the current version of the partition in Service Fabric. </p>\r\n<p>\r\n  <b>Remarks:</b>An Epoch is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new Epoch from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid=\"system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the Epoch as it is usually sufficient to know that the Epoch has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>"
   syntax:
     content: public class Epoch
 - uid: system.fabric.FabricClient
@@ -251,12 +246,7 @@ references:
   nameWithType: FabricClient
   fullName: system.fabric.FabricClient
   type: Class
-  summary: >-
-    <p>Client for a Service Fabric cluster. </p>
-
-    <p>
-
-      <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>
+  summary: "<p>Client for a Service Fabric cluster. </p>\r\n<p>\r\n  <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>"
   syntax:
     content: public class FabricClient
 - uid: system.fabric.FabricClientRole
@@ -266,7 +256,7 @@ references:
   nameWithType: FabricClientRole
   fullName: system.fabric.FabricClientRole
   type: Enum
-  summary: <p>Represents the fabric client security role. </p>
+  summary: "<p>Represents the fabric client security role. </p>"
   syntax:
     content: public enum FabricClientRole
 - uid: system.fabric.FabricClientSettings
@@ -276,7 +266,7 @@ references:
   nameWithType: FabricClientSettings
   fullName: system.fabric.FabricClientSettings
   type: Class
-  summary: <p>Represents the configuration settings for the <xref uid="system.fabric.FabricClient" data-throw-if-not-resolved="false">system.fabric.FabricClient</xref> class. </p>
+  summary: "<p>Represents the configuration settings for the <xref uid=\"system.fabric.FabricClient\" data-throw-if-not-resolved=\"false\">system.fabric.FabricClient</xref> class. </p>"
   syntax:
     content: public class FabricClientSettings
 - uid: system.fabric.FabricCodePackageActivationContext
@@ -286,7 +276,7 @@ references:
   nameWithType: FabricCodePackageActivationContext
   fullName: system.fabric.FabricCodePackageActivationContext
   type: Class
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax:
     content: public class FabricCodePackageActivationContext implements CodePackageActivationContext
 - uid: system.fabric.FabricErrorCode
@@ -305,12 +295,7 @@ references:
   nameWithType: FabricReplicator
   fullName: system.fabric.FabricReplicator
   type: Class
-  summary: >-
-    <p>Replicates state for high availability and reliability. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provides the default implementation of the <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref>, <xref uid="system.fabric.Replicator" data-throw-if-not-resolved="false">system.fabric.Replicator</xref>, and <xref uid="system.fabric.PrimaryReplicator" data-throw-if-not-resolved="false">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> interface. An instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> for use. </p>
+  summary: "<p>Replicates state for high availability and reliability. </p>\r\n<p>\r\n  <b>Remarks:</b>Provides the default implementation of the <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref>, <xref uid=\"system.fabric.Replicator\" data-throw-if-not-resolved=\"false\">system.fabric.Replicator</xref>, and <xref uid=\"system.fabric.PrimaryReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> interface. An instance of the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> for use. </p>"
   syntax:
     content: public class FabricReplicator implements Replicator
 - uid: system.fabric.FabricRuntime
@@ -320,7 +305,7 @@ references:
   nameWithType: FabricRuntime
   fullName: system.fabric.FabricRuntime
   type: Class
-  summary: <p>Allows user created hosts to obtain their <xref uid="system.fabric.CodePackageActivationContext" data-throw-if-not-resolved="false">system.fabric.CodePackageActivationContext</xref>, well as to register the necessary service factories [ <xref uid="system.fabric.StatelessServiceFactory" data-throw-if-not-resolved="false">system.fabric.StatelessServiceFactory</xref>, <xref uid="system.fabric.StatefulServiceFactory" data-throw-if-not-resolved="false">system.fabric.StatefulServiceFactory</xref> ] or service types directly. </p>
+  summary: "<p>Allows user created hosts to obtain their <xref uid=\"system.fabric.CodePackageActivationContext\" data-throw-if-not-resolved=\"false\">system.fabric.CodePackageActivationContext</xref>, well as to register the necessary service factories [ <xref uid=\"system.fabric.StatelessServiceFactory\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServiceFactory</xref>, <xref uid=\"system.fabric.StatefulServiceFactory\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServiceFactory</xref> ] or service types directly. </p>"
   syntax:
     content: public class FabricRuntime
 - uid: system.fabric.FaultType
@@ -330,12 +315,7 @@ references:
   nameWithType: FaultType
   fullName: system.fabric.FaultType
   type: Enum
-  summary: >-
-    <p>Indicates the type of fault that a service reports: invalid, transient or permanent. </p>
-
-    <p>
-
-      <b>Remarks : </b> Services can report faults during runtime by using the <xref uid="system.fabric.ServicePartition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(FaultType)</xref> method to indicate the type of fault. </p>
+  summary: "<p>Indicates the type of fault that a service reports: invalid, transient or permanent. </p>\r\n<p>\r\n  <b>Remarks : </b> Services can report faults during runtime by using the <xref uid=\"system.fabric.ServicePartition.reportFault(FaultType)\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition#reportFault(FaultType)</xref> method to indicate the type of fault. </p>"
   syntax:
     content: public enum FaultType
 - uid: system.fabric.GatewayInformation
@@ -345,7 +325,7 @@ references:
   nameWithType: GatewayInformation
   fullName: system.fabric.GatewayInformation
   type: Class
-  summary: <p>Contains information identifying a Service Fabric node in the cluster. </p>
+  summary: "<p>Contains information identifying a Service Fabric node in the cluster. </p>"
   syntax:
     content: public class GatewayInformation
 - uid: system.fabric.Int64RangePartitionInformation
@@ -355,7 +335,7 @@ references:
   nameWithType: Int64RangePartitionInformation
   fullName: system.fabric.Int64RangePartitionInformation
   type: Class
-  summary: <p>Represents the Information for Partition </p>
+  summary: "<p>Represents the Information for Partition </p>"
   syntax:
     content: public class Int64RangePartitionInformation extends ServicePartitionInformation
 - uid: system.fabric.LoadMetric
@@ -383,7 +363,7 @@ references:
   nameWithType: NamedPartitionInformation
   fullName: system.fabric.NamedPartitionInformation
   type: Class
-  summary: <p>Describes the partition information for the name as a string that is based on partition schemes. Services observe this type of <xref uid="system.fabric.ServicePartitionInformation" data-throw-if-not-resolved="false">system.fabric.ServicePartitionInformation</xref> when the service is created with the <xref uid="" data-throw-if-not-resolved="false">system.fabric.NamedPartitionInformation</xref> derives from the <xref uid="system.fabric.ServicePartition" data-throw-if-not-resolved="false">system.fabric.ServicePartition</xref> interface and is provided to services as part of the <xref uid="system.fabric.StatefulServicePartition" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition</xref> or <xref uid="system.fabric.StatelessServicePartition" data-throw-if-not-resolved="false">system.fabric.StatelessServicePartition</xref> interface, which is passed in during the stateful <xref uid="system.fabric.StatefulServiceReplica.openAsync(ReplicaOpenMode,StatefulServicePartition,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StatefulServiceReplica#openAsync(system.fabric.ReplicaOpenMode,system.fabric.StatefulServicePartition,system.fabric.CancellationToken                                        )</xref> or the stateless <xref uid="system.fabric.StatelessServiceInstance.openAsync(StatelessServicePartition,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StatelessServiceInstance#openAsync(system.fabric.StatelessServicePartition,system.fabric.CancellationToken)</xref>. </p>
+  summary: "<p>Describes the partition information for the name as a string that is based on partition schemes. Services observe this type of <xref uid=\"system.fabric.ServicePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartitionInformation</xref> when the service is created with the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.NamedPartitionInformation</xref> derives from the <xref uid=\"system.fabric.ServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition</xref> interface and is provided to services as part of the <xref uid=\"system.fabric.StatefulServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition</xref> or <xref uid=\"system.fabric.StatelessServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServicePartition</xref> interface, which is passed in during the stateful <xref uid=\"system.fabric.StatefulServiceReplica.openAsync(ReplicaOpenMode,StatefulServicePartition,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServiceReplica#openAsync(system.fabric.ReplicaOpenMode,system.fabric.StatefulServicePartition,system.fabric.CancellationToken                                        )</xref> or the stateless <xref uid=\"system.fabric.StatelessServiceInstance.openAsync(StatelessServicePartition,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServiceInstance#openAsync(system.fabric.StatelessServicePartition,system.fabric.CancellationToken)</xref>. </p>"
   syntax:
     content: public class NamedPartitionInformation extends ServicePartitionInformation
 - uid: system.fabric.NodeContext
@@ -393,7 +373,7 @@ references:
   nameWithType: NodeContext
   fullName: system.fabric.NodeContext
   type: Class
-  summary: <p>Class to encapsulate a node context. </p>
+  summary: "<p>Class to encapsulate a node context. </p>"
   syntax:
     content: public class NodeContext
 - uid: system.fabric.NodeId
@@ -403,7 +383,7 @@ references:
   nameWithType: NodeId
   fullName: system.fabric.NodeId
   type: Class
-  summary: <p>Class to encapsulate a node ID </p>
+  summary: "<p>Class to encapsulate a node ID </p>"
   syntax:
     content: public class NodeId
 - uid: system.fabric.NoneSecurityCredentials
@@ -413,7 +393,7 @@ references:
   nameWithType: NoneSecurityCredentials
   fullName: system.fabric.NoneSecurityCredentials
   type: Class
-  summary: <p>SecurityCredentials subtype for non-secure mode. </p>
+  summary: "<p>SecurityCredentials subtype for non-secure mode. </p>"
   syntax:
     content: public class NoneSecurityCredentials extends SecurityCredentials
 - uid: system.fabric.Observable
@@ -423,7 +403,7 @@ references:
   nameWithType: Observable<T>
   fullName: system.fabric.Observable<T>
   type: Class
-  summary: <p>This class represents an observable object </p>
+  summary: "<p>This class represents an observable object </p>"
   syntax:
     content: public class Observable<T>
     typeParameters:
@@ -437,7 +417,7 @@ references:
   nameWithType: Observer<U>
   fullName: system.fabric.Observer<U>
   type: Interface
-  summary: <p>A class can implement the Observer interface when it wants to be informed of changes in observable objects. </p>
+  summary: "<p>A class can implement the Observer interface when it wants to be informed of changes in observable objects. </p>"
   syntax:
     content: public interface Observer<U>
     typeParameters:
@@ -451,12 +431,7 @@ references:
   nameWithType: Operation
   fullName: system.fabric.Operation
   type: Interface
-  summary: >-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="" data-throw-if-not-resolved="false">system.fabric.Operation</xref> is the base interface that describes state changes that are delivered to a Secondary replica. They contain the <xref uid="system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateReplicator#replicateAsync(OperationData, SequenceNumber, system.fabric.CancellationToken)</xref> and the sequence number and other identifying information. </p>
+  summary: "<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.Operation</xref> is the base interface that describes state changes that are delivered to a Secondary replica. They contain the <xref uid=\"system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#replicateAsync(OperationData, SequenceNumber, system.fabric.CancellationToken)</xref> and the sequence number and other identifying information. </p>"
   syntax:
     content: public interface Operation
 - uid: system.fabric.OperationData
@@ -475,7 +450,7 @@ references:
   nameWithType: OperationDataStream
   fullName: system.fabric.OperationDataStream
   type: Interface
-  summary: <p>An <xref uid="" data-throw-if-not-resolved="false">system.fabric.OperationDataStream</xref> encapsulates a stream of <xref uid="system.fabric.OperationData" data-throw-if-not-resolved="false">system.fabric.OperationData</xref> objects that are exchanged between Primary replica and Secondary replica. Objects that implement <xref uid="" data-throw-if-not-resolved="false">system.fabric.OperationDataStream</xref> are used during the copy process. Both the copy context <xref uid="system.fabric.StateProvider.getCopyContext()" data-throw-if-not-resolved="false">system.fabric.StateProvider#getCopyContext()</xref> method that is sent from the Secondary replica to the Primary replica and the copy state <xref uid="system.fabric.StateProvider.getCopyState(SequenceNumber,OperationDataStream)" data-throw-if-not-resolved="false">system.fabric.StateProvider#getCopyState(SequenceNumber, OperationDataStream)</xref> method implement the <xref uid="" data-throw-if-not-resolved="false">system.fabric.OperationDataStream</xref> interface. </p>
+  summary: "<p>An <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.OperationDataStream</xref> encapsulates a stream of <xref uid=\"system.fabric.OperationData\" data-throw-if-not-resolved=\"false\">system.fabric.OperationData</xref> objects that are exchanged between Primary replica and Secondary replica. Objects that implement <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.OperationDataStream</xref> are used during the copy process. Both the copy context <xref uid=\"system.fabric.StateProvider.getCopyContext()\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider#getCopyContext()</xref> method that is sent from the Secondary replica to the Primary replica and the copy state <xref uid=\"system.fabric.StateProvider.getCopyState(SequenceNumber,OperationDataStream)\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider#getCopyState(SequenceNumber, OperationDataStream)</xref> method implement the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.OperationDataStream</xref> interface. </p>"
   syntax:
     content: public interface OperationDataStream
 - uid: system.fabric.OperationStream
@@ -485,12 +460,7 @@ references:
   nameWithType: OperationStream
   fullName: system.fabric.OperationStream
   type: Interface
-  summary: >-
-    <p>Represents a stream of replication or copy operations that are sent from the Primary to the Secondary replica. </p>
-
-    <p>
-
-      <b> Remarks:</b> The streams returned from <xref uid="system.fabric.StateReplicator.getCopyStream()" data-throw-if-not-resolved="false">system.fabric.StateReplicator#getCopyStream()</xref> and <xref uid="system.fabric.StateReplicator.getReplicationStream()" data-throw-if-not-resolved="false">system.fabric.StateReplicator#getReplicationStream()</xref> are objects that implement <xref uid="" data-throw-if-not-resolved="false">system.fabric.OperationStream</xref>. </p>
+  summary: "<p>Represents a stream of replication or copy operations that are sent from the Primary to the Secondary replica. </p>\r\n<p>\r\n  <b> Remarks:</b> The streams returned from <xref uid=\"system.fabric.StateReplicator.getCopyStream()\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#getCopyStream()</xref> and <xref uid=\"system.fabric.StateReplicator.getReplicationStream()\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#getReplicationStream()</xref> are objects that implement <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.OperationStream</xref>. </p>"
   syntax:
     content: public interface OperationStream
 - uid: system.fabric.OperationStream2
@@ -500,7 +470,7 @@ references:
   nameWithType: OperationStream2
   fullName: system.fabric.OperationStream2
   type: Interface
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public interface OperationStream2 extends OperationStream
 - uid: system.fabric.OperationType
@@ -510,7 +480,7 @@ references:
   nameWithType: OperationType
   fullName: system.fabric.OperationType
   type: Enum
-  summary: <p>Specifies the type of operation that is received via the copy or replication stream. </p>
+  summary: "<p>Specifies the type of operation that is received via the copy or replication stream. </p>"
   syntax:
     content: public enum OperationType
 - uid: system.fabric.PackageAddedEventArgs
@@ -520,7 +490,7 @@ references:
   nameWithType: PackageAddedEventArgs<T>
   fullName: system.fabric.PackageAddedEventArgs<T>
   type: Class
-  summary: <p>Describes a package added event. </p>
+  summary: "<p>Describes a package added event. </p>"
   syntax:
     content: public class PackageAddedEventArgs<T>
     typeParameters:
@@ -534,7 +504,7 @@ references:
   nameWithType: PackageModifiedEventArgs<T>
   fullName: system.fabric.PackageModifiedEventArgs<T>
   type: Class
-  summary: <p>Describes a package modified event. </p>
+  summary: "<p>Describes a package modified event. </p>"
   syntax:
     content: public class PackageModifiedEventArgs<T>
     typeParameters:
@@ -548,7 +518,7 @@ references:
   nameWithType: PackageRemovedEventArgs<T>
   fullName: system.fabric.PackageRemovedEventArgs<T>
   type: Class
-  summary: <p>Describes a package removed event. </p>
+  summary: "<p>Describes a package removed event. </p>"
   syntax:
     content: public class PackageRemovedEventArgs<T>
     typeParameters:
@@ -562,7 +532,7 @@ references:
   nameWithType: PackageSharingPolicy
   fullName: system.fabric.PackageSharingPolicy
   type: Class
-  summary: <p>Represents a policy for the package sharing. </p>
+  summary: "<p>Represents a policy for the package sharing. </p>"
   syntax:
     content: public class PackageSharingPolicy
 - uid: system.fabric.PackageSharingPolicyList
@@ -572,7 +542,7 @@ references:
   nameWithType: PackageSharingPolicyList
   fullName: system.fabric.PackageSharingPolicyList
   type: Class
-  summary: <p>Represents a list of PackageSharingPolicy objects. </p>
+  summary: "<p>Represents a list of PackageSharingPolicy objects. </p>"
   syntax:
     content: public class PackageSharingPolicyList
 - uid: system.fabric.PackageSharingPolicyScope
@@ -582,7 +552,7 @@ references:
   nameWithType: PackageSharingPolicyScope
   fullName: system.fabric.PackageSharingPolicyScope
   type: Enum
-  summary: <p>Represents the scope for the <xref uid="system.fabric.PackageSharingPolicy" data-throw-if-not-resolved="false">system.fabric.PackageSharingPolicy</xref></p>
+  summary: "<p>Represents the scope for the <xref uid=\"system.fabric.PackageSharingPolicy\" data-throw-if-not-resolved=\"false\">system.fabric.PackageSharingPolicy</xref></p>"
   syntax:
     content: public enum PackageSharingPolicyScope
 - uid: system.fabric.PartitionAccessStatus
@@ -592,14 +562,7 @@ references:
   nameWithType: PartitionAccessStatus
   fullName: system.fabric.PartitionAccessStatus
   type: Enum
-  summary: >-
-    <p>Enumerates the access status of the partition. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="" data-throw-if-not-resolved="false">system.fabric.PartitionAccessStatus</xref> is used to check that a read or write operation is allowed. When service replicas handle a client request, they should verify that the system is in a state that allows processing. By checking the <xref uid="system.fabric.StatefulServicePartition.getReadStatus()" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#getReadStatus()</xref> or <xref uid="system.fabric.StatefulServicePartition.getwriteStatus()" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#getwriteStatus()</xref> as appropriate, the replica can be notified of conditions that prevent correct operation. Note that write operations might still see an exception from the replicator for one of these conditions, because the condition might change between the <xref uid="system.fabric.StatefulServicePartition.getwriteStatus()" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#getwriteStatus()</xref> check and the call to <xref uid="system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateReplicator#replicateAsync(system.fabric.OperationData,system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref>. </p>
+  summary: "<p>Enumerates the access status of the partition. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.PartitionAccessStatus</xref> is used to check that a read or write operation is allowed. When service replicas handle a client request, they should verify that the system is in a state that allows processing. By checking the <xref uid=\"system.fabric.StatefulServicePartition.getReadStatus()\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#getReadStatus()</xref> or <xref uid=\"system.fabric.StatefulServicePartition.getwriteStatus()\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#getwriteStatus()</xref> as appropriate, the replica can be notified of conditions that prevent correct operation. Note that write operations might still see an exception from the replicator for one of these conditions, because the condition might change between the <xref uid=\"system.fabric.StatefulServicePartition.getwriteStatus()\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#getwriteStatus()</xref> check and the call to <xref uid=\"system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#replicateAsync(system.fabric.OperationData,system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref>. </p>"
   syntax:
     content: public enum PartitionAccessStatus
 - uid: system.fabric.PrimaryReplicator
@@ -609,7 +572,7 @@ references:
   nameWithType: PrimaryReplicator
   fullName: system.fabric.PrimaryReplicator
   type: Interface
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public interface PrimaryReplicator
 - uid: system.fabric.ProtectionLevel
@@ -619,7 +582,7 @@ references:
   nameWithType: ProtectionLevel
   fullName: system.fabric.ProtectionLevel
   type: Enum
-  summary: <p>Enumerates how communication is protected. </p>
+  summary: "<p>Enumerates how communication is protected. </p>"
   syntax:
     content: public enum ProtectionLevel
 - uid: system.fabric.ReplicaInformation
@@ -629,7 +592,7 @@ references:
   nameWithType: ReplicaInformation
   fullName: system.fabric.ReplicaInformation
   type: Class
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public class ReplicaInformation
 - uid: system.fabric.ReplicaOpenMode
@@ -639,7 +602,7 @@ references:
   nameWithType: ReplicaOpenMode
   fullName: system.fabric.ReplicaOpenMode
   type: Enum
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public enum ReplicaOpenMode
 - uid: system.fabric.ReplicaRole
@@ -649,12 +612,7 @@ references:
   nameWithType: ReplicaRole
   fullName: system.fabric.ReplicaRole
   type: Enum
-  summary: >-
-    <p>Indicates the role of a stateful service replica. </p>
-
-    <p>
-
-      <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>
+  summary: "<p>Indicates the role of a stateful service replica. </p>\r\n<p>\r\n  <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>"
   syntax:
     content: public enum ReplicaRole
 - uid: system.fabric.ReplicaSetConfiguration
@@ -664,7 +622,7 @@ references:
   nameWithType: ReplicaSetConfiguration
   fullName: system.fabric.ReplicaSetConfiguration
   type: Class
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public class ReplicaSetConfiguration
 - uid: system.fabric.ReplicaSetQuorumMode
@@ -674,7 +632,7 @@ references:
   nameWithType: ReplicaSetQuorumMode
   fullName: system.fabric.ReplicaSetQuorumMode
   type: Enum
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public enum ReplicaSetQuorumMode
 - uid: system.fabric.ReplicaStatus
@@ -693,7 +651,7 @@ references:
   nameWithType: Replicator
   fullName: system.fabric.Replicator
   type: Interface
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public interface Replicator extends PrimaryReplicator
 - uid: system.fabric.ReplicatorSettings
@@ -703,7 +661,7 @@ references:
   nameWithType: ReplicatorSettings
   fullName: system.fabric.ReplicatorSettings
   type: Class
-  summary: <p>Allows a stateful replica to configure the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> when creating it <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator(system.fabric.StateProvider,system.fabric.ReplicatorSettings)</xref></p>
+  summary: "<p>Allows a stateful replica to configure the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> when creating it <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator(system.fabric.StateProvider,system.fabric.ReplicatorSettings)</xref></p>"
   syntax:
     content: public class ReplicatorSettings
 - uid: system.fabric.ResolvedServiceEndpoint
@@ -713,7 +671,7 @@ references:
   nameWithType: ResolvedServiceEndpoint
   fullName: system.fabric.ResolvedServiceEndpoint
   type: Class
-  summary: <p>Represents a resolved service endpoint, which contains information about service partition replica role and the address it listens to. </p>
+  summary: "<p>Represents a resolved service endpoint, which contains information about service partition replica role and the address it listens to. </p>"
   syntax:
     content: public class ResolvedServiceEndpoint
 - uid: system.fabric.ResolvedServicePartition
@@ -723,10 +681,7 @@ references:
   nameWithType: ResolvedServicePartition
   fullName: system.fabric.ResolvedServicePartition
   type: Class
-  summary: >-
-    <p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>
-
-    <p></p>
+  summary: "<p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>\r\n<p></p>"
   syntax:
     content: public class ResolvedServicePartition
 - uid: system.fabric.SecurityCredentials
@@ -736,7 +691,7 @@ references:
   nameWithType: SecurityCredentials
   fullName: system.fabric.SecurityCredentials
   type: Class
-  summary: <p>An abstract base class for types that represent security credentials. </p>
+  summary: "<p>An abstract base class for types that represent security credentials. </p>"
   syntax:
     content: public class SecurityCredentials
 - uid: system.fabric.SequenceNumber
@@ -746,7 +701,7 @@ references:
   nameWithType: SequenceNumber
   fullName: system.fabric.SequenceNumber
   type: Class
-  summary: <p>Long, represents the last sequence number (LSN) of the operation. </p>
+  summary: "<p>Long, represents the last sequence number (LSN) of the operation. </p>"
   syntax:
     content: public class SequenceNumber
 - uid: system.fabric.ServiceContext
@@ -756,7 +711,7 @@ references:
   nameWithType: ServiceContext
   fullName: system.fabric.ServiceContext
   type: Class
-  summary: <p>Represents the service context that the service is operating under. </p>
+  summary: "<p>Represents the service context that the service is operating under. </p>"
   syntax:
     content: public class ServiceContext
 - uid: system.fabric.ServiceEndpointRole
@@ -766,10 +721,7 @@ references:
   nameWithType: ServiceEndpointRole
   fullName: system.fabric.ServiceEndpointRole
   type: Enum
-  summary: >-
-    <p>Enumerates the kinds of possible roles of a service endpoint.</p>
-
-    <p></p>
+  summary: "<p>Enumerates the kinds of possible roles of a service endpoint.</p>\r\n<p></p>"
   syntax:
     content: public enum ServiceEndpointRole
 - uid: system.fabric.ServiceInitializationParameters
@@ -779,10 +731,7 @@ references:
   nameWithType: ServiceInitializationParameters
   fullName: system.fabric.ServiceInitializationParameters
   type: Class
-  summary: >-
-    <p>
-
-      <b>Remarks:</b>Derived types define initialization data that are specific to stateless and stateful services. </p>
+  summary: "<p>\r\n  <b>Remarks:</b>Derived types define initialization data that are specific to stateless and stateful services. </p>"
   syntax:
     content: public class ServiceInitializationParameters
 - uid: system.fabric.ServicePartition
@@ -792,7 +741,7 @@ references:
   nameWithType: ServicePartition
   fullName: system.fabric.ServicePartition
   type: Interface
-  summary: <p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>
+  summary: "<p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>"
   syntax:
     content: public interface ServicePartition
 - uid: system.fabric.ServicePartitionInformation
@@ -802,14 +751,7 @@ references:
   nameWithType: ServicePartitionInformation
   fullName: system.fabric.ServicePartitionInformation
   type: Class
-  summary: >-
-    <p>Represents the base class for describing partitions. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="system.fabric.Int64RangePartitionInformation" data-throw-if-not-resolved="false">system.fabric.Int64RangePartitionInformation</xref>, <xref uid="system.fabric.NamedPartitionInformation" data-throw-if-not-resolved="false">system.fabric.NamedPartitionInformation</xref>, and <xref uid="system.fabric.SingletonPartitionInformation" data-throw-if-not-resolved="false">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>
+  summary: "<p>Represents the base class for describing partitions. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"system.fabric.Int64RangePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.Int64RangePartitionInformation</xref>, <xref uid=\"system.fabric.NamedPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.NamedPartitionInformation</xref>, and <xref uid=\"system.fabric.SingletonPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>"
   syntax:
     content: public class ServicePartitionInformation
 - uid: system.fabric.ServicePartitionKind
@@ -819,14 +761,7 @@ references:
   nameWithType: ServicePartitionKind
   fullName: system.fabric.ServicePartitionKind
   type: Enum
-  summary: >-
-    <p>Indicates the type of partitioning scheme that is used. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="" data-throw-if-not-resolved="false">system.fabric.ServicePartitionKind</xref> defines the value of the kind property of the <xref uid="system.fabric.ServicePartitionInformation" data-throw-if-not-resolved="false">system.fabric.ServicePartitionInformation</xref> class. </p>
+  summary: "<p>Indicates the type of partitioning scheme that is used. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartitionKind</xref> defines the value of the kind property of the <xref uid=\"system.fabric.ServicePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartitionInformation</xref> class. </p>"
   syntax:
     content: public enum ServicePartitionKind
 - uid: system.fabric.SingletonPartitionInformation
@@ -836,7 +771,7 @@ references:
   nameWithType: SingletonPartitionInformation
   fullName: system.fabric.SingletonPartitionInformation
   type: Class
-  summary: <p>Indicates that the service is Singleton-partitioned, effectively non-partitioned or with one partition only, and uses the partition scheme of a Singleton service. </p>
+  summary: "<p>Indicates that the service is Singleton-partitioned, effectively non-partitioned or with one partition only, and uses the partition scheme of a Singleton service. </p>"
   syntax:
     content: public class SingletonPartitionInformation extends ServicePartitionInformation
 - uid: system.fabric.StatefulServiceContext
@@ -846,7 +781,7 @@ references:
   nameWithType: StatefulServiceContext
   fullName: system.fabric.StatefulServiceContext
   type: Class
-  summary: <p>Represents the service context that the stateful service is operating under. </p>
+  summary: "<p>Represents the service context that the stateful service is operating under. </p>"
   syntax:
     content: public class StatefulServiceContext extends ServiceContext
 - uid: system.fabric.StatefulServiceFactory
@@ -856,7 +791,7 @@ references:
   nameWithType: StatefulServiceFactory
   fullName: system.fabric.StatefulServiceFactory
   type: Interface
-  summary: <p>Represents a stateful service factory that is responsible for creating replicas of a specific type of stateful service. Stateful service factories are registered with the <xref uid="system.fabric.FabricRuntime" data-throw-if-not-resolved="false">system.fabric.FabricRuntime</xref> by service hosts via <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatefulServiceFactory(java.lang.String,system.fabric.StatefulServiceFactory)</xref> or <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatefulServiceFactoryAsync(java.lang.String,system.fabric.StatefulServiceFactory,java.time.Duration)</xref></p>
+  summary: "<p>Represents a stateful service factory that is responsible for creating replicas of a specific type of stateful service. Stateful service factories are registered with the <xref uid=\"system.fabric.FabricRuntime\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime</xref> by service hosts via <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatefulServiceFactory(java.lang.String,system.fabric.StatefulServiceFactory)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatefulServiceFactoryAsync(java.lang.String,system.fabric.StatefulServiceFactory,java.time.Duration)</xref></p>"
   syntax:
     content: public interface StatefulServiceFactory
 - uid: system.fabric.StatefulServiceFailoverSettings
@@ -875,7 +810,7 @@ references:
   nameWithType: StatefulServiceInitializationParameters
   fullName: system.fabric.StatefulServiceInitializationParameters
   type: Class
-  summary: <p>Defines service initialization parameters for a stateful service. </p>
+  summary: "<p>Defines service initialization parameters for a stateful service. </p>"
   syntax:
     content: public class StatefulServiceInitializationParameters extends ServiceInitializationParameters
 - uid: system.fabric.StatefulServicePartition
@@ -894,12 +829,7 @@ references:
   nameWithType: StatefulServiceReplica
   fullName: system.fabric.StatefulServiceReplica
   type: Interface
-  summary: >-
-    <p>Defines behavior that governs the lifecycle of a replica, such as startup, initialization, role changes, and shutdown. </p>
-
-    <p>
-
-      <b>Remarks:</b>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> to use the implementation of <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> that is provided by <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref></p>
+  summary: "<p>Defines behavior that governs the lifecycle of a replica, such as startup, initialization, role changes, and shutdown. </p>\r\n<p>\r\n  <b>Remarks:</b>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> to use the implementation of <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> that is provided by <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref></p>"
   syntax:
     content: public interface StatefulServiceReplica
 - uid: system.fabric.StatelessServiceFactory
@@ -909,12 +839,7 @@ references:
   nameWithType: StatelessServiceFactory
   fullName: system.fabric.StatelessServiceFactory
   type: Interface
-  summary: >-
-    <p>Represents a stateless service factory that is responsible for creating instances of a specific type of stateless service. </p>
-
-    <p>
-
-      <b>Remarks:</b>Stateless service factories are registered with the <xref uid="system.fabric.FabricRuntime" data-throw-if-not-resolved="false">system.fabric.FabricRuntime</xref> by service hosts via <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatelessServiceFactory(java.lang.String,system.fabric.StatelessServiceFactory)</xref> or <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatelessServiceFactoryAsync(java.lang.String,system.fabric.StatelessServiceFactory,java.time.Duration)</xref></p>
+  summary: "<p>Represents a stateless service factory that is responsible for creating instances of a specific type of stateless service. </p>\r\n<p>\r\n  <b>Remarks:</b>Stateless service factories are registered with the <xref uid=\"system.fabric.FabricRuntime\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime</xref> by service hosts via <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatelessServiceFactory(java.lang.String,system.fabric.StatelessServiceFactory)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatelessServiceFactoryAsync(java.lang.String,system.fabric.StatelessServiceFactory,java.time.Duration)</xref></p>"
   syntax:
     content: public interface StatelessServiceFactory
 - uid: system.fabric.StatelessServiceInitializationParameters
@@ -924,7 +849,7 @@ references:
   nameWithType: StatelessServiceInitializationParameters
   fullName: system.fabric.StatelessServiceInitializationParameters
   type: Class
-  summary: <p>Defines service initialization parameters for a stateless service. </p>
+  summary: "<p>Defines service initialization parameters for a stateless service. </p>"
   syntax:
     content: public class StatelessServiceInitializationParameters extends ServiceInitializationParameters
 - uid: system.fabric.StatelessServiceInstance
@@ -934,7 +859,7 @@ references:
   nameWithType: StatelessServiceInstance
   fullName: system.fabric.StatelessServiceInstance
   type: Interface
-  summary: <p>Stateless services are those which have no state that requires management by Service Fabric. Stateless service types must implement this interface. </p>
+  summary: "<p>Stateless services are those which have no state that requires management by Service Fabric. Stateless service types must implement this interface. </p>"
   syntax:
     content: public interface StatelessServiceInstance
 - uid: system.fabric.StatelessServicePartition
@@ -944,12 +869,7 @@ references:
   nameWithType: StatelessServicePartition
   fullName: system.fabric.StatelessServicePartition
   type: Interface
-  summary: >-
-    <p>Represents a partition that is associated with a stateless service instance. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid="system.fabric.ServicePartition" data-throw-if-not-resolved="false">system.fabric.ServicePartition</xref>. </p>
+  summary: "<p>Represents a partition that is associated with a stateless service instance. </p>\r\n<p>\r\n  <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid=\"system.fabric.ServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition</xref>. </p>"
   syntax:
     content: public interface StatelessServicePartition extends ServicePartition
 - uid: system.fabric.StateProvider
@@ -959,7 +879,7 @@ references:
   nameWithType: StateProvider
   fullName: system.fabric.StateProvider
   type: Interface
-  summary: <p>Defines the behavior that a service must implement to interact with the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">FabricReplicator</xref>. </p>
+  summary: "<p>Defines the behavior that a service must implement to interact with the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">FabricReplicator</xref>. </p>"
   syntax:
     content: public interface StateProvider
 - uid: system.fabric.StateReplicator
@@ -969,7 +889,7 @@ references:
   nameWithType: StateReplicator
   fullName: system.fabric.StateReplicator
   type: Interface
-  summary: <p>Exposes replication related functions of the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">FabricReplicator</xref> class that are used by <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">StateProvider</xref> to replicate state to ensure high availability. </p>
+  summary: "<p>Exposes replication related functions of the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">FabricReplicator</xref> class that are used by <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">StateProvider</xref> to replicate state to ensure high availability. </p>"
   syntax:
     content: public interface StateReplicator
 - uid: system.fabric.StateReplicator2
@@ -979,7 +899,7 @@ references:
   nameWithType: StateReplicator2
   fullName: system.fabric.StateReplicator2
   type: Interface
-  summary: <p>Exposes replication-related functions of the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> class that are used by <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> to replicate state to ensure high availability. </p>
+  summary: "<p>Exposes replication-related functions of the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> class that are used by <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> to replicate state to ensure high availability. </p>"
   syntax:
     content: public interface StateReplicator2 extends StateReplicator
 - uid: system.fabric.WindowsCredentials
@@ -989,7 +909,7 @@ references:
   nameWithType: WindowsCredentials
   fullName: system.fabric.WindowsCredentials
   type: Class
-  summary: <p>Represents the active directory domain credential. </p>
+  summary: "<p>Represents the active directory domain credential. </p>"
   syntax:
     content: public class WindowsCredentials extends SecurityCredentials
 - uid: system.fabric.X509Credentials
@@ -999,7 +919,7 @@ references:
   nameWithType: X509Credentials
   fullName: system.fabric.X509Credentials
   type: Class
-  summary: <p>Specifies the security credentials that are based upon X.509 certificates which are located in Windows certificate store. </p>
+  summary: "<p>Specifies the security credentials that are based upon X.509 certificates which are located in Windows certificate store. </p>"
   syntax:
     content: public class X509Credentials extends SecurityCredentials
 - uid: system.fabric.X509Credentials2
@@ -1009,7 +929,7 @@ references:
   nameWithType: X509Credentials2
   fullName: system.fabric.X509Credentials2
   type: Class
-  summary: <p>Specifies the security credentials that are based upon X.509 certificates which are specified using the certificate path. </p>
+  summary: "<p>Specifies the security credentials that are based upon X.509 certificates which are specified using the certificate path. </p>"
   syntax:
     content: public class X509Credentials2 extends SecurityCredentials
 - uid: system.fabric.X509FindType
@@ -1019,7 +939,7 @@ references:
   nameWithType: X509FindType
   fullName: system.fabric.X509FindType
   type: Enum
-  summary: <p>Specifies the type of value the <xref uid="system.fabric.X509Credentials.getFindType()" data-throw-if-not-resolved="false">system.fabric.X509Credentials#getFindType()</xref> method searches for. </p>
+  summary: "<p>Specifies the type of value the <xref uid=\"system.fabric.X509Credentials.getFindType()\" data-throw-if-not-resolved=\"false\">system.fabric.X509Credentials#getFindType()</xref> method searches for. </p>"
   syntax:
     content: public enum X509FindType
 - uid: system.fabric.X509Name
@@ -1029,7 +949,7 @@ references:
   nameWithType: X509Name
   fullName: system.fabric.X509Name
   type: Class
-  summary: <p>A type to identify X509 certificate with subject common name or DNS name. </p>
+  summary: "<p>A type to identify X509 certificate with subject common name or DNS name. </p>"
   syntax:
     content: public class X509Name
 - uid: system.fabric.X509StoreLocation
@@ -1039,6 +959,6 @@ references:
   nameWithType: X509StoreLocation
   fullName: system.fabric.X509StoreLocation
   type: Enum
-  summary: <p>Defines a class to represent a store location in the certificate provider. </p>
+  summary: "<p>Defines a class to represent a store location in the certificate provider. </p>"
   syntax:
     content: public enum X509StoreLocation

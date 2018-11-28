@@ -41,7 +41,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -54,10 +54,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskCaching(CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskCaching(CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the caching type for data disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the caching type for data disk.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDiskCaching(CachingTypes cachingType)
     parameters:
@@ -74,10 +71,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskSizeInGB(int diskSizeGB)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskSizeInGB(int diskSizeGB)
   type: Method
-  summary: >-
-    <p>Specifies the size in GB for data disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the size in GB for data disk.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDiskSizeInGB(int diskSizeGB)
     parameters:
@@ -94,7 +88,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -108,10 +102,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of data disk image definition allowing to specify configurations for the data disk when it is created from the same data disk image.</p>
-
-    <p></p>
+  summary: "<p>The stage of data disk image definition allowing to specify configurations for the data disk when it is created from the same data disk image.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDiskSettings<ParentT>
     typeParameters:
@@ -125,7 +116,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.Definition<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a data disk image definition. </p>
+  summary: "<p>The entirety of a data disk image definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.Blank<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithAttach<ParentT>
     typeParameters:

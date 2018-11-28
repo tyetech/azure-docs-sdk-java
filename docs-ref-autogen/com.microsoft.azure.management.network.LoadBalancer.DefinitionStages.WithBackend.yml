@@ -76,7 +76,7 @@ references:
   nameWithType: LoadBalancer.Definition
   fullName: com.microsoft.azure.management.network.LoadBalancer.Definition
   type: Interface
-  summary: <p>The entirety of the load balancer definition. </p>
+  summary: "<p>The entirety of the load balancer definition. </p>"
   syntax:
     content: public interface Definition extends LoadBalancer.DefinitionStages.Blank,LoadBalancer.DefinitionStages.WithGroup,LoadBalancer.DefinitionStages.WithCreate,LoadBalancer.DefinitionStages.WithBackend,LoadBalancer.DefinitionStages.WithLoadBalancingRule,LoadBalancer.DefinitionStages.WithLBRuleOrNat,LoadBalancer.DefinitionStages.WithLBRuleOrNatOrCreate,LoadBalancer.DefinitionStages.WithCreateAndInboundNatPool,LoadBalancer.DefinitionStages.WithCreateAndInboundNatRule,LoadBalancer.DefinitionStages.WithCreateAndNatChoice
 - uid: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreate
@@ -86,6 +86,6 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of a load balancer definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>
+  summary: "<p>The stage of a load balancer definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

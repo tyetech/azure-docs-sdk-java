@@ -489,7 +489,7 @@ references:
   nameWithType: MethodDispatcher
   fullName: microsoft.servicefabric.services.remoting.MethodDispatcher
   type: Interface
-  summary: <p>This interface defines api to handle dispatches requests from the client to the interface/method of the remoted object. </p>
+  summary: "<p>This interface defines api to handle dispatches requests from the client to the interface/method of the remoted object. </p>"
   syntax:
     content: public interface MethodDispatcher
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBaseWithSerializer
@@ -499,7 +499,7 @@ references:
   nameWithType: MethodDispatcherBaseWithSerializer
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBaseWithSerializer
   type: Class
-  summary: <p>The class dispatches the requests from the client to the interface/method of the remoted objectts. This class is used by remoting code generator. This class caches the Serializer. </p>
+  summary: "<p>The class dispatches the requests from the client to the interface/method of the remoted objectts. This class is used by remoting code generator. This class caches the Serializer. </p>"
   syntax:
     content: public class MethodDispatcherBaseWithSerializer
 - uid: microsoft.servicefabric.services.remoting.MethodDispatcher.getInterfaceId()
@@ -554,7 +554,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.services.remoting.MethodDispatcher.dispatch(Object,int,Object)

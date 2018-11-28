@@ -113,7 +113,7 @@ references:
   nameWithType: ApplicationGatewayListener.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway HTTP listener definition. </p>
+  summary: "<p>The entirety of an application gateway HTTP listener definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayListener.DefinitionStages.Blank<ParentT>,ApplicationGatewayListener.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayListener.DefinitionStages.WithFrontend<ParentT>,ApplicationGatewayListener.DefinitionStages.WithFrontendPort<ParentT>,ApplicationGatewayListener.DefinitionStages.WithSslCertificate<ParentT>,ApplicationGatewayListener.DefinitionStages.WithSslPassword<ParentT>,ApplicationGatewayListener.DefinitionStages.WithHostName<ParentT>
     typeParameters:
@@ -127,10 +127,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway HTTP listener. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway HTTP listener. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>,ApplicationGatewayListener.DefinitionStages.WithHostName<ParentT>,ApplicationGatewayListener.DefinitionStages.WithServerNameIndication<ParentT>
     typeParameters:

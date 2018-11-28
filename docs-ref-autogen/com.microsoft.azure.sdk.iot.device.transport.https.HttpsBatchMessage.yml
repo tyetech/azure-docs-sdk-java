@@ -265,7 +265,7 @@ references:
   nameWithType: HttpsMessage.HTTPS_APP_PROPERTY_PREFIX
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.HTTPS_APP_PROPERTY_PREFIX
   type: Field
-  summary: <p>The prefix to be added to an HTTPS application-defined property. </p>
+  summary: "<p>The prefix to be added to an HTTPS application-defined property. </p>"
   syntax:
     content: public String HTTPS_APP_PROPERTY_PREFIX= "iothub-app-"
     return:
@@ -277,7 +277,7 @@ references:
   nameWithType: HttpsMessage.HTTPS_SYSTEM_PROPERTY_PREFIX
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.HTTPS_SYSTEM_PROPERTY_PREFIX
   type: Field
-  summary: <p>The prefix to be added to an HTTPS system-defined property. </p>
+  summary: "<p>The prefix to be added to an HTTPS system-defined property. </p>"
   syntax:
     content: public String HTTPS_SYSTEM_PROPERTY_PREFIX= "iothub-"
     return:
@@ -289,7 +289,7 @@ references:
   nameWithType: HttpsMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage
   type: Interface
-  summary: <p>An HTTPS message. An HTTPS message is distinguished from a plain IoT Hub message by its property names, which are prefixed with 'iothub-app-'; and by the explicit specification of a content-type. </p>
+  summary: "<p>An HTTPS message. An HTTPS message is distinguished from a plain IoT Hub message by its property names, which are prefixed with 'iothub-app-'; and by the explicit specification of a content-type. </p>"
   syntax:
     content: public interface HttpsMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage
@@ -299,7 +299,7 @@ references:
   nameWithType: HttpsSingleMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage
   type: Class
-  summary: <p>A single HTTPS message. </p>
+  summary: "<p>A single HTTPS message. </p>"
   syntax:
     content: public class HttpsSingleMessage
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.IotHubSizeExceededException
@@ -309,10 +309,7 @@ references:
   nameWithType: IotHubSizeExceededException
   fullName: com.microsoft.azure.sdk.iot.device.exceptions.IotHubSizeExceededException
   type: Class
-  summary: >-
-    <p>Create IotHub size exceeded exceptions</p>
-
-    <p>This exception will be throw when a function tries to add content in a buffer or message and the final size will exceed the maximum size acceptable by the IotHub. </p>
+  summary: "<p>Create IotHub size exceeded exceptions</p>\r\n<p>This exception will be throw when a function tries to add content in a buffer or message and the final size will exceed the maximum size acceptable by the IotHub. </p>"
   syntax:
     content: public class IotHubSizeExceededException
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.getBody()
@@ -322,7 +319,7 @@ references:
   nameWithType: HttpsMessage.getBody()
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.getBody()
   type: Method
-  summary: <p>Gets the message body. </p>
+  summary: "<p>Gets the message body. </p>"
   syntax:
     content: public byte [] getBody()
     return:
@@ -335,7 +332,7 @@ references:
   nameWithType: HttpsMessage.getContentType()
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.getContentType()
   type: Method
-  summary: <p>Gets the message content type. </p>
+  summary: "<p>Gets the message content type. </p>"
   syntax:
     content: public String getContentType()
     return:
@@ -348,7 +345,7 @@ references:
   nameWithType: MessageProperty
   fullName: com.microsoft.azure.sdk.iot.device.MessageProperty
   type: Class
-  summary: <p>An IoT Hub message property. </p>
+  summary: "<p>An IoT Hub message property. </p>"
   syntax:
     content: public class MessageProperty
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.getProperties()
@@ -358,7 +355,7 @@ references:
   nameWithType: HttpsMessage.getProperties()
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.getProperties()
   type: Method
-  summary: <p>Gets the collection of message properties. </p>
+  summary: "<p>Gets the collection of message properties. </p>"
   syntax:
     content: public MessageProperty [] getProperties()
     return:
@@ -371,7 +368,7 @@ references:
   nameWithType: HttpsMessage.getSystemProperties()
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage.getSystemProperties()
   type: Method
-  summary: <p>Gets the collection of system message properties. </p>
+  summary: "<p>Gets the collection of system message properties. </p>"
   syntax:
     content: public Map<String, String> getSystemProperties()
     return:

@@ -62,7 +62,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends ContainerService.DefinitionStages.WithMasterDnsPrefix,ContainerService.DefinitionStages.WithDiagnostics,ContainerService.DefinitionStages.WithMasterVMSize,ContainerService.DefinitionStages.WithMasterStorageProfile,ContainerService.DefinitionStages.WithMasterOSDiskSize,ContainerService.DefinitionStages.WithSubnet,Creatable<ContainerService>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterVMSize(ContainerServiceVMSizeTypes)
@@ -72,7 +72,7 @@ references:
   nameWithType: ContainerServiceImpl.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   type: Method
-  summary: <p>Specifies the size of the master VMs, default set to "Standard_D2_v2". </p>
+  summary: "<p>Specifies the size of the master VMs, default set to \"Standard_D2_v2\". </p>"
   syntax:
     content: public ContainerServiceImpl withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
     parameters:
@@ -89,6 +89,6 @@ references:
   nameWithType: ContainerServiceVMSizeTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceVMSizeTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceVMSizeTypes. </p>
+  summary: "<p>Defines values for ContainerServiceVMSizeTypes. </p>"
   syntax:
     content: public class ContainerServiceVMSizeTypes

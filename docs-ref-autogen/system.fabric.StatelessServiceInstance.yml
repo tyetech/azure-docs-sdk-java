@@ -166,7 +166,7 @@ references:
   nameWithType: StatelessServiceInitializationParameters
   fullName: system.fabric.StatelessServiceInitializationParameters
   type: Class
-  summary: <p>Defines service initialization parameters for a stateless service. </p>
+  summary: "<p>Defines service initialization parameters for a stateless service. </p>"
   syntax:
     content: public class StatelessServiceInitializationParameters extends ServiceInitializationParameters
 - uid: system.fabric.StatelessServicePartition
@@ -176,12 +176,7 @@ references:
   nameWithType: StatelessServicePartition
   fullName: system.fabric.StatelessServicePartition
   type: Interface
-  summary: >-
-    <p>Represents a partition that is associated with a stateless service instance. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid="system.fabric.ServicePartition" data-throw-if-not-resolved="false">system.fabric.ServicePartition</xref>. </p>
+  summary: "<p>Represents a partition that is associated with a stateless service instance. </p>\r\n<p>\r\n  <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid=\"system.fabric.ServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition</xref>. </p>"
   syntax:
     content: public interface StatelessServicePartition
 - uid: system.fabric.CancellationToken
@@ -191,7 +186,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: system.fabric.ServicePartition.reportFault(FaultType)
@@ -201,12 +196,7 @@ references:
   nameWithType: ServicePartition.reportFault(FaultType faultType)
   fullName: system.fabric.ServicePartition.reportFault(FaultType faultType)
   type: Method
-  summary: >-
-    <p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid="" data-throw-if-not-resolved="false">java.util.Collection</xref> of <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">LoadMetric</xref> method and provides one or more properties of the <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">system.fabric.LoadMetric</xref> method.</p>
-
-    <p>
-
-      <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>
+  summary: "<p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.Collection</xref> of <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">LoadMetric</xref> method and provides one or more properties of the <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">system.fabric.LoadMetric</xref> method.</p>\r\n<p>\r\n  <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>"
   syntax:
     content: public void reportFault(FaultType faultType)
     parameters:
@@ -220,11 +210,6 @@ references:
   nameWithType: FaultType.Permanent
   fullName: system.fabric.FaultType.Permanent
   type: Field
-  summary: >-
-    <p>A permanent fault is a fault that the replica cannot recover from. This type of fault indicates that the replica can make no further progress and should be removed and replaced. </p>
-
-    <p>
-
-      <b>Remarks : </b> An example of a permanent fault would be a persistent stateful service that tries to write information to disk and determines that the disk had been removed or was unusable. Calling <xref uid="system.fabric.ServicePartition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(system.fabric.FaultType)</xref> and reporting a permanent fault result in the service to be Aborted via StatefulServiceReplica <xref uid="system.fabric.StatefulServiceReplica.abort()" data-throw-if-not-resolved="false">system.fabric.StatefulServiceReplica#abort()</xref> or StatelessServiceInstance <xref uid="system.fabric.StatelessServiceInstance.abort()" data-throw-if-not-resolved="false">system.fabric.StatelessServiceInstance#abort()</xref> without a chance to gracefully clean up state or complete operations. Therefore, if any cleanup or other long-running work is necessary, it should be performed before <xref uid="system.fabric.ServicePartition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(system.fabric.FaultType)</xref> is called. Note that the distinction between permanent and transient faults is useful mainly for persistent stateful services. Other than the call sequence, the effects on other service types are the same: the replica or instance is removed, all state at that replica or instance is lost, and the replica or instance is recreated, potentially in a different location. </p>
+  summary: "<p>A permanent fault is a fault that the replica cannot recover from. This type of fault indicates that the replica can make no further progress and should be removed and replaced. </p>\r\n<p>\r\n  <b>Remarks : </b> An example of a permanent fault would be a persistent stateful service that tries to write information to disk and determines that the disk had been removed or was unusable. Calling <xref uid=\"system.fabric.ServicePartition.reportFault(FaultType)\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition#reportFault(system.fabric.FaultType)</xref> and reporting a permanent fault result in the service to be Aborted via StatefulServiceReplica <xref uid=\"system.fabric.StatefulServiceReplica.abort()\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServiceReplica#abort()</xref> or StatelessServiceInstance <xref uid=\"system.fabric.StatelessServiceInstance.abort()\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServiceInstance#abort()</xref> without a chance to gracefully clean up state or complete operations. Therefore, if any cleanup or other long-running work is necessary, it should be performed before <xref uid=\"system.fabric.ServicePartition.reportFault(FaultType)\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition#reportFault(system.fabric.FaultType)</xref> is called. Note that the distinction between permanent and transient faults is useful mainly for persistent stateful services. Other than the call sequence, the effects on other service types are the same: the replica or instance is removed, all state at that replica or instance is lost, and the replica or instance is recreated, potentially in a different location. </p>"
   syntax:
     content: public Permanent=(1)

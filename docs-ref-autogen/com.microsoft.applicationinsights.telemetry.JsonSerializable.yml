@@ -66,7 +66,7 @@ references:
   nameWithType: Telemetry
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry
   type: Interface
-  summary: <p>The base telemetry type interface for application insights. </p>
+  summary: "<p>The base telemetry type interface for application insights. </p>"
   syntax:
     content: public interface Telemetry
 - uid: com.microsoft.applicationinsights.telemetry.Telemetry.serialize(JsonTelemetryDataSerializer)
@@ -76,7 +76,7 @@ references:
   nameWithType: Telemetry.serialize(JsonTelemetryDataSerializer writer)
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.serialize(JsonTelemetryDataSerializer writer)
   type: Method
-  summary: <p>Serializes itself to Json using the <xref uid="com.microsoft.applicationinsights.telemetry.JsonTelemetryDataSerializer" data-throw-if-not-resolved="false">JsonTelemetryDataSerializer</xref></p>
+  summary: "<p>Serializes itself to Json using the <xref uid=\"com.microsoft.applicationinsights.telemetry.JsonTelemetryDataSerializer\" data-throw-if-not-resolved=\"false\">JsonTelemetryDataSerializer</xref></p>"
   syntax:
     content: public void serialize(JsonTelemetryDataSerializer writer)
     parameters:
@@ -90,10 +90,7 @@ references:
   nameWithType: BaseTelemetry<T>.serialize(JsonTelemetryDataSerializer writer)
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.serialize(JsonTelemetryDataSerializer writer)
   type: Method
-  summary: >-
-    <p>Serializes this object in JSON format.</p>
-
-    <p></p>
+  summary: "<p>Serializes this object in JSON format.</p>\r\n<p></p>"
   syntax:
     content: public void serialize(JsonTelemetryDataSerializer writer)
     parameters:
@@ -107,6 +104,6 @@ references:
   nameWithType: JsonTelemetryDataSerializer
   fullName: com.microsoft.applicationinsights.telemetry.JsonTelemetryDataSerializer
   type: Class
-  summary: <p>This class knows how to transform data that is relevant to <xref uid="com.microsoft.applicationinsights.telemetry.Telemetry" data-throw-if-not-resolved="false">Telemetry</xref> instances into JSON. </p>
+  summary: "<p>This class knows how to transform data that is relevant to <xref uid=\"com.microsoft.applicationinsights.telemetry.Telemetry\" data-throw-if-not-resolved=\"false\">Telemetry</xref> instances into JSON. </p>"
   syntax:
     content: public class JsonTelemetryDataSerializer

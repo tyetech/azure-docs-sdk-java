@@ -75,7 +75,7 @@ references:
   nameWithType: ClientFactory
   fullName: com.microsoft.azure.servicebus.ClientFactory
   type: Class
-  summary: <p>Utility class for creating message senders and receivers. </p>
+  summary: "<p>Utility class for creating message senders and receivers. </p>"
   syntax:
     content: public class ClientFactory
 - uid: com.microsoft.azure.servicebus.ClientSettings
@@ -85,7 +85,7 @@ references:
   nameWithType: ClientSettings
   fullName: com.microsoft.azure.servicebus.ClientSettings
   type: Class
-  summary: <p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>
+  summary: "<p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>"
   syntax:
     content: public class ClientSettings
 - uid: com.microsoft.azure.servicebus.ExceptionPhase
@@ -95,10 +95,7 @@ references:
   nameWithType: ExceptionPhase
   fullName: com.microsoft.azure.servicebus.ExceptionPhase
   type: Enum
-  summary: >-
-    <p>Enumeration to represent the phase in a message pump or session pump at which an exception occurred.</p>
-
-    <p></p>
+  summary: "<p>Enumeration to represent the phase in a message pump or session pump at which an exception occurred.</p>\r\n<p></p>"
   syntax:
     content: public enum ExceptionPhase
 - uid: com.microsoft.azure.servicebus.ICloseable
@@ -108,7 +105,7 @@ references:
   nameWithType: ICloseable
   fullName: com.microsoft.azure.servicebus.ICloseable
   type: Interface
-  summary: <p>Defines a standard way of properly closing and disposing objects. </p>
+  summary: "<p>Defines a standard way of properly closing and disposing objects. </p>"
   syntax:
     content: public interface ICloseable
 - uid: com.microsoft.azure.servicebus.IMessage
@@ -118,10 +115,7 @@ references:
   nameWithType: IMessage
   fullName: com.microsoft.azure.servicebus.IMessage
   type: Interface
-  summary: >-
-    <p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>
-
-    <p></p>
+  summary: "<p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessage
 - uid: com.microsoft.azure.servicebus.IMessageBrowser
@@ -131,7 +125,7 @@ references:
   nameWithType: IMessageBrowser
   fullName: com.microsoft.azure.servicebus.IMessageBrowser
   type: Interface
-  summary: <p>Represents a message browser that can browse messages from Azure Service Bus. </p>
+  summary: "<p>Represents a message browser that can browse messages from Azure Service Bus. </p>"
   syntax:
     content: public interface IMessageBrowser
 - uid: com.microsoft.azure.servicebus.IMessageEntityClient
@@ -141,10 +135,7 @@ references:
   nameWithType: IMessageEntityClient
   fullName: com.microsoft.azure.servicebus.IMessageEntityClient
   type: Interface
-  summary: >-
-    <p>Represents a messaging client to an Azure Service Bus entity.</p>
-
-    <p></p>
+  summary: "<p>Represents a messaging client to an Azure Service Bus entity.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessageEntityClient extends ICloseable
 - uid: com.microsoft.azure.servicebus.IMessageHandler
@@ -154,7 +145,7 @@ references:
   nameWithType: IMessageHandler
   fullName: com.microsoft.azure.servicebus.IMessageHandler
   type: Interface
-  summary: <p>Defines the contract for registering the callback <xref uid="" data-throw-if-not-resolved="false">QueueClient#registerMessageHandler(IMessageHandler)</xref> and <xref uid="" data-throw-if-not-resolved="false">SubscriptionClient#registerMessageHandler(IMessageHandler)</xref> for <xref uid="com.microsoft.azure.servicebus.QueueClient" data-throw-if-not-resolved="false">QueueClient</xref> and <xref uid="com.microsoft.azure.servicebus.SubscriptionClient" data-throw-if-not-resolved="false">SubscriptionClient</xref>. </p>
+  summary: "<p>Defines the contract for registering the callback <xref uid=\"\" data-throw-if-not-resolved=\"false\">QueueClient#registerMessageHandler(IMessageHandler)</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">SubscriptionClient#registerMessageHandler(IMessageHandler)</xref> for <xref uid=\"com.microsoft.azure.servicebus.QueueClient\" data-throw-if-not-resolved=\"false\">QueueClient</xref> and <xref uid=\"com.microsoft.azure.servicebus.SubscriptionClient\" data-throw-if-not-resolved=\"false\">SubscriptionClient</xref>. </p>"
   syntax:
     content: public interface IMessageHandler
 - uid: com.microsoft.azure.servicebus.IMessageReceiver
@@ -164,7 +155,7 @@ references:
   nameWithType: IMessageReceiver
   fullName: com.microsoft.azure.servicebus.IMessageReceiver
   type: Interface
-  summary: <p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>
+  summary: "<p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>"
   syntax:
     content: public interface IMessageReceiver extends IMessageEntityClient,IMessageBrowser
 - uid: com.microsoft.azure.servicebus.IMessageSender
@@ -174,10 +165,7 @@ references:
   nameWithType: IMessageSender
   fullName: com.microsoft.azure.servicebus.IMessageSender
   type: Interface
-  summary: >-
-    <p>Represents a message sender that sends messages to Azure Service Bus.</p>
-
-    <p></p>
+  summary: "<p>Represents a message sender that sends messages to Azure Service Bus.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessageSender extends IMessageEntityClient
 - uid: com.microsoft.azure.servicebus.IMessageSession
@@ -187,14 +175,7 @@ references:
   nameWithType: IMessageSession
   fullName: com.microsoft.azure.servicebus.IMessageSession
   type: Interface
-  summary: >-
-    <p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>
-
-    <p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>
-
-    <p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid="" data-throw-if-not-resolved="false">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>
-
-    <p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>
+  summary: "<p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>\r\n<p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>\r\n<p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>\r\n<p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>"
   syntax:
     content: public interface IMessageSession extends IMessageReceiver
 - uid: com.microsoft.azure.servicebus.IMessageSessionEntity
@@ -204,7 +185,7 @@ references:
   nameWithType: IMessageSessionEntity
   fullName: com.microsoft.azure.servicebus.IMessageSessionEntity
   type: Interface
-  summary: <p>Represents a session full client entity. </p>
+  summary: "<p>Represents a session full client entity. </p>"
   syntax:
     content: public interface IMessageSessionEntity
 - uid: com.microsoft.azure.servicebus.IQueueClient
@@ -214,7 +195,7 @@ references:
   nameWithType: IQueueClient
   fullName: com.microsoft.azure.servicebus.IQueueClient
   type: Interface
-  summary: <p>QueueClient can be used for all basic interactions with a Service Bus Queue. </p>
+  summary: "<p>QueueClient can be used for all basic interactions with a Service Bus Queue. </p>"
   syntax:
     content: public interface IQueueClient extends IMessageSender,IMessageEntityClient
 - uid: com.microsoft.azure.servicebus.ISessionHandler
@@ -224,7 +205,7 @@ references:
   nameWithType: ISessionHandler
   fullName: com.microsoft.azure.servicebus.ISessionHandler
   type: Interface
-  summary: <p>Defines the contract for registering the session message processing callback <xref uid="" data-throw-if-not-resolved="false">QueueClient#registerSessionHandler(ISessionHandler)</xref> or <xref uid="" data-throw-if-not-resolved="false">SubscriptionClient#registerSessionHandler(ISessionHandler)</xref> for <xref uid="com.microsoft.azure.servicebus.QueueClient" data-throw-if-not-resolved="false">QueueClient</xref> and <xref uid="com.microsoft.azure.servicebus.SubscriptionClient" data-throw-if-not-resolved="false">SubscriptionClient</xref>. </p>
+  summary: "<p>Defines the contract for registering the session message processing callback <xref uid=\"\" data-throw-if-not-resolved=\"false\">QueueClient#registerSessionHandler(ISessionHandler)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">SubscriptionClient#registerSessionHandler(ISessionHandler)</xref> for <xref uid=\"com.microsoft.azure.servicebus.QueueClient\" data-throw-if-not-resolved=\"false\">QueueClient</xref> and <xref uid=\"com.microsoft.azure.servicebus.SubscriptionClient\" data-throw-if-not-resolved=\"false\">SubscriptionClient</xref>. </p>"
   syntax:
     content: public interface ISessionHandler
 - uid: com.microsoft.azure.servicebus.ISubscriptionClient
@@ -234,7 +215,7 @@ references:
   nameWithType: ISubscriptionClient
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient
   type: Interface
-  summary: <p>SubscriptionClient can be used for all basic interactions with a Service Bus Subscription. </p>
+  summary: "<p>SubscriptionClient can be used for all basic interactions with a Service Bus Subscription. </p>"
   syntax:
     content: public interface ISubscriptionClient extends IMessageEntityClient
 - uid: com.microsoft.azure.servicebus.ITopicClient
@@ -244,7 +225,7 @@ references:
   nameWithType: ITopicClient
   fullName: com.microsoft.azure.servicebus.ITopicClient
   type: Interface
-  summary: <p>TopicClient can be used for all basic interactions with a Service Bus topic. <code></code></p>
+  summary: "<p>TopicClient can be used for all basic interactions with a Service Bus topic. <code></code></p>"
   syntax:
     content: public interface ITopicClient extends IMessageSender,IMessageBrowser,IMessageEntityClient
 - uid: com.microsoft.azure.servicebus.Message
@@ -263,7 +244,7 @@ references:
   nameWithType: MessageHandlerOptions
   fullName: com.microsoft.azure.servicebus.MessageHandlerOptions
   type: Class
-  summary: <p>The OnMessage handler processing options. </p>
+  summary: "<p>The OnMessage handler processing options. </p>"
   syntax:
     content: public class MessageHandlerOptions
 - uid: com.microsoft.azure.servicebus.MessageSession
@@ -291,10 +272,7 @@ references:
   nameWithType: ReceiveMode
   fullName: com.microsoft.azure.servicebus.ReceiveMode
   type: Enum
-  summary: >-
-    <p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>
-
-    <p></p>
+  summary: "<p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>\r\n<p></p>"
   syntax:
     content: public enum ReceiveMode
 - uid: com.microsoft.azure.servicebus.SessionHandlerOptions
@@ -304,7 +282,7 @@ references:
   nameWithType: SessionHandlerOptions
   fullName: com.microsoft.azure.servicebus.SessionHandlerOptions
   type: Class
-  summary: <p>The OnSession handler processing options. </p>
+  summary: "<p>The OnSession handler processing options. </p>"
   syntax:
     content: public class SessionHandlerOptions
 - uid: com.microsoft.azure.servicebus.SubscriptionClient
@@ -323,6 +301,6 @@ references:
   nameWithType: TopicClient
   fullName: com.microsoft.azure.servicebus.TopicClient
   type: Class
-  summary: <p>The topic client that interacts with service bus topic. </p>
+  summary: "<p>The topic client that interacts with service bus topic. </p>"
   syntax:
     content: public class TopicClient implements ITopicClient

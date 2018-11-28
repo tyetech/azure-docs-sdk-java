@@ -45,10 +45,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyAllPermissions()
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyAllPermissions()
   type: Method
-  summary: >-
-    <p>Allow all permissions for the AD identity to access keys.</p>
-
-    <p></p>
+  summary: "<p>Allow all permissions for the AD identity to access keys.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowKeyAllPermissions()
     return:
@@ -61,10 +58,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(KeyPermissions... permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(KeyPermissions... permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access keys.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access keys.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowKeyPermissions(KeyPermissions... permissions)
     parameters:
@@ -81,10 +75,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(List<KeyPermissions> permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(List<KeyPermissions> permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access keys.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access keys.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowKeyPermissions(List<KeyPermissions> permissions)
     parameters:
@@ -101,10 +92,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretAllPermissions()
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretAllPermissions()
   type: Method
-  summary: >-
-    <p>Allow all permissions for the AD identity to access secrets.</p>
-
-    <p></p>
+  summary: "<p>Allow all permissions for the AD identity to access secrets.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowSecretAllPermissions()
     return:
@@ -117,10 +105,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(SecretPermissions... permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(SecretPermissions... permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access secrets.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access secrets.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowSecretPermissions(SecretPermissions... permissions)
     parameters:
@@ -137,10 +122,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access secrets.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access secrets.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowSecretPermissions(List<SecretPermissions> permissions)
     parameters:
@@ -157,7 +139,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -170,7 +152,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
@@ -184,7 +166,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>
   type: Interface
-  summary: <p>The access policy definition stage allowing permissions to be added. </p>
+  summary: "<p>The access policy definition stage allowing permissions to be added. </p>"
   syntax:
     content: public interface WithPermissions<ParentT>
     typeParameters:
@@ -198,7 +180,7 @@ references:
   nameWithType: AccessPolicy.Definition<ParentT>
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an access policy definition. </p>
+  summary: "<p>The entirety of an access policy definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends AccessPolicy.DefinitionStages.Blank<ParentT>,AccessPolicy.DefinitionStages.WithAttach<ParentT>
     typeParameters:

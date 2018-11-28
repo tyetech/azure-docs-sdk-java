@@ -36,7 +36,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute.execute()
   type: Method
-  summary: <p>Execute the request. </p>
+  summary: "<p>Execute the request. </p>"
   syntax:
     content: public void execute()
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute.executeAsync()
@@ -46,10 +46,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Void> executeAsync()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersistedFaceId.withPersistedFaceId(UUID persistedFaceId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersistedFaceId.withPersistedFaceId(UUID persistedFaceId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular persistedFaceId of an existing face.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular persistedFaceId of an existing face.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute withPersistedFaceId(UUID persistedFaceId)
     parameters:
@@ -81,10 +75,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular person group.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular person group.</p>\r\n<p></p>"
   syntax:
     content: public WithPersonId withPersonGroupId(String personGroupId)
     parameters:
@@ -100,10 +91,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonId.withPersonId(UUID personId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonId.withPersonId(UUID personId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular person.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular person.</p>\r\n<p></p>"
   syntax:
     content: public WithPersistedFaceId withPersonId(UUID personId)
     parameters:
@@ -119,10 +107,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithAllOptions.withUserData(String userData)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithAllOptions.withUserData(String userData)
   type: Method
-  summary: >-
-    <p>User-provided data attached to the face. The size limit is 1KB.</p>
-
-    <p></p>
+  summary: "<p>User-provided data attached to the face. The size limit is 1KB.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute withUserData(String userData)
     parameters:
@@ -138,7 +123,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonGroupId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonGroupId
   type: Interface
-  summary: <p>The stage of the definition to be specify personGroupId. </p>
+  summary: "<p>The stage of the definition to be specify personGroupId. </p>"
   syntax:
     content: public interface WithPersonGroupId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonId
@@ -148,7 +133,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersonId
   type: Interface
-  summary: <p>The stage of the definition to be specify personId. </p>
+  summary: "<p>The stage of the definition to be specify personId. </p>"
   syntax:
     content: public interface WithPersonId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersistedFaceId
@@ -158,7 +143,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersistedFaceId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithPersistedFaceId
   type: Interface
-  summary: <p>The stage of the definition to be specify persistedFaceId. </p>
+  summary: "<p>The stage of the definition to be specify persistedFaceId. </p>"
   syntax:
     content: public interface WithPersistedFaceId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute
@@ -168,6 +153,6 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateFaceDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

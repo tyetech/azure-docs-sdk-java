@@ -34,10 +34,7 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public UUID execute()
     return:
@@ -50,10 +47,7 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<UUID> executeAsync()
     return:
@@ -66,10 +60,7 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithAllOptions.withAppName(String appName)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithAllOptions.withAppName(String appName)
   type: Method
-  summary: >-
-    <p>The application name to create. If not specified, the application name will be read from the imported object.</p>
-
-    <p></p>
+  summary: "<p>The application name to create. If not specified, the application name will be read from the imported object.</p>\r\n<p></p>"
   syntax:
     content: public AppsImportMethodDefinitionStages.WithExecute withAppName(String appName)
     parameters:
@@ -85,10 +76,7 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithLuisApp.withLuisApp(LuisApp luisApp)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithLuisApp.withLuisApp(LuisApp luisApp)
   type: Method
-  summary: >-
-    <p>A LUIS application structure.</p>
-
-    <p></p>
+  summary: "<p>A LUIS application structure.</p>\r\n<p></p>"
   syntax:
     content: public AppsImportMethodDefinitionStages.WithExecute withLuisApp(LuisApp luisApp)
     parameters:
@@ -104,7 +92,7 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithLuisApp
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithLuisApp
   type: Interface
-  summary: <p>The stage of the definition to be specify luisApp. </p>
+  summary: "<p>The stage of the definition to be specify luisApp. </p>"
   syntax:
     content: public interface WithLuisApp
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute
@@ -114,6 +102,6 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

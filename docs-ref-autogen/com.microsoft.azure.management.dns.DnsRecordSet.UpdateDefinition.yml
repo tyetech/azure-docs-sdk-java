@@ -50,7 +50,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -63,10 +63,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithCNameRecordAlias<ParentT>.withAlias(String alias)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithCNameRecordAlias<ParentT>.withAlias(String alias)
   type: Method
-  summary: >-
-    <p>Creates a CNAME record with the provided alias.</p>
-
-    <p></p>
+  summary: "<p>Creates a CNAME record with the provided alias.</p>\r\n<p></p>"
   syntax:
     content: public WithCNameRecordSetAttachable<ParentT> withAlias(String alias)
     parameters:
@@ -83,10 +80,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithETagCheck<ParentT>.withETagCheck()
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithETagCheck<ParentT>.withETagCheck()
   type: Method
-  summary: >-
-    <p>Specifies that If-None-Match header needs to set to * to prevent updating an existing record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that If-None-Match header needs to set to * to prevent updating an existing record set.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withETagCheck()
     return:
@@ -99,10 +93,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address<ParentT>.withIPv4Address(String ipv4Address)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address<ParentT>.withIPv4Address(String ipv4Address)
   type: Method
-  summary: >-
-    <p>Creates an A record with the provided IPv4 address in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates an A record with the provided IPv4 address in this record set.</p>\r\n<p></p>"
   syntax:
     content: public WithARecordIPv4AddressOrAttachable<ParentT> withIPv4Address(String ipv4Address)
     parameters:
@@ -119,10 +110,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithAaaaRecordIPv6Address<ParentT>.withIPv6Address(String ipv6Address)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithAaaaRecordIPv6Address<ParentT>.withIPv6Address(String ipv6Address)
   type: Method
-  summary: >-
-    <p>Creates an AAAA record with the provided IPv6 address in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates an AAAA record with the provided IPv6 address in this record set.</p>\r\n<p></p>"
   syntax:
     content: public WithAaaaRecordIPv6AddressOrAttachable<ParentT> withIPv6Address(String ipv6Address)
     parameters:
@@ -139,10 +127,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithMXRecordMailExchange<ParentT>.withMailExchange(String mailExchangeHostName, int priority)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithMXRecordMailExchange<ParentT>.withMailExchange(String mailExchangeHostName, int priority)
   type: Method
-  summary: >-
-    <p>Creates and assigns priority to a MX record with the provided mail exchange server in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates and assigns priority to a MX record with the provided mail exchange server in this record set.</p>\r\n<p></p>"
   syntax:
     content: public WithMXRecordMailExchangeOrAttachable<ParentT> withMailExchange(String mailExchangeHostName, int priority)
     parameters:
@@ -162,10 +147,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithMetadata<ParentT>.withMetadata(String key, String value)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithMetadata<ParentT>.withMetadata(String key, String value)
   type: Method
-  summary: >-
-    <p>Adds a tag to the resource.</p>
-
-    <p></p>
+  summary: "<p>Adds a tag to the resource.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withMetadata(String key, String value)
     parameters:
@@ -185,10 +167,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithNSRecordNameServer<ParentT>.withNameServer(String nameServerHostName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithNSRecordNameServer<ParentT>.withNameServer(String nameServerHostName)
   type: Method
-  summary: >-
-    <p>Creates a NS record with the provided name server in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates a NS record with the provided name server in this record set.</p>\r\n<p></p>"
   syntax:
     content: public WithNSRecordNameServerOrAttachable<ParentT> withNameServer(String nameServerHostName)
     parameters:
@@ -205,10 +184,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithSrvRecordEntry<ParentT>.withRecord(String target, int port, int priority, int weight)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithSrvRecordEntry<ParentT>.withRecord(String target, int port, int priority, int weight)
   type: Method
-  summary: >-
-    <p>Specifies a service record for a service.</p>
-
-    <p></p>
+  summary: "<p>Specifies a service record for a service.</p>\r\n<p></p>"
   syntax:
     content: public WithSrvRecordEntryOrAttachable<ParentT> withRecord(String target, int port, int priority, int weight)
     parameters:
@@ -234,10 +210,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithPtrRecordTargetDomainName<ParentT>.withTargetDomainName(String targetDomainName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithPtrRecordTargetDomainName<ParentT>.withTargetDomainName(String targetDomainName)
   type: Method
-  summary: >-
-    <p>Creates a PTR record with the provided target domain name in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates a PTR record with the provided target domain name in this record set.</p>\r\n<p></p>"
   syntax:
     content: public WithPtrRecordTargetDomainNameOrAttachable<ParentT> withTargetDomainName(String targetDomainName)
     parameters:
@@ -254,10 +227,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithTxtRecordTextValue<ParentT>.withText(String text)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithTxtRecordTextValue<ParentT>.withText(String text)
   type: Method
-  summary: >-
-    <p>Creates a TXT record with the given text in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates a TXT record with the given text in this record set.</p>\r\n<p></p>"
   syntax:
     content: public WithTxtRecordTextValueOrAttachable<ParentT> withText(String text)
     parameters:
@@ -274,10 +244,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithTtl<ParentT>.withTimeToLive(long ttlInSeconds)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithTtl<ParentT>.withTimeToLive(long ttlInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the TTL for the records in the record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the TTL for the records in the record set.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withTimeToLive(long ttlInSeconds)
     parameters:
@@ -294,10 +261,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a A record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a A record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface ARecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address<ParentT>
     typeParameters:
@@ -311,10 +275,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the A record set definition allowing to add first A record.</p>
-
-    <p></p>
+  summary: "<p>The stage of the A record set definition allowing to add first A record.</p>\r\n<p></p>"
   syntax:
     content: public interface WithARecordIPv4Address<ParentT>
     typeParameters:
@@ -328,10 +289,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4AddressOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4AddressOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the A record set definition allowing to add additional A records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the A record set definition allowing to add additional A records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithARecordIPv4AddressOrAttachable<ParentT>
     typeParameters:
@@ -345,10 +303,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.AaaaRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a AAAA record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a AAAA record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface AaaaRecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithAaaaRecordIPv6Address<ParentT>
     typeParameters:
@@ -362,10 +317,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithAaaaRecordIPv6Address<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithAaaaRecordIPv6Address<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the AAAA record set definition allowing to add first AAAA record.</p>
-
-    <p></p>
+  summary: "<p>The stage of the AAAA record set definition allowing to add first AAAA record.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAaaaRecordIPv6Address<ParentT>
     typeParameters:
@@ -379,10 +331,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithAaaaRecordIPv6AddressOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithAaaaRecordIPv6AddressOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the AAAA record set definition allowing to add additional A records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the AAAA record set definition allowing to add additional A records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAaaaRecordIPv6AddressOrAttachable<ParentT>
     typeParameters:
@@ -396,10 +345,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.CNameRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.CNameRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a CNAME record set definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a CNAME record set definition.</p>\r\n<p></p>"
   syntax:
     content: public interface CNameRecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithCNameRecordAlias<ParentT>
     typeParameters:
@@ -413,10 +359,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithCNameRecordAlias<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithCNameRecordAlias<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a CNAME record definition allowing to add alias.</p>
-
-    <p></p>
+  summary: "<p>The stage of a CNAME record definition allowing to add alias.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCNameRecordAlias<ParentT>
     typeParameters:
@@ -430,10 +373,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithCNameRecordSetAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithCNameRecordSetAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the CNAME record set definition allowing attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the CNAME record set definition allowing attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCNameRecordSetAttachable<ParentT>
     typeParameters:
@@ -447,10 +387,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.MXRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.MXRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of an MX record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of an MX record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface MXRecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithMXRecordMailExchange<ParentT>
     typeParameters:
@@ -464,10 +401,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithMXRecordMailExchange<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithMXRecordMailExchange<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the MX record set definition allowing to add first MX record.</p>
-
-    <p></p>
+  summary: "<p>The stage of the MX record set definition allowing to add first MX record.</p>\r\n<p></p>"
   syntax:
     content: public interface WithMXRecordMailExchange<ParentT>
     typeParameters:
@@ -481,10 +415,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithMXRecordMailExchangeOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithMXRecordMailExchangeOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the MX record set definition allowing to add additional MX records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the MX record set definition allowing to add additional MX records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithMXRecordMailExchangeOrAttachable<ParentT>
     typeParameters:
@@ -498,10 +429,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.NSRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.NSRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a NS record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a NS record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface NSRecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithNSRecordNameServer<ParentT>
     typeParameters:
@@ -515,10 +443,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithNSRecordNameServer<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithNSRecordNameServer<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the NS record set definition allowing to add a NS record.</p>
-
-    <p></p>
+  summary: "<p>The stage of the NS record set definition allowing to add a NS record.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNSRecordNameServer<ParentT>
     typeParameters:
@@ -532,10 +457,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithNSRecordNameServerOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithNSRecordNameServerOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the NS record set definition allowing to add additional NS records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the NS record set definition allowing to add additional NS records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNSRecordNameServerOrAttachable<ParentT>
     typeParameters:
@@ -549,10 +471,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.PtrRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.PtrRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a PTR record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a PTR record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface PtrRecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithPtrRecordTargetDomainName<ParentT>
     typeParameters:
@@ -566,10 +485,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithPtrRecordTargetDomainName<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithPtrRecordTargetDomainName<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the PTR record set definition allowing to add first CNAME record.</p>
-
-    <p></p>
+  summary: "<p>The stage of the PTR record set definition allowing to add first CNAME record.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPtrRecordTargetDomainName<ParentT>
     typeParameters:
@@ -583,10 +499,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithPtrRecordTargetDomainNameOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithPtrRecordTargetDomainNameOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the PTR record set definition allowing to add additional PTR records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the PTR record set definition allowing to add additional PTR records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPtrRecordTargetDomainNameOrAttachable<ParentT>
     typeParameters:
@@ -600,10 +513,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.SrvRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.SrvRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a SRV record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a SRV record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface SrvRecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithSrvRecordEntry<ParentT>
     typeParameters:
@@ -617,10 +527,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithSrvRecordEntry<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithSrvRecordEntry<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the SRV record definition allowing to add first service record.</p>
-
-    <p></p>
+  summary: "<p>The stage of the SRV record definition allowing to add first service record.</p>\r\n<p></p>"
   syntax:
     content: public interface WithSrvRecordEntry<ParentT>
     typeParameters:
@@ -634,10 +541,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithSrvRecordEntryOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithSrvRecordEntryOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the SRV record set definition allowing to add additional SRV records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the SRV record set definition allowing to add additional SRV records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithSrvRecordEntryOrAttachable<ParentT>
     typeParameters:
@@ -651,10 +555,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.TxtRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.TxtRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a TXT record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a TXT record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface TxtRecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithTxtRecordTextValue<ParentT>
     typeParameters:
@@ -668,10 +569,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithTxtRecordTextValue<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithTxtRecordTextValue<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the TXT record definition allowing to add first Txt record.</p>
-
-    <p></p>
+  summary: "<p>The stage of the TXT record definition allowing to add first Txt record.</p>\r\n<p></p>"
   syntax:
     content: public interface WithTxtRecordTextValue<ParentT>
     typeParameters:
@@ -685,10 +583,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithTxtRecordTextValueOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithTxtRecordTextValueOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the TXT record set definition allowing to add additional TXT records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the TXT record set definition allowing to add additional TXT records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithTxtRecordTextValueOrAttachable<ParentT>
     typeParameters:
@@ -702,10 +597,7 @@ references:
   nameWithType: DnsRecordSet.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the DNS zone record set definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the DNS zone record set definition can be attached to the parent traffic manager profile definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">DnsRecordSet.UpdateDefinitionStages.WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the DNS zone record set definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the DNS zone record set definition can be attached to the parent traffic manager profile definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">DnsRecordSet.UpdateDefinitionStages.WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

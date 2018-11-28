@@ -77,10 +77,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -93,10 +90,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -113,10 +107,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -153,10 +144,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithApiVersion.withApiVersion(String apiVersion)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion.withApiVersion(String apiVersion)
   type: Method
-  summary: >-
-    <p>Specifies the api version.</p>
-
-    <p></p>
+  summary: "<p>Specifies the api version.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withApiVersion(String apiVersion)
     parameters:
@@ -173,10 +161,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithParentResource.withParentResourceId(String parentResourceId)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource.withParentResourceId(String parentResourceId)
   type: Method
-  summary: >-
-    <p>Specifies the parent resource.</p>
-
-    <p></p>
+  summary: "<p>Specifies the parent resource.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withParentResourceId(String parentResourceId)
     parameters:
@@ -193,10 +178,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithParentResource.withParentResourcePath(String parentResourcePath)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource.withParentResourcePath(String parentResourcePath)
   type: Method
-  summary: >-
-    <p>Specifies the parent resource relative path.</p>
-
-    <p></p>
+  summary: "<p>Specifies the parent resource relative path.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withParentResourcePath(String parentResourcePath)
     parameters:
@@ -213,7 +195,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -233,7 +215,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -250,7 +232,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithParentResource
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
   type: Interface
-  summary: <p>A generic resource definition allowing parent resource to be specified. </p>
+  summary: "<p>A generic resource definition allowing parent resource to be specified. </p>"
   syntax:
     content: public interface WithParentResource
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion
@@ -260,7 +242,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithApiVersion
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion
   type: Interface
-  summary: <p>A generic resource definition allowing api version to be specified. </p>
+  summary: "<p>A generic resource definition allowing api version to be specified. </p>"
   syntax:
     content: public interface WithApiVersion
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -270,10 +252,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -287,10 +266,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -304,7 +280,7 @@ references:
   nameWithType: GenericResource.Definition
   fullName: com.microsoft.azure.management.resources.GenericResource.Definition
   type: Interface
-  summary: <p>The entirety of the generic resource definition. </p>
+  summary: "<p>The entirety of the generic resource definition. </p>"
   syntax:
     content: public interface Definition extends GenericResource.DefinitionStages.Blank,GenericResource.DefinitionStages.WithGroup,GenericResource.DefinitionStages.WithResourceType,GenericResource.DefinitionStages.WithProviderNamespace,GenericResource.DefinitionStages.WithParentResource,GenericResource.DefinitionStages.WithPlan,GenericResource.DefinitionStages.WithApiVersion,GenericResource.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
@@ -314,5 +290,5 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax: *o1

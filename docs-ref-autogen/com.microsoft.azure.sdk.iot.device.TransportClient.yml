@@ -241,7 +241,7 @@ references:
   nameWithType: IotHubClientProtocol
   fullName: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubClientProtocol
 - uid: com.microsoft.azure.sdk.iot.device.DeviceIO
@@ -251,7 +251,7 @@ references:
   nameWithType: DeviceIO
   fullName: com.microsoft.azure.sdk.iot.device.DeviceIO
   type: Class
-  summary: <p>The task scheduler for sending and receiving messages for the Device Client </p>
+  summary: "<p>The task scheduler for sending and receiving messages for the Device Client </p>"
   syntax:
     content: public class DeviceIO
 - uid: com.microsoft.azure.sdk.iot.device.TransportClient.TransportClientState
@@ -270,14 +270,7 @@ references:
   nameWithType: DeviceClient
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClient
   type: Class
-  summary: >-
-    <p>The public-facing API. Allows a single logical or physical device to connect to an IoT Hub. The IoT Hub client supports sending events to and receiving messages from an IoT Hub. </p>
-
-    <p>To support these workflows, the client library will provide the following abstractions: a message, with its payload and associated properties; and a client, which sends and receives messages. </p>
-
-    <p>The client buffers messages while the network is down, and re-sends them when the network comes back online. It also batches messages to improve communication efficiency (HTTPS only). </p>
-
-    <p>The client supports HTTPS 1.1 and AMQPS 1.0 transports. </p>
+  summary: "<p>The public-facing API. Allows a single logical or physical device to connect to an IoT Hub. The IoT Hub client supports sending events to and receiving messages from an IoT Hub. </p>\r\n<p>To support these workflows, the client library will provide the following abstractions: a message, with its payload and associated properties; and a client, which sends and receives messages. </p>\r\n<p>The client buffers messages while the network is down, and re-sends them when the network comes back online. It also batches messages to improve communication efficiency (HTTPS only). </p>\r\n<p>The client supports HTTPS 1.1 and AMQPS 1.0 transports. </p>"
   syntax:
     content: public class DeviceClient extends InternalClient
 - uid: com.microsoft.azure.sdk.iot.device.CustomLogger
@@ -296,6 +289,6 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
   type: Interface
-  summary: <p>An interface for the retry policy. </p>
+  summary: "<p>An interface for the retry policy. </p>"
   syntax:
     content: public interface RetryPolicy

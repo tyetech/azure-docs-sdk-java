@@ -503,7 +503,7 @@ references:
   nameWithType: Recognizer.close()
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.close()
   type: Method
-  summary: <p>Dispose of associated resources. </p>
+  summary: "<p>Dispose of associated resources. </p>"
   syntax:
     content: public void close()
 - uid: com.microsoft.cognitiveservices.speech.Recognizer.sessionStarted
@@ -513,7 +513,7 @@ references:
   nameWithType: Recognizer.sessionStarted
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.sessionStarted
   type: Field
-  summary: <p>Defines event handler for session started event. </p>
+  summary: "<p>Defines event handler for session started event. </p>"
   syntax:
     content: public final EventHandlerImpl<SessionEventArgs> sessionStarted= new EventHandlerImpl<SessionEventArgs>()
     return:
@@ -525,7 +525,7 @@ references:
   nameWithType: Recognizer.sessionStopped
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.sessionStopped
   type: Field
-  summary: <p>Defines event handler for session stopped event. </p>
+  summary: "<p>Defines event handler for session stopped event. </p>"
   syntax:
     content: public final EventHandlerImpl<SessionEventArgs> sessionStopped= new EventHandlerImpl<SessionEventArgs>()
     return:
@@ -537,7 +537,7 @@ references:
   nameWithType: Recognizer.speechEndDetected
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.speechEndDetected
   type: Field
-  summary: <p>Defines event handler for speech end detected event. </p>
+  summary: "<p>Defines event handler for speech end detected event. </p>"
   syntax:
     content: public final EventHandlerImpl<RecognitionEventArgs> speechEndDetected= new EventHandlerImpl<RecognitionEventArgs>()
     return:
@@ -549,7 +549,7 @@ references:
   nameWithType: Recognizer.speechStartDetected
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.speechStartDetected
   type: Field
-  summary: <p>Defines event handler for speech start detected event. </p>
+  summary: "<p>Defines event handler for speech start detected event. </p>"
   syntax:
     content: public final EventHandlerImpl<RecognitionEventArgs> speechStartDetected= new EventHandlerImpl<RecognitionEventArgs>()
     return:
@@ -561,7 +561,7 @@ references:
   nameWithType: Recognizer
   fullName: com.microsoft.cognitiveservices.speech.Recognizer
   type: Class
-  summary: <p>Defines the base class Recognizer which mainly contains common event handlers. </p>
+  summary: "<p>Defines the base class Recognizer which mainly contains common event handlers. </p>"
   syntax:
     content: public class Recognizer
 - uid: com.microsoft.cognitiveservices.speech.util.EventHandlerImpl
@@ -571,7 +571,7 @@ references:
   nameWithType: EventHandlerImpl<T>
   fullName: com.microsoft.cognitiveservices.speech.util.EventHandlerImpl<T>
   type: Class
-  summary: <p>Implements the binding between the Speech SDK core event handler and Java event handling. </p>
+  summary: "<p>Implements the binding between the Speech SDK core event handler and Java event handling. </p>"
   syntax:
     content: public class EventHandlerImpl<T>
     typeParameters:
@@ -584,7 +584,7 @@ references:
   nameWithType: TranslationRecognitionEventArgs
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationRecognitionEventArgs
   type: Class
-  summary: <p>Defines payload of translation recognizing/recognized events. </p>
+  summary: "<p>Defines payload of translation recognizing/recognized events. </p>"
   syntax:
     content: public class TranslationRecognitionEventArgs extends RecognitionEventArgs
 - uid: com.microsoft.cognitiveservices.speech.translation.TranslationRecognitionCanceledEventArgs
@@ -594,7 +594,7 @@ references:
   nameWithType: TranslationRecognitionCanceledEventArgs
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationRecognitionCanceledEventArgs
   type: Class
-  summary: <p>Defines payload of translation canceled events. </p>
+  summary: "<p>Defines payload of translation canceled events. </p>"
   syntax:
     content: public class TranslationRecognitionCanceledEventArgs extends TranslationRecognitionEventArgs
 - uid: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisEventArgs
@@ -604,7 +604,7 @@ references:
   nameWithType: TranslationSynthesisEventArgs
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisEventArgs
   type: Class
-  summary: <p>Defines the content of translation synthesis result event. </p>
+  summary: "<p>Defines the content of translation synthesis result event. </p>"
   syntax:
     content: public class TranslationSynthesisEventArgs
 - uid: com.microsoft.cognitiveservices.speech.PropertyCollection
@@ -614,7 +614,7 @@ references:
   nameWithType: PropertyCollection
   fullName: com.microsoft.cognitiveservices.speech.PropertyCollection
   type: Class
-  summary: <p>Represents collection or properties and their values. </p>
+  summary: "<p>Represents collection or properties and their values. </p>"
   syntax:
     content: public class PropertyCollection
 - uid: com.microsoft.cognitiveservices.speech.audio.AudioConfig
@@ -624,7 +624,7 @@ references:
   nameWithType: AudioConfig
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioConfig
   type: Class
-  summary: <p>Represents audio input configuration used for specifying what type of input to use (microphone, file, stream). </p>
+  summary: "<p>Represents audio input configuration used for specifying what type of input to use (microphone, file, stream). </p>"
   syntax:
     content: public class AudioConfig
 - uid: com.microsoft.cognitiveservices.speech.translation.SpeechTranslationConfig
@@ -634,7 +634,7 @@ references:
   nameWithType: SpeechTranslationConfig
   fullName: com.microsoft.cognitiveservices.speech.translation.SpeechTranslationConfig
   type: Class
-  summary: <p>Speech translation configuration. </p>
+  summary: "<p>Speech translation configuration. </p>"
   syntax:
     content: public class SpeechTranslationConfig extends SpeechConfig
 - uid: com.microsoft.cognitiveservices.speech.translation.TranslationRecognitionResult
@@ -644,6 +644,6 @@ references:
   nameWithType: TranslationRecognitionResult
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationRecognitionResult
   type: Class
-  summary: <p>Defines translation recognition result. </p>
+  summary: "<p>Defines translation recognition result. </p>"
   syntax:
     content: public class TranslationRecognitionResult extends RecognitionResult

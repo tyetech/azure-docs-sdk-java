@@ -60,7 +60,7 @@ references:
   nameWithType: EventSubscription.Update
   fullName: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.EventSubscription.Update
   type: Interface
-  summary: <p>The template for a EventSubscription update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a EventSubscription update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends EventSubscription.UpdateStages.WithDeadLetterDestination,EventSubscription.UpdateStages.WithDestination,EventSubscription.UpdateStages.WithEventDeliverySchema,EventSubscription.UpdateStages.WithFilter,EventSubscription.UpdateStages.WithLabels,EventSubscription.UpdateStages.WithRetryPolicy
 - uid: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.DeadLetterDestination
@@ -70,6 +70,6 @@ references:
   nameWithType: DeadLetterDestination
   fullName: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.DeadLetterDestination
   type: Class
-  summary: <p>Information about the dead letter destination for an event subscription. To configure a deadletter destination, do not directly instantiate an object of this class. Instead, instantiate an object of a derived class. Currently, StorageBlobDeadLetterDestination is the only class that derives from this class. </p>
+  summary: "<p>Information about the dead letter destination for an event subscription. To configure a deadletter destination, do not directly instantiate an object of this class. Instead, instantiate an object of a derived class. Currently, StorageBlobDeadLetterDestination is the only class that derives from this class. </p>"
   syntax:
     content: public class DeadLetterDestination

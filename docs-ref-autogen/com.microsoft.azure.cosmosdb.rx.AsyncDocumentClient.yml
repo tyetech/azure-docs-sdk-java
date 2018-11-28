@@ -3733,7 +3733,7 @@ references:
   nameWithType: ConnectionPolicy
   fullName: com.microsoft.azure.cosmosdb.ConnectionPolicy
   type: Class
-  summary: <p>Represents the Connection policy associated with a DocumentClient in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the Connection policy associated with a DocumentClient in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ConnectionPolicy
 - uid: com.microsoft.azure.cosmosdb.ResourceResponse
@@ -3743,10 +3743,7 @@ references:
   nameWithType: ResourceResponse<T>
   fullName: com.microsoft.azure.cosmosdb.ResourceResponse<T>
   type: Class
-  summary: >-
-    <p>Represents the service response to a request made from DocumentClient in the Azure Cosmos DB database service. Contains both the resource and the response headers.</p>
-
-    <p></p>
+  summary: "<p>Represents the service response to a request made from DocumentClient in the Azure Cosmos DB database service. Contains both the resource and the response headers.</p>\r\n<p></p>"
   syntax:
     content: public class ResourceResponse<T extends Resource>
     typeParameters:
@@ -3760,10 +3757,7 @@ references:
   nameWithType: Database
   fullName: com.microsoft.azure.cosmosdb.Database
   type: Class
-  summary: >-
-    <p>Represents a Database in the Azure Cosmos DB database service. A database manages users, permissions and a set of collections </p>
-
-    <p>Each Azure Cosmos DB Service is able to support multiple independent named databases, with the database being the logical container for data. Each Database consists of one or more collections, each of which in turn contain one or more documents. Since databases are an an administrative resource and the Service Master Key will be required in order to access and successfully complete any action using the User APIs. </p>
+  summary: "<p>Represents a Database in the Azure Cosmos DB database service. A database manages users, permissions and a set of collections </p>\r\n<p>Each Azure Cosmos DB Service is able to support multiple independent named databases, with the database being the logical container for data. Each Database consists of one or more collections, each of which in turn contain one or more documents. Since databases are an an administrative resource and the Service Master Key will be required in order to access and successfully complete any action using the User APIs. </p>"
   syntax:
     content: public class Database
 - uid: com.microsoft.azure.cosmosdb.RequestOptions
@@ -3773,7 +3767,7 @@ references:
   nameWithType: RequestOptions
   fullName: com.microsoft.azure.cosmosdb.RequestOptions
   type: Class
-  summary: <p>Encapsulates options that can be specified for a request issued to the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates options that can be specified for a request issued to the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class RequestOptions
 - uid: com.microsoft.azure.cosmosdb.FeedResponse
@@ -3795,7 +3789,7 @@ references:
   nameWithType: FeedOptions
   fullName: com.microsoft.azure.cosmosdb.FeedOptions
   type: Class
-  summary: <p>Specifies the options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class FeedOptions
 - uid: com.microsoft.azure.cosmosdb.SqlQuerySpec
@@ -3805,7 +3799,7 @@ references:
   nameWithType: SqlQuerySpec
   fullName: com.microsoft.azure.cosmosdb.SqlQuerySpec
   type: Class
-  summary: <p>Represents a SQL query in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a SQL query in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SqlQuerySpec
 - uid: com.microsoft.azure.cosmosdb.DocumentCollection
@@ -3815,10 +3809,7 @@ references:
   nameWithType: DocumentCollection
   fullName: com.microsoft.azure.cosmosdb.DocumentCollection
   type: Class
-  summary: >-
-    <p>Represents a document collection in the Azure Cosmos DB database service. A collection is a named logical container for documents. </p>
-
-    <p>A database may contain zero or more named collections and each collection consists of zero or more JSON documents. Being schema-free, the documents in a collection do not need to share the same structure or fields. Since collections are application resources, they can be authorized using either the master key or resource keys. </p>
+  summary: "<p>Represents a document collection in the Azure Cosmos DB database service. A collection is a named logical container for documents. </p>\r\n<p>A database may contain zero or more named collections and each collection consists of zero or more JSON documents. Being schema-free, the documents in a collection do not need to share the same structure or fields. Since collections are application resources, they can be authorized using either the master key or resource keys. </p>"
   syntax:
     content: public class DocumentCollection
 - uid: com.microsoft.azure.cosmosdb.Document
@@ -3828,10 +3819,7 @@ references:
   nameWithType: Document
   fullName: com.microsoft.azure.cosmosdb.Document
   type: Class
-  summary: >-
-    <p>Represents a document in the Azure Cosmos DB database service. </p>
-
-    <p>A document is a structured JSON document. There is no set schema for the JSON documents, and a document may contain any number of custom properties as well as an optional list of attachments. Document is an application resource and can be authorized using the master key or resource keys. </p>
+  summary: "<p>Represents a document in the Azure Cosmos DB database service. </p>\r\n<p>A document is a structured JSON document. There is no set schema for the JSON documents, and a document may contain any number of custom properties as well as an optional list of attachments. Document is an application resource and can be authorized using the master key or resource keys. </p>"
   syntax:
     content: public class Document
 - uid: com.microsoft.azure.cosmosdb.ChangeFeedOptions
@@ -3841,7 +3829,7 @@ references:
   nameWithType: ChangeFeedOptions
   fullName: com.microsoft.azure.cosmosdb.ChangeFeedOptions
   type: Class
-  summary: <p>Specifies the options associated with change feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the options associated with change feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ChangeFeedOptions
 - uid: com.microsoft.azure.cosmosdb.PartitionKeyRange
@@ -3851,7 +3839,7 @@ references:
   nameWithType: PartitionKeyRange
   fullName: com.microsoft.azure.cosmosdb.PartitionKeyRange
   type: Class
-  summary: <p>Represent a partition key range in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represent a partition key range in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class PartitionKeyRange
 - uid: com.microsoft.azure.cosmosdb.StoredProcedure
@@ -3861,10 +3849,7 @@ references:
   nameWithType: StoredProcedure
   fullName: com.microsoft.azure.cosmosdb.StoredProcedure
   type: Class
-  summary: >-
-    <p>Represents a stored procedure in the Azure Cosmos DB database service. </p>
-
-    <p>Cosmos DB allows stored procedures to be executed in the storage tier, directly against a document collection. The script gets executed under ACID transactions on the primary storage partition of the specified collection. For additional details, refer to the server-side JavaScript API documentation. </p>
+  summary: "<p>Represents a stored procedure in the Azure Cosmos DB database service. </p>\r\n<p>Cosmos DB allows stored procedures to be executed in the storage tier, directly against a document collection. The script gets executed under ACID transactions on the primary storage partition of the specified collection. For additional details, refer to the server-side JavaScript API documentation. </p>"
   syntax:
     content: public class StoredProcedure
 - uid: com.microsoft.azure.cosmosdb.StoredProcedureResponse
@@ -3874,7 +3859,7 @@ references:
   nameWithType: StoredProcedureResponse
   fullName: com.microsoft.azure.cosmosdb.StoredProcedureResponse
   type: Class
-  summary: <p>Represents the response returned from a stored procedure in the Azure Cosmos DB database service. Wraps the response body and headers. </p>
+  summary: "<p>Represents the response returned from a stored procedure in the Azure Cosmos DB database service. Wraps the response body and headers. </p>"
   syntax:
     content: public class StoredProcedureResponse
 - uid: com.microsoft.azure.cosmosdb.Trigger
@@ -3884,10 +3869,7 @@ references:
   nameWithType: Trigger
   fullName: com.microsoft.azure.cosmosdb.Trigger
   type: Class
-  summary: >-
-    <p>Represents a trigger in the Azure Cosmos DB database service. </p>
-
-    <p>Cosmos DB supports pre and post triggers defined in JavaScript to be executed on creates, updates and deletes. For additional details, refer to the server-side JavaScript API documentation. </p>
+  summary: "<p>Represents a trigger in the Azure Cosmos DB database service. </p>\r\n<p>Cosmos DB supports pre and post triggers defined in JavaScript to be executed on creates, updates and deletes. For additional details, refer to the server-side JavaScript API documentation. </p>"
   syntax:
     content: public class Trigger
 - uid: com.microsoft.azure.cosmosdb.UserDefinedFunction
@@ -3897,10 +3879,7 @@ references:
   nameWithType: UserDefinedFunction
   fullName: com.microsoft.azure.cosmosdb.UserDefinedFunction
   type: Class
-  summary: >-
-    <p>Represents a user defined function in the Azure Cosmos DB database service. </p>
-
-    <p>Cosmos DB supports JavaScript UDFs which can be used inside queries, stored procedures and triggers. For additional details, refer to the server-side JavaScript API documentation. </p>
+  summary: "<p>Represents a user defined function in the Azure Cosmos DB database service. </p>\r\n<p>Cosmos DB supports JavaScript UDFs which can be used inside queries, stored procedures and triggers. For additional details, refer to the server-side JavaScript API documentation. </p>"
   syntax:
     content: public class UserDefinedFunction
 - uid: com.microsoft.azure.cosmosdb.Attachment
@@ -3910,10 +3889,7 @@ references:
   nameWithType: Attachment
   fullName: com.microsoft.azure.cosmosdb.Attachment
   type: Class
-  summary: >-
-    <p>Represents a document attachment in the Azure Cosmos DB database service. </p>
-
-    <p>Each document may contain zero or more attachments. Attachments can be of any MIME type - text, image, binary data. These are stored externally in Azure Blob storage. Attachments are automatically deleted when the parent document is deleted. </p>
+  summary: "<p>Represents a document attachment in the Azure Cosmos DB database service. </p>\r\n<p>Each document may contain zero or more attachments. Attachments can be of any MIME type - text, image, binary data. These are stored externally in Azure Blob storage. Attachments are automatically deleted when the parent document is deleted. </p>"
   syntax:
     content: public class Attachment
 - uid: com.microsoft.azure.cosmosdb.MediaResponse
@@ -3923,7 +3899,7 @@ references:
   nameWithType: MediaResponse
   fullName: com.microsoft.azure.cosmosdb.MediaResponse
   type: Class
-  summary: <p>Response associated with retrieving attachment content in the Azure Cosmos DB database service. </p>
+  summary: "<p>Response associated with retrieving attachment content in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class MediaResponse
 - uid: com.microsoft.azure.cosmosdb.MediaOptions
@@ -3933,7 +3909,7 @@ references:
   nameWithType: MediaOptions
   fullName: com.microsoft.azure.cosmosdb.MediaOptions
   type: Class
-  summary: <p>Options used with attachment content (aka media) creation in the Azure Cosmos DB database service. </p>
+  summary: "<p>Options used with attachment content (aka media) creation in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class MediaOptions
 - uid: com.microsoft.azure.cosmosdb.Conflict
@@ -3943,10 +3919,7 @@ references:
   nameWithType: Conflict
   fullName: com.microsoft.azure.cosmosdb.Conflict
   type: Class
-  summary: >-
-    <p>Represents a conflict in the version of a particular resource in the Azure Cosmos DB database service. </p>
-
-    <p>During rare failure scenarios, conflicts are generated for the documents in transit. Clients can inspect the respective conflict instances for resources and operations in conflict. </p>
+  summary: "<p>Represents a conflict in the version of a particular resource in the Azure Cosmos DB database service. </p>\r\n<p>During rare failure scenarios, conflicts are generated for the documents in transit. Clients can inspect the respective conflict instances for resources and operations in conflict. </p>"
   syntax:
     content: public class Conflict
 - uid: com.microsoft.azure.cosmosdb.User
@@ -3956,7 +3929,7 @@ references:
   nameWithType: User
   fullName: com.microsoft.azure.cosmosdb.User
   type: Class
-  summary: <p>Represents a database user in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a database user in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class User
 - uid: com.microsoft.azure.cosmosdb.Permission
@@ -3966,7 +3939,7 @@ references:
   nameWithType: Permission
   fullName: com.microsoft.azure.cosmosdb.Permission
   type: Class
-  summary: <p>Represents a per-User Permission to access a specific resource e.g. Document or Collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a per-User Permission to access a specific resource e.g. Document or Collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Permission
 - uid: com.microsoft.azure.cosmosdb.Offer
@@ -3976,7 +3949,7 @@ references:
   nameWithType: Offer
   fullName: com.microsoft.azure.cosmosdb.Offer
   type: Class
-  summary: <p>Represents an offer in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents an offer in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Offer
 - uid: com.microsoft.azure.cosmosdb.DatabaseAccount
@@ -3986,7 +3959,7 @@ references:
   nameWithType: DatabaseAccount
   fullName: com.microsoft.azure.cosmosdb.DatabaseAccount
   type: Class
-  summary: <p>Represents a database account in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a database account in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class DatabaseAccount
 - uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
@@ -3996,30 +3969,7 @@ references:
   nameWithType: AsyncDocumentClient
   fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
   type: Interface
-  summary: >-
-    <p>Provides a client-side logical representation of the Azure Cosmos DB database service. This async client is used to configure and execute requests against the service.</p>
-
-    <p>
-
-      <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> async APIs return <a href="https://github.com/ReactiveX/RxJava">rxJava</a>'s<code>Observable 
-
-        </code> , and so you can use rxJava <xref uid="" data-throw-if-not-resolved="false">Observable</xref> functionalities. <b>The async <xref uid="" data-throw-if-not-resolved="false">Observable</xref> based APIs perform the requested operation only after subscription.</b></p>
-
-    <p>The service client encapsulates the endpoint and credentials used to access the Cosmos DB service.</p>
-
-    <p>To instantiate you can use the <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder" data-throw-if-not-resolved="false">Builder</xref><pre><code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()
-
-                .withServiceEndpoint(serviceEndpoint)
-
-                .withMasterKey(masterKey)
-
-                .withConnectionPolicy(ConnectionPolicy.GetDefault())
-
-                .withConsistencyLevel(ConsistencyLevel.Session)
-
-                .build();
-
-        </code></pre></p>
+  summary: "<p>Provides a client-side logical representation of the Azure Cosmos DB database service. This async client is used to configure and execute requests against the service.</p>\r\n<p>\r\n  <xref uid=\"com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient\" data-throw-if-not-resolved=\"false\">AsyncDocumentClient</xref> async APIs return <a href=\"https://github.com/ReactiveX/RxJava\">rxJava</a>'s<code>Observable \r\n    </code> , and so you can use rxJava <xref uid=\"\" data-throw-if-not-resolved=\"false\">Observable</xref> functionalities. <b>The async <xref uid=\"\" data-throw-if-not-resolved=\"false\">Observable</xref> based APIs perform the requested operation only after subscription.</b></p>\r\n<p>The service client encapsulates the endpoint and credentials used to access the Cosmos DB service.</p>\r\n<p>To instantiate you can use the <xref uid=\"com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder\" data-throw-if-not-resolved=\"false\">Builder</xref><pre><code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()\r\n            .withServiceEndpoint(serviceEndpoint)\r\n            .withMasterKey(masterKey)\r\n            .withConnectionPolicy(ConnectionPolicy.GetDefault())\r\n            .withConsistencyLevel(ConsistencyLevel.Session)\r\n            .build();\r\n    </code></pre></p>"
   syntax: *o1
 - uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
   parent: com.microsoft.azure.cosmosdb.rx
@@ -4028,29 +3978,6 @@ references:
   nameWithType: AsyncDocumentClient.Builder
   fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
   type: Class
-  summary: >-
-    <p>Helper class to build <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> instances as logical representation of the Azure Cosmos DB database service.</p>
-
-    <p>
-
-      <pre>
-
-        <code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()
-
-                .withServiceEndpoint(serviceEndpoint)
-
-                .withMasterKeyOrResourceToken(masterKeyOrResourceToken)
-
-                .withConnectionPolicy(ConnectionPolicy.GetDefault())
-
-                .withConsistencyLevel(ConsistencyLevel.Session)
-
-                .build();
-
-        </code>
-
-      </pre>
-
-    </p>
+  summary: "<p>Helper class to build <xref uid=\"com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient\" data-throw-if-not-resolved=\"false\">AsyncDocumentClient</xref> instances as logical representation of the Azure Cosmos DB database service.</p>\r\n<p>\r\n  <pre>\r\n    <code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()\r\n            .withServiceEndpoint(serviceEndpoint)\r\n            .withMasterKeyOrResourceToken(masterKeyOrResourceToken)\r\n            .withConnectionPolicy(ConnectionPolicy.GetDefault())\r\n            .withConsistencyLevel(ConsistencyLevel.Session)\r\n            .build();\r\n    </code>\r\n  </pre>\r\n</p>"
   syntax:
     content: public class Builder

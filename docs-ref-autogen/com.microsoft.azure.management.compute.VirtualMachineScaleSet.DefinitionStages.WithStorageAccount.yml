@@ -139,7 +139,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>
+  summary: "<p>The stage of a virtual machine scale set definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<VirtualMachineScaleSet>,VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings,VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix,VirtualMachineScaleSet.DefinitionStages.WithCapacity,VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy,VirtualMachineScaleSet.DefinitionStages.WithOverProvision,VirtualMachineScaleSet.DefinitionStages.WithStorageAccount,VirtualMachineScaleSet.DefinitionStages.WithCustomData,VirtualMachineScaleSet.DefinitionStages.WithExtension,VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity,Resource.DefinitionWithTags<VirtualMachineScaleSet.DefinitionStages.WithCreate>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -149,10 +149,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -166,6 +163,6 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>

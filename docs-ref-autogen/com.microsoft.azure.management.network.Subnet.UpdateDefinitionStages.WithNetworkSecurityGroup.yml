@@ -109,7 +109,7 @@ references:
   nameWithType: Subnet.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of a subnet definition as part of a virtual network update. </p>
+  summary: "<p>The entirety of a subnet definition as part of a virtual network update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Subnet.UpdateDefinitionStages.Blank<ParentT>,Subnet.UpdateDefinitionStages.WithAddressPrefix<ParentT>,Subnet.UpdateDefinitionStages.WithNetworkSecurityGroup<ParentT>,Subnet.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -123,10 +123,7 @@ references:
   nameWithType: Subnet.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the subnet definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the subnet definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdate,Subnet.UpdateDefinitionStages.WithNetworkSecurityGroup<ParentT>,Subnet.UpdateDefinitionStages.WithRouteTable<ParentT>
     typeParameters:
@@ -140,6 +137,6 @@ references:
   nameWithType: NetworkSecurityGroup
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
   type: Interface
-  summary: <p>Network security group. </p>
+  summary: "<p>Network security group. </p>"
   syntax:
     content: public interface NetworkSecurityGroup extends GroupableResource<NetworkManager, NetworkSecurityGroupInner>,Refreshable<NetworkSecurityGroup>,Updatable<NetworkSecurityGroup.Update>,HasAssociatedSubnets

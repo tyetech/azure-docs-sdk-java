@@ -70,7 +70,7 @@ references:
   nameWithType: KubernetesCluster.Definition
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
   type: Interface
-  summary: <p>Interface for all the definitions related to a Kubernetes cluster. </p>
+  summary: "<p>Interface for all the definitions related to a Kubernetes cluster. </p>"
   syntax:
     content: public interface Definition extends KubernetesCluster.DefinitionStages.Blank,KubernetesCluster.DefinitionStages.WithGroup,KubernetesCluster.DefinitionStages.WithVersion,KubernetesCluster.DefinitionStages.WithLinuxRootUsername,KubernetesCluster.DefinitionStages.WithLinuxSshKey,KubernetesCluster.DefinitionStages.WithServicePrincipalClientId,KubernetesCluster.DefinitionStages.WithServicePrincipalProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAgentPool,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithAddOnProfiles,KubernetesCluster.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.defineAgentPool(String)
@@ -80,10 +80,7 @@ references:
   nameWithType: KubernetesClusterImpl.defineAgentPool(String name)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.defineAgentPool(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of an agent pool profile to be attached to the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of an agent pool profile to be attached to the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterAgentPoolImpl defineAgentPool(String name)
     parameters:

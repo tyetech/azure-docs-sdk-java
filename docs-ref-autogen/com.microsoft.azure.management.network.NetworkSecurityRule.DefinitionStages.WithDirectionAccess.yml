@@ -158,7 +158,7 @@ references:
   nameWithType: NetworkSecurityRule.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a network security rule definition. </p>
+  summary: "<p>The entirety of a network security rule definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends NetworkSecurityRule.DefinitionStages.Blank<ParentT>,NetworkSecurityRule.DefinitionStages.WithAttach<ParentT>,NetworkSecurityRule.DefinitionStages.WithDirectionAccess<ParentT>,NetworkSecurityRule.DefinitionStages.WithSourceAddress<ParentT>,NetworkSecurityRule.DefinitionStages.WithSourcePort<ParentT>,NetworkSecurityRule.DefinitionStages.WithDestinationAddress<ParentT>,NetworkSecurityRule.DefinitionStages.WithDestinationPort<ParentT>,NetworkSecurityRule.DefinitionStages.WithProtocol<ParentT>
     typeParameters:
@@ -172,7 +172,7 @@ references:
   nameWithType: NetworkSecurityRule.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a security rule definition. </p>
+  summary: "<p>The first stage of a security rule definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends NetworkSecurityRule.DefinitionStages.WithDirectionAccess<ParentT>
     typeParameters:
@@ -186,7 +186,7 @@ references:
   nameWithType: NetworkSecurityRule.DefinitionStages.WithSourceAddress<ParentT>
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.DefinitionStages.WithSourceAddress<ParentT>
   type: Interface
-  summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
+  summary: "<p>The stage of the network rule definition allowing the source address to be specified. </p>"
   syntax:
     content: public interface WithSourceAddress<ParentT>
     typeParameters:

@@ -455,7 +455,7 @@ references:
   nameWithType: IotHubTransport
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport
   type: Class
-  summary: <p>Manages queueing of message sending, receiving and callbacks. Manages notifying users of connection status change updates </p>
+  summary: "<p>Manages queueing of message sending, receiving and callbacks. Manages notifying users of connection status change updates </p>"
   syntax:
     content: public class IotHubTransport
 - uid: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
@@ -465,7 +465,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubSendTask
@@ -475,7 +475,7 @@ references:
   nameWithType: IotHubSendTask
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubSendTask
   type: Class
-  summary: <p>Sends batched messages and invokes callbacks on completed requests. Meant to be used with an executor that continuously calls run(). </p>
+  summary: "<p>Sends batched messages and invokes callbacks on completed requests. Meant to be used with an executor that continuously calls run(). </p>"
   syntax:
     content: public class IotHubSendTask
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubReceiveTask
@@ -485,7 +485,7 @@ references:
   nameWithType: IotHubReceiveTask
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubReceiveTask
   type: Class
-  summary: <p>Polls an IoT Hub for messages and invokes a callback if one is found. Meant to be used with an executor that continuously calls run(). </p>
+  summary: "<p>Polls an IoT Hub for messages and invokes a callback if one is found. Meant to be used with an executor that continuously calls run(). </p>"
   syntax:
     content: public class IotHubReceiveTask
 - uid: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
@@ -495,7 +495,7 @@ references:
   nameWithType: IotHubClientProtocol
   fullName: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubClientProtocol
 - uid: com.microsoft.azure.sdk.iot.device.DeviceIO.IotHubClientState
@@ -505,7 +505,7 @@ references:
   nameWithType: DeviceIO.IotHubClientState
   fullName: com.microsoft.azure.sdk.iot.device.DeviceIO.IotHubClientState
   type: Enum
-  summary: <p>The state of the IoT Hub client's connection with the IoT Hub. </p>
+  summary: "<p>The state of the IoT Hub client's connection with the IoT Hub. </p>"
   syntax:
     content: protected enum IotHubClientState
 - uid: com.microsoft.azure.sdk.iot.device.Message
@@ -524,10 +524,7 @@ references:
   nameWithType: IotHubEventCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubEventCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub event callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)" data-throw-if-not-resolved="false">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub event callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)\" data-throw-if-not-resolved=\"false\">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>"
   syntax:
     content: public interface IotHubEventCallback
 - uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStateCallback
@@ -537,10 +534,7 @@ references:
   nameWithType: IotHubConnectionStateCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStateCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub connection state callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="" data-throw-if-not-resolved="false">IotHubConnectionStateCallback#execute(IotHubConnectionState, Object)</xref> passing in the connection status (down, success, etc.). </p>
+  summary: "<p>An interface for an IoT Hub connection state callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"\" data-throw-if-not-resolved=\"false\">IotHubConnectionStateCallback#execute(IotHubConnectionState, Object)</xref> passing in the connection status (down, success, etc.). </p>"
   syntax:
     content: public interface IotHubConnectionStateCallback
 - uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeCallback
@@ -550,6 +544,6 @@ references:
   nameWithType: IotHubConnectionStatusChangeCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeCallback
   type: Interface
-  summary: <p>Callback interface for allowing users to respond to changes in the connectivity of this sdk to Iot Hub. </p>
+  summary: "<p>Callback interface for allowing users to respond to changes in the connectivity of this sdk to Iot Hub. </p>"
   syntax:
     content: public interface IotHubConnectionStatusChangeCallback

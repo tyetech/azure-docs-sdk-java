@@ -122,12 +122,7 @@ references:
   nameWithType: ServicePartition.reportFault(FaultType faultType)
   fullName: system.fabric.ServicePartition.reportFault(FaultType faultType)
   type: Method
-  summary: >-
-    <p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid="" data-throw-if-not-resolved="false">java.util.Collection</xref> of <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">LoadMetric</xref> method and provides one or more properties of the <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">system.fabric.LoadMetric</xref> method.</p>
-
-    <p>
-
-      <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>
+  summary: "<p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.Collection</xref> of <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">LoadMetric</xref> method and provides one or more properties of the <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">system.fabric.LoadMetric</xref> method.</p>\r\n<p>\r\n  <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>"
   syntax:
     content: public void reportFault(FaultType faultType)
     parameters:
@@ -141,12 +136,7 @@ references:
   nameWithType: StatefulServiceReplica.abort()
   fullName: system.fabric.StatefulServiceReplica.abort()
   type: Method
-  summary: >-
-    <p>Ungracefully terminates an instance. </p>
-
-    <p>
-
-      <b>Remarks:</b>Lease loss and, in response to the service, the use of <xref uid="system.fabric.ServicePartition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(FaultType)</xref> to report a <xref uid="system.fabric.FaultType.Permanent" data-throw-if-not-resolved="false">system.fabric.FaultType#Permanent</xref> fault are examples of ungraceful termination. When this method is invoked, the service instance should immediately release and clean up all references and return. </p>
+  summary: "<p>Ungracefully terminates an instance. </p>\r\n<p>\r\n  <b>Remarks:</b>Lease loss and, in response to the service, the use of <xref uid=\"system.fabric.ServicePartition.reportFault(FaultType)\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition#reportFault(FaultType)</xref> to report a <xref uid=\"system.fabric.FaultType.Permanent\" data-throw-if-not-resolved=\"false\">system.fabric.FaultType#Permanent</xref> fault are examples of ungraceful termination. When this method is invoked, the service instance should immediately release and clean up all references and return. </p>"
   syntax:
     content: public void abort()
 - uid: system.fabric.StatelessServiceInstance.abort()
@@ -156,12 +146,7 @@ references:
   nameWithType: StatelessServiceInstance.abort()
   fullName: system.fabric.StatelessServiceInstance.abort()
   type: Method
-  summary: >-
-    <p>Terminates this instance ungracefully with this synchronous method call. </p>
-
-    <p>
-
-      <b>Remarks:</b>Examples of ungraceful termination are lease loss and, in response to the service, the use of <xref uid="system.fabric.ServicePartition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(FaultType)</xref> to report a <xref uid="system.fabric.FaultType.Permanent" data-throw-if-not-resolved="false">system.fabric.FaultType#Permanent</xref> fault. When the service instance receives this method, it should immediately release and clean up all references and return. </p>
+  summary: "<p>Terminates this instance ungracefully with this synchronous method call. </p>\r\n<p>\r\n  <b>Remarks:</b>Examples of ungraceful termination are lease loss and, in response to the service, the use of <xref uid=\"system.fabric.ServicePartition.reportFault(FaultType)\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition#reportFault(FaultType)</xref> to report a <xref uid=\"system.fabric.FaultType.Permanent\" data-throw-if-not-resolved=\"false\">system.fabric.FaultType#Permanent</xref> fault. When the service instance receives this method, it should immediately release and clean up all references and return. </p>"
   syntax:
     content: public void abort()
 - uid: system.fabric.StatefulServiceReplica.closeAsync(CancellationToken)
@@ -171,10 +156,7 @@ references:
   nameWithType: StatefulServiceReplica.closeAsync(CancellationToken cancellationToken)
   fullName: system.fabric.StatefulServiceReplica.closeAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Closes the service replica when it is being shut down. Note that cancellation is advisory and that the operation might still be completed even if it is canceled.</p>
-
-    <p></p>
+  summary: "<p>Closes the service replica when it is being shut down. Note that cancellation is advisory and that the operation might still be completed even if it is canceled.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Void> closeAsync(CancellationToken cancellationToken)
     parameters:
@@ -194,10 +176,7 @@ references:
   nameWithType: StatelessServiceInstance.closeAsync(CancellationToken cancellationToken)
   fullName: system.fabric.StatelessServiceInstance.closeAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Closes this service instance gracefully when the service instance is being shut down.</p>
-
-    <p></p>
+  summary: "<p>Closes this service instance gracefully when the service instance is being shut down.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
     parameters:

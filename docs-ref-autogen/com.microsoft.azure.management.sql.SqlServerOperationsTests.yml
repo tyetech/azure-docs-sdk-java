@@ -579,7 +579,7 @@ references:
   nameWithType: SqlServer
   fullName: com.microsoft.azure.management.sql.SqlServer
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server. </p>"
   syntax:
     content: public interface SqlServer extends GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>,GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>
 - uid: com.microsoft.azure.management.sql.SqlFirewallRule
@@ -589,10 +589,7 @@ references:
   nameWithType: SqlFirewallRule
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>\r\n<p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>"
   syntax:
     content: public interface SqlFirewallRule extends IndependentChild<SqlServerManager>,Refreshable<SqlFirewallRule>,Updatable<SqlFirewallRule.Update>,HasInner<ServerFirewallRuleInner>,ExternalChildResource<SqlFirewallRule, SqlServer>,HasInner<FirewallRuleInner>,HasResourceGroup,Refreshable<SqlFirewallRule>,Updatable<SqlFirewallRule.Update>
 - uid: com.microsoft.azure.management.sql.SqlElasticPool
@@ -602,10 +599,7 @@ references:
   nameWithType: SqlElasticPool
   fullName: com.microsoft.azure.management.sql.SqlElasticPool
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>
-
-    <p>An immutable client-side representation of an Azure SQL ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>\r\n<p>An immutable client-side representation of an Azure SQL ElasticPool. </p>"
   syntax:
     content: public interface SqlElasticPool extends IndependentChildResource<SqlServerManager, ElasticPoolInner>,Refreshable<SqlElasticPool>,Updatable<SqlElasticPool.Update>,ExternalChildResource<SqlElasticPool, SqlServer>,HasInner<ElasticPoolInner>,HasResourceGroup,Refreshable<SqlElasticPool>,Updatable<SqlElasticPool.Update>
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -615,9 +609,6 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase extends IndependentChildResource<SqlServerManager, DatabaseInner>,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>,ExternalChildResource<SqlDatabase, SqlServer>,HasInner<DatabaseInner>,HasResourceGroup,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>

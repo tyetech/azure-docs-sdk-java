@@ -672,7 +672,7 @@ references:
   nameWithType: IInheritedBehaviors
   fullName: com.microsoft.azure.batch.IInheritedBehaviors
   type: Interface
-  summary: <p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>
+  summary: "<p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>"
   syntax:
     content: public interface IInheritedBehaviors
 - uid: com.microsoft.azure.batch.BatchClientBehavior
@@ -682,7 +682,7 @@ references:
   nameWithType: BatchClientBehavior
   fullName: com.microsoft.azure.batch.BatchClientBehavior
   type: Class
-  summary: <p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>
+  summary: "<p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>"
   syntax:
     content: public class BatchClientBehavior
 - uid: com.microsoft.azure.batch.BatchClient
@@ -692,7 +692,7 @@ references:
   nameWithType: BatchClient
   fullName: com.microsoft.azure.batch.BatchClient
   type: Class
-  summary: <p>A client for an Azure Batch account, used to access the Batch service. </p>
+  summary: "<p>A client for an Azure Batch account, used to access the Batch service. </p>"
   syntax:
     content: public class BatchClient
 - uid: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
@@ -702,10 +702,7 @@ references:
   nameWithType: IInheritedBehaviors.customBehaviors()
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
   type: Method
-  summary: >-
-    <p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public Collection<BatchClientBehavior> customBehaviors()
     return:
@@ -718,10 +715,7 @@ references:
   nameWithType: IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   type: Method
-  summary: >-
-    <p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public IInheritedBehaviors withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
     parameters:
@@ -738,7 +732,7 @@ references:
   nameWithType: BatchErrorException
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException
   type: Class
-  summary: <p>Exception thrown for an invalid response with BatchError information. </p>
+  summary: "<p>Exception thrown for an invalid response with BatchError information. </p>"
   syntax:
     content: public class BatchErrorException
 - uid: com.microsoft.azure.batch.protocol.models.CertificateAddParameter
@@ -748,7 +742,7 @@ references:
   nameWithType: CertificateAddParameter
   fullName: com.microsoft.azure.batch.protocol.models.CertificateAddParameter
   type: Class
-  summary: <p>A certificate that can be installed on compute nodes and can be used to authenticate operations on the machine. </p>
+  summary: "<p>A certificate that can be installed on compute nodes and can be used to authenticate operations on the machine. </p>"
   syntax:
     content: public class CertificateAddParameter
 - uid: com.microsoft.azure.batch.protocol.models.CertificateState.DELETE_FAILED
@@ -758,7 +752,7 @@ references:
   nameWithType: CertificateState.DELETE_FAILED
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.DELETE_FAILED
   type: Field
-  summary: <p>The user requested that the certificate be deleted, but there are pools that still have references to the certificate, or it is still installed on one or more compute nodes. (The latter can occur if the certificate has been removed from the pool, but the node has not yet restarted. Nodes refresh their certificates only when they restart.) You may use the cancel certificate delete operation to cancel the delete, or the delete certificate operation to retry the delete. </p>
+  summary: "<p>The user requested that the certificate be deleted, but there are pools that still have references to the certificate, or it is still installed on one or more compute nodes. (The latter can occur if the certificate has been removed from the pool, but the node has not yet restarted. Nodes refresh their certificates only when they restart.) You may use the cancel certificate delete operation to cancel the delete, or the delete certificate operation to retry the delete. </p>"
   syntax:
     content: public DELETE_FAILED=("deletefailed")
 - uid: com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE
@@ -768,7 +762,7 @@ references:
   nameWithType: CertificateState.ACTIVE
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE
   type: Field
-  summary: <p>The certificate is available for use in pools. </p>
+  summary: "<p>The certificate is available for use in pools. </p>"
   syntax:
     content: public ACTIVE=("active")
 - uid: com.microsoft.azure.batch.protocol.models.CertificateState.DELETING
@@ -778,7 +772,7 @@ references:
   nameWithType: CertificateState.DELETING
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.DELETING
   type: Field
-  summary: <p>The user has requested that the certificate be deleted, but the delete operation has not yet completed. You may not reference the certificate when creating or updating pools. </p>
+  summary: "<p>The user has requested that the certificate be deleted, but the delete operation has not yet completed. You may not reference the certificate when creating or updating pools. </p>"
   syntax:
     content: public DELETING=("deleting")
 - uid: com.microsoft.azure.batch.CertificateOperations.cancelDeleteCertificate(String,String)
@@ -788,10 +782,7 @@ references:
   nameWithType: CertificateOperations.cancelDeleteCertificate(String thumbprintAlgorithm, String thumbprint)
   fullName: com.microsoft.azure.batch.CertificateOperations.cancelDeleteCertificate(String thumbprintAlgorithm, String thumbprint)
   type: Method
-  summary: >-
-    <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models.CertificateState.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE" data-throw-if-not-resolved="false">Active</xref> state.</p>
-
-    <p></p>
+  summary: "<p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid=\"com.microsoft.azure.batch.protocol.models.CertificateState.DELETE_FAILED\" data-throw-if-not-resolved=\"false\">Delete Failed</xref> state, and restores the certificate to the <xref uid=\"com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE\" data-throw-if-not-resolved=\"false\">Active</xref> state.</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.batch.protocol.models.Certificate
   parent: com.microsoft.azure.batch.protocol.models
@@ -800,7 +791,7 @@ references:
   nameWithType: Certificate
   fullName: com.microsoft.azure.batch.protocol.models.Certificate
   type: Class
-  summary: <p>A certificate that can be installed on compute nodes and can be used to authenticate operations on the machine. </p>
+  summary: "<p>A certificate that can be installed on compute nodes and can be used to authenticate operations on the machine. </p>"
   syntax:
     content: public class Certificate
 - uid: com.microsoft.azure.batch.DetailLevel
@@ -810,6 +801,6 @@ references:
   nameWithType: DetailLevel
   fullName: com.microsoft.azure.batch.DetailLevel
   type: Class
-  summary: <p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>
+  summary: "<p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>"
   syntax:
     content: public class DetailLevel

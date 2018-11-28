@@ -127,7 +127,7 @@ references:
   nameWithType: StorageAccount.Update
   fullName: com.microsoft.azure.management.storage.StorageAccount.Update
   type: Interface
-  summary: <p>The template for a storage account update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a storage account update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<StorageAccount>,StorageAccount.UpdateStages.WithSku,StorageAccount.UpdateStages.WithCustomDomain,StorageAccount.UpdateStages.WithEncryption,StorageAccount.UpdateStages.WithAccessTier,Resource.UpdateWithTags<Update>
 - uid: com.microsoft.azure.management.storage.CustomDomain
@@ -137,6 +137,6 @@ references:
   nameWithType: CustomDomain
   fullName: com.microsoft.azure.management.storage.CustomDomain
   type: Class
-  summary: <p>The custom domain assigned to this storage account. This can be set via Update. </p>
+  summary: "<p>The custom domain assigned to this storage account. This can be set via Update. </p>"
   syntax:
     content: public class CustomDomain

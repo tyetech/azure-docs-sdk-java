@@ -101,7 +101,7 @@ references:
   nameWithType: FunctionApp.Update
   fullName: com.microsoft.azure.management.appservice.FunctionApp.Update
   type: Interface
-  summary: <p>The template for a function app update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a function app update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends WebAppBase.Update<FunctionApp>,FunctionApp.UpdateStages.WithAppServicePlan,FunctionApp.UpdateStages.WithRuntimeVersion,FunctionApp.UpdateStages.WithStorageAccount,FunctionApp.UpdateStages.WithDailyUsageQuota
 - uid: com.microsoft.azure.management.storage.SkuName
@@ -111,7 +111,7 @@ references:
   nameWithType: SkuName
   fullName: com.microsoft.azure.management.storage.SkuName
   type: Enum
-  summary: <p>Defines values for SkuName. </p>
+  summary: "<p>Defines values for SkuName. </p>"
   syntax:
     content: public enum SkuName
 - uid: com.microsoft.azure.management.storage.StorageAccount
@@ -121,6 +121,6 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>

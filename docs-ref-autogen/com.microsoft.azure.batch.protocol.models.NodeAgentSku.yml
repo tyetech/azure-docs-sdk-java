@@ -226,7 +226,7 @@ references:
   nameWithType: ImageReference
   fullName: com.microsoft.azure.batch.protocol.models.ImageReference
   type: Class
-  summary: <p>A reference to an Azure Virtual Machines Marketplace image or a custom Azure Virtual Machine image. To get the list of all Azure Marketplace image references verified by Azure Batch, see the 'List node agent SKUs' operation. </p>
+  summary: "<p>A reference to an Azure Virtual Machines Marketplace image or a custom Azure Virtual Machine image. To get the list of all Azure Marketplace image references verified by Azure Batch, see the 'List node agent SKUs' operation. </p>"
   syntax:
     content: public class ImageReference
 - uid: com.microsoft.azure.batch.protocol.models.OSType
@@ -236,7 +236,7 @@ references:
   nameWithType: OSType
   fullName: com.microsoft.azure.batch.protocol.models.OSType
   type: Enum
-  summary: <p>Defines values for OSType. </p>
+  summary: "<p>Defines values for OSType. </p>"
   syntax:
     content: public enum OSType
 - uid: com.microsoft.azure.batch.protocol.models.NodeAgentSku
@@ -246,5 +246,5 @@ references:
   nameWithType: NodeAgentSku
   fullName: com.microsoft.azure.batch.protocol.models.NodeAgentSku
   type: Class
-  summary: <p>A node agent SKU supported by the Batch service. The Batch node agent is a program that runs on each node in the pool, and provides the command-and-control interface between the node and the Batch service. There are different implementations of the node agent, known as SKUs, for different operating systems. </p>
+  summary: "<p>A node agent SKU supported by the Batch service. The Batch node agent is a program that runs on each node in the pool, and provides the command-and-control interface between the node and the Batch service. There are different implementations of the node agent, known as SKUs, for different operating systems. </p>"
   syntax: *o1

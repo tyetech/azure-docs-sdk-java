@@ -679,10 +679,7 @@ references:
   nameWithType: InternalClient.getConfig()
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.getConfig()
   type: Method
-  summary: >-
-    <p>Getter for the device client config.</p>
-
-    <p></p>
+  summary: "<p>Getter for the device client config.</p>\r\n<p></p>"
   syntax:
     content: public DeviceClientConfig getConfig()
     return:
@@ -726,10 +723,7 @@ references:
   nameWithType: InternalClient.registerConnectionStatusChangeCallback(IotHubConnectionStatusChangeCallback callback, Object callbackContext)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.registerConnectionStatusChangeCallback(IotHubConnectionStatusChangeCallback callback, Object callbackContext)
   type: Method
-  summary: >-
-    <p>Registers a callback to be executed when the connection status of the device changes. The callback will be fired with a status and a reason why the device's status changed. When the callback is fired, the provided context will be provided alongside the status and reason.</p>
-
-    <p></p>
+  summary: "<p>Registers a callback to be executed when the connection status of the device changes. The callback will be fired with a status and a reason why the device's status changed. When the callback is fired, the provided context will be provided alongside the status and reason.</p>\r\n<p></p>"
   syntax:
     content: public void registerConnectionStatusChangeCallback(IotHubConnectionStatusChangeCallback callback, Object callbackContext)
     parameters:
@@ -749,10 +743,7 @@ references:
   nameWithType: InternalClient.sendReportedProperties(Set<Property> reportedProperties)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.sendReportedProperties(Set<Property> reportedProperties)
   type: Method
-  summary: >-
-    <p>Sends reported properties</p>
-
-    <p></p>
+  summary: "<p>Sends reported properties</p>\r\n<p></p>"
   syntax:
     content: public void sendReportedProperties(Set<Property> reportedProperties)
     parameters:
@@ -769,10 +760,7 @@ references:
   nameWithType: InternalClient.sendReportedProperties(Set<Property> reportedProperties, int version)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.sendReportedProperties(Set<Property> reportedProperties, int version)
   type: Method
-  summary: >-
-    <p>Sends reported properties</p>
-
-    <p></p>
+  summary: "<p>Sends reported properties</p>\r\n<p></p>"
   syntax:
     content: public void sendReportedProperties(Set<Property> reportedProperties, int version)
     parameters:
@@ -792,7 +780,7 @@ references:
   nameWithType: InternalClient.setOperationTimeout(long timeout)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.setOperationTimeout(long timeout)
   type: Method
-  summary: <p>Set the length of time, in milliseconds, that any given operation will expire in. These operations include reconnecting upon a connection drop and sending a message. </p>
+  summary: "<p>Set the length of time, in milliseconds, that any given operation will expire in. These operations include reconnecting upon a connection drop and sending a message. </p>"
   syntax:
     content: public void setOperationTimeout(long timeout)
     parameters:
@@ -806,22 +794,7 @@ references:
   nameWithType: InternalClient.setOption(String optionName, Object value)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.setOption(String optionName, Object value)
   type: Method
-  summary: >-
-    <p>Sets a runtime option identified by parameter<code>optionName 
-
-        </code> to<code>value 
-
-        </code> .</p>
-
-    <p>The options that can be set via this API are:<ul><li><p><b>SetMinimumPollingInterval</b> - this option is applicable only when the transport configured with this client is HTTP. This option specifies the interval in milliseconds between calls to the service checking for availability of new messages. The value is expected to be of type<code>long 
-
-        </code> .</p></li><li><p><b>SetCertificatePath</b> - this option is applicable only when the transport configured with this client is AMQP. This option specifies the path to the certificate used to verify peer. The value is expected to be of type<code>String 
-
-        </code> .</p></li><li><p><b>SetSASTokenExpiryTime</b> - this option is applicable for HTTP/ AMQP/MQTT. This option specifies the interval in seconds after which SASToken expires. If the transport is already open then setting this option will restart the transport with the updated expiry time, and will use that expiry time length for all subsequently generated sas tokens. The value is expected to be of type<code>long 
-
-        </code> .</p></li></ul></p>
-
-    <p></p>
+  summary: "<p>Sets a runtime option identified by parameter<code>optionName \r\n    </code> to<code>value \r\n    </code> .</p>\r\n<p>The options that can be set via this API are:<ul><li><p><b>SetMinimumPollingInterval</b> - this option is applicable only when the transport configured with this client is HTTP. This option specifies the interval in milliseconds between calls to the service checking for availability of new messages. The value is expected to be of type<code>long \r\n    </code> .</p></li><li><p><b>SetCertificatePath</b> - this option is applicable only when the transport configured with this client is AMQP. This option specifies the path to the certificate used to verify peer. The value is expected to be of type<code>String \r\n    </code> .</p></li><li><p><b>SetSASTokenExpiryTime</b> - this option is applicable for HTTP/ AMQP/MQTT. This option specifies the interval in seconds after which SASToken expires. If the transport is already open then setting this option will restart the transport with the updated expiry time, and will use that expiry time length for all subsequently generated sas tokens. The value is expected to be of type<code>long \r\n    </code> .</p></li></ul></p>\r\n<p></p>"
   syntax:
     content: public void setOption(String optionName, Object value)
     parameters:
@@ -838,7 +811,7 @@ references:
   nameWithType: InternalClient.setRetryPolicy(RetryPolicy retryPolicy)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.setRetryPolicy(RetryPolicy retryPolicy)
   type: Method
-  summary: <p>Sets the given retry policy on the underlying transport <a href="https://github.com/Azure/azure-iot-sdk-java/blob/master/device/iot-device-client/devdoc/requirement_docs/com/microsoft/azure/iothub/retryPolicy.md">See more details about the default retry policy and about using custom retry policies here</a></p>
+  summary: "<p>Sets the given retry policy on the underlying transport <a href=\"https://github.com/Azure/azure-iot-sdk-java/blob/master/device/iot-device-client/devdoc/requirement_docs/com/microsoft/azure/iothub/retryPolicy.md\">See more details about the default retry policy and about using custom retry policies here</a></p>"
   syntax:
     content: public void setRetryPolicy(RetryPolicy retryPolicy)
     parameters:
@@ -852,10 +825,7 @@ references:
   nameWithType: InternalClient.subscribeToDesiredProperties(Map<Property, Pair<PropertyCallBack<String, Object>, Object>> onDesiredPropertyChange)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.subscribeToDesiredProperties(Map<Property, Pair<PropertyCallBack<String, Object>, Object>> onDesiredPropertyChange)
   type: Method
-  summary: >-
-    <p>Subscribes to desired properties</p>
-
-    <p></p>
+  summary: "<p>Subscribes to desired properties</p>\r\n<p></p>"
   syntax:
     content: public void subscribeToDesiredProperties(Map<Property, Pair<PropertyCallBack<String, Object>, Object>> onDesiredPropertyChange)
     parameters:
@@ -872,10 +842,7 @@ references:
   nameWithType: InternalClient.subscribeToTwinDesiredProperties(Map<Property, Pair<TwinPropertyCallBack, Object>> onDesiredPropertyChange)
   fullName: com.microsoft.azure.sdk.iot.device.InternalClient.subscribeToTwinDesiredProperties(Map<Property, Pair<TwinPropertyCallBack, Object>> onDesiredPropertyChange)
   type: Method
-  summary: >-
-    <p>Subscribes to desired properties</p>
-
-    <p></p>
+  summary: "<p>Subscribes to desired properties</p>\r\n<p></p>"
   syntax:
     content: public void subscribeToTwinDesiredProperties(Map<Property, Pair<TwinPropertyCallBack, Object>> onDesiredPropertyChange)
     parameters:
@@ -901,7 +868,7 @@ references:
   nameWithType: IotHubClientProtocol
   fullName: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubClientProtocol
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.ModuleClientException
@@ -929,10 +896,7 @@ references:
   nameWithType: IotHubEventCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubEventCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub event callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)" data-throw-if-not-resolved="false">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub event callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)\" data-throw-if-not-resolved=\"false\">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>"
   syntax:
     content: public interface IotHubEventCallback
 - uid: com.microsoft.azure.sdk.iot.device.edge.MethodResult
@@ -951,7 +915,7 @@ references:
   nameWithType: MethodRequest
   fullName: com.microsoft.azure.sdk.iot.device.edge.MethodRequest
   type: Class
-  summary: <p>Json parser for a method request. Used to invoke methods on other devices/modules </p>
+  summary: "<p>Json parser for a method request. Used to invoke methods on other devices/modules </p>"
   syntax:
     content: public class MethodRequest
 - uid: com.microsoft.azure.sdk.iot.device.DeviceTwin.PropertyCallBack
@@ -993,7 +957,7 @@ references:
   nameWithType: ModuleClient
   fullName: com.microsoft.azure.sdk.iot.device.ModuleClient
   type: Class
-  summary: <p>Public API for communicating from Edge Modules. A ModuleClient can be used to send messages from an Edge module to an EdgeHub or an IotHub. It can also send twin updates and listen for method calls from an EdgeHub or IotHub as well </p>
+  summary: "<p>Public API for communicating from Edge Modules. A ModuleClient can be used to send messages from an Edge module to an EdgeHub or an IotHub. It can also send twin updates and listen for method calls from an EdgeHub or IotHub as well </p>"
   syntax: *o1
 - uid: com.microsoft.azure.sdk.iot.device.MessageCallback
   parent: com.microsoft.azure.sdk.iot.device
@@ -1002,10 +966,7 @@ references:
   nameWithType: MessageCallback
   fullName: com.microsoft.azure.sdk.iot.device.MessageCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub message callback. </p>
-
-    <p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)" data-throw-if-not-resolved="false">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub message callback. </p>\r\n<p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)\" data-throw-if-not-resolved=\"false\">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>"
   syntax:
     content: public interface MessageCallback
 - uid: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider
@@ -1015,7 +976,7 @@ references:
   nameWithType: IotHubAuthenticationProvider
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider
   type: Class
-  summary: <p>Base class for providing authentication for a Device Client or Module Client, including x509 and SAS based authentication. </p>
+  summary: "<p>Base class for providing authentication for a Device Client or Module Client, including x509 and SAS based authentication. </p>"
   syntax:
     content: public class IotHubAuthenticationProvider
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.TransportException
@@ -1034,6 +995,6 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig

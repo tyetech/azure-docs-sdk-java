@@ -1527,7 +1527,7 @@ references:
   nameWithType: SyncFlag
   fullName: com.microsoft.azure.datalake.store.SyncFlag
   type: Enum
-  summary: <p>Indicator flags to backend during append. </p>
+  summary: "<p>Indicator flags to backend during append. </p>"
   syntax:
     content: public enum SyncFlag
 - uid: com.microsoft.azure.datalake.store.ADLStoreClient
@@ -1537,12 +1537,7 @@ references:
   nameWithType: ADLStoreClient
   fullName: com.microsoft.azure.datalake.store.ADLStoreClient
   type: Class
-  summary: >-
-    <p>
-
-      <code>ADLStoreClient 
-
-        </code> class represents a client to Azure Data Lake. It can be used to perform operations on files and directories. </p>
+  summary: "<p>\r\n  <code>ADLStoreClient \r\n    </code> class represents a client to Azure Data Lake. It can be used to perform operations on files and directories. </p>"
   syntax:
     content: public class ADLStoreClient
 - uid: com.microsoft.azure.datalake.store.RequestOptions
@@ -1552,7 +1547,7 @@ references:
   nameWithType: RequestOptions
   fullName: com.microsoft.azure.datalake.store.RequestOptions
   type: Class
-  summary: <p>common options to control the behavior of server calls </p>
+  summary: "<p>common options to control the behavior of server calls </p>"
   syntax:
     content: public class RequestOptions
 - uid: com.microsoft.azure.datalake.store.OperationResponse
@@ -1562,10 +1557,7 @@ references:
   nameWithType: OperationResponse
   fullName: com.microsoft.azure.datalake.store.OperationResponse
   type: Class
-  summary: >-
-    <p>information about a response from a server call.</p>
-
-    <p>This class is a container for all the information from making a server call. </p>
+  summary: "<p>information about a response from a server call.</p>\r\n<p>This class is a container for all the information from making a server call. </p>"
   syntax:
     content: public class OperationResponse
 - uid: com.microsoft.azure.datalake.store.SyncFlag.DATA
@@ -1575,7 +1567,7 @@ references:
   nameWithType: SyncFlag.DATA
   fullName: com.microsoft.azure.datalake.store.SyncFlag.DATA
   type: Field
-  summary: <p>No update is required, and hold lease. - Performant operation. </p>
+  summary: "<p>No update is required, and hold lease. - Performant operation. </p>"
   syntax:
     content: public DATA
 - uid: com.microsoft.azure.datalake.store.SyncFlag.METADATA
@@ -1585,7 +1577,7 @@ references:
   nameWithType: SyncFlag.METADATA
   fullName: com.microsoft.azure.datalake.store.SyncFlag.METADATA
   type: Field
-  summary: <p>Update metdata of the file after the given data is appended to file. </p>
+  summary: "<p>Update metdata of the file after the given data is appended to file. </p>"
   syntax:
     content: public METADATA
 - uid: com.microsoft.azure.datalake.store.Core.getFileStatus(String,ADLStoreClient,RequestOptions,OperationResponse)
@@ -1595,10 +1587,7 @@ references:
   nameWithType: Core.getFileStatus(String path, ADLStoreClient client, RequestOptions opts, OperationResponse resp)
   fullName: com.microsoft.azure.datalake.store.Core.getFileStatus(String path, ADLStoreClient client, RequestOptions opts, OperationResponse resp)
   type: Method
-  summary: >-
-    <p>Gets the directory metadata associated with a file or directory.</p>
-
-    <p></p>
+  summary: "<p>Gets the directory metadata associated with a file or directory.</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.datalake.store.Core.listStatus(String,String,String,int,ADLStoreClient,RequestOptions,OperationResponse)
   parent: com.microsoft.azure.datalake.store.Core
@@ -1607,14 +1596,7 @@ references:
   nameWithType: Core.listStatus(String path, String listAfter, String listBefore, int listSize, ADLStoreClient client, RequestOptions opts, OperationResponse resp)
   fullName: com.microsoft.azure.datalake.store.Core.listStatus(String path, String listAfter, String listBefore, int listSize, ADLStoreClient client, RequestOptions opts, OperationResponse resp)
   type: Method
-  summary: >-
-    <p>enumerates the contents of a direcotry, returning a <xref uid="" data-throw-if-not-resolved="false">List</xref> of <xref uid="com.microsoft.azure.datalake.store.DirectoryEntry" data-throw-if-not-resolved="false">DirectoryEntry</xref> objects, one per file or directory in the specified directory. </p>
-
-    <p>To avoid overwhelming the client or the server, the call may return a partial list, in which case the caller should make the call again with the last entry from the returned list specified as the <code>listAfter 
-
-        </code> parameter of the next call. </p>
-
-    <p></p>
+  summary: "<p>enumerates the contents of a direcotry, returning a <xref uid=\"\" data-throw-if-not-resolved=\"false\">List</xref> of <xref uid=\"com.microsoft.azure.datalake.store.DirectoryEntry\" data-throw-if-not-resolved=\"false\">DirectoryEntry</xref> objects, one per file or directory in the specified directory. </p>\r\n<p>To avoid overwhelming the client or the server, the call may return a partial list, in which case the caller should make the call again with the last entry from the returned list specified as the <code>listAfter \r\n    </code> parameter of the next call. </p>\r\n<p></p>"
   syntax: *o2
 - uid: com.microsoft.azure.datalake.store.SyncFlag.CLOSE
   parent: com.microsoft.azure.datalake.store.SyncFlag
@@ -1623,7 +1605,7 @@ references:
   nameWithType: SyncFlag.CLOSE
   fullName: com.microsoft.azure.datalake.store.SyncFlag.CLOSE
   type: Field
-  summary: <p>Update metdata of the file after the given data is appended to file. And close file handle. Once the file handle is closed, lease on the file is released if the stream is opened with leaseid. </p>
+  summary: "<p>Update metdata of the file after the given data is appended to file. And close file handle. Once the file handle is closed, lease on the file is released if the stream is opened with leaseid. </p>"
   syntax:
     content: public CLOSE
 - uid: com.microsoft.azure.datalake.store.ADLFileInputStream
@@ -1633,12 +1615,7 @@ references:
   nameWithType: ADLFileInputStream
   fullName: com.microsoft.azure.datalake.store.ADLFileInputStream
   type: Class
-  summary: >-
-    <p>ADLFileInputStream can be used to read data from an open file on ADL. It is a buffering stream, that reads data from the server in bulk, and then satisfies user reads from the buffer. Default buffer size is 4MB.</p>
-
-    <p>
-
-      <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe. </p>
+  summary: "<p>ADLFileInputStream can be used to read data from an open file on ADL. It is a buffering stream, that reads data from the server in bulk, and then satisfies user reads from the buffer. Default buffer size is 4MB.</p>\r\n<p>\r\n  <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe. </p>"
   syntax:
     content: public class ADLFileInputStream
 - uid: com.microsoft.azure.datalake.store.ExpiryOption
@@ -1648,7 +1625,7 @@ references:
   nameWithType: ExpiryOption
   fullName: com.microsoft.azure.datalake.store.ExpiryOption
   type: Enum
-  summary: <p>Enum specifying how to interpret the expiry time specified in setExpiry call. </p>
+  summary: "<p>Enum specifying how to interpret the expiry time specified in setExpiry call. </p>"
   syntax:
     content: public enum ExpiryOption
 - uid: com.microsoft.azure.datalake.store.ContentSummary
@@ -1658,7 +1635,7 @@ references:
   nameWithType: ContentSummary
   fullName: com.microsoft.azure.datalake.store.ContentSummary
   type: Class
-  summary: <p>structure that contains the return values from getContentSummary call. </p>
+  summary: "<p>structure that contains the return values from getContentSummary call. </p>"
   syntax:
     content: public class ContentSummary
 - uid: com.microsoft.azure.datalake.store.DirectoryEntry
@@ -1668,7 +1645,7 @@ references:
   nameWithType: DirectoryEntry
   fullName: com.microsoft.azure.datalake.store.DirectoryEntry
   type: Class
-  summary: <p>filesystem metadata of a directory enrty (a file or a directory) in ADL. </p>
+  summary: "<p>filesystem metadata of a directory enrty (a file or a directory) in ADL. </p>"
   syntax:
     content: public class DirectoryEntry
 - uid: com.microsoft.azure.datalake.store.UserGroupRepresentation
@@ -1678,7 +1655,7 @@ references:
   nameWithType: UserGroupRepresentation
   fullName: com.microsoft.azure.datalake.store.UserGroupRepresentation
   type: Enum
-  summary: <p>Enum specifying how user and group objects should be represented in calls that return user and group ID. </p>
+  summary: "<p>Enum specifying how user and group objects should be represented in calls that return user and group ID. </p>"
   syntax:
     content: public enum UserGroupRepresentation
 - uid: com.microsoft.azure.datalake.store.acl.AclEntry
@@ -1688,14 +1665,7 @@ references:
   nameWithType: AclEntry
   fullName: com.microsoft.azure.datalake.store.acl.AclEntry
   type: Class
-  summary: >-
-    <p>Contains one ACL entry. An ACL entry consists of a scope (access or default), the type of the ACL (user, group, other or mask), the name of the user or group associated with this ACL (can be blank to specify the default permissions for users and groups, and must be blank for mask entries), and the action permitted by this ACL entry. </p>
-
-    <p>An ACL for an object consists of a<code>List 
-
-        </code> of Acl entries. </p>
-
-    <p>This class also provides a number of convenience methods for converting ACL entries and ACLs to and back from strings. </p>
+  summary: "<p>Contains one ACL entry. An ACL entry consists of a scope (access or default), the type of the ACL (user, group, other or mask), the name of the user or group associated with this ACL (can be blank to specify the default permissions for users and groups, and must be blank for mask entries), and the action permitted by this ACL entry. </p>\r\n<p>An ACL for an object consists of a<code>List \r\n    </code> of Acl entries. </p>\r\n<p>This class also provides a number of convenience methods for converting ACL entries and ACLs to and back from strings. </p>"
   syntax:
     content: public class AclEntry
 - uid: com.microsoft.azure.datalake.store.acl.AclStatus
@@ -1705,6 +1675,6 @@ references:
   nameWithType: AclStatus
   fullName: com.microsoft.azure.datalake.store.acl.AclStatus
   type: Class
-  summary: <p>Object returned by the <xref uid="com.microsoft.azure.datalake.store.ADLStoreClient.getAclStatus(String)" data-throw-if-not-resolved="false">com.microsoft.azure.datalake.store.ADLStoreClient#getAclStatus(String)</xref> getAclStatus} call, that contains the Acl and Permission information for that file or directory. </p>
+  summary: "<p>Object returned by the <xref uid=\"com.microsoft.azure.datalake.store.ADLStoreClient.getAclStatus(String)\" data-throw-if-not-resolved=\"false\">com.microsoft.azure.datalake.store.ADLStoreClient#getAclStatus(String)</xref> getAclStatus} call, that contains the Acl and Permission information for that file or directory. </p>"
   syntax:
     content: public class AclStatus

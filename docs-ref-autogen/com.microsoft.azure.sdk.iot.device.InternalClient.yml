@@ -584,14 +584,7 @@ references:
   nameWithType: DeviceClient
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClient
   type: Class
-  summary: >-
-    <p>The public-facing API. Allows a single logical or physical device to connect to an IoT Hub. The IoT Hub client supports sending events to and receiving messages from an IoT Hub. </p>
-
-    <p>To support these workflows, the client library will provide the following abstractions: a message, with its payload and associated properties; and a client, which sends and receives messages. </p>
-
-    <p>The client buffers messages while the network is down, and re-sends them when the network comes back online. It also batches messages to improve communication efficiency (HTTPS only). </p>
-
-    <p>The client supports HTTPS 1.1 and AMQPS 1.0 transports. </p>
+  summary: "<p>The public-facing API. Allows a single logical or physical device to connect to an IoT Hub. The IoT Hub client supports sending events to and receiving messages from an IoT Hub. </p>\r\n<p>To support these workflows, the client library will provide the following abstractions: a message, with its payload and associated properties; and a client, which sends and receives messages. </p>\r\n<p>The client buffers messages while the network is down, and re-sends them when the network comes back online. It also batches messages to improve communication efficiency (HTTPS only). </p>\r\n<p>The client supports HTTPS 1.1 and AMQPS 1.0 transports. </p>"
   syntax:
     content: public class DeviceClient extends InternalClient
 - uid: com.microsoft.azure.sdk.iot.device.ModuleClient
@@ -601,7 +594,7 @@ references:
   nameWithType: ModuleClient
   fullName: com.microsoft.azure.sdk.iot.device.ModuleClient
   type: Class
-  summary: <p>Public API for communicating from Edge Modules. A ModuleClient can be used to send messages from an Edge module to an EdgeHub or an IotHub. It can also send twin updates and listen for method calls from an EdgeHub or IotHub as well </p>
+  summary: "<p>Public API for communicating from Edge Modules. A ModuleClient can be used to send messages from an Edge module to an EdgeHub or an IotHub. It can also send twin updates and listen for method calls from an EdgeHub or IotHub as well </p>"
   syntax:
     content: public class ModuleClient
 - uid: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
@@ -611,7 +604,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.DeviceIO
@@ -621,7 +614,7 @@ references:
   nameWithType: DeviceIO
   fullName: com.microsoft.azure.sdk.iot.device.DeviceIO
   type: Class
-  summary: <p>The task scheduler for sending and receiving messages for the Device Client </p>
+  summary: "<p>The task scheduler for sending and receiving messages for the Device Client </p>"
   syntax:
     content: public class DeviceIO
 - uid: com.microsoft.azure.sdk.iot.device.DeviceTwin.DeviceTwin
@@ -658,7 +651,7 @@ references:
   nameWithType: IotHubConnectionString
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionString
   type: Class
-  summary: <p>Parser for the Iothub connection string. </p>
+  summary: "<p>Parser for the Iothub connection string. </p>"
   syntax:
     content: public class IotHubConnectionString
 - uid: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
@@ -668,7 +661,7 @@ references:
   nameWithType: IotHubClientProtocol
   fullName: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubClientProtocol
 - uid: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider
@@ -678,7 +671,7 @@ references:
   nameWithType: IotHubAuthenticationProvider
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider
   type: Class
-  summary: <p>Base class for providing authentication for a Device Client or Module Client, including x509 and SAS based authentication. </p>
+  summary: "<p>Base class for providing authentication for a Device Client or Module Client, including x509 and SAS based authentication. </p>"
   syntax:
     content: public class IotHubAuthenticationProvider
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.TransportException
@@ -706,10 +699,7 @@ references:
   nameWithType: IotHubEventCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubEventCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub event callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)" data-throw-if-not-resolved="false">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub event callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)\" data-throw-if-not-resolved=\"false\">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>"
   syntax:
     content: public interface IotHubEventCallback
 - uid: com.microsoft.azure.sdk.iot.device.DeviceTwin.PropertyCallBack
@@ -742,10 +732,7 @@ references:
   nameWithType: MessageCallback
   fullName: com.microsoft.azure.sdk.iot.device.MessageCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub message callback. </p>
-
-    <p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)" data-throw-if-not-resolved="false">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub message callback. </p>\r\n<p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)\" data-throw-if-not-resolved=\"false\">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>"
   syntax:
     content: public interface MessageCallback
 - uid: com.microsoft.azure.sdk.iot.device.DeviceTwin.DeviceMethodCallback
@@ -796,7 +783,7 @@ references:
   nameWithType: IotHubConnectionStatusChangeCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeCallback
   type: Interface
-  summary: <p>Callback interface for allowing users to respond to changes in the connectivity of this sdk to Iot Hub. </p>
+  summary: "<p>Callback interface for allowing users to respond to changes in the connectivity of this sdk to Iot Hub. </p>"
   syntax:
     content: public interface IotHubConnectionStatusChangeCallback
 - uid: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
@@ -806,7 +793,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
   type: Interface
-  summary: <p>An interface for the retry policy. </p>
+  summary: "<p>An interface for the retry policy. </p>"
   syntax:
     content: public interface RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.ProductInfo
@@ -816,6 +803,6 @@ references:
   nameWithType: ProductInfo
   fullName: com.microsoft.azure.sdk.iot.device.ProductInfo
   type: Class
-  summary: <p>Represents the complete user agent string to be included in all D2C communication. </p>
+  summary: "<p>Represents the complete user agent string to be included in all D2C communication. </p>"
   syntax:
     content: public class ProductInfo

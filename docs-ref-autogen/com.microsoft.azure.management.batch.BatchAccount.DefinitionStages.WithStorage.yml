@@ -143,7 +143,7 @@ references:
   nameWithType: BatchAccount.Definition
   fullName: com.microsoft.azure.management.batch.BatchAccount.Definition
   type: Interface
-  summary: <p>The entirety of a Batch account definition. </p>
+  summary: "<p>The entirety of a Batch account definition. </p>"
   syntax:
     content: public interface Definition extends BatchAccount.DefinitionStages.Blank,BatchAccount.DefinitionStages.WithGroup,BatchAccount.DefinitionStages.WithCreate,BatchAccount.DefinitionStages.WithApplicationAndStorage,BatchAccount.DefinitionStages.WithCreateAndApplication,BatchAccount.DefinitionStages.WithApplication,BatchAccount.DefinitionStages.WithStorage
 - uid: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage
@@ -153,7 +153,7 @@ references:
   nameWithType: BatchAccount.DefinitionStages.WithApplicationAndStorage
   fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage
   type: Interface
-  summary: <p>The stage of a Batch account definition allowing adding an application and a storage account. </p>
+  summary: "<p>The stage of a Batch account definition allowing adding an application and a storage account. </p>"
   syntax:
     content: public interface WithApplicationAndStorage extends BatchAccount.DefinitionStages.WithStorage,BatchAccount.DefinitionStages.WithApplication
 - uid: com.microsoft.azure.management.storage.StorageAccount
@@ -163,7 +163,7 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -173,10 +173,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:

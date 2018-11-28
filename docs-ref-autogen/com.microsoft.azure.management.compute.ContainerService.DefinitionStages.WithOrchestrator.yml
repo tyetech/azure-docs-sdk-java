@@ -114,7 +114,7 @@ references:
   nameWithType: ContainerService.Definition
   fullName: com.microsoft.azure.management.compute.ContainerService.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a container service. </p>
+  summary: "<p>Container interface for all the definitions related to a container service. </p>"
   syntax:
     content: public interface Definition extends ContainerService.DefinitionStages.Blank,ContainerService.DefinitionStages.WithGroup,ContainerService.DefinitionStages.WithOrchestrator,ContainerService.DefinitionStages.WithMasterNodeCount,ContainerService.DefinitionStages.WithMasterLeafDomainLabel,ContainerService.DefinitionStages.WithLinux,ContainerService.DefinitionStages.WithLinuxRootUsername,ContainerService.DefinitionStages.WithLinuxSshKey,ContainerService.DefinitionStages.WithAgentPool,ContainerService.DefinitionStages.WithServicePrincipalProfile,ContainerService.DefinitionStages.WithDiagnostics,ContainerService.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.ContainerService.DefinitionStages.WithDiagnostics
@@ -124,7 +124,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithDiagnostics
   fullName: com.microsoft.azure.management.compute.ContainerService.DefinitionStages.WithDiagnostics
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specific diagnostic settings. </p>
+  summary: "<p>The stage of the container service definition allowing to specific diagnostic settings. </p>"
   syntax:
     content: public interface WithDiagnostics extends ContainerService.DefinitionStages.WithLinux
 - uid: com.microsoft.azure.management.compute.ContainerService.DefinitionStages.WithServicePrincipalProfile
@@ -134,6 +134,6 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithServicePrincipalProfile
   fullName: com.microsoft.azure.management.compute.ContainerService.DefinitionStages.WithServicePrincipalProfile
   type: Interface
-  summary: <p>The stage allowing properties for cluster service principals. </p>
+  summary: "<p>The stage allowing properties for cluster service principals. </p>"
   syntax:
     content: public interface WithServicePrincipalProfile

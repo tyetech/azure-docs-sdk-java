@@ -41,7 +41,7 @@ references:
   nameWithType: Attachable.InDefinitionAlt<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinitionAlt<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definition. </p>
+  summary: "<p>Attaches the child definition to the parent resource definition. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -54,7 +54,7 @@ references:
   nameWithType: ApplicationGatewayProbe.DefinitionStages.WithRetries<ParentT>.withRetriesBeforeUnhealthy(int retryCount)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.DefinitionStages.WithRetries<ParentT>.withRetriesBeforeUnhealthy(int retryCount)
   type: Method
-  summary: <p>Specifies the number of retries before the server is considered unhealthy. </p>
+  summary: "<p>Specifies the number of retries before the server is considered unhealthy. </p>"
   syntax:
     content: public WithAttach<ParentT> withRetriesBeforeUnhealthy(int retryCount)
     parameters:
@@ -71,7 +71,7 @@ references:
   nameWithType: ApplicationGatewayProbe.DefinitionStages.WithInterval<ParentT>.withTimeBetweenProbesInSeconds(int seconds)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.DefinitionStages.WithInterval<ParentT>.withTimeBetweenProbesInSeconds(int seconds)
   type: Method
-  summary: <p>Specifies the time interval in seconds between consecutive probes. </p>
+  summary: "<p>Specifies the time interval in seconds between consecutive probes. </p>"
   syntax:
     content: public WithAttach<ParentT> withTimeBetweenProbesInSeconds(int seconds)
     parameters:
@@ -88,7 +88,7 @@ references:
   nameWithType: Attachable.InDefinitionAlt<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinitionAlt<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinitionAlt<ParentT>
     typeParameters:
@@ -102,7 +102,7 @@ references:
   nameWithType: ApplicationGatewayProbe.DefinitionStages.WithInterval<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.DefinitionStages.WithInterval<ParentT>
   type: Interface
-  summary: <p>Stage of an application gateway probe definition allowing to specify the time interval between consecutive probes. </p>
+  summary: "<p>Stage of an application gateway probe definition allowing to specify the time interval between consecutive probes. </p>"
   syntax:
     content: public interface WithInterval<ParentT>
     typeParameters:
@@ -116,7 +116,7 @@ references:
   nameWithType: ApplicationGatewayProbe.DefinitionStages.WithRetries<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.DefinitionStages.WithRetries<ParentT>
   type: Interface
-  summary: <p>Stage of an application gateway probe definition allowing to specify the number of retries before the server is considered unhealthy. </p>
+  summary: "<p>Stage of an application gateway probe definition allowing to specify the number of retries before the server is considered unhealthy. </p>"
   syntax:
     content: public interface WithRetries<ParentT>
     typeParameters:
@@ -130,7 +130,7 @@ references:
   nameWithType: ApplicationGatewayProbe.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway probe definition. </p>
+  summary: "<p>The entirety of an application gateway probe definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayProbe.DefinitionStages.Blank<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithProtocol<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithPath<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithHost<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithTimeout<ParentT>
     typeParameters:

@@ -280,7 +280,7 @@ references:
   nameWithType: PayloadSizeExceededException
   fullName: com.microsoft.azure.servicebus.primitives.PayloadSizeExceededException
   type: Class
-  summary: <p>this exception is thrown when user attempts to send a event data or brokered message that has exceeded the allowed payload size as defined by the service. Note that in a batch send scenario the limit can include possible batch overhead. </p>
+  summary: "<p>this exception is thrown when user attempts to send a event data or brokered message that has exceeded the allowed payload size as defined by the service. Note that in a batch send scenario the limit can include possible batch overhead. </p>"
   syntax:
     content: public class PayloadSizeExceededException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.ClientSettings
@@ -290,7 +290,7 @@ references:
   nameWithType: ClientSettings
   fullName: com.microsoft.azure.servicebus.ClientSettings
   type: Class
-  summary: <p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>
+  summary: "<p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>"
   syntax:
     content: public class ClientSettings
 - uid: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
@@ -300,25 +300,6 @@ references:
   nameWithType: ConnectionStringBuilder
   fullName: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
   type: Class
-  summary: >-
-    <p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>
-
-    <p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(
-
-                                                 "ServiceBusNamespaceName", 
-
-                                                 "ServiceBusEntityName", // QueueName or TopicName or SubscriptionPath
-
-                                                 "SharedAccessSignatureKeyName", 
-
-                                                 "SharedAccessSignatureKey");
-
-         
-
-        String connectionString = connectionStringBuilder.toString();
-
-        </code></pre></p>
-
-    <p>A connection string is basically a string consisted of key-value pair separated by ";". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>
+  summary: "<p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>\r\n<p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(\r\n                                             \"ServiceBusNamespaceName\", \r\n                                             \"ServiceBusEntityName\", // QueueName or TopicName or SubscriptionPath\r\n                                             \"SharedAccessSignatureKeyName\", \r\n                                             \"SharedAccessSignatureKey\");\r\n     \r\n    String connectionString = connectionStringBuilder.toString();\r\n    </code></pre></p>\r\n<p>A connection string is basically a string consisted of key-value pair separated by \";\". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>"
   syntax:
     content: public class ConnectionStringBuilder

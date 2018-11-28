@@ -66,7 +66,7 @@ references:
   nameWithType: KubernetesCluster.Definition
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
   type: Interface
-  summary: <p>Interface for all the definitions related to a Kubernetes cluster. </p>
+  summary: "<p>Interface for all the definitions related to a Kubernetes cluster. </p>"
   syntax:
     content: public interface Definition extends KubernetesCluster.DefinitionStages.Blank,KubernetesCluster.DefinitionStages.WithGroup,KubernetesCluster.DefinitionStages.WithVersion,KubernetesCluster.DefinitionStages.WithLinuxRootUsername,KubernetesCluster.DefinitionStages.WithLinuxSshKey,KubernetesCluster.DefinitionStages.WithServicePrincipalClientId,KubernetesCluster.DefinitionStages.WithServicePrincipalProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAgentPool,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithAddOnProfiles,KubernetesCluster.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
@@ -76,7 +76,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxSshKey
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specific the Linux SSH key. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specific the Linux SSH key. </p>"
   syntax:
     content: public interface WithLinuxSshKey
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withRootUsername(String)
@@ -86,10 +86,7 @@ references:
   nameWithType: KubernetesClusterImpl.withRootUsername(String rootUserName)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withRootUsername(String rootUserName)
   type: Method
-  summary: >-
-    <p>Begins the definition to specify Linux root username.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition to specify Linux root username.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withRootUsername(String rootUserName)
     parameters:

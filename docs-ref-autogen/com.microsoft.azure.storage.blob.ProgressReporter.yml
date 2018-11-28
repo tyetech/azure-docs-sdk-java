@@ -80,11 +80,6 @@ references:
   nameWithType: IProgressReceiver
   fullName: com.microsoft.azure.storage.blob.IProgressReceiver
   type: Interface
-  summary: >-
-    <p>An<code>IProgressReceiver 
-
-        </code> is an object that can be used to report progress on network transfers. When specified on transfer operations, the<code>reportProgress 
-
-        </code> method will be called periodically with the total number of bytes transferred. The user may configure this method to report progress in whatever format desired. It is recommended that this type be used in conjunction with <xref uid="" data-throw-if-not-resolved="false">ProgressReporter#addProgressReporting(Flowable, IProgressReceiver)</xref>. </p>
+  summary: "<p>An<code>IProgressReceiver \r\n    </code> is an object that can be used to report progress on network transfers. When specified on transfer operations, the<code>reportProgress \r\n    </code> method will be called periodically with the total number of bytes transferred. The user may configure this method to report progress in whatever format desired. It is recommended that this type be used in conjunction with <xref uid=\"\" data-throw-if-not-resolved=\"false\">ProgressReporter#addProgressReporting(Flowable, IProgressReceiver)</xref>. </p>"
   syntax:
     content: public interface IProgressReceiver

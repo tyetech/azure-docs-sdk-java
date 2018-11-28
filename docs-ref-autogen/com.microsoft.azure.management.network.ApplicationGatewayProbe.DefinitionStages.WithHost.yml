@@ -82,7 +82,7 @@ references:
   nameWithType: ApplicationGatewayProbe.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway probe definition. </p>
+  summary: "<p>The entirety of an application gateway probe definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayProbe.DefinitionStages.Blank<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithProtocol<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithPath<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithHost<ParentT>,ApplicationGatewayProbe.DefinitionStages.WithTimeout<ParentT>
     typeParameters:
@@ -96,7 +96,7 @@ references:
   nameWithType: ApplicationGatewayProbe.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway probe definition. </p>
+  summary: "<p>The first stage of an application gateway probe definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewayProbe.DefinitionStages.WithHost<ParentT>
     typeParameters:
@@ -110,7 +110,7 @@ references:
   nameWithType: ApplicationGatewayProbe.DefinitionStages.WithPath<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.DefinitionStages.WithPath<ParentT>
   type: Interface
-  summary: <p>Stage of an application gateway probe definition allowing to specify the relative path to send the probe to. </p>
+  summary: "<p>Stage of an application gateway probe definition allowing to specify the relative path to send the probe to. </p>"
   syntax:
     content: public interface WithPath<ParentT>
     typeParameters:

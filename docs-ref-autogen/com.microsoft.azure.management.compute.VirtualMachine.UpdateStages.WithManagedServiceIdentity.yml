@@ -89,7 +89,7 @@ references:
   nameWithType: VirtualMachine.Update
   fullName: com.microsoft.azure.management.compute.VirtualMachine.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<VirtualMachine>,Resource.UpdateWithTags<Update>,VirtualMachine.UpdateStages.WithUnmanagedDataDisk,VirtualMachine.UpdateStages.WithManagedDataDisk,VirtualMachine.UpdateStages.WithSecondaryNetworkInterface,VirtualMachine.UpdateStages.WithExtension,VirtualMachine.UpdateStages.WithBootDiagnostics,VirtualMachine.UpdateStages.WithManagedServiceIdentity
 - uid: com.microsoft.azure.management.compute.VirtualMachine.UpdateStages.WithRoleAndScopeOrUpdate
@@ -99,6 +99,6 @@ references:
   nameWithType: VirtualMachine.UpdateStages.WithRoleAndScopeOrUpdate
   fullName: com.microsoft.azure.management.compute.VirtualMachine.UpdateStages.WithRoleAndScopeOrUpdate
   type: Interface
-  summary: <p>The stage of the Managed Service Identity enabled virtual machine allowing to set role assignment for a scope. </p>
+  summary: "<p>The stage of the Managed Service Identity enabled virtual machine allowing to set role assignment for a scope. </p>"
   syntax:
     content: public interface WithRoleAndScopeOrUpdate

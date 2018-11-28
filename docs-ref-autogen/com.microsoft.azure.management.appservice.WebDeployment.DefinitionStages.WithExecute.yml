@@ -38,10 +38,7 @@ references:
   nameWithType: Executable<T>.execute()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public T execute()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Executable<T>.executeAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> executeAsync()
     return:
@@ -70,10 +64,7 @@ references:
   nameWithType: Executable<T>.executeAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> executeAsync(final ServiceCallback<T> callback)
     parameters:
@@ -102,10 +93,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithAddOnPackage.withAddOnPackage(String packageUri)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithAddOnPackage.withAddOnPackage(String packageUri)
   type: Method
-  summary: >-
-    <p>Adds an extra package to the deployment.</p>
-
-    <p></p>
+  summary: "<p>Adds an extra package to the deployment.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withAddOnPackage(String packageUri)
     parameters:
@@ -122,10 +110,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted.withExistingDeploymentsDeleted(boolean deleteExisting)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted.withExistingDeploymentsDeleted(boolean deleteExisting)
   type: Method
-  summary: >-
-    <p>Specifies whether existing deployed files on the web app should be deleted.</p>
-
-    <p></p>
+  summary: "<p>Specifies whether existing deployed files on the web app should be deleted.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withExistingDeploymentsDeleted(boolean deleteExisting)
     parameters:
@@ -142,7 +127,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithSetParameters.withSetParameter(String name, String value)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters.withSetParameter(String name, String value)
   type: Method
-  summary: <p>Adds a parameter for the deployment. </p>
+  summary: "<p>Adds a parameter for the deployment. </p>"
   syntax:
     content: public WithExecute withSetParameter(String name, String value)
     parameters:
@@ -162,10 +147,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithSetParameters.withSetParametersXmlFile(String fileUri)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters.withSetParametersXmlFile(String fileUri)
   type: Method
-  summary: >-
-    <p>Specifies the XML file containing the parameters.</p>
-
-    <p></p>
+  summary: "<p>Specifies the XML file containing the parameters.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withSetParametersXmlFile(String fileUri)
     parameters:
@@ -182,10 +164,7 @@ references:
   nameWithType: Executable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support execute operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support execute operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Executable<T> extends Indexable
     typeParameters:
@@ -199,7 +178,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted
   type: Interface
-  summary: <p>A web deployment definition stage allowing specifying whether to delete existing deployments. </p>
+  summary: "<p>A web deployment definition stage allowing specifying whether to delete existing deployments. </p>"
   syntax:
     content: public interface WithExistingDeploymentsDeleted
 - uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithAddOnPackage
@@ -209,7 +188,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithAddOnPackage
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithAddOnPackage
   type: Interface
-  summary: <p>A web deployment definition stage allowing adding more packages. </p>
+  summary: "<p>A web deployment definition stage allowing adding more packages. </p>"
   syntax:
     content: public interface WithAddOnPackage
 - uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters
@@ -219,7 +198,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithSetParameters
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters
   type: Interface
-  summary: <p>A web deployment definition stage allowing specifying parameters. </p>
+  summary: "<p>A web deployment definition stage allowing specifying parameters. </p>"
   syntax:
     content: public interface WithSetParameters
 - uid: com.microsoft.azure.management.appservice.WebDeployment.Definition
@@ -229,6 +208,6 @@ references:
   nameWithType: WebDeployment.Definition
   fullName: com.microsoft.azure.management.appservice.WebDeployment.Definition
   type: Interface
-  summary: <p>The entirety of web deployment parameters definition. </p>
+  summary: "<p>The entirety of web deployment parameters definition. </p>"
   syntax:
     content: public interface Definition extends WebDeployment.DefinitionStages.WithPackageUri,WebDeployment.DefinitionStages.WithExecute

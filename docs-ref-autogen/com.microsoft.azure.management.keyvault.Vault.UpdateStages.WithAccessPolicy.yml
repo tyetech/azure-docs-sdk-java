@@ -172,7 +172,7 @@ references:
   nameWithType: Vault.Update
   fullName: com.microsoft.azure.management.keyvault.Vault.Update
   type: Interface
-  summary: <p>The template for a key vault update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a key vault update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Resource.UpdateWithTags<Update>,Appliable<Vault>,Vault.UpdateStages.WithAccessPolicy,Vault.UpdateStages.WithConfigurations
 - uid: com.microsoft.azure.management.keyvault.AccessPolicy
@@ -182,6 +182,6 @@ references:
   nameWithType: AccessPolicy
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy
   type: Interface
-  summary: <p>An immutable client-side representation of a key vault access policy. </p>
+  summary: "<p>An immutable client-side representation of a key vault access policy. </p>"
   syntax:
     content: public interface AccessPolicy extends ChildResource<Vault>,HasInner<AccessPolicyEntry>

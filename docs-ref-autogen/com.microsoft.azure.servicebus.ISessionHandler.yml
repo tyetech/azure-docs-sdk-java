@@ -137,14 +137,7 @@ references:
   nameWithType: IMessageSession
   fullName: com.microsoft.azure.servicebus.IMessageSession
   type: Interface
-  summary: >-
-    <p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>
-
-    <p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>
-
-    <p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid="" data-throw-if-not-resolved="false">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>
-
-    <p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>
+  summary: "<p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>\r\n<p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>\r\n<p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>\r\n<p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>"
   syntax:
     content: public interface IMessageSession extends IMessageReceiver
 - uid: com.microsoft.azure.servicebus.IMessage
@@ -154,10 +147,7 @@ references:
   nameWithType: IMessage
   fullName: com.microsoft.azure.servicebus.IMessage
   type: Interface
-  summary: >-
-    <p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>
-
-    <p></p>
+  summary: "<p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessage
 - uid: com.microsoft.azure.servicebus.Message
@@ -185,10 +175,7 @@ references:
   nameWithType: ExceptionPhase
   fullName: com.microsoft.azure.servicebus.ExceptionPhase
   type: Enum
-  summary: >-
-    <p>Enumeration to represent the phase in a message pump or session pump at which an exception occurred.</p>
-
-    <p></p>
+  summary: "<p>Enumeration to represent the phase in a message pump or session pump at which an exception occurred.</p>\r\n<p></p>"
   syntax:
     content: public enum ExceptionPhase
 - uid: com.microsoft.azure.servicebus.QueueClient

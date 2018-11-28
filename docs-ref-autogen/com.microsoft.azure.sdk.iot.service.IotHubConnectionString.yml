@@ -1317,10 +1317,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.createConnectionString(String connectionString)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.createConnectionString(String connectionString)
   type: Method
-  summary: >-
-    <p>Static constructor to create IotHubConnectionString deserialize the given string</p>
-
-    <p></p>
+  summary: "<p>Static constructor to create IotHubConnectionString deserialize the given string</p>\r\n<p></p>"
   syntax:
     content: public static IotHubConnectionString createConnectionString(String connectionString)
     parameters:
@@ -1337,10 +1334,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.createConnectionString(String hostName, AuthenticationMethod authenticationMethod)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.createConnectionString(String hostName, AuthenticationMethod authenticationMethod)
   type: Method
-  summary: >-
-    <p>Static constructor to create IotHubConnectionString from host name and authentication method</p>
-
-    <p></p>
+  summary: "<p>Static constructor to create IotHubConnectionString from host name and authentication method</p>\r\n<p></p>"
   syntax:
     content: public static IotHubConnectionString createConnectionString(String hostName, AuthenticationMethod authenticationMethod)
     parameters:
@@ -1360,10 +1354,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.parse(String connectionString, IotHubConnectionString iotHubConnectionString)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.parse(String connectionString, IotHubConnectionString iotHubConnectionString)
   type: Method
-  summary: >-
-    <p>Deserialize connection string</p>
-
-    <p></p>
+  summary: "<p>Deserialize connection string</p>\r\n<p></p>"
   syntax:
     content: protected static void parse(String connectionString, IotHubConnectionString iotHubConnectionString)
     parameters:
@@ -1380,10 +1371,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.parseIotHubName(IotHubConnectionString iotHubConnectionString)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.parseIotHubName(IotHubConnectionString iotHubConnectionString)
   type: Method
-  summary: >-
-    <p>Parse the iot hub name part from the host name</p>
-
-    <p></p>
+  summary: "<p>Parse the iot hub name part from the host name</p>\r\n<p></p>"
   syntax:
     content: protected static String parseIotHubName(IotHubConnectionString iotHubConnectionString)
     parameters:
@@ -1400,10 +1388,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.setAuthenticationMethod(AuthenticationMethod authenticationMethod, IotHubConnectionString iotHubConnectionString)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.setAuthenticationMethod(AuthenticationMethod authenticationMethod, IotHubConnectionString iotHubConnectionString)
   type: Method
-  summary: >-
-    <p>Set authentication method to target IotHubConnectionString object</p>
-
-    <p></p>
+  summary: "<p>Set authentication method to target IotHubConnectionString object</p>\r\n<p></p>"
   syntax:
     content: protected static void setAuthenticationMethod(AuthenticationMethod authenticationMethod, IotHubConnectionString iotHubConnectionString)
     parameters:
@@ -1420,10 +1405,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.setHostName(String hostName, IotHubConnectionString iotHubConnectionString)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.setHostName(String hostName, IotHubConnectionString iotHubConnectionString)
   type: Method
-  summary: >-
-    <p>Set host name value to target IotHubConnectionString object</p>
-
-    <p></p>
+  summary: "<p>Set host name value to target IotHubConnectionString object</p>\r\n<p></p>"
   syntax:
     content: protected static void setHostName(String hostName, IotHubConnectionString iotHubConnectionString)
     parameters:
@@ -1440,10 +1422,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.validate(IotHubConnectionString iotHubConnectionString)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.validate(IotHubConnectionString iotHubConnectionString)
   type: Method
-  summary: >-
-    <p>Validate IotHubConnectionString format</p>
-
-    <p></p>
+  summary: "<p>Validate IotHubConnectionString format</p>\r\n<p></p>"
   syntax:
     content: protected static void validate(IotHubConnectionString iotHubConnectionString)
     parameters:
@@ -1457,10 +1436,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.validateFormat(String value, String propertyName, String regex)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.validateFormat(String value, String propertyName, String regex)
   type: Method
-  summary: >-
-    <p>Validate string property using given regex</p>
-
-    <p></p>
+  summary: "<p>Validate string property using given regex</p>\r\n<p></p>"
   syntax:
     content: protected static void validateFormat(String value, String propertyName, String regex)
     parameters:
@@ -1480,10 +1456,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder.validateFormatIfSpecified(String value, String propertyName, String regex)
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder.validateFormatIfSpecified(String value, String propertyName, String regex)
   type: Method
-  summary: >-
-    <p>Validate string property using given regex if value is not null or empty</p>
-
-    <p></p>
+  summary: "<p>Validate string property using given regex if value is not null or empty</p>\r\n<p></p>"
   syntax:
     content: protected static void validateFormatIfSpecified(String value, String propertyName, String regex)
     parameters:
@@ -1503,7 +1476,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder
   type: Class
-  summary: <p>Provide static constructors to create IotHubConnectionString object </p>
+  summary: "<p>Provide static constructors to create IotHubConnectionString object </p>"
   syntax:
     content: public class IotHubConnectionStringBuilder
 - uid: com.microsoft.azure.sdk.iot.service.AuthenticationMethod
@@ -1513,6 +1486,6 @@ references:
   nameWithType: AuthenticationMethod
   fullName: com.microsoft.azure.sdk.iot.service.AuthenticationMethod
   type: Class
-  summary: <p>Class used to abstract the different authentication methods used to use IoT Hub SDK. </p>
+  summary: "<p>Class used to abstract the different authentication methods used to use IoT Hub SDK. </p>"
   syntax:
     content: public class AuthenticationMethod

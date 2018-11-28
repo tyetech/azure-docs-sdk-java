@@ -166,7 +166,7 @@ references:
   nameWithType: AmqpsProvisioningSaslHandler
   fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandler
   type: Class
-  summary: <p>Implementation of a SaslHandler that is designed to handle Sasl negotiation using TPM authentication against the Device Provisioning Service </p>
+  summary: "<p>Implementation of a SaslHandler that is designed to handle Sasl negotiation using TPM authentication against the Device Provisioning Service </p>"
   syntax:
     content: public class AmqpsProvisioningSaslHandler implements SaslHandler
 - uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandler.chooseSaslMechanism(String [])
@@ -176,7 +176,7 @@ references:
   nameWithType: AmqpsProvisioningSaslHandler.chooseSaslMechanism(String[] mechanisms)
   fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandler.chooseSaslMechanism(String[] mechanisms)
   type: Method
-  summary: <p>Checks to ensure that TPM is an available mechanism and chooses it </p>
+  summary: "<p>Checks to ensure that TPM is an available mechanism and chooses it </p>"
   syntax:
     content: public String chooseSaslMechanism(String[] mechanisms)
     parameters:
@@ -193,7 +193,7 @@ references:
   nameWithType: AmqpsProvisioningSaslHandler.getInitPayload(String chosenMechanism)
   fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandler.getInitPayload(String chosenMechanism)
   type: Method
-  summary: <p>Builds the init payload out of the saved idScope, registrationId, and endorsementKey </p>
+  summary: "<p>Builds the init payload out of the saved idScope, registrationId, and endorsementKey </p>"
   syntax:
     content: public byte [] getInitPayload(String chosenMechanism)
     parameters:
@@ -210,7 +210,7 @@ references:
   nameWithType: AmqpsProvisioningSaslHandler.handleChallenge(byte[] saslChallenge)
   fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandler.handleChallenge(byte[] saslChallenge)
   type: Method
-  summary: <p>Handles the three expected challenges from the service that happen in Sasl negotiation </p>
+  summary: "<p>Handles the three expected challenges from the service that happen in Sasl negotiation </p>"
   syntax:
     content: public byte [] handleChallenge(byte[] saslChallenge)
     parameters:
@@ -227,7 +227,7 @@ references:
   nameWithType: AmqpsProvisioningSaslHandler.handleOutcome(SaslOutcome outcome)
   fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandler.handleOutcome(SaslOutcome outcome)
   type: Method
-  summary: <p>Handles the outcome of the Sasl negotiation </p>
+  summary: "<p>Handles the outcome of the Sasl negotiation </p>"
   syntax:
     content: public void handleOutcome(SaslOutcome outcome)
     parameters:
@@ -241,6 +241,6 @@ references:
   nameWithType: SaslHandler.SaslOutcome
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.SaslHandler.SaslOutcome
   type: Enum
-  summary: <p>Possible outcomes of Sasl negotiation as per AMQP 1.0 </p>
+  summary: "<p>Possible outcomes of Sasl negotiation as per AMQP 1.0 </p>"
   syntax:
     content: public enum SaslOutcome

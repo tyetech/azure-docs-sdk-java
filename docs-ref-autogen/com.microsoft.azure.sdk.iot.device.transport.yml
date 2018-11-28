@@ -39,7 +39,7 @@ references:
   nameWithType: com.microsoft.azure.sdk.iot.device.transport.amqps
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps
   type: Namespace
-  summary: <p>AMQPS IoT Hub transport and communication classes. </p>
+  summary: "<p>AMQPS IoT Hub transport and communication classes. </p>"
   syntax:
     content: package com.microsoft.azure.sdk.iot.device.transport.amqps
 - uid: com.microsoft.azure.sdk.iot.device.transport.https
@@ -48,7 +48,7 @@ references:
   nameWithType: com.microsoft.azure.sdk.iot.device.transport.https
   fullName: com.microsoft.azure.sdk.iot.device.transport.https
   type: Namespace
-  summary: <p>HTTPS IoT Hub transport and communication classes. </p>
+  summary: "<p>HTTPS IoT Hub transport and communication classes. </p>"
   syntax:
     content: package com.microsoft.azure.sdk.iot.device.transport.https
 - uid: com.microsoft.azure.sdk.iot.device.transport.mqtt
@@ -66,7 +66,7 @@ references:
   nameWithType: ExponentialBackoffWithJitter
   fullName: com.microsoft.azure.sdk.iot.device.transport.ExponentialBackoffWithJitter
   type: Class
-  summary: <p>Represents a retry policy that performs exponential backoff with jitter retries. </p>
+  summary: "<p>Represents a retry policy that performs exponential backoff with jitter retries. </p>"
   syntax:
     content: public class ExponentialBackoffWithJitter implements RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus
@@ -85,7 +85,7 @@ references:
   nameWithType: IotHubListener
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubListener
   type: Interface
-  summary: <p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>
+  summary: "<p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>"
   syntax:
     content: public interface IotHubListener
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubReceiveTask
@@ -95,7 +95,7 @@ references:
   nameWithType: IotHubReceiveTask
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubReceiveTask
   type: Class
-  summary: <p>Polls an IoT Hub for messages and invokes a callback if one is found. Meant to be used with an executor that continuously calls run(). </p>
+  summary: "<p>Polls an IoT Hub for messages and invokes a callback if one is found. Meant to be used with an executor that continuously calls run(). </p>"
   syntax:
     content: public class IotHubReceiveTask
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubSendTask
@@ -105,7 +105,7 @@ references:
   nameWithType: IotHubSendTask
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubSendTask
   type: Class
-  summary: <p>Sends batched messages and invokes callbacks on completed requests. Meant to be used with an executor that continuously calls run(). </p>
+  summary: "<p>Sends batched messages and invokes callbacks on completed requests. Meant to be used with an executor that continuously calls run(). </p>"
   syntax:
     content: public class IotHubSendTask
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport
@@ -115,7 +115,7 @@ references:
   nameWithType: IotHubTransport
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport
   type: Class
-  summary: <p>Manages queueing of message sending, receiving and callbacks. Manages notifying users of connection status change updates </p>
+  summary: "<p>Manages queueing of message sending, receiving and callbacks. Manages notifying users of connection status change updates </p>"
   syntax:
     content: public class IotHubTransport implements IotHubListener
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection
@@ -125,7 +125,7 @@ references:
   nameWithType: IotHubTransportConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection
   type: Interface
-  summary: <p>Interface of what all a Transport Connection object must do. Serves to decouple the Message Queueing of the Transport layer from the protocol specific details of the Connection layer. </p>
+  summary: "<p>Interface of what all a Transport Connection object must do. Serves to decouple the Message Queueing of the Transport layer from the protocol specific details of the Connection layer. </p>"
   syntax:
     content: public interface IotHubTransportConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager
@@ -135,7 +135,7 @@ references:
   nameWithType: IotHubTransportManager
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager
   type: Interface
-  summary: <p>An interface for an simple and synchronous IoT Hub transport. </p>
+  summary: "<p>An interface for an simple and synchronous IoT Hub transport. </p>"
   syntax:
     content: public interface IotHubTransportManager
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage
@@ -145,7 +145,7 @@ references:
   nameWithType: IotHubTransportMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage
   type: Class
-  summary: <p>Extends Message, adding transport artifacts. </p>
+  summary: "<p>Extends Message, adding transport artifacts. </p>"
   syntax:
     content: public class IotHubTransportMessage extends Message
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportPacket
@@ -155,7 +155,7 @@ references:
   nameWithType: IotHubTransportPacket
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportPacket
   type: Class
-  summary: <p>A packet containing the data needed for an IoT Hub transport to send a message. </p>
+  summary: "<p>A packet containing the data needed for an IoT Hub transport to send a message. </p>"
   syntax:
     content: public class IotHubTransportPacket
 - uid: com.microsoft.azure.sdk.iot.device.transport.NoRetry
@@ -165,7 +165,7 @@ references:
   nameWithType: NoRetry
   fullName: com.microsoft.azure.sdk.iot.device.transport.NoRetry
   type: Class
-  summary: <p>Represents a retry policy that performs no retries. </p>
+  summary: "<p>Represents a retry policy that performs no retries. </p>"
   syntax:
     content: public class NoRetry implements RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.transport.RetryDecision
@@ -175,7 +175,7 @@ references:
   nameWithType: RetryDecision
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryDecision
   type: Class
-  summary: <p>Represents the retry details </p>
+  summary: "<p>Represents the retry details </p>"
   syntax:
     content: public class RetryDecision
 - uid: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
@@ -185,7 +185,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
   type: Interface
-  summary: <p>An interface for the retry policy. </p>
+  summary: "<p>An interface for the retry policy. </p>"
   syntax:
     content: public interface RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.transport.TransportUtils
@@ -204,6 +204,6 @@ references:
   nameWithType: IotHubTransport.MessageRetryRunnable
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.MessageRetryRunnable
   type: Class
-  summary: <p>Task for adding a packet back to the waiting queue. Used for delaying message retry </p>
+  summary: "<p>Task for adding a packet back to the waiting queue. Used for delaying message retry </p>"
   syntax:
     content: public class MessageRetryRunnable

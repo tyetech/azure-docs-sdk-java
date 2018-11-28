@@ -36,10 +36,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public OperationStatus execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<OperationStatus> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithAppId.withAppId(UUID appId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithAppId.withAppId(UUID appId)
   type: Method
-  summary: >-
-    <p>The application ID.</p>
-
-    <p></p>
+  summary: "<p>The application ID.</p>\r\n<p></p>"
   syntax:
     content: public WithVersionId withAppId(UUID appId)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithClEntityId.withClEntityId(UUID clEntityId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithClEntityId.withClEntityId(UUID clEntityId)
   type: Method
-  summary: >-
-    <p>The closed list model ID.</p>
-
-    <p></p>
+  summary: "<p>The closed list model ID.</p>\r\n<p></p>"
   syntax:
     content: public ModelsPatchClosedListDefinitionStages.WithExecute withClEntityId(UUID clEntityId)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithAllOptions.withSubLists(List<WordListObject> subLists)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithAllOptions.withSubLists(List<WordListObject> subLists)
   type: Method
-  summary: >-
-    <p>Sublists to add.</p>
-
-    <p></p>
+  summary: "<p>Sublists to add.</p>\r\n<p></p>"
   syntax:
     content: public ModelsPatchClosedListDefinitionStages.WithExecute withSubLists(List<WordListObject> subLists)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithVersionId.withVersionId(String versionId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithVersionId.withVersionId(String versionId)
   type: Method
-  summary: >-
-    <p>The version ID.</p>
-
-    <p></p>
+  summary: "<p>The version ID.</p>\r\n<p></p>"
   syntax:
     content: public WithClEntityId withVersionId(String versionId)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithAppId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithAppId
   type: Interface
-  summary: <p>The stage of the definition to be specify appId. </p>
+  summary: "<p>The stage of the definition to be specify appId. </p>"
   syntax:
     content: public interface WithAppId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithVersionId
@@ -154,7 +136,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithVersionId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithVersionId
   type: Interface
-  summary: <p>The stage of the definition to be specify versionId. </p>
+  summary: "<p>The stage of the definition to be specify versionId. </p>"
   syntax:
     content: public interface WithVersionId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithClEntityId
@@ -164,7 +146,7 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithClEntityId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithClEntityId
   type: Interface
-  summary: <p>The stage of the definition to be specify clEntityId. </p>
+  summary: "<p>The stage of the definition to be specify clEntityId. </p>"
   syntax:
     content: public interface WithClEntityId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithExecute
@@ -174,6 +156,6 @@ references:
   nameWithType: Models.ModelsPatchClosedListDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsPatchClosedListDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

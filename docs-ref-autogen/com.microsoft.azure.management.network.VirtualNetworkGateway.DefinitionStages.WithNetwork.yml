@@ -173,7 +173,7 @@ references:
   nameWithType: VirtualNetworkGateway.Definition
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.Definition
   type: Interface
-  summary: <p>The entirety of the virtual network gateway definition. </p>
+  summary: "<p>The entirety of the virtual network gateway definition. </p>"
   syntax:
     content: public interface Definition extends VirtualNetworkGateway.DefinitionStages.Blank,VirtualNetworkGateway.DefinitionStages.WithGroup,VirtualNetworkGateway.DefinitionStages.WithGatewayType,VirtualNetworkGateway.DefinitionStages.WithSku,VirtualNetworkGateway.DefinitionStages.WithNetwork,VirtualNetworkGateway.DefinitionStages.WithBgp,VirtualNetworkGateway.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType
@@ -183,7 +183,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithGatewayType
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType
   type: Interface
-  summary: <p>The stage of virtual network gateway definition allowing to specify virtual network gateway type. </p>
+  summary: "<p>The stage of virtual network gateway definition allowing to specify virtual network gateway type. </p>"
   syntax:
     content: public interface WithGatewayType
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -193,10 +193,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -210,6 +207,6 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>

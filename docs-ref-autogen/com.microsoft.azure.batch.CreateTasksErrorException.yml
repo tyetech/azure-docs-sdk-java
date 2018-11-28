@@ -151,10 +151,7 @@ references:
   nameWithType: BatchErrorException.BatchErrorException(final String message, final Response<ResponseBody> response)
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException.BatchErrorException(final String message, final Response<ResponseBody> response)
   type: Constructor
-  summary: >-
-    <p>Initializes a new instance of the BatchErrorException class.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of the BatchErrorException class.</p>\r\n<p></p>"
   syntax:
     content: public BatchErrorException(final String message, final Response<ResponseBody> response)
     parameters:
@@ -171,10 +168,7 @@ references:
   nameWithType: BatchErrorException.BatchErrorException(final String message, final Response<ResponseBody> response, final BatchError body)
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException.BatchErrorException(final String message, final Response<ResponseBody> response, final BatchError body)
   type: Constructor
-  summary: >-
-    <p>Initializes a new instance of the BatchErrorException class.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of the BatchErrorException class.</p>\r\n<p></p>"
   syntax:
     content: public BatchErrorException(final String message, final Response<ResponseBody> response, final BatchError body)
     parameters:
@@ -205,7 +199,7 @@ references:
   nameWithType: BatchErrorException
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException
   type: Class
-  summary: <p>Exception thrown for an invalid response with BatchError information. </p>
+  summary: "<p>Exception thrown for an invalid response with BatchError information. </p>"
   syntax:
     content: public class BatchErrorException
 - uid: com.microsoft.azure.batch.protocol.models.TaskAddResult
@@ -215,7 +209,7 @@ references:
   nameWithType: TaskAddResult
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddResult
   type: Class
-  summary: <p>Result for a single task added as part of an add task collection operation. </p>
+  summary: "<p>Result for a single task added as part of an add task collection operation. </p>"
   syntax:
     content: public class TaskAddResult
 - uid: com.microsoft.azure.batch.protocol.models.TaskAddParameter
@@ -225,6 +219,6 @@ references:
   nameWithType: TaskAddParameter
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddParameter
   type: Class
-  summary: <p>An Azure Batch task to add. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>An Azure Batch task to add. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class TaskAddParameter

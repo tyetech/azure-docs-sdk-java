@@ -46,10 +46,7 @@ references:
   nameWithType: SupportsDeletingByName.deleteByName(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByName(String name)
   type: Method
-  summary: >-
-    <p>Deletes a resource from Azure, identifying it by its resource name.</p>
-
-    <p></p>
+  summary: "<p>Deletes a resource from Azure, identifying it by its resource name.</p>\r\n<p></p>"
   syntax:
     content: public void deleteByName(String name)
     parameters:
@@ -63,10 +60,7 @@ references:
   nameWithType: SupportsDeletingByName.deleteByNameAsync(String name, ServiceCallback<Void> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByNameAsync(String name, ServiceCallback<Void> callback)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<Void> deleteByNameAsync(String name, ServiceCallback<Void> callback)
     parameters:
@@ -86,10 +80,7 @@ references:
   nameWithType: SupportsDeletingByName.deleteByNameAsync(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByNameAsync(String name)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource name.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteByNameAsync(String name)
     parameters:
@@ -106,10 +97,7 @@ references:
   nameWithType: SupportsGettingByName<T>.getByName(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByName<T>.getByName(String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource name within the current resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource name within the current resource group.</p>\r\n<p></p>"
   syntax:
     content: public T getByName(String name)
     parameters:
@@ -126,10 +114,7 @@ references:
   nameWithType: SupportsGettingByNameAsync<T>.getByNameAsync(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync<T>.getByNameAsync(String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource based on the resource name.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource based on the resource name.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getByNameAsync(String name)
     parameters:
@@ -146,10 +131,7 @@ references:
   nameWithType: SupportsListing<T>.list()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.list()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<T> list()
     return:
@@ -162,10 +144,7 @@ references:
   nameWithType: SupportsListing<T>.listAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listAsync()
     return:
@@ -190,12 +169,7 @@ references:
   nameWithType: SupportsListing<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>
   type: Interface
-  summary: >-
-    <p>Provides access to listing Azure resources of a specific type in a subscription. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code)</p>
-
-    <p></p>
+  summary: "<p>Provides access to listing Azure resources of a specific type in a subscription. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code)</p>\r\n<p></p>"
   syntax:
     content: public interface SupportsListing<T>
     typeParameters:
@@ -209,10 +183,7 @@ references:
   nameWithType: SupportsGettingByNameAsync<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync<T>
   type: Interface
-  summary: >-
-    <p>Provides access to getting a specific resource based on its name. </p>
-
-    <p>(Note this interface is not intended to be implemented by user code.) </p>
+  summary: "<p>Provides access to getting a specific resource based on its name. </p>\r\n<p>(Note this interface is not intended to be implemented by user code.) </p>"
   syntax:
     content: public interface SupportsGettingByNameAsync<T>
     typeParameters:
@@ -226,10 +197,7 @@ references:
   nameWithType: SupportsDeletingByName
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName
   type: Interface
-  summary: >-
-    <p>Provides access to deleting a resource from Azure, identifying it by its resource name. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code) </p>
+  summary: "<p>Provides access to deleting a resource from Azure, identifying it by its resource name. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code) </p>"
   syntax:
     content: public interface SupportsDeletingByName
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager
@@ -239,7 +207,7 @@ references:
   nameWithType: HasManager<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager<ManagerT>
   type: Interface
-  summary: <p>An interface representing a model that exposes a management client. </p>
+  summary: "<p>An interface representing a model that exposes a management client. </p>"
   syntax:
     content: public interface HasManager<ManagerT>
     typeParameters:

@@ -38,10 +38,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -70,10 +64,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -102,10 +93,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDescription.withDescription(String description)
   type: Method
-  summary: >-
-    <p>Specifies the description of the policy.</p>
-
-    <p></p>
+  summary: "<p>Specifies the description of the policy.</p>\r\n<p></p>"
   syntax:
     content: public Update withDescription(String description)
     parameters:
@@ -122,10 +110,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithDisplayName.withDisplayName(String displayName)
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDisplayName.withDisplayName(String displayName)
   type: Method
-  summary: >-
-    <p>Specifies the display name of the policy.</p>
-
-    <p></p>
+  summary: "<p>Specifies the display name of the policy.</p>\r\n<p></p>"
   syntax:
     content: public Update withDisplayName(String displayName)
     parameters:
@@ -142,10 +127,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithPolicyRule.withPolicyRule(Object policyRule)
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyRule.withPolicyRule(Object policyRule)
   type: Method
-  summary: >-
-    <p>Specifies the rule of the policy.</p>
-
-    <p></p>
+  summary: "<p>Specifies the rule of the policy.</p>\r\n<p></p>"
   syntax:
     content: public Update withPolicyRule(Object policyRule)
     parameters:
@@ -162,10 +144,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithPolicyType.withPolicyType(PolicyType policyType)
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyType.withPolicyType(PolicyType policyType)
   type: Method
-  summary: >-
-    <p>Specifies the type of the policy. The default value is 'NotSpecified'.</p>
-
-    <p></p>
+  summary: "<p>Specifies the type of the policy. The default value is 'NotSpecified'.</p>\r\n<p></p>"
   syntax:
     content: public Update withPolicyType(PolicyType policyType)
     parameters:
@@ -182,10 +161,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -199,7 +175,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithDescription
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDescription
   type: Interface
-  summary: <p>A policy definition allowing the policy description to be set. </p>
+  summary: "<p>A policy definition allowing the policy description to be set. </p>"
   syntax:
     content: public interface WithDescription
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDisplayName
@@ -209,7 +185,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithDisplayName
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDisplayName
   type: Interface
-  summary: <p>A policy definition allowing the display name to be set. </p>
+  summary: "<p>A policy definition allowing the display name to be set. </p>"
   syntax:
     content: public interface WithDisplayName
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyRule
@@ -219,7 +195,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithPolicyRule
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyRule
   type: Interface
-  summary: <p>A policy definition allowing the policy rule to be set. </p>
+  summary: "<p>A policy definition allowing the policy rule to be set. </p>"
   syntax:
     content: public interface WithPolicyRule
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyType
@@ -229,6 +205,6 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithPolicyType
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyType
   type: Interface
-  summary: <p>A policy definition allowing the policy type to be set. </p>
+  summary: "<p>A policy definition allowing the policy type to be set. </p>"
   syntax:
     content: public interface WithPolicyType

@@ -36,10 +36,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public OperationStatus execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<OperationStatus> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithAppId.withAppId(UUID appId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithAppId.withAppId(UUID appId)
   type: Method
-  summary: >-
-    <p>The application ID.</p>
-
-    <p></p>
+  summary: "<p>The application ID.</p>\r\n<p></p>"
   syntax:
     content: public WithVersionId withAppId(UUID appId)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithPhraselistId.withPhraselistId(int phraselistId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithPhraselistId.withPhraselistId(int phraselistId)
   type: Method
-  summary: >-
-    <p>The ID of the feature to be updated.</p>
-
-    <p></p>
+  summary: "<p>The ID of the feature to be updated.</p>\r\n<p></p>"
   syntax:
     content: public FeaturesUpdatePhraseListDefinitionStages.WithExecute withPhraselistId(int phraselistId)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithAllOptions.withPhraselistUpdateObject(PhraselistUpdateObject phraselistUpdateObject)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithAllOptions.withPhraselistUpdateObject(PhraselistUpdateObject phraselistUpdateObject)
   type: Method
-  summary: >-
-    <p>The new values for: - Just a boolean called IsActive, in which case the status of the feature will be changed. - Name, Pattern, Mode, and a boolean called IsActive to update the feature.</p>
-
-    <p></p>
+  summary: "<p>The new values for: - Just a boolean called IsActive, in which case the status of the feature will be changed. - Name, Pattern, Mode, and a boolean called IsActive to update the feature.</p>\r\n<p></p>"
   syntax:
     content: public FeaturesUpdatePhraseListDefinitionStages.WithExecute withPhraselistUpdateObject(PhraselistUpdateObject phraselistUpdateObject)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithVersionId.withVersionId(String versionId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithVersionId.withVersionId(String versionId)
   type: Method
-  summary: >-
-    <p>The version ID.</p>
-
-    <p></p>
+  summary: "<p>The version ID.</p>\r\n<p></p>"
   syntax:
     content: public WithPhraselistId withVersionId(String versionId)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithAppId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithAppId
   type: Interface
-  summary: <p>The stage of the definition to be specify appId. </p>
+  summary: "<p>The stage of the definition to be specify appId. </p>"
   syntax:
     content: public interface WithAppId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithVersionId
@@ -154,7 +136,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithVersionId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithVersionId
   type: Interface
-  summary: <p>The stage of the definition to be specify versionId. </p>
+  summary: "<p>The stage of the definition to be specify versionId. </p>"
   syntax:
     content: public interface WithVersionId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithPhraselistId
@@ -164,7 +146,7 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithPhraselistId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithPhraselistId
   type: Interface
-  summary: <p>The stage of the definition to be specify phraselistId. </p>
+  summary: "<p>The stage of the definition to be specify phraselistId. </p>"
   syntax:
     content: public interface WithPhraselistId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithExecute
@@ -174,6 +156,6 @@ references:
   nameWithType: Features.FeaturesUpdatePhraseListDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesUpdatePhraseListDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

@@ -1208,7 +1208,7 @@ references:
   nameWithType: HttpStatusType.custom(final int code)
   fullName: com.microsoft.azure.functions.HttpStatusType.custom(final int code)
   type: Method
-  summary: <p>Creates a custom (non-standard) HTTP Status code. </p>
+  summary: "<p>Creates a custom (non-standard) HTTP Status code. </p>"
   syntax:
     content: public static HttpStatusType custom(final int code)
     parameters:
@@ -1225,10 +1225,7 @@ references:
   nameWithType: HttpStatusType
   fullName: com.microsoft.azure.functions.HttpStatusType
   type: Interface
-  summary: >-
-    <p>Defines an HTTP Status Type</p>
-
-    <p></p>
+  summary: "<p>Defines an HTTP Status Type</p>\r\n<p></p>"
   syntax:
     content: public interface HttpStatusType
 - uid: com.microsoft.azure.functions.HttpStatusType.value()
@@ -1249,10 +1246,5 @@ references:
   nameWithType: HttpStatus
   fullName: com.microsoft.azure.functions.HttpStatus
   type: Enum
-  summary: >-
-    <p>Enum to represent HTTP Status codes.</p>
-
-    <p>This enum lists all standard HTTP 1.1 status lines. For custom codes, please refer to <xref uid="com.microsoft.azure.functions.HttpStatusType.custom(final int)" data-throw-if-not-resolved="false">HttpStatusType#custom(int)</xref>.</p>
-
-    <p></p>
+  summary: "<p>Enum to represent HTTP Status codes.</p>\r\n<p>This enum lists all standard HTTP 1.1 status lines. For custom codes, please refer to <xref uid=\"com.microsoft.azure.functions.HttpStatusType.custom(final int)\" data-throw-if-not-resolved=\"false\">HttpStatusType#custom(int)</xref>.</p>\r\n<p></p>"
   syntax: *o1

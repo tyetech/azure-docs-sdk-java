@@ -109,10 +109,7 @@ references:
   nameWithType: Subnet.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the subnet definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the subnet definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdate,Subnet.UpdateDefinitionStages.WithNetworkSecurityGroup<ParentT>,Subnet.UpdateDefinitionStages.WithRouteTable<ParentT>
     typeParameters:
@@ -126,6 +123,6 @@ references:
   nameWithType: RouteTable
   fullName: com.microsoft.azure.management.network.RouteTable
   type: Interface
-  summary: <p>Entry point for route table management. </p>
+  summary: "<p>Entry point for route table management. </p>"
   syntax:
     content: public interface RouteTable extends GroupableResource<NetworkManager, RouteTableInner>,Refreshable<RouteTable>,Updatable<RouteTable.Update>,HasAssociatedSubnets

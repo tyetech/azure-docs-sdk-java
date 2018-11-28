@@ -50,10 +50,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -66,10 +63,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -86,10 +80,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -102,10 +93,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of an agent pool profile to be attached to the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of an agent pool profile to be attached to the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterAgentPool.DefinitionStages.Blank<KubernetesCluster.DefinitionStages.WithCreate> defineAgentPool(String name)
     parameters:
@@ -122,10 +110,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithNetworkProfile.defineNetworkProfile()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithNetworkProfile.defineNetworkProfile()
   type: Method
-  summary: >-
-    <p>Begins the definition of a network profile to be attached to the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a network profile to be attached to the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public NetworkProfileDefinitionStages.Blank<KubernetesCluster.DefinitionStages.WithCreate> defineNetworkProfile()
     return:
@@ -162,10 +147,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   type: Method
-  summary: >-
-    <p>Updates the cluster's add-on's profiles.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's add-on's profiles.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
     parameters:
@@ -182,10 +164,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithDnsPrefix.withDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix.withDnsPrefix(String dnsPrefix)
   type: Method
-  summary: >-
-    <p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.DefinitionStages.WithCreate withDnsPrefix(String dnsPrefix)
     parameters:
@@ -202,10 +181,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion.withLatestVersion()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion.withLatestVersion()
   type: Method
-  summary: >-
-    <p>Uses the latest version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Uses the latest version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsername withLatestVersion()
     return:
@@ -218,7 +194,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -235,7 +211,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -252,10 +228,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   type: Method
-  summary: >-
-    <p>Begins the definition to specify Linux root username.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition to specify Linux root username.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxSshKey withRootUsername(String rootUserName)
     parameters:
@@ -272,10 +245,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalClientId.withServicePrincipalClientId(String clientId)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalClientId.withServicePrincipalClientId(String clientId)
   type: Method
-  summary: >-
-    <p>Properties for Kubernetes cluster service principal.</p>
-
-    <p></p>
+  summary: "<p>Properties for Kubernetes cluster service principal.</p>\r\n<p></p>"
   syntax:
     content: public WithServicePrincipalProfile withServicePrincipalClientId(String clientId)
     parameters:
@@ -292,10 +262,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalProfile.withServicePrincipalSecret(String secret)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile.withServicePrincipalSecret(String secret)
   type: Method
-  summary: >-
-    <p>Properties for service principal.</p>
-
-    <p></p>
+  summary: "<p>Properties for service principal.</p>\r\n<p></p>"
   syntax:
     content: public WithAgentPool withServicePrincipalSecret(String secret)
     parameters:
@@ -312,10 +279,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   type: Method
-  summary: >-
-    <p>Begins the definition to specify Linux ssh key.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition to specify Linux ssh key.</p>\r\n<p></p>"
   syntax:
     content: public WithServicePrincipalClientId withSshKey(String sshKeyData)
     parameters:
@@ -332,7 +296,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -352,7 +316,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -369,10 +333,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion.withVersion(KubernetesVersion kubernetesVersion)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion.withVersion(KubernetesVersion kubernetesVersion)
   type: Method
-  summary: >-
-    <p>Specifies the version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Specifies the version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsername withVersion(KubernetesVersion kubernetesVersion)
     parameters:
@@ -389,10 +350,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion.withVersion(String kubernetesVersion)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion.withVersion(String kubernetesVersion)
   type: Method
-  summary: >-
-    <p>Specifies the version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Specifies the version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsername withVersion(String kubernetesVersion)
     parameters:
@@ -409,7 +367,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a container service definition. </p>
+  summary: "<p>The first stage of a container service definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithGroup
@@ -419,7 +377,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion
@@ -429,7 +387,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify orchestration type. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify orchestration type. </p>"
   syntax:
     content: public interface WithVersion
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername
@@ -439,7 +397,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxRootUsername
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specific the Linux root username. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specific the Linux root username. </p>"
   syntax:
     content: public interface WithLinuxRootUsername
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
@@ -449,7 +407,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxSshKey
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specific the Linux SSH key. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specific the Linux SSH key. </p>"
   syntax:
     content: public interface WithLinuxSshKey
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalClientId
@@ -459,7 +417,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalClientId
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalClientId
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the service principal client ID. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the service principal client ID. </p>"
   syntax:
     content: public interface WithServicePrincipalClientId
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
@@ -469,7 +427,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the service principal secret. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the service principal secret. </p>"
   syntax:
     content: public interface WithServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix
@@ -479,7 +437,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithDnsPrefix
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the DNS prefix label. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the DNS prefix label. </p>"
   syntax:
     content: public interface WithDnsPrefix
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAgentPool
@@ -489,7 +447,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAgentPool
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAgentPool
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify an agent pool profile. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify an agent pool profile. </p>"
   syntax:
     content: public interface WithAgentPool
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithNetworkProfile
@@ -499,7 +457,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithNetworkProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify a network profile. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify a network profile. </p>"
   syntax:
     content: public interface WithNetworkProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
@@ -509,7 +467,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAddOnProfiles
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the cluster's add-on's profiles. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the cluster's add-on's profiles. </p>"
   syntax:
     content: public interface WithAddOnProfiles
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithCreate
@@ -519,7 +477,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
@@ -529,6 +487,6 @@ references:
   nameWithType: KubernetesClusterImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
   type: Class
-  summary: <p>The implementation for KubernetesCluster and its create and update interfaces. </p>
+  summary: "<p>The implementation for KubernetesCluster and its create and update interfaces. </p>"
   syntax:
     content: public class KubernetesClusterImpl

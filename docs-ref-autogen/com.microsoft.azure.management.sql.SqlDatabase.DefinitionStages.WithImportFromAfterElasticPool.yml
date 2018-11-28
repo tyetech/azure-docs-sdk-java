@@ -115,10 +115,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithExistingDatabaseAfterElasticPool<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithExistingDatabaseAfterElasticPool<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage to decide whether using existing database or not.</p>
-
-    <p></p>
+  summary: "<p>The stage to decide whether using existing database or not.</p>\r\n<p></p>"
   syntax:
     content: public interface WithExistingDatabaseAfterElasticPool<ParentT> extends SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>,SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>,SqlDatabase.DefinitionStages.WithSampleDatabaseAfterElasticPool<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT>
     typeParameters:
@@ -132,6 +129,6 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>

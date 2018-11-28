@@ -36,10 +36,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public PersistedFace execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PersistedFace> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId.withFaceListId(String faceListId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId.withFaceListId(String faceListId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular face list.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular face list.</p>\r\n<p></p>"
   syntax:
     content: public WithImage withFaceListId(String faceListId)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage.withImage(byte[] image)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage.withImage(byte[] image)
   type: Method
-  summary: >-
-    <p>An image stream.</p>
-
-    <p></p>
+  summary: "<p>An image stream.</p>\r\n<p></p>"
   syntax:
     content: public FaceListsAddFaceFromStreamDefinitionStages.WithExecute withImage(byte[] image)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithAllOptions.withTargetFace(List<Integer> targetFace)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithAllOptions.withTargetFace(List<Integer> targetFace)
   type: Method
-  summary: >-
-    <p>A face rectangle to specify the target face to be added to a person in the format of "targetFace=left,top,width,height". E.g. "targetFace=10,10,100,100". If there is more than one face in the image, targetFace is required to specify which face to add. No targetFace means there is only one face detected in the entire image.</p>
-
-    <p></p>
+  summary: "<p>A face rectangle to specify the target face to be added to a person in the format of \"targetFace=left,top,width,height\". E.g. \"targetFace=10,10,100,100\". If there is more than one face in the image, targetFace is required to specify which face to add. No targetFace means there is only one face detected in the entire image.</p>\r\n<p></p>"
   syntax:
     content: public FaceListsAddFaceFromStreamDefinitionStages.WithExecute withTargetFace(List<Integer> targetFace)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithAllOptions.withUserData(String userData)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithAllOptions.withUserData(String userData)
   type: Method
-  summary: >-
-    <p>User-specified data about the face for any purpose. The maximum length is 1KB.</p>
-
-    <p></p>
+  summary: "<p>User-specified data about the face for any purpose. The maximum length is 1KB.</p>\r\n<p></p>"
   syntax:
     content: public FaceListsAddFaceFromStreamDefinitionStages.WithExecute withUserData(String userData)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId
   type: Interface
-  summary: <p>The stage of the definition to be specify faceListId. </p>
+  summary: "<p>The stage of the definition to be specify faceListId. </p>"
   syntax:
     content: public interface WithFaceListId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage
@@ -154,7 +136,7 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage
   type: Interface
-  summary: <p>The stage of the definition to be specify image. </p>
+  summary: "<p>The stage of the definition to be specify image. </p>"
   syntax:
     content: public interface WithImage
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute
@@ -164,6 +146,6 @@ references:
   nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

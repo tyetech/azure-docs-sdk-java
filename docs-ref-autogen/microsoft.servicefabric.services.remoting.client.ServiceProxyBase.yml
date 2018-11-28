@@ -423,7 +423,7 @@ references:
   nameWithType: ProxyBase.continueWith(CompletableFuture<Object> future)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.continueWith(CompletableFuture<Object> future)
   type: Method
-  summary: <p>Called by the generated proxy class to continue after getting the response body that does not have value. </p>
+  summary: "<p>Called by the generated proxy class to continue after getting the response body that does not have value. </p>"
   syntax:
     content: protected CompletableFuture<?> continueWith(CompletableFuture<Object> future)
     parameters:
@@ -440,7 +440,7 @@ references:
   nameWithType: ProxyBase.getReturnValue(int interfaceId, int methodId, Object responseBody)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.getReturnValue(int interfaceId, int methodId, Object responseBody)
   type: Method
-  summary: <p>Implemented by the derived class to type cast the response body and extract the value from it. </p>
+  summary: "<p>Implemented by the derived class to type cast the response body and extract the value from it. </p>"
   syntax:
     content: protected abstract Object getReturnValue(int interfaceId, int methodId, Object responseBody)
     parameters:
@@ -463,7 +463,7 @@ references:
   nameWithType: ProxyBase.invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
   type: Method
-  summary: <p>Called by the generated proxy class to send the message to the remote object. </p>
+  summary: "<p>Called by the generated proxy class to send the message to the remote object. </p>"
   syntax:
     content: protected void invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
     parameters:
@@ -483,7 +483,7 @@ references:
   nameWithType: ProxyBase.invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>
+  summary: "<p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>"
   syntax:
     content: protected CompletableFuture<Object> invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
     parameters:
@@ -512,7 +512,7 @@ references:
   nameWithType: ProxyBase.ProxyBase()
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.ProxyBase()
   type: Constructor
-  summary: <p>Initializes a new instance of the ProxyBase class. </p>
+  summary: "<p>Initializes a new instance of the ProxyBase class. </p>"
   syntax:
     content: protected ProxyBase()
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyBase
@@ -522,7 +522,7 @@ references:
   nameWithType: ProxyBase
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase
   type: Class
-  summary: <p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>
+  summary: "<p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>"
   syntax:
     content: public class ProxyBase
 - uid: microsoft.servicefabric.services.remoting.client.ServiceProxy
@@ -532,7 +532,7 @@ references:
   nameWithType: ServiceProxy
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxy
   type: Interface
-  summary: <p>This is the base Client side interface for Remoting. The framework provides the Remoting infrastructure for all the service contracts inheriting from IService through ServiceRemotingListener and ServiceProxy. </p>
+  summary: "<p>This is the base Client side interface for Remoting. The framework provides the Remoting infrastructure for all the service contracts inheriting from IService through ServiceRemotingListener and ServiceProxy. </p>"
   syntax:
     content: public interface ServiceProxy
 - uid: microsoft.servicefabric.services.remoting.client.FabricServiceProxyFactory
@@ -542,7 +542,7 @@ references:
   nameWithType: FabricServiceProxyFactory
   fullName: microsoft.servicefabric.services.remoting.client.FabricServiceProxyFactory
   type: Class
-  summary: <p>Specifies the factory that creates proxies for remote communication to the specified service. </p>
+  summary: "<p>Specifies the factory that creates proxies for remote communication to the specified service. </p>"
   syntax:
     content: public class FabricServiceProxyFactory implements ServiceProxyFactory
 - uid: microsoft.servicefabric.services.remoting.client.FabricServiceRemotingPartitionClient
@@ -552,7 +552,7 @@ references:
   nameWithType: FabricServiceRemotingPartitionClient
   fullName: microsoft.servicefabric.services.remoting.client.FabricServiceRemotingPartitionClient
   type: Class
-  summary: <p>Specifies the Service partition client for Remoting communication </p>
+  summary: "<p>Specifies the Service partition client for Remoting communication </p>"
   syntax:
     content: public class FabricServiceRemotingPartitionClient extends FabricServicePartitionClient<ServiceRemotingClient> implements ServiceRemotingPartitionClient
 - uid: microsoft.servicefabric.services.remoting.builder.ServiceProxyGenerator
@@ -562,7 +562,7 @@ references:
   nameWithType: ServiceProxyGenerator
   fullName: microsoft.servicefabric.services.remoting.builder.ServiceProxyGenerator
   type: Class
-  summary: <p>Used in Service code builder to create service proxy base object. For internal use only. </p>
+  summary: "<p>Used in Service code builder to create service proxy base object. For internal use only. </p>"
   syntax:
     content: public class ServiceProxyGenerator
 - uid: microsoft.servicefabric.services.remoting.Service
@@ -572,7 +572,7 @@ references:
   nameWithType: Service
   fullName: microsoft.servicefabric.services.remoting.Service
   type: Interface
-  summary: <p>This is the marker interface for enabling interface Remoting for services. An <xref uid="microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>
+  summary: "<p>This is the marker interface for enabling interface Remoting for services. An <xref uid=\"microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>"
   syntax:
     content: public interface Service
 - uid: microsoft.servicefabric.services.client.ServicePartitionKey
@@ -582,7 +582,7 @@ references:
   nameWithType: ServicePartitionKey
   fullName: microsoft.servicefabric.services.client.ServicePartitionKey
   type: Class
-  summary: <p>Defines a key to address a service partition. </p>
+  summary: "<p>Defines a key to address a service partition. </p>"
   syntax:
     content: public class ServicePartitionKey
 - uid: microsoft.servicefabric.services.communication.client.TargetReplicaSelector
@@ -592,7 +592,7 @@ references:
   nameWithType: TargetReplicaSelector
   fullName: microsoft.servicefabric.services.communication.client.TargetReplicaSelector
   type: Enum
-  summary: <p>This enumeration specifies how the target replica or instance should be chosen when creating a communication channel for a particular partition. </p>
+  summary: "<p>This enumeration specifies how the target replica or instance should be chosen when creating a communication channel for a particular partition. </p>"
   syntax:
     content: public enum TargetReplicaSelector
 - uid: microsoft.servicefabric.services.remoting.client.ServiceProxy.getServiceInterfaceType()
@@ -602,10 +602,7 @@ references:
   nameWithType: ServiceProxy.getServiceInterfaceType()
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxy.getServiceInterfaceType()
   type: Method
-  summary: >-
-    <p>The interface type that is being remoted.</p>
-
-    <p></p>
+  summary: "<p>The interface type that is being remoted.</p>\r\n<p></p>"
   syntax:
     content: public Class<?> getServiceInterfaceType()
     return:
@@ -618,7 +615,7 @@ references:
   nameWithType: ServiceRemotingPartitionClient
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingPartitionClient
   type: Interface
-  summary: <p>Defines the interface for the client that communicate over remoting to a particular replica of a service partition. </p>
+  summary: "<p>Defines the interface for the client that communicate over remoting to a particular replica of a service partition. </p>"
   syntax:
     content: public interface ServiceRemotingPartitionClient
 - uid: microsoft.servicefabric.services.remoting.client.ServiceProxy.getServicePartitionClient()
@@ -628,10 +625,7 @@ references:
   nameWithType: ServiceProxy.getServicePartitionClient()
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxy.getServicePartitionClient()
   type: Method
-  summary: >-
-    <p>The service partition client used to send requests to the service.</p>
-
-    <p></p>
+  summary: "<p>The service partition client used to send requests to the service.</p>\r\n<p></p>"
   syntax:
     content: public ServiceRemotingPartitionClient getServicePartitionClient()
     return:
@@ -644,6 +638,6 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken

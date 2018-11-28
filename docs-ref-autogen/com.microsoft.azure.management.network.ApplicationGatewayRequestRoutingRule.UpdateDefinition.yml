@@ -56,7 +56,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -69,7 +69,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontendPort<ParentT>.fromFrontendHttpPort(int portNumber)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontendPort<ParentT>.fromFrontendHttpPort(int portNumber)
   type: Method
-  summary: <p>Associates a new listener for the specified port number and the HTTP protocol with this rule. </p>
+  summary: "<p>Associates a new listener for the specified port number and the HTTP protocol with this rule. </p>"
   syntax:
     content: public WithBackendHttpConfiguration<ParentT> fromFrontendHttpPort(int portNumber)
     parameters:
@@ -86,7 +86,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontendPort<ParentT>.fromFrontendHttpsPort(int portNumber)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontendPort<ParentT>.fromFrontendHttpsPort(int portNumber)
   type: Method
-  summary: <p>Associates a new listener for the specified port number and the HTTPS protocol with this rule. </p>
+  summary: "<p>Associates a new listener for the specified port number and the HTTPS protocol with this rule. </p>"
   syntax:
     content: public WithSslCertificate<ParentT> fromFrontendHttpsPort(int portNumber)
     parameters:
@@ -103,12 +103,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithListener<ParentT>.fromListener(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithListener<ParentT>.fromListener(String name)
   type: Method
-  summary: >-
-    <p>Associates the request routing rule with a frontend listener. </p>
-
-    <p>If the listener with the specified name does not yet exist, it must be defined separately in the optional part of the application gateway definition. This only adds a reference to the listener by its name. </p>
-
-    <p>Also, note that a given listener can be used by no more than one request routing rule at a time. </p>
+  summary: "<p>Associates the request routing rule with a frontend listener. </p>\r\n<p>If the listener with the specified name does not yet exist, it must be defined separately in the optional part of the application gateway definition. This only adds a reference to the listener by its name. </p>\r\n<p>Also, note that a given listener can be used by no more than one request routing rule at a time. </p>"
   syntax:
     content: public WithBackendHttpConfiguration<ParentT> fromListener(String name)
     parameters:
@@ -125,12 +120,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontend<ParentT>.fromPrivateFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontend<ParentT>.fromPrivateFrontend()
   type: Method
-  summary: >-
-    <p>Enables the rule to apply to the application gateway's private (internal) frontend. </p>
-
-    <p>If the private frontend IP configuration does not yet exist, it will be created under an auto-generated name. </p>
-
-    <p>If the application gateway does not have a subnet specified for its private frontend, one will be created automatically, unless a specific subnet is specified in the application gateway definition's optional settings. </p>
+  summary: "<p>Enables the rule to apply to the application gateway's private (internal) frontend. </p>\r\n<p>If the private frontend IP configuration does not yet exist, it will be created under an auto-generated name. </p>\r\n<p>If the application gateway does not have a subnet specified for its private frontend, one will be created automatically, unless a specific subnet is specified in the application gateway definition's optional settings. </p>"
   syntax:
     content: public WithFrontendPort<ParentT> fromPrivateFrontend()
     return:
@@ -143,12 +133,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontend<ParentT>.fromPublicFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontend<ParentT>.fromPublicFrontend()
   type: Method
-  summary: >-
-    <p>Enables the rule to apply to the application gateway's public (Internet-facing) frontend. </p>
-
-    <p>If the public frontend IP configuration does not yet exist, it will be created under an auto-generated name. </p>
-
-    <p>If the application gateway does not have a public IP address specified for its public frontend, one will be created automatically, unless a specific public IP address is specified in the application gateway definition's optional settings. </p>
+  summary: "<p>Enables the rule to apply to the application gateway's public (Internet-facing) frontend. </p>\r\n<p>If the public frontend IP configuration does not yet exist, it will be created under an auto-generated name. </p>\r\n<p>If the application gateway does not have a public IP address specified for its public frontend, one will be created automatically, unless a specific public IP address is specified in the application gateway definition's optional settings. </p>"
   syntax:
     content: public WithFrontendPort<ParentT> fromPublicFrontend()
     return:
@@ -161,10 +146,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackend<ParentT>.toBackend(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackend<ParentT>.toBackend(String name)
   type: Method
-  summary: >-
-    <p>Associates the request routing rule with a backend on this application gateway. </p>
-
-    <p>If the backend does not yet exist, it must be defined in the optional part of the application gateway definition. The request routing rule references it only by name. </p>
+  summary: "<p>Associates the request routing rule with a backend on this application gateway. </p>\r\n<p>If the backend does not yet exist, it must be defined in the optional part of the application gateway definition. The request routing rule references it only by name. </p>"
   syntax:
     content: public WithAttach<ParentT> toBackend(String name)
     parameters:
@@ -181,12 +163,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddress<ParentT>.toBackendFqdn(String fqdn)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddress<ParentT>.toBackendFqdn(String fqdn)
   type: Method
-  summary: >-
-    <p>Adds an FQDN (fully qualified domain name) to the backend associated with this rule. </p>
-
-    <p>If no backend has been associated with this rule yet, a new one will be created with an auto-generated name. </p>
-
-    <p>This call can be used in a sequence to add multiple FQDNs. </p>
+  summary: "<p>Adds an FQDN (fully qualified domain name) to the backend associated with this rule. </p>\r\n<p>If no backend has been associated with this rule yet, a new one will be created with an auto-generated name. </p>\r\n<p>This call can be used in a sequence to add multiple FQDNs. </p>"
   syntax:
     content: public WithBackendAddressOrAttach<ParentT> toBackendFqdn(String fqdn)
     parameters:
@@ -203,10 +180,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfiguration<ParentT>.toBackendHttpConfiguration(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfiguration<ParentT>.toBackendHttpConfiguration(String name)
   type: Method
-  summary: >-
-    <p>Associates the specified backend HTTP settings configuration with this request routing rule. </p>
-
-    <p>If the backend configuration does not exist yet, it must be defined in the optional part of the application gateway definition. The request routing rule references it only by name. </p>
+  summary: "<p>Associates the specified backend HTTP settings configuration with this request routing rule. </p>\r\n<p>If the backend configuration does not exist yet, it must be defined in the optional part of the application gateway definition. The request routing rule references it only by name. </p>"
   syntax:
     content: public WithBackendOrAddress<ParentT> toBackendHttpConfiguration(String name)
     parameters:
@@ -223,10 +197,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfiguration<ParentT>.toBackendHttpPort(int portNumber)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfiguration<ParentT>.toBackendHttpPort(int portNumber)
   type: Method
-  summary: >-
-    <p>Creates a backend HTTP settings configuration for the specified backend port and the HTTP protocol, and associates it with this request routing rule. </p>
-
-    <p>An auto-generated name will be used for this newly created configuration. </p>
+  summary: "<p>Creates a backend HTTP settings configuration for the specified backend port and the HTTP protocol, and associates it with this request routing rule. </p>\r\n<p>An auto-generated name will be used for this newly created configuration. </p>"
   syntax:
     content: public WithBackendOrAddress<ParentT> toBackendHttpPort(int portNumber)
     parameters:
@@ -243,12 +214,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddress<ParentT>.toBackendIPAddress(String ipAddress)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddress<ParentT>.toBackendIPAddress(String ipAddress)
   type: Method
-  summary: >-
-    <p>Adds an IP address to the backend associated with this rule. </p>
-
-    <p>If no backend has been associated with this rule yet, a new one will be created with an auto-generated name. </p>
-
-    <p>This call can be used in a sequence to add multiple IP addresses. </p>
+  summary: "<p>Adds an IP address to the backend associated with this rule. </p>\r\n<p>If no backend has been associated with this rule yet, a new one will be created with an auto-generated name. </p>\r\n<p>This call can be used in a sequence to add multiple IP addresses. </p>"
   syntax:
     content: public WithBackendAddressOrAttach<ParentT> toBackendIPAddress(String ipAddress)
     parameters:
@@ -265,7 +231,7 @@ references:
   nameWithType: HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withCookieBasedAffinity()
   type: Method
-  summary: <p>Enables cookie based affinity. </p>
+  summary: "<p>Enables cookie based affinity. </p>"
   syntax:
     content: public ReturnT withCookieBasedAffinity()
     return:
@@ -278,7 +244,7 @@ references:
   nameWithType: HasHostName.UpdateDefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   fullName: com.microsoft.azure.management.network.model.HasHostName.UpdateDefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   type: Method
-  summary: <p>Specifies the host name to reference. </p>
+  summary: "<p>Specifies the host name to reference. </p>"
   syntax:
     content: public ReturnT withHostName(String hostName)
     parameters:
@@ -295,7 +261,7 @@ references:
   nameWithType: HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withoutCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<ReturnT>.withoutCookieBasedAffinity()
   type: Method
-  summary: <p>Disables cookie based affinity. </p>
+  summary: "<p>Disables cookie based affinity. </p>"
   syntax:
     content: public ReturnT withoutCookieBasedAffinity()
     return:
@@ -308,7 +274,7 @@ references:
   nameWithType: HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()
   type: Method
-  summary: <p>Ensures server name indication (SNI) is not required. </p>
+  summary: "<p>Ensures server name indication (SNI) is not required. </p>"
   syntax:
     content: public ReturnT withoutServerNameIndication()
     return:
@@ -321,7 +287,7 @@ references:
   nameWithType: HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withServerNameIndication()
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withServerNameIndication()
   type: Method
-  summary: <p>Requires server name indication (SNI). </p>
+  summary: "<p>Requires server name indication (SNI). </p>"
   syntax:
     content: public ReturnT withServerNameIndication()
     return:
@@ -334,10 +300,7 @@ references:
   nameWithType: HasSslCertificate.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificate(String name)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasSslCertificate<T>.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificate(String name)
   type: Method
-  summary: >-
-    <p>Specifies an SSL certificate to associate with this resource. </p>
-
-    <p>If the certificate does not exist yet, it must be defined in the optional part of the parent resource definition. </p>
+  summary: "<p>Specifies an SSL certificate to associate with this resource. </p>\r\n<p>If the certificate does not exist yet, it must be defined in the optional part of the parent resource definition. </p>"
   syntax:
     content: public ReturnT withSslCertificate(String name)
     parameters:
@@ -354,10 +317,7 @@ references:
   nameWithType: HasSslCertificate.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificateFromPfxFile(File pfxFile)
   fullName: WithSslPassword<ReturnT> com.microsoft.azure.management.network.model.HasSslCertificate<T>.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificateFromPfxFile(File pfxFile)
   type: Method
-  summary: >-
-    <p>Specifies the PFX file to import the SSL certificate from to associated with this resource. </p>
-
-    <p>The certificate will be named using an auto-generated name. </p>
+  summary: "<p>Specifies the PFX file to import the SSL certificate from to associated with this resource. </p>\r\n<p>The certificate will be named using an auto-generated name. </p>"
   syntax:
     content: public WithSslPassword<ReturnT> withSslCertificateFromPfxFile(File pfxFile)
     parameters:
@@ -374,7 +334,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway request routing rule definition. </p>
+  summary: "<p>The first stage of an application gateway request routing rule definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithListenerOrFrontend<ParentT>
     typeParameters:
@@ -388,10 +348,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway request routing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway request routing rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -405,7 +362,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontend<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontend<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to specify the frontend for the rule to apply to. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to specify the frontend for the rule to apply to. </p>"
   syntax:
     content: public interface WithFrontend<ParentT>
     typeParameters:
@@ -419,7 +376,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithListener<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithListener<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to specify an existing listener to associate the routing rule with. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to specify an existing listener to associate the routing rule with. </p>"
   syntax:
     content: public interface WithListener<ParentT>
     typeParameters:
@@ -433,7 +390,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontendPort<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithFrontendPort<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to create an associate listener and frontend for a specific port number and protocol. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to create an associate listener and frontend for a specific port number and protocol. </p>"
   syntax:
     content: public interface WithFrontendPort<ParentT>
     typeParameters:
@@ -447,7 +404,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithListenerOrFrontend<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithListenerOrFrontend<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to associate an existing listener with the rule, or create a new one implicitly by specifying the frontend to listen to. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to associate an existing listener with the rule, or create a new one implicitly by specifying the frontend to listen to. </p>"
   syntax:
     content: public interface WithListenerOrFrontend<ParentT>
     typeParameters:
@@ -461,7 +418,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackend<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackend<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to specify the backend to associate the routing rule with. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to specify the backend to associate the routing rule with. </p>"
   syntax:
     content: public interface WithBackend<ParentT>
     typeParameters:
@@ -475,10 +432,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddress<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddress<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of an application gateway request routing rule definition allowing to add an address to the backend used by this request routing rule. </p>
-
-    <p>A new backend will be created if none is associated with this rule yet. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to add an address to the backend used by this request routing rule. </p>\r\n<p>A new backend will be created if none is associated with this rule yet. </p>"
   syntax:
     content: public interface WithBackendAddress<ParentT>
     typeParameters:
@@ -492,7 +446,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendOrAddress<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendOrAddress<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to add an address to specify an existing backend to associate with this request routing rule or create a new backend with an auto-generated name and addresses to it. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to add an address to specify an existing backend to associate with this request routing rule or create a new backend with an auto-generated name and addresses to it. </p>"
   syntax:
     content: public interface WithBackendOrAddress<ParentT>
     typeParameters:
@@ -506,7 +460,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddressOrAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendAddressOrAttach<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to add more backend addresses, start specifying optional settings, or finish the definition by attaching it to the parent application gateway. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to add more backend addresses, start specifying optional settings, or finish the definition by attaching it to the parent application gateway. </p>"
   syntax:
     content: public interface WithBackendAddressOrAttach<ParentT>
     typeParameters:
@@ -520,7 +474,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfiguration<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfiguration<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to specify the backend HTTP settings configuration to associate the routing rule with. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to specify the backend HTTP settings configuration to associate the routing rule with. </p>"
   syntax:
     content: public interface WithBackendHttpConfiguration<ParentT>
     typeParameters:
@@ -534,7 +488,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to require server name indication if the application gateway is serving multiple websites in its backends and SSL is required. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to require server name indication if the application gateway is serving multiple websites in its backends and SSL is required. </p>"
   syntax:
     content: public interface WithBackendHttpConfigurationOrSni<ParentT>
     typeParameters:
@@ -548,7 +502,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithSslCertificate<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithSslCertificate<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule allowing to specify an SSL certificate. </p>
+  summary: "<p>The stage of an application gateway request routing rule allowing to specify an SSL certificate. </p>"
   syntax:
     content: public interface WithSslCertificate<ParentT>
     typeParameters:
@@ -562,7 +516,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithSslPassword<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithSslPassword<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule allowing to specify an SSL certificate. </p>
+  summary: "<p>The stage of an application gateway request routing rule allowing to specify an SSL certificate. </p>"
   syntax:
     content: public interface WithSslPassword<ParentT>
     typeParameters:

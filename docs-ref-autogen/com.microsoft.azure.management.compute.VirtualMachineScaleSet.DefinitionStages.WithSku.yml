@@ -89,7 +89,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachineScaleSet.DefinitionStages.Blank,VirtualMachineScaleSet.DefinitionStages.WithGroup,VirtualMachineScaleSet.DefinitionStages.WithSku,VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithOS,VirtualMachineScaleSet.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet
@@ -99,7 +99,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify the virtual network subnet for the primary network configuration. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify the virtual network subnet for the primary network configuration. </p>"
   syntax:
     content: public interface WithNetworkSubnet
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetSkuTypes
@@ -109,7 +109,7 @@ references:
   nameWithType: VirtualMachineScaleSetSkuTypes
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetSkuTypes
   type: Class
-  summary: <p>Scale set virtual machine SKU types. </p>
+  summary: "<p>Scale set virtual machine SKU types. </p>"
   syntax:
     content: public class VirtualMachineScaleSetSkuTypes
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetSku
@@ -119,6 +119,6 @@ references:
   nameWithType: VirtualMachineScaleSetSku
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetSku
   type: Interface
-  summary: <p>A type representing a SKU available for virtual machines in a scale set. </p>
+  summary: "<p>A type representing a SKU available for virtual machines in a scale set. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetSku

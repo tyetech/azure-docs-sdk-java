@@ -66,7 +66,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithAllDifferentOptions
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithAllDifferentOptions
   type: Interface
-  summary: <p>The SQL database interface with all starting options for definition. </p>
+  summary: "<p>The SQL database interface with all starting options for definition. </p>"
   syntax:
     content: public interface WithAllDifferentOptions extends SqlDatabaseOperations.DefinitionStages.WithElasticPoolName,SqlDatabaseOperations.DefinitionStages.WithRestorableDroppedDatabase,SqlDatabaseOperations.DefinitionStages.WithImportFrom,SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabase,SqlDatabaseOperations.DefinitionStages.WithSampleDatabase,SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId,SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.SqlDatabaseOperationsDefinition
@@ -76,7 +76,7 @@ references:
   nameWithType: SqlDatabaseOperations.SqlDatabaseOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.SqlDatabaseOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlDatabaseOperationsDefinition extends SqlDatabaseOperations.DefinitionStages.Blank,SqlDatabaseOperations.DefinitionStages.WithSqlServer,SqlDatabaseOperations.DefinitionStages.WithAllDifferentOptions,SqlDatabaseOperations.DefinitionStages.WithElasticPoolName,SqlDatabaseOperations.DefinitionStages.WithRestorableDroppedDatabase,SqlDatabaseOperations.DefinitionStages.WithImportFrom,SqlDatabaseOperations.DefinitionStages.WithStorageKey,SqlDatabaseOperations.DefinitionStages.WithAuthentication,SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabase,SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId,SqlDatabaseOperations.DefinitionStages.WithCreateMode,SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions,SqlDatabaseOperations.DefinitionStages.WithCreateFinal
 - uid: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
@@ -86,6 +86,6 @@ references:
   nameWithType: SqlRestorableDroppedDatabase
   fullName: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
   type: Interface
-  summary: <p>Response containing Azure SQL restorable dropped database. </p>
+  summary: "<p>Response containing Azure SQL restorable dropped database. </p>"
   syntax:
     content: public interface SqlRestorableDroppedDatabase extends Refreshable<SqlRestorableDroppedDatabase>,HasInner<RestorableDroppedDatabaseInner>,HasResourceGroup,HasName,HasId

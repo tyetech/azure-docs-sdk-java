@@ -93,7 +93,7 @@ references:
   nameWithType: VirtualMachineCustomImage.Definition
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.Definition
   type: Interface
-  summary: <p>The entirety of the image definition. </p>
+  summary: "<p>The entirety of the image definition. </p>"
   syntax:
     content: public interface Definition extends VirtualMachineCustomImage.DefinitionStages.Blank,VirtualMachineCustomImage.DefinitionStages.WithGroup,VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource,VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSource,VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine,VirtualMachineCustomImage.DefinitionStages.WithCreateAndDataDiskImageOSDiskSettings
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource
@@ -103,7 +103,7 @@ references:
   nameWithType: VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource
   type: Interface
-  summary: <p>The stage of the image definition that allows choosing between using a virtual machine as the source for OS and the data disk images or beginning an OS disk image definition. </p>
+  summary: "<p>The stage of the image definition that allows choosing between using a virtual machine as the source for OS and the data disk images or beginning an OS disk image definition. </p>"
   syntax:
     content: public interface WithOSDiskImageSourceAltVirtualMachineSource extends VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSource,VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithCreate
@@ -113,7 +113,7 @@ references:
   nameWithType: VirtualMachineCustomImage.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of an image definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>
+  summary: "<p>The stage of an image definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<VirtualMachineCustomImage>,Resource.DefinitionWithTags<VirtualMachineCustomImage.DefinitionStages.WithCreate>
 - uid: com.microsoft.azure.management.compute.VirtualMachine
@@ -123,6 +123,6 @@ references:
   nameWithType: VirtualMachine
   fullName: com.microsoft.azure.management.compute.VirtualMachine
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine. </p>"
   syntax:
     content: public interface VirtualMachine extends GroupableResource<ComputeManager, VirtualMachineInner>,Refreshable<VirtualMachine>,Updatable<VirtualMachine.Update>,HasNetworkInterfaces

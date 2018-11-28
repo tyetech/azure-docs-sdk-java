@@ -276,10 +276,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -293,7 +290,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT>
     typeParameters:
@@ -307,7 +304,7 @@ references:
   nameWithType: HasSslCertificate<T>
   fullName: com.microsoft.azure.management.network.model.HasSslCertificate<T>
   type: Interface
-  summary: <p>An interface representing a model's ability to reference an SSL certificate. </p>
+  summary: "<p>An interface representing a model's ability to reference an SSL certificate. </p>"
   syntax:
     content: public interface HasSslCertificate<T>
     typeParameters:
@@ -321,7 +318,7 @@ references:
   nameWithType: HasPublicIPAddress
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a public IP address. </p>
+  summary: "<p>An interface representing a model's ability to reference a public IP address. </p>"
   syntax:
     content: public interface HasPublicIPAddress
 - uid: com.microsoft.azure.management.network.model.HasProtocol
@@ -331,7 +328,7 @@ references:
   nameWithType: HasProtocol<ProtocolT>
   fullName: com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a transport protocol. </p>
+  summary: "<p>An interface representing a model's ability to reference a transport protocol. </p>"
   syntax:
     content: public interface HasProtocol<ProtocolT>
     typeParameters:
@@ -345,7 +342,7 @@ references:
   nameWithType: HasHostName
   fullName: com.microsoft.azure.management.network.model.HasHostName
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a host name. </p>
+  summary: "<p>An interface representing a model's ability to reference a host name. </p>"
   syntax:
     content: public interface HasHostName
 - uid: com.microsoft.azure.management.network.model.HasServerNameIndication
@@ -355,7 +352,7 @@ references:
   nameWithType: HasServerNameIndication
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication
   type: Interface
-  summary: <p>An interface representing a model's ability to require server name indication. </p>
+  summary: "<p>An interface representing a model's ability to require server name indication. </p>"
   syntax:
     content: public interface HasServerNameIndication
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet
@@ -365,7 +362,7 @@ references:
   nameWithType: HasSubnet
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a subnet by its name and network's ID. </p>
+  summary: "<p>An interface representing a model's ability to reference a subnet by its name and network's ID. </p>"
   syntax:
     content: public interface HasSubnet
 - uid: com.microsoft.azure.management.network.ApplicationGatewayFrontend
@@ -375,6 +372,6 @@ references:
   nameWithType: ApplicationGatewayFrontend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend
   type: Interface
-  summary: <p>A client-side representation of an application gateway frontend. </p>
+  summary: "<p>A client-side representation of an application gateway frontend. </p>"
   syntax:
     content: public interface ApplicationGatewayFrontend extends HasInner<ApplicationGatewayFrontendIPConfigurationInner>,ChildResource<ApplicationGateway>,HasPrivateIPAddress,HasSubnet,HasPublicIPAddress

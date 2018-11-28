@@ -61,7 +61,7 @@ references:
   nameWithType: OperationStream.getOperationAsync(CancellationToken cancellationToken)
   fullName: system.fabric.OperationStream.getOperationAsync(CancellationToken cancellationToken)
   type: Method
-  summary: <p>Gets the next object that implements <xref uid="system.fabric.Operation" data-throw-if-not-resolved="false">system.fabric.Operation</xref> from the underlying <xref uid="" data-throw-if-not-resolved="false">system.fabric.OperationStream</xref>. </p>
+  summary: "<p>Gets the next object that implements <xref uid=\"system.fabric.Operation\" data-throw-if-not-resolved=\"false\">system.fabric.Operation</xref> from the underlying <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.OperationStream</xref>. </p>"
   syntax:
     content: public CompletableFuture<Operation> getOperationAsync(CancellationToken cancellationToken)
     parameters:
@@ -78,12 +78,7 @@ references:
   nameWithType: OperationStream
   fullName: system.fabric.OperationStream
   type: Interface
-  summary: >-
-    <p>Represents a stream of replication or copy operations that are sent from the Primary to the Secondary replica. </p>
-
-    <p>
-
-      <b> Remarks:</b> The streams returned from <xref uid="system.fabric.StateReplicator.getCopyStream()" data-throw-if-not-resolved="false">system.fabric.StateReplicator#getCopyStream()</xref> and <xref uid="system.fabric.StateReplicator.getReplicationStream()" data-throw-if-not-resolved="false">system.fabric.StateReplicator#getReplicationStream()</xref> are objects that implement <xref uid="" data-throw-if-not-resolved="false">system.fabric.OperationStream</xref>. </p>
+  summary: "<p>Represents a stream of replication or copy operations that are sent from the Primary to the Secondary replica. </p>\r\n<p>\r\n  <b> Remarks:</b> The streams returned from <xref uid=\"system.fabric.StateReplicator.getCopyStream()\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#getCopyStream()</xref> and <xref uid=\"system.fabric.StateReplicator.getReplicationStream()\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#getReplicationStream()</xref> are objects that implement <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.OperationStream</xref>. </p>"
   syntax:
     content: public interface OperationStream
 - uid: system.fabric.interop.JOperationStream
@@ -94,11 +89,6 @@ references:
   nameWithType: FaultType
   fullName: system.fabric.FaultType
   type: Enum
-  summary: >-
-    <p>Indicates the type of fault that a service reports: invalid, transient or permanent. </p>
-
-    <p>
-
-      <b>Remarks : </b> Services can report faults during runtime by using the <xref uid="system.fabric.ServicePartition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(FaultType)</xref> method to indicate the type of fault. </p>
+  summary: "<p>Indicates the type of fault that a service reports: invalid, transient or permanent. </p>\r\n<p>\r\n  <b>Remarks : </b> Services can report faults during runtime by using the <xref uid=\"system.fabric.ServicePartition.reportFault(FaultType)\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition#reportFault(FaultType)</xref> method to indicate the type of fault. </p>"
   syntax:
     content: public enum FaultType

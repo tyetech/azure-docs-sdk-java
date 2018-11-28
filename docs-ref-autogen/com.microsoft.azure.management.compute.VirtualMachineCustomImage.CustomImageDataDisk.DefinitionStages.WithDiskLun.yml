@@ -82,7 +82,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.Definition<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a data disk image definition. </p>
+  summary: "<p>The entirety of a data disk image definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.Blank<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>,VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -96,7 +96,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the data disk image definition. </p>
+  summary: "<p>The first stage of the data disk image definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>
     typeParameters:
@@ -110,10 +110,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the image definition allowing to choose the source of the data disk image.</p>
-
-    <p></p>
+  summary: "<p>The stage of the image definition allowing to choose the source of the data disk image.</p>\r\n<p></p>"
   syntax:
     content: public interface WithImageSource<ParentT>
     typeParameters:

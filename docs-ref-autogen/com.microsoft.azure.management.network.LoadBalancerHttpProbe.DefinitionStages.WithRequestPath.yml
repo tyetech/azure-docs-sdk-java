@@ -79,7 +79,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a probe definition. </p>
+  summary: "<p>The entirety of a probe definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends LoadBalancerHttpProbe.DefinitionStages.Blank<ParentT>,LoadBalancerHttpProbe.DefinitionStages.WithAttach<ParentT>,LoadBalancerHttpProbe.DefinitionStages.WithRequestPath<ParentT>
     typeParameters:
@@ -93,7 +93,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the probe definition. </p>
+  summary: "<p>The first stage of the probe definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends LoadBalancerHttpProbe.DefinitionStages.WithRequestPath<ParentT>
     typeParameters:
@@ -107,10 +107,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the probe definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the probe definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,LoadBalancerHttpProbe.DefinitionStages.WithPort<ParentT>,LoadBalancerHttpProbe.DefinitionStages.WithIntervalInSeconds<ParentT>,LoadBalancerHttpProbe.DefinitionStages.WithNumberOfProbes<ParentT>
     typeParameters:

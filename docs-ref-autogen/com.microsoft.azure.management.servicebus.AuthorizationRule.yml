@@ -259,10 +259,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -275,10 +272,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -303,10 +297,7 @@ references:
   nameWithType: IndependentChildResource<ManagerT,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.IndependentChildResource<ManagerT,InnerT>
   type: Interface
-  summary: >-
-    <p>Interface for the child resource which can be CRUDed independently from the parent resource.</p>
-
-    <p></p>
+  summary: "<p>Interface for the child resource which can be CRUDed independently from the parent resource.</p>\r\n<p></p>"
   syntax:
     content: public interface IndependentChildResource<ManagerT,InnerT>
     typeParameters:
@@ -323,10 +314,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -340,10 +328,7 @@ references:
   nameWithType: AuthorizationRule<RuleT>
   fullName: com.microsoft.azure.management.servicebus.AuthorizationRule<RuleT>
   type: Interface
-  summary: >-
-    <p>Type representing authorization rule.</p>
-
-    <p></p>
+  summary: "<p>Type representing authorization rule.</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.servicebus.AccessRights
   parent: com.microsoft.azure.management.servicebus
@@ -352,7 +337,7 @@ references:
   nameWithType: AccessRights
   fullName: com.microsoft.azure.management.servicebus.AccessRights
   type: Enum
-  summary: <p>Defines values for AccessRights. </p>
+  summary: "<p>Defines values for AccessRights. </p>"
   syntax:
     content: public enum AccessRights
 - uid: com.microsoft.azure.management.servicebus.AuthorizationKeys
@@ -362,7 +347,7 @@ references:
   nameWithType: AuthorizationKeys
   fullName: com.microsoft.azure.management.servicebus.AuthorizationKeys
   type: Interface
-  summary: <p>Authorization key and connection string of authorization rule associated with Service Bus entities. </p>
+  summary: "<p>Authorization key and connection string of authorization rule associated with Service Bus entities. </p>"
   syntax:
     content: public interface AuthorizationKeys extends HasInner<ResourceListKeysInner>
 - uid: com.microsoft.azure.management.servicebus.Policykey
@@ -372,6 +357,6 @@ references:
   nameWithType: Policykey
   fullName: com.microsoft.azure.management.servicebus.Policykey
   type: Enum
-  summary: <p>Defines values for Policykey. </p>
+  summary: "<p>Defines values for Policykey. </p>"
   syntax:
     content: public enum Policykey

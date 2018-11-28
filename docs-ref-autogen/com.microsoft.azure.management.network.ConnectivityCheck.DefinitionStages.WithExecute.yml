@@ -35,10 +35,7 @@ references:
   nameWithType: Executable<T>.execute()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public T execute()
     return:
@@ -51,10 +48,7 @@ references:
   nameWithType: Executable<T>.executeAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> executeAsync()
     return:
@@ -67,10 +61,7 @@ references:
   nameWithType: Executable<T>.executeAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> executeAsync(final ServiceCallback<T> callback)
     parameters:
@@ -115,10 +106,7 @@ references:
   nameWithType: Executable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support execute operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support execute operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Executable<T> extends Indexable
     typeParameters:
@@ -132,7 +120,7 @@ references:
   nameWithType: ConnectivityCheck.DefinitionStages.FromSourcePort
   fullName: com.microsoft.azure.management.network.ConnectivityCheck.DefinitionStages.FromSourcePort
   type: Interface
-  summary: <p>Sets the source port from which a connectivity check will be performed. </p>
+  summary: "<p>Sets the source port from which a connectivity check will be performed. </p>"
   syntax:
     content: public interface FromSourcePort
 - uid: com.microsoft.azure.management.network.ConnectivityCheck.Definition
@@ -142,6 +130,6 @@ references:
   nameWithType: ConnectivityCheck.Definition
   fullName: com.microsoft.azure.management.network.ConnectivityCheck.Definition
   type: Interface
-  summary: <p>The entirety of next hop parameters definition. </p>
+  summary: "<p>The entirety of next hop parameters definition. </p>"
   syntax:
     content: public interface Definition extends ConnectivityCheck.DefinitionStages.ToDestination,ConnectivityCheck.DefinitionStages.ToDestinationPort,ConnectivityCheck.DefinitionStages.FromSourceVirtualMachine,ConnectivityCheck.DefinitionStages.WithExecute

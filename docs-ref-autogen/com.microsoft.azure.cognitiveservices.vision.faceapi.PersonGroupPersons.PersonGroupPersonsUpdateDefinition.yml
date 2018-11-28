@@ -36,7 +36,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute.execute()
   type: Method
-  summary: <p>Execute the request. </p>
+  summary: "<p>Execute the request. </p>"
   syntax:
     content: public void execute()
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute.executeAsync()
@@ -46,10 +46,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Void> executeAsync()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithAllOptions.withName(String name)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithAllOptions.withName(String name)
   type: Method
-  summary: >-
-    <p>User defined name, maximum length is 128.</p>
-
-    <p></p>
+  summary: "<p>User defined name, maximum length is 128.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsUpdateDefinitionStages.WithExecute withName(String name)
     parameters:
@@ -81,10 +75,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular person group.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular person group.</p>\r\n<p></p>"
   syntax:
     content: public WithPersonId withPersonGroupId(String personGroupId)
     parameters:
@@ -100,10 +91,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonId.withPersonId(UUID personId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonId.withPersonId(UUID personId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular person.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular person.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsUpdateDefinitionStages.WithExecute withPersonId(UUID personId)
     parameters:
@@ -119,10 +107,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithAllOptions.withUserData(String userData)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithAllOptions.withUserData(String userData)
   type: Method
-  summary: >-
-    <p>User specified data. Length should not exceed 16KB.</p>
-
-    <p></p>
+  summary: "<p>User specified data. Length should not exceed 16KB.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsUpdateDefinitionStages.WithExecute withUserData(String userData)
     parameters:
@@ -138,7 +123,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonGroupId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonGroupId
   type: Interface
-  summary: <p>The stage of the definition to be specify personGroupId. </p>
+  summary: "<p>The stage of the definition to be specify personGroupId. </p>"
   syntax:
     content: public interface WithPersonGroupId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonId
@@ -148,7 +133,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithPersonId
   type: Interface
-  summary: <p>The stage of the definition to be specify personId. </p>
+  summary: "<p>The stage of the definition to be specify personId. </p>"
   syntax:
     content: public interface WithPersonId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute
@@ -158,6 +143,6 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

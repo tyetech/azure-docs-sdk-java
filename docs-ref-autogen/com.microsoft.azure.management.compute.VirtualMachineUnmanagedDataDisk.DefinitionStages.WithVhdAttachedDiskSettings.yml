@@ -148,7 +148,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -161,10 +161,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the data disk definition.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the data disk definition.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition
     typeParameters:
@@ -178,7 +175,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionWithExistingVhd<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionWithExistingVhd<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>"
   syntax:
     content: public interface DefinitionWithExistingVhd<ParentT> extends VirtualMachineUnmanagedDataDisk.DefinitionStages.Blank<ParentT>,VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>,VirtualMachineUnmanagedDataDisk.DefinitionStages.WithVhdAttachedDiskSettings<ParentT>,VirtualMachineUnmanagedDataDisk.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -192,10 +189,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionStages.WithVhdAttachedDiskSettings<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionStages.WithVhdAttachedDiskSettings<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage that allows configure the disk based on existing VHD.</p>
-
-    <p></p>
+  summary: "<p>The stage that allows configure the disk based on existing VHD.</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.compute.CachingTypes
   parent: com.microsoft.azure.management.compute
@@ -204,6 +198,6 @@ references:
   nameWithType: CachingTypes
   fullName: com.microsoft.azure.management.compute.CachingTypes
   type: Enum
-  summary: <p>Defines values for CachingTypes. </p>
+  summary: "<p>Defines values for CachingTypes. </p>"
   syntax:
     content: public enum CachingTypes

@@ -240,10 +240,7 @@ references:
   nameWithType: SqlDatabase.Update
   fullName: com.microsoft.azure.management.sql.SqlDatabase.Update
   type: Interface
-  summary: >-
-    <p>The template for a SqlDatabase update operation, containing all the settings that can be modified.</p>
-
-    <p>The template for a SQLDatabase modifyState operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a SqlDatabase update operation, containing all the settings that can be modified.</p>\r\n<p>The template for a SQLDatabase modifyState operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends SqlDatabase.UpdateStages.WithEdition,SqlDatabase.UpdateStages.WithElasticPoolName,SqlDatabase.UpdateStages.WithMaxSizeBytes,SqlDatabase.UpdateStages.WithServiceObjective,Appliable<SqlDatabase>,SqlDatabase.UpdateStages.WithEdition,SqlDatabase.UpdateStages.WithElasticPoolName,SqlDatabase.UpdateStages.WithMaxSizeBytes,SqlDatabase.UpdateStages.WithServiceObjective,Resource.UpdateWithTags<SqlDatabase.Update>,Appliable<SqlDatabase>
 - uid: com.microsoft.azure.management.sql.DatabaseEditions
@@ -253,10 +250,7 @@ references:
   nameWithType: DatabaseEditions
   fullName: com.microsoft.azure.management.sql.DatabaseEditions
   type: Class
-  summary: >-
-    <p>Defines values for DatabaseEdition.</p>
-
-    <p>Defines values for DatabaseEditions. </p>
+  summary: "<p>Defines values for DatabaseEdition.</p>\r\n<p>Defines values for DatabaseEditions. </p>"
   syntax:
     content: public class DatabaseEditions
 - uid: com.microsoft.azure.management.sql.SqlDatabaseBasicStorage
@@ -266,7 +260,7 @@ references:
   nameWithType: SqlDatabaseBasicStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabaseBasicStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Basic" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Basic\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabaseBasicStorage
 - uid: com.microsoft.azure.management.sql.SqlDatabaseStandardServiceObjective
@@ -276,7 +270,7 @@ references:
   nameWithType: SqlDatabaseStandardServiceObjective
   fullName: com.microsoft.azure.management.sql.SqlDatabaseStandardServiceObjective
   type: Class
-  summary: <p>The name of the configured Service Level Objective of a "Standard" Azure SQL Database. </p>
+  summary: "<p>The name of the configured Service Level Objective of a \"Standard\" Azure SQL Database. </p>"
   syntax:
     content: public class SqlDatabaseStandardServiceObjective
 - uid: com.microsoft.azure.management.sql.SqlDatabaseStandardStorage
@@ -286,7 +280,7 @@ references:
   nameWithType: SqlDatabaseStandardStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabaseStandardStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Standard" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Standard\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabaseStandardStorage
 - uid: com.microsoft.azure.management.sql.SqlDatabasePremiumServiceObjective
@@ -296,7 +290,7 @@ references:
   nameWithType: SqlDatabasePremiumServiceObjective
   fullName: com.microsoft.azure.management.sql.SqlDatabasePremiumServiceObjective
   type: Class
-  summary: <p>The name of the configured Service Level Objective of a "Premium" Azure SQL Database. </p>
+  summary: "<p>The name of the configured Service Level Objective of a \"Premium\" Azure SQL Database. </p>"
   syntax:
     content: public class SqlDatabasePremiumServiceObjective
 - uid: com.microsoft.azure.management.sql.SqlDatabasePremiumStorage
@@ -306,6 +300,6 @@ references:
   nameWithType: SqlDatabasePremiumStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabasePremiumStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Premium" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Premium\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabasePremiumStorage

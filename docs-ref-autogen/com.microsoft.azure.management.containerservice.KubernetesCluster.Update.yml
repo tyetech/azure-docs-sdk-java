@@ -43,10 +43,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -59,10 +56,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -75,10 +69,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -107,10 +98,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   type: Method
-  summary: >-
-    <p>Updates the cluster's add-on's profiles.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's add-on's profiles.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
     parameters:
@@ -127,10 +115,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
   type: Method
-  summary: >-
-    <p>Updates the agent pool virtual machine count.</p>
-
-    <p></p>
+  summary: "<p>Updates the agent pool virtual machine count.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
     parameters:
@@ -150,10 +135,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(int agentCount)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(int agentCount)
   type: Method
-  summary: >-
-    <p>Updates all the agent pools virtual machine count.</p>
-
-    <p></p>
+  summary: "<p>Updates all the agent pools virtual machine count.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAgentPoolVirtualMachineCount(int agentCount)
     parameters:
@@ -170,10 +152,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithNetworkProfile.withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithNetworkProfile.withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
   type: Method
-  summary: >-
-    <p>Updates the cluster's network profile.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's network profile.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
     parameters:
@@ -190,7 +169,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -207,10 +186,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithRBAC.withRBACDisabled()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithRBAC.withRBACDisabled()
   type: Method
-  summary: >-
-    <p>Updates the cluster to specify the Kubernetes Role-Based Access Control is disabled.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster to specify the Kubernetes Role-Based Access Control is disabled.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withRBACDisabled()
     return:
@@ -223,10 +199,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithRBAC.withRBACEnabled()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithRBAC.withRBACEnabled()
   type: Method
-  summary: >-
-    <p>Updates the cluster to specify the Kubernetes Role-Based Access Control is enabled.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster to specify the Kubernetes Role-Based Access Control is enabled.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withRBACEnabled()
     return:
@@ -239,7 +212,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -259,7 +232,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -276,7 +249,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify the number of agents in the specified pool. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify the number of agents in the specified pool. </p>"
   syntax:
     content: public interface WithUpdateAgentPoolCount
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithAddOnProfiles
@@ -286,7 +259,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithAddOnProfiles
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithAddOnProfiles
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's add-on's profiles. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's add-on's profiles. </p>"
   syntax:
     content: public interface WithAddOnProfiles
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithNetworkProfile
@@ -296,7 +269,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithNetworkProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's network profile. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's network profile. </p>"
   syntax:
     content: public interface WithNetworkProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithRBAC
@@ -306,7 +279,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithRBAC
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithRBAC
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify if Kubernetes Role-Based Access Control is enabled or disabled. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify if Kubernetes Role-Based Access Control is enabled or disabled. </p>"
   syntax:
     content: public interface WithRBAC
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags
@@ -316,10 +289,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -333,10 +303,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -350,6 +317,6 @@ references:
   nameWithType: KubernetesClusterImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
   type: Class
-  summary: <p>The implementation for KubernetesCluster and its create and update interfaces. </p>
+  summary: "<p>The implementation for KubernetesCluster and its create and update interfaces. </p>"
   syntax:
     content: public class KubernetesClusterImpl implements KubernetesCluster,KubernetesCluster.Definition,KubernetesCluster.Update

@@ -260,10 +260,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -277,7 +274,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT> extends Indexable,HasName,HasParent<ParentT>
     typeParameters:
@@ -291,7 +288,7 @@ references:
   nameWithType: HasBackendPort
   fullName: com.microsoft.azure.management.network.model.HasBackendPort
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a backend port. </p>
+  summary: "<p>An interface representing a model's ability to reference a backend port. </p>"
   syntax:
     content: public interface HasBackendPort
 - uid: com.microsoft.azure.management.network.model.HasFrontend
@@ -301,7 +298,7 @@ references:
   nameWithType: HasFrontend
   fullName: com.microsoft.azure.management.network.model.HasFrontend
   type: Interface
-  summary: <p>An interface representing a model's ability to references a frontend. </p>
+  summary: "<p>An interface representing a model's ability to references a frontend. </p>"
   syntax:
     content: public interface HasFrontend
 - uid: com.microsoft.azure.management.network.model.HasFloatingIP
@@ -311,7 +308,7 @@ references:
   nameWithType: HasFloatingIP
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP
   type: Interface
-  summary: <p>An interface representing a model's ability to have floating IP support. </p>
+  summary: "<p>An interface representing a model's ability to have floating IP support. </p>"
   syntax:
     content: public interface HasFloatingIP
 - uid: com.microsoft.azure.management.network.model.HasProtocol
@@ -321,7 +318,7 @@ references:
   nameWithType: HasProtocol<ProtocolT>
   fullName: com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a transport protocol. </p>
+  summary: "<p>An interface representing a model's ability to reference a transport protocol. </p>"
   syntax:
     content: public interface HasProtocol<ProtocolT>
     typeParameters:
@@ -335,7 +332,7 @@ references:
   nameWithType: HasFrontendPort
   fullName: com.microsoft.azure.management.network.model.HasFrontendPort
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a frontend port. </p>
+  summary: "<p>An interface representing a model's ability to reference a frontend port. </p>"
   syntax:
     content: public interface HasFrontendPort
 - uid: com.microsoft.azure.management.network.LoadDistribution
@@ -345,7 +342,7 @@ references:
   nameWithType: LoadDistribution
   fullName: com.microsoft.azure.management.network.LoadDistribution
   type: Class
-  summary: <p>Defines values for LoadDistribution. </p>
+  summary: "<p>Defines values for LoadDistribution. </p>"
   syntax:
     content: public class LoadDistribution
 - uid: com.microsoft.azure.management.network.LoadBalancerBackend
@@ -355,7 +352,7 @@ references:
   nameWithType: LoadBalancerBackend
   fullName: com.microsoft.azure.management.network.LoadBalancerBackend
   type: Interface
-  summary: <p>A client-side representation of a load balancer backend address pool. </p>
+  summary: "<p>A client-side representation of a load balancer backend address pool. </p>"
   syntax:
     content: public interface LoadBalancerBackend extends HasInner<BackendAddressPoolInner>,ChildResource<LoadBalancer>,HasLoadBalancingRules,HasBackendNics
 - uid: com.microsoft.azure.management.network.LoadBalancerProbe
@@ -365,6 +362,6 @@ references:
   nameWithType: LoadBalancerProbe
   fullName: com.microsoft.azure.management.network.LoadBalancerProbe
   type: Interface
-  summary: <p>A client-side representation of a load balancing probe. </p>
+  summary: "<p>A client-side representation of a load balancing probe. </p>"
   syntax:
     content: public interface LoadBalancerProbe extends HasInner<ProbeInner>,ChildResource<LoadBalancer>,HasLoadBalancingRules,HasProtocol<ProbeProtocol>,HasPort

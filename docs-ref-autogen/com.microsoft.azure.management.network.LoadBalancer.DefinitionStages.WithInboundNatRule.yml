@@ -76,7 +76,7 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithCreateAndInboundNatRule
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreateAndInboundNatRule
   type: Interface
-  summary: <p>The stage of a load balancer definition allowing to create the load balancer or add an inbound NAT rule. </p>
+  summary: "<p>The stage of a load balancer definition allowing to create the load balancer or add an inbound NAT rule. </p>"
   syntax:
     content: public interface WithCreateAndInboundNatRule extends LoadBalancer.DefinitionStages.WithCreate,LoadBalancer.DefinitionStages.WithInboundNatRule
 - uid: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreateAndNatChoice
@@ -86,7 +86,7 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithCreateAndNatChoice
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreateAndNatChoice
   type: Interface
-  summary: <p>The stage of a load balancer definition allowing to create the load balancer or start configuring optional inbound NAT rules or pools. </p>
+  summary: "<p>The stage of a load balancer definition allowing to create the load balancer or start configuring optional inbound NAT rules or pools. </p>"
   syntax:
     content: public interface WithCreateAndNatChoice extends LoadBalancer.DefinitionStages.WithCreate,LoadBalancer.DefinitionStages.WithInboundNatRule,LoadBalancer.DefinitionStages.WithInboundNatPool
 - uid: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithLBRuleOrNat
@@ -96,6 +96,6 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithLBRuleOrNat
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithLBRuleOrNat
   type: Interface
-  summary: <p>The stage of a load balancer definition allowing to add a load blanacing rule, or an inbound NAT rule or pool. </p>
+  summary: "<p>The stage of a load balancer definition allowing to add a load blanacing rule, or an inbound NAT rule or pool. </p>"
   syntax:
     content: public interface WithLBRuleOrNat

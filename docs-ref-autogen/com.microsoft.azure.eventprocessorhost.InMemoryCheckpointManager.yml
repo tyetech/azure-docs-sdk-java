@@ -349,10 +349,7 @@ references:
   nameWithType: ICheckpointManager.deleteCheckpointStore()
   fullName: com.microsoft.azure.eventprocessorhost.ICheckpointManager.deleteCheckpointStore()
   type: Method
-  summary: >-
-    <p>Deletes the checkpoint store.</p>
-
-    <p></p>
+  summary: "<p>Deletes the checkpoint store.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Void> deleteCheckpointStore()
     return:
@@ -365,10 +362,7 @@ references:
   nameWithType: Checkpoint
   fullName: com.microsoft.azure.eventprocessorhost.Checkpoint
   type: Class
-  summary: >-
-    <p>Checkpoint class is public so that advanced users can implement an ICheckpointManager. Unless you are implementing ICheckpointManager you should not have to deal with objects of this class directly. </p>
-
-    <p>A Checkpoint is essentially just a tuple. It has a fixed partition id, set at creation time and immutable thereafter, and associates that with an offset/sequenceNumber pair which indicates a position within the events in that partition. </p>
+  summary: "<p>Checkpoint class is public so that advanced users can implement an ICheckpointManager. Unless you are implementing ICheckpointManager you should not have to deal with objects of this class directly. </p>\r\n<p>A Checkpoint is essentially just a tuple. It has a fixed partition id, set at creation time and immutable thereafter, and associates that with an offset/sequenceNumber pair which indicates a position within the events in that partition. </p>"
   syntax:
     content: public class Checkpoint
 - uid: com.microsoft.azure.eventprocessorhost.ICheckpointManager.getCheckpoint(String)
@@ -422,10 +416,7 @@ references:
   nameWithType: CompleteLease
   fullName: com.microsoft.azure.eventprocessorhost.CompleteLease
   type: Class
-  summary: >-
-    <p>CompleteLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>
-
-    <p>CompleteLease carries around complete information about a lease. By itself, it has the epoch. Any lease manager implementation can derive from this class to add data which the lease manager needs to function <ndash></ndash> see AzureBlobLease for an example. Having two distinct classes allows the code to clearly express which variety of lease any variable holds or a method requires, and avoids the problem of accidentally supplying a lightweight BaseLease to a method which needs the lease-manager-specific fields. </p>
+  summary: "<p>CompleteLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>\r\n<p>CompleteLease carries around complete information about a lease. By itself, it has the epoch. Any lease manager implementation can derive from this class to add data which the lease manager needs to function <ndash></ndash> see AzureBlobLease for an example. Having two distinct classes allows the code to clearly express which variety of lease any variable holds or a method requires, and avoids the problem of accidentally supplying a lightweight BaseLease to a method which needs the lease-manager-specific fields. </p>"
   syntax:
     content: public class CompleteLease extends BaseLease
 - uid: com.microsoft.azure.eventprocessorhost.ICheckpointManager.deleteCheckpoint(String)

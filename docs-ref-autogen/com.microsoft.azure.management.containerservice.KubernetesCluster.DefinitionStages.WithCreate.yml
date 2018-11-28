@@ -40,10 +40,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -56,10 +53,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -76,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -92,10 +83,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithNetworkProfile.defineNetworkProfile()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithNetworkProfile.defineNetworkProfile()
   type: Method
-  summary: >-
-    <p>Begins the definition of a network profile to be attached to the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a network profile to be attached to the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public NetworkProfileDefinitionStages.Blank<KubernetesCluster.DefinitionStages.WithCreate> defineNetworkProfile()
     return:
@@ -132,10 +120,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   type: Method
-  summary: >-
-    <p>Updates the cluster's add-on's profiles.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's add-on's profiles.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
     parameters:
@@ -152,10 +137,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithDnsPrefix.withDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix.withDnsPrefix(String dnsPrefix)
   type: Method
-  summary: >-
-    <p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.DefinitionStages.WithCreate withDnsPrefix(String dnsPrefix)
     parameters:
@@ -172,7 +154,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -192,7 +174,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -209,10 +191,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -226,7 +205,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithNetworkProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify a network profile. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify a network profile. </p>"
   syntax:
     content: public interface WithNetworkProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix
@@ -236,7 +215,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithDnsPrefix
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the DNS prefix label. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the DNS prefix label. </p>"
   syntax:
     content: public interface WithDnsPrefix
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
@@ -246,7 +225,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAddOnProfiles
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the cluster's add-on's profiles. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the cluster's add-on's profiles. </p>"
   syntax:
     content: public interface WithAddOnProfiles
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags
@@ -256,10 +235,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -273,6 +249,6 @@ references:
   nameWithType: KubernetesCluster.Definition
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
   type: Interface
-  summary: <p>Interface for all the definitions related to a Kubernetes cluster. </p>
+  summary: "<p>Interface for all the definitions related to a Kubernetes cluster. </p>"
   syntax:
     content: public interface Definition extends KubernetesCluster.DefinitionStages.Blank,KubernetesCluster.DefinitionStages.WithGroup,KubernetesCluster.DefinitionStages.WithVersion,KubernetesCluster.DefinitionStages.WithLinuxRootUsername,KubernetesCluster.DefinitionStages.WithLinuxSshKey,KubernetesCluster.DefinitionStages.WithServicePrincipalClientId,KubernetesCluster.DefinitionStages.WithServicePrincipalProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAgentPool,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithAddOnProfiles,KubernetesCluster.DefinitionStages.WithCreate

@@ -62,11 +62,6 @@ references:
   nameWithType: BaseLease
   fullName: com.microsoft.azure.eventprocessorhost.BaseLease
   type: Class
-  summary: >-
-    <p>BaseLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>
-
-    <p>This lightweight base exists to allow ILeaseManager.getAllLeases to operate as quickly as possible <ndash></ndash> for some lease manager implementations, loading the entire contents of a lease form the store may be expensive. BaseLease contains only the minimum amount of information required to allow PartitionScanner to operate. </p>
-
-    <p>Note that a Lease object just carries information about a partition lease. The APIs to acquire/renew/release a lease are all on ILeaseManager. </p>
+  summary: "<p>BaseLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>\r\n<p>This lightweight base exists to allow ILeaseManager.getAllLeases to operate as quickly as possible <ndash></ndash> for some lease manager implementations, loading the entire contents of a lease form the store may be expensive. BaseLease contains only the minimum amount of information required to allow PartitionScanner to operate. </p>\r\n<p>Note that a Lease object just carries information about a partition lease. The APIs to acquire/renew/release a lease are all on ILeaseManager. </p>"
   syntax:
     content: public class BaseLease

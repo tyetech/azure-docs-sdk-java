@@ -951,7 +951,7 @@ references:
   nameWithType: IInheritedBehaviors
   fullName: com.microsoft.azure.batch.IInheritedBehaviors
   type: Interface
-  summary: <p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>
+  summary: "<p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>"
   syntax:
     content: public interface IInheritedBehaviors
 - uid: com.microsoft.azure.batch.BatchClientBehavior
@@ -961,7 +961,7 @@ references:
   nameWithType: BatchClientBehavior
   fullName: com.microsoft.azure.batch.BatchClientBehavior
   type: Class
-  summary: <p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>
+  summary: "<p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>"
   syntax:
     content: public class BatchClientBehavior
 - uid: com.microsoft.azure.batch.BatchClient
@@ -971,7 +971,7 @@ references:
   nameWithType: BatchClient
   fullName: com.microsoft.azure.batch.BatchClient
   type: Class
-  summary: <p>A client for an Azure Batch account, used to access the Batch service. </p>
+  summary: "<p>A client for an Azure Batch account, used to access the Batch service. </p>"
   syntax:
     content: public class BatchClient
 - uid: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
@@ -981,10 +981,7 @@ references:
   nameWithType: IInheritedBehaviors.customBehaviors()
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
   type: Method
-  summary: >-
-    <p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public Collection<BatchClientBehavior> customBehaviors()
     return:
@@ -997,10 +994,7 @@ references:
   nameWithType: IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   type: Method
-  summary: >-
-    <p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public IInheritedBehaviors withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
     parameters:
@@ -1017,7 +1011,7 @@ references:
   nameWithType: TaskAddParameter
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddParameter
   type: Class
-  summary: <p>An Azure Batch task to add. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>An Azure Batch task to add. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class TaskAddParameter
 - uid: com.microsoft.azure.batch.protocol.models.BatchErrorException
@@ -1027,7 +1021,7 @@ references:
   nameWithType: BatchErrorException
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException
   type: Class
-  summary: <p>Exception thrown for an invalid response with BatchError information. </p>
+  summary: "<p>Exception thrown for an invalid response with BatchError information. </p>"
   syntax:
     content: public class BatchErrorException
 - uid: com.microsoft.azure.batch.protocol.models.CloudTask
@@ -1037,7 +1031,7 @@ references:
   nameWithType: CloudTask
   fullName: com.microsoft.azure.batch.protocol.models.CloudTask
   type: Class
-  summary: <p>An Azure Batch task. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>An Azure Batch task. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class CloudTask
 - uid: com.microsoft.azure.batch.DetailLevel
@@ -1047,7 +1041,7 @@ references:
   nameWithType: DetailLevel
   fullName: com.microsoft.azure.batch.DetailLevel
   type: Class
-  summary: <p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>
+  summary: "<p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>"
   syntax:
     content: public class DetailLevel
 - uid: com.microsoft.azure.batch.protocol.models.SubtaskInformation
@@ -1057,7 +1051,7 @@ references:
   nameWithType: SubtaskInformation
   fullName: com.microsoft.azure.batch.protocol.models.SubtaskInformation
   type: Class
-  summary: <p>Information about an Azure Batch subtask. </p>
+  summary: "<p>Information about an Azure Batch subtask. </p>"
   syntax:
     content: public class SubtaskInformation
 - uid: com.microsoft.azure.batch.protocol.models.TaskConstraints
@@ -1067,6 +1061,6 @@ references:
   nameWithType: TaskConstraints
   fullName: com.microsoft.azure.batch.protocol.models.TaskConstraints
   type: Class
-  summary: <p>Execution constraints to apply to a task. </p>
+  summary: "<p>Execution constraints to apply to a task. </p>"
   syntax:
     content: public class TaskConstraints

@@ -57,10 +57,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -73,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -93,10 +87,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -109,10 +100,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromDisk.fromDisk(String managedDiskId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromDisk.fromDisk(String managedDiskId)
   type: Method
-  summary: >-
-    <p>Specifies the ID of source data managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the ID of source data managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize fromDisk(String managedDiskId)
     parameters:
@@ -129,10 +117,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromDisk.fromDisk(Disk managedDisk)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromDisk.fromDisk(Disk managedDisk)
   type: Method
-  summary: >-
-    <p>Specifies the source data managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize fromDisk(Disk managedDisk)
     parameters:
@@ -149,10 +134,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromSnapshot.fromSnapshot(String snapshotId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromSnapshot.fromSnapshot(String snapshotId)
   type: Method
-  summary: >-
-    <p>Specifies the source data managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize fromSnapshot(String snapshotId)
     parameters:
@@ -169,10 +151,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromSnapshot.fromSnapshot(Snapshot snapshot)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromSnapshot.fromSnapshot(Snapshot snapshot)
   type: Method
-  summary: >-
-    <p>Specifies the source data managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize fromSnapshot(Snapshot snapshot)
     parameters:
@@ -189,10 +168,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromVhd.fromVhd(String vhdUrl)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromVhd.fromVhd(String vhdUrl)
   type: Method
-  summary: >-
-    <p>Specifies the source data VHD.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data VHD.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize fromVhd(String vhdUrl)
     parameters:
@@ -233,10 +209,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   type: Method
-  summary: >-
-    <p>Specifies the availability zone for the managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the availability zone for the managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withAvailabilityZone(AvailabilityZoneId zoneId)
     parameters:
@@ -253,10 +226,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithData.withData()
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithData.withData()
   type: Method
-  summary: >-
-    <p>Begins definition of managed disk containing data.</p>
-
-    <p></p>
+  summary: "<p>Begins definition of managed disk containing data.</p>\r\n<p></p>"
   syntax:
     content: public WithDataDiskSource withData()
     return:
@@ -269,10 +239,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromDisk(String sourceDiskId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromDisk(String sourceDiskId)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withLinuxFromDisk(String sourceDiskId)
     parameters:
@@ -289,10 +256,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromDisk(Disk sourceDisk)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromDisk(Disk sourceDisk)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withLinuxFromDisk(Disk sourceDisk)
     parameters:
@@ -309,10 +273,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromSnapshot(String sourceSnapshotId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromSnapshot(String sourceSnapshotId)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withLinuxFromSnapshot(String sourceSnapshotId)
     parameters:
@@ -329,10 +290,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromSnapshot(Snapshot sourceSnapshot)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromSnapshot(Snapshot sourceSnapshot)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withLinuxFromSnapshot(Snapshot sourceSnapshot)
     parameters:
@@ -349,10 +307,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromVhd(String vhdUrl)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithLinuxDiskSource.withLinuxFromVhd(String vhdUrl)
   type: Method
-  summary: >-
-    <p>Specifies the source specialized or generalized Linux OS VHD.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source specialized or generalized Linux OS VHD.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withLinuxFromVhd(String vhdUrl)
     parameters:
@@ -369,10 +324,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskSource.withSizeInGB(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskSource.withSizeInGB(int sizeInGB)
   type: Method
-  summary: >-
-    <p>Specifies the disk size for an empty disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the disk size for an empty disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSizeInGB(int sizeInGB)
     parameters:
@@ -389,10 +341,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithCreateAndSize.withSizeInGB(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreateAndSize.withSizeInGB(int sizeInGB)
   type: Method
-  summary: >-
-    <p>Specifies the disk size.</p>
-
-    <p></p>
+  summary: "<p>Specifies the disk size.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withSizeInGB(int sizeInGB)
     parameters:
@@ -409,10 +358,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithSku.withSku(DiskSkuTypes sku)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithSku.withSku(DiskSkuTypes sku)
   type: Method
-  summary: >-
-    <p>Specifies the SKU.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(DiskSkuTypes sku)
     parameters:
@@ -429,7 +375,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -449,7 +395,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -466,10 +412,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromDisk(String sourceDiskId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromDisk(String sourceDiskId)
   type: Method
-  summary: >-
-    <p>Specifies a source Windows OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies a source Windows OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withWindowsFromDisk(String sourceDiskId)
     parameters:
@@ -486,10 +429,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromDisk(Disk sourceDisk)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromDisk(Disk sourceDisk)
   type: Method
-  summary: >-
-    <p>Specifies a source Windows OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies a source Windows OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withWindowsFromDisk(Disk sourceDisk)
     parameters:
@@ -506,10 +446,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromSnapshot(String sourceSnapshotId)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromSnapshot(String sourceSnapshotId)
   type: Method
-  summary: >-
-    <p>Specifies a source Windows OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies a source Windows OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withWindowsFromSnapshot(String sourceSnapshotId)
     parameters:
@@ -526,10 +463,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromSnapshot(Snapshot sourceSnapshot)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromSnapshot(Snapshot sourceSnapshot)
   type: Method
-  summary: >-
-    <p>Specifies a source Windows OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies a source Windows OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withWindowsFromSnapshot(Snapshot sourceSnapshot)
     parameters:
@@ -546,10 +480,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromVhd(String vhdUrl)
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithWindowsDiskSource.withWindowsFromVhd(String vhdUrl)
   type: Method
-  summary: >-
-    <p>Specifies a source specialized or generalized Windows OS VHD.</p>
-
-    <p></p>
+  summary: "<p>Specifies a source specialized or generalized Windows OS VHD.</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndSize withWindowsFromVhd(String vhdUrl)
     parameters:
@@ -566,7 +497,7 @@ references:
   nameWithType: Disk.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a managed disk definition. </p>
+  summary: "<p>The first stage of a managed disk definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithGroup
@@ -576,7 +507,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of a managed disk definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of a managed disk definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDiskSource
@@ -586,7 +517,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDiskSource
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDiskSource
   type: Interface
-  summary: <p>The stage of a managed disk definition allowing to choose OS source or data source. </p>
+  summary: "<p>The stage of a managed disk definition allowing to choose OS source or data source. </p>"
   syntax:
     content: public interface WithDiskSource
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithWindowsDiskSource
@@ -596,7 +527,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithWindowsDiskSource
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithWindowsDiskSource
   type: Interface
-  summary: <p>The stage of a managed disk definition allowing to choose a Windows OS source. </p>
+  summary: "<p>The stage of a managed disk definition allowing to choose a Windows OS source. </p>"
   syntax:
     content: public interface WithWindowsDiskSource
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithLinuxDiskSource
@@ -606,7 +537,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithLinuxDiskSource
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithLinuxDiskSource
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose Linux OS source. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose Linux OS source. </p>"
   syntax:
     content: public interface WithLinuxDiskSource
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithData
@@ -616,7 +547,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithData
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithData
   type: Interface
-  summary: <p>The stage of the managed disk definition that specifies it hold data. </p>
+  summary: "<p>The stage of the managed disk definition that specifies it hold data. </p>"
   syntax:
     content: public interface WithData
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskSource
@@ -626,7 +557,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskSource
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskSource
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose data source. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose data source. </p>"
   syntax:
     content: public interface WithDataDiskSource
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromVhd
@@ -636,7 +567,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromVhd
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromVhd
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose source data disk VHD. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose source data disk VHD. </p>"
   syntax:
     content: public interface WithDataDiskFromVhd
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromDisk
@@ -646,7 +577,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromDisk
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromDisk
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose managed disk containing data. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose managed disk containing data. </p>"
   syntax:
     content: public interface WithDataDiskFromDisk
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromSnapshot
@@ -656,7 +587,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskFromSnapshot
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskFromSnapshot
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose managed snapshot containing data. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose managed snapshot containing data. </p>"
   syntax:
     content: public interface WithDataDiskFromSnapshot
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreateAndSize
@@ -666,7 +597,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithCreateAndSize
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreateAndSize
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to create the disk or optionally specify size. </p>
+  summary: "<p>The stage of the managed disk definition allowing to create the disk or optionally specify size. </p>"
   syntax:
     content: public interface WithCreateAndSize
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreate
@@ -676,6 +607,6 @@ references:
   nameWithType: Disk.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

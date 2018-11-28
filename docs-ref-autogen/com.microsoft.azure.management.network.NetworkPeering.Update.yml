@@ -48,10 +48,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -64,10 +61,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -80,10 +74,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -112,10 +103,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithAccess.withAccessBetweenBothNetworks()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithAccess.withAccessBetweenBothNetworks()
   type: Method
-  summary: >-
-    <p>Enables access to either peered virtual network from the other. </p>
-
-    <p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding access setting on the remote network's matching peering explicitly. </p>
+  summary: "<p>Enables access to either peered virtual network from the other. </p>\r\n<p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding access setting on the remote network's matching peering explicitly. </p>"
   syntax:
     content: public Update withAccessBetweenBothNetworks()
     return:
@@ -128,10 +116,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithGatewayUse.withGatewayUseByRemoteNetworkAllowed()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse.withGatewayUseByRemoteNetworkAllowed()
   type: Method
-  summary: >-
-    <p>Allows the remote network to use this network's gateway (a.k.a. gateway transit), but does not start the use of the gateway by the remote network. </p>
-
-    <p>If this network is currently configured to use the remote network's gateway, that use will be automatically disabled, as these two settings cannot be used together. </p>
+  summary: "<p>Allows the remote network to use this network's gateway (a.k.a. gateway transit), but does not start the use of the gateway by the remote network. </p>\r\n<p>If this network is currently configured to use the remote network's gateway, that use will be automatically disabled, as these two settings cannot be used together. </p>"
   syntax:
     content: public Update withGatewayUseByRemoteNetworkAllowed()
     return:
@@ -144,14 +129,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithGatewayUse.withGatewayUseByRemoteNetworkStarted()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse.withGatewayUseByRemoteNetworkStarted()
   type: Method
-  summary: >-
-    <p>Allows and starts the use of this network's gateway by the remote network (a.k.a. gateway transit). </p>
-
-    <p>If the remote network is not in the same subscription as this network, then gateway use by the remote gateway will only be allowed on this network, but not started. The matching peering on the remote network must be modified explicitly to start it. </p>
-
-    <p>If this network is currently configured to use the remote network's gateway, that use will be automatically disabled, as these two settings cannot be used together. </p>
-
-    <p>Before gateway use by a remote network can be started, a working gateway must already be in place within this network. </p>
+  summary: "<p>Allows and starts the use of this network's gateway by the remote network (a.k.a. gateway transit). </p>\r\n<p>If the remote network is not in the same subscription as this network, then gateway use by the remote gateway will only be allowed on this network, but not started. The matching peering on the remote network must be modified explicitly to start it. </p>\r\n<p>If this network is currently configured to use the remote network's gateway, that use will be automatically disabled, as these two settings cannot be used together. </p>\r\n<p>Before gateway use by a remote network can be started, a working gateway must already be in place within this network. </p>"
   syntax:
     content: public Update withGatewayUseByRemoteNetworkStarted()
     return:
@@ -164,14 +142,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithGatewayUse.withGatewayUseOnRemoteNetworkStarted()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse.withGatewayUseOnRemoteNetworkStarted()
   type: Method
-  summary: >-
-    <p>Starts the use of the remote network's gateway. </p>
-
-    <p>If the remote network is in the same subscription, remote gateway use by this network (a.k.a. gateway transit) will also be automatically allowed on the remote network's side. Otherwise, this network will only be configured to use the remote gateway, but the matching peering on the remote network must still be additionally modified explicitly to allow gateway use by this network. </p>
-
-    <p>If this network is currently configured to allow the remote network to use its gateway, that use will be automatically disabled, as these two settings cannot be used together. </p>
-
-    <p>Before gateway use on a remote network can be started, a working gateway must already be in place within the remote network. </p>
+  summary: "<p>Starts the use of the remote network's gateway. </p>\r\n<p>If the remote network is in the same subscription, remote gateway use by this network (a.k.a. gateway transit) will also be automatically allowed on the remote network's side. Otherwise, this network will only be configured to use the remote gateway, but the matching peering on the remote network must still be additionally modified explicitly to allow gateway use by this network. </p>\r\n<p>If this network is currently configured to allow the remote network to use its gateway, that use will be automatically disabled, as these two settings cannot be used together. </p>\r\n<p>Before gateway use on a remote network can be started, a working gateway must already be in place within the remote network. </p>"
   syntax:
     content: public Update withGatewayUseOnRemoteNetworkStarted()
     return:
@@ -184,10 +155,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithAccess.withoutAccessFromEitherNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithAccess.withoutAccessFromEitherNetwork()
   type: Method
-  summary: >-
-    <p>Disallows access to either peered network from the other. </p>
-
-    <p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding access setting on the remote network's matching peering explicitly. </p>
+  summary: "<p>Disallows access to either peered network from the other. </p>\r\n<p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding access setting on the remote network's matching peering explicitly. </p>"
   syntax:
     content: public Update withoutAccessFromEitherNetwork()
     return:
@@ -200,10 +168,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithGatewayUse.withoutAnyGatewayUse()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse.withoutAnyGatewayUse()
   type: Method
-  summary: >-
-    <p>Disables any gateway use by this network and the remote one. </p>
-
-    <p>This will have effect on the remote network only if the remote network is in the same subscription as this network. Otherwise, only this network's use of the remote network's gateway will be stopped, but the use of this network's gateway by the remote network will only be disallowed. You will have to update the remote network's peering explicitly to properly stop its use of this network's gateway. </p>
+  summary: "<p>Disables any gateway use by this network and the remote one. </p>\r\n<p>This will have effect on the remote network only if the remote network is in the same subscription as this network. Otherwise, only this network's use of the remote network's gateway will be stopped, but the use of this network's gateway by the remote network will only be disallowed. You will have to update the remote network's peering explicitly to properly stop its use of this network's gateway. </p>"
   syntax:
     content: public Update withoutAnyGatewayUse()
     return:
@@ -216,10 +181,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithGatewayUse.withoutGatewayUseByRemoteNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse.withoutGatewayUseByRemoteNetwork()
   type: Method
-  summary: >-
-    <p>Stops and disallows the use of this network's gateway by the remote network. </p>
-
-    <p>If the remote network is not in the same subscription, then the use of that network's gateway by this network will be stopped but not disallowed by the remote network. The matching peering on the remote network must still be explicitly updated to also disallow such use. </p>
+  summary: "<p>Stops and disallows the use of this network's gateway by the remote network. </p>\r\n<p>If the remote network is not in the same subscription, then the use of that network's gateway by this network will be stopped but not disallowed by the remote network. The matching peering on the remote network must still be explicitly updated to also disallow such use. </p>"
   syntax:
     content: public Update withoutGatewayUseByRemoteNetwork()
     return:
@@ -232,7 +194,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithGatewayUse.withoutGatewayUseOnRemoteNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse.withoutGatewayUseOnRemoteNetwork()
   type: Method
-  summary: <p>Stops this network's use of the remote network's gateway. </p>
+  summary: "<p>Stops this network's use of the remote network's gateway. </p>"
   syntax:
     content: public Update withoutGatewayUseOnRemoteNetwork()
     return:
@@ -245,10 +207,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithTrafficForwarding.withoutTrafficForwardingFromEitherNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithTrafficForwarding.withoutTrafficForwardingFromEitherNetwork()
   type: Method
-  summary: >-
-    <p>Disables traffic forwarding from either peered network to the other. </p>
-
-    <p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding traffic forwarding setting on the remote network's matching peering explicitly. </p>
+  summary: "<p>Disables traffic forwarding from either peered network to the other. </p>\r\n<p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding traffic forwarding setting on the remote network's matching peering explicitly. </p>"
   syntax:
     content: public Update withoutTrafficForwardingFromEitherNetwork()
     return:
@@ -261,7 +220,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithTrafficForwarding.withoutTrafficForwardingFromRemoteNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithTrafficForwarding.withoutTrafficForwardingFromRemoteNetwork()
   type: Method
-  summary: <p>Prevents traffic forwarding from the remote network. </p>
+  summary: "<p>Prevents traffic forwarding from the remote network. </p>"
   syntax:
     content: public Update withoutTrafficForwardingFromRemoteNetwork()
     return:
@@ -274,7 +233,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithTrafficForwarding.withoutTrafficForwardingToRemoteNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithTrafficForwarding.withoutTrafficForwardingToRemoteNetwork()
   type: Method
-  summary: <p>Disables traffic forwarding to the remote network. </p>
+  summary: "<p>Disables traffic forwarding to the remote network. </p>"
   syntax:
     content: public Update withoutTrafficForwardingToRemoteNetwork()
     return:
@@ -287,10 +246,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithTrafficForwarding.withTrafficForwardingBetweenBothNetworks()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithTrafficForwarding.withTrafficForwardingBetweenBothNetworks()
   type: Method
-  summary: >-
-    <p>Allows traffic forwarding both from either peered network to the other. </p>
-
-    <p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding traffic forwarding setting on the remote network's matching peering explicitly. </p>
+  summary: "<p>Allows traffic forwarding both from either peered network to the other. </p>\r\n<p>This setting will have effect on the remote network only if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding traffic forwarding setting on the remote network's matching peering explicitly. </p>"
   syntax:
     content: public Update withTrafficForwardingBetweenBothNetworks()
     return:
@@ -303,7 +259,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithTrafficForwarding.withTrafficForwardingFromRemoteNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithTrafficForwarding.withTrafficForwardingFromRemoteNetwork()
   type: Method
-  summary: <p>Allows traffic forwarding from the remote network. </p>
+  summary: "<p>Allows traffic forwarding from the remote network. </p>"
   syntax:
     content: public Update withTrafficForwardingFromRemoteNetwork()
     return:
@@ -316,10 +272,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithTrafficForwarding.withTrafficForwardingToRemoteNetwork()
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithTrafficForwarding.withTrafficForwardingToRemoteNetwork()
   type: Method
-  summary: >-
-    <p>Allows traffic forwarding from this network to the remote network. </p>
-
-    <p>This setting will only work here if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding traffic forwarding setting on the remote network's matching peering explicitly. </p>
+  summary: "<p>Allows traffic forwarding from this network to the remote network. </p>\r\n<p>This setting will only work here if the remote network is in the same subscription. Otherwise, it will be ignored and you need to change the corresponding traffic forwarding setting on the remote network's matching peering explicitly. </p>"
   syntax:
     content: public Update withTrafficForwardingToRemoteNetwork()
     return:
@@ -332,10 +285,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -349,7 +299,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithTrafficForwarding
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithTrafficForwarding
   type: Interface
-  summary: <p>The stage of a network peering update allowing to control traffic forwarding from or to the remote network. </p>
+  summary: "<p>The stage of a network peering update allowing to control traffic forwarding from or to the remote network. </p>"
   syntax:
     content: public interface WithTrafficForwarding
 - uid: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithAccess
@@ -359,7 +309,7 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithAccess
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithAccess
   type: Interface
-  summary: <p>The stage of a network peering update allowing to control access from and to the remote network. </p>
+  summary: "<p>The stage of a network peering update allowing to control access from and to the remote network. </p>"
   syntax:
     content: public interface WithAccess
 - uid: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse
@@ -369,6 +319,6 @@ references:
   nameWithType: NetworkPeering.UpdateStages.WithGatewayUse
   fullName: com.microsoft.azure.management.network.NetworkPeering.UpdateStages.WithGatewayUse
   type: Interface
-  summary: <p>The stage of a network peering update allowing to control the gateway use by or on the remote network. </p>
+  summary: "<p>The stage of a network peering update allowing to control the gateway use by or on the remote network. </p>"
   syntax:
     content: public interface WithGatewayUse

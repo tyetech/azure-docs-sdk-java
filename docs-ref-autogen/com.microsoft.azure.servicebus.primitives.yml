@@ -69,7 +69,7 @@ references:
   nameWithType: AuthorizationFailedException
   fullName: com.microsoft.azure.servicebus.primitives.AuthorizationFailedException
   type: Class
-  summary: <p>Authorization failed exception is thrown when error is encountered during authorizing user's permission to run the intended operations. When encountered this exception user should check whether the token/key provided in the connection string is valid, and has correct execution right for the intended operations (e.g. Receive call will need Listen claim associated with the key/token). </p>
+  summary: "<p>Authorization failed exception is thrown when error is encountered during authorizing user's permission to run the intended operations. When encountered this exception user should check whether the token/key provided in the connection string is valid, and has correct execution right for the intended operations (e.g. Receive call will need Listen claim associated with the key/token). </p>"
   syntax:
     content: public class AuthorizationFailedException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ClientConstants
@@ -88,12 +88,7 @@ references:
   nameWithType: ClientEntity
   fullName: com.microsoft.azure.servicebus.primitives.ClientEntity
   type: Class
-  summary: >-
-    <p>Contract for all client entities with Open-Close/Abort state m/c </p>
-
-    <p>main-purpose: closeAll related entities </p>
-
-    <p>Internal-class </p>
+  summary: "<p>Contract for all client entities with Open-Close/Abort state m/c </p>\r\n<p>main-purpose: closeAll related entities </p>\r\n<p>Internal-class </p>"
   syntax:
     content: public class ClientEntity
 - uid: com.microsoft.azure.servicebus.primitives.CommunicationException
@@ -103,7 +98,7 @@ references:
   nameWithType: CommunicationException
   fullName: com.microsoft.azure.servicebus.primitives.CommunicationException
   type: Class
-  summary: '<p>This exception is thrown when there is a client side connectivity issue. When receiving this exception user should check client connectivity settings to the service: <ul><li><p>Check for correct hostname and port number used in endpoint. </p></li><li><p>Check for any possible proxy settings that can block amqp ports </p></li><li><p>Check for any firewall settings that can block amqp ports </p></li><li><p>Check for any general network connectivity issues, as well as network latency. </p></li></ul></p>'
+  summary: "<p>This exception is thrown when there is a client side connectivity issue. When receiving this exception user should check client connectivity settings to the service: <ul><li><p>Check for correct hostname and port number used in endpoint. </p></li><li><p>Check for any possible proxy settings that can block amqp ports </p></li><li><p>Check for any firewall settings that can block amqp ports </p></li><li><p>Check for any general network connectivity issues, as well as network latency. </p></li></ul></p>"
   syntax:
     content: public class CommunicationException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
@@ -113,26 +108,7 @@ references:
   nameWithType: ConnectionStringBuilder
   fullName: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
   type: Class
-  summary: >-
-    <p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>
-
-    <p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(
-
-                                                 "ServiceBusNamespaceName", 
-
-                                                 "ServiceBusEntityName", // QueueName or TopicName or SubscriptionPath
-
-                                                 "SharedAccessSignatureKeyName", 
-
-                                                 "SharedAccessSignatureKey");
-
-         
-
-        String connectionString = connectionStringBuilder.toString();
-
-        </code></pre></p>
-
-    <p>A connection string is basically a string consisted of key-value pair separated by ";". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>
+  summary: "<p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>\r\n<p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(\r\n                                             \"ServiceBusNamespaceName\", \r\n                                             \"ServiceBusEntityName\", // QueueName or TopicName or SubscriptionPath\r\n                                             \"SharedAccessSignatureKeyName\", \r\n                                             \"SharedAccessSignatureKey\");\r\n     \r\n    String connectionString = connectionStringBuilder.toString();\r\n    </code></pre></p>\r\n<p>A connection string is basically a string consisted of key-value pair separated by \";\". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>"
   syntax:
     content: public class ConnectionStringBuilder
 - uid: com.microsoft.azure.servicebus.primitives.CoreMessageReceiver
@@ -169,7 +145,7 @@ references:
   nameWithType: IllegalConnectionStringFormatException
   fullName: com.microsoft.azure.servicebus.primitives.IllegalConnectionStringFormatException
   type: Class
-  summary: <p>This exception is thrown when the connection string provided does not meet the requirement for connection. </p>
+  summary: "<p>This exception is thrown when the connection string provided does not meet the requirement for connection. </p>"
   syntax:
     content: public class IllegalConnectionStringFormatException
 - uid: com.microsoft.azure.servicebus.primitives.MessageLockLostException
@@ -179,7 +155,7 @@ references:
   nameWithType: MessageLockLostException
   fullName: com.microsoft.azure.servicebus.primitives.MessageLockLostException
   type: Class
-  summary: <p>This exception is thrown when a receiver attempts  or  or  or  or  operation on a peek-locked message whose lock had already expired. </p>
+  summary: "<p>This exception is thrown when a receiver attempts  or  or  or  or  operation on a peek-locked message whose lock had already expired. </p>"
   syntax:
     content: public class MessageLockLostException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessageNotFoundException
@@ -189,7 +165,7 @@ references:
   nameWithType: MessageNotFoundException
   fullName: com.microsoft.azure.servicebus.primitives.MessageNotFoundException
   type: Class
-  summary: <p>This exception is thrown when a receiver attempts to receive a message with sequence number and the message with that sequence number is not available in the queue or subscription. </p>
+  summary: "<p>This exception is thrown when a receiver attempts to receive a message with sequence number and the message with that sequence number is not available in the queue or subscription. </p>"
   syntax:
     content: public class MessageNotFoundException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessageWithDeliveryTag
@@ -217,7 +193,7 @@ references:
   nameWithType: MessagingEntityAlreadyExistsException
   fullName: com.microsoft.azure.servicebus.primitives.MessagingEntityAlreadyExistsException
   type: Class
-  summary: <p>This exception is thrown when a subscription client tries to create a rule with the name of an already existing rule. </p>
+  summary: "<p>This exception is thrown when a subscription client tries to create a rule with the name of an already existing rule. </p>"
   syntax:
     content: public class MessagingEntityAlreadyExistsException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityDisabledException
@@ -227,7 +203,7 @@ references:
   nameWithType: MessagingEntityDisabledException
   fullName: com.microsoft.azure.servicebus.primitives.MessagingEntityDisabledException
   type: Class
-  summary: <p>This exception is thrown when a client attempts to send messages to or receive messages from a disabled entity. An entity can be disabled for SEND operations or RECEIVE operations or both. </p>
+  summary: "<p>This exception is thrown when a client attempts to send messages to or receive messages from a disabled entity. An entity can be disabled for SEND operations or RECEIVE operations or both. </p>"
   syntax:
     content: public class MessagingEntityDisabledException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityNotFoundException
@@ -237,7 +213,7 @@ references:
   nameWithType: MessagingEntityNotFoundException
   fullName: com.microsoft.azure.servicebus.primitives.MessagingEntityNotFoundException
   type: Class
-  summary: <p>This exception is thrown when a client attempts to create a sender or receiver or client to a non existent entity. </p>
+  summary: "<p>This exception is thrown when a client attempts to create a sender or receiver or client to a non existent entity. </p>"
   syntax:
     content: public class MessagingEntityNotFoundException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityType
@@ -256,7 +232,7 @@ references:
   nameWithType: MessagingFactory
   fullName: com.microsoft.azure.servicebus.primitives.MessagingFactory
   type: Class
-  summary: <p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>
+  summary: "<p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>"
   syntax:
     content: public class MessagingFactory extends ClientEntity
 - uid: com.microsoft.azure.servicebus.primitives.MiscRequestResponseOperationHandler
@@ -275,7 +251,7 @@ references:
   nameWithType: OperationCancelledException
   fullName: com.microsoft.azure.servicebus.primitives.OperationCancelledException
   type: Class
-  summary: <p>This exception is thrown when the underlying Amqp layer encounter an abnormal link abort or disconnect of connection in an unexpected fashion. </p>
+  summary: "<p>This exception is thrown when the underlying Amqp layer encounter an abnormal link abort or disconnect of connection in an unexpected fashion. </p>"
   syntax:
     content: public class OperationCancelledException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.Pair
@@ -299,7 +275,7 @@ references:
   nameWithType: PayloadSizeExceededException
   fullName: com.microsoft.azure.servicebus.primitives.PayloadSizeExceededException
   type: Class
-  summary: <p>this exception is thrown when user attempts to send a event data or brokered message that has exceeded the allowed payload size as defined by the service. Note that in a batch send scenario the limit can include possible batch overhead. </p>
+  summary: "<p>this exception is thrown when user attempts to send a event data or brokered message that has exceeded the allowed payload size as defined by the service. Note that in a batch send scenario the limit can include possible batch overhead. </p>"
   syntax:
     content: public class PayloadSizeExceededException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.QuotaExceededException
@@ -309,7 +285,7 @@ references:
   nameWithType: QuotaExceededException
   fullName: com.microsoft.azure.servicebus.primitives.QuotaExceededException
   type: Class
-  summary: <p>This exception is thrown to signal that a service bus entity or namespace exceeded its quota. A quota can be a limit on entity size, message size, maximum concurrent connections or maximum concurrent operations. </p>
+  summary: "<p>This exception is thrown to signal that a service bus entity or namespace exceeded its quota. A quota can be a limit on entity size, message size, maximum concurrent connections or maximum concurrent operations. </p>"
   syntax:
     content: public class QuotaExceededException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ReceiverDisconnectedException
@@ -319,10 +295,7 @@ references:
   nameWithType: ReceiverDisconnectedException
   fullName: com.microsoft.azure.servicebus.primitives.ReceiverDisconnectedException
   type: Class
-  summary: >-
-    <p>This exception is thrown when a EventHubReceiver is being disconnected because of one of the following reason: <ul><li><p>user attempts to connect a non-epoch receiver to a event hub partition, when there is an epoch receiver connected to the partition. </p></li><li><p>you are using an epoch receiver for a given partition but another epoch receiver with a higher epoch value connects to the same partition. </p></li></ul>
-
-    User should make sure either all code are using non-epoch receivers, or ensure that there is only one epoch receiver processing a given partition at any given point in time. </p>
+  summary: "<p>This exception is thrown when a EventHubReceiver is being disconnected because of one of the following reason: <ul><li><p>user attempts to connect a non-epoch receiver to a event hub partition, when there is an epoch receiver connected to the partition. </p></li><li><p>you are using an epoch receiver for a given partition but another epoch receiver with a higher epoch value connects to the same partition. </p></li></ul>\r\nUser should make sure either all code are using non-epoch receivers, or ensure that there is only one epoch receiver processing a given partition at any given point in time. </p>"
   syntax:
     content: public class ReceiverDisconnectedException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ReceiverErrorContext
@@ -359,7 +332,7 @@ references:
   nameWithType: RetryExponential
   fullName: com.microsoft.azure.servicebus.primitives.RetryExponential
   type: Class
-  summary: <p>RetryPolicy implementation where the delay between retries will grow in an exponential manner. RetryPolicy can be set on the client operations using <xref uid="com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder" data-throw-if-not-resolved="false">ConnectionStringBuilder</xref>. RetryIntervals will be computed using a retryFactor which is a function of deltaBackOff (MaximumBackoff - MinimumBackoff) and MaximumRetryCount </p>
+  summary: "<p>RetryPolicy implementation where the delay between retries will grow in an exponential manner. RetryPolicy can be set on the client operations using <xref uid=\"com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder\" data-throw-if-not-resolved=\"false\">ConnectionStringBuilder</xref>. RetryIntervals will be computed using a retryFactor which is a function of deltaBackOff (MaximumBackoff - MinimumBackoff) and MaximumRetryCount </p>"
   syntax:
     content: public class RetryExponential extends RetryPolicy
 - uid: com.microsoft.azure.servicebus.primitives.RetryPolicy
@@ -369,7 +342,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy
   type: Class
-  summary: <p>Represents an abstraction of a policy for retrying messaging operations when an exception is encountered. Some exceptions encountered by a sender or receiver can be transient like ServerBusy and the operation will succeed if retried. Clients can specify a retry policy using <xref uid="com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder" data-throw-if-not-resolved="false">ConnectionStringBuilder</xref> which guides senders and receivers to automatically retry the failed operation before throwing the exception to the client application. Users should not implement this class, instead should use one of the provided implementations through <xref uid="com.microsoft.azure.servicebus.primitives.RetryPolicy.getDefault()" data-throw-if-not-resolved="false">getDefault</xref> or <xref uid="com.microsoft.azure.servicebus.primitives.RetryPolicy.getNoRetry()" data-throw-if-not-resolved="false">getNoRetry</xref>. </p>
+  summary: "<p>Represents an abstraction of a policy for retrying messaging operations when an exception is encountered. Some exceptions encountered by a sender or receiver can be transient like ServerBusy and the operation will succeed if retried. Clients can specify a retry policy using <xref uid=\"com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder\" data-throw-if-not-resolved=\"false\">ConnectionStringBuilder</xref> which guides senders and receivers to automatically retry the failed operation before throwing the exception to the client application. Users should not implement this class, instead should use one of the provided implementations through <xref uid=\"com.microsoft.azure.servicebus.primitives.RetryPolicy.getDefault()\" data-throw-if-not-resolved=\"false\">getDefault</xref> or <xref uid=\"com.microsoft.azure.servicebus.primitives.RetryPolicy.getNoRetry()\" data-throw-if-not-resolved=\"false\">getNoRetry</xref>. </p>"
   syntax:
     content: public class RetryPolicy
 - uid: com.microsoft.azure.servicebus.primitives.SASUtil
@@ -379,22 +352,7 @@ references:
   nameWithType: SASUtil
   fullName: com.microsoft.azure.servicebus.primitives.SASUtil
   type: Class
-  summary: >-
-    <p>
-
-      <xrefsect id="deprecated_1_deprecated000104">
-
-        <xreftitle>Deprecated</xreftitle>
-
-        <xrefdescription>
-
-          <p>Use <xref uid="com.microsoft.azure.servicebus.security.SharedAccessSignatureTokenProvider" data-throw-if-not-resolved="false">com.microsoft.azure.servicebus.security.SharedAccessSignatureTokenProvider</xref></p>
-
-        </xrefdescription>
-
-      </xrefsect>
-
-    </p>
+  summary: "<p>\r\n  <xrefsect id=\"deprecated_1_deprecated000104\">\r\n    <xreftitle>Deprecated</xreftitle>\r\n    <xrefdescription>\r\n      <p>Use <xref uid=\"com.microsoft.azure.servicebus.security.SharedAccessSignatureTokenProvider\" data-throw-if-not-resolved=\"false\">com.microsoft.azure.servicebus.security.SharedAccessSignatureTokenProvider</xref></p>\r\n    </xrefdescription>\r\n  </xrefsect>\r\n</p>"
   syntax:
     content: public class SASUtil
 - uid: com.microsoft.azure.servicebus.primitives.SenderErrorContext
@@ -413,7 +371,7 @@ references:
   nameWithType: ServerBusyException
   fullName: com.microsoft.azure.servicebus.primitives.ServerBusyException
   type: Class
-  summary: <p>Server busy exception is thrown when the current entity's activity has put excessive load onto the service. When encountered this exception user should wait at least 4 seconds before any retry/runtime operations for the said entity again. </p>
+  summary: "<p>Server busy exception is thrown when the current entity's activity has put excessive load onto the service. When encountered this exception user should wait at least 4 seconds before any retry/runtime operations for the said entity again. </p>"
   syntax:
     content: public class ServerBusyException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ServiceBusException
@@ -423,7 +381,7 @@ references:
   nameWithType: ServiceBusException
   fullName: com.microsoft.azure.servicebus.primitives.ServiceBusException
   type: Class
-  summary: <p>This is the base exception that service bus will generate for all error cases. </p>
+  summary: "<p>This is the base exception that service bus will generate for all error cases. </p>"
   syntax:
     content: public class ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.SessionCannotBeLockedException
@@ -433,7 +391,7 @@ references:
   nameWithType: SessionCannotBeLockedException
   fullName: com.microsoft.azure.servicebus.primitives.SessionCannotBeLockedException
   type: Class
-  summary: <p>This exception is thrown when a client attempts to accept a session that is already locked by another client. </p>
+  summary: "<p>This exception is thrown when a client attempts to accept a session that is already locked by another client. </p>"
   syntax:
     content: public class SessionCannotBeLockedException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.SessionLockLostException
@@ -443,7 +401,7 @@ references:
   nameWithType: SessionLockLostException
   fullName: com.microsoft.azure.servicebus.primitives.SessionLockLostException
   type: Class
-  summary: <p>This exception is thrown when a session receiver performs an operation on a session after its lock is expired. When a client accepts a session, the session is locked to the receiver for a duration specified in the entity definition. When the accepted session remains idle for the duration of lock, that is no operations performed on the session, the lock expires and the session is made available to other clients. </p>
+  summary: "<p>This exception is thrown when a session receiver performs an operation on a session after its lock is expired. When a client accepts a session, the session is locked to the receiver for a duration specified in the entity definition. When the accepted session remains idle for the duration of lock, that is no operations performed on the session, the lock expires and the session is made available to other clients. </p>"
   syntax:
     content: public class SessionLockLostException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.SettleModePair
@@ -471,7 +429,7 @@ references:
   nameWithType: TimeoutException
   fullName: com.microsoft.azure.servicebus.primitives.TimeoutException
   type: Class
-  summary: <p>This exception is thrown when the operation has exceeded the predetermined time limit. User should check connectivity is healthy between client process and service. </p>
+  summary: "<p>This exception is thrown when the operation has exceeded the predetermined time limit. User should check connectivity is healthy between client process and service. </p>"
   syntax:
     content: public class TimeoutException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.TimeoutTracker
@@ -490,7 +448,7 @@ references:
   nameWithType: Timer
   fullName: com.microsoft.azure.servicebus.primitives.Timer
   type: Class
-  summary: <p>An abstraction for a Scheduler functionality - which can later be replaced by a light-weight Thread </p>
+  summary: "<p>An abstraction for a Scheduler functionality - which can later be replaced by a light-weight Thread </p>"
   syntax:
     content: public class Timer
 - uid: com.microsoft.azure.servicebus.primitives.TimerType

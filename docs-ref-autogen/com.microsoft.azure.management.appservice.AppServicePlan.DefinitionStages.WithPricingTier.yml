@@ -118,7 +118,7 @@ references:
   nameWithType: AppServicePlan.Definition
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends AppServicePlan.DefinitionStages.Blank,AppServicePlan.DefinitionStages.WithGroup,AppServicePlan.DefinitionStages.WithPricingTier,AppServicePlan.DefinitionStages.WithOperatingSystem,AppServicePlan.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate
@@ -128,7 +128,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>An app service plan definition with sufficient inputs to create a new website in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>An app service plan definition with sufficient inputs to create a new website in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends AppServicePlan.DefinitionStages.WithPerSiteScaling,AppServicePlan.DefinitionStages.WithCapacity,Creatable<AppServicePlan>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithOperatingSystem
@@ -138,7 +138,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithOperatingSystem
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithOperatingSystem
   type: Interface
-  summary: <p>An app service plan definition allowing the operating system to be set. </p>
+  summary: "<p>An app service plan definition allowing the operating system to be set. </p>"
   syntax:
     content: public interface WithOperatingSystem
 - uid: com.microsoft.azure.management.appservice.PricingTier
@@ -148,6 +148,6 @@ references:
   nameWithType: PricingTier
   fullName: com.microsoft.azure.management.appservice.PricingTier
   type: Class
-  summary: <p>Defines App service pricing tiers. </p>
+  summary: "<p>Defines App service pricing tiers. </p>"
   syntax:
     content: public class PricingTier

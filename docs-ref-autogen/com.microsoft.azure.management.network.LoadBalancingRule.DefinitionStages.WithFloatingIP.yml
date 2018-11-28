@@ -41,7 +41,7 @@ references:
   nameWithType: HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   type: Method
-  summary: <p>Sets the floating IP enablement. </p>
+  summary: "<p>Sets the floating IP enablement. </p>"
   syntax:
     content: public ReturnT withFloatingIP(boolean enabled)
     parameters:
@@ -58,7 +58,7 @@ references:
   nameWithType: HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   type: Method
-  summary: <p>Disables floating IP support. </p>
+  summary: "<p>Disables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPDisabled()
     return:
@@ -71,7 +71,7 @@ references:
   nameWithType: HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   type: Method
-  summary: <p>Enables floating IP support. </p>
+  summary: "<p>Enables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPEnabled()
     return:
@@ -84,7 +84,7 @@ references:
   nameWithType: HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.DefinitionStages.WithFloatingIP<ReturnT>
   type: Interface
-  summary: <p>The stage of a definition allowing to control floating IP support. </p>
+  summary: "<p>The stage of a definition allowing to control floating IP support. </p>"
   syntax:
     content: public interface WithFloatingIP<ReturnT>
     typeParameters:
@@ -98,10 +98,7 @@ references:
   nameWithType: LoadBalancingRule.DefinitionStages.WithAttach<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithAttach<ReturnT>
   type: Interface
-  summary: >-
-    <p>The final stage of the load balancing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the load balancing rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ReturnT> extends Attachable<ParentT>.InDefinition<ReturnT>,LoadBalancingRule.DefinitionStages.WithFloatingIP<ReturnT>,LoadBalancingRule.DefinitionStages.WithIdleTimeoutInMinutes<ReturnT>,LoadBalancingRule.DefinitionStages.WithLoadDistribution<ReturnT>,LoadBalancingRule.DefinitionStages.WithProbe<ReturnT>
     typeParameters:

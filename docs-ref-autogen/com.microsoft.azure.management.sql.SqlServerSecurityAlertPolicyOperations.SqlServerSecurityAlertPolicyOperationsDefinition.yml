@@ -45,10 +45,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -61,10 +58,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -81,10 +75,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -121,10 +112,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts.withDisabledAlerts(String... disabledAlerts)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts.withDisabledAlerts(String... disabledAlerts)
   type: Method
-  summary: >-
-    <p>Specifies an array of alerts that are disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies an array of alerts that are disabled.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate withDisabledAlerts(String... disabledAlerts)
     parameters:
@@ -141,10 +129,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins.withEmailAccountAdmins()
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins.withEmailAccountAdmins()
   type: Method
-  summary: >-
-    <p>Specifies that an alert will be sent to the account administrators.</p>
-
-    <p></p>
+  summary: "<p>Specifies that an alert will be sent to the account administrators.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount withEmailAccountAdmins()
     return:
@@ -157,10 +142,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses.withEmailAddresses(String... emailAddresses)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses.withEmailAddresses(String... emailAddresses)
   type: Method
-  summary: >-
-    <p>Specifies an array of e-mail addresses to which the alert is sent.</p>
-
-    <p></p>
+  summary: "<p>Specifies an array of e-mail addresses to which the alert is sent.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate withEmailAddresses(String... emailAddresses)
     parameters:
@@ -177,10 +159,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server name and resource group it belongs to.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server name and resource group it belongs to.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState withExistingSqlServer(String resourceGroupName, String sqlServerName)
     parameters:
@@ -200,10 +179,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(SqlServer sqlServer)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(SqlServer sqlServer)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server for the new Server Security Alert Policy.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server for the new Server Security Alert Policy.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState withExistingSqlServer(SqlServer sqlServer)
     parameters:
@@ -220,10 +196,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer.withExistingSqlServerId(String sqlServerId)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer.withExistingSqlServerId(String sqlServerId)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server for the new Server Security Alert Policy.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server for the new Server Security Alert Policy.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState withExistingSqlServerId(String sqlServerId)
     parameters:
@@ -240,10 +213,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins.withoutEmailAccountAdmins()
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins.withoutEmailAccountAdmins()
   type: Method
-  summary: >-
-    <p>Specifies that an alert will not be sent to the account administrators.</p>
-
-    <p></p>
+  summary: "<p>Specifies that an alert will not be sent to the account administrators.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount withoutEmailAccountAdmins()
     return:
@@ -256,10 +226,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays.withRetentionDays(int days)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays.withRetentionDays(int days)
   type: Method
-  summary: >-
-    <p>Specifies the number of days to keep in the Threat Detection audit logs.</p>
-
-    <p></p>
+  summary: "<p>Specifies the number of days to keep in the Threat Detection audit logs.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate withRetentionDays(int days)
     parameters:
@@ -276,10 +243,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState.withState(SecurityAlertPolicyState state)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState.withState(SecurityAlertPolicyState state)
   type: Method
-  summary: >-
-    <p>Specifies the state of the policy, whether it is enabled or disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies the state of the policy, whether it is enabled or disabled.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins withState(SecurityAlertPolicyState state)
     parameters:
@@ -296,10 +260,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount.withStorageEndpoint(String storageEndpointUri, String storageAccessKey)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount.withStorageEndpoint(String storageEndpointUri, String storageAccessKey)
   type: Method
-  summary: >-
-    <p>Specifies the storage account blob endpoint and access key.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage account blob endpoint and access key.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate withStorageEndpoint(String storageEndpointUri, String storageAccessKey)
     parameters:
@@ -319,7 +280,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer
   type: Interface
-  summary: <p>The first stage of the SQL Server Security Alert Policy definition. </p>
+  summary: "<p>The first stage of the SQL Server Security Alert Policy definition. </p>"
   syntax:
     content: public interface WithSqlServer
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState
@@ -329,7 +290,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set the state. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set the state. </p>"
   syntax:
     content: public interface WithState
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins
@@ -339,7 +300,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set if an alert will be sent to the account administrators. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set if an alert will be sent to the account administrators. </p>"
   syntax:
     content: public interface WithEmailAccountAdmins
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount
@@ -349,7 +310,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to specify the storage account blob endpoint and access key. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to specify the storage account blob endpoint and access key. </p>"
   syntax:
     content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses
@@ -359,7 +320,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set an array of e-mail addresses to which the alert is sent. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set an array of e-mail addresses to which the alert is sent. </p>"
   syntax:
     content: public interface WithEmailAddresses
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts
@@ -369,7 +330,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set an array of alerts that are disabled. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set an array of alerts that are disabled. </p>"
   syntax:
     content: public interface WithDisabledAlerts
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays
@@ -379,7 +340,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set the number of days to keep in the Threat Detection audit logs. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set the number of days to keep in the Threat Detection audit logs. </p>"
   syntax:
     content: public interface WithRetentionDays
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate
@@ -389,6 +350,6 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The final stage of the SQL Server Security Alert Policy definition. </p>
+  summary: "<p>The final stage of the SQL Server Security Alert Policy definition. </p>"
   syntax:
     content: public interface WithCreate

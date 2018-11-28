@@ -198,10 +198,7 @@ references:
   nameWithType: Azure.Authenticated
   fullName: com.microsoft.azure.management.Azure.Authenticated
   type: Interface
-  summary: >-
-    <p>Provides authenticated access to a subset of Azure APIs that do not require a specific subscription. </p>
-
-    <p>To access the subscription-specific APIs, use <xref uid="com.microsoft.azure.management.Azure.Authenticated.withSubscription(String)" data-throw-if-not-resolved="false">Authenticated#withSubscription(String)</xref>, or withDefaultSubscription() if a default subscription has already been previously specified (for example, in a previously specified authentication file). </p>
+  summary: "<p>Provides authenticated access to a subset of Azure APIs that do not require a specific subscription. </p>\r\n<p>To access the subscription-specific APIs, use <xref uid=\"com.microsoft.azure.management.Azure.Authenticated.withSubscription(String)\" data-throw-if-not-resolved=\"false\">Authenticated#withSubscription(String)</xref>, or withDefaultSubscription() if a default subscription has already been previously specified (for example, in a previously specified authentication file). </p>"
   syntax:
     content: public interface Authenticated
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUsers
@@ -211,7 +208,7 @@ references:
   nameWithType: ActiveDirectoryUsers
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUsers
   type: Interface
-  summary: <p>Entry point to AD user management API. </p>
+  summary: "<p>Entry point to AD user management API. </p>"
   syntax:
     content: public interface ActiveDirectoryUsers
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroups
@@ -221,7 +218,7 @@ references:
   nameWithType: ActiveDirectoryGroups
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroups
   type: Interface
-  summary: <p>Entry point to AD group management API. </p>
+  summary: "<p>Entry point to AD group management API. </p>"
   syntax:
     content: public interface ActiveDirectoryGroups
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipals
@@ -231,7 +228,7 @@ references:
   nameWithType: ServicePrincipals
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipals
   type: Interface
-  summary: <p>Entry point to service principal management API. </p>
+  summary: "<p>Entry point to service principal management API. </p>"
   syntax:
     content: public interface ServicePrincipals
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplications
@@ -241,7 +238,7 @@ references:
   nameWithType: ActiveDirectoryApplications
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplications
   type: Interface
-  summary: <p>Entry point to application management API. </p>
+  summary: "<p>Entry point to application management API. </p>"
   syntax:
     content: public interface ActiveDirectoryApplications
 - uid: com.microsoft.azure.management.graphrbac.RoleDefinitions
@@ -251,7 +248,7 @@ references:
   nameWithType: RoleDefinitions
   fullName: com.microsoft.azure.management.graphrbac.RoleDefinitions
   type: Interface
-  summary: <p>Entry point to role definition management API. </p>
+  summary: "<p>Entry point to role definition management API. </p>"
   syntax:
     content: public interface RoleDefinitions
 - uid: com.microsoft.azure.management.graphrbac.RoleAssignments
@@ -261,6 +258,6 @@ references:
   nameWithType: RoleAssignments
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignments
   type: Interface
-  summary: <p>Entry point to role assignment management API. </p>
+  summary: "<p>Entry point to role assignment management API. </p>"
   syntax:
     content: public interface RoleAssignments

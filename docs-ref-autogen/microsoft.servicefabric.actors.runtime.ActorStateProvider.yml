@@ -611,12 +611,7 @@ references:
   nameWithType: StateProviderReplica.abort()
   fullName: microsoft.servicefabric.data.StateProviderReplica.abort()
   type: Method
-  summary: >-
-    <p>Forcefully abort the state provider replica. </p>
-
-    <p>
-
-      <b>Remarks:</b>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's lifecycle due to internal failures. </p>
+  summary: "<p>Forcefully abort the state provider replica. </p>\r\n<p>\r\n  <b>Remarks:</b>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's lifecycle due to internal failures. </p>"
   syntax:
     content: public void abort()
 - uid: microsoft.servicefabric.data.StateProviderReplica.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
@@ -626,12 +621,7 @@ references:
   nameWithType: StateProviderReplica.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
   fullName: microsoft.servicefabric.data.StateProviderReplica.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
   type: Method
-  summary: >-
-    <p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>
-
-    <p>
-
-      <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
+  summary: "<p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>\r\n<p>\r\n  <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>"
   syntax:
     content: public CompletableFuture<?> backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
@@ -648,12 +638,7 @@ references:
   nameWithType: StateProviderReplica.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
   fullName: microsoft.servicefabric.data.StateProviderReplica.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
   type: Method
-  summary: >-
-    <p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>
-
-    <p>
-
-      <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
+  summary: "<p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>\r\n<p>\r\n  <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>"
   syntax:
     content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
@@ -679,10 +664,7 @@ references:
   nameWithType: StateProviderReplica.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.data.StateProviderReplica.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Notify the state provider replica that its role is changing, for example to Primary or Secondary.</p>
-
-    <p></p>
+  summary: "<p>Notify the state provider replica that its role is changing, for example to Primary or Secondary.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
@@ -705,12 +687,7 @@ references:
   nameWithType: StateProviderReplica.closeAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.data.StateProviderReplica.closeAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Gracefully close the state provider replica.</p>
-
-    <p>
-
-      <b>Remarks:</b>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
+  summary: "<p>Gracefully close the state provider replica.</p>\r\n<p>\r\n  <b>Remarks:</b>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>"
   syntax:
     content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
     parameters:
@@ -730,12 +707,7 @@ references:
   nameWithType: StateProviderReplica.initialize(StatefulServiceInitializationParameters initializationParameters)
   fullName: microsoft.servicefabric.data.StateProviderReplica.initialize(StatefulServiceInitializationParameters initializationParameters)
   type: Method
-  summary: >-
-    <p>Initialize the state provider replica using the service initialization information.</p>
-
-    <p>
-
-      <b>Remarks:</b>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
+  summary: "<p>Initialize the state provider replica using the service initialization information.</p>\r\n<p>\r\n  <b>Remarks:</b>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>"
   syntax:
     content: public void initialize(StatefulServiceInitializationParameters initializationParameters)
     parameters:
@@ -749,12 +721,7 @@ references:
   nameWithType: StateProviderReplica.openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.data.StateProviderReplica.openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Open the state provider replica for use.</p>
-
-    <p>
-
-      <b>Remarks:</b>Extended state provider initialization tasks can be started at this time. </p>
+  summary: "<p>Open the state provider replica for use.</p>\r\n<p>\r\n  <b>Remarks:</b>Extended state provider initialization tasks can be started at this time. </p>"
   syntax:
     content: public CompletableFuture<Replicator> openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
     parameters:
@@ -780,12 +747,7 @@ references:
   nameWithType: StateProviderReplica.restoreAsync(String backupFolderPath)
   fullName: microsoft.servicefabric.data.StateProviderReplica.restoreAsync(String backupFolderPath)
   type: Method
-  summary: >-
-    <p>Restore a backup taken.</p>
-
-    <p>
-
-      <b>Remarks:</b>A safe restore will be performed, meaning the restore will only be completed if the data to restore is ahead of state of the current replica. </p>
+  summary: "<p>Restore a backup taken.</p>\r\n<p>\r\n  <b>Remarks:</b>A safe restore will be performed, meaning the restore will only be completed if the data to restore is ahead of state of the current replica. </p>"
   syntax:
     content: public CompletableFuture<?> restoreAsync(String backupFolderPath)
     parameters:
@@ -802,10 +764,7 @@ references:
   nameWithType: StateProviderReplica.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.data.StateProviderReplica.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Restore a backup taken</p>
-
-    <p></p>
+  summary: "<p>Restore a backup taken</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
     parameters:
@@ -831,10 +790,7 @@ references:
   nameWithType: StateProviderReplica.setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>> onDataLossAsync)
   fullName: microsoft.servicefabric.data.StateProviderReplica.setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>> onDataLossAsync)
   type: Method
-  summary: >-
-    <p>Function called during suspected data-loss</p>
-
-    <p></p>
+  summary: "<p>Function called during suspected data-loss</p>\r\n<p></p>"
   syntax:
     content: public void setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>> onDataLossAsync)
     parameters:
@@ -848,7 +804,7 @@ references:
   nameWithType: StateProviderReplica
   fullName: microsoft.servicefabric.data.StateProviderReplica
   type: Interface
-  summary: <p>Defines methods a reliable state provider replica must implement for Service Fabric to interact with it. </p>
+  summary: "<p>Defines methods a reliable state provider replica must implement for Service Fabric to interact with it. </p>"
   syntax:
     content: public interface StateProviderReplica
 - uid: microsoft.servicefabric.actors.runtime.NullActorStateProvider
@@ -868,7 +824,7 @@ references:
   nameWithType: VolatileActorStateProvider
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider
   type: Class
-  summary: <p>ActorStateProvider implementation for Volatile persistence i.e Actor state is kept in-memory only. </p>
+  summary: "<p>ActorStateProvider implementation for Volatile persistence i.e Actor state is kept in-memory only. </p>"
   syntax:
     content: public class VolatileActorStateProvider
 - uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.initialize(ActorTypeInformation)
@@ -878,10 +834,7 @@ references:
   nameWithType: VolatileActorStateProvider.initialize(ActorTypeInformation actorTypeInformation)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.initialize(ActorTypeInformation actorTypeInformation)
   type: Method
-  summary: >-
-    <p>Initializes the actor state provider with type information of the actor type associated with it.</p>
-
-    <p></p>
+  summary: "<p>Initializes the actor state provider with type information of the actor type associated with it.</p>\r\n<p></p>"
   syntax:
     content: public void initialize(ActorTypeInformation actorTypeInformation)
     parameters:
@@ -898,10 +851,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.initialize(ActorTypeInformation actorTypeInformation)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.initialize(ActorTypeInformation actorTypeInformation)
   type: Method
-  summary: >-
-    <p>Initializes the actor state provider with type information of the actor type associated with it.</p>
-
-    <p></p>
+  summary: "<p>Initializes the actor state provider with type information of the actor type associated with it.</p>\r\n<p></p>"
   syntax:
     content: public void initialize(ActorTypeInformation actorTypeInformation)
     parameters:
@@ -915,7 +865,7 @@ references:
   nameWithType: ActorTypeInformation
   fullName: microsoft.servicefabric.actors.runtime.ActorTypeInformation
   type: Class
-  summary: <p>Contains information about the type implementing an actor. </p>
+  summary: "<p>Contains information about the type implementing an actor. </p>"
   syntax:
     content: public class ActorTypeInformation
 - uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.actorActivatedAsync(ActorId,CancellationToken)
@@ -925,10 +875,7 @@ references:
   nameWithType: VolatileActorStateProvider.actorActivatedAsync(ActorId actorId, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.actorActivatedAsync(ActorId actorId, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is invoked as part of the activation process of the actor with the specified Id.</p>
-
-    <p></p>
+  summary: "<p>This method is invoked as part of the activation process of the actor with the specified Id.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> actorActivatedAsync(ActorId actorId, CancellationToken cancellationToken)
     parameters:
@@ -951,10 +898,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.actorActivatedAsync(ActorId actorId, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.actorActivatedAsync(ActorId actorId, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is invoked as part of the activation process of the actor with the specified Id.</p>
-
-    <p></p>
+  summary: "<p>This method is invoked as part of the activation process of the actor with the specified Id.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> actorActivatedAsync(ActorId actorId, CancellationToken cancellationToken)
     parameters:
@@ -977,7 +921,7 @@ references:
   nameWithType: ActorId
   fullName: microsoft.servicefabric.actors.ActorId
   type: Class
-  summary: <p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, <xref uid="" data-throw-if-not-resolved="false">java.util.UUID</xref> or long. </p>
+  summary: "<p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.lang.String</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.UUID</xref> or long. </p>"
   syntax:
     content: public class ActorId
 - uid: system.fabric.CancellationToken
@@ -987,7 +931,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.reminderCallbackCompletedAsync(ActorId,ActorReminder,CancellationToken)
@@ -997,7 +941,7 @@ references:
   nameWithType: VolatileActorStateProvider.reminderCallbackCompletedAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.reminderCallbackCompletedAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Invoked when a reminder fires and finishes executing its callback <xref uid="microsoft.servicefabric.actors.runtime.Remindable.receiveReminderAsync(String,byte [],Duration,Duration)" data-throw-if-not-resolved="false">Remindable#receiveReminderAsync</xref> successfully </p>
+  summary: "<p>Invoked when a reminder fires and finishes executing its callback <xref uid=\"microsoft.servicefabric.actors.runtime.Remindable.receiveReminderAsync(String,byte [],Duration,Duration)\" data-throw-if-not-resolved=\"false\">Remindable#receiveReminderAsync</xref> successfully </p>"
   syntax:
     content: public CompletableFuture<?> reminderCallbackCompletedAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
     parameters:
@@ -1020,7 +964,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.reminderCallbackCompletedAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.reminderCallbackCompletedAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Invoked when a reminder fires and finishes executing its callback <xref uid="microsoft.servicefabric.actors.runtime.Remindable.receiveReminderAsync(String,byte [],Duration,Duration)" data-throw-if-not-resolved="false">Remindable#receiveReminderAsync</xref> successfully </p>
+  summary: "<p>Invoked when a reminder fires and finishes executing its callback <xref uid=\"microsoft.servicefabric.actors.runtime.Remindable.receiveReminderAsync(String,byte [],Duration,Duration)\" data-throw-if-not-resolved=\"false\">Remindable#receiveReminderAsync</xref> successfully </p>"
   syntax:
     content: public CompletableFuture<?> reminderCallbackCompletedAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
     parameters:
@@ -1043,7 +987,7 @@ references:
   nameWithType: ActorReminder
   fullName: microsoft.servicefabric.actors.runtime.ActorReminder
   type: Interface
-  summary: <p>Encapsulates Reminder set on an Actor </p>
+  summary: "<p>Encapsulates Reminder set on an Actor </p>"
   syntax:
     content: public interface ActorReminder
 - uid: microsoft.servicefabric.actors.runtime.Remindable.receiveReminderAsync(String,byte [],Duration,Duration)
@@ -1053,12 +997,7 @@ references:
   nameWithType: Remindable.receiveReminderAsync(String reminderName, byte[] context, Duration timeSpan, Duration period)
   fullName: microsoft.servicefabric.actors.runtime.Remindable.receiveReminderAsync(String reminderName, byte[] context, Duration timeSpan, Duration period)
   type: Method
-  summary: >-
-    <p>Reminder call back invoked when an actor reminder is triggered.</p>
-
-    <p>
-
-      <b>Remarks:</b> When a reminder is triggered, Actors runtime will invoke receiveReminderAsync method on the Actor. An actor can register multiple reminders and the ReceiveReminderAsync method is invoked any time any of those reminders is triggered. The actor can use the reminder name that is passed in to the receiveReminderAsync method to figure out which reminder was triggered. The Actors runtime saves the actor state when the receiveReminderAsync call completes. If an error occurs in saving the state, that actor object will be deactivated and a new instance will be activated, to specify that the state need not be saved upon completion of the reminder. </p>
+  summary: "<p>Reminder call back invoked when an actor reminder is triggered.</p>\r\n<p>\r\n  <b>Remarks:</b> When a reminder is triggered, Actors runtime will invoke receiveReminderAsync method on the Actor. An actor can register multiple reminders and the ReceiveReminderAsync method is invoked any time any of those reminders is triggered. The actor can use the reminder name that is passed in to the receiveReminderAsync method to figure out which reminder was triggered. The Actors runtime saves the actor state when the receiveReminderAsync call completes. If an error occurs in saving the state, that actor object will be deactivated and a new instance will be activated, to specify that the state need not be saved upon completion of the reminder. </p>"
   syntax:
     content: public CompletableFuture<?> receiveReminderAsync(String reminderName, byte[] context, Duration timeSpan, Duration period)
     parameters:
@@ -1084,10 +1023,7 @@ references:
   nameWithType: VolatileActorStateProvider.loadStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.loadStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Loads the actor state associated with the specified state name.</p>
-
-    <p></p>
+  summary: "<p>Loads the actor state associated with the specified state name.</p>\r\n<p></p>"
   syntax:
     content: public <T> CompletableFuture<T> loadStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
     parameters:
@@ -1113,10 +1049,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.loadStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.loadStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Loads the actor state associated with the specified state name.</p>
-
-    <p></p>
+  summary: "<p>Loads the actor state associated with the specified state name.</p>\r\n<p></p>"
   syntax:
     content: public <T> CompletableFuture<T> loadStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
     parameters:
@@ -1142,10 +1075,7 @@ references:
   nameWithType: VolatileActorStateProvider.saveStateAsync(ActorId actorId, List<ActorStateChange> stateChanges, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.saveStateAsync(ActorId actorId, List<ActorStateChange> stateChanges, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Saves the specified set of actor state changes atomically.</p>
-
-    <p></p>
+  summary: "<p>Saves the specified set of actor state changes atomically.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> saveStateAsync(ActorId actorId, List<ActorStateChange> stateChanges, CancellationToken cancellationToken)
     parameters:
@@ -1171,12 +1101,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.saveStateAsync(ActorId actorId, List<ActorStateChange> stateChanges, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.saveStateAsync(ActorId actorId, List<ActorStateChange> stateChanges, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Saves the specified set of actor state changes atomically.</p>
-
-    <p>
-
-      <b>Remarks:</b> The collection of state changes should contain only one item for a given state name. The save operation will fail on trying to add an actor state which already exists or update/remove an actor state which does not exist. </p>
+  summary: "<p>Saves the specified set of actor state changes atomically.</p>\r\n<p>\r\n  <b>Remarks:</b> The collection of state changes should contain only one item for a given state name. The save operation will fail on trying to add an actor state which already exists or update/remove an actor state which does not exist. </p>"
   syntax:
     content: public CompletableFuture<?> saveStateAsync(ActorId actorId, List<ActorStateChange> stateChanges, CancellationToken cancellationToken)
     parameters:
@@ -1202,7 +1127,7 @@ references:
   nameWithType: ActorStateChange
   fullName: microsoft.servicefabric.actors.runtime.ActorStateChange
   type: Class
-  summary: <p>Represents change to an actor state with a given state name. </p>
+  summary: "<p>Represents change to an actor state with a given state name. </p>"
   syntax:
     content: public class ActorStateChange
 - uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.containsStateAsync(ActorId,String,CancellationToken)
@@ -1212,10 +1137,7 @@ references:
   nameWithType: VolatileActorStateProvider.containsStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.containsStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Checks whether actor state provider contains an actor state with specified state name.</p>
-
-    <p></p>
+  summary: "<p>Checks whether actor state provider contains an actor state with specified state name.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Boolean> containsStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
     parameters:
@@ -1241,10 +1163,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.containsStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.containsStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Checks whether actor state provider contains an actor state with specified state name.</p>
-
-    <p></p>
+  summary: "<p>Checks whether actor state provider contains an actor state with specified state name.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Boolean> containsStateAsync(ActorId actorId, String stateName, CancellationToken cancellationToken)
     parameters:
@@ -1270,10 +1189,7 @@ references:
   nameWithType: VolatileActorStateProvider.removeActorAsync(ActorId actorId, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.removeActorAsync(ActorId actorId, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Removes all the existing states and reminders associated with specified actor atomically.</p>
-
-    <p></p>
+  summary: "<p>Removes all the existing states and reminders associated with specified actor atomically.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> removeActorAsync(ActorId actorId, CancellationToken cancellationToken)
     parameters:
@@ -1296,10 +1212,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.removeActorAsync(ActorId actorId, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.removeActorAsync(ActorId actorId, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Removes all the existing states and reminders associated with specified actor atomically.</p>
-
-    <p></p>
+  summary: "<p>Removes all the existing states and reminders associated with specified actor atomically.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> removeActorAsync(ActorId actorId, CancellationToken cancellationToken)
     parameters:
@@ -1322,12 +1235,7 @@ references:
   nameWithType: VolatileActorStateProvider.enumerateStateNamesAsync(ActorId actorId, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.enumerateStateNamesAsync(ActorId actorId, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Creates an enumerable of all the state names associated with specified actor.</p>
-
-    <p>
-
-      <b>Remarks:</b>The enumerator returned from actor state provider is safe to use concurrently with reads and writes to the state provider. It represents a snapshot consistent view of the state provider. </p>
+  summary: "<p>Creates an enumerable of all the state names associated with specified actor.</p>\r\n<p>\r\n  <b>Remarks:</b>The enumerator returned from actor state provider is safe to use concurrently with reads and writes to the state provider. It represents a snapshot consistent view of the state provider. </p>"
   syntax:
     content: public CompletableFuture<List<String>> enumerateStateNamesAsync(ActorId actorId, CancellationToken cancellationToken)
     parameters:
@@ -1350,12 +1258,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.enumerateStateNamesAsync(ActorId actorId, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.enumerateStateNamesAsync(ActorId actorId, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Creates an enumerable of all the state names associated with specified actor.</p>
-
-    <p>
-
-      <b>Remarks:</b>The enumerator returned from actor state provider is safe to use concurrently with reads and writes to the state provider. It represents a snapshot consistent view of the state provider. </p>
+  summary: "<p>Creates an enumerable of all the state names associated with specified actor.</p>\r\n<p>\r\n  <b>Remarks:</b>The enumerator returned from actor state provider is safe to use concurrently with reads and writes to the state provider. It represents a snapshot consistent view of the state provider. </p>"
   syntax:
     content: public CompletableFuture<List<String>> enumerateStateNamesAsync(ActorId actorId, CancellationToken cancellationToken)
     parameters:
@@ -1378,10 +1281,7 @@ references:
   nameWithType: PagedResult<T>
   fullName: microsoft.servicefabric.actors.PagedResult<T>
   type: Class
-  summary: >-
-    <p>Represents the result of actor query calls.</p>
-
-    <p></p>
+  summary: "<p>Represents the result of actor query calls.</p>\r\n<p></p>"
   syntax:
     content: public class PagedResult<T>
     typeParameters:
@@ -1395,12 +1295,7 @@ references:
   nameWithType: VolatileActorStateProvider.getActorsAsync(int itemsCount, ContinuationToken continuationToken, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.getActorsAsync(int itemsCount, ContinuationToken continuationToken, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Gets ActorIds from the State Provider.</p>
-
-    <p>
-
-      <b>Remarks:</b> The </p>
+  summary: "<p>Gets ActorIds from the State Provider.</p>\r\n<p>\r\n  <b>Remarks:</b> The </p>"
   syntax:
     content: public CompletableFuture<PagedResult<ActorId>> getActorsAsync(int itemsCount, ContinuationToken continuationToken, CancellationToken cancellationToken)
     parameters:
@@ -1426,12 +1321,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.getActorsAsync(int numItemsToReturn, ContinuationToken continuationToken, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.getActorsAsync(int numItemsToReturn, ContinuationToken continuationToken, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Gets ActorIds from the State Provider.</p>
-
-    <p>
-
-      <b>Remarks:</b> The </p>
+  summary: "<p>Gets ActorIds from the State Provider.</p>\r\n<p>\r\n  <b>Remarks:</b> The </p>"
   syntax:
     content: public CompletableFuture<PagedResult<ActorId>> getActorsAsync(int numItemsToReturn, ContinuationToken continuationToken, CancellationToken cancellationToken)
     parameters:
@@ -1457,12 +1347,7 @@ references:
   nameWithType: ContinuationToken
   fullName: microsoft.servicefabric.actors.ContinuationToken
   type: Class
-  summary: >-
-    <p>Represents a continuation token for query operations. </p>
-
-    <p>
-
-      <b>Remarks:</b>A method that may return a partial set of results via a <xref uid="microsoft.servicefabric.actors.PagedResult" data-throw-if-not-resolved="false">PagedResult</xref> object also returns a continuation token in the object, which can be used in a subsequent call to return the next set of available results. </p>
+  summary: "<p>Represents a continuation token for query operations. </p>\r\n<p>\r\n  <b>Remarks:</b>A method that may return a partial set of results via a <xref uid=\"microsoft.servicefabric.actors.PagedResult\" data-throw-if-not-resolved=\"false\">PagedResult</xref> object also returns a continuation token in the object, which can be used in a subsequent call to return the next set of available results. </p>"
   syntax:
     content: public class ContinuationToken
 - uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.saveReminderAsync(ActorId,ActorReminder,CancellationToken)
@@ -1472,10 +1357,7 @@ references:
   nameWithType: VolatileActorStateProvider.saveReminderAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.saveReminderAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Saves the specified actor reminder. If an actor reminder with given name does not exist, it adds the actor reminder otherwise existing actor reminder with same name is updated.</p>
-
-    <p></p>
+  summary: "<p>Saves the specified actor reminder. If an actor reminder with given name does not exist, it adds the actor reminder otherwise existing actor reminder with same name is updated.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> saveReminderAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
     parameters:
@@ -1501,10 +1383,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.saveReminderAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.saveReminderAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Saves the specified actor reminder. If an actor reminder with given name does not exist, it adds the actor reminder otherwise existing actor reminder with same name is updated.</p>
-
-    <p></p>
+  summary: "<p>Saves the specified actor reminder. If an actor reminder with given name does not exist, it adds the actor reminder otherwise existing actor reminder with same name is updated.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> saveReminderAsync(ActorId actorId, ActorReminder reminder, CancellationToken cancellationToken)
     parameters:
@@ -1530,10 +1409,7 @@ references:
   nameWithType: VolatileActorStateProvider.deleteReminderAsync(ActorId actorId, String reminderName, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.deleteReminderAsync(ActorId actorId, String reminderName, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Deletes the specified actor reminder if it exists.</p>
-
-    <p></p>
+  summary: "<p>Deletes the specified actor reminder if it exists.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> deleteReminderAsync(ActorId actorId, String reminderName, CancellationToken cancellationToken)
     parameters:
@@ -1559,10 +1435,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.deleteReminderAsync(ActorId actorId, String reminderName, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.deleteReminderAsync(ActorId actorId, String reminderName, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Deletes the specified actor reminder if it exists.</p>
-
-    <p></p>
+  summary: "<p>Deletes the specified actor reminder if it exists.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> deleteReminderAsync(ActorId actorId, String reminderName, CancellationToken cancellationToken)
     parameters:
@@ -1588,10 +1461,7 @@ references:
   nameWithType: VolatileActorStateProvider.deleteRemindersAsync(Map<ActorId, Collection<String>> reminderNames, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.deleteRemindersAsync(Map<ActorId, Collection<String>> reminderNames, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Deletes the specified set of reminders</p>
-
-    <p></p>
+  summary: "<p>Deletes the specified set of reminders</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> deleteRemindersAsync(Map<ActorId, Collection<String>> reminderNames, CancellationToken cancellationToken)
     parameters:
@@ -1614,10 +1484,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.deleteRemindersAsync(Map<ActorId, Collection<String>> reminderNames, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.deleteRemindersAsync(Map<ActorId, Collection<String>> reminderNames, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Deletes the specified set of reminders</p>
-
-    <p></p>
+  summary: "<p>Deletes the specified set of reminders</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> deleteRemindersAsync(Map<ActorId, Collection<String>> reminderNames, CancellationToken cancellationToken)
     parameters:
@@ -1640,7 +1507,7 @@ references:
   nameWithType: ActorReminderCollection
   fullName: microsoft.servicefabric.actors.runtime.ActorReminderCollection
   type: Interface
-  summary: <p>Captures ActorReminderState for Actors </p>
+  summary: "<p>Captures ActorReminderState for Actors </p>"
   syntax:
     content: public interface ActorReminderCollection
 - uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.loadRemindersAsync(CancellationToken)
@@ -1650,10 +1517,7 @@ references:
   nameWithType: VolatileActorStateProvider.loadRemindersAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.loadRemindersAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Loads all the reminders contained in the actor state provider.</p>
-
-    <p></p>
+  summary: "<p>Loads all the reminders contained in the actor state provider.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ActorReminderCollection> loadRemindersAsync(CancellationToken cancellationToken)
     parameters:
@@ -1673,10 +1537,7 @@ references:
   nameWithType: ReliableCollectionsActorStateProvider.loadRemindersAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.ReliableCollectionsActorStateProvider.loadRemindersAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Loads all the reminders contained in the actor state provider.</p>
-
-    <p></p>
+  summary: "<p>Loads all the reminders contained in the actor state provider.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ActorReminderCollection> loadRemindersAsync(CancellationToken cancellationToken)
     parameters:

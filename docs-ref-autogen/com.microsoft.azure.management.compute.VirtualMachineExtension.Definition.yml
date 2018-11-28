@@ -51,7 +51,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -64,10 +64,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithImageOrPublisher<ParentT>.withImage(VirtualMachineExtensionImage image)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithImageOrPublisher<ParentT>.withImage(VirtualMachineExtensionImage image)
   type: Method
-  summary: >-
-    <p>Specifies the virtual machine extension image to use.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual machine extension image to use.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withImage(VirtualMachineExtensionImage image)
     parameters:
@@ -84,10 +81,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withMinorVersionAutoUpgrade()
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withMinorVersionAutoUpgrade()
   type: Method
-  summary: >-
-    <p>enables auto upgrade of the extension.</p>
-
-    <p></p>
+  summary: "<p>enables auto upgrade of the extension.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withMinorVersionAutoUpgrade()
     return:
@@ -100,10 +94,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withoutMinorVersionAutoUpgrade()
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withoutMinorVersionAutoUpgrade()
   type: Method
-  summary: >-
-    <p>disables auto upgrade of the extension.</p>
-
-    <p></p>
+  summary: "<p>disables auto upgrade of the extension.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withoutMinorVersionAutoUpgrade()
     return:
@@ -116,10 +107,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withProtectedSetting(String key, Object value)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withProtectedSetting(String key, Object value)
   type: Method
-  summary: >-
-    <p>Specifies a private settings entry.</p>
-
-    <p></p>
+  summary: "<p>Specifies a private settings entry.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withProtectedSetting(String key, Object value)
     parameters:
@@ -139,10 +127,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withProtectedSettings(HashMap<String, Object> settings)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withProtectedSettings(HashMap<String, Object> settings)
   type: Method
-  summary: >-
-    <p>Specifies private settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies private settings.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withProtectedSettings(HashMap<String, Object> settings)
     parameters:
@@ -159,10 +144,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withPublicSetting(String key, Object value)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withPublicSetting(String key, Object value)
   type: Method
-  summary: >-
-    <p>Specifies a public settings entry.</p>
-
-    <p></p>
+  summary: "<p>Specifies a public settings entry.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withPublicSetting(String key, Object value)
     parameters:
@@ -182,10 +164,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withPublicSettings(HashMap<String, Object> settings)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>.withPublicSettings(HashMap<String, Object> settings)
   type: Method
-  summary: >-
-    <p>Specifies public settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies public settings.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withPublicSettings(HashMap<String, Object> settings)
     parameters:
@@ -202,10 +181,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithPublisher<ParentT>.withPublisher(String extensionImagePublisherName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithPublisher<ParentT>.withPublisher(String extensionImagePublisherName)
   type: Method
-  summary: >-
-    <p>Specifies the name of the virtual machine extension image publisher.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name of the virtual machine extension image publisher.</p>\r\n<p></p>"
   syntax:
     content: public WithType<ParentT> withPublisher(String extensionImagePublisherName)
     parameters:
@@ -222,7 +198,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithTags<ParentT>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithTags<ParentT>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the virtual machine extension. </p>
+  summary: "<p>Adds a tag to the virtual machine extension. </p>"
   syntax:
     content: public WithAttach<ParentT> withTag(String key, String value)
     parameters:
@@ -242,7 +218,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithTags<ParentT>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithTags<ParentT>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the virtual machine extension. </p>
+  summary: "<p>Specifies tags for the virtual machine extension. </p>"
   syntax:
     content: public WithAttach<ParentT> withTags(Map<String, String> tags)
     parameters:
@@ -259,10 +235,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithType<ParentT>.withType(String extensionImageTypeName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithType<ParentT>.withType(String extensionImageTypeName)
   type: Method
-  summary: >-
-    <p>Specifies the type of the virtual machine extension image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the type of the virtual machine extension image.</p>\r\n<p></p>"
   syntax:
     content: public WithVersion<ParentT> withType(String extensionImageTypeName)
     parameters:
@@ -279,10 +252,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithVersion<ParentT>.withVersion(String extensionImageVersionName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithVersion<ParentT>.withVersion(String extensionImageVersionName)
   type: Method
-  summary: >-
-    <p>Specifies the version of the virtual machine image extension.</p>
-
-    <p></p>
+  summary: "<p>Specifies the version of the virtual machine image extension.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withVersion(String extensionImageVersionName)
     parameters:
@@ -299,10 +269,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a virtual machine extension definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a virtual machine extension definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends VirtualMachineExtension.DefinitionStages.WithImageOrPublisher<ParentT>
     typeParameters:
@@ -316,10 +283,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithImageOrPublisher<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithImageOrPublisher<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the virtual machine extension definition allowing to specify extension image or specify name of the virtual machine extension publisher.</p>
-
-    <p></p>
+  summary: "<p>The stage of the virtual machine extension definition allowing to specify extension image or specify name of the virtual machine extension publisher.</p>\r\n<p></p>"
   syntax:
     content: public interface WithImageOrPublisher<ParentT>
     typeParameters:
@@ -333,10 +297,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithPublisher<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithPublisher<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the virtual machine extension definition allowing to specify the publisher of the virtual machine extension image this extension is based on.</p>
-
-    <p></p>
+  summary: "<p>The stage of the virtual machine extension definition allowing to specify the publisher of the virtual machine extension image this extension is based on.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPublisher<ParentT>
     typeParameters:
@@ -350,10 +311,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithType<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithType<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the virtual machine extension definition allowing to specify the type of the virtual machine extension image this extension is based on.</p>
-
-    <p></p>
+  summary: "<p>The stage of the virtual machine extension definition allowing to specify the type of the virtual machine extension image this extension is based on.</p>\r\n<p></p>"
   syntax:
     content: public interface WithType<ParentT>
     typeParameters:
@@ -367,10 +325,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithVersion<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithVersion<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the virtual machine extension definition allowing to specify the type of the virtual machine extension version this extension is based on.</p>
-
-    <p></p>
+  summary: "<p>The stage of the virtual machine extension definition allowing to specify the type of the virtual machine extension version this extension is based on.</p>\r\n<p></p>"
   syntax:
     content: public interface WithVersion<ParentT>
     typeParameters:
@@ -384,7 +339,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the virtual machine extension definition. </p>
+  summary: "<p>The final stage of the virtual machine extension definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

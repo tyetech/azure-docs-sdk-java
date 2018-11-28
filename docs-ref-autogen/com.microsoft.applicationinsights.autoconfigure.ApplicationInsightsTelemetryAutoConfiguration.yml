@@ -74,7 +74,7 @@ items:
   syntax:
     content: public InternalLogger internalLogger()
     return:
-      type: 7aef7119
+      type: com.microsoft.applicationinsights.internal.logger.InternalLogger
 - uid: com.microsoft.applicationinsights.autoconfigure.ApplicationInsightsTelemetryAutoConfiguration.quickPulse()
   id: quickPulse()
   parent: com.microsoft.applicationinsights.autoconfigure.ApplicationInsightsTelemetryAutoConfiguration
@@ -335,10 +335,6 @@ references:
   nameWithType: ApplicationInsightsTelemetryAutoConfiguration.quickPulse
   fullName: com.microsoft.applicationinsights.autoconfigure.ApplicationInsightsTelemetryAutoConfiguration.quickPulse
   package: com.microsoft.applicationinsights.autoconfigure
-- uid: 7aef7119
-  spec.java:
-  - name: InternalLogger
-    fullName: InternalLogger
 - uid: com.microsoft.applicationinsights.autoconfigure.ApplicationInsightsTelemetryAutoConfiguration.internalLogger*
   name: internalLogger
   nameWithType: ApplicationInsightsTelemetryAutoConfiguration.internalLogger
@@ -351,18 +347,7 @@ references:
   nameWithType: ApplicationInsightsProperties
   fullName: com.microsoft.applicationinsights.autoconfigure.ApplicationInsightsProperties
   type: Class
-  summary: >-
-    <p>
-
-      <heading level="1">This class is the container for Configuration Properties of Application Insights</heading>
-
-    </p>
-
-    <p>
-
-      <xref uid="" data-throw-if-not-resolved="false">ConfigurationProperties</xref> for configuring application insights.</p>
-
-    <p></p>
+  summary: "<p>\r\n  <heading level=\"1\">This class is the container for Configuration Properties of Application Insights</heading>\r\n</p>\r\n<p>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">ConfigurationProperties</xref> for configuring application insights.</p>\r\n<p></p>"
   syntax:
     content: public class ApplicationInsightsProperties
 - uid: com.microsoft.applicationinsights.extensibility.ContextInitializer
@@ -372,7 +357,7 @@ references:
   nameWithType: ContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.ContextInitializer
   type: Interface
-  summary: <p>Represents an object that implements supporting logic for TelemetryContext. <xref uid="com.microsoft.applicationinsights.telemetry.TelemetryContext" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref></p>
+  summary: "<p>Represents an object that implements supporting logic for TelemetryContext. <xref uid=\"com.microsoft.applicationinsights.telemetry.TelemetryContext\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref></p>"
   syntax:
     content: public interface ContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.TelemetryInitializer
@@ -382,7 +367,7 @@ references:
   nameWithType: TelemetryInitializer
   fullName: com.microsoft.applicationinsights.extensibility.TelemetryInitializer
   type: Interface
-  summary: <p>Interface for telemetry intitializers </p>
+  summary: "<p>Interface for telemetry intitializers </p>"
   syntax:
     content: public interface TelemetryInitializer
 - uid: com.microsoft.applicationinsights.extensibility.TelemetryModule
@@ -392,7 +377,7 @@ references:
   nameWithType: TelemetryModule
   fullName: com.microsoft.applicationinsights.extensibility.TelemetryModule
   type: Interface
-  summary: <p>Interface for telemetry modules. </p>
+  summary: "<p>Interface for telemetry modules. </p>"
   syntax:
     content: public interface TelemetryModule
 - uid: com.microsoft.applicationinsights.extensibility.TelemetryProcessor
@@ -412,10 +397,7 @@ references:
   nameWithType: TelemetryConfiguration
   fullName: com.microsoft.applicationinsights.TelemetryConfiguration
   type: Class
-  summary: >-
-    <p>Encapsulates the global telemetry configuration typically loaded from the ApplicationInsights.xml file.</p>
-
-    <p>All <xref uid="com.microsoft.applicationinsights.telemetry.TelemetryContext" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>
+  summary: "<p>Encapsulates the global telemetry configuration typically loaded from the ApplicationInsights.xml file.</p>\r\n<p>All <xref uid=\"com.microsoft.applicationinsights.telemetry.TelemetryContext\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>"
   syntax:
     content: public class TelemetryConfiguration
 - uid: com.microsoft.applicationinsights.channel.TelemetryChannel
@@ -425,7 +407,7 @@ references:
   nameWithType: TelemetryChannel
   fullName: com.microsoft.applicationinsights.channel.TelemetryChannel
   type: Interface
-  summary: <p>Represents a communication channel for sending telemetry to Azure Application Insights. </p>
+  summary: "<p>Represents a communication channel for sending telemetry to Azure Application Insights. </p>"
   syntax:
     content: public interface TelemetryChannel
 - uid: com.microsoft.applicationinsights.TelemetryClient
@@ -435,7 +417,7 @@ references:
   nameWithType: TelemetryClient
   fullName: com.microsoft.applicationinsights.TelemetryClient
   type: Class
-  summary: <p>Create an instance of this class to send telemetry to Azure Application Insights. General overview <a href="https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics">https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics</a></p>
+  summary: "<p>Create an instance of this class to send telemetry to Azure Application Insights. General overview <a href=\"https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics\">https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics</a></p>"
   syntax:
     content: public class TelemetryClient
 - uid: com.microsoft.applicationinsights.exceptions.IllegalConfigurationException
@@ -447,3 +429,13 @@ references:
   type: Class
   syntax:
     content: public class IllegalConfigurationException
+- uid: com.microsoft.applicationinsights.internal.logger.InternalLogger
+  parent: com.microsoft.applicationinsights.internal.logger
+  href: com.microsoft.applicationinsights.internal.logger.InternalLogger.yml
+  name: InternalLogger
+  nameWithType: InternalLogger
+  fullName: com.microsoft.applicationinsights.internal.logger.InternalLogger
+  type: Enum
+  summary: "<p>A first, very simple version of an internal logger</p>\r\n<p>Note: this class is for the SDK internal use only, and therefore should ONLY be used by SDK classes.</p>\r\n<p>By default the logger will not log messages since it will use the 'NullLoggerOutput' and LoggerLevel of 'OFF' which both deny the output</p>\r\n<p>Created by gupele on 1/13/2015. </p>"
+  syntax:
+    content: public enum InternalLogger

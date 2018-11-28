@@ -250,14 +250,7 @@ references:
   nameWithType: ServicePartitionInformation
   fullName: system.fabric.ServicePartitionInformation
   type: Class
-  summary: >-
-    <p>Represents the base class for describing partitions. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="system.fabric.Int64RangePartitionInformation" data-throw-if-not-resolved="false">system.fabric.Int64RangePartitionInformation</xref>, <xref uid="system.fabric.NamedPartitionInformation" data-throw-if-not-resolved="false">system.fabric.NamedPartitionInformation</xref>, and <xref uid="system.fabric.SingletonPartitionInformation" data-throw-if-not-resolved="false">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>
+  summary: "<p>Represents the base class for describing partitions. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"system.fabric.Int64RangePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.Int64RangePartitionInformation</xref>, <xref uid=\"system.fabric.NamedPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.NamedPartitionInformation</xref>, and <xref uid=\"system.fabric.SingletonPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>"
   syntax:
     content: public class ServicePartitionInformation
 - uid: system.fabric.ResolvedServiceEndpoint
@@ -267,7 +260,7 @@ references:
   nameWithType: ResolvedServiceEndpoint
   fullName: system.fabric.ResolvedServiceEndpoint
   type: Class
-  summary: <p>Represents a resolved service endpoint, which contains information about service partition replica role and the address it listens to. </p>
+  summary: "<p>Represents a resolved service endpoint, which contains information about service partition replica role and the address it listens to. </p>"
   syntax:
     content: public class ResolvedServiceEndpoint
 - uid: system.fabric.ResolvedServicePartition
@@ -277,10 +270,7 @@ references:
   nameWithType: ResolvedServicePartition
   fullName: system.fabric.ResolvedServicePartition
   type: Class
-  summary: >-
-    <p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>
-
-    <p></p>
+  summary: "<p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>\r\n<p></p>"
   syntax: *o1
 - uid: system.fabric.exception.FabricException
   parent: system.fabric.exception

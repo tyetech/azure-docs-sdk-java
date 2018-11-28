@@ -48,10 +48,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>.enabled(boolean defaultStatus)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>.enabled(boolean defaultStatus)
   type: Method
-  summary: >-
-    <p>Updates the default status of the webhook.</p>
-
-    <p></p>
+  summary: "<p>Updates the default status of the webhook.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> enabled(boolean defaultStatus)
     parameters:
@@ -68,12 +65,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -86,12 +78,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>.withCustomHeader(String name, String value)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>.withCustomHeader(String name, String value)
   type: Method
-  summary: >-
-    <p>Specifies a custom header that will be added to notifications. </p>
-
-    <p>Consecutive calls to this method will add additional headers.</p>
-
-    <p></p>
+  summary: "<p>Specifies a custom header that will be added to notifications. </p>\r\n<p>Consecutive calls to this method will add additional headers.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withCustomHeader(String name, String value)
     parameters:
@@ -111,10 +98,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>.withCustomHeaders(Map<String, String> customHeaders)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>.withCustomHeaders(Map<String, String> customHeaders)
   type: Method
-  summary: >-
-    <p>Specifies the custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withCustomHeaders(Map<String, String> customHeaders)
     parameters:
@@ -131,7 +115,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public WithAttach<ParentT> withoutTag(String key)
     parameters:
@@ -148,12 +132,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>.withRepositoriesScope(String repositoriesScope)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>.withRepositoriesScope(String repositoriesScope)
   type: Method
-  summary: >-
-    <p>Updates the scope of repositories where the event can be triggered. </p>
-
-    <p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>
-
-    <p></p>
+  summary: "<p>Updates the scope of repositories where the event can be triggered. </p>\r\n<p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withRepositoriesScope(String repositoriesScope)
     parameters:
@@ -170,10 +149,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithServiceUri<ParentT>.withServiceUri(String serviceUri)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithServiceUri<ParentT>.withServiceUri(String serviceUri)
   type: Method
-  summary: >-
-    <p>Specifies the service URI for post notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the service URI for post notifications.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withServiceUri(String serviceUri)
     parameters:
@@ -190,10 +166,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withTag(String key, String value)
   type: Method
-  summary: >-
-    <p>Adds a tag to the webhook.</p>
-
-    <p></p>
+  summary: "<p>Adds a tag to the webhook.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withTag(String key, String value)
     parameters:
@@ -213,10 +186,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>.withTags(Map<String, String> tags)
   type: Method
-  summary: >-
-    <p>Specifies tags for the webhook.</p>
-
-    <p></p>
+  summary: "<p>Specifies tags for the webhook.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withTags(Map<String, String> tags)
     parameters:
@@ -233,10 +203,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>.withTriggerWhen(WebhookAction... webhookActions)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>.withTriggerWhen(WebhookAction... webhookActions)
   type: Method
-  summary: >-
-    <p>Specifies the actions that will trigger the webhook notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the actions that will trigger the webhook notifications.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withTriggerWhen(WebhookAction... webhookActions)
     parameters:
@@ -253,10 +220,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the webhook definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container registry definition. </p>
+  summary: "<p>The final stage of the webhook definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container registry definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -270,7 +234,7 @@ references:
   nameWithType: Webhook.UpdateResource<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResource<ParentT>
   type: Interface
-  summary: <p>The entirety of a webhook resource update as part of a container registry update. </p>
+  summary: "<p>The entirety of a webhook resource update as part of a container registry update. </p>"
   syntax:
     content: public interface UpdateResource<ParentT>
     typeParameters:

@@ -45,10 +45,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -61,10 +58,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -77,10 +71,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -97,7 +88,7 @@ references:
   nameWithType: Registry.UpdateStages.WithWebhook.defineWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.defineWebhook(String name)
   type: Method
-  summary: <p>Begins the definition of a new webhook to be added to this container registry. </p>
+  summary: "<p>Begins the definition of a new webhook to be added to this container registry. </p>"
   syntax:
     content: public Webhook.UpdateDefinitionStages.Blank<Update> defineWebhook(String name)
     parameters:
@@ -126,7 +117,7 @@ references:
   nameWithType: Registry.UpdateStages.WithWebhook.updateWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.updateWebhook(String name)
   type: Method
-  summary: <p>Begins the description of an update of an existing webhook of this container registry. </p>
+  summary: "<p>Begins the description of an update of an existing webhook of this container registry. </p>"
   syntax:
     content: public Webhook.UpdateResourceStages.Blank<Update> updateWebhook(String name)
     parameters:
@@ -143,7 +134,7 @@ references:
   nameWithType: Registry.UpdateStages.WithSku.withBasicSku()
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku.withBasicSku()
   type: Method
-  summary: <p>Updates the current container registry to a 'managed' registry with a 'Basic' SKU type. </p>
+  summary: "<p>Updates the current container registry to a 'managed' registry with a 'Basic' SKU type. </p>"
   syntax:
     content: public Update withBasicSku()
     return:
@@ -156,7 +147,7 @@ references:
   nameWithType: Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithAdminUserEnabled.withoutRegistryNameAsAdminUser()
   type: Method
-  summary: <p>Disable admin user. </p>
+  summary: "<p>Disable admin user. </p>"
   syntax:
     content: public Update withoutRegistryNameAsAdminUser()
     return:
@@ -169,7 +160,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -186,7 +177,7 @@ references:
   nameWithType: Registry.UpdateStages.WithWebhook.withoutWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.withoutWebhook(String name)
   type: Method
-  summary: <p>Removes a webhook from the container registry. </p>
+  summary: "<p>Removes a webhook from the container registry. </p>"
   syntax:
     content: public Update withoutWebhook(String name)
     parameters:
@@ -203,7 +194,7 @@ references:
   nameWithType: Registry.UpdateStages.WithSku.withPremiumSku()
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku.withPremiumSku()
   type: Method
-  summary: <p>Updates the current container registry to a 'managed' registry with a 'Premium' SKU type. </p>
+  summary: "<p>Updates the current container registry to a 'managed' registry with a 'Premium' SKU type. </p>"
   syntax:
     content: public Update withPremiumSku()
     return:
@@ -216,7 +207,7 @@ references:
   nameWithType: Registry.UpdateStages.WithAdminUserEnabled.withRegistryNameAsAdminUser()
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithAdminUserEnabled.withRegistryNameAsAdminUser()
   type: Method
-  summary: <p>Enable admin user. </p>
+  summary: "<p>Enable admin user. </p>"
   syntax:
     content: public Update withRegistryNameAsAdminUser()
     return:
@@ -229,7 +220,7 @@ references:
   nameWithType: Registry.UpdateStages.WithSku.withStandardSku()
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku.withStandardSku()
   type: Method
-  summary: <p>Updates the current container registry to a 'managed' registry with a 'Standard' SKU type. </p>
+  summary: "<p>Updates the current container registry to a 'managed' registry with a 'Standard' SKU type. </p>"
   syntax:
     content: public Update withStandardSku()
     return:
@@ -242,7 +233,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -262,7 +253,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -279,10 +270,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -296,10 +284,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -313,7 +298,7 @@ references:
   nameWithType: Registry.UpdateStages.WithAdminUserEnabled
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithAdminUserEnabled
   type: Interface
-  summary: <p>The stage of the registry update allowing to enable admin user. </p>
+  summary: "<p>The stage of the registry update allowing to enable admin user. </p>"
   syntax:
     content: public interface WithAdminUserEnabled
 - uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku
@@ -323,7 +308,7 @@ references:
   nameWithType: Registry.UpdateStages.WithSku
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku
   type: Interface
-  summary: <p>The stage of the registry definition allowing to specify the SKU type. </p>
+  summary: "<p>The stage of the registry definition allowing to specify the SKU type. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook
@@ -333,7 +318,7 @@ references:
   nameWithType: Registry.UpdateStages.WithWebhook
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook
   type: Interface
-  summary: <p>The stage of the container registry update allowing to add or remove a webhook. </p>
+  summary: "<p>The stage of the container registry update allowing to add or remove a webhook. </p>"
   syntax:
     content: public interface WithWebhook
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -343,6 +328,6 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax:
     content: public class RegistryImpl implements Registry,Registry.Definition,Registry.Update

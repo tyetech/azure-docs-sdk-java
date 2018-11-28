@@ -37,10 +37,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -53,10 +50,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -73,10 +67,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -113,7 +104,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -133,7 +124,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -150,10 +141,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -167,10 +155,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -184,7 +169,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions
   type: Interface
-  summary: <p>The final stage of the SQL Database definition after the SQL Elastic Pool definition. </p>
+  summary: "<p>The final stage of the SQL Database definition after the SQL Elastic Pool definition. </p>"
   syntax:
     content: public interface WithCreateAfterElasticPoolOptions extends SqlDatabaseOperations.DefinitionStages.WithCollationAfterElasticPoolOptions,SqlDatabaseOperations.DefinitionStages.WithMaxSizeBytesAfterElasticPoolOptions,SqlDatabaseOperations.DefinitionStages.WithCreateFinal
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions
@@ -194,7 +179,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions
   type: Interface
-  summary: <p>A SQL Database definition with sufficient inputs to create a new SQL database in the cloud, but exposing additional optional settings to specify. </p>
+  summary: "<p>A SQL Database definition with sufficient inputs to create a new SQL database in the cloud, but exposing additional optional settings to specify. </p>"
   syntax:
     content: public interface WithCreateAllOptions extends SqlDatabaseOperations.DefinitionStages.WithServiceObjective,SqlDatabaseOperations.DefinitionStages.WithEdition,SqlDatabaseOperations.DefinitionStages.WithEditionDefaults,SqlDatabaseOperations.DefinitionStages.WithCollation,SqlDatabaseOperations.DefinitionStages.WithMaxSizeBytes,SqlDatabaseOperations.DefinitionStages.WithCreateFinal
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithEditionDefaults
@@ -204,7 +189,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithEditionDefaults
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithEditionDefaults
   type: Interface
-  summary: <p>The SQL Database definition to set the edition for database with defaults. </p>
+  summary: "<p>The SQL Database definition to set the edition for database with defaults. </p>"
   syntax:
     content: public interface WithEditionDefaults
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.SqlDatabaseOperationsDefinition
@@ -214,6 +199,6 @@ references:
   nameWithType: SqlDatabaseOperations.SqlDatabaseOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.SqlDatabaseOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlDatabaseOperationsDefinition extends SqlDatabaseOperations.DefinitionStages.Blank,SqlDatabaseOperations.DefinitionStages.WithSqlServer,SqlDatabaseOperations.DefinitionStages.WithAllDifferentOptions,SqlDatabaseOperations.DefinitionStages.WithElasticPoolName,SqlDatabaseOperations.DefinitionStages.WithRestorableDroppedDatabase,SqlDatabaseOperations.DefinitionStages.WithImportFrom,SqlDatabaseOperations.DefinitionStages.WithStorageKey,SqlDatabaseOperations.DefinitionStages.WithAuthentication,SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabase,SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId,SqlDatabaseOperations.DefinitionStages.WithCreateMode,SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions,SqlDatabaseOperations.DefinitionStages.WithCreateFinal

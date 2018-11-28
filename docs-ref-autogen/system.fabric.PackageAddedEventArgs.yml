@@ -126,7 +126,7 @@ references:
   nameWithType: CodePackage
   fullName: system.fabric.CodePackage
   type: Class
-  summary: <p>Represents the code package definition. </p>
+  summary: "<p>Represents the code package definition. </p>"
   syntax:
     content: public class CodePackage
 - uid: system.fabric.ConfigurationPackage
@@ -136,7 +136,7 @@ references:
   nameWithType: ConfigurationPackage
   fullName: system.fabric.ConfigurationPackage
   type: Class
-  summary: <p>Represents a configuration package. </p>
+  summary: "<p>Represents a configuration package. </p>"
   syntax:
     content: public class ConfigurationPackage
 - uid: system.fabric.DataPackage
@@ -146,7 +146,7 @@ references:
   nameWithType: DataPackage
   fullName: system.fabric.DataPackage
   type: Class
-  summary: <p>Defines a data package of an application. </p>
+  summary: "<p>Defines a data package of an application. </p>"
   syntax:
     content: public class DataPackage
 - uid: system.fabric.CodePackageActivationContext.getCodePackageAddedEvent()
@@ -156,10 +156,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageAddedEvent()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageAddedEvent()
   type: Method
-  summary: >-
-    <p>CodePackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Code package to service manifest.</p>
-
-    <p></p>
+  summary: "<p>CodePackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Code package to service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageAddedEventArgs<CodePackage>> getCodePackageAddedEvent()
     return:
@@ -172,10 +169,7 @@ references:
   nameWithType: CodePackageActivationContext.getConfigurationPackageAddedEvent()
   fullName: system.fabric.CodePackageActivationContext.getConfigurationPackageAddedEvent()
   type: Method
-  summary: >-
-    <p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Config package to service manifest.</p>
-
-    <p></p>
+  summary: "<p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Config package to service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageAddedEventArgs<ConfigurationPackage>> getConfigurationPackageAddedEvent()
     return:
@@ -188,10 +182,7 @@ references:
   nameWithType: CodePackageActivationContext.getDataPackageAddedEvent()
   fullName: system.fabric.CodePackageActivationContext.getDataPackageAddedEvent()
   type: Method
-  summary: >-
-    <p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Data package to service manifest.</p>
-
-    <p></p>
+  summary: "<p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Data package to service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageAddedEventArgs<DataPackage>> getDataPackageAddedEvent()
     return:

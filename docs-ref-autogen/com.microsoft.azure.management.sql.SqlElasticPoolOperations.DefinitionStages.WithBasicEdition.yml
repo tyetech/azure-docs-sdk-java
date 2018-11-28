@@ -146,10 +146,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -162,10 +159,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -182,10 +176,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -198,10 +189,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDatabase.defineDatabase(String databaseName)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithDatabase.defineDatabase(String databaseName)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new SQL Database to be added to this server.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new SQL Database to be added to this server.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithExistingDatabaseAfterElasticPool<WithCreate> defineDatabase(String databaseName)
     parameters:
@@ -242,10 +230,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDatabaseDtuMax.withDatabaseDtuMax(int databaseDtuMax)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithDatabaseDtuMax.withDatabaseDtuMax(int databaseDtuMax)
   type: Method
-  summary: >-
-    <p>Sets the maximum DTU any one SQL Azure Database can consume.</p>
-
-    <p></p>
+  summary: "<p>Sets the maximum DTU any one SQL Azure Database can consume.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPoolOperations.DefinitionStages.WithCreate withDatabaseDtuMax(int databaseDtuMax)
     parameters:
@@ -262,10 +247,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDatabaseDtuMin.withDatabaseDtuMin(int databaseDtuMin)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithDatabaseDtuMin.withDatabaseDtuMin(int databaseDtuMin)
   type: Method
-  summary: >-
-    <p>Sets the minimum DTU all SQL Azure Databases are guaranteed.</p>
-
-    <p></p>
+  summary: "<p>Sets the minimum DTU all SQL Azure Databases are guaranteed.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPoolOperations.DefinitionStages.WithCreate withDatabaseDtuMin(int databaseDtuMin)
     parameters:
@@ -282,10 +264,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDtu.withDtu(int dtu)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithDtu.withDtu(int dtu)
   type: Method
-  summary: >-
-    <p>Sets the total shared DTU for the SQL Azure Database Elastic Pool.</p>
-
-    <p></p>
+  summary: "<p>Sets the total shared DTU for the SQL Azure Database Elastic Pool.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPoolOperations.DefinitionStages.WithCreate withDtu(int dtu)
     parameters:
@@ -302,10 +281,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDatabase.withExistingDatabase(String databaseName)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithDatabase.withExistingDatabase(String databaseName)
   type: Method
-  summary: >-
-    <p>Adds an existing database in the SQL elastic pool.</p>
-
-    <p></p>
+  summary: "<p>Adds an existing database in the SQL elastic pool.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPoolOperations.DefinitionStages.WithCreate withExistingDatabase(String databaseName)
     parameters:
@@ -322,10 +298,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDatabase.withExistingDatabase(SqlDatabase database)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithDatabase.withExistingDatabase(SqlDatabase database)
   type: Method
-  summary: >-
-    <p>Adds the database in the SQL elastic pool.</p>
-
-    <p></p>
+  summary: "<p>Adds the database in the SQL elastic pool.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPoolOperations.DefinitionStages.WithCreate withExistingDatabase(SqlDatabase database)
     parameters:
@@ -342,10 +315,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDatabase.withNewDatabase(String databaseName)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithDatabase.withNewDatabase(String databaseName)
   type: Method
-  summary: >-
-    <p>Creates a new database in the SQL elastic pool.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database in the SQL elastic pool.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPoolOperations.DefinitionStages.WithCreate withNewDatabase(String databaseName)
     parameters:
@@ -362,10 +332,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithStorageCapacity.withStorageCapacity(int storageMB)
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithStorageCapacity.withStorageCapacity(int storageMB)
   type: Method
-  summary: >-
-    <p>Sets the storage limit for the SQL Azure Database Elastic Pool in MB.</p>
-
-    <p></p>
+  summary: "<p>Sets the storage limit for the SQL Azure Database Elastic Pool in MB.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPoolOperations.DefinitionStages.WithCreate withStorageCapacity(int storageMB)
     parameters:
@@ -382,7 +349,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -402,7 +369,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -419,7 +386,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A SQL Server definition with sufficient inputs to create a new SQL Elastic Pool in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Server definition with sufficient inputs to create a new SQL Elastic Pool in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.sql.SqlElasticPoolOperations.SqlElasticPoolOperationsDefinition
@@ -429,7 +396,7 @@ references:
   nameWithType: SqlElasticPoolOperations.SqlElasticPoolOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.SqlElasticPoolOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlElasticPoolOperationsDefinition extends SqlElasticPoolOperations.DefinitionStages.WithSqlServer,SqlElasticPoolOperations.DefinitionStages.WithEdition,SqlElasticPoolOperations.DefinitionStages.WithBasicEdition,SqlElasticPoolOperations.DefinitionStages.WithStandardEdition,SqlElasticPoolOperations.DefinitionStages.WithPremiumEdition
 - uid: com.microsoft.azure.management.sql.SqlElasticPoolBasicEDTUs
@@ -439,7 +406,7 @@ references:
   nameWithType: SqlElasticPoolBasicEDTUs
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolBasicEDTUs
   type: Enum
-  summary: <p>The reserved eDTUs value range for a "Basic" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The reserved eDTUs value range for a \"Basic\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlElasticPoolBasicEDTUs
 - uid: com.microsoft.azure.management.sql.SqlElasticPoolBasicMaxEDTUs
@@ -449,7 +416,7 @@ references:
   nameWithType: SqlElasticPoolBasicMaxEDTUs
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolBasicMaxEDTUs
   type: Enum
-  summary: <p>The maximum limit of the reserved eDTUs value range for a "Basic" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum limit of the reserved eDTUs value range for a \"Basic\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlElasticPoolBasicMaxEDTUs
 - uid: com.microsoft.azure.management.sql.SqlElasticPoolBasicMinEDTUs
@@ -459,6 +426,6 @@ references:
   nameWithType: SqlElasticPoolBasicMinEDTUs
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolBasicMinEDTUs
   type: Enum
-  summary: <p>The minimum limit of the reserved eDTUs value range for a "Basic" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The minimum limit of the reserved eDTUs value range for a \"Basic\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlElasticPoolBasicMinEDTUs

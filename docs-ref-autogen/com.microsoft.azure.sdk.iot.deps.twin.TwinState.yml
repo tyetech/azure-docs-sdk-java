@@ -535,7 +535,7 @@ references:
   nameWithType: RegisterManager.getCapabilities()
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.getCapabilities()
   type: Method
-  summary: <p>Getter for the Capabilities </p>
+  summary: "<p>Getter for the Capabilities </p>"
   syntax:
     content: public DeviceCapabilities getCapabilities()
     return:
@@ -551,7 +551,7 @@ references:
   nameWithType: RegisterManager.getDeviceId()
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.getDeviceId()
   type: Method
-  summary: <p>Getter for the DeviceId </p>
+  summary: "<p>Getter for the DeviceId </p>"
   syntax:
     content: public String getDeviceId()
     return:
@@ -567,7 +567,7 @@ references:
   nameWithType: RegisterManager.getETag()
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.getETag()
   type: Method
-  summary: <p>Getter for the ETag </p>
+  summary: "<p>Getter for the ETag </p>"
   syntax:
     content: public String getETag()
     return:
@@ -583,7 +583,7 @@ references:
   nameWithType: RegisterManager.getModuleId()
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.getModuleId()
   type: Method
-  summary: <p>Getter for the ModuleId </p>
+  summary: "<p>Getter for the ModuleId </p>"
   syntax:
     content: public String getModuleId()
     return:
@@ -599,7 +599,7 @@ references:
   nameWithType: RegisterManager.getVersion()
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.getVersion()
   type: Method
-  summary: <p>Getter for the Version </p>
+  summary: "<p>Getter for the Version </p>"
   syntax:
     content: public Integer getVersion()
     return:
@@ -637,10 +637,7 @@ references:
   nameWithType: RegisterManager.setCapabilities(DeviceCapabilities capabilities)
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.setCapabilities(DeviceCapabilities capabilities)
   type: Method
-  summary: >-
-    <p>Setter for the Capabilities</p>
-
-    <p></p>
+  summary: "<p>Setter for the Capabilities</p>\r\n<p></p>"
   syntax:
     content: public void setCapabilities(DeviceCapabilities capabilities)
     parameters:
@@ -654,10 +651,7 @@ references:
   nameWithType: RegisterManager.setDeviceId(String deviceId)
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.setDeviceId(String deviceId)
   type: Method
-  summary: >-
-    <p>Setter for the DeviceId</p>
-
-    <p></p>
+  summary: "<p>Setter for the DeviceId</p>\r\n<p></p>"
   syntax:
     content: public void setDeviceId(String deviceId)
     parameters:
@@ -674,10 +668,7 @@ references:
   nameWithType: RegisterManager.setETag(String eTag)
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.setETag(String eTag)
   type: Method
-  summary: >-
-    <p>Setter for the ETag</p>
-
-    <p></p>
+  summary: "<p>Setter for the ETag</p>\r\n<p></p>"
   syntax:
     content: public void setETag(String eTag)
     parameters:
@@ -694,10 +685,7 @@ references:
   nameWithType: RegisterManager.setModuleId(String moduleId)
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager.setModuleId(String moduleId)
   type: Method
-  summary: >-
-    <p>Setter for the ModuleId</p>
-
-    <p></p>
+  summary: "<p>Setter for the ModuleId</p>\r\n<p></p>"
   syntax:
     content: public void setModuleId(String moduleId)
     parameters:
@@ -758,10 +746,7 @@ references:
   nameWithType: RegisterManager
   fullName: com.microsoft.azure.sdk.iot.deps.twin.RegisterManager
   type: Class
-  summary: >-
-    <p>Twin management representation</p>
-
-    <p>This class is part of the Twin. It contains the Device identity management. </p>
+  summary: "<p>Twin management representation</p>\r\n<p>This class is part of the Twin. It contains the Device identity management. </p>"
   syntax:
     content: public class RegisterManager
 - uid: com.microsoft.azure.sdk.iot.deps.twin.TwinCollection
@@ -781,116 +766,7 @@ references:
   nameWithType: TwinProperties
   fullName: com.microsoft.azure.sdk.iot.deps.twin.TwinProperties
   type: Class
-  summary: >-
-    <p>Representation of a single Twin Properties for the <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinState" data-throw-if-not-resolved="false">TwinState</xref>.</p>
-
-    <p>The Properties on the TwinState shall contains one <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref> of <b>desired</b> property.</p>
-
-    <p>The desired property is a collection that can contain a associated <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata" data-throw-if-not-resolved="false">TwinMetadata</xref>.</p>
-
-    <p>These metadata are provided by the Service and contains information about the last updated date time, and version.</p>
-
-    <p>For instance, the following is a valid desired property, represented as <code>properties.desired 
-
-        </code> in the rest API. <pre><code>{
-
-            "desired": {
-
-                "MaxSpeed":{
-
-                    "Value":500,
-
-                    "NewValue":300
-
-                },
-
-                "$metadata":{
-
-                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                    "$lastUpdatedVersion":4,
-
-                    "MaxSpeed":{
-
-                        "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                        "$lastUpdatedVersion":4,
-
-                        "Value":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":4
-
-                        },
-
-                        "NewValue":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":4
-
-                        }
-
-                    }
-
-                },
-
-                "$version":4
-
-            },
-
-            "reported": {
-
-                "MaxSpeed":{
-
-                    "Value":500,
-
-                    "NewValue":300
-
-                },
-
-                "$metadata":{
-
-                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                    "$lastUpdatedVersion":5,
-
-                    "MaxSpeed":{
-
-                        "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                        "$lastUpdatedVersion":4,
-
-                        "Value":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":5
-
-                        },
-
-                        "NewValue":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":4
-
-                        }
-
-                    }
-
-                },
-
-                "$version":6
-
-            }
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Representation of a single Twin Properties for the <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinState\" data-throw-if-not-resolved=\"false\">TwinState</xref>.</p>\r\n<p>The Properties on the TwinState shall contains one <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinCollection\" data-throw-if-not-resolved=\"false\">TwinCollection</xref> of <b>desired</b> property.</p>\r\n<p>The desired property is a collection that can contain a associated <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata\" data-throw-if-not-resolved=\"false\">TwinMetadata</xref>.</p>\r\n<p>These metadata are provided by the Service and contains information about the last updated date time, and version.</p>\r\n<p>For instance, the following is a valid desired property, represented as <code>properties.desired \r\n    </code> in the rest API. <pre><code>{\r\n        \"desired\": {\r\n            \"MaxSpeed\":{\r\n                \"Value\":500,\r\n                \"NewValue\":300\r\n            },\r\n            \"$metadata\":{\r\n                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                \"$lastUpdatedVersion\":4,\r\n                \"MaxSpeed\":{\r\n                    \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                    \"$lastUpdatedVersion\":4,\r\n                    \"Value\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":4\r\n                    },\r\n                    \"NewValue\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":4\r\n                    }\r\n                }\r\n            },\r\n            \"$version\":4\r\n        },\r\n        \"reported\": {\r\n            \"MaxSpeed\":{\r\n                \"Value\":500,\r\n                \"NewValue\":300\r\n            },\r\n            \"$metadata\":{\r\n                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                \"$lastUpdatedVersion\":5,\r\n                \"MaxSpeed\":{\r\n                    \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                    \"$lastUpdatedVersion\":4,\r\n                    \"Value\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":5\r\n                    },\r\n                    \"NewValue\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":4\r\n                    }\r\n                }\r\n            },\r\n            \"$version\":6\r\n        }\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public class TwinProperties
 - uid: com.microsoft.azure.sdk.iot.deps.twin.ConfigurationInfo
@@ -909,148 +785,7 @@ references:
   nameWithType: TwinState
   fullName: com.microsoft.azure.sdk.iot.deps.twin.TwinState
   type: Class
-  summary: >-
-    <p>Representation of a single Twin.</p>
-
-    <p>The TwinState can contain one <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref> of <b>Tags</b>, and one <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref> of <b>properties.desired</b>.</p>
-
-    <p>Each entity in the collections can contain a associated <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata" data-throw-if-not-resolved="false">TwinMetadata</xref>.</p>
-
-    <p>These metadata are provided by the Service and contains information about the last updated date time, and version.</p>
-
-    <p>For instance, the following is a valid TwinState, represented as <code>initialTwin 
-
-        </code> in the rest API. <pre><code>{
-
-            "initialTwin": {
-
-                "tags":{
-
-                    "SpeedUnity":"MPH",
-
-                    "$metadata":{
-
-                        "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                        "$lastUpdatedVersion":4,
-
-                        "SpeedUnity":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":4
-
-                        }
-
-                    },
-
-                    "$version":4
-
-                },
-
-                "properties":{
-
-                    "desired": {
-
-                        "MaxSpeed":{
-
-                            "Value":500,
-
-                            "NewValue":300
-
-                        },
-
-                        "$metadata":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":4,
-
-                            "MaxSpeed":{
-
-                                "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                "$lastUpdatedVersion":4,
-
-                                "Value":{
-
-                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                    "$lastUpdatedVersion":4
-
-                                },
-
-                                "NewValue":{
-
-                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                    "$lastUpdatedVersion":4
-
-                                }
-
-                            }
-
-                        },
-
-                        "$version":4
-
-                    },
-
-                    "reported": {
-
-                        "MaxSpeed":{
-
-                            "Value":500,
-
-                            "NewValue":300
-
-                        },
-
-                        "$metadata":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":5,
-
-                            "MaxSpeed":{
-
-                                "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                "$lastUpdatedVersion":4,
-
-                                "Value":{
-
-                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                    "$lastUpdatedVersion":5
-
-                                },
-
-                                "NewValue":{
-
-                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                    "$lastUpdatedVersion":4
-
-                                }
-
-                            }
-
-                        },
-
-                        "$version":6
-
-                    }
-
-                }
-
-            }
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Representation of a single Twin.</p>\r\n<p>The TwinState can contain one <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinCollection\" data-throw-if-not-resolved=\"false\">TwinCollection</xref> of <b>Tags</b>, and one <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinCollection\" data-throw-if-not-resolved=\"false\">TwinCollection</xref> of <b>properties.desired</b>.</p>\r\n<p>Each entity in the collections can contain a associated <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata\" data-throw-if-not-resolved=\"false\">TwinMetadata</xref>.</p>\r\n<p>These metadata are provided by the Service and contains information about the last updated date time, and version.</p>\r\n<p>For instance, the following is a valid TwinState, represented as <code>initialTwin \r\n    </code> in the rest API. <pre><code>{\r\n        \"initialTwin\": {\r\n            \"tags\":{\r\n                \"SpeedUnity\":\"MPH\",\r\n                \"$metadata\":{\r\n                    \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                    \"$lastUpdatedVersion\":4,\r\n                    \"SpeedUnity\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":4\r\n                    }\r\n                },\r\n                \"$version\":4\r\n            },\r\n            \"properties\":{\r\n                \"desired\": {\r\n                    \"MaxSpeed\":{\r\n                        \"Value\":500,\r\n                        \"NewValue\":300\r\n                    },\r\n                    \"$metadata\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":4,\r\n                        \"MaxSpeed\":{\r\n                            \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                            \"$lastUpdatedVersion\":4,\r\n                            \"Value\":{\r\n                                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                                \"$lastUpdatedVersion\":4\r\n                            },\r\n                            \"NewValue\":{\r\n                                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                                \"$lastUpdatedVersion\":4\r\n                            }\r\n                        }\r\n                    },\r\n                    \"$version\":4\r\n                },\r\n                \"reported\": {\r\n                    \"MaxSpeed\":{\r\n                        \"Value\":500,\r\n                        \"NewValue\":300\r\n                    },\r\n                    \"$metadata\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":5,\r\n                        \"MaxSpeed\":{\r\n                            \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                            \"$lastUpdatedVersion\":4,\r\n                            \"Value\":{\r\n                                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                                \"$lastUpdatedVersion\":5\r\n                            },\r\n                            \"NewValue\":{\r\n                                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                                \"$lastUpdatedVersion\":4\r\n                            }\r\n                        }\r\n                    },\r\n                    \"$version\":6\r\n                }\r\n            }\r\n        }\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata
   parent: com.microsoft.azure.sdk.iot.deps.twin
@@ -1059,47 +794,6 @@ references:
   nameWithType: TwinMetadata
   fullName: com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata
   type: Class
-  summary: >-
-    <p>Representation of a single Twin metadata for the <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref>.</p>
-
-    <p>The metadata is a set of pairs lastUpdated/lastUpdatedVersion for each property and sub-property in the Twin. It is optionally provided by the service and the clients can only ready it.</p>
-
-    <p>This class store the Date and Version for each entity in the <xref uid="com.microsoft.azure.sdk.iot.deps.twin.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref>.</p>
-
-    <p>For instance, the following is a valid TwinCollection with its metadata. <pre><code>"$metadata":{
-
-            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-            "$lastUpdatedVersion":4,
-
-            "MaxSpeed":{
-
-                "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                "$lastUpdatedVersion":3,
-
-                "Value":{
-
-                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                    "$lastUpdatedVersion":5
-
-                },
-
-                "NewValue":{
-
-                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                    "$lastUpdatedVersion":5
-
-                }
-
-            }
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Representation of a single Twin metadata for the <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinCollection\" data-throw-if-not-resolved=\"false\">TwinCollection</xref>.</p>\r\n<p>The metadata is a set of pairs lastUpdated/lastUpdatedVersion for each property and sub-property in the Twin. It is optionally provided by the service and the clients can only ready it.</p>\r\n<p>This class store the Date and Version for each entity in the <xref uid=\"com.microsoft.azure.sdk.iot.deps.twin.TwinCollection\" data-throw-if-not-resolved=\"false\">TwinCollection</xref>.</p>\r\n<p>For instance, the following is a valid TwinCollection with its metadata. <pre><code>\"$metadata\":{\r\n        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n        \"$lastUpdatedVersion\":4,\r\n        \"MaxSpeed\":{\r\n            \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n            \"$lastUpdatedVersion\":3,\r\n            \"Value\":{\r\n                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                \"$lastUpdatedVersion\":5\r\n            },\r\n            \"NewValue\":{\r\n                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                \"$lastUpdatedVersion\":5\r\n            }\r\n        }\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public class TwinMetadata

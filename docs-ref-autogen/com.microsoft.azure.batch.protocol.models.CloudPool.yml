@@ -2146,7 +2146,7 @@ references:
   nameWithType: PoolState
   fullName: com.microsoft.azure.batch.protocol.models.PoolState
   type: Enum
-  summary: <p>Defines values for PoolState. </p>
+  summary: "<p>Defines values for PoolState. </p>"
   syntax:
     content: public enum PoolState
 - uid: com.microsoft.azure.batch.protocol.models.AllocationState
@@ -2156,7 +2156,7 @@ references:
   nameWithType: AllocationState
   fullName: com.microsoft.azure.batch.protocol.models.AllocationState
   type: Enum
-  summary: <p>Defines values for AllocationState. </p>
+  summary: "<p>Defines values for AllocationState. </p>"
   syntax:
     content: public enum AllocationState
 - uid: com.microsoft.azure.batch.protocol.models.CloudServiceConfiguration
@@ -2166,7 +2166,7 @@ references:
   nameWithType: CloudServiceConfiguration
   fullName: com.microsoft.azure.batch.protocol.models.CloudServiceConfiguration
   type: Class
-  summary: <p>The configuration for nodes in a pool based on the Azure Cloud Services platform. </p>
+  summary: "<p>The configuration for nodes in a pool based on the Azure Cloud Services platform. </p>"
   syntax:
     content: public class CloudServiceConfiguration
 - uid: com.microsoft.azure.batch.protocol.models.VirtualMachineConfiguration
@@ -2176,7 +2176,7 @@ references:
   nameWithType: VirtualMachineConfiguration
   fullName: com.microsoft.azure.batch.protocol.models.VirtualMachineConfiguration
   type: Class
-  summary: <p>The configuration for compute nodes in a pool based on the Azure Virtual Machines infrastructure. </p>
+  summary: "<p>The configuration for compute nodes in a pool based on the Azure Virtual Machines infrastructure. </p>"
   syntax:
     content: public class VirtualMachineConfiguration
 - uid: com.microsoft.azure.batch.protocol.models.ResizeError
@@ -2186,7 +2186,7 @@ references:
   nameWithType: ResizeError
   fullName: com.microsoft.azure.batch.protocol.models.ResizeError
   type: Class
-  summary: <p>An error that occurred when resizing a pool. </p>
+  summary: "<p>An error that occurred when resizing a pool. </p>"
   syntax:
     content: public class ResizeError
 - uid: com.microsoft.azure.batch.protocol.models.AutoScaleRun
@@ -2196,7 +2196,7 @@ references:
   nameWithType: AutoScaleRun
   fullName: com.microsoft.azure.batch.protocol.models.AutoScaleRun
   type: Class
-  summary: <p>The results and errors from an execution of a pool autoscale formula. </p>
+  summary: "<p>The results and errors from an execution of a pool autoscale formula. </p>"
   syntax:
     content: public class AutoScaleRun
 - uid: com.microsoft.azure.batch.protocol.models.NetworkConfiguration
@@ -2206,7 +2206,7 @@ references:
   nameWithType: NetworkConfiguration
   fullName: com.microsoft.azure.batch.protocol.models.NetworkConfiguration
   type: Class
-  summary: <p>The network configuration for a pool. </p>
+  summary: "<p>The network configuration for a pool. </p>"
   syntax:
     content: public class NetworkConfiguration
 - uid: com.microsoft.azure.batch.protocol.models.StartTask
@@ -2216,7 +2216,7 @@ references:
   nameWithType: StartTask
   fullName: com.microsoft.azure.batch.protocol.models.StartTask
   type: Class
-  summary: <p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class StartTask
 - uid: com.microsoft.azure.batch.protocol.models.CertificateReference
@@ -2226,7 +2226,7 @@ references:
   nameWithType: CertificateReference
   fullName: com.microsoft.azure.batch.protocol.models.CertificateReference
   type: Class
-  summary: <p>A reference to a certificate to be installed on compute nodes in a pool. </p>
+  summary: "<p>A reference to a certificate to be installed on compute nodes in a pool. </p>"
   syntax:
     content: public class CertificateReference
 - uid: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
@@ -2236,7 +2236,7 @@ references:
   nameWithType: ApplicationPackageReference
   fullName: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
   type: Class
-  summary: <p>A reference to an application package to be deployed to compute nodes. </p>
+  summary: "<p>A reference to an application package to be deployed to compute nodes. </p>"
   syntax:
     content: public class ApplicationPackageReference
 - uid: com.microsoft.azure.batch.protocol.models.TaskSchedulingPolicy
@@ -2246,7 +2246,7 @@ references:
   nameWithType: TaskSchedulingPolicy
   fullName: com.microsoft.azure.batch.protocol.models.TaskSchedulingPolicy
   type: Class
-  summary: <p>Specifies how tasks should be distributed across compute nodes. </p>
+  summary: "<p>Specifies how tasks should be distributed across compute nodes. </p>"
   syntax:
     content: public class TaskSchedulingPolicy
 - uid: com.microsoft.azure.batch.protocol.models.UserAccount
@@ -2256,7 +2256,7 @@ references:
   nameWithType: UserAccount
   fullName: com.microsoft.azure.batch.protocol.models.UserAccount
   type: Class
-  summary: <p>Properties used to create a user used to execute tasks on an Azure Batch node. </p>
+  summary: "<p>Properties used to create a user used to execute tasks on an Azure Batch node. </p>"
   syntax:
     content: public class UserAccount
 - uid: com.microsoft.azure.batch.protocol.models.MetadataItem
@@ -2266,7 +2266,7 @@ references:
   nameWithType: MetadataItem
   fullName: com.microsoft.azure.batch.protocol.models.MetadataItem
   type: Class
-  summary: <p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>
+  summary: "<p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>"
   syntax:
     content: public class MetadataItem
 - uid: com.microsoft.azure.batch.protocol.models.PoolStatistics
@@ -2276,7 +2276,7 @@ references:
   nameWithType: PoolStatistics
   fullName: com.microsoft.azure.batch.protocol.models.PoolStatistics
   type: Class
-  summary: <p>Contains utilization and resource usage statistics for the lifetime of a pool. </p>
+  summary: "<p>Contains utilization and resource usage statistics for the lifetime of a pool. </p>"
   syntax:
     content: public class PoolStatistics
 - uid: com.microsoft.azure.batch.protocol.models.CloudPool
@@ -2286,5 +2286,5 @@ references:
   nameWithType: CloudPool
   fullName: com.microsoft.azure.batch.protocol.models.CloudPool
   type: Class
-  summary: <p>A pool in the Azure Batch service. </p>
+  summary: "<p>A pool in the Azure Batch service. </p>"
   syntax: *o1

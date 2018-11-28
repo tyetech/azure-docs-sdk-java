@@ -59,7 +59,7 @@ references:
   nameWithType: CloudInfoContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.CloudInfoContextInitializer
   type: Class
-  summary: <p>Initializes cloud context information. Currently setting RoleInstance to the hostname. </p>
+  summary: "<p>Initializes cloud context information. Currently setting RoleInstance to the hostname. </p>"
   syntax:
     content: public class CloudInfoContextInitializer implements ContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.DeviceInfoContextInitializer
@@ -69,7 +69,7 @@ references:
   nameWithType: DeviceInfoContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.DeviceInfoContextInitializer
   type: Class
-  summary: <p>Initializer class for device context information. </p>
+  summary: "<p>Initializer class for device context information. </p>"
   syntax:
     content: public class DeviceInfoContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.SdkVersionContextInitializer
@@ -79,7 +79,7 @@ references:
   nameWithType: SdkVersionContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.SdkVersionContextInitializer
   type: Class
-  summary: <p>Initializer for SDK version. </p>
+  summary: "<p>Initializer for SDK version. </p>"
   syntax:
     content: public class SdkVersionContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.CloudInfoContextInitializer.initialize(TelemetryContext)
@@ -89,7 +89,7 @@ references:
   nameWithType: CloudInfoContextInitializer.initialize(TelemetryContext context)
   fullName: com.microsoft.applicationinsights.extensibility.initializer.CloudInfoContextInitializer.initialize(TelemetryContext context)
   type: Method
-  summary: <p>Initializes the given TelemetryContext. </p>
+  summary: "<p>Initializes the given TelemetryContext. </p>"
   syntax:
     content: public void initialize(TelemetryContext context)
     parameters:
@@ -103,7 +103,7 @@ references:
   nameWithType: DeviceInfoContextInitializer.initialize(TelemetryContext context)
   fullName: com.microsoft.applicationinsights.extensibility.initializer.DeviceInfoContextInitializer.initialize(TelemetryContext context)
   type: Method
-  summary: <p>Initializes the given TelemetryContext. </p>
+  summary: "<p>Initializes the given TelemetryContext. </p>"
   syntax:
     content: public void initialize(TelemetryContext context)
     parameters:
@@ -117,7 +117,7 @@ references:
   nameWithType: SdkVersionContextInitializer.initialize(TelemetryContext context)
   fullName: com.microsoft.applicationinsights.extensibility.initializer.SdkVersionContextInitializer.initialize(TelemetryContext context)
   type: Method
-  summary: <p>Initializes the given TelemetryContext. </p>
+  summary: "<p>Initializes the given TelemetryContext. </p>"
   syntax:
     content: public void initialize(TelemetryContext context)
     parameters:
@@ -131,6 +131,6 @@ references:
   nameWithType: TelemetryContext
   fullName: com.microsoft.applicationinsights.telemetry.TelemetryContext
   type: Class
-  summary: <p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>
+  summary: "<p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>"
   syntax:
     content: public class TelemetryContext

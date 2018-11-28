@@ -146,7 +146,7 @@ references:
   nameWithType: RequestRetryOptions
   fullName: com.microsoft.azure.storage.blob.RequestRetryOptions
   type: Class
-  summary: <p>Options for configuring the <xref uid="com.microsoft.azure.storage.blob.RequestRetryFactory" data-throw-if-not-resolved="false">RequestRetryFactory</xref>. Please refer to the Factory for more information. Note that there is no option for overall operation timeout. This is because Rx object have a timeout field which provides this functionality. </p>
+  summary: "<p>Options for configuring the <xref uid=\"com.microsoft.azure.storage.blob.RequestRetryFactory\" data-throw-if-not-resolved=\"false\">RequestRetryFactory</xref>. Please refer to the Factory for more information. Note that there is no option for overall operation timeout. This is because Rx object have a timeout field which provides this functionality. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.RetryPolicyType.EXPONENTIAL
   parent: com.microsoft.azure.storage.blob.RetryPolicyType
@@ -155,7 +155,7 @@ references:
   nameWithType: RetryPolicyType.EXPONENTIAL
   fullName: com.microsoft.azure.storage.blob.RetryPolicyType.EXPONENTIAL
   type: Field
-  summary: <p>Tells the pipeline to use an exponential back-off retry policy. </p>
+  summary: "<p>Tells the pipeline to use an exponential back-off retry policy. </p>"
   syntax:
     content: public EXPONENTIAL
 - uid: com.microsoft.azure.storage.blob.RetryPolicyType
@@ -165,7 +165,7 @@ references:
   nameWithType: RetryPolicyType
   fullName: com.microsoft.azure.storage.blob.RetryPolicyType
   type: Enum
-  summary: <p>This type holds possible options for retry backoff algorithms. They may be used with <xref uid="com.microsoft.azure.storage.blob.RequestRetryOptions" data-throw-if-not-resolved="false">RequestRetryOptions</xref>. </p>
+  summary: "<p>This type holds possible options for retry backoff algorithms. They may be used with <xref uid=\"com.microsoft.azure.storage.blob.RequestRetryOptions\" data-throw-if-not-resolved=\"false\">RequestRetryOptions</xref>. </p>"
   syntax:
     content: public enum RetryPolicyType
 - uid: com.microsoft.azure.storage.blob.RequestRetryFactory
@@ -175,6 +175,6 @@ references:
   nameWithType: RequestRetryFactory
   fullName: com.microsoft.azure.storage.blob.RequestRetryFactory
   type: Class
-  summary: <p>This is a factory which creates policies in an <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> for retrying a given HTTP request. The request that is retried will be identical each time it is reissued. In most cases, it is sufficient to configure a <xref uid="com.microsoft.azure.storage.blob.RequestRetryOptions" data-throw-if-not-resolved="false">RequestRetryOptions</xref> object and set those as a field on a <xref uid="com.microsoft.azure.storage.blob.PipelineOptions" data-throw-if-not-resolved="false">PipelineOptions</xref> object to configure a default pipeline. Retries will try against a secondary if one is specified and the type of operation/error indicates that the secondary can handle the request. Exponential and fixed backoff are supported. The factory and policy must only be used directly when creating a custom pipeline. </p>
+  summary: "<p>This is a factory which creates policies in an <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref> for retrying a given HTTP request. The request that is retried will be identical each time it is reissued. In most cases, it is sufficient to configure a <xref uid=\"com.microsoft.azure.storage.blob.RequestRetryOptions\" data-throw-if-not-resolved=\"false\">RequestRetryOptions</xref> object and set those as a field on a <xref uid=\"com.microsoft.azure.storage.blob.PipelineOptions\" data-throw-if-not-resolved=\"false\">PipelineOptions</xref> object to configure a default pipeline. Retries will try against a secondary if one is specified and the type of operation/error indicates that the secondary can handle the request. Exponential and fixed backoff are supported. The factory and policy must only be used directly when creating a custom pipeline. </p>"
   syntax:
     content: public class RequestRetryFactory

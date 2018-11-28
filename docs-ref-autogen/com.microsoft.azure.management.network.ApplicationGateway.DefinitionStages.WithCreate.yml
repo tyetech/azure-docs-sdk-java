@@ -56,10 +56,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -72,10 +69,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -92,10 +86,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -108,7 +99,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithBackend.defineBackend(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithBackend.defineBackend(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway backend to be attached to the gateway. </p>
+  summary: "<p>Begins the definition of a new application gateway backend to be attached to the gateway. </p>"
   syntax:
     content: public ApplicationGatewayBackend.DefinitionStages.Blank<WithCreate> defineBackend(String name)
     parameters:
@@ -125,7 +116,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithBackendHttpConfig.defineBackendHttpConfiguration(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithBackendHttpConfig.defineBackendHttpConfiguration(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway backend HTTP configuration to be attached to the gateway. </p>
+  summary: "<p>Begins the definition of a new application gateway backend HTTP configuration to be attached to the gateway. </p>"
   syntax:
     content: public ApplicationGatewayBackendHttpConfiguration.DefinitionStages.Blank<WithCreate> defineBackendHttpConfiguration(String name)
     parameters:
@@ -142,7 +133,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithListener.defineListener(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithListener.defineListener(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway listener to be attached to the gateway. </p>
+  summary: "<p>Begins the definition of a new application gateway listener to be attached to the gateway. </p>"
   syntax:
     content: public ApplicationGatewayListener.DefinitionStages.Blank<WithCreate> defineListener(String name)
     parameters:
@@ -159,7 +150,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithProbe.defineProbe(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithProbe.defineProbe(String name)
   type: Method
-  summary: <p>Begins the definition of a new probe. </p>
+  summary: "<p>Begins the definition of a new probe. </p>"
   syntax:
     content: public ApplicationGatewayProbe.DefinitionStages.Blank<WithCreate> defineProbe(String name)
     parameters:
@@ -176,7 +167,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithSslCert.defineSslCertificate(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithSslCert.defineSslCertificate(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway SSL certificate to be attached to the gateway for use in HTTPS listeners. </p>
+  summary: "<p>Begins the definition of a new application gateway SSL certificate to be attached to the gateway for use in HTTPS listeners. </p>"
   syntax:
     content: public ApplicationGatewaySslCertificate.DefinitionStages.Blank<WithCreate> defineSslCertificate(String name)
     parameters:
@@ -217,7 +208,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithDisabledSslProtocol.withDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithDisabledSslProtocol.withDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
   type: Method
-  summary: <p>Disables the specified SSL protocol. </p>
+  summary: "<p>Disables the specified SSL protocol. </p>"
   syntax:
     content: public WithCreate withDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
     parameters:
@@ -234,7 +225,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithDisabledSslProtocol.withDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithDisabledSslProtocol.withDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
   type: Method
-  summary: <p>Disables the specified SSL protocols. </p>
+  summary: "<p>Disables the specified SSL protocols. </p>"
   syntax:
     content: public WithCreate withDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
     parameters:
@@ -251,12 +242,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithExistingSubnet.withExistingSubnet(Subnet subnet)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithExistingSubnet.withExistingSubnet(Subnet subnet)
   type: Method
-  summary: >-
-    <p>Specifies the subnet the application gateway gets its private IP address from. </p>
-
-    <p>This will create a new IP configuration, if it does not already exist. </p>
-
-    <p>Private (internal) frontends, if any have been enabled, will be configured to use this subnet as well. </p>
+  summary: "<p>Specifies the subnet the application gateway gets its private IP address from. </p>\r\n<p>This will create a new IP configuration, if it does not already exist. </p>\r\n<p>Private (internal) frontends, if any have been enabled, will be configured to use this subnet as well. </p>"
   syntax:
     content: public WithCreate withExistingSubnet(Subnet subnet)
     parameters:
@@ -273,12 +259,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithExistingSubnet.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithExistingSubnet.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the subnet the application gateway gets its private IP address from. </p>
-
-    <p>This will create a new IP configuration, if it does not already exist. </p>
-
-    <p>Private (internal) frontends, if any have been enabled, will be configured to use this subnet as well. </p>
+  summary: "<p>Specifies the subnet the application gateway gets its private IP address from. </p>\r\n<p>This will create a new IP configuration, if it does not already exist. </p>\r\n<p>Private (internal) frontends, if any have been enabled, will be configured to use this subnet as well. </p>"
   syntax:
     content: public WithCreate withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -298,7 +279,7 @@ references:
   nameWithType: HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -318,7 +299,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithFrontendPort.withFrontendPort(int portNumber)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithFrontendPort.withFrontendPort(int portNumber)
   type: Method
-  summary: <p>Creates a frontend port with an auto-generated name and the specified port number, unless one already exists. </p>
+  summary: "<p>Creates a frontend port with an auto-generated name and the specified port number, unless one already exists. </p>"
   syntax:
     content: public WithCreate withFrontendPort(int portNumber)
     parameters:
@@ -335,7 +316,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithFrontendPort.withFrontendPort(int portNumber, String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithFrontendPort.withFrontendPort(int portNumber, String name)
   type: Method
-  summary: <p>Creates a frontend port with the specified name and port number, unless a port matching this name and/or number already exists. </p>
+  summary: "<p>Creates a frontend port with the specified name and port number, unless a port matching this name and/or number already exists. </p>"
   syntax:
     content: public WithCreate withFrontendPort(int portNumber, String name)
     parameters:
@@ -355,10 +336,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithInstanceCount.withInstanceCount(int instanceCount)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithInstanceCount.withInstanceCount(int instanceCount)
   type: Method
-  summary: >-
-    <p>Specifies the capacity (number of instances) for the application gateway. </p>
-
-    <p>By default, 1 instance is used. </p>
+  summary: "<p>Specifies the capacity (number of instances) for the application gateway. </p>\r\n<p>By default, 1 instance is used. </p>"
   syntax:
     content: public WithCreate withInstanceCount(int instanceCount)
     parameters:
@@ -375,7 +353,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPrivateFrontend.withoutPrivateFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPrivateFrontend.withoutPrivateFrontend()
   type: Method
-  summary: <p>Specifies that no private (internal) frontend should be enabled. </p>
+  summary: "<p>Specifies that no private (internal) frontend should be enabled. </p>"
   syntax:
     content: public WithCreate withoutPrivateFrontend()
     return:
@@ -388,7 +366,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPublicFrontend.withoutPublicFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPublicFrontend.withoutPublicFrontend()
   type: Method
-  summary: <p>Specifies that the application gateway should not be Internet-facing. </p>
+  summary: "<p>Specifies that the application gateway should not be Internet-facing. </p>"
   syntax:
     content: public WithCreate withoutPublicFrontend()
     return:
@@ -401,10 +379,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPrivateFrontend.withPrivateFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPrivateFrontend.withPrivateFrontend()
   type: Method
-  summary: >-
-    <p>Enables a private (internal) default frontend within the subnet containing the application gateway. </p>
-
-    <p>A frontend with an automatically generated name will be created if none exists. </p>
+  summary: "<p>Enables a private (internal) default frontend within the subnet containing the application gateway. </p>\r\n<p>A frontend with an automatically generated name will be created if none exists. </p>"
   syntax:
     content: public WithCreate withPrivateFrontend()
     return:
@@ -417,7 +392,7 @@ references:
   nameWithType: HasPrivateIPAddress.DefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.DefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   type: Method
-  summary: <p>Enables dynamic private IP address allocation within the associated subnet. </p>
+  summary: "<p>Enables dynamic private IP address allocation within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressDynamic()
     return:
@@ -430,7 +405,7 @@ references:
   nameWithType: HasPrivateIPAddress.DefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.DefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   type: Method
-  summary: <p>Assigns the specified static private IP address within the associated subnet. </p>
+  summary: "<p>Assigns the specified static private IP address within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressStatic(String ipAddress)
     parameters:
@@ -447,10 +422,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithSize.withSize(ApplicationGatewaySkuName size)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithSize.withSize(ApplicationGatewaySkuName size)
   type: Method
-  summary: >-
-    <p>Specifies the size of the application gateway to create within the context of the selected tier. </p>
-
-    <p>By default, the smallest size is used. </p>
+  summary: "<p>Specifies the size of the application gateway to create within the context of the selected tier. </p>\r\n<p>By default, the smallest size is used. </p>"
   syntax:
     content: public WithCreate withSize(ApplicationGatewaySkuName size)
     parameters:
@@ -467,7 +439,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -487,7 +459,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -504,10 +476,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -521,10 +490,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -538,7 +504,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithSize
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithSize
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to specify the size. </p>
+  summary: "<p>The stage of an application gateway update allowing to specify the size. </p>"
   syntax:
     content: public interface WithSize
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithInstanceCount
@@ -548,7 +514,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithInstanceCount
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithInstanceCount
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to specify the capacity (number of instances) of the application gateway. </p>
+  summary: "<p>The stage of an application gateway definition allowing to specify the capacity (number of instances) of the application gateway. </p>"
   syntax:
     content: public interface WithInstanceCount
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithSslCert
@@ -558,7 +524,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithSslCert
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithSslCert
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to add an SSL certificate to be used by HTTPS listeners. </p>
+  summary: "<p>The stage of an application gateway definition allowing to add an SSL certificate to be used by HTTPS listeners. </p>"
   syntax:
     content: public interface WithSslCert
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithFrontendPort
@@ -568,7 +534,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithFrontendPort
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithFrontendPort
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to add a frontend port. </p>
+  summary: "<p>The stage of an application gateway definition allowing to add a frontend port. </p>"
   syntax:
     content: public interface WithFrontendPort
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithListener
@@ -578,7 +544,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithListener
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithListener
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to add a listener. </p>
+  summary: "<p>The stage of an application gateway definition allowing to add a listener. </p>"
   syntax:
     content: public interface WithListener
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithBackendHttpConfig
@@ -588,7 +554,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithBackendHttpConfig
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithBackendHttpConfig
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to add a backend HTTP configuration. </p>
+  summary: "<p>The stage of an application gateway definition allowing to add a backend HTTP configuration. </p>"
   syntax:
     content: public interface WithBackendHttpConfig
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithBackend
@@ -598,7 +564,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithBackend
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithBackend
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to add a backend. </p>
+  summary: "<p>The stage of an application gateway definition allowing to add a backend. </p>"
   syntax:
     content: public interface WithBackend
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithExistingSubnet
@@ -608,7 +574,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithExistingSubnet
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithExistingSubnet
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to specify the subnet the app gateway is getting its private IP address from. </p>
+  summary: "<p>The stage of an application gateway definition allowing to specify the subnet the app gateway is getting its private IP address from. </p>"
   syntax:
     content: public interface WithExistingSubnet
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPrivateIPAddress
@@ -618,7 +584,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPrivateIPAddress
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPrivateIPAddress
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to specify the default IP address the app gateway will be internally available at, if a default private frontend has been enabled. </p>
+  summary: "<p>The stage of an application gateway definition allowing to specify the default IP address the app gateway will be internally available at, if a default private frontend has been enabled. </p>"
   syntax:
     content: public interface WithPrivateIPAddress
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPrivateFrontend
@@ -628,7 +594,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPrivateFrontend
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPrivateFrontend
   type: Interface
-  summary: <p>The stage of an internal application gateway definition allowing to make the application gateway accessible to its virtual network. </p>
+  summary: "<p>The stage of an internal application gateway definition allowing to make the application gateway accessible to its virtual network. </p>"
   syntax:
     content: public interface WithPrivateFrontend
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPublicFrontend
@@ -638,7 +604,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPublicFrontend
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPublicFrontend
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to define one or more public, or Internet-facing, frontends. </p>
+  summary: "<p>The stage of an application gateway definition allowing to define one or more public, or Internet-facing, frontends. </p>"
   syntax:
     content: public interface WithPublicFrontend
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPublicIPAddress
@@ -648,7 +614,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPublicIPAddress
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPublicIPAddress
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to add a new Internet-facing frontend with a public IP address. </p>
+  summary: "<p>The stage of an application gateway definition allowing to add a new Internet-facing frontend with a public IP address. </p>"
   syntax:
     content: public interface WithPublicIPAddress
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithProbe
@@ -658,7 +624,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithProbe
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithProbe
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to add a probe. </p>
+  summary: "<p>The stage of an application gateway definition allowing to add a probe. </p>"
   syntax:
     content: public interface WithProbe
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithDisabledSslProtocol
@@ -668,7 +634,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithDisabledSslProtocol
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithDisabledSslProtocol
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to specify the SSL protocols to disable. </p>
+  summary: "<p>The stage of an application gateway definition allowing to specify the SSL protocols to disable. </p>"
   syntax:
     content: public interface WithDisabledSslProtocol
 - uid: com.microsoft.azure.management.network.ApplicationGateway.Definition
@@ -678,7 +644,7 @@ references:
   nameWithType: ApplicationGateway.Definition
   fullName: com.microsoft.azure.management.network.ApplicationGateway.Definition
   type: Interface
-  summary: <p>The entirety of the application gateway definition. </p>
+  summary: "<p>The entirety of the application gateway definition. </p>"
   syntax:
     content: public interface Definition extends ApplicationGateway.DefinitionStages.Blank,ApplicationGateway.DefinitionStages.WithGroup,ApplicationGateway.DefinitionStages.WithCreate,ApplicationGateway.DefinitionStages.WithRequestRoutingRule,ApplicationGateway.DefinitionStages.WithRequestRoutingRuleOrCreate
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithRequestRoutingRuleOrCreate
@@ -688,6 +654,6 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithRequestRoutingRuleOrCreate
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithRequestRoutingRuleOrCreate
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to continue adding more request routing rules, or start specifying optional settings, or create the application gateway. </p>
+  summary: "<p>The stage of an application gateway definition allowing to continue adding more request routing rules, or start specifying optional settings, or create the application gateway. </p>"
   syntax:
     content: public interface WithRequestRoutingRuleOrCreate

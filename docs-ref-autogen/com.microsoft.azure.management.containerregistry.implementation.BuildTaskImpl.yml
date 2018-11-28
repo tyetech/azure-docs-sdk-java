@@ -1515,10 +1515,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -1531,10 +1528,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -1547,10 +1541,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1567,10 +1558,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -1583,10 +1571,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1603,10 +1588,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -1667,10 +1649,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1683,10 +1662,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1699,7 +1675,7 @@ references:
   nameWithType: BuildTask
   fullName: com.microsoft.azure.management.containerregistry.BuildTask
   type: Interface
-  summary: <p>An object that represents a build task for a container registry. </p>
+  summary: "<p>An object that represents a build task for a container registry. </p>"
   syntax:
     content: public interface BuildTask extends ExternalChildResource<BuildTask, Registry>,Resource,HasInner<BuildTaskInner>,Refreshable<BuildTask>,Updatable<BuildTask.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
@@ -1709,7 +1685,7 @@ references:
   nameWithType: BuildTask.BuildTaskDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
   type: Interface
-  summary: <p>Grouping of the container register build task definitions. </p>
+  summary: "<p>Grouping of the container register build task definitions. </p>"
   syntax:
     content: public interface BuildTaskDefinition extends BuildTask.DefinitionStages.Blank,BuildTask.DefinitionStages.WithOSType,BuildTask.DefinitionStages.WithSourceControlType,BuildTask.DefinitionStages.WithRepositoryUrl,BuildTask.DefinitionStages.WithAuthenticationTokenType,BuildTask.DefinitionStages.WithAuthenticationToken,BuildTask.DefinitionStages.WithAlias,BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,BuildTask.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.Update
@@ -1719,7 +1695,7 @@ references:
   nameWithType: BuildTask.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -1729,7 +1705,7 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax:
     content: public class RegistryImpl
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskInner
@@ -1739,7 +1715,7 @@ references:
   nameWithType: BuildTaskInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskInner
   type: Class
-  summary: <p>The build task that has the resource properties and all build items. The build task will have all information to schedule a build against it. </p>
+  summary: "<p>The build task that has the resource properties and all build items. The build task will have all information to schedule a build against it. </p>"
   syntax:
     content: public class BuildTaskInner
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource.id()
@@ -1785,7 +1761,7 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
@@ -1831,7 +1807,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.containerregistry.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.provisioningState()
@@ -1877,7 +1853,7 @@ references:
   nameWithType: BuildTaskStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildTaskStatus
   type: Class
-  summary: <p>Defines values for BuildTaskStatus. </p>
+  summary: "<p>Defines values for BuildTaskStatus. </p>"
   syntax:
     content: public class BuildTaskStatus
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.status()
@@ -1911,7 +1887,7 @@ references:
   nameWithType: OsType
   fullName: com.microsoft.azure.management.containerregistry.OsType
   type: Class
-  summary: <p>Defines values for OsType. </p>
+  summary: "<p>Defines values for OsType. </p>"
   syntax:
     content: public class OsType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.osType()
@@ -1945,7 +1921,7 @@ references:
   nameWithType: SourceControlType
   fullName: com.microsoft.azure.management.containerregistry.SourceControlType
   type: Class
-  summary: <p>Defines values for SourceControlType. </p>
+  summary: "<p>Defines values for SourceControlType. </p>"
   syntax:
     content: public class SourceControlType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.sourceControlType()
@@ -1991,7 +1967,7 @@ references:
   nameWithType: TokenType
   fullName: com.microsoft.azure.management.containerregistry.TokenType
   type: Class
-  summary: <p>Defines values for TokenType. </p>
+  summary: "<p>Defines values for TokenType. </p>"
   syntax:
     content: public class TokenType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.authenticationTokenType()
@@ -2061,7 +2037,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.queueBuildTask()
@@ -2071,10 +2047,7 @@ references:
   nameWithType: BuildTask.queueBuildTask()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.queueBuildTask()
   type: Method
-  summary: >-
-    <p>Queues the current build task to build for the current container registry.</p>
-
-    <p></p>
+  summary: "<p>Queues the current build task to build for the current container registry.</p>\r\n<p></p>"
   syntax:
     content: public Build queueBuildTask()
     return:
@@ -2087,10 +2060,7 @@ references:
   nameWithType: BuildTask.queueBuildTaskAsync()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.queueBuildTaskAsync()
   type: Method
-  summary: >-
-    <p>Queues the current build task to build for the current container registry.</p>
-
-    <p></p>
+  summary: "<p>Queues the current build task to build for the current container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Build> queueBuildTaskAsync()
     return:
@@ -2103,7 +2073,7 @@ references:
   nameWithType: BuildStepOperationsImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepOperationsImpl
   type: Class
-  summary: <p>Represents a build task collection of operations associated with the build steps. </p>
+  summary: "<p>Represents a build task collection of operations associated with the build steps. </p>"
   syntax:
     content: public class BuildStepOperationsImpl implements BuildStepOperations
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.buildSteps()
@@ -2125,7 +2095,7 @@ references:
   nameWithType: BuildTaskImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
   type: Class
-  summary: <p>Implementation for BuildTask. </p>
+  summary: "<p>Implementation for BuildTask. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType.withOSType(OsType)
   parent: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType
@@ -2134,10 +2104,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithOSType.withOSType(OsType osType)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType.withOSType(OsType osType)
   type: Method
-  summary: >-
-    <p>Specifies the OS type required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the OS type required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithSourceControlType withOSType(OsType osType)
     parameters:
@@ -2154,10 +2121,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithSourceControlType.withSourceControlType(SourceControlType sourceControlType)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithSourceControlType.withSourceControlType(SourceControlType sourceControlType)
   type: Method
-  summary: >-
-    <p>Specifies full URL to the source code repository.</p>
-
-    <p></p>
+  summary: "<p>Specifies full URL to the source code repository.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithRepositoryUrl withSourceControlType(SourceControlType sourceControlType)
     parameters:
@@ -2174,10 +2138,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithRepositoryUrl.withRepositoryUrl(String repositoryUrl)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithRepositoryUrl.withRepositoryUrl(String repositoryUrl)
   type: Method
-  summary: >-
-    <p>Specifies the full URL to the source code repository.</p>
-
-    <p></p>
+  summary: "<p>Specifies the full URL to the source code repository.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithAuthenticationTokenType withRepositoryUrl(String repositoryUrl)
     parameters:
@@ -2194,10 +2155,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenType.withAuthenticationTokenType(TokenType tokenType)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenType.withAuthenticationTokenType(TokenType tokenType)
   type: Method
-  summary: >-
-    <p>Specifies the type of the authentication token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the type of the authentication token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithAuthenticationToken withAuthenticationTokenType(TokenType tokenType)
     parameters:
@@ -2214,10 +2172,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationToken.withAuthenticationToken(String token)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationToken.withAuthenticationToken(String token)
   type: Method
-  summary: >-
-    <p>Specifies the authentication token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the authentication token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithAlias withAuthenticationToken(String token)
     parameters:
@@ -2234,10 +2189,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAlias.withAlias(String alias)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAlias.withAlias(String alias)
   type: Method
-  summary: >-
-    <p>Specifies the alternative name for a build task.</p>
-
-    <p></p>
+  summary: "<p>Specifies the alternative name for a build task.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withAlias(String alias)
     parameters:
@@ -2254,10 +2206,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationRefreshToken.withAuthenticationRefreshToken(String refreshToken)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationRefreshToken.withAuthenticationRefreshToken(String refreshToken)
   type: Method
-  summary: >-
-    <p>Specifies the authentication refresh token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the authentication refresh token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withAuthenticationRefreshToken(String refreshToken)
     parameters:
@@ -2274,10 +2223,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds.withTokenExpirationTimeInSeconds(int expirationTimeInSeconds)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds.withTokenExpirationTimeInSeconds(int expirationTimeInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the time in seconds that the token remains valid.</p>
-
-    <p></p>
+  summary: "<p>Specifies the time in seconds that the token remains valid.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withTokenExpirationTimeInSeconds(int expirationTimeInSeconds)
     parameters:
@@ -2294,10 +2240,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope.withAuthenticationTokenTypeAccessScope(String scope)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope.withAuthenticationTokenTypeAccessScope(String scope)
   type: Method
-  summary: >-
-    <p>Specifies the scope of the access token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of the access token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withAuthenticationTokenTypeAccessScope(String scope)
     parameters:
@@ -2314,10 +2257,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the source control commit trigger is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the source control commit trigger is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withCommitTriggerEnabled()
     return:
@@ -2330,10 +2270,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the source control commit trigger is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the source control commit trigger is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withCommitTriggerDisabled()
     return:
@@ -2346,10 +2283,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   type: Method
-  summary: >-
-    <p>Specifies the CPU configuration in terms of number of cores required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the CPU configuration in terms of number of cores required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withCpuCoresCount(int count)
     parameters:
@@ -2366,10 +2300,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the build timeout.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build timeout.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
     parameters:
@@ -2386,10 +2317,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the current status of build task is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the current status of build task is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withBuildTaskStatusEnabled()
     return:
@@ -2402,10 +2330,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the current status of build task is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the current status of build task is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withBuildTaskStatusDisabled()
     return:
@@ -2418,7 +2343,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -2435,7 +2360,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -2455,12 +2380,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:

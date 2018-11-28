@@ -82,10 +82,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the inbound NAT rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the inbound NAT rule definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the inbound NAT rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the inbound NAT rule definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,LoadBalancerInboundNatRule.DefinitionStages.WithBackendPort<ParentT>,LoadBalancerInboundNatRule.DefinitionStages.WithFloatingIP<ParentT>,LoadBalancerInboundNatRule.DefinitionStages.WithIdleTimeout<ParentT>
     typeParameters:

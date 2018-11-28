@@ -128,7 +128,7 @@ references:
   nameWithType: Vault.Definition
   fullName: com.microsoft.azure.management.keyvault.Vault.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends Vault.DefinitionStages.Blank,Vault.DefinitionStages.WithGroup,Vault.DefinitionStages.WithAccessPolicy,Vault.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithCreate
@@ -138,7 +138,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A key vault definition with sufficient inputs to create a new storage account in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A key vault definition with sufficient inputs to create a new storage account in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.keyvault.AccessPolicy
@@ -148,6 +148,6 @@ references:
   nameWithType: AccessPolicy
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy
   type: Interface
-  summary: <p>An immutable client-side representation of a key vault access policy. </p>
+  summary: "<p>An immutable client-side representation of a key vault access policy. </p>"
   syntax:
     content: public interface AccessPolicy extends ChildResource<Vault>,HasInner<AccessPolicyEntry>

@@ -2015,7 +2015,7 @@ references:
   nameWithType: HasName
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
   type: Interface
-  summary: <p>An interface representing a model that has a name. </p>
+  summary: "<p>An interface representing a model that has a name. </p>"
   syntax:
     content: public interface HasName
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource
@@ -2025,7 +2025,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -2042,7 +2042,7 @@ references:
   nameWithType: DeploymentSlot
   fullName: com.microsoft.azure.management.appservice.DeploymentSlot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Web App deployment slot. </p>
+  summary: "<p>An immutable client-side representation of an Azure Web App deployment slot. </p>"
   syntax:
     content: public interface DeploymentSlot extends IndependentChildResource<AppServiceManager, SiteInner>,WebAppBase,Refreshable<DeploymentSlot>,Updatable<DeploymentSlot.Update>,HasParent<WebApp>
 - uid: com.microsoft.azure.management.appservice.FunctionApp
@@ -2052,7 +2052,7 @@ references:
   nameWithType: FunctionApp
   fullName: com.microsoft.azure.management.appservice.FunctionApp
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Function App. </p>
+  summary: "<p>An immutable client-side representation of an Azure Function App. </p>"
   syntax:
     content: public interface FunctionApp extends WebAppBase,Refreshable<FunctionApp>,Updatable<FunctionApp.Update>
 - uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot
@@ -2062,7 +2062,7 @@ references:
   nameWithType: FunctionDeploymentSlot
   fullName: com.microsoft.azure.management.appservice.FunctionDeploymentSlot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Function App deployment slot. </p>
+  summary: "<p>An immutable client-side representation of an Azure Function App deployment slot. </p>"
   syntax:
     content: public interface FunctionDeploymentSlot extends IndependentChildResource<AppServiceManager, SiteInner>,WebAppBase,Refreshable<FunctionDeploymentSlot>,Updatable<FunctionDeploymentSlot.Update>,HasParent<FunctionApp>
 - uid: com.microsoft.azure.management.appservice.WebApp
@@ -2072,7 +2072,7 @@ references:
   nameWithType: WebApp
   fullName: com.microsoft.azure.management.appservice.WebApp
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Web App. </p>
+  summary: "<p>An immutable client-side representation of an Azure Web App. </p>"
   syntax:
     content: public interface WebApp extends WebAppBase,Refreshable<WebApp>,Updatable<WebApp.Update>
 - uid: com.microsoft.azure.management.appservice.UsageState
@@ -2082,7 +2082,7 @@ references:
   nameWithType: UsageState
   fullName: com.microsoft.azure.management.appservice.UsageState
   type: Enum
-  summary: <p>Defines values for UsageState. </p>
+  summary: "<p>Defines values for UsageState. </p>"
   syntax:
     content: public enum UsageState
 - uid: com.microsoft.azure.management.appservice.SiteAvailabilityState
@@ -2092,7 +2092,7 @@ references:
   nameWithType: SiteAvailabilityState
   fullName: com.microsoft.azure.management.appservice.SiteAvailabilityState
   type: Enum
-  summary: <p>Defines values for SiteAvailabilityState. </p>
+  summary: "<p>Defines values for SiteAvailabilityState. </p>"
   syntax:
     content: public enum SiteAvailabilityState
 - uid: com.microsoft.azure.management.appservice.HostNameSslState
@@ -2102,7 +2102,7 @@ references:
   nameWithType: HostNameSslState
   fullName: com.microsoft.azure.management.appservice.HostNameSslState
   type: Class
-  summary: <p>SSL-enabled hostname. </p>
+  summary: "<p>SSL-enabled hostname. </p>"
   syntax:
     content: public class HostNameSslState
 - uid: com.microsoft.azure.management.appservice.CloningInfo
@@ -2112,7 +2112,7 @@ references:
   nameWithType: CloningInfo
   fullName: com.microsoft.azure.management.appservice.CloningInfo
   type: Class
-  summary: <p>Information needed for cloning operation. </p>
+  summary: "<p>Information needed for cloning operation. </p>"
   syntax:
     content: public class CloningInfo
 - uid: com.microsoft.azure.management.appservice.NetFrameworkVersion
@@ -2122,7 +2122,7 @@ references:
   nameWithType: NetFrameworkVersion
   fullName: com.microsoft.azure.management.appservice.NetFrameworkVersion
   type: Class
-  summary: <p>Defines values for .NET framework version. </p>
+  summary: "<p>Defines values for .NET framework version. </p>"
   syntax:
     content: public class NetFrameworkVersion extends ExpandableStringEnum<NetFrameworkVersion>
 - uid: com.microsoft.azure.management.appservice.PhpVersion
@@ -2132,7 +2132,7 @@ references:
   nameWithType: PhpVersion
   fullName: com.microsoft.azure.management.appservice.PhpVersion
   type: Class
-  summary: <p>Defines values for PHP version. </p>
+  summary: "<p>Defines values for PHP version. </p>"
   syntax:
     content: public class PhpVersion extends ExpandableStringEnum<PhpVersion>
 - uid: com.microsoft.azure.management.appservice.PythonVersion
@@ -2142,7 +2142,7 @@ references:
   nameWithType: PythonVersion
   fullName: com.microsoft.azure.management.appservice.PythonVersion
   type: Class
-  summary: <p>Defines values for Python version. </p>
+  summary: "<p>Defines values for Python version. </p>"
   syntax:
     content: public class PythonVersion extends ExpandableStringEnum<PythonVersion>
 - uid: com.microsoft.azure.management.appservice.RemoteVisualStudioVersion
@@ -2152,7 +2152,7 @@ references:
   nameWithType: RemoteVisualStudioVersion
   fullName: com.microsoft.azure.management.appservice.RemoteVisualStudioVersion
   type: Class
-  summary: <p>Defines values for remote visual studio version for remote debugging. </p>
+  summary: "<p>Defines values for remote visual studio version for remote debugging. </p>"
   syntax:
     content: public class RemoteVisualStudioVersion extends ExpandableStringEnum<RemoteVisualStudioVersion>
 - uid: com.microsoft.azure.management.appservice.JavaVersion
@@ -2162,7 +2162,7 @@ references:
   nameWithType: JavaVersion
   fullName: com.microsoft.azure.management.appservice.JavaVersion
   type: Class
-  summary: <p>Defines values for Java versions. </p>
+  summary: "<p>Defines values for Java versions. </p>"
   syntax:
     content: public class JavaVersion extends ExpandableStringEnum<JavaVersion>
 - uid: com.microsoft.azure.management.appservice.ManagedPipelineMode
@@ -2172,7 +2172,7 @@ references:
   nameWithType: ManagedPipelineMode
   fullName: com.microsoft.azure.management.appservice.ManagedPipelineMode
   type: Enum
-  summary: <p>Defines values for ManagedPipelineMode. </p>
+  summary: "<p>Defines values for ManagedPipelineMode. </p>"
   syntax:
     content: public enum ManagedPipelineMode
 - uid: com.microsoft.azure.management.appservice.AppSetting
@@ -2182,7 +2182,7 @@ references:
   nameWithType: AppSetting
   fullName: com.microsoft.azure.management.appservice.AppSetting
   type: Interface
-  summary: <p>An immutable client-side representation of an app setting on a web app. </p>
+  summary: "<p>An immutable client-side representation of an app setting on a web app. </p>"
   syntax:
     content: public interface AppSetting
 - uid: com.microsoft.azure.management.appservice.ConnectionString
@@ -2192,7 +2192,7 @@ references:
   nameWithType: ConnectionString
   fullName: com.microsoft.azure.management.appservice.ConnectionString
   type: Interface
-  summary: <p>An immutable client-side representation of a connection string on a web app. </p>
+  summary: "<p>An immutable client-side representation of a connection string on a web app. </p>"
   syntax:
     content: public interface ConnectionString
 - uid: com.microsoft.azure.management.appservice.OperatingSystem
@@ -2202,7 +2202,7 @@ references:
   nameWithType: OperatingSystem
   fullName: com.microsoft.azure.management.appservice.OperatingSystem
   type: Enum
-  summary: <p>Defines values for AppServiceOperatingSystem. </p>
+  summary: "<p>Defines values for AppServiceOperatingSystem. </p>"
   syntax:
     content: public enum OperatingSystem
 - uid: com.microsoft.azure.management.appservice.PlatformArchitecture
@@ -2212,7 +2212,7 @@ references:
   nameWithType: PlatformArchitecture
   fullName: com.microsoft.azure.management.appservice.PlatformArchitecture
   type: Enum
-  summary: <p>Defines values for app service platform architecture. </p>
+  summary: "<p>Defines values for app service platform architecture. </p>"
   syntax:
     content: public enum PlatformArchitecture
 - uid: com.microsoft.azure.management.appservice.HostNameBinding
@@ -2222,7 +2222,7 @@ references:
   nameWithType: HostNameBinding
   fullName: com.microsoft.azure.management.appservice.HostNameBinding
   type: Interface
-  summary: <p>An immutable representation of a host name binding. </p>
+  summary: "<p>An immutable representation of a host name binding. </p>"
   syntax:
     content: public interface HostNameBinding extends HasInner<HostNameBindingInner>,ExternalChildResource<HostNameBinding, WebAppBase>,Resource
 - uid: com.microsoft.azure.management.appservice.PublishingProfile
@@ -2232,7 +2232,7 @@ references:
   nameWithType: PublishingProfile
   fullName: com.microsoft.azure.management.appservice.PublishingProfile
   type: Interface
-  summary: <p>Endpoints and credentials for publishing to a web app. </p>
+  summary: "<p>Endpoints and credentials for publishing to a web app. </p>"
   syntax:
     content: public interface PublishingProfile
 - uid: com.microsoft.azure.management.appservice.WebAppSourceControl
@@ -2242,6 +2242,6 @@ references:
   nameWithType: WebAppSourceControl
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl
   type: Interface
-  summary: <p>An immutable representation of a web app source control configuration in a web app. </p>
+  summary: "<p>An immutable representation of a web app source control configuration in a web app. </p>"
   syntax:
     content: public interface WebAppSourceControl

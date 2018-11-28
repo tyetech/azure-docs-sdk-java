@@ -170,7 +170,7 @@ references:
   nameWithType: WorkspacesInner
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in Workspaces. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in Workspaces. </p>"
   syntax:
     content: public class WorkspacesInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
@@ -180,7 +180,7 @@ references:
   nameWithType: RegistriesInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in Registries. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in Registries. </p>"
   syntax:
     content: public class RegistriesInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
@@ -190,7 +190,7 @@ references:
   nameWithType: ContainerServicesInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in ContainerServices. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in ContainerServices. </p>"
   syntax:
     content: public class ContainerServicesInner implements InnerSupportsGet<ContainerServiceInner>,InnerSupportsDelete<Void>,InnerSupportsListing<ContainerServiceInner>
 - uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
@@ -200,7 +200,7 @@ references:
   nameWithType: ManagedClustersInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in ManagedClusters. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in ManagedClusters. </p>"
   syntax:
     content: public class ManagedClustersInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.listAsync()
@@ -210,10 +210,7 @@ references:
   nameWithType: ContainerServicesInner.listAsync()
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.listAsync()
   type: Method
-  summary: >-
-    <p>Gets a list of container services in the specified subscription. Gets a list of container services in the specified subscription. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of container services in the specified subscription. Gets a list of container services in the specified subscription. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<ContainerServiceInner>> listAsync()
     return:
@@ -226,10 +223,7 @@ references:
   nameWithType: WorkspacesInner.listAsync()
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.listAsync()
   type: Method
-  summary: >-
-    <p>Gets a list of Workspaces associated with the given subscription.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of Workspaces associated with the given subscription.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<WorkspaceInner>> listAsync()
     return:
@@ -242,10 +236,7 @@ references:
   nameWithType: ManagedClustersInner.listAsync()
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.listAsync()
   type: Method
-  summary: >-
-    <p>Gets a list of managed clusters in the specified subscription. Gets a list of managed clusters in the specified subscription. The operation returns properties of each managed cluster.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of managed clusters in the specified subscription. Gets a list of managed clusters in the specified subscription. The operation returns properties of each managed cluster.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<ManagedClusterInner>> listAsync()
     return:
@@ -258,10 +249,7 @@ references:
   nameWithType: RegistriesInner.listAsync()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the container registries under the specified subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the container registries under the specified subscription.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<RegistryInner>> listAsync()
     return:
@@ -274,10 +262,7 @@ references:
   nameWithType: ManagedClustersInner.listByResourceGroupAsync(final String resourceGroupName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.listByResourceGroupAsync(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Lists managed clusters in the specified subscription and resource group. Lists managed clusters in the specified subscription and resource group. The operation returns properties of each managed cluster.</p>
-
-    <p></p>
+  summary: "<p>Lists managed clusters in the specified subscription and resource group. Lists managed clusters in the specified subscription and resource group. The operation returns properties of each managed cluster.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<ManagedClusterInner>> listByResourceGroupAsync(final String resourceGroupName)
     parameters:
@@ -294,10 +279,7 @@ references:
   nameWithType: WorkspacesInner.listByResourceGroupAsync(final String resourceGroupName)
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.listByResourceGroupAsync(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Gets a list of Workspaces within the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of Workspaces within the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<WorkspaceInner>> listByResourceGroupAsync(final String resourceGroupName)
     parameters:
@@ -314,10 +296,7 @@ references:
   nameWithType: ContainerServicesInner.listByResourceGroupAsync(final String resourceGroupName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.listByResourceGroupAsync(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Gets a list of container services in the specified resource group. Gets a list of container services in the specified subscription and resource group. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of container services in the specified resource group. Gets a list of container services in the specified subscription and resource group. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<ContainerServiceInner>> listByResourceGroupAsync(final String resourceGroupName)
     parameters:
@@ -334,10 +313,7 @@ references:
   nameWithType: RegistriesInner.listByResourceGroupAsync(final String resourceGroupName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.listByResourceGroupAsync(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Lists all the container registries under the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Lists all the container registries under the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<RegistryInner>> listByResourceGroupAsync(final String resourceGroupName)
     parameters:
@@ -354,10 +330,7 @@ references:
   nameWithType: ContainerServicesInner.list()
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.list()
   type: Method
-  summary: >-
-    <p>Gets a list of container services in the specified subscription. Gets a list of container services in the specified subscription. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of container services in the specified subscription. Gets a list of container services in the specified subscription. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<ContainerServiceInner> list()
     return:
@@ -370,10 +343,7 @@ references:
   nameWithType: WorkspacesInner.list()
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.list()
   type: Method
-  summary: >-
-    <p>Gets a list of Workspaces associated with the given subscription.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of Workspaces associated with the given subscription.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<WorkspaceInner> list()
     return:
@@ -386,10 +356,7 @@ references:
   nameWithType: ManagedClustersInner.list()
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.list()
   type: Method
-  summary: >-
-    <p>Gets a list of managed clusters in the specified subscription. Gets a list of managed clusters in the specified subscription. The operation returns properties of each managed cluster.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of managed clusters in the specified subscription. Gets a list of managed clusters in the specified subscription. The operation returns properties of each managed cluster.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<ManagedClusterInner> list()
     return:
@@ -402,10 +369,7 @@ references:
   nameWithType: RegistriesInner.list()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.list()
   type: Method
-  summary: >-
-    <p>Lists all the container registries under the specified subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the container registries under the specified subscription.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<RegistryInner> list()
     return:
@@ -418,10 +382,7 @@ references:
   nameWithType: ManagedClustersInner.listByResourceGroup(final String resourceGroupName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.listByResourceGroup(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Lists managed clusters in the specified subscription and resource group. Lists managed clusters in the specified subscription and resource group. The operation returns properties of each managed cluster.</p>
-
-    <p></p>
+  summary: "<p>Lists managed clusters in the specified subscription and resource group. Lists managed clusters in the specified subscription and resource group. The operation returns properties of each managed cluster.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<ManagedClusterInner> listByResourceGroup(final String resourceGroupName)
     parameters:
@@ -438,10 +399,7 @@ references:
   nameWithType: WorkspacesInner.listByResourceGroup(final String resourceGroupName)
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.listByResourceGroup(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Gets a list of Workspaces within the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of Workspaces within the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<WorkspaceInner> listByResourceGroup(final String resourceGroupName)
     parameters:
@@ -458,10 +416,7 @@ references:
   nameWithType: ContainerServicesInner.listByResourceGroup(final String resourceGroupName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.listByResourceGroup(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Gets a list of container services in the specified resource group. Gets a list of container services in the specified subscription and resource group. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>
-
-    <p></p>
+  summary: "<p>Gets a list of container services in the specified resource group. Gets a list of container services in the specified subscription and resource group. The operation returns properties of each container service including state, orchestrator, number of masters and agents, and FQDNs of masters and agents.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<ContainerServiceInner> listByResourceGroup(final String resourceGroupName)
     parameters:
@@ -478,10 +433,7 @@ references:
   nameWithType: RegistriesInner.listByResourceGroup(final String resourceGroupName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.listByResourceGroup(final String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Lists all the container registries under the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Lists all the container registries under the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<RegistryInner> listByResourceGroup(final String resourceGroupName)
     parameters:

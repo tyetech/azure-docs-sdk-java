@@ -239,7 +239,7 @@ references:
   nameWithType: WebhookOperationsImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl
   type: Class
-  summary: <p>Represents a webhook collection associated with a container registry. </p>
+  summary: "<p>Represents a webhook collection associated with a container registry. </p>"
   syntax:
     content: public class WebhookOperationsImpl
 - uid: com.microsoft.azure.management.containerregistry.Webhook
@@ -249,7 +249,7 @@ references:
   nameWithType: Webhook
   fullName: com.microsoft.azure.management.containerregistry.Webhook
   type: Interface
-  summary: <p>An object that represents a webhook for a container registry. </p>
+  summary: "<p>An object that represents a webhook for a container registry. </p>"
   syntax:
     content: public interface Webhook extends ExternalChildResource<Webhook, Registry>,Resource,HasInner<WebhookInner>,Refreshable<Webhook>,Updatable<Webhook.Update>
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.get(final String)
@@ -259,10 +259,7 @@ references:
   nameWithType: WebhookOperationsImpl.get(final String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.get(final String webhookName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified webhook.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified webhook.</p>\r\n<p></p>"
   syntax:
     content: public Webhook get(final String webhookName)
     parameters:
@@ -279,10 +276,7 @@ references:
   nameWithType: WebhookOperationsImpl.getAsync(final String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.getAsync(final String webhookName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified webhook.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified webhook.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Webhook> getAsync(final String webhookName)
     parameters:
@@ -299,10 +293,7 @@ references:
   nameWithType: WebhookOperationsImpl.delete(final String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.delete(final String webhookName)
   type: Method
-  summary: >-
-    <p>Deletes a webhook from the container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a webhook from the container registry.</p>\r\n<p></p>"
   syntax:
     content: public void delete(final String webhookName)
     parameters:
@@ -316,10 +307,7 @@ references:
   nameWithType: WebhookOperationsImpl.deleteAsync(final String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.deleteAsync(final String webhookName)
   type: Method
-  summary: >-
-    <p>Deletes a webhook from the container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a webhook from the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteAsync(final String webhookName)
     parameters:
@@ -336,10 +324,7 @@ references:
   nameWithType: WebhookOperationsImpl.list()
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.list()
   type: Method
-  summary: >-
-    <p>Lists all the webhooks for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the webhooks for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<Webhook> list()
     return:
@@ -352,10 +337,7 @@ references:
   nameWithType: WebhookOperationsImpl.listAsync()
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the webhooks for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the webhooks for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Webhook> listAsync()
     return:

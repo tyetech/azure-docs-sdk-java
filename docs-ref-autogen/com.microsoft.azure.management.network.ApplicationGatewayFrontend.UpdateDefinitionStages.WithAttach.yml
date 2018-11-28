@@ -45,7 +45,7 @@ references:
   nameWithType: Attachable.InUpdateAlt<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdateAlt<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -58,10 +58,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateDefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateDefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -78,10 +75,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateDefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateDefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(String resourceId)
     parameters:
@@ -98,7 +92,7 @@ references:
   nameWithType: ApplicationGatewayFrontend.UpdateDefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend.UpdateDefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this private frontend. </p>
+  summary: "<p>Assigns the specified subnet to this private frontend. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -118,7 +112,7 @@ references:
   nameWithType: HasSubnet.UpdateDefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.UpdateDefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -138,7 +132,7 @@ references:
   nameWithType: HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   type: Method
-  summary: <p>Enables dynamic private IP address allocation within the associated subnet. </p>
+  summary: "<p>Enables dynamic private IP address allocation within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressDynamic()
     return:
@@ -151,7 +145,7 @@ references:
   nameWithType: HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   type: Method
-  summary: <p>Assigns the specified static private IP address within the associated subnet. </p>
+  summary: "<p>Assigns the specified static private IP address within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressStatic(String ipAddress)
     parameters:
@@ -168,7 +162,7 @@ references:
   nameWithType: Attachable.InUpdateAlt<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdateAlt<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdateAlt<ParentT>
     typeParameters:
@@ -182,7 +176,7 @@ references:
   nameWithType: ApplicationGatewayFrontend.UpdateDefinitionStages.WithPublicIPAddress<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend.UpdateDefinitionStages.WithPublicIPAddress<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend definition allowing to specify an existing public IP address to make the application gateway available at as Internet-facing. </p>
+  summary: "<p>The stage of an application gateway frontend definition allowing to specify an existing public IP address to make the application gateway available at as Internet-facing. </p>"
   syntax:
     content: public interface WithPublicIPAddress<ParentT>
     typeParameters:
@@ -196,7 +190,7 @@ references:
   nameWithType: ApplicationGatewayFrontend.UpdateDefinitionStages.WithSubnet<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend.UpdateDefinitionStages.WithSubnet<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend definition allowing to specify a subnet from the selected network to make this application gateway visible to. </p>
+  summary: "<p>The stage of an application gateway frontend definition allowing to specify a subnet from the selected network to make this application gateway visible to. </p>"
   syntax:
     content: public interface WithSubnet<ParentT>
     typeParameters:
@@ -210,7 +204,7 @@ references:
   nameWithType: ApplicationGatewayFrontend.UpdateDefinitionStages.WithPrivateIP<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend.UpdateDefinitionStages.WithPrivateIP<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend definition allowing to specify the private IP address this application gateway should be available at within the selected virtual network. </p>
+  summary: "<p>The stage of an application gateway frontend definition allowing to specify the private IP address this application gateway should be available at within the selected virtual network. </p>"
   syntax:
     content: public interface WithPrivateIP<ParentT>
     typeParameters:
@@ -224,7 +218,7 @@ references:
   nameWithType: ApplicationGatewayFrontend.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway frontend definition as part of an application gateway update. </p>
+  summary: "<p>The entirety of an application gateway frontend definition as part of an application gateway update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends ApplicationGatewayFrontend.UpdateDefinitionStages.Blank<ParentT>,ApplicationGatewayFrontend.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:

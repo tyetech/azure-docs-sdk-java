@@ -114,7 +114,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container group's volume definition stages. </p>
+  summary: "<p>Grouping of the container group's volume definition stages. </p>"
   syntax:
     content: public interface VolumeDefinition<ParentT> extends ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountName<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountKey<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
     typeParameters:
@@ -127,10 +127,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the volume definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the volume definition.</p>\r\n<p></p>"
   syntax:
     content: public interface VolumeDefinitionBlank<ParentT> extends ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>
     typeParameters:
@@ -144,7 +141,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountName<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountName<ParentT>
   type: Interface
-  summary: <p>The stage of the volume definition allowing to specify the storage account name to access to the Azure file. </p>
+  summary: "<p>The stage of the volume definition allowing to specify the storage account name to access to the Azure file. </p>"
   syntax:
     content: public interface WithStorageAccountName<ParentT>
     typeParameters:

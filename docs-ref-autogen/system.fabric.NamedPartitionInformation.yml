@@ -95,7 +95,7 @@ references:
   nameWithType: ServicePartitionInformation.getId()
   fullName: system.fabric.ServicePartitionInformation.getId()
   type: Method
-  summary: <p>Gets the partition ID for this partition as a UUID. </p>
+  summary: "<p>Gets the partition ID for this partition as a UUID. </p>"
   syntax:
     content: public UUID getId()
     return:
@@ -111,7 +111,7 @@ references:
   nameWithType: ServicePartitionInformation.getKind()
   fullName: system.fabric.ServicePartitionInformation.getKind()
   type: Method
-  summary: <p>Gets the type of partition. </p>
+  summary: "<p>Gets the type of partition. </p>"
   syntax:
     content: public ServicePartitionKind getKind()
     return:
@@ -127,14 +127,7 @@ references:
   nameWithType: ServicePartitionInformation
   fullName: system.fabric.ServicePartitionInformation
   type: Class
-  summary: >-
-    <p>Represents the base class for describing partitions. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="system.fabric.Int64RangePartitionInformation" data-throw-if-not-resolved="false">system.fabric.Int64RangePartitionInformation</xref>, <xref uid="system.fabric.NamedPartitionInformation" data-throw-if-not-resolved="false">system.fabric.NamedPartitionInformation</xref>, and <xref uid="system.fabric.SingletonPartitionInformation" data-throw-if-not-resolved="false">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>
+  summary: "<p>Represents the base class for describing partitions. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"system.fabric.Int64RangePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.Int64RangePartitionInformation</xref>, <xref uid=\"system.fabric.NamedPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.NamedPartitionInformation</xref>, and <xref uid=\"system.fabric.SingletonPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>"
   syntax:
     content: public class ServicePartitionInformation
 - uid: system.fabric.ServicePartition
@@ -144,7 +137,7 @@ references:
   nameWithType: ServicePartition
   fullName: system.fabric.ServicePartition
   type: Interface
-  summary: <p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>
+  summary: "<p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>"
   syntax:
     content: public interface ServicePartition
 - uid: system.fabric.StatefulServicePartition
@@ -163,12 +156,7 @@ references:
   nameWithType: StatelessServicePartition
   fullName: system.fabric.StatelessServicePartition
   type: Interface
-  summary: >-
-    <p>Represents a partition that is associated with a stateless service instance. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid="system.fabric.ServicePartition" data-throw-if-not-resolved="false">system.fabric.ServicePartition</xref>. </p>
+  summary: "<p>Represents a partition that is associated with a stateless service instance. </p>\r\n<p>\r\n  <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid=\"system.fabric.ServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition</xref>. </p>"
   syntax:
     content: public interface StatelessServicePartition
 - uid: system.fabric.StatefulServiceReplica.openAsync(ReplicaOpenMode,StatefulServicePartition,CancellationToken)
@@ -178,10 +166,7 @@ references:
   nameWithType: StatefulServiceReplica.openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
   fullName: system.fabric.StatefulServiceReplica.openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Opens an initialized service replica so that additional actions can be taken.</p>
-
-    <p></p>
+  summary: "<p>Opens an initialized service replica so that additional actions can be taken.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Replicator> openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
     parameters:
@@ -207,12 +192,7 @@ references:
   nameWithType: StatelessServiceInstance.openAsync(StatelessServicePartition partition, CancellationToken cancellationToken)
   fullName: system.fabric.StatelessServiceInstance.openAsync(StatelessServicePartition partition, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Opens an initialized service instance so that it can be contacted by clients.</p>
-
-    <p>
-
-      <b>Remarks:</b>Opening an instance stateless service indicates that the service is now resolvable and discoverable by service clients. The string that is returned is the address of this service instance. The address is associated with the service name via Service Fabric naming and returned to clients that resolve the service. </p>
+  summary: "<p>Opens an initialized service instance so that it can be contacted by clients.</p>\r\n<p>\r\n  <b>Remarks:</b>Opening an instance stateless service indicates that the service is now resolvable and discoverable by service clients. The string that is returned is the address of this service instance. The address is associated with the service name via Service Fabric naming and returned to clients that resolve the service. </p>"
   syntax:
     content: public CompletableFuture<String> openAsync(StatelessServicePartition partition, CancellationToken cancellationToken)
     parameters:

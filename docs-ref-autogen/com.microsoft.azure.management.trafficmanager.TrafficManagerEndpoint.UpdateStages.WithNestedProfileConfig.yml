@@ -98,7 +98,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateNestedProfileEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateNestedProfileEndpoint
   type: Interface
-  summary: <p>The entirety of a nested profile endpoint update as a part of parent traffic manager profile profile update. </p>
+  summary: "<p>The entirety of a nested profile endpoint update as a part of parent traffic manager profile profile update. </p>"
   syntax:
     content: public interface UpdateNestedProfileEndpoint extends TrafficManagerEndpoint.UpdateStages.WithNestedProfileConfig,TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion,TrafficManagerEndpoint.Update
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile
@@ -108,6 +108,6 @@ references:
   nameWithType: TrafficManagerProfile
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile. </p>"
   syntax:
     content: public interface TrafficManagerProfile extends GroupableResource<TrafficManager, ProfileInner>,Refreshable<TrafficManagerProfile>,Updatable<TrafficManagerProfile.Update>

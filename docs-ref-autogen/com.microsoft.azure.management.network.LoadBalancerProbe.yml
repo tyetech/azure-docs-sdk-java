@@ -180,10 +180,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -197,7 +194,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT> extends Indexable,HasName,HasParent<ParentT>
     typeParameters:
@@ -211,7 +208,7 @@ references:
   nameWithType: HasLoadBalancingRules
   fullName: com.microsoft.azure.management.network.model.HasLoadBalancingRules
   type: Interface
-  summary: <p>An interface representing a model's ability to reference load balancing rules. </p>
+  summary: "<p>An interface representing a model's ability to reference load balancing rules. </p>"
   syntax:
     content: public interface HasLoadBalancingRules
 - uid: com.microsoft.azure.management.network.model.HasProtocol
@@ -221,7 +218,7 @@ references:
   nameWithType: HasProtocol<ProtocolT>
   fullName: com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a transport protocol. </p>
+  summary: "<p>An interface representing a model's ability to reference a transport protocol. </p>"
   syntax:
     content: public interface HasProtocol<ProtocolT>
     typeParameters:
@@ -235,7 +232,7 @@ references:
   nameWithType: HasPort
   fullName: com.microsoft.azure.management.network.model.HasPort
   type: Interface
-  summary: <p>An interface representing a model's ability to have a port number. </p>
+  summary: "<p>An interface representing a model's ability to have a port number. </p>"
   syntax:
     content: public interface HasPort
 - uid: com.microsoft.azure.management.network.LoadBalancerHttpProbe
@@ -245,7 +242,7 @@ references:
   nameWithType: LoadBalancerHttpProbe
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe
   type: Interface
-  summary: <p>A client-side representation of an HTTP load balancing probe. </p>
+  summary: "<p>A client-side representation of an HTTP load balancing probe. </p>"
   syntax:
     content: public interface LoadBalancerHttpProbe extends LoadBalancerProbe
 - uid: com.microsoft.azure.management.network.LoadBalancerTcpProbe
@@ -255,6 +252,6 @@ references:
   nameWithType: LoadBalancerTcpProbe
   fullName: com.microsoft.azure.management.network.LoadBalancerTcpProbe
   type: Interface
-  summary: <p>A client-side representation of a TCP load balancing probe. </p>
+  summary: "<p>A client-side representation of a TCP load balancing probe. </p>"
   syntax:
     content: public interface LoadBalancerTcpProbe

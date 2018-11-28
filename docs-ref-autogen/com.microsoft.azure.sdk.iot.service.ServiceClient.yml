@@ -440,7 +440,7 @@ references:
   nameWithType: AmqpSend
   fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpSend
   type: Class
-  summary: <p>Instance of the QPID-Proton-J BaseHandler class overriding the events what are needed to handle high level open, close and send methods. Initialize and use AmqpsSendHandler class for low level ampqs operations. </p>
+  summary: "<p>Instance of the QPID-Proton-J BaseHandler class overriding the events what are needed to handle high level open, close and send methods. Initialize and use AmqpsSendHandler class for low level ampqs operations. </p>"
   syntax:
     content: public class AmqpSend
 - uid: com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol
@@ -450,7 +450,7 @@ references:
   nameWithType: IotHubServiceClientProtocol
   fullName: com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the service client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the service client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubServiceClientProtocol
 - uid: com.microsoft.azure.sdk.iot.service.IotHubConnectionString
@@ -460,7 +460,7 @@ references:
   nameWithType: IotHubConnectionString
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionString
   type: Class
-  summary: <p>Expose all connections string properties and methods for user, device and connection string serialization. </p>
+  summary: "<p>Expose all connections string properties and methods for user, device and connection string serialization. </p>"
   syntax:
     content: public class IotHubConnectionString extends IotHubConnectionStringBuilder
 - uid: com.microsoft.azure.sdk.iot.service.ServiceClient
@@ -470,7 +470,7 @@ references:
   nameWithType: ServiceClient
   fullName: com.microsoft.azure.sdk.iot.service.ServiceClient
   type: Class
-  summary: <p>Extend the ServiceClient class and provide AMPQ specific implementation. </p>
+  summary: "<p>Extend the ServiceClient class and provide AMPQ specific implementation. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.sdk.iot.service.Message
   parent: com.microsoft.azure.sdk.iot.service
@@ -479,7 +479,7 @@ references:
   nameWithType: Message
   fullName: com.microsoft.azure.sdk.iot.service.Message
   type: Class
-  summary: <p>IotHub specific message container </p>
+  summary: "<p>IotHub specific message container </p>"
   syntax:
     content: public class Message
 - uid: com.microsoft.azure.sdk.iot.service.exceptions.IotHubException
@@ -489,7 +489,7 @@ references:
   nameWithType: IotHubException
   fullName: com.microsoft.azure.sdk.iot.service.exceptions.IotHubException
   type: Class
-  summary: <p>Super class for IotHub exceptions </p>
+  summary: "<p>Super class for IotHub exceptions </p>"
   syntax:
     content: public class IotHubException
 - uid: com.microsoft.azure.sdk.iot.service.FeedbackReceiver
@@ -499,7 +499,7 @@ references:
   nameWithType: FeedbackReceiver
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackReceiver
   type: Class
-  summary: <p>FeedbackReceiver is a specialized receiver whose ReceiveAsync method returns a FeedbackBatch instead of a Message. </p>
+  summary: "<p>FeedbackReceiver is a specialized receiver whose ReceiveAsync method returns a FeedbackBatch instead of a Message. </p>"
   syntax:
     content: public class FeedbackReceiver extends Receiver
 - uid: com.microsoft.azure.sdk.iot.service.ServiceClient.getFeedbackReceiver()
@@ -509,10 +509,7 @@ references:
   nameWithType: ServiceClient.getFeedbackReceiver()
   fullName: com.microsoft.azure.sdk.iot.service.ServiceClient.getFeedbackReceiver()
   type: Method
-  summary: >-
-    <p>Get FeedbackReceiver object.</p>
-
-    <p></p>
+  summary: "<p>Get FeedbackReceiver object.</p>\r\n<p></p>"
   syntax: *o2
 - uid: com.microsoft.azure.sdk.iot.service.FileUploadNotificationReceiver
   parent: com.microsoft.azure.sdk.iot.service

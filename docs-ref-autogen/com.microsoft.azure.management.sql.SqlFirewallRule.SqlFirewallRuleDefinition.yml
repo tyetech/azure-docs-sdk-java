@@ -41,7 +41,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -54,10 +54,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>.withIPAddress(String ipAddress)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>.withIPAddress(String ipAddress)
   type: Method
-  summary: >-
-    <p>Sets the ending IP address of SQL server's Firewall Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the ending IP address of SQL server's Firewall Rule.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withIPAddress(String ipAddress)
     parameters:
@@ -74,10 +71,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>.withIPAddressRange(String startIPAddress, String endIPAddress)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>.withIPAddressRange(String startIPAddress, String endIPAddress)
   type: Method
-  summary: >-
-    <p>Sets the starting IP address of SQL server's Firewall Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the starting IP address of SQL server's Firewall Rule.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withIPAddressRange(String startIPAddress, String endIPAddress)
     parameters:
@@ -97,12 +91,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the SQL Server Firewall Rule definition.</p>
-
-    <p>
-
-    The first stage of the SQL Server definition. </p>
+  summary: "<p>The first stage of the SQL Server Firewall Rule definition.</p>\r\n<p>\r\nThe first stage of the SQL Server definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>
     typeParameters:
@@ -116,10 +105,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Firewall Rule definition to set the IP address for the parent SQL Server.</p>
-
-    <p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>
+  summary: "<p>The SQL Firewall Rule definition to set the IP address for the parent SQL Server.</p>\r\n<p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>"
   syntax:
     content: public interface WithIPAddress<ParentT>
     typeParameters:
@@ -132,10 +118,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Firewall Rule definition to set the IP address range for the parent SQL Server.</p>
-
-    <p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>
+  summary: "<p>The SQL Firewall Rule definition to set the IP address range for the parent SQL Server.</p>\r\n<p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>"
   syntax:
     content: public interface WithIPAddressRange<ParentT>
     typeParameters:
@@ -148,10 +131,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Firewall Rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the SQL Firewall Rule definition can be attached to the parent SQL Server definition. </p>
+  summary: "<p>The final stage of the SQL Firewall Rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the SQL Firewall Rule definition can be attached to the parent SQL Server definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

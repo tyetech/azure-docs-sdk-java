@@ -339,7 +339,7 @@ references:
   nameWithType: IMessageReceiver
   fullName: com.microsoft.azure.servicebus.IMessageReceiver
   type: Interface
-  summary: <p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>
+  summary: "<p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>"
   syntax:
     content: public interface IMessageReceiver
 - uid: com.microsoft.azure.servicebus.ITopicClient
@@ -349,7 +349,7 @@ references:
   nameWithType: ITopicClient
   fullName: com.microsoft.azure.servicebus.ITopicClient
   type: Interface
-  summary: <p>TopicClient can be used for all basic interactions with a Service Bus topic. <code></code></p>
+  summary: "<p>TopicClient can be used for all basic interactions with a Service Bus topic. <code></code></p>"
   syntax:
     content: public interface ITopicClient
 - uid: com.microsoft.azure.servicebus.MessageBrowser
@@ -361,10 +361,7 @@ references:
   nameWithType: IMessage
   fullName: com.microsoft.azure.servicebus.IMessage
   type: Interface
-  summary: >-
-    <p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>
-
-    <p></p>
+  summary: "<p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessage
 - uid: com.microsoft.azure.servicebus.TopicClient.peek()
@@ -374,10 +371,7 @@ references:
   nameWithType: TopicClient.peek()
   fullName: com.microsoft.azure.servicebus.TopicClient.peek()
   type: Method
-  summary: >-
-    <p>reads next the active message without changing the state of the receiver or the message source. The first call to <xref uid="com.microsoft.azure.servicebus.IMessageBrowser.peek()" data-throw-if-not-resolved="false">IMessageBrowser#peek()</xref> fetches the first active message for this receiver. Each subsequent call fetches the subsequent message in the entity.</p>
-
-    <p></p>
+  summary: "<p>reads next the active message without changing the state of the receiver or the message source. The first call to <xref uid=\"com.microsoft.azure.servicebus.IMessageBrowser.peek()\" data-throw-if-not-resolved=\"false\">IMessageBrowser#peek()</xref> fetches the first active message for this receiver. Each subsequent call fetches the subsequent message in the entity.</p>\r\n<p></p>"
   syntax:
     content: public IMessage peek()
     return:
@@ -393,7 +387,7 @@ references:
   nameWithType: ServiceBusException
   fullName: com.microsoft.azure.servicebus.primitives.ServiceBusException
   type: Class
-  summary: <p>This is the base exception that service bus will generate for all error cases. </p>
+  summary: "<p>This is the base exception that service bus will generate for all error cases. </p>"
   syntax:
     content: public class ServiceBusException
 - uid: com.microsoft.azure.servicebus.IMessageBrowser.peek()
@@ -403,10 +397,7 @@ references:
   nameWithType: IMessageBrowser.peek()
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peek()
   type: Method
-  summary: >-
-    <p>reads next the active message without changing the state of the receiver or the message source. The first call to <xref uid="com.microsoft.azure.servicebus.IMessageBrowser.peek()" data-throw-if-not-resolved="false">IMessageBrowser#peek()</xref> fetches the first active message for this receiver. Each subsequent call fetches the subsequent message in the entity.</p>
-
-    <p></p>
+  summary: "<p>reads next the active message without changing the state of the receiver or the message source. The first call to <xref uid=\"com.microsoft.azure.servicebus.IMessageBrowser.peek()\" data-throw-if-not-resolved=\"false\">IMessageBrowser#peek()</xref> fetches the first active message for this receiver. Each subsequent call fetches the subsequent message in the entity.</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.servicebus.Message
   parent: com.microsoft.azure.servicebus
@@ -424,10 +415,7 @@ references:
   nameWithType: TopicClient.peek(long fromSequenceNumber)
   fullName: com.microsoft.azure.servicebus.TopicClient.peek(long fromSequenceNumber)
   type: Method
-  summary: >-
-    <p>Reads next the active message without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Reads next the active message without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public IMessage peek(long fromSequenceNumber)
     parameters:
@@ -447,10 +435,7 @@ references:
   nameWithType: TopicClient.peekBatch(int messageCount)
   fullName: com.microsoft.azure.servicebus.TopicClient.peekBatch(int messageCount)
   type: Method
-  summary: >-
-    <p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public Collection<IMessage> peekBatch(int messageCount)
     parameters:
@@ -467,10 +452,7 @@ references:
   nameWithType: TopicClient.peekBatch(long fromSequenceNumber, int messageCount)
   fullName: com.microsoft.azure.servicebus.TopicClient.peekBatch(long fromSequenceNumber, int messageCount)
   type: Method
-  summary: >-
-    <p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public Collection<IMessage> peekBatch(long fromSequenceNumber, int messageCount)
     parameters:
@@ -490,10 +472,7 @@ references:
   nameWithType: TopicClient.peekAsync()
   fullName: com.microsoft.azure.servicebus.TopicClient.peekAsync()
   type: Method
-  summary: >-
-    <p>Asynchronously reads the active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads the active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<IMessage> peekAsync()
     return:
@@ -509,10 +488,7 @@ references:
   nameWithType: TopicClient.peekAsync(long fromSequenceNumber)
   fullName: com.microsoft.azure.servicebus.TopicClient.peekAsync(long fromSequenceNumber)
   type: Method
-  summary: >-
-    <p>Asynchronously reads next the active message without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads next the active message without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<IMessage> peekAsync(long fromSequenceNumber)
     parameters:
@@ -529,10 +505,7 @@ references:
   nameWithType: TopicClient.peekBatchAsync(int messageCount)
   fullName: com.microsoft.azure.servicebus.TopicClient.peekBatchAsync(int messageCount)
   type: Method
-  summary: >-
-    <p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Collection<IMessage>> peekBatchAsync(int messageCount)
     parameters:
@@ -549,10 +522,7 @@ references:
   nameWithType: TopicClient.peekBatchAsync(long fromSequenceNumber, int messageCount)
   fullName: com.microsoft.azure.servicebus.TopicClient.peekBatchAsync(long fromSequenceNumber, int messageCount)
   type: Method
-  summary: >-
-    <p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Collection<IMessage>> peekBatchAsync(long fromSequenceNumber, int messageCount)
     parameters:

@@ -90,7 +90,7 @@ references:
   nameWithType: KubernetesCluster.Update
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount,KubernetesCluster.UpdateStages.WithAddOnProfiles,KubernetesCluster.UpdateStages.WithNetworkProfile,KubernetesCluster.UpdateStages.WithRBAC,Resource.UpdateWithTags<KubernetesCluster.Update>,Appliable<KubernetesCluster>
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withRBACEnabled()
@@ -100,10 +100,7 @@ references:
   nameWithType: KubernetesClusterImpl.withRBACEnabled()
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withRBACEnabled()
   type: Method
-  summary: >-
-    <p>Updates the cluster to specify the Kubernetes Role-Based Access Control is enabled.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster to specify the Kubernetes Role-Based Access Control is enabled.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withRBACEnabled()
     return:
@@ -116,10 +113,7 @@ references:
   nameWithType: KubernetesClusterImpl.withRBACDisabled()
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withRBACDisabled()
   type: Method
-  summary: >-
-    <p>Updates the cluster to specify the Kubernetes Role-Based Access Control is disabled.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster to specify the Kubernetes Role-Based Access Control is disabled.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withRBACDisabled()
     return:

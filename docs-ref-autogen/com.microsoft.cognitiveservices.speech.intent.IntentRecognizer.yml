@@ -635,7 +635,7 @@ references:
   nameWithType: Recognizer.close()
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.close()
   type: Method
-  summary: <p>Dispose of associated resources. </p>
+  summary: "<p>Dispose of associated resources. </p>"
   syntax:
     content: public void close()
 - uid: com.microsoft.cognitiveservices.speech.Recognizer.sessionStarted
@@ -645,7 +645,7 @@ references:
   nameWithType: Recognizer.sessionStarted
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.sessionStarted
   type: Field
-  summary: <p>Defines event handler for session started event. </p>
+  summary: "<p>Defines event handler for session started event. </p>"
   syntax:
     content: public final EventHandlerImpl<SessionEventArgs> sessionStarted= new EventHandlerImpl<SessionEventArgs>()
     return:
@@ -657,7 +657,7 @@ references:
   nameWithType: Recognizer.sessionStopped
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.sessionStopped
   type: Field
-  summary: <p>Defines event handler for session stopped event. </p>
+  summary: "<p>Defines event handler for session stopped event. </p>"
   syntax:
     content: public final EventHandlerImpl<SessionEventArgs> sessionStopped= new EventHandlerImpl<SessionEventArgs>()
     return:
@@ -669,7 +669,7 @@ references:
   nameWithType: Recognizer.speechEndDetected
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.speechEndDetected
   type: Field
-  summary: <p>Defines event handler for speech end detected event. </p>
+  summary: "<p>Defines event handler for speech end detected event. </p>"
   syntax:
     content: public final EventHandlerImpl<RecognitionEventArgs> speechEndDetected= new EventHandlerImpl<RecognitionEventArgs>()
     return:
@@ -681,7 +681,7 @@ references:
   nameWithType: Recognizer.speechStartDetected
   fullName: com.microsoft.cognitiveservices.speech.Recognizer.speechStartDetected
   type: Field
-  summary: <p>Defines event handler for speech start detected event. </p>
+  summary: "<p>Defines event handler for speech start detected event. </p>"
   syntax:
     content: public final EventHandlerImpl<RecognitionEventArgs> speechStartDetected= new EventHandlerImpl<RecognitionEventArgs>()
     return:
@@ -693,7 +693,7 @@ references:
   nameWithType: Recognizer
   fullName: com.microsoft.cognitiveservices.speech.Recognizer
   type: Class
-  summary: <p>Defines the base class Recognizer which mainly contains common event handlers. </p>
+  summary: "<p>Defines the base class Recognizer which mainly contains common event handlers. </p>"
   syntax:
     content: public class Recognizer
 - uid: com.microsoft.cognitiveservices.speech.util.EventHandlerImpl
@@ -703,7 +703,7 @@ references:
   nameWithType: EventHandlerImpl<T>
   fullName: com.microsoft.cognitiveservices.speech.util.EventHandlerImpl<T>
   type: Class
-  summary: <p>Implements the binding between the Speech SDK core event handler and Java event handling. </p>
+  summary: "<p>Implements the binding between the Speech SDK core event handler and Java event handling. </p>"
   syntax:
     content: public class EventHandlerImpl<T>
     typeParameters:
@@ -716,7 +716,7 @@ references:
   nameWithType: IntentRecognitionEventArgs
   fullName: com.microsoft.cognitiveservices.speech.intent.IntentRecognitionEventArgs
   type: Class
-  summary: <p>Defines content of an intent recognizing/recognized events. </p>
+  summary: "<p>Defines content of an intent recognizing/recognized events. </p>"
   syntax:
     content: public class IntentRecognitionEventArgs extends RecognitionEventArgs
 - uid: com.microsoft.cognitiveservices.speech.intent.IntentRecognitionCanceledEventArgs
@@ -726,7 +726,7 @@ references:
   nameWithType: IntentRecognitionCanceledEventArgs
   fullName: com.microsoft.cognitiveservices.speech.intent.IntentRecognitionCanceledEventArgs
   type: Class
-  summary: <p>Define payload of intent recognition canceled result events. </p>
+  summary: "<p>Define payload of intent recognition canceled result events. </p>"
   syntax:
     content: public class IntentRecognitionCanceledEventArgs extends IntentRecognitionEventArgs
 - uid: com.microsoft.cognitiveservices.speech.PropertyCollection
@@ -736,7 +736,7 @@ references:
   nameWithType: PropertyCollection
   fullName: com.microsoft.cognitiveservices.speech.PropertyCollection
   type: Class
-  summary: <p>Represents collection or properties and their values. </p>
+  summary: "<p>Represents collection or properties and their values. </p>"
   syntax:
     content: public class PropertyCollection
 - uid: com.microsoft.cognitiveservices.speech.audio.AudioConfig
@@ -746,7 +746,7 @@ references:
   nameWithType: AudioConfig
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioConfig
   type: Class
-  summary: <p>Represents audio input configuration used for specifying what type of input to use (microphone, file, stream). </p>
+  summary: "<p>Represents audio input configuration used for specifying what type of input to use (microphone, file, stream). </p>"
   syntax:
     content: public class AudioConfig
 - uid: com.microsoft.cognitiveservices.speech.SpeechConfig
@@ -756,7 +756,7 @@ references:
   nameWithType: SpeechConfig
   fullName: com.microsoft.cognitiveservices.speech.SpeechConfig
   type: Class
-  summary: <p>Speech configuration. </p>
+  summary: "<p>Speech configuration. </p>"
   syntax:
     content: public class SpeechConfig
 - uid: com.microsoft.cognitiveservices.speech.intent.IntentRecognitionResult
@@ -766,7 +766,7 @@ references:
   nameWithType: IntentRecognitionResult
   fullName: com.microsoft.cognitiveservices.speech.intent.IntentRecognitionResult
   type: Class
-  summary: <p>Defines result of intent recognition. </p>
+  summary: "<p>Defines result of intent recognition. </p>"
   syntax:
     content: public class IntentRecognitionResult extends SpeechRecognitionResult
 - uid: com.microsoft.cognitiveservices.speech.intent.LanguageUnderstandingModel
@@ -776,7 +776,7 @@ references:
   nameWithType: LanguageUnderstandingModel
   fullName: com.microsoft.cognitiveservices.speech.intent.LanguageUnderstandingModel
   type: Class
-  summary: <p>Represents language understanding model used for intent recognition. </p>
+  summary: "<p>Represents language understanding model used for intent recognition. </p>"
   syntax:
     content: public class LanguageUnderstandingModel
 - uid: com.microsoft.cognitiveservices.speech.KeywordRecognitionModel
@@ -786,6 +786,6 @@ references:
   nameWithType: KeywordRecognitionModel
   fullName: com.microsoft.cognitiveservices.speech.KeywordRecognitionModel
   type: Class
-  summary: <p>Represents a keyword recognition model for recognizing when the user says a keyword to initiate further speech recognition. </p>
+  summary: "<p>Represents a keyword recognition model for recognizing when the user says a keyword to initiate further speech recognition. </p>"
   syntax:
     content: public class KeywordRecognitionModel

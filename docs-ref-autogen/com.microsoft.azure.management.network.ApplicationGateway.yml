@@ -1018,10 +1018,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1034,10 +1031,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1122,12 +1116,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1140,7 +1129,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT>
     typeParameters:
@@ -1157,10 +1146,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -1174,10 +1160,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -1191,7 +1174,7 @@ references:
   nameWithType: HasSubnet
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a subnet by its name and network's ID. </p>
+  summary: "<p>An interface representing a model's ability to reference a subnet by its name and network's ID. </p>"
   syntax:
     content: public interface HasSubnet
 - uid: com.microsoft.azure.management.network.model.HasPrivateIPAddress
@@ -1201,7 +1184,7 @@ references:
   nameWithType: HasPrivateIPAddress
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a private IP address. </p>
+  summary: "<p>An interface representing a model's ability to reference a private IP address. </p>"
   syntax:
     content: public interface HasPrivateIPAddress
 - uid: com.microsoft.azure.management.network.ApplicationGatewaySslProtocol
@@ -1211,7 +1194,7 @@ references:
   nameWithType: ApplicationGatewaySslProtocol
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslProtocol
   type: Class
-  summary: <p>Defines values for ApplicationGatewaySslProtocol. </p>
+  summary: "<p>Defines values for ApplicationGatewaySslProtocol. </p>"
   syntax:
     content: public class ApplicationGatewaySslProtocol
 - uid: com.microsoft.azure.management.network.ApplicationGatewayFrontend
@@ -1221,7 +1204,7 @@ references:
   nameWithType: ApplicationGatewayFrontend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend
   type: Interface
-  summary: <p>A client-side representation of an application gateway frontend. </p>
+  summary: "<p>A client-side representation of an application gateway frontend. </p>"
   syntax:
     content: public interface ApplicationGatewayFrontend
 - uid: com.microsoft.azure.management.network.ApplicationGatewaySku
@@ -1231,7 +1214,7 @@ references:
   nameWithType: ApplicationGatewaySku
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySku
   type: Class
-  summary: <p>SKU of an application gateway. </p>
+  summary: "<p>SKU of an application gateway. </p>"
   syntax:
     content: public class ApplicationGatewaySku
 - uid: com.microsoft.azure.management.network.ApplicationGatewaySkuName
@@ -1241,7 +1224,7 @@ references:
   nameWithType: ApplicationGatewaySkuName
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySkuName
   type: Class
-  summary: <p>Defines values for ApplicationGatewaySkuName. </p>
+  summary: "<p>Defines values for ApplicationGatewaySkuName. </p>"
   syntax:
     content: public class ApplicationGatewaySkuName
 - uid: com.microsoft.azure.management.network.ApplicationGatewayTier
@@ -1251,7 +1234,7 @@ references:
   nameWithType: ApplicationGatewayTier
   fullName: com.microsoft.azure.management.network.ApplicationGatewayTier
   type: Class
-  summary: <p>Defines values for ApplicationGatewayTier. </p>
+  summary: "<p>Defines values for ApplicationGatewayTier. </p>"
   syntax:
     content: public class ApplicationGatewayTier
 - uid: com.microsoft.azure.management.network.ApplicationGatewayOperationalState
@@ -1261,7 +1244,7 @@ references:
   nameWithType: ApplicationGatewayOperationalState
   fullName: com.microsoft.azure.management.network.ApplicationGatewayOperationalState
   type: Class
-  summary: <p>Defines values for ApplicationGatewayOperationalState. </p>
+  summary: "<p>Defines values for ApplicationGatewayOperationalState. </p>"
   syntax:
     content: public class ApplicationGatewayOperationalState
 - uid: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration
@@ -1271,7 +1254,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration
   type: Interface
-  summary: <p>A client-side representation of an application gateway IP configuration. </p>
+  summary: "<p>A client-side representation of an application gateway IP configuration. </p>"
   syntax:
     content: public interface ApplicationGatewayIPConfiguration
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackend
@@ -1281,7 +1264,7 @@ references:
   nameWithType: ApplicationGatewayBackend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend
   type: Interface
-  summary: <p>A client-side representation of an application gateway backend. </p>
+  summary: "<p>A client-side representation of an application gateway backend. </p>"
   syntax:
     content: public interface ApplicationGatewayBackend
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProbe
@@ -1291,7 +1274,7 @@ references:
   nameWithType: ApplicationGatewayProbe
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe
   type: Interface
-  summary: <p>A client-side representation of an application gateway probe. </p>
+  summary: "<p>A client-side representation of an application gateway probe. </p>"
   syntax:
     content: public interface ApplicationGatewayProbe
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration
@@ -1301,7 +1284,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration
   type: Interface
-  summary: <p>A client-side representation of an application gateway's backend HTTP configuration. </p>
+  summary: "<p>A client-side representation of an application gateway's backend HTTP configuration. </p>"
   syntax:
     content: public interface ApplicationGatewayBackendHttpConfiguration
 - uid: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate
@@ -1311,7 +1294,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate
   type: Interface
-  summary: <p>A client-side representation of an application gateway SSL certificate. </p>
+  summary: "<p>A client-side representation of an application gateway SSL certificate. </p>"
   syntax:
     content: public interface ApplicationGatewaySslCertificate
 - uid: com.microsoft.azure.management.network.ApplicationGatewayListener
@@ -1321,7 +1304,7 @@ references:
   nameWithType: ApplicationGatewayListener
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener
   type: Interface
-  summary: <p>A client-side representation of an application gateway's HTTP listener. </p>
+  summary: "<p>A client-side representation of an application gateway's HTTP listener. </p>"
   syntax:
     content: public interface ApplicationGatewayListener
 - uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule
@@ -1331,6 +1314,6 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule
   type: Interface
-  summary: <p>A client-side representation of an application gateway request routing rule. </p>
+  summary: "<p>A client-side representation of an application gateway request routing rule. </p>"
   syntax:
     content: public interface ApplicationGatewayRequestRoutingRule

@@ -956,14 +956,7 @@ references:
   nameWithType: Serializable.toJson()
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.Serializable.toJson()
   type: Method
-  summary: >-
-    <p>Serializer</p>
-
-    <p>Creates a<code>String 
-
-        </code> , which the content represents the information in the child class and its subclasses in a JSON format. </p>
-
-    <p></p>
+  summary: "<p>Serializer</p>\r\n<p>Creates a<code>String \r\n    </code> , which the content represents the information in the child class and its subclasses in a JSON format. </p>\r\n<p></p>"
   syntax:
     content: public String toJson()
     return:
@@ -979,10 +972,7 @@ references:
   nameWithType: Serializable.toString()
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.Serializable.toString()
   type: Method
-  summary: >-
-    <p>Creates a pretty print JSON with the content of the child class and subclasses.</p>
-
-    <p></p>
+  summary: "<p>Creates a pretty print JSON with the content of the child class and subclasses.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -998,10 +988,7 @@ references:
   nameWithType: Serializable
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.Serializable
   type: Class
-  summary: >-
-    <p>Abstract class with the parser for the provisioning configurations.</p>
-
-    <p></p>
+  summary: "<p>Abstract class with the parser for the provisioning configurations.</p>\r\n<p></p>"
   syntax:
     content: public class Serializable
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
@@ -1011,34 +998,7 @@ references:
   nameWithType: DeviceRegistrationState
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
   type: Class
-  summary: >-
-    <p>Representation of a single Device Provisioning Service device registration state with a JSON deserializer.</p>
-
-    <p>Example of JSON format: <pre><code>{
-
-            "registrationId":"validRegistrationId",
-
-            "createdDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
-
-            "assignedHub":"ContosoIoTHub.azure-devices.net",
-
-            "deviceId":"ContosoDevice-123",
-
-            "status":"assigned"
-
-            "lastUpdatedDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
-
-            "errorCode":200
-
-            "errorMessage":"Succeeded"
-
-            "etag": "\"00000000-0000-0000-0000-00000000000\""
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Representation of a single Device Provisioning Service device registration state with a JSON deserializer.</p>\r\n<p>Example of JSON format: <pre><code>{\r\n        \"registrationId\":\"validRegistrationId\",\r\n        \"createdDateTimeUtc\": \"2017-09-28T16:29:42.3447817Z\",\r\n        \"assignedHub\":\"ContosoIoTHub.azure-devices.net\",\r\n        \"deviceId\":\"ContosoDevice-123\",\r\n        \"status\":\"assigned\"\r\n        \"lastUpdatedDateTimeUtc\": \"2017-09-28T16:29:42.3447817Z\",\r\n        \"errorCode\":200\r\n        \"errorMessage\":\"Succeeded\"\r\n        \"etag\": \"\\\"00000000-0000-0000-0000-00000000000\\\"\"\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public class DeviceRegistrationState
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
@@ -1048,12 +1008,7 @@ references:
   nameWithType: AttestationMechanism
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
   type: Class
-  summary: >-
-    <p>Representation of a single Device Provisioning Service Attestation mechanism in the IndividualEnrollment and EnrollmentGroup.</p>
-
-    <p>It is an internal class that converts one of the attestations into JSON format. To configure the attestation mechanism, see the external API <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation" data-throw-if-not-resolved="false">Attestation</xref>.</p>
-
-    <p></p>
+  summary: "<p>Representation of a single Device Provisioning Service Attestation mechanism in the IndividualEnrollment and EnrollmentGroup.</p>\r\n<p>It is an internal class that converts one of the attestations into JSON format. To configure the attestation mechanism, see the external API <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation\" data-throw-if-not-resolved=\"false\">Attestation</xref>.</p>\r\n<p></p>"
   syntax:
     content: public class AttestationMechanism
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
@@ -1063,102 +1018,7 @@ references:
   nameWithType: TwinState
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
   type: Class
-  summary: >-
-    <p>Representation of a single Twin initial state for the Device Provisioning Service.</p>
-
-    <p>The TwinState can contain one <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref> of <b>Tags</b>, and one <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref> of <b>properties.desired</b>.</p>
-
-    <p>Each entity in the collections can contain a associated <xref uid="" data-throw-if-not-resolved="false">TwinMetadata</xref>.</p>
-
-    <p>These metadata are provided by the Service and contains information about the last updated date time, and version.</p>
-
-    <p>For instance, the following is a valid TwinState, represented as <code>initialTwin 
-
-        </code> in the rest API. <pre><code>{
-
-            "initialTwin": {
-
-                "tags":{
-
-                    "SpeedUnity":"MPH",
-
-                    "$metadata":{
-
-                        "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                        "$lastUpdatedVersion":4,
-
-                        "SpeedUnity":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":4
-
-                        }
-
-                    },
-
-                    "$version":4
-
-                }
-
-                "properties":{
-
-                    "desired": {
-
-                        "MaxSpeed":{
-
-                            "Value":500,
-
-                            "NewValue":300
-
-                        },
-
-                        "$metadata":{
-
-                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                            "$lastUpdatedVersion":4,
-
-                            "MaxSpeed":{
-
-                                "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                "$lastUpdatedVersion":4,
-
-                                "Value":{
-
-                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                    "$lastUpdatedVersion":4
-
-                                },
-
-                                "NewValue":{
-
-                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
-
-                                    "$lastUpdatedVersion":4
-
-                                }
-
-                            }
-
-                        },
-
-                        "$version":4
-
-                    }
-
-                }
-
-            }
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Representation of a single Twin initial state for the Device Provisioning Service.</p>\r\n<p>The TwinState can contain one <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollection\" data-throw-if-not-resolved=\"false\">TwinCollection</xref> of <b>Tags</b>, and one <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollection\" data-throw-if-not-resolved=\"false\">TwinCollection</xref> of <b>properties.desired</b>.</p>\r\n<p>Each entity in the collections can contain a associated <xref uid=\"\" data-throw-if-not-resolved=\"false\">TwinMetadata</xref>.</p>\r\n<p>These metadata are provided by the Service and contains information about the last updated date time, and version.</p>\r\n<p>For instance, the following is a valid TwinState, represented as <code>initialTwin \r\n    </code> in the rest API. <pre><code>{\r\n        \"initialTwin\": {\r\n            \"tags\":{\r\n                \"SpeedUnity\":\"MPH\",\r\n                \"$metadata\":{\r\n                    \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                    \"$lastUpdatedVersion\":4,\r\n                    \"SpeedUnity\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":4\r\n                    }\r\n                },\r\n                \"$version\":4\r\n            }\r\n            \"properties\":{\r\n                \"desired\": {\r\n                    \"MaxSpeed\":{\r\n                        \"Value\":500,\r\n                        \"NewValue\":300\r\n                    },\r\n                    \"$metadata\":{\r\n                        \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                        \"$lastUpdatedVersion\":4,\r\n                        \"MaxSpeed\":{\r\n                            \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                            \"$lastUpdatedVersion\":4,\r\n                            \"Value\":{\r\n                                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                                \"$lastUpdatedVersion\":4\r\n                            },\r\n                            \"NewValue\":{\r\n                                \"$lastUpdated\":\"2017-09-21T02:07:44.238Z\",\r\n                                \"$lastUpdatedVersion\":4\r\n                            }\r\n                        }\r\n                    },\r\n                    \"$version\":4\r\n                }\r\n            }\r\n        }\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public class TwinState
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.ProvisioningStatus
@@ -1168,10 +1028,7 @@ references:
   nameWithType: ProvisioningStatus
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.ProvisioningStatus
   type: Enum
-  summary: >-
-    <p>The Device Provisioning Service provisioning status.</p>
-
-    <p></p>
+  summary: "<p>The Device Provisioning Service provisioning status.</p>\r\n<p></p>"
   syntax:
     content: public enum ProvisioningStatus
 - uid: com.microsoft.azure.sdk.iot.deps.twin.DeviceCapabilities
@@ -1190,12 +1047,7 @@ references:
   nameWithType: Attestation
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation
   type: Class
-  summary: >-
-    <p>This is the abstract class that unifies all possible types of attestation that Device Provisioning Service supports.</p>
-
-    <p>For now, the provisioning service supports <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation" data-throw-if-not-resolved="false">TpmAttestation</xref> or <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation" data-throw-if-not-resolved="false">X509Attestation</xref>.</p>
-
-    <p></p>
+  summary: "<p>This is the abstract class that unifies all possible types of attestation that Device Provisioning Service supports.</p>\r\n<p>For now, the provisioning service supports <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation\" data-throw-if-not-resolved=\"false\">TpmAttestation</xref> or <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation\" data-throw-if-not-resolved=\"false\">X509Attestation</xref>.</p>\r\n<p></p>"
   syntax:
     content: public class Attestation
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
@@ -1205,12 +1057,7 @@ references:
   nameWithType: TpmAttestation
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
   type: Class
-  summary: >-
-    <p>Representation of a single Device Provisioning Service TPM Attestation.</p>
-
-    <p>The provisioning service supports Trusted Platform Module, or TPM, as the device attestation mechanism. User must provide the Endorsement Key, and can, optionally, provide the Storage Root Key.</p>
-
-    <p></p>
+  summary: "<p>Representation of a single Device Provisioning Service TPM Attestation.</p>\r\n<p>The provisioning service supports Trusted Platform Module, or TPM, as the device attestation mechanism. User must provide the Endorsement Key, and can, optionally, provide the Storage Root Key.</p>\r\n<p></p>"
   syntax:
     content: public class TpmAttestation
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation
@@ -1220,64 +1067,7 @@ references:
   nameWithType: X509Attestation
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation
   type: Class
-  summary: >-
-    <p>Representation of a single Device Provisioning Service X509 Attestation.</p>
-
-    <p>The provisioning service supports Device Identifier Composition Engine, or DICE, as the device attestation mechanism. To use DICE, user must provide the X509 certificate. This class provide the means to create a new attestation for a X509 certificate and return it as an abstract interface <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation" data-throw-if-not-resolved="false">Attestation</xref>.</p>
-
-    <p>An X509 attestation can contains one of the 3 types of certificate:</p>
-
-    <p>
-
-      <variablelist>
-
-        <varlistentry>
-
-          <b>Client or Alias certificate:</b>
-
-        </varlistentry>
-
-        <li>
-
-          <p>Called on this class as clientCertificates, this certificate can authenticate a single device. </p>
-
-        </li>
-
-        <varlistentry>
-
-          <b>Signing or Root certificate:</b>
-
-        </varlistentry>
-
-        <li>
-
-          <p>Called on this class as rootCertificates, this certificate can create multiple Client certificates to authenticate multiple devices. </p>
-
-        </li>
-
-        <varlistentry>
-
-          <b>CA Reference:</b>
-
-        </varlistentry>
-
-        <li>
-
-          <p>Called on this class as X509CAReferences, this is a CA reference for a rootCertificate that can create multiple Client certificates to authenticate multiple devices. </p>
-
-        </li>
-
-      </variablelist>
-
-    </p>
-
-    <p>The provisioning service allows user to create <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment" data-throw-if-not-resolved="false">IndividualEnrollment</xref> and <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup" data-throw-if-not-resolved="false">EnrollmentGroup</xref>. For all operations over <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment" data-throw-if-not-resolved="false">IndividualEnrollment</xref> with <b>DICE</b>, user must provide a <b>clientCertificates</b>, and for operations over <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup" data-throw-if-not-resolved="false">EnrollmentGroup</xref>, user must provide a <b>rootCertificates</b> or a <b>X509CAReferences</b>.</p>
-
-    <p>For each of this types of certificates, user can provide 2 Certificates, a primary and a secondary. Only the primary is mandatory, the secondary is optional.</p>
-
-    <p>The provisioning service will process the provided certificates, but will never return it back. Instead of it, <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation.getPrimaryX509CertificateInfo()" data-throw-if-not-resolved="false">getPrimaryX509CertificateInfo()</xref> and <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation.getSecondaryX509CertificateInfo()" data-throw-if-not-resolved="false">getSecondaryX509CertificateInfo()</xref> will return the certificate information for the certificates.</p>
-
-    <p></p>
+  summary: "<p>Representation of a single Device Provisioning Service X509 Attestation.</p>\r\n<p>The provisioning service supports Device Identifier Composition Engine, or DICE, as the device attestation mechanism. To use DICE, user must provide the X509 certificate. This class provide the means to create a new attestation for a X509 certificate and return it as an abstract interface <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation\" data-throw-if-not-resolved=\"false\">Attestation</xref>.</p>\r\n<p>An X509 attestation can contains one of the 3 types of certificate:</p>\r\n<p>\r\n  <variablelist>\r\n    <varlistentry>\r\n      <b>Client or Alias certificate:</b>\r\n    </varlistentry>\r\n    <li>\r\n      <p>Called on this class as clientCertificates, this certificate can authenticate a single device. </p>\r\n    </li>\r\n    <varlistentry>\r\n      <b>Signing or Root certificate:</b>\r\n    </varlistentry>\r\n    <li>\r\n      <p>Called on this class as rootCertificates, this certificate can create multiple Client certificates to authenticate multiple devices. </p>\r\n    </li>\r\n    <varlistentry>\r\n      <b>CA Reference:</b>\r\n    </varlistentry>\r\n    <li>\r\n      <p>Called on this class as X509CAReferences, this is a CA reference for a rootCertificate that can create multiple Client certificates to authenticate multiple devices. </p>\r\n    </li>\r\n  </variablelist>\r\n</p>\r\n<p>The provisioning service allows user to create <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment\" data-throw-if-not-resolved=\"false\">IndividualEnrollment</xref> and <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup\" data-throw-if-not-resolved=\"false\">EnrollmentGroup</xref>. For all operations over <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment\" data-throw-if-not-resolved=\"false\">IndividualEnrollment</xref> with <b>DICE</b>, user must provide a <b>clientCertificates</b>, and for operations over <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup\" data-throw-if-not-resolved=\"false\">EnrollmentGroup</xref>, user must provide a <b>rootCertificates</b> or a <b>X509CAReferences</b>.</p>\r\n<p>For each of this types of certificates, user can provide 2 Certificates, a primary and a secondary. Only the primary is mandatory, the secondary is optional.</p>\r\n<p>The provisioning service will process the provided certificates, but will never return it back. Instead of it, <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation.getPrimaryX509CertificateInfo()\" data-throw-if-not-resolved=\"false\">getPrimaryX509CertificateInfo()</xref> and <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation.getSecondaryX509CertificateInfo()\" data-throw-if-not-resolved=\"false\">getSecondaryX509CertificateInfo()</xref> will return the certificate information for the certificates.</p>\r\n<p></p>"
   syntax:
     content: public class X509Attestation
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
@@ -1287,58 +1077,7 @@ references:
   nameWithType: ProvisioningServiceClientException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
   type: Class
-  summary: >-
-    <p>Super class for the Device Provisioning Service exceptions on the Service Client.</p>
-
-    <p>
-
-      <pre>
-
-        <code>ProvisioningServiceClientException
-
-            |
-
-            +--&gt;ProvisioningServiceClientTransportException [any transport layer exception]
-
-            |
-
-            +--&gt;ProvisioningServiceClientServiceException [any exception reported in the http response]
-
-                    |
-
-                    |
-
-                    +--&gt;ProvisioningServiceClientBadUsageException [any http response 4xx]
-
-                    |        |
-
-                    |        +--&gt;ProvisioningServiceClientBadFormatException [400]
-
-                    |        +--&gt;ProvisioningServiceClientUnathorizedException [401]
-
-                    |        +--&gt;ProvisioningServiceClientNotFoundException [404]
-
-                    |        +--&gt;ProvisioningServiceClientPreconditionFailedException [412]
-
-                    |        +--&gt;ProvisioningServiceClientTooManyRequestsException [429]
-
-                    |
-
-                    +--&gt;ProvisioningServiceClientTransientException [any http response 5xx]
-
-                    |        |
-
-                    |        +--&gt;ProvisioningServiceClientInternalServerErrorException [500]
-
-                    |
-
-                    +--&gt;ProvisioningServiceClientUnknownException [any other http response &gt;300, but not 4xx or 5xx]
-
-        </code>
-
-      </pre>
-
-    </p>
+  summary: "<p>Super class for the Device Provisioning Service exceptions on the Service Client.</p>\r\n<p>\r\n  <pre>\r\n    <code>ProvisioningServiceClientException\r\n        |\r\n        +--&gt;ProvisioningServiceClientTransportException [any transport layer exception]\r\n        |\r\n        +--&gt;ProvisioningServiceClientServiceException [any exception reported in the http response]\r\n                |\r\n                |\r\n                +--&gt;ProvisioningServiceClientBadUsageException [any http response 4xx]\r\n                |        |\r\n                |        +--&gt;ProvisioningServiceClientBadFormatException [400]\r\n                |        +--&gt;ProvisioningServiceClientUnathorizedException [401]\r\n                |        +--&gt;ProvisioningServiceClientNotFoundException [404]\r\n                |        +--&gt;ProvisioningServiceClientPreconditionFailedException [412]\r\n                |        +--&gt;ProvisioningServiceClientTooManyRequestsException [429]\r\n                |\r\n                +--&gt;ProvisioningServiceClientTransientException [any http response 5xx]\r\n                |        |\r\n                |        +--&gt;ProvisioningServiceClientInternalServerErrorException [500]\r\n                |\r\n                +--&gt;ProvisioningServiceClientUnknownException [any other http response &gt;300, but not 4xx or 5xx]\r\n    </code>\r\n  </pre>\r\n</p>"
   syntax:
     content: public class ProvisioningServiceClientException
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient.createOrUpdateIndividualEnrollment(IndividualEnrollment)

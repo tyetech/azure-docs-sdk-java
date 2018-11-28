@@ -41,10 +41,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -57,10 +54,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -77,10 +71,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -93,10 +84,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithScope.forResource(GenericResource genericResource)
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithScope.forResource(GenericResource genericResource)
   type: Method
-  summary: >-
-    <p>Specifies the scope of the policy assignment to be a resource.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of the policy assignment to be a resource.</p>\r\n<p></p>"
   syntax:
     content: public WithPolicyDefinition forResource(GenericResource genericResource)
     parameters:
@@ -113,10 +101,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithScope.forResourceGroup(ResourceGroup resourceGroup)
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithScope.forResourceGroup(ResourceGroup resourceGroup)
   type: Method
-  summary: >-
-    <p>Specifies the scope of the policy assignment to be a resource group.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of the policy assignment to be a resource group.</p>\r\n<p></p>"
   syntax:
     content: public WithPolicyDefinition forResourceGroup(ResourceGroup resourceGroup)
     parameters:
@@ -133,10 +118,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithScope.forScope(String scope)
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithScope.forScope(String scope)
   type: Method
-  summary: >-
-    <p>Specifies the scope of the policy assignment.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of the policy assignment.</p>\r\n<p></p>"
   syntax:
     content: public WithPolicyDefinition forScope(String scope)
     parameters:
@@ -177,10 +159,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithDisplayName.withDisplayName(String displayName)
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithDisplayName.withDisplayName(String displayName)
   type: Method
-  summary: >-
-    <p>Specifies the display name of the policy assignment.</p>
-
-    <p></p>
+  summary: "<p>Specifies the display name of the policy assignment.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDisplayName(String displayName)
     parameters:
@@ -197,10 +176,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithPolicyDefinition.withPolicyDefinition(PolicyDefinition policyDefinition)
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithPolicyDefinition.withPolicyDefinition(PolicyDefinition policyDefinition)
   type: Method
-  summary: >-
-    <p>Specifies the policy definition.</p>
-
-    <p></p>
+  summary: "<p>Specifies the policy definition.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPolicyDefinition(PolicyDefinition policyDefinition)
     parameters:
@@ -217,10 +193,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithPolicyDefinition.withPolicyDefinitionId(String policyDefinitionId)
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithPolicyDefinition.withPolicyDefinitionId(String policyDefinitionId)
   type: Method
-  summary: >-
-    <p>Specifies the policy assignment.</p>
-
-    <p></p>
+  summary: "<p>Specifies the policy assignment.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPolicyDefinitionId(String policyDefinitionId)
     parameters:
@@ -237,7 +210,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the policy assignment. </p>
+  summary: "<p>The first stage of the policy assignment. </p>"
   syntax:
     content: public interface Blank extends PolicyAssignment.DefinitionStages.WithScope
 - uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithPolicyDefinition
@@ -247,7 +220,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithPolicyDefinition
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithPolicyDefinition
   type: Interface
-  summary: <p>A policy assignment allowing the policy definition to be set. </p>
+  summary: "<p>A policy assignment allowing the policy definition to be set. </p>"
   syntax:
     content: public interface WithPolicyDefinition
 - uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate
@@ -257,6 +230,6 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A policy assignment with sufficient inputs to create a new policy assignment in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A policy assignment with sufficient inputs to create a new policy assignment in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

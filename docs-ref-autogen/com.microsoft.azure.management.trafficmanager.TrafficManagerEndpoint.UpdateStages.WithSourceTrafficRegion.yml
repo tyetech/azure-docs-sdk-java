@@ -62,7 +62,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateExternalEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateExternalEndpoint
   type: Interface
-  summary: <p>The entirety of an external endpoint update as a part of parent traffic manager profile profile update. </p>
+  summary: "<p>The entirety of an external endpoint update as a part of parent traffic manager profile profile update. </p>"
   syntax:
     content: public interface UpdateExternalEndpoint extends TrafficManagerEndpoint.UpdateStages.WithFqdn,TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion,TrafficManagerEndpoint.Update
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateNestedProfileEndpoint
@@ -72,7 +72,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateNestedProfileEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateNestedProfileEndpoint
   type: Interface
-  summary: <p>The entirety of a nested profile endpoint update as a part of parent traffic manager profile profile update. </p>
+  summary: "<p>The entirety of a nested profile endpoint update as a part of parent traffic manager profile profile update. </p>"
   syntax:
     content: public interface UpdateNestedProfileEndpoint extends TrafficManagerEndpoint.UpdateStages.WithNestedProfileConfig,TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion,TrafficManagerEndpoint.Update
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.Update
@@ -82,7 +82,7 @@ references:
   nameWithType: TrafficManagerEndpoint.Update
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.Update
   type: Interface
-  summary: <p>the set of configurations that can be updated for all endpoint irrespective of their type (Azure, external, nested profile). </p>
+  summary: "<p>the set of configurations that can be updated for all endpoint irrespective of their type (Azure, external, nested profile). </p>"
   syntax:
     content: public interface Update extends Settable<TrafficManagerProfile.Update>,TrafficManagerEndpoint.UpdateStages.WithRoutingWeight,TrafficManagerEndpoint.UpdateStages.WithRoutingPriority,TrafficManagerEndpoint.UpdateStages.WithGeographicLocation,TrafficManagerEndpoint.UpdateStages.WithTrafficDisabledOrEnabled
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.Region
@@ -92,7 +92,7 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region
 - uid: com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PERFORMANCE
@@ -102,7 +102,7 @@ references:
   nameWithType: TrafficRoutingMethod.PERFORMANCE
   fullName: com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PERFORMANCE
   type: Field
-  summary: <p>Static value Performance for TrafficRoutingMethod. </p>
+  summary: "<p>Static value Performance for TrafficRoutingMethod. </p>"
   syntax:
     content: public static final TrafficRoutingMethod PERFORMANCE= new TrafficRoutingMethod("Performance")
     return:

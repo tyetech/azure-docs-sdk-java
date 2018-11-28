@@ -141,7 +141,7 @@ references:
   nameWithType: SingletonPartitionInformation
   fullName: system.fabric.SingletonPartitionInformation
   type: Class
-  summary: <p>Indicates that the service is Singleton-partitioned, effectively non-partitioned or with one partition only, and uses the partition scheme of a Singleton service. </p>
+  summary: "<p>Indicates that the service is Singleton-partitioned, effectively non-partitioned or with one partition only, and uses the partition scheme of a Singleton service. </p>"
   syntax:
     content: public class SingletonPartitionInformation
 - uid: system.fabric.Int64RangePartitionInformation
@@ -151,7 +151,7 @@ references:
   nameWithType: Int64RangePartitionInformation
   fullName: system.fabric.Int64RangePartitionInformation
   type: Class
-  summary: <p>Represents the Information for Partition </p>
+  summary: "<p>Represents the Information for Partition </p>"
   syntax:
     content: public class Int64RangePartitionInformation extends ServicePartitionInformation
 - uid: system.fabric.NamedPartitionInformation
@@ -161,7 +161,7 @@ references:
   nameWithType: NamedPartitionInformation
   fullName: system.fabric.NamedPartitionInformation
   type: Class
-  summary: <p>Describes the partition information for the name as a string that is based on partition schemes. Services observe this type of <xref uid="system.fabric.ServicePartitionInformation" data-throw-if-not-resolved="false">system.fabric.ServicePartitionInformation</xref> when the service is created with the <xref uid="" data-throw-if-not-resolved="false">system.fabric.NamedPartitionInformation</xref> derives from the <xref uid="system.fabric.ServicePartition" data-throw-if-not-resolved="false">system.fabric.ServicePartition</xref> interface and is provided to services as part of the <xref uid="system.fabric.StatefulServicePartition" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition</xref> or <xref uid="system.fabric.StatelessServicePartition" data-throw-if-not-resolved="false">system.fabric.StatelessServicePartition</xref> interface, which is passed in during the stateful <xref uid="system.fabric.StatefulServiceReplica.openAsync(ReplicaOpenMode,StatefulServicePartition,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StatefulServiceReplica#openAsync(system.fabric.ReplicaOpenMode,system.fabric.StatefulServicePartition,system.fabric.CancellationToken                                        )</xref> or the stateless <xref uid="system.fabric.StatelessServiceInstance.openAsync(StatelessServicePartition,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StatelessServiceInstance#openAsync(system.fabric.StatelessServicePartition,system.fabric.CancellationToken)</xref>. </p>
+  summary: "<p>Describes the partition information for the name as a string that is based on partition schemes. Services observe this type of <xref uid=\"system.fabric.ServicePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartitionInformation</xref> when the service is created with the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.NamedPartitionInformation</xref> derives from the <xref uid=\"system.fabric.ServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition</xref> interface and is provided to services as part of the <xref uid=\"system.fabric.StatefulServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition</xref> or <xref uid=\"system.fabric.StatelessServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServicePartition</xref> interface, which is passed in during the stateful <xref uid=\"system.fabric.StatefulServiceReplica.openAsync(ReplicaOpenMode,StatefulServicePartition,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServiceReplica#openAsync(system.fabric.ReplicaOpenMode,system.fabric.StatefulServicePartition,system.fabric.CancellationToken                                        )</xref> or the stateless <xref uid=\"system.fabric.StatelessServiceInstance.openAsync(StatelessServicePartition,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServiceInstance#openAsync(system.fabric.StatelessServicePartition,system.fabric.CancellationToken)</xref>. </p>"
   syntax:
     content: public class NamedPartitionInformation extends ServicePartitionInformation
 - uid: system.fabric.ServicePartitionInformation
@@ -171,13 +171,6 @@ references:
   nameWithType: ServicePartitionInformation
   fullName: system.fabric.ServicePartitionInformation
   type: Class
-  summary: >-
-    <p>Represents the base class for describing partitions. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="system.fabric.Int64RangePartitionInformation" data-throw-if-not-resolved="false">system.fabric.Int64RangePartitionInformation</xref>, <xref uid="system.fabric.NamedPartitionInformation" data-throw-if-not-resolved="false">system.fabric.NamedPartitionInformation</xref>, and <xref uid="system.fabric.SingletonPartitionInformation" data-throw-if-not-resolved="false">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>
+  summary: "<p>Represents the base class for describing partitions. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"system.fabric.Int64RangePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.Int64RangePartitionInformation</xref>, <xref uid=\"system.fabric.NamedPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.NamedPartitionInformation</xref>, and <xref uid=\"system.fabric.SingletonPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>"
   syntax:
     content: public class ServicePartitionInformation

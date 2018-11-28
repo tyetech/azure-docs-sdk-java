@@ -109,7 +109,7 @@ references:
   nameWithType: SqlSyncGroupOperations.SqlSyncGroupOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlSyncGroupOperations.SqlSyncGroupOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlSyncGroupOperationsDefinition extends SqlSyncGroupOperations.DefinitionStages.WithSqlServer,SqlSyncGroupOperations.DefinitionStages.WithSyncGroupDatabase,SqlSyncGroupOperations.DefinitionStages.WithSyncDatabaseId,SqlSyncGroupOperations.DefinitionStages.WithDatabaseUserName,SqlSyncGroupOperations.DefinitionStages.WithDatabasePassword,SqlSyncGroupOperations.DefinitionStages.WithConflictResolutionPolicy,SqlSyncGroupOperations.DefinitionStages.WithInterval,SqlSyncGroupOperations.DefinitionStages.WithSchema,SqlSyncGroupOperations.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -119,9 +119,6 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase extends IndependentChildResource<SqlServerManager, DatabaseInner>,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>,ExternalChildResource<SqlDatabase, SqlServer>,HasInner<DatabaseInner>,HasResourceGroup,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>

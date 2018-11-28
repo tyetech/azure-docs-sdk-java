@@ -70,7 +70,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The final stage of the SQL database threat detection policy definition. </p>
+  summary: "<p>The final stage of the SQL database threat detection policy definition. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.SqlDatabaseThreatDetectionPolicyDefinition
@@ -80,6 +80,6 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy.SqlDatabaseThreatDetectionPolicyDefinition
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy.SqlDatabaseThreatDetectionPolicyDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlDatabaseThreatDetectionPolicyDefinition extends SqlDatabaseThreatDetectionPolicy.DefinitionStages.Blank,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithSecurityAlertPolicyState,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageEndpoint,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithStorageAccountAccessKey,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithAlertsFilter,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailAddresses,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithRetentionDays,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithEmailToAccountAdmins,SqlDatabaseThreatDetectionPolicy.DefinitionStages.WithCreate

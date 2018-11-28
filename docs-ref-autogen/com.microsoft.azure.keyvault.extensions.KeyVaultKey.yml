@@ -483,7 +483,7 @@ references:
   nameWithType: IKey
   fullName: com.microsoft.azure.keyvault.core.IKey
   type: Interface
-  summary: <p>Interface for representing cryptographic keys with the Microsoft Azure Key Vault libraries. </p>
+  summary: "<p>Interface for representing cryptographic keys with the Microsoft Azure Key Vault libraries. </p>"
   syntax:
     content: public interface IKey
 - uid: com.microsoft.azure.keyvault.KeyVaultClient
@@ -493,7 +493,7 @@ references:
   nameWithType: KeyVaultClient
   fullName: com.microsoft.azure.keyvault.KeyVaultClient
   type: Class
-  summary: <p>Initializes a new instance of the KeyVaultClient class. </p>
+  summary: "<p>Initializes a new instance of the KeyVaultClient class. </p>"
   syntax:
     content: public class KeyVaultClient
 - uid: com.microsoft.azure.keyvault.models.KeyBundle
@@ -503,7 +503,7 @@ references:
   nameWithType: KeyBundle
   fullName: com.microsoft.azure.keyvault.models.KeyBundle
   type: Class
-  summary: <p>A KeyBundle consisting of a WebKey plus its attributes. </p>
+  summary: "<p>A KeyBundle consisting of a WebKey plus its attributes. </p>"
   syntax:
     content: public class KeyBundle
 - uid: com.microsoft.azure.keyvault.core.IKey.getDefaultEncryptionAlgorithm()
@@ -513,10 +513,7 @@ references:
   nameWithType: IKey.getDefaultEncryptionAlgorithm()
   fullName: com.microsoft.azure.keyvault.core.IKey.getDefaultEncryptionAlgorithm()
   type: Method
-  summary: >-
-    <p>The default encryption algorithm for this key, using the representations from Json Web Key Algorithms, RFC7513.</p>
-
-    <p></p>
+  summary: "<p>The default encryption algorithm for this key, using the representations from Json Web Key Algorithms, RFC7513.</p>\r\n<p></p>"
   syntax:
     content: public String getDefaultEncryptionAlgorithm()
     return:
@@ -529,10 +526,7 @@ references:
   nameWithType: IKey.getDefaultKeyWrapAlgorithm()
   fullName: com.microsoft.azure.keyvault.core.IKey.getDefaultKeyWrapAlgorithm()
   type: Method
-  summary: >-
-    <p>The default key wrap algorithm for this key, using the representations from Json Web Key Algorithms, RFC7513.</p>
-
-    <p></p>
+  summary: "<p>The default key wrap algorithm for this key, using the representations from Json Web Key Algorithms, RFC7513.</p>\r\n<p></p>"
   syntax:
     content: public String getDefaultKeyWrapAlgorithm()
     return:
@@ -545,10 +539,7 @@ references:
   nameWithType: IKey.getDefaultSignatureAlgorithm()
   fullName: com.microsoft.azure.keyvault.core.IKey.getDefaultSignatureAlgorithm()
   type: Method
-  summary: >-
-    <p>The default signature algorithm for this key, using the representations from Json Web Key Algorithms, RFC7513.</p>
-
-    <p></p>
+  summary: "<p>The default signature algorithm for this key, using the representations from Json Web Key Algorithms, RFC7513.</p>\r\n<p></p>"
   syntax:
     content: public String getDefaultSignatureAlgorithm()
     return:
@@ -561,10 +552,7 @@ references:
   nameWithType: IKey.getKid()
   fullName: com.microsoft.azure.keyvault.core.IKey.getKid()
   type: Method
-  summary: >-
-    <p>The unique key identifier for this key.</p>
-
-    <p></p>
+  summary: "<p>The unique key identifier for this key.</p>\r\n<p></p>"
   syntax:
     content: public String getKid()
     return:
@@ -577,10 +565,7 @@ references:
   nameWithType: IKey.decryptAsync(final byte[] ciphertext, final byte[] iv, final byte[] authenticationData, final byte[] authenticationTag, final String algorithm)
   fullName: com.microsoft.azure.keyvault.core.IKey.decryptAsync(final byte[] ciphertext, final byte[] iv, final byte[] authenticationData, final byte[] authenticationTag, final String algorithm)
   type: Method
-  summary: >-
-    <p>Decrypts the specified cipher text. Note that not all algorithms require, or support, all parameters.</p>
-
-    <p></p>
+  summary: "<p>Decrypts the specified cipher text. Note that not all algorithms require, or support, all parameters.</p>\r\n<p></p>"
   syntax:
     content: public ListenableFuture<byte[]> decryptAsync(final byte[] ciphertext, final byte[] iv, final byte[] authenticationData, final byte[] authenticationTag, final String algorithm)
     parameters:
@@ -609,10 +594,7 @@ references:
   nameWithType: IKey.encryptAsync(final byte[] plaintext, final byte[] iv, final byte[] authenticationData, final String algorithm)
   fullName: com.microsoft.azure.keyvault.core.IKey.encryptAsync(final byte[] plaintext, final byte[] iv, final byte[] authenticationData, final String algorithm)
   type: Method
-  summary: >-
-    <p>Encrypts the specified plain text. Note that not all algorithms require, or support, all parameters.</p>
-
-    <p></p>
+  summary: "<p>Encrypts the specified plain text. Note that not all algorithms require, or support, all parameters.</p>\r\n<p></p>"
   syntax:
     content: public ListenableFuture<Triple<byte[], byte[], String>> encryptAsync(final byte[] plaintext, final byte[] iv, final byte[] authenticationData, final String algorithm)
     parameters:
@@ -638,10 +620,7 @@ references:
   nameWithType: IKey.wrapKeyAsync(final byte[] key, final String algorithm)
   fullName: com.microsoft.azure.keyvault.core.IKey.wrapKeyAsync(final byte[] key, final String algorithm)
   type: Method
-  summary: >-
-    <p>Wraps (encrypts) the specified symmetric key material using the specified algorithm, or the keys DefaultKeyWrapAlgorithm if none is specified.</p>
-
-    <p></p>
+  summary: "<p>Wraps (encrypts) the specified symmetric key material using the specified algorithm, or the keys DefaultKeyWrapAlgorithm if none is specified.</p>\r\n<p></p>"
   syntax:
     content: public ListenableFuture<Pair<byte[], String>> wrapKeyAsync(final byte[] key, final String algorithm)
     parameters:
@@ -661,10 +640,7 @@ references:
   nameWithType: IKey.unwrapKeyAsync(final byte[] encryptedKey, final String algorithm)
   fullName: com.microsoft.azure.keyvault.core.IKey.unwrapKeyAsync(final byte[] encryptedKey, final String algorithm)
   type: Method
-  summary: >-
-    <p>Unwraps (decrypts) the specified encryped key material.</p>
-
-    <p></p>
+  summary: "<p>Unwraps (decrypts) the specified encryped key material.</p>\r\n<p></p>"
   syntax:
     content: public ListenableFuture<byte[]> unwrapKeyAsync(final byte[] encryptedKey, final String algorithm)
     parameters:
@@ -684,10 +660,7 @@ references:
   nameWithType: IKey.signAsync(final byte[] digest, final String algorithm)
   fullName: com.microsoft.azure.keyvault.core.IKey.signAsync(final byte[] digest, final String algorithm)
   type: Method
-  summary: >-
-    <p>Signs the specified digest using the specified algorithm, or the keys DefaultSignatureAlgorithm if no algorithm is specified.</p>
-
-    <p></p>
+  summary: "<p>Signs the specified digest using the specified algorithm, or the keys DefaultSignatureAlgorithm if no algorithm is specified.</p>\r\n<p></p>"
   syntax:
     content: public ListenableFuture<Pair<byte[], String>> signAsync(final byte[] digest, final String algorithm)
     parameters:
@@ -707,10 +680,7 @@ references:
   nameWithType: IKey.verifyAsync(final byte[] digest, final byte[] signature, final String algorithm)
   fullName: com.microsoft.azure.keyvault.core.IKey.verifyAsync(final byte[] digest, final byte[] signature, final String algorithm)
   type: Method
-  summary: >-
-    <p>Verifies the supplied signature value using the supplied digest and algorithm.</p>
-
-    <p></p>
+  summary: "<p>Verifies the supplied signature value using the supplied digest and algorithm.</p>\r\n<p></p>"
   syntax:
     content: public ListenableFuture<Boolean> verifyAsync(final byte[] digest, final byte[] signature, final String algorithm)
     parameters:

@@ -295,7 +295,7 @@ references:
   nameWithType: MultiShardPartialReadException
   fullName: com.microsoft.azure.elasticdb.query.exception.MultiShardPartialReadException
   type: Class
-  summary: '<p>The MultiShardResultSet throws this exception when an exception has been hit reading data from one of the underlying shards. This indicates that not all rows have been successfully retrieved from the targeted shard(s). Users can then take the steps necessary to decide whether to re-run the query, or whether to continue working with the rows that have already been retrieved. This exception is only thrown with the partial results policy. Purpose: Custom exception to throw when the MultiShardResultSet hits an exception during a next() call to one of the underlying ResultSets. When that happens all we know is that we were not able to read all the results from that shard, so we need to notify the user somehow. </p>'
+  summary: "<p>The MultiShardResultSet throws this exception when an exception has been hit reading data from one of the underlying shards. This indicates that not all rows have been successfully retrieved from the targeted shard(s). Users can then take the steps necessary to decide whether to re-run the query, or whether to continue working with the rows that have already been retrieved. This exception is only thrown with the partial results policy. Purpose: Custom exception to throw when the MultiShardResultSet hits an exception during a next() call to one of the underlying ResultSets. When that happens all we know is that we were not able to read all the results from that shard, so we need to notify the user somehow. </p>"
   syntax:
     content: public class MultiShardPartialReadException
 - uid: com.microsoft.azure.elasticdb.query.exception.MultiShardSchemaMismatchException
@@ -305,7 +305,7 @@ references:
   nameWithType: MultiShardSchemaMismatchException
   fullName: com.microsoft.azure.elasticdb.query.exception.MultiShardSchemaMismatchException
   type: Class
-  summary: '<p>Custom exception thrown when the schema on at least one of the shards participating in the overall query does not conform to the expected schema for the multi-shard query as a whole. Purpose: Custom exception to throw when the schema from a ResultSet from a given shard does not conform to the expected schema for the fanout query as a whole. </p>'
+  summary: "<p>Custom exception thrown when the schema on at least one of the shards participating in the overall query does not conform to the expected schema for the multi-shard query as a whole. Purpose: Custom exception to throw when the schema from a ResultSet from a given shard does not conform to the expected schema for the fanout query as a whole. </p>"
   syntax:
     content: public class MultiShardSchemaMismatchException
 - uid: com.microsoft.azure.elasticdb.shard.base.ShardLocation
@@ -315,7 +315,7 @@ references:
   nameWithType: ShardLocation
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardLocation
   type: Class
-  summary: <p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid="com.microsoft.azure.elasticdb.shard.base.Shard" data-throw-if-not-resolved="false">Shard</xref>, a shard location is not registered with the shard map. </p>
+  summary: "<p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid=\"com.microsoft.azure.elasticdb.shard.base.Shard\" data-throw-if-not-resolved=\"false\">Shard</xref>, a shard location is not registered with the shard map. </p>"
   syntax:
     content: public class ShardLocation
 - uid: com.microsoft.azure.elasticdb.query.exception.MultiShardException

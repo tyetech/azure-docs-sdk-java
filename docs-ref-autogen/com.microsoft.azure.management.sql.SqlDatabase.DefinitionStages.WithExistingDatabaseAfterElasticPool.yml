@@ -48,7 +48,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -61,10 +61,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>.fromRestorePoint(RestorePoint restorePoint)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>.fromRestorePoint(RestorePoint restorePoint)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT> fromRestorePoint(RestorePoint restorePoint)
     parameters:
@@ -81,10 +78,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>.fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>.fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT> fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
     parameters:
@@ -104,10 +98,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSampleDatabaseAfterElasticPool<ParentT>.fromSample(SampleName sampleName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSampleDatabaseAfterElasticPool<ParentT>.fromSample(SampleName sampleName)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT> fromSample(SampleName sampleName)
     parameters:
@@ -124,10 +115,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>.importFrom(String storageUri)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>.importFrom(String storageUri)
   type: Method
-  summary: >-
-    <p>Creates a new database from a BACPAC file.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a BACPAC file.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithStorageKeyAfterElasticPool<ParentT> importFrom(String storageUri)
     parameters:
@@ -144,10 +132,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>.importFrom(StorageAccount storageAccount, String containerName, String fileName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>.importFrom(StorageAccount storageAccount, String containerName, String fileName)
   type: Method
-  summary: >-
-    <p>Creates a new database from a BACPAC file.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a BACPAC file.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAuthenticationAfterElasticPool<ParentT> importFrom(StorageAccount storageAccount, String containerName, String fileName)
     parameters:
@@ -170,10 +155,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithCollationAfterElasticPoolOptions<ParentT>.withCollation(String collation)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollationAfterElasticPoolOptions<ParentT>.withCollation(String collation)
   type: Method
-  summary: >-
-    <p>Sets the collation for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the collation for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT> withCollation(String collation)
     parameters:
@@ -190,10 +172,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithMaxSizeBytesAfterElasticPoolOptions<ParentT>.withMaxSizeBytes(long maxSizeBytes)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytesAfterElasticPoolOptions<ParentT>.withMaxSizeBytes(long maxSizeBytes)
   type: Method
-  summary: >-
-    <p>Sets the max size in bytes for SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the max size in bytes for SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT> withMaxSizeBytes(long maxSizeBytes)
     parameters:
@@ -210,12 +189,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(String sourceDatabaseId)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(String sourceDatabaseId)
   type: Method
-  summary: >-
-    <p>Sets the resource if of source database for the SQL Database. </p>
-
-    <p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>
-
-    <p></p>
+  summary: "<p>Sets the resource if of source database for the SQL Database. </p>\r\n<p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithCreateMode<ParentT> withSourceDatabase(String sourceDatabaseId)
     parameters:
@@ -232,12 +206,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(SqlDatabase sourceDatabase)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(SqlDatabase sourceDatabase)
   type: Method
-  summary: >-
-    <p>Sets the resource if of source database for the SQL Database. </p>
-
-    <p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>
-
-    <p></p>
+  summary: "<p>Sets the resource if of source database for the SQL Database. </p>\r\n<p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithCreateMode<ParentT> withSourceDatabase(SqlDatabase sourceDatabase)
     parameters:
@@ -254,10 +223,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to import a BACPAC file as the source database within an elastic pool.</p>
-
-    <p></p>
+  summary: "<p>The SQL Database definition to import a BACPAC file as the source database within an elastic pool.</p>\r\n<p></p>"
   syntax:
     content: public interface WithImportFromAfterElasticPool<ParentT>
     typeParameters:
@@ -271,10 +237,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set a restore point as the source database within an elastic pool.</p>
-
-    <p></p>
+  summary: "<p>The SQL Database definition to set a restore point as the source database within an elastic pool.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRestorePointDatabaseAfterElasticPool<ParentT>
     typeParameters:
@@ -288,10 +251,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSampleDatabaseAfterElasticPool<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSampleDatabaseAfterElasticPool<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set a sample database as the source database within an elastic pool.</p>
-
-    <p></p>
+  summary: "<p>The SQL Database definition to set a sample database as the source database within an elastic pool.</p>\r\n<p></p>"
   syntax:
     content: public interface WithSampleDatabaseAfterElasticPool<ParentT>
     typeParameters:
@@ -305,12 +265,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set the source database id for database.</p>
-
-    <p>
-
-    The SQL Database definition to set the source database id for database. </p>
+  summary: "<p>The SQL Database definition to set the source database id for database.</p>\r\n<p>\r\nThe SQL Database definition to set the source database id for database. </p>"
   syntax:
     content: public interface WithSourceDatabaseId<ParentT>
     typeParameters:
@@ -324,10 +279,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Database definition after the SQL Elastic Pool definition.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the SQL Database definition after the SQL Elastic Pool definition.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttachAfterElasticPoolOptions<ParentT> extends SqlDatabase.DefinitionStages.WithCollationAfterElasticPoolOptions<ParentT>,SqlDatabase.DefinitionStages.WithMaxSizeBytesAfterElasticPoolOptions<ParentT>,SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
     typeParameters:

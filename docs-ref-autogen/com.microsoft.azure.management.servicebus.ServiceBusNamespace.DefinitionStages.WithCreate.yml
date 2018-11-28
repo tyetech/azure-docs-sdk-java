@@ -43,10 +43,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -59,10 +56,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -79,10 +73,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -119,10 +110,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithAuthorizationRule.withNewListenRule(String name)
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithAuthorizationRule.withNewListenRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a listen authorization rule for the Service Bus namespace.</p>
-
-    <p></p>
+  summary: "<p>Creates a listen authorization rule for the Service Bus namespace.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewListenRule(String name)
     parameters:
@@ -139,10 +127,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithAuthorizationRule.withNewManageRule(String name)
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithAuthorizationRule.withNewManageRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a manage authorization rule for the Service Bus namespace.</p>
-
-    <p></p>
+  summary: "<p>Creates a manage authorization rule for the Service Bus namespace.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewManageRule(String name)
     parameters:
@@ -159,10 +144,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithQueue.withNewQueue(String name, int maxSizeInMB)
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithQueue.withNewQueue(String name, int maxSizeInMB)
   type: Method
-  summary: >-
-    <p>Creates a queue entity in the Service Bus namespace.</p>
-
-    <p></p>
+  summary: "<p>Creates a queue entity in the Service Bus namespace.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewQueue(String name, int maxSizeInMB)
     parameters:
@@ -182,10 +164,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithAuthorizationRule.withNewSendRule(String name)
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithAuthorizationRule.withNewSendRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a send authorization rule for the Service Bus namespace.</p>
-
-    <p></p>
+  summary: "<p>Creates a send authorization rule for the Service Bus namespace.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewSendRule(String name)
     parameters:
@@ -202,10 +181,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithTopic.withNewTopic(String name, int maxSizeInMB)
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithTopic.withNewTopic(String name, int maxSizeInMB)
   type: Method
-  summary: >-
-    <p>Creates a topic entity in the Service Bus namespace.</p>
-
-    <p></p>
+  summary: "<p>Creates a topic entity in the Service Bus namespace.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewTopic(String name, int maxSizeInMB)
     parameters:
@@ -225,10 +201,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithSku.withSku(NamespaceSku namespaceSku)
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithSku.withSku(NamespaceSku namespaceSku)
   type: Method
-  summary: >-
-    <p>Specifies the namespace sku.</p>
-
-    <p></p>
+  summary: "<p>Specifies the namespace sku.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(NamespaceSku namespaceSku)
     parameters:
@@ -245,7 +218,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -265,7 +238,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -282,10 +255,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -299,10 +269,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -316,7 +283,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithSku
   type: Interface
-  summary: <p>The stage of the Service Bus namespace definition allowing to specify the sku. </p>
+  summary: "<p>The stage of the Service Bus namespace definition allowing to specify the sku. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithQueue
@@ -326,7 +293,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithQueue
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithQueue
   type: Interface
-  summary: <p>The stage of the Service Bus namespace definition allowing to add a new queue in the namespace. </p>
+  summary: "<p>The stage of the Service Bus namespace definition allowing to add a new queue in the namespace. </p>"
   syntax:
     content: public interface WithQueue
 - uid: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithTopic
@@ -336,7 +303,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithTopic
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithTopic
   type: Interface
-  summary: <p>The stage of the Service Bus namespace definition allowing to add a new topic in the namespace. </p>
+  summary: "<p>The stage of the Service Bus namespace definition allowing to add a new topic in the namespace. </p>"
   syntax:
     content: public interface WithTopic
 - uid: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithAuthorizationRule
@@ -346,7 +313,7 @@ references:
   nameWithType: ServiceBusNamespace.DefinitionStages.WithAuthorizationRule
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.DefinitionStages.WithAuthorizationRule
   type: Interface
-  summary: <p>The stage of the Service Bus namespace definition allowing to add an authorization rule for accessing the namespace. </p>
+  summary: "<p>The stage of the Service Bus namespace definition allowing to add an authorization rule for accessing the namespace. </p>"
   syntax:
     content: public interface WithAuthorizationRule
 - uid: com.microsoft.azure.management.servicebus.ServiceBusNamespace.Definition
@@ -356,6 +323,6 @@ references:
   nameWithType: ServiceBusNamespace.Definition
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespace.Definition
   type: Interface
-  summary: <p>The entirety of the Service Bus namespace definition. </p>
+  summary: "<p>The entirety of the Service Bus namespace definition. </p>"
   syntax:
     content: public interface Definition extends ServiceBusNamespace.DefinitionStages.Blank,ServiceBusNamespace.DefinitionStages.WithGroup,ServiceBusNamespace.DefinitionStages.WithCreate

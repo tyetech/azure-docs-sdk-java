@@ -483,10 +483,7 @@ references:
   nameWithType: BlobURL.abortCopyFromURL(String copyId)
   fullName: com.microsoft.azure.storage.blob.BlobURL.abortCopyFromURL(String copyId)
   type: Method
-  summary: >-
-    <p>Stops a pending copy that was previously started and leaves a destination blob with 0 length and metadata. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/abort-copy-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Stops a pending copy that was previously started and leaves a destination blob with 0 length and metadata. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/abort-copy-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobAbortCopyFromURLResponse> abortCopyFromURL(String copyId)
     parameters:
@@ -506,10 +503,7 @@ references:
   nameWithType: BlobURL.abortCopyFromURL(String copyId, LeaseAccessConditions leaseAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.abortCopyFromURL(String copyId, LeaseAccessConditions leaseAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Stops a pending copy that was previously started and leaves a destination blob with 0 length and metadata. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/abort-copy-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Stops a pending copy that was previously started and leaves a destination blob with 0 length and metadata. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/abort-copy-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobAbortCopyFromURLResponse> abortCopyFromURL(String copyId, LeaseAccessConditions leaseAccessConditions, Context context)
     parameters:
@@ -548,10 +542,7 @@ references:
   nameWithType: BlobURL.acquireLease(String proposedId, int duration)
   fullName: com.microsoft.azure.storage.blob.BlobURL.acquireLease(String proposedId, int duration)
   type: Method
-  summary: >-
-    <p>Acquires a lease on the blob for write and delete operations. The lease duration must be between 15 to 60 seconds, or infinite (-1). For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Acquires a lease on the blob for write and delete operations. The lease duration must be between 15 to 60 seconds, or infinite (-1). For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobAcquireLeaseResponse> acquireLease(String proposedId, int duration)
     parameters:
@@ -574,10 +565,7 @@ references:
   nameWithType: BlobURL.acquireLease(String proposedID, int duration, ModifiedAccessConditions modifiedAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.acquireLease(String proposedID, int duration, ModifiedAccessConditions modifiedAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Acquires a lease on the blob for write and delete operations. The lease duration must be between 15 to 60 seconds, or infinite (-1). For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Acquires a lease on the blob for write and delete operations. The lease duration must be between 15 to 60 seconds, or infinite (-1). For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobAcquireLeaseResponse> acquireLease(String proposedID, int duration, ModifiedAccessConditions modifiedAccessConditions, Context context)
     parameters:
@@ -619,10 +607,7 @@ references:
   nameWithType: StorageURL.appendToURLPath(URL baseURL, String name)
   fullName: com.microsoft.azure.storage.blob.StorageURL.appendToURLPath(URL baseURL, String name)
   type: Method
-  summary: >-
-    <p>Appends a string to the end of a URL's path (prefixing the string with a '/' if required).</p>
-
-    <p></p>
+  summary: "<p>Appends a string to the end of a URL's path (prefixing the string with a '/' if required).</p>\r\n<p></p>"
   syntax:
     content: protected static URL appendToURLPath(URL baseURL, String name)
     parameters:
@@ -642,12 +627,7 @@ references:
   nameWithType: BlobURL.BlobURL(URL url, HttpPipeline pipeline)
   fullName: com.microsoft.azure.storage.blob.BlobURL.BlobURL(URL url, HttpPipeline pipeline)
   type: Constructor
-  summary: >-
-    <p>Creates a<code>BlobURL 
-
-        </code> object pointing to the account specified by the URL and using the provided pipeline to make HTTP requests.</p>
-
-    <p></p>
+  summary: "<p>Creates a<code>BlobURL \r\n    </code> object pointing to the account specified by the URL and using the provided pipeline to make HTTP requests.</p>\r\n<p></p>"
   syntax:
     content: public BlobURL(URL url, HttpPipeline pipeline)
     parameters:
@@ -670,10 +650,7 @@ references:
   nameWithType: BlobURL.breakLease()
   fullName: com.microsoft.azure.storage.blob.BlobURL.breakLease()
   type: Method
-  summary: >-
-    <p>BreakLease breaks the blob's previously-acquired lease (if it exists). Pass the LeaseBreakDefault (-1) constant to break a fixed-duration lease when it expires or an infinite lease immediately. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>BreakLease breaks the blob's previously-acquired lease (if it exists). Pass the LeaseBreakDefault (-1) constant to break a fixed-duration lease when it expires or an infinite lease immediately. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobBreakLeaseResponse> breakLease()
     return:
@@ -686,10 +663,7 @@ references:
   nameWithType: BlobURL.breakLease(Integer breakPeriodInSeconds, ModifiedAccessConditions modifiedAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.breakLease(Integer breakPeriodInSeconds, ModifiedAccessConditions modifiedAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>BreakLease breaks the blob's previously-acquired lease (if it exists). Pass the LeaseBreakDefault (-1) constant to break a fixed-duration lease when it expires or an infinite lease immediately. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>BreakLease breaks the blob's previously-acquired lease (if it exists). Pass the LeaseBreakDefault (-1) constant to break a fixed-duration lease when it expires or an infinite lease immediately. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobBreakLeaseResponse> breakLease(Integer breakPeriodInSeconds, ModifiedAccessConditions modifiedAccessConditions, Context context)
     parameters:
@@ -728,10 +702,7 @@ references:
   nameWithType: BlobURL.changeLease(String leaseId, String proposedID)
   fullName: com.microsoft.azure.storage.blob.BlobURL.changeLease(String leaseId, String proposedID)
   type: Method
-  summary: >-
-    <p>ChangeLease changes the blob's lease ID. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>ChangeLease changes the blob's lease ID. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobChangeLeaseResponse> changeLease(String leaseId, String proposedID)
     parameters:
@@ -754,10 +725,7 @@ references:
   nameWithType: BlobURL.changeLease(String leaseId, String proposedID, ModifiedAccessConditions modifiedAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.changeLease(String leaseId, String proposedID, ModifiedAccessConditions modifiedAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>ChangeLease changes the blob's lease ID. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>ChangeLease changes the blob's lease ID. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobChangeLeaseResponse> changeLease(String leaseId, String proposedID, ModifiedAccessConditions modifiedAccessConditions, Context context)
     parameters:
@@ -799,10 +767,7 @@ references:
   nameWithType: StorageURL.createPipeline()
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline()
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline()
     return:
@@ -815,10 +780,7 @@ references:
   nameWithType: StorageURL.createPipeline(ICredentials credentials)
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline(ICredentials credentials)
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline(ICredentials credentials)
     parameters:
@@ -835,10 +797,7 @@ references:
   nameWithType: StorageURL.createPipeline(PipelineOptions pipelineOptions)
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline(PipelineOptions pipelineOptions)
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline(PipelineOptions pipelineOptions)
     parameters:
@@ -855,10 +814,7 @@ references:
   nameWithType: StorageURL.createPipeline(ICredentials credentials, PipelineOptions pipelineOptions)
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline(ICredentials credentials, PipelineOptions pipelineOptions)
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline(ICredentials credentials, PipelineOptions pipelineOptions)
     parameters:
@@ -878,10 +834,7 @@ references:
   nameWithType: BlobURL.createSnapshot()
   fullName: com.microsoft.azure.storage.blob.BlobURL.createSnapshot()
   type: Method
-  summary: >-
-    <p>Creates a read-only snapshot of a blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/snapshot-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Creates a read-only snapshot of a blob. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/snapshot-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobCreateSnapshotResponse> createSnapshot()
     return:
@@ -894,10 +847,7 @@ references:
   nameWithType: BlobURL.createSnapshot(Metadata metadata, BlobAccessConditions accessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.createSnapshot(Metadata metadata, BlobAccessConditions accessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Creates a read-only snapshot of a blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/snapshot-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Creates a read-only snapshot of a blob. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/snapshot-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobCreateSnapshotResponse> createSnapshot(Metadata metadata, BlobAccessConditions accessConditions, Context context)
     parameters:
@@ -943,10 +893,7 @@ references:
   nameWithType: BlobURL.delete()
   fullName: com.microsoft.azure.storage.blob.BlobURL.delete()
   type: Method
-  summary: >-
-    <p>Deletes the specified blob or snapshot. Note that deleting a blob also deletes all its snapshots. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/delete-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Deletes the specified blob or snapshot. Note that deleting a blob also deletes all its snapshots. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/delete-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobDeleteResponse> delete()
     return:
@@ -959,10 +906,7 @@ references:
   nameWithType: BlobURL.delete(DeleteSnapshotsOptionType deleteBlobSnapshotOptions, BlobAccessConditions accessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.delete(DeleteSnapshotsOptionType deleteBlobSnapshotOptions, BlobAccessConditions accessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Deletes the specified blob or snapshot. Note that deleting a blob also deletes all its snapshots. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/delete-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Deletes the specified blob or snapshot. Note that deleting a blob also deletes all its snapshots. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/delete-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobDeleteResponse> delete(DeleteSnapshotsOptionType deleteBlobSnapshotOptions, BlobAccessConditions accessConditions, Context context)
     parameters:
@@ -1008,12 +952,7 @@ references:
   nameWithType: BlobURL.download()
   fullName: com.microsoft.azure.storage.blob.BlobURL.download()
   type: Method
-  summary: >-
-    <p>Reads a range of bytes from a blob. The response also includes the blob's properties and metadata. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-blob">Azure Docs</a>. </p>
-
-    <p>Note that the response body has reliable download functionality built in, meaning that a failed download stream will be automatically retried. This behavior may be configured with <xref uid="com.microsoft.azure.storage.blob.ReliableDownloadOptions" data-throw-if-not-resolved="false">ReliableDownloadOptions</xref>.</p>
-
-    <p></p>
+  summary: "<p>Reads a range of bytes from a blob. The response also includes the blob's properties and metadata. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-blob\">Azure Docs</a>. </p>\r\n<p>Note that the response body has reliable download functionality built in, meaning that a failed download stream will be automatically retried. This behavior may be configured with <xref uid=\"com.microsoft.azure.storage.blob.ReliableDownloadOptions\" data-throw-if-not-resolved=\"false\">ReliableDownloadOptions</xref>.</p>\r\n<p></p>"
   syntax:
     content: public Single<DownloadResponse> download()
     return:
@@ -1026,12 +965,7 @@ references:
   nameWithType: BlobURL.download(BlobRange range, BlobAccessConditions accessConditions, boolean rangeGetContentMD5, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.download(BlobRange range, BlobAccessConditions accessConditions, boolean rangeGetContentMD5, Context context)
   type: Method
-  summary: >-
-    <p>Reads a range of bytes from a blob. The response also includes the blob's properties and metadata. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-blob">Azure Docs</a>. </p>
-
-    <p>Note that the response body has reliable download functionality built in, meaning that a failed download stream will be automatically retried. This behavior may be configured with <xref uid="com.microsoft.azure.storage.blob.ReliableDownloadOptions" data-throw-if-not-resolved="false">ReliableDownloadOptions</xref>.</p>
-
-    <p></p>
+  summary: "<p>Reads a range of bytes from a blob. The response also includes the blob's properties and metadata. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-blob\">Azure Docs</a>. </p>\r\n<p>Note that the response body has reliable download functionality built in, meaning that a failed download stream will be automatically retried. This behavior may be configured with <xref uid=\"com.microsoft.azure.storage.blob.ReliableDownloadOptions\" data-throw-if-not-resolved=\"false\">ReliableDownloadOptions</xref>.</p>\r\n<p></p>"
   syntax:
     content: public Single<DownloadResponse> download(BlobRange range, BlobAccessConditions accessConditions, boolean rangeGetContentMD5, Context context)
     parameters:
@@ -1080,10 +1014,7 @@ references:
   nameWithType: BlobURL.getAccountInfo()
   fullName: com.microsoft.azure.storage.blob.BlobURL.getAccountInfo()
   type: Method
-  summary: >-
-    <p>Returns the sku name and account kind for the account. For more information, please see the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Returns the sku name and account kind for the account. For more information, please see the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobGetAccountInfoResponse> getAccountInfo()
     return:
@@ -1096,10 +1027,7 @@ references:
   nameWithType: BlobURL.getAccountInfo(Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.getAccountInfo(Context context)
   type: Method
-  summary: >-
-    <p>Returns the sku name and account kind for the account. For more information, please see the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Returns the sku name and account kind for the account. For more information, please see the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobGetAccountInfoResponse> getAccountInfo(Context context)
     parameters:
@@ -1129,10 +1057,7 @@ references:
   nameWithType: BlobURL.getProperties()
   fullName: com.microsoft.azure.storage.blob.BlobURL.getProperties()
   type: Method
-  summary: >-
-    <p>Returns the blob's metadata and properties. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-blob-properties">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Returns the blob's metadata and properties. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-blob-properties\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobGetPropertiesResponse> getProperties()
     return:
@@ -1145,10 +1070,7 @@ references:
   nameWithType: BlobURL.getProperties(BlobAccessConditions accessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.getProperties(BlobAccessConditions accessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Returns the blob's metadata and properties. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-blob-properties">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Returns the blob's metadata and properties. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-blob-properties\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobGetPropertiesResponse> getProperties(BlobAccessConditions accessConditions, Context context)
     parameters:
@@ -1186,10 +1108,7 @@ references:
   nameWithType: BlobURL.releaseLease(String leaseID)
   fullName: com.microsoft.azure.storage.blob.BlobURL.releaseLease(String leaseID)
   type: Method
-  summary: >-
-    <p>Releases the blob's previously-acquired lease. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Releases the blob's previously-acquired lease. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobReleaseLeaseResponse> releaseLease(String leaseID)
     parameters:
@@ -1206,10 +1125,7 @@ references:
   nameWithType: BlobURL.releaseLease(String leaseID, ModifiedAccessConditions modifiedAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.releaseLease(String leaseID, ModifiedAccessConditions modifiedAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Releases the blob's previously-acquired lease. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Releases the blob's previously-acquired lease. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobReleaseLeaseResponse> releaseLease(String leaseID, ModifiedAccessConditions modifiedAccessConditions, Context context)
     parameters:
@@ -1245,10 +1161,7 @@ references:
   nameWithType: BlobURL.renewLease(String leaseID)
   fullName: com.microsoft.azure.storage.blob.BlobURL.renewLease(String leaseID)
   type: Method
-  summary: >-
-    <p>Renews the blob's previously-acquired lease. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Renews the blob's previously-acquired lease. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobRenewLeaseResponse> renewLease(String leaseID)
     parameters:
@@ -1265,10 +1178,7 @@ references:
   nameWithType: BlobURL.renewLease(String leaseID, ModifiedAccessConditions modifiedAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.renewLease(String leaseID, ModifiedAccessConditions modifiedAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Renews the blob's previously-acquired lease. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Renews the blob's previously-acquired lease. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/lease-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobRenewLeaseResponse> renewLease(String leaseID, ModifiedAccessConditions modifiedAccessConditions, Context context)
     parameters:
@@ -1304,10 +1214,7 @@ references:
   nameWithType: BlobURL.setHTTPHeaders(BlobHTTPHeaders headers)
   fullName: com.microsoft.azure.storage.blob.BlobURL.setHTTPHeaders(BlobHTTPHeaders headers)
   type: Method
-  summary: >-
-    <p>Changes a blob's HTTP header properties. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-blob-properties">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Changes a blob's HTTP header properties. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/set-blob-properties\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobSetHTTPHeadersResponse> setHTTPHeaders(BlobHTTPHeaders headers)
     parameters:
@@ -1329,10 +1236,7 @@ references:
   nameWithType: BlobURL.setHTTPHeaders(BlobHTTPHeaders headers, BlobAccessConditions accessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.setHTTPHeaders(BlobHTTPHeaders headers, BlobAccessConditions accessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Changes a blob's HTTP header properties. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-blob-properties">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Changes a blob's HTTP header properties. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/set-blob-properties\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobSetHTTPHeadersResponse> setHTTPHeaders(BlobHTTPHeaders headers, BlobAccessConditions accessConditions, Context context)
     parameters:
@@ -1378,10 +1282,7 @@ references:
   nameWithType: BlobURL.setMetadata(Metadata metadata)
   fullName: com.microsoft.azure.storage.blob.BlobURL.setMetadata(Metadata metadata)
   type: Method
-  summary: >-
-    <p>Changes a blob's metadata. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-blob-metadata">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Changes a blob's metadata. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/set-blob-metadata\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobSetMetadataResponse> setMetadata(Metadata metadata)
     parameters:
@@ -1403,10 +1304,7 @@ references:
   nameWithType: BlobURL.setMetadata(Metadata metadata, BlobAccessConditions accessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.setMetadata(Metadata metadata, BlobAccessConditions accessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Changes a blob's metadata. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-blob-metadata">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Changes a blob's metadata. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/set-blob-metadata\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobSetMetadataResponse> setMetadata(Metadata metadata, BlobAccessConditions accessConditions, Context context)
     parameters:
@@ -1452,12 +1350,7 @@ references:
   nameWithType: BlobURL.setTier(AccessTier tier)
   fullName: com.microsoft.azure.storage.blob.BlobURL.setTier(AccessTier tier)
   type: Method
-  summary: >-
-    <p>Sets the tier on a blob. The operation is allowed on a page blob in a premium storage account or a block blob in a blob storage or GPV2 account. A premium page blob's tier determines the allowed size, IOPS, and bandwidth of the blob. A block blob's tier determines the Hot/Cool/Archive storage type. This does not update the blob's etag. </p>
-
-    <p>For detailed information about block blob level tiering see the <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers.">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Sets the tier on a blob. The operation is allowed on a page blob in a premium storage account or a block blob in a blob storage or GPV2 account. A premium page blob's tier determines the allowed size, IOPS, and bandwidth of the blob. A block blob's tier determines the Hot/Cool/Archive storage type. This does not update the blob's etag. </p>\r\n<p>For detailed information about block blob level tiering see the <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers.\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobSetTierResponse> setTier(AccessTier tier)
     parameters:
@@ -1474,12 +1367,7 @@ references:
   nameWithType: BlobURL.setTier(AccessTier tier, LeaseAccessConditions leaseAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.setTier(AccessTier tier, LeaseAccessConditions leaseAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Sets the tier on a blob. The operation is allowed on a page blob in a premium storage account or a block blob in a blob storage or GPV2 account. A premium page blob's tier determines the allowed size, IOPS, and bandwidth of the blob. A block blob's tier determines the Hot/Cool/Archive storage type. This does not update the blob's etag. </p>
-
-    <p>For detailed information about block blob level tiering see the <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers.">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Sets the tier on a blob. The operation is allowed on a page blob in a premium storage account or a block blob in a blob storage or GPV2 account. A premium page blob's tier determines the allowed size, IOPS, and bandwidth of the blob. A block blob's tier determines the Hot/Cool/Archive storage type. This does not update the blob's etag. </p>\r\n<p>For detailed information about block blob level tiering see the <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers.\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobSetTierResponse> setTier(AccessTier tier, LeaseAccessConditions leaseAccessConditions, Context context)
     parameters:
@@ -1515,10 +1403,7 @@ references:
   nameWithType: BlobURL.startCopyFromURL(URL sourceURL)
   fullName: com.microsoft.azure.storage.blob.BlobURL.startCopyFromURL(URL sourceURL)
   type: Method
-  summary: >-
-    <p>Copies the data at the source URL to a blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/copy-blob">Azure Docs</a></p>
-
-    <p></p>
+  summary: "<p>Copies the data at the source URL to a blob. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/copy-blob\">Azure Docs</a></p>\r\n<p></p>"
   syntax:
     content: public Single<BlobStartCopyFromURLResponse> startCopyFromURL(URL sourceURL)
     parameters:
@@ -1535,10 +1420,7 @@ references:
   nameWithType: BlobURL.startCopyFromURL(URL sourceURL, Metadata metadata, ModifiedAccessConditions sourceModifiedAccessConditions, BlobAccessConditions destAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.startCopyFromURL(URL sourceURL, Metadata metadata, ModifiedAccessConditions sourceModifiedAccessConditions, BlobAccessConditions destAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Copies the data at the source URL to a blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/copy-blob">Azure Docs</a></p>
-
-    <p></p>
+  summary: "<p>Copies the data at the source URL to a blob. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/copy-blob\">Azure Docs</a></p>\r\n<p></p>"
   syntax:
     content: public Single<BlobStartCopyFromURLResponse> startCopyFromURL(URL sourceURL, Metadata metadata, ModifiedAccessConditions sourceModifiedAccessConditions, BlobAccessConditions destAccessConditions, Context context)
     parameters:
@@ -1616,10 +1498,7 @@ references:
   nameWithType: BlobURL.syncCopyFromURL(URL copySource)
   fullName: com.microsoft.azure.storage.blob.BlobURL.syncCopyFromURL(URL copySource)
   type: Method
-  summary: >-
-    <p>Copies the data at the source URL to a blob and waits for the copy to complete before returning a response. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/copy-blob">Azure Docs</a></p>
-
-    <p></p>
+  summary: "<p>Copies the data at the source URL to a blob and waits for the copy to complete before returning a response. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/copy-blob\">Azure Docs</a></p>\r\n<p></p>"
   syntax:
     content: public Single<BlobCopyFromURLResponse> syncCopyFromURL(URL copySource)
     parameters:
@@ -1636,10 +1515,7 @@ references:
   nameWithType: BlobURL.syncCopyFromURL(URL copySource, Metadata metadata, ModifiedAccessConditions sourceModifiedAccessConditions, BlobAccessConditions destAccessConditions, Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.syncCopyFromURL(URL copySource, Metadata metadata, ModifiedAccessConditions sourceModifiedAccessConditions, BlobAccessConditions destAccessConditions, Context context)
   type: Method
-  summary: >-
-    <p>Copies the data at the source URL to a blob and waits for the copy to complete before returning a response. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/copy-blob">Azure Docs</a></p>
-
-    <p></p>
+  summary: "<p>Copies the data at the source URL to a blob and waits for the copy to complete before returning a response. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/copy-blob\">Azure Docs</a></p>\r\n<p></p>"
   syntax:
     content: public Single<BlobCopyFromURLResponse> syncCopyFromURL(URL copySource, Metadata metadata, ModifiedAccessConditions sourceModifiedAccessConditions, BlobAccessConditions destAccessConditions, Context context)
     parameters:
@@ -1692,10 +1568,7 @@ references:
   nameWithType: BlobURL.toAppendBlobURL()
   fullName: com.microsoft.azure.storage.blob.BlobURL.toAppendBlobURL()
   type: Method
-  summary: >-
-    <p>Converts this BlobURL to an <xref uid="com.microsoft.azure.storage.blob.AppendBlobURL" data-throw-if-not-resolved="false">AppendBlobURL</xref> object. Note that this does not change the actual type of the blob if it has already been created.</p>
-
-    <p></p>
+  summary: "<p>Converts this BlobURL to an <xref uid=\"com.microsoft.azure.storage.blob.AppendBlobURL\" data-throw-if-not-resolved=\"false\">AppendBlobURL</xref> object. Note that this does not change the actual type of the blob if it has already been created.</p>\r\n<p></p>"
   syntax:
     content: public AppendBlobURL toAppendBlobURL()
     return:
@@ -1708,10 +1581,7 @@ references:
   nameWithType: BlobURL.toBlockBlobURL()
   fullName: com.microsoft.azure.storage.blob.BlobURL.toBlockBlobURL()
   type: Method
-  summary: >-
-    <p>Converts this BlobURL to a <xref uid="com.microsoft.azure.storage.blob.BlockBlobURL" data-throw-if-not-resolved="false">BlockBlobURL</xref> object. Note that this does not change the actual type of the blob if it has already been created.</p>
-
-    <p></p>
+  summary: "<p>Converts this BlobURL to a <xref uid=\"com.microsoft.azure.storage.blob.BlockBlobURL\" data-throw-if-not-resolved=\"false\">BlockBlobURL</xref> object. Note that this does not change the actual type of the blob if it has already been created.</p>\r\n<p></p>"
   syntax:
     content: public BlockBlobURL toBlockBlobURL()
     return:
@@ -1724,10 +1594,7 @@ references:
   nameWithType: BlobURL.toPageBlobURL()
   fullName: com.microsoft.azure.storage.blob.BlobURL.toPageBlobURL()
   type: Method
-  summary: >-
-    <p>Converts this BlobURL to a <xref uid="com.microsoft.azure.storage.blob.PageBlobURL" data-throw-if-not-resolved="false">PageBlobURL</xref> object. Note that this does not change the actual type of the blob if it has already been created.</p>
-
-    <p></p>
+  summary: "<p>Converts this BlobURL to a <xref uid=\"com.microsoft.azure.storage.blob.PageBlobURL\" data-throw-if-not-resolved=\"false\">PageBlobURL</xref> object. Note that this does not change the actual type of the blob if it has already been created.</p>\r\n<p></p>"
   syntax:
     content: public PageBlobURL toPageBlobURL()
     return:
@@ -1763,10 +1630,7 @@ references:
   nameWithType: BlobURL.undelete()
   fullName: com.microsoft.azure.storage.blob.BlobURL.undelete()
   type: Method
-  summary: >-
-    <p>Undelete restores the content and metadata of a soft-deleted blob and/or any associated soft-deleted snapshots. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/undelete-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Undelete restores the content and metadata of a soft-deleted blob and/or any associated soft-deleted snapshots. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/undelete-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobUndeleteResponse> undelete()
     return:
@@ -1779,10 +1643,7 @@ references:
   nameWithType: BlobURL.undelete(Context context)
   fullName: com.microsoft.azure.storage.blob.BlobURL.undelete(Context context)
   type: Method
-  summary: >-
-    <p>Undelete restores the content and metadata of a soft-deleted blob and/or any associated soft-deleted snapshots. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/undelete-blob">Azure Docs</a>.</p>
-
-    <p></p>
+  summary: "<p>Undelete restores the content and metadata of a soft-deleted blob and/or any associated soft-deleted snapshots. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/undelete-blob\">Azure Docs</a>.</p>\r\n<p></p>"
   syntax:
     content: public Single<BlobUndeleteResponse> undelete(Context context)
     parameters:
@@ -1812,7 +1673,7 @@ references:
   nameWithType: BlobURL
   fullName: com.microsoft.azure.storage.blob.BlobURL
   type: Class
-  summary: '<p>Represents a URL to a blob of any type: block, append, or page. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ContainerURL" data-throw-if-not-resolved="false">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs">Azure Docs</a> for more information. </p>'
+  summary: "<p>Represents a URL to a blob of any type: block, append, or page. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ContainerURL\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs\">Azure Docs</a> for more information. </p>"
   syntax:
     content: public class BlobURL
 - uid: com.microsoft.azure.storage.blob.AppendBlobURL
@@ -1822,7 +1683,7 @@ references:
   nameWithType: AppendBlobURL
   fullName: com.microsoft.azure.storage.blob.AppendBlobURL
   type: Class
-  summary: <p>Represents a URL to an append blob. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ContainerURL" data-throw-if-not-resolved="false">ContainerURL</xref> object. This class does not hold any state about a particular append blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs">Azure Docs</a></p>
+  summary: "<p>Represents a URL to an append blob. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ContainerURL\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> object. This class does not hold any state about a particular append blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs\">Azure Docs</a></p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.models.AppendBlobCreateResponse
   parent: com.microsoft.azure.storage.blob.models
@@ -1831,7 +1692,7 @@ references:
   nameWithType: AppendBlobCreateResponse
   fullName: com.microsoft.azure.storage.blob.models.AppendBlobCreateResponse
   type: Class
-  summary: <p>Contains all response data for the create operation. </p>
+  summary: "<p>Contains all response data for the create operation. </p>"
   syntax:
     content: public class AppendBlobCreateResponse
 - uid: com.microsoft.azure.storage.blob.models.BlobHTTPHeaders
@@ -1841,7 +1702,7 @@ references:
   nameWithType: BlobHTTPHeaders
   fullName: com.microsoft.azure.storage.blob.models.BlobHTTPHeaders
   type: Class
-  summary: <p>Additional parameters for a set of operations. </p>
+  summary: "<p>Additional parameters for a set of operations. </p>"
   syntax:
     content: public class BlobHTTPHeaders
 - uid: com.microsoft.azure.storage.blob.Metadata
@@ -1851,7 +1712,7 @@ references:
   nameWithType: Metadata
   fullName: com.microsoft.azure.storage.blob.Metadata
   type: Class
-  summary: <p>Contains metadata key/value pairs to be associated with a storage resource. The user may store any additional information about the resource that they like using this map. It is passed to create and setMetadata methods on any URL type. Null may be passed to set no metadata. </p>
+  summary: "<p>Contains metadata key/value pairs to be associated with a storage resource. The user may store any additional information about the resource that they like using this map. It is passed to create and setMetadata methods on any URL type. Null may be passed to set no metadata. </p>"
   syntax:
     content: public class Metadata
 - uid: com.microsoft.azure.storage.blob.BlobAccessConditions
@@ -1861,7 +1722,7 @@ references:
   nameWithType: BlobAccessConditions
   fullName: com.microsoft.azure.storage.blob.BlobAccessConditions
   type: Class
-  summary: <p>This class contains values which will restrict the successful operation of a variety of requests to the conditions present. These conditions are entirely optional. The entire object or any of its properties may be set to null when passed to a method to indicate that those conditions are not desired. Please refer to the type of each field for more information on those particular access conditions. </p>
+  summary: "<p>This class contains values which will restrict the successful operation of a variety of requests to the conditions present. These conditions are entirely optional. The entire object or any of its properties may be set to null when passed to a method to indicate that those conditions are not desired. Please refer to the type of each field for more information on those particular access conditions. </p>"
   syntax:
     content: public class BlobAccessConditions
 - uid: com.microsoft.azure.storage.blob.models.AppendBlobAppendBlockResponse
@@ -1871,7 +1732,7 @@ references:
   nameWithType: AppendBlobAppendBlockResponse
   fullName: com.microsoft.azure.storage.blob.models.AppendBlobAppendBlockResponse
   type: Class
-  summary: <p>Contains all response data for the appendBlock operation. </p>
+  summary: "<p>Contains all response data for the appendBlock operation. </p>"
   syntax:
     content: public class AppendBlobAppendBlockResponse
 - uid: com.microsoft.azure.storage.blob.AppendBlobAccessConditions
@@ -1881,10 +1742,7 @@ references:
   nameWithType: AppendBlobAccessConditions
   fullName: com.microsoft.azure.storage.blob.AppendBlobAccessConditions
   type: Class
-  summary: >-
-    <p>This class contains values that restrict the successful completion of AppendBlock operations to certain conditions. Any field may be set to null if no access conditions are desired. </p>
-
-    <p>Please refer to the request header section <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/append-block">here</a> for more conceptual information. </p>
+  summary: "<p>This class contains values that restrict the successful completion of AppendBlock operations to certain conditions. Any field may be set to null if no access conditions are desired. </p>\r\n<p>Please refer to the request header section <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/append-block\">here</a> for more conceptual information. </p>"
   syntax:
     content: public class AppendBlobAccessConditions
 - uid: com.microsoft.azure.storage.blob.ContainerURL
@@ -1894,6 +1752,6 @@ references:
   nameWithType: ContainerURL
   fullName: com.microsoft.azure.storage.blob.ContainerURL
   type: Class
-  summary: <p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ServiceURL" data-throw-if-not-resolved="false">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">Azure Docs</a> for more information on containers. </p>
+  summary: "<p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ServiceURL\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">Azure Docs</a> for more information on containers. </p>"
   syntax:
     content: public class ContainerURL

@@ -142,7 +142,7 @@ references:
   nameWithType: ContainerGroup.Definition
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.Definition
   type: Interface
-  summary: <p>The entirety of the Azure Container Instance service container group definition. </p>
+  summary: "<p>The entirety of the Azure Container Instance service container group definition. </p>"
   syntax:
     content: public interface Definition extends ContainerGroup.DefinitionStages.Blank,ContainerGroup.DefinitionStages.WithGroup,ContainerGroup.DefinitionStages.WithOsType,ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry,ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume,ContainerGroup.DefinitionStages.WithVolume,ContainerGroup.DefinitionStages.WithFirstContainerInstance,ContainerGroup.DefinitionStages.WithNextContainerInstance,ContainerGroup.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume
@@ -152,7 +152,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithVolume
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>"
   syntax:
     content: public interface WithVolume
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithNextContainerInstance
@@ -162,7 +162,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithNextContainerInstance
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithNextContainerInstance
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a container instance. </p>"
   syntax:
     content: public interface WithNextContainerInstance
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithCreate
@@ -172,6 +172,6 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<ContainerGroup>,Resource.DefinitionWithTags<WithCreate>

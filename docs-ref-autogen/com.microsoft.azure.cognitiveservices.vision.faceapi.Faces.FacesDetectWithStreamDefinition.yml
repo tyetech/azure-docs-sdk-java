@@ -36,10 +36,7 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public List<DetectedFace> execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<List<DetectedFace>> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithImage.withImage(byte[] image)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithImage.withImage(byte[] image)
   type: Method
-  summary: >-
-    <p>An image stream.</p>
-
-    <p></p>
+  summary: "<p>An image stream.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithStreamDefinitionStages.WithExecute withImage(byte[] image)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithAllOptions.withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithAllOptions.withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
   type: Method
-  summary: >-
-    <p>Analyze and return the one or more specified face attributes in the comma-separated string like "returnFaceAttributes=age,gender". Supported face attributes include age, gender, headPose, smile, facialHair, glasses and emotion. Note that each face attribute analysis has additional computational and time cost.</p>
-
-    <p></p>
+  summary: "<p>Analyze and return the one or more specified face attributes in the comma-separated string like \"returnFaceAttributes=age,gender\". Supported face attributes include age, gender, headPose, smile, facialHair, glasses and emotion. Note that each face attribute analysis has additional computational and time cost.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithStreamDefinitionStages.WithExecute withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithAllOptions.withReturnFaceId(Boolean returnFaceId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithAllOptions.withReturnFaceId(Boolean returnFaceId)
   type: Method
-  summary: >-
-    <p>A value indicating whether the operation should return faceIds of detected faces.</p>
-
-    <p></p>
+  summary: "<p>A value indicating whether the operation should return faceIds of detected faces.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithStreamDefinitionStages.WithExecute withReturnFaceId(Boolean returnFaceId)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithAllOptions.withReturnFaceLandmarks(Boolean returnFaceLandmarks)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithAllOptions.withReturnFaceLandmarks(Boolean returnFaceLandmarks)
   type: Method
-  summary: >-
-    <p>A value indicating whether the operation should return landmarks of the detected faces.</p>
-
-    <p></p>
+  summary: "<p>A value indicating whether the operation should return landmarks of the detected faces.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithStreamDefinitionStages.WithExecute withReturnFaceLandmarks(Boolean returnFaceLandmarks)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithImage
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithImage
   type: Interface
-  summary: <p>The stage of the definition to be specify image. </p>
+  summary: "<p>The stage of the definition to be specify image. </p>"
   syntax:
     content: public interface WithImage
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithExecute
@@ -154,6 +136,6 @@ references:
   nameWithType: Faces.FacesDetectWithStreamDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

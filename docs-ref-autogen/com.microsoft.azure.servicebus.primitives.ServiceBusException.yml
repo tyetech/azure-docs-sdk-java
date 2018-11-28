@@ -238,7 +238,7 @@ references:
   nameWithType: AuthorizationFailedException
   fullName: com.microsoft.azure.servicebus.primitives.AuthorizationFailedException
   type: Class
-  summary: <p>Authorization failed exception is thrown when error is encountered during authorizing user's permission to run the intended operations. When encountered this exception user should check whether the token/key provided in the connection string is valid, and has correct execution right for the intended operations (e.g. Receive call will need Listen claim associated with the key/token). </p>
+  summary: "<p>Authorization failed exception is thrown when error is encountered during authorizing user's permission to run the intended operations. When encountered this exception user should check whether the token/key provided in the connection string is valid, and has correct execution right for the intended operations (e.g. Receive call will need Listen claim associated with the key/token). </p>"
   syntax:
     content: public class AuthorizationFailedException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.CommunicationException
@@ -248,7 +248,7 @@ references:
   nameWithType: CommunicationException
   fullName: com.microsoft.azure.servicebus.primitives.CommunicationException
   type: Class
-  summary: '<p>This exception is thrown when there is a client side connectivity issue. When receiving this exception user should check client connectivity settings to the service: <ul><li><p>Check for correct hostname and port number used in endpoint. </p></li><li><p>Check for any possible proxy settings that can block amqp ports </p></li><li><p>Check for any firewall settings that can block amqp ports </p></li><li><p>Check for any general network connectivity issues, as well as network latency. </p></li></ul></p>'
+  summary: "<p>This exception is thrown when there is a client side connectivity issue. When receiving this exception user should check client connectivity settings to the service: <ul><li><p>Check for correct hostname and port number used in endpoint. </p></li><li><p>Check for any possible proxy settings that can block amqp ports </p></li><li><p>Check for any firewall settings that can block amqp ports </p></li><li><p>Check for any general network connectivity issues, as well as network latency. </p></li></ul></p>"
   syntax:
     content: public class CommunicationException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessageLockLostException
@@ -258,7 +258,7 @@ references:
   nameWithType: MessageLockLostException
   fullName: com.microsoft.azure.servicebus.primitives.MessageLockLostException
   type: Class
-  summary: <p>This exception is thrown when a receiver attempts  or  or  or  or  operation on a peek-locked message whose lock had already expired. </p>
+  summary: "<p>This exception is thrown when a receiver attempts  or  or  or  or  operation on a peek-locked message whose lock had already expired. </p>"
   syntax:
     content: public class MessageLockLostException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessageNotFoundException
@@ -268,7 +268,7 @@ references:
   nameWithType: MessageNotFoundException
   fullName: com.microsoft.azure.servicebus.primitives.MessageNotFoundException
   type: Class
-  summary: <p>This exception is thrown when a receiver attempts to receive a message with sequence number and the message with that sequence number is not available in the queue or subscription. </p>
+  summary: "<p>This exception is thrown when a receiver attempts to receive a message with sequence number and the message with that sequence number is not available in the queue or subscription. </p>"
   syntax:
     content: public class MessageNotFoundException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityAlreadyExistsException
@@ -278,7 +278,7 @@ references:
   nameWithType: MessagingEntityAlreadyExistsException
   fullName: com.microsoft.azure.servicebus.primitives.MessagingEntityAlreadyExistsException
   type: Class
-  summary: <p>This exception is thrown when a subscription client tries to create a rule with the name of an already existing rule. </p>
+  summary: "<p>This exception is thrown when a subscription client tries to create a rule with the name of an already existing rule. </p>"
   syntax:
     content: public class MessagingEntityAlreadyExistsException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityDisabledException
@@ -288,7 +288,7 @@ references:
   nameWithType: MessagingEntityDisabledException
   fullName: com.microsoft.azure.servicebus.primitives.MessagingEntityDisabledException
   type: Class
-  summary: <p>This exception is thrown when a client attempts to send messages to or receive messages from a disabled entity. An entity can be disabled for SEND operations or RECEIVE operations or both. </p>
+  summary: "<p>This exception is thrown when a client attempts to send messages to or receive messages from a disabled entity. An entity can be disabled for SEND operations or RECEIVE operations or both. </p>"
   syntax:
     content: public class MessagingEntityDisabledException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityNotFoundException
@@ -298,7 +298,7 @@ references:
   nameWithType: MessagingEntityNotFoundException
   fullName: com.microsoft.azure.servicebus.primitives.MessagingEntityNotFoundException
   type: Class
-  summary: <p>This exception is thrown when a client attempts to create a sender or receiver or client to a non existent entity. </p>
+  summary: "<p>This exception is thrown when a client attempts to create a sender or receiver or client to a non existent entity. </p>"
   syntax:
     content: public class MessagingEntityNotFoundException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.OperationCancelledException
@@ -308,7 +308,7 @@ references:
   nameWithType: OperationCancelledException
   fullName: com.microsoft.azure.servicebus.primitives.OperationCancelledException
   type: Class
-  summary: <p>This exception is thrown when the underlying Amqp layer encounter an abnormal link abort or disconnect of connection in an unexpected fashion. </p>
+  summary: "<p>This exception is thrown when the underlying Amqp layer encounter an abnormal link abort or disconnect of connection in an unexpected fashion. </p>"
   syntax:
     content: public class OperationCancelledException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.PayloadSizeExceededException
@@ -318,7 +318,7 @@ references:
   nameWithType: PayloadSizeExceededException
   fullName: com.microsoft.azure.servicebus.primitives.PayloadSizeExceededException
   type: Class
-  summary: <p>this exception is thrown when user attempts to send a event data or brokered message that has exceeded the allowed payload size as defined by the service. Note that in a batch send scenario the limit can include possible batch overhead. </p>
+  summary: "<p>this exception is thrown when user attempts to send a event data or brokered message that has exceeded the allowed payload size as defined by the service. Note that in a batch send scenario the limit can include possible batch overhead. </p>"
   syntax:
     content: public class PayloadSizeExceededException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.QuotaExceededException
@@ -328,7 +328,7 @@ references:
   nameWithType: QuotaExceededException
   fullName: com.microsoft.azure.servicebus.primitives.QuotaExceededException
   type: Class
-  summary: <p>This exception is thrown to signal that a service bus entity or namespace exceeded its quota. A quota can be a limit on entity size, message size, maximum concurrent connections or maximum concurrent operations. </p>
+  summary: "<p>This exception is thrown to signal that a service bus entity or namespace exceeded its quota. A quota can be a limit on entity size, message size, maximum concurrent connections or maximum concurrent operations. </p>"
   syntax:
     content: public class QuotaExceededException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ReceiverDisconnectedException
@@ -338,10 +338,7 @@ references:
   nameWithType: ReceiverDisconnectedException
   fullName: com.microsoft.azure.servicebus.primitives.ReceiverDisconnectedException
   type: Class
-  summary: >-
-    <p>This exception is thrown when a EventHubReceiver is being disconnected because of one of the following reason: <ul><li><p>user attempts to connect a non-epoch receiver to a event hub partition, when there is an epoch receiver connected to the partition. </p></li><li><p>you are using an epoch receiver for a given partition but another epoch receiver with a higher epoch value connects to the same partition. </p></li></ul>
-
-    User should make sure either all code are using non-epoch receivers, or ensure that there is only one epoch receiver processing a given partition at any given point in time. </p>
+  summary: "<p>This exception is thrown when a EventHubReceiver is being disconnected because of one of the following reason: <ul><li><p>user attempts to connect a non-epoch receiver to a event hub partition, when there is an epoch receiver connected to the partition. </p></li><li><p>you are using an epoch receiver for a given partition but another epoch receiver with a higher epoch value connects to the same partition. </p></li></ul>\r\nUser should make sure either all code are using non-epoch receivers, or ensure that there is only one epoch receiver processing a given partition at any given point in time. </p>"
   syntax:
     content: public class ReceiverDisconnectedException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ServerBusyException
@@ -351,7 +348,7 @@ references:
   nameWithType: ServerBusyException
   fullName: com.microsoft.azure.servicebus.primitives.ServerBusyException
   type: Class
-  summary: <p>Server busy exception is thrown when the current entity's activity has put excessive load onto the service. When encountered this exception user should wait at least 4 seconds before any retry/runtime operations for the said entity again. </p>
+  summary: "<p>Server busy exception is thrown when the current entity's activity has put excessive load onto the service. When encountered this exception user should wait at least 4 seconds before any retry/runtime operations for the said entity again. </p>"
   syntax:
     content: public class ServerBusyException extends ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.SessionCannotBeLockedException
@@ -361,7 +358,7 @@ references:
   nameWithType: SessionCannotBeLockedException
   fullName: com.microsoft.azure.servicebus.primitives.SessionCannotBeLockedException
   type: Class
-  summary: <p>This exception is thrown when a client attempts to accept a session that is already locked by another client. </p>
+  summary: "<p>This exception is thrown when a client attempts to accept a session that is already locked by another client. </p>"
   syntax:
     content: public class SessionCannotBeLockedException
 - uid: com.microsoft.azure.servicebus.primitives.SessionLockLostException
@@ -371,7 +368,7 @@ references:
   nameWithType: SessionLockLostException
   fullName: com.microsoft.azure.servicebus.primitives.SessionLockLostException
   type: Class
-  summary: <p>This exception is thrown when a session receiver performs an operation on a session after its lock is expired. When a client accepts a session, the session is locked to the receiver for a duration specified in the entity definition. When the accepted session remains idle for the duration of lock, that is no operations performed on the session, the lock expires and the session is made available to other clients. </p>
+  summary: "<p>This exception is thrown when a session receiver performs an operation on a session after its lock is expired. When a client accepts a session, the session is locked to the receiver for a duration specified in the entity definition. When the accepted session remains idle for the duration of lock, that is no operations performed on the session, the lock expires and the session is made available to other clients. </p>"
   syntax:
     content: public class SessionLockLostException
 - uid: com.microsoft.azure.servicebus.primitives.TimeoutException
@@ -381,6 +378,6 @@ references:
   nameWithType: TimeoutException
   fullName: com.microsoft.azure.servicebus.primitives.TimeoutException
   type: Class
-  summary: <p>This exception is thrown when the operation has exceeded the predetermined time limit. User should check connectivity is healthy between client process and service. </p>
+  summary: "<p>This exception is thrown when the operation has exceeded the predetermined time limit. User should check connectivity is healthy between client process and service. </p>"
   syntax:
     content: public class TimeoutException

@@ -45,10 +45,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithDataSnapshotFromDisk.withDataFromDisk(String managedDiskId)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithDataSnapshotFromDisk.withDataFromDisk(String managedDiskId)
   type: Method
-  summary: >-
-    <p>Specifies the ID of source data managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the ID of source data managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDataFromDisk(String managedDiskId)
     parameters:
@@ -65,10 +62,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithDataSnapshotFromDisk.withDataFromDisk(Disk managedDisk)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithDataSnapshotFromDisk.withDataFromDisk(Disk managedDisk)
   type: Method
-  summary: >-
-    <p>Specifies the source data managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDataFromDisk(Disk managedDisk)
     parameters:
@@ -85,10 +79,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot.withDataFromSnapshot(String snapshotId)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot.withDataFromSnapshot(String snapshotId)
   type: Method
-  summary: >-
-    <p>Specifies the source data managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDataFromSnapshot(String snapshotId)
     parameters:
@@ -105,10 +96,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot.withDataFromSnapshot(Snapshot snapshot)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot.withDataFromSnapshot(Snapshot snapshot)
   type: Method
-  summary: >-
-    <p>Specifies the source data managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDataFromSnapshot(Snapshot snapshot)
     parameters:
@@ -125,10 +113,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithDataSnapshotFromVhd.withDataFromVhd(String vhdUrl)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithDataSnapshotFromVhd.withDataFromVhd(String vhdUrl)
   type: Method
-  summary: >-
-    <p>Specifies the source data VHD.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source data VHD.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDataFromVhd(String vhdUrl)
     parameters:
@@ -145,10 +130,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromDisk(String sourceDiskId)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromDisk(String sourceDiskId)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withLinuxFromDisk(String sourceDiskId)
     parameters:
@@ -165,10 +147,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromDisk(Disk sourceDisk)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromDisk(Disk sourceDisk)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withLinuxFromDisk(Disk sourceDisk)
     parameters:
@@ -185,10 +164,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromSnapshot(String sourceSnapshotId)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromSnapshot(String sourceSnapshotId)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withLinuxFromSnapshot(String sourceSnapshotId)
     parameters:
@@ -205,10 +181,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromSnapshot(Snapshot sourceSnapshot)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromSnapshot(Snapshot sourceSnapshot)
   type: Method
-  summary: >-
-    <p>Specifies the source Linux OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Linux OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withLinuxFromSnapshot(Snapshot sourceSnapshot)
     parameters:
@@ -225,10 +198,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromVhd(String vhdUrl)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithLinuxSnapshotSource.withLinuxFromVhd(String vhdUrl)
   type: Method
-  summary: >-
-    <p>Specifies the source specialized or generalized Linux OS VHD.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source specialized or generalized Linux OS VHD.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withLinuxFromVhd(String vhdUrl)
     parameters:
@@ -245,10 +215,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromDisk(String sourceDiskId)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromDisk(String sourceDiskId)
   type: Method
-  summary: >-
-    <p>Specifies the source Windows OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Windows OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withWindowsFromDisk(String sourceDiskId)
     parameters:
@@ -265,10 +232,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromDisk(Disk sourceDisk)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromDisk(Disk sourceDisk)
   type: Method
-  summary: >-
-    <p>Specifies the source Windows OS managed disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Windows OS managed disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withWindowsFromDisk(Disk sourceDisk)
     parameters:
@@ -285,10 +249,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromSnapshot(String sourceSnapshotId)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromSnapshot(String sourceSnapshotId)
   type: Method
-  summary: >-
-    <p>Specifies the source Windows OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Windows OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withWindowsFromSnapshot(String sourceSnapshotId)
     parameters:
@@ -305,10 +266,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromSnapshot(Snapshot sourceSnapshot)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromSnapshot(Snapshot sourceSnapshot)
   type: Method
-  summary: >-
-    <p>Specifies the source Windows OS managed snapshot.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source Windows OS managed snapshot.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withWindowsFromSnapshot(Snapshot sourceSnapshot)
     parameters:
@@ -325,10 +283,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromVhd(String vhdUrl)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithWindowsSnapshotSource.withWindowsFromVhd(String vhdUrl)
   type: Method
-  summary: >-
-    <p>Specifies the source specialized or generalized Windows OS VHD.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source specialized or generalized Windows OS VHD.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withWindowsFromVhd(String vhdUrl)
     parameters:
@@ -345,7 +300,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithWindowsSnapshotSource
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithWindowsSnapshotSource
   type: Interface
-  summary: <p>The stage of the managed snapshot definition allowing to choose Windows OS source. </p>
+  summary: "<p>The stage of the managed snapshot definition allowing to choose Windows OS source. </p>"
   syntax:
     content: public interface WithWindowsSnapshotSource
 - uid: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithLinuxSnapshotSource
@@ -355,7 +310,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithLinuxSnapshotSource
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithLinuxSnapshotSource
   type: Interface
-  summary: <p>The stage of the managed snapshot definition allowing to choose a Linux OS source. </p>
+  summary: "<p>The stage of the managed snapshot definition allowing to choose a Linux OS source. </p>"
   syntax:
     content: public interface WithLinuxSnapshotSource
 - uid: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithDataSnapshotSource
@@ -365,7 +320,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithDataSnapshotSource
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithDataSnapshotSource
   type: Interface
-  summary: <p>The stage of the managed snapshot definition allowing to choose data source. </p>
+  summary: "<p>The stage of the managed snapshot definition allowing to choose data source. </p>"
   syntax:
     content: public interface WithDataSnapshotSource extends Snapshot.DefinitionStages.WithDataSnapshotFromVhd,Snapshot.DefinitionStages.WithDataSnapshotFromDisk,Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot
 - uid: com.microsoft.azure.management.compute.Snapshot.Definition
@@ -375,6 +330,6 @@ references:
   nameWithType: Snapshot.Definition
   fullName: com.microsoft.azure.management.compute.Snapshot.Definition
   type: Interface
-  summary: <p>The entirety of the managed snapshot definition. </p>
+  summary: "<p>The entirety of the managed snapshot definition. </p>"
   syntax:
     content: public interface Definition extends Snapshot.DefinitionStages.Blank,Snapshot.DefinitionStages.WithGroup,Snapshot.DefinitionStages.WithSnapshotSource,Snapshot.DefinitionStages.WithWindowsSnapshotSource,Snapshot.DefinitionStages.WithLinuxSnapshotSource,Snapshot.DefinitionStages.WithDataSnapshotSource,Snapshot.DefinitionStages.WithDataSnapshotFromVhd,Snapshot.DefinitionStages.WithDataSnapshotFromDisk,Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot,Snapshot.DefinitionStages.WithCreate

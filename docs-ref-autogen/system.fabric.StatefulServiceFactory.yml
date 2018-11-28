@@ -109,12 +109,7 @@ references:
   nameWithType: StatefulServiceReplica
   fullName: system.fabric.StatefulServiceReplica
   type: Interface
-  summary: >-
-    <p>Defines behavior that governs the lifecycle of a replica, such as startup, initialization, role changes, and shutdown. </p>
-
-    <p>
-
-      <b>Remarks:</b>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> to use the implementation of <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> that is provided by <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref></p>
+  summary: "<p>Defines behavior that governs the lifecycle of a replica, such as startup, initialization, role changes, and shutdown. </p>\r\n<p>\r\n  <b>Remarks:</b>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> to use the implementation of <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> that is provided by <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref></p>"
   syntax:
     content: public interface StatefulServiceReplica
 - uid: system.fabric.FabricRuntime
@@ -124,6 +119,6 @@ references:
   nameWithType: FabricRuntime
   fullName: system.fabric.FabricRuntime
   type: Class
-  summary: <p>Allows user created hosts to obtain their <xref uid="system.fabric.CodePackageActivationContext" data-throw-if-not-resolved="false">system.fabric.CodePackageActivationContext</xref>, well as to register the necessary service factories [ <xref uid="system.fabric.StatelessServiceFactory" data-throw-if-not-resolved="false">system.fabric.StatelessServiceFactory</xref>, <xref uid="system.fabric.StatefulServiceFactory" data-throw-if-not-resolved="false">system.fabric.StatefulServiceFactory</xref> ] or service types directly. </p>
+  summary: "<p>Allows user created hosts to obtain their <xref uid=\"system.fabric.CodePackageActivationContext\" data-throw-if-not-resolved=\"false\">system.fabric.CodePackageActivationContext</xref>, well as to register the necessary service factories [ <xref uid=\"system.fabric.StatelessServiceFactory\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServiceFactory</xref>, <xref uid=\"system.fabric.StatefulServiceFactory\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServiceFactory</xref> ] or service types directly. </p>"
   syntax:
     content: public class FabricRuntime

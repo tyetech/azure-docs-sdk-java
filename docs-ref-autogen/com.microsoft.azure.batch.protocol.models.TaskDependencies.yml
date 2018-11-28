@@ -166,7 +166,7 @@ references:
   nameWithType: TaskIdRange
   fullName: com.microsoft.azure.batch.protocol.models.TaskIdRange
   type: Class
-  summary: <p>A range of task IDs that a task can depend on. All tasks with IDs in the range must complete successfully before the dependent task can be scheduled. The start and end of the range are inclusive. For example, if a range has start 9 and end 12, then it represents tasks '9', '10', '11' and '12'. </p>
+  summary: "<p>A range of task IDs that a task can depend on. All tasks with IDs in the range must complete successfully before the dependent task can be scheduled. The start and end of the range are inclusive. For example, if a range has start 9 and end 12, then it represents tasks '9', '10', '11' and '12'. </p>"
   syntax:
     content: public class TaskIdRange
 - uid: com.microsoft.azure.batch.protocol.models.TaskDependencies
@@ -176,5 +176,5 @@ references:
   nameWithType: TaskDependencies
   fullName: com.microsoft.azure.batch.protocol.models.TaskDependencies
   type: Class
-  summary: <p>Specifies any dependencies of a task. Any task that is explicitly specified or within a dependency range must complete before the dependant task will be scheduled. </p>
+  summary: "<p>Specifies any dependencies of a task. Any task that is explicitly specified or within a dependency range must complete before the dependant task will be scheduled. </p>"
   syntax: *o1

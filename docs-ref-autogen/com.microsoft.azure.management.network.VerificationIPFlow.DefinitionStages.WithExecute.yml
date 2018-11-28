@@ -35,10 +35,7 @@ references:
   nameWithType: Executable<T>.execute()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public T execute()
     return:
@@ -51,10 +48,7 @@ references:
   nameWithType: Executable<T>.executeAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> executeAsync()
     return:
@@ -67,10 +61,7 @@ references:
   nameWithType: Executable<T>.executeAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> executeAsync(final ServiceCallback<T> callback)
     parameters:
@@ -99,10 +90,7 @@ references:
   nameWithType: VerificationIPFlow.DefinitionStages.WithNetworkInterface.withTargetNetworkInterfaceId(String targetNetworkInterfaceId)
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.DefinitionStages.WithNetworkInterface.withTargetNetworkInterfaceId(String targetNetworkInterfaceId)
   type: Method
-  summary: >-
-    <p>Set the targetNetworkInterfaceId value.</p>
-
-    <p></p>
+  summary: "<p>Set the targetNetworkInterfaceId value.</p>\r\n<p></p>"
   syntax:
     content: public VerificationIPFlow withTargetNetworkInterfaceId(String targetNetworkInterfaceId)
     parameters:
@@ -119,10 +107,7 @@ references:
   nameWithType: Executable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support execute operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support execute operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Executable<T> extends Indexable
     typeParameters:
@@ -136,7 +121,7 @@ references:
   nameWithType: VerificationIPFlow.DefinitionStages.WithNetworkInterface
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.DefinitionStages.WithNetworkInterface
   type: Interface
-  summary: <p>The NIC ID. (If VM has multiple NICs and IP forwarding is enabled on any of them, then this parameter must be specified. Otherwise optional). </p>
+  summary: "<p>The NIC ID. (If VM has multiple NICs and IP forwarding is enabled on any of them, then this parameter must be specified. Otherwise optional). </p>"
   syntax:
     content: public interface WithNetworkInterface
 - uid: com.microsoft.azure.management.network.VerificationIPFlow.Definition
@@ -146,6 +131,6 @@ references:
   nameWithType: VerificationIPFlow.Definition
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.Definition
   type: Interface
-  summary: <p>The entirety of verification ip flow parameters definition. </p>
+  summary: "<p>The entirety of verification ip flow parameters definition. </p>"
   syntax:
     content: public interface Definition extends VerificationIPFlow.DefinitionStages.WithTargetResource,VerificationIPFlow.DefinitionStages.WithDirection,VerificationIPFlow.DefinitionStages.WithProtocol,VerificationIPFlow.DefinitionStages.WithLocalIP,VerificationIPFlow.DefinitionStages.WithRemoteIP,VerificationIPFlow.DefinitionStages.WithLocalPort,VerificationIPFlow.DefinitionStages.WithRemotePort,VerificationIPFlow.DefinitionStages.WithExecute

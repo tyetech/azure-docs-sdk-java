@@ -42,7 +42,7 @@ references:
   nameWithType: HasFrontend.UpdateStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.UpdateStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   type: Method
-  summary: <p>Specifies the frontend. </p>
+  summary: "<p>Specifies the frontend. </p>"
   syntax:
     content: public ReturnT fromFrontend(String frontendName)
     parameters:
@@ -59,7 +59,7 @@ references:
   nameWithType: HasFrontendPort.UpdateStages.WithFrontendPort<ReturnT>.fromFrontendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasFrontendPort.UpdateStages.WithFrontendPort<ReturnT>.fromFrontendPort(int port)
   type: Method
-  summary: <p>Specifies the frontend port to receive network traffic on. </p>
+  summary: "<p>Specifies the frontend port to receive network traffic on. </p>"
   syntax:
     content: public ReturnT fromFrontendPort(int port)
     parameters:
@@ -76,12 +76,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -94,7 +89,7 @@ references:
   nameWithType: HasBackendPort.UpdateStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasBackendPort.UpdateStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   type: Method
-  summary: <p>Specifies a backend port to send network traffic to. </p>
+  summary: "<p>Specifies a backend port to send network traffic to. </p>"
   syntax:
     content: public ReturnT toBackendPort(int port)
     parameters:
@@ -111,7 +106,7 @@ references:
   nameWithType: HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   type: Method
-  summary: <p>Sets the floating IP enablement. </p>
+  summary: "<p>Sets the floating IP enablement. </p>"
   syntax:
     content: public ReturnT withFloatingIP(boolean enabled)
     parameters:
@@ -128,7 +123,7 @@ references:
   nameWithType: HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   type: Method
-  summary: <p>Disables floating IP support. </p>
+  summary: "<p>Disables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPDisabled()
     return:
@@ -141,7 +136,7 @@ references:
   nameWithType: HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   type: Method
-  summary: <p>Enables floating IP support. </p>
+  summary: "<p>Enables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPEnabled()
     return:
@@ -154,7 +149,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithIdleTimeoutInMinutes.withIdleTimeoutInMinutes(int minutes)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithIdleTimeoutInMinutes.withIdleTimeoutInMinutes(int minutes)
   type: Method
-  summary: <p>Specifies the number of minutes before an idle connection is closed. </p>
+  summary: "<p>Specifies the number of minutes before an idle connection is closed. </p>"
   syntax:
     content: public Update withIdleTimeoutInMinutes(int minutes)
     parameters:
@@ -171,7 +166,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithLoadDistribution.withLoadDistribution(LoadDistribution loadDistribution)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithLoadDistribution.withLoadDistribution(LoadDistribution loadDistribution)
   type: Method
-  summary: <p>Specifies the load distribution mode. </p>
+  summary: "<p>Specifies the load distribution mode. </p>"
   syntax:
     content: public Update withLoadDistribution(LoadDistribution loadDistribution)
     parameters:
@@ -188,7 +183,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithProbe.withoutProbe()
   type: Method
-  summary: <p>Removes any association with a probe and falls back to Azure's default probing mechanism. </p>
+  summary: "<p>Removes any association with a probe and falls back to Azure's default probing mechanism. </p>"
   syntax:
     content: public Update withoutProbe()
     return:
@@ -201,7 +196,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithProbe.withProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithProbe.withProbe(String name)
   type: Method
-  summary: <p>Associates the specified existing HTTP or TCP probe of this load balancer with the load balancing rule. </p>
+  summary: "<p>Associates the specified existing HTTP or TCP probe of this load balancer with the load balancing rule. </p>"
   syntax:
     content: public Update withProbe(String name)
     parameters:
@@ -218,7 +213,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -235,10 +230,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -252,7 +244,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithFrontendPort
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithFrontendPort
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to modify the frontend port. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to modify the frontend port. </p>"
   syntax:
     content: public interface WithFrontendPort
 - uid: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithFrontend
@@ -262,7 +254,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithFrontend
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to modify the frontend reference. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to modify the frontend reference. </p>"
   syntax:
     content: public interface WithFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithProtocol
@@ -272,7 +264,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithProtocol
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithProtocol
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to modify the transport protocol the rule applies to. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to modify the transport protocol the rule applies to. </p>"
   syntax:
     content: public interface WithProtocol
 - uid: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithBackendPort
@@ -282,7 +274,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithBackendPort
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithBackendPort
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to modify the backend port. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to modify the backend port. </p>"
   syntax:
     content: public interface WithBackendPort
 - uid: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithFloatingIP
@@ -292,7 +284,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithFloatingIP
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithFloatingIP
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to enable the floating IP functionality. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to enable the floating IP functionality. </p>"
   syntax:
     content: public interface WithFloatingIP
 - uid: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithIdleTimeoutInMinutes
@@ -302,7 +294,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithIdleTimeoutInMinutes
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithIdleTimeoutInMinutes
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to modify the connection timeout for idle connections. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to modify the connection timeout for idle connections. </p>"
   syntax:
     content: public interface WithIdleTimeoutInMinutes
 - uid: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithLoadDistribution
@@ -312,7 +304,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithLoadDistribution
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithLoadDistribution
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to modify the load distribution. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to modify the load distribution. </p>"
   syntax:
     content: public interface WithLoadDistribution
 - uid: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithProbe
@@ -322,6 +314,6 @@ references:
   nameWithType: LoadBalancingRule.UpdateStages.WithProbe
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateStages.WithProbe
   type: Interface
-  summary: <p>The stage of a load balancing rule update allowing to specify the probe to associate with the rule. </p>
+  summary: "<p>The stage of a load balancing rule update allowing to specify the probe to associate with the rule. </p>"
   syntax:
     content: public interface WithProbe

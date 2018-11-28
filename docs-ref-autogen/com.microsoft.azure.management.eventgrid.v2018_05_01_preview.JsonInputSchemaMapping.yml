@@ -393,7 +393,7 @@ references:
   nameWithType: InputSchemaMapping
   fullName: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.InputSchemaMapping
   type: Class
-  summary: <p>By default, Event Grid expects events to be in the Event Grid event schema. Specifying an input schema mapping enables publishing to Event Grid using a custom input schema. Currently, the only supported type of InputSchemaMapping is 'JsonInputSchemaMapping'. </p>
+  summary: "<p>By default, Event Grid expects events to be in the Event Grid event schema. Specifying an input schema mapping enables publishing to Event Grid using a custom input schema. Currently, the only supported type of InputSchemaMapping is 'JsonInputSchemaMapping'. </p>"
   syntax:
     content: public class InputSchemaMapping
 - uid: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.JsonField
@@ -403,7 +403,7 @@ references:
   nameWithType: JsonField
   fullName: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.JsonField
   type: Class
-  summary: <p>This is used to express the source of an input schema mapping for a single target field in the Event Grid Event schema. This is currently used in the mappings for the 'id','topic' and 'eventtime' properties. This represents a field in the input event schema. </p>
+  summary: "<p>This is used to express the source of an input schema mapping for a single target field in the Event Grid Event schema. This is currently used in the mappings for the 'id','topic' and 'eventtime' properties. This represents a field in the input event schema. </p>"
   syntax:
     content: public class JsonField
 - uid: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.JsonFieldWithDefault
@@ -413,7 +413,7 @@ references:
   nameWithType: JsonFieldWithDefault
   fullName: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.JsonFieldWithDefault
   type: Class
-  summary: <p>This is used to express the source of an input schema mapping for a single target field in the Event Grid Event schema. This is currently used in the mappings for the 'subject','eventtype' and 'dataversion' properties. This represents a field in the input event schema along with a default value to be used, and at least one of these two properties should be provided. </p>
+  summary: "<p>This is used to express the source of an input schema mapping for a single target field in the Event Grid Event schema. This is currently used in the mappings for the 'subject','eventtype' and 'dataversion' properties. This represents a field in the input event schema along with a default value to be used, and at least one of these two properties should be provided. </p>"
   syntax:
     content: public class JsonFieldWithDefault
 - uid: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.JsonInputSchemaMapping
@@ -423,5 +423,5 @@ references:
   nameWithType: JsonInputSchemaMapping
   fullName: com.microsoft.azure.management.eventgrid.v2018_05_01_preview.JsonInputSchemaMapping
   type: Class
-  summary: <p>This enables publishing to Event Grid using a custom input schema. This can be used to map properties from a custom input JSON schema to the Event Grid event schema. </p>
+  summary: "<p>This enables publishing to Event Grid using a custom input schema. This can be used to map properties from a custom input JSON schema to the Event Grid event schema. </p>"
   syntax: *o1

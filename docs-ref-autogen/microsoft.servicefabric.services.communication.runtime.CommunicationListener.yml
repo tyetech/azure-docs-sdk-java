@@ -132,7 +132,7 @@ references:
   nameWithType: ServiceRemotingListener
   fullName: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener
   type: Interface
-  summary: <p>Defines a base communication interface that enables interface remoting for stateless and stateful services. </p>
+  summary: "<p>Defines a base communication interface that enables interface remoting for stateless and stateful services. </p>"
   syntax:
     content: public interface ServiceRemotingListener
 - uid: microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener.openAsync(CancellationToken)
@@ -142,10 +142,7 @@ references:
   nameWithType: FabricTransportServiceRemotingListener.openAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener.openAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method causes the communication listener to be opened. Once the Open completes, the communication listener becomes usable - accepts and sends messages.</p>
-
-    <p></p>
+  summary: "<p>This method causes the communication listener to be opened. Once the Open completes, the communication listener becomes usable - accepts and sends messages.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<String> openAsync(CancellationToken cancellationToken)
     parameters:
@@ -165,7 +162,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener.closeAsync(CancellationToken)
@@ -175,10 +172,7 @@ references:
   nameWithType: FabricTransportServiceRemotingListener.closeAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener.closeAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method causes the communication listener to close. Close is a terminal state and this method allows the communication listener to transition to this state in a graceful manner.</p>
-
-    <p></p>
+  summary: "<p>This method causes the communication listener to close. Close is a terminal state and this method allows the communication listener to transition to this state in a graceful manner.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
     parameters:
@@ -198,6 +192,6 @@ references:
   nameWithType: FabricTransportServiceRemotingListener.abort()
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.runtime.FabricTransportServiceRemotingListener.abort()
   type: Method
-  summary: <p>This method causes the communication listener to close. Close is a terminal state and this method causes the transition to close ungracefully. Any outstanding operations (including close) should be canceled when this method is called. </p>
+  summary: "<p>This method causes the communication listener to close. Close is a terminal state and this method causes the transition to close ungracefully. Any outstanding operations (including close) should be canceled when this method is called. </p>"
   syntax:
     content: public void abort()

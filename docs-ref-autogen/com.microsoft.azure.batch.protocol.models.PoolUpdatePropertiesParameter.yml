@@ -302,7 +302,7 @@ references:
   nameWithType: StartTask
   fullName: com.microsoft.azure.batch.protocol.models.StartTask
   type: Class
-  summary: <p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>A task which is run when a compute node joins a pool in the Azure Batch service, or when the compute node is rebooted or reimaged. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class StartTask
 - uid: com.microsoft.azure.batch.protocol.models.CertificateReference
@@ -312,7 +312,7 @@ references:
   nameWithType: CertificateReference
   fullName: com.microsoft.azure.batch.protocol.models.CertificateReference
   type: Class
-  summary: <p>A reference to a certificate to be installed on compute nodes in a pool. </p>
+  summary: "<p>A reference to a certificate to be installed on compute nodes in a pool. </p>"
   syntax:
     content: public class CertificateReference
 - uid: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
@@ -322,7 +322,7 @@ references:
   nameWithType: ApplicationPackageReference
   fullName: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
   type: Class
-  summary: <p>A reference to an application package to be deployed to compute nodes. </p>
+  summary: "<p>A reference to an application package to be deployed to compute nodes. </p>"
   syntax:
     content: public class ApplicationPackageReference
 - uid: com.microsoft.azure.batch.protocol.models.MetadataItem
@@ -332,7 +332,7 @@ references:
   nameWithType: MetadataItem
   fullName: com.microsoft.azure.batch.protocol.models.MetadataItem
   type: Class
-  summary: <p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>
+  summary: "<p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>"
   syntax:
     content: public class MetadataItem
 - uid: com.microsoft.azure.batch.protocol.models.PoolUpdatePropertiesParameter
@@ -342,5 +342,5 @@ references:
   nameWithType: PoolUpdatePropertiesParameter
   fullName: com.microsoft.azure.batch.protocol.models.PoolUpdatePropertiesParameter
   type: Class
-  summary: <p>The set of changes to be made to a pool. </p>
+  summary: "<p>The set of changes to be made to a pool. </p>"
   syntax: *o1

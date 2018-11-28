@@ -62,10 +62,7 @@ references:
   nameWithType: SqlDatabase.Update
   fullName: com.microsoft.azure.management.sql.SqlDatabase.Update
   type: Interface
-  summary: >-
-    <p>The template for a SqlDatabase update operation, containing all the settings that can be modified.</p>
-
-    <p>The template for a SQLDatabase modifyState operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a SqlDatabase update operation, containing all the settings that can be modified.</p>\r\n<p>The template for a SQLDatabase modifyState operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends SqlDatabase.UpdateStages.WithEdition,SqlDatabase.UpdateStages.WithElasticPoolName,SqlDatabase.UpdateStages.WithMaxSizeBytes,SqlDatabase.UpdateStages.WithServiceObjective,Appliable<SqlDatabase>,SqlDatabase.UpdateStages.WithEdition,SqlDatabase.UpdateStages.WithElasticPoolName,SqlDatabase.UpdateStages.WithMaxSizeBytes,SqlDatabase.UpdateStages.WithServiceObjective,Resource.UpdateWithTags<SqlDatabase.Update>,Appliable<SqlDatabase>
 - uid: com.microsoft.azure.management.sql.ServiceObjectiveName
@@ -75,6 +72,6 @@ references:
   nameWithType: ServiceObjectiveName
   fullName: com.microsoft.azure.management.sql.ServiceObjectiveName
   type: Class
-  summary: <p>Defines values for ServiceObjectiveName. </p>
+  summary: "<p>Defines values for ServiceObjectiveName. </p>"
   syntax:
     content: public class ServiceObjectiveName

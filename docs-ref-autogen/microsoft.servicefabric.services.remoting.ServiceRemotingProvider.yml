@@ -141,7 +141,7 @@ references:
   nameWithType: FabricTransportServiceRemotingProvider
   fullName: microsoft.servicefabric.services.remoting.fabrictransport.FabricTransportServiceRemotingProvider
   type: Class
-  summary: <p>Sets Fabric TCP transport as the default service remoting transport provider in the assembly. </p>
+  summary: "<p>Sets Fabric TCP transport as the default service remoting transport provider in the assembly. </p>"
   syntax:
     content: public class FabricTransportServiceRemotingProvider extends ServiceRemotingProvider
 - uid: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener
@@ -151,7 +151,7 @@ references:
   nameWithType: ServiceRemotingListener
   fullName: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener
   type: Interface
-  summary: <p>Defines a base communication interface that enables interface remoting for stateless and stateful services. </p>
+  summary: "<p>Defines a base communication interface that enables interface remoting for stateless and stateful services. </p>"
   syntax:
     content: public interface ServiceRemotingListener extends CommunicationListener
 - uid: system.fabric.ServiceContext
@@ -161,7 +161,7 @@ references:
   nameWithType: ServiceContext
   fullName: system.fabric.ServiceContext
   type: Class
-  summary: <p>Represents the service context that the service is operating under. </p>
+  summary: "<p>Represents the service context that the service is operating under. </p>"
   syntax:
     content: public class ServiceContext
 - uid: microsoft.servicefabric.services.remoting.Service
@@ -171,7 +171,7 @@ references:
   nameWithType: Service
   fullName: microsoft.servicefabric.services.remoting.Service
   type: Interface
-  summary: <p>This is the marker interface for enabling interface Remoting for services. An <xref uid="microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>
+  summary: "<p>This is the marker interface for enabling interface Remoting for services. An <xref uid=\"microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>"
   syntax:
     content: public interface Service
 - uid: microsoft.servicefabric.services.remoting.client.ServiceRemotingClientFactory
@@ -181,7 +181,7 @@ references:
   nameWithType: ServiceRemotingClientFactory
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingClientFactory
   type: Interface
-  summary: <p>Defines the interface that must be implemented for providing the remoting communication client factory. </p>
+  summary: "<p>Defines the interface that must be implemented for providing the remoting communication client factory. </p>"
   syntax:
     content: public interface ServiceRemotingClientFactory extends CommunicationClientFactory<ServiceRemotingClient>
 - uid: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingCallbackClient
@@ -191,7 +191,7 @@ references:
   nameWithType: ServiceRemotingCallbackClient
   fullName: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingCallbackClient
   type: Interface
-  summary: <p>Defines the interface that must be implemented for providing callback mechanism from the remoting listener to the client. </p>
+  summary: "<p>Defines the interface that must be implemented for providing callback mechanism from the remoting listener to the client. </p>"
   syntax:
     content: public interface ServiceRemotingCallbackClient
 - uid: microsoft.servicefabric.services.remoting.ServiceRemotingProvider
@@ -201,5 +201,5 @@ references:
   nameWithType: ServiceRemotingProvider
   fullName: microsoft.servicefabric.services.remoting.ServiceRemotingProvider
   type: Class
-  summary: <p>This is a base type that sets the default service remoting provider to use for remoting the service interfaces. </p>
+  summary: "<p>This is a base type that sets the default service remoting provider to use for remoting the service interfaces. </p>"
   syntax: *o1

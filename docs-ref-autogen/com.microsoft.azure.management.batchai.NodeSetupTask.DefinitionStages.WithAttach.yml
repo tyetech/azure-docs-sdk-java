@@ -42,7 +42,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -74,7 +74,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String value)
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String value)
   type: Method
-  summary: <p>Sets the value of the environment variable. This value will never be reported back by Batch AI. </p>
+  summary: "<p>Sets the value of the environment variable. This value will never be reported back by Batch AI. </p>"
   syntax:
     content: public WithAttach<ParentT> withEnvironmentVariableSecretValue(String name, String value)
     parameters:
@@ -94,7 +94,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
   type: Method
-  summary: <p>Specifies KeyVault Store and Secret which contains the value for the environment variable. </p>
+  summary: "<p>Specifies KeyVault Store and Secret which contains the value for the environment variable. </p>"
   syntax:
     content: public WithAttach<ParentT> withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
     parameters:
@@ -117,7 +117,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -131,7 +131,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
   type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify environment variables. </p>
+  summary: "<p>The stage of the setup task definition allowing to specify environment variables. </p>"
   syntax:
     content: public interface WithEnvironmentVariable<ParentT>
     typeParameters:
@@ -145,7 +145,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>
   type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify environment variables with secrets. </p>
+  summary: "<p>The stage of the setup task definition allowing to specify environment variables with secrets. </p>"
   syntax:
     content: public interface WithEnvironmentVariableSecretValue<ParentT>
     typeParameters:
@@ -159,7 +159,7 @@ references:
   nameWithType: NodeSetupTask.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a setup task definition. </p>
+  summary: "<p>The entirety of a setup task definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends NodeSetupTask.DefinitionStages.Blank<ParentT>,NodeSetupTask.DefinitionStages.WithStdOutErrPath<ParentT>,NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>,NodeSetupTask.DefinitionStages.WithAttach<ParentT>
     typeParameters:

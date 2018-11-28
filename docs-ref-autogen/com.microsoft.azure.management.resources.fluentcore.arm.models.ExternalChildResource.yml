@@ -118,10 +118,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -134,10 +131,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -150,7 +144,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT> extends Indexable,HasName,HasParent<ParentT>
     typeParameters:
@@ -164,10 +158,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -181,7 +172,7 @@ references:
   nameWithType: HostNameBinding
   fullName: com.microsoft.azure.management.appservice.HostNameBinding
   type: Interface
-  summary: <p>An immutable representation of a host name binding. </p>
+  summary: "<p>An immutable representation of a host name binding. </p>"
   syntax:
     content: public interface HostNameBinding
 - uid: com.microsoft.azure.management.batch.Application
@@ -191,7 +182,7 @@ references:
   nameWithType: Application
   fullName: com.microsoft.azure.management.batch.Application
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Batch account application. </p>
+  summary: "<p>An immutable client-side representation of an Azure Batch account application. </p>"
   syntax:
     content: public interface Application extends ExternalChildResource<Application, BatchAccount>,HasInner<ApplicationInner>
 - uid: com.microsoft.azure.management.batch.ApplicationPackage
@@ -201,7 +192,7 @@ references:
   nameWithType: ApplicationPackage
   fullName: com.microsoft.azure.management.batch.ApplicationPackage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Batch application package. </p>
+  summary: "<p>An immutable client-side representation of an Azure Batch application package. </p>"
   syntax:
     content: public interface ApplicationPackage extends ExternalChildResource<ApplicationPackage, Application>,HasInner<ApplicationPackageInner>
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint
@@ -211,7 +202,7 @@ references:
   nameWithType: CdnEndpoint
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure CDN endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure CDN endpoint. </p>"
   syntax:
     content: public interface CdnEndpoint extends ExternalChildResource<CdnEndpoint, CdnProfile>,HasInner<EndpointInner>
 - uid: com.microsoft.azure.management.compute.VirtualMachineExtension
@@ -221,7 +212,7 @@ references:
   nameWithType: VirtualMachineExtension
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine extension. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine extension. </p>"
   syntax:
     content: public interface VirtualMachineExtension
 - uid: com.microsoft.azure.management.containerregistry.Build
@@ -231,7 +222,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildStep
@@ -241,7 +232,7 @@ references:
   nameWithType: BuildStep
   fullName: com.microsoft.azure.management.containerregistry.BuildStep
   type: Interface
-  summary: <p>An object that represents a build step for a build task in a container registry. </p>
+  summary: "<p>An object that represents a build step for a build task in a container registry. </p>"
   syntax:
     content: public interface BuildStep extends ExternalChildResource<BuildStep, BuildTask>,HasName,HasId,HasInner<BuildStepInner>,Refreshable<BuildStep>,Updatable<BuildStep.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildTask
@@ -251,7 +242,7 @@ references:
   nameWithType: BuildTask
   fullName: com.microsoft.azure.management.containerregistry.BuildTask
   type: Interface
-  summary: <p>An object that represents a build task for a container registry. </p>
+  summary: "<p>An object that represents a build task for a container registry. </p>"
   syntax:
     content: public interface BuildTask extends ExternalChildResource<BuildTask, Registry>,Resource,HasInner<BuildTaskInner>,Refreshable<BuildTask>,Updatable<BuildTask.Update>
 - uid: com.microsoft.azure.management.containerregistry.Webhook
@@ -261,7 +252,7 @@ references:
   nameWithType: Webhook
   fullName: com.microsoft.azure.management.containerregistry.Webhook
   type: Interface
-  summary: <p>An object that represents a webhook for a container registry. </p>
+  summary: "<p>An object that represents a webhook for a container registry. </p>"
   syntax:
     content: public interface Webhook
 - uid: com.microsoft.azure.management.dns.DnsRecordSet
@@ -271,7 +262,7 @@ references:
   nameWithType: DnsRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet
   type: Interface
-  summary: <p>An immutable client-side representation of a record set in Azure DNS Zone. </p>
+  summary: "<p>An immutable client-side representation of a record set in Azure DNS Zone. </p>"
   syntax:
     content: public interface DnsRecordSet extends ExternalChildResource<DnsRecordSet, DnsZone>,HasInner<RecordSetInner>
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -281,10 +272,7 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy
@@ -294,7 +282,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy
   type: Interface
-  summary: <p>A representation of the Azure SQL Database threat detection policy. </p>
+  summary: "<p>A representation of the Azure SQL Database threat detection policy. </p>"
   syntax:
     content: public interface SqlDatabaseThreatDetectionPolicy
 - uid: com.microsoft.azure.management.sql.SqlElasticPool
@@ -304,10 +292,7 @@ references:
   nameWithType: SqlElasticPool
   fullName: com.microsoft.azure.management.sql.SqlElasticPool
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>
-
-    <p>An immutable client-side representation of an Azure SQL ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>\r\n<p>An immutable client-side representation of an Azure SQL ElasticPool. </p>"
   syntax:
     content: public interface SqlElasticPool
 - uid: com.microsoft.azure.management.sql.SqlFirewallRule
@@ -317,10 +302,7 @@ references:
   nameWithType: SqlFirewallRule
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>\r\n<p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>"
   syntax:
     content: public interface SqlFirewallRule
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup
@@ -330,7 +312,7 @@ references:
   nameWithType: SqlSyncGroup
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>"
   syntax:
     content: public interface SqlSyncGroup
 - uid: com.microsoft.azure.management.sql.SqlSyncMember
@@ -340,7 +322,7 @@ references:
   nameWithType: SqlSyncMember
   fullName: com.microsoft.azure.management.sql.SqlSyncMember
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Member. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Member. </p>"
   syntax:
     content: public interface SqlSyncMember
 - uid: com.microsoft.azure.management.sql.SqlVirtualNetworkRule
@@ -350,7 +332,7 @@ references:
   nameWithType: SqlVirtualNetworkRule
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Virtual Network Rule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Virtual Network Rule. </p>"
   syntax:
     content: public interface SqlVirtualNetworkRule
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint
@@ -360,7 +342,7 @@ references:
   nameWithType: TrafficManagerEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile endpoint. </p>"
   syntax:
     content: public interface TrafficManagerEndpoint
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.id()

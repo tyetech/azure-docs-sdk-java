@@ -174,10 +174,7 @@ references:
   nameWithType: ServicePartition.getPartitionInfo()
   fullName: system.fabric.ServicePartition.getPartitionInfo()
   type: Method
-  summary: >-
-    <p>Provides access to the <xref uid="system.fabric.ServicePartitionInformation" data-throw-if-not-resolved="false">system.fabric.ServicePartitionInformation</xref> of the service, which contains the partition type and ID.</p>
-
-    <p></p>
+  summary: "<p>Provides access to the <xref uid=\"system.fabric.ServicePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartitionInformation</xref> of the service, which contains the partition type and ID.</p>\r\n<p></p>"
   syntax:
     content: public ServicePartitionInformation getPartitionInfo()
     return:
@@ -190,12 +187,7 @@ references:
   nameWithType: ServicePartition.reportFault(FaultType faultType)
   fullName: system.fabric.ServicePartition.reportFault(FaultType faultType)
   type: Method
-  summary: >-
-    <p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid="" data-throw-if-not-resolved="false">java.util.Collection</xref> of <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">LoadMetric</xref> method and provides one or more properties of the <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">system.fabric.LoadMetric</xref> method.</p>
-
-    <p>
-
-      <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>
+  summary: "<p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.Collection</xref> of <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">LoadMetric</xref> method and provides one or more properties of the <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">system.fabric.LoadMetric</xref> method.</p>\r\n<p>\r\n  <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>"
   syntax:
     content: public void reportFault(FaultType faultType)
     parameters:
@@ -209,12 +201,7 @@ references:
   nameWithType: ServicePartition.reportLoad(Collection<LoadMetric> metrics)
   fullName: system.fabric.ServicePartition.reportLoad(Collection<LoadMetric> metrics)
   type: Method
-  summary: >-
-    <p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid="" data-throw-if-not-resolved="false">java.util.Collection</xref> of <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">LoadMetric</xref> method and provides one or more properties of the <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">system.fabric.LoadMetric</xref> method.</p>
-
-    <p>
-
-      <b>Remarks:</b>The reported metrics should correspond to those that are provided in the service load metric description as a part of the service description that is used to create the service. Load metrics that are not present in the description are ignored. Reporting custom metrics allows Service Fabric to balance services that are based on additional custom information. </p>
+  summary: "<p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.Collection</xref> of <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">LoadMetric</xref> method and provides one or more properties of the <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">system.fabric.LoadMetric</xref> method.</p>\r\n<p>\r\n  <b>Remarks:</b>The reported metrics should correspond to those that are provided in the service load metric description as a part of the service description that is used to create the service. Load metrics that are not present in the description are ignored. Reporting custom metrics allows Service Fabric to balance services that are based on additional custom information. </p>"
   syntax:
     content: public void reportLoad(Collection<LoadMetric> metrics)
     parameters:
@@ -228,12 +215,7 @@ references:
   nameWithType: ServicePartition.reportMoveCost(MoveCost moveCost)
   fullName: system.fabric.ServicePartition.reportMoveCost(MoveCost moveCost)
   type: Method
-  summary: >-
-    <p>Reports the move cost for a replica.</p>
-
-    <p>
-
-      <b>Remarks:</b>Services can report move cost of a replica using this method. While the Service Fabric Resource Balances searches for the best balance in the cluster, it examines both load information and move cost of each replica. Resource balances will prefer to move replicas with lower cost in order to achieve balance. </p>
+  summary: "<p>Reports the move cost for a replica.</p>\r\n<p>\r\n  <b>Remarks:</b>Services can report move cost of a replica using this method. While the Service Fabric Resource Balances searches for the best balance in the cluster, it examines both load information and move cost of each replica. Resource balances will prefer to move replicas with lower cost in order to achieve balance. </p>"
   syntax:
     content: public void reportMoveCost(MoveCost moveCost)
     parameters:
@@ -247,10 +229,7 @@ references:
   nameWithType: ServicePartition.reportPartitionHealth(HealthInformation healthInfo)
   fullName: system.fabric.ServicePartition.reportPartitionHealth(HealthInformation healthInfo)
   type: Method
-  summary: >-
-    <p>Reports current partition health.</p>
-
-    <p></p>
+  summary: "<p>Reports current partition health.</p>\r\n<p></p>"
   syntax:
     content: public void reportPartitionHealth(HealthInformation healthInfo)
     parameters:
@@ -264,7 +243,7 @@ references:
   nameWithType: ServicePartition
   fullName: system.fabric.ServicePartition
   type: Interface
-  summary: <p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>
+  summary: "<p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>"
   syntax:
     content: public interface ServicePartition
 - uid: system.fabric.PartitionAccessStatus
@@ -274,14 +253,7 @@ references:
   nameWithType: PartitionAccessStatus
   fullName: system.fabric.PartitionAccessStatus
   type: Enum
-  summary: >-
-    <p>Enumerates the access status of the partition. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="" data-throw-if-not-resolved="false">system.fabric.PartitionAccessStatus</xref> is used to check that a read or write operation is allowed. When service replicas handle a client request, they should verify that the system is in a state that allows processing. By checking the <xref uid="system.fabric.StatefulServicePartition.getReadStatus()" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#getReadStatus()</xref> or <xref uid="system.fabric.StatefulServicePartition.getwriteStatus()" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#getwriteStatus()</xref> as appropriate, the replica can be notified of conditions that prevent correct operation. Note that write operations might still see an exception from the replicator for one of these conditions, because the condition might change between the <xref uid="system.fabric.StatefulServicePartition.getwriteStatus()" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#getwriteStatus()</xref> check and the call to <xref uid="system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateReplicator#replicateAsync(system.fabric.OperationData,system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref>. </p>
+  summary: "<p>Enumerates the access status of the partition. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.PartitionAccessStatus</xref> is used to check that a read or write operation is allowed. When service replicas handle a client request, they should verify that the system is in a state that allows processing. By checking the <xref uid=\"system.fabric.StatefulServicePartition.getReadStatus()\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#getReadStatus()</xref> or <xref uid=\"system.fabric.StatefulServicePartition.getwriteStatus()\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#getwriteStatus()</xref> as appropriate, the replica can be notified of conditions that prevent correct operation. Note that write operations might still see an exception from the replicator for one of these conditions, because the condition might change between the <xref uid=\"system.fabric.StatefulServicePartition.getwriteStatus()\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#getwriteStatus()</xref> check and the call to <xref uid=\"system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#replicateAsync(system.fabric.OperationData,system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref>. </p>"
   syntax:
     content: public enum PartitionAccessStatus
 - uid: system.fabric.FabricReplicator
@@ -291,12 +263,7 @@ references:
   nameWithType: FabricReplicator
   fullName: system.fabric.FabricReplicator
   type: Class
-  summary: >-
-    <p>Replicates state for high availability and reliability. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provides the default implementation of the <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref>, <xref uid="system.fabric.Replicator" data-throw-if-not-resolved="false">system.fabric.Replicator</xref>, and <xref uid="system.fabric.PrimaryReplicator" data-throw-if-not-resolved="false">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> interface. An instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> for use. </p>
+  summary: "<p>Replicates state for high availability and reliability. </p>\r\n<p>\r\n  <b>Remarks:</b>Provides the default implementation of the <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref>, <xref uid=\"system.fabric.Replicator\" data-throw-if-not-resolved=\"false\">system.fabric.Replicator</xref>, and <xref uid=\"system.fabric.PrimaryReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> interface. An instance of the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> for use. </p>"
   syntax:
     content: public class FabricReplicator implements Replicator
 - uid: system.fabric.StateProvider
@@ -306,7 +273,7 @@ references:
   nameWithType: StateProvider
   fullName: system.fabric.StateProvider
   type: Interface
-  summary: <p>Defines the behavior that a service must implement to interact with the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">FabricReplicator</xref>. </p>
+  summary: "<p>Defines the behavior that a service must implement to interact with the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">FabricReplicator</xref>. </p>"
   syntax:
     content: public interface StateProvider
 - uid: system.fabric.ReplicatorSettings
@@ -316,7 +283,7 @@ references:
   nameWithType: ReplicatorSettings
   fullName: system.fabric.ReplicatorSettings
   type: Class
-  summary: <p>Allows a stateful replica to configure the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> when creating it <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator(system.fabric.StateProvider,system.fabric.ReplicatorSettings)</xref></p>
+  summary: "<p>Allows a stateful replica to configure the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> when creating it <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator(system.fabric.StateProvider,system.fabric.ReplicatorSettings)</xref></p>"
   syntax:
     content: public class ReplicatorSettings
 - uid: system.fabric.StatefulServiceReplica
@@ -326,12 +293,7 @@ references:
   nameWithType: StatefulServiceReplica
   fullName: system.fabric.StatefulServiceReplica
   type: Interface
-  summary: >-
-    <p>Defines behavior that governs the lifecycle of a replica, such as startup, initialization, role changes, and shutdown. </p>
-
-    <p>
-
-      <b>Remarks:</b>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> to use the implementation of <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> that is provided by <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref></p>
+  summary: "<p>Defines behavior that governs the lifecycle of a replica, such as startup, initialization, role changes, and shutdown. </p>\r\n<p>\r\n  <b>Remarks:</b>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> to use the implementation of <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> that is provided by <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref></p>"
   syntax:
     content: public interface StatefulServiceReplica
 - uid: system.fabric.StateReplicator
@@ -341,7 +303,7 @@ references:
   nameWithType: StateReplicator
   fullName: system.fabric.StateReplicator
   type: Interface
-  summary: <p>Exposes replication related functions of the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">FabricReplicator</xref> class that are used by <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">StateProvider</xref> to replicate state to ensure high availability. </p>
+  summary: "<p>Exposes replication related functions of the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">FabricReplicator</xref> class that are used by <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">StateProvider</xref> to replicate state to ensure high availability. </p>"
   syntax:
     content: public interface StateReplicator
 - uid: system.fabric.health.HealthInformation
@@ -351,6 +313,6 @@ references:
   nameWithType: HealthInformation
   fullName: system.fabric.health.HealthInformation
   type: Class
-  summary: <p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>
+  summary: "<p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>"
   syntax:
     content: public class HealthInformation

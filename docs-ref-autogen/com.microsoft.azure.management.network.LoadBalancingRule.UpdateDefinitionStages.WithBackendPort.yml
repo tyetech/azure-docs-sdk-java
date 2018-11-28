@@ -46,7 +46,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -59,10 +59,7 @@ references:
   nameWithType: HasBackendPort.UpdateDefinitionStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasBackendPort.UpdateDefinitionStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   type: Method
-  summary: >-
-    <p>Specifies a backend port to send network traffic to. </p>
-
-    <p>If not specified, the same backend port number is assumed as that used by the frontend. </p>
+  summary: "<p>Specifies a backend port to send network traffic to. </p>\r\n<p>If not specified, the same backend port number is assumed as that used by the frontend. </p>"
   syntax:
     content: public ReturnT toBackendPort(int port)
     parameters:
@@ -79,7 +76,7 @@ references:
   nameWithType: HasFloatingIP.UpdateDefinitionStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateDefinitionStages.WithFloatingIP<ReturnT>.withFloatingIP(boolean enabled)
   type: Method
-  summary: <p>Sets the floating IP enablement. </p>
+  summary: "<p>Sets the floating IP enablement. </p>"
   syntax:
     content: public ReturnT withFloatingIP(boolean enabled)
     parameters:
@@ -96,7 +93,7 @@ references:
   nameWithType: HasFloatingIP.UpdateDefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateDefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPDisabled()
   type: Method
-  summary: <p>Disables floating IP support. </p>
+  summary: "<p>Disables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPDisabled()
     return:
@@ -109,7 +106,7 @@ references:
   nameWithType: HasFloatingIP.UpdateDefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateDefinitionStages.WithFloatingIP<ReturnT>.withFloatingIPEnabled()
   type: Method
-  summary: <p>Enables floating IP support. </p>
+  summary: "<p>Enables floating IP support. </p>"
   syntax:
     content: public ReturnT withFloatingIPEnabled()
     return:
@@ -122,7 +119,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithIdleTimeoutInMinutes<ReturnT>.withIdleTimeoutInMinutes(int minutes)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithIdleTimeoutInMinutes<ReturnT>.withIdleTimeoutInMinutes(int minutes)
   type: Method
-  summary: <p>Specifies the number of minutes before an idle connection is closed. </p>
+  summary: "<p>Specifies the number of minutes before an idle connection is closed. </p>"
   syntax:
     content: public WithAttach<ReturnT> withIdleTimeoutInMinutes(int minutes)
     parameters:
@@ -139,7 +136,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithLoadDistribution<ReturnT>.withLoadDistribution(LoadDistribution loadDistribution)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithLoadDistribution<ReturnT>.withLoadDistribution(LoadDistribution loadDistribution)
   type: Method
-  summary: <p>Specifies the load distribution mode. </p>
+  summary: "<p>Specifies the load distribution mode. </p>"
   syntax:
     content: public WithAttach<ReturnT> withLoadDistribution(LoadDistribution loadDistribution)
     parameters:
@@ -156,7 +153,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithProbe<ReturnT>.withProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithProbe<ReturnT>.withProbe(String name)
   type: Method
-  summary: <p>Associates the specified existing HTTP or TCP probe of this load balancer with the load balancing rule. </p>
+  summary: "<p>Associates the specified existing HTTP or TCP probe of this load balancer with the load balancing rule. </p>"
   syntax:
     content: public WithAttach<ReturnT> withProbe(String name)
     parameters:
@@ -173,7 +170,7 @@ references:
   nameWithType: HasBackendPort.UpdateDefinitionStages.WithBackendPort<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasBackendPort.UpdateDefinitionStages.WithBackendPort<ReturnT>
   type: Interface
-  summary: <p>The stage of a definition allowing to specify the backend port. </p>
+  summary: "<p>The stage of a definition allowing to specify the backend port. </p>"
   syntax:
     content: public interface WithBackendPort<ReturnT>
     typeParameters:
@@ -187,10 +184,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithAttach<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithAttach<ReturnT>
   type: Interface
-  summary: >-
-    <p>The final stage of the load balancing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the load balancing rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ReturnT> extends Attachable<ParentT>.InUpdate<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithFloatingIP<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithIdleTimeoutInMinutes<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithLoadDistribution<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithProbe<ReturnT>
     typeParameters:
@@ -204,7 +198,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinition<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinition<ReturnT>
   type: Interface
-  summary: <p>The entirety of a load balancing rule definition as part of a load balancer update. </p>
+  summary: "<p>The entirety of a load balancing rule definition as part of a load balancer update. </p>"
   syntax:
     content: public interface UpdateDefinition<ReturnT> extends LoadBalancingRule.UpdateDefinitionStages.Blank<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithAttach<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithProtocol<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithFrontendPort<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithFrontend<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithBackend<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithBackendPort<ReturnT>
     typeParameters:

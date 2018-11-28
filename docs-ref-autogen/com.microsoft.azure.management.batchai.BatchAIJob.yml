@@ -1161,10 +1161,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1177,10 +1174,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1193,10 +1187,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -1210,7 +1201,7 @@ references:
   nameWithType: Indexable
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Indexable
   type: Interface
-  summary: <p>Base interface for all models that can be indexed by a key. </p>
+  summary: "<p>Base interface for all models that can be indexed by a key. </p>"
   syntax:
     content: public interface Indexable
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId
@@ -1220,7 +1211,7 @@ references:
   nameWithType: HasId
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId
   type: Interface
-  summary: <p>An interface representing a model that has a resource group name. </p>
+  summary: "<p>An interface representing a model that has a resource group name. </p>"
   syntax:
     content: public interface HasId
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
@@ -1230,7 +1221,7 @@ references:
   nameWithType: HasName
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
   type: Interface
-  summary: <p>An interface representing a model that has a name. </p>
+  summary: "<p>An interface representing a model that has a name. </p>"
   syntax:
     content: public interface HasName
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
@@ -1240,10 +1231,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -1258,7 +1246,7 @@ references:
   nameWithType: OutputFile
   fullName: com.microsoft.azure.management.batchai.OutputFile
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI output file. </p>
+  summary: "<p>An immutable client-side representation of Batch AI output file. </p>"
   syntax:
     content: public interface OutputFile
 - uid: com.microsoft.azure.management.batchai.RemoteLoginInformation
@@ -1268,7 +1256,7 @@ references:
   nameWithType: RemoteLoginInformation
   fullName: com.microsoft.azure.management.batchai.RemoteLoginInformation
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>
+  summary: "<p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>"
   syntax:
     content: public interface RemoteLoginInformation
 - uid: com.microsoft.azure.management.batchai.JobPriority
@@ -1278,7 +1266,7 @@ references:
   nameWithType: JobPriority
   fullName: com.microsoft.azure.management.batchai.JobPriority
   type: Class
-  summary: <p>Defines values for JobPriority. </p>
+  summary: "<p>Defines values for JobPriority. </p>"
   syntax:
     content: public class JobPriority
 - uid: com.microsoft.azure.management.batchai.ResourceId
@@ -1288,7 +1276,7 @@ references:
   nameWithType: ResourceId
   fullName: com.microsoft.azure.management.batchai.ResourceId
   type: Class
-  summary: <p>Represents a resource ID. For example, for a subnet, it is the resource URL for the subnet. </p>
+  summary: "<p>Represents a resource ID. For example, for a subnet, it is the resource URL for the subnet. </p>"
   syntax:
     content: public class ResourceId
 - uid: com.microsoft.azure.management.batchai.MountVolumes
@@ -1298,7 +1286,7 @@ references:
   nameWithType: MountVolumes
   fullName: com.microsoft.azure.management.batchai.MountVolumes
   type: Class
-  summary: <p>Details of volumes to mount on the cluster. </p>
+  summary: "<p>Details of volumes to mount on the cluster. </p>"
   syntax:
     content: public class MountVolumes
 - uid: com.microsoft.azure.management.batchai.ContainerSettings
@@ -1308,7 +1296,7 @@ references:
   nameWithType: ContainerSettings
   fullName: com.microsoft.azure.management.batchai.ContainerSettings
   type: Class
-  summary: <p>Docker container settings. </p>
+  summary: "<p>Docker container settings. </p>"
   syntax:
     content: public class ContainerSettings
 - uid: com.microsoft.azure.management.batchai.ToolType
@@ -1318,7 +1306,7 @@ references:
   nameWithType: ToolType
   fullName: com.microsoft.azure.management.batchai.ToolType
   type: Class
-  summary: <p>Defines values for ToolType. </p>
+  summary: "<p>Defines values for ToolType. </p>"
   syntax:
     content: public class ToolType
 - uid: com.microsoft.azure.management.batchai.CNTKsettings
@@ -1328,7 +1316,7 @@ references:
   nameWithType: CNTKsettings
   fullName: com.microsoft.azure.management.batchai.CNTKsettings
   type: Class
-  summary: <p>CNTK (aka Microsoft Cognitive Toolkit) job settings. </p>
+  summary: "<p>CNTK (aka Microsoft Cognitive Toolkit) job settings. </p>"
   syntax:
     content: public class CNTKsettings
 - uid: com.microsoft.azure.management.batchai.PyTorchSettings
@@ -1338,7 +1326,7 @@ references:
   nameWithType: PyTorchSettings
   fullName: com.microsoft.azure.management.batchai.PyTorchSettings
   type: Class
-  summary: <p>pyTorch job settings. </p>
+  summary: "<p>pyTorch job settings. </p>"
   syntax:
     content: public class PyTorchSettings
 - uid: com.microsoft.azure.management.batchai.TensorFlowSettings
@@ -1348,7 +1336,7 @@ references:
   nameWithType: TensorFlowSettings
   fullName: com.microsoft.azure.management.batchai.TensorFlowSettings
   type: Class
-  summary: <p>TensorFlow job settings. </p>
+  summary: "<p>TensorFlow job settings. </p>"
   syntax:
     content: public class TensorFlowSettings
 - uid: com.microsoft.azure.management.batchai.CaffeSettings
@@ -1358,7 +1346,7 @@ references:
   nameWithType: CaffeSettings
   fullName: com.microsoft.azure.management.batchai.CaffeSettings
   type: Class
-  summary: <p>Caffe job settings. </p>
+  summary: "<p>Caffe job settings. </p>"
   syntax:
     content: public class CaffeSettings
 - uid: com.microsoft.azure.management.batchai.ChainerSettings
@@ -1368,7 +1356,7 @@ references:
   nameWithType: ChainerSettings
   fullName: com.microsoft.azure.management.batchai.ChainerSettings
   type: Class
-  summary: <p>Chainer job settings. </p>
+  summary: "<p>Chainer job settings. </p>"
   syntax:
     content: public class ChainerSettings
 - uid: com.microsoft.azure.management.batchai.CustomToolkitSettings
@@ -1378,7 +1366,7 @@ references:
   nameWithType: CustomToolkitSettings
   fullName: com.microsoft.azure.management.batchai.CustomToolkitSettings
   type: Class
-  summary: <p>Custom tool kit job settings. </p>
+  summary: "<p>Custom tool kit job settings. </p>"
   syntax:
     content: public class CustomToolkitSettings
 - uid: com.microsoft.azure.management.batchai.JobPreparation
@@ -1388,7 +1376,7 @@ references:
   nameWithType: JobPreparation
   fullName: com.microsoft.azure.management.batchai.JobPreparation
   type: Class
-  summary: <p>Job preparation settings. </p>
+  summary: "<p>Job preparation settings. </p>"
   syntax:
     content: public class JobPreparation
 - uid: com.microsoft.azure.management.batchai.InputDirectory
@@ -1398,7 +1386,7 @@ references:
   nameWithType: InputDirectory
   fullName: com.microsoft.azure.management.batchai.InputDirectory
   type: Class
-  summary: <p>Input directory for the job. </p>
+  summary: "<p>Input directory for the job. </p>"
   syntax:
     content: public class InputDirectory
 - uid: com.microsoft.azure.management.batchai.OutputDirectory
@@ -1408,7 +1396,7 @@ references:
   nameWithType: OutputDirectory
   fullName: com.microsoft.azure.management.batchai.OutputDirectory
   type: Class
-  summary: <p>Output directory for the job. </p>
+  summary: "<p>Output directory for the job. </p>"
   syntax:
     content: public class OutputDirectory
 - uid: com.microsoft.azure.management.batchai.EnvironmentVariable
@@ -1418,7 +1406,7 @@ references:
   nameWithType: EnvironmentVariable
   fullName: com.microsoft.azure.management.batchai.EnvironmentVariable
   type: Class
-  summary: <p>An environment variable definition. </p>
+  summary: "<p>An environment variable definition. </p>"
   syntax:
     content: public class EnvironmentVariable
 - uid: com.microsoft.azure.management.batchai.EnvironmentVariableWithSecretValue
@@ -1428,7 +1416,7 @@ references:
   nameWithType: EnvironmentVariableWithSecretValue
   fullName: com.microsoft.azure.management.batchai.EnvironmentVariableWithSecretValue
   type: Class
-  summary: <p>An environment variable with secret value definition. </p>
+  summary: "<p>An environment variable with secret value definition. </p>"
   syntax:
     content: public class EnvironmentVariableWithSecretValue
 - uid: com.microsoft.azure.management.batchai.JobPropertiesConstraints
@@ -1438,7 +1426,7 @@ references:
   nameWithType: JobPropertiesConstraints
   fullName: com.microsoft.azure.management.batchai.JobPropertiesConstraints
   type: Class
-  summary: <p>Constraints associated with the Job. </p>
+  summary: "<p>Constraints associated with the Job. </p>"
   syntax:
     content: public class JobPropertiesConstraints
 - uid: com.microsoft.azure.management.batchai.ProvisioningState
@@ -1448,7 +1436,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.batchai.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState
 - uid: com.microsoft.azure.management.batchai.ExecutionState
@@ -1458,7 +1446,7 @@ references:
   nameWithType: ExecutionState
   fullName: com.microsoft.azure.management.batchai.ExecutionState
   type: Class
-  summary: <p>Defines values for ExecutionState. </p>
+  summary: "<p>Defines values for ExecutionState. </p>"
   syntax:
     content: public class ExecutionState
 - uid: com.microsoft.azure.management.batchai.JobPropertiesExecutionInfo
@@ -1468,7 +1456,7 @@ references:
   nameWithType: JobPropertiesExecutionInfo
   fullName: com.microsoft.azure.management.batchai.JobPropertiesExecutionInfo
   type: Class
-  summary: <p>Information about the execution of a job. </p>
+  summary: "<p>Information about the execution of a job. </p>"
   syntax:
     content: public class JobPropertiesExecutionInfo
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment
@@ -1478,6 +1466,6 @@ references:
   nameWithType: BatchAIExperiment
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment
   type: Interface
-  summary: <p>Entry point for Batch AI Experiment management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI Experiment management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiment extends HasInner<ExperimentInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIExperiment>

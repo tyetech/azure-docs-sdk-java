@@ -54,7 +54,7 @@ references:
   nameWithType: com.microsoft.azure.sdk.iot.device.auth
   fullName: com.microsoft.azure.sdk.iot.device.auth
   type: Namespace
-  summary: <p>Authenticates a device to an IoT Hub via SAS tokens. </p>
+  summary: "<p>Authenticates a device to an IoT Hub via SAS tokens. </p>"
   syntax:
     content: package com.microsoft.azure.sdk.iot.device.auth
 - uid: com.microsoft.azure.sdk.iot.device.DeviceTwin
@@ -103,7 +103,7 @@ references:
   nameWithType: com.microsoft.azure.sdk.iot.device.net
   fullName: com.microsoft.azure.sdk.iot.device.net
   type: Namespace
-  summary: <p>IoT Hub resource URIs. </p>
+  summary: "<p>IoT Hub resource URIs. </p>"
   syntax:
     content: package com.microsoft.azure.sdk.iot.device.net
 - uid: com.microsoft.azure.sdk.iot.device.transport
@@ -112,7 +112,7 @@ references:
   nameWithType: com.microsoft.azure.sdk.iot.device.transport
   fullName: com.microsoft.azure.sdk.iot.device.transport
   type: Namespace
-  summary: <p>A transport for sending and receiving IoT Hub messages, along with supporting functionality. </p>
+  summary: "<p>A transport for sending and receiving IoT Hub messages, along with supporting functionality. </p>"
   syntax:
     content: package com.microsoft.azure.sdk.iot.device.transport
 - uid: com.microsoft.azure.sdk.iot.device.CustomLogger
@@ -131,14 +131,7 @@ references:
   nameWithType: DeviceClient
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClient
   type: Class
-  summary: >-
-    <p>The public-facing API. Allows a single logical or physical device to connect to an IoT Hub. The IoT Hub client supports sending events to and receiving messages from an IoT Hub. </p>
-
-    <p>To support these workflows, the client library will provide the following abstractions: a message, with its payload and associated properties; and a client, which sends and receives messages. </p>
-
-    <p>The client buffers messages while the network is down, and re-sends them when the network comes back online. It also batches messages to improve communication efficiency (HTTPS only). </p>
-
-    <p>The client supports HTTPS 1.1 and AMQPS 1.0 transports. </p>
+  summary: "<p>The public-facing API. Allows a single logical or physical device to connect to an IoT Hub. The IoT Hub client supports sending events to and receiving messages from an IoT Hub. </p>\r\n<p>To support these workflows, the client library will provide the following abstractions: a message, with its payload and associated properties; and a client, which sends and receives messages. </p>\r\n<p>The client buffers messages while the network is down, and re-sends them when the network comes back online. It also batches messages to improve communication efficiency (HTTPS only). </p>\r\n<p>The client supports HTTPS 1.1 and AMQPS 1.0 transports. </p>"
   syntax:
     content: public class DeviceClient extends InternalClient
 - uid: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
@@ -148,7 +141,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.DeviceIO
@@ -158,7 +151,7 @@ references:
   nameWithType: DeviceIO
   fullName: com.microsoft.azure.sdk.iot.device.DeviceIO
   type: Class
-  summary: <p>The task scheduler for sending and receiving messages for the Device Client </p>
+  summary: "<p>The task scheduler for sending and receiving messages for the Device Client </p>"
   syntax:
     content: public class DeviceIO
 - uid: com.microsoft.azure.sdk.iot.device.FeedbackStatusCodeEnum
@@ -186,7 +179,7 @@ references:
   nameWithType: IotHubClientProtocol
   fullName: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubClientProtocol
 - uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionState
@@ -196,7 +189,7 @@ references:
   nameWithType: IotHubConnectionState
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionState
   type: Enum
-  summary: <p>The IoT Hub connection state value. </p>
+  summary: "<p>The IoT Hub connection state value. </p>"
   syntax:
     content: public enum IotHubConnectionState
 - uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStateCallback
@@ -206,10 +199,7 @@ references:
   nameWithType: IotHubConnectionStateCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStateCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub connection state callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="" data-throw-if-not-resolved="false">IotHubConnectionStateCallback#execute(IotHubConnectionState, Object)</xref> passing in the connection status (down, success, etc.). </p>
+  summary: "<p>An interface for an IoT Hub connection state callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"\" data-throw-if-not-resolved=\"false\">IotHubConnectionStateCallback#execute(IotHubConnectionState, Object)</xref> passing in the connection status (down, success, etc.). </p>"
   syntax:
     content: public interface IotHubConnectionStateCallback
 - uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeCallback
@@ -219,7 +209,7 @@ references:
   nameWithType: IotHubConnectionStatusChangeCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeCallback
   type: Interface
-  summary: <p>Callback interface for allowing users to respond to changes in the connectivity of this sdk to Iot Hub. </p>
+  summary: "<p>Callback interface for allowing users to respond to changes in the connectivity of this sdk to Iot Hub. </p>"
   syntax:
     content: public interface IotHubConnectionStatusChangeCallback
 - uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason
@@ -238,7 +228,7 @@ references:
   nameWithType: IotHubConnectionString
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionString
   type: Class
-  summary: <p>Parser for the Iothub connection string. </p>
+  summary: "<p>Parser for the Iothub connection string. </p>"
   syntax:
     content: public class IotHubConnectionString
 - uid: com.microsoft.azure.sdk.iot.device.IotHubEventCallback
@@ -248,10 +238,7 @@ references:
   nameWithType: IotHubEventCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubEventCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub event callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)" data-throw-if-not-resolved="false">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub event callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)\" data-throw-if-not-resolved=\"false\">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>"
   syntax:
     content: public interface IotHubEventCallback
 - uid: com.microsoft.azure.sdk.iot.device.IotHubMessageResult
@@ -261,7 +248,7 @@ references:
   nameWithType: IotHubMessageResult
   fullName: com.microsoft.azure.sdk.iot.device.IotHubMessageResult
   type: Enum
-  summary: <p>A return value from a message callback that instructs an IoT Hub to complete, abandon, or reject the message. </p>
+  summary: "<p>A return value from a message callback that instructs an IoT Hub to complete, abandon, or reject the message. </p>"
   syntax:
     content: public enum IotHubMessageResult
 - uid: com.microsoft.azure.sdk.iot.device.IotHubMethod
@@ -271,7 +258,7 @@ references:
   nameWithType: IotHubMethod
   fullName: com.microsoft.azure.sdk.iot.device.IotHubMethod
   type: Enum
-  summary: <p>Generic IoT Hub Method. </p>
+  summary: "<p>Generic IoT Hub Method. </p>"
   syntax:
     content: public enum IotHubMethod
 - uid: com.microsoft.azure.sdk.iot.device.IotHubResponseCallback
@@ -281,10 +268,7 @@ references:
   nameWithType: IotHubResponseCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubResponseCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub response callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.IotHubResponseCallback.execute(ResponseMessage,Object)" data-throw-if-not-resolved="false">IotHubResponseCallback#execute(ResponseMessage, Object)</xref> upon receiving a response from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub response callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.IotHubResponseCallback.execute(ResponseMessage,Object)\" data-throw-if-not-resolved=\"false\">IotHubResponseCallback#execute(ResponseMessage, Object)</xref> upon receiving a response from an IoT Hub. </p>"
   syntax:
     content: public interface IotHubResponseCallback
 - uid: com.microsoft.azure.sdk.iot.device.IotHubStatusCode
@@ -294,7 +278,7 @@ references:
   nameWithType: IotHubStatusCode
   fullName: com.microsoft.azure.sdk.iot.device.IotHubStatusCode
   type: Enum
-  summary: <p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>
+  summary: "<p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>"
   syntax:
     content: public enum IotHubStatusCode
 - uid: com.microsoft.azure.sdk.iot.device.Message
@@ -313,10 +297,7 @@ references:
   nameWithType: MessageCallback
   fullName: com.microsoft.azure.sdk.iot.device.MessageCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub message callback. </p>
-
-    <p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)" data-throw-if-not-resolved="false">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub message callback. </p>\r\n<p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)\" data-throw-if-not-resolved=\"false\">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>"
   syntax:
     content: public interface MessageCallback
 - uid: com.microsoft.azure.sdk.iot.device.MessageProperty
@@ -326,7 +307,7 @@ references:
   nameWithType: MessageProperty
   fullName: com.microsoft.azure.sdk.iot.device.MessageProperty
   type: Class
-  summary: <p>An IoT Hub message property. </p>
+  summary: "<p>An IoT Hub message property. </p>"
   syntax:
     content: public class MessageProperty
 - uid: com.microsoft.azure.sdk.iot.device.MessageType
@@ -336,7 +317,7 @@ references:
   nameWithType: MessageType
   fullName: com.microsoft.azure.sdk.iot.device.MessageType
   type: Enum
-  summary: <p>The IoTHub message type </p>
+  summary: "<p>The IoTHub message type </p>"
   syntax:
     content: public enum MessageType
 - uid: com.microsoft.azure.sdk.iot.device.ModuleClient
@@ -346,7 +327,7 @@ references:
   nameWithType: ModuleClient
   fullName: com.microsoft.azure.sdk.iot.device.ModuleClient
   type: Class
-  summary: <p>Public API for communicating from Edge Modules. A ModuleClient can be used to send messages from an Edge module to an EdgeHub or an IotHub. It can also send twin updates and listen for method calls from an EdgeHub or IotHub as well </p>
+  summary: "<p>Public API for communicating from Edge Modules. A ModuleClient can be used to send messages from an Edge module to an EdgeHub or an IotHub. It can also send twin updates and listen for method calls from an EdgeHub or IotHub as well </p>"
   syntax:
     content: public class ModuleClient extends InternalClient
 - uid: com.microsoft.azure.sdk.iot.device.ObjectLock
@@ -356,7 +337,7 @@ references:
   nameWithType: ObjectLock
   fullName: com.microsoft.azure.sdk.iot.device.ObjectLock
   type: Class
-  summary: <p>This class enables mocking of the base class wait and notify functions </p>
+  summary: "<p>This class enables mocking of the base class wait and notify functions </p>"
   syntax:
     content: public class ObjectLock
 - uid: com.microsoft.azure.sdk.iot.device.ProductInfo
@@ -366,7 +347,7 @@ references:
   nameWithType: ProductInfo
   fullName: com.microsoft.azure.sdk.iot.device.ProductInfo
   type: Class
-  summary: <p>Represents the complete user agent string to be included in all D2C communication. </p>
+  summary: "<p>Represents the complete user agent string to be included in all D2C communication. </p>"
   syntax:
     content: public class ProductInfo
 - uid: com.microsoft.azure.sdk.iot.device.ResponseMessage
@@ -376,7 +357,7 @@ references:
   nameWithType: ResponseMessage
   fullName: com.microsoft.azure.sdk.iot.device.ResponseMessage
   type: Class
-  summary: <p>Extend Message to support status response </p>
+  summary: "<p>Extend Message to support status response </p>"
   syntax:
     content: public class ResponseMessage extends Message
 - uid: com.microsoft.azure.sdk.iot.device.Template
@@ -395,10 +376,7 @@ references:
   nameWithType: TransportClient
   fullName: com.microsoft.azure.sdk.iot.device.TransportClient
   type: Class
-  summary: >-
-    <p>The public-facing API. Allows user to create a transport client abstracton object to use it for multiple devices to connect to an IoT Hub using the same connection (multiplexing). Handle to register devices to transport client and open / closeNow the connection. </p>
-
-    <p>The multiplexed connection is supported with AMQPS / AMQPS_WS protocols. </p>
+  summary: "<p>The public-facing API. Allows user to create a transport client abstracton object to use it for multiple devices to connect to an IoT Hub using the same connection (multiplexing). Handle to register devices to transport client and open / closeNow the connection. </p>\r\n<p>The multiplexed connection is supported with AMQPS / AMQPS_WS protocols. </p>"
   syntax:
     content: public class TransportClient
 - uid: com.microsoft.azure.sdk.iot.device.DeviceClientConfig.AuthType
@@ -417,7 +395,7 @@ references:
   nameWithType: DeviceIO.IotHubClientState
   fullName: com.microsoft.azure.sdk.iot.device.DeviceIO.IotHubClientState
   type: Enum
-  summary: <p>The state of the IoT Hub client's connection with the IoT Hub. </p>
+  summary: "<p>The state of the IoT Hub client's connection with the IoT Hub. </p>"
   syntax:
     content: protected enum IotHubClientState
 - uid: com.microsoft.azure.sdk.iot.device.TransportClient.TransportClientState

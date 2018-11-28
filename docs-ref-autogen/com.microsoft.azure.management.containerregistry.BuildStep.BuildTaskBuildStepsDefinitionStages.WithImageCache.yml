@@ -90,7 +90,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface BuildTaskBuildStepsDefinition extends BuildStep.BuildTaskBuildStepsDefinitionStages.Blank,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch,BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext,BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument,BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
@@ -100,7 +100,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch,BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext,BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument,Creatable<BuildStep>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImageCacheEnabled()
@@ -110,10 +110,7 @@ references:
   nameWithType: BuildStepImpl.withImageCacheEnabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImageCacheEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withImageCacheEnabled()
     return:
@@ -126,10 +123,7 @@ references:
   nameWithType: BuildStepImpl.withImageCacheDisabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImageCacheDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withImageCacheDisabled()
     return:

@@ -41,7 +41,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -54,12 +54,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.DefinitionStages.WithServiceEndpoint<ParentT>.ignoreMissingSqlServiceEndpoint()
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.DefinitionStages.WithServiceEndpoint<ParentT>.ignoreMissingSqlServiceEndpoint()
   type: Method
-  summary: >-
-    <p>Sets the flag to ignore the missing subnet's SQL service endpoint entry. </p>
-
-    <p>Virtual Machines in the subnet will not be able to connect to the SQL server until Microsoft.Sql service endpoint is added to the subnet</p>
-
-    <p></p>
+  summary: "<p>Sets the flag to ignore the missing subnet's SQL service endpoint entry. </p>\r\n<p>Virtual Machines in the subnet will not be able to connect to the SQL server until Microsoft.Sql service endpoint is added to the subnet</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRule.DefinitionStages.WithAttach<ParentT> ignoreMissingSqlServiceEndpoint()
     return:
@@ -72,10 +67,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.DefinitionStages.WithSubnet<ParentT>.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.DefinitionStages.WithSubnet<ParentT>.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Sets the virtual network ID and the subnet name for the SQL server Virtual Network Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the virtual network ID and the subnet name for the SQL server Virtual Network Rule.</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRule.DefinitionStages.WithServiceEndpoint<ParentT> withSubnet(String networkId, String subnetName)
     parameters:
@@ -95,10 +87,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the SQL Server Virtual Network Rule definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the SQL Server Virtual Network Rule definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends SqlVirtualNetworkRule.DefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -112,7 +101,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.DefinitionStages.WithSubnet<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.DefinitionStages.WithSubnet<ParentT>
   type: Interface
-  summary: <p>The SQL Virtual Network Rule definition to set the virtual network ID and the subnet name. </p>
+  summary: "<p>The SQL Virtual Network Rule definition to set the virtual network ID and the subnet name. </p>"
   syntax:
     content: public interface WithSubnet<ParentT>
     typeParameters:
@@ -125,7 +114,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.DefinitionStages.WithServiceEndpoint<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.DefinitionStages.WithServiceEndpoint<ParentT>
   type: Interface
-  summary: <p>The SQL Virtual Network Rule definition to set ignore flag for the missing subnet's SQL service endpoint entry. </p>
+  summary: "<p>The SQL Virtual Network Rule definition to set ignore flag for the missing subnet's SQL service endpoint entry. </p>"
   syntax:
     content: public interface WithServiceEndpoint<ParentT>
     typeParameters:
@@ -138,10 +127,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Virtual Network Rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the SQL Virtual Network Rule definition can be attached to the parent SQL Server definition. </p>
+  summary: "<p>The final stage of the SQL Virtual Network Rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the SQL Virtual Network Rule definition can be attached to the parent SQL Server definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

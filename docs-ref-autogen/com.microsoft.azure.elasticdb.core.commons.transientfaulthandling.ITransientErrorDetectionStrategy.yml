@@ -70,7 +70,7 @@ references:
   nameWithType: SqlDatabaseTransientErrorDetectionStrategy
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.SqlDatabaseTransientErrorDetectionStrategy
   type: Class
-  summary: <p>Provides the transient error detection logic for transient faults that are specific to SQL Database. </p>
+  summary: "<p>Provides the transient error detection logic for transient faults that are specific to SQL Database. </p>"
   syntax:
     content: public class SqlDatabaseTransientErrorDetectionStrategy
 - uid: com.microsoft.azure.elasticdb.query.multishard.MultiShardQueryTransientErrorDetectionStrategy
@@ -80,7 +80,7 @@ references:
   nameWithType: MultiShardQueryTransientErrorDetectionStrategy
   fullName: com.microsoft.azure.elasticdb.query.multishard.MultiShardQueryTransientErrorDetectionStrategy
   type: Class
-  summary: <p>Provides the transient error detection logic for transient faults that are specific to cross shard query. </p>
+  summary: "<p>Provides the transient error detection logic for transient faults that are specific to cross shard query. </p>"
   syntax:
     content: public class MultiShardQueryTransientErrorDetectionStrategy
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementTransientErrorDetectionStrategy
@@ -90,7 +90,7 @@ references:
   nameWithType: ShardManagementTransientErrorDetectionStrategy
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementTransientErrorDetectionStrategy
   type: Class
-  summary: <p>Provides the transient error detection logic for transient faults that are specific to Shard map manager. </p>
+  summary: "<p>Provides the transient error detection logic for transient faults that are specific to Shard map manager. </p>"
   syntax:
     content: public class ShardManagementTransientErrorDetectionStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.SqlDatabaseTransientErrorDetectionStrategy.isTransient(Exception)
@@ -100,10 +100,7 @@ references:
   nameWithType: SqlDatabaseTransientErrorDetectionStrategy.isTransient(Exception ex)
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.SqlDatabaseTransientErrorDetectionStrategy.isTransient(Exception ex)
   type: Method
-  summary: >-
-    <p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>
-
-    <p></p>
+  summary: "<p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>\r\n<p></p>"
   syntax:
     content: public boolean isTransient(Exception ex)
     parameters:
@@ -120,10 +117,7 @@ references:
   nameWithType: ShardManagementTransientErrorDetectionStrategy.isTransient(Exception ex)
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementTransientErrorDetectionStrategy.isTransient(Exception ex)
   type: Method
-  summary: >-
-    <p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>
-
-    <p></p>
+  summary: "<p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>\r\n<p></p>"
   syntax:
     content: public boolean isTransient(Exception ex)
     parameters:
@@ -140,10 +134,7 @@ references:
   nameWithType: MultiShardQueryTransientErrorDetectionStrategy.isTransient(Exception ex)
   fullName: com.microsoft.azure.elasticdb.query.multishard.MultiShardQueryTransientErrorDetectionStrategy.isTransient(Exception ex)
   type: Method
-  summary: >-
-    <p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>
-
-    <p></p>
+  summary: "<p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>\r\n<p></p>"
   syntax:
     content: public boolean isTransient(Exception ex)
     parameters:

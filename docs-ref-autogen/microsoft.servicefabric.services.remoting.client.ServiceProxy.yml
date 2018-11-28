@@ -90,7 +90,7 @@ references:
   nameWithType: ServiceProxyBase
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxyBase
   type: Class
-  summary: <p>Provides the base implementation for the proxy to the remoted IService interfaces. </p>
+  summary: "<p>Provides the base implementation for the proxy to the remoted IService interfaces. </p>"
   syntax:
     content: public class ServiceProxyBase
 - uid: microsoft.servicefabric.services.remoting.client.ServiceProxyBase.getServiceInterfaceType()
@@ -100,10 +100,7 @@ references:
   nameWithType: ServiceProxyBase.getServiceInterfaceType()
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxyBase.getServiceInterfaceType()
   type: Method
-  summary: >-
-    <p>The interface type that is being remoted.</p>
-
-    <p></p>
+  summary: "<p>The interface type that is being remoted.</p>\r\n<p></p>"
   syntax:
     content: public Class<?> getServiceInterfaceType()
     return:
@@ -116,7 +113,7 @@ references:
   nameWithType: ServiceRemotingPartitionClient
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingPartitionClient
   type: Interface
-  summary: <p>Defines the interface for the client that communicate over remoting to a particular replica of a service partition. </p>
+  summary: "<p>Defines the interface for the client that communicate over remoting to a particular replica of a service partition. </p>"
   syntax:
     content: public interface ServiceRemotingPartitionClient
 - uid: microsoft.servicefabric.services.remoting.client.ServiceProxyBase.getServicePartitionClient()
@@ -126,10 +123,7 @@ references:
   nameWithType: ServiceProxyBase.getServicePartitionClient()
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxyBase.getServicePartitionClient()
   type: Method
-  summary: >-
-    <p>The service partition client used to send requests to the service.</p>
-
-    <p></p>
+  summary: "<p>The service partition client used to send requests to the service.</p>\r\n<p></p>"
   syntax:
     content: public ServiceRemotingPartitionClient getServicePartitionClient()
     return:

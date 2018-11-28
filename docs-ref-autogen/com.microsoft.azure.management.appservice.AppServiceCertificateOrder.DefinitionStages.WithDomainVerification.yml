@@ -62,7 +62,7 @@ references:
   nameWithType: AppServiceCertificateOrder.DefinitionStages.WithDomainVerificationFromWebApp
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithDomainVerificationFromWebApp
   type: Interface
-  summary: <p>An app service certificate order definition allowing more domain verification methods to be set. </p>
+  summary: "<p>An app service certificate order definition allowing more domain verification methods to be set. </p>"
   syntax:
     content: public interface WithDomainVerificationFromWebApp
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithKeyVault
@@ -72,7 +72,7 @@ references:
   nameWithType: AppServiceCertificateOrder.DefinitionStages.WithKeyVault
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithKeyVault
   type: Interface
-  summary: <p>An app service certificate order definition allowing more domain verification methods to be set. </p>
+  summary: "<p>An app service certificate order definition allowing more domain verification methods to be set. </p>"
   syntax:
     content: public interface WithKeyVault
 - uid: com.microsoft.azure.management.appservice.AppServiceDomain
@@ -82,9 +82,6 @@ references:
   nameWithType: AppServiceDomain
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of a domain.</p>
-
-    <p>Domains in Azure are purchased from 3rd party domain providers. By calling <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> or <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()" data-throw-if-not-resolved="false">Creatable#createAsync()</xref> you agree to the agreements listed in <xref uid="com.microsoft.azure.management.appservice.AppServiceDomains.listAgreements(String)" data-throw-if-not-resolved="false">AppServiceDomains#listAgreements(String)</xref>. </p>
+  summary: "<p>An immutable client-side representation of a domain.</p>\r\n<p>Domains in Azure are purchased from 3rd party domain providers. By calling <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> or <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()\" data-throw-if-not-resolved=\"false\">Creatable#createAsync()</xref> you agree to the agreements listed in <xref uid=\"com.microsoft.azure.management.appservice.AppServiceDomains.listAgreements(String)\" data-throw-if-not-resolved=\"false\">AppServiceDomains#listAgreements(String)</xref>. </p>"
   syntax:
     content: public interface AppServiceDomain extends GroupableResource<AppServiceManager, DomainInner>,HasName,Refreshable<AppServiceDomain>,Updatable<AppServiceDomain.Update>

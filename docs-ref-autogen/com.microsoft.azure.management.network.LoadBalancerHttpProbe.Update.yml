@@ -35,12 +35,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -53,7 +48,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithIntervalInSeconds.withIntervalInSeconds(int seconds)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithIntervalInSeconds.withIntervalInSeconds(int seconds)
   type: Method
-  summary: <p>Specifies the interval between probes, in seconds. </p>
+  summary: "<p>Specifies the interval between probes, in seconds. </p>"
   syntax:
     content: public Update withIntervalInSeconds(int seconds)
     parameters:
@@ -70,7 +65,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithNumberOfProbes.withNumberOfProbes(int probes)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithNumberOfProbes.withNumberOfProbes(int probes)
   type: Method
-  summary: <p>Specifies the number of unsuccessful probes before failure is determined. </p>
+  summary: "<p>Specifies the number of unsuccessful probes before failure is determined. </p>"
   syntax:
     content: public Update withNumberOfProbes(int probes)
     parameters:
@@ -87,7 +82,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithPort.withPort(int port)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithPort.withPort(int port)
   type: Method
-  summary: <p>Specifies the port number to call for health monitoring. </p>
+  summary: "<p>Specifies the port number to call for health monitoring. </p>"
   syntax:
     content: public Update withPort(int port)
     parameters:
@@ -104,7 +99,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithRequestPath.withRequestPath(String requestPath)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithRequestPath.withRequestPath(String requestPath)
   type: Method
-  summary: <p>Specifies the HTTP request path for the probe to monitor. </p>
+  summary: "<p>Specifies the HTTP request path for the probe to monitor. </p>"
   syntax:
     content: public Update withRequestPath(String requestPath)
     parameters:
@@ -121,10 +116,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -138,7 +130,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithIntervalInSeconds
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithIntervalInSeconds
   type: Interface
-  summary: <p>The stage of the HTTP probe update allowing to modify the probe interval. </p>
+  summary: "<p>The stage of the HTTP probe update allowing to modify the probe interval. </p>"
   syntax:
     content: public interface WithIntervalInSeconds
 - uid: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithNumberOfProbes
@@ -148,7 +140,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithNumberOfProbes
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithNumberOfProbes
   type: Interface
-  summary: <p>The stage of the HTTP probe update allowing to modify the number of unsuccessful probes before failure is determined. </p>
+  summary: "<p>The stage of the HTTP probe update allowing to modify the number of unsuccessful probes before failure is determined. </p>"
   syntax:
     content: public interface WithNumberOfProbes
 - uid: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithPort
@@ -158,7 +150,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithPort
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithPort
   type: Interface
-  summary: <p>The stage of the HTTP probe update allowing to modify the port number to monitor. </p>
+  summary: "<p>The stage of the HTTP probe update allowing to modify the port number to monitor. </p>"
   syntax:
     content: public interface WithPort
 - uid: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithRequestPath
@@ -168,6 +160,6 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateStages.WithRequestPath
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateStages.WithRequestPath
   type: Interface
-  summary: <p>The stage of the HTTP probe update allowing to modify the HTTP request path for the probe to monitor. </p>
+  summary: "<p>The stage of the HTTP probe update allowing to modify the HTTP request path for the probe to monitor. </p>"
   syntax:
     content: public interface WithRequestPath

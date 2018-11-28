@@ -58,7 +58,7 @@ references:
   nameWithType: Disk.Definition
   fullName: com.microsoft.azure.management.compute.Disk.Definition
   type: Interface
-  summary: <p>The entirety of the managed disk definition. </p>
+  summary: "<p>The entirety of the managed disk definition. </p>"
   syntax:
     content: public interface Definition extends Disk.DefinitionStages.Blank,Disk.DefinitionStages.WithGroup,Disk.DefinitionStages.WithDiskSource,Disk.DefinitionStages.WithWindowsDiskSource,Disk.DefinitionStages.WithLinuxDiskSource,Disk.DefinitionStages.WithData,Disk.DefinitionStages.WithDataDiskSource,Disk.DefinitionStages.WithDataDiskFromVhd,Disk.DefinitionStages.WithDataDiskFromDisk,Disk.DefinitionStages.WithDataDiskFromSnapshot,Disk.DefinitionStages.WithCreateAndSize,Disk.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDiskSource
@@ -68,7 +68,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDiskSource
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDiskSource
   type: Interface
-  summary: <p>The stage of a managed disk definition allowing to choose OS source or data source. </p>
+  summary: "<p>The stage of a managed disk definition allowing to choose OS source or data source. </p>"
   syntax:
     content: public interface WithDiskSource
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskSource
@@ -78,6 +78,6 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskSource
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskSource
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose data source. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose data source. </p>"
   syntax:
     content: public interface WithDataDiskSource

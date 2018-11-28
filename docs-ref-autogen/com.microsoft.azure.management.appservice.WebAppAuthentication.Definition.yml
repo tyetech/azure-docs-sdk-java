@@ -48,7 +48,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -61,7 +61,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withActiveDirectory(String clientId, String issuerUrl)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withActiveDirectory(String clientId, String issuerUrl)
   type: Method
-  summary: <p>Specifies the provider to be Active Directory and its client ID and issuer URL. </p>
+  summary: "<p>Specifies the provider to be Active Directory and its client ID and issuer URL. </p>"
   syntax:
     content: public WithAttach<ParentT> withActiveDirectory(String clientId, String issuerUrl)
     parameters:
@@ -81,7 +81,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithExternalRedirectUrls<ParentT>.withAllowedExternalRedirectUrl(String url)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithExternalRedirectUrls<ParentT>.withAllowedExternalRedirectUrl(String url)
   type: Method
-  summary: <p>Adds an external redirect URL. </p>
+  summary: "<p>Adds an external redirect URL. </p>"
   syntax:
     content: public WithAttach<ParentT> withAllowedExternalRedirectUrl(String url)
     parameters:
@@ -98,7 +98,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider<ParentT>.withAnonymousAuthentication()
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider<ParentT>.withAnonymousAuthentication()
   type: Method
-  summary: <p>Does not require login by default. </p>
+  summary: "<p>Does not require login by default. </p>"
   syntax:
     content: public WithAttach<ParentT> withAnonymousAuthentication()
     return:
@@ -111,7 +111,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider<ParentT>.withDefaultAuthenticationProvider(BuiltInAuthenticationProvider provider)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider<ParentT>.withDefaultAuthenticationProvider(BuiltInAuthenticationProvider provider)
   type: Method
-  summary: <p>Specifies the default authentication provider. </p>
+  summary: "<p>Specifies the default authentication provider. </p>"
   syntax:
     content: public WithAttach<ParentT> withDefaultAuthenticationProvider(BuiltInAuthenticationProvider provider)
     parameters:
@@ -128,7 +128,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withFacebook(String appId, String appSecret)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withFacebook(String appId, String appSecret)
   type: Method
-  summary: <p>Specifies the provider to be Facebook and its app ID and app secret. </p>
+  summary: "<p>Specifies the provider to be Facebook and its app ID and app secret. </p>"
   syntax:
     content: public WithAttach<ParentT> withFacebook(String appId, String appSecret)
     parameters:
@@ -148,7 +148,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withGoogle(String clientId, String clientSecret)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withGoogle(String clientId, String clientSecret)
   type: Method
-  summary: <p>Specifies the provider to be Google and its client ID and client secret. </p>
+  summary: "<p>Specifies the provider to be Google and its client ID and client secret. </p>"
   syntax:
     content: public WithAttach<ParentT> withGoogle(String clientId, String clientSecret)
     parameters:
@@ -168,7 +168,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withMicrosoft(String clientId, String clientSecret)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withMicrosoft(String clientId, String clientSecret)
   type: Method
-  summary: <p>Specifies the provider to be Microsoft and its client ID and client secret. </p>
+  summary: "<p>Specifies the provider to be Microsoft and its client ID and client secret. </p>"
   syntax:
     content: public WithAttach<ParentT> withMicrosoft(String clientId, String clientSecret)
     parameters:
@@ -188,7 +188,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>.withTokenStore(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithTokenStore<ParentT>.withTokenStore(boolean enabled)
   type: Method
-  summary: <p>Specifies if token store should be enabled. </p>
+  summary: "<p>Specifies if token store should be enabled. </p>"
   syntax:
     content: public WithAttach<ParentT> withTokenStore(boolean enabled)
     parameters:
@@ -205,7 +205,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withTwitter(String apiKey, String apiSecret)
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAuthenticationProvider<ParentT>.withTwitter(String apiKey, String apiSecret)
   type: Method
-  summary: <p>Specifies the provider to be Twitter and its API key and API secret. </p>
+  summary: "<p>Specifies the provider to be Twitter and its API key and API secret. </p>"
   syntax:
     content: public WithAttach<ParentT> withTwitter(String apiKey, String apiSecret)
     parameters:
@@ -225,7 +225,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a web app authentication definition as part of a definition of a web app. </p>
+  summary: "<p>The first stage of a web app authentication definition as part of a definition of a web app. </p>"
   syntax:
     content: public interface Blank<ParentT> extends WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider<ParentT>
     typeParameters:
@@ -239,7 +239,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider<ParentT>
   type: Interface
-  summary: <p>A web app authentication definition allowing the default authentication provider to be set. </p>
+  summary: "<p>A web app authentication definition allowing the default authentication provider to be set. </p>"
   syntax:
     content: public interface WithDefaultAuthenticationProvider<ParentT>
     typeParameters:
@@ -253,10 +253,7 @@ references:
   nameWithType: WebAppAuthentication.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the web app authentication definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the web app authentication definition can be attached to the parent web app definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the web app authentication definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the web app authentication definition can be attached to the parent web app definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -270,7 +267,7 @@ references:
   nameWithType: Attachable<ParentT>.attach()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.attach()
   type: Method
-  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  summary: "<p>Attaches this child object's definition to its parent's definition. </p>"
   syntax:
     content: public ParentT attach()
     return:

@@ -228,7 +228,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/StorageURL.java
-    startLine: 170
+    startLine: 171
   package: com.microsoft.azure.storage.blob
   syntax:
     content: public String toString()
@@ -248,7 +248,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/StorageURL.java
-    startLine: 177
+    startLine: 178
   package: com.microsoft.azure.storage.blob
   syntax:
     content: public URL toURL()
@@ -308,7 +308,7 @@ references:
   nameWithType: BlobURL
   fullName: com.microsoft.azure.storage.blob.BlobURL
   type: Class
-  summary: '<p>Represents a URL to a blob of any type: block, append, or page. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ContainerURL" data-throw-if-not-resolved="false">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs">Azure Docs</a> for more information. </p>'
+  summary: "<p>Represents a URL to a blob of any type: block, append, or page. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ContainerURL\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs\">Azure Docs</a> for more information. </p>"
   syntax:
     content: public class BlobURL extends StorageURL
 - uid: com.microsoft.azure.storage.blob.ContainerURL
@@ -318,7 +318,7 @@ references:
   nameWithType: ContainerURL
   fullName: com.microsoft.azure.storage.blob.ContainerURL
   type: Class
-  summary: <p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ServiceURL" data-throw-if-not-resolved="false">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">Azure Docs</a> for more information on containers. </p>
+  summary: "<p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ServiceURL\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">Azure Docs</a> for more information on containers. </p>"
   syntax:
     content: public class ContainerURL extends StorageURL
 - uid: com.microsoft.azure.storage.blob.ServiceURL
@@ -328,7 +328,7 @@ references:
   nameWithType: ServiceURL
   fullName: com.microsoft.azure.storage.blob.ServiceURL
   type: Class
-  summary: <p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please see <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">here</a> for more information on containers. </p>
+  summary: "<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please see <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">here</a> for more information on containers. </p>"
   syntax:
     content: public class ServiceURL extends StorageURL
 - uid: com.microsoft.azure.storage.blob.ICredentials
@@ -338,7 +338,7 @@ references:
   nameWithType: ICredentials
   fullName: com.microsoft.azure.storage.blob.ICredentials
   type: Interface
-  summary: <p>Credentials represent any credential type it is used to create a credential policy Factory. </p>
+  summary: "<p>Credentials represent any credential type it is used to create a credential policy Factory. </p>"
   syntax:
     content: public interface ICredentials
 - uid: com.microsoft.azure.storage.blob.PipelineOptions
@@ -348,6 +348,6 @@ references:
   nameWithType: PipelineOptions
   fullName: com.microsoft.azure.storage.blob.PipelineOptions
   type: Class
-  summary: <p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid="com.microsoft.azure.storage.blob.StorageURL" data-throw-if-not-resolved="false">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>
+  summary: "<p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid=\"com.microsoft.azure.storage.blob.StorageURL\" data-throw-if-not-resolved=\"false\">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>"
   syntax:
     content: public class PipelineOptions

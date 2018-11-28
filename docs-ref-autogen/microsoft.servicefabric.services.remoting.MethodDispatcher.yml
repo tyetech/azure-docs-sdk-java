@@ -167,7 +167,7 @@ references:
   nameWithType: MethodDispatcherBase
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase
   type: Class
-  summary: <p>The base class used by remoting code generator to generate the type that dispatches requests from the client to the right interface and method of the remoted object. </p>
+  summary: "<p>The base class used by remoting code generator to generate the type that dispatches requests from the client to the right interface and method of the remoted object. </p>"
   syntax:
     content: public class MethodDispatcherBase
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.getInterfaceId()
@@ -177,10 +177,7 @@ references:
   nameWithType: MethodDispatcherBase.getInterfaceId()
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.getInterfaceId()
   type: Method
-  summary: >-
-    <p>Interface Id is used to identify remoting Interfaces.</p>
-
-    <p></p>
+  summary: "<p>Interface Id is used to identify remoting Interfaces.</p>\r\n<p></p>"
   syntax:
     content: public int getInterfaceId()
     return:
@@ -193,10 +190,7 @@ references:
   nameWithType: MethodDispatcherBase.dispatchAsync(Object objectImplementation, int methodId, Object requestMsgBody, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.dispatchAsync(Object objectImplementation, int methodId, Object requestMsgBody, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is implemented by the generated method dispatcher to dispatch request to the specified methodId of the interface implemented by the remoted object.</p>
-
-    <p></p>
+  summary: "<p>This method is implemented by the generated method dispatcher to dispatch request to the specified methodId of the interface implemented by the remoted object.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Object> dispatchAsync(Object objectImplementation, int methodId, Object requestMsgBody, CancellationToken cancellationToken)
     parameters:
@@ -221,7 +215,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.dispatch(Object,int,Object)
@@ -231,10 +225,7 @@ references:
   nameWithType: MethodDispatcherBase.dispatch(Object objectImplementation, int methodId, Object requestMsgBody)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.dispatch(Object objectImplementation, int methodId, Object requestMsgBody)
   type: Method
-  summary: >-
-    <p>This method is used to dispatch one way messages to the specified methodId of the interface implemented by the remoted object.</p>
-
-    <p></p>
+  summary: "<p>This method is used to dispatch one way messages to the specified methodId of the interface implemented by the remoted object.</p>\r\n<p></p>"
   syntax:
     content: public void dispatch(Object objectImplementation, int methodId, Object requestMsgBody)
     parameters:

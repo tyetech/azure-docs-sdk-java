@@ -43,10 +43,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -63,10 +60,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(String resourceId)
     parameters:
@@ -83,12 +77,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddress<ReturnT>.withNewPublicIPAddress(String leafDnsLabel)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddress<ReturnT>.withNewPublicIPAddress(String leafDnsLabel)
   type: Method
-  summary: >-
-    <p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associates it with the resource. </p>
-
-    <p>The internal name for the public IP address will be derived from the DNS label.</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associates it with the resource. </p>\r\n<p>The internal name for the public IP address will be derived from the DNS label.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withNewPublicIPAddress(String leafDnsLabel)
     parameters:
@@ -105,10 +94,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddressNoDnsLabel<ReturnT>.withNewPublicIPAddress(Creatable<PublicIPAddress> creatable)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddressNoDnsLabel<ReturnT>.withNewPublicIPAddress(Creatable<PublicIPAddress> creatable)
   type: Method
-  summary: >-
-    <p>Creates a new public IP address to associate with the resource.</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address to associate with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withNewPublicIPAddress(Creatable<PublicIPAddress> creatable)
     parameters:
@@ -125,12 +111,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddressNoDnsLabel<ReturnT>.withNewPublicIPAddress()
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddressNoDnsLabel<ReturnT>.withNewPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Creates a new public IP address in the same region and group as the resource and associates it with the resource. </p>
-
-    <p>The internal name and DNS label for the public IP address will be derived from the resource's name.</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address in the same region and group as the resource and associates it with the resource. </p>\r\n<p>The internal name and DNS label for the public IP address will be derived from the resource's name.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withNewPublicIPAddress()
     return:
@@ -143,10 +124,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithExistingPublicIPAddress<ReturnT>
   type: Interface
-  summary: >-
-    <p>The stage of the definition allowing to associate the resource with an existing public IP address.</p>
-
-    <p></p>
+  summary: "<p>The stage of the definition allowing to associate the resource with an existing public IP address.</p>\r\n<p></p>"
   syntax:
     content: public interface WithExistingPublicIPAddress<ReturnT>
     typeParameters:
@@ -160,10 +138,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddress<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddress<ReturnT>
   type: Interface
-  summary: >-
-    <p>The stage of the definition allowing to associate the resource with a new public IP address.</p>
-
-    <p></p>
+  summary: "<p>The stage of the definition allowing to associate the resource with a new public IP address.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNewPublicIPAddress<ReturnT> extends HasPublicIPAddress.DefinitionStages.WithNewPublicIPAddressNoDnsLabel<ReturnT>
     typeParameters:

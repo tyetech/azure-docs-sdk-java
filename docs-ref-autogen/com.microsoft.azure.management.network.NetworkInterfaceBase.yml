@@ -423,7 +423,7 @@ references:
   nameWithType: HasManager<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager<ManagerT>
   type: Interface
-  summary: <p>An interface representing a model that exposes a management client. </p>
+  summary: "<p>An interface representing a model that exposes a management client. </p>"
   syntax:
     content: public interface HasManager<ManagerT>
     typeParameters:
@@ -437,10 +437,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -454,7 +451,7 @@ references:
   nameWithType: NetworkInterface
   fullName: com.microsoft.azure.management.network.NetworkInterface
   type: Interface
-  summary: <p>Network interface. </p>
+  summary: "<p>Network interface. </p>"
   syntax:
     content: public interface NetworkInterface extends NetworkInterfaceBase,GroupableResource<NetworkManager, NetworkInterfaceInner>,Refreshable<NetworkInterface>,Updatable<NetworkInterface.Update>
 - uid: com.microsoft.azure.management.network.VirtualMachineScaleSetNetworkInterface
@@ -464,7 +461,7 @@ references:
   nameWithType: VirtualMachineScaleSetNetworkInterface
   fullName: com.microsoft.azure.management.network.VirtualMachineScaleSetNetworkInterface
   type: Interface
-  summary: <p>Virtual machine scale set network interface. </p>
+  summary: "<p>Virtual machine scale set network interface. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetNetworkInterface
 - uid: com.microsoft.azure.management.network.NetworkSecurityGroup
@@ -474,7 +471,7 @@ references:
   nameWithType: NetworkSecurityGroup
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
   type: Interface
-  summary: <p>Network security group. </p>
+  summary: "<p>Network security group. </p>"
   syntax:
     content: public interface NetworkSecurityGroup
 - uid: com.microsoft.azure.management.network.IPAllocationMethod
@@ -484,6 +481,6 @@ references:
   nameWithType: IPAllocationMethod
   fullName: com.microsoft.azure.management.network.IPAllocationMethod
   type: Class
-  summary: <p>Defines values for IPAllocationMethod. </p>
+  summary: "<p>Defines values for IPAllocationMethod. </p>"
   syntax:
     content: public class IPAllocationMethod

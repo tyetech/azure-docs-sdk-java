@@ -45,7 +45,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -58,10 +58,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithDefaultStatus<ParentT>.enabled(boolean defaultStatus)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithDefaultStatus<ParentT>.enabled(boolean defaultStatus)
   type: Method
-  summary: >-
-    <p>Specifies the default status of the webhook; default is "enabled".</p>
-
-    <p></p>
+  summary: "<p>Specifies the default status of the webhook; default is \"enabled\".</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> enabled(boolean defaultStatus)
     parameters:
@@ -78,12 +75,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithCustomHeaders<ParentT>.withCustomHeader(String name, String value)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders<ParentT>.withCustomHeader(String name, String value)
   type: Method
-  summary: >-
-    <p>Specifies a custom header that will be added to notifications. </p>
-
-    <p>Consecutive calls to this method will add additional headers.</p>
-
-    <p></p>
+  summary: "<p>Specifies a custom header that will be added to notifications. </p>\r\n<p>Consecutive calls to this method will add additional headers.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withCustomHeader(String name, String value)
     parameters:
@@ -103,10 +95,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithCustomHeaders<ParentT>.withCustomHeaders(Map<String, String> customHeaders)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders<ParentT>.withCustomHeaders(Map<String, String> customHeaders)
   type: Method
-  summary: >-
-    <p>Specifies the custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withCustomHeaders(Map<String, String> customHeaders)
     parameters:
@@ -123,12 +112,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>.withRepositoriesScope(String repositoriesScope)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope<ParentT>.withRepositoriesScope(String repositoriesScope)
   type: Method
-  summary: >-
-    <p>Specifies the scope of repositories where the event can be triggered. </p>
-
-    <p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of repositories where the event can be triggered. </p>\r\n<p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withRepositoriesScope(String repositoriesScope)
     parameters:
@@ -145,7 +129,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -165,7 +149,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -182,10 +166,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithCustomHeaders<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCustomHeaders<ParentT>
     typeParameters:
@@ -199,10 +180,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRepositoriesScope<ParentT>
     typeParameters:
@@ -216,10 +194,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithDefaultStatus<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithDefaultStatus<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDefaultStatus<ParentT>
     typeParameters:
@@ -233,10 +208,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -250,7 +222,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -264,10 +236,7 @@ references:
   nameWithType: Webhook.WebhookDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.WebhookDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Grouping of the container register webhook definitions.</p>
-
-    <p></p>
+  summary: "<p>Grouping of the container register webhook definitions.</p>\r\n<p></p>"
   syntax:
     content: public interface WebhookDefinition<ParentT> extends Webhook.DefinitionStages.Blank<ParentT>,Webhook.DefinitionStages.WithTriggerWhen<ParentT>,Webhook.DefinitionStages.WithServiceUri<ParentT>,Webhook.DefinitionStages.WithAttach<ParentT>
     typeParameters:

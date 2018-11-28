@@ -132,7 +132,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.SqlServerSecurityAlertPolicyOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.SqlServerSecurityAlertPolicyOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlServerSecurityAlertPolicyOperationsDefinition extends SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.sql.SqlServer
@@ -142,6 +142,6 @@ references:
   nameWithType: SqlServer
   fullName: com.microsoft.azure.management.sql.SqlServer
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server. </p>"
   syntax:
     content: public interface SqlServer extends GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>,GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>

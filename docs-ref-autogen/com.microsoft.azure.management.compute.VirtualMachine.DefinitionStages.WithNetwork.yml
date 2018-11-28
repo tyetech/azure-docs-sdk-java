@@ -142,10 +142,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
   type: Method
-  summary: >-
-    <p>Associates an existing network interface with the virtual machine as its primary network interface.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing network interface with the virtual machine as its primary network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withExistingPrimaryNetworkInterface(NetworkInterface networkInterface)
     parameters:
@@ -162,10 +159,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withNewPrimaryNetworkInterface(Creatable<NetworkInterface> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface.withNewPrimaryNetworkInterface(Creatable<NetworkInterface> creatable)
   type: Method
-  summary: >-
-    <p>Creates a new network interface to associate with the virtual machine as its primary network interface, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Creates a new network interface to associate with the virtual machine as its primary network interface, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withNewPrimaryNetworkInterface(Creatable<NetworkInterface> creatable)
     parameters:
@@ -182,7 +176,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify the primary network interface. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify the primary network interface. </p>"
   syntax:
     content: public interface WithPrimaryNetworkInterface
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionShared
@@ -192,7 +186,7 @@ references:
   nameWithType: VirtualMachine.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachine.DefinitionStages.Blank,VirtualMachine.DefinitionStages.WithGroup,VirtualMachine.DefinitionStages.WithNetwork,VirtualMachine.DefinitionStages.WithSubnet,VirtualMachine.DefinitionStages.WithPrivateIP,VirtualMachine.DefinitionStages.WithPublicIPAddress,VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface,VirtualMachine.DefinitionStages.WithOS,VirtualMachine.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionUnmanaged
@@ -202,7 +196,7 @@ references:
   nameWithType: VirtualMachine.DefinitionUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionUnmanaged
   type: Interface
-  summary: <p>The entirety of the unmanaged disk based virtual machine definition. </p>
+  summary: "<p>The entirety of the unmanaged disk based virtual machine definition. </p>"
   syntax:
     content: public interface DefinitionUnmanaged extends VirtualMachine.DefinitionStages.Blank,VirtualMachine.DefinitionStages.WithGroup,VirtualMachine.DefinitionStages.WithNetwork,VirtualMachine.DefinitionStages.WithSubnet,VirtualMachine.DefinitionStages.WithPrivateIP,VirtualMachine.DefinitionStages.WithPublicIPAddress,VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface,VirtualMachine.DefinitionStages.WithOS,VirtualMachine.DefinitionStages.WithLinuxRootUsernameUnmanaged,VirtualMachine.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminUsernameUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminPasswordUnmanaged,VirtualMachine.DefinitionStages.WithFromImageCreateOptionsUnmanaged,VirtualMachine.DefinitionStages.WithLinuxCreateUnmanaged,VirtualMachine.DefinitionStages.WithWindowsCreateUnmanaged,VirtualMachine.DefinitionStages.WithUnmanagedCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrivateIP
@@ -212,7 +206,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPrivateIP
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPrivateIP
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify a private IP address within a virtual network subnet. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify a private IP address within a virtual network subnet. </p>"
   syntax:
     content: public interface WithPrivateIP
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -222,10 +216,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -239,7 +230,7 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithSubnet
@@ -249,6 +240,6 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to specify the virtual network subnet for a new primary network interface. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to specify the virtual network subnet for a new primary network interface. </p>"
   syntax:
     content: public interface WithSubnet

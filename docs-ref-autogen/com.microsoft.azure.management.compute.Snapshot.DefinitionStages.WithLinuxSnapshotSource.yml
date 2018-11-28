@@ -184,7 +184,7 @@ references:
   nameWithType: Snapshot.Definition
   fullName: com.microsoft.azure.management.compute.Snapshot.Definition
   type: Interface
-  summary: <p>The entirety of the managed snapshot definition. </p>
+  summary: "<p>The entirety of the managed snapshot definition. </p>"
   syntax:
     content: public interface Definition extends Snapshot.DefinitionStages.Blank,Snapshot.DefinitionStages.WithGroup,Snapshot.DefinitionStages.WithSnapshotSource,Snapshot.DefinitionStages.WithWindowsSnapshotSource,Snapshot.DefinitionStages.WithLinuxSnapshotSource,Snapshot.DefinitionStages.WithDataSnapshotSource,Snapshot.DefinitionStages.WithDataSnapshotFromVhd,Snapshot.DefinitionStages.WithDataSnapshotFromDisk,Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot,Snapshot.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithSnapshotSource
@@ -194,7 +194,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithSnapshotSource
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithSnapshotSource
   type: Interface
-  summary: <p>The stage of the managed snapshot definition allowing to choose OS source or data source. </p>
+  summary: "<p>The stage of the managed snapshot definition allowing to choose OS source or data source. </p>"
   syntax:
     content: public interface WithSnapshotSource
 - uid: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithCreate
@@ -204,7 +204,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<Snapshot>,Resource.DefinitionWithTags<Snapshot.DefinitionStages.WithCreate>,Snapshot.DefinitionStages.WithSize,Snapshot.DefinitionStages.WithSku
 - uid: com.microsoft.azure.management.compute.Disk
@@ -214,7 +214,7 @@ references:
   nameWithType: Disk
   fullName: com.microsoft.azure.management.compute.Disk
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure managed disk. </p>
+  summary: "<p>An immutable client-side representation of an Azure managed disk. </p>"
   syntax:
     content: public interface Disk extends GroupableResource<ComputeManager, DiskInner>,Refreshable<Disk>,Updatable<Disk.Update>
 - uid: com.microsoft.azure.management.compute.Snapshot
@@ -224,6 +224,6 @@ references:
   nameWithType: Snapshot
   fullName: com.microsoft.azure.management.compute.Snapshot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure managed snapshot. </p>
+  summary: "<p>An immutable client-side representation of an Azure managed snapshot. </p>"
   syntax:
     content: public interface Snapshot extends GroupableResource<ComputeManager, SnapshotInner>,Refreshable<Snapshot>,Updatable<Snapshot.Update>

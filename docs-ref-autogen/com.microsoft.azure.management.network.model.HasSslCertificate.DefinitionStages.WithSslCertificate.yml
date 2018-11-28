@@ -125,9 +125,9 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslCertificate<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslCertificate<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule allowing to specify an SSL certificate. </p>
+  summary: "<p>The stage of an application gateway request routing rule allowing to specify an SSL certificate. </p>"
   syntax:
-    content: public interface WithSslCertificate<ParentT> extends HasSslCertificate<WithBackendHttpConfigurationOrSni<ParentT>>.DefinitionStages.WithSslCertificate
+    content: public interface WithSslCertificate<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -139,7 +139,7 @@ references:
   nameWithType: HasSslCertificate.DefinitionStages.WithSslPassword<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasSslCertificate.DefinitionStages.WithSslPassword<ReturnT>
   type: Interface
-  summary: <p>The stage of a resource definition allowing to specify the password for the private key of the imported SSL certificate. </p>
+  summary: "<p>The stage of a resource definition allowing to specify the password for the private key of the imported SSL certificate. </p>"
   syntax:
     content: public interface WithSslPassword<ReturnT>
     typeParameters:

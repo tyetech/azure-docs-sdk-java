@@ -182,14 +182,7 @@ references:
   nameWithType: IMessageSession
   fullName: com.microsoft.azure.servicebus.IMessageSession
   type: Interface
-  summary: >-
-    <p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>
-
-    <p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>
-
-    <p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid="" data-throw-if-not-resolved="false">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>
-
-    <p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>
+  summary: "<p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>\r\n<p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>\r\n<p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>\r\n<p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>"
   syntax:
     content: public interface IMessageSession extends IMessageReceiver
 - uid: com.microsoft.azure.servicebus.primitives.ServiceBusException
@@ -199,6 +192,6 @@ references:
   nameWithType: ServiceBusException
   fullName: com.microsoft.azure.servicebus.primitives.ServiceBusException
   type: Class
-  summary: <p>This is the base exception that service bus will generate for all error cases. </p>
+  summary: "<p>This is the base exception that service bus will generate for all error cases. </p>"
   syntax:
     content: public class ServiceBusException

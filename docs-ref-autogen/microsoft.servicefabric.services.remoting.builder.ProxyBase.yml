@@ -480,7 +480,7 @@ references:
   nameWithType: ActorProxyBase
   fullName: microsoft.servicefabric.actors.client.ActorProxyBase
   type: Class
-  summary: <p>Provides the base implementation for the proxy to the remote actor objects implementing IActor interfaces. </p>
+  summary: "<p>Provides the base implementation for the proxy to the remote actor objects implementing IActor interfaces. </p>"
   syntax:
     content: public class ActorProxyBase extends ProxyBase implements ActorProxy
 - uid: microsoft.servicefabric.actors.runtime.ActorEventProxy
@@ -490,7 +490,7 @@ references:
   nameWithType: ActorEventProxy
   fullName: microsoft.servicefabric.actors.runtime.ActorEventProxy
   type: Class
-  summary: <p>Provides the base implementation for the proxy to invoke methods on actor event subscribers. </p>
+  summary: "<p>Provides the base implementation for the proxy to invoke methods on actor event subscribers. </p>"
   syntax:
     content: public class ActorEventProxy extends ProxyBase
 - uid: microsoft.servicefabric.services.remoting.client.ServiceProxyBase
@@ -500,7 +500,7 @@ references:
   nameWithType: ServiceProxyBase
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxyBase
   type: Class
-  summary: <p>Provides the base implementation for the proxy to the remoted IService interfaces. </p>
+  summary: "<p>Provides the base implementation for the proxy to the remoted IService interfaces. </p>"
   syntax:
     content: public class ServiceProxyBase
 - uid: system.fabric.CancellationToken
@@ -510,6 +510,6 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken

@@ -371,7 +371,7 @@ references:
   nameWithType: FabricActorProxyFactory
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory
   type: Class
-  summary: <p>Factory class to create a proxy to the remote actor objects. </p>
+  summary: "<p>Factory class to create a proxy to the remote actor objects. </p>"
   syntax:
     content: public class FabricActorProxyFactory
 - uid: microsoft.servicefabric.actors.Actor
@@ -381,7 +381,7 @@ references:
   nameWithType: Actor
   fullName: microsoft.servicefabric.actors.Actor
   type: Interface
-  summary: <p>Base interface for inheriting reliable actor interfaces. </p>
+  summary: "<p>Base interface for inheriting reliable actor interfaces. </p>"
   syntax:
     content: public interface Actor
 - uid: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorProxy(Class<T>,URI,ActorId)
@@ -391,10 +391,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, URI serviceUri, ActorId actorId)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, URI serviceUri, ActorId actorId)
   type: Method
-  summary: >-
-    <p>Creates a proxy to the actor object that implements an actor interface.</p>
-
-    <p></p>
+  summary: "<p>Creates a proxy to the actor object that implements an actor interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Actor> T createActorProxy(Class<T> actorInterfaceType, URI serviceUri, ActorId actorId)
     parameters:
@@ -417,7 +414,7 @@ references:
   nameWithType: ActorId
   fullName: microsoft.servicefabric.actors.ActorId
   type: Class
-  summary: <p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, <xref uid="" data-throw-if-not-resolved="false">java.util.UUID</xref> or long. </p>
+  summary: "<p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.lang.String</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.UUID</xref> or long. </p>"
   syntax:
     content: public class ActorId
 - uid: microsoft.servicefabric.actors.client.ActorProxy
@@ -427,7 +424,7 @@ references:
   nameWithType: ActorProxy
   fullName: microsoft.servicefabric.actors.client.ActorProxy
   type: Interface
-  summary: <p>Provides the interface for implementation of proxy access for actor service. </p>
+  summary: "<p>Provides the interface for implementation of proxy access for actor service. </p>"
   syntax:
     content: public interface ActorProxy
 - uid: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorProxy(Class<T>,URI,ActorId,String)
@@ -437,10 +434,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, URI serviceUri, ActorId actorId, String listenerName)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, URI serviceUri, ActorId actorId, String listenerName)
   type: Method
-  summary: >-
-    <p>Creates a proxy to the actor object that implements an actor interface.</p>
-
-    <p></p>
+  summary: "<p>Creates a proxy to the actor object that implements an actor interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Actor> T createActorProxy(Class<T> actorInterfaceType, URI serviceUri, ActorId actorId, String listenerName)
     parameters:
@@ -466,10 +460,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, ActorId actorId)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, ActorId actorId)
   type: Method
-  summary: >-
-    <p>Creates a proxy to the actor object that implements an actor interface.</p>
-
-    <p></p>
+  summary: "<p>Creates a proxy to the actor object that implements an actor interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Actor> T createActorProxy(Class<T> actorInterfaceType, ActorId actorId)
     parameters:
@@ -489,10 +480,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, ActorId actorId, String applicationName, String serviceName, String listenerName)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorProxy(Class<T> actorInterfaceType, ActorId actorId, String applicationName, String serviceName, String listenerName)
   type: Method
-  summary: >-
-    <p>Creates a proxy to the actor object that implements an actor interface.</p>
-
-    <p></p>
+  summary: "<p>Creates a proxy to the actor object that implements an actor interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Actor> T createActorProxy(Class<T> actorInterfaceType, ActorId actorId, String applicationName, String serviceName, String listenerName)
     parameters:
@@ -521,7 +509,7 @@ references:
   nameWithType: Service
   fullName: microsoft.servicefabric.services.remoting.Service
   type: Interface
-  summary: <p>This is the marker interface for enabling interface Remoting for services. An <xref uid="microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>
+  summary: "<p>This is the marker interface for enabling interface Remoting for services. An <xref uid=\"microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>"
   syntax:
     content: public interface Service
 - uid: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorServiceProxy(Class<T>,URI,ActorId)
@@ -531,10 +519,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, ActorId actorId)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, ActorId actorId)
   type: Method
-  summary: >-
-    <p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>
-
-    <p></p>
+  summary: "<p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Service> T createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, ActorId actorId)
     parameters:
@@ -557,7 +542,7 @@ references:
   nameWithType: ServiceProxy
   fullName: microsoft.servicefabric.services.remoting.client.ServiceProxy
   type: Interface
-  summary: <p>This is the base Client side interface for Remoting. The framework provides the Remoting infrastructure for all the service contracts inheriting from IService through ServiceRemotingListener and ServiceProxy. </p>
+  summary: "<p>This is the base Client side interface for Remoting. The framework provides the Remoting infrastructure for all the service contracts inheriting from IService through ServiceRemotingListener and ServiceProxy. </p>"
   syntax:
     content: public interface ServiceProxy
 - uid: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorServiceProxy(Class<T>,URI,ActorId,String)
@@ -567,10 +552,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, ActorId actorId, String listenerName)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, ActorId actorId, String listenerName)
   type: Method
-  summary: >-
-    <p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>
-
-    <p></p>
+  summary: "<p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Service> T createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, ActorId actorId, String listenerName)
     parameters:
@@ -596,10 +578,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, long partitionKey)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, long partitionKey)
   type: Method
-  summary: >-
-    <p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>
-
-    <p></p>
+  summary: "<p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Service> T createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, long partitionKey)
     parameters:
@@ -622,10 +601,7 @@ references:
   nameWithType: FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, long partitionKey, String listenerName)
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory.createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, long partitionKey, String listenerName)
   type: Method
-  summary: >-
-    <p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>
-
-    <p></p>
+  summary: "<p>Create a proxy to the actor service that is hosting the specified actor id and implementing specified type of the service interface.</p>\r\n<p></p>"
   syntax:
     content: public <T extends Service> T createActorServiceProxy(Class<T> serviceInterfaceType, URI serviceUri, long partitionKey, String listenerName)
     parameters:

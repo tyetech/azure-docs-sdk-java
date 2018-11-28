@@ -19,7 +19,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-storage-java
     path: src/main/java/com/microsoft/azure/storage/blob/LoggingFactory.java
-    startLine: 34
+    startLine: 44
   package: com.microsoft.azure.storage.blob
   summary: "<p>This is a factory which creates policies in an <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref> for logging requests and responses. In most cases, it is sufficient to configure an object of the <xref uid=\"com.microsoft.azure.storage.blob.LoggingOptions\" data-throw-if-not-resolved=\"false\">LoggingOptions</xref> type and set those as a field on a <xref uid=\"com.microsoft.azure.storage.blob.PipelineOptions\" data-throw-if-not-resolved=\"false\">PipelineOptions</xref> structure to configure a default pipeline. The factory and policy must only be used directly when creating a custom pipeline. </p>"
   syntax:
@@ -41,7 +41,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/LoggingFactory.java
-    startLine: 50
+    startLine: 108
   package: com.microsoft.azure.storage.blob
   syntax:
     content: public RequestPolicy create(RequestPolicy next, RequestPolicyOptions options)
@@ -66,7 +66,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/LoggingFactory.java
-    startLine: 45
+    startLine: 103
   package: com.microsoft.azure.storage.blob
   summary: "<p>Creates a factory which can create LoggingPolicy objects to insert in the pipeline. This will allow for logging requests and responses.</p>\r\n<p></p>"
   syntax:
@@ -101,7 +101,7 @@ references:
   nameWithType: LoggingOptions
   fullName: com.microsoft.azure.storage.blob.LoggingOptions
   type: Class
-  summary: <p>Options to configure the <xref uid="com.microsoft.azure.storage.blob.LoggingFactory" data-throw-if-not-resolved="false">LoggingFactory</xref>. Please refer to the Factory for more information. </p>
+  summary: "<p>Options to configure the <xref uid=\"com.microsoft.azure.storage.blob.LoggingFactory\" data-throw-if-not-resolved=\"false\">LoggingFactory</xref>. Please refer to the Factory for more information. </p>"
   syntax:
     content: public class LoggingOptions
 - uid: com.microsoft.azure.storage.blob.PipelineOptions
@@ -111,6 +111,6 @@ references:
   nameWithType: PipelineOptions
   fullName: com.microsoft.azure.storage.blob.PipelineOptions
   type: Class
-  summary: <p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid="com.microsoft.azure.storage.blob.StorageURL" data-throw-if-not-resolved="false">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>
+  summary: "<p>This type encapsulates all the possible configuration for the default pipeline. It may be passed to the createPipeline method on <xref uid=\"com.microsoft.azure.storage.blob.StorageURL\" data-throw-if-not-resolved=\"false\">StorageURL</xref>. All the options fields have default values if nothing is passed, and no logger will be used if it is not set. An HttpClient must be set, however. </p>"
   syntax:
     content: public class PipelineOptions

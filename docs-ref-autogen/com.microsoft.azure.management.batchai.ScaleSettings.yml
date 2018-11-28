@@ -152,7 +152,7 @@ references:
   nameWithType: ManualScaleSettings
   fullName: com.microsoft.azure.management.batchai.ManualScaleSettings
   type: Class
-  summary: <p>Manual scale settings for the cluster. </p>
+  summary: "<p>Manual scale settings for the cluster. </p>"
   syntax:
     content: public class ManualScaleSettings
 - uid: com.microsoft.azure.management.batchai.AutoScaleSettings
@@ -162,7 +162,7 @@ references:
   nameWithType: AutoScaleSettings
   fullName: com.microsoft.azure.management.batchai.AutoScaleSettings
   type: Class
-  summary: <p>Auto-scale settings for the cluster. The system automatically scales the cluster up and down (within minimumNodeCount and maximumNodeCount) based on the number of queued and running jobs assigned to the cluster. </p>
+  summary: "<p>Auto-scale settings for the cluster. The system automatically scales the cluster up and down (within minimumNodeCount and maximumNodeCount) based on the number of queued and running jobs assigned to the cluster. </p>"
   syntax:
     content: public class AutoScaleSettings
 - uid: com.microsoft.azure.management.batchai.ScaleSettings
@@ -172,5 +172,5 @@ references:
   nameWithType: ScaleSettings
   fullName: com.microsoft.azure.management.batchai.ScaleSettings
   type: Class
-  summary: <p>At least one of manual or autoScale settings must be specified. Only one of manual or autoScale settings can be specified. If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>
+  summary: "<p>At least one of manual or autoScale settings must be specified. Only one of manual or autoScale settings can be specified. If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>"
   syntax: *o1

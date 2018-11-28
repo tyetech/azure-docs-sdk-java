@@ -66,7 +66,7 @@ references:
   nameWithType: VerificationIPFlow.Definition
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.Definition
   type: Interface
-  summary: <p>The entirety of verification ip flow parameters definition. </p>
+  summary: "<p>The entirety of verification ip flow parameters definition. </p>"
   syntax:
     content: public interface Definition extends VerificationIPFlow.DefinitionStages.WithTargetResource,VerificationIPFlow.DefinitionStages.WithDirection,VerificationIPFlow.DefinitionStages.WithProtocol,VerificationIPFlow.DefinitionStages.WithLocalIP,VerificationIPFlow.DefinitionStages.WithRemoteIP,VerificationIPFlow.DefinitionStages.WithLocalPort,VerificationIPFlow.DefinitionStages.WithRemotePort,VerificationIPFlow.DefinitionStages.WithExecute
 - uid: com.microsoft.azure.management.network.VerificationIPFlow.DefinitionStages.WithExecute
@@ -76,6 +76,6 @@ references:
   nameWithType: VerificationIPFlow.DefinitionStages.WithExecute
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.DefinitionStages.WithExecute
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required parameters to execute an action, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required parameters to execute an action, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithExecute extends Executable<VerificationIPFlow>,VerificationIPFlow.DefinitionStages.WithNetworkInterface

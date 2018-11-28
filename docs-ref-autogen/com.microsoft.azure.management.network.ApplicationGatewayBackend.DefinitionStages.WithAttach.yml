@@ -41,7 +41,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -54,10 +54,7 @@ references:
   nameWithType: ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withFqdn(String fqdn)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withFqdn(String fqdn)
   type: Method
-  summary: >-
-    <p>Adds the specified existing fully qualified domain name (FQDN) to the backend. </p>
-
-    <p>This call can be made in a sequence to add multiple FQDNs. </p>
+  summary: "<p>Adds the specified existing fully qualified domain name (FQDN) to the backend. </p>\r\n<p>This call can be made in a sequence to add multiple FQDNs. </p>"
   syntax:
     content: public WithAttach<ParentT> withFqdn(String fqdn)
     parameters:
@@ -74,10 +71,7 @@ references:
   nameWithType: ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withIPAddress(String ipAddress)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withIPAddress(String ipAddress)
   type: Method
-  summary: >-
-    <p>Adds the specified existing IP address to the backend. </p>
-
-    <p>This call can be made in a sequence to add multiple IP addresses. </p>
+  summary: "<p>Adds the specified existing IP address to the backend. </p>\r\n<p>This call can be made in a sequence to add multiple IP addresses. </p>"
   syntax:
     content: public WithAttach<ParentT> withIPAddress(String ipAddress)
     parameters:
@@ -94,7 +88,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -108,7 +102,7 @@ references:
   nameWithType: ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway backend definition allowing to add an address to the backend. </p>
+  summary: "<p>The stage of an application gateway backend definition allowing to add an address to the backend. </p>"
   syntax:
     content: public interface WithAddress<ParentT>
     typeParameters:
@@ -122,7 +116,7 @@ references:
   nameWithType: ApplicationGatewayBackend.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway backend definition. </p>
+  summary: "<p>The entirety of an application gateway backend definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayBackend.DefinitionStages.Blank<ParentT>,ApplicationGatewayBackend.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -136,7 +130,7 @@ references:
   nameWithType: ApplicationGatewayBackend.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway backend definition. </p>
+  summary: "<p>The first stage of an application gateway backend definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewayBackend.DefinitionStages.WithAttach<ParentT>
     typeParameters:

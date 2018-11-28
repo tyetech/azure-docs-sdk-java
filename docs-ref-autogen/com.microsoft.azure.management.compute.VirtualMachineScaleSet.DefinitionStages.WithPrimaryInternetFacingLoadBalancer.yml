@@ -90,7 +90,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachineScaleSet.DefinitionStages.Blank,VirtualMachineScaleSet.DefinitionStages.WithGroup,VirtualMachineScaleSet.DefinitionStages.WithSku,VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithOS,VirtualMachineScaleSet.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool
@@ -100,7 +100,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to associate a backend pool and/or an inbound NAT pool of the selected Internet-facing load balancer with the primary network interface of the virtual machines in the scale set. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to associate a backend pool and/or an inbound NAT pool of the selected Internet-facing load balancer with the primary network interface of the virtual machines in the scale set. </p>"
   syntax:
     content: public interface WithPrimaryInternetFacingLoadBalancerBackendOrNatPool
 - uid: com.microsoft.azure.management.network.LoadBalancer
@@ -110,7 +110,7 @@ references:
   nameWithType: LoadBalancer
   fullName: com.microsoft.azure.management.network.LoadBalancer
   type: Interface
-  summary: <p>Entry point for load balancer management API in Azure. </p>
+  summary: "<p>Entry point for load balancer management API in Azure. </p>"
   syntax:
     content: public interface LoadBalancer extends GroupableResource<NetworkManager, LoadBalancerInner>,Refreshable<LoadBalancer>,Updatable<LoadBalancer.Update>,HasLoadBalancingRules
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer
@@ -120,6 +120,6 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer
   type: Interface
-  summary: <p>The stage of a virtual machine scale set definition allowing to specify an internal load balancer for the primary network interface of the virtual machines in the scale set. </p>
+  summary: "<p>The stage of a virtual machine scale set definition allowing to specify an internal load balancer for the primary network interface of the virtual machines in the scale set. </p>"
   syntax:
     content: public interface WithPrimaryInternalLoadBalancer

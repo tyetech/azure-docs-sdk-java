@@ -1018,7 +1018,7 @@ references:
   nameWithType: RetryingEventArgs
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryingEventArgs
   type: Class
-  summary: <p>Shard management retrying event arguments. </p>
+  summary: "<p>Shard management retrying event arguments. </p>"
   syntax:
     content: public class RetryingEventArgs
 - uid: com.microsoft.azure.elasticdb.shard.store.IStoreConnectionFactory
@@ -1028,7 +1028,7 @@ references:
   nameWithType: IStoreConnectionFactory
   fullName: com.microsoft.azure.elasticdb.shard.store.IStoreConnectionFactory
   type: Interface
-  summary: <p>Factory for store connections. </p>
+  summary: "<p>Factory for store connections. </p>"
   syntax:
     content: public interface IStoreConnectionFactory
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryPolicy
@@ -1038,7 +1038,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryPolicy
   type: Class
-  summary: <p>Provides the base implementation of the retry mechanism for unreliable actions and transient conditions. </p>
+  summary: "<p>Provides the base implementation of the retry mechanism for unreliable actions and transient conditions. </p>"
   syntax:
     content: public class RetryPolicy
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerLoadPolicy
@@ -1048,7 +1048,7 @@ references:
   nameWithType: ShardMapManagerLoadPolicy
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerLoadPolicy
   type: Enum
-  summary: <p>Describes the policy used for initialization of <xref uid="com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager" data-throw-if-not-resolved="false">ShardMapManager</xref> from the store. </p>
+  summary: "<p>Describes the policy used for initialization of <xref uid=\"com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager\" data-throw-if-not-resolved=\"false\">ShardMapManager</xref> from the store. </p>"
   syntax:
     content: public enum ShardMapManagerLoadPolicy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryBehavior
@@ -1058,7 +1058,7 @@ references:
   nameWithType: RetryBehavior
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryBehavior
   type: Class
-  summary: <p>Defines the retry behavior to use for detecting transient errors. </p>
+  summary: "<p>Defines the retry behavior to use for detecting transient errors. </p>"
   syntax:
     content: public class RetryBehavior
 - uid: com.microsoft.azure.elasticdb.shard.map.ShardMap
@@ -1068,7 +1068,7 @@ references:
   nameWithType: ShardMap
   fullName: com.microsoft.azure.elasticdb.shard.map.ShardMap
   type: Class
-  summary: <p>Represents a collection of shards and mappings between keys and shards in the collection. </p>
+  summary: "<p>Represents a collection of shards and mappings between keys and shards in the collection. </p>"
   syntax:
     content: public class ShardMap
 - uid: com.microsoft.azure.elasticdb.shard.base.ShardKeyType
@@ -1078,7 +1078,7 @@ references:
   nameWithType: ShardKeyType
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardKeyType
   type: Enum
-  summary: <p>Type of shard key. Currently, only Int32, Int64, Guid and byte[] are the data types supported as shard keys. </p>
+  summary: "<p>Type of shard key. Currently, only Int32, Int64, Guid and byte[] are the data types supported as shard keys. </p>"
   syntax:
     content: public enum ShardKeyType
 - uid: com.microsoft.azure.elasticdb.shard.base.ShardLocation
@@ -1088,7 +1088,7 @@ references:
   nameWithType: ShardLocation
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardLocation
   type: Class
-  summary: <p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid="com.microsoft.azure.elasticdb.shard.base.Shard" data-throw-if-not-resolved="false">Shard</xref>, a shard location is not registered with the shard map. </p>
+  summary: "<p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid=\"com.microsoft.azure.elasticdb.shard.base.Shard\" data-throw-if-not-resolved=\"false\">Shard</xref>, a shard location is not registered with the shard map. </p>"
   syntax:
     content: public class ShardLocation
 - uid: com.microsoft.azure.elasticdb.shard.store.Version
@@ -1098,7 +1098,7 @@ references:
   nameWithType: Version
   fullName: com.microsoft.azure.elasticdb.shard.store.Version
   type: Class
-  summary: <p>Represents the version number of an assembly, operating system, or the common language runtime. This class cannot be inherited. </p>
+  summary: "<p>Represents the version number of an assembly, operating system, or the common language runtime. This class cannot be inherited. </p>"
   syntax:
     content: public class Version
 - uid: com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager
@@ -1108,7 +1108,7 @@ references:
   nameWithType: RecoveryManager
   fullName: com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager
   type: Class
-  summary: <p>Manages various recovery related tasks for a shard map manager. It helps resolving data corruption issues between shard map information stored locally on the shards and in the global shard map manager database. It also helps with certain 'oops' recovery scenarios where reconstruction of shard maps from database backups or database copies is necessary. Note that some of the recovery methods can cause unrecoverable data loss when not used properly. It is recommend to take backups or copies of all databases that participate in recovery operations. </p>
+  summary: "<p>Manages various recovery related tasks for a shard map manager. It helps resolving data corruption issues between shard map information stored locally on the shards and in the global shard map manager database. It also helps with certain 'oops' recovery scenarios where reconstruction of shard maps from database backups or database copies is necessary. Note that some of the recovery methods can cause unrecoverable data loss when not used properly. It is recommend to take backups or copies of all databases that participate in recovery operations. </p>"
   syntax:
     content: public class RecoveryManager
 - uid: com.microsoft.azure.elasticdb.shard.schema.SchemaInfoCollection
@@ -1118,7 +1118,7 @@ references:
   nameWithType: SchemaInfoCollection
   fullName: com.microsoft.azure.elasticdb.shard.schema.SchemaInfoCollection
   type: Class
-  summary: <p>Provides storage services to a client for storing or updating or retrieving schema information associated with a sharding scheme and assigning names to individual buckets of information. The class doesn't store the association between a sharding scheme and the metadata unit. It's the caller's responsibility to maintain the mapping. </p>
+  summary: "<p>Provides storage services to a client for storing or updating or retrieving schema information associated with a sharding scheme and assigning names to individual buckets of information. The class doesn't store the association between a sharding scheme and the metadata unit. It's the caller's responsibility to maintain the mapping. </p>"
   syntax:
     content: public class SchemaInfoCollection
 - uid: com.microsoft.azure.elasticdb.shard.map.ListShardMap
@@ -1128,7 +1128,7 @@ references:
   nameWithType: ListShardMap<KeyT>
   fullName: com.microsoft.azure.elasticdb.shard.map.ListShardMap<KeyT>
   type: Class
-  summary: <p>Represents a shard map of points where points are of the specified key. </p>
+  summary: "<p>Represents a shard map of points where points are of the specified key. </p>"
   syntax:
     content: public class ListShardMap<KeyT> extends ShardMap
     typeParameters:
@@ -1154,7 +1154,7 @@ references:
   nameWithType: StoreShardMap
   fullName: com.microsoft.azure.elasticdb.shard.store.StoreShardMap
   type: Class
-  summary: <p>Store representation of a shard map. </p>
+  summary: "<p>Store representation of a shard map. </p>"
   syntax:
     content: public class StoreShardMap
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementException
@@ -1164,6 +1164,6 @@ references:
   nameWithType: ShardManagementException
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardManagementException
   type: Class
-  summary: <p>Representation of exceptions that occur during storage operations. </p>
+  summary: "<p>Representation of exceptions that occur during storage operations. </p>"
   syntax:
     content: public class ShardManagementException

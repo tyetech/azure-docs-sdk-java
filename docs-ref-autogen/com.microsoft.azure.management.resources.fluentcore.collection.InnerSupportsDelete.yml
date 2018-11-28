@@ -81,7 +81,7 @@ references:
   nameWithType: WorkspacesInner
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in Workspaces. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in Workspaces. </p>"
   syntax:
     content: public class WorkspacesInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
@@ -91,7 +91,7 @@ references:
   nameWithType: RegistriesInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in Registries. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in Registries. </p>"
   syntax:
     content: public class RegistriesInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
@@ -101,7 +101,7 @@ references:
   nameWithType: ContainerServicesInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in ContainerServices. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in ContainerServices. </p>"
   syntax:
     content: public class ContainerServicesInner implements InnerSupportsGet<ContainerServiceInner>,InnerSupportsDelete<Void>,InnerSupportsListing<ContainerServiceInner>
 - uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
@@ -111,7 +111,7 @@ references:
   nameWithType: ManagedClustersInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in ManagedClusters. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in ManagedClusters. </p>"
   syntax:
     content: public class ManagedClustersInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.deleteAsync(String,String)
@@ -121,10 +121,7 @@ references:
   nameWithType: ContainerServicesInner.deleteAsync(String resourceGroupName, String containerServiceName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.deleteAsync(String resourceGroupName, String containerServiceName)
   type: Method
-  summary: >-
-    <p>Deletes the specified container service. Deletes the specified container service in the specified subscription and resource group. The operation does not delete other resources created as part of creating a container service, including storage accounts, VMs, and availability sets. All the other resources created with the container service are part of the same resource group and can be deleted individually.</p>
-
-    <p></p>
+  summary: "<p>Deletes the specified container service. Deletes the specified container service in the specified subscription and resource group. The operation does not delete other resources created as part of creating a container service, including storage accounts, VMs, and availability sets. All the other resources created with the container service are part of the same resource group and can be deleted individually.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Void> deleteAsync(String resourceGroupName, String containerServiceName)
     parameters:
@@ -144,10 +141,7 @@ references:
   nameWithType: RegistriesInner.deleteAsync(String resourceGroupName, String registryName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.deleteAsync(String resourceGroupName, String registryName)
   type: Method
-  summary: >-
-    <p>Deletes a container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Void> deleteAsync(String resourceGroupName, String registryName)
     parameters:
@@ -167,10 +161,7 @@ references:
   nameWithType: WorkspacesInner.deleteAsync(String resourceGroupName, String workspaceName)
   fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.deleteAsync(String resourceGroupName, String workspaceName)
   type: Method
-  summary: >-
-    <p>Deletes a Workspace.</p>
-
-    <p></p>
+  summary: "<p>Deletes a Workspace.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Void> deleteAsync(String resourceGroupName, String workspaceName)
     parameters:
@@ -190,10 +181,7 @@ references:
   nameWithType: ManagedClustersInner.deleteAsync(String resourceGroupName, String resourceName)
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.deleteAsync(String resourceGroupName, String resourceName)
   type: Method
-  summary: >-
-    <p>Deletes a managed cluster. Deletes the managed cluster with a specified resource group and name.</p>
-
-    <p></p>
+  summary: "<p>Deletes a managed cluster. Deletes the managed cluster with a specified resource group and name.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Void> deleteAsync(String resourceGroupName, String resourceName)
     parameters:

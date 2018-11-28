@@ -136,7 +136,7 @@ references:
   nameWithType: NetworkInterface.Update
   fullName: com.microsoft.azure.management.network.NetworkInterface.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<NetworkInterface>,Resource.UpdateWithTags<Update>,NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet,NetworkInterface.UpdateStages.WithPrimaryPrivateIP,NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress,NetworkInterface.UpdateStages.WithNetworkSecurityGroup,NetworkInterface.UpdateStages.WithIPForwarding,NetworkInterface.UpdateStages.WithDnsServer,NetworkInterface.UpdateStages.WithIPConfiguration,NetworkInterface.UpdateStages.WithLoadBalancer,NetworkInterface.UpdateStages.WithAcceleratedNetworking
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -146,10 +146,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -163,6 +160,6 @@ references:
   nameWithType: NetworkSecurityGroup
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
   type: Interface
-  summary: <p>Network security group. </p>
+  summary: "<p>Network security group. </p>"
   syntax:
     content: public interface NetworkSecurityGroup extends GroupableResource<NetworkManager, NetworkSecurityGroupInner>,Refreshable<NetworkSecurityGroup>,Updatable<NetworkSecurityGroup.Update>,HasAssociatedSubnets

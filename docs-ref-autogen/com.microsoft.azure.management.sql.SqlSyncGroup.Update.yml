@@ -41,10 +41,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -57,10 +54,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -73,10 +67,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -105,10 +96,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithConflictResolutionPolicy.withConflictResolutionPolicyHubWins()
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithConflictResolutionPolicy.withConflictResolutionPolicyHubWins()
   type: Method
-  summary: >-
-    <p>Sets the conflict resolution policy to "HubWin".</p>
-
-    <p></p>
+  summary: "<p>Sets the conflict resolution policy to \"HubWin\".</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncGroup.Update withConflictResolutionPolicyHubWins()
     return:
@@ -121,10 +109,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithConflictResolutionPolicy.withConflictResolutionPolicyMemberWins()
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithConflictResolutionPolicy.withConflictResolutionPolicyMemberWins()
   type: Method
-  summary: >-
-    <p>Sets the conflict resolution policy to "MemberWin".</p>
-
-    <p></p>
+  summary: "<p>Sets the conflict resolution policy to \"MemberWin\".</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncGroup.Update withConflictResolutionPolicyMemberWins()
     return:
@@ -137,10 +122,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithDatabasePassword.withDatabasePassword(String password)
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithDatabasePassword.withDatabasePassword(String password)
   type: Method
-  summary: >-
-    <p>Sets the database login password.</p>
-
-    <p></p>
+  summary: "<p>Sets the database login password.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncGroup.Update withDatabasePassword(String password)
     parameters:
@@ -157,10 +139,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithDatabaseUserName.withDatabaseUserName(String userName)
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithDatabaseUserName.withDatabaseUserName(String userName)
   type: Method
-  summary: >-
-    <p>Sets the database user name.</p>
-
-    <p></p>
+  summary: "<p>Sets the database user name.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncGroup.Update withDatabaseUserName(String userName)
     parameters:
@@ -177,10 +156,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithInterval.withInterval(int interval)
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithInterval.withInterval(int interval)
   type: Method
-  summary: >-
-    <p>Sets the sync frequency.</p>
-
-    <p></p>
+  summary: "<p>Sets the sync frequency.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncGroup.Update withInterval(int interval)
     parameters:
@@ -197,10 +173,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithSchema.withSchema(SyncGroupSchema schema)
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithSchema.withSchema(SyncGroupSchema schema)
   type: Method
-  summary: >-
-    <p>Sets the schema.</p>
-
-    <p></p>
+  summary: "<p>Sets the schema.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncGroup.Update withSchema(SyncGroupSchema schema)
     parameters:
@@ -217,10 +190,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithSyncDatabaseId.withSyncDatabaseId(String databaseId)
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithSyncDatabaseId.withSyncDatabaseId(String databaseId)
   type: Method
-  summary: >-
-    <p>Sets the sync database ID.</p>
-
-    <p></p>
+  summary: "<p>Sets the sync database ID.</p>\r\n<p></p>"
   syntax:
     content: public SqlSyncGroup.Update withSyncDatabaseId(String databaseId)
     parameters:
@@ -237,7 +207,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithSyncDatabaseId
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithSyncDatabaseId
   type: Interface
-  summary: <p>The SQL Sync Group definition to set the database ID to sync with. </p>
+  summary: "<p>The SQL Sync Group definition to set the database ID to sync with. </p>"
   syntax:
     content: public interface WithSyncDatabaseId
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithDatabaseUserName
@@ -247,7 +217,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithDatabaseUserName
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithDatabaseUserName
   type: Interface
-  summary: <p>The SQL Sync Group definition to set the database user name. </p>
+  summary: "<p>The SQL Sync Group definition to set the database user name. </p>"
   syntax:
     content: public interface WithDatabaseUserName
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithDatabasePassword
@@ -257,7 +227,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithDatabasePassword
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithDatabasePassword
   type: Interface
-  summary: <p>The SQL Sync Group definition to set the database login password. </p>
+  summary: "<p>The SQL Sync Group definition to set the database login password. </p>"
   syntax:
     content: public interface WithDatabasePassword
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithConflictResolutionPolicy
@@ -267,7 +237,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithConflictResolutionPolicy
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithConflictResolutionPolicy
   type: Interface
-  summary: <p>The SQL Sync Group definition to set the conflict resolution policy. </p>
+  summary: "<p>The SQL Sync Group definition to set the conflict resolution policy. </p>"
   syntax:
     content: public interface WithConflictResolutionPolicy
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithInterval
@@ -277,7 +247,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithInterval
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithInterval
   type: Interface
-  summary: <p>The SQL Sync Group definition to set the sync frequency. </p>
+  summary: "<p>The SQL Sync Group definition to set the sync frequency. </p>"
   syntax:
     content: public interface WithInterval
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithSchema
@@ -287,7 +257,7 @@ references:
   nameWithType: SqlSyncGroup.UpdateStages.WithSchema
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup.UpdateStages.WithSchema
   type: Interface
-  summary: <p>The SQL Sync Group definition to set the schema. </p>
+  summary: "<p>The SQL Sync Group definition to set the schema. </p>"
   syntax:
     content: public interface WithSchema
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Appliable
@@ -297,10 +267,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:

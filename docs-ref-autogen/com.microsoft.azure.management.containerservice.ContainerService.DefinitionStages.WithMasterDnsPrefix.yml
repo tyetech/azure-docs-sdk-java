@@ -66,7 +66,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends ContainerService.DefinitionStages.WithMasterDnsPrefix,ContainerService.DefinitionStages.WithDiagnostics,ContainerService.DefinitionStages.WithMasterVMSize,ContainerService.DefinitionStages.WithMasterStorageProfile,ContainerService.DefinitionStages.WithMasterOSDiskSize,ContainerService.DefinitionStages.WithSubnet,Creatable<ContainerService>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterDnsPrefix(String)
@@ -76,10 +76,7 @@ references:
   nameWithType: ContainerServiceImpl.withMasterDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterDnsPrefix(String dnsPrefix)
   type: Method
-  summary: >-
-    <p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>\r\n<p></p>"
   syntax:
     content: public ContainerServiceImpl withMasterDnsPrefix(String dnsPrefix)
     parameters:

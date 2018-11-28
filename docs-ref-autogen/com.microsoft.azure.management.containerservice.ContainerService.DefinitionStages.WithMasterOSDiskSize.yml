@@ -66,7 +66,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends ContainerService.DefinitionStages.WithMasterDnsPrefix,ContainerService.DefinitionStages.WithDiagnostics,ContainerService.DefinitionStages.WithMasterVMSize,ContainerService.DefinitionStages.WithMasterStorageProfile,ContainerService.DefinitionStages.WithMasterOSDiskSize,ContainerService.DefinitionStages.WithSubnet,Creatable<ContainerService>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterOSDiskSizeInGB(int)
@@ -76,10 +76,7 @@ references:
   nameWithType: ContainerServiceImpl.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   type: Method
-  summary: >-
-    <p>OS Disk Size in GB to be used for every machine in the master pool.</p>
-
-    <p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>
+  summary: "<p>OS Disk Size in GB to be used for every machine in the master pool.</p>\r\n<p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>"
   syntax:
     content: public ContainerServiceImpl withMasterOSDiskSizeInGB(int osDiskSizeInGB)
     parameters:

@@ -36,10 +36,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -88,12 +79,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.UpdateStages.WithServiceEndpoint.ignoreMissingSqlServiceEndpoint()
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.UpdateStages.WithServiceEndpoint.ignoreMissingSqlServiceEndpoint()
   type: Method
-  summary: >-
-    <p>Sets the flag to ignore the missing subnet's SQL service endpoint entry. </p>
-
-    <p>Virtual Machines in the subnet will not be able to connect to the SQL server until Microsoft.Sql service endpoint is added to the subnet</p>
-
-    <p></p>
+  summary: "<p>Sets the flag to ignore the missing subnet's SQL service endpoint entry. </p>\r\n<p>Virtual Machines in the subnet will not be able to connect to the SQL server until Microsoft.Sql service endpoint is added to the subnet</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRule.Update ignoreMissingSqlServiceEndpoint()
     return:
@@ -118,10 +104,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.UpdateStages.WithSubnet.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.UpdateStages.WithSubnet.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Sets the virtual network ID and the subnet name for the SQL server Virtual Network Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the virtual network ID and the subnet name for the SQL server Virtual Network Rule.</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRule.Update withSubnet(String networkId, String subnetName)
     parameters:
@@ -141,7 +124,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.UpdateStages.WithSubnet
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.UpdateStages.WithSubnet
   type: Interface
-  summary: <p>The SQL Virtual Network Rule definition to set the virtual network ID and the subnet name. </p>
+  summary: "<p>The SQL Virtual Network Rule definition to set the virtual network ID and the subnet name. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.UpdateStages.WithServiceEndpoint
@@ -151,7 +134,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.UpdateStages.WithServiceEndpoint
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.UpdateStages.WithServiceEndpoint
   type: Interface
-  summary: <p>The SQL Virtual Network Rule definition to set ignore flag for the missing subnet's SQL service endpoint entry. </p>
+  summary: "<p>The SQL Virtual Network Rule definition to set ignore flag for the missing subnet's SQL service endpoint entry. </p>"
   syntax:
     content: public interface WithServiceEndpoint
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Appliable
@@ -161,10 +144,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:

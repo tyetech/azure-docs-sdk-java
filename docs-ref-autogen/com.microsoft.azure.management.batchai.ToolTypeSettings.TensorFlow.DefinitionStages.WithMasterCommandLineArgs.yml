@@ -77,10 +77,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of TensorFlow job settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of TensorFlow job settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.TensorFlow.DefinitionStages.Blank<ParentT>,ToolTypeSettings.TensorFlow.DefinitionStages.WithMasterCommandLineArgs<ParentT>,ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -94,7 +91,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the TensorFlow settings definition. At this stage, any remaining optional settings can be specified, or the TensorFlow settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the TensorFlow settings definition. At this stage, any remaining optional settings can be specified, or the TensorFlow settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>
     typeParameters:

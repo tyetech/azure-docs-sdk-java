@@ -86,7 +86,7 @@ references:
   nameWithType: Registry.Update
   fullName: com.microsoft.azure.management.containerregistry.Registry.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Resource.UpdateWithTags<Update>,Appliable<Registry>,Registry.UpdateStages.WithAdminUserEnabled,Registry.UpdateStages.WithSku,Registry.UpdateStages.WithWebhook
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withRegistryNameAsAdminUser()
@@ -96,7 +96,7 @@ references:
   nameWithType: RegistryImpl.withRegistryNameAsAdminUser()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withRegistryNameAsAdminUser()
   type: Method
-  summary: <p>Enable admin user. </p>
+  summary: "<p>Enable admin user. </p>"
   syntax:
     content: public RegistryImpl withRegistryNameAsAdminUser()
     return:
@@ -109,7 +109,7 @@ references:
   nameWithType: RegistryImpl.withoutRegistryNameAsAdminUser()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withoutRegistryNameAsAdminUser()
   type: Method
-  summary: <p>Disable admin user. </p>
+  summary: "<p>Disable admin user. </p>"
   syntax:
     content: public RegistryImpl withoutRegistryNameAsAdminUser()
     return:

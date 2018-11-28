@@ -141,7 +141,7 @@ references:
   nameWithType: AliasPathType
   fullName: com.microsoft.azure.management.resources.AliasPathType
   type: Class
-  summary: <p>The type of the paths for alias. </p>
+  summary: "<p>The type of the paths for alias. </p>"
   syntax:
     content: public class AliasPathType
 - uid: com.microsoft.azure.management.resources.AliasType
@@ -151,7 +151,7 @@ references:
   nameWithType: AliasType
   fullName: com.microsoft.azure.management.resources.AliasType
   type: Class
-  summary: <p>The alias type. </p>
+  summary: "<p>The alias type. </p>"
   syntax:
     content: public class AliasType
 - uid: com.microsoft.azure.management.resources.BasicDependency
@@ -161,7 +161,7 @@ references:
   nameWithType: BasicDependency
   fullName: com.microsoft.azure.management.resources.BasicDependency
   type: Class
-  summary: <p>Deployment dependency information. </p>
+  summary: "<p>Deployment dependency information. </p>"
   syntax:
     content: public class BasicDependency
 - uid: com.microsoft.azure.management.resources.DebugSetting
@@ -171,7 +171,7 @@ references:
   nameWithType: DebugSetting
   fullName: com.microsoft.azure.management.resources.DebugSetting
   type: Class
-  summary: <p>The DebugSetting model. </p>
+  summary: "<p>The DebugSetting model. </p>"
   syntax:
     content: public class DebugSetting
 - uid: com.microsoft.azure.management.resources.Dependency
@@ -181,7 +181,7 @@ references:
   nameWithType: Dependency
   fullName: com.microsoft.azure.management.resources.Dependency
   type: Class
-  summary: <p>Deployment dependency information. </p>
+  summary: "<p>Deployment dependency information. </p>"
   syntax:
     content: public class Dependency
 - uid: com.microsoft.azure.management.resources.Deployment
@@ -191,7 +191,7 @@ references:
   nameWithType: Deployment
   fullName: com.microsoft.azure.management.resources.Deployment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment. </p>"
   syntax:
     content: public interface Deployment extends Indexable,Refreshable<Deployment>,Updatable<Deployment.Update>,HasInner<DeploymentExtendedInner>,HasManager<ResourceManager>,HasName
 - uid: com.microsoft.azure.management.resources.DeploymentExportResult
@@ -201,7 +201,7 @@ references:
   nameWithType: DeploymentExportResult
   fullName: com.microsoft.azure.management.resources.DeploymentExportResult
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment template export result. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment template export result. </p>"
   syntax:
     content: public interface DeploymentExportResult extends HasInner<DeploymentExportResultInner>
 - uid: com.microsoft.azure.management.resources.DeploymentExtendedFilter
@@ -211,7 +211,7 @@ references:
   nameWithType: DeploymentExtendedFilter
   fullName: com.microsoft.azure.management.resources.DeploymentExtendedFilter
   type: Class
-  summary: <p>Deployment filter. </p>
+  summary: "<p>Deployment filter. </p>"
   syntax:
     content: public class DeploymentExtendedFilter
 - uid: com.microsoft.azure.management.resources.DeploymentMode
@@ -221,7 +221,7 @@ references:
   nameWithType: DeploymentMode
   fullName: com.microsoft.azure.management.resources.DeploymentMode
   type: Enum
-  summary: <p>Defines values for DeploymentMode. </p>
+  summary: "<p>Defines values for DeploymentMode. </p>"
   syntax:
     content: public enum DeploymentMode
 - uid: com.microsoft.azure.management.resources.DeploymentOperation
@@ -231,7 +231,7 @@ references:
   nameWithType: DeploymentOperation
   fullName: com.microsoft.azure.management.resources.DeploymentOperation
   type: Interface
-  summary: <p>An immutable client-side representation of a deployment operation. </p>
+  summary: "<p>An immutable client-side representation of a deployment operation. </p>"
   syntax:
     content: public interface DeploymentOperation extends Indexable,Refreshable<DeploymentOperation>,HasInner<DeploymentOperationInner>
 - uid: com.microsoft.azure.management.resources.DeploymentOperationProperties
@@ -241,7 +241,7 @@ references:
   nameWithType: DeploymentOperationProperties
   fullName: com.microsoft.azure.management.resources.DeploymentOperationProperties
   type: Class
-  summary: <p>Deployment operation properties. </p>
+  summary: "<p>Deployment operation properties. </p>"
   syntax:
     content: public class DeploymentOperationProperties
 - uid: com.microsoft.azure.management.resources.DeploymentOperations
@@ -251,7 +251,7 @@ references:
   nameWithType: DeploymentOperations
   fullName: com.microsoft.azure.management.resources.DeploymentOperations
   type: Interface
-  summary: <p>Entry point to deployment operation management API. </p>
+  summary: "<p>Entry point to deployment operation management API. </p>"
   syntax:
     content: public interface DeploymentOperations extends SupportsListing<DeploymentOperation>,SupportsGettingById<DeploymentOperation>
 - uid: com.microsoft.azure.management.resources.DeploymentProperties
@@ -261,7 +261,7 @@ references:
   nameWithType: DeploymentProperties
   fullName: com.microsoft.azure.management.resources.DeploymentProperties
   type: Class
-  summary: <p>Deployment properties. </p>
+  summary: "<p>Deployment properties. </p>"
   syntax:
     content: public class DeploymentProperties
 - uid: com.microsoft.azure.management.resources.DeploymentPropertiesExtended
@@ -271,7 +271,7 @@ references:
   nameWithType: DeploymentPropertiesExtended
   fullName: com.microsoft.azure.management.resources.DeploymentPropertiesExtended
   type: Class
-  summary: <p>Deployment properties with additional details. </p>
+  summary: "<p>Deployment properties with additional details. </p>"
   syntax:
     content: public class DeploymentPropertiesExtended
 - uid: com.microsoft.azure.management.resources.Deployments
@@ -281,7 +281,7 @@ references:
   nameWithType: Deployments
   fullName: com.microsoft.azure.management.resources.Deployments
   type: Interface
-  summary: <p>Entry point to template deployment in Azure. </p>
+  summary: "<p>Entry point to template deployment in Azure. </p>"
   syntax:
     content: public interface Deployments extends SupportsCreating<Deployment.DefinitionStages.Blank>,SupportsListing<Deployment>,SupportsListingByResourceGroup<Deployment>,SupportsGettingByName<Deployment>,SupportsGettingByResourceGroup<Deployment>,SupportsGettingById<Deployment>,SupportsDeletingById,SupportsDeletingByResourceGroup,HasManager<ResourceManager>
 - uid: com.microsoft.azure.management.resources.Feature
@@ -291,7 +291,7 @@ references:
   nameWithType: Feature
   fullName: com.microsoft.azure.management.resources.Feature
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure feature. </p>
+  summary: "<p>An immutable client-side representation of an Azure feature. </p>"
   syntax:
     content: public interface Feature extends Indexable,HasInner<FeatureResultInner>,HasName
 - uid: com.microsoft.azure.management.resources.FeatureProperties
@@ -301,7 +301,7 @@ references:
   nameWithType: FeatureProperties
   fullName: com.microsoft.azure.management.resources.FeatureProperties
   type: Class
-  summary: <p>Information about feature. </p>
+  summary: "<p>Information about feature. </p>"
   syntax:
     content: public class FeatureProperties
 - uid: com.microsoft.azure.management.resources.Features
@@ -311,7 +311,7 @@ references:
   nameWithType: Features
   fullName: com.microsoft.azure.management.resources.Features
   type: Interface
-  summary: <p>Entry point to features management API. </p>
+  summary: "<p>Entry point to features management API. </p>"
   syntax:
     content: public interface Features extends SupportsListing<Feature>
 - uid: com.microsoft.azure.management.resources.GenericResource
@@ -321,7 +321,7 @@ references:
   nameWithType: GenericResource
   fullName: com.microsoft.azure.management.resources.GenericResource
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure generic resource. </p>
+  summary: "<p>An immutable client-side representation of an Azure generic resource. </p>"
   syntax:
     content: public interface GenericResource extends GroupableResource<ResourceManager, GenericResourceInner>,Refreshable<GenericResource>,Updatable<GenericResource.Update>
 - uid: com.microsoft.azure.management.resources.GenericResourceFilter
@@ -331,7 +331,7 @@ references:
   nameWithType: GenericResourceFilter
   fullName: com.microsoft.azure.management.resources.GenericResourceFilter
   type: Class
-  summary: <p>Resource filter. </p>
+  summary: "<p>Resource filter. </p>"
   syntax:
     content: public class GenericResourceFilter
 - uid: com.microsoft.azure.management.resources.GenericResources
@@ -341,7 +341,7 @@ references:
   nameWithType: GenericResources
   fullName: com.microsoft.azure.management.resources.GenericResources
   type: Interface
-  summary: <p>Entry point to generic resources management API. </p>
+  summary: "<p>Entry point to generic resources management API. </p>"
   syntax:
     content: public interface GenericResources extends SupportsListing<GenericResource>,SupportsListingByResourceGroup<GenericResource>,SupportsListingInResourceGroupByTag<GenericResource>,SupportsGettingById<GenericResource>,SupportsCreating<GenericResource.DefinitionStages.Blank>,SupportsDeletingById,HasManager<ResourceManager>
 - uid: com.microsoft.azure.management.resources.HttpMessage
@@ -351,7 +351,7 @@ references:
   nameWithType: HttpMessage
   fullName: com.microsoft.azure.management.resources.HttpMessage
   type: Class
-  summary: <p>The HttpMessage model. </p>
+  summary: "<p>The HttpMessage model. </p>"
   syntax:
     content: public class HttpMessage
 - uid: com.microsoft.azure.management.resources.Identity
@@ -361,7 +361,7 @@ references:
   nameWithType: Identity
   fullName: com.microsoft.azure.management.resources.Identity
   type: Class
-  summary: <p>Identity for the resource. </p>
+  summary: "<p>Identity for the resource. </p>"
   syntax:
     content: public class Identity
 - uid: com.microsoft.azure.management.resources.Location
@@ -371,7 +371,7 @@ references:
   nameWithType: Location
   fullName: com.microsoft.azure.management.resources.Location
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure location. </p>
+  summary: "<p>An immutable client-side representation of an Azure location. </p>"
   syntax:
     content: public interface Location extends Indexable,HasInner<LocationInner>,HasName
 - uid: com.microsoft.azure.management.resources.ParametersLink
@@ -381,7 +381,7 @@ references:
   nameWithType: ParametersLink
   fullName: com.microsoft.azure.management.resources.ParametersLink
   type: Class
-  summary: <p>Entity representing the reference to the deployment paramaters. </p>
+  summary: "<p>Entity representing the reference to the deployment paramaters. </p>"
   syntax:
     content: public class ParametersLink
 - uid: com.microsoft.azure.management.resources.Plan
@@ -391,7 +391,7 @@ references:
   nameWithType: Plan
   fullName: com.microsoft.azure.management.resources.Plan
   type: Class
-  summary: <p>Plan for the resource. </p>
+  summary: "<p>Plan for the resource. </p>"
   syntax:
     content: public class Plan
 - uid: com.microsoft.azure.management.resources.PolicyAssignment
@@ -401,7 +401,7 @@ references:
   nameWithType: PolicyAssignment
   fullName: com.microsoft.azure.management.resources.PolicyAssignment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy assignment. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy assignment. </p>"
   syntax:
     content: public interface PolicyAssignment extends HasName,HasId,Indexable,Refreshable<PolicyAssignment>,HasInner<PolicyAssignmentInner>
 - uid: com.microsoft.azure.management.resources.PolicyAssignments
@@ -411,7 +411,7 @@ references:
   nameWithType: PolicyAssignments
   fullName: com.microsoft.azure.management.resources.PolicyAssignments
   type: Interface
-  summary: <p>Entry point to policy assignment management API. </p>
+  summary: "<p>Entry point to policy assignment management API. </p>"
   syntax:
     content: public interface PolicyAssignments extends SupportsListing<PolicyAssignment>,SupportsListingByResourceGroup<PolicyAssignment>,SupportsGettingById<PolicyAssignment>,SupportsCreating<PolicyAssignment.DefinitionStages.Blank>,SupportsDeletingById
 - uid: com.microsoft.azure.management.resources.PolicyDefinition
@@ -421,7 +421,7 @@ references:
   nameWithType: PolicyDefinition
   fullName: com.microsoft.azure.management.resources.PolicyDefinition
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy. </p>"
   syntax:
     content: public interface PolicyDefinition extends HasName,HasId,Indexable,Refreshable<PolicyDefinition>,Updatable<PolicyDefinition.Update>,HasInner<PolicyDefinitionInner>
 - uid: com.microsoft.azure.management.resources.PolicyDefinitions
@@ -431,7 +431,7 @@ references:
   nameWithType: PolicyDefinitions
   fullName: com.microsoft.azure.management.resources.PolicyDefinitions
   type: Interface
-  summary: <p>Entry point to tenant management API. </p>
+  summary: "<p>Entry point to tenant management API. </p>"
   syntax:
     content: public interface PolicyDefinitions extends SupportsListing<PolicyDefinition>,SupportsGettingByName<PolicyDefinition>,SupportsCreating<PolicyDefinition.DefinitionStages.Blank>,SupportsDeletingById
 - uid: com.microsoft.azure.management.resources.PolicyType
@@ -441,7 +441,7 @@ references:
   nameWithType: PolicyType
   fullName: com.microsoft.azure.management.resources.PolicyType
   type: Class
-  summary: <p>Defines values for PolicyType. </p>
+  summary: "<p>Defines values for PolicyType. </p>"
   syntax:
     content: public class PolicyType
 - uid: com.microsoft.azure.management.resources.Provider
@@ -451,7 +451,7 @@ references:
   nameWithType: Provider
   fullName: com.microsoft.azure.management.resources.Provider
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource provider. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource provider. </p>"
   syntax:
     content: public interface Provider extends Indexable,HasInner<ProviderInner>
 - uid: com.microsoft.azure.management.resources.ProviderResourceType
@@ -461,7 +461,7 @@ references:
   nameWithType: ProviderResourceType
   fullName: com.microsoft.azure.management.resources.ProviderResourceType
   type: Class
-  summary: <p>Resource type managed by the resource provider. </p>
+  summary: "<p>Resource type managed by the resource provider. </p>"
   syntax:
     content: public class ProviderResourceType
 - uid: com.microsoft.azure.management.resources.Providers
@@ -471,7 +471,7 @@ references:
   nameWithType: Providers
   fullName: com.microsoft.azure.management.resources.Providers
   type: Interface
-  summary: <p>Entry point to providers management API. </p>
+  summary: "<p>Entry point to providers management API. </p>"
   syntax:
     content: public interface Providers extends SupportsListing<Provider>,SupportsGettingByName<Provider>
 - uid: com.microsoft.azure.management.resources.ResourceConnector
@@ -481,7 +481,7 @@ references:
   nameWithType: ResourceConnector
   fullName: com.microsoft.azure.management.resources.ResourceConnector
   type: Interface
-  summary: <p>Defines a connector that connects other resources to a resource group. Implementations of this class can let users browse resources inside a specific resource group. </p>
+  summary: "<p>Defines a connector that connects other resources to a resource group. Implementations of this class can let users browse resources inside a specific resource group. </p>"
   syntax:
     content: public interface ResourceConnector
 - uid: com.microsoft.azure.management.resources.ResourceGroup
@@ -491,7 +491,7 @@ references:
   nameWithType: ResourceGroup
   fullName: com.microsoft.azure.management.resources.ResourceGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource group. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource group. </p>"
   syntax:
     content: public interface ResourceGroup extends Indexable,Resource,Refreshable<ResourceGroup>,HasInner<ResourceGroupInner>,Updatable<ResourceGroup.Update>,HasName
 - uid: com.microsoft.azure.management.resources.ResourceGroupExportResult
@@ -501,7 +501,7 @@ references:
   nameWithType: ResourceGroupExportResult
   fullName: com.microsoft.azure.management.resources.ResourceGroupExportResult
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment template export result. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment template export result. </p>"
   syntax:
     content: public interface ResourceGroupExportResult extends HasInner<ResourceGroupExportResultInner>
 - uid: com.microsoft.azure.management.resources.ResourceGroupExportTemplateOptions
@@ -511,7 +511,7 @@ references:
   nameWithType: ResourceGroupExportTemplateOptions
   fullName: com.microsoft.azure.management.resources.ResourceGroupExportTemplateOptions
   type: Enum
-  summary: <p>The export template options. </p>
+  summary: "<p>The export template options. </p>"
   syntax:
     content: public enum ResourceGroupExportTemplateOptions
 - uid: com.microsoft.azure.management.resources.ResourceGroupFilter
@@ -521,7 +521,7 @@ references:
   nameWithType: ResourceGroupFilter
   fullName: com.microsoft.azure.management.resources.ResourceGroupFilter
   type: Class
-  summary: <p>Resource group filter. </p>
+  summary: "<p>Resource group filter. </p>"
   syntax:
     content: public class ResourceGroupFilter
 - uid: com.microsoft.azure.management.resources.ResourceGroupProperties
@@ -531,7 +531,7 @@ references:
   nameWithType: ResourceGroupProperties
   fullName: com.microsoft.azure.management.resources.ResourceGroupProperties
   type: Class
-  summary: <p>The resource group properties. </p>
+  summary: "<p>The resource group properties. </p>"
   syntax:
     content: public class ResourceGroupProperties
 - uid: com.microsoft.azure.management.resources.ResourceGroups
@@ -541,7 +541,7 @@ references:
   nameWithType: ResourceGroups
   fullName: com.microsoft.azure.management.resources.ResourceGroups
   type: Interface
-  summary: <p>Entry point to resource group management API. </p>
+  summary: "<p>Entry point to resource group management API. </p>"
   syntax:
     content: public interface ResourceGroups extends SupportsListing<ResourceGroup>,SupportsListingByTag<ResourceGroup>,SupportsGettingByName<ResourceGroup>,SupportsCreating<ResourceGroup.DefinitionStages.Blank>,SupportsDeletingByName,SupportsBeginDeletingByName,SupportsBatchCreation<ResourceGroup>
 - uid: com.microsoft.azure.management.resources.ResourceIdentityType
@@ -551,7 +551,7 @@ references:
   nameWithType: ResourceIdentityType
   fullName: com.microsoft.azure.management.resources.ResourceIdentityType
   type: Enum
-  summary: <p>Defines values for ResourceIdentityType. </p>
+  summary: "<p>Defines values for ResourceIdentityType. </p>"
   syntax:
     content: public enum ResourceIdentityType
 - uid: com.microsoft.azure.management.resources.ResourceManagementErrorWithDetails
@@ -561,7 +561,7 @@ references:
   nameWithType: ResourceManagementErrorWithDetails
   fullName: com.microsoft.azure.management.resources.ResourceManagementErrorWithDetails
   type: Class
-  summary: <p>The ResourceManagementErrorWithDetails model. </p>
+  summary: "<p>The ResourceManagementErrorWithDetails model. </p>"
   syntax:
     content: public class ResourceManagementErrorWithDetails
 - uid: com.microsoft.azure.management.resources.ResourceProviderOperationDisplayProperties
@@ -571,7 +571,7 @@ references:
   nameWithType: ResourceProviderOperationDisplayProperties
   fullName: com.microsoft.azure.management.resources.ResourceProviderOperationDisplayProperties
   type: Class
-  summary: <p>Resource provider operation's display properties. </p>
+  summary: "<p>Resource provider operation's display properties. </p>"
   syntax:
     content: public class ResourceProviderOperationDisplayProperties
 - uid: com.microsoft.azure.management.resources.Sku
@@ -581,7 +581,7 @@ references:
   nameWithType: Sku
   fullName: com.microsoft.azure.management.resources.Sku
   type: Class
-  summary: <p>SKU for the resource. </p>
+  summary: "<p>SKU for the resource. </p>"
   syntax:
     content: public class Sku
 - uid: com.microsoft.azure.management.resources.SpendingLimit
@@ -591,7 +591,7 @@ references:
   nameWithType: SpendingLimit
   fullName: com.microsoft.azure.management.resources.SpendingLimit
   type: Enum
-  summary: <p>Defines values for SpendingLimit. </p>
+  summary: "<p>Defines values for SpendingLimit. </p>"
   syntax:
     content: public enum SpendingLimit
 - uid: com.microsoft.azure.management.resources.Subscription
@@ -601,7 +601,7 @@ references:
   nameWithType: Subscription
   fullName: com.microsoft.azure.management.resources.Subscription
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure subscription. </p>
+  summary: "<p>An immutable client-side representation of an Azure subscription. </p>"
   syntax:
     content: public interface Subscription extends Indexable,HasInner<SubscriptionInner>
 - uid: com.microsoft.azure.management.resources.SubscriptionPolicies
@@ -611,7 +611,7 @@ references:
   nameWithType: SubscriptionPolicies
   fullName: com.microsoft.azure.management.resources.SubscriptionPolicies
   type: Class
-  summary: <p>Subscription policies. </p>
+  summary: "<p>Subscription policies. </p>"
   syntax:
     content: public class SubscriptionPolicies
 - uid: com.microsoft.azure.management.resources.Subscriptions
@@ -621,7 +621,7 @@ references:
   nameWithType: Subscriptions
   fullName: com.microsoft.azure.management.resources.Subscriptions
   type: Interface
-  summary: <p>Entry point to subscription management API. </p>
+  summary: "<p>Entry point to subscription management API. </p>"
   syntax:
     content: public interface Subscriptions extends SupportsListing<Subscription>,SupportsGettingById<Subscription>
 - uid: com.microsoft.azure.management.resources.SubscriptionState
@@ -631,7 +631,7 @@ references:
   nameWithType: SubscriptionState
   fullName: com.microsoft.azure.management.resources.SubscriptionState
   type: Enum
-  summary: <p>Defines values for SubscriptionState. </p>
+  summary: "<p>Defines values for SubscriptionState. </p>"
   syntax:
     content: public enum SubscriptionState
 - uid: com.microsoft.azure.management.resources.TagCount
@@ -641,7 +641,7 @@ references:
   nameWithType: TagCount
   fullName: com.microsoft.azure.management.resources.TagCount
   type: Class
-  summary: <p>Tag count. </p>
+  summary: "<p>Tag count. </p>"
   syntax:
     content: public class TagCount
 - uid: com.microsoft.azure.management.resources.TargetResource
@@ -651,7 +651,7 @@ references:
   nameWithType: TargetResource
   fullName: com.microsoft.azure.management.resources.TargetResource
   type: Class
-  summary: <p>Target resource. </p>
+  summary: "<p>Target resource. </p>"
   syntax:
     content: public class TargetResource
 - uid: com.microsoft.azure.management.resources.TemplateLink
@@ -661,7 +661,7 @@ references:
   nameWithType: TemplateLink
   fullName: com.microsoft.azure.management.resources.TemplateLink
   type: Class
-  summary: <p>Entity representing the reference to the template. </p>
+  summary: "<p>Entity representing the reference to the template. </p>"
   syntax:
     content: public class TemplateLink
 - uid: com.microsoft.azure.management.resources.Tenant
@@ -671,7 +671,7 @@ references:
   nameWithType: Tenant
   fullName: com.microsoft.azure.management.resources.Tenant
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure tenant. </p>
+  summary: "<p>An immutable client-side representation of an Azure tenant. </p>"
   syntax:
     content: public interface Tenant extends Indexable,HasInner<TenantIdDescriptionInner>
 - uid: com.microsoft.azure.management.resources.Tenants
@@ -681,7 +681,7 @@ references:
   nameWithType: Tenants
   fullName: com.microsoft.azure.management.resources.Tenants
   type: Interface
-  summary: <p>Entry point to tenant management API. </p>
+  summary: "<p>Entry point to tenant management API. </p>"
   syntax:
     content: public interface Tenants extends SupportsListing<Tenant>
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.Blank
@@ -691,7 +691,7 @@ references:
   nameWithType: Deployment.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of deployment definition. </p>
+  summary: "<p>The first stage of deployment definition. </p>"
   syntax:
     content: public interface Blank extends Deployment.DefinitionStages.WithGroup
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.Blank
@@ -701,7 +701,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.Blank
   type: Interface
-  summary: <p>A generic resource definition allowing region to be specified. </p>
+  summary: "<p>A generic resource definition allowing region to be specified. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.Blank
@@ -711,19 +711,9 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the policy assignment. </p>
+  summary: "<p>The first stage of the policy assignment. </p>"
   syntax:
     content: public interface Blank extends PolicyAssignment.DefinitionStages.WithScope
-- uid: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.Blank
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.Blank.yml
-  name: ResourceGroup.DefinitionStages.Blank
-  nameWithType: ResourceGroup.DefinitionStages.Blank
-  fullName: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.Blank
-  type: Interface
-  summary: <p>A resource group definition allowing location to be set. </p>
-  syntax:
-    content: public interface Blank extends Resource.DefinitionWithRegion<WithCreate>
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.Blank
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.Blank.yml
@@ -731,9 +721,19 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the policy definition. </p>
+  summary: "<p>The first stage of the policy definition. </p>"
   syntax:
     content: public interface Blank extends PolicyDefinition.DefinitionStages.WithPolicyRule
+- uid: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.Blank
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.Blank.yml
+  name: ResourceGroup.DefinitionStages.Blank
+  nameWithType: ResourceGroup.DefinitionStages.Blank
+  fullName: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.Blank
+  type: Interface
+  summary: "<p>A resource group definition allowing location to be set. </p>"
+  syntax:
+    content: public interface Blank extends Resource.DefinitionWithRegion<WithCreate>
 - uid: com.microsoft.azure.management.resources.ResourceConnector.Builder
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.ResourceConnector.Builder.yml
@@ -741,10 +741,7 @@ references:
   nameWithType: ResourceConnector.Builder<T>
   fullName: com.microsoft.azure.management.resources.ResourceConnector.Builder<T>
   type: Interface
-  summary: >-
-    <p>Implementations of this interface defines how to create a connector.</p>
-
-    <p></p>
+  summary: "<p>Implementations of this interface defines how to create a connector.</p>\r\n<p></p>"
   syntax:
     content: public interface Builder<T extends ResourceConnector>
     typeParameters:
@@ -758,7 +755,7 @@ references:
   nameWithType: Deployment.Definition
   fullName: com.microsoft.azure.management.resources.Deployment.Definition
   type: Interface
-  summary: <p>Container interface for all the deployment definitions. </p>
+  summary: "<p>Container interface for all the deployment definitions. </p>"
   syntax:
     content: public interface Definition extends Deployment.DefinitionStages.Blank,Deployment.DefinitionStages.WithGroup,Deployment.DefinitionStages.WithTemplate,Deployment.DefinitionStages.WithParameters,Deployment.DefinitionStages.WithMode,Deployment.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.GenericResource.Definition
@@ -768,7 +765,7 @@ references:
   nameWithType: GenericResource.Definition
   fullName: com.microsoft.azure.management.resources.GenericResource.Definition
   type: Interface
-  summary: <p>The entirety of the generic resource definition. </p>
+  summary: "<p>The entirety of the generic resource definition. </p>"
   syntax:
     content: public interface Definition extends GenericResource.DefinitionStages.Blank,GenericResource.DefinitionStages.WithGroup,GenericResource.DefinitionStages.WithResourceType,GenericResource.DefinitionStages.WithProviderNamespace,GenericResource.DefinitionStages.WithParentResource,GenericResource.DefinitionStages.WithPlan,GenericResource.DefinitionStages.WithApiVersion,GenericResource.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.PolicyAssignment.Definition
@@ -778,7 +775,7 @@ references:
   nameWithType: PolicyAssignment.Definition
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends PolicyAssignment.DefinitionStages.Blank,PolicyAssignment.DefinitionStages.WithPolicyDefinition,PolicyAssignment.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.Definition
@@ -788,7 +785,7 @@ references:
   nameWithType: PolicyDefinition.Definition
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends PolicyDefinition.DefinitionStages.Blank,PolicyDefinition.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.ResourceGroup.Definition
@@ -798,7 +795,7 @@ references:
   nameWithType: ResourceGroup.Definition
   fullName: com.microsoft.azure.management.resources.ResourceGroup.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends ResourceGroup.DefinitionStages.Blank,ResourceGroup.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages
@@ -808,7 +805,7 @@ references:
   nameWithType: Deployment.DefinitionStages
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages
   type: Interface
-  summary: <p>Grouping of all the deployment definition stages. </p>
+  summary: "<p>Grouping of all the deployment definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages
@@ -818,7 +815,7 @@ references:
   nameWithType: GenericResource.DefinitionStages
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages
   type: Interface
-  summary: <p>Grouping of generic resource definition stages. </p>
+  summary: "<p>Grouping of generic resource definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages
@@ -828,7 +825,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages
   type: Interface
-  summary: <p>Grouping of all the policy assignment definition stages. </p>
+  summary: "<p>Grouping of all the policy assignment definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages
@@ -838,7 +835,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages
   type: Interface
-  summary: <p>Grouping of all the policy definition stages. </p>
+  summary: "<p>Grouping of all the policy definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages
@@ -848,32 +845,9 @@ references:
   nameWithType: ResourceGroup.DefinitionStages
   fullName: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages
   type: Interface
-  summary: <p>Grouping of all the resource group definition stages. </p>
+  summary: "<p>Grouping of all the resource group definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
-- uid: com.microsoft.azure.management.resources.ResourceGroup.Update
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.ResourceGroup.Update.yml
-  name: ResourceGroup.Update
-  nameWithType: ResourceGroup.Update
-  fullName: com.microsoft.azure.management.resources.ResourceGroup.Update
-  type: Interface
-  summary: >-
-    <p>The template for a resource group update operation, containing all the settings that can be modified. </p>
-
-    <p>Call <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Update#apply()</xref> to apply the changes to the resource group in Azure. </p>
-  syntax:
-    content: public interface Update extends Appliable<ResourceGroup>,Resource.UpdateWithTags<Update>
-- uid: com.microsoft.azure.management.resources.GenericResource.Update
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.GenericResource.Update.yml
-  name: GenericResource.Update
-  nameWithType: GenericResource.Update
-  fullName: com.microsoft.azure.management.resources.GenericResource.Update
-  type: Interface
-  summary: <p>The template for a generic resource update operation, containing all the settings that can be modified. </p>
-  syntax:
-    content: public interface Update extends Appliable<GenericResource>,GenericResource.UpdateStages.WithApiVersion,GenericResource.UpdateStages.WithPlan,GenericResource.UpdateStages.WithParentResource,GenericResource.UpdateStages.WithProperties,Resource.UpdateWithTags<Update>
 - uid: com.microsoft.azure.management.resources.Deployment.Update
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.Deployment.Update.yml
@@ -881,12 +855,19 @@ references:
   nameWithType: Deployment.Update
   fullName: com.microsoft.azure.management.resources.Deployment.Update
   type: Interface
-  summary: >-
-    <p>The template for a deployment update operation, containing all the settings that can be modified. </p>
-
-    <p>Call <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Update#apply()</xref> to apply the changes to the deployment in Azure. </p>
+  summary: "<p>The template for a deployment update operation, containing all the settings that can be modified. </p>\r\n<p>Call <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Update#apply()</xref> to apply the changes to the deployment in Azure. </p>"
   syntax:
     content: public interface Update extends Appliable<Deployment>,Deployment.UpdateStages.WithTemplate,Deployment.UpdateStages.WithParameters,Deployment.UpdateStages.WithMode
+- uid: com.microsoft.azure.management.resources.ResourceGroup.Update
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.ResourceGroup.Update.yml
+  name: ResourceGroup.Update
+  nameWithType: ResourceGroup.Update
+  fullName: com.microsoft.azure.management.resources.ResourceGroup.Update
+  type: Interface
+  summary: "<p>The template for a resource group update operation, containing all the settings that can be modified. </p>\r\n<p>Call <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Update#apply()</xref> to apply the changes to the resource group in Azure. </p>"
+  syntax:
+    content: public interface Update extends Appliable<ResourceGroup>,Resource.UpdateWithTags<Update>
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.Update
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.PolicyDefinition.Update.yml
@@ -894,9 +875,29 @@ references:
   nameWithType: PolicyDefinition.Update
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.Update
   type: Interface
-  summary: <p>The template for a policy update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a policy update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<PolicyDefinition>,PolicyDefinition.UpdateStages.WithDescription,PolicyDefinition.UpdateStages.WithDisplayName,PolicyDefinition.UpdateStages.WithPolicyRule,PolicyDefinition.UpdateStages.WithPolicyType
+- uid: com.microsoft.azure.management.resources.GenericResource.Update
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.GenericResource.Update.yml
+  name: GenericResource.Update
+  nameWithType: GenericResource.Update
+  fullName: com.microsoft.azure.management.resources.GenericResource.Update
+  type: Interface
+  summary: "<p>The template for a generic resource update operation, containing all the settings that can be modified. </p>"
+  syntax:
+    content: public interface Update extends Appliable<GenericResource>,GenericResource.UpdateStages.WithApiVersion,GenericResource.UpdateStages.WithPlan,GenericResource.UpdateStages.WithParentResource,GenericResource.UpdateStages.WithProperties,Resource.UpdateWithTags<Update>
+- uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.yml
+  name: PolicyDefinition.UpdateStages
+  nameWithType: PolicyDefinition.UpdateStages
+  fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages
+  type: Interface
+  summary: "<p>Grouping of all the policy update stages. </p>"
+  syntax:
+    content: public interface UpdateStages
 - uid: com.microsoft.azure.management.resources.ResourceGroup.UpdateStages
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.ResourceGroup.UpdateStages.yml
@@ -904,7 +905,7 @@ references:
   nameWithType: ResourceGroup.UpdateStages
   fullName: com.microsoft.azure.management.resources.ResourceGroup.UpdateStages
   type: Interface
-  summary: <p>Grouping of all the resource group update stages. </p>
+  summary: "<p>Grouping of all the resource group update stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.resources.Deployment.UpdateStages
@@ -914,17 +915,7 @@ references:
   nameWithType: Deployment.UpdateStages
   fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages
   type: Interface
-  summary: <p>Grouping of all the deployment updates stages. </p>
-  syntax:
-    content: public interface UpdateStages
-- uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.yml
-  name: PolicyDefinition.UpdateStages
-  nameWithType: PolicyDefinition.UpdateStages
-  fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages
-  type: Interface
-  summary: <p>Grouping of all the policy update stages. </p>
+  summary: "<p>Grouping of all the deployment updates stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages
@@ -934,19 +925,9 @@ references:
   nameWithType: GenericResource.UpdateStages
   fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages
   type: Interface
-  summary: <p>Grouping of generic resource update stages. </p>
+  summary: "<p>Grouping of generic resource update stages. </p>"
   syntax:
     content: public interface UpdateStages
-- uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithApiVersion
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithApiVersion.yml
-  name: GenericResource.UpdateStages.WithApiVersion
-  nameWithType: GenericResource.UpdateStages.WithApiVersion
-  fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithApiVersion
-  type: Interface
-  summary: <p>The template for a generic resource update operation for specifying the resource provider API version. </p>
-  syntax:
-    content: public interface WithApiVersion
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion.yml
@@ -954,9 +935,49 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithApiVersion
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion
   type: Interface
-  summary: <p>A generic resource definition allowing api version to be specified. </p>
+  summary: "<p>A generic resource definition allowing api version to be specified. </p>"
   syntax:
     content: public interface WithApiVersion
+- uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithApiVersion
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithApiVersion.yml
+  name: GenericResource.UpdateStages.WithApiVersion
+  nameWithType: GenericResource.UpdateStages.WithApiVersion
+  fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithApiVersion
+  type: Interface
+  summary: "<p>The template for a generic resource update operation for specifying the resource provider API version. </p>"
+  syntax:
+    content: public interface WithApiVersion
+- uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate.yml
+  name: Deployment.DefinitionStages.WithCreate
+  nameWithType: Deployment.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
+  type: Interface
+  summary: "<p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>"
+  syntax:
+    content: public interface WithCreate extends Creatable<Deployment>
+- uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate.yml
+  name: PolicyAssignment.DefinitionStages.WithCreate
+  nameWithType: PolicyAssignment.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate
+  type: Interface
+  summary: "<p>A policy assignment with sufficient inputs to create a new policy assignment in the cloud, but exposing additional optional inputs to specify. </p>"
+  syntax:
+    content: public interface WithCreate extends Creatable<PolicyAssignment>,PolicyAssignment.DefinitionStages.WithDisplayName
+- uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate.yml
+  name: GenericResource.DefinitionStages.WithCreate
+  nameWithType: GenericResource.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
+  type: Interface
+  summary: "<p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>"
+  syntax:
+    content: public interface WithCreate extends GenericResource.DefinitionStages.WithParentResource,GenericResource.DefinitionStages.WithApiVersion,Creatable<GenericResource>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.WithCreate
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.WithCreate.yml
@@ -964,7 +985,7 @@ references:
   nameWithType: ResourceGroup.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.resources.ResourceGroup.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A resource group definition with sufficient inputs to create a new resource group in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A resource group definition with sufficient inputs to create a new resource group in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<ResourceGroup>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithCreate
@@ -974,39 +995,9 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A policy definition with sufficient inputs to create a new policy in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A policy definition with sufficient inputs to create a new policy in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<PolicyDefinition>,PolicyDefinition.DefinitionStages.WithDescription,PolicyDefinition.DefinitionStages.WithDisplayName,PolicyDefinition.DefinitionStages.WithPolicyType
-- uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate.yml
-  name: Deployment.DefinitionStages.WithCreate
-  nameWithType: Deployment.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable<Deployment>
-- uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate.yml
-  name: GenericResource.DefinitionStages.WithCreate
-  nameWithType: GenericResource.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>
-  syntax:
-    content: public interface WithCreate extends GenericResource.DefinitionStages.WithParentResource,GenericResource.DefinitionStages.WithApiVersion,Creatable<GenericResource>,Resource.DefinitionWithTags<WithCreate>
-- uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate.yml
-  name: PolicyAssignment.DefinitionStages.WithCreate
-  nameWithType: PolicyAssignment.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>A policy assignment with sufficient inputs to create a new policy assignment in the cloud, but exposing additional optional inputs to specify. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable<PolicyAssignment>,PolicyAssignment.DefinitionStages.WithDisplayName
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDescription
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDescription.yml
@@ -1014,7 +1005,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithDescription
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDescription
   type: Interface
-  summary: <p>A policy definition allowing the policy description to be set. </p>
+  summary: "<p>A policy definition allowing the policy description to be set. </p>"
   syntax:
     content: public interface WithDescription
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDescription
@@ -1024,7 +1015,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithDescription
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDescription
   type: Interface
-  summary: <p>A policy definition allowing policy description to be set. </p>
+  summary: "<p>A policy definition allowing policy description to be set. </p>"
   syntax:
     content: public interface WithDescription
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDisplayName
@@ -1034,17 +1025,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithDisplayName
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithDisplayName
   type: Interface
-  summary: <p>A policy definition allowing the display name to be set. </p>
-  syntax:
-    content: public interface WithDisplayName
-- uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithDisplayName
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithDisplayName.yml
-  name: PolicyAssignment.DefinitionStages.WithDisplayName
-  nameWithType: PolicyAssignment.DefinitionStages.WithDisplayName
-  fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithDisplayName
-  type: Interface
-  summary: <p>A policy assignment allowing the display name to be set. </p>
+  summary: "<p>A policy definition allowing the display name to be set. </p>"
   syntax:
     content: public interface WithDisplayName
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDisplayName
@@ -1054,7 +1035,17 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithDisplayName
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDisplayName
   type: Interface
-  summary: <p>A policy definition allowing the display name to be set. </p>
+  summary: "<p>A policy definition allowing the display name to be set. </p>"
+  syntax:
+    content: public interface WithDisplayName
+- uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithDisplayName
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithDisplayName.yml
+  name: PolicyAssignment.DefinitionStages.WithDisplayName
+  nameWithType: PolicyAssignment.DefinitionStages.WithDisplayName
+  fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithDisplayName
+  type: Interface
+  summary: "<p>A policy assignment allowing the display name to be set. </p>"
   syntax:
     content: public interface WithDisplayName
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithGroup
@@ -1064,7 +1055,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>A generic resource definition allowing resource group to be specified. </p>
+  summary: "<p>A generic resource definition allowing resource group to be specified. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithResourceType>
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithGroup
@@ -1074,19 +1065,9 @@ references:
   nameWithType: Deployment.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>A deployment definition allowing resource group to be specified. </p>
+  summary: "<p>A deployment definition allowing resource group to be specified. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<WithTemplate>
-- uid: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode.yml
-  name: Deployment.UpdateStages.WithMode
-  nameWithType: Deployment.UpdateStages.WithMode
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode
-  type: Interface
-  summary: <p>A deployment update allowing to change the deployment mode. </p>
-  syntax:
-    content: public interface WithMode
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithMode
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithMode.yml
@@ -1094,19 +1075,19 @@ references:
   nameWithType: Deployment.DefinitionStages.WithMode
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithMode
   type: Interface
-  summary: <p>A deployment definition allowing the deployment mode to be specified. </p>
+  summary: "<p>A deployment definition allowing the deployment mode to be specified. </p>"
   syntax:
     content: public interface WithMode
-- uid: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
+- uid: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters.yml
-  name: Deployment.UpdateStages.WithParameters
-  nameWithType: Deployment.UpdateStages.WithParameters
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
+  href: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode.yml
+  name: Deployment.UpdateStages.WithMode
+  nameWithType: Deployment.UpdateStages.WithMode
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode
   type: Interface
-  summary: <p>A deployment update allowing to change the parameters. </p>
+  summary: "<p>A deployment update allowing to change the deployment mode. </p>"
   syntax:
-    content: public interface WithParameters
+    content: public interface WithMode
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters.yml
@@ -1114,19 +1095,19 @@ references:
   nameWithType: Deployment.DefinitionStages.WithParameters
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
   type: Interface
-  summary: <p>A deployment definition allowing the parameters to be specified. </p>
+  summary: "<p>A deployment definition allowing the parameters to be specified. </p>"
   syntax:
     content: public interface WithParameters
-- uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
+- uid: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource.yml
-  name: GenericResource.DefinitionStages.WithParentResource
-  nameWithType: GenericResource.DefinitionStages.WithParentResource
-  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
+  href: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters.yml
+  name: Deployment.UpdateStages.WithParameters
+  nameWithType: Deployment.UpdateStages.WithParameters
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
   type: Interface
-  summary: <p>A generic resource definition allowing parent resource to be specified. </p>
+  summary: "<p>A deployment update allowing to change the parameters. </p>"
   syntax:
-    content: public interface WithParentResource
+    content: public interface WithParameters
 - uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithParentResource
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithParentResource.yml
@@ -1134,19 +1115,19 @@ references:
   nameWithType: GenericResource.UpdateStages.WithParentResource
   fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithParentResource
   type: Interface
-  summary: <p>A generic resource update allowing to change the parent resource. </p>
+  summary: "<p>A generic resource update allowing to change the parent resource. </p>"
   syntax:
     content: public interface WithParentResource
-- uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithPlan
+- uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithPlan.yml
-  name: GenericResource.UpdateStages.WithPlan
-  nameWithType: GenericResource.UpdateStages.WithPlan
-  fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithPlan
+  href: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource.yml
+  name: GenericResource.DefinitionStages.WithParentResource
+  nameWithType: GenericResource.DefinitionStages.WithParentResource
+  fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
   type: Interface
-  summary: <p>A generic resource update allowing to change the resource plan. </p>
+  summary: "<p>A generic resource definition allowing parent resource to be specified. </p>"
   syntax:
-    content: public interface WithPlan
+    content: public interface WithParentResource
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.yml
@@ -1154,7 +1135,17 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithPlan
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan
   type: Interface
-  summary: <p>A generic resource definition allowing plan to be specified. </p>
+  summary: "<p>A generic resource definition allowing plan to be specified. </p>"
+  syntax:
+    content: public interface WithPlan
+- uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithPlan
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithPlan.yml
+  name: GenericResource.UpdateStages.WithPlan
+  nameWithType: GenericResource.UpdateStages.WithPlan
+  fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithPlan
+  type: Interface
+  summary: "<p>A generic resource update allowing to change the resource plan. </p>"
   syntax:
     content: public interface WithPlan
 - uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithPolicyDefinition
@@ -1164,7 +1155,7 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithPolicyDefinition
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithPolicyDefinition
   type: Interface
-  summary: <p>A policy assignment allowing the policy definition to be set. </p>
+  summary: "<p>A policy assignment allowing the policy definition to be set. </p>"
   syntax:
     content: public interface WithPolicyDefinition
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyRule
@@ -1174,7 +1165,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithPolicyRule
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyRule
   type: Interface
-  summary: <p>A policy definition allowing the policy rule to be set. </p>
+  summary: "<p>A policy definition allowing the policy rule to be set. </p>"
   syntax:
     content: public interface WithPolicyRule
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyRule
@@ -1184,7 +1175,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithPolicyRule
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyRule
   type: Interface
-  summary: <p>A policy definition allowing the policy rule to be set. </p>
+  summary: "<p>A policy definition allowing the policy rule to be set. </p>"
   syntax:
     content: public interface WithPolicyRule
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyType
@@ -1194,7 +1185,7 @@ references:
   nameWithType: PolicyDefinition.UpdateStages.WithPolicyType
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyType
   type: Interface
-  summary: <p>A policy definition allowing the policy type to be set. </p>
+  summary: "<p>A policy definition allowing the policy type to be set. </p>"
   syntax:
     content: public interface WithPolicyType
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyType
@@ -1204,7 +1195,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithPolicyType
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyType
   type: Interface
-  summary: <p>A policy definition specifying the policy type to be blob. </p>
+  summary: "<p>A policy definition specifying the policy type to be blob. </p>"
   syntax:
     content: public interface WithPolicyType
 - uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithProperties
@@ -1214,7 +1205,7 @@ references:
   nameWithType: GenericResource.UpdateStages.WithProperties
   fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages.WithProperties
   type: Interface
-  summary: <p>A generic resource update allowing to change the resource properties. </p>
+  summary: "<p>A generic resource update allowing to change the resource properties. </p>"
   syntax:
     content: public interface WithProperties
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithProviderNamespace
@@ -1224,7 +1215,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithProviderNamespace
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithProviderNamespace
   type: Interface
-  summary: <p>A generic resource definition allowing provider namespace to be specified. </p>
+  summary: "<p>A generic resource definition allowing provider namespace to be specified. </p>"
   syntax:
     content: public interface WithProviderNamespace
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithResourceType
@@ -1234,7 +1225,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithResourceType
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithResourceType
   type: Interface
-  summary: <p>A generic resource definition allowing resource type to be specified. </p>
+  summary: "<p>A generic resource definition allowing resource type to be specified. </p>"
   syntax:
     content: public interface WithResourceType
 - uid: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithScope
@@ -1244,19 +1235,9 @@ references:
   nameWithType: PolicyAssignment.DefinitionStages.WithScope
   fullName: com.microsoft.azure.management.resources.PolicyAssignment.DefinitionStages.WithScope
   type: Interface
-  summary: <p>A policy assignment specifying the scope of the policy. </p>
+  summary: "<p>A policy assignment specifying the scope of the policy. </p>"
   syntax:
     content: public interface WithScope
-- uid: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate.yml
-  name: Deployment.UpdateStages.WithTemplate
-  nameWithType: Deployment.UpdateStages.WithTemplate
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
-  type: Interface
-  summary: <p>A deployment update allowing to change the template. </p>
-  syntax:
-    content: public interface WithTemplate
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate.yml
@@ -1264,6 +1245,16 @@ references:
   nameWithType: Deployment.DefinitionStages.WithTemplate
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
   type: Interface
-  summary: <p>A deployment definition allowing the template to be specified. </p>
+  summary: "<p>A deployment definition allowing the template to be specified. </p>"
+  syntax:
+    content: public interface WithTemplate
+- uid: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate.yml
+  name: Deployment.UpdateStages.WithTemplate
+  nameWithType: Deployment.UpdateStages.WithTemplate
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
+  type: Interface
+  summary: "<p>A deployment update allowing to change the template. </p>"
   syntax:
     content: public interface WithTemplate

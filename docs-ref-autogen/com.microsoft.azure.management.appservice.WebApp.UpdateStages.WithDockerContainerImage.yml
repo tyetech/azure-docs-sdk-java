@@ -165,7 +165,7 @@ references:
   nameWithType: WebApp.Update
   fullName: com.microsoft.azure.management.appservice.WebApp.Update
   type: Interface
-  summary: <p>The template for a web app update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a web app update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<WebApp>,WebApp.UpdateStages.WithAppServicePlan,WebAppBase.Update<WebApp>,WebApp.UpdateStages.WithDockerContainerImage
 - uid: com.microsoft.azure.management.appservice.RuntimeStack
@@ -175,7 +175,7 @@ references:
   nameWithType: RuntimeStack
   fullName: com.microsoft.azure.management.appservice.RuntimeStack
   type: Class
-  summary: <p>Defines App service pricing tiers. </p>
+  summary: "<p>Defines App service pricing tiers. </p>"
   syntax:
     content: public class RuntimeStack
 - uid: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithStartUpCommand
@@ -185,7 +185,7 @@ references:
   nameWithType: WebApp.UpdateStages.WithStartUpCommand
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithStartUpCommand
   type: Interface
-  summary: <p>A web app definition allowing docker startup command to be specified. This will replace the "CMD" section in the Dockerfile. </p>
+  summary: "<p>A web app definition allowing docker startup command to be specified. This will replace the \"CMD\" section in the Dockerfile. </p>"
   syntax:
     content: public interface WithStartUpCommand
 - uid: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithCredentials
@@ -195,6 +195,6 @@ references:
   nameWithType: WebApp.UpdateStages.WithCredentials
   fullName: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithCredentials
   type: Interface
-  summary: <p>A web app update allowing docker hub credentials to be set. </p>
+  summary: "<p>A web app update allowing docker hub credentials to be set. </p>"
   syntax:
     content: public interface WithCredentials

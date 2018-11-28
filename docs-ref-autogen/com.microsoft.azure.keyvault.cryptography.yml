@@ -42,7 +42,7 @@ references:
   nameWithType: com.microsoft.azure.keyvault.cryptography.algorithms
   fullName: com.microsoft.azure.keyvault.cryptography.algorithms
   type: Namespace
-  summary: <p>This package contains cryptographic functions and implementations. </p>
+  summary: "<p>This package contains cryptographic functions and implementations. </p>"
   syntax:
     content: package com.microsoft.azure.keyvault.cryptography.algorithms
 - uid: com.microsoft.azure.keyvault.cryptography.Algorithm
@@ -52,7 +52,7 @@ references:
   nameWithType: Algorithm
   fullName: com.microsoft.azure.keyvault.cryptography.Algorithm
   type: Class
-  summary: <p>Abstract base class for all Algorithm objects. </p>
+  summary: "<p>Abstract base class for all Algorithm objects. </p>"
   syntax:
     content: public class Algorithm
 - uid: com.microsoft.azure.keyvault.cryptography.AlgorithmResolver
@@ -71,7 +71,7 @@ references:
   nameWithType: AsymmetricEncryptionAlgorithm
   fullName: com.microsoft.azure.keyvault.cryptography.AsymmetricEncryptionAlgorithm
   type: Class
-  summary: <p>Abstract base class for all asymmetric encryption algorithms. </p>
+  summary: "<p>Abstract base class for all asymmetric encryption algorithms. </p>"
   syntax:
     content: public class AsymmetricEncryptionAlgorithm extends EncryptionAlgorithm
 - uid: com.microsoft.azure.keyvault.cryptography.AsymmetricSignatureAlgorithm
@@ -99,7 +99,7 @@ references:
   nameWithType: EncryptionAlgorithm
   fullName: com.microsoft.azure.keyvault.cryptography.EncryptionAlgorithm
   type: Class
-  summary: <p>Abstract base class for all encryption algorithms. </p>
+  summary: "<p>Abstract base class for all encryption algorithms. </p>"
   syntax:
     content: public class EncryptionAlgorithm extends Algorithm
 - uid: com.microsoft.azure.keyvault.cryptography.IAuthenticatedCryptoTransform
@@ -118,7 +118,7 @@ references:
   nameWithType: ICryptoTransform
   fullName: com.microsoft.azure.keyvault.cryptography.ICryptoTransform
   type: Interface
-  summary: <p>Defines the basic operations of cryptographic transformations. </p>
+  summary: "<p>Defines the basic operations of cryptographic transformations. </p>"
   syntax:
     content: public interface ICryptoTransform
 - uid: com.microsoft.azure.keyvault.cryptography.ISignatureTransform
@@ -137,7 +137,7 @@ references:
   nameWithType: KeyWrapAlgorithm
   fullName: com.microsoft.azure.keyvault.cryptography.KeyWrapAlgorithm
   type: Class
-  summary: <p>Abstract base class for all key wrap algorithms. </p>
+  summary: "<p>Abstract base class for all key wrap algorithms. </p>"
   syntax:
     content: public class KeyWrapAlgorithm extends Algorithm
 - uid: com.microsoft.azure.keyvault.cryptography.RsaKey
@@ -174,7 +174,7 @@ references:
   nameWithType: SymmetricEncryptionAlgorithm
   fullName: com.microsoft.azure.keyvault.cryptography.SymmetricEncryptionAlgorithm
   type: Class
-  summary: <p>Abstract base class for all symmetric encryption algorithms. </p>
+  summary: "<p>Abstract base class for all symmetric encryption algorithms. </p>"
   syntax:
     content: public class SymmetricEncryptionAlgorithm extends EncryptionAlgorithm
 - uid: com.microsoft.azure.keyvault.cryptography.SymmetricKey
@@ -184,6 +184,6 @@ references:
   nameWithType: SymmetricKey
   fullName: com.microsoft.azure.keyvault.cryptography.SymmetricKey
   type: Class
-  summary: <p>A simple symmetric key implementation </p>
+  summary: "<p>A simple symmetric key implementation </p>"
   syntax:
     content: public class SymmetricKey implements IKey

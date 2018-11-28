@@ -1446,7 +1446,7 @@ references:
   nameWithType: IInheritedBehaviors
   fullName: com.microsoft.azure.batch.IInheritedBehaviors
   type: Interface
-  summary: <p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>
+  summary: "<p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>"
   syntax:
     content: public interface IInheritedBehaviors
 - uid: com.microsoft.azure.batch.BatchClientBehavior
@@ -1456,7 +1456,7 @@ references:
   nameWithType: BatchClientBehavior
   fullName: com.microsoft.azure.batch.BatchClientBehavior
   type: Class
-  summary: <p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>
+  summary: "<p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>"
   syntax:
     content: public class BatchClientBehavior
 - uid: com.microsoft.azure.batch.BatchClient
@@ -1466,7 +1466,7 @@ references:
   nameWithType: BatchClient
   fullName: com.microsoft.azure.batch.BatchClient
   type: Class
-  summary: <p>A client for an Azure Batch account, used to access the Batch service. </p>
+  summary: "<p>A client for an Azure Batch account, used to access the Batch service. </p>"
   syntax:
     content: public class BatchClient
 - uid: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
@@ -1476,10 +1476,7 @@ references:
   nameWithType: IInheritedBehaviors.customBehaviors()
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
   type: Method
-  summary: >-
-    <p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public Collection<BatchClientBehavior> customBehaviors()
     return:
@@ -1492,10 +1489,7 @@ references:
   nameWithType: IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   type: Method
-  summary: >-
-    <p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public IInheritedBehaviors withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
     parameters:
@@ -1512,7 +1506,7 @@ references:
   nameWithType: JobStatistics
   fullName: com.microsoft.azure.batch.protocol.models.JobStatistics
   type: Class
-  summary: <p>Resource usage statistics for a job. </p>
+  summary: "<p>Resource usage statistics for a job. </p>"
   syntax:
     content: public class JobStatistics
 - uid: com.microsoft.azure.batch.protocol.models.BatchErrorException
@@ -1522,7 +1516,7 @@ references:
   nameWithType: BatchErrorException
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException
   type: Class
-  summary: <p>Exception thrown for an invalid response with BatchError information. </p>
+  summary: "<p>Exception thrown for an invalid response with BatchError information. </p>"
   syntax:
     content: public class BatchErrorException
 - uid: com.microsoft.azure.batch.protocol.models.CloudJob
@@ -1532,7 +1526,7 @@ references:
   nameWithType: CloudJob
   fullName: com.microsoft.azure.batch.protocol.models.CloudJob
   type: Class
-  summary: <p>An Azure Batch job. </p>
+  summary: "<p>An Azure Batch job. </p>"
   syntax:
     content: public class CloudJob
 - uid: com.microsoft.azure.batch.DetailLevel
@@ -1542,7 +1536,7 @@ references:
   nameWithType: DetailLevel
   fullName: com.microsoft.azure.batch.DetailLevel
   type: Class
-  summary: <p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>
+  summary: "<p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>"
   syntax:
     content: public class DetailLevel
 - uid: com.microsoft.azure.batch.protocol.models.JobPreparationAndReleaseTaskExecutionInformation
@@ -1552,7 +1546,7 @@ references:
   nameWithType: JobPreparationAndReleaseTaskExecutionInformation
   fullName: com.microsoft.azure.batch.protocol.models.JobPreparationAndReleaseTaskExecutionInformation
   type: Class
-  summary: <p>The status of the Job Preparation and Job Release tasks on a compute node. </p>
+  summary: "<p>The status of the Job Preparation and Job Release tasks on a compute node. </p>"
   syntax:
     content: public class JobPreparationAndReleaseTaskExecutionInformation
 - uid: com.microsoft.azure.batch.protocol.models.PoolInformation
@@ -1562,7 +1556,7 @@ references:
   nameWithType: PoolInformation
   fullName: com.microsoft.azure.batch.protocol.models.PoolInformation
   type: Class
-  summary: <p>Specifies how a job should be assigned to a pool. </p>
+  summary: "<p>Specifies how a job should be assigned to a pool. </p>"
   syntax:
     content: public class PoolInformation
 - uid: com.microsoft.azure.batch.protocol.models.JobAddParameter
@@ -1572,7 +1566,7 @@ references:
   nameWithType: JobAddParameter
   fullName: com.microsoft.azure.batch.protocol.models.JobAddParameter
   type: Class
-  summary: <p>An Azure Batch job to add. </p>
+  summary: "<p>An Azure Batch job to add. </p>"
   syntax:
     content: public class JobAddParameter
 - uid: com.microsoft.azure.batch.protocol.models.DisableJobOption
@@ -1582,7 +1576,7 @@ references:
   nameWithType: DisableJobOption
   fullName: com.microsoft.azure.batch.protocol.models.DisableJobOption
   type: Enum
-  summary: <p>Defines values for DisableJobOption. </p>
+  summary: "<p>Defines values for DisableJobOption. </p>"
   syntax:
     content: public enum DisableJobOption
 - uid: com.microsoft.azure.batch.protocol.models.JobConstraints
@@ -1592,7 +1586,7 @@ references:
   nameWithType: JobConstraints
   fullName: com.microsoft.azure.batch.protocol.models.JobConstraints
   type: Class
-  summary: <p>The execution constraints for a job. </p>
+  summary: "<p>The execution constraints for a job. </p>"
   syntax:
     content: public class JobConstraints
 - uid: com.microsoft.azure.batch.protocol.models.OnAllTasksComplete
@@ -1602,7 +1596,7 @@ references:
   nameWithType: OnAllTasksComplete
   fullName: com.microsoft.azure.batch.protocol.models.OnAllTasksComplete
   type: Enum
-  summary: <p>Defines values for OnAllTasksComplete. </p>
+  summary: "<p>Defines values for OnAllTasksComplete. </p>"
   syntax:
     content: public enum OnAllTasksComplete
 - uid: com.microsoft.azure.batch.protocol.models.MetadataItem
@@ -1612,7 +1606,7 @@ references:
   nameWithType: MetadataItem
   fullName: com.microsoft.azure.batch.protocol.models.MetadataItem
   type: Class
-  summary: <p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>
+  summary: "<p>A name-value pair associated with a Batch service resource. The Batch service does not assign any meaning to this metadata; it is solely for the use of user code. </p>"
   syntax:
     content: public class MetadataItem
 - uid: com.microsoft.azure.batch.protocol.models.JobPatchParameter
@@ -1622,7 +1616,7 @@ references:
   nameWithType: JobPatchParameter
   fullName: com.microsoft.azure.batch.protocol.models.JobPatchParameter
   type: Class
-  summary: <p>The set of changes to be made to a job. </p>
+  summary: "<p>The set of changes to be made to a job. </p>"
   syntax:
     content: public class JobPatchParameter
 - uid: com.microsoft.azure.batch.protocol.models.TaskCounts
@@ -1632,6 +1626,6 @@ references:
   nameWithType: TaskCounts
   fullName: com.microsoft.azure.batch.protocol.models.TaskCounts
   type: Class
-  summary: <p>The task counts for a job. </p>
+  summary: "<p>The task counts for a job. </p>"
   syntax:
     content: public class TaskCounts

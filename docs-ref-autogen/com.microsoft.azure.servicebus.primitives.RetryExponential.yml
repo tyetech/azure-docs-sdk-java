@@ -131,7 +131,7 @@ references:
   nameWithType: RetryPolicy.getDefault()
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy.getDefault()
   type: Method
-  summary: <p>Retry policy that provides exponentially increasing retry intervals with each successive failure. This policy is suitable for use by use most client applications and is also the default policy if no retry policy is specified. </p>
+  summary: "<p>Retry policy that provides exponentially increasing retry intervals with each successive failure. This policy is suitable for use by use most client applications and is also the default policy if no retry policy is specified. </p>"
   syntax:
     content: public static RetryPolicy getDefault()
     return:
@@ -144,10 +144,7 @@ references:
   nameWithType: RetryPolicy.getNextRetryInterval(String clientId, Exception lastException, Duration remainingTime)
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy.getNextRetryInterval(String clientId, Exception lastException, Duration remainingTime)
   type: Method
-  summary: >-
-    <p>Gets the interval after which nextRetry should be attempted, based on the last exception encountered and the remaining time before the operation times out.</p>
-
-    <p></p>
+  summary: "<p>Gets the interval after which nextRetry should be attempted, based on the last exception encountered and the remaining time before the operation times out.</p>\r\n<p></p>"
   syntax:
     content: public Duration getNextRetryInterval(String clientId, Exception lastException, Duration remainingTime)
     parameters:
@@ -170,7 +167,7 @@ references:
   nameWithType: RetryPolicy.getNoRetry()
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy.getNoRetry()
   type: Method
-  summary: <p>Gets a retry policy that doesn't retry any operations, effectively disabling retries. Clients can use this retry policy in case they do not want any operation automatically retried. </p>
+  summary: "<p>Gets a retry policy that doesn't retry any operations, effectively disabling retries. Clients can use this retry policy in case they do not want any operation automatically retried. </p>"
   syntax:
     content: public static RetryPolicy getNoRetry()
     return:
@@ -197,7 +194,7 @@ references:
   nameWithType: RetryPolicy.incrementRetryCount(String clientId)
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy.incrementRetryCount(String clientId)
   type: Method
-  summary: <p>Increments the number of successive retry attempts made by a client. </p>
+  summary: "<p>Increments the number of successive retry attempts made by a client. </p>"
   syntax:
     content: public void incrementRetryCount(String clientId)
     parameters:
@@ -211,7 +208,7 @@ references:
   nameWithType: RetryPolicy.isRetryableException(Exception exception)
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy.isRetryableException(Exception exception)
   type: Method
-  summary: <p>Determines if an exception is retry-able or not. Only transient exceptions should be retried. </p>
+  summary: "<p>Determines if an exception is retry-able or not. Only transient exceptions should be retried. </p>"
   syntax:
     content: public static boolean isRetryableException(Exception exception)
     parameters:
@@ -228,7 +225,7 @@ references:
   nameWithType: RetryPolicy.resetRetryCount(String clientId)
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy.resetRetryCount(String clientId)
   type: Method
-  summary: <p>Resets the number of retry attempts made by a client. This method is called by the client when retried operation succeeds. </p>
+  summary: "<p>Resets the number of retry attempts made by a client. This method is called by the client when retried operation succeeds. </p>"
   syntax:
     content: public void resetRetryCount(String clientId)
     parameters:
@@ -242,7 +239,7 @@ references:
   nameWithType: RetryPolicy.RetryPolicy(final String name)
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy.RetryPolicy(final String name)
   type: Constructor
-  summary: <p>Creates an instance of RetryPolicy with the given name. </p>
+  summary: "<p>Creates an instance of RetryPolicy with the given name. </p>"
   syntax:
     content: protected RetryPolicy(final String name)
     parameters:
@@ -267,7 +264,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.servicebus.primitives.RetryPolicy
   type: Class
-  summary: <p>Represents an abstraction of a policy for retrying messaging operations when an exception is encountered. Some exceptions encountered by a sender or receiver can be transient like ServerBusy and the operation will succeed if retried. Clients can specify a retry policy using <xref uid="com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder" data-throw-if-not-resolved="false">ConnectionStringBuilder</xref> which guides senders and receivers to automatically retry the failed operation before throwing the exception to the client application. Users should not implement this class, instead should use one of the provided implementations through <xref uid="com.microsoft.azure.servicebus.primitives.RetryPolicy.getDefault()" data-throw-if-not-resolved="false">getDefault</xref> or <xref uid="com.microsoft.azure.servicebus.primitives.RetryPolicy.getNoRetry()" data-throw-if-not-resolved="false">getNoRetry</xref>. </p>
+  summary: "<p>Represents an abstraction of a policy for retrying messaging operations when an exception is encountered. Some exceptions encountered by a sender or receiver can be transient like ServerBusy and the operation will succeed if retried. Clients can specify a retry policy using <xref uid=\"com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder\" data-throw-if-not-resolved=\"false\">ConnectionStringBuilder</xref> which guides senders and receivers to automatically retry the failed operation before throwing the exception to the client application. Users should not implement this class, instead should use one of the provided implementations through <xref uid=\"com.microsoft.azure.servicebus.primitives.RetryPolicy.getDefault()\" data-throw-if-not-resolved=\"false\">getDefault</xref> or <xref uid=\"com.microsoft.azure.servicebus.primitives.RetryPolicy.getNoRetry()\" data-throw-if-not-resolved=\"false\">getNoRetry</xref>. </p>"
   syntax:
     content: public class RetryPolicy
 - uid: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
@@ -277,25 +274,6 @@ references:
   nameWithType: ConnectionStringBuilder
   fullName: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
   type: Class
-  summary: >-
-    <p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>
-
-    <p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(
-
-                                                 "ServiceBusNamespaceName", 
-
-                                                 "ServiceBusEntityName", // QueueName or TopicName or SubscriptionPath
-
-                                                 "SharedAccessSignatureKeyName", 
-
-                                                 "SharedAccessSignatureKey");
-
-         
-
-        String connectionString = connectionStringBuilder.toString();
-
-        </code></pre></p>
-
-    <p>A connection string is basically a string consisted of key-value pair separated by ";". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>
+  summary: "<p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>\r\n<p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(\r\n                                             \"ServiceBusNamespaceName\", \r\n                                             \"ServiceBusEntityName\", // QueueName or TopicName or SubscriptionPath\r\n                                             \"SharedAccessSignatureKeyName\", \r\n                                             \"SharedAccessSignatureKey\");\r\n     \r\n    String connectionString = connectionStringBuilder.toString();\r\n    </code></pre></p>\r\n<p>A connection string is basically a string consisted of key-value pair separated by \";\". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>"
   syntax:
     content: public class ConnectionStringBuilder

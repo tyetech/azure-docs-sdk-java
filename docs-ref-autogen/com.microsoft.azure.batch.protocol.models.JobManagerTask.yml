@@ -920,7 +920,7 @@ references:
   nameWithType: TaskContainerSettings
   fullName: com.microsoft.azure.batch.protocol.models.TaskContainerSettings
   type: Class
-  summary: <p>The container settings for a task. </p>
+  summary: "<p>The container settings for a task. </p>"
   syntax:
     content: public class TaskContainerSettings
 - uid: com.microsoft.azure.batch.protocol.models.ResourceFile
@@ -930,7 +930,7 @@ references:
   nameWithType: ResourceFile
   fullName: com.microsoft.azure.batch.protocol.models.ResourceFile
   type: Class
-  summary: <p>A file to be downloaded from Azure blob storage to a compute node. </p>
+  summary: "<p>A file to be downloaded from Azure blob storage to a compute node. </p>"
   syntax:
     content: public class ResourceFile
 - uid: com.microsoft.azure.batch.protocol.models.OutputFile
@@ -940,7 +940,7 @@ references:
   nameWithType: OutputFile
   fullName: com.microsoft.azure.batch.protocol.models.OutputFile
   type: Class
-  summary: <p>A specification for uploading files from an Azure Batch node to another location after the Batch service has finished executing the task process. </p>
+  summary: "<p>A specification for uploading files from an Azure Batch node to another location after the Batch service has finished executing the task process. </p>"
   syntax:
     content: public class OutputFile
 - uid: com.microsoft.azure.batch.protocol.models.EnvironmentSetting
@@ -950,7 +950,7 @@ references:
   nameWithType: EnvironmentSetting
   fullName: com.microsoft.azure.batch.protocol.models.EnvironmentSetting
   type: Class
-  summary: <p>An environment variable to be set on a task process. </p>
+  summary: "<p>An environment variable to be set on a task process. </p>"
   syntax:
     content: public class EnvironmentSetting
 - uid: com.microsoft.azure.batch.protocol.models.TaskConstraints
@@ -960,7 +960,7 @@ references:
   nameWithType: TaskConstraints
   fullName: com.microsoft.azure.batch.protocol.models.TaskConstraints
   type: Class
-  summary: <p>Execution constraints to apply to a task. </p>
+  summary: "<p>Execution constraints to apply to a task. </p>"
   syntax:
     content: public class TaskConstraints
 - uid: com.microsoft.azure.batch.protocol.models.UserIdentity
@@ -970,7 +970,7 @@ references:
   nameWithType: UserIdentity
   fullName: com.microsoft.azure.batch.protocol.models.UserIdentity
   type: Class
-  summary: <p>The definition of the user identity under which the task is run. Specify either the userName or autoUser property, but not both. On CloudServiceConfiguration pools, this user is logged in with the INTERACTIVE flag. On Windows VirtualMachineConfiguration pools, this user is logged in with the BATCH flag. </p>
+  summary: "<p>The definition of the user identity under which the task is run. Specify either the userName or autoUser property, but not both. On CloudServiceConfiguration pools, this user is logged in with the INTERACTIVE flag. On Windows VirtualMachineConfiguration pools, this user is logged in with the BATCH flag. </p>"
   syntax:
     content: public class UserIdentity
 - uid: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
@@ -980,7 +980,7 @@ references:
   nameWithType: ApplicationPackageReference
   fullName: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
   type: Class
-  summary: <p>A reference to an application package to be deployed to compute nodes. </p>
+  summary: "<p>A reference to an application package to be deployed to compute nodes. </p>"
   syntax:
     content: public class ApplicationPackageReference
 - uid: com.microsoft.azure.batch.protocol.models.AuthenticationTokenSettings
@@ -990,7 +990,7 @@ references:
   nameWithType: AuthenticationTokenSettings
   fullName: com.microsoft.azure.batch.protocol.models.AuthenticationTokenSettings
   type: Class
-  summary: <p>The settings for an authentication token that the task can use to perform Batch service operations. </p>
+  summary: "<p>The settings for an authentication token that the task can use to perform Batch service operations. </p>"
   syntax:
     content: public class AuthenticationTokenSettings
 - uid: com.microsoft.azure.batch.protocol.models.JobManagerTask
@@ -1000,5 +1000,5 @@ references:
   nameWithType: JobManagerTask
   fullName: com.microsoft.azure.batch.protocol.models.JobManagerTask
   type: Class
-  summary: <p>Specifies details of a Job Manager task. The Job Manager task is automatically started when the job is created. The Batch service tries to schedule the Job Manager task before any other tasks in the job. When shrinking a pool, the Batch service tries to preserve compute nodes where Job Manager tasks are running for as long as possible (that is, nodes running 'normal' tasks are removed before nodes running Job Manager tasks). When a Job Manager task fails and needs to be restarted, the system tries to schedule it at the highest priority. If there are no idle nodes available, the system may terminate one of the running tasks in the pool and return it to the queue in order to make room for the Job Manager task to restart. Note that a Job Manager task in one job does not have priority over tasks in other jobs. Across jobs, only job level priorities are observed. For example, if a Job Manager in a priority 0 job needs to be restarted, it will not displace tasks of a priority 1 job. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>Specifies details of a Job Manager task. The Job Manager task is automatically started when the job is created. The Batch service tries to schedule the Job Manager task before any other tasks in the job. When shrinking a pool, the Batch service tries to preserve compute nodes where Job Manager tasks are running for as long as possible (that is, nodes running 'normal' tasks are removed before nodes running Job Manager tasks). When a Job Manager task fails and needs to be restarted, the system tries to schedule it at the highest priority. If there are no idle nodes available, the system may terminate one of the running tasks in the pool and return it to the queue in order to make room for the Job Manager task to restart. Note that a Job Manager task in one job does not have priority over tasks in other jobs. Across jobs, only job level priorities are observed. For example, if a Job Manager in a priority 0 job needs to be restarted, it will not displace tasks of a priority 1 job. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax: *o1

@@ -212,12 +212,7 @@ references:
   nameWithType: StatelessServicePartition
   fullName: system.fabric.StatelessServicePartition
   type: Interface
-  summary: >-
-    <p>Represents a partition that is associated with a stateless service instance. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid="system.fabric.ServicePartition" data-throw-if-not-resolved="false">system.fabric.ServicePartition</xref>. </p>
+  summary: "<p>Represents a partition that is associated with a stateless service instance. </p>\r\n<p>\r\n  <b>Remarks:</b>Provided to a stateless service as a parameter to the <xref uid=\"system.fabric.ServicePartition\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition</xref>. </p>"
   syntax:
     content: public interface StatelessServicePartition
 - uid: system.fabric.LoadMetric
@@ -236,12 +231,7 @@ references:
   nameWithType: FaultType
   fullName: system.fabric.FaultType
   type: Enum
-  summary: >-
-    <p>Indicates the type of fault that a service reports: invalid, transient or permanent. </p>
-
-    <p>
-
-      <b>Remarks : </b> Services can report faults during runtime by using the <xref uid="system.fabric.ServicePartition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(FaultType)</xref> method to indicate the type of fault. </p>
+  summary: "<p>Indicates the type of fault that a service reports: invalid, transient or permanent. </p>\r\n<p>\r\n  <b>Remarks : </b> Services can report faults during runtime by using the <xref uid=\"system.fabric.ServicePartition.reportFault(FaultType)\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartition#reportFault(FaultType)</xref> method to indicate the type of fault. </p>"
   syntax:
     content: public enum FaultType
 - uid: system.fabric.MoveCost
@@ -260,14 +250,7 @@ references:
   nameWithType: ServicePartitionInformation
   fullName: system.fabric.ServicePartitionInformation
   type: Class
-  summary: >-
-    <p>Represents the base class for describing partitions. </p>
-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="system.fabric.Int64RangePartitionInformation" data-throw-if-not-resolved="false">system.fabric.Int64RangePartitionInformation</xref>, <xref uid="system.fabric.NamedPartitionInformation" data-throw-if-not-resolved="false">system.fabric.NamedPartitionInformation</xref>, and <xref uid="system.fabric.SingletonPartitionInformation" data-throw-if-not-resolved="false">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>
+  summary: "<p>Represents the base class for describing partitions. </p>\r\n<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"system.fabric.Int64RangePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.Int64RangePartitionInformation</xref>, <xref uid=\"system.fabric.NamedPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.NamedPartitionInformation</xref>, and <xref uid=\"system.fabric.SingletonPartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.SingletonPartitionInformation</xref> all derive from this type. </p>"
   syntax:
     content: public class ServicePartitionInformation
 - uid: system.fabric.health.HealthInformation
@@ -277,6 +260,6 @@ references:
   nameWithType: HealthInformation
   fullName: system.fabric.health.HealthInformation
   type: Class
-  summary: <p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>
+  summary: "<p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>"
   syntax:
     content: public class HealthInformation

@@ -236,12 +236,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -254,7 +249,7 @@ references:
   nameWithType: ActiveDirectoryObject
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryObject
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD object. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD object. </p>"
   syntax:
     content: public interface ActiveDirectoryObject extends Indexable,HasId,HasName,HasManager<GraphRbacManager>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.HasInner
@@ -264,10 +259,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -281,10 +273,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -298,6 +287,6 @@ references:
   nameWithType: CountryIsoCode
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode
   type: Class
-  summary: <p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>
+  summary: "<p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>"
   syntax:
     content: public class CountryIsoCode

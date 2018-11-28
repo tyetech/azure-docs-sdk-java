@@ -34,10 +34,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateStages.WithListener.fromListener(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithListener.fromListener(String name)
   type: Method
-  summary: >-
-    <p>Associates the request routing rule with an existing frontend listener. </p>
-
-    <p>Also, note that a given listener can be used by no more than one request routing rule at a time. </p>
+  summary: "<p>Associates the request routing rule with an existing frontend listener. </p>\r\n<p>Also, note that a given listener can be used by no more than one request routing rule at a time. </p>"
   syntax:
     content: public Update fromListener(String name)
     parameters:
@@ -54,12 +51,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -72,7 +64,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackend.toBackend(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackend.toBackend(String name)
   type: Method
-  summary: <p>Associates the request routing rule with an existing backend on this application gateway. </p>
+  summary: "<p>Associates the request routing rule with an existing backend on this application gateway. </p>"
   syntax:
     content: public Update toBackend(String name)
     parameters:
@@ -89,7 +81,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackendHttpConfiguration.toBackendHttpConfiguration(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackendHttpConfiguration.toBackendHttpConfiguration(String name)
   type: Method
-  summary: <p>Associates the specified backend HTTP settings configuration with this request routing rule. </p>
+  summary: "<p>Associates the specified backend HTTP settings configuration with this request routing rule. </p>"
   syntax:
     content: public Update toBackendHttpConfiguration(String name)
     parameters:
@@ -106,10 +98,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -123,7 +112,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateStages.WithListener
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithListener
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule update allowing to specify an existing listener to associate the routing rule with. </p>
+  summary: "<p>The stage of an application gateway request routing rule update allowing to specify an existing listener to associate the routing rule with. </p>"
   syntax:
     content: public interface WithListener
 - uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackend
@@ -133,7 +122,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackend
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule update allowing to specify the backend to associate the routing rule with. </p>
+  summary: "<p>The stage of an application gateway request routing rule update allowing to specify the backend to associate the routing rule with. </p>"
   syntax:
     content: public interface WithBackend
 - uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackendHttpConfiguration
@@ -143,6 +132,6 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackendHttpConfiguration
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages.WithBackendHttpConfiguration
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule update allowing to specify the backend HTTP settings configuration to associate the routing rule with. </p>
+  summary: "<p>The stage of an application gateway request routing rule update allowing to specify the backend HTTP settings configuration to associate the routing rule with. </p>"
   syntax:
     content: public interface WithBackendHttpConfiguration

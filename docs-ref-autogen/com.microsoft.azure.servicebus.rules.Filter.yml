@@ -31,10 +31,7 @@ references:
   nameWithType: CorrelationFilter
   fullName: com.microsoft.azure.servicebus.rules.CorrelationFilter
   type: Class
-  summary: >-
-    <p>Represents a correlation filter expression. A correlation filter is an efficient shortcut for declarations of filters that deal only with correlation equality of message properties. A correlation filter can be created to match one or more of standard or custom properties of a message. In the service, correlation filters are implemented as hashtable lookups. So they are much faster at run time than other types of filters.</p>
-
-    <p></p>
+  summary: "<p>Represents a correlation filter expression. A correlation filter is an efficient shortcut for declarations of filters that deal only with correlation equality of message properties. A correlation filter can be created to match one or more of standard or custom properties of a message. In the service, correlation filters are implemented as hashtable lookups. So they are much faster at run time than other types of filters.</p>\r\n<p></p>"
   syntax:
     content: public class CorrelationFilter extends Filter
 - uid: com.microsoft.azure.servicebus.rules.SqlFilter
@@ -44,9 +41,6 @@ references:
   nameWithType: SqlFilter
   fullName: com.microsoft.azure.servicebus.rules.SqlFilter
   type: Class
-  summary: >-
-    <p>Represents a SQL language-based filter expression that is evaluated against a message.</p>
-
-    <p></p>
+  summary: "<p>Represents a SQL language-based filter expression that is evaluated against a message.</p>\r\n<p></p>"
   syntax:
     content: public class SqlFilter

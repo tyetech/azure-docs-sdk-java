@@ -96,7 +96,7 @@ references:
   nameWithType: ActorProxyBase
   fullName: microsoft.servicefabric.actors.client.ActorProxyBase
   type: Class
-  summary: <p>Provides the base implementation for the proxy to the remote actor objects implementing IActor interfaces. </p>
+  summary: "<p>Provides the base implementation for the proxy to the remote actor objects implementing IActor interfaces. </p>"
   syntax:
     content: public class ActorProxyBase
 - uid: microsoft.servicefabric.actors.ActorId
@@ -106,7 +106,7 @@ references:
   nameWithType: ActorId
   fullName: microsoft.servicefabric.actors.ActorId
   type: Class
-  summary: <p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, <xref uid="" data-throw-if-not-resolved="false">java.util.UUID</xref> or long. </p>
+  summary: "<p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.lang.String</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.UUID</xref> or long. </p>"
   syntax:
     content: public class ActorId
 - uid: microsoft.servicefabric.actors.client.ActorProxyBase.getActorId()
@@ -116,10 +116,7 @@ references:
   nameWithType: ActorProxyBase.getActorId()
   fullName: microsoft.servicefabric.actors.client.ActorProxyBase.getActorId()
   type: Method
-  summary: >-
-    <p>Gets <xref uid="microsoft.servicefabric.actors.ActorId" data-throw-if-not-resolved="false">microsoft.servicefabric.actors.ActorId</xref> associated with the proxy object.</p>
-
-    <p></p>
+  summary: "<p>Gets <xref uid=\"microsoft.servicefabric.actors.ActorId\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.actors.ActorId</xref> associated with the proxy object.</p>\r\n<p></p>"
   syntax:
     content: public ActorId getActorId()
     return:
@@ -135,10 +132,7 @@ references:
   nameWithType: ActorProxyBase.getActorServicePartitionClient()
   fullName: microsoft.servicefabric.actors.client.ActorProxyBase.getActorServicePartitionClient()
   type: Method
-  summary: >-
-    <p>Gets <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.actors.remoting.client.internal.ActorServicePartitionClientImpl</xref> that this proxy is using to communicate with the actor.</p>
-
-    <p></p>
+  summary: "<p>Gets <xref uid=\"\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.actors.remoting.client.internal.ActorServicePartitionClientImpl</xref> that this proxy is using to communicate with the actor.</p>\r\n<p></p>"
   syntax:
     content: public ActorServicePartitionClientImpl getActorServicePartitionClient()
     return:

@@ -93,7 +93,7 @@ references:
   nameWithType: Disk.Definition
   fullName: com.microsoft.azure.management.compute.Disk.Definition
   type: Interface
-  summary: <p>The entirety of the managed disk definition. </p>
+  summary: "<p>The entirety of the managed disk definition. </p>"
   syntax:
     content: public interface Definition extends Disk.DefinitionStages.Blank,Disk.DefinitionStages.WithGroup,Disk.DefinitionStages.WithDiskSource,Disk.DefinitionStages.WithWindowsDiskSource,Disk.DefinitionStages.WithLinuxDiskSource,Disk.DefinitionStages.WithData,Disk.DefinitionStages.WithDataDiskSource,Disk.DefinitionStages.WithDataDiskFromVhd,Disk.DefinitionStages.WithDataDiskFromDisk,Disk.DefinitionStages.WithDataDiskFromSnapshot,Disk.DefinitionStages.WithCreateAndSize,Disk.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskSource
@@ -103,7 +103,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithDataDiskSource
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithDataDiskSource
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose data source. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose data source. </p>"
   syntax:
     content: public interface WithDataDiskSource
 - uid: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreateAndSize
@@ -113,7 +113,7 @@ references:
   nameWithType: Disk.DefinitionStages.WithCreateAndSize
   fullName: com.microsoft.azure.management.compute.Disk.DefinitionStages.WithCreateAndSize
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to create the disk or optionally specify size. </p>
+  summary: "<p>The stage of the managed disk definition allowing to create the disk or optionally specify size. </p>"
   syntax:
     content: public interface WithCreateAndSize extends Disk.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.Disk
@@ -123,6 +123,6 @@ references:
   nameWithType: Disk
   fullName: com.microsoft.azure.management.compute.Disk
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure managed disk. </p>
+  summary: "<p>An immutable client-side representation of an Azure managed disk. </p>"
   syntax:
     content: public interface Disk extends GroupableResource<ComputeManager, DiskInner>,Refreshable<Disk>,Updatable<Disk.Update>

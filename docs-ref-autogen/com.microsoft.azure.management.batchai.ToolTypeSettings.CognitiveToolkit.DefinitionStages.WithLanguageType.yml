@@ -120,7 +120,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the Microsoft Cognitive Toolkit settings definition. </p>
+  summary: "<p>The first stage of the Microsoft Cognitive Toolkit settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithLanguageType<ParentT>
     typeParameters:
@@ -134,7 +134,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the Microsoft Cognitive Toolkit settings definition. At this stage, any remaining optional settings can be specified, or the Microsoft Cognitive Toolkit settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the Microsoft Cognitive Toolkit settings definition. At this stage, any remaining optional settings can be specified, or the Microsoft Cognitive Toolkit settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
     typeParameters:

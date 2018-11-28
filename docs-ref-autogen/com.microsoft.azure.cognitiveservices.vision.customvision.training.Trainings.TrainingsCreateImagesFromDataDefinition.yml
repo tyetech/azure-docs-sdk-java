@@ -35,10 +35,7 @@ references:
   nameWithType: Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public ImageCreateSummary execute()
     return:
@@ -51,10 +48,7 @@ references:
   nameWithType: Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<ImageCreateSummary> executeAsync()
     return:
@@ -82,10 +76,7 @@ references:
   nameWithType: Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithProjectId.withProjectId(UUID projectId)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithProjectId.withProjectId(UUID projectId)
   type: Method
-  summary: >-
-    <p>The project id.</p>
-
-    <p></p>
+  summary: "<p>The project id.</p>\r\n<p></p>"
   syntax:
     content: public WithImageData withProjectId(UUID projectId)
     parameters:
@@ -101,10 +92,7 @@ references:
   nameWithType: Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithAllOptions.withTagIds(List<String> tagIds)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithAllOptions.withTagIds(List<String> tagIds)
   type: Method
-  summary: >-
-    <p>The tags ids with which to tag each image. Limited to 20.</p>
-
-    <p></p>
+  summary: "<p>The tags ids with which to tag each image. Limited to 20.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsCreateImagesFromDataDefinitionStages.WithExecute withTagIds(List<String> tagIds)
     parameters:
@@ -120,7 +108,7 @@ references:
   nameWithType: Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithProjectId
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithProjectId
   type: Interface
-  summary: <p>The stage of the definition to be specify projectId. </p>
+  summary: "<p>The stage of the definition to be specify projectId. </p>"
   syntax:
     content: public interface WithProjectId
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithImageData
@@ -130,7 +118,7 @@ references:
   nameWithType: Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithImageData
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithImageData
   type: Interface
-  summary: <p>The stage of the definition to be specify imageData. </p>
+  summary: "<p>The stage of the definition to be specify imageData. </p>"
   syntax:
     content: public interface WithImageData
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithExecute
@@ -140,6 +128,6 @@ references:
   nameWithType: Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsCreateImagesFromDataDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

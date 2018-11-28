@@ -61,7 +61,7 @@ references:
   nameWithType: BatchAICluster
   fullName: com.microsoft.azure.management.batchai.BatchAICluster
   type: Interface
-  summary: <p>Entry point for Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAICluster extends HasInner<ClusterInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAICluster>,Updatable<BatchAICluster.Update>
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment
@@ -71,7 +71,7 @@ references:
   nameWithType: BatchAIExperiment
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment
   type: Interface
-  summary: <p>Entry point for Batch AI Experiment management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI Experiment management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiment extends HasInner<ExperimentInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer
@@ -81,7 +81,7 @@ references:
   nameWithType: BatchAIFileServer
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer
   type: Interface
-  summary: <p>Entry point for Batch AI file server management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI file server management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServer extends HasInner<FileServerInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIFileServer>
 - uid: com.microsoft.azure.management.batchai.BatchAIJob
@@ -91,7 +91,7 @@ references:
   nameWithType: BatchAIJob
   fullName: com.microsoft.azure.management.batchai.BatchAIJob
   type: Interface
-  summary: <p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>
+  summary: "<p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>"
   syntax:
     content: public interface BatchAIJob extends HasInner<JobInner>,Indexable,HasId,HasName,Refreshable<BatchAIJob>
 - uid: com.microsoft.azure.management.compute.VirtualMachineDataDisk
@@ -101,7 +101,7 @@ references:
   nameWithType: VirtualMachineDataDisk
   fullName: com.microsoft.azure.management.compute.VirtualMachineDataDisk
   type: Interface
-  summary: <p>A managed data disk of a virtual machine. </p>
+  summary: "<p>A managed data disk of a virtual machine. </p>"
   syntax:
     content: public interface VirtualMachineDataDisk
 - uid: com.microsoft.azure.management.containerregistry.Build
@@ -111,7 +111,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildStep
@@ -121,7 +121,7 @@ references:
   nameWithType: BuildStep
   fullName: com.microsoft.azure.management.containerregistry.BuildStep
   type: Interface
-  summary: <p>An object that represents a build step for a build task in a container registry. </p>
+  summary: "<p>An object that represents a build step for a build task in a container registry. </p>"
   syntax:
     content: public interface BuildStep extends ExternalChildResource<BuildStep, BuildTask>,HasName,HasId,HasInner<BuildStepInner>,Refreshable<BuildStep>,Updatable<BuildStep.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryObject
@@ -131,7 +131,7 @@ references:
   nameWithType: ActiveDirectoryObject
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryObject
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD object. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD object. </p>"
   syntax:
     content: public interface ActiveDirectoryObject extends Indexable,HasId,HasName,HasManager<GraphRbacManager>
 - uid: com.microsoft.azure.management.graphrbac.Credential
@@ -141,7 +141,7 @@ references:
   nameWithType: Credential
   fullName: com.microsoft.azure.management.graphrbac.Credential
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD credential. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD credential. </p>"
   syntax:
     content: public interface Credential extends Indexable,HasId,HasName
 - uid: com.microsoft.azure.management.graphrbac.RoleAssignment
@@ -151,7 +151,7 @@ references:
   nameWithType: RoleAssignment
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD role assignment. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD role assignment. </p>"
   syntax:
     content: public interface RoleAssignment
 - uid: com.microsoft.azure.management.graphrbac.RoleDefinition
@@ -161,7 +161,7 @@ references:
   nameWithType: RoleDefinition
   fullName: com.microsoft.azure.management.graphrbac.RoleDefinition
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD role definition. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD role definition. </p>"
   syntax:
     content: public interface RoleDefinition
 - uid: com.microsoft.azure.management.network.model.HasNetworkInterfaces
@@ -171,7 +171,7 @@ references:
   nameWithType: HasNetworkInterfaces
   fullName: com.microsoft.azure.management.network.model.HasNetworkInterfaces
   type: Interface
-  summary: <p>Interface exposing a list of network interfaces. </p>
+  summary: "<p>Interface exposing a list of network interfaces. </p>"
   syntax:
     content: public interface HasNetworkInterfaces
 - uid: com.microsoft.azure.management.network.PacketCapture
@@ -181,7 +181,7 @@ references:
   nameWithType: PacketCapture
   fullName: com.microsoft.azure.management.network.PacketCapture
   type: Interface
-  summary: <p>Client-side representation of Packet capture object, associated with Network Watcher. </p>
+  summary: "<p>Client-side representation of Packet capture object, associated with Network Watcher. </p>"
   syntax:
     content: public interface PacketCapture
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.IndependentChild
@@ -191,7 +191,7 @@ references:
   nameWithType: IndependentChild<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.IndependentChild<ManagerT>
   type: Interface
-  summary: <p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>
+  summary: "<p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>"
   syntax:
     content: public interface IndependentChild<ManagerT>
     typeParameters:
@@ -205,7 +205,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
   type: Interface
-  summary: <p>Base interfaces for fluent resources. </p>
+  summary: "<p>Base interfaces for fluent resources. </p>"
   syntax:
     content: public interface Resource
 - uid: com.microsoft.azure.management.resources.PolicyAssignment
@@ -215,7 +215,7 @@ references:
   nameWithType: PolicyAssignment
   fullName: com.microsoft.azure.management.resources.PolicyAssignment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy assignment. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy assignment. </p>"
   syntax:
     content: public interface PolicyAssignment
 - uid: com.microsoft.azure.management.resources.PolicyDefinition
@@ -225,7 +225,7 @@ references:
   nameWithType: PolicyDefinition
   fullName: com.microsoft.azure.management.resources.PolicyDefinition
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy. </p>"
   syntax:
     content: public interface PolicyDefinition
 - uid: com.microsoft.azure.management.sql.ElasticPoolActivity
@@ -235,7 +235,7 @@ references:
   nameWithType: ElasticPoolActivity
   fullName: com.microsoft.azure.management.sql.ElasticPoolActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ElasticPool's Activity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ElasticPool's Activity. </p>"
   syntax:
     content: public interface ElasticPoolActivity extends HasInner<ElasticPoolActivityInner>,HasResourceGroup,HasName,HasId,HasInner<ElasticPoolActivityInner>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.ElasticPoolDatabaseActivity
@@ -245,7 +245,7 @@ references:
   nameWithType: ElasticPoolDatabaseActivity
   fullName: com.microsoft.azure.management.sql.ElasticPoolDatabaseActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ElasticPool's Database Activity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ElasticPool's Database Activity. </p>"
   syntax:
     content: public interface ElasticPoolDatabaseActivity extends HasInner<ElasticPoolDatabaseActivityInner>,HasResourceGroup,HasName,HasId,HasInner<ElasticPoolDatabaseActivityInner>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.RecommendedElasticPool
@@ -255,7 +255,7 @@ references:
   nameWithType: RecommendedElasticPool
   fullName: com.microsoft.azure.management.sql.RecommendedElasticPool
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>"
   syntax:
     content: public interface RecommendedElasticPool
 - uid: com.microsoft.azure.management.sql.ReplicationLink
@@ -265,7 +265,7 @@ references:
   nameWithType: ReplicationLink
   fullName: com.microsoft.azure.management.sql.ReplicationLink
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Replication link. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Replication link. </p>"
   syntax:
     content: public interface ReplicationLink
 - uid: com.microsoft.azure.management.sql.RestorePoint
@@ -275,7 +275,7 @@ references:
   nameWithType: RestorePoint
   fullName: com.microsoft.azure.management.sql.RestorePoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>"
   syntax:
     content: public interface RestorePoint
 - uid: com.microsoft.azure.management.sql.ServiceObjective
@@ -285,7 +285,7 @@ references:
   nameWithType: ServiceObjective
   fullName: com.microsoft.azure.management.sql.ServiceObjective
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Service Objective. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Service Objective. </p>"
   syntax:
     content: public interface ServiceObjective
 - uid: com.microsoft.azure.management.sql.ServiceTierAdvisor
@@ -295,7 +295,7 @@ references:
   nameWithType: ServiceTierAdvisor
   fullName: com.microsoft.azure.management.sql.ServiceTierAdvisor
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Service tier advisor. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Service tier advisor. </p>"
   syntax:
     content: public interface ServiceTierAdvisor
 - uid: com.microsoft.azure.management.sql.SqlDatabaseImportExportResponse
@@ -305,7 +305,7 @@ references:
   nameWithType: SqlDatabaseImportExportResponse
   fullName: com.microsoft.azure.management.sql.SqlDatabaseImportExportResponse
   type: Interface
-  summary: <p>Response containing result of the Azure SQL Database import or export operation. </p>
+  summary: "<p>Response containing result of the Azure SQL Database import or export operation. </p>"
   syntax:
     content: public interface SqlDatabaseImportExportResponse
 - uid: com.microsoft.azure.management.sql.SqlEncryptionProtector
@@ -315,7 +315,7 @@ references:
   nameWithType: SqlEncryptionProtector
   fullName: com.microsoft.azure.management.sql.SqlEncryptionProtector
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>"
   syntax:
     content: public interface SqlEncryptionProtector
 - uid: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
@@ -325,7 +325,7 @@ references:
   nameWithType: SqlRestorableDroppedDatabase
   fullName: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
   type: Interface
-  summary: <p>Response containing Azure SQL restorable dropped database. </p>
+  summary: "<p>Response containing Azure SQL restorable dropped database. </p>"
   syntax:
     content: public interface SqlRestorableDroppedDatabase
 - uid: com.microsoft.azure.management.sql.SqlServerDnsAlias
@@ -335,7 +335,7 @@ references:
   nameWithType: SqlServerDnsAlias
   fullName: com.microsoft.azure.management.sql.SqlServerDnsAlias
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>"
   syntax:
     content: public interface SqlServerDnsAlias
 - uid: com.microsoft.azure.management.sql.SqlServerKey
@@ -345,7 +345,7 @@ references:
   nameWithType: SqlServerKey
   fullName: com.microsoft.azure.management.sql.SqlServerKey
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Key. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Key. </p>"
   syntax:
     content: public interface SqlServerKey
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
@@ -355,7 +355,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicy
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>"
   syntax:
     content: public interface SqlServerSecurityAlertPolicy
 - uid: com.microsoft.azure.management.sql.SqlSubscriptionUsageMetric
@@ -365,7 +365,7 @@ references:
   nameWithType: SqlSubscriptionUsageMetric
   fullName: com.microsoft.azure.management.sql.SqlSubscriptionUsageMetric
   type: Interface
-  summary: <p>The result of SQL server usages per current subscription. </p>
+  summary: "<p>The result of SQL server usages per current subscription. </p>"
   syntax:
     content: public interface SqlSubscriptionUsageMetric
 - uid: com.microsoft.azure.management.sql.TransparentDataEncryption
@@ -375,7 +375,7 @@ references:
   nameWithType: TransparentDataEncryption
   fullName: com.microsoft.azure.management.sql.TransparentDataEncryption
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryption. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryption. </p>"
   syntax:
     content: public interface TransparentDataEncryption
 - uid: com.microsoft.azure.management.sql.TransparentDataEncryptionActivity
@@ -385,7 +385,7 @@ references:
   nameWithType: TransparentDataEncryptionActivity
   fullName: com.microsoft.azure.management.sql.TransparentDataEncryptionActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryptionActivity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryptionActivity. </p>"
   syntax:
     content: public interface TransparentDataEncryptionActivity
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.id()

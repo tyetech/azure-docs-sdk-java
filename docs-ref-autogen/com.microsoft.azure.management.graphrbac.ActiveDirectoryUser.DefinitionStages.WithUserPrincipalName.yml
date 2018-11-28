@@ -98,7 +98,7 @@ references:
   nameWithType: ActiveDirectoryUser.Definition
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends ActiveDirectoryUser.DefinitionStages.Blank,ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName,ActiveDirectoryUser.DefinitionStages.WithPassword,ActiveDirectoryUser.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.Blank
@@ -108,7 +108,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the user definition. </p>
+  summary: "<p>The first stage of the user definition. </p>"
   syntax:
     content: public interface Blank extends ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithPassword
@@ -118,6 +118,6 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithPassword
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithPassword
   type: Interface
-  summary: <p>A user definition allowing password to be specified. </p>
+  summary: "<p>A user definition allowing password to be specified. </p>"
   syntax:
     content: public interface WithPassword

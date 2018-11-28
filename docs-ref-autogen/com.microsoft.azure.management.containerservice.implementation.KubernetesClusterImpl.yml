@@ -1128,10 +1128,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -1144,10 +1141,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -1160,10 +1154,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1180,10 +1171,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -1196,10 +1184,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1216,10 +1201,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -1292,10 +1274,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1308,10 +1287,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1384,12 +1360,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1402,7 +1373,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -1419,7 +1390,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -1436,7 +1407,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -1453,7 +1424,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1473,7 +1444,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1493,7 +1464,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1510,7 +1481,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1527,7 +1498,7 @@ references:
   nameWithType: KubernetesCluster
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster
   type: Interface
-  summary: <p>A client-side representation for a managed Kubernetes cluster. </p>
+  summary: "<p>A client-side representation for a managed Kubernetes cluster. </p>"
   syntax:
     content: public interface KubernetesCluster extends GroupableResource<ContainerServiceManager, ManagedClusterInner>,Refreshable<KubernetesCluster>,Updatable<KubernetesCluster.Update>,OrchestratorServiceBase
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
@@ -1537,7 +1508,7 @@ references:
   nameWithType: KubernetesCluster.Definition
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
   type: Interface
-  summary: <p>Interface for all the definitions related to a Kubernetes cluster. </p>
+  summary: "<p>Interface for all the definitions related to a Kubernetes cluster. </p>"
   syntax:
     content: public interface Definition extends KubernetesCluster.DefinitionStages.Blank,KubernetesCluster.DefinitionStages.WithGroup,KubernetesCluster.DefinitionStages.WithVersion,KubernetesCluster.DefinitionStages.WithLinuxRootUsername,KubernetesCluster.DefinitionStages.WithLinuxSshKey,KubernetesCluster.DefinitionStages.WithServicePrincipalClientId,KubernetesCluster.DefinitionStages.WithServicePrincipalProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAgentPool,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithAddOnProfiles,KubernetesCluster.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
@@ -1547,7 +1518,7 @@ references:
   nameWithType: KubernetesCluster.Update
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update
 - uid: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
@@ -1557,7 +1528,7 @@ references:
   nameWithType: ManagedClusterInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
   type: Class
-  summary: <p>Managed cluster. </p>
+  summary: "<p>Managed cluster. </p>"
   syntax:
     content: public class ManagedClusterInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
@@ -1567,7 +1538,7 @@ references:
   nameWithType: ContainerServiceManager
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
   type: Class
-  summary: <p>Entry point to Azure Container Service management. </p>
+  summary: "<p>Entry point to Azure Container Service management. </p>"
   syntax:
     content: public class ContainerServiceManager
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.provisioningState()
@@ -1613,7 +1584,7 @@ references:
   nameWithType: KubernetesVersion
   fullName: com.microsoft.azure.management.containerservice.KubernetesVersion
   type: Class
-  summary: <p>Defines values for Kubernetes versions. </p>
+  summary: "<p>Defines values for Kubernetes versions. </p>"
   syntax:
     content: public class KubernetesVersion
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.version()
@@ -1707,7 +1678,7 @@ references:
   nameWithType: KubernetesClusterAgentPool
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool
   type: Interface
-  summary: <p>A client-side representation for a Kubernetes cluster agent pool. </p>
+  summary: "<p>A client-side representation for a Kubernetes cluster agent pool. </p>"
   syntax:
     content: public interface KubernetesClusterAgentPool extends ChildResource<OrchestratorServiceBase>,HasInner<ManagedClusterAgentPoolProfile>
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.agentPools()
@@ -1729,7 +1700,7 @@ references:
   nameWithType: ContainerServiceNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceNetworkProfile
   type: Class
-  summary: <p>Profile of network configuration. </p>
+  summary: "<p>Profile of network configuration. </p>"
   syntax:
     content: public class ContainerServiceNetworkProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.networkProfile()
@@ -1751,7 +1722,7 @@ references:
   nameWithType: ManagedClusterAddonProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterAddonProfile
   type: Class
-  summary: <p>A Kubernetes add-on profile for a managed cluster. </p>
+  summary: "<p>A Kubernetes add-on profile for a managed cluster. </p>"
   syntax:
     content: public class ManagedClusterAddonProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.addonProfiles()
@@ -1797,7 +1768,7 @@ references:
   nameWithType: KubernetesClusterImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
   type: Class
-  summary: <p>The implementation for KubernetesCluster and its create and update interfaces. </p>
+  summary: "<p>The implementation for KubernetesCluster and its create and update interfaces. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion.withVersion(KubernetesVersion)
   parent: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion
@@ -1806,10 +1777,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion.withVersion(KubernetesVersion kubernetesVersion)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion.withVersion(KubernetesVersion kubernetesVersion)
   type: Method
-  summary: >-
-    <p>Specifies the version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Specifies the version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsername withVersion(KubernetesVersion kubernetesVersion)
     parameters:
@@ -1826,10 +1794,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion.withVersion(String kubernetesVersion)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion.withVersion(String kubernetesVersion)
   type: Method
-  summary: >-
-    <p>Specifies the version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Specifies the version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsername withVersion(String kubernetesVersion)
     parameters:
@@ -1846,10 +1811,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion.withLatestVersion()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion.withLatestVersion()
   type: Method
-  summary: >-
-    <p>Uses the latest version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Uses the latest version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsername withLatestVersion()
     return:
@@ -1862,10 +1824,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   type: Method
-  summary: >-
-    <p>Begins the definition to specify Linux root username.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition to specify Linux root username.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxSshKey withRootUsername(String rootUserName)
     parameters:
@@ -1882,10 +1841,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   type: Method
-  summary: >-
-    <p>Begins the definition to specify Linux ssh key.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition to specify Linux ssh key.</p>\r\n<p></p>"
   syntax:
     content: public WithServicePrincipalClientId withSshKey(String sshKeyData)
     parameters:
@@ -1902,10 +1858,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalClientId.withServicePrincipalClientId(String clientId)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalClientId.withServicePrincipalClientId(String clientId)
   type: Method
-  summary: >-
-    <p>Properties for Kubernetes cluster service principal.</p>
-
-    <p></p>
+  summary: "<p>Properties for Kubernetes cluster service principal.</p>\r\n<p></p>"
   syntax:
     content: public WithServicePrincipalProfile withServicePrincipalClientId(String clientId)
     parameters:
@@ -1922,10 +1875,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalProfile.withServicePrincipalSecret(String secret)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile.withServicePrincipalSecret(String secret)
   type: Method
-  summary: >-
-    <p>Properties for service principal.</p>
-
-    <p></p>
+  summary: "<p>Properties for service principal.</p>\r\n<p></p>"
   syntax:
     content: public WithAgentPool withServicePrincipalSecret(String secret)
     parameters:
@@ -1942,10 +1892,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithDnsPrefix.withDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix.withDnsPrefix(String dnsPrefix)
   type: Method
-  summary: >-
-    <p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.DefinitionStages.WithCreate withDnsPrefix(String dnsPrefix)
     parameters:
@@ -1962,7 +1909,7 @@ references:
   nameWithType: KubernetesClusterAgentPoolImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterAgentPoolImpl
   type: Class
-  summary: <p>The implementation for KubernetesClusterAgentPool and its create and update interfaces. </p>
+  summary: "<p>The implementation for KubernetesClusterAgentPool and its create and update interfaces. </p>"
   syntax:
     content: public class KubernetesClusterAgentPoolImpl implements KubernetesClusterAgentPool,KubernetesClusterAgentPool.Definition<ParentT>
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAgentPool.defineAgentPool(String)
@@ -1972,10 +1919,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of an agent pool profile to be attached to the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of an agent pool profile to be attached to the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterAgentPool.DefinitionStages.Blank<KubernetesCluster.DefinitionStages.WithCreate> defineAgentPool(String name)
     parameters:
@@ -1992,10 +1936,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
   type: Method
-  summary: >-
-    <p>Updates the agent pool virtual machine count.</p>
-
-    <p></p>
+  summary: "<p>Updates the agent pool virtual machine count.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
     parameters:
@@ -2015,10 +1956,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(int agentCount)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(int agentCount)
   type: Method
-  summary: >-
-    <p>Updates all the agent pools virtual machine count.</p>
-
-    <p></p>
+  summary: "<p>Updates all the agent pools virtual machine count.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAgentPoolVirtualMachineCount(int agentCount)
     parameters:
@@ -2035,10 +1973,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithNetworkProfile.defineNetworkProfile()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithNetworkProfile.defineNetworkProfile()
   type: Method
-  summary: >-
-    <p>Begins the definition of a network profile to be attached to the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a network profile to be attached to the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public NetworkProfileDefinitionStages.Blank<KubernetesCluster.DefinitionStages.WithCreate> defineNetworkProfile()
     return:
@@ -2051,10 +1986,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles.withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
   type: Method
-  summary: >-
-    <p>Updates the cluster's add-on's profiles.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's add-on's profiles.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withAddOnProfiles(Map<String, ManagedClusterAddonProfile> addOnProfileMap)
     parameters:
@@ -2071,10 +2003,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithNetworkProfile.withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithNetworkProfile.withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
   type: Method
-  summary: >-
-    <p>Updates the cluster's network profile.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's network profile.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
     parameters:
@@ -2091,10 +2020,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithRBAC.withRBACEnabled()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithRBAC.withRBACEnabled()
   type: Method
-  summary: >-
-    <p>Updates the cluster to specify the Kubernetes Role-Based Access Control is enabled.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster to specify the Kubernetes Role-Based Access Control is enabled.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withRBACEnabled()
     return:
@@ -2107,10 +2033,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithRBAC.withRBACDisabled()
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithRBAC.withRBACDisabled()
   type: Method
-  summary: >-
-    <p>Updates the cluster to specify the Kubernetes Role-Based Access Control is disabled.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster to specify the Kubernetes Role-Based Access Control is disabled.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesCluster.Update withRBACDisabled()
     return:

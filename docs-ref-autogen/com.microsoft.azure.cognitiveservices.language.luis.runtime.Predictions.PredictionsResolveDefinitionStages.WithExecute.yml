@@ -103,10 +103,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withBingSpellCheckSubscriptionKey(String bingSpellCheckSubscriptionKey)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withBingSpellCheckSubscriptionKey(String bingSpellCheckSubscriptionKey)
   type: Method
-  summary: >-
-    <p>The subscription key to use when enabling bing spell check.</p>
-
-    <p></p>
+  summary: "<p>The subscription key to use when enabling bing spell check.</p>\r\n<p></p>"
   syntax:
     content: public PredictionsResolveDefinitionStages.WithExecute withBingSpellCheckSubscriptionKey(String bingSpellCheckSubscriptionKey)
     parameters:
@@ -122,10 +119,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withLog(Boolean log)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withLog(Boolean log)
   type: Method
-  summary: >-
-    <p>Log query (default is true).</p>
-
-    <p></p>
+  summary: "<p>Log query (default is true).</p>\r\n<p></p>"
   syntax:
     content: public PredictionsResolveDefinitionStages.WithExecute withLog(Boolean log)
     parameters:
@@ -141,10 +135,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withSpellCheck(Boolean spellCheck)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withSpellCheck(Boolean spellCheck)
   type: Method
-  summary: >-
-    <p>Enable spell checking.</p>
-
-    <p></p>
+  summary: "<p>Enable spell checking.</p>\r\n<p></p>"
   syntax:
     content: public PredictionsResolveDefinitionStages.WithExecute withSpellCheck(Boolean spellCheck)
     parameters:
@@ -160,10 +151,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withStaging(Boolean staging)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withStaging(Boolean staging)
   type: Method
-  summary: >-
-    <p>Use the staging endpoint slot.</p>
-
-    <p></p>
+  summary: "<p>Use the staging endpoint slot.</p>\r\n<p></p>"
   syntax:
     content: public PredictionsResolveDefinitionStages.WithExecute withStaging(Boolean staging)
     parameters:
@@ -179,10 +167,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withTimezoneOffset(Double timezoneOffset)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withTimezoneOffset(Double timezoneOffset)
   type: Method
-  summary: >-
-    <p>The timezone offset for the location of the request.</p>
-
-    <p></p>
+  summary: "<p>The timezone offset for the location of the request.</p>\r\n<p></p>"
   syntax:
     content: public PredictionsResolveDefinitionStages.WithExecute withTimezoneOffset(Double timezoneOffset)
     parameters:
@@ -198,10 +183,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withVerbose(Boolean verbose)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinitionStages.WithAllOptions.withVerbose(Boolean verbose)
   type: Method
-  summary: >-
-    <p>If true, return all intents instead of just the top scoring intent.</p>
-
-    <p></p>
+  summary: "<p>If true, return all intents instead of just the top scoring intent.</p>\r\n<p></p>"
   syntax:
     content: public PredictionsResolveDefinitionStages.WithExecute withVerbose(Boolean verbose)
     parameters:
@@ -217,7 +199,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinition
@@ -227,7 +209,7 @@ references:
   nameWithType: Predictions.PredictionsResolveDefinition
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.Predictions.PredictionsResolveDefinition
   type: Interface
-  summary: <p>The entirety of resolve definition. </p>
+  summary: "<p>The entirety of resolve definition. </p>"
   syntax:
     content: public interface PredictionsResolveDefinition extends Predictions.PredictionsResolveDefinitionStages.WithAppId,Predictions.PredictionsResolveDefinitionStages.WithQuery,Predictions.PredictionsResolveDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.language.luis.runtime.models.LuisResult
@@ -237,6 +219,6 @@ references:
   nameWithType: LuisResult
   fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.models.LuisResult
   type: Class
-  summary: <p>Prediction, based on the input query, containing intent(s) and entities. </p>
+  summary: "<p>Prediction, based on the input query, containing intent(s) and entities. </p>"
   syntax:
     content: public class LuisResult

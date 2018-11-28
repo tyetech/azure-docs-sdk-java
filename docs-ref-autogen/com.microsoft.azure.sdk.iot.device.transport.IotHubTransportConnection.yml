@@ -249,7 +249,7 @@ references:
   nameWithType: AmqpsIotHubConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection
   type: Class
-  summary: <p>An AMQPS IotHub connection between a device and an IoTHub. This class contains functionality for sending/receiving a message, and logic to re-establish the connection with the IoTHub in case it gets lost. </p>
+  summary: "<p>An AMQPS IotHub connection between a device and an IoTHub. This class contains functionality for sending/receiving a message, and logic to re-establish the connection with the IoTHub in case it gets lost. </p>"
   syntax:
     content: public class AmqpsIotHubConnection implements IotHubTransportConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection
@@ -259,7 +259,7 @@ references:
   nameWithType: HttpsIotHubConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection
   type: Class
-  summary: <p>An HTTPS connection between a device and an IoT Hub. Contains functionality for synchronously connecting to the different IoT Hub resource URIs. </p>
+  summary: "<p>An HTTPS connection between a device and an IoT Hub. Contains functionality for synchronously connecting to the different IoT Hub resource URIs. </p>"
   syntax:
     content: public class HttpsIotHubConnection implements IotHubTransportConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection
@@ -278,10 +278,7 @@ references:
   nameWithType: MqttIotHubConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   type: Method
-  summary: >-
-    <p>Establishes a connection for the device and IoT Hub given in the client configuration. If the connection is already open, the function shall do nothing.</p>
-
-    <p></p>
+  summary: "<p>Establishes a connection for the device and IoT Hub given in the client configuration. If the connection is already open, the function shall do nothing.</p>\r\n<p></p>"
   syntax:
     content: public void open(Queue<DeviceClientConfig> deviceClientConfigs)
     parameters:
@@ -294,14 +291,7 @@ references:
   nameWithType: AmqpsIotHubConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   type: Method
-  summary: >-
-    <p>Opens the <xref uid="com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection" data-throw-if-not-resolved="false">AmqpsIotHubConnection</xref>. </p>
-
-    <p>This method will start the <xref uid="" data-throw-if-not-resolved="false">Reactor</xref>, set the connection to open and make it ready for sending. </p>
-
-    <p>Do not call this method after calling close on this object, instead, create a whole new AmqpsIotHubConnection object and open that instead. </p>
-
-    <p></p>
+  summary: "<p>Opens the <xref uid=\"com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection\" data-throw-if-not-resolved=\"false\">AmqpsIotHubConnection</xref>. </p>\r\n<p>This method will start the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Reactor</xref>, set the connection to open and make it ready for sending. </p>\r\n<p>Do not call this method after calling close on this object, instead, create a whole new AmqpsIotHubConnection object and open that instead. </p>\r\n<p></p>"
   syntax:
     content: public void open(Queue<DeviceClientConfig> deviceClientConfigs)
     parameters:
@@ -314,7 +304,7 @@ references:
   nameWithType: HttpsIotHubConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   type: Method
-  summary: <p>Opens the transport connection object </p>
+  summary: "<p>Opens the transport connection object </p>"
   syntax:
     content: public void open(Queue<DeviceClientConfig> deviceClientConfigs)
     parameters:
@@ -328,7 +318,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.TransportException
@@ -347,7 +337,7 @@ references:
   nameWithType: HttpsIotHubConnection.setListener(IotHubListener listener)
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.setListener(IotHubListener listener)
   type: Method
-  summary: <p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>
+  summary: "<p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>"
   syntax:
     content: public void setListener(IotHubListener listener)
     parameters:
@@ -361,7 +351,7 @@ references:
   nameWithType: MqttIotHubConnection.setListener(IotHubListener listener)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection.setListener(IotHubListener listener)
   type: Method
-  summary: <p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>
+  summary: "<p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>"
   syntax:
     content: public void setListener(IotHubListener listener)
     parameters:
@@ -375,7 +365,7 @@ references:
   nameWithType: AmqpsIotHubConnection.setListener(IotHubListener listener)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection.setListener(IotHubListener listener)
   type: Method
-  summary: <p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>
+  summary: "<p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>"
   syntax:
     content: public void setListener(IotHubListener listener)
     parameters:
@@ -389,7 +379,7 @@ references:
   nameWithType: IotHubListener
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubListener
   type: Interface
-  summary: <p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>
+  summary: "<p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>"
   syntax:
     content: public interface IotHubListener
 - uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection.close(boolean)
@@ -399,7 +389,7 @@ references:
   nameWithType: MqttIotHubConnection.close(boolean isReconnecting)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection.close(boolean isReconnecting)
   type: Method
-  summary: <p>Closes the connection. After the connection is closed, it is no longer usable. If the connection is already closed, the function shall do nothing. </p>
+  summary: "<p>Closes the connection. After the connection is closed, it is no longer usable. If the connection is already closed, the function shall do nothing. </p>"
   syntax:
     content: public void close(boolean isReconnecting)
     parameters:
@@ -412,7 +402,7 @@ references:
   nameWithType: HttpsIotHubConnection.close(boolean isReconnecting)
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.close(boolean isReconnecting)
   type: Method
-  summary: <p>Closes the transport connection. </p>
+  summary: "<p>Closes the transport connection. </p>"
   syntax:
     content: public void close(boolean isReconnecting)
     parameters:
@@ -426,12 +416,7 @@ references:
   nameWithType: AmqpsIotHubConnection.close(boolean isReconnecting)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection.close(boolean isReconnecting)
   type: Method
-  summary: >-
-    <p>Closes the <xref uid="com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection" data-throw-if-not-resolved="false">AmqpsIotHubConnection</xref>. </p>
-
-    <p>If the current connection is not closed, this function will set the current state to closed and invalidate all connection related variables. </p>
-
-    <p></p>
+  summary: "<p>Closes the <xref uid=\"com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection\" data-throw-if-not-resolved=\"false\">AmqpsIotHubConnection</xref>. </p>\r\n<p>If the current connection is not closed, this function will set the current state to closed and invalidate all connection related variables. </p>\r\n<p></p>"
   syntax:
     content: public void close(boolean isReconnecting)
     parameters:
@@ -444,7 +429,7 @@ references:
   nameWithType: IotHubStatusCode
   fullName: com.microsoft.azure.sdk.iot.device.IotHubStatusCode
   type: Enum
-  summary: <p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>
+  summary: "<p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>"
   syntax:
     content: public enum IotHubStatusCode
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.sendMessage(Message)
@@ -454,10 +439,7 @@ references:
   nameWithType: HttpsIotHubConnection.sendMessage(Message message)
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.sendMessage(Message message)
   type: Method
-  summary: >-
-    <p>Sends an event message.</p>
-
-    <p></p>
+  summary: "<p>Sends an event message.</p>\r\n<p></p>"
   syntax:
     content: public IotHubStatusCode sendMessage(Message message)
     parameters:
@@ -474,10 +456,7 @@ references:
   nameWithType: MqttIotHubConnection.sendMessage(Message message)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection.sendMessage(Message message)
   type: Method
-  summary: >-
-    <p>Sends an event message.</p>
-
-    <p></p>
+  summary: "<p>Sends an event message.</p>\r\n<p></p>"
   syntax:
     content: public IotHubStatusCode sendMessage(Message message)
     parameters:
@@ -503,10 +482,7 @@ references:
   nameWithType: HttpsIotHubConnection.sendMessageResult(Message message, IotHubMessageResult result)
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.sendMessageResult(Message message, IotHubMessageResult result)
   type: Method
-  summary: >-
-    <p>Sends the message result for the previously received message.</p>
-
-    <p></p>
+  summary: "<p>Sends the message result for the previously received message.</p>\r\n<p></p>"
   syntax:
     content: public boolean sendMessageResult(Message message, IotHubMessageResult result)
     parameters:
@@ -525,7 +501,7 @@ references:
   nameWithType: MqttIotHubConnection.sendMessageResult(Message message, IotHubMessageResult result)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection.sendMessageResult(Message message, IotHubMessageResult result)
   type: Method
-  summary: <p>Sends an ACK to the service for the provided message </p>
+  summary: "<p>Sends an ACK to the service for the provided message </p>"
   syntax:
     content: public boolean sendMessageResult(Message message, IotHubMessageResult result)
     parameters:
@@ -545,7 +521,7 @@ references:
   nameWithType: IotHubMessageResult
   fullName: com.microsoft.azure.sdk.iot.device.IotHubMessageResult
   type: Enum
-  summary: <p>A return value from a message callback that instructs an IoT Hub to complete, abandon, or reject the message. </p>
+  summary: "<p>A return value from a message callback that instructs an IoT Hub to complete, abandon, or reject the message. </p>"
   syntax:
     content: public enum IotHubMessageResult
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.getConnectionId()
@@ -555,10 +531,7 @@ references:
   nameWithType: HttpsIotHubConnection.getConnectionId()
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.getConnectionId()
   type: Method
-  summary: >-
-    <p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>
-
-    <p></p>
+  summary: "<p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>\r\n<p></p>"
   syntax:
     content: public String getConnectionId()
     return:
@@ -571,10 +544,7 @@ references:
   nameWithType: MqttIotHubConnection.getConnectionId()
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttIotHubConnection.getConnectionId()
   type: Method
-  summary: >-
-    <p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>
-
-    <p></p>
+  summary: "<p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>\r\n<p></p>"
   syntax:
     content: public String getConnectionId()
     return:
@@ -587,10 +557,7 @@ references:
   nameWithType: AmqpsIotHubConnection.getConnectionId()
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection.getConnectionId()
   type: Method
-  summary: >-
-    <p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>
-
-    <p></p>
+  summary: "<p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>\r\n<p></p>"
   syntax:
     content: public String getConnectionId()
     return:

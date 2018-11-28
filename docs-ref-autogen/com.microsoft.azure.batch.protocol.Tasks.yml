@@ -3332,7 +3332,7 @@ references:
   nameWithType: TaskAddParameter
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddParameter
   type: Class
-  summary: <p>An Azure Batch task to add. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>An Azure Batch task to add. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class TaskAddParameter
 - uid: com.microsoft.azure.batch.protocol.models.TaskAddHeaders
@@ -3342,7 +3342,7 @@ references:
   nameWithType: TaskAddHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddHeaders
   type: Class
-  summary: <p>Defines headers for Add operation. </p>
+  summary: "<p>Defines headers for Add operation. </p>"
   syntax:
     content: public class TaskAddHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskAddOptions
@@ -3352,7 +3352,7 @@ references:
   nameWithType: TaskAddOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddOptions
   type: Class
-  summary: <p>Additional parameters for add operation. </p>
+  summary: "<p>Additional parameters for add operation. </p>"
   syntax:
     content: public class TaskAddOptions
 - uid: com.microsoft.azure.batch.protocol.models.CloudTask
@@ -3362,7 +3362,7 @@ references:
   nameWithType: CloudTask
   fullName: com.microsoft.azure.batch.protocol.models.CloudTask
   type: Class
-  summary: <p>An Azure Batch task. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>An Azure Batch task. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax:
     content: public class CloudTask
 - uid: com.microsoft.azure.batch.protocol.models.TaskListHeaders
@@ -3372,7 +3372,7 @@ references:
   nameWithType: TaskListHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskListHeaders
   type: Class
-  summary: <p>Defines headers for List operation. </p>
+  summary: "<p>Defines headers for List operation. </p>"
   syntax:
     content: public class TaskListHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskListOptions
@@ -3382,7 +3382,7 @@ references:
   nameWithType: TaskListOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskListOptions
   type: Class
-  summary: <p>Additional parameters for list operation. </p>
+  summary: "<p>Additional parameters for list operation. </p>"
   syntax:
     content: public class TaskListOptions
 - uid: com.microsoft.azure.batch.protocol.models.TaskAddCollectionResult
@@ -3392,7 +3392,7 @@ references:
   nameWithType: TaskAddCollectionResult
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddCollectionResult
   type: Class
-  summary: <p>The result of adding a collection of tasks to a job. </p>
+  summary: "<p>The result of adding a collection of tasks to a job. </p>"
   syntax:
     content: public class TaskAddCollectionResult
 - uid: com.microsoft.azure.batch.protocol.models.TaskAddCollectionHeaders
@@ -3402,7 +3402,7 @@ references:
   nameWithType: TaskAddCollectionHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddCollectionHeaders
   type: Class
-  summary: <p>Defines headers for AddCollection operation. </p>
+  summary: "<p>Defines headers for AddCollection operation. </p>"
   syntax:
     content: public class TaskAddCollectionHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskAddCollectionOptions
@@ -3412,7 +3412,7 @@ references:
   nameWithType: TaskAddCollectionOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskAddCollectionOptions
   type: Class
-  summary: <p>Additional parameters for addCollection operation. </p>
+  summary: "<p>Additional parameters for addCollection operation. </p>"
   syntax:
     content: public class TaskAddCollectionOptions
 - uid: com.microsoft.azure.batch.protocol.models.TaskDeleteHeaders
@@ -3422,7 +3422,7 @@ references:
   nameWithType: TaskDeleteHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskDeleteHeaders
   type: Class
-  summary: <p>Defines headers for Delete operation. </p>
+  summary: "<p>Defines headers for Delete operation. </p>"
   syntax:
     content: public class TaskDeleteHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskDeleteOptions
@@ -3432,7 +3432,7 @@ references:
   nameWithType: TaskDeleteOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskDeleteOptions
   type: Class
-  summary: <p>Additional parameters for delete operation. </p>
+  summary: "<p>Additional parameters for delete operation. </p>"
   syntax:
     content: public class TaskDeleteOptions
 - uid: com.microsoft.azure.batch.protocol.models.TaskGetHeaders
@@ -3442,7 +3442,7 @@ references:
   nameWithType: TaskGetHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskGetHeaders
   type: Class
-  summary: <p>Defines headers for Get operation. </p>
+  summary: "<p>Defines headers for Get operation. </p>"
   syntax:
     content: public class TaskGetHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskGetOptions
@@ -3452,7 +3452,7 @@ references:
   nameWithType: TaskGetOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskGetOptions
   type: Class
-  summary: <p>Additional parameters for get operation. </p>
+  summary: "<p>Additional parameters for get operation. </p>"
   syntax:
     content: public class TaskGetOptions
 - uid: com.microsoft.azure.batch.protocol.models.TaskUpdateHeaders
@@ -3462,7 +3462,7 @@ references:
   nameWithType: TaskUpdateHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskUpdateHeaders
   type: Class
-  summary: <p>Defines headers for Update operation. </p>
+  summary: "<p>Defines headers for Update operation. </p>"
   syntax:
     content: public class TaskUpdateHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskConstraints
@@ -3472,7 +3472,7 @@ references:
   nameWithType: TaskConstraints
   fullName: com.microsoft.azure.batch.protocol.models.TaskConstraints
   type: Class
-  summary: <p>Execution constraints to apply to a task. </p>
+  summary: "<p>Execution constraints to apply to a task. </p>"
   syntax:
     content: public class TaskConstraints
 - uid: com.microsoft.azure.batch.protocol.models.TaskUpdateOptions
@@ -3482,7 +3482,7 @@ references:
   nameWithType: TaskUpdateOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskUpdateOptions
   type: Class
-  summary: <p>Additional parameters for update operation. </p>
+  summary: "<p>Additional parameters for update operation. </p>"
   syntax:
     content: public class TaskUpdateOptions
 - uid: com.microsoft.azure.batch.protocol.models.CloudTaskListSubtasksResult
@@ -3492,7 +3492,7 @@ references:
   nameWithType: CloudTaskListSubtasksResult
   fullName: com.microsoft.azure.batch.protocol.models.CloudTaskListSubtasksResult
   type: Class
-  summary: <p>The result of listing the subtasks of a task. </p>
+  summary: "<p>The result of listing the subtasks of a task. </p>"
   syntax:
     content: public class CloudTaskListSubtasksResult
 - uid: com.microsoft.azure.batch.protocol.models.TaskListSubtasksHeaders
@@ -3502,7 +3502,7 @@ references:
   nameWithType: TaskListSubtasksHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskListSubtasksHeaders
   type: Class
-  summary: <p>Defines headers for ListSubtasks operation. </p>
+  summary: "<p>Defines headers for ListSubtasks operation. </p>"
   syntax:
     content: public class TaskListSubtasksHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskListSubtasksOptions
@@ -3512,7 +3512,7 @@ references:
   nameWithType: TaskListSubtasksOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskListSubtasksOptions
   type: Class
-  summary: <p>Additional parameters for listSubtasks operation. </p>
+  summary: "<p>Additional parameters for listSubtasks operation. </p>"
   syntax:
     content: public class TaskListSubtasksOptions
 - uid: com.microsoft.azure.batch.protocol.models.TaskTerminateHeaders
@@ -3522,7 +3522,7 @@ references:
   nameWithType: TaskTerminateHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskTerminateHeaders
   type: Class
-  summary: <p>Defines headers for Terminate operation. </p>
+  summary: "<p>Defines headers for Terminate operation. </p>"
   syntax:
     content: public class TaskTerminateHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskTerminateOptions
@@ -3532,7 +3532,7 @@ references:
   nameWithType: TaskTerminateOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskTerminateOptions
   type: Class
-  summary: <p>Additional parameters for terminate operation. </p>
+  summary: "<p>Additional parameters for terminate operation. </p>"
   syntax:
     content: public class TaskTerminateOptions
 - uid: com.microsoft.azure.batch.protocol.models.TaskReactivateHeaders
@@ -3542,7 +3542,7 @@ references:
   nameWithType: TaskReactivateHeaders
   fullName: com.microsoft.azure.batch.protocol.models.TaskReactivateHeaders
   type: Class
-  summary: <p>Defines headers for Reactivate operation. </p>
+  summary: "<p>Defines headers for Reactivate operation. </p>"
   syntax:
     content: public class TaskReactivateHeaders
 - uid: com.microsoft.azure.batch.protocol.models.TaskReactivateOptions
@@ -3552,7 +3552,7 @@ references:
   nameWithType: TaskReactivateOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskReactivateOptions
   type: Class
-  summary: <p>Additional parameters for reactivate operation. </p>
+  summary: "<p>Additional parameters for reactivate operation. </p>"
   syntax:
     content: public class TaskReactivateOptions
 - uid: com.microsoft.azure.batch.protocol.models.TaskListNextOptions
@@ -3562,6 +3562,6 @@ references:
   nameWithType: TaskListNextOptions
   fullName: com.microsoft.azure.batch.protocol.models.TaskListNextOptions
   type: Class
-  summary: <p>Additional parameters for listNext operation. </p>
+  summary: "<p>Additional parameters for listNext operation. </p>"
   syntax:
     content: public class TaskListNextOptions

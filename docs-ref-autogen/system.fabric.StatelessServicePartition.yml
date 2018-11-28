@@ -65,10 +65,7 @@ references:
   nameWithType: ServicePartition.getPartitionInfo()
   fullName: system.fabric.ServicePartition.getPartitionInfo()
   type: Method
-  summary: >-
-    <p>Provides access to the <xref uid="system.fabric.ServicePartitionInformation" data-throw-if-not-resolved="false">system.fabric.ServicePartitionInformation</xref> of the service, which contains the partition type and ID.</p>
-
-    <p></p>
+  summary: "<p>Provides access to the <xref uid=\"system.fabric.ServicePartitionInformation\" data-throw-if-not-resolved=\"false\">system.fabric.ServicePartitionInformation</xref> of the service, which contains the partition type and ID.</p>\r\n<p></p>"
   syntax:
     content: public ServicePartitionInformation getPartitionInfo()
     return:
@@ -81,12 +78,7 @@ references:
   nameWithType: ServicePartition.reportFault(FaultType faultType)
   fullName: system.fabric.ServicePartition.reportFault(FaultType faultType)
   type: Method
-  summary: >-
-    <p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid="" data-throw-if-not-resolved="false">java.util.Collection</xref> of <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">LoadMetric</xref> method and provides one or more properties of the <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">system.fabric.LoadMetric</xref> method.</p>
-
-    <p>
-
-      <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>
+  summary: "<p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.Collection</xref> of <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">LoadMetric</xref> method and provides one or more properties of the <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">system.fabric.LoadMetric</xref> method.</p>\r\n<p>\r\n  <b>Remarks:</b>A fault is typically reported when the service code encounters some issue from which it cannot recover. </p>"
   syntax:
     content: public void reportFault(FaultType faultType)
     parameters:
@@ -100,12 +92,7 @@ references:
   nameWithType: ServicePartition.reportLoad(Collection<LoadMetric> metrics)
   fullName: system.fabric.ServicePartition.reportLoad(Collection<LoadMetric> metrics)
   type: Method
-  summary: >-
-    <p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid="" data-throw-if-not-resolved="false">java.util.Collection</xref> of <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">LoadMetric</xref> method and provides one or more properties of the <xref uid="system.fabric.LoadMetric" data-throw-if-not-resolved="false">system.fabric.LoadMetric</xref> method.</p>
-
-    <p>
-
-      <b>Remarks:</b>The reported metrics should correspond to those that are provided in the service load metric description as a part of the service description that is used to create the service. Load metrics that are not present in the description are ignored. Reporting custom metrics allows Service Fabric to balance services that are based on additional custom information. </p>
+  summary: "<p>Reports the load for a set of load balancing metrics. The load can be reported at any time via the <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.Collection</xref> of <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">LoadMetric</xref> method and provides one or more properties of the <xref uid=\"system.fabric.LoadMetric\" data-throw-if-not-resolved=\"false\">system.fabric.LoadMetric</xref> method.</p>\r\n<p>\r\n  <b>Remarks:</b>The reported metrics should correspond to those that are provided in the service load metric description as a part of the service description that is used to create the service. Load metrics that are not present in the description are ignored. Reporting custom metrics allows Service Fabric to balance services that are based on additional custom information. </p>"
   syntax:
     content: public void reportLoad(Collection<LoadMetric> metrics)
     parameters:
@@ -119,12 +106,7 @@ references:
   nameWithType: ServicePartition.reportMoveCost(MoveCost moveCost)
   fullName: system.fabric.ServicePartition.reportMoveCost(MoveCost moveCost)
   type: Method
-  summary: >-
-    <p>Reports the move cost for a replica.</p>
-
-    <p>
-
-      <b>Remarks:</b>Services can report move cost of a replica using this method. While the Service Fabric Resource Balances searches for the best balance in the cluster, it examines both load information and move cost of each replica. Resource balances will prefer to move replicas with lower cost in order to achieve balance. </p>
+  summary: "<p>Reports the move cost for a replica.</p>\r\n<p>\r\n  <b>Remarks:</b>Services can report move cost of a replica using this method. While the Service Fabric Resource Balances searches for the best balance in the cluster, it examines both load information and move cost of each replica. Resource balances will prefer to move replicas with lower cost in order to achieve balance. </p>"
   syntax:
     content: public void reportMoveCost(MoveCost moveCost)
     parameters:
@@ -138,10 +120,7 @@ references:
   nameWithType: ServicePartition.reportPartitionHealth(HealthInformation healthInfo)
   fullName: system.fabric.ServicePartition.reportPartitionHealth(HealthInformation healthInfo)
   type: Method
-  summary: >-
-    <p>Reports current partition health.</p>
-
-    <p></p>
+  summary: "<p>Reports current partition health.</p>\r\n<p></p>"
   syntax:
     content: public void reportPartitionHealth(HealthInformation healthInfo)
     parameters:
@@ -155,7 +134,7 @@ references:
   nameWithType: ServicePartition
   fullName: system.fabric.ServicePartition
   type: Interface
-  summary: <p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>
+  summary: "<p>Provides information to the service about the partition to which it belongs and provides methods for the service to interact with the system during runtime. </p>"
   syntax:
     content: public interface ServicePartition
 - uid: system.fabric.interop.JStatelessServicePartition
@@ -166,6 +145,6 @@ references:
   nameWithType: HealthInformation
   fullName: system.fabric.health.HealthInformation
   type: Class
-  summary: <p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>
+  summary: "<p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>"
   syntax:
     content: public class HealthInformation

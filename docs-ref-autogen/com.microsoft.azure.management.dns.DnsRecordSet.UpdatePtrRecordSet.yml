@@ -38,12 +38,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -56,10 +51,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
   type: Method
-  summary: >-
-    <p>Specifies that If-Match header needs to set to the current eTag value associated with the record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that If-Match header needs to set to the current eTag value associated with the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withETagCheck()
     return:
@@ -72,10 +64,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String eTagValue)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String eTagValue)
   type: Method
-  summary: >-
-    <p>Specifies that if-Match header needs to set to the given eTag value.</p>
-
-    <p></p>
+  summary: "<p>Specifies that if-Match header needs to set to the given eTag value.</p>\r\n<p></p>"
   syntax:
     content: public Update withETagCheck(String eTagValue)
     parameters:
@@ -92,10 +81,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String key, String value)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String key, String value)
   type: Method
-  summary: >-
-    <p>Adds a metadata to the record set.</p>
-
-    <p></p>
+  summary: "<p>Adds a metadata to the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withMetadata(String key, String value)
     parameters:
@@ -115,10 +101,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String key)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String key)
   type: Method
-  summary: >-
-    <p>Removes a metadata from the record set.</p>
-
-    <p></p>
+  summary: "<p>Removes a metadata from the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutMetadata(String key)
     parameters:
@@ -135,10 +118,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withoutTargetDomainName(String targetDomainName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withoutTargetDomainName(String targetDomainName)
   type: Method
-  summary: >-
-    <p>Removes the CName record with the provided canonical name from this record set.</p>
-
-    <p></p>
+  summary: "<p>Removes the CName record with the provided canonical name from this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdatePtrRecordSet withoutTargetDomainName(String targetDomainName)
     parameters:
@@ -155,10 +135,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withTargetDomainName(String targetDomainName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withTargetDomainName(String targetDomainName)
   type: Method
-  summary: >-
-    <p>Creates a CName record with the provided canonical name in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates a CName record with the provided canonical name in this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdatePtrRecordSet withTargetDomainName(String targetDomainName)
     parameters:
@@ -175,10 +152,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long ttlInSeconds)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long ttlInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the TTL for the records in the record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the TTL for the records in the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withTimeToLive(long ttlInSeconds)
     parameters:
@@ -195,7 +169,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName
   type: Interface
-  summary: <p>The stage of the CName record set definition allowing to add or remove CName record. </p>
+  summary: "<p>The stage of the CName record set definition allowing to add or remove CName record. </p>"
   syntax:
     content: public interface WithPtrRecordTargetDomainName
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.Update
@@ -205,7 +179,7 @@ references:
   nameWithType: DnsRecordSet.Update
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.Update
   type: Interface
-  summary: <p>the set of configurations that can be updated for DNS record set irrespective of their type <xref uid="com.microsoft.azure.management.dns.RecordType" data-throw-if-not-resolved="false">RecordType</xref>. </p>
+  summary: "<p>the set of configurations that can be updated for DNS record set irrespective of their type <xref uid=\"com.microsoft.azure.management.dns.RecordType\" data-throw-if-not-resolved=\"false\">RecordType</xref>. </p>"
   syntax:
     content: public interface Update extends Settable<DnsZone.Update>,DnsRecordSet.UpdateStages.WithTtl,DnsRecordSet.UpdateStages.WithMetadata,DnsRecordSet.UpdateStages.WithETagCheck
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCombined
@@ -215,6 +189,6 @@ references:
   nameWithType: DnsRecordSet.UpdateCombined
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCombined
   type: Interface
-  summary: <p>The entirety of a record sets update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a record sets update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateCombined extends DnsRecordSet.UpdateARecordSet,DnsRecordSet.UpdateAaaaRecordSet,DnsRecordSet.UpdateCNameRecordSet,DnsRecordSet.UpdateMXRecordSet,DnsRecordSet.UpdatePtrRecordSet,DnsRecordSet.UpdateNSRecordSet,DnsRecordSet.UpdateSrvRecordSet,DnsRecordSet.UpdateTxtRecordSet,DnsRecordSet.UpdateSoaRecord,DnsRecordSet.Update

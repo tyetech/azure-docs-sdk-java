@@ -39,7 +39,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -52,7 +52,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -66,7 +66,7 @@ references:
   nameWithType: Route.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.Route.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a route definition. </p>
+  summary: "<p>The entirety of a route definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends Route.DefinitionStages.Blank<ParentT>,Route.DefinitionStages.WithAttach<ParentT>,Route.DefinitionStages.WithNextHopType<ParentT>,Route.DefinitionStages.WithDestinationAddressPrefix<ParentT>
     typeParameters:

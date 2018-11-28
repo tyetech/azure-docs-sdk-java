@@ -81,10 +81,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -97,10 +94,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -113,10 +107,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -133,7 +124,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackend.defineBackend(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackend.defineBackend(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway backend to be attached to the gateway. </p>
+  summary: "<p>Begins the definition of a new application gateway backend to be attached to the gateway. </p>"
   syntax:
     content: public ApplicationGatewayBackend.UpdateDefinitionStages.Blank<Update> defineBackend(String name)
     parameters:
@@ -150,7 +141,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackendHttpConfig.defineBackendHttpConfiguration(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackendHttpConfig.defineBackendHttpConfiguration(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway backend HTTP configuration to be attached to the gateway. </p>
+  summary: "<p>Begins the definition of a new application gateway backend HTTP configuration to be attached to the gateway. </p>"
   syntax:
     content: public ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.Blank<Update> defineBackendHttpConfiguration(String name)
     parameters:
@@ -167,10 +158,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithIPConfig.defineDefaultIPConfiguration()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithIPConfig.defineDefaultIPConfiguration()
   type: Method
-  summary: >-
-    <p>Begins the definition of the default IP configuration. </p>
-
-    <p>If a default IP configuration already exists, it will be this is equivalent to . </p>
+  summary: "<p>Begins the definition of the default IP configuration. </p>\r\n<p>If a default IP configuration already exists, it will be this is equivalent to . </p>"
   syntax:
     content: public ApplicationGatewayIPConfiguration.UpdateDefinitionStages.Blank<Update> defineDefaultIPConfiguration()
     return:
@@ -183,7 +171,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithListener.defineListener(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithListener.defineListener(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway listener to be attached to the gateway. </p>
+  summary: "<p>Begins the definition of a new application gateway listener to be attached to the gateway. </p>"
   syntax:
     content: public ApplicationGatewayListener.UpdateDefinitionStages.Blank<Update> defineListener(String name)
     parameters:
@@ -200,7 +188,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.definePrivateFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.definePrivateFrontend()
   type: Method
-  summary: <p>Begins the definition of the default private front end IP configuration, creating one if it does not already exist. </p>
+  summary: "<p>Begins the definition of the default private front end IP configuration, creating one if it does not already exist. </p>"
   syntax:
     content: public ApplicationGatewayFrontend.UpdateDefinitionStages.Blank<Update> definePrivateFrontend()
     return:
@@ -213,7 +201,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithProbe.defineProbe(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithProbe.defineProbe(String name)
   type: Method
-  summary: <p>Begins the definition of a new probe. </p>
+  summary: "<p>Begins the definition of a new probe. </p>"
   syntax:
     content: public ApplicationGatewayProbe.UpdateDefinitionStages.Blank<Update> defineProbe(String name)
     parameters:
@@ -230,7 +218,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.definePublicFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.definePublicFrontend()
   type: Method
-  summary: <p>Begins the update of the private front end IP configuration, if it exists. </p>
+  summary: "<p>Begins the update of the private front end IP configuration, if it exists. </p>"
   syntax:
     content: public ApplicationGatewayFrontend.UpdateDefinitionStages.Blank<Update> definePublicFrontend()
     return:
@@ -243,7 +231,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithRequestRoutingRule.defineRequestRoutingRule(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithRequestRoutingRule.defineRequestRoutingRule(String name)
   type: Method
-  summary: <p>Begins the definition of a request routing rule for this application gateway. </p>
+  summary: "<p>Begins the definition of a request routing rule for this application gateway. </p>"
   syntax:
     content: public ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.Blank<Update> defineRequestRoutingRule(String name)
     parameters:
@@ -260,7 +248,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithSslCert.defineSslCertificate(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithSslCert.defineSslCertificate(String name)
   type: Method
-  summary: <p>Begins the definition of a new application gateway SSL certificate to be attached to the gateway for use in frontend HTTPS listeners. </p>
+  summary: "<p>Begins the definition of a new application gateway SSL certificate to be attached to the gateway for use in frontend HTTPS listeners. </p>"
   syntax:
     content: public ApplicationGatewaySslCertificate.UpdateDefinitionStages.Blank<Update> defineSslCertificate(String name)
     parameters:
@@ -289,7 +277,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackend.updateBackend(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackend.updateBackend(String name)
   type: Method
-  summary: <p>Begins the update of an existing backend on this application gateway. </p>
+  summary: "<p>Begins the update of an existing backend on this application gateway. </p>"
   syntax:
     content: public ApplicationGatewayBackend.Update updateBackend(String name)
     parameters:
@@ -306,7 +294,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackendHttpConfig.updateBackendHttpConfiguration(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackendHttpConfig.updateBackendHttpConfiguration(String name)
   type: Method
-  summary: <p>Begins the update of a backend HTTP configuration. </p>
+  summary: "<p>Begins the update of a backend HTTP configuration. </p>"
   syntax:
     content: public ApplicationGatewayBackendHttpConfiguration.Update updateBackendHttpConfiguration(String name)
     parameters:
@@ -323,7 +311,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithIPConfig.updateDefaultIPConfiguration()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithIPConfig.updateDefaultIPConfiguration()
   type: Method
-  summary: <p>Begins the update of the default IP configuration i.e. the only one IP configuration that exists, assuming only one exists. </p>
+  summary: "<p>Begins the update of the default IP configuration i.e. the only one IP configuration that exists, assuming only one exists. </p>"
   syntax:
     content: public ApplicationGatewayIPConfiguration.Update updateDefaultIPConfiguration()
     return:
@@ -336,7 +324,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.updateFrontend(String frontendName)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.updateFrontend(String frontendName)
   type: Method
-  summary: <p>Begins the update of an existing front end IP configuration. </p>
+  summary: "<p>Begins the update of an existing front end IP configuration. </p>"
   syntax:
     content: public ApplicationGatewayFrontend.Update updateFrontend(String frontendName)
     parameters:
@@ -353,7 +341,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithIPConfig.updateIPConfiguration(String ipConfigurationName)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithIPConfig.updateIPConfiguration(String ipConfigurationName)
   type: Method
-  summary: <p>Begins the update of an existing IP configuration. </p>
+  summary: "<p>Begins the update of an existing IP configuration. </p>"
   syntax:
     content: public ApplicationGatewayIPConfiguration.Update updateIPConfiguration(String ipConfigurationName)
     parameters:
@@ -370,7 +358,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithListener.updateListener(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithListener.updateListener(String name)
   type: Method
-  summary: <p>Begins the update of a listener. </p>
+  summary: "<p>Begins the update of a listener. </p>"
   syntax:
     content: public ApplicationGatewayListener.Update updateListener(String name)
     parameters:
@@ -387,7 +375,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithProbe.updateProbe(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithProbe.updateProbe(String name)
   type: Method
-  summary: <p>Begins the update of an existing probe. </p>
+  summary: "<p>Begins the update of an existing probe. </p>"
   syntax:
     content: public ApplicationGatewayProbe.Update updateProbe(String name)
     parameters:
@@ -404,7 +392,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.updatePublicFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.updatePublicFrontend()
   type: Method
-  summary: <p>Begins the update of the public front end IP configuration, if it exists. </p>
+  summary: "<p>Begins the update of the public front end IP configuration, if it exists. </p>"
   syntax:
     content: public ApplicationGatewayFrontend.Update updatePublicFrontend()
     return:
@@ -417,7 +405,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithRequestRoutingRule.updateRequestRoutingRule(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithRequestRoutingRule.updateRequestRoutingRule(String name)
   type: Method
-  summary: <p>Begins the update of a request routing rule. </p>
+  summary: "<p>Begins the update of a request routing rule. </p>"
   syntax:
     content: public ApplicationGatewayRequestRoutingRule.Update updateRequestRoutingRule(String name)
     parameters:
@@ -434,7 +422,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
   type: Method
-  summary: <p>Disables the specified SSL protocol. </p>
+  summary: "<p>Disables the specified SSL protocol. </p>"
   syntax:
     content: public Update withDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
     parameters:
@@ -451,7 +439,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
   type: Method
-  summary: <p>Disables the specified SSL protocols. </p>
+  summary: "<p>Disables the specified SSL protocols. </p>"
   syntax:
     content: public Update withDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
     parameters:
@@ -468,12 +456,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithExistingSubnet.withExistingSubnet(Subnet subnet)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithExistingSubnet.withExistingSubnet(Subnet subnet)
   type: Method
-  summary: >-
-    <p>Specifies the subnet the application gateway gets its private IP address from. </p>
-
-    <p>This will create a new IP configuration, if it does not already exist. </p>
-
-    <p>Private (internal) frontends, if any have been enabled, will be configured to use this subnet as well. </p>
+  summary: "<p>Specifies the subnet the application gateway gets its private IP address from. </p>\r\n<p>This will create a new IP configuration, if it does not already exist. </p>\r\n<p>Private (internal) frontends, if any have been enabled, will be configured to use this subnet as well. </p>"
   syntax:
     content: public Update withExistingSubnet(Subnet subnet)
     parameters:
@@ -490,12 +473,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithExistingSubnet.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithExistingSubnet.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the subnet the application gateway gets its private IP address from. </p>
-
-    <p>This will create a new IP configuration, if it does not already exist. </p>
-
-    <p>Private (internal) front ends, if any have been enabled, will be configured to use this subnet as well. </p>
+  summary: "<p>Specifies the subnet the application gateway gets its private IP address from. </p>\r\n<p>This will create a new IP configuration, if it does not already exist. </p>\r\n<p>Private (internal) front ends, if any have been enabled, will be configured to use this subnet as well. </p>"
   syntax:
     content: public Update withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -515,7 +493,7 @@ references:
   nameWithType: HasSubnet.UpdateStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.UpdateStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -535,7 +513,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontendPort.withFrontendPort(int portNumber)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontendPort.withFrontendPort(int portNumber)
   type: Method
-  summary: <p>Creates a front end port with an auto-generated name and the specified port number, unless one already exists. </p>
+  summary: "<p>Creates a front end port with an auto-generated name and the specified port number, unless one already exists. </p>"
   syntax:
     content: public Update withFrontendPort(int portNumber)
     parameters:
@@ -552,7 +530,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontendPort.withFrontendPort(int portNumber, String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontendPort.withFrontendPort(int portNumber, String name)
   type: Method
-  summary: <p>Creates a front end port with the specified name and port number, unless a port matching this name and/or number already exists. </p>
+  summary: "<p>Creates a front end port with the specified name and port number, unless a port matching this name and/or number already exists. </p>"
   syntax:
     content: public Update withFrontendPort(int portNumber, String name)
     parameters:
@@ -572,7 +550,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithInstanceCount.withInstanceCount(int instanceCount)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithInstanceCount.withInstanceCount(int instanceCount)
   type: Method
-  summary: <p>Specifies the capacity (number of instances) for the application gateway. </p>
+  summary: "<p>Specifies the capacity (number of instances) for the application gateway. </p>"
   syntax:
     content: public Update withInstanceCount(int instanceCount)
     parameters:
@@ -589,7 +567,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withoutAnyDisabledSslProtocols()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withoutAnyDisabledSslProtocols()
   type: Method
-  summary: <p>Enables all SSL protocols, if previously disabled. </p>
+  summary: "<p>Enables all SSL protocols, if previously disabled. </p>"
   syntax:
     content: public Update withoutAnyDisabledSslProtocols()
     return:
@@ -602,10 +580,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackend.withoutBackend(String backendName)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackend.withoutBackend(String backendName)
   type: Method
-  summary: >-
-    <p>Removes the specified backend. </p>
-
-    <p>Note that removing a backend referenced by other settings may break the application gateway. </p>
+  summary: "<p>Removes the specified backend. </p>\r\n<p>Note that removing a backend referenced by other settings may break the application gateway. </p>"
   syntax:
     content: public Update withoutBackend(String backendName)
     parameters:
@@ -622,7 +597,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackend.withoutBackendFqdn(String fqdn)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackend.withoutBackendFqdn(String fqdn)
   type: Method
-  summary: <p>Ensures the specified fully qualified domain name (FQDN) is not associated with any backend. </p>
+  summary: "<p>Ensures the specified fully qualified domain name (FQDN) is not associated with any backend. </p>"
   syntax:
     content: public Update withoutBackendFqdn(String fqdn)
     parameters:
@@ -639,10 +614,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackendHttpConfig.withoutBackendHttpConfiguration(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackendHttpConfig.withoutBackendHttpConfiguration(String name)
   type: Method
-  summary: >-
-    <p>Removes the specified backend HTTP configuration from this application gateway. </p>
-
-    <p>Note that removing a backend HTTP configuration referenced by other settings may break the application gateway. </p>
+  summary: "<p>Removes the specified backend HTTP configuration from this application gateway. </p>\r\n<p>Note that removing a backend HTTP configuration referenced by other settings may break the application gateway. </p>"
   syntax:
     content: public Update withoutBackendHttpConfiguration(String name)
     parameters:
@@ -659,7 +631,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackend.withoutBackendIPAddress(String ipAddress)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackend.withoutBackendIPAddress(String ipAddress)
   type: Method
-  summary: <p>Ensures the specified IP address is not associated with any backend. </p>
+  summary: "<p>Ensures the specified IP address is not associated with any backend. </p>"
   syntax:
     content: public Update withoutBackendIPAddress(String ipAddress)
     parameters:
@@ -676,10 +648,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithSslCert.withoutCertificate(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithSslCert.withoutCertificate(String name)
   type: Method
-  summary: >-
-    <p>Removes the specified SSL certificate from the application gateway. </p>
-
-    <p>Note that removing a certificate referenced by other settings may break the application gateway. </p>
+  summary: "<p>Removes the specified SSL certificate from the application gateway. </p>\r\n<p>Note that removing a certificate referenced by other settings may break the application gateway. </p>"
   syntax:
     content: public Update withoutCertificate(String name)
     parameters:
@@ -696,7 +665,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withoutDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withoutDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
   type: Method
-  summary: <p>Enables the specified SSL protocol, if previously disabled. </p>
+  summary: "<p>Enables the specified SSL protocol, if previously disabled. </p>"
   syntax:
     content: public Update withoutDisabledSslProtocol(ApplicationGatewaySslProtocol protocol)
     parameters:
@@ -713,7 +682,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withoutDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithDisabledSslProtocol.withoutDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
   type: Method
-  summary: <p>Enables the specified SSL protocols, if previously disabled. </p>
+  summary: "<p>Enables the specified SSL protocols, if previously disabled. </p>"
   syntax:
     content: public Update withoutDisabledSslProtocols(ApplicationGatewaySslProtocol...protocols)
     parameters:
@@ -730,10 +699,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.withoutFrontend(String frontendName)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.withoutFrontend(String frontendName)
   type: Method
-  summary: >-
-    <p>Removes the specified front end IP configuration. </p>
-
-    <p>Note that removing a front end referenced by other settings may break the application gateway. </p>
+  summary: "<p>Removes the specified front end IP configuration. </p>\r\n<p>Note that removing a front end referenced by other settings may break the application gateway. </p>"
   syntax:
     content: public Update withoutFrontend(String frontendName)
     parameters:
@@ -750,10 +716,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontendPort.withoutFrontendPort(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontendPort.withoutFrontendPort(String name)
   type: Method
-  summary: >-
-    <p>Removes the specified frontend port. </p>
-
-    <p>Note that removing a frontend port referenced by other settings may break the application gateway. </p>
+  summary: "<p>Removes the specified frontend port. </p>\r\n<p>Note that removing a frontend port referenced by other settings may break the application gateway. </p>"
   syntax:
     content: public Update withoutFrontendPort(String name)
     parameters:
@@ -770,10 +733,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontendPort.withoutFrontendPort(int portNumber)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontendPort.withoutFrontendPort(int portNumber)
   type: Method
-  summary: >-
-    <p>Removes the specified frontend port. </p>
-
-    <p>Note that removing a frontend port referenced by other settings may break the application gateway. </p>
+  summary: "<p>Removes the specified frontend port. </p>\r\n<p>Note that removing a frontend port referenced by other settings may break the application gateway. </p>"
   syntax:
     content: public Update withoutFrontendPort(int portNumber)
     parameters:
@@ -790,10 +750,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithIPConfig.withoutIPConfiguration(String ipConfigurationName)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithIPConfig.withoutIPConfiguration(String ipConfigurationName)
   type: Method
-  summary: >-
-    <p>Removes the specified IP configuration. </p>
-
-    <p>Note that removing an IP configuration referenced by other settings may break the application gateway. Also, there must be at least one IP configuration for the application gateway to function. </p>
+  summary: "<p>Removes the specified IP configuration. </p>\r\n<p>Note that removing an IP configuration referenced by other settings may break the application gateway. Also, there must be at least one IP configuration for the application gateway to function. </p>"
   syntax:
     content: public Update withoutIPConfiguration(String ipConfigurationName)
     parameters:
@@ -810,10 +767,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithListener.withoutListener(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithListener.withoutListener(String name)
   type: Method
-  summary: >-
-    <p>Removes a frontend listener from the application gateway. </p>
-
-    <p>Note that removing a listener referenced by other settings may break the application gateway. </p>
+  summary: "<p>Removes a frontend listener from the application gateway. </p>\r\n<p>Note that removing a listener referenced by other settings may break the application gateway. </p>"
   syntax:
     content: public Update withoutListener(String name)
     parameters:
@@ -830,10 +784,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.withoutPrivateFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.withoutPrivateFrontend()
   type: Method
-  summary: >-
-    <p>Specifies that the application gateway should not be private, i.e. its endpoints should not be internally accessible from within the virtual network. </p>
-
-    <p>Note that if there are any other settings referencing the private front end, removing it may break the application gateway. </p>
+  summary: "<p>Specifies that the application gateway should not be private, i.e. its endpoints should not be internally accessible from within the virtual network. </p>\r\n<p>Note that if there are any other settings referencing the private front end, removing it may break the application gateway. </p>"
   syntax:
     content: public Update withoutPrivateFrontend()
     return:
@@ -846,10 +797,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithProbe.withoutProbe(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithProbe.withoutProbe(String name)
   type: Method
-  summary: >-
-    <p>Removes a probe from the application gateway. </p>
-
-    <p>Any references to this probe from backend HTTP configurations will be automatically removed. </p>
+  summary: "<p>Removes a probe from the application gateway. </p>\r\n<p>Any references to this probe from backend HTTP configurations will be automatically removed. </p>"
   syntax:
     content: public Update withoutProbe(String name)
     parameters:
@@ -866,10 +814,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend.withoutPublicFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend.withoutPublicFrontend()
   type: Method
-  summary: >-
-    <p>Specifies that the application gateway should not be Internet-facing. </p>
-
-    <p>Note that if there are any other settings referencing the public front end, removing it may break the application gateway. </p>
+  summary: "<p>Specifies that the application gateway should not be Internet-facing. </p>\r\n<p>Note that if there are any other settings referencing the public front end, removing it may break the application gateway. </p>"
   syntax:
     content: public Update withoutPublicFrontend()
     return:
@@ -882,7 +827,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithRequestRoutingRule.withoutRequestRoutingRule(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithRequestRoutingRule.withoutRequestRoutingRule(String name)
   type: Method
-  summary: <p>Removes a request routing rule from the application gateway. </p>
+  summary: "<p>Removes a request routing rule from the application gateway. </p>"
   syntax:
     content: public Update withoutRequestRoutingRule(String name)
     parameters:
@@ -899,7 +844,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -916,7 +861,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithSize.withSize(ApplicationGatewaySkuName size)
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithSize.withSize(ApplicationGatewaySkuName size)
   type: Method
-  summary: <p>Specifies the size of the application gateway to use within the context of the selected tier. </p>
+  summary: "<p>Specifies the size of the application gateway to use within the context of the selected tier. </p>"
   syntax:
     content: public Update withSize(ApplicationGatewaySkuName size)
     parameters:
@@ -933,7 +878,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -953,7 +898,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -970,10 +915,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -987,10 +929,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -1004,7 +943,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithSize
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithSize
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to specify the size. </p>
+  summary: "<p>The stage of an application gateway update allowing to specify the size. </p>"
   syntax:
     content: public interface WithSize
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithInstanceCount
@@ -1014,7 +953,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithInstanceCount
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithInstanceCount
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to specify the capacity (number of instances) of the application gateway. </p>
+  summary: "<p>The stage of an application gateway update allowing to specify the capacity (number of instances) of the application gateway. </p>"
   syntax:
     content: public interface WithInstanceCount
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackend
@@ -1024,7 +963,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackend
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackend
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify backends. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify backends. </p>"
   syntax:
     content: public interface WithBackend
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackendHttpConfig
@@ -1034,7 +973,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithBackendHttpConfig
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithBackendHttpConfig
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify backend HTTP configurations. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify backend HTTP configurations. </p>"
   syntax:
     content: public interface WithBackendHttpConfig
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithIPConfig
@@ -1044,7 +983,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithIPConfig
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithIPConfig
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify IP configurations. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify IP configurations. </p>"
   syntax:
     content: public interface WithIPConfig
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend
@@ -1054,7 +993,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontend
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontend
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify frontend IP configurations. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify frontend IP configurations. </p>"
   syntax:
     content: public interface WithFrontend
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithPublicIPAddress
@@ -1064,7 +1003,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithPublicIPAddress
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithPublicIPAddress
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to specify a public IP address for the public frontend. </p>
+  summary: "<p>The stage of an application gateway update allowing to specify a public IP address for the public frontend. </p>"
   syntax:
     content: public interface WithPublicIPAddress
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontendPort
@@ -1074,7 +1013,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithFrontendPort
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithFrontendPort
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify front end ports. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify front end ports. </p>"
   syntax:
     content: public interface WithFrontendPort
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithSslCert
@@ -1084,7 +1023,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithSslCert
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithSslCert
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify SSL certificates. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify SSL certificates. </p>"
   syntax:
     content: public interface WithSslCert
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithListener
@@ -1094,7 +1033,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithListener
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithListener
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify frontend listeners. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify frontend listeners. </p>"
   syntax:
     content: public interface WithListener
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithRequestRoutingRule
@@ -1104,7 +1043,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithRequestRoutingRule
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithRequestRoutingRule
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify request routing rules. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify request routing rules. </p>"
   syntax:
     content: public interface WithRequestRoutingRule
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithExistingSubnet
@@ -1114,7 +1053,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithExistingSubnet
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithExistingSubnet
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to specify the subnet the app gateway is getting its private IP address from. </p>
+  summary: "<p>The stage of an application gateway update allowing to specify the subnet the app gateway is getting its private IP address from. </p>"
   syntax:
     content: public interface WithExistingSubnet
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithProbe
@@ -1124,7 +1063,7 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithProbe
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithProbe
   type: Interface
-  summary: <p>The stage of an application gateway update allowing to modify probes. </p>
+  summary: "<p>The stage of an application gateway update allowing to modify probes. </p>"
   syntax:
     content: public interface WithProbe
 - uid: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithDisabledSslProtocol
@@ -1134,6 +1073,6 @@ references:
   nameWithType: ApplicationGateway.UpdateStages.WithDisabledSslProtocol
   fullName: com.microsoft.azure.management.network.ApplicationGateway.UpdateStages.WithDisabledSslProtocol
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to specify the SSL protocols to disable. </p>
+  summary: "<p>The stage of an application gateway definition allowing to specify the SSL protocols to disable. </p>"
   syntax:
     content: public interface WithDisabledSslProtocol

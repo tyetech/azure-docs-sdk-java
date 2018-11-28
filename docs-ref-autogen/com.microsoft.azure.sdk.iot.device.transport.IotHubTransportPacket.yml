@@ -326,10 +326,7 @@ references:
   nameWithType: IotHubEventCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubEventCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub event callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)" data-throw-if-not-resolved="false">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub event callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)\" data-throw-if-not-resolved=\"false\">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>"
   syntax:
     content: public interface IotHubEventCallback
 - uid: com.microsoft.azure.sdk.iot.device.IotHubStatusCode
@@ -339,6 +336,6 @@ references:
   nameWithType: IotHubStatusCode
   fullName: com.microsoft.azure.sdk.iot.device.IotHubStatusCode
   type: Enum
-  summary: <p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>
+  summary: "<p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>"
   syntax:
     content: public enum IotHubStatusCode

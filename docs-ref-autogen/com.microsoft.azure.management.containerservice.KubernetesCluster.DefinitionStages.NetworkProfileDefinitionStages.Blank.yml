@@ -85,7 +85,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -98,10 +98,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>.withDnsServiceIP(String dnsServiceIP)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>.withDnsServiceIP(String dnsServiceIP)
   type: Method
-  summary: >-
-    <p>Specifies an IP address assigned to the Kubernetes DNS service; it must be within the Kubernetes service address range specified in the service CIDR.</p>
-
-    <p></p>
+  summary: "<p>Specifies an IP address assigned to the Kubernetes DNS service; it must be within the Kubernetes service address range specified in the service CIDR.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDnsServiceIP(String dnsServiceIP)
     parameters:
@@ -118,10 +115,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>.withDockerBridgeCidr(String dockerBridgeCidr)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>.withDockerBridgeCidr(String dockerBridgeCidr)
   type: Method
-  summary: >-
-    <p>Specifies a CIDR notation IP range assigned to the Docker bridge network; it must not overlap with any subnet IP ranges or the Kubernetes service address range.</p>
-
-    <p></p>
+  summary: "<p>Specifies a CIDR notation IP range assigned to the Docker bridge network; it must not overlap with any subnet IP ranges or the Kubernetes service address range.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDockerBridgeCidr(String dockerBridgeCidr)
     parameters:
@@ -138,10 +132,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>.withNetworkPolicy(NetworkPolicy networkPolicy)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>.withNetworkPolicy(NetworkPolicy networkPolicy)
   type: Method
-  summary: >-
-    <p>Specifies the network policy to be used for building the Kubernetes network.</p>
-
-    <p></p>
+  summary: "<p>Specifies the network policy to be used for building the Kubernetes network.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withNetworkPolicy(NetworkPolicy networkPolicy)
     parameters:
@@ -158,10 +149,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>.withPodCidr(String podCidr)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>.withPodCidr(String podCidr)
   type: Method
-  summary: >-
-    <p>Specifies a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>
-
-    <p></p>
+  summary: "<p>Specifies a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withPodCidr(String podCidr)
     parameters:
@@ -178,10 +166,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>.withServiceCidr(String serviceCidr)
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>.withServiceCidr(String serviceCidr)
   type: Method
-  summary: >-
-    <p>Specifies a CIDR notation IP range from which to assign service cluster IPs; must not overlap with any subnet IP ranges.</p>
-
-    <p></p>
+  summary: "<p>Specifies a CIDR notation IP range from which to assign service cluster IPs; must not overlap with any subnet IP ranges.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withServiceCidr(String serviceCidr)
     parameters:
@@ -198,7 +183,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of a network profile definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>
+  summary: "<p>The final stage of a network profile definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -212,7 +197,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   type: Interface
-  summary: <p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>
+  summary: "<p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>"
   syntax:
     content: public interface NetworkProfileDefinition<ParentT>
     typeParameters:
@@ -226,6 +211,6 @@ references:
   nameWithType: NetworkPlugin
   fullName: com.microsoft.azure.management.containerservice.NetworkPlugin
   type: Class
-  summary: <p>Defines values for NetworkPlugin. </p>
+  summary: "<p>Defines values for NetworkPlugin. </p>"
   syntax:
     content: public class NetworkPlugin

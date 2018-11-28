@@ -78,10 +78,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.NestedProfileTargetEndpointBlank<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.NestedProfileTargetEndpointBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a traffic manager profile nested profile endpoint definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a traffic manager profile nested profile endpoint definition.</p>\r\n<p></p>"
   syntax:
     content: public interface NestedProfileTargetEndpointBlank<ParentT> extends TrafficManagerEndpoint.UpdateDefinitionStages.WithNestedProfile<ParentT>
     typeParameters:
@@ -95,10 +92,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithSourceTrafficRegionThenThreshold<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithSourceTrafficRegionThenThreshold<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the traffic manager endpoint definition allowing to specify the location of the nested endpoint.</p>
-
-    <p></p>
+  summary: "<p>The stage of the traffic manager endpoint definition allowing to specify the location of the nested endpoint.</p>\r\n<p></p>"
   syntax:
     content: public interface WithSourceTrafficRegionThenThreshold<ParentT>
     typeParameters:
@@ -112,7 +106,7 @@ references:
   nameWithType: TrafficManagerProfile
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile. </p>"
   syntax:
     content: public interface TrafficManagerProfile extends GroupableResource<TrafficManager, ProfileInner>,Refreshable<TrafficManagerProfile>,Updatable<TrafficManagerProfile.Update>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()
@@ -122,7 +116,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:

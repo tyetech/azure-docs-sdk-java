@@ -129,7 +129,7 @@ references:
   nameWithType: DeviceTwinDevice.clearDesiredProperties()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.clearDesiredProperties()
   type: Method
-  summary: <p>Clear desired properties set so far </p>
+  summary: "<p>Clear desired properties set so far </p>"
   syntax:
     content: public void clearDesiredProperties()
 - uid: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.clearTags()
@@ -139,7 +139,7 @@ references:
   nameWithType: DeviceTwinDevice.clearTags()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.clearTags()
   type: Method
-  summary: <p>Clear tags set so far </p>
+  summary: "<p>Clear tags set so far </p>"
   syntax:
     content: public void clearTags()
 - uid: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.clearTwin()
@@ -149,7 +149,7 @@ references:
   nameWithType: DeviceTwinDevice.clearTwin()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.clearTwin()
   type: Method
-  summary: <p>Clear tags and desired properties set so far </p>
+  summary: "<p>Clear tags and desired properties set so far </p>"
   syntax:
     content: public void clearTwin()
 - uid: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.desiredPropertiesToString()
@@ -159,7 +159,7 @@ references:
   nameWithType: DeviceTwinDevice.desiredPropertiesToString()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.desiredPropertiesToString()
   type: Method
-  summary: <p>String representation for this device containing desired properties </p>
+  summary: "<p>String representation for this device containing desired properties </p>"
   syntax:
     content: public String desiredPropertiesToString()
     return:
@@ -172,7 +172,7 @@ references:
   nameWithType: DeviceTwinDevice.DeviceTwinDevice()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.DeviceTwinDevice()
   type: Constructor
-  summary: <p>Constructor to create instance for a device </p>
+  summary: "<p>Constructor to create instance for a device </p>"
   syntax:
     content: public DeviceTwinDevice()
 - uid: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.DeviceTwinDevice(String)
@@ -182,10 +182,7 @@ references:
   nameWithType: DeviceTwinDevice.DeviceTwinDevice(String deviceId)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.DeviceTwinDevice(String deviceId)
   type: Constructor
-  summary: >-
-    <p>Constructor to create instance for a device.</p>
-
-    <p></p>
+  summary: "<p>Constructor to create instance for a device.</p>\r\n<p></p>"
   syntax:
     content: public DeviceTwinDevice(String deviceId)
     parameters:
@@ -199,10 +196,7 @@ references:
   nameWithType: DeviceTwinDevice.DeviceTwinDevice(String deviceId, String moduleId)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.DeviceTwinDevice(String deviceId, String moduleId)
   type: Constructor
-  summary: >-
-    <p>Constructor to create instance for a module.</p>
-
-    <p></p>
+  summary: "<p>Constructor to create instance for a module.</p>\r\n<p></p>"
   syntax:
     content: public DeviceTwinDevice(String deviceId, String moduleId)
     parameters:
@@ -219,10 +213,7 @@ references:
   nameWithType: DeviceTwinDevice.getCapabilities()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getCapabilities()
   type: Method
-  summary: >-
-    <p>Getter for capabilities</p>
-
-    <p></p>
+  summary: "<p>Getter for capabilities</p>\r\n<p></p>"
   syntax:
     content: public DeviceCapabilities getCapabilities()
     return:
@@ -238,10 +229,7 @@ references:
   nameWithType: DeviceTwinDevice.getConfigurations()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getConfigurations()
   type: Method
-  summary: >-
-    <p>Getter for the configuration properties</p>
-
-    <p></p>
+  summary: "<p>Getter for the configuration properties</p>\r\n<p></p>"
   syntax:
     content: public Map<String, ConfigurationInfo> getConfigurations()
     return:
@@ -257,10 +245,7 @@ references:
   nameWithType: DeviceTwinDevice.getDesiredMap()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDesiredMap()
   type: Method
-  summary: >-
-    <p>Getter for the desired properties</p>
-
-    <p></p>
+  summary: "<p>Getter for the desired properties</p>\r\n<p></p>"
   syntax:
     content: protected TwinCollection getDesiredMap()
     return:
@@ -273,7 +258,7 @@ references:
   nameWithType: DeviceTwinDevice.getDesiredProperties()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDesiredProperties()
   type: Method
-  summary: <p>Getter to get Desired Properties set </p>
+  summary: "<p>Getter to get Desired Properties set </p>"
   syntax:
     content: public Set<Pair> getDesiredProperties()
     return:
@@ -286,10 +271,7 @@ references:
   nameWithType: DeviceTwinDevice.getDesiredPropertiesVersion()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDesiredPropertiesVersion()
   type: Method
-  summary: >-
-    <p>Getter for the desired properties version.</p>
-
-    <p></p>
+  summary: "<p>Getter for the desired properties version.</p>\r\n<p></p>"
   syntax:
     content: public Integer getDesiredPropertiesVersion()
     return:
@@ -305,7 +287,7 @@ references:
   nameWithType: DeviceTwinDevice.getDeviceId()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDeviceId()
   type: Method
-  summary: <p>Getter to get device ID </p>
+  summary: "<p>Getter to get device ID </p>"
   syntax:
     content: public String getDeviceId()
     return:
@@ -318,10 +300,7 @@ references:
   nameWithType: DeviceTwinDevice.getETag()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getETag()
   type: Method
-  summary: >-
-    <p>Getter for the eTag</p>
-
-    <p></p>
+  summary: "<p>Getter for the eTag</p>\r\n<p></p>"
   syntax:
     content: public String getETag()
     return:
@@ -337,7 +316,7 @@ references:
   nameWithType: DeviceTwinDevice.getModuleId()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getModuleId()
   type: Method
-  summary: <p>Getter to get module ID </p>
+  summary: "<p>Getter to get module ID </p>"
   syntax:
     content: public String getModuleId()
     return:
@@ -350,10 +329,7 @@ references:
   nameWithType: DeviceTwinDevice.getReportedMap()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getReportedMap()
   type: Method
-  summary: >-
-    <p>Getter for the reported properties</p>
-
-    <p></p>
+  summary: "<p>Getter for the reported properties</p>\r\n<p></p>"
   syntax:
     content: protected TwinCollection getReportedMap()
     return:
@@ -366,7 +342,7 @@ references:
   nameWithType: DeviceTwinDevice.getReportedProperties()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getReportedProperties()
   type: Method
-  summary: <p>Getter to get Reported Properties Set </p>
+  summary: "<p>Getter to get Reported Properties Set </p>"
   syntax:
     content: public Set<Pair> getReportedProperties()
     return:
@@ -379,10 +355,7 @@ references:
   nameWithType: DeviceTwinDevice.getReportedPropertiesVersion()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getReportedPropertiesVersion()
   type: Method
-  summary: >-
-    <p>Getter for the reported properties version.</p>
-
-    <p></p>
+  summary: "<p>Getter for the reported properties version.</p>\r\n<p></p>"
   syntax:
     content: public Integer getReportedPropertiesVersion()
     return:
@@ -398,7 +371,7 @@ references:
   nameWithType: DeviceTwinDevice.getTags()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getTags()
   type: Method
-  summary: <p>Getter to get Tags Set </p>
+  summary: "<p>Getter to get Tags Set </p>"
   syntax:
     content: public Set<Pair> getTags()
     return:
@@ -411,10 +384,7 @@ references:
   nameWithType: DeviceTwinDevice.getTagsMap()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getTagsMap()
   type: Method
-  summary: >-
-    <p>Getter for the tags</p>
-
-    <p></p>
+  summary: "<p>Getter for the tags</p>\r\n<p></p>"
   syntax:
     content: protected TwinCollection getTagsMap()
     return:
@@ -427,10 +397,7 @@ references:
   nameWithType: DeviceTwinDevice.getTagsVersion()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getTagsVersion()
   type: Method
-  summary: >-
-    <p>Getter for the tag version.</p>
-
-    <p></p>
+  summary: "<p>Getter for the tag version.</p>\r\n<p></p>"
   syntax:
     content: public Integer getTagsVersion()
     return:
@@ -446,10 +413,7 @@ references:
   nameWithType: DeviceTwinDevice.getVersion()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getVersion()
   type: Method
-  summary: >-
-    <p>Getter for the Twin version</p>
-
-    <p></p>
+  summary: "<p>Getter for the Twin version</p>\r\n<p></p>"
   syntax:
     content: public Integer getVersion()
     return:
@@ -465,7 +429,7 @@ references:
   nameWithType: DeviceTwinDevice.reportedPropertiesToString()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.reportedPropertiesToString()
   type: Method
-  summary: <p>String representation for this device containing reported properties </p>
+  summary: "<p>String representation for this device containing reported properties </p>"
   syntax:
     content: public String reportedPropertiesToString()
     return:
@@ -478,10 +442,7 @@ references:
   nameWithType: DeviceTwinDevice.setCapabilities(DeviceCapabilities capabilities)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setCapabilities(DeviceCapabilities capabilities)
   type: Method
-  summary: >-
-    <p>Setter for capabilities</p>
-
-    <p></p>
+  summary: "<p>Setter for capabilities</p>\r\n<p></p>"
   syntax:
     content: protected void setCapabilities(DeviceCapabilities capabilities)
     parameters:
@@ -495,10 +456,7 @@ references:
   nameWithType: DeviceTwinDevice.setConfigurations(Map<String, ConfigurationInfo> configurations)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setConfigurations(Map<String, ConfigurationInfo> configurations)
   type: Method
-  summary: >-
-    <p>Setter for the configuration properties</p>
-
-    <p></p>
+  summary: "<p>Setter for the configuration properties</p>\r\n<p></p>"
   syntax:
     content: protected void setConfigurations(Map<String, ConfigurationInfo> configurations)
     parameters:
@@ -512,10 +470,7 @@ references:
   nameWithType: DeviceTwinDevice.setDesiredProperties(Set<Pair> desiredProperties)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setDesiredProperties(Set<Pair> desiredProperties)
   type: Method
-  summary: >-
-    <p>Setter for the desired properties</p>
-
-    <p></p>
+  summary: "<p>Setter for the desired properties</p>\r\n<p></p>"
   syntax:
     content: public void setDesiredProperties(Set<Pair> desiredProperties)
     parameters:
@@ -529,10 +484,7 @@ references:
   nameWithType: DeviceTwinDevice.setDesiredProperties(TwinCollection desiredProperties)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setDesiredProperties(TwinCollection desiredProperties)
   type: Method
-  summary: >-
-    <p>Setter for the desired properties</p>
-
-    <p></p>
+  summary: "<p>Setter for the desired properties</p>\r\n<p></p>"
   syntax:
     content: protected void setDesiredProperties(TwinCollection desiredProperties)
     parameters:
@@ -546,10 +498,7 @@ references:
   nameWithType: DeviceTwinDevice.setETag(String eTag)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setETag(String eTag)
   type: Method
-  summary: >-
-    <p>Setter for ETag</p>
-
-    <p></p>
+  summary: "<p>Setter for ETag</p>\r\n<p></p>"
   syntax:
     content: public void setETag(String eTag)
     parameters:
@@ -563,10 +512,7 @@ references:
   nameWithType: DeviceTwinDevice.setReportedProperties(TwinCollection reportedProperties)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setReportedProperties(TwinCollection reportedProperties)
   type: Method
-  summary: >-
-    <p>Setter for the reported properties</p>
-
-    <p></p>
+  summary: "<p>Setter for the reported properties</p>\r\n<p></p>"
   syntax:
     content: protected void setReportedProperties(TwinCollection reportedProperties)
     parameters:
@@ -580,10 +526,7 @@ references:
   nameWithType: DeviceTwinDevice.setTags(Set<Pair> tags)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setTags(Set<Pair> tags)
   type: Method
-  summary: >-
-    <p>Setter for the tags</p>
-
-    <p></p>
+  summary: "<p>Setter for the tags</p>\r\n<p></p>"
   syntax:
     content: public void setTags(Set<Pair> tags)
     parameters:
@@ -597,10 +540,7 @@ references:
   nameWithType: DeviceTwinDevice.setTags(TwinCollection tag)
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.setTags(TwinCollection tag)
   type: Method
-  summary: >-
-    <p>Setter for the tags</p>
-
-    <p></p>
+  summary: "<p>Setter for the tags</p>\r\n<p></p>"
   syntax:
     content: protected void setTags(TwinCollection tag)
     parameters:
@@ -614,7 +554,7 @@ references:
   nameWithType: DeviceTwinDevice.tagsToString()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.tagsToString()
   type: Method
-  summary: <p>String representation for this device containing tags </p>
+  summary: "<p>String representation for this device containing tags </p>"
   syntax:
     content: public String tagsToString()
     return:
@@ -627,7 +567,7 @@ references:
   nameWithType: DeviceTwinDevice.toString()
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.toString()
   type: Method
-  summary: <p>String representation for this device containing device id, tags, desired and reported properties </p>
+  summary: "<p>String representation for this device containing device id, tags, desired and reported properties </p>"
   syntax:
     content: public String toString()
     return:
@@ -640,7 +580,7 @@ references:
   nameWithType: DeviceTwinDevice
   fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice
   type: Class
-  summary: <p>The DeviceTwinDevice class represent the twin on iotHub. implementing constructors and serialization functionality. If object is a representation of the module twin if and only if the moduleId is set. </p>
+  summary: "<p>The DeviceTwinDevice class represent the twin on iotHub. implementing constructors and serialization functionality. If object is a representation of the module twin if and only if the moduleId is set. </p>"
   syntax:
     content: public class DeviceTwinDevice
 - uid: com.microsoft.azure.sdk.iot.deps.twin.TwinCollection

@@ -637,7 +637,7 @@ references:
   nameWithType: ProxyBase.continueWith(CompletableFuture<Object> future)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.continueWith(CompletableFuture<Object> future)
   type: Method
-  summary: <p>Called by the generated proxy class to continue after getting the response body that does not have value. </p>
+  summary: "<p>Called by the generated proxy class to continue after getting the response body that does not have value. </p>"
   syntax:
     content: protected CompletableFuture<?> continueWith(CompletableFuture<Object> future)
     parameters:
@@ -654,7 +654,7 @@ references:
   nameWithType: ProxyBase.getReturnValue(int interfaceId, int methodId, Object responseBody)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.getReturnValue(int interfaceId, int methodId, Object responseBody)
   type: Method
-  summary: <p>Implemented by the derived class to type cast the response body and extract the value from it. </p>
+  summary: "<p>Implemented by the derived class to type cast the response body and extract the value from it. </p>"
   syntax:
     content: protected abstract Object getReturnValue(int interfaceId, int methodId, Object responseBody)
     parameters:
@@ -677,7 +677,7 @@ references:
   nameWithType: ProxyBase.invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
   type: Method
-  summary: <p>Called by the generated proxy class to send the message to the remote object. </p>
+  summary: "<p>Called by the generated proxy class to send the message to the remote object. </p>"
   syntax:
     content: protected void invoke(int interfaceId, int methodId, Object requestMsgBodyValue)
     parameters:
@@ -697,7 +697,7 @@ references:
   nameWithType: ProxyBase.invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>
+  summary: "<p>Called by the generated proxy class to send the request to the remote object and get the response back. </p>"
   syntax:
     content: protected CompletableFuture<Object> invokeAsync(int interfaceId, int methodId, Object requestMsgBodyValue, CancellationToken cancellationToken)
     parameters:
@@ -726,7 +726,7 @@ references:
   nameWithType: ProxyBase.ProxyBase()
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase.ProxyBase()
   type: Constructor
-  summary: <p>Initializes a new instance of the ProxyBase class. </p>
+  summary: "<p>Initializes a new instance of the ProxyBase class. </p>"
   syntax:
     content: protected ProxyBase()
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyBase
@@ -736,7 +736,7 @@ references:
   nameWithType: ProxyBase
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase
   type: Class
-  summary: <p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>
+  summary: "<p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>"
   syntax:
     content: public class ProxyBase
 - uid: microsoft.servicefabric.actors.client.ActorProxy
@@ -746,7 +746,7 @@ references:
   nameWithType: ActorProxy
   fullName: microsoft.servicefabric.actors.client.ActorProxy
   type: Interface
-  summary: <p>Provides the interface for implementation of proxy access for actor service. </p>
+  summary: "<p>Provides the interface for implementation of proxy access for actor service. </p>"
   syntax:
     content: public interface ActorProxy
 - uid: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory
@@ -756,7 +756,7 @@ references:
   nameWithType: FabricActorProxyFactory
   fullName: microsoft.servicefabric.actors.remoting.client.FabricActorProxyFactory
   type: Class
-  summary: <p>Factory class to create a proxy to the remote actor objects. </p>
+  summary: "<p>Factory class to create a proxy to the remote actor objects. </p>"
   syntax:
     content: public class FabricActorProxyFactory
 - uid: microsoft.servicefabric.actors.ActorId
@@ -766,7 +766,7 @@ references:
   nameWithType: ActorId
   fullName: microsoft.servicefabric.actors.ActorId
   type: Class
-  summary: <p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, <xref uid="" data-throw-if-not-resolved="false">java.util.UUID</xref> or long. </p>
+  summary: "<p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.lang.String</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.UUID</xref> or long. </p>"
   syntax:
     content: public class ActorId
 - uid: microsoft.servicefabric.actors.client.ActorProxy.getActorId()
@@ -776,10 +776,7 @@ references:
   nameWithType: ActorProxy.getActorId()
   fullName: microsoft.servicefabric.actors.client.ActorProxy.getActorId()
   type: Method
-  summary: >-
-    <p>Gets <xref uid="microsoft.servicefabric.actors.ActorId" data-throw-if-not-resolved="false">microsoft.servicefabric.actors.ActorId</xref> associated with the proxy object.</p>
-
-    <p></p>
+  summary: "<p>Gets <xref uid=\"microsoft.servicefabric.actors.ActorId\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.actors.ActorId</xref> associated with the proxy object.</p>\r\n<p></p>"
   syntax:
     content: public ActorId getActorId()
     return:
@@ -795,10 +792,7 @@ references:
   nameWithType: ActorProxy.getActorServicePartitionClient()
   fullName: microsoft.servicefabric.actors.client.ActorProxy.getActorServicePartitionClient()
   type: Method
-  summary: >-
-    <p>Gets <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.actors.remoting.client.internal.ActorServicePartitionClientImpl</xref> that this proxy is using to communicate with the actor.</p>
-
-    <p></p>
+  summary: "<p>Gets <xref uid=\"\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.actors.remoting.client.internal.ActorServicePartitionClientImpl</xref> that this proxy is using to communicate with the actor.</p>\r\n<p></p>"
   syntax:
     content: public ActorServicePartitionClientImpl getActorServicePartitionClient()
     return:
@@ -814,7 +808,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.actors.Actor
@@ -824,7 +818,7 @@ references:
   nameWithType: Actor
   fullName: microsoft.servicefabric.actors.Actor
   type: Interface
-  summary: <p>Base interface for inheriting reliable actor interfaces. </p>
+  summary: "<p>Base interface for inheriting reliable actor interfaces. </p>"
   syntax:
     content: public interface Actor
 - uid: system.fabric.CodePackageActivationContext
@@ -834,7 +828,7 @@ references:
   nameWithType: CodePackageActivationContext
   fullName: system.fabric.CodePackageActivationContext
   type: Interface
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax:
     content: public interface CodePackageActivationContext
 - uid: system.fabric.CodePackageActivationContext.getApplicationName()
@@ -844,10 +838,7 @@ references:
   nameWithType: CodePackageActivationContext.getApplicationName()
   fullName: system.fabric.CodePackageActivationContext.getApplicationName()
   type: Method
-  summary: >-
-    <p>Gets the name of the application.</p>
-
-    <p></p>
+  summary: "<p>Gets the name of the application.</p>\r\n<p></p>"
   syntax:
     content: public String getApplicationName()
     return:

@@ -34,7 +34,7 @@ references:
   nameWithType: MappingComparisonResult
   fullName: com.microsoft.azure.elasticdb.shard.recovery.MappingComparisonResult
   type: Class
-  summary: <p>Result of comparison b/w the given range mappings. </p>
+  summary: "<p>Result of comparison b/w the given range mappings. </p>"
   syntax:
     content: public class MappingComparisonResult
 - uid: com.microsoft.azure.elasticdb.shard.recovery.MappingComparisonUtils
@@ -44,7 +44,7 @@ references:
   nameWithType: MappingComparisonUtils
   fullName: com.microsoft.azure.elasticdb.shard.recovery.MappingComparisonUtils
   type: Class
-  summary: <p>contains utility methods for performing comparisons among collections of mappings of either list or range shard maps. </p>
+  summary: "<p>contains utility methods for performing comparisons among collections of mappings of either list or range shard maps. </p>"
   syntax:
     content: public class MappingComparisonUtils
 - uid: com.microsoft.azure.elasticdb.shard.recovery.MappingDifference
@@ -54,7 +54,7 @@ references:
   nameWithType: MappingDifference
   fullName: com.microsoft.azure.elasticdb.shard.recovery.MappingDifference
   type: Class
-  summary: <p>Class for mapping differences. </p>
+  summary: "<p>Class for mapping differences. </p>"
   syntax:
     content: public class MappingDifference
 - uid: com.microsoft.azure.elasticdb.shard.recovery.MappingDifferenceResolution
@@ -64,7 +64,7 @@ references:
   nameWithType: MappingDifferenceResolution
   fullName: com.microsoft.azure.elasticdb.shard.recovery.MappingDifferenceResolution
   type: Enum
-  summary: <p>Resolution strategy for resolving mapping differences. </p>
+  summary: "<p>Resolution strategy for resolving mapping differences. </p>"
   syntax:
     content: public enum MappingDifferenceResolution
 - uid: com.microsoft.azure.elasticdb.shard.recovery.MappingDifferenceType
@@ -74,7 +74,7 @@ references:
   nameWithType: MappingDifferenceType
   fullName: com.microsoft.azure.elasticdb.shard.recovery.MappingDifferenceType
   type: Enum
-  summary: <p>Type of mapping difference. Useful for down casting. </p>
+  summary: "<p>Type of mapping difference. Useful for down casting. </p>"
   syntax:
     content: public enum MappingDifferenceType
 - uid: com.microsoft.azure.elasticdb.shard.recovery.MappingLocation
@@ -84,7 +84,7 @@ references:
   nameWithType: MappingLocation
   fullName: com.microsoft.azure.elasticdb.shard.recovery.MappingLocation
   type: Enum
-  summary: <p>Location where the different mappings exist. </p>
+  summary: "<p>Location where the different mappings exist. </p>"
   syntax:
     content: public enum MappingLocation
 - uid: com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager
@@ -94,7 +94,7 @@ references:
   nameWithType: RecoveryManager
   fullName: com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager
   type: Class
-  summary: <p>Manages various recovery related tasks for a shard map manager. It helps resolving data corruption issues between shard map information stored locally on the shards and in the global shard map manager database. It also helps with certain 'oops' recovery scenarios where reconstruction of shard maps from database backups or database copies is necessary. Note that some of the recovery methods can cause unrecoverable data loss when not used properly. It is recommend to take backups or copies of all databases that participate in recovery operations. </p>
+  summary: "<p>Manages various recovery related tasks for a shard map manager. It helps resolving data corruption issues between shard map information stored locally on the shards and in the global shard map manager database. It also helps with certain 'oops' recovery scenarios where reconstruction of shard maps from database backups or database copies is necessary. Note that some of the recovery methods can cause unrecoverable data loss when not used properly. It is recommend to take backups or copies of all databases that participate in recovery operations. </p>"
   syntax:
     content: public class RecoveryManager
 - uid: com.microsoft.azure.elasticdb.shard.recovery.RecoveryToken
@@ -104,6 +104,6 @@ references:
   nameWithType: RecoveryToken
   fullName: com.microsoft.azure.elasticdb.shard.recovery.RecoveryToken
   type: Class
-  summary: <p>Recovery token generated and used by methods of the <xref uid="com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager" data-throw-if-not-resolved="false">RecoveryManager</xref> to perform conflict detection and resolution for shard maps. </p>
+  summary: "<p>Recovery token generated and used by methods of the <xref uid=\"com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager\" data-throw-if-not-resolved=\"false\">RecoveryManager</xref> to perform conflict detection and resolution for shard maps. </p>"
   syntax:
     content: public class RecoveryToken

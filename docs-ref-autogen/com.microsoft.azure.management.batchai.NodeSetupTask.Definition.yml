@@ -44,7 +44,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -92,7 +92,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String value)
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String value)
   type: Method
-  summary: <p>Sets the value of the environment variable. This value will never be reported back by Batch AI. </p>
+  summary: "<p>Sets the value of the environment variable. This value will never be reported back by Batch AI. </p>"
   syntax:
     content: public WithAttach<ParentT> withEnvironmentVariableSecretValue(String name, String value)
     parameters:
@@ -112,7 +112,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>.withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
   type: Method
-  summary: <p>Specifies KeyVault Store and Secret which contains the value for the environment variable. </p>
+  summary: "<p>Specifies KeyVault Store and Secret which contains the value for the environment variable. </p>"
   syntax:
     content: public WithAttach<ParentT> withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
     parameters:
@@ -151,7 +151,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the node setup definition. </p>
+  summary: "<p>The first stage of the node setup definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends NodeSetupTask.DefinitionStages.WithCommandLine<ParentT>
     typeParameters:
@@ -165,7 +165,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithStdOutErrPath<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithStdOutErrPath<ParentT>
   type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify where Batch AI will upload stdout and stderr of the setup task. </p>
+  summary: "<p>The stage of the setup task definition allowing to specify where Batch AI will upload stdout and stderr of the setup task. </p>"
   syntax:
     content: public interface WithStdOutErrPath<ParentT>
     typeParameters:
@@ -179,7 +179,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
   type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify environment variables. </p>
+  summary: "<p>The stage of the setup task definition allowing to specify environment variables. </p>"
   syntax:
     content: public interface WithEnvironmentVariable<ParentT>
     typeParameters:
@@ -193,7 +193,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the setup task definition. At this stage, any remaining optional settings can be specified, or the setup task definition can be attached to the parent cluster definition. </p>
+  summary: "<p>The final stage of the setup task definition. At this stage, any remaining optional settings can be specified, or the setup task definition can be attached to the parent cluster definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

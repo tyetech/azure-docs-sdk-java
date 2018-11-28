@@ -36,10 +36,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public InputStream execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<InputStream> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithHeight.withHeight(int height)
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithHeight.withHeight(int height)
   type: Method
-  summary: >-
-    <p>Height of the thumbnail. It must be between 1 and 1024. Recommended minimum of 50.</p>
-
-    <p></p>
+  summary: "<p>Height of the thumbnail. It must be between 1 and 1024. Recommended minimum of 50.</p>\r\n<p></p>"
   syntax:
     content: public WithImage withHeight(int height)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithImage.withImage(byte[] image)
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithImage.withImage(byte[] image)
   type: Method
-  summary: >-
-    <p>An image stream.</p>
-
-    <p></p>
+  summary: "<p>An image stream.</p>\r\n<p></p>"
   syntax:
     content: public ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute withImage(byte[] image)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithAllOptions.withSmartCropping(Boolean smartCropping)
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithAllOptions.withSmartCropping(Boolean smartCropping)
   type: Method
-  summary: >-
-    <p>Boolean flag for enabling smart cropping.</p>
-
-    <p></p>
+  summary: "<p>Boolean flag for enabling smart cropping.</p>\r\n<p></p>"
   syntax:
     content: public ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute withSmartCropping(Boolean smartCropping)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithWidth.withWidth(int width)
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithWidth.withWidth(int width)
   type: Method
-  summary: >-
-    <p>Width of the thumbnail. It must be between 1 and 1024. Recommended minimum of 50.</p>
-
-    <p></p>
+  summary: "<p>Width of the thumbnail. It must be between 1 and 1024. Recommended minimum of 50.</p>\r\n<p></p>"
   syntax:
     content: public WithHeight withWidth(int width)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithWidth
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithWidth
   type: Interface
-  summary: <p>The stage of the definition to be specify width. </p>
+  summary: "<p>The stage of the definition to be specify width. </p>"
   syntax:
     content: public interface WithWidth
 - uid: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithHeight
@@ -154,7 +136,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithHeight
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithHeight
   type: Interface
-  summary: <p>The stage of the definition to be specify height. </p>
+  summary: "<p>The stage of the definition to be specify height. </p>"
   syntax:
     content: public interface WithHeight
 - uid: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithImage
@@ -164,7 +146,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithImage
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithImage
   type: Interface
-  summary: <p>The stage of the definition to be specify image. </p>
+  summary: "<p>The stage of the definition to be specify image. </p>"
   syntax:
     content: public interface WithImage
 - uid: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute
@@ -174,6 +156,6 @@ references:
   nameWithType: ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionGenerateThumbnailInStreamDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

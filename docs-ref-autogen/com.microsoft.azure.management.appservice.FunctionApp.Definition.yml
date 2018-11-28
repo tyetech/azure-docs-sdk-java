@@ -47,10 +47,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -63,10 +60,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -83,10 +77,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -123,7 +114,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithDailyUsageQuota.withDailyUsageQuota(int quota)
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithDailyUsageQuota.withDailyUsageQuota(int quota)
   type: Method
-  summary: <p>Specifies the daily usage data cap. </p>
+  summary: "<p>Specifies the daily usage data cap. </p>"
   syntax:
     content: public WithCreate withDailyUsageQuota(int quota)
     parameters:
@@ -140,7 +131,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.Blank.withExistingAppServicePlan(AppServicePlan appServicePlan)
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.Blank.withExistingAppServicePlan(AppServicePlan appServicePlan)
   type: Method
-  summary: <p>Uses an existing app service plan for the function app. </p>
+  summary: "<p>Uses an existing app service plan for the function app. </p>"
   syntax:
     content: public ExistingAppServicePlanWithGroup withExistingAppServicePlan(AppServicePlan appServicePlan)
     parameters:
@@ -157,7 +148,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: <p>Specifies the storage account to use for the function app. </p>
+  summary: "<p>Specifies the storage account to use for the function app. </p>"
   syntax:
     content: public WithCreate withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -174,7 +165,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithRuntimeVersion.withLatestRuntimeVersion()
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithRuntimeVersion.withLatestRuntimeVersion()
   type: Method
-  summary: <p>Uses the latest runtime version for the function app. </p>
+  summary: "<p>Uses the latest runtime version for the function app. </p>"
   syntax:
     content: public WithCreate withLatestRuntimeVersion()
     return:
@@ -187,10 +178,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewAppServicePlan(PricingTier pricingTier)
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewAppServicePlan(PricingTier pricingTier)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewAppServicePlan(PricingTier pricingTier)
     parameters:
@@ -207,10 +195,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewAppServicePlan(Creatable<AppServicePlan> appServicePlanCreatable)
     parameters:
@@ -227,7 +212,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewConsumptionPlan()
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewConsumptionPlan()
   type: Method
-  summary: <p>Creates a new consumption plan to use. </p>
+  summary: "<p>Creates a new consumption plan to use. </p>"
   syntax:
     content: public WithCreate withNewConsumptionPlan()
     return:
@@ -240,10 +225,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewFreeAppServicePlan()
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewFreeAppServicePlan()
   type: Method
-  summary: >-
-    <p>Creates a new free app service plan. This will fail if there are 10 or more free plans in the current subscription.</p>
-
-    <p></p>
+  summary: "<p>Creates a new free app service plan. This will fail if there are 10 or more free plans in the current subscription.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewFreeAppServicePlan()
     return:
@@ -256,10 +238,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewSharedAppServicePlan()
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithNewAppServicePlan.withNewSharedAppServicePlan()
   type: Method
-  summary: >-
-    <p>Creates a new shared app service plan.</p>
-
-    <p></p>
+  summary: "<p>Creates a new shared app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewSharedAppServicePlan()
     return:
@@ -272,7 +251,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name, com.microsoft.azure.management.storage.SkuName sku)
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name, com.microsoft.azure.management.storage.SkuName sku)
   type: Method
-  summary: <p>Creates a new storage account to use for the function app. </p>
+  summary: "<p>Creates a new storage account to use for the function app. </p>"
   syntax:
     content: public WithCreate withNewStorageAccount(String name, com.microsoft.azure.management.storage.SkuName sku)
     parameters:
@@ -292,7 +271,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithDailyUsageQuota.withoutDailyUsageQuota()
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithDailyUsageQuota.withoutDailyUsageQuota()
   type: Method
-  summary: <p>Specifies the daily usage data cap. </p>
+  summary: "<p>Specifies the daily usage data cap. </p>"
   syntax:
     content: public WithCreate withoutDailyUsageQuota()
     return:
@@ -305,7 +284,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithRuntimeVersion.withRuntimeVersion(String version)
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithRuntimeVersion.withRuntimeVersion(String version)
   type: Method
-  summary: <p>Specifies the runtime version for the function app. </p>
+  summary: "<p>Specifies the runtime version for the function app. </p>"
   syntax:
     content: public WithCreate withRuntimeVersion(String version)
     parameters:
@@ -322,7 +301,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the function app definition. </p>
+  summary: "<p>The first stage of the function app definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.ExistingAppServicePlanWithGroup
@@ -332,7 +311,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.ExistingAppServicePlanWithGroup
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.ExistingAppServicePlanWithGroup
   type: Interface
-  summary: <p>A function app definition allowing resource group to be specified when an existing app service plan is used. </p>
+  summary: "<p>A function app definition allowing resource group to be specified when an existing app service plan is used. </p>"
   syntax:
     content: public interface ExistingAppServicePlanWithGroup
 - uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount
@@ -342,7 +321,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithStorageAccount
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount
   type: Interface
-  summary: <p>A function app definition allowing storage account to be specified. A storage account is required for storing function execution runtime, triggers, and logs. </p>
+  summary: "<p>A function app definition allowing storage account to be specified. A storage account is required for storing function execution runtime, triggers, and logs. </p>"
   syntax:
     content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithCreate
@@ -352,6 +331,6 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A function app definition with sufficient inputs to create a new function app in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A function app definition with sufficient inputs to create a new function app in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

@@ -479,7 +479,7 @@ references:
   nameWithType: ShardMapManager
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager
   type: Class
-  summary: <p>Serves as the entry point for creation, management and lookup operations over shard maps. </p>
+  summary: "<p>Serves as the entry point for creation, management and lookup operations over shard maps. </p>"
   syntax:
     content: public class ShardMapManager
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerCreateMode.KeepExisting
@@ -489,7 +489,7 @@ references:
   nameWithType: ShardMapManagerCreateMode.KeepExisting
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerCreateMode.KeepExisting
   type: Field
-  summary: <p>If the shard map manager data structures are already present in the store, then this method will raise exception. </p>
+  summary: "<p>If the shard map manager data structures are already present in the store, then this method will raise exception. </p>"
   syntax:
     content: public KeepExisting=(0)
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerCreateMode
@@ -499,7 +499,7 @@ references:
   nameWithType: ShardMapManagerCreateMode
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerCreateMode
   type: Enum
-  summary: <p>Describes the creation options for shard map manager storage representation. </p>
+  summary: "<p>Describes the creation options for shard map manager storage representation. </p>"
   syntax:
     content: public enum ShardMapManagerCreateMode
 - uid: com.microsoft.azure.elasticdb.shard.store.Version
@@ -509,7 +509,7 @@ references:
   nameWithType: Version
   fullName: com.microsoft.azure.elasticdb.shard.store.Version
   type: Class
-  summary: <p>Represents the version number of an assembly, operating system, or the common language runtime. This class cannot be inherited. </p>
+  summary: "<p>Represents the version number of an assembly, operating system, or the common language runtime. This class cannot be inherited. </p>"
   syntax:
     content: public class Version
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryPolicy.getDefaultRetryPolicy()
@@ -519,7 +519,7 @@ references:
   nameWithType: RetryPolicy.getDefaultRetryPolicy()
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryPolicy.getDefaultRetryPolicy()
   type: Method
-  summary: <p>Gets the default retry policy. 5 retries at 1 second intervals. </p>
+  summary: "<p>Gets the default retry policy. 5 retries at 1 second intervals. </p>"
   syntax:
     content: public static RetryPolicy getDefaultRetryPolicy()
     return:
@@ -531,7 +531,7 @@ references:
   nameWithType: RetryBehavior
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryBehavior
   type: Class
-  summary: <p>Defines the retry behavior to use for detecting transient errors. </p>
+  summary: "<p>Defines the retry behavior to use for detecting transient errors. </p>"
   syntax:
     content: public class RetryBehavior
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryingEventArgs
@@ -541,7 +541,7 @@ references:
   nameWithType: RetryingEventArgs
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryingEventArgs
   type: Class
-  summary: <p>Shard management retrying event arguments. </p>
+  summary: "<p>Shard management retrying event arguments. </p>"
   syntax:
     content: public class RetryingEventArgs
 - uid: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerLoadPolicy
@@ -551,6 +551,6 @@ references:
   nameWithType: ShardMapManagerLoadPolicy
   fullName: com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManagerLoadPolicy
   type: Enum
-  summary: <p>Describes the policy used for initialization of <xref uid="com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager" data-throw-if-not-resolved="false">ShardMapManager</xref> from the store. </p>
+  summary: "<p>Describes the policy used for initialization of <xref uid=\"com.microsoft.azure.elasticdb.shard.mapmanager.ShardMapManager\" data-throw-if-not-resolved=\"false\">ShardMapManager</xref> from the store. </p>"
   syntax:
     content: public enum ShardMapManagerLoadPolicy

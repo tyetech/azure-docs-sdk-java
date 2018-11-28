@@ -51,10 +51,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -67,10 +64,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -87,10 +81,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -103,10 +94,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithFirstContainerInstance.defineContainerInstance(String name)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance.defineContainerInstance(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a container instance.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a container instance.</p>\r\n<p></p>"
   syntax:
     content: public ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<WithNextContainerInstance> defineContainerInstance(String name)
     parameters:
@@ -123,10 +111,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithNextContainerInstance.defineContainerInstance(String name)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithNextContainerInstance.defineContainerInstance(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a container instance.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a container instance.</p>\r\n<p></p>"
   syntax:
     content: public ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<WithNextContainerInstance> defineContainerInstance(String name)
     parameters:
@@ -143,10 +128,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume.defineVolume(String name)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume.defineVolume(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a volume that can be shared by the container instances in the container group.</p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">VolumeDefinitionStages.WithVolumeAttach#attach()</xref></p>
+  summary: "<p>Begins the definition of a volume that can be shared by the container instances in the container group.</p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">VolumeDefinitionStages.WithVolumeAttach#attach()</xref></p>"
   syntax:
     content: public VolumeDefinitionStages.VolumeDefinitionBlank<WithVolume> defineVolume(String name)
     parameters:
@@ -163,10 +145,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithVolume.defineVolume(String name)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume.defineVolume(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a volume that can be shared by the container instances in the container group.</p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">VolumeDefinitionStages.WithVolumeAttach#attach()</xref></p>
+  summary: "<p>Begins the definition of a volume that can be shared by the container instances in the container group.</p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">VolumeDefinitionStages.WithVolumeAttach#attach()</xref></p>"
   syntax:
     content: public VolumeDefinitionStages.VolumeDefinitionBlank<WithVolume> defineVolume(String name)
     parameters:
@@ -207,10 +186,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithFirstContainerInstance.withContainerInstance(String imageName)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance.withContainerInstance(String imageName)
   type: Method
-  summary: >-
-    <p>Defines one container instance for the specified image with one CPU count and 1.5 GB memory, with TCP port 80 opened externally.</p>
-
-    <p></p>
+  summary: "<p>Defines one container instance for the specified image with one CPU count and 1.5 GB memory, with TCP port 80 opened externally.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withContainerInstance(String imageName)
     parameters:
@@ -227,10 +203,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithFirstContainerInstance.withContainerInstance(String imageName, int port)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance.withContainerInstance(String imageName, int port)
   type: Method
-  summary: >-
-    <p>Defines one container instance for the specified image with one CPU count and 1.5 GB memory, with a custom TCP port opened externally.</p>
-
-    <p></p>
+  summary: "<p>Defines one container instance for the specified image with one CPU count and 1.5 GB memory, with a custom TCP port opened externally.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withContainerInstance(String imageName, int port)
     parameters:
@@ -250,10 +223,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithOsType.withLinux()
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithOsType.withLinux()
   type: Method
-  summary: >-
-    <p>Specifies this is a Linux container group.</p>
-
-    <p></p>
+  summary: "<p>Specifies this is a Linux container group.</p>\r\n<p></p>"
   syntax:
     content: public WithPublicOrPrivateImageRegistry withLinux()
     return:
@@ -266,10 +236,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume.withNewAzureFileShareVolume(String volumeName, String shareName)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume.withNewAzureFileShareVolume(String volumeName, String shareName)
   type: Method
-  summary: >-
-    <p>Specifies a new Azure file share name to be created.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new Azure file share name to be created.</p>\r\n<p></p>"
   syntax:
     content: public WithFirstContainerInstance withNewAzureFileShareVolume(String volumeName, String shareName)
     parameters:
@@ -289,10 +256,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume.withoutVolume()
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume.withoutVolume()
   type: Method
-  summary: >-
-    <p>Skips the definition of volumes to be shared by the container instances.</p>
-
-    <p>An IllegalArgumentException will be thrown if a container instance attempts to define a volume mounting. </p>
+  summary: "<p>Skips the definition of volumes to be shared by the container instances.</p>\r\n<p>An IllegalArgumentException will be thrown if a container instance attempts to define a volume mounting. </p>"
   syntax:
     content: public WithFirstContainerInstance withoutVolume()
     return:
@@ -305,10 +269,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistry.withPrivateImageRegistry(String server, String username, String password)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistry.withPrivateImageRegistry(String server, String username, String password)
   type: Method
-  summary: >-
-    <p>Specifies the private container image registry server login for the container group.</p>
-
-    <p></p>
+  summary: "<p>Specifies the private container image registry server login for the container group.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateImageRegistryOrVolume withPrivateImageRegistry(String server, String username, String password)
     parameters:
@@ -331,10 +292,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPublicImageRegistryOnly.withPublicImageRegistryOnly()
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPublicImageRegistryOnly.withPublicImageRegistryOnly()
   type: Method
-  summary: >-
-    <p>Only public container image repository will be used to create the container instances in the container group.</p>
-
-    <p></p>
+  summary: "<p>Only public container image repository will be used to create the container instances in the container group.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateImageRegistryOrVolume withPublicImageRegistryOnly()
     return:
@@ -347,7 +305,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -364,7 +322,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -381,7 +339,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -401,7 +359,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -418,10 +376,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithOsType.withWindows()
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithOsType.withWindows()
   type: Method
-  summary: >-
-    <p>Specifies this is a Windows container group.</p>
-
-    <p></p>
+  summary: "<p>Specifies this is a Windows container group.</p>\r\n<p></p>"
   syntax:
     content: public WithPublicOrPrivateImageRegistry withWindows()
     return:
@@ -434,7 +389,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the container group definition. </p>
+  summary: "<p>The first stage of the container group definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithGroup
@@ -444,7 +399,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the container group definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithOsType
@@ -454,7 +409,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithOsType
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithOsType
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify the OS type. </p>
+  summary: "<p>The stage of the container group definition allowing to specify the OS type. </p>"
   syntax:
     content: public interface WithOsType
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry
@@ -464,7 +419,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a public only or private image registry. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a public only or private image registry. </p>"
   syntax:
     content: public interface WithPublicOrPrivateImageRegistry
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume
@@ -474,7 +429,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a private image registry or a volume. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a private image registry or a volume. </p>"
   syntax:
     content: public interface WithPrivateImageRegistryOrVolume
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume
@@ -484,7 +439,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithVolume
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>"
   syntax:
     content: public interface WithVolume
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance
@@ -494,7 +449,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithFirstContainerInstance
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify first required container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify first required container instance. </p>"
   syntax:
     content: public interface WithFirstContainerInstance
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithNextContainerInstance
@@ -504,7 +459,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithNextContainerInstance
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithNextContainerInstance
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a container instance. </p>"
   syntax:
     content: public interface WithNextContainerInstance
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithCreate
@@ -514,6 +469,6 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

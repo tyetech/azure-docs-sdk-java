@@ -82,10 +82,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the probe definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the probe definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdate,LoadBalancerHttpProbe.UpdateDefinitionStages.WithPort<ParentT>,LoadBalancerHttpProbe.UpdateDefinitionStages.WithIntervalInSeconds<ParentT>,LoadBalancerHttpProbe.UpdateDefinitionStages.WithNumberOfProbes<ParentT>
     typeParameters:

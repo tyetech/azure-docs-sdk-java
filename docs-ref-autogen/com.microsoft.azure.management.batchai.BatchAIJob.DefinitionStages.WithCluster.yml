@@ -98,7 +98,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of Batch AI job definition. </p>
+  summary: "<p>The first stage of Batch AI job definition. </p>"
   syntax:
     content: public interface Blank extends BatchAIJob.DefinitionStages.WithCluster
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithNodeCount
@@ -108,7 +108,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithNodeCount
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithNodeCount
   type: Interface
-  summary: <p>The stage of the definition allowing to specify number of compute nodes to run the job on. The job will be gang scheduled on that many compute nodes. </p>
+  summary: "<p>The stage of the definition allowing to specify number of compute nodes to run the job on. The job will be gang scheduled on that many compute nodes. </p>"
   syntax:
     content: public interface WithNodeCount
 - uid: com.microsoft.azure.management.batchai.BatchAICluster
@@ -118,6 +118,6 @@ references:
   nameWithType: BatchAICluster
   fullName: com.microsoft.azure.management.batchai.BatchAICluster
   type: Interface
-  summary: <p>Entry point for Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAICluster extends HasInner<ClusterInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAICluster>,Updatable<BatchAICluster.Update>

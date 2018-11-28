@@ -280,7 +280,7 @@ references:
   nameWithType: com.microsoft.azure.management.batchai.implementation
   fullName: com.microsoft.azure.management.batchai.implementation
   type: Namespace
-  summary: <p>This package contains the implementation classes for BatchAIManagementClient. The Azure BatchAI Management API. </p>
+  summary: "<p>This package contains the implementation classes for BatchAIManagementClient. The Azure BatchAI Management API. </p>"
   syntax:
     content: package com.microsoft.azure.management.batchai.implementation
 - uid: com.microsoft.azure.management.batchai.model
@@ -289,7 +289,7 @@ references:
   nameWithType: com.microsoft.azure.management.batchai.model
   fullName: com.microsoft.azure.management.batchai.model
   type: Namespace
-  summary: <p>This package contains the classes for BatchAIManagementClient. The Azure BatchAI Management API. </p>
+  summary: "<p>This package contains the classes for BatchAIManagementClient. The Azure BatchAI Management API. </p>"
   syntax:
     content: package com.microsoft.azure.management.batchai.model
 - uid: com.microsoft.azure.management.batchai.AllocationState
@@ -299,7 +299,7 @@ references:
   nameWithType: AllocationState
   fullName: com.microsoft.azure.management.batchai.AllocationState
   type: Class
-  summary: <p>Defines values for AllocationState. </p>
+  summary: "<p>Defines values for AllocationState. </p>"
   syntax:
     content: public class AllocationState
 - uid: com.microsoft.azure.management.batchai.AppInsightsReference
@@ -309,7 +309,7 @@ references:
   nameWithType: AppInsightsReference
   fullName: com.microsoft.azure.management.batchai.AppInsightsReference
   type: Class
-  summary: <p>Azure Application Insights information for performance counters reporting. </p>
+  summary: "<p>Azure Application Insights information for performance counters reporting. </p>"
   syntax:
     content: public class AppInsightsReference
 - uid: com.microsoft.azure.management.batchai.AutoScaleSettings
@@ -319,7 +319,7 @@ references:
   nameWithType: AutoScaleSettings
   fullName: com.microsoft.azure.management.batchai.AutoScaleSettings
   type: Class
-  summary: <p>Auto-scale settings for the cluster. The system automatically scales the cluster up and down (within minimumNodeCount and maximumNodeCount) based on the number of queued and running jobs assigned to the cluster. </p>
+  summary: "<p>Auto-scale settings for the cluster. The system automatically scales the cluster up and down (within minimumNodeCount and maximumNodeCount) based on the number of queued and running jobs assigned to the cluster. </p>"
   syntax:
     content: public class AutoScaleSettings
 - uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem
@@ -329,7 +329,7 @@ references:
   nameWithType: AzureBlobFileSystem
   fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem
   type: Interface
-  summary: <p>Client-side representation for AzureBlobFileSystemReference. </p>
+  summary: "<p>Client-side representation for AzureBlobFileSystemReference. </p>"
   syntax:
     content: public interface AzureBlobFileSystem extends Indexable,HasInner<AzureBlobFileSystemReference>
 - uid: com.microsoft.azure.management.batchai.AzureBlobFileSystemReference
@@ -339,7 +339,7 @@ references:
   nameWithType: AzureBlobFileSystemReference
   fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystemReference
   type: Class
-  summary: <p>Azure Blob Storage Container mounting configuration. </p>
+  summary: "<p>Azure Blob Storage Container mounting configuration. </p>"
   syntax:
     content: public class AzureBlobFileSystemReference
 - uid: com.microsoft.azure.management.batchai.AzureFileShare
@@ -349,7 +349,7 @@ references:
   nameWithType: AzureFileShare
   fullName: com.microsoft.azure.management.batchai.AzureFileShare
   type: Interface
-  summary: <p>Client-side representation for AzureFileShareReference. </p>
+  summary: "<p>Client-side representation for AzureFileShareReference. </p>"
   syntax:
     content: public interface AzureFileShare extends Indexable,HasInner<AzureFileShareReference>
 - uid: com.microsoft.azure.management.batchai.AzureFileShareReference
@@ -359,7 +359,7 @@ references:
   nameWithType: AzureFileShareReference
   fullName: com.microsoft.azure.management.batchai.AzureFileShareReference
   type: Class
-  summary: <p>Azure File Share mounting configuration. </p>
+  summary: "<p>Azure File Share mounting configuration. </p>"
   syntax:
     content: public class AzureFileShareReference
 - uid: com.microsoft.azure.management.batchai.AzureStorageCredentialsInfo
@@ -369,7 +369,7 @@ references:
   nameWithType: AzureStorageCredentialsInfo
   fullName: com.microsoft.azure.management.batchai.AzureStorageCredentialsInfo
   type: Class
-  summary: <p>Azure storage account credentials. </p>
+  summary: "<p>Azure storage account credentials. </p>"
   syntax:
     content: public class AzureStorageCredentialsInfo
 - uid: com.microsoft.azure.management.batchai.BatchAICluster
@@ -379,7 +379,7 @@ references:
   nameWithType: BatchAICluster
   fullName: com.microsoft.azure.management.batchai.BatchAICluster
   type: Interface
-  summary: <p>Entry point for Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAICluster extends HasInner<ClusterInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAICluster>,Updatable<BatchAICluster.Update>
 - uid: com.microsoft.azure.management.batchai.BatchAIClusters
@@ -389,7 +389,7 @@ references:
   nameWithType: BatchAIClusters
   fullName: com.microsoft.azure.management.batchai.BatchAIClusters
   type: Interface
-  summary: <p>Entry point to Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAIClusters extends SupportsCreating<BatchAICluster.DefinitionStages.Blank>,SupportsListing<BatchAICluster>,SupportsGettingById<BatchAICluster>,SupportsGettingByNameAsync<BatchAICluster>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<ClustersInner>,HasParent<BatchAIWorkspace>
 - uid: com.microsoft.azure.management.batchai.BatchAIError
@@ -399,7 +399,7 @@ references:
   nameWithType: BatchAIError
   fullName: com.microsoft.azure.management.batchai.BatchAIError
   type: Class
-  summary: <p>An error response from the Batch AI service. </p>
+  summary: "<p>An error response from the Batch AI service. </p>"
   syntax:
     content: public class BatchAIError
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment
@@ -409,7 +409,7 @@ references:
   nameWithType: BatchAIExperiment
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment
   type: Interface
-  summary: <p>Entry point for Batch AI Experiment management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI Experiment management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiment extends HasInner<ExperimentInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiments
@@ -419,7 +419,7 @@ references:
   nameWithType: BatchAIExperiments
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiments
   type: Interface
-  summary: <p>Entry point to Batch AI experiments management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI experiments management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiments extends SupportsCreating<BatchAIExperiment.DefinitionStages.WithCreate>,SupportsListing<BatchAIExperiment>,SupportsGettingById<BatchAIExperiment>,SupportsGettingByNameAsync<BatchAIExperiment>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<ExperimentsInner>,HasParent<BatchAIWorkspace>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer
@@ -429,7 +429,7 @@ references:
   nameWithType: BatchAIFileServer
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer
   type: Interface
-  summary: <p>Entry point for Batch AI file server management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI file server management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServer extends HasInner<FileServerInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIFileServer>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServers
@@ -439,7 +439,7 @@ references:
   nameWithType: BatchAIFileServers
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServers
   type: Interface
-  summary: <p>Entry point to Batch AI file servers management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI file servers management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServers extends SupportsCreating<BatchAIFileServer.DefinitionStages.Blank>,SupportsListing<BatchAIFileServer>,SupportsGettingById<BatchAIFileServer>,SupportsGettingByNameAsync<BatchAIFileServer>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<FileServersInner>
 - uid: com.microsoft.azure.management.batchai.BatchAIJob
@@ -449,7 +449,7 @@ references:
   nameWithType: BatchAIJob
   fullName: com.microsoft.azure.management.batchai.BatchAIJob
   type: Interface
-  summary: <p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>
+  summary: "<p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>"
   syntax:
     content: public interface BatchAIJob extends HasInner<JobInner>,Indexable,HasId,HasName,Refreshable<BatchAIJob>
 - uid: com.microsoft.azure.management.batchai.BatchAIJobs
@@ -459,7 +459,7 @@ references:
   nameWithType: BatchAIJobs
   fullName: com.microsoft.azure.management.batchai.BatchAIJobs
   type: Interface
-  summary: <p>Entry point for Batch AI jobs management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI jobs management API in Azure. </p>"
   syntax:
     content: public interface BatchAIJobs extends SupportsCreating<BatchAIJob.DefinitionStages.Blank>,SupportsListing<BatchAIJob>,SupportsGettingByName<BatchAIJob>,SupportsGettingById<BatchAIJob>,SupportsGettingByNameAsync<BatchAIJob>,SupportsDeletingByName,SupportsDeletingById,HasInner<JobsInner>,HasManager<BatchAIManager>,HasParent<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIUsage
@@ -469,7 +469,7 @@ references:
   nameWithType: BatchAIUsage
   fullName: com.microsoft.azure.management.batchai.BatchAIUsage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Batch AI resource usage info object. </p>
+  summary: "<p>An immutable client-side representation of an Azure Batch AI resource usage info object. </p>"
   syntax:
     content: public interface BatchAIUsage extends HasInner<UsageInner>
 - uid: com.microsoft.azure.management.batchai.BatchAIUsageOperationsTest
@@ -488,7 +488,7 @@ references:
   nameWithType: BatchAIUsages
   fullName: com.microsoft.azure.management.batchai.BatchAIUsages
   type: Interface
-  summary: <p>Entry point for Batch AI resource usage management API. </p>
+  summary: "<p>Entry point for Batch AI resource usage management API. </p>"
   syntax:
     content: public interface BatchAIUsages extends SupportsListingByRegion<BatchAIUsage>
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspace
@@ -498,7 +498,7 @@ references:
   nameWithType: BatchAIWorkspace
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace
   type: Interface
-  summary: <p>Type representing Workspace. </p>
+  summary: "<p>Type representing Workspace. </p>"
   syntax:
     content: public interface BatchAIWorkspace extends GroupableResource<BatchAIManager, WorkspaceInner>,Refreshable<BatchAIWorkspace>,Updatable<BatchAIWorkspace.Update>
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspaces
@@ -508,7 +508,7 @@ references:
   nameWithType: BatchAIWorkspaces
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspaces
   type: Interface
-  summary: <p>Entry point to virtual network gateways management API in Azure. </p>
+  summary: "<p>Entry point to virtual network gateways management API in Azure. </p>"
   syntax:
     content: public interface BatchAIWorkspaces extends SupportsCreating<BatchAIWorkspace.DefinitionStages.Blank>,SupportsListing<BatchAIWorkspace>,SupportsListingByResourceGroup<BatchAIWorkspace>,SupportsGettingByResourceGroup<BatchAIWorkspace>,SupportsGettingById<BatchAIWorkspace>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<BatchAIWorkspace>,HasManager<BatchAIManager>,HasInner<WorkspacesInner>
 - uid: com.microsoft.azure.management.batchai.CachingType
@@ -518,7 +518,7 @@ references:
   nameWithType: CachingType
   fullName: com.microsoft.azure.management.batchai.CachingType
   type: Enum
-  summary: <p>Defines values for CachingType. </p>
+  summary: "<p>Defines values for CachingType. </p>"
   syntax:
     content: public enum CachingType
 - uid: com.microsoft.azure.management.batchai.Caffe2Settings
@@ -528,7 +528,7 @@ references:
   nameWithType: Caffe2Settings
   fullName: com.microsoft.azure.management.batchai.Caffe2Settings
   type: Class
-  summary: <p>Caffe2 job settings. </p>
+  summary: "<p>Caffe2 job settings. </p>"
   syntax:
     content: public class Caffe2Settings
 - uid: com.microsoft.azure.management.batchai.CaffeSettings
@@ -538,7 +538,7 @@ references:
   nameWithType: CaffeSettings
   fullName: com.microsoft.azure.management.batchai.CaffeSettings
   type: Class
-  summary: <p>Caffe job settings. </p>
+  summary: "<p>Caffe job settings. </p>"
   syntax:
     content: public class CaffeSettings
 - uid: com.microsoft.azure.management.batchai.ChainerSettings
@@ -548,7 +548,7 @@ references:
   nameWithType: ChainerSettings
   fullName: com.microsoft.azure.management.batchai.ChainerSettings
   type: Class
-  summary: <p>Chainer job settings. </p>
+  summary: "<p>Chainer job settings. </p>"
   syntax:
     content: public class ChainerSettings
 - uid: com.microsoft.azure.management.batchai.ClusterCreateParameters
@@ -558,7 +558,7 @@ references:
   nameWithType: ClusterCreateParameters
   fullName: com.microsoft.azure.management.batchai.ClusterCreateParameters
   type: Class
-  summary: <p>Cluster creation operation. </p>
+  summary: "<p>Cluster creation operation. </p>"
   syntax:
     content: public class ClusterCreateParameters
 - uid: com.microsoft.azure.management.batchai.ClustersListByWorkspaceOptions
@@ -568,7 +568,7 @@ references:
   nameWithType: ClustersListByWorkspaceOptions
   fullName: com.microsoft.azure.management.batchai.ClustersListByWorkspaceOptions
   type: Class
-  summary: <p>Additional parameters for listByWorkspace operation. </p>
+  summary: "<p>Additional parameters for listByWorkspace operation. </p>"
   syntax:
     content: public class ClustersListByWorkspaceOptions
 - uid: com.microsoft.azure.management.batchai.ClusterUpdateParameters
@@ -578,7 +578,7 @@ references:
   nameWithType: ClusterUpdateParameters
   fullName: com.microsoft.azure.management.batchai.ClusterUpdateParameters
   type: Class
-  summary: <p>Cluster update parameters. </p>
+  summary: "<p>Cluster update parameters. </p>"
   syntax:
     content: public class ClusterUpdateParameters
 - uid: com.microsoft.azure.management.batchai.CNTKsettings
@@ -588,7 +588,7 @@ references:
   nameWithType: CNTKsettings
   fullName: com.microsoft.azure.management.batchai.CNTKsettings
   type: Class
-  summary: <p>CNTK (aka Microsoft Cognitive Toolkit) job settings. </p>
+  summary: "<p>CNTK (aka Microsoft Cognitive Toolkit) job settings. </p>"
   syntax:
     content: public class CNTKsettings
 - uid: com.microsoft.azure.management.batchai.ContainerImageSettings
@@ -598,7 +598,7 @@ references:
   nameWithType: ContainerImageSettings
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings
   type: Interface
-  summary: <p>Specifies settings for container image. </p>
+  summary: "<p>Specifies settings for container image. </p>"
   syntax:
     content: public interface ContainerImageSettings extends Indexable,HasParent<BatchAIJob>,HasInner<OutputDirectory>
 - uid: com.microsoft.azure.management.batchai.ContainerSettings
@@ -608,7 +608,7 @@ references:
   nameWithType: ContainerSettings
   fullName: com.microsoft.azure.management.batchai.ContainerSettings
   type: Class
-  summary: <p>Docker container settings. </p>
+  summary: "<p>Docker container settings. </p>"
   syntax:
     content: public class ContainerSettings
 - uid: com.microsoft.azure.management.batchai.CustomMpiSettings
@@ -618,7 +618,7 @@ references:
   nameWithType: CustomMpiSettings
   fullName: com.microsoft.azure.management.batchai.CustomMpiSettings
   type: Class
-  summary: <p>Custom MPI job settings. </p>
+  summary: "<p>Custom MPI job settings. </p>"
   syntax:
     content: public class CustomMpiSettings
 - uid: com.microsoft.azure.management.batchai.CustomToolkitSettings
@@ -628,7 +628,7 @@ references:
   nameWithType: CustomToolkitSettings
   fullName: com.microsoft.azure.management.batchai.CustomToolkitSettings
   type: Class
-  summary: <p>Custom tool kit job settings. </p>
+  summary: "<p>Custom tool kit job settings. </p>"
   syntax:
     content: public class CustomToolkitSettings
 - uid: com.microsoft.azure.management.batchai.DataDisks
@@ -638,7 +638,7 @@ references:
   nameWithType: DataDisks
   fullName: com.microsoft.azure.management.batchai.DataDisks
   type: Class
-  summary: <p>Data disks settings. </p>
+  summary: "<p>Data disks settings. </p>"
   syntax:
     content: public class DataDisks
 - uid: com.microsoft.azure.management.batchai.DeallocationOption
@@ -648,7 +648,7 @@ references:
   nameWithType: DeallocationOption
   fullName: com.microsoft.azure.management.batchai.DeallocationOption
   type: Class
-  summary: <p>Defines values for DeallocationOption. </p>
+  summary: "<p>Defines values for DeallocationOption. </p>"
   syntax:
     content: public class DeallocationOption
 - uid: com.microsoft.azure.management.batchai.EnvironmentVariable
@@ -658,7 +658,7 @@ references:
   nameWithType: EnvironmentVariable
   fullName: com.microsoft.azure.management.batchai.EnvironmentVariable
   type: Class
-  summary: <p>An environment variable definition. </p>
+  summary: "<p>An environment variable definition. </p>"
   syntax:
     content: public class EnvironmentVariable
 - uid: com.microsoft.azure.management.batchai.EnvironmentVariableWithSecretValue
@@ -668,7 +668,7 @@ references:
   nameWithType: EnvironmentVariableWithSecretValue
   fullName: com.microsoft.azure.management.batchai.EnvironmentVariableWithSecretValue
   type: Class
-  summary: <p>An environment variable with secret value definition. </p>
+  summary: "<p>An environment variable with secret value definition. </p>"
   syntax:
     content: public class EnvironmentVariableWithSecretValue
 - uid: com.microsoft.azure.management.batchai.ExecutionState
@@ -678,7 +678,7 @@ references:
   nameWithType: ExecutionState
   fullName: com.microsoft.azure.management.batchai.ExecutionState
   type: Class
-  summary: <p>Defines values for ExecutionState. </p>
+  summary: "<p>Defines values for ExecutionState. </p>"
   syntax:
     content: public class ExecutionState
 - uid: com.microsoft.azure.management.batchai.ExperimentsListByWorkspaceOptions
@@ -688,7 +688,7 @@ references:
   nameWithType: ExperimentsListByWorkspaceOptions
   fullName: com.microsoft.azure.management.batchai.ExperimentsListByWorkspaceOptions
   type: Class
-  summary: <p>Additional parameters for listByWorkspace operation. </p>
+  summary: "<p>Additional parameters for listByWorkspace operation. </p>"
   syntax:
     content: public class ExperimentsListByWorkspaceOptions
 - uid: com.microsoft.azure.management.batchai.FileServer
@@ -698,7 +698,7 @@ references:
   nameWithType: FileServer
   fullName: com.microsoft.azure.management.batchai.FileServer
   type: Interface
-  summary: <p>Client-side representation for FileServerReference. </p>
+  summary: "<p>Client-side representation for FileServerReference. </p>"
   syntax:
     content: public interface FileServer extends Indexable,HasInner<FileServerReference>
 - uid: com.microsoft.azure.management.batchai.FileServerCreateParameters
@@ -708,7 +708,7 @@ references:
   nameWithType: FileServerCreateParameters
   fullName: com.microsoft.azure.management.batchai.FileServerCreateParameters
   type: Class
-  summary: <p>File Server creation parameters. </p>
+  summary: "<p>File Server creation parameters. </p>"
   syntax:
     content: public class FileServerCreateParameters
 - uid: com.microsoft.azure.management.batchai.FileServerProvisioningState
@@ -718,7 +718,7 @@ references:
   nameWithType: FileServerProvisioningState
   fullName: com.microsoft.azure.management.batchai.FileServerProvisioningState
   type: Class
-  summary: <p>Defines values for FileServerProvisioningState. </p>
+  summary: "<p>Defines values for FileServerProvisioningState. </p>"
   syntax:
     content: public class FileServerProvisioningState
 - uid: com.microsoft.azure.management.batchai.FileServerReference
@@ -728,7 +728,7 @@ references:
   nameWithType: FileServerReference
   fullName: com.microsoft.azure.management.batchai.FileServerReference
   type: Class
-  summary: <p>File Server mounting configuration. </p>
+  summary: "<p>File Server mounting configuration. </p>"
   syntax:
     content: public class FileServerReference
 - uid: com.microsoft.azure.management.batchai.FileServersListByWorkspaceOptions
@@ -738,7 +738,7 @@ references:
   nameWithType: FileServersListByWorkspaceOptions
   fullName: com.microsoft.azure.management.batchai.FileServersListByWorkspaceOptions
   type: Class
-  summary: <p>Additional parameters for listByWorkspace operation. </p>
+  summary: "<p>Additional parameters for listByWorkspace operation. </p>"
   syntax:
     content: public class FileServersListByWorkspaceOptions
 - uid: com.microsoft.azure.management.batchai.FileType
@@ -748,7 +748,7 @@ references:
   nameWithType: FileType
   fullName: com.microsoft.azure.management.batchai.FileType
   type: Class
-  summary: <p>Defines values for FileType. </p>
+  summary: "<p>Defines values for FileType. </p>"
   syntax:
     content: public class FileType
 - uid: com.microsoft.azure.management.batchai.HorovodSettings
@@ -758,7 +758,7 @@ references:
   nameWithType: HorovodSettings
   fullName: com.microsoft.azure.management.batchai.HorovodSettings
   type: Class
-  summary: <p>Specifies the settings for Horovod job. </p>
+  summary: "<p>Specifies the settings for Horovod job. </p>"
   syntax:
     content: public class HorovodSettings
 - uid: com.microsoft.azure.management.batchai.ImageReference
@@ -768,7 +768,7 @@ references:
   nameWithType: ImageReference
   fullName: com.microsoft.azure.management.batchai.ImageReference
   type: Class
-  summary: <p>The OS image reference. </p>
+  summary: "<p>The OS image reference. </p>"
   syntax:
     content: public class ImageReference
 - uid: com.microsoft.azure.management.batchai.ImageSourceRegistry
@@ -778,7 +778,7 @@ references:
   nameWithType: ImageSourceRegistry
   fullName: com.microsoft.azure.management.batchai.ImageSourceRegistry
   type: Class
-  summary: <p>Information about docker image for the job. </p>
+  summary: "<p>Information about docker image for the job. </p>"
   syntax:
     content: public class ImageSourceRegistry
 - uid: com.microsoft.azure.management.batchai.InputDirectory
@@ -788,7 +788,7 @@ references:
   nameWithType: InputDirectory
   fullName: com.microsoft.azure.management.batchai.InputDirectory
   type: Class
-  summary: <p>Input directory for the job. </p>
+  summary: "<p>Input directory for the job. </p>"
   syntax:
     content: public class InputDirectory
 - uid: com.microsoft.azure.management.batchai.JobBasePropertiesConstraints
@@ -798,7 +798,7 @@ references:
   nameWithType: JobBasePropertiesConstraints
   fullName: com.microsoft.azure.management.batchai.JobBasePropertiesConstraints
   type: Class
-  summary: <p>Constraints associated with the Job. </p>
+  summary: "<p>Constraints associated with the Job. </p>"
   syntax:
     content: public class JobBasePropertiesConstraints
 - uid: com.microsoft.azure.management.batchai.JobCreateParameters
@@ -808,7 +808,7 @@ references:
   nameWithType: JobCreateParameters
   fullName: com.microsoft.azure.management.batchai.JobCreateParameters
   type: Class
-  summary: <p>Job creation parameters. </p>
+  summary: "<p>Job creation parameters. </p>"
   syntax:
     content: public class JobCreateParameters
 - uid: com.microsoft.azure.management.batchai.JobPreparation
@@ -818,7 +818,7 @@ references:
   nameWithType: JobPreparation
   fullName: com.microsoft.azure.management.batchai.JobPreparation
   type: Class
-  summary: <p>Job preparation settings. </p>
+  summary: "<p>Job preparation settings. </p>"
   syntax:
     content: public class JobPreparation
 - uid: com.microsoft.azure.management.batchai.JobPriority
@@ -828,7 +828,7 @@ references:
   nameWithType: JobPriority
   fullName: com.microsoft.azure.management.batchai.JobPriority
   type: Class
-  summary: <p>Defines values for JobPriority. </p>
+  summary: "<p>Defines values for JobPriority. </p>"
   syntax:
     content: public class JobPriority
 - uid: com.microsoft.azure.management.batchai.JobPropertiesConstraints
@@ -838,7 +838,7 @@ references:
   nameWithType: JobPropertiesConstraints
   fullName: com.microsoft.azure.management.batchai.JobPropertiesConstraints
   type: Class
-  summary: <p>Constraints associated with the Job. </p>
+  summary: "<p>Constraints associated with the Job. </p>"
   syntax:
     content: public class JobPropertiesConstraints
 - uid: com.microsoft.azure.management.batchai.JobPropertiesExecutionInfo
@@ -848,7 +848,7 @@ references:
   nameWithType: JobPropertiesExecutionInfo
   fullName: com.microsoft.azure.management.batchai.JobPropertiesExecutionInfo
   type: Class
-  summary: <p>Information about the execution of a job. </p>
+  summary: "<p>Information about the execution of a job. </p>"
   syntax:
     content: public class JobPropertiesExecutionInfo
 - uid: com.microsoft.azure.management.batchai.JobsListByExperimentOptions
@@ -858,7 +858,7 @@ references:
   nameWithType: JobsListByExperimentOptions
   fullName: com.microsoft.azure.management.batchai.JobsListByExperimentOptions
   type: Class
-  summary: <p>Additional parameters for listByExperiment operation. </p>
+  summary: "<p>Additional parameters for listByExperiment operation. </p>"
   syntax:
     content: public class JobsListByExperimentOptions
 - uid: com.microsoft.azure.management.batchai.JobsListOutputFilesOptions
@@ -868,7 +868,7 @@ references:
   nameWithType: JobsListOutputFilesOptions
   fullName: com.microsoft.azure.management.batchai.JobsListOutputFilesOptions
   type: Class
-  summary: <p>Additional parameters for listOutputFiles operation. </p>
+  summary: "<p>Additional parameters for listOutputFiles operation. </p>"
   syntax:
     content: public class JobsListOutputFilesOptions
 - uid: com.microsoft.azure.management.batchai.KeyVaultSecretReference
@@ -878,7 +878,7 @@ references:
   nameWithType: KeyVaultSecretReference
   fullName: com.microsoft.azure.management.batchai.KeyVaultSecretReference
   type: Class
-  summary: <p>Key Vault Secret reference. </p>
+  summary: "<p>Key Vault Secret reference. </p>"
   syntax:
     content: public class KeyVaultSecretReference
 - uid: com.microsoft.azure.management.batchai.ManualScaleSettings
@@ -888,7 +888,7 @@ references:
   nameWithType: ManualScaleSettings
   fullName: com.microsoft.azure.management.batchai.ManualScaleSettings
   type: Class
-  summary: <p>Manual scale settings for the cluster. </p>
+  summary: "<p>Manual scale settings for the cluster. </p>"
   syntax:
     content: public class ManualScaleSettings
 - uid: com.microsoft.azure.management.batchai.MountSettings
@@ -898,7 +898,7 @@ references:
   nameWithType: MountSettings
   fullName: com.microsoft.azure.management.batchai.MountSettings
   type: Class
-  summary: <p>File Server mount Information. </p>
+  summary: "<p>File Server mount Information. </p>"
   syntax:
     content: public class MountSettings
 - uid: com.microsoft.azure.management.batchai.MountVolumes
@@ -908,7 +908,7 @@ references:
   nameWithType: MountVolumes
   fullName: com.microsoft.azure.management.batchai.MountVolumes
   type: Class
-  summary: <p>Details of volumes to mount on the cluster. </p>
+  summary: "<p>Details of volumes to mount on the cluster. </p>"
   syntax:
     content: public class MountVolumes
 - uid: com.microsoft.azure.management.batchai.NameValuePair
@@ -918,7 +918,7 @@ references:
   nameWithType: NameValuePair
   fullName: com.microsoft.azure.management.batchai.NameValuePair
   type: Class
-  summary: <p>Name-value pair. </p>
+  summary: "<p>Name-value pair. </p>"
   syntax:
     content: public class NameValuePair
 - uid: com.microsoft.azure.management.batchai.NodeSetup
@@ -928,7 +928,7 @@ references:
   nameWithType: NodeSetup
   fullName: com.microsoft.azure.management.batchai.NodeSetup
   type: Class
-  summary: <p>Node setup settings. </p>
+  summary: "<p>Node setup settings. </p>"
   syntax:
     content: public class NodeSetup
 - uid: com.microsoft.azure.management.batchai.NodeSetupTask
@@ -938,7 +938,7 @@ references:
   nameWithType: NodeSetupTask
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask
   type: Interface
-  summary: <p>A client-side representation of a mode setup task of a Batch AI cluster. </p>
+  summary: "<p>A client-side representation of a mode setup task of a Batch AI cluster. </p>"
   syntax:
     content: public interface NodeSetupTask extends HasInner<SetupTask>,Indexable,HasParent<BatchAICluster>
 - uid: com.microsoft.azure.management.batchai.NodeStateCounts
@@ -948,7 +948,7 @@ references:
   nameWithType: NodeStateCounts
   fullName: com.microsoft.azure.management.batchai.NodeStateCounts
   type: Class
-  summary: <p>Counts of various compute node states on the cluster. </p>
+  summary: "<p>Counts of various compute node states on the cluster. </p>"
   syntax:
     content: public class NodeStateCounts
 - uid: com.microsoft.azure.management.batchai.OperationDisplay
@@ -958,7 +958,7 @@ references:
   nameWithType: OperationDisplay
   fullName: com.microsoft.azure.management.batchai.OperationDisplay
   type: Class
-  summary: <p>The object that describes the operation. </p>
+  summary: "<p>The object that describes the operation. </p>"
   syntax:
     content: public class OperationDisplay
 - uid: com.microsoft.azure.management.batchai.OutputDirectory
@@ -968,7 +968,7 @@ references:
   nameWithType: OutputDirectory
   fullName: com.microsoft.azure.management.batchai.OutputDirectory
   type: Class
-  summary: <p>Output directory for the job. </p>
+  summary: "<p>Output directory for the job. </p>"
   syntax:
     content: public class OutputDirectory
 - uid: com.microsoft.azure.management.batchai.OutputDirectorySettings
@@ -978,7 +978,7 @@ references:
   nameWithType: OutputDirectorySettings
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings
   type: Interface
-  summary: <p>Specifies the settings for output directory. </p>
+  summary: "<p>Specifies the settings for output directory. </p>"
   syntax:
     content: public interface OutputDirectorySettings extends Indexable,HasParent<BatchAIJob>,HasInner<OutputDirectory>
 - uid: com.microsoft.azure.management.batchai.OutputFile
@@ -988,7 +988,7 @@ references:
   nameWithType: OutputFile
   fullName: com.microsoft.azure.management.batchai.OutputFile
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI output file. </p>
+  summary: "<p>An immutable client-side representation of Batch AI output file. </p>"
   syntax:
     content: public interface OutputFile extends Indexable,HasInner<FileInner>,HasName
 - uid: com.microsoft.azure.management.batchai.PerformanceCountersSettings
@@ -998,7 +998,7 @@ references:
   nameWithType: PerformanceCountersSettings
   fullName: com.microsoft.azure.management.batchai.PerformanceCountersSettings
   type: Class
-  summary: <p>Performance counters reporting settings. </p>
+  summary: "<p>Performance counters reporting settings. </p>"
   syntax:
     content: public class PerformanceCountersSettings
 - uid: com.microsoft.azure.management.batchai.PrivateRegistryCredentials
@@ -1008,7 +1008,7 @@ references:
   nameWithType: PrivateRegistryCredentials
   fullName: com.microsoft.azure.management.batchai.PrivateRegistryCredentials
   type: Class
-  summary: <p>Credentials to access a container image in a private repository. </p>
+  summary: "<p>Credentials to access a container image in a private repository. </p>"
   syntax:
     content: public class PrivateRegistryCredentials
 - uid: com.microsoft.azure.management.batchai.ProvisioningState
@@ -1018,7 +1018,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.batchai.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState
 - uid: com.microsoft.azure.management.batchai.PyTorchSettings
@@ -1028,7 +1028,7 @@ references:
   nameWithType: PyTorchSettings
   fullName: com.microsoft.azure.management.batchai.PyTorchSettings
   type: Class
-  summary: <p>pyTorch job settings. </p>
+  summary: "<p>pyTorch job settings. </p>"
   syntax:
     content: public class PyTorchSettings
 - uid: com.microsoft.azure.management.batchai.RemoteLoginInformation
@@ -1038,7 +1038,7 @@ references:
   nameWithType: RemoteLoginInformation
   fullName: com.microsoft.azure.management.batchai.RemoteLoginInformation
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>
+  summary: "<p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>"
   syntax:
     content: public interface RemoteLoginInformation extends Indexable,HasInner<RemoteLoginInformationInner>
 - uid: com.microsoft.azure.management.batchai.ResourceId
@@ -1048,7 +1048,7 @@ references:
   nameWithType: ResourceId
   fullName: com.microsoft.azure.management.batchai.ResourceId
   type: Class
-  summary: <p>Represents a resource ID. For example, for a subnet, it is the resource URL for the subnet. </p>
+  summary: "<p>Represents a resource ID. For example, for a subnet, it is the resource URL for the subnet. </p>"
   syntax:
     content: public class ResourceId
 - uid: com.microsoft.azure.management.batchai.ScaleSettings
@@ -1058,7 +1058,7 @@ references:
   nameWithType: ScaleSettings
   fullName: com.microsoft.azure.management.batchai.ScaleSettings
   type: Class
-  summary: <p>At least one of manual or autoScale settings must be specified. Only one of manual or autoScale settings can be specified. If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>
+  summary: "<p>At least one of manual or autoScale settings must be specified. Only one of manual or autoScale settings can be specified. If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>"
   syntax:
     content: public class ScaleSettings
 - uid: com.microsoft.azure.management.batchai.SetupTask
@@ -1068,7 +1068,7 @@ references:
   nameWithType: SetupTask
   fullName: com.microsoft.azure.management.batchai.SetupTask
   type: Class
-  summary: <p>Specifies a setup task which can be used to customize the compute nodes of the cluster. </p>
+  summary: "<p>Specifies a setup task which can be used to customize the compute nodes of the cluster. </p>"
   syntax:
     content: public class SetupTask
 - uid: com.microsoft.azure.management.batchai.SshConfiguration
@@ -1078,7 +1078,7 @@ references:
   nameWithType: SshConfiguration
   fullName: com.microsoft.azure.management.batchai.SshConfiguration
   type: Class
-  summary: <p>SSH configuration. </p>
+  summary: "<p>SSH configuration. </p>"
   syntax:
     content: public class SshConfiguration
 - uid: com.microsoft.azure.management.batchai.StorageAccountType
@@ -1088,7 +1088,7 @@ references:
   nameWithType: StorageAccountType
   fullName: com.microsoft.azure.management.batchai.StorageAccountType
   type: Class
-  summary: <p>Defines values for StorageAccountType. </p>
+  summary: "<p>Defines values for StorageAccountType. </p>"
   syntax:
     content: public class StorageAccountType
 - uid: com.microsoft.azure.management.batchai.TensorFlowSettings
@@ -1098,7 +1098,7 @@ references:
   nameWithType: TensorFlowSettings
   fullName: com.microsoft.azure.management.batchai.TensorFlowSettings
   type: Class
-  summary: <p>TensorFlow job settings. </p>
+  summary: "<p>TensorFlow job settings. </p>"
   syntax:
     content: public class TensorFlowSettings
 - uid: com.microsoft.azure.management.batchai.ToolType
@@ -1108,7 +1108,7 @@ references:
   nameWithType: ToolType
   fullName: com.microsoft.azure.management.batchai.ToolType
   type: Class
-  summary: <p>Defines values for ToolType. </p>
+  summary: "<p>Defines values for ToolType. </p>"
   syntax:
     content: public class ToolType
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings
@@ -1118,7 +1118,7 @@ references:
   nameWithType: ToolTypeSettings
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings
   type: Interface
-  summary: <p>Contains configuration definitions for different tool types. </p>
+  summary: "<p>Contains configuration definitions for different tool types. </p>"
   syntax:
     content: public interface ToolTypeSettings
 - uid: com.microsoft.azure.management.batchai.UnmanagedFileSystemReference
@@ -1128,7 +1128,7 @@ references:
   nameWithType: UnmanagedFileSystemReference
   fullName: com.microsoft.azure.management.batchai.UnmanagedFileSystemReference
   type: Class
-  summary: <p>Unmananged file system mounting configuration. </p>
+  summary: "<p>Unmananged file system mounting configuration. </p>"
   syntax:
     content: public class UnmanagedFileSystemReference
 - uid: com.microsoft.azure.management.batchai.UsageName
@@ -1138,7 +1138,7 @@ references:
   nameWithType: UsageName
   fullName: com.microsoft.azure.management.batchai.UsageName
   type: Class
-  summary: <p>The Usage Names. </p>
+  summary: "<p>The Usage Names. </p>"
   syntax:
     content: public class UsageName
 - uid: com.microsoft.azure.management.batchai.UsageUnit
@@ -1148,7 +1148,7 @@ references:
   nameWithType: UsageUnit
   fullName: com.microsoft.azure.management.batchai.UsageUnit
   type: Class
-  summary: <p>Defines values for UsageUnit. </p>
+  summary: "<p>Defines values for UsageUnit. </p>"
   syntax:
     content: public class UsageUnit
 - uid: com.microsoft.azure.management.batchai.UserAccountSettings
@@ -1158,7 +1158,7 @@ references:
   nameWithType: UserAccountSettings
   fullName: com.microsoft.azure.management.batchai.UserAccountSettings
   type: Class
-  summary: <p>Settings for user account that gets created on each on the nodes of a cluster. </p>
+  summary: "<p>Settings for user account that gets created on each on the nodes of a cluster. </p>"
   syntax:
     content: public class UserAccountSettings
 - uid: com.microsoft.azure.management.batchai.VirtualMachineConfiguration
@@ -1168,7 +1168,7 @@ references:
   nameWithType: VirtualMachineConfiguration
   fullName: com.microsoft.azure.management.batchai.VirtualMachineConfiguration
   type: Class
-  summary: <p>VM configuration. </p>
+  summary: "<p>VM configuration. </p>"
   syntax:
     content: public class VirtualMachineConfiguration
 - uid: com.microsoft.azure.management.batchai.VmPriority
@@ -1178,7 +1178,7 @@ references:
   nameWithType: VmPriority
   fullName: com.microsoft.azure.management.batchai.VmPriority
   type: Enum
-  summary: <p>Defines values for VmPriority. </p>
+  summary: "<p>Defines values for VmPriority. </p>"
   syntax:
     content: public enum VmPriority
 - uid: com.microsoft.azure.management.batchai.WorkspaceCreateParameters
@@ -1188,7 +1188,7 @@ references:
   nameWithType: WorkspaceCreateParameters
   fullName: com.microsoft.azure.management.batchai.WorkspaceCreateParameters
   type: Class
-  summary: <p>Workspace creation parameters. </p>
+  summary: "<p>Workspace creation parameters. </p>"
   syntax:
     content: public class WorkspaceCreateParameters
 - uid: com.microsoft.azure.management.batchai.WorkspacesListByResourceGroupOptions
@@ -1198,7 +1198,7 @@ references:
   nameWithType: WorkspacesListByResourceGroupOptions
   fullName: com.microsoft.azure.management.batchai.WorkspacesListByResourceGroupOptions
   type: Class
-  summary: <p>Additional parameters for listByResourceGroup operation. </p>
+  summary: "<p>Additional parameters for listByResourceGroup operation. </p>"
   syntax:
     content: public class WorkspacesListByResourceGroupOptions
 - uid: com.microsoft.azure.management.batchai.WorkspacesListOptions
@@ -1208,7 +1208,7 @@ references:
   nameWithType: WorkspacesListOptions
   fullName: com.microsoft.azure.management.batchai.WorkspacesListOptions
   type: Class
-  summary: <p>Additional parameters for list operation. </p>
+  summary: "<p>Additional parameters for list operation. </p>"
   syntax:
     content: public class WorkspacesListOptions
 - uid: com.microsoft.azure.management.batchai.WorkspaceUpdateParameters
@@ -1218,7 +1218,7 @@ references:
   nameWithType: WorkspaceUpdateParameters
   fullName: com.microsoft.azure.management.batchai.WorkspaceUpdateParameters
   type: Class
-  summary: <p>Workspace update parameters. </p>
+  summary: "<p>Workspace update parameters. </p>"
   syntax:
     content: public class WorkspaceUpdateParameters
 - uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.Blank
@@ -1252,7 +1252,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a Batch AI cluster definition. </p>
+  summary: "<p>The first stage of a Batch AI cluster definition. </p>"
   syntax:
     content: public interface Blank extends BatchAICluster.DefinitionStages.WithVMSize
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.Blank
@@ -1262,7 +1262,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a Batch AI file server definition. </p>
+  summary: "<p>The first stage of a Batch AI file server definition. </p>"
   syntax:
     content: public interface Blank extends BatchAIFileServer.DefinitionStages.WithDataDisks
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.Blank
@@ -1272,7 +1272,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of Batch AI job definition. </p>
+  summary: "<p>The first stage of Batch AI job definition. </p>"
   syntax:
     content: public interface Blank extends BatchAIJob.DefinitionStages.WithCluster
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.Blank
@@ -1282,7 +1282,7 @@ references:
   nameWithType: BatchAIWorkspace.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a Workspace definition. </p>
+  summary: "<p>The first stage of a Workspace definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.Blank
@@ -1292,10 +1292,7 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the output directory settings definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the output directory settings definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1321,7 +1318,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the node setup definition. </p>
+  summary: "<p>The first stage of the node setup definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends NodeSetupTask.DefinitionStages.WithCommandLine<ParentT>
     typeParameters:
@@ -1335,7 +1332,7 @@ references:
   nameWithType: OutputDirectorySettings.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the output directory settings definition. </p>
+  summary: "<p>The first stage of the output directory settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends OutputDirectorySettings.DefinitionStages.WithPathPrefix<ParentT>
     typeParameters:
@@ -1349,7 +1346,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the Microsoft Cognitive Toolkit settings definition. </p>
+  summary: "<p>The first stage of the Microsoft Cognitive Toolkit settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithLanguageType<ParentT>
     typeParameters:
@@ -1363,7 +1360,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the TensorFlow settings definition. </p>
+  summary: "<p>The first stage of the TensorFlow settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.TensorFlow.DefinitionStages.WithPython<ParentT>
     typeParameters:
@@ -1377,7 +1374,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the Caffe settings definition. </p>
+  summary: "<p>The first stage of the Caffe settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.Caffe.DefinitionStages.WithFileType<ParentT>
     typeParameters:
@@ -1391,23 +1388,9 @@ references:
   nameWithType: ToolTypeSettings.Caffe2.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the Caffe2 settings definition. </p>
+  summary: "<p>The first stage of the Caffe2 settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.Caffe2.DefinitionStages.WithPython<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.Blank
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.Blank.yml
-  name: ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>
-  nameWithType: ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>
-  type: Interface
-  summary: <p>The first stage of the Chainer settings definition. </p>
-  syntax:
-    content: public interface Blank<ParentT> extends ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -1419,23 +1402,23 @@ references:
   nameWithType: ToolTypeSettings.PyTorch.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the PyTorch settings definition. </p>
+  summary: "<p>The first stage of the PyTorch settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.PyTorch.DefinitionStages.WithPython<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.Blank
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.Blank
   parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.Blank.yml
-  name: ToolTypeSettings.CustomMpi.DefinitionStages.Blank<ParentT>
-  nameWithType: ToolTypeSettings.CustomMpi.DefinitionStages.Blank<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.Blank<ParentT>
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.Blank.yml
+  name: ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>
+  nameWithType: ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the custom MPI job settings definition. </p>
+  summary: "<p>The first stage of the Chainer settings definition. </p>"
   syntax:
-    content: public interface Blank<ParentT> extends ToolTypeSettings.CustomMpi.DefinitionStages.WithCommandLine<ParentT>
+    content: public interface Blank<ParentT> extends ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -1447,9 +1430,23 @@ references:
   nameWithType: ToolTypeSettings.Horovod.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the Horovode job settings definition. </p>
+  summary: "<p>The first stage of the Horovode job settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.Horovod.DefinitionStages.WithPython<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.Blank
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.Blank.yml
+  name: ToolTypeSettings.CustomMpi.DefinitionStages.Blank<ParentT>
+  nameWithType: ToolTypeSettings.CustomMpi.DefinitionStages.Blank<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.Blank<ParentT>
+  type: Interface
+  summary: "<p>The first stage of the custom MPI job settings definition. </p>"
+  syntax:
+    content: public interface Blank<ParentT> extends ToolTypeSettings.CustomMpi.DefinitionStages.WithCommandLine<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -1461,7 +1458,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the custom toolkit job settings definition. </p>
+  summary: "<p>The first stage of the custom toolkit job settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.CustomToolkit.DefinitionStages.WithCommandLine<ParentT>
     typeParameters:
@@ -1475,7 +1472,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe
   type: Interface
-  summary: <p>Specifies the settings for Caffe job. </p>
+  summary: "<p>Specifies the settings for Caffe job. </p>"
   syntax:
     content: public interface Caffe extends Indexable,HasParent<BatchAIJob>,HasInner<CaffeSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2
@@ -1485,7 +1482,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe2
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2
   type: Interface
-  summary: <p>Specifies the settings for Caffe2 job. </p>
+  summary: "<p>Specifies the settings for Caffe2 job. </p>"
   syntax:
     content: public interface Caffe2 extends Indexable,HasParent<BatchAIJob>,HasInner<Caffe2Settings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer
@@ -1495,7 +1492,7 @@ references:
   nameWithType: ToolTypeSettings.Chainer
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer
   type: Interface
-  summary: <p>Specifies the settings for Chainer job. </p>
+  summary: "<p>Specifies the settings for Chainer job. </p>"
   syntax:
     content: public interface Chainer extends Indexable,HasParent<BatchAIJob>,HasInner<ChainerSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit
@@ -1505,7 +1502,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit
   type: Interface
-  summary: <p>Client-side representation for Microsoft Cognitive Toolkit settings. </p>
+  summary: "<p>Client-side representation for Microsoft Cognitive Toolkit settings. </p>"
   syntax:
     content: public interface CognitiveToolkit extends Indexable,HasParent<BatchAIJob>,HasInner<CNTKsettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi
@@ -1515,7 +1512,7 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi
   type: Interface
-  summary: <p>Client-side representation for the settings for a custom MPI job. </p>
+  summary: "<p>Client-side representation for the settings for a custom MPI job. </p>"
   syntax:
     content: public interface CustomMpi extends Indexable,HasParent<BatchAIJob>,HasInner<CustomMpiSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit
@@ -1525,7 +1522,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit
   type: Interface
-  summary: <p>Client-side representation for the settings for a custom toolkit job. </p>
+  summary: "<p>Client-side representation for the settings for a custom toolkit job. </p>"
   syntax:
     content: public interface CustomToolkit extends Indexable,HasParent<BatchAIJob>,HasInner<CustomToolkitSettings>
 - uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem.Definition
@@ -1535,10 +1532,7 @@ references:
   nameWithType: AzureBlobFileSystem.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of azure blob file system reference.</p>
-
-    <p></p>
+  summary: "<p>Definition of azure blob file system reference.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends AzureBlobFileSystem.DefinitionStages.Blank<ParentT>,AzureBlobFileSystem.DefinitionStages.WithStorageContainerName<ParentT>,AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>,AzureBlobFileSystem.DefinitionStages.WithAzureStorageCredentials<ParentT>,AzureBlobFileSystem.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1552,10 +1546,7 @@ references:
   nameWithType: AzureFileShare.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.AzureFileShare.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of azure file share reference.</p>
-
-    <p></p>
+  summary: "<p>Definition of azure file share reference.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends AzureFileShare.DefinitionStages.Blank<ParentT>,AzureFileShare.DefinitionStages.WithAzureFileUrl<ParentT>,AzureFileShare.DefinitionStages.WithRelativeMountPath<ParentT>,AzureFileShare.DefinitionStages.WithAzureStorageCredentials<ParentT>,AzureFileShare.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1569,7 +1560,7 @@ references:
   nameWithType: BatchAICluster.Definition
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.Definition
   type: Interface
-  summary: <p>The entirety of a Batch AI cluster definition. </p>
+  summary: "<p>The entirety of a Batch AI cluster definition. </p>"
   syntax:
     content: public interface Definition extends BatchAICluster.DefinitionStages.Blank,BatchAICluster.DefinitionStages.WithUserName,BatchAICluster.DefinitionStages.WithUserCredentials,BatchAICluster.DefinitionStages.WithScaleSettings,BatchAICluster.DefinitionStages.WithAppInsightsKey,BatchAICluster.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment.Definition
@@ -1579,7 +1570,7 @@ references:
   nameWithType: BatchAIExperiment.Definition
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment.Definition
   type: Interface
-  summary: <p>The entirety of a Batch AI experiment definition. </p>
+  summary: "<p>The entirety of a Batch AI experiment definition. </p>"
   syntax:
     content: public interface Definition extends BatchAIExperiment.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.Definition
@@ -1589,7 +1580,7 @@ references:
   nameWithType: BatchAIFileServer.Definition
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.Definition
   type: Interface
-  summary: <p>The entirety of a Batch AI file server definition. </p>
+  summary: "<p>The entirety of a Batch AI file server definition. </p>"
   syntax:
     content: public interface Definition extends BatchAIFileServer.DefinitionStages.Blank,BatchAIFileServer.DefinitionStages.WithVMSize,BatchAIFileServer.DefinitionStages.WithUserName,BatchAIFileServer.DefinitionStages.WithUserCredentials,BatchAIFileServer.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.Definition
@@ -1599,7 +1590,7 @@ references:
   nameWithType: BatchAIJob.Definition
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.Definition
   type: Interface
-  summary: <p>The entirety of the Batch AI job definition. </p>
+  summary: "<p>The entirety of the Batch AI job definition. </p>"
   syntax:
     content: public interface Definition extends BatchAIJob.DefinitionStages.Blank,BatchAIJob.DefinitionStages.WithStdOutErrPathPrefix,BatchAIJob.DefinitionStages.WithNodeCount,BatchAIJob.DefinitionStages.WithToolType,BatchAIJob.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspace.Definition
@@ -1609,7 +1600,7 @@ references:
   nameWithType: BatchAIWorkspace.Definition
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace.Definition
   type: Interface
-  summary: <p>The entirety of the Workspace definition. </p>
+  summary: "<p>The entirety of the Workspace definition. </p>"
   syntax:
     content: public interface Definition extends BatchAIWorkspace.DefinitionStages.Blank,BatchAIWorkspace.DefinitionStages.WithGroup,BatchAIWorkspace.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.batchai.ContainerImageSettings.Definition
@@ -1619,10 +1610,7 @@ references:
   nameWithType: ContainerImageSettings.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of ContainerImage settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of ContainerImage settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ContainerImageSettings.DefinitionStages.Blank<ParentT>,ContainerImageSettings.DefinitionStages.WithRegistryCredentials<ParentT>,ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1636,10 +1624,7 @@ references:
   nameWithType: FileServer.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.FileServer.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of file server reference.</p>
-
-    <p></p>
+  summary: "<p>Definition of file server reference.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends FileServer.DefinitionStages.Blank<ParentT>,FileServer.DefinitionStages.WithRelativeMountPath<ParentT>,FileServer.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1653,7 +1638,7 @@ references:
   nameWithType: NodeSetupTask.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a setup task definition. </p>
+  summary: "<p>The entirety of a setup task definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends NodeSetupTask.DefinitionStages.Blank<ParentT>,NodeSetupTask.DefinitionStages.WithStdOutErrPath<ParentT>,NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>,NodeSetupTask.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1667,10 +1652,7 @@ references:
   nameWithType: OutputDirectorySettings.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of output directory settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of output directory settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends OutputDirectorySettings.DefinitionStages.Blank<ParentT>,OutputDirectorySettings.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1684,10 +1666,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of azure cognitive toolkit settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of azure cognitive toolkit settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.CognitiveToolkit.DefinitionStages.Blank<ParentT>,ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
     typeParameters:
@@ -1701,10 +1680,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of TensorFlow job settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of TensorFlow job settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.TensorFlow.DefinitionStages.Blank<ParentT>,ToolTypeSettings.TensorFlow.DefinitionStages.WithMasterCommandLineArgs<ParentT>,ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1718,10 +1694,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of Caffe settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of Caffe settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.Caffe.DefinitionStages.Blank<ParentT>,ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
     typeParameters:
@@ -1735,10 +1708,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe2.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of Caffe2 settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of Caffe2 settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.Caffe2.DefinitionStages.Blank<ParentT>,ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
     typeParameters:
@@ -1752,10 +1722,7 @@ references:
   nameWithType: ToolTypeSettings.Chainer.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of Chainer settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of Chainer settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.Chainer.DefinitionStages.Blank<ParentT>,ToolTypeSettings.Chainer.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
     typeParameters:
@@ -1769,10 +1736,7 @@ references:
   nameWithType: ToolTypeSettings.PyTorch.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of PyTorch toolkit settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of PyTorch toolkit settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.PyTorch.DefinitionStages.Blank<ParentT>,ToolTypeSettings.PyTorch.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1786,10 +1750,7 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of the settings for a custom MPI job.</p>
-
-    <p></p>
+  summary: "<p>Definition of the settings for a custom MPI job.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.CustomMpi.DefinitionStages.Blank<ParentT>,ToolTypeSettings.CustomMpi.DefinitionStages.WithAttachAndProcessCount<ParentT>
     typeParameters:
@@ -1803,10 +1764,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of the settings for Horovod job.</p>
-
-    <p></p>
+  summary: "<p>Definition of the settings for Horovod job.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.Horovod.DefinitionStages.Blank<ParentT>,ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1820,10 +1778,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of the settings for a custom toolkit job.</p>
-
-    <p></p>
+  summary: "<p>Definition of the settings for a custom toolkit job.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends ToolTypeSettings.CustomToolkit.DefinitionStages.Blank<ParentT>,ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1837,7 +1792,7 @@ references:
   nameWithType: AzureBlobFileSystem.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for azure blob file system reference. </p>
+  summary: "<p>Definition stages for azure blob file system reference. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages
@@ -1847,7 +1802,7 @@ references:
   nameWithType: AzureFileShare.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for azure file share reference. </p>
+  summary: "<p>Definition stages for azure file share reference. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages
@@ -1857,7 +1812,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages
   type: Interface
-  summary: <p>Grouping of Batch AI cluster definition stages. </p>
+  summary: "<p>Grouping of Batch AI cluster definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment.DefinitionStages
@@ -1867,7 +1822,7 @@ references:
   nameWithType: BatchAIExperiment.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment.DefinitionStages
   type: Interface
-  summary: <p>Grouping of Batch AI experiment definition stages. </p>
+  summary: "<p>Grouping of Batch AI experiment definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages
@@ -1877,7 +1832,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages
   type: Interface
-  summary: <p>Grouping of Batch AI file server definition stages. </p>
+  summary: "<p>Grouping of Batch AI file server definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages
@@ -1887,7 +1842,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages
   type: Interface
-  summary: <p>Grouping of Batch AI job definition stages. </p>
+  summary: "<p>Grouping of Batch AI job definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages
@@ -1897,7 +1852,7 @@ references:
   nameWithType: BatchAIWorkspace.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages
   type: Interface
-  summary: <p>Grouping of Workspace definition stages. </p>
+  summary: "<p>Grouping of Workspace definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages
@@ -1907,7 +1862,7 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for container image settings. </p>
+  summary: "<p>Definition stages for container image settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.FileServer.DefinitionStages
@@ -1917,7 +1872,7 @@ references:
   nameWithType: FileServer.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.FileServer.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for azure blob file system reference. </p>
+  summary: "<p>Definition stages for azure blob file system reference. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages
@@ -1927,7 +1882,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages
   type: Interface
-  summary: <p>Grouping of node setup definition stages. </p>
+  summary: "<p>Grouping of node setup definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages
@@ -1937,7 +1892,7 @@ references:
   nameWithType: OutputDirectorySettings.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for OutputDirectory settings. </p>
+  summary: "<p>Definition stages for OutputDirectory settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages
@@ -1947,7 +1902,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for azure cognitive toolkit settings. </p>
+  summary: "<p>Definition stages for azure cognitive toolkit settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages
@@ -1957,7 +1912,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for TensorFlow job settings. </p>
+  summary: "<p>Definition stages for TensorFlow job settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages
@@ -1967,7 +1922,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for Caffe settings. </p>
+  summary: "<p>Definition stages for Caffe settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages
@@ -1977,7 +1932,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe2.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for Caffe2 settings. </p>
+  summary: "<p>Definition stages for Caffe2 settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages
@@ -1987,7 +1942,7 @@ references:
   nameWithType: ToolTypeSettings.Chainer.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for Chainer job settings. </p>
+  summary: "<p>Definition stages for Chainer job settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch.DefinitionStages
@@ -1997,7 +1952,7 @@ references:
   nameWithType: ToolTypeSettings.PyTorch.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for PyTorch toolkit settings. </p>
+  summary: "<p>Definition stages for PyTorch toolkit settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages
@@ -2007,7 +1962,7 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for a custom MPI job. </p>
+  summary: "<p>Definition stages for a custom MPI job. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages
@@ -2017,7 +1972,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for the Horovod job settings. </p>
+  summary: "<p>Definition stages for the Horovod job settings. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages
@@ -2027,7 +1982,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages
   type: Interface
-  summary: <p>Definition stages for a custom toolkit job. </p>
+  summary: "<p>Definition stages for a custom toolkit job. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages
@@ -2037,7 +1992,7 @@ references:
   nameWithType: ToolTypeSettings.DefinitionStages
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages
   type: Interface
-  summary: <p>Common definition stages. </p>
+  summary: "<p>Common definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod
@@ -2047,7 +2002,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod
   type: Interface
-  summary: <p>Client-side representation for Horovod job settings. </p>
+  summary: "<p>Client-side representation for Horovod job settings. </p>"
   syntax:
     content: public interface Horovod extends Indexable,HasParent<BatchAIJob>,HasInner<HorovodSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch
@@ -2057,7 +2012,7 @@ references:
   nameWithType: ToolTypeSettings.PyTorch
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch
   type: Interface
-  summary: <p>Client-side representation for PyTorch toolkit settings. </p>
+  summary: "<p>Client-side representation for PyTorch toolkit settings. </p>"
   syntax:
     content: public interface PyTorch extends Indexable,HasParent<BatchAIJob>,HasInner<PyTorchSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow
@@ -2067,7 +2022,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow
   type: Interface
-  summary: <p>Specifies the settings for TensorFlow job. </p>
+  summary: "<p>Specifies the settings for TensorFlow job. </p>"
   syntax:
     content: public interface TensorFlow extends Indexable,HasParent<BatchAIJob>,HasInner<TensorFlowSettings>
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.Update
@@ -2077,7 +2032,7 @@ references:
   nameWithType: BatchAICluster.Update
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<BatchAICluster>,BatchAICluster.UpdateStages.WithScaleSettings
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspace.Update
@@ -2087,7 +2042,7 @@ references:
   nameWithType: BatchAIWorkspace.Update
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace.Update
   type: Interface
-  summary: <p>The template for a Workspace update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a Workspace update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<BatchAIWorkspace>,Resource.UpdateWithTags<Update>
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages
@@ -2097,7 +2052,7 @@ references:
   nameWithType: BatchAICluster.UpdateStages
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages
   type: Interface
-  summary: <p>Grouping of Batch AI cluster update stages. </p>
+  summary: "<p>Grouping of Batch AI cluster update stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithAppInsightsKey
@@ -2116,9 +2071,23 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithAppInsightsResourceId
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithAppInsightsResourceId
   type: Interface
-  summary: <p>Specifies Azure Application Insights information for performance counters reporting. </p>
+  summary: "<p>Specifies Azure Application Insights information for performance counters reporting. </p>"
   syntax:
     content: public interface WithAppInsightsResourceId
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttach.yml
+  name: ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: "<p>The final stage of the Caffe settings definition. At this stage, any remaining optional settings can be specified, or the Caffe settings definition can be attached to the parent Batch AI job definition. </p>"
+  syntax:
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach.yml
@@ -2126,26 +2095,9 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the TensorFlow settings definition. At this stage, any remaining optional settings can be specified, or the TensorFlow settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the TensorFlow settings definition. At this stage, any remaining optional settings can be specified, or the TensorFlow settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach.yml
-  name: ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
-  nameWithType: ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: >-
-    <p>The final stage of the output directory settings definition. At this stage, any remaining optional settings can be specified, or the output directory settings definition can be attached to the parent Batch AI job definition.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ContainerImageSettings.DefinitionStages.WithShmSize<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -2162,6 +2114,60 @@ references:
     typeParameters:
     - id: ParentT
       type: 18a275b1
+- uid: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach.yml
+  name: ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: "<p>The final stage of the output directory settings definition. At this stage, any remaining optional settings can be specified, or the output directory settings definition can be attached to the parent Batch AI job definition.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ContainerImageSettings.DefinitionStages.WithShmSize<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithAttach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithAttach.yml
+  name: OutputDirectorySettings.DefinitionStages.WithAttach<ParentT>
+  nameWithType: OutputDirectorySettings.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: "<p>The final stage of the output directory settings definition. At this stage, any remaining optional settings can be specified, or the output directory settings definition can be attached to the parent Batch AI job definition. </p>"
+  syntax:
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,OutputDirectorySettings.DefinitionStages.WithPathSuffix<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach.yml
+  name: ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: "<p>The final stage of the custom toolkit job settings definition. At this stage, any remaining optional settings can be specified, or the custom toolkit job settings definition can be attached to the parent Batch AI job definition. </p>"
+  syntax:
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai.FileServer.DefinitionStages.WithAttach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.FileServer.DefinitionStages.WithAttach.yml
+  name: FileServer.DefinitionStages.WithAttach<ParentT>
+  nameWithType: FileServer.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.FileServer.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,FileServer.DefinitionStages.WithSourceDirectory<ParentT>,FileServer.DefinitionStages.WithMountOptions<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.WithAttach
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.WithAttach.yml
@@ -2169,37 +2175,23 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the custom MPI job settings definition. At this stage, any remaining optional settings can be specified, or the custom MPI job settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the custom MPI job settings definition. At this stage, any remaining optional settings can be specified, or the custom MPI job settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttach
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach
   parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttach.yml
-  name: ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
-  nameWithType: ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach.yml
+  name: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the Caffe2 settings definition. At this stage, any remaining optional settings can be specified, or the Caffe2 settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the Microsoft Cognitive Toolkit settings definition. At this stage, any remaining optional settings can be specified, or the Microsoft Cognitive Toolkit settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithAttach
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithAttach.yml
-  name: ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
-  nameWithType: ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: <p>The final stage of the Horovod job settings definition. At this stage, any remaining optional settings can be specified, or the Horovod job settings definition can be attached to the parent Batch AI job definition. </p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -2223,7 +2215,7 @@ references:
   nameWithType: ToolTypeSettings.PyTorch.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the PyTorch Toolkit settings definition. At this stage, any remaining optional settings can be specified, or the PyTorch Toolkit settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the PyTorch Toolkit settings definition. At this stage, any remaining optional settings can be specified, or the PyTorch Toolkit settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
     typeParameters:
@@ -2237,63 +2229,23 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the setup task definition. At this stage, any remaining optional settings can be specified, or the setup task definition can be attached to the parent cluster definition. </p>
+  summary: "<p>The final stage of the setup task definition. At this stage, any remaining optional settings can be specified, or the setup task definition can be attached to the parent cluster definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>,NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithAttach
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttach
   parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithAttach.yml
-  name: OutputDirectorySettings.DefinitionStages.WithAttach<ParentT>
-  nameWithType: OutputDirectorySettings.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithAttach<ParentT>
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttach.yml
+  name: ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the output directory settings definition. At this stage, any remaining optional settings can be specified, or the output directory settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the Caffe2 settings definition. At this stage, any remaining optional settings can be specified, or the Caffe2 settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,OutputDirectorySettings.DefinitionStages.WithPathSuffix<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttach
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttach.yml
-  name: ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
-  nameWithType: ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: <p>The final stage of the Caffe settings definition. At this stage, any remaining optional settings can be specified, or the Caffe settings definition can be attached to the parent Batch AI job definition. </p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.FileServer.DefinitionStages.WithAttach
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.FileServer.DefinitionStages.WithAttach.yml
-  name: FileServer.DefinitionStages.WithAttach<ParentT>
-  nameWithType: FileServer.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.FileServer.DefinitionStages.WithAttach<ParentT>
-  type: Interface
-  syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,FileServer.DefinitionStages.WithSourceDirectory<ParentT>,FileServer.DefinitionStages.WithMountOptions<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach.yml
-  name: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
-  nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: <p>The final stage of the Microsoft Cognitive Toolkit settings definition. At this stage, any remaining optional settings can be specified, or the Microsoft Cognitive Toolkit settings definition can be attached to the parent Batch AI job definition. </p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -2305,23 +2257,23 @@ references:
   nameWithType: ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the Chainer settings definition. At this stage, any remaining optional settings can be specified, or the Chainer settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the Chainer settings definition. At this stage, any remaining optional settings can be specified, or the Chainer settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithAttach
   parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach.yml
-  name: ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
-  nameWithType: ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithAttach.yml
+  name: ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the custom toolkit job settings definition. At this stage, any remaining optional settings can be specified, or the custom toolkit job settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the Horovod job settings definition. At this stage, any remaining optional settings can be specified, or the Horovod job settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
-    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition
+    content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -2333,22 +2285,22 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi.DefinitionStages.WithAttachAndProcessCount<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.WithAttachAndProcessCount<ParentT>
   type: Interface
-  summary: <p>At this stage, any process count settings can be specified, or the custom MPI job settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>At this stage, any process count settings can be specified, or the custom MPI job settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttachAndProcessCount<ParentT> extends ToolTypeSettings.CustomMpi.DefinitionStages.WithAttach<ParentT>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter
   parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter.yml
-  name: ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
-  nameWithType: ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter.yml
+  name: ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
+  nameWithType: ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
   type: Interface
   syntax:
-    content: public interface WithAttachAndPythonInterpreter<ParentT> extends ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>
+    content: public interface WithAttachAndPythonInterpreter<ParentT> extends ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -2364,18 +2316,6 @@ references:
     typeParameters:
     - id: ParentT
       type: 18a275b1
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter.yml
-  name: ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
-  nameWithType: ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
-  type: Interface
-  syntax:
-    content: public interface WithAttachAndPythonInterpreter<ParentT> extends ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithAttachAndPythonInterpreter
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithAttachAndPythonInterpreter.yml
@@ -2385,6 +2325,18 @@ references:
   type: Interface
   syntax:
     content: public interface WithAttachAndPythonInterpreter<ParentT> extends ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter.yml
+  name: ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
+  nameWithType: ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttachAndPythonInterpreter<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithAttachAndPythonInterpreter<ParentT> extends ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -2431,7 +2383,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithCluster
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithCluster
   type: Interface
-  summary: <p>The stage of the Batch AI job definition allowing to specify cluster for the job. </p>
+  summary: "<p>The stage of the Batch AI job definition allowing to specify cluster for the job. </p>"
   syntax:
     content: public interface WithCluster
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.WithCommandLine
@@ -2441,7 +2393,7 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi.DefinitionStages.WithCommandLine<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi.DefinitionStages.WithCommandLine<ParentT>
   type: Interface
-  summary: <p>Specifies the program and program command line parameters to be executed by mpi runtime. </p>
+  summary: "<p>Specifies the program and program command line parameters to be executed by mpi runtime. </p>"
   syntax:
     content: public interface WithCommandLine<ParentT>
     typeParameters:
@@ -2455,7 +2407,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithCommandLine<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithCommandLine<ParentT>
   type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify the command line instructions. </p>
+  summary: "<p>The stage of the setup task definition allowing to specify the command line instructions. </p>"
   syntax:
     content: public interface WithCommandLine<ParentT>
     typeParameters:
@@ -2469,7 +2421,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit.DefinitionStages.WithCommandLine<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithCommandLine<ParentT>
   type: Interface
-  summary: <p>Specifies the command line to execute the custom toolkit Job. </p>
+  summary: "<p>Specifies the command line to execute the custom toolkit Job. </p>"
   syntax:
     content: public interface WithCommandLine<ParentT>
     typeParameters:
@@ -2483,7 +2435,7 @@ references:
   nameWithType: ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>
   type: Interface
-  summary: <p>Specifies command line arguments for the job. </p>
+  summary: "<p>Specifies command line arguments for the job. </p>"
   syntax:
     content: public interface WithCommandLineArgs<ReturnT>
     typeParameters:
@@ -2497,29 +2449,9 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithContainerSettings
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithContainerSettings
   type: Interface
-  summary: <p>Specifies details of the container registry and image such as name, URL and credentials. </p>
+  summary: "<p>Specifies details of the container registry and image such as name, URL and credentials. </p>"
   syntax:
     content: public interface WithContainerSettings
-- uid: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.WithCreate
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.WithCreate.yml
-  name: BatchAIWorkspace.DefinitionStages.WithCreate
-  nameWithType: BatchAIWorkspace.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable<BatchAIWorkspace>,Resource.DefinitionWithTags<WithCreate>
-- uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithCreate
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithCreate.yml
-  name: BatchAIJob.DefinitionStages.WithCreate
-  nameWithType: BatchAIJob.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>The stage of a virtual network gateway connection definition with sufficient inputs to create a new connection in the cloud, but exposing additional optional settings to specify. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable<BatchAIJob>,BatchAIJob.DefinitionStages.WithJobPreparation,BatchAIJob.DefinitionStages.WithInputDirectory,BatchAIJob.DefinitionStages.WithOutputDirectory,BatchAIJob.DefinitionStages.WithContainerSettings,BatchAIJob.DefinitionStages.WithEnvironmentVariable,BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue,HasMountVolumes.DefinitionStages.WithMountVolumes<WithCreate>
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment.DefinitionStages.WithCreate
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAIExperiment.DefinitionStages.WithCreate.yml
@@ -2527,7 +2459,7 @@ references:
   nameWithType: BatchAIExperiment.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithCreate
@@ -2537,9 +2469,19 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<BatchAIFileServer>,BatchAIFileServer.DefinitionStages.WithUserCredentials,BatchAIFileServer.DefinitionStages.WithSubnet
+- uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithCreate
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithCreate.yml
+  name: BatchAIJob.DefinitionStages.WithCreate
+  nameWithType: BatchAIJob.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithCreate
+  type: Interface
+  summary: "<p>The stage of a virtual network gateway connection definition with sufficient inputs to create a new connection in the cloud, but exposing additional optional settings to specify. </p>"
+  syntax:
+    content: public interface WithCreate extends Creatable<BatchAIJob>,BatchAIJob.DefinitionStages.WithJobPreparation,BatchAIJob.DefinitionStages.WithInputDirectory,BatchAIJob.DefinitionStages.WithOutputDirectory,BatchAIJob.DefinitionStages.WithContainerSettings,BatchAIJob.DefinitionStages.WithEnvironmentVariable,BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue,HasMountVolumes.DefinitionStages.WithMountVolumes<WithCreate>
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithCreate
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithCreate.yml
@@ -2547,9 +2489,19 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<BatchAICluster>,BatchAICluster.DefinitionStages.WithUserCredentials,BatchAICluster.DefinitionStages.WithVMPriority,BatchAICluster.DefinitionStages.WithSetupTask,HasMountVolumes.DefinitionStages.WithMountVolumes<WithCreate>,BatchAICluster.DefinitionStages.WithAppInsightsResourceId,BatchAICluster.DefinitionStages.WithVirtualMachineImage,BatchAICluster.DefinitionStages.WithSubnet
+- uid: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.WithCreate
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.WithCreate.yml
+  name: BatchAIWorkspace.DefinitionStages.WithCreate
+  nameWithType: BatchAIWorkspace.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.WithCreate
+  type: Interface
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
+  syntax:
+    content: public interface WithCreate extends Creatable<BatchAIWorkspace>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithDataDisks
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithDataDisks.yml
@@ -2557,7 +2509,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithDataDisks
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithDataDisks
   type: Interface
-  summary: <p>This stage of a Batch AI file server definition allows to specify data disks parameters. </p>
+  summary: "<p>This stage of a Batch AI file server definition allows to specify data disks parameters. </p>"
   syntax:
     content: public interface WithDataDisks
 - uid: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithDirectoryMode
@@ -2572,20 +2524,6 @@ references:
     typeParameters:
     - id: ParentT
       type: 18a275b1
-- uid: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable.yml
-  name: NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
-  nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
-  fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
-  type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify environment variables. </p>
-  syntax:
-    content: public interface WithEnvironmentVariable<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariable
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariable.yml
@@ -2593,9 +2531,23 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithEnvironmentVariable
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariable
   type: Interface
-  summary: <p>Allows to specify environment variables. </p>
+  summary: "<p>Allows to specify environment variables. </p>"
   syntax:
     content: public interface WithEnvironmentVariable
+- uid: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable.yml
+  name: NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
+  nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
+  fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariable<ParentT>
+  type: Interface
+  summary: "<p>The stage of the setup task definition allowing to specify environment variables. </p>"
+  syntax:
+    content: public interface WithEnvironmentVariable<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue.yml
@@ -2603,7 +2555,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue<ParentT>
   type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify environment variables with secrets. </p>
+  summary: "<p>The stage of the setup task definition allowing to specify environment variables with secrets. </p>"
   syntax:
     content: public interface WithEnvironmentVariableSecretValue<ParentT>
     typeParameters:
@@ -2617,7 +2569,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue
   type: Interface
-  summary: <p>The stage of the Batch AI job definition allowing to specify environment variables with secrets. </p>
+  summary: "<p>The stage of the Batch AI job definition allowing to specify environment variables with secrets. </p>"
   syntax:
     content: public interface WithEnvironmentVariableSecretValue
 - uid: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithFileMode
@@ -2651,7 +2603,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe.DefinitionStages.WithFileType<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithFileType<ParentT>
   type: Interface
-  summary: <p>Specifies the path and file name of the python script to execute the job or the path of the config file. </p>
+  summary: "<p>Specifies the path and file name of the python script to execute the job or the path of the config file. </p>"
   syntax:
     content: public interface WithFileType<ParentT>
     typeParameters:
@@ -2665,7 +2617,7 @@ references:
   nameWithType: BatchAIWorkspace.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspace.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the Workspace definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the Workspace definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithCreate>
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithInputDirectory
@@ -2684,7 +2636,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithJobPreparation
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithJobPreparation
   type: Interface
-  summary: <p>Specifies the command line to be executed before tool kit is launched. The specified actions will run on all the nodes that are part of the job. </p>
+  summary: "<p>Specifies the command line to be executed before tool kit is launched. The specified actions will run on all the nodes that are part of the job. </p>"
   syntax:
     content: public interface WithJobPreparation
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithLanguageType
@@ -2694,7 +2646,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithLanguageType<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithLanguageType<ParentT>
   type: Interface
-  summary: <p>Specifies the language type and script/config file path to use for Microsoft Cognitive Toolkit job. </p>
+  summary: "<p>Specifies the language type and script/config file path to use for Microsoft Cognitive Toolkit job. </p>"
   syntax:
     content: public interface WithLanguageType<ParentT>
     typeParameters:
@@ -2744,7 +2696,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithNodeCount
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithNodeCount
   type: Interface
-  summary: <p>The stage of the definition allowing to specify number of compute nodes to run the job on. The job will be gang scheduled on that many compute nodes. </p>
+  summary: "<p>The stage of the definition allowing to specify number of compute nodes to run the job on. The job will be gang scheduled on that many compute nodes. </p>"
   syntax:
     content: public interface WithNodeCount
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithOutputDirectory
@@ -2763,7 +2715,7 @@ references:
   nameWithType: OutputDirectorySettings.DefinitionStages.WithPathPrefix<ParentT>
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithPathPrefix<ParentT>
   type: Interface
-  summary: '<p>Specifies the prefix path where the output directory will be created. NOTE: This is an absolute path to prefix. E.g. $AZ_BATCHAI_MOUNT_ROOT/MyNFS/MyLogs. You can find the full path to the output directory by combining pathPrefix, jobOutputDirectoryPathSegment (reported by get job) and pathSuffix. </p>'
+  summary: "<p>Specifies the prefix path where the output directory will be created. NOTE: This is an absolute path to prefix. E.g. $AZ_BATCHAI_MOUNT_ROOT/MyNFS/MyLogs. You can find the full path to the output directory by combining pathPrefix, jobOutputDirectoryPathSegment (reported by get job) and pathSuffix. </p>"
   syntax:
     content: public interface WithPathPrefix<ParentT>
     typeParameters:
@@ -2777,7 +2729,7 @@ references:
   nameWithType: OutputDirectorySettings.DefinitionStages.WithPathSuffix<ParentT>
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings.DefinitionStages.WithPathSuffix<ParentT>
   type: Interface
-  summary: <p>Specifies the suffix path where the output directory will be created. E.g. models. You can find the full path to the output directory by combining pathPrefix, jobOutputDirectoryPathSegment (reported by get job) and pathSuffix. </p>
+  summary: "<p>Specifies the suffix path where the output directory will be created. E.g. models. You can find the full path to the output directory by combining pathPrefix, jobOutputDirectoryPathSegment (reported by get job) and pathSuffix. </p>"
   syntax:
     content: public interface WithPathSuffix<ParentT>
     typeParameters:
@@ -2791,7 +2743,7 @@ references:
   nameWithType: ToolTypeSettings.DefinitionStages.WithProcessCount<ReturnT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithProcessCount<ReturnT>
   type: Interface
-  summary: <p>Specifies number of processes parameter that is passed to MPI runtime. The default value for this property is equal to nodeCount property. </p>
+  summary: "<p>Specifies number of processes parameter that is passed to MPI runtime. The default value for this property is equal to nodeCount property. </p>"
   syntax:
     content: public interface WithProcessCount<ReturnT>
     typeParameters:
@@ -2805,35 +2757,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod.DefinitionStages.WithPython<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithPython<ParentT>
   type: Interface
-  summary: <p>Specifies python script file path to execute the job. </p>
-  syntax:
-    content: public interface WithPython<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithPython
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithPython.yml
-  name: ToolTypeSettings.TensorFlow.DefinitionStages.WithPython<ParentT>
-  nameWithType: ToolTypeSettings.TensorFlow.DefinitionStages.WithPython<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithPython<ParentT>
-  type: Interface
-  summary: <p>Specifies python script file path. </p>
-  syntax:
-    content: public interface WithPython<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython.yml
-  name: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
-  nameWithType: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
-  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
-  type: Interface
-  summary: <p>Specifies python script file path to execute the job. </p>
+  summary: "<p>Specifies python script file path to execute the job. </p>"
   syntax:
     content: public interface WithPython<ParentT>
     typeParameters:
@@ -2847,7 +2771,21 @@ references:
   nameWithType: ToolTypeSettings.Caffe2.DefinitionStages.WithPython<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithPython<ParentT>
   type: Interface
-  summary: <p>Specifies python script file path to execute the job. </p>
+  summary: "<p>Specifies python script file path to execute the job. </p>"
+  syntax:
+    content: public interface WithPython<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithPython
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithPython.yml
+  name: ToolTypeSettings.TensorFlow.DefinitionStages.WithPython<ParentT>
+  nameWithType: ToolTypeSettings.TensorFlow.DefinitionStages.WithPython<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithPython<ParentT>
+  type: Interface
+  summary: "<p>Specifies python script file path. </p>"
   syntax:
     content: public interface WithPython<ParentT>
     typeParameters:
@@ -2861,7 +2799,21 @@ references:
   nameWithType: ToolTypeSettings.PyTorch.DefinitionStages.WithPython<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch.DefinitionStages.WithPython<ParentT>
   type: Interface
-  summary: <p>Specifies python script file path to execute the job. </p>
+  summary: "<p>Specifies python script file path to execute the job. </p>"
+  syntax:
+    content: public interface WithPython<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython.yml
+  name: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
+  nameWithType: ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithPython<ParentT>
+  type: Interface
+  summary: "<p>Specifies python script file path to execute the job. </p>"
   syntax:
     content: public interface WithPython<ParentT>
     typeParameters:
@@ -2875,7 +2827,7 @@ references:
   nameWithType: ToolTypeSettings.DefinitionStages.WithPythonInterpreter<ReturnT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithPythonInterpreter<ReturnT>
   type: Interface
-  summary: <p>Specifies the path to python interpreter. </p>
+  summary: "<p>Specifies the path to python interpreter. </p>"
   syntax:
     content: public interface WithPythonInterpreter<ReturnT>
     typeParameters:
@@ -2889,13 +2841,25 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages.WithRegistryCredentials<ParentT>
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithRegistryCredentials<ParentT>
   type: Interface
-  summary: <p>Specifies container registry credentials. </p>
+  summary: "<p>Specifies container registry credentials. </p>"
   syntax:
     content: public interface WithRegistryCredentials<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath.yml
+  name: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
+  nameWithType: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
+  fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithRelativeMountPath<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
 - uid: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithRelativeMountPath
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithRelativeMountPath.yml
@@ -2920,18 +2884,16 @@ references:
     typeParameters:
     - id: ParentT
       type: 18a275b1
-- uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath
+- uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings
   parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath.yml
-  name: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
-  nameWithType: AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
-  fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithRelativeMountPath<ParentT>
+  href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings.yml
+  name: BatchAICluster.DefinitionStages.WithScaleSettings
+  nameWithType: BatchAICluster.DefinitionStages.WithScaleSettings
+  fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings
   type: Interface
+  summary: "<p>Specifies scale settings for the cluster. </p>"
   syntax:
-    content: public interface WithRelativeMountPath<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
+    content: public interface WithScaleSettings
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAICluster.UpdateStages.WithScaleSettings.yml
@@ -2941,16 +2903,6 @@ references:
   type: Interface
   syntax:
     content: public interface WithScaleSettings
-- uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings.yml
-  name: BatchAICluster.DefinitionStages.WithScaleSettings
-  nameWithType: BatchAICluster.DefinitionStages.WithScaleSettings
-  fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings
-  type: Interface
-  summary: <p>Specifies scale settings for the cluster. </p>
-  syntax:
-    content: public interface WithScaleSettings
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithSetupTask
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithSetupTask.yml
@@ -2958,7 +2910,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithSetupTask
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithSetupTask
   type: Interface
-  summary: '<p>Specifies a setup task which can be used to customize the compute nodes of the cluster. The task runs everytime a VM is rebooted. For that reason the task code needs to be idempotent. Generally it is used to either download static data that is required for all jobs that run on the cluster VMs or to download/install software. NOTE: The volumes specified in mountVolumes are mounted first and then the setupTask is run. Therefore the setup task can use local mountPaths in its execution. </p>'
+  summary: "<p>Specifies a setup task which can be used to customize the compute nodes of the cluster. The task runs everytime a VM is rebooted. For that reason the task code needs to be idempotent. Generally it is used to either download static data that is required for all jobs that run on the cluster VMs or to download/install software. NOTE: The volumes specified in mountVolumes are mounted first and then the setupTask is run. Therefore the setup task can use local mountPaths in its execution. </p>"
   syntax:
     content: public interface WithSetupTask
 - uid: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithShmSize
@@ -2968,7 +2920,7 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages.WithShmSize<ParentT>
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithShmSize<ParentT>
   type: Interface
-  summary: <p>Specifies size of /dev/shm. Please refer to docker documentation for supported argument formats. </p>
+  summary: "<p>Specifies size of /dev/shm. Please refer to docker documentation for supported argument formats. </p>"
   syntax:
     content: public interface WithShmSize<ParentT>
     typeParameters:
@@ -2994,7 +2946,7 @@ references:
   nameWithType: NodeSetupTask.DefinitionStages.WithStdOutErrPath<ParentT>
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithStdOutErrPath<ParentT>
   type: Interface
-  summary: <p>The stage of the setup task definition allowing to specify where Batch AI will upload stdout and stderr of the setup task. </p>
+  summary: "<p>The stage of the setup task definition allowing to specify where Batch AI will upload stdout and stderr of the setup task. </p>"
   syntax:
     content: public interface WithStdOutErrPath<ParentT>
     typeParameters:
@@ -3008,27 +2960,27 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithStdOutErrPathPrefix
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithStdOutErrPathPrefix
   type: Interface
-  summary: <p>The stage of the job definition allowing to specify where Batch AI will upload stdout and stderr of the job. </p>
+  summary: "<p>The stage of the job definition allowing to specify where Batch AI will upload stdout and stderr of the job. </p>"
   syntax:
     content: public interface WithStdOutErrPathPrefix
-- uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithStorageAccount
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithStorageAccount.yml
-  name: AzureBlobFileSystem.DefinitionStages.WithStorageAccount<ParentT>
-  nameWithType: AzureBlobFileSystem.DefinitionStages.WithStorageAccount<ParentT>
-  fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithStorageAccount<ParentT>
-  type: Interface
-  syntax:
-    content: public interface WithStorageAccount<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
 - uid: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithStorageAccount
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithStorageAccount.yml
   name: AzureFileShare.DefinitionStages.WithStorageAccount<ParentT>
   nameWithType: AzureFileShare.DefinitionStages.WithStorageAccount<ParentT>
   fullName: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithStorageAccount<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithStorageAccount<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+- uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithStorageAccount
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithStorageAccount.yml
+  name: AzureBlobFileSystem.DefinitionStages.WithStorageAccount<ParentT>
+  nameWithType: AzureBlobFileSystem.DefinitionStages.WithStorageAccount<ParentT>
+  fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithStorageAccount<ParentT>
   type: Interface
   syntax:
     content: public interface WithStorageAccount<ParentT>
@@ -3047,16 +2999,6 @@ references:
     typeParameters:
     - id: ParentT
       type: 18a275b1
-- uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet.yml
-  name: BatchAIFileServer.DefinitionStages.WithSubnet
-  nameWithType: BatchAIFileServer.DefinitionStages.WithSubnet
-  fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet
-  type: Interface
-  summary: <p>Defines subnet for the file server. </p>
-  syntax:
-    content: public interface WithSubnet
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithSubnet
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithSubnet.yml
@@ -3064,7 +3006,17 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>Defines subnet for the cluster. </p>
+  summary: "<p>Defines subnet for the cluster. </p>"
+  syntax:
+    content: public interface WithSubnet
+- uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet.yml
+  name: BatchAIFileServer.DefinitionStages.WithSubnet
+  nameWithType: BatchAIFileServer.DefinitionStages.WithSubnet
+  fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet
+  type: Interface
+  summary: "<p>Defines subnet for the file server. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithToolType
@@ -3076,16 +3028,6 @@ references:
   type: Interface
   syntax:
     content: public interface WithToolType
-- uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials
-  parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials.yml
-  name: BatchAICluster.DefinitionStages.WithUserCredentials
-  nameWithType: BatchAICluster.DefinitionStages.WithUserCredentials
-  fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials
-  type: Interface
-  summary: <p>Specifies the credentials to use for authentication on each of the nodes of a cluster. </p>
-  syntax:
-    content: public interface WithUserCredentials
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserCredentials
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserCredentials.yml
@@ -3093,19 +3035,19 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithUserCredentials
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserCredentials
   type: Interface
-  summary: <p>This stage of a Batch AI file server definition allows to specify user credentials. </p>
+  summary: "<p>This stage of a Batch AI file server definition allows to specify user credentials. </p>"
   syntax:
     content: public interface WithUserCredentials
-- uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName
+- uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials
   parent: com.microsoft.azure.management.batchai
-  href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName.yml
-  name: BatchAICluster.DefinitionStages.WithUserName
-  nameWithType: BatchAICluster.DefinitionStages.WithUserName
-  fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName
+  href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials.yml
+  name: BatchAICluster.DefinitionStages.WithUserCredentials
+  nameWithType: BatchAICluster.DefinitionStages.WithUserCredentials
+  fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials
   type: Interface
-  summary: <p>Specifies the name of the administrator account that gets created on each of the nodes of a cluster. </p>
+  summary: "<p>Specifies the credentials to use for authentication on each of the nodes of a cluster. </p>"
   syntax:
-    content: public interface WithUserName
+    content: public interface WithUserCredentials
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserName
   parent: com.microsoft.azure.management.batchai
   href: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserName.yml
@@ -3113,7 +3055,17 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithUserName
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserName
   type: Interface
-  summary: <p>This stage of a Batch AI file server definition allows to specify administrator account name. </p>
+  summary: "<p>This stage of a Batch AI file server definition allows to specify administrator account name. </p>"
+  syntax:
+    content: public interface WithUserName
+- uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName.yml
+  name: BatchAICluster.DefinitionStages.WithUserName
+  nameWithType: BatchAICluster.DefinitionStages.WithUserName
+  fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName
+  type: Interface
+  summary: "<p>Specifies the name of the administrator account that gets created on each of the nodes of a cluster. </p>"
   syntax:
     content: public interface WithUserName
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVirtualMachineImage
@@ -3123,7 +3075,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithVirtualMachineImage
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVirtualMachineImage
   type: Interface
-  summary: <p>Specifies virtual machine image. </p>
+  summary: "<p>Specifies virtual machine image. </p>"
   syntax:
     content: public interface WithVirtualMachineImage
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVMPriority
@@ -3142,7 +3094,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithVMSize
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVMSize
   type: Interface
-  summary: <p>The stage of a Batch AI cluster definition allowing to specify virtual machine size. All virtual machines in a cluster are the same size. For information about available VM sizes for clusters using images from the Virtual Machines Marketplace (see Sizes for Virtual Machines (Linux) or Sizes for Virtual Machines (Windows). Batch AI service supports all Azure VM sizes except STANDARD_A0 and those with premium storage (STANDARD_GS, STANDARD_DS, and STANDARD_DSV2 series). </p>
+  summary: "<p>The stage of a Batch AI cluster definition allowing to specify virtual machine size. All virtual machines in a cluster are the same size. For information about available VM sizes for clusters using images from the Virtual Machines Marketplace (see Sizes for Virtual Machines (Linux) or Sizes for Virtual Machines (Windows). Batch AI service supports all Azure VM sizes except STANDARD_A0 and those with premium storage (STANDARD_GS, STANDARD_DS, and STANDARD_DSV2 series). </p>"
   syntax:
     content: public interface WithVMSize
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithVMSize
@@ -3152,6 +3104,6 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithVMSize
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithVMSize
   type: Interface
-  summary: <p>This stage of a Batch AI file server definition allows to specify virtual machine size. </p>
+  summary: "<p>This stage of a Batch AI file server definition allows to specify virtual machine size. </p>"
   syntax:
     content: public interface WithVMSize

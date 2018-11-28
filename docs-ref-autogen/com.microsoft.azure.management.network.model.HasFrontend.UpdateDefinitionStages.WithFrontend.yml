@@ -225,7 +225,7 @@ references:
   nameWithType: PublicIPAddress
   fullName: com.microsoft.azure.management.network.PublicIPAddress
   type: Interface
-  summary: <p>Public IP address. </p>
+  summary: "<p>Public IP address. </p>"
   syntax:
     content: public interface PublicIPAddress extends GroupableResource<NetworkManager, PublicIPAddressInner>,Refreshable<PublicIPAddress>,Updatable<PublicIPAddress.Update>
 - uid: com.microsoft.azure.management.network.Network
@@ -235,7 +235,7 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>
 - uid: com.microsoft.azure.management.network.Subnet
@@ -245,6 +245,6 @@ references:
   nameWithType: Subnet
   fullName: com.microsoft.azure.management.network.Subnet
   type: Interface
-  summary: <p>A client-side representation of a subnet of a virtual network. </p>
+  summary: "<p>A client-side representation of a subnet of a virtual network. </p>"
   syntax:
     content: public interface Subnet extends HasInner<SubnetInner>,ChildResource<Network>

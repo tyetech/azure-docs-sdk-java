@@ -129,7 +129,7 @@ references:
   nameWithType: Service
   fullName: microsoft.servicefabric.services.remoting.Service
   type: Interface
-  summary: <p>This is the marker interface for enabling interface Remoting for services. An <xref uid="microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>
+  summary: "<p>This is the marker interface for enabling interface Remoting for services. An <xref uid=\"microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>"
   syntax:
     content: public interface Service
 - uid: microsoft.servicefabric.actors.runtime.FabricActorService
@@ -139,12 +139,7 @@ references:
   nameWithType: FabricActorService
   fullName: microsoft.servicefabric.actors.runtime.FabricActorService
   type: Class
-  summary: >-
-    <p>Represents the base class for Microsoft Service Fabric based reliable actors service. </p>
-
-    <p>
-
-      <b>Remarks:</b>Derive from this class to implement your own custom actor service if you want to override any service level behavior for your actors. </p>
+  summary: "<p>Represents the base class for Microsoft Service Fabric based reliable actors service. </p>\r\n<p>\r\n  <b>Remarks:</b>Derive from this class to implement your own custom actor service if you want to override any service level behavior for your actors. </p>"
   syntax:
     content: public class FabricActorService
 - uid: microsoft.servicefabric.actors.PagedResult
@@ -154,10 +149,7 @@ references:
   nameWithType: PagedResult<T>
   fullName: microsoft.servicefabric.actors.PagedResult<T>
   type: Class
-  summary: >-
-    <p>Represents the result of actor query calls.</p>
-
-    <p></p>
+  summary: "<p>Represents the result of actor query calls.</p>\r\n<p></p>"
   syntax:
     content: public class PagedResult<T>
     typeParameters:
@@ -171,7 +163,7 @@ references:
   nameWithType: ActorInformation
   fullName: microsoft.servicefabric.actors.ActorInformation
   type: Class
-  summary: <p>Represents the information about an actor returned by Actor Query method call. </p>
+  summary: "<p>Represents the information about an actor returned by Actor Query method call. </p>"
   syntax:
     content: public class ActorInformation
 - uid: microsoft.servicefabric.actors.runtime.FabricActorService.getActorsAsync(ContinuationToken,CancellationToken)
@@ -181,10 +173,7 @@ references:
   nameWithType: FabricActorService.getActorsAsync(ContinuationToken continuationToken, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.FabricActorService.getActorsAsync(ContinuationToken continuationToken, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Gets the list of Actors by querying the actor service.</p>
-
-    <p></p>
+  summary: "<p>Gets the list of Actors by querying the actor service.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<PagedResult<ActorInformation>> getActorsAsync(ContinuationToken continuationToken, CancellationToken cancellationToken)
     parameters:
@@ -207,12 +196,7 @@ references:
   nameWithType: ContinuationToken
   fullName: microsoft.servicefabric.actors.ContinuationToken
   type: Class
-  summary: >-
-    <p>Represents a continuation token for query operations. </p>
-
-    <p>
-
-      <b>Remarks:</b>A method that may return a partial set of results via a <xref uid="microsoft.servicefabric.actors.PagedResult" data-throw-if-not-resolved="false">PagedResult</xref> object also returns a continuation token in the object, which can be used in a subsequent call to return the next set of available results. </p>
+  summary: "<p>Represents a continuation token for query operations. </p>\r\n<p>\r\n  <b>Remarks:</b>A method that may return a partial set of results via a <xref uid=\"microsoft.servicefabric.actors.PagedResult\" data-throw-if-not-resolved=\"false\">PagedResult</xref> object also returns a continuation token in the object, which can be used in a subsequent call to return the next set of available results. </p>"
   syntax:
     content: public class ContinuationToken
 - uid: system.fabric.CancellationToken
@@ -222,7 +206,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.actors.runtime.FabricActorService.deleteActorAsync(ActorId,CancellationToken)
@@ -232,12 +216,7 @@ references:
   nameWithType: FabricActorService.deleteActorAsync(ActorId actorId, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.actors.runtime.FabricActorService.deleteActorAsync(ActorId actorId, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Deletes an Actor from the Actor service.</p>
-
-    <p>
-
-    An active actor, will be deactivated and its state will also be deleted from state provider. An in-active actor's state will be deleted from state provider. If this method is called for a non-existent actor id in the system, it will be a no-op. </p>
+  summary: "<p>Deletes an Actor from the Actor service.</p>\r\n<p>\r\nAn active actor, will be deactivated and its state will also be deleted from state provider. An in-active actor's state will be deleted from state provider. If this method is called for a non-existent actor id in the system, it will be a no-op. </p>"
   syntax:
     content: public CompletableFuture<?> deleteActorAsync(ActorId actorId, CancellationToken cancellationToken)
     parameters:
@@ -263,6 +242,6 @@ references:
   nameWithType: ActorId
   fullName: microsoft.servicefabric.actors.ActorId
   type: Class
-  summary: <p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, <xref uid="" data-throw-if-not-resolved="false">java.util.UUID</xref> or long. </p>
+  summary: "<p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.lang.String</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.UUID</xref> or long. </p>"
   syntax:
     content: public class ActorId

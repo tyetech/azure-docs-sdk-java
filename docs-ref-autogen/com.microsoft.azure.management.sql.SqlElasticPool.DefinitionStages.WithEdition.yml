@@ -174,7 +174,7 @@ references:
   nameWithType: SqlElasticPool.Definition
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends SqlElasticPool.DefinitionStages.Blank<ParentT>,SqlElasticPool.DefinitionStages.WithEdition<ParentT>,SqlElasticPool.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank
@@ -184,12 +184,7 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the SQL Server definition.</p>
-
-    <p>
-
-    The first stage of the SQL Server definition. </p>
+  summary: "<p>The first stage of the SQL Server definition.</p>\r\n<p>\r\nThe first stage of the SQL Server definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends SqlElasticPool.DefinitionStages.WithEdition<ParentT>,SqlElasticPool.DefinitionStages.WithEdition<ParentT>
     typeParameters:
@@ -203,10 +198,7 @@ references:
   nameWithType: SqlElasticPool.SqlElasticPoolDefinition<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.SqlElasticPoolDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Container interface for all the definitions that need to be implemented.</p>
-
-    <p></p>
+  summary: "<p>Container interface for all the definitions that need to be implemented.</p>\r\n<p></p>"
   syntax:
     content: public interface SqlElasticPoolDefinition<ParentT> extends SqlElasticPool.DefinitionStages.Blank<ParentT>,SqlElasticPool.DefinitionStages.WithEdition<ParentT>,SqlElasticPool.DefinitionStages.WithBasicEdition<ParentT>,SqlElasticPool.DefinitionStages.WithStandardEdition<ParentT>,SqlElasticPool.DefinitionStages.WithPremiumEdition<ParentT>,SqlElasticPool.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -220,9 +212,6 @@ references:
   nameWithType: ElasticPoolEditions
   fullName: com.microsoft.azure.management.sql.ElasticPoolEditions
   type: Class
-  summary: >-
-    <p>Defines values for ElasticPoolEdition.</p>
-
-    <p>Defines values for ElasticPoolEditions. </p>
+  summary: "<p>Defines values for ElasticPoolEdition.</p>\r\n<p>Defines values for ElasticPoolEditions. </p>"
   syntax:
     content: public class ElasticPoolEditions

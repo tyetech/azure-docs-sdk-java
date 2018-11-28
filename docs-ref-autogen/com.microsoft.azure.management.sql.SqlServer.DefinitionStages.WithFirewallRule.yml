@@ -199,7 +199,7 @@ references:
   nameWithType: SqlServer.Definition
   fullName: com.microsoft.azure.management.sql.SqlServer.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends SqlServer.DefinitionStages.Blank,SqlServer.DefinitionStages.WithGroup,SqlServer.DefinitionStages.WithAdministratorLogin,SqlServer.DefinitionStages.WithAdministratorPassword,SqlServer.DefinitionStages.WithElasticPool,SqlServer.DefinitionStages.WithDatabase,SqlServer.DefinitionStages.WithFirewallRule,SqlServer.DefinitionStages.WithCreate,SqlServer.DefinitionStages.Blank,SqlServer.DefinitionStages.WithGroup,SqlServer.DefinitionStages.WithAdministratorLogin,SqlServer.DefinitionStages.WithAdministratorPassword,SqlServer.DefinitionStages.WithElasticPool,SqlServer.DefinitionStages.WithDatabase,SqlServer.DefinitionStages.WithFirewallRule,SqlServer.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithCreate
@@ -209,6 +209,6 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<SqlServer>,Resource.DefinitionWithTags<WithCreate>,SqlServer.DefinitionStages.WithElasticPool,SqlServer.DefinitionStages.WithDatabase,SqlServer.DefinitionStages.WithFirewallRule,Creatable<SqlServer>,SqlServer.DefinitionStages.WithActiveDirectoryAdministrator,SqlServer.DefinitionStages.WithSystemAssignedManagedServiceIdentity,SqlServer.DefinitionStages.WithElasticPool,SqlServer.DefinitionStages.WithDatabase,SqlServer.DefinitionStages.WithFirewallRule,SqlServer.DefinitionStages.WithVirtualNetworkRule,Resource.DefinitionWithTags<WithCreate>

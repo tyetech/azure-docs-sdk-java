@@ -44,7 +44,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -57,7 +57,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithAddressPrefix<ParentT>.withAddressPrefix(String cidr)
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithAddressPrefix<ParentT>.withAddressPrefix(String cidr)
   type: Method
-  summary: <p>Specifies the IP address space of the subnet, within the address space of the network. </p>
+  summary: "<p>Specifies the IP address space of the subnet, within the address space of the network. </p>"
   syntax:
     content: public WithAttach<ParentT> withAddressPrefix(String cidr)
     parameters:
@@ -74,7 +74,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithNetworkSecurityGroup<ParentT>.withExistingNetworkSecurityGroup(String resourceId)
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithNetworkSecurityGroup<ParentT>.withExistingNetworkSecurityGroup(String resourceId)
   type: Method
-  summary: <p>Assigns an existing network security group to this subnet. </p>
+  summary: "<p>Assigns an existing network security group to this subnet. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingNetworkSecurityGroup(String resourceId)
     parameters:
@@ -91,7 +91,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithNetworkSecurityGroup<ParentT>.withExistingNetworkSecurityGroup(NetworkSecurityGroup nsg)
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithNetworkSecurityGroup<ParentT>.withExistingNetworkSecurityGroup(NetworkSecurityGroup nsg)
   type: Method
-  summary: <p>Assigns an existing network security group to this subnet. </p>
+  summary: "<p>Assigns an existing network security group to this subnet. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingNetworkSecurityGroup(NetworkSecurityGroup nsg)
     parameters:
@@ -108,7 +108,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithRouteTable<ParentT>.withExistingRouteTable(RouteTable routeTable)
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithRouteTable<ParentT>.withExistingRouteTable(RouteTable routeTable)
   type: Method
-  summary: <p>Specifies an existing route table to associate with the subnet. </p>
+  summary: "<p>Specifies an existing route table to associate with the subnet. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingRouteTable(RouteTable routeTable)
     parameters:
@@ -125,7 +125,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithRouteTable<ParentT>.withExistingRouteTable(String resourceId)
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithRouteTable<ParentT>.withExistingRouteTable(String resourceId)
   type: Method
-  summary: <p>Specifies an existing route table to associate with the subnet. </p>
+  summary: "<p>Specifies an existing route table to associate with the subnet. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingRouteTable(String resourceId)
     parameters:
@@ -142,7 +142,7 @@ references:
   nameWithType: Subnet.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the subnet definition. </p>
+  summary: "<p>The first stage of the subnet definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends Subnet.DefinitionStages.WithAddressPrefix<ParentT>
     typeParameters:
@@ -156,7 +156,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithAddressPrefix<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithAddressPrefix<ParentT>
   type: Interface
-  summary: <p>The stage of the subnet definition allowing to specify the address space for the subnet. </p>
+  summary: "<p>The stage of the subnet definition allowing to specify the address space for the subnet. </p>"
   syntax:
     content: public interface WithAddressPrefix<ParentT>
     typeParameters:
@@ -170,10 +170,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the subnet definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the subnet definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

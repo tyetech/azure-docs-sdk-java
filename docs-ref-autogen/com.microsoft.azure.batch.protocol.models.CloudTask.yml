@@ -1640,7 +1640,7 @@ references:
   nameWithType: ExitConditions
   fullName: com.microsoft.azure.batch.protocol.models.ExitConditions
   type: Class
-  summary: <p>Specifies how the Batch service should respond when the task completes. </p>
+  summary: "<p>Specifies how the Batch service should respond when the task completes. </p>"
   syntax:
     content: public class ExitConditions
 - uid: com.microsoft.azure.batch.protocol.models.TaskState
@@ -1650,7 +1650,7 @@ references:
   nameWithType: TaskState
   fullName: com.microsoft.azure.batch.protocol.models.TaskState
   type: Enum
-  summary: <p>Defines values for TaskState. </p>
+  summary: "<p>Defines values for TaskState. </p>"
   syntax:
     content: public enum TaskState
 - uid: com.microsoft.azure.batch.protocol.models.TaskContainerSettings
@@ -1660,7 +1660,7 @@ references:
   nameWithType: TaskContainerSettings
   fullName: com.microsoft.azure.batch.protocol.models.TaskContainerSettings
   type: Class
-  summary: <p>The container settings for a task. </p>
+  summary: "<p>The container settings for a task. </p>"
   syntax:
     content: public class TaskContainerSettings
 - uid: com.microsoft.azure.batch.protocol.models.ResourceFile
@@ -1670,7 +1670,7 @@ references:
   nameWithType: ResourceFile
   fullName: com.microsoft.azure.batch.protocol.models.ResourceFile
   type: Class
-  summary: <p>A file to be downloaded from Azure blob storage to a compute node. </p>
+  summary: "<p>A file to be downloaded from Azure blob storage to a compute node. </p>"
   syntax:
     content: public class ResourceFile
 - uid: com.microsoft.azure.batch.protocol.models.OutputFile
@@ -1680,7 +1680,7 @@ references:
   nameWithType: OutputFile
   fullName: com.microsoft.azure.batch.protocol.models.OutputFile
   type: Class
-  summary: <p>A specification for uploading files from an Azure Batch node to another location after the Batch service has finished executing the task process. </p>
+  summary: "<p>A specification for uploading files from an Azure Batch node to another location after the Batch service has finished executing the task process. </p>"
   syntax:
     content: public class OutputFile
 - uid: com.microsoft.azure.batch.protocol.models.EnvironmentSetting
@@ -1690,7 +1690,7 @@ references:
   nameWithType: EnvironmentSetting
   fullName: com.microsoft.azure.batch.protocol.models.EnvironmentSetting
   type: Class
-  summary: <p>An environment variable to be set on a task process. </p>
+  summary: "<p>An environment variable to be set on a task process. </p>"
   syntax:
     content: public class EnvironmentSetting
 - uid: com.microsoft.azure.batch.protocol.models.AffinityInformation
@@ -1700,7 +1700,7 @@ references:
   nameWithType: AffinityInformation
   fullName: com.microsoft.azure.batch.protocol.models.AffinityInformation
   type: Class
-  summary: <p>A locality hint that can be used by the Batch service to select a compute node on which to start a task. </p>
+  summary: "<p>A locality hint that can be used by the Batch service to select a compute node on which to start a task. </p>"
   syntax:
     content: public class AffinityInformation
 - uid: com.microsoft.azure.batch.protocol.models.TaskConstraints
@@ -1710,7 +1710,7 @@ references:
   nameWithType: TaskConstraints
   fullName: com.microsoft.azure.batch.protocol.models.TaskConstraints
   type: Class
-  summary: <p>Execution constraints to apply to a task. </p>
+  summary: "<p>Execution constraints to apply to a task. </p>"
   syntax:
     content: public class TaskConstraints
 - uid: com.microsoft.azure.batch.protocol.models.UserIdentity
@@ -1720,7 +1720,7 @@ references:
   nameWithType: UserIdentity
   fullName: com.microsoft.azure.batch.protocol.models.UserIdentity
   type: Class
-  summary: <p>The definition of the user identity under which the task is run. Specify either the userName or autoUser property, but not both. On CloudServiceConfiguration pools, this user is logged in with the INTERACTIVE flag. On Windows VirtualMachineConfiguration pools, this user is logged in with the BATCH flag. </p>
+  summary: "<p>The definition of the user identity under which the task is run. Specify either the userName or autoUser property, but not both. On CloudServiceConfiguration pools, this user is logged in with the INTERACTIVE flag. On Windows VirtualMachineConfiguration pools, this user is logged in with the BATCH flag. </p>"
   syntax:
     content: public class UserIdentity
 - uid: com.microsoft.azure.batch.protocol.models.TaskExecutionInformation
@@ -1730,7 +1730,7 @@ references:
   nameWithType: TaskExecutionInformation
   fullName: com.microsoft.azure.batch.protocol.models.TaskExecutionInformation
   type: Class
-  summary: <p>Information about the execution of a task. </p>
+  summary: "<p>Information about the execution of a task. </p>"
   syntax:
     content: public class TaskExecutionInformation
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeInformation
@@ -1740,7 +1740,7 @@ references:
   nameWithType: ComputeNodeInformation
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeInformation
   type: Class
-  summary: <p>Information about the compute node on which a task ran. </p>
+  summary: "<p>Information about the compute node on which a task ran. </p>"
   syntax:
     content: public class ComputeNodeInformation
 - uid: com.microsoft.azure.batch.protocol.models.MultiInstanceSettings
@@ -1750,7 +1750,7 @@ references:
   nameWithType: MultiInstanceSettings
   fullName: com.microsoft.azure.batch.protocol.models.MultiInstanceSettings
   type: Class
-  summary: <p>Settings which specify how to run a multi-instance task. Multi-instance tasks are commonly used to support MPI tasks. </p>
+  summary: "<p>Settings which specify how to run a multi-instance task. Multi-instance tasks are commonly used to support MPI tasks. </p>"
   syntax:
     content: public class MultiInstanceSettings
 - uid: com.microsoft.azure.batch.protocol.models.TaskStatistics
@@ -1760,7 +1760,7 @@ references:
   nameWithType: TaskStatistics
   fullName: com.microsoft.azure.batch.protocol.models.TaskStatistics
   type: Class
-  summary: <p>Resource usage statistics for a task. </p>
+  summary: "<p>Resource usage statistics for a task. </p>"
   syntax:
     content: public class TaskStatistics
 - uid: com.microsoft.azure.batch.protocol.models.TaskDependencies
@@ -1770,7 +1770,7 @@ references:
   nameWithType: TaskDependencies
   fullName: com.microsoft.azure.batch.protocol.models.TaskDependencies
   type: Class
-  summary: <p>Specifies any dependencies of a task. Any task that is explicitly specified or within a dependency range must complete before the dependant task will be scheduled. </p>
+  summary: "<p>Specifies any dependencies of a task. Any task that is explicitly specified or within a dependency range must complete before the dependant task will be scheduled. </p>"
   syntax:
     content: public class TaskDependencies
 - uid: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
@@ -1780,7 +1780,7 @@ references:
   nameWithType: ApplicationPackageReference
   fullName: com.microsoft.azure.batch.protocol.models.ApplicationPackageReference
   type: Class
-  summary: <p>A reference to an application package to be deployed to compute nodes. </p>
+  summary: "<p>A reference to an application package to be deployed to compute nodes. </p>"
   syntax:
     content: public class ApplicationPackageReference
 - uid: com.microsoft.azure.batch.protocol.models.AuthenticationTokenSettings
@@ -1790,7 +1790,7 @@ references:
   nameWithType: AuthenticationTokenSettings
   fullName: com.microsoft.azure.batch.protocol.models.AuthenticationTokenSettings
   type: Class
-  summary: <p>The settings for an authentication token that the task can use to perform Batch service operations. </p>
+  summary: "<p>The settings for an authentication token that the task can use to perform Batch service operations. </p>"
   syntax:
     content: public class AuthenticationTokenSettings
 - uid: com.microsoft.azure.batch.protocol.models.CloudTask
@@ -1800,5 +1800,5 @@ references:
   nameWithType: CloudTask
   fullName: com.microsoft.azure.batch.protocol.models.CloudTask
   type: Class
-  summary: <p>An Azure Batch task. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>
+  summary: "<p>An Azure Batch task. Batch will retry tasks when a recovery operation is triggered on a compute node. Examples of recovery operations include (but are not limited to) when an unhealthy compute node is rebooted or a compute node disappeared due to host failure. Retries due to recovery operations are independent of and are not counted against the maxTaskRetryCount. Even if the maxTaskRetryCount is 0, an internal retry due to a recovery operation may occur. Because of this, all tasks should be idempotent. This means tasks need to tolerate being interrupted and restarted without causing any corruption or duplicate data. The best practice for long running tasks is to use some form of checkpointing. </p>"
   syntax: *o1

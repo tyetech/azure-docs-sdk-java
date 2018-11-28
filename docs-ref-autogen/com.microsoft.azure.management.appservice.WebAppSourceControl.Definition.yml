@@ -46,7 +46,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -59,7 +59,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithBranch<ParentT>.withBranch(String branch)
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithBranch<ParentT>.withBranch(String branch)
   type: Method
-  summary: <p>Specifies the branch in the repository to use. </p>
+  summary: "<p>Specifies the branch in the repository to use. </p>"
   syntax:
     content: public WithAttach<ParentT> withBranch(String branch)
     parameters:
@@ -76,7 +76,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>.withBranch(String branch)
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>.withBranch(String branch)
   type: Method
-  summary: <p>Specifies the branch in the repository to use. </p>
+  summary: "<p>Specifies the branch in the repository to use. </p>"
   syntax:
     content: public GitHubWithAttach<ParentT> withBranch(String branch)
     parameters:
@@ -93,7 +93,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String organization, String repository)
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String organization, String repository)
   type: Method
-  summary: <p>Specifies the repository to be a GitHub repository. Continuous integration will be turned on. This repository can be either public or private, but your GitHub access token must have enough privileges to add a webhook to the repository. </p>
+  summary: "<p>Specifies the repository to be a GitHub repository. Continuous integration will be turned on. This repository can be either public or private, but your GitHub access token must have enough privileges to add a webhook to the repository. </p>"
   syntax:
     content: public WithGitHubBranch<ParentT> withContinuouslyIntegratedGitHubRepository(String organization, String repository)
     parameters:
@@ -113,7 +113,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String url)
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withContinuouslyIntegratedGitHubRepository(String url)
   type: Method
-  summary: <p>Specifies the repository to be a GitHub repository. Continuous integration will be turned on. This repository can be either public or private, but your GitHub access token must have enough privileges to add a webhook to the repository. </p>
+  summary: "<p>Specifies the repository to be a GitHub repository. Continuous integration will be turned on. This repository can be either public or private, but your GitHub access token must have enough privileges to add a webhook to the repository. </p>"
   syntax:
     content: public WithGitHubBranch<ParentT> withContinuouslyIntegratedGitHubRepository(String url)
     parameters:
@@ -130,7 +130,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithGitHubAccessToken<ParentT>.withGitHubAccessToken(String personalAccessToken)
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubAccessToken<ParentT>.withGitHubAccessToken(String personalAccessToken)
   type: Method
-  summary: <p>Specifies the GitHub personal access token. You can acquire one from <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a>. </p>
+  summary: "<p>Specifies the GitHub personal access token. You can acquire one from <a href=\"https://github.com/settings/tokens\">https://github.com/settings/tokens</a>. </p>"
   syntax:
     content: public GitHubWithAttach<ParentT> withGitHubAccessToken(String personalAccessToken)
     parameters:
@@ -147,7 +147,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withPublicGitRepository(String url)
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withPublicGitRepository(String url)
   type: Method
-  summary: <p>Specifies the repository to be a public external repository, either Git or Mercurial. Continuous integration will not be turned on. </p>
+  summary: "<p>Specifies the repository to be a public external repository, either Git or Mercurial. Continuous integration will not be turned on. </p>"
   syntax:
     content: public WithBranch<ParentT> withPublicGitRepository(String url)
     parameters:
@@ -164,7 +164,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withPublicMercurialRepository(String url)
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>.withPublicMercurialRepository(String url)
   type: Method
-  summary: <p>Specifies the repository to be a public external repository, either Git or Mercurial. Continuous integration will not be turned on. </p>
+  summary: "<p>Specifies the repository to be a public external repository, either Git or Mercurial. Continuous integration will not be turned on. </p>"
   syntax:
     content: public WithBranch<ParentT> withPublicMercurialRepository(String url)
     parameters:
@@ -181,7 +181,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a web app source control definition as part of a definition of a web app. </p>
+  summary: "<p>The first stage of a web app source control definition as part of a definition of a web app. </p>"
   syntax:
     content: public interface Blank<ParentT> extends WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
     typeParameters:
@@ -195,10 +195,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the web app source control definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the web app source control definition can be attached to the parent web app definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the web app source control definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the web app source control definition can be attached to the parent web app definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -212,10 +209,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.GitHubWithAttach<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.GitHubWithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the web app source control definition that binds to a GitHub account. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the web app source control definition can be attached to the parent web app definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the web app source control definition that binds to a GitHub account. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the web app source control definition can be attached to the parent web app definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface GitHubWithAttach<ParentT>
     typeParameters:
@@ -229,7 +223,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
   type: Interface
-  summary: <p>A web app source control definition allowing repository type to be specified. </p>
+  summary: "<p>A web app source control definition allowing repository type to be specified. </p>"
   syntax:
     content: public interface WithRepositoryType<ParentT>
     typeParameters:
@@ -243,7 +237,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithBranch<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithBranch<ParentT>
   type: Interface
-  summary: <p>A web app source control definition allowing branch to be specified. </p>
+  summary: "<p>A web app source control definition allowing branch to be specified. </p>"
   syntax:
     content: public interface WithBranch<ParentT>
     typeParameters:
@@ -257,7 +251,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
   type: Interface
-  summary: <p>A web app source control definition allowing branch to be specified. </p>
+  summary: "<p>A web app source control definition allowing branch to be specified. </p>"
   syntax:
     content: public interface WithGitHubBranch<ParentT>
     typeParameters:
@@ -271,7 +265,7 @@ references:
   nameWithType: Attachable<ParentT>.attach()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.attach()
   type: Method
-  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  summary: "<p>Attaches this child object's definition to its parent's definition. </p>"
   syntax:
     content: public ParentT attach()
     return:

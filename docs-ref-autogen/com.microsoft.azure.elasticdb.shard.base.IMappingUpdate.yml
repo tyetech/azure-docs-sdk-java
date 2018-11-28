@@ -159,7 +159,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>
   type: Class
-  summary: <p>Base class for updates to mappings from shardlets to shards. </p>
+  summary: "<p>Base class for updates to mappings from shardlets to shards. </p>"
   syntax:
     content: public class BaseMappingUpdate<StatusT> implements IMappingUpdate<StatusT>
     typeParameters:
@@ -172,7 +172,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.getStatus()
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.getStatus()
   type: Method
-  summary: <p>Gets the Status property. </p>
+  summary: "<p>Gets the Status property. </p>"
   syntax:
     content: public final StatusT getStatus()
     return:
@@ -184,7 +184,7 @@ references:
   nameWithType: Shard
   fullName: com.microsoft.azure.elasticdb.shard.base.Shard
   type: Class
-  summary: <p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid="com.microsoft.azure.elasticdb.shard.base.ShardLocation" data-throw-if-not-resolved="false">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid="com.microsoft.azure.elasticdb.shard.base.PointMapping" data-throw-if-not-resolved="false">PointMapping</xref> and <xref uid="com.microsoft.azure.elasticdb.shard.base.RangeMapping" data-throw-if-not-resolved="false">RangeMapping</xref>). </p>
+  summary: "<p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid=\"com.microsoft.azure.elasticdb.shard.base.ShardLocation\" data-throw-if-not-resolved=\"false\">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid=\"com.microsoft.azure.elasticdb.shard.base.PointMapping\" data-throw-if-not-resolved=\"false\">PointMapping</xref> and <xref uid=\"com.microsoft.azure.elasticdb.shard.base.RangeMapping\" data-throw-if-not-resolved=\"false\">RangeMapping</xref>). </p>"
   syntax:
     content: public class Shard
 - uid: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate.getShard()
@@ -194,7 +194,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.getShard()
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.getShard()
   type: Method
-  summary: <p>Gets the Shard property. </p>
+  summary: "<p>Gets the Shard property. </p>"
   syntax:
     content: public final Shard getShard()
     return:
@@ -206,10 +206,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.isAnyPropertySet(MappingUpdatedProperties properties)
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.isAnyPropertySet(MappingUpdatedProperties properties)
   type: Method
-  summary: >-
-    <p>Checks if any property is set in the given bitmap.</p>
-
-    <p></p>
+  summary: "<p>Checks if any property is set in the given bitmap.</p>\r\n<p></p>"
   syntax:
     content: public final boolean isAnyPropertySet(MappingUpdatedProperties properties)
     parameters:
@@ -226,7 +223,7 @@ references:
   nameWithType: MappingUpdatedProperties
   fullName: com.microsoft.azure.elasticdb.shard.base.MappingUpdatedProperties
   type: Enum
-  summary: <p>Records the updated properties for a mapping update object. </p>
+  summary: "<p>Records the updated properties for a mapping update object. </p>"
   syntax:
     content: public enum MappingUpdatedProperties
 - uid: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate.isMappingBeingTakenOffline(StatusT)
@@ -236,10 +233,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.isMappingBeingTakenOffline(StatusT originalStatus)
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.isMappingBeingTakenOffline(StatusT originalStatus)
   type: Method
-  summary: >-
-    <p>Checks if the mapping is being taken offline.</p>
-
-    <p></p>
+  summary: "<p>Checks if the mapping is being taken offline.</p>\r\n<p></p>"
   syntax:
     content: public final boolean isMappingBeingTakenOffline(StatusT originalStatus)
     parameters:

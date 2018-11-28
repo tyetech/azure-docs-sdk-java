@@ -99,10 +99,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withTargetFace(List<Integer> targetFace)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withTargetFace(List<Integer> targetFace)
   type: Method
-  summary: >-
-    <p>A face rectangle to specify the target face to be added to a person in the format of "targetFace=left,top,width,height". E.g. "targetFace=10,10,100,100". If there is more than one face in the image, targetFace is required to specify which face to add. No targetFace means there is only one face detected in the entire image.</p>
-
-    <p></p>
+  summary: "<p>A face rectangle to specify the target face to be added to a person in the format of \"targetFace=left,top,width,height\". E.g. \"targetFace=10,10,100,100\". If there is more than one face in the image, targetFace is required to specify which face to add. No targetFace means there is only one face detected in the entire image.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute withTargetFace(List<Integer> targetFace)
     parameters:
@@ -118,10 +115,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withUserData(String userData)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withUserData(String userData)
   type: Method
-  summary: >-
-    <p>User-specified data about the face for any purpose. The maximum length is 1KB.</p>
-
-    <p></p>
+  summary: "<p>User-specified data about the face for any purpose. The maximum length is 1KB.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute withUserData(String userData)
     parameters:
@@ -137,7 +131,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinition
@@ -147,7 +141,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinition
   type: Interface
-  summary: <p>The entirety of addPersonFaceFromUrl definition. </p>
+  summary: "<p>The entirety of addPersonFaceFromUrl definition. </p>"
   syntax:
     content: public interface PersonGroupPersonsAddPersonFaceFromUrlDefinition extends PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonGroupId,PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonId,PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithUrl,PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.models.PersistedFace
@@ -157,6 +151,6 @@ references:
   nameWithType: PersistedFace
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.models.PersistedFace
   type: Class
-  summary: <p>PersonFace object. </p>
+  summary: "<p>PersonFace object. </p>"
   syntax:
     content: public class PersistedFace

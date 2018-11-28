@@ -113,7 +113,7 @@ references:
   nameWithType: AppServiceCertificateOrder.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>An app service certificate order definition with sufficient inputs to create a new app service certificate order in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>An app service certificate order definition with sufficient inputs to create a new app service certificate order in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate
@@ -123,7 +123,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>An app service plan definition with sufficient inputs to create a new website in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>An app service plan definition with sufficient inputs to create a new website in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithCreate
@@ -133,7 +133,7 @@ references:
   nameWithType: WebAppBase.DefinitionStages.WithCreate<FluentT>
   fullName: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithCreate<FluentT>
   type: Interface
-  summary: <p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate<FluentT>
     typeParameters:
@@ -147,7 +147,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithAttach
@@ -157,10 +157,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the webhook definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>
+  summary: "<p>The final stage of the webhook definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -174,7 +171,7 @@ references:
   nameWithType: BuildTaskImpl.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public BuildTaskImpl withTags(Map<String, String> tags)
     parameters:
@@ -191,7 +188,7 @@ references:
   nameWithType: BuildTaskImpl.withTag(String key, String value)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public BuildTaskImpl withTag(String key, String value)
     parameters:

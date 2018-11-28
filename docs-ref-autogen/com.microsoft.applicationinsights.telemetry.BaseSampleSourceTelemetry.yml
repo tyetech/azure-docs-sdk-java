@@ -117,7 +117,7 @@ references:
   nameWithType: BaseTelemetry<T>.additionalSanitize()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.additionalSanitize()
   type: Method
-  summary: <p>Concrete classes should implement this method </p>
+  summary: "<p>Concrete classes should implement this method </p>"
   syntax:
     content: protected abstract void additionalSanitize()
     return:
@@ -149,10 +149,7 @@ references:
   nameWithType: BaseTelemetry<T>.getContext()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.getContext()
   type: Method
-  summary: >-
-    <p>Gets the context associated with the current telemetry item.</p>
-
-    <p></p>
+  summary: "<p>Gets the context associated with the current telemetry item.</p>\r\n<p></p>"
   syntax:
     content: public TelemetryContext getContext()
     return:
@@ -165,10 +162,7 @@ references:
   nameWithType: BaseTelemetry<T>.getData()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.getData()
   type: Method
-  summary: >-
-    <p>Concrete classes should implement this method which supplies the data structure that this instance works with, which needs to implement <xref uid="com.microsoft.applicationinsights.telemetry.JsonSerializable" data-throw-if-not-resolved="false">JsonSerializable</xref></p>
-
-    <p></p>
+  summary: "<p>Concrete classes should implement this method which supplies the data structure that this instance works with, which needs to implement <xref uid=\"com.microsoft.applicationinsights.telemetry.JsonSerializable\" data-throw-if-not-resolved=\"false\">JsonSerializable</xref></p>\r\n<p></p>"
   syntax:
     content: protected abstract T getData()
     return:
@@ -192,10 +186,7 @@ references:
   nameWithType: BaseTelemetry<T>.getProperties()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.getProperties()
   type: Method
-  summary: >-
-    <p>Gets a dictionary of application-defined property names and values providing additional information about this event.</p>
-
-    <p></p>
+  summary: "<p>Gets a dictionary of application-defined property names and values providing additional information about this event.</p>\r\n<p></p>"
   syntax:
     content: public Map<String, String> getProperties()
     return:
@@ -219,14 +210,7 @@ references:
   nameWithType: BaseTelemetry<T>.getSequence()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.getSequence()
   type: Method
-  summary: >-
-    <p>Sequence field used to track absolute order of uploaded events. It is a two-part value that includes a stable identifier for the current boot session and an incrementing identifier for each event added to the upload queue </p>
-
-    <p>The Sequence helps track how many events were fired and how many events were uploaded and enables identification of data lost during upload and de-duplication of events on the ingress server. </p>
-
-    <p>Gets the value that defines absolute order of the telemetry item.</p>
-
-    <p></p>
+  summary: "<p>Sequence field used to track absolute order of uploaded events. It is a two-part value that includes a stable identifier for the current boot session and an incrementing identifier for each event added to the upload queue </p>\r\n<p>The Sequence helps track how many events were fired and how many events were uploaded and enables identification of data lost during upload and de-duplication of events on the ingress server. </p>\r\n<p>Gets the value that defines absolute order of the telemetry item.</p>\r\n<p></p>"
   syntax:
     content: public String getSequence()
     return:
@@ -255,10 +239,7 @@ references:
   nameWithType: BaseTelemetry<T>.getTimestamp()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.getTimestamp()
   type: Method
-  summary: >-
-    <p>Gets date and time when event was recorded.</p>
-
-    <p></p>
+  summary: "<p>Gets date and time when event was recorded.</p>\r\n<p></p>"
   syntax:
     content: public Date getTimestamp()
     return:
@@ -282,10 +263,7 @@ references:
   nameWithType: BaseTelemetry<T>.initialize(ConcurrentMap<String, String> properties)
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.initialize(ConcurrentMap<String, String> properties)
   type: Method
-  summary: >-
-    <p>Initializes the instance with the context properties</p>
-
-    <p></p>
+  summary: "<p>Initializes the instance with the context properties</p>\r\n<p></p>"
   syntax:
     content: protected void initialize(ConcurrentMap<String, String> properties)
     parameters:
@@ -313,22 +291,7 @@ references:
   nameWithType: BaseTelemetry<T>.sanitize()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.sanitize()
   type: Method
-  summary: >-
-    <p>
-
-      <xrefsect id="deprecated_1_deprecated000032">
-
-        <xreftitle>Deprecated</xreftitle>
-
-        <xrefdescription>
-
-          <p>Makes sure the data to send is sanitized from bad chars, proper length etc. </p>
-
-        </xrefdescription>
-
-      </xrefsect>
-
-    </p>
+  summary: "<p>\r\n  <xrefsect id=\"deprecated_1_deprecated000032\">\r\n    <xreftitle>Deprecated</xreftitle>\r\n    <xrefdescription>\r\n      <p>Makes sure the data to send is sanitized from bad chars, proper length etc. </p>\r\n    </xrefdescription>\r\n  </xrefsect>\r\n</p>"
   syntax:
     content: public void sanitize()
 - uid: com.microsoft.applicationinsights.telemetry.BaseTelemetry.serialize(JsonTelemetryDataSerializer)
@@ -338,10 +301,7 @@ references:
   nameWithType: BaseTelemetry<T>.serialize(JsonTelemetryDataSerializer writer)
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.serialize(JsonTelemetryDataSerializer writer)
   type: Method
-  summary: >-
-    <p>Serializes this object in JSON format.</p>
-
-    <p></p>
+  summary: "<p>Serializes this object in JSON format.</p>\r\n<p></p>"
   syntax:
     content: public void serialize(JsonTelemetryDataSerializer writer)
     parameters:
@@ -367,10 +327,7 @@ references:
   nameWithType: BaseTelemetry<T>.setSequence(String sequence)
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.setSequence(String sequence)
   type: Method
-  summary: >-
-    <p>Sets the value that defines absolute order of the telemetry item.</p>
-
-    <p></p>
+  summary: "<p>Sets the value that defines absolute order of the telemetry item.</p>\r\n<p></p>"
   syntax:
     content: public void setSequence(String sequence)
     parameters:
@@ -384,10 +341,7 @@ references:
   nameWithType: BaseTelemetry<T>.setTimestamp(Date date)
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.setTimestamp(Date date)
   type: Method
-  summary: >-
-    <p>Sets date and time when event was recorded.</p>
-
-    <p></p>
+  summary: "<p>Sets date and time when event was recorded.</p>\r\n<p></p>"
   syntax:
     content: public void setTimestamp(Date date)
     parameters:
@@ -412,10 +366,7 @@ references:
   nameWithType: BaseTelemetry<T>.toString()
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T extends Domain>.toString()
   type: Method
-  summary: >-
-    <p>THIS IS FOR DEBUGGING AND TESTING ONLY! DON'T USE THIS IN HAPPY-PATH, PRODUCTION CODE.</p>
-
-    <p></p>
+  summary: "<p>THIS IS FOR DEBUGGING AND TESTING ONLY! DON'T USE THIS IN HAPPY-PATH, PRODUCTION CODE.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -428,7 +379,7 @@ references:
   nameWithType: BaseTelemetry<T>
   fullName: com.microsoft.applicationinsights.telemetry.BaseTelemetry<T>
   type: Class
-  summary: <p>Superclass for all telemetry data classes. </p>
+  summary: "<p>Superclass for all telemetry data classes. </p>"
   syntax:
     content: public class BaseTelemetry<T extends Domain>
     typeParameters:
@@ -441,6 +392,6 @@ references:
   nameWithType: SupportSampling
   fullName: com.microsoft.applicationinsights.telemetry.SupportSampling
   type: Interface
-  summary: <p>Created by gupele on 11/2/2016. </p>
+  summary: "<p>Created by gupele on 11/2/2016. </p>"
   syntax:
     content: public interface SupportSampling

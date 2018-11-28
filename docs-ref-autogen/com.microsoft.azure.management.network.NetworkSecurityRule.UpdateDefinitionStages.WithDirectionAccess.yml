@@ -158,7 +158,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of a network security rule definition as part of a network security group update. </p>
+  summary: "<p>The entirety of a network security rule definition as part of a network security group update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends NetworkSecurityRule.UpdateDefinitionStages.Blank<ParentT>,NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess<ParentT>,NetworkSecurityRule.UpdateDefinitionStages.WithSourceAddress<ParentT>,NetworkSecurityRule.UpdateDefinitionStages.WithSourcePort<ParentT>,NetworkSecurityRule.UpdateDefinitionStages.WithDestinationAddress<ParentT>,NetworkSecurityRule.UpdateDefinitionStages.WithDestinationPort<ParentT>,NetworkSecurityRule.UpdateDefinitionStages.WithProtocol<ParentT>,NetworkSecurityRule.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -172,7 +172,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a security rule description as part of an update of a networking security group. </p>
+  summary: "<p>The first stage of a security rule description as part of an update of a networking security group. </p>"
   syntax:
     content: public interface Blank<ParentT> extends NetworkSecurityRule.UpdateDefinitionStages.WithDirectionAccess<ParentT>
     typeParameters:
@@ -186,7 +186,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateDefinitionStages.WithSourceAddress<ParentT>
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateDefinitionStages.WithSourceAddress<ParentT>
   type: Interface
-  summary: <p>The stage of the network rule definition allowing the source address to be specified. </p>
+  summary: "<p>The stage of the network rule definition allowing the source address to be specified. </p>"
   syntax:
     content: public interface WithSourceAddress<ParentT>
     typeParameters:

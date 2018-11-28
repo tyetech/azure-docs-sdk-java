@@ -46,10 +46,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -82,10 +76,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -98,10 +89,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithRegistrantContact.defineRegistrantContact()
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithRegistrantContact.defineRegistrantContact()
   type: Method
-  summary: >-
-    <p>Starts the definition of a new domain contact.</p>
-
-    <p></p>
+  summary: "<p>Starts the definition of a new domain contact.</p>\r\n<p></p>"
   syntax:
     content: public DomainContact.DefinitionStages.Blank<WithCreate> defineRegistrantContact()
     return:
@@ -138,10 +126,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithAdminContact.withAdminContact(Contact contact)
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAdminContact.withAdminContact(Contact contact)
   type: Method
-  summary: >-
-    <p>Specify the admin contact.</p>
-
-    <p></p>
+  summary: "<p>Specify the admin contact.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withAdminContact(Contact contact)
     parameters:
@@ -158,10 +143,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithAutoRenew.withAutoRenewEnabled(boolean autoRenew)
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAutoRenew.withAutoRenewEnabled(boolean autoRenew)
   type: Method
-  summary: >-
-    <p>Specifies if the domain should be automatically renewed when it's about to expire.</p>
-
-    <p></p>
+  summary: "<p>Specifies if the domain should be automatically renewed when it's about to expire.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withAutoRenewEnabled(boolean autoRenew)
     parameters:
@@ -178,10 +160,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithBillingContact.withBillingContact(Contact contact)
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithBillingContact.withBillingContact(Contact contact)
   type: Method
-  summary: >-
-    <p>Specify the billing contact.</p>
-
-    <p></p>
+  summary: "<p>Specify the billing contact.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withBillingContact(Contact contact)
     parameters:
@@ -198,10 +177,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithDomainPrivacy.withDomainPrivacyEnabled(boolean domainPrivacy)
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithDomainPrivacy.withDomainPrivacyEnabled(boolean domainPrivacy)
   type: Method
-  summary: >-
-    <p>Specifies if the registrant contact information is exposed publicly. If domain privacy is turned on, the contact information will NOT be available publicly.</p>
-
-    <p></p>
+  summary: "<p>Specifies if the registrant contact information is exposed publicly. If domain privacy is turned on, the contact information will NOT be available publicly.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDomainPrivacyEnabled(boolean domainPrivacy)
     parameters:
@@ -218,7 +194,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(String groupName)
     parameters:
@@ -235,7 +211,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(ResourceGroup group)
     parameters:
@@ -252,10 +228,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithRegistrantContact.withRegistrantContact(Contact contact)
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithRegistrantContact.withRegistrantContact(Contact contact)
   type: Method
-  summary: >-
-    <p>Specify the registrant contact. By default, this is also the contact for admin, billing, and tech.</p>
-
-    <p></p>
+  summary: "<p>Specify the registrant contact. By default, this is also the contact for admin, billing, and tech.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withRegistrantContact(Contact contact)
     parameters:
@@ -272,7 +245,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -292,7 +265,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -309,10 +282,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithTechContact.withTechContact(Contact contact)
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithTechContact.withTechContact(Contact contact)
   type: Method
-  summary: >-
-    <p>Specify the tech contact.</p>
-
-    <p></p>
+  summary: "<p>Specify the tech contact.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withTechContact(Contact contact)
     parameters:
@@ -329,7 +299,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the domain definition. </p>
+  summary: "<p>The first stage of the domain definition. </p>"
   syntax:
     content: public interface Blank extends GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<WithRegistrantContact>
 - uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAdminContact
@@ -339,7 +309,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithAdminContact
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAdminContact
   type: Interface
-  summary: <p>A domain definition allowing admin contact to be set. </p>
+  summary: "<p>A domain definition allowing admin contact to be set. </p>"
   syntax:
     content: public interface WithAdminContact
 - uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithBillingContact
@@ -349,7 +319,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithBillingContact
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithBillingContact
   type: Interface
-  summary: <p>A domain definition allowing billing contact to be set. </p>
+  summary: "<p>A domain definition allowing billing contact to be set. </p>"
   syntax:
     content: public interface WithBillingContact
 - uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithRegistrantContact
@@ -359,7 +329,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithRegistrantContact
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithRegistrantContact
   type: Interface
-  summary: <p>A domain definition allowing registrant contact to be set. </p>
+  summary: "<p>A domain definition allowing registrant contact to be set. </p>"
   syntax:
     content: public interface WithRegistrantContact
 - uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithTechContact
@@ -369,7 +339,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithTechContact
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithTechContact
   type: Interface
-  summary: <p>A domain definition allowing tech contact to be set. </p>
+  summary: "<p>A domain definition allowing tech contact to be set. </p>"
   syntax:
     content: public interface WithTechContact
 - uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithCreate
@@ -379,6 +349,6 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A domain definition with sufficient inputs to create a new domain in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A domain definition with sufficient inputs to create a new domain in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

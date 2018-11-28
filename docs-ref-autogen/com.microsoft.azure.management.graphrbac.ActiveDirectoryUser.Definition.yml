@@ -41,10 +41,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -57,10 +54,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -77,10 +71,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -117,7 +108,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithAccontEnabled.withAccountEnabled(boolean accountEnabled)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithAccontEnabled.withAccountEnabled(boolean accountEnabled)
   type: Method
-  summary: <p>Specifies whether the user account is enabled. </p>
+  summary: "<p>Specifies whether the user account is enabled. </p>"
   syntax:
     content: public WithCreate withAccountEnabled(boolean accountEnabled)
     parameters:
@@ -134,7 +125,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withEmailAlias(String emailAlias)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withEmailAlias(String emailAlias)
   type: Method
-  summary: <p>Specifies the email alias of the new user. </p>
+  summary: "<p>Specifies the email alias of the new user. </p>"
   syntax:
     content: public WithPassword withEmailAlias(String emailAlias)
     parameters:
@@ -151,7 +142,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithPassword.withPassword(String password)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithPassword.withPassword(String password)
   type: Method
-  summary: <p>Specifies the password of the user. </p>
+  summary: "<p>Specifies the password of the user. </p>"
   syntax:
     content: public WithCreate withPassword(String password)
     parameters:
@@ -168,7 +159,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithPromptToChangePasswordOnLogin.withPromptToChangePasswordOnLogin(boolean promptToChangePasswordOnLogin)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithPromptToChangePasswordOnLogin.withPromptToChangePasswordOnLogin(boolean promptToChangePasswordOnLogin)
   type: Method
-  summary: <p>Specifies whether the user should change password on the next login. </p>
+  summary: "<p>Specifies whether the user should change password on the next login. </p>"
   syntax:
     content: public WithCreate withPromptToChangePasswordOnLogin(boolean promptToChangePasswordOnLogin)
     parameters:
@@ -185,7 +176,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithUsageLocation.withUsageLocation(CountryIsoCode usageLocation)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUsageLocation.withUsageLocation(CountryIsoCode usageLocation)
   type: Method
-  summary: <p>Specifies the usage location for the user. Required for users that will be assigned licenses due to legal requirement to check for availability of services in countries. </p>
+  summary: "<p>Specifies the usage location for the user. Required for users that will be assigned licenses due to legal requirement to check for availability of services in countries. </p>"
   syntax:
     content: public WithCreate withUsageLocation(CountryIsoCode usageLocation)
     parameters:
@@ -202,7 +193,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withUserPrincipalName(String userPrincipalName)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withUserPrincipalName(String userPrincipalName)
   type: Method
-  summary: <p>Specifies the user principal name of the user. It must contain one of the verified domains for the tenant. </p>
+  summary: "<p>Specifies the user principal name of the user. It must contain one of the verified domains for the tenant. </p>"
   syntax:
     content: public WithPassword withUserPrincipalName(String userPrincipalName)
     parameters:
@@ -219,7 +210,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the user definition. </p>
+  summary: "<p>The first stage of the user definition. </p>"
   syntax:
     content: public interface Blank extends ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
@@ -229,7 +220,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
   type: Interface
-  summary: <p>A user definition allowing user principal name to be specified. </p>
+  summary: "<p>A user definition allowing user principal name to be specified. </p>"
   syntax:
     content: public interface WithUserPrincipalName
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithPassword
@@ -239,7 +230,7 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithPassword
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithPassword
   type: Interface
-  summary: <p>A user definition allowing password to be specified. </p>
+  summary: "<p>A user definition allowing password to be specified. </p>"
   syntax:
     content: public interface WithPassword
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithCreate
@@ -249,6 +240,6 @@ references:
   nameWithType: ActiveDirectoryUser.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>An AD user definition with sufficient inputs to create a new user in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>An AD user definition with sufficient inputs to create a new user in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

@@ -34,7 +34,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(String id)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(String id)
   type: Method
-  summary: <p>Specifies an existing application by its app ID. </p>
+  summary: "<p>Specifies an existing application by its app ID. </p>"
   syntax:
     content: public WithCreate withExistingApplication(String id)
     parameters:
@@ -51,7 +51,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(ActiveDirectoryApplication application)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(ActiveDirectoryApplication application)
   type: Method
-  summary: <p>Specifies an existing application to use by the service principal. </p>
+  summary: "<p>Specifies an existing application to use by the service principal. </p>"
   syntax:
     content: public WithCreate withExistingApplication(ActiveDirectoryApplication application)
     parameters:
@@ -68,7 +68,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(Creatable<ActiveDirectoryApplication> applicationCreatable)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(Creatable<ActiveDirectoryApplication> applicationCreatable)
   type: Method
-  summary: <p>Specifies a new application to create and use by the service principal. </p>
+  summary: "<p>Specifies a new application to create and use by the service principal. </p>"
   syntax:
     content: public WithCreate withNewApplication(Creatable<ActiveDirectoryApplication> applicationCreatable)
     parameters:
@@ -85,7 +85,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(String signOnUrl)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(String signOnUrl)
   type: Method
-  summary: <p>Specifies a new application to create and use by the service principal. </p>
+  summary: "<p>Specifies a new application to create and use by the service principal. </p>"
   syntax:
     content: public WithCreate withNewApplication(String signOnUrl)
     parameters:
@@ -102,7 +102,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication
   type: Interface
-  summary: <p>A service principal definition allowing application to be specified. </p>
+  summary: "<p>A service principal definition allowing application to be specified. </p>"
   syntax:
     content: public interface WithApplication
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal.Definition
@@ -112,6 +112,6 @@ references:
   nameWithType: ServicePrincipal.Definition
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition

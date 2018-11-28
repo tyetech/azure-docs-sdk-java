@@ -46,7 +46,7 @@ references:
   nameWithType: CodeBuilder
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilder
   type: Interface
-  summary: <p>Base interface for Actor and Services code builder singleton classes. </p>
+  summary: "<p>Base interface for Actor and Services code builder singleton classes. </p>"
   syntax:
     content: public interface CodeBuilder
 - uid: microsoft.servicefabric.services.remoting.builder.CodeBuilderAttribute
@@ -56,7 +56,7 @@ references:
   nameWithType: CodeBuilderAttribute
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderAttribute
   type: Interface
-  summary: <p>The Attribute class to configure dyanamic code generation process for service remoting. </p>
+  summary: "<p>The Attribute class to configure dyanamic code generation process for service remoting. </p>"
   syntax:
     content: public interface CodeBuilderAttribute
 - uid: microsoft.servicefabric.services.remoting.builder.CodeBuilderBase
@@ -66,7 +66,7 @@ references:
   nameWithType: CodeBuilderBase
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderBase
   type: Class
-  summary: <p>Base class from which Actor and Services Code Builder classes extend. </p>
+  summary: "<p>Base class from which Actor and Services Code Builder classes extend. </p>"
   syntax:
     content: public class CodeBuilderBase implements CodeBuilder
 - uid: microsoft.servicefabric.services.remoting.builder.CodeBuilderContext
@@ -85,7 +85,7 @@ references:
   nameWithType: CodeBuilderNamesBase
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderNamesBase
   type: Class
-  summary: <p>Base class from which actor and service CodeBuildNames classes extend. For internal purpose only. </p>
+  summary: "<p>Base class from which actor and service CodeBuildNames classes extend. For internal purpose only. </p>"
   syntax:
     content: public class CodeBuilderNamesBase
 - uid: microsoft.servicefabric.services.remoting.builder.CodeBuilderUtils
@@ -95,7 +95,7 @@ references:
   nameWithType: CodeBuilderUtils
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderUtils
   type: Class
-  summary: <p>CodeBuilder utility methods. For internal use only. </p>
+  summary: "<p>CodeBuilder utility methods. For internal use only. </p>"
   syntax:
     content: public class CodeBuilderUtils
 - uid: microsoft.servicefabric.services.remoting.builder.MessageSerializer
@@ -105,7 +105,7 @@ references:
   nameWithType: MessageSerializer
   fullName: microsoft.servicefabric.services.remoting.builder.MessageSerializer
   type: Class
-  summary: <p>Base class for Actor and Service Message Serializer classes. For internal use only. </p>
+  summary: "<p>Base class for Actor and Service Message Serializer classes. For internal use only. </p>"
   syntax:
     content: public class MessageSerializer
 - uid: microsoft.servicefabric.services.remoting.builder.MethodBodyTypesBuilder
@@ -115,7 +115,7 @@ references:
   nameWithType: MethodBodyTypesBuilder
   fullName: microsoft.servicefabric.services.remoting.builder.MethodBodyTypesBuilder
   type: Class
-  summary: <p>Method body type builder for Actors and Services. </p>
+  summary: "<p>Method body type builder for Actors and Services. </p>"
   syntax:
     content: public class MethodBodyTypesBuilder
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase
@@ -125,7 +125,7 @@ references:
   nameWithType: MethodDispatcherBase
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase
   type: Class
-  summary: <p>The base class used by remoting code generator to generate the type that dispatches requests from the client to the right interface and method of the remoted object. </p>
+  summary: "<p>The base class used by remoting code generator to generate the type that dispatches requests from the client to the right interface and method of the remoted object. </p>"
   syntax:
     content: public class MethodDispatcherBase implements MethodDispatcher
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBaseWithSerializer
@@ -135,7 +135,7 @@ references:
   nameWithType: MethodDispatcherBaseWithSerializer
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBaseWithSerializer
   type: Class
-  summary: <p>The class dispatches the requests from the client to the interface/method of the remoted objectts. This class is used by remoting code generator. This class caches the Serializer. </p>
+  summary: "<p>The class dispatches the requests from the client to the interface/method of the remoted objectts. This class is used by remoting code generator. This class caches the Serializer. </p>"
   syntax:
     content: public class MethodDispatcherBaseWithSerializer extends MethodDispatcherBase
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBuilder
@@ -145,10 +145,7 @@ references:
   nameWithType: MethodDispatcherBuilder<T>
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBuilder<T>
   type: Class
-  summary: >-
-    <p>Used in Actor and Services code builder as Method dispatcher builder. For internal use only.</p>
-
-    <p></p>
+  summary: "<p>Used in Actor and Services code builder as Method dispatcher builder. For internal use only.</p>\r\n<p></p>"
   syntax:
     content: public class MethodDispatcherBuilder<T extends MethodDispatcherBase>
     typeParameters:
@@ -162,7 +159,7 @@ references:
   nameWithType: MethodDispatcherBuildResult
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBuildResult
   type: Class
-  summary: <p>Method dispatcher build result to be used in Actors and Services. For internal use only. </p>
+  summary: "<p>Method dispatcher build result to be used in Actors and Services. For internal use only. </p>"
   syntax:
     content: public class MethodDispatcherBuildResult
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyActivator
@@ -172,7 +169,7 @@ references:
   nameWithType: ProxyActivator
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyActivator
   type: Interface
-  summary: <p>Defines the interface implemented by generated code to create proxy objects. </p>
+  summary: "<p>Defines the interface implemented by generated code to create proxy objects. </p>"
   syntax:
     content: public interface ProxyActivator
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyBase
@@ -182,7 +179,7 @@ references:
   nameWithType: ProxyBase
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyBase
   type: Class
-  summary: <p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>
+  summary: "<p>The base class used by remoting code generator to generate the proxy for the remoted interfaces. </p>"
   syntax:
     content: public class ProxyBase
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyGenerator
@@ -192,7 +189,7 @@ references:
   nameWithType: ProxyGenerator
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyGenerator
   type: Class
-  summary: <p>Abstract class from which Actor ans Services Proxy generator base classes derive. For internal use only. </p>
+  summary: "<p>Abstract class from which Actor ans Services Proxy generator base classes derive. For internal use only. </p>"
   syntax:
     content: public class ProxyGenerator
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyGeneratorBuilder
@@ -202,7 +199,7 @@ references:
   nameWithType: ProxyGeneratorBuilder
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyGeneratorBuilder
   type: Class
-  summary: <p>Abstract Proxy Generator builder class from which Actor and Services Proxy Generator classes extend. For internal use only. </p>
+  summary: "<p>Abstract Proxy Generator builder class from which Actor and Services Proxy Generator classes extend. For internal use only. </p>"
   syntax:
     content: public class ProxyGeneratorBuilder
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyGeneratorBuildResult
@@ -212,7 +209,7 @@ references:
   nameWithType: ProxyGeneratorBuildResult
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyGeneratorBuildResult
   type: Class
-  summary: <p>Used in Actor and Services Code builder. For internal use only. </p>
+  summary: "<p>Used in Actor and Services Code builder. For internal use only. </p>"
   syntax:
     content: public class ProxyGeneratorBuildResult
 - uid: microsoft.servicefabric.services.remoting.builder.ServiceCodeBuilder
@@ -222,7 +219,7 @@ references:
   nameWithType: ServiceCodeBuilder
   fullName: microsoft.servicefabric.services.remoting.builder.ServiceCodeBuilder
   type: Class
-  summary: <p>Used to create service proxy object and method dispatcher object. For internal use only. </p>
+  summary: "<p>Used to create service proxy object and method dispatcher object. For internal use only. </p>"
   syntax:
     content: public class ServiceCodeBuilder extends CodeBuilderBase
 - uid: microsoft.servicefabric.services.remoting.builder.ServiceMethodDispatcherBase
@@ -232,7 +229,7 @@ references:
   nameWithType: ServiceMethodDispatcherBase
   fullName: microsoft.servicefabric.services.remoting.builder.ServiceMethodDispatcherBase
   type: Class
-  summary: <p>Abstract class to create Service method dispatcher object. For internal use only. </p>
+  summary: "<p>Abstract class to create Service method dispatcher object. For internal use only. </p>"
   syntax:
     content: public class ServiceMethodDispatcherBase extends MethodDispatcherBaseWithSerializer
 - uid: microsoft.servicefabric.services.remoting.builder.ServiceProxyGenerator
@@ -242,6 +239,6 @@ references:
   nameWithType: ServiceProxyGenerator
   fullName: microsoft.servicefabric.services.remoting.builder.ServiceProxyGenerator
   type: Class
-  summary: <p>Used in Service code builder to create service proxy base object. For internal use only. </p>
+  summary: "<p>Used in Service code builder to create service proxy base object. For internal use only. </p>"
   syntax:
     content: public class ServiceProxyGenerator extends ProxyGenerator

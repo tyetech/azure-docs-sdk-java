@@ -38,7 +38,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute.execute()
   type: Method
-  summary: <p>Execute the request. </p>
+  summary: "<p>Execute the request. </p>"
   syntax:
     content: public void execute()
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute.executeAsync()
@@ -48,10 +48,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Void> executeAsync()
     return:
@@ -64,10 +61,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithContentType.withContentType(String contentType)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithContentType.withContentType(String contentType)
   type: Method
-  summary: >-
-    <p>The content type.</p>
-
-    <p></p>
+  summary: "<p>The content type.</p>\r\n<p></p>"
   syntax:
     content: public WithFrameImageZip withContentType(String contentType)
     parameters:
@@ -83,10 +77,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameImageZip.withFrameImageZip(byte[] frameImageZip)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameImageZip.withFrameImageZip(byte[] frameImageZip)
   type: Method
-  summary: >-
-    <p>Zip file containing frame images.</p>
-
-    <p></p>
+  summary: "<p>Zip file containing frame images.</p>\r\n<p></p>"
   syntax:
     content: public WithFrameMetadata withFrameImageZip(byte[] frameImageZip)
     parameters:
@@ -102,10 +93,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameMetadata.withFrameMetadata(String frameMetadata)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameMetadata.withFrameMetadata(String frameMetadata)
   type: Method
-  summary: >-
-    <p>Metadata of the frame.</p>
-
-    <p></p>
+  summary: "<p>Metadata of the frame.</p>\r\n<p></p>"
   syntax:
     content: public ReviewsAddVideoFrameStreamDefinitionStages.WithExecute withFrameMetadata(String frameMetadata)
     parameters:
@@ -121,10 +109,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithReviewId.withReviewId(String reviewId)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithReviewId.withReviewId(String reviewId)
   type: Method
-  summary: >-
-    <p>Id of the review.</p>
-
-    <p></p>
+  summary: "<p>Id of the review.</p>\r\n<p></p>"
   syntax:
     content: public WithContentType withReviewId(String reviewId)
     parameters:
@@ -140,10 +125,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithTeamName.withTeamName(String teamName)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithTeamName.withTeamName(String teamName)
   type: Method
-  summary: >-
-    <p>Your team name.</p>
-
-    <p></p>
+  summary: "<p>Your team name.</p>\r\n<p></p>"
   syntax:
     content: public WithReviewId withTeamName(String teamName)
     parameters:
@@ -159,10 +141,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithAllOptions.withTimescale(Integer timescale)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithAllOptions.withTimescale(Integer timescale)
   type: Method
-  summary: >-
-    <p>Timescale of the video .</p>
-
-    <p></p>
+  summary: "<p>Timescale of the video .</p>\r\n<p></p>"
   syntax:
     content: public ReviewsAddVideoFrameStreamDefinitionStages.WithExecute withTimescale(Integer timescale)
     parameters:
@@ -178,7 +157,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithTeamName
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithTeamName
   type: Interface
-  summary: <p>The stage of the definition to be specify teamName. </p>
+  summary: "<p>The stage of the definition to be specify teamName. </p>"
   syntax:
     content: public interface WithTeamName
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithReviewId
@@ -188,7 +167,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithReviewId
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithReviewId
   type: Interface
-  summary: <p>The stage of the definition to be specify reviewId. </p>
+  summary: "<p>The stage of the definition to be specify reviewId. </p>"
   syntax:
     content: public interface WithReviewId
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithContentType
@@ -198,7 +177,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithContentType
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithContentType
   type: Interface
-  summary: <p>The stage of the definition to be specify contentType. </p>
+  summary: "<p>The stage of the definition to be specify contentType. </p>"
   syntax:
     content: public interface WithContentType
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameImageZip
@@ -208,7 +187,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameImageZip
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameImageZip
   type: Interface
-  summary: <p>The stage of the definition to be specify frameImageZip. </p>
+  summary: "<p>The stage of the definition to be specify frameImageZip. </p>"
   syntax:
     content: public interface WithFrameImageZip
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameMetadata
@@ -218,7 +197,7 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameMetadata
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithFrameMetadata
   type: Interface
-  summary: <p>The stage of the definition to be specify frameMetadata. </p>
+  summary: "<p>The stage of the definition to be specify frameMetadata. </p>"
   syntax:
     content: public interface WithFrameMetadata
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute
@@ -228,6 +207,6 @@ references:
   nameWithType: Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsAddVideoFrameStreamDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

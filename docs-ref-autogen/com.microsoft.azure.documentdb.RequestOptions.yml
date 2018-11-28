@@ -964,7 +964,7 @@ references:
   nameWithType: AccessCondition
   fullName: com.microsoft.azure.documentdb.AccessCondition
   type: Class
-  summary: <p>Represents a set of access conditions to be used for operations against the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a set of access conditions to be used for operations against the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class AccessCondition
 - uid: com.microsoft.azure.documentdb.IndexingDirective
@@ -974,7 +974,7 @@ references:
   nameWithType: IndexingDirective
   fullName: com.microsoft.azure.documentdb.IndexingDirective
   type: Enum
-  summary: <p>Specifies whether or not the resource is to be indexed in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies whether or not the resource is to be indexed in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum IndexingDirective
 - uid: com.microsoft.azure.documentdb.ConsistencyLevel
@@ -984,10 +984,7 @@ references:
   nameWithType: ConsistencyLevel
   fullName: com.microsoft.azure.documentdb.ConsistencyLevel
   type: Enum
-  summary: >-
-    <p>Represents the consistency levels supported for Azure Cosmos DB client operations in the Azure Cosmos DB database service. </p>
-
-    <p>The requested ConsistencyLevel must match or be weaker than that provisioned for the database account. Consistency levels by order of strength are Strong, BoundedStaleness, Session and Eventual. </p>
+  summary: "<p>Represents the consistency levels supported for Azure Cosmos DB client operations in the Azure Cosmos DB database service. </p>\r\n<p>The requested ConsistencyLevel must match or be weaker than that provisioned for the database account. Consistency levels by order of strength are Strong, BoundedStaleness, Session and Eventual. </p>"
   syntax:
     content: public enum ConsistencyLevel
 - uid: com.microsoft.azure.documentdb.PartitionKey
@@ -997,6 +994,6 @@ references:
   nameWithType: PartitionKey
   fullName: com.microsoft.azure.documentdb.PartitionKey
   type: Class
-  summary: <p>Represents a partition key value in the Azure Cosmos DB database service. A partition key identifies the partition where the document is stored in. </p>
+  summary: "<p>Represents a partition key value in the Azure Cosmos DB database service. A partition key identifies the partition where the document is stored in. </p>"
   syntax:
     content: public class PartitionKey

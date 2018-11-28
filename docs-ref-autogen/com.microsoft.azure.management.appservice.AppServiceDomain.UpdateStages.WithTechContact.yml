@@ -62,7 +62,7 @@ references:
   nameWithType: AppServiceDomain.Update
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.Update
   type: Interface
-  summary: <p>The template for a domain update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a domain update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<AppServiceDomain>,AppServiceDomain.UpdateStages.WithAdminContact,AppServiceDomain.UpdateStages.WithBillingContact,AppServiceDomain.UpdateStages.WithTechContact,AppServiceDomain.UpdateStages.WithAutoRenew,AppServiceDomain.UpdateStages.WithDomainPrivacy
 - uid: com.microsoft.azure.management.appservice.Contact
@@ -72,6 +72,6 @@ references:
   nameWithType: Contact
   fullName: com.microsoft.azure.management.appservice.Contact
   type: Class
-  summary: <p>Contact information for domain registration. If 'Domain Privacy' option is not selected then the contact information is made publicly available through the Whois directories as per ICANN requirements. </p>
+  summary: "<p>Contact information for domain registration. If 'Domain Privacy' option is not selected then the contact information is made publicly available through the Whois directories as per ICANN requirements. </p>"
   syntax:
     content: public class Contact

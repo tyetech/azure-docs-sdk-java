@@ -70,7 +70,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface BuildTaskBuildStepsDefinition extends BuildStep.BuildTaskBuildStepsDefinitionStages.Blank,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch,BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext,BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument,BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
@@ -80,7 +80,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withBranch(String)
@@ -90,10 +90,7 @@ references:
   nameWithType: BuildStepImpl.withBranch(String branch)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withBranch(String branch)
   type: Method
-  summary: >-
-    <p>Specifies the branch required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the branch required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withBranch(String branch)
     parameters:

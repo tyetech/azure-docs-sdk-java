@@ -57,10 +57,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -73,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -93,10 +87,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -109,10 +100,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureBlobFileSystem()
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureBlobFileSystem()
   type: Method
-  summary: >-
-    <p>Begins the definition of Azure blob file system reference to be mounted on each cluster node.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of Azure blob file system reference to be mounted on each cluster node.</p>\r\n<p></p>"
   syntax:
     content: public AzureBlobFileSystem.DefinitionStages.Blank<ReturnT> defineAzureBlobFileSystem()
     return:
@@ -125,10 +113,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureFileShare()
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureFileShare()
   type: Method
-  summary: >-
-    <p>Begins the definition of Azure file share reference to be mounted on each cluster node.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of Azure file share reference to be mounted on each cluster node.</p>\r\n<p></p>"
   syntax:
     content: public AzureFileShare.DefinitionStages.Blank<ReturnT> defineAzureFileShare()
     return:
@@ -141,10 +126,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineFileServer()
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineFileServer()
   type: Method
-  summary: >-
-    <p>Begins the definition of Azure file server reference.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of Azure file server reference.</p>\r\n<p></p>"
   syntax:
     content: public FileServer.DefinitionStages.Blank<ReturnT> defineFileServer()
     return:
@@ -157,7 +139,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithSetupTask.defineSetupTask()
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithSetupTask.defineSetupTask()
   type: Method
-  summary: <p>Begins the definition of setup task. </p>
+  summary: "<p>Begins the definition of setup task. </p>"
   syntax:
     content: public NodeSetupTask.DefinitionStages.Blank<WithCreate> defineSetupTask()
     return:
@@ -210,7 +192,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount)
   type: Method
-  summary: <p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>
+  summary: "<p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>"
   syntax:
     content: public WithCreate withAutoScale(int minimumNodeCount, int maximumNodeCount)
     parameters:
@@ -230,7 +212,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount, int initialNodeCount)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings.withAutoScale(int minimumNodeCount, int maximumNodeCount, int initialNodeCount)
   type: Method
-  summary: <p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>
+  summary: "<p>If autoScale settings are specified, the system automatically scales the cluster up and down (within the supplied limits) based on the pending jobs on the cluster. </p>"
   syntax:
     content: public WithCreate withAutoScale(int minimumNodeCount, int maximumNodeCount, int initialNodeCount)
     parameters:
@@ -269,7 +251,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithAppInsightsKey.withInstrumentationKeySecretReference(String keyVaultId, String secretUrl)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithAppInsightsKey.withInstrumentationKeySecretReference(String keyVaultId, String secretUrl)
   type: Method
-  summary: <p>Specifies KeyVault Store and Secret which contains the value for the instrumentation key. </p>
+  summary: "<p>Specifies KeyVault Store and Secret which contains the value for the instrumentation key. </p>"
   syntax:
     content: public WithCreate withInstrumentationKeySecretReference(String keyVaultId, String secretUrl)
     parameters:
@@ -300,7 +282,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithScaleSettings.withManualScale(int targetNodeCount)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings.withManualScale(int targetNodeCount)
   type: Method
-  summary: <p>Specifies that cluster should be scaled by manual settings. </p>
+  summary: "<p>Specifies that cluster should be scaled by manual settings. </p>"
   syntax:
     content: public WithCreate withManualScale(int targetNodeCount)
     parameters:
@@ -317,7 +299,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithScaleSettings.withManualScale(int targetNodeCount, DeallocationOption deallocationOption)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings.withManualScale(int targetNodeCount, DeallocationOption deallocationOption)
   type: Method
-  summary: <p>Specifies that cluster should be scaled by manual settings. </p>
+  summary: "<p>Specifies that cluster should be scaled by manual settings. </p>"
   syntax:
     content: public WithCreate withManualScale(int targetNodeCount, DeallocationOption deallocationOption)
     parameters:
@@ -404,10 +386,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.withUnmanagedFileSystem(String mountCommand, String relativeMountPath)
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.withUnmanagedFileSystem(String mountCommand, String relativeMountPath)
   type: Method
-  summary: >-
-    <p>Specifies the details of the file system to mount on the compute cluster nodes.</p>
-
-    <p></p>
+  summary: "<p>Specifies the details of the file system to mount on the compute cluster nodes.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withUnmanagedFileSystem(String mountCommand, String relativeMountPath)
     parameters:
@@ -443,7 +422,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithVirtualMachineImage.withVirtualMachineImage(String publisher, String offer, String sku, String version)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVirtualMachineImage.withVirtualMachineImage(String publisher, String offer, String sku, String version)
   type: Method
-  summary: <p>Specifies virtual machine image. </p>
+  summary: "<p>Specifies virtual machine image. </p>"
   syntax:
     content: public WithCreate withVirtualMachineImage(String publisher, String offer, String sku, String version)
     parameters:
@@ -469,7 +448,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithVirtualMachineImage.withVirtualMachineImage(String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVirtualMachineImage.withVirtualMachineImage(String publisher, String offer, String sku)
   type: Method
-  summary: <p>Specifies virtual machine image. </p>
+  summary: "<p>Specifies virtual machine image. </p>"
   syntax:
     content: public WithCreate withVirtualMachineImage(String publisher, String offer, String sku)
     parameters:
@@ -492,7 +471,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithVirtualMachineImage.withVirtualMachineImageId(String virtualMachineImageId, String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithVirtualMachineImage.withVirtualMachineImageId(String virtualMachineImageId, String publisher, String offer, String sku)
   type: Method
-  summary: <p>Computes nodes of the cluster will be created using this custom image. This is of the form /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Compute/images/{imageName}. The virtual machine image must be in the same region and subscription as the cluster. For information about the firewall settings for the Batch node agent to communicate with the Batch service see <a href="https://docs.microsoft.com/en-us/azure/batch/batch-api-basics#virtual-network-vnet-and-firewall-configuration">https://docs.microsoft.com/en-us/azure/batch/batch-api-basics#virtual-network-vnet-and-firewall-configuration</a>. Note, you need to provide publisher, offer and sku of the base OS image of which the custom image has been derived from. </p>
+  summary: "<p>Computes nodes of the cluster will be created using this custom image. This is of the form /subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Compute/images/{imageName}. The virtual machine image must be in the same region and subscription as the cluster. For information about the firewall settings for the Batch node agent to communicate with the Batch service see <a href=\"https://docs.microsoft.com/en-us/azure/batch/batch-api-basics#virtual-network-vnet-and-firewall-configuration\">https://docs.microsoft.com/en-us/azure/batch/batch-api-basics#virtual-network-vnet-and-firewall-configuration</a>. Note, you need to provide publisher, offer and sku of the base OS image of which the custom image has been derived from. </p>"
   syntax:
     content: public WithCreate withVirtualMachineImageId(String virtualMachineImageId, String publisher, String offer, String sku)
     parameters:
@@ -534,7 +513,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a Batch AI cluster definition. </p>
+  summary: "<p>The first stage of a Batch AI cluster definition. </p>"
   syntax:
     content: public interface Blank extends BatchAICluster.DefinitionStages.WithVMSize
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName
@@ -544,7 +523,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithUserName
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserName
   type: Interface
-  summary: <p>Specifies the name of the administrator account that gets created on each of the nodes of a cluster. </p>
+  summary: "<p>Specifies the name of the administrator account that gets created on each of the nodes of a cluster. </p>"
   syntax:
     content: public interface WithUserName
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials
@@ -554,7 +533,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithUserCredentials
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithUserCredentials
   type: Interface
-  summary: <p>Specifies the credentials to use for authentication on each of the nodes of a cluster. </p>
+  summary: "<p>Specifies the credentials to use for authentication on each of the nodes of a cluster. </p>"
   syntax:
     content: public interface WithUserCredentials
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings
@@ -564,7 +543,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithScaleSettings
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithScaleSettings
   type: Interface
-  summary: <p>Specifies scale settings for the cluster. </p>
+  summary: "<p>Specifies scale settings for the cluster. </p>"
   syntax:
     content: public interface WithScaleSettings
 - uid: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithAppInsightsKey
@@ -583,7 +562,7 @@ references:
   nameWithType: BatchAICluster.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.batchai.BatchAICluster.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.batchai.implementation.BatchAIClusterImpl

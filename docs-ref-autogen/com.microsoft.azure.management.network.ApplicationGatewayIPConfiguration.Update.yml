@@ -34,12 +34,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -52,7 +47,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateStages.WithSubnet.withExistingSubnet(Subnet subnet)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateStages.WithSubnet.withExistingSubnet(Subnet subnet)
   type: Method
-  summary: <p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>
+  summary: "<p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>"
   syntax:
     content: public Update withExistingSubnet(Subnet subnet)
     parameters:
@@ -69,7 +64,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateStages.WithSubnet.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateStages.WithSubnet.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: <p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>
+  summary: "<p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>"
   syntax:
     content: public Update withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -89,7 +84,7 @@ references:
   nameWithType: HasSubnet.UpdateStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.UpdateStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -109,10 +104,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -126,6 +118,6 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateStages.WithSubnet
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateStages.WithSubnet
   type: Interface
-  summary: <p>The stage of an application gateway IP configuration update allowing to modify the subnet the application gateway is part of. </p>
+  summary: "<p>The stage of an application gateway IP configuration update allowing to modify the subnet the application gateway is part of. </p>"
   syntax:
     content: public interface WithSubnet

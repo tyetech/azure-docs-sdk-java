@@ -70,7 +70,7 @@ references:
   nameWithType: BuildTask.BuildTaskDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
   type: Interface
-  summary: <p>Grouping of the container register build task definitions. </p>
+  summary: "<p>Grouping of the container register build task definitions. </p>"
   syntax:
     content: public interface BuildTaskDefinition extends BuildTask.DefinitionStages.Blank,BuildTask.DefinitionStages.WithOSType,BuildTask.DefinitionStages.WithSourceControlType,BuildTask.DefinitionStages.WithRepositoryUrl,BuildTask.DefinitionStages.WithAuthenticationTokenType,BuildTask.DefinitionStages.WithAuthenticationToken,BuildTask.DefinitionStages.WithAlias,BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,BuildTask.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withRepositoryUrl(String)
@@ -80,10 +80,7 @@ references:
   nameWithType: BuildTaskImpl.withRepositoryUrl(String repositoryUrl)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withRepositoryUrl(String repositoryUrl)
   type: Method
-  summary: >-
-    <p>Specifies the full URL to the source code repository.</p>
-
-    <p></p>
+  summary: "<p>Specifies the full URL to the source code repository.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withRepositoryUrl(String repositoryUrl)
     parameters:

@@ -267,10 +267,7 @@ references:
   nameWithType: PrimaryReplicator.buildReplicaAsync(ReplicaInformation replicaInfo, CancellationToken cancellationToken)
   fullName: system.fabric.PrimaryReplicator.buildReplicaAsync(ReplicaInformation replicaInfo, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>
-
-    <p></p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture buildReplicaAsync(ReplicaInformation replicaInfo, CancellationToken cancellationToken)
     parameters:
@@ -293,10 +290,7 @@ references:
   nameWithType: PrimaryReplicator.onDataLossAsync(CancellationToken cancellationToken)
   fullName: system.fabric.PrimaryReplicator.onDataLossAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>
-
-    <p></p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Boolean> onDataLossAsync(CancellationToken cancellationToken)
     parameters:
@@ -316,14 +310,7 @@ references:
   nameWithType: PrimaryReplicator.removeReplica(long replicaId)
   fullName: system.fabric.PrimaryReplicator.removeReplica(long replicaId)
   type: Method
-  summary: >-
-    <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>
-
-    <p></p>
-
-    <p>
-
-      <b>Remarks:</b> This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>\r\n<p></p>\r\n<p>\r\n  <b>Remarks:</b> This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public void removeReplica(long replicaId)
     parameters:
@@ -337,10 +324,7 @@ references:
   nameWithType: PrimaryReplicator.updateCatchUpReplicaSetConfiguration(ReplicaSetConfiguration currentConfiguration, ReplicaSetConfiguration previousConfiguration)
   fullName: system.fabric.PrimaryReplicator.updateCatchUpReplicaSetConfiguration(ReplicaSetConfiguration currentConfiguration, ReplicaSetConfiguration previousConfiguration)
   type: Method
-  summary: >-
-    <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>
-
-    <p></p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>\r\n<p></p>"
   syntax:
     content: public void updateCatchUpReplicaSetConfiguration(ReplicaSetConfiguration currentConfiguration, ReplicaSetConfiguration previousConfiguration)
     parameters:
@@ -357,14 +341,7 @@ references:
   nameWithType: PrimaryReplicator.updateCurrentReplicaSetConfiguration(ReplicaSetConfiguration currentConfiguration)
   fullName: system.fabric.PrimaryReplicator.updateCurrentReplicaSetConfiguration(ReplicaSetConfiguration currentConfiguration)
   type: Method
-  summary: >-
-    <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>
-
-    <p></p>
-
-    <p>
-
-      <b>Remarks:</b> This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code.</p>\r\n<p></p>\r\n<p>\r\n  <b>Remarks:</b> This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public void updateCurrentReplicaSetConfiguration(ReplicaSetConfiguration currentConfiguration)
     parameters:
@@ -378,12 +355,7 @@ references:
   nameWithType: PrimaryReplicator.waitForCatchUpQuorumAsync(ReplicaSetQuorumMode quorumMode, CancellationToken cancellationToken)
   fullName: system.fabric.PrimaryReplicator.waitForCatchUpQuorumAsync(ReplicaSetQuorumMode quorumMode, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
-
-    <p>For Internal Use Only. </p>
-
-    <p></p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>\r\n<p>For Internal Use Only. </p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture waitForCatchUpQuorumAsync(ReplicaSetQuorumMode quorumMode, CancellationToken cancellationToken)
     parameters:
@@ -406,7 +378,7 @@ references:
   nameWithType: PrimaryReplicator
   fullName: system.fabric.PrimaryReplicator
   type: Interface
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public interface PrimaryReplicator
 - uid: system.fabric.FabricReplicator
@@ -416,12 +388,7 @@ references:
   nameWithType: FabricReplicator
   fullName: system.fabric.FabricReplicator
   type: Class
-  summary: >-
-    <p>Replicates state for high availability and reliability. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provides the default implementation of the <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref>, <xref uid="system.fabric.Replicator" data-throw-if-not-resolved="false">system.fabric.Replicator</xref>, and <xref uid="system.fabric.PrimaryReplicator" data-throw-if-not-resolved="false">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> interface. An instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> for use. </p>
+  summary: "<p>Replicates state for high availability and reliability. </p>\r\n<p>\r\n  <b>Remarks:</b>Provides the default implementation of the <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref>, <xref uid=\"system.fabric.Replicator\" data-throw-if-not-resolved=\"false\">system.fabric.Replicator</xref>, and <xref uid=\"system.fabric.PrimaryReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> interface. An instance of the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> for use. </p>"
   syntax:
     content: public class FabricReplicator implements Replicator
 - uid: system.fabric.FabricReplicator.openAsync(CancellationToken)
@@ -431,7 +398,7 @@ references:
   nameWithType: FabricReplicator.openAsync(CancellationToken cancellationToken)
   fullName: system.fabric.FabricReplicator.openAsync(CancellationToken cancellationToken)
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public CompletableFuture<String> openAsync(CancellationToken cancellationToken)
     parameters:
@@ -448,7 +415,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: system.fabric.FabricReplicator.changeRoleAsync(Epoch,ReplicaRole,CancellationToken)
@@ -458,7 +425,7 @@ references:
   nameWithType: FabricReplicator.changeRoleAsync(Epoch epoch, ReplicaRole role, CancellationToken cancellationToken)
   fullName: system.fabric.FabricReplicator.changeRoleAsync(Epoch epoch, ReplicaRole role, CancellationToken cancellationToken)
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public CompletableFuture changeRoleAsync(Epoch epoch, ReplicaRole role, CancellationToken cancellationToken)
     parameters:
@@ -481,12 +448,7 @@ references:
   nameWithType: Epoch
   fullName: system.fabric.Epoch
   type: Class
-  summary: >-
-    <p>Represents the current version of the partition in Service Fabric. </p>
-
-    <p>
-
-      <b>Remarks:</b>An Epoch is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new Epoch from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid="system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the Epoch as it is usually sufficient to know that the Epoch has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>
+  summary: "<p>Represents the current version of the partition in Service Fabric. </p>\r\n<p>\r\n  <b>Remarks:</b>An Epoch is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new Epoch from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid=\"system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the Epoch as it is usually sufficient to know that the Epoch has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>"
   syntax:
     content: public class Epoch
 - uid: system.fabric.ReplicaRole
@@ -496,12 +458,7 @@ references:
   nameWithType: ReplicaRole
   fullName: system.fabric.ReplicaRole
   type: Enum
-  summary: >-
-    <p>Indicates the role of a stateful service replica. </p>
-
-    <p>
-
-      <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>
+  summary: "<p>Indicates the role of a stateful service replica. </p>\r\n<p>\r\n  <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>"
   syntax:
     content: public enum ReplicaRole
 - uid: system.fabric.FabricReplicator.closeAsync(CancellationToken)
@@ -511,7 +468,7 @@ references:
   nameWithType: FabricReplicator.closeAsync(CancellationToken cancellationToken)
   fullName: system.fabric.FabricReplicator.closeAsync(CancellationToken cancellationToken)
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public CompletableFuture closeAsync(CancellationToken cancellationToken)
     parameters:
@@ -528,7 +485,7 @@ references:
   nameWithType: FabricReplicator.abort()
   fullName: system.fabric.FabricReplicator.abort()
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public void abort()
 - uid: system.fabric.FabricReplicator.getCurrentProgress()
@@ -538,7 +495,7 @@ references:
   nameWithType: FabricReplicator.getCurrentProgress()
   fullName: system.fabric.FabricReplicator.getCurrentProgress()
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public long getCurrentProgress()
     return:
@@ -551,7 +508,7 @@ references:
   nameWithType: FabricReplicator.getCatchUpCapability()
   fullName: system.fabric.FabricReplicator.getCatchUpCapability()
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public long getCatchUpCapability()
     return:
@@ -564,7 +521,7 @@ references:
   nameWithType: FabricReplicator.updateEpochAsync(Epoch epoch, CancellationToken cancellationToken)
   fullName: system.fabric.FabricReplicator.updateEpochAsync(Epoch epoch, CancellationToken cancellationToken)
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public CompletableFuture updateEpochAsync(Epoch epoch, CancellationToken cancellationToken)
     parameters:

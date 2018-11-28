@@ -109,10 +109,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions.withStart(String start)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions.withStart(String start)
   type: Method
-  summary: >-
-    <p>Starting person id to return (used to list a range of persons).</p>
-
-    <p></p>
+  summary: "<p>Starting person id to return (used to list a range of persons).</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsListDefinitionStages.WithExecute withStart(String start)
     parameters:
@@ -128,10 +125,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions.withTop(Integer top)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions.withTop(Integer top)
   type: Method
-  summary: >-
-    <p>Number of persons to return starting with the person id indicated by the 'start' parameter.</p>
-
-    <p></p>
+  summary: "<p>Number of persons to return starting with the person id indicated by the 'start' parameter.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsListDefinitionStages.WithExecute withTop(Integer top)
     parameters:
@@ -147,7 +141,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinition
@@ -157,7 +151,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsListDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinition
   type: Interface
-  summary: <p>The entirety of list definition. </p>
+  summary: "<p>The entirety of list definition. </p>"
   syntax:
     content: public interface PersonGroupPersonsListDefinition extends PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithPersonGroupId,PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.models.Person
@@ -167,6 +161,6 @@ references:
   nameWithType: Person
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.models.Person
   type: Class
-  summary: <p>Person object. </p>
+  summary: "<p>Person object. </p>"
   syntax:
     content: public class Person extends NameAndUserDataContract

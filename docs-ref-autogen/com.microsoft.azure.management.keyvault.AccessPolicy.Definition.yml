@@ -51,10 +51,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyAllPermissions()
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyAllPermissions()
   type: Method
-  summary: >-
-    <p>Allow all permissions for the AD identity to access keys.</p>
-
-    <p></p>
+  summary: "<p>Allow all permissions for the AD identity to access keys.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowKeyAllPermissions()
     return:
@@ -67,10 +64,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(KeyPermissions... permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(KeyPermissions... permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access keys.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access keys.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowKeyPermissions(KeyPermissions... permissions)
     parameters:
@@ -87,10 +81,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(List<KeyPermissions> permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowKeyPermissions(List<KeyPermissions> permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access keys.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access keys.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowKeyPermissions(List<KeyPermissions> permissions)
     parameters:
@@ -107,10 +98,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretAllPermissions()
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretAllPermissions()
   type: Method
-  summary: >-
-    <p>Allow all permissions for the AD identity to access secrets.</p>
-
-    <p></p>
+  summary: "<p>Allow all permissions for the AD identity to access secrets.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowSecretAllPermissions()
     return:
@@ -123,10 +111,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(SecretPermissions... permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(SecretPermissions... permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access secrets.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access secrets.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowSecretPermissions(SecretPermissions... permissions)
     parameters:
@@ -143,10 +128,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithPermissions<ParentT>.allowSecretPermissions(List<SecretPermissions> permissions)
   type: Method
-  summary: >-
-    <p>Allow a list of permissions for the AD identity to access secrets.</p>
-
-    <p></p>
+  summary: "<p>Allow a list of permissions for the AD identity to access secrets.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> allowSecretPermissions(List<SecretPermissions> permissions)
     parameters:
@@ -163,7 +145,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -176,10 +158,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forGroup(ActiveDirectoryGroup activeDirectoryGroup)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forGroup(ActiveDirectoryGroup activeDirectoryGroup)
   type: Method
-  summary: >-
-    <p>Specifies the Active Directory group this access policy is for.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Active Directory group this access policy is for.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> forGroup(ActiveDirectoryGroup activeDirectoryGroup)
     parameters:
@@ -196,10 +175,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forObjectId(String objectId)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forObjectId(String objectId)
   type: Method
-  summary: >-
-    <p>Specifies the object ID of the Active Directory identity this access policy is for.</p>
-
-    <p></p>
+  summary: "<p>Specifies the object ID of the Active Directory identity this access policy is for.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> forObjectId(String objectId)
     parameters:
@@ -216,10 +192,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forServicePrincipal(ServicePrincipal servicePrincipal)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forServicePrincipal(ServicePrincipal servicePrincipal)
   type: Method
-  summary: >-
-    <p>Specifies the Active Directory service principal this access policy is for.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Active Directory service principal this access policy is for.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> forServicePrincipal(ServicePrincipal servicePrincipal)
     parameters:
@@ -236,10 +209,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forServicePrincipal(String servicePrincipalName)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forServicePrincipal(String servicePrincipalName)
   type: Method
-  summary: >-
-    <p>Specifies the Active Directory service principal this access policy is for.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Active Directory service principal this access policy is for.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> forServicePrincipal(String servicePrincipalName)
     parameters:
@@ -256,10 +226,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forUser(ActiveDirectoryUser user)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forUser(ActiveDirectoryUser user)
   type: Method
-  summary: >-
-    <p>Specifies the Active Directory user this access policy is for.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Active Directory user this access policy is for.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> forUser(ActiveDirectoryUser user)
     parameters:
@@ -276,10 +243,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forUser(String userPrincipalName)
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithIdentity<ParentT>.forUser(String userPrincipalName)
   type: Method
-  summary: >-
-    <p>Specifies the Active Directory user this access policy is for.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Active Directory user this access policy is for.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> forUser(String userPrincipalName)
     parameters:
@@ -296,10 +260,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of an access policy definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of an access policy definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends AccessPolicy.DefinitionStages.WithIdentity<ParentT>
     typeParameters:
@@ -313,10 +274,7 @@ references:
   nameWithType: AccessPolicy.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.keyvault.AccessPolicy.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the access policy definition. </p>
-
-    <p>At this stage, more permissions can be added or application ID can be specified, or the access policy definition can be attached to the parent key vault definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the access policy definition. </p>\r\n<p>At this stage, more permissions can be added or application ID can be specified, or the access policy definition can be attached to the parent key vault definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -330,7 +288,7 @@ references:
   nameWithType: Attachable<ParentT>.attach()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.attach()
   type: Method
-  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  summary: "<p>Attaches this child object's definition to its parent's definition. </p>"
   syntax:
     content: public ParentT attach()
     return:

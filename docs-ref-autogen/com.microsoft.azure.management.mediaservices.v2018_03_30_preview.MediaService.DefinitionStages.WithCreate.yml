@@ -31,7 +31,7 @@ references:
   nameWithType: MediaService.DefinitionStages.WithStorageAccounts.withStorageAccounts(List<StorageAccount> storageAccounts)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.MediaService.DefinitionStages.WithStorageAccounts.withStorageAccounts(List<StorageAccount> storageAccounts)
   type: Method
-  summary: <p>Specifies storageAccounts. </p>
+  summary: "<p>Specifies storageAccounts. </p>"
   syntax:
     content: public WithCreate withStorageAccounts(List<StorageAccount> storageAccounts)
     parameters:
@@ -46,7 +46,7 @@ references:
   nameWithType: MediaService.DefinitionStages.WithStorageAccounts
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.MediaService.DefinitionStages.WithStorageAccounts
   type: Interface
-  summary: <p>The stage of the mediaservice update allowing to specify StorageAccounts. </p>
+  summary: "<p>The stage of the mediaservice update allowing to specify StorageAccounts. </p>"
   syntax:
     content: public interface WithStorageAccounts
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.MediaService.Definition
@@ -56,6 +56,6 @@ references:
   nameWithType: MediaService.Definition
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.MediaService.Definition
   type: Interface
-  summary: <p>The entirety of the MediaService definition. </p>
+  summary: "<p>The entirety of the MediaService definition. </p>"
   syntax:
     content: public interface Definition extends MediaService.DefinitionStages.Blank,MediaService.DefinitionStages.WithGroup,MediaService.DefinitionStages.WithCreate

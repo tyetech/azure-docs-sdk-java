@@ -44,7 +44,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -57,7 +57,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAffinity<ParentT>.withCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAffinity<ParentT>.withCookieBasedAffinity()
   type: Method
-  summary: <p>Enables cookie based affinity. </p>
+  summary: "<p>Enables cookie based affinity. </p>"
   syntax:
     content: public WithAttach<ParentT> withCookieBasedAffinity()
     return:
@@ -70,7 +70,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAffinity<ParentT>.withoutCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAffinity<ParentT>.withoutCookieBasedAffinity()
   type: Method
-  summary: <p>Disables cookie based affinity. </p>
+  summary: "<p>Disables cookie based affinity. </p>"
   syntax:
     content: public WithAttach<ParentT> withoutCookieBasedAffinity()
     return:
@@ -83,7 +83,7 @@ references:
   nameWithType: HasPort.UpdateDefinitionStages.WithPort<ReturnT>.withPort(int portNumber)
   fullName: com.microsoft.azure.management.network.model.HasPort.UpdateDefinitionStages.WithPort<ReturnT>.withPort(int portNumber)
   type: Method
-  summary: <p>Specifies the port number. </p>
+  summary: "<p>Specifies the port number. </p>"
   syntax:
     content: public ReturnT withPort(int portNumber)
     parameters:
@@ -100,7 +100,7 @@ references:
   nameWithType: HasProtocol.UpdateDefinitionStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateDefinitionStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -117,7 +117,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithRequestTimeout<ParentT>.withRequestTimeout(int seconds)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithRequestTimeout<ParentT>.withRequestTimeout(int seconds)
   type: Method
-  summary: <p>Specifies the request timeout. </p>
+  summary: "<p>Specifies the request timeout. </p>"
   syntax:
     content: public WithAttach<ParentT> withRequestTimeout(int seconds)
     parameters:
@@ -134,7 +134,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
@@ -148,7 +148,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithPort<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithPort<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to specify the port number. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to specify the port number. </p>"
   syntax:
     content: public interface WithPort<ParentT>
     typeParameters:
@@ -162,7 +162,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAffinity<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAffinity<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to enable or disable cookie based affinity. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to enable or disable cookie based affinity. </p>"
   syntax:
     content: public interface WithAffinity<ParentT>
     typeParameters:
@@ -176,7 +176,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to specify the protocol. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to specify the protocol. </p>"
   syntax:
     content: public interface WithProtocol<ParentT>
     typeParameters:
@@ -190,7 +190,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithRequestTimeout<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithRequestTimeout<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to specify the request timeout. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to specify the request timeout. </p>"
   syntax:
     content: public interface WithRequestTimeout<ParentT>
     typeParameters:
@@ -204,7 +204,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway backend HTTP configuration definition as part of an application gateway update. </p>
+  summary: "<p>The entirety of an application gateway backend HTTP configuration definition as part of an application gateway update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.Blank<ParentT>,ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -218,7 +218,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway backend HTTP configuration definition. </p>
+  summary: "<p>The first stage of an application gateway backend HTTP configuration definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:

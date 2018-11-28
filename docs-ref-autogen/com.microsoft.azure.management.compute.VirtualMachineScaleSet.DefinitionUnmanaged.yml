@@ -85,10 +85,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -101,10 +98,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -121,10 +115,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -137,10 +128,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithExtension.defineNewExtension(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithExtension.defineNewExtension(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public VirtualMachineScaleSetExtension.DefinitionStages.Blank<WithCreate> defineNewExtension(String name)
     parameters:
@@ -181,10 +169,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminPasswordUnmanaged.withAdminPassword(String adminPassword)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminPasswordUnmanaged.withAdminPassword(String adminPassword)
   type: Method
-  summary: >-
-    <p>Specifies the administrator password for the Windows virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies the administrator password for the Windows virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateUnmanaged withAdminPassword(String adminPassword)
     parameters:
@@ -201,10 +186,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged.withAdminUsername(String adminUserName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged.withAdminUsername(String adminUserName)
   type: Method
-  summary: >-
-    <p>Specifies the administrator user name for the Windows virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies the administrator user name for the Windows virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminPasswordUnmanaged withAdminUsername(String adminUserName)
     parameters:
@@ -221,10 +203,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withAutoUpdate()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withAutoUpdate()
   type: Method
-  summary: >-
-    <p>Enables automatic updates.</p>
-
-    <p></p>
+  summary: "<p>Enables automatic updates.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateUnmanaged withAutoUpdate()
     return:
@@ -237,10 +216,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCapacity.withCapacity(int capacity)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCapacity.withCapacity(int capacity)
   type: Method
-  summary: >-
-    <p>Specifies the maximum number of virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum number of virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCapacity(int capacity)
     parameters:
@@ -257,10 +233,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix.withComputerNamePrefix(String namePrefix)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix.withComputerNamePrefix(String namePrefix)
   type: Method
-  summary: >-
-    <p>Specifies the name prefix to use for auto-generating the names for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name prefix to use for auto-generating the names for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withComputerNamePrefix(String namePrefix)
     parameters:
@@ -277,10 +250,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCustomData.withCustomData(String base64EncodedCustomData)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCustomData.withCustomData(String base64EncodedCustomData)
   type: Method
-  summary: >-
-    <p>Specifies the custom data for the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the custom data for the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCustomData(String base64EncodedCustomData)
     parameters:
@@ -297,12 +267,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer.withExistingPrimaryInternalLoadBalancer(LoadBalancer loadBalancer)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer.withExistingPrimaryInternalLoadBalancer(LoadBalancer loadBalancer)
   type: Method
-  summary: >-
-    <p>Specifies the internal load balancer whose backends and/or NAT pools can be assigned to the primary network interface of the virtual machines in the scale set. </p>
-
-    <p>By default all the backends and inbound NAT pools of the load balancer will be associated with the primary network interface of the virtual machines in the scale set, unless subset of them is selected in the next stages. </p>
-
-    <p></p>
+  summary: "<p>Specifies the internal load balancer whose backends and/or NAT pools can be assigned to the primary network interface of the virtual machines in the scale set. </p>\r\n<p>By default all the backends and inbound NAT pools of the load balancer will be associated with the primary network interface of the virtual machines in the scale set, unless subset of them is selected in the next stages. </p>\r\n<p></p>"
   syntax:
     content: public WithInternalLoadBalancerBackendOrNatPool withExistingPrimaryInternalLoadBalancer(LoadBalancer loadBalancer)
     parameters:
@@ -319,12 +284,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer.withExistingPrimaryInternetFacingLoadBalancer(LoadBalancer loadBalancer)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer.withExistingPrimaryInternetFacingLoadBalancer(LoadBalancer loadBalancer)
   type: Method
-  summary: >-
-    <p>Specifies an Internet-facing load balancer whose backends and/or NAT pools can be assigned to the primary network interfaces of the virtual machines in the scale set. </p>
-
-    <p>By default, all the backends and inbound NAT pools of the load balancer will be associated with the primary network interface of the scale set virtual machines. </p>
-
-    <p></p>
+  summary: "<p>Specifies an Internet-facing load balancer whose backends and/or NAT pools can be assigned to the primary network interfaces of the virtual machines in the scale set. </p>\r\n<p>By default, all the backends and inbound NAT pools of the load balancer will be associated with the primary network interface of the scale set virtual machines. </p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryInternetFacingLoadBalancerBackendOrNatPool withExistingPrimaryInternetFacingLoadBalancer(LoadBalancer loadBalancer)
     parameters:
@@ -341,10 +301,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet.withExistingPrimaryNetworkSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet.withExistingPrimaryNetworkSubnet(Network network, String subnetName)
   type: Method
-  summary: >-
-    <p>Associate an existing virtual network subnet with the primary network interface of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Associate an existing virtual network subnet with the primary network interface of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryInternetFacingLoadBalancer withExistingPrimaryNetworkSubnet(Network network, String subnetName)
     parameters:
@@ -364,10 +321,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>Specifies an existing storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies an existing storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -384,10 +338,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withLatestLinuxImage(String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withLatestLinuxImage(String publisher, String offer, String sku)
   type: Method
-  summary: >-
-    <p>Specifies that the latest version of a marketplace Linux image should be used.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the latest version of a marketplace Linux image should be used.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManagedOrUnmanaged withLatestLinuxImage(String publisher, String offer, String sku)
     parameters:
@@ -410,10 +361,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withLatestWindowsImage(String publisher, String offer, String sku)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withLatestWindowsImage(String publisher, String offer, String sku)
   type: Method
-  summary: >-
-    <p>Specifies that the latest version of the specified marketplace Windows image should be used.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the latest version of the specified marketplace Windows image should be used.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManagedOrUnmanaged withLatestWindowsImage(String publisher, String offer, String sku)
     parameters:
@@ -436,10 +384,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withLinuxCustomImage(String customImageId)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withLinuxCustomImage(String customImageId)
   type: Method
-  summary: >-
-    <p>Specifies the ID of a Linux custom image to be used.</p>
-
-    <p></p>
+  summary: "<p>Specifies the ID of a Linux custom image to be used.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManaged withLinuxCustomImage(String customImageId)
     parameters:
@@ -456,10 +401,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity()
     return:
@@ -472,10 +414,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity(int tokenPort)
     parameters:
@@ -492,10 +431,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(String name)
     parameters:
@@ -512,10 +448,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(Creatable<StorageAccount> creatable)
     parameters:
@@ -532,10 +465,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the caching type for the operating system disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the caching type for the operating system disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskCaching(CachingTypes cachingType)
     parameters:
@@ -552,10 +482,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   type: Method
-  summary: >-
-    <p>Specifies the name for the OS disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name for the OS disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskName(String name)
     parameters:
@@ -572,10 +499,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withoutAutoUpdate()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withoutAutoUpdate()
   type: Method
-  summary: >-
-    <p>Disables automatic updates.</p>
-
-    <p></p>
+  summary: "<p>Disables automatic updates.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateUnmanaged withoutAutoUpdate()
     return:
@@ -588,10 +512,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()
   type: Method
-  summary: >-
-    <p>Disables over-provisioning of virtual machines.</p>
-
-    <p></p>
+  summary: "<p>Disables over-provisioning of virtual machines.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withoutOverProvisioning()
     return:
@@ -604,10 +525,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer.withoutPrimaryInternalLoadBalancer()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer.withoutPrimaryInternalLoadBalancer()
   type: Method
-  summary: >-
-    <p>Specifies that no internal load balancer should be associated with the primary network interfaces of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that no internal load balancer should be associated with the primary network interfaces of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withoutPrimaryInternalLoadBalancer()
     return:
@@ -620,10 +538,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer.withoutPrimaryInternetFacingLoadBalancer()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer.withoutPrimaryInternetFacingLoadBalancer()
   type: Method
-  summary: >-
-    <p>Specifies that no public load balancer should be associated with the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that no public load balancer should be associated with the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryInternalLoadBalancer withoutPrimaryInternetFacingLoadBalancer()
     return:
@@ -636,10 +551,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withoutVMAgent()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withoutVMAgent()
   type: Method
-  summary: >-
-    <p>Disables the VM agent.</p>
-
-    <p></p>
+  summary: "<p>Disables the VM agent.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateUnmanaged withoutVMAgent()
     return:
@@ -652,10 +564,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean enabled)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean enabled)
   type: Method
-  summary: >-
-    <p>Enables or disables over-provisioning of virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Enables or disables over-provisioning of virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOverProvision(boolean enabled)
     parameters:
@@ -672,10 +581,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvisioning()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvisioning()
   type: Method
-  summary: >-
-    <p>Enables over-provisioning of virtual machines.</p>
-
-    <p></p>
+  summary: "<p>Enables over-provisioning of virtual machines.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOverProvisioning()
     return:
@@ -688,10 +594,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
   type: Method
-  summary: >-
-    <p>Specifies a known marketplace Linux image used as the virtual machine's operating system.</p>
-
-    <p></p>
+  summary: "<p>Specifies a known marketplace Linux image used as the virtual machine's operating system.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManagedOrUnmanaged withPopularLinuxImage(KnownLinuxVirtualMachineImage knownImage)
     parameters:
@@ -708,10 +611,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
   type: Method
-  summary: >-
-    <p>Specifies a known marketplace Windows image used as the operating system for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies a known marketplace Windows image used as the operating system for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManagedOrUnmanaged withPopularWindowsImage(KnownWindowsVirtualMachineImage knownImage)
     parameters:
@@ -728,10 +628,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithInternalLoadBalancerBackendOrNatPool.withPrimaryInternalLoadBalancerBackends(String...backendNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithInternalLoadBalancerBackendOrNatPool.withPrimaryInternalLoadBalancerBackends(String...backendNames)
   type: Method
-  summary: >-
-    <p>Associates the specified backends of the selected load balancer with the primary network interface of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Associates the specified backends of the selected load balancer with the primary network interface of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithInternalInternalLoadBalancerNatPool withPrimaryInternalLoadBalancerBackends(String...backendNames)
     parameters:
@@ -748,10 +645,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool.withPrimaryInternalLoadBalancerInboundNatPools(String...natPoolNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool.withPrimaryInternalLoadBalancerInboundNatPools(String...natPoolNames)
   type: Method
-  summary: >-
-    <p>Associate internal load balancer inbound NAT pools with the the primary network interface of the scale set virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Associate internal load balancer inbound NAT pools with the the primary network interface of the scale set virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithOS withPrimaryInternalLoadBalancerInboundNatPools(String...natPoolNames)
     parameters:
@@ -768,10 +662,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool.withPrimaryInternetFacingLoadBalancerBackends(String...backendNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool.withPrimaryInternetFacingLoadBalancerBackends(String...backendNames)
   type: Method
-  summary: >-
-    <p>Associates the specified backends of the selected load balancer with the primary network interface of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Associates the specified backends of the selected load balancer with the primary network interface of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryInternetFacingLoadBalancerNatPool withPrimaryInternetFacingLoadBalancerBackends(String...backendNames)
     parameters:
@@ -788,10 +679,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerNatPool.withPrimaryInternetFacingLoadBalancerInboundNatPools(String...natPoolNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerNatPool.withPrimaryInternetFacingLoadBalancerInboundNatPools(String...natPoolNames)
   type: Method
-  summary: >-
-    <p>Associates the specified inbound NAT pools of the selected internal load balancer with the primary network interface of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Associates the specified inbound NAT pools of the selected internal load balancer with the primary network interface of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryInternalLoadBalancer withPrimaryInternetFacingLoadBalancerInboundNatPools(String...natPoolNames)
     parameters:
@@ -808,10 +696,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged.withRootPassword(String rootPassword)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged.withRootPassword(String rootPassword)
   type: Method
-  summary: >-
-    <p>Specifies the SSH root password for the Linux virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SSH root password for the Linux virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxCreateUnmanaged withRootPassword(String rootPassword)
     parameters:
@@ -828,10 +713,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged.withRootUsername(String rootUserName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged.withRootUsername(String rootUserName)
   type: Method
-  summary: >-
-    <p>Specifies the SSH root user name for the Linux virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SSH root user name for the Linux virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootPasswordOrPublicKeyUnmanaged withRootUsername(String rootUserName)
     parameters:
@@ -848,10 +730,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithSku.withSku(VirtualMachineScaleSetSkuTypes skuType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithSku.withSku(VirtualMachineScaleSetSkuTypes skuType)
   type: Method
-  summary: >-
-    <p>Specifies the SKU for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithNetworkSubnet withSku(VirtualMachineScaleSetSkuTypes skuType)
     parameters:
@@ -868,10 +747,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithSku.withSku(VirtualMachineScaleSetSku sku)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithSku.withSku(VirtualMachineScaleSetSku sku)
   type: Method
-  summary: >-
-    <p>Specifies the SKU for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithNetworkSubnet withSku(VirtualMachineScaleSetSku sku)
     parameters:
@@ -888,10 +764,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withSpecificLinuxImageVersion(ImageReference imageReference)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withSpecificLinuxImageVersion(ImageReference imageReference)
   type: Method
-  summary: >-
-    <p>Specifies the specific version of a market-place Linux image that should be used.</p>
-
-    <p></p>
+  summary: "<p>Specifies the specific version of a market-place Linux image that should be used.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameManagedOrUnmanaged withSpecificLinuxImageVersion(ImageReference imageReference)
     parameters:
@@ -908,10 +781,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withSpecificWindowsImageVersion(ImageReference imageReference)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withSpecificWindowsImageVersion(ImageReference imageReference)
   type: Method
-  summary: >-
-    <p>Specifies the specific version of a marketplace Windows image needs to be used.</p>
-
-    <p></p>
+  summary: "<p>Specifies the specific version of a marketplace Windows image needs to be used.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManagedOrUnmanaged withSpecificWindowsImageVersion(ImageReference imageReference)
     parameters:
@@ -928,12 +798,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged.withSsh(String publicKey)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged.withSsh(String publicKey)
   type: Method
-  summary: >-
-    <p>Specifies the SSH public key. </p>
-
-    <p>Each call to this method adds the given public key to the list of VM's public keys.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SSH public key. </p>\r\n<p>Each call to this method adds the given public key to the list of VM's public keys.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxCreateUnmanaged withSsh(String publicKey)
     parameters:
@@ -950,12 +815,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxCreateUnmanaged.withSsh(String publicKey)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxCreateUnmanaged.withSsh(String publicKey)
   type: Method
-  summary: >-
-    <p>Specifies the SSH public key. </p>
-
-    <p>Each call to this method adds the given public key to the list of VM's public keys.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SSH public key. </p>\r\n<p>Each call to this method adds the given public key to the list of VM's public keys.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxCreateUnmanaged withSsh(String publicKey)
     parameters:
@@ -972,10 +832,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withStoredLinuxImage(String imageUrl)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withStoredLinuxImage(String imageUrl)
   type: Method
-  summary: >-
-    <p>Specifies the user (custom) Linux image used as the virtual machine's operating system.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user (custom) Linux image used as the virtual machine's operating system.</p>\r\n<p></p>"
   syntax:
     content: public WithLinuxRootUsernameUnmanaged withStoredLinuxImage(String imageUrl)
     parameters:
@@ -992,10 +849,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withStoredWindowsImage(String imageUrl)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withStoredWindowsImage(String imageUrl)
   type: Method
-  summary: >-
-    <p>Specifies the user (custom) Windows image to be used as the operating system for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user (custom) Windows image to be used as the operating system for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameUnmanaged withStoredWindowsImage(String imageUrl)
     parameters:
@@ -1012,7 +866,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -1032,7 +886,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -1049,10 +903,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withTimeZone(String timeZone)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withTimeZone(String timeZone)
   type: Method
-  summary: >-
-    <p>Specifies the time zone for the virtual machines to use.</p>
-
-    <p></p>
+  summary: "<p>Specifies the time zone for the virtual machines to use.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateUnmanaged withTimeZone(String timeZone)
     parameters:
@@ -1069,10 +920,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy.withUpgradeMode(UpgradeMode upgradeMode)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy.withUpgradeMode(UpgradeMode upgradeMode)
   type: Method
-  summary: >-
-    <p>Specifies the virtual machine scale set upgrade policy mode.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual machine scale set upgrade policy mode.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withUpgradeMode(UpgradeMode upgradeMode)
     parameters:
@@ -1089,10 +937,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withVMAgent()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withVMAgent()
   type: Method
-  summary: >-
-    <p>Enables the VM agent.</p>
-
-    <p></p>
+  summary: "<p>Enables the VM agent.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateUnmanaged withVMAgent()
     return:
@@ -1105,10 +950,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOS.withWindowsCustomImage(String customImageId)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOS.withWindowsCustomImage(String customImageId)
   type: Method
-  summary: >-
-    <p>Specifies the ID of a Windows custom image to be used.</p>
-
-    <p></p>
+  summary: "<p>Specifies the ID of a Windows custom image to be used.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsAdminUsernameManaged withWindowsCustomImage(String customImageId)
     parameters:
@@ -1125,12 +967,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withWinRM(WinRMListener listener)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged.withWinRM(WinRMListener listener)
   type: Method
-  summary: >-
-    <p>Specifies the WinRM listener. </p>
-
-    <p>Each call to this method adds the given listener to the list of VM's WinRM listeners.</p>
-
-    <p></p>
+  summary: "<p>Specifies the WinRM listener. </p>\r\n<p>Each call to this method adds the given listener to the list of VM's WinRM listeners.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateUnmanaged withWinRM(WinRMListener listener)
     parameters:
@@ -1147,7 +984,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachineScaleSet.DefinitionStages.Blank,VirtualMachineScaleSet.DefinitionStages.WithGroup,VirtualMachineScaleSet.DefinitionStages.WithSku,VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithOS,VirtualMachineScaleSet.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged
@@ -1157,7 +994,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged
   type: Interface
-  summary: <p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>
+  summary: "<p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>"
   syntax:
     content: public interface WithLinuxRootUsernameUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged
@@ -1167,7 +1004,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged
   type: Interface
-  summary: <p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root password or public key. </p>
+  summary: "<p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root password or public key. </p>"
   syntax:
     content: public interface WithLinuxRootPasswordOrPublicKeyUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged
@@ -1177,7 +1014,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged
   type: Interface
-  summary: <p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>
+  summary: "<p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminUsernameUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminPasswordUnmanaged
@@ -1187,7 +1024,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminPasswordUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminPasswordUnmanaged
   type: Interface
-  summary: <p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>
+  summary: "<p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminPasswordUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxCreateUnmanaged
@@ -1197,7 +1034,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxCreateUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxCreateUnmanaged
   type: Interface
-  summary: <p>The stage of a Linux virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of a Linux virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithLinuxCreateUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged
@@ -1207,7 +1044,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged
   type: Interface
-  summary: <p>The stage of a Windows virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of a Windows virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithWindowsCreateUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUnmanagedCreate
@@ -1217,6 +1054,6 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithUnmanagedCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUnmanagedCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the VM scale set to be created and optionally allow unmanaged data disks specific settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the VM scale set to be created and optionally allow unmanaged data disks specific settings to be specified. </p>"
   syntax:
     content: public interface WithUnmanagedCreate

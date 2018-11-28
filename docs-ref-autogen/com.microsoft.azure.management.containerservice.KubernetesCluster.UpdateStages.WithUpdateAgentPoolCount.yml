@@ -104,7 +104,7 @@ references:
   nameWithType: KubernetesCluster.Update
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount,KubernetesCluster.UpdateStages.WithAddOnProfiles,KubernetesCluster.UpdateStages.WithNetworkProfile,KubernetesCluster.UpdateStages.WithRBAC,Resource.UpdateWithTags<KubernetesCluster.Update>,Appliable<KubernetesCluster>
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withAgentPoolVirtualMachineCount(String,int)
@@ -114,10 +114,7 @@ references:
   nameWithType: KubernetesClusterImpl.withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
   type: Method
-  summary: >-
-    <p>Updates the agent pool virtual machine count.</p>
-
-    <p></p>
+  summary: "<p>Updates the agent pool virtual machine count.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withAgentPoolVirtualMachineCount(String agentPoolName, int agentCount)
     parameters:
@@ -137,10 +134,7 @@ references:
   nameWithType: KubernetesClusterImpl.withAgentPoolVirtualMachineCount(int agentCount)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withAgentPoolVirtualMachineCount(int agentCount)
   type: Method
-  summary: >-
-    <p>Updates all the agent pools virtual machine count.</p>
-
-    <p></p>
+  summary: "<p>Updates all the agent pools virtual machine count.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withAgentPoolVirtualMachineCount(int agentCount)
     parameters:

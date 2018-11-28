@@ -196,12 +196,7 @@ references:
   nameWithType: SupportsCreating<T>.define(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating<T>.define(String name)
   type: Method
-  summary: >-
-    <p>Begins a definition for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref>. </p>
-
-    <p>Note that the <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word "with", for example:  and return the next stage of the resource definition, as an interface in the "fluent interface" style. </p>
+  summary: "<p>Begins a definition for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref>. </p>\r\n<p>Note that the <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word \"with\", for example:  and return the next stage of the resource definition, as an interface in the \"fluent interface\" style. </p>"
   syntax:
     content: public T define(String name)
     parameters:
@@ -218,10 +213,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.deleteById(String id)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.deleteById(String id)
   type: Method
-  summary: >-
-    <p>Deletes a child resource from Azure SQL server, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Deletes a child resource from Azure SQL server, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public void deleteById(String id)
     parameters:
@@ -235,10 +227,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.deleteByIdAsync(String id)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.deleteByIdAsync(String id)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a child resource from Azure SQL server, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a child resource from Azure SQL server, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteByIdAsync(String id)
     parameters:
@@ -255,10 +244,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.deleteBySqlServer(String resourceGroupName, String sqlServerName, String name)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.deleteBySqlServer(String resourceGroupName, String sqlServerName, String name)
   type: Method
-  summary: >-
-    <p>Deletes a child resource from Azure SQL server, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Deletes a child resource from Azure SQL server, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public void deleteBySqlServer(String resourceGroupName, String sqlServerName, String name)
     parameters:
@@ -278,10 +264,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.deleteBySqlServerAsync(String resourceGroupName, String sqlServerName, String name)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.deleteBySqlServerAsync(String resourceGroupName, String sqlServerName, String name)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a child resource from Azure SQL server, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a child resource from Azure SQL server, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteBySqlServerAsync(String resourceGroupName, String sqlServerName, String name)
     parameters:
@@ -304,10 +287,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.getById(String id)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.getById(String id)
   type: Method
-  summary: >-
-    <p>Gets the information about a child resource from Azure SQL server using the resource ID.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a child resource from Azure SQL server using the resource ID.</p>\r\n<p></p>"
   syntax:
     content: public T getById(String id)
     parameters:
@@ -324,10 +304,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.getByIdAsync(String id)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.getByIdAsync(String id)
   type: Method
-  summary: >-
-    <p>Asynchronously gets the information about a child resource from Azure SQL server using the resource ID.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously gets the information about a child resource from Azure SQL server using the resource ID.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getByIdAsync(String id)
     parameters:
@@ -344,10 +321,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.getBySqlServer(String resourceGroupName, String sqlServerName, String name)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.getBySqlServer(String resourceGroupName, String sqlServerName, String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public T getBySqlServer(String resourceGroupName, String sqlServerName, String name)
     parameters:
@@ -370,10 +344,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.getBySqlServer(SqlServer sqlServer, String name)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.getBySqlServer(SqlServer sqlServer, String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public T getBySqlServer(SqlServer sqlServer, String name)
     parameters:
@@ -393,10 +364,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.getBySqlServerAsync(String resourceGroupName, String sqlServerName, String name)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.getBySqlServerAsync(String resourceGroupName, String sqlServerName, String name)
   type: Method
-  summary: >-
-    <p>Asynchronously gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getBySqlServerAsync(String resourceGroupName, String sqlServerName, String name)
     parameters:
@@ -419,10 +387,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.getBySqlServerAsync(SqlServer sqlServer, String name)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.getBySqlServerAsync(SqlServer sqlServer, String name)
   type: Method
-  summary: >-
-    <p>Asynchronously gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously gets the information about a child resource from Azure SQL server, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getBySqlServerAsync(SqlServer sqlServer, String name)
     parameters:
@@ -442,10 +407,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.listBySqlServer(String resourceGroupName, String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.listBySqlServer(String resourceGroupName, String sqlServerName)
   type: Method
-  summary: >-
-    <p>Lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public List<T> listBySqlServer(String resourceGroupName, String sqlServerName)
     parameters:
@@ -465,10 +427,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.listBySqlServer(SqlServer sqlServer)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.listBySqlServer(SqlServer sqlServer)
   type: Method
-  summary: >-
-    <p>Lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public List<T> listBySqlServer(SqlServer sqlServer)
     parameters:
@@ -485,10 +444,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.listBySqlServerAsync(String resourceGroupName, String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.listBySqlServerAsync(String resourceGroupName, String sqlServerName)
   type: Method
-  summary: >-
-    <p>Asynchronously lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listBySqlServerAsync(String resourceGroupName, String sqlServerName)
     parameters:
@@ -508,10 +464,7 @@ references:
   nameWithType: SqlChildrenOperations<T>.listBySqlServerAsync(SqlServer sqlServer)
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>.listBySqlServerAsync(SqlServer sqlServer)
   type: Method
-  summary: >-
-    <p>Asynchronously lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously lists Azure SQL child resources of the specified Azure SQL server in the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listBySqlServerAsync(SqlServer sqlServer)
     parameters:
@@ -528,10 +481,7 @@ references:
   nameWithType: SupportsCreating<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating<T>
   type: Interface
-  summary: >-
-    <p>Providing access to creating Azure top level resources. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code) </p>
+  summary: "<p>Providing access to creating Azure top level resources. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code) </p>"
   syntax:
     content: public interface SupportsCreating<T>
     typeParameters:
@@ -545,10 +495,7 @@ references:
   nameWithType: SqlChildrenOperations<T>
   fullName: com.microsoft.azure.management.sql.SqlChildrenOperations<T>
   type: Interface
-  summary: >-
-    <p>Base class for Azure SQL Server child resource operations.</p>
-
-    <p></p>
+  summary: "<p>Base class for Azure SQL Server child resource operations.</p>\r\n<p></p>"
   syntax:
     content: public interface SqlChildrenOperations<T>
     typeParameters:

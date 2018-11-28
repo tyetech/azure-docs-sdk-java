@@ -707,12 +707,7 @@ references:
   nameWithType: FabricActor
   fullName: microsoft.servicefabric.actors.runtime.FabricActor
   type: Class
-  summary: >-
-    <p>Represents a actor that can have multiple reliable 'named' states associated with it. <xref uid="microsoft.servicefabric.actors.runtime.ActorBase" data-throw-if-not-resolved="false">ActorBase</xref></p>
-
-    <p>
-
-      <b>Remarks:</b>The state is preserved across actor garbage collections and fail-overs. The storage and retrieval of the state is provided by the actor state provider <xref uid="microsoft.servicefabric.actors.runtime.ActorStateProvider" data-throw-if-not-resolved="false">ActorStateProvider</xref>. </p>
+  summary: "<p>Represents a actor that can have multiple reliable 'named' states associated with it. <xref uid=\"microsoft.servicefabric.actors.runtime.ActorBase\" data-throw-if-not-resolved=\"false\">ActorBase</xref></p>\r\n<p>\r\n  <b>Remarks:</b>The state is preserved across actor garbage collections and fail-overs. The storage and retrieval of the state is provided by the actor state provider <xref uid=\"microsoft.servicefabric.actors.runtime.ActorStateProvider\" data-throw-if-not-resolved=\"false\">ActorStateProvider</xref>. </p>"
   syntax:
     content: public class FabricActor
 - uid: microsoft.servicefabric.actors.runtime.ActorTimer
@@ -722,7 +717,7 @@ references:
   nameWithType: ActorTimer
   fullName: microsoft.servicefabric.actors.runtime.ActorTimer
   type: Interface
-  summary: <p>Represents Timer set on an Actor </p>
+  summary: "<p>Represents Timer set on an Actor </p>"
   syntax:
     content: public interface ActorTimer
 - uid: microsoft.servicefabric.actors.ActorId
@@ -732,7 +727,7 @@ references:
   nameWithType: ActorId
   fullName: microsoft.servicefabric.actors.ActorId
   type: Class
-  summary: <p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, <xref uid="" data-throw-if-not-resolved="false">java.util.UUID</xref> or long. </p>
+  summary: "<p>ActorId represents identity of an actor within an actor service. The actors can be identified by <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.lang.String</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">java.util.UUID</xref> or long. </p>"
   syntax:
     content: public class ActorId
 - uid: microsoft.servicefabric.actors.runtime.FabricActorService
@@ -742,12 +737,7 @@ references:
   nameWithType: FabricActorService
   fullName: microsoft.servicefabric.actors.runtime.FabricActorService
   type: Class
-  summary: >-
-    <p>Represents the base class for Microsoft Service Fabric based reliable actors service. </p>
-
-    <p>
-
-      <b>Remarks:</b>Derive from this class to implement your own custom actor service if you want to override any service level behavior for your actors. </p>
+  summary: "<p>Represents the base class for Microsoft Service Fabric based reliable actors service. </p>\r\n<p>\r\n  <b>Remarks:</b>Derive from this class to implement your own custom actor service if you want to override any service level behavior for your actors. </p>"
   syntax:
     content: public class FabricActorService
 - uid: microsoft.servicefabric.actors.runtime.ActorMethodContext
@@ -757,7 +747,7 @@ references:
   nameWithType: ActorMethodContext
   fullName: microsoft.servicefabric.actors.runtime.ActorMethodContext
   type: Class
-  summary: <p>An <xref uid="microsoft.servicefabric.actors.runtime.ActorMethodContext" data-throw-if-not-resolved="false">ActorMethodContext</xref> contains information about the method that is invoked by actor runtime and is passed as an argument to <xref uid="microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext)" data-throw-if-not-resolved="false">ActorBase#onPreActorMethodAsync(ActorMethodContext)</xref> and <xref uid="microsoft.servicefabric.actors.runtime.ActorBase.onPostActorMethodAsync(ActorMethodContext)" data-throw-if-not-resolved="false">ActorBase#onPostActorMethodAsync(ActorMethodContext)</xref>. </p>
+  summary: "<p>An <xref uid=\"microsoft.servicefabric.actors.runtime.ActorMethodContext\" data-throw-if-not-resolved=\"false\">ActorMethodContext</xref> contains information about the method that is invoked by actor runtime and is passed as an argument to <xref uid=\"microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext)\" data-throw-if-not-resolved=\"false\">ActorBase#onPreActorMethodAsync(ActorMethodContext)</xref> and <xref uid=\"microsoft.servicefabric.actors.runtime.ActorBase.onPostActorMethodAsync(ActorMethodContext)\" data-throw-if-not-resolved=\"false\">ActorBase#onPostActorMethodAsync(ActorMethodContext)</xref>. </p>"
   syntax:
     content: public class ActorMethodContext
 - uid: microsoft.servicefabric.actors.runtime.Remindable
@@ -767,7 +757,7 @@ references:
   nameWithType: Remindable
   fullName: microsoft.servicefabric.actors.runtime.Remindable
   type: Interface
-  summary: <p>Interface which actors that use reminders must implement. </p>
+  summary: "<p>Interface which actors that use reminders must implement. </p>"
   syntax:
     content: public interface Remindable
 - uid: microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext)
@@ -777,12 +767,7 @@ references:
   nameWithType: ActorBase.onPreActorMethodAsync(ActorMethodContext actorMethodContext)
   fullName: microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext actorMethodContext)
   type: Method
-  summary: >-
-    <p>This method is invoked by actor runtime just before invoking an actor method. Override this method for performing any actions prior to an actor method is invoked.</p>
-
-    <p>
-
-      <b>Remarks:</b>This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors.runtime.Remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
+  summary: "<p>This method is invoked by actor runtime just before invoking an actor method. Override this method for performing any actions prior to an actor method is invoked.</p>\r\n<p>\r\n  <b>Remarks:</b>This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid=\"microsoft.servicefabric.actors.runtime.Remindable\" data-throw-if-not-resolved=\"false\">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>"
   syntax: *o1
 - uid: microsoft.servicefabric.actors.runtime.ActorBase.onPostActorMethodAsync(ActorMethodContext)
   parent: microsoft.servicefabric.actors.runtime.ActorBase
@@ -791,12 +776,7 @@ references:
   nameWithType: ActorBase.onPostActorMethodAsync(ActorMethodContext actorMethodContext)
   fullName: microsoft.servicefabric.actors.runtime.ActorBase.onPostActorMethodAsync(ActorMethodContext actorMethodContext)
   type: Method
-  summary: >-
-    <p>This method is invoked by actor runtime an actor method has finished execution. Override this method for performing any actions after an actor method has finished execution.</p>
-
-    <p>
-
-      <b>Remarks:</b> This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors.runtime.Remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
+  summary: "<p>This method is invoked by actor runtime an actor method has finished execution. Override this method for performing any actions after an actor method has finished execution.</p>\r\n<p>\r\n  <b>Remarks:</b> This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid=\"microsoft.servicefabric.actors.runtime.Remindable\" data-throw-if-not-resolved=\"false\">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>"
   syntax: *o2
 - uid: microsoft.servicefabric.actors.runtime.ActorMethodContext.getMethodName()
   parent: microsoft.servicefabric.actors.runtime.ActorMethodContext
@@ -805,10 +785,7 @@ references:
   nameWithType: ActorMethodContext.getMethodName()
   fullName: microsoft.servicefabric.actors.runtime.ActorMethodContext.getMethodName()
   type: Method
-  summary: >-
-    <p>Name of the method invoked by actor runtime.</p>
-
-    <p></p>
+  summary: "<p>Name of the method invoked by actor runtime.</p>\r\n<p></p>"
   syntax:
     content: public String getMethodName()
     return:
@@ -821,7 +798,7 @@ references:
   nameWithType: ActorReminder
   fullName: microsoft.servicefabric.actors.runtime.ActorReminder
   type: Interface
-  summary: <p>Encapsulates Reminder set on an Actor </p>
+  summary: "<p>Encapsulates Reminder set on an Actor </p>"
   syntax:
     content: public interface ActorReminder
 - uid: microsoft.servicefabric.actors.Actor
@@ -831,7 +808,7 @@ references:
   nameWithType: Actor
   fullName: microsoft.servicefabric.actors.Actor
   type: Interface
-  summary: <p>Base interface for inheriting reliable actor interfaces. </p>
+  summary: "<p>Base interface for inheriting reliable actor interfaces. </p>"
   syntax:
     content: public interface Actor
 - uid: microsoft.servicefabric.actors.runtime.ActorStateProvider
@@ -841,6 +818,6 @@ references:
   nameWithType: ActorStateProvider
   fullName: microsoft.servicefabric.actors.runtime.ActorStateProvider
   type: Interface
-  summary: <p>Represents the interface that an actor state provider needs to implement for actor runtime to communicate with it. </p>
+  summary: "<p>Represents the interface that an actor state provider needs to implement for actor runtime to communicate with it. </p>"
   syntax:
     content: public interface ActorStateProvider

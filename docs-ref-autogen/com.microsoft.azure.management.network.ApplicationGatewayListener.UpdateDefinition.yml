@@ -51,7 +51,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -64,7 +64,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithFrontendPort<ParentT>.withFrontendPort(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithFrontendPort<ParentT>.withFrontendPort(String name)
   type: Method
-  summary: <p>Enables the listener to listen on the specified existing frontend port. </p>
+  summary: "<p>Enables the listener to listen on the specified existing frontend port. </p>"
   syntax:
     content: public WithAttach<ParentT> withFrontendPort(String name)
     parameters:
@@ -81,10 +81,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithFrontendPort<ParentT>.withFrontendPort(int portNumber)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithFrontendPort<ParentT>.withFrontendPort(int portNumber)
   type: Method
-  summary: >-
-    <p>Enables the listener to listen on the specified frontend port number. </p>
-
-    <p>If a frontend port for this port number does not yet exist, a new will be created with an auto-generated name. </p>
+  summary: "<p>Enables the listener to listen on the specified frontend port number. </p>\r\n<p>If a frontend port for this port number does not yet exist, a new will be created with an auto-generated name. </p>"
   syntax:
     content: public WithAttach<ParentT> withFrontendPort(int portNumber)
     parameters:
@@ -101,7 +98,7 @@ references:
   nameWithType: HasHostName.UpdateDefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   fullName: com.microsoft.azure.management.network.model.HasHostName.UpdateDefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   type: Method
-  summary: <p>Specifies the host name to reference. </p>
+  summary: "<p>Specifies the host name to reference. </p>"
   syntax:
     content: public ReturnT withHostName(String hostName)
     parameters:
@@ -118,7 +115,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithProtocol<ParentT>.withHttp()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithProtocol<ParentT>.withHttp()
   type: Method
-  summary: <p>Specifies that the listener is for the HTTP protocol. </p>
+  summary: "<p>Specifies that the listener is for the HTTP protocol. </p>"
   syntax:
     content: public WithAttach<ParentT> withHttp()
     return:
@@ -131,7 +128,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithProtocol<ParentT>.withHttps()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithProtocol<ParentT>.withHttps()
   type: Method
-  summary: <p>Specifies that the listener is for the HTTPS protocol. </p>
+  summary: "<p>Specifies that the listener is for the HTTPS protocol. </p>"
   syntax:
     content: public WithSslCertificate<ParentT> withHttps()
     return:
@@ -144,7 +141,7 @@ references:
   nameWithType: HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withoutServerNameIndication()
   type: Method
-  summary: <p>Ensures server name indication (SNI) is not required. </p>
+  summary: "<p>Ensures server name indication (SNI) is not required. </p>"
   syntax:
     content: public ReturnT withoutServerNameIndication()
     return:
@@ -157,10 +154,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithFrontend<ParentT>.withPrivateFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithFrontend<ParentT>.withPrivateFrontend()
   type: Method
-  summary: >-
-    <p>Associates the listener with the application gateway's private (internal) frontend. </p>
-
-    <p>If the private frontend does not exist yet, it will be created under an auto-generated name and associated with the application gateway's subnet. </p>
+  summary: "<p>Associates the listener with the application gateway's private (internal) frontend. </p>\r\n<p>If the private frontend does not exist yet, it will be created under an auto-generated name and associated with the application gateway's subnet. </p>"
   syntax:
     content: public WithFrontendPort<ParentT> withPrivateFrontend()
     return:
@@ -173,10 +167,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithFrontend<ParentT>.withPublicFrontend()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithFrontend<ParentT>.withPublicFrontend()
   type: Method
-  summary: >-
-    <p>Associates the listener with the application gateway's public (Internet-facing) frontend. </p>
-
-    <p>If the public frontend does not exist yet, it will be created under an auto-generated name and associated with the application gateway's public IP address. </p>
+  summary: "<p>Associates the listener with the application gateway's public (Internet-facing) frontend. </p>\r\n<p>If the public frontend does not exist yet, it will be created under an auto-generated name and associated with the application gateway's public IP address. </p>"
   syntax:
     content: public WithFrontendPort<ParentT> withPublicFrontend()
     return:
@@ -189,7 +180,7 @@ references:
   nameWithType: HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withServerNameIndication()
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication.UpdateDefinitionStages.WithServerNameIndication<ReturnT>.withServerNameIndication()
   type: Method
-  summary: <p>Requires server name indication (SNI). </p>
+  summary: "<p>Requires server name indication (SNI). </p>"
   syntax:
     content: public ReturnT withServerNameIndication()
     return:
@@ -202,10 +193,7 @@ references:
   nameWithType: HasSslCertificate.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificate(String name)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasSslCertificate<T>.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificate(String name)
   type: Method
-  summary: >-
-    <p>Specifies an SSL certificate to associate with this resource. </p>
-
-    <p>If the certificate does not exist yet, it must be defined in the optional part of the parent resource definition. </p>
+  summary: "<p>Specifies an SSL certificate to associate with this resource. </p>\r\n<p>If the certificate does not exist yet, it must be defined in the optional part of the parent resource definition. </p>"
   syntax:
     content: public ReturnT withSslCertificate(String name)
     parameters:
@@ -222,10 +210,7 @@ references:
   nameWithType: HasSslCertificate.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificateFromPfxFile(File pfxFile)
   fullName: WithSslPassword<ReturnT> com.microsoft.azure.management.network.model.HasSslCertificate<T>.UpdateDefinitionStages.WithSslCertificate<ReturnT>.withSslCertificateFromPfxFile(File pfxFile)
   type: Method
-  summary: >-
-    <p>Specifies the PFX file to import the SSL certificate from to associated with this resource. </p>
-
-    <p>The certificate will be named using an auto-generated name. </p>
+  summary: "<p>Specifies the PFX file to import the SSL certificate from to associated with this resource. </p>\r\n<p>The certificate will be named using an auto-generated name. </p>"
   syntax:
     content: public WithSslPassword<ReturnT> withSslCertificateFromPfxFile(File pfxFile)
     parameters:
@@ -242,7 +227,7 @@ references:
   nameWithType: HasSslCertificate.UpdateDefinitionStages.WithSslPassword<ReturnT>.withSslCertificatePassword(String password)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasSslCertificate<T>.UpdateDefinitionStages.WithSslPassword<ReturnT>.withSslCertificatePassword(String password)
   type: Method
-  summary: <p>Specifies the password for the specified PFX file containing the private key of the imported SSL certificate. </p>
+  summary: "<p>Specifies the password for the specified PFX file containing the private key of the imported SSL certificate. </p>"
   syntax:
     content: public ReturnT withSslCertificatePassword(String password)
     parameters:
@@ -259,7 +244,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway HTTP listener configuration definition. </p>
+  summary: "<p>The first stage of an application gateway HTTP listener configuration definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewayListener.UpdateDefinitionStages.WithFrontend<ParentT>
     typeParameters:
@@ -273,7 +258,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithFrontend<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithFrontend<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the frontend IP configuration to associate the listener with. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the frontend IP configuration to associate the listener with. </p>"
   syntax:
     content: public interface WithFrontend<ParentT>
     typeParameters:
@@ -287,7 +272,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithFrontendPort<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithFrontendPort<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the frontend port to associate the listener with. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the frontend port to associate the listener with. </p>"
   syntax:
     content: public interface WithFrontendPort<ParentT>
     typeParameters:
@@ -301,10 +286,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway HTTP listener definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway HTTP listener definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -318,7 +300,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithSslCertificate<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithSslCertificate<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the SSL certificate to associate with the listener. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the SSL certificate to associate with the listener. </p>"
   syntax:
     content: public interface WithSslCertificate<ParentT>
     typeParameters:
@@ -332,7 +314,7 @@ references:
   nameWithType: ApplicationGatewayListener.UpdateDefinitionStages.WithSslPassword<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.UpdateDefinitionStages.WithSslPassword<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the password for the private key of the imported SSL certificate. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the password for the private key of the imported SSL certificate. </p>"
   syntax:
     content: public interface WithSslPassword<ParentT>
     typeParameters:

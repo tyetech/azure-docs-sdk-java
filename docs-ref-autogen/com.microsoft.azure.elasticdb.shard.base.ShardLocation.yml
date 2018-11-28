@@ -409,7 +409,7 @@ references:
   nameWithType: SqlProtocol
   fullName: com.microsoft.azure.elasticdb.shard.base.SqlProtocol
   type: Enum
-  summary: <p>Types of transport protocols supported in SQL Server connections. </p>
+  summary: "<p>Types of transport protocols supported in SQL Server connections. </p>"
   syntax:
     content: public enum SqlProtocol
 - uid: com.microsoft.azure.elasticdb.shard.base.ShardLocation
@@ -419,7 +419,7 @@ references:
   nameWithType: ShardLocation
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardLocation
   type: Class
-  summary: <p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid="com.microsoft.azure.elasticdb.shard.base.Shard" data-throw-if-not-resolved="false">Shard</xref>, a shard location is not registered with the shard map. </p>
+  summary: "<p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid=\"com.microsoft.azure.elasticdb.shard.base.Shard\" data-throw-if-not-resolved=\"false\">Shard</xref>, a shard location is not registered with the shard map. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.elasticdb.shard.base.Shard
   parent: com.microsoft.azure.elasticdb.shard.base
@@ -428,6 +428,6 @@ references:
   nameWithType: Shard
   fullName: com.microsoft.azure.elasticdb.shard.base.Shard
   type: Class
-  summary: <p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid="com.microsoft.azure.elasticdb.shard.base.ShardLocation" data-throw-if-not-resolved="false">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid="com.microsoft.azure.elasticdb.shard.base.PointMapping" data-throw-if-not-resolved="false">PointMapping</xref> and <xref uid="com.microsoft.azure.elasticdb.shard.base.RangeMapping" data-throw-if-not-resolved="false">RangeMapping</xref>). </p>
+  summary: "<p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid=\"com.microsoft.azure.elasticdb.shard.base.ShardLocation\" data-throw-if-not-resolved=\"false\">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid=\"com.microsoft.azure.elasticdb.shard.base.PointMapping\" data-throw-if-not-resolved=\"false\">PointMapping</xref> and <xref uid=\"com.microsoft.azure.elasticdb.shard.base.RangeMapping\" data-throw-if-not-resolved=\"false\">RangeMapping</xref>). </p>"
   syntax:
     content: public class Shard implements IShardProvider<ShardLocation>

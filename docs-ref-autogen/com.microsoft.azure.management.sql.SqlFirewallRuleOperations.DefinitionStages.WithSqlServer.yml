@@ -128,7 +128,7 @@ references:
   nameWithType: SqlFirewallRuleOperations.SqlFirewallRuleOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlFirewallRuleOperations.SqlFirewallRuleOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlFirewallRuleOperationsDefinition extends SqlFirewallRuleOperations.DefinitionStages.WithSqlServer,SqlFirewallRuleOperations.DefinitionStages.WithIPAddressRange,SqlFirewallRuleOperations.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.sql.SqlFirewallRuleOperations.DefinitionStages.WithIPAddressRange
@@ -138,7 +138,7 @@ references:
   nameWithType: SqlFirewallRuleOperations.DefinitionStages.WithIPAddressRange
   fullName: com.microsoft.azure.management.sql.SqlFirewallRuleOperations.DefinitionStages.WithIPAddressRange
   type: Interface
-  summary: <p>The SQL Firewall Rule definition to set the IP address range for the parent SQL Server. </p>
+  summary: "<p>The SQL Firewall Rule definition to set the IP address range for the parent SQL Server. </p>"
   syntax:
     content: public interface WithIPAddressRange
 - uid: com.microsoft.azure.management.sql.SqlServer
@@ -148,6 +148,6 @@ references:
   nameWithType: SqlServer
   fullName: com.microsoft.azure.management.sql.SqlServer
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server. </p>"
   syntax:
     content: public interface SqlServer extends GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>,GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>

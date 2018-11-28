@@ -85,7 +85,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A storage account definition with sufficient inputs to create a new storage account in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A storage account definition with sufficient inputs to create a new storage account in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<StorageAccount>,StorageAccount.DefinitionStages.WithSku,StorageAccount.DefinitionStages.WithBlobStorageAccountKind,StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind,StorageAccount.DefinitionStages.WithEncryption,StorageAccount.DefinitionStages.WithCustomDomain,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.storage.Encryption
@@ -95,6 +95,6 @@ references:
   nameWithType: Encryption
   fullName: com.microsoft.azure.management.storage.Encryption
   type: Class
-  summary: <p>The encryption settings on the storage account. </p>
+  summary: "<p>The encryption settings on the storage account. </p>"
   syntax:
     content: public class Encryption

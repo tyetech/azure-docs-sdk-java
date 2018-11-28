@@ -146,7 +146,7 @@ references:
   nameWithType: Message.getBodyStream()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getBodyStream()
   type: Method
-  summary: <p>The stream content of the body. </p>
+  summary: "<p>The stream content of the body. </p>"
   syntax:
     content: public ByteArrayOutputStream getBodyStream()
     return:
@@ -159,7 +159,7 @@ references:
   nameWithType: Message.getBytes()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getBytes()
   type: Method
-  summary: <p>The byte content of the body. </p>
+  summary: "<p>The byte content of the body. </p>"
   syntax:
     content: public byte [] getBytes()
     return:
@@ -194,7 +194,7 @@ references:
   nameWithType: Message.getContentEncoding()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getContentEncoding()
   type: Method
-  summary: <p>Returns this message's content encoding. This value is null by default </p>
+  summary: "<p>Returns this message's content encoding. This value is null by default </p>"
   syntax:
     content: public String getContentEncoding()
     return:
@@ -207,7 +207,7 @@ references:
   nameWithType: Message.getContentType()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getContentType()
   type: Method
-  summary: <p>Return the message's content type. This value is null by default </p>
+  summary: "<p>Return the message's content type. This value is null by default </p>"
   syntax:
     content: public String getContentType()
     return:
@@ -220,7 +220,7 @@ references:
   nameWithType: Message.getCorrelationId()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getCorrelationId()
   type: Method
-  summary: <p>Getter for the correlationId property </p>
+  summary: "<p>Getter for the correlationId property </p>"
   syntax:
     content: public String getCorrelationId()
     return:
@@ -233,7 +233,7 @@ references:
   nameWithType: Message.getDeliveryAcknowledgement()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getDeliveryAcknowledgement()
   type: Method
-  summary: <p>Getter for the delivery acknowledgement system property </p>
+  summary: "<p>Getter for the delivery acknowledgement system property </p>"
   syntax:
     content: public String getDeliveryAcknowledgement()
     return:
@@ -257,7 +257,7 @@ references:
   nameWithType: Message.getIotHubConnectionString()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getIotHubConnectionString()
   type: Method
-  summary: <p>Getter for the iotHubConnectionString property </p>
+  summary: "<p>Getter for the iotHubConnectionString property </p>"
   syntax:
     content: public IotHubConnectionString getIotHubConnectionString()
     return:
@@ -270,7 +270,7 @@ references:
   nameWithType: Message.getMessageId()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getMessageId()
   type: Method
-  summary: <p>Getter for the messageId property </p>
+  summary: "<p>Getter for the messageId property </p>"
   syntax:
     content: public String getMessageId()
     return:
@@ -283,7 +283,7 @@ references:
   nameWithType: Message.getMessageType()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getMessageType()
   type: Method
-  summary: <p>Getter for the Message type </p>
+  summary: "<p>Getter for the Message type </p>"
   syntax:
     content: public MessageType getMessageType()
     return:
@@ -307,10 +307,7 @@ references:
   nameWithType: Message.getProperties()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getProperties()
   type: Method
-  summary: >-
-    <p>Returns a copy of the message properties.</p>
-
-    <p></p>
+  summary: "<p>Returns a copy of the message properties.</p>\r\n<p></p>"
   syntax:
     content: public MessageProperty [] getProperties()
     return:
@@ -323,7 +320,7 @@ references:
   nameWithType: Message.getProperty(String name)
   fullName: com.microsoft.azure.sdk.iot.device.Message.getProperty(String name)
   type: Method
-  summary: <p>Gets the values of user-defined properties of this Message. </p>
+  summary: "<p>Gets the values of user-defined properties of this Message. </p>"
   syntax:
     content: public String getProperty(String name)
     parameters:
@@ -340,7 +337,7 @@ references:
   nameWithType: Message.getTo()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getTo()
   type: Method
-  summary: <p>Getter for the To system property </p>
+  summary: "<p>Getter for the To system property </p>"
   syntax:
     content: public String getTo()
     return:
@@ -353,7 +350,7 @@ references:
   nameWithType: Message.getUserId()
   fullName: com.microsoft.azure.sdk.iot.device.Message.getUserId()
   type: Method
-  summary: <p>Getter for the User ID system property </p>
+  summary: "<p>Getter for the User ID system property </p>"
   syntax:
     content: public String getUserId()
     return:
@@ -366,7 +363,7 @@ references:
   nameWithType: Message.isExpired()
   fullName: com.microsoft.azure.sdk.iot.device.Message.isExpired()
   type: Method
-  summary: <p>Verifies whether the message is expired or not </p>
+  summary: "<p>Verifies whether the message is expired or not </p>"
   syntax:
     content: public boolean isExpired()
     return:
@@ -379,7 +376,7 @@ references:
   nameWithType: Message.Message()
   fullName: com.microsoft.azure.sdk.iot.device.Message.Message()
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: public Message()
 - uid: com.microsoft.azure.sdk.iot.device.Message.Message(ByteArrayInputStream)
@@ -389,7 +386,7 @@ references:
   nameWithType: Message.Message(ByteArrayInputStream stream)
   fullName: com.microsoft.azure.sdk.iot.device.Message.Message(ByteArrayInputStream stream)
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: public Message(ByteArrayInputStream stream)
     parameters:
@@ -403,7 +400,7 @@ references:
   nameWithType: Message.Message(byte[] body)
   fullName: com.microsoft.azure.sdk.iot.device.Message.Message(byte[] body)
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: public Message(byte[] body)
     parameters:
@@ -417,7 +414,7 @@ references:
   nameWithType: Message.Message(String body)
   fullName: com.microsoft.azure.sdk.iot.device.Message.Message(String body)
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: public Message(String body)
     parameters:
@@ -431,7 +428,7 @@ references:
   nameWithType: Message.setAbsoluteExpiryTime(long absoluteTimeout)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setAbsoluteExpiryTime(long absoluteTimeout)
   type: Method
-  summary: <p>Setter for the expiryTime property using absolute time </p>
+  summary: "<p>Setter for the expiryTime property using absolute time </p>"
   syntax:
     content: public void setAbsoluteExpiryTime(long absoluteTimeout)
     parameters:
@@ -469,7 +466,7 @@ references:
   nameWithType: Message.setContentEncoding(String contentEncoding)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setContentEncoding(String contentEncoding)
   type: Method
-  summary: <p>Set the content encoding of this message. Used in message routing. </p>
+  summary: "<p>Set the content encoding of this message. Used in message routing. </p>"
   syntax:
     content: public void setContentEncoding(String contentEncoding)
     parameters:
@@ -483,7 +480,7 @@ references:
   nameWithType: Message.setContentType(String contentType)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setContentType(String contentType)
   type: Method
-  summary: <p>Set the content type of this message. Used in message routing. </p>
+  summary: "<p>Set the content type of this message. Used in message routing. </p>"
   syntax:
     content: public void setContentType(String contentType)
     parameters:
@@ -497,7 +494,7 @@ references:
   nameWithType: Message.setCorrelationId(String correlationId)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setCorrelationId(String correlationId)
   type: Method
-  summary: <p>Setter for the correlationId property </p>
+  summary: "<p>Setter for the correlationId property </p>"
   syntax:
     content: public void setCorrelationId(String correlationId)
     parameters:
@@ -511,7 +508,7 @@ references:
   nameWithType: Message.setExpiryTime(long timeOut)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setExpiryTime(long timeOut)
   type: Method
-  summary: <p>Setter for the expiryTime property. This setter uses relative time, not absolute time. </p>
+  summary: "<p>Setter for the expiryTime property. This setter uses relative time, not absolute time. </p>"
   syntax:
     content: public void setExpiryTime(long timeOut)
     parameters:
@@ -525,7 +522,7 @@ references:
   nameWithType: Message.setInputName(String inputName)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setInputName(String inputName)
   type: Method
-  summary: <p>Set the input name of the message, used in routing for module communications </p>
+  summary: "<p>Set the input name of the message, used in routing for module communications </p>"
   syntax:
     content: public void setInputName(String inputName)
     parameters:
@@ -539,7 +536,7 @@ references:
   nameWithType: Message.setIotHubConnectionString(IotHubConnectionString iotHubConnectionString)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setIotHubConnectionString(IotHubConnectionString iotHubConnectionString)
   type: Method
-  summary: <p>Setter for the iotHubConnectionString type </p>
+  summary: "<p>Setter for the iotHubConnectionString type </p>"
   syntax:
     content: public void setIotHubConnectionString(IotHubConnectionString iotHubConnectionString)
     parameters:
@@ -553,7 +550,7 @@ references:
   nameWithType: Message.setMessageId(String messageId)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setMessageId(String messageId)
   type: Method
-  summary: <p>Setter for the messageId property </p>
+  summary: "<p>Setter for the messageId property </p>"
   syntax:
     content: public void setMessageId(String messageId)
     parameters:
@@ -567,7 +564,7 @@ references:
   nameWithType: Message.setMessageType(MessageType type)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setMessageType(MessageType type)
   type: Method
-  summary: <p>Setter for the Message type </p>
+  summary: "<p>Setter for the Message type </p>"
   syntax:
     content: public void setMessageType(MessageType type)
     parameters:
@@ -581,7 +578,7 @@ references:
   nameWithType: Message.setOutputName(String outputName)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setOutputName(String outputName)
   type: Method
-  summary: <p>Set the output channel name to send to. Used in routing for module communications </p>
+  summary: "<p>Set the output channel name to send to. Used in routing for module communications </p>"
   syntax:
     content: public void setOutputName(String outputName)
     parameters:
@@ -595,7 +592,7 @@ references:
   nameWithType: Message.setProperty(String name, String value)
   fullName: com.microsoft.azure.sdk.iot.device.Message.setProperty(String name, String value)
   type: Method
-  summary: <p>Adds or sets user-defined properties of this Message. </p>
+  summary: "<p>Adds or sets user-defined properties of this Message. </p>"
   syntax:
     content: public void setProperty(String name, String value)
     parameters:
@@ -633,6 +630,6 @@ references:
   nameWithType: IotHubStatusCode
   fullName: com.microsoft.azure.sdk.iot.device.IotHubStatusCode
   type: Enum
-  summary: <p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>
+  summary: "<p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>"
   syntax:
     content: public enum IotHubStatusCode

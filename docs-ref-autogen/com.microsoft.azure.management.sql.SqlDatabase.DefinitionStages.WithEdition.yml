@@ -74,10 +74,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Database definition with all the other options.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the SQL Database definition with all the other options.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttachAllOptions<ParentT> extends SqlDatabase.DefinitionStages.WithServiceObjective<ParentT>,SqlDatabase.DefinitionStages.WithEdition<ParentT>,SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>,SqlDatabase.DefinitionStages.WithCollation<ParentT>,SqlDatabase.DefinitionStages.WithMaxSizeBytes<ParentT>,SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
     typeParameters:
@@ -91,7 +88,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A SQL Database definition with sufficient inputs to create a new SQL database in the cloud, but exposing additional optional settings to specify. </p>
+  summary: "<p>A SQL Database definition with sufficient inputs to create a new SQL database in the cloud, but exposing additional optional settings to specify. </p>"
   syntax:
     content: public interface WithCreate extends SqlDatabase.DefinitionStages.WithServiceObjective<ParentT>,SqlDatabase.DefinitionStages.WithEdition<ParentT>,SqlDatabase.DefinitionStages.WithCollationAllCreateOptions,SqlDatabase.DefinitionStages.WithMaxSizeBytesAllCreateOptions,SqlDatabase.DefinitionStages.WithCreateWithLessOptions
 - uid: com.microsoft.azure.management.sql.DatabaseEditions
@@ -101,9 +98,6 @@ references:
   nameWithType: DatabaseEditions
   fullName: com.microsoft.azure.management.sql.DatabaseEditions
   type: Class
-  summary: >-
-    <p>Defines values for DatabaseEdition.</p>
-
-    <p>Defines values for DatabaseEditions. </p>
+  summary: "<p>Defines values for DatabaseEdition.</p>\r\n<p>Defines values for DatabaseEditions. </p>"
   syntax:
     content: public class DatabaseEditions

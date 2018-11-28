@@ -62,7 +62,7 @@ references:
   nameWithType: StorageAccount.Update
   fullName: com.microsoft.azure.management.storage.StorageAccount.Update
   type: Interface
-  summary: <p>The template for a storage account update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a storage account update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<StorageAccount>,StorageAccount.UpdateStages.WithSku,StorageAccount.UpdateStages.WithCustomDomain,StorageAccount.UpdateStages.WithEncryption,StorageAccount.UpdateStages.WithAccessTier,Resource.UpdateWithTags<Update>
 - uid: com.microsoft.azure.management.storage.AccessTier
@@ -72,6 +72,6 @@ references:
   nameWithType: AccessTier
   fullName: com.microsoft.azure.management.storage.AccessTier
   type: Enum
-  summary: <p>Defines values for AccessTier. </p>
+  summary: "<p>Defines values for AccessTier. </p>"
   syntax:
     content: public enum AccessTier

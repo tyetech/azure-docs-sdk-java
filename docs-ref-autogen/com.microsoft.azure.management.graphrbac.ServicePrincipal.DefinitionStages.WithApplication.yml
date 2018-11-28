@@ -166,7 +166,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the service principal definition. </p>
+  summary: "<p>The first stage of the service principal definition. </p>"
   syntax:
     content: public interface Blank extends ServicePrincipal.DefinitionStages.WithApplication
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithCreate
@@ -176,7 +176,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A service principal definition with sufficient inputs to create a new service principal in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A service principal definition with sufficient inputs to create a new service principal in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication
@@ -186,7 +186,7 @@ references:
   nameWithType: ActiveDirectoryApplication
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD application. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD application. </p>"
   syntax:
     content: public interface ActiveDirectoryApplication extends ActiveDirectoryObject,HasInner<ApplicationInner>,Updatable<ActiveDirectoryApplication.Update>
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -196,10 +196,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:

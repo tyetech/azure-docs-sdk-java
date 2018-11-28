@@ -443,10 +443,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -459,10 +456,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -535,12 +529,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -553,7 +542,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -570,10 +559,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -587,10 +573,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -604,7 +587,7 @@ references:
   nameWithType: TrafficRoutingMethod
   fullName: com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod
   type: Class
-  summary: <p>Defines values for TrafficRoutingMethod. </p>
+  summary: "<p>Defines values for TrafficRoutingMethod. </p>"
   syntax:
     content: public class TrafficRoutingMethod
 - uid: com.microsoft.azure.management.trafficmanager.ProfileMonitorStatus
@@ -614,7 +597,7 @@ references:
   nameWithType: ProfileMonitorStatus
   fullName: com.microsoft.azure.management.trafficmanager.ProfileMonitorStatus
   type: Class
-  summary: <p>Defines values for ProfileMonitorStatus. </p>
+  summary: "<p>Defines values for ProfileMonitorStatus. </p>"
   syntax:
     content: public class ProfileMonitorStatus
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerExternalEndpoint
@@ -624,7 +607,7 @@ references:
   nameWithType: TrafficManagerExternalEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerExternalEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile external endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile external endpoint. </p>"
   syntax:
     content: public interface TrafficManagerExternalEndpoint extends TrafficManagerEndpoint
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerAzureEndpoint
@@ -634,7 +617,7 @@ references:
   nameWithType: TrafficManagerAzureEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerAzureEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile Azure endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile Azure endpoint. </p>"
   syntax:
     content: public interface TrafficManagerAzureEndpoint extends TrafficManagerEndpoint
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerNestedProfileEndpoint
@@ -644,6 +627,6 @@ references:
   nameWithType: TrafficManagerNestedProfileEndpoint
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerNestedProfileEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure traffic manager profile nested profile endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure traffic manager profile nested profile endpoint. </p>"
   syntax:
     content: public interface TrafficManagerNestedProfileEndpoint extends TrafficManagerEndpoint

@@ -46,10 +46,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -82,10 +76,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -98,10 +89,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildArgument.defineBuildArgument(String name)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildArgument.defineBuildArgument(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of the build argument settings.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of the build argument settings.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<QueuedQuickBuildDefinitionStages.WithCreate> defineBuildArgument(String name)
     parameters:
@@ -142,10 +130,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the build timeout.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build timeout.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
     parameters:
@@ -162,10 +147,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   type: Method
-  summary: >-
-    <p>Specifies the CPU configuration in terms of number of cores required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the CPU configuration in terms of number of cores required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withCpuCoresCount(int count)
     parameters:
@@ -182,10 +164,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   type: Method
-  summary: >-
-    <p>Specifies the Docker file path required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Docker file path required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withDockerFilePath(String dockerFilePath)
     parameters:
@@ -202,10 +181,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheDisabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is disabled.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImageCacheDisabled()
     return:
@@ -218,10 +194,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheEnabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache.withImageCacheEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is enabled.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImageCacheEnabled()
     return:
@@ -234,10 +207,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   type: Method
-  summary: >-
-    <p>Specifies the image names for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the image names for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImageNames(String... imageNames)
     parameters:
@@ -254,10 +224,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushDisabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should not be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should not be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImagePushDisabled()
     return:
@@ -270,10 +237,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushEnabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush.withImagePushEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithCreate withImagePushEnabled()
     return:
@@ -286,10 +250,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithOSType.withOSType(OsType osType)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithOSType.withOSType(OsType osType)
   type: Method
-  summary: >-
-    <p>Specifies the OS type required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the OS type required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithSourceLocation withOSType(OsType osType)
     parameters:
@@ -306,10 +267,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithSourceLocation.withSourceLocation(String sourceLocation)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithSourceLocation.withSourceLocation(String sourceLocation)
   type: Method
-  summary: >-
-    <p>Specifies the source location required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source location required for the build.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildDefinitionStages.WithDockerFilePath withSourceLocation(String sourceLocation)
     parameters:
@@ -326,7 +284,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the queued quick build definition. </p>
+  summary: "<p>The first stage of the queued quick build definition. </p>"
   syntax:
     content: public interface Blank extends Build.QueuedQuickBuildDefinitionStages.WithOSType
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithOSType
@@ -336,7 +294,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithOSType
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithOSType
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the OS type required for the build. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the OS type required for the build. </p>"
   syntax:
     content: public interface WithOSType
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithSourceLocation
@@ -346,7 +304,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithSourceLocation
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithSourceLocation
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the source location. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the source location. </p>"
   syntax:
     content: public interface WithSourceLocation
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath
@@ -356,7 +314,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the Docker file path. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the Docker file path. </p>"
   syntax:
     content: public interface WithDockerFilePath
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildArgument
@@ -366,7 +324,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildArgument
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildArgument
   type: Interface
-  summary: <p>The stage of the queued build definition allowing to specify the build arguments. </p>
+  summary: "<p>The stage of the queued build definition allowing to specify the build arguments. </p>"
   syntax:
     content: public interface WithBuildArgument
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount
@@ -376,7 +334,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the CPU configuration required for the build. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the CPU configuration required for the build. </p>"
   syntax:
     content: public interface WithCpuCoresCount
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
@@ -386,7 +344,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
   type: Interface
-  summary: <p>The stage of the queue build update definition allowing to specify the build timeout. </p>
+  summary: "<p>The stage of the queue build update definition allowing to specify the build timeout. </p>"
   syntax:
     content: public interface WithBuildTimeoutInSeconds
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames
@@ -396,7 +354,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageNames
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the image names for the build. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the image names for the build. </p>"
   syntax:
     content: public interface WithImageNames
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache
@@ -406,7 +364,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageCache
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify if the image cache is enabled or not. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify if the image cache is enabled or not. </p>"
   syntax:
     content: public interface WithImageCache
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush
@@ -416,7 +374,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImagePush
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify if the image built should be pushed to the registry or not. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify if the image built should be pushed to the registry or not. </p>"
   syntax:
     content: public interface WithImagePush
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCreate
@@ -426,7 +384,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildImpl
@@ -436,6 +394,6 @@ references:
   nameWithType: BuildImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildImpl
   type: Class
-  summary: <p>Implementation for Build. </p>
+  summary: "<p>Implementation for Build. </p>"
   syntax:
     content: public class BuildImpl implements Build,Build.QueuedQuickBuildDefinition,Build.Update

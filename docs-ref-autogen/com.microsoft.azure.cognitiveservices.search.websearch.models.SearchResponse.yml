@@ -318,10 +318,7 @@ references:
   nameWithType: Identifiable.id()
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.Identifiable.id()
   type: Method
-  summary: >-
-    <p>Get the id value.</p>
-
-    <p></p>
+  summary: "<p>Get the id value.</p>\r\n<p></p>"
   syntax:
     content: public String id()
     return:
@@ -334,10 +331,7 @@ references:
   nameWithType: Response.webSearchUrl()
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.Response.webSearchUrl()
   type: Method
-  summary: >-
-    <p>Get the webSearchUrl value.</p>
-
-    <p></p>
+  summary: "<p>Get the webSearchUrl value.</p>\r\n<p></p>"
   syntax:
     content: public String webSearchUrl()
     return:
@@ -350,7 +344,7 @@ references:
   nameWithType: Response
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.Response
   type: Class
-  summary: <p>Defines a response. All schemas that could be returned at the root of a response should inherit from this. </p>
+  summary: "<p>Defines a response. All schemas that could be returned at the root of a response should inherit from this. </p>"
   syntax:
     content: public class Response extends Identifiable
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.QueryContext
@@ -360,7 +354,7 @@ references:
   nameWithType: QueryContext
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.QueryContext
   type: Class
-  summary: <p>Defines the query context that Bing used for the request. </p>
+  summary: "<p>Defines the query context that Bing used for the request. </p>"
   syntax:
     content: public class QueryContext
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.WebWebAnswer
@@ -370,7 +364,7 @@ references:
   nameWithType: WebWebAnswer
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.WebWebAnswer
   type: Class
-  summary: <p>Defines a list of relevant webpage links. </p>
+  summary: "<p>Defines a list of relevant webpage links. </p>"
   syntax:
     content: public class WebWebAnswer
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.Images
@@ -380,7 +374,7 @@ references:
   nameWithType: Images
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.Images
   type: Class
-  summary: <p>Defines an image answer. </p>
+  summary: "<p>Defines an image answer. </p>"
   syntax:
     content: public class Images extends SearchResultsAnswer
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.News
@@ -390,7 +384,7 @@ references:
   nameWithType: News
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.News
   type: Class
-  summary: <p>Defines a news answer. </p>
+  summary: "<p>Defines a news answer. </p>"
   syntax:
     content: public class News extends SearchResultsAnswer
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.RelatedSearchesRelatedSearchAnswer
@@ -400,7 +394,7 @@ references:
   nameWithType: RelatedSearchesRelatedSearchAnswer
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.RelatedSearchesRelatedSearchAnswer
   type: Class
-  summary: <p>Defines a list of related queries made by others. </p>
+  summary: "<p>Defines a list of related queries made by others. </p>"
   syntax:
     content: public class RelatedSearchesRelatedSearchAnswer extends SearchResultsAnswer
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.SpellSuggestions
@@ -410,7 +404,7 @@ references:
   nameWithType: SpellSuggestions
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.SpellSuggestions
   type: Class
-  summary: <p>Defines a suggested query string that likely represents the user's intent. The search results include this response if Bing determines that the user may have intended to search for something different. For example, if the user searches for alon brown, Bing may determine that the user likely intended to search for Alton Brown instead (based on past searches by others of Alon Brown). </p>
+  summary: "<p>Defines a suggested query string that likely represents the user's intent. The search results include this response if Bing determines that the user may have intended to search for something different. For example, if the user searches for alon brown, Bing may determine that the user likely intended to search for Alton Brown instead (based on past searches by others of Alon Brown). </p>"
   syntax:
     content: public class SpellSuggestions
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.TimeZone
@@ -420,7 +414,7 @@ references:
   nameWithType: TimeZone
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.TimeZone
   type: Class
-  summary: <p>Defines the data and time of one or more geographic locations. </p>
+  summary: "<p>Defines the data and time of one or more geographic locations. </p>"
   syntax:
     content: public class TimeZone
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.Videos
@@ -430,7 +424,7 @@ references:
   nameWithType: Videos
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.Videos
   type: Class
-  summary: <p>Defines a video answer. </p>
+  summary: "<p>Defines a video answer. </p>"
   syntax:
     content: public class Videos
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.Computation
@@ -440,7 +434,7 @@ references:
   nameWithType: Computation
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.Computation
   type: Class
-  summary: <p>Defines an expression and its answer. </p>
+  summary: "<p>Defines an expression and its answer. </p>"
   syntax:
     content: public class Computation extends Answer
 - uid: com.microsoft.azure.cognitiveservices.search.websearch.models.RankingRankingResponse
@@ -450,6 +444,6 @@ references:
   nameWithType: RankingRankingResponse
   fullName: com.microsoft.azure.cognitiveservices.search.websearch.models.RankingRankingResponse
   type: Class
-  summary: <p>Defines where on the search results page content should be placed and in what order. </p>
+  summary: "<p>Defines where on the search results page content should be placed and in what order. </p>"
   syntax:
     content: public class RankingRankingResponse

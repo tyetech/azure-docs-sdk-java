@@ -82,10 +82,7 @@ references:
   nameWithType: DnsRecordSet.Definition<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>The entirety of a DNS zone record set definition as a part of parent definition.</p>
-
-    <p></p>
+  summary: "<p>The entirety of a DNS zone record set definition as a part of parent definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends DnsRecordSet.DefinitionStages.ARecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithARecordIPv4Address<ParentT>,DnsRecordSet.DefinitionStages.WithARecordIPv4AddressOrAttachable<ParentT>,DnsRecordSet.DefinitionStages.AaaaRecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithAaaaRecordIPv6Address<ParentT>,DnsRecordSet.DefinitionStages.WithAaaaRecordIPv6AddressOrAttachable<ParentT>,DnsRecordSet.DefinitionStages.CNameRecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithCNameRecordAlias<ParentT>,DnsRecordSet.DefinitionStages.WithCNameRecordSetAttachable<ParentT>,DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithMXRecordMailExchange<ParentT>,DnsRecordSet.DefinitionStages.WithMXRecordMailExchangeOrAttachable<ParentT>,DnsRecordSet.DefinitionStages.NSRecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithNSRecordNameServer<ParentT>,DnsRecordSet.DefinitionStages.WithNSRecordNameServerOrAttachable<ParentT>,DnsRecordSet.DefinitionStages.PtrRecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithPtrRecordTargetDomainName<ParentT>,DnsRecordSet.DefinitionStages.WithPtrRecordTargetDomainNameOrAttachable<ParentT>,DnsRecordSet.DefinitionStages.SrvRecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithSrvRecordEntry<ParentT>,DnsRecordSet.DefinitionStages.WithSrvRecordEntryOrAttachable<ParentT>,DnsRecordSet.DefinitionStages.TxtRecordSetBlank<ParentT>,DnsRecordSet.DefinitionStages.WithTxtRecordTextValue<ParentT>,DnsRecordSet.DefinitionStages.WithTxtRecordTextValueOrAttachable<ParentT>,DnsRecordSet.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -99,10 +96,7 @@ references:
   nameWithType: DnsRecordSet.DefinitionStages.NSRecordSetBlank<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.NSRecordSetBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a NS record definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a NS record definition.</p>\r\n<p></p>"
   syntax:
     content: public interface NSRecordSetBlank<ParentT> extends DnsRecordSet.DefinitionStages.WithNSRecordNameServer<ParentT>
     typeParameters:
@@ -116,10 +110,7 @@ references:
   nameWithType: DnsRecordSet.DefinitionStages.WithNSRecordNameServerOrAttachable<ParentT>
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.WithNSRecordNameServerOrAttachable<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the NS record set definition allowing to add additional NS records or attach the record set to the parent.</p>
-
-    <p></p>
+  summary: "<p>The stage of the NS record set definition allowing to add additional NS records or attach the record set to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNSRecordNameServerOrAttachable<ParentT>
     typeParameters:

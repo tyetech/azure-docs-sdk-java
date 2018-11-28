@@ -150,7 +150,7 @@ references:
   nameWithType: FunctionDeploymentSlot.Definition
   fullName: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends FunctionDeploymentSlot.DefinitionStages.Blank,FunctionDeploymentSlot.DefinitionStages.WithConfiguration,FunctionDeploymentSlot.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.Blank
@@ -160,7 +160,7 @@ references:
   nameWithType: FunctionDeploymentSlot.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the function deployment slot definition. </p>
+  summary: "<p>The first stage of the function deployment slot definition. </p>"
   syntax:
     content: public interface Blank extends FunctionDeploymentSlot.DefinitionStages.WithConfiguration
 - uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.WithCreate
@@ -170,7 +170,7 @@ references:
   nameWithType: FunctionDeploymentSlot.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.appservice.FunctionApp
@@ -180,7 +180,7 @@ references:
   nameWithType: FunctionApp
   fullName: com.microsoft.azure.management.appservice.FunctionApp
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Function App. </p>
+  summary: "<p>An immutable client-side representation of an Azure Function App. </p>"
   syntax:
     content: public interface FunctionApp extends WebAppBase,Refreshable<FunctionApp>,Updatable<FunctionApp.Update>
 - uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot
@@ -190,6 +190,6 @@ references:
   nameWithType: FunctionDeploymentSlot
   fullName: com.microsoft.azure.management.appservice.FunctionDeploymentSlot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Function App deployment slot. </p>
+  summary: "<p>An immutable client-side representation of an Azure Function App deployment slot. </p>"
   syntax:
     content: public interface FunctionDeploymentSlot extends IndependentChildResource<AppServiceManager, SiteInner>,WebAppBase,Refreshable<FunctionDeploymentSlot>,Updatable<FunctionDeploymentSlot.Update>,HasParent<FunctionApp>

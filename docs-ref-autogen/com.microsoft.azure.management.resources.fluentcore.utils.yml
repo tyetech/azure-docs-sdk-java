@@ -38,7 +38,7 @@ references:
   nameWithType: DelayProvider
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.DelayProvider
   type: Class
-  summary: <p>A wrapper class for thread sleep. </p>
+  summary: "<p>A wrapper class for thread sleep. </p>"
   syntax:
     content: public class DelayProvider
 - uid: com.microsoft.azure.management.resources.fluentcore.utils.ListToMapConverter
@@ -48,7 +48,7 @@ references:
   nameWithType: ListToMapConverter<ImplT,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.ListToMapConverter<ImplT,InnerT>
   type: Class
-  summary: <p>Utility class to convert a list of inners to map of implementation. </p>
+  summary: "<p>Utility class to convert a list of inners to map of implementation. </p>"
   syntax:
     content: public class ListToMapConverter<ImplT,InnerT>
     typeParameters:
@@ -65,10 +65,7 @@ references:
   nameWithType: PagedListConverter<U,V>
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.PagedListConverter<U,V>
   type: Class
-  summary: >-
-    <p>The base class for converting <xref uid="" data-throw-if-not-resolved="false">PagedList</xref> of one type of resource to another, without polling down all the items in a list. This converter is useful in converting inner top level resources into fluent top level resources.</p>
-
-    <p></p>
+  summary: "<p>The base class for converting <xref uid=\"\" data-throw-if-not-resolved=\"false\">PagedList</xref> of one type of resource to another, without polling down all the items in a list. This converter is useful in converting inner top level resources into fluent top level resources.</p>\r\n<p></p>"
   syntax:
     content: public class PagedListConverter<U,V>
     typeParameters:
@@ -85,7 +82,7 @@ references:
   nameWithType: ProviderRegistrationInterceptor
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.ProviderRegistrationInterceptor
   type: Class
-  summary: <p>An interceptor for automatic provider registration in Azure. </p>
+  summary: "<p>An interceptor for automatic provider registration in Azure. </p>"
   syntax:
     content: public class ProviderRegistrationInterceptor
 - uid: com.microsoft.azure.management.resources.fluentcore.utils.ResourceManagerThrottlingInterceptor
@@ -95,10 +92,7 @@ references:
   nameWithType: ResourceManagerThrottlingInterceptor
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.ResourceManagerThrottlingInterceptor
   type: Class
-  summary: >-
-    <p>An interceptor for automatic retry when Azure Resource Manager is throttling because of too many read/write requests. </p>
-
-    <p>For each subscription and tenant, Azure Resource Manager limits read requests to 15,000 per hour and write requests to 1,200 per hour. These limits apply to each Azure Resource Manager instance. </p>
+  summary: "<p>An interceptor for automatic retry when Azure Resource Manager is throttling because of too many read/write requests. </p>\r\n<p>For each subscription and tenant, Azure Resource Manager limits read requests to 15,000 per hour and write requests to 1,200 per hour. These limits apply to each Azure Resource Manager instance. </p>"
   syntax:
     content: public class ResourceManagerThrottlingInterceptor
 - uid: com.microsoft.azure.management.resources.fluentcore.utils.ResourceNamer
@@ -108,7 +102,7 @@ references:
   nameWithType: ResourceNamer
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.ResourceNamer
   type: Class
-  summary: <p>The ResourceNamer to generate random name. </p>
+  summary: "<p>The ResourceNamer to generate random name. </p>"
   syntax:
     content: public class ResourceNamer
 - uid: com.microsoft.azure.management.resources.fluentcore.utils.ResourceNamerFactory
@@ -118,7 +112,7 @@ references:
   nameWithType: ResourceNamerFactory
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.ResourceNamerFactory
   type: Class
-  summary: <p>The ResourceNamerFactory to generate ResourceNamer. </p>
+  summary: "<p>The ResourceNamerFactory to generate ResourceNamer. </p>"
   syntax:
     content: public class ResourceNamerFactory
 - uid: com.microsoft.azure.management.resources.fluentcore.utils.RXMapper
@@ -128,7 +122,7 @@ references:
   nameWithType: RXMapper<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.RXMapper<T>
   type: Class
-  summary: <p>An internal utility class representing an RX function returning the provided type instance from a call with an arbitrary parameter. </p>
+  summary: "<p>An internal utility class representing an RX function returning the provided type instance from a call with an arbitrary parameter. </p>"
   syntax:
     content: public class RXMapper<T>
     typeParameters:
@@ -142,7 +136,7 @@ references:
   nameWithType: SdkContext
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.SdkContext
   type: Class
-  summary: <p>The class to contain the common factory methods required for SDK framework. </p>
+  summary: "<p>The class to contain the common factory methods required for SDK framework. </p>"
   syntax:
     content: public class SdkContext
 - uid: com.microsoft.azure.management.resources.fluentcore.utils.Utils
@@ -152,6 +146,6 @@ references:
   nameWithType: Utils
   fullName: com.microsoft.azure.management.resources.fluentcore.utils.Utils
   type: Class
-  summary: <p>Defines a few utilities. </p>
+  summary: "<p>Defines a few utilities. </p>"
   syntax:
     content: public class Utils

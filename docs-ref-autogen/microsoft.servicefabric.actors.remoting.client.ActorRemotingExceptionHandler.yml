@@ -105,10 +105,7 @@ references:
   nameWithType: ServiceRemotingExceptionHandler.ServiceRemotingExceptionHandler(String traceId)
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingExceptionHandler.ServiceRemotingExceptionHandler(String traceId)
   type: Constructor
-  summary: >-
-    <p>Constructs a ServiceRemotingExceptionHandler with a specified trace id.</p>
-
-    <p></p>
+  summary: "<p>Constructs a ServiceRemotingExceptionHandler with a specified trace id.</p>\r\n<p></p>"
   syntax:
     content: public ServiceRemotingExceptionHandler(String traceId)
     parameters:
@@ -122,7 +119,7 @@ references:
   nameWithType: ServiceRemotingExceptionHandler
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingExceptionHandler
   type: Class
-  summary: <p>This class provide handling of exceptions encountered in communicating with a service fabric service over remoted interfaces. ServiceRemotingExceptionHandler </p>
+  summary: "<p>This class provide handling of exceptions encountered in communicating with a service fabric service over remoted interfaces. ServiceRemotingExceptionHandler </p>"
   syntax:
     content: public class ServiceRemotingExceptionHandler
 - uid: microsoft.servicefabric.services.communication.client.ExceptionHandlingResult
@@ -132,7 +129,7 @@ references:
   nameWithType: ExceptionHandlingResult
   fullName: microsoft.servicefabric.services.communication.client.ExceptionHandlingResult
   type: Class
-  summary: <p>Specifies the base class for the result from handling an exception during client to service communication. </p>
+  summary: "<p>Specifies the base class for the result from handling an exception during client to service communication. </p>"
   syntax:
     content: public class ExceptionHandlingResult
 - uid: microsoft.servicefabric.services.communication.client.ExceptionHandler.handleException(ExceptionInformation,OperationRetrySettings)
@@ -142,10 +139,7 @@ references:
   nameWithType: ExceptionHandler.handleException(ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
   fullName: microsoft.servicefabric.services.communication.client.ExceptionHandler.handleException(ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
   type: Method
-  summary: >-
-    <p>Method that examines the exception and determines how that exception can be handled.</p>
-
-    <p></p>
+  summary: "<p>Method that examines the exception and determines how that exception can be handled.</p>\r\n<p></p>"
   syntax:
     content: public ExceptionHandlingResult handleException(ExceptionInformation exceptionInformation, OperationRetrySettings retrySettings)
     parameters:
@@ -165,7 +159,7 @@ references:
   nameWithType: ExceptionInformation
   fullName: microsoft.servicefabric.services.communication.client.ExceptionInformation
   type: Class
-  summary: <p>Specifies the class that encapsulates the exception seen on the communication channel and additional information required to handle that exception. </p>
+  summary: "<p>Specifies the class that encapsulates the exception seen on the communication channel and additional information required to handle that exception. </p>"
   syntax:
     content: public class ExceptionInformation
 - uid: microsoft.servicefabric.services.communication.client.OperationRetrySettings
@@ -184,6 +178,6 @@ references:
   nameWithType: ActorConcurrencyLockTimeoutException
   fullName: microsoft.servicefabric.actors.ActorConcurrencyLockTimeoutException
   type: Class
-  summary: <p>Exception thrown by actor runtime when runtime cannot acquire the turn based concurrency lock to dispatch the method. </p>
+  summary: "<p>Exception thrown by actor runtime when runtime cannot acquire the turn based concurrency lock to dispatch the method. </p>"
   syntax:
     content: public class ActorConcurrencyLockTimeoutException extends FabricException

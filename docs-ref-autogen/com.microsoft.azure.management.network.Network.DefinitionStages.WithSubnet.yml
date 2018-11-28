@@ -151,7 +151,7 @@ references:
   nameWithType: Network.Definition
   fullName: com.microsoft.azure.management.network.Network.Definition
   type: Interface
-  summary: <p>The entirety of the virtual network definition. </p>
+  summary: "<p>The entirety of the virtual network definition. </p>"
   syntax:
     content: public interface Definition extends Network.DefinitionStages.Blank,Network.DefinitionStages.WithGroup,Network.DefinitionStages.WithSubnet,Network.DefinitionStages.WithCreate,Network.DefinitionStages.WithCreateAndSubnet
 - uid: com.microsoft.azure.management.network.Network.DefinitionStages.WithCreateAndSubnet
@@ -161,7 +161,7 @@ references:
   nameWithType: Network.DefinitionStages.WithCreateAndSubnet
   fullName: com.microsoft.azure.management.network.Network.DefinitionStages.WithCreateAndSubnet
   type: Interface
-  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified, including adding subnets. </p>
+  summary: "<p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified, including adding subnets. </p>"
   syntax:
     content: public interface WithCreateAndSubnet extends Network.DefinitionStages.WithCreate,Network.DefinitionStages.WithSubnet
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()
@@ -171,7 +171,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:

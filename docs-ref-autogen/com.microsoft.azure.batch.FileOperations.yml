@@ -969,7 +969,7 @@ references:
   nameWithType: IInheritedBehaviors
   fullName: com.microsoft.azure.batch.IInheritedBehaviors
   type: Interface
-  summary: <p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>
+  summary: "<p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>"
   syntax:
     content: public interface IInheritedBehaviors
 - uid: com.microsoft.azure.batch.BatchClientBehavior
@@ -979,7 +979,7 @@ references:
   nameWithType: BatchClientBehavior
   fullName: com.microsoft.azure.batch.BatchClientBehavior
   type: Class
-  summary: <p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>
+  summary: "<p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>"
   syntax:
     content: public class BatchClientBehavior
 - uid: com.microsoft.azure.batch.BatchClient
@@ -989,7 +989,7 @@ references:
   nameWithType: BatchClient
   fullName: com.microsoft.azure.batch.BatchClient
   type: Class
-  summary: <p>A client for an Azure Batch account, used to access the Batch service. </p>
+  summary: "<p>A client for an Azure Batch account, used to access the Batch service. </p>"
   syntax:
     content: public class BatchClient
 - uid: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
@@ -999,10 +999,7 @@ references:
   nameWithType: IInheritedBehaviors.customBehaviors()
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
   type: Method
-  summary: >-
-    <p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public Collection<BatchClientBehavior> customBehaviors()
     return:
@@ -1015,10 +1012,7 @@ references:
   nameWithType: IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   type: Method
-  summary: >-
-    <p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public IInheritedBehaviors withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
     parameters:
@@ -1035,7 +1029,7 @@ references:
   nameWithType: NodeFile
   fullName: com.microsoft.azure.batch.protocol.models.NodeFile
   type: Class
-  summary: <p>Information about a file or directory on a compute node. </p>
+  summary: "<p>Information about a file or directory on a compute node. </p>"
   syntax:
     content: public class NodeFile
 - uid: com.microsoft.azure.batch.protocol.models.BatchErrorException
@@ -1045,7 +1039,7 @@ references:
   nameWithType: BatchErrorException
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException
   type: Class
-  summary: <p>Exception thrown for an invalid response with BatchError information. </p>
+  summary: "<p>Exception thrown for an invalid response with BatchError information. </p>"
   syntax:
     content: public class BatchErrorException
 - uid: com.microsoft.azure.batch.DetailLevel
@@ -1055,7 +1049,7 @@ references:
   nameWithType: DetailLevel
   fullName: com.microsoft.azure.batch.DetailLevel
   type: Class
-  summary: <p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>
+  summary: "<p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>"
   syntax:
     content: public class DetailLevel
 - uid: com.microsoft.azure.batch.protocol.models.FileProperties
@@ -1065,6 +1059,6 @@ references:
   nameWithType: FileProperties
   fullName: com.microsoft.azure.batch.protocol.models.FileProperties
   type: Class
-  summary: <p>The properties of a file on a compute node. </p>
+  summary: "<p>The properties of a file on a compute node. </p>"
   syntax:
     content: public class FileProperties

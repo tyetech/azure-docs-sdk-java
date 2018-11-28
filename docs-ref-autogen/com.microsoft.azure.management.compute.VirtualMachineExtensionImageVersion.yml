@@ -206,10 +206,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -223,7 +220,7 @@ references:
   nameWithType: HasName
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
   type: Interface
-  summary: <p>An interface representing a model that has a name. </p>
+  summary: "<p>An interface representing a model that has a name. </p>"
   syntax:
     content: public interface HasName
 - uid: com.microsoft.azure.management.compute.VirtualMachineExtensionImageType
@@ -233,7 +230,7 @@ references:
   nameWithType: VirtualMachineExtensionImageType
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtensionImageType
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine extension image type. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine extension image type. </p>"
   syntax:
     content: public interface VirtualMachineExtensionImageType extends HasInner<VirtualMachineExtensionImageInner>,HasName
 - uid: com.microsoft.azure.management.compute.VirtualMachineExtensionImage
@@ -243,9 +240,6 @@ references:
   nameWithType: VirtualMachineExtensionImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtensionImage
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure virtual machine extension image. </p>
-
-    <p>Note: Azure virtual machine extension image is also referred as virtual machine extension handler. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine extension image. </p>\r\n<p>Note: Azure virtual machine extension image is also referred as virtual machine extension handler. </p>"
   syntax:
     content: public interface VirtualMachineExtensionImage extends HasInner<VirtualMachineExtensionImageInner>

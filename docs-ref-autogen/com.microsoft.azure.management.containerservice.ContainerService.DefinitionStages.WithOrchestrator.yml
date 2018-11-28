@@ -114,7 +114,7 @@ references:
   nameWithType: ContainerService.Definition
   fullName: com.microsoft.azure.management.containerservice.ContainerService.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a container service. </p>
+  summary: "<p>Container interface for all the definitions related to a container service. </p>"
   syntax:
     content: public interface Definition extends ContainerService.DefinitionStages.Blank,ContainerService.DefinitionStages.WithGroup,ContainerService.DefinitionStages.WithOrchestrator,ContainerService.DefinitionStages.WithMasterNodeCount,ContainerService.DefinitionStages.WithLinux,ContainerService.DefinitionStages.WithLinuxRootUsername,ContainerService.DefinitionStages.WithLinuxSshKey,ContainerService.DefinitionStages.WithAgentPool,ContainerService.DefinitionStages.WithServicePrincipalProfile,ContainerService.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux
@@ -124,7 +124,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinux
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux
   type: Interface
-  summary: <p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>
+  summary: "<p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>"
   syntax:
     content: public interface WithLinux
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withSwarmOrchestration()
@@ -134,7 +134,7 @@ references:
   nameWithType: ContainerServiceImpl.withSwarmOrchestration()
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withSwarmOrchestration()
   type: Method
-  summary: <p>Specifies the Swarm orchestration type for the container service. </p>
+  summary: "<p>Specifies the Swarm orchestration type for the container service. </p>"
   syntax:
     content: public ContainerServiceImpl withSwarmOrchestration()
     return:
@@ -147,7 +147,7 @@ references:
   nameWithType: ContainerServiceImpl.withDcosOrchestration()
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withDcosOrchestration()
   type: Method
-  summary: <p>Specifies the DCOS orchestration type for the container service. </p>
+  summary: "<p>Specifies the DCOS orchestration type for the container service. </p>"
   syntax:
     content: public ContainerServiceImpl withDcosOrchestration()
     return:
@@ -160,7 +160,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithServicePrincipalProfile
   type: Interface
-  summary: <p>The stage allowing properties for cluster service principals to be specified. </p>
+  summary: "<p>The stage allowing properties for cluster service principals to be specified. </p>"
   syntax:
     content: public interface WithServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withKubernetesOrchestration()
@@ -170,7 +170,7 @@ references:
   nameWithType: ContainerServiceImpl.withKubernetesOrchestration()
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.withKubernetesOrchestration()
   type: Method
-  summary: <p>Specifies the Kubernetes orchestration type for the container service. </p>
+  summary: "<p>Specifies the Kubernetes orchestration type for the container service. </p>"
   syntax:
     content: public ContainerServiceImpl withKubernetesOrchestration()
     return:

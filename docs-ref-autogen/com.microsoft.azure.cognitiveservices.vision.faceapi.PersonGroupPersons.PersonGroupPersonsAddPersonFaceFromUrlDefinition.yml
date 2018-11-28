@@ -37,10 +37,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public PersistedFace execute()
     return:
@@ -53,10 +50,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PersistedFace> executeAsync()
     return:
@@ -69,10 +63,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular person group.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular person group.</p>\r\n<p></p>"
   syntax:
     content: public WithPersonId withPersonGroupId(String personGroupId)
     parameters:
@@ -88,10 +79,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonId.withPersonId(UUID personId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonId.withPersonId(UUID personId)
   type: Method
-  summary: >-
-    <p>Id referencing a particular person.</p>
-
-    <p></p>
+  summary: "<p>Id referencing a particular person.</p>\r\n<p></p>"
   syntax:
     content: public WithUrl withPersonId(UUID personId)
     parameters:
@@ -107,10 +95,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withTargetFace(List<Integer> targetFace)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withTargetFace(List<Integer> targetFace)
   type: Method
-  summary: >-
-    <p>A face rectangle to specify the target face to be added to a person in the format of "targetFace=left,top,width,height". E.g. "targetFace=10,10,100,100". If there is more than one face in the image, targetFace is required to specify which face to add. No targetFace means there is only one face detected in the entire image.</p>
-
-    <p></p>
+  summary: "<p>A face rectangle to specify the target face to be added to a person in the format of \"targetFace=left,top,width,height\". E.g. \"targetFace=10,10,100,100\". If there is more than one face in the image, targetFace is required to specify which face to add. No targetFace means there is only one face detected in the entire image.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute withTargetFace(List<Integer> targetFace)
     parameters:
@@ -126,10 +111,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithUrl.withUrl(String url)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithUrl.withUrl(String url)
   type: Method
-  summary: >-
-    <p>Publicly reachable URL of an image.</p>
-
-    <p></p>
+  summary: "<p>Publicly reachable URL of an image.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute withUrl(String url)
     parameters:
@@ -145,10 +127,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withUserData(String userData)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithAllOptions.withUserData(String userData)
   type: Method
-  summary: >-
-    <p>User-specified data about the face for any purpose. The maximum length is 1KB.</p>
-
-    <p></p>
+  summary: "<p>User-specified data about the face for any purpose. The maximum length is 1KB.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute withUserData(String userData)
     parameters:
@@ -164,7 +143,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonGroupId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonGroupId
   type: Interface
-  summary: <p>The stage of the definition to be specify personGroupId. </p>
+  summary: "<p>The stage of the definition to be specify personGroupId. </p>"
   syntax:
     content: public interface WithPersonGroupId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonId
@@ -174,7 +153,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithPersonId
   type: Interface
-  summary: <p>The stage of the definition to be specify personId. </p>
+  summary: "<p>The stage of the definition to be specify personId. </p>"
   syntax:
     content: public interface WithPersonId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithUrl
@@ -184,7 +163,7 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithUrl
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithUrl
   type: Interface
-  summary: <p>The stage of the definition to be specify url. </p>
+  summary: "<p>The stage of the definition to be specify url. </p>"
   syntax:
     content: public interface WithUrl
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute
@@ -194,6 +173,6 @@ references:
   nameWithType: PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsAddPersonFaceFromUrlDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

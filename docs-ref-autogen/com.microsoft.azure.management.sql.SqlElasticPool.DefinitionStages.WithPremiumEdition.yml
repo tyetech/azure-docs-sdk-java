@@ -176,7 +176,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -189,10 +189,7 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>.withDatabaseDtuMax(int databaseDtuMax)
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>.withDatabaseDtuMax(int databaseDtuMax)
   type: Method
-  summary: >-
-    <p>Sets the maximum DTU any one SQL Azure Database can consume.</p>
-
-    <p></p>
+  summary: "<p>Sets the maximum DTU any one SQL Azure Database can consume.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPool.DefinitionStages.WithAttach<ParentT> withDatabaseDtuMax(int databaseDtuMax)
     parameters:
@@ -209,10 +206,7 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.WithDatabaseDtuMin<ParentT>.withDatabaseDtuMin(int databaseDtuMin)
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithDatabaseDtuMin<ParentT>.withDatabaseDtuMin(int databaseDtuMin)
   type: Method
-  summary: >-
-    <p>Sets the minimum DTU all SQL Azure Databases are guaranteed.</p>
-
-    <p></p>
+  summary: "<p>Sets the minimum DTU all SQL Azure Databases are guaranteed.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPool.DefinitionStages.WithAttach<ParentT> withDatabaseDtuMin(int databaseDtuMin)
     parameters:
@@ -229,10 +223,7 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.WithDtu<ParentT>.withDtu(int dtu)
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithDtu<ParentT>.withDtu(int dtu)
   type: Method
-  summary: >-
-    <p>Sets the total shared DTU for the SQL Azure Database Elastic Pool.</p>
-
-    <p></p>
+  summary: "<p>Sets the total shared DTU for the SQL Azure Database Elastic Pool.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPool.DefinitionStages.WithAttach<ParentT> withDtu(int dtu)
     parameters:
@@ -249,10 +240,7 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.WithStorageCapacity<ParentT>.withStorageCapacity(int storageMB)
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStorageCapacity<ParentT>.withStorageCapacity(int storageMB)
   type: Method
-  summary: >-
-    <p>Sets the storage limit for the SQL Azure Database Elastic Pool in MB.</p>
-
-    <p></p>
+  summary: "<p>Sets the storage limit for the SQL Azure Database Elastic Pool in MB.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPool.DefinitionStages.WithAttach<ParentT> withStorageCapacity(int storageMB)
     parameters:
@@ -269,10 +257,7 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Elastic Pool definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the SQL Elastic Pool definition can be attached to the parent SQL Server definition. </p>
+  summary: "<p>The final stage of the SQL Elastic Pool definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the SQL Elastic Pool definition can be attached to the parent SQL Server definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends SqlElasticPool.DefinitionStages.WithDatabaseDtuMin<ParentT>,SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>,SqlElasticPool.DefinitionStages.WithDtu<ParentT>,SqlElasticPool.DefinitionStages.WithStorageCapacity<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
@@ -286,10 +271,7 @@ references:
   nameWithType: SqlElasticPool.SqlElasticPoolDefinition<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.SqlElasticPoolDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Container interface for all the definitions that need to be implemented.</p>
-
-    <p></p>
+  summary: "<p>Container interface for all the definitions that need to be implemented.</p>\r\n<p></p>"
   syntax:
     content: public interface SqlElasticPoolDefinition<ParentT> extends SqlElasticPool.DefinitionStages.Blank<ParentT>,SqlElasticPool.DefinitionStages.WithEdition<ParentT>,SqlElasticPool.DefinitionStages.WithBasicEdition<ParentT>,SqlElasticPool.DefinitionStages.WithStandardEdition<ParentT>,SqlElasticPool.DefinitionStages.WithPremiumEdition<ParentT>,SqlElasticPool.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -303,7 +285,7 @@ references:
   nameWithType: SqlElasticPoolPremiumEDTUs
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolPremiumEDTUs
   type: Enum
-  summary: <p>The reserved eDTUs value range for a "Premium" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The reserved eDTUs value range for a \"Premium\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlElasticPoolPremiumEDTUs
 - uid: com.microsoft.azure.management.sql.SqlElasticPoolPremiumMaxEDTUs
@@ -313,7 +295,7 @@ references:
   nameWithType: SqlElasticPoolPremiumMaxEDTUs
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolPremiumMaxEDTUs
   type: Enum
-  summary: <p>The maximum limit of the reserved eDTUs value range for a "Premium" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum limit of the reserved eDTUs value range for a \"Premium\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlElasticPoolPremiumMaxEDTUs
 - uid: com.microsoft.azure.management.sql.SqlElasticPoolPremiumMinEDTUs
@@ -323,7 +305,7 @@ references:
   nameWithType: SqlElasticPoolPremiumMinEDTUs
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolPremiumMinEDTUs
   type: Enum
-  summary: <p>The minimum limit of the reserved eDTUs value range for a "Premium" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The minimum limit of the reserved eDTUs value range for a \"Premium\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlElasticPoolPremiumMinEDTUs
 - uid: com.microsoft.azure.management.sql.SqlElasticPoolPremiumSorage
@@ -333,6 +315,6 @@ references:
   nameWithType: SqlElasticPoolPremiumSorage
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolPremiumSorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Premium" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Premium\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlElasticPoolPremiumSorage

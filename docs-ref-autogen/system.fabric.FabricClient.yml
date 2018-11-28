@@ -516,12 +516,7 @@ references:
   nameWithType: FabricClient
   fullName: system.fabric.FabricClient
   type: Class
-  summary: >-
-    <p>Client for a Service Fabric cluster. </p>
-
-    <p>
-
-      <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>
+  summary: "<p>Client for a Service Fabric cluster. </p>\r\n<p>\r\n  <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>"
   syntax: *o1
 - uid: system.fabric.Observable
   parent: system.fabric
@@ -530,7 +525,7 @@ references:
   nameWithType: Observable<T>
   fullName: system.fabric.Observable<T>
   type: Class
-  summary: <p>This class represents an observable object </p>
+  summary: "<p>This class represents an observable object </p>"
   syntax:
     content: public class Observable<T>
     typeParameters:
@@ -544,7 +539,7 @@ references:
   nameWithType: GatewayInformation
   fullName: system.fabric.GatewayInformation
   type: Class
-  summary: <p>Contains information identifying a Service Fabric node in the cluster. </p>
+  summary: "<p>Contains information identifying a Service Fabric node in the cluster. </p>"
   syntax:
     content: public class GatewayInformation
 - uid: system.fabric.SecurityCredentials
@@ -554,7 +549,7 @@ references:
   nameWithType: SecurityCredentials
   fullName: system.fabric.SecurityCredentials
   type: Class
-  summary: <p>An abstract base class for types that represent security credentials. </p>
+  summary: "<p>An abstract base class for types that represent security credentials. </p>"
   syntax:
     content: public class SecurityCredentials
 - uid: system.fabric.FabricClientSettings
@@ -564,7 +559,7 @@ references:
   nameWithType: FabricClientSettings
   fullName: system.fabric.FabricClientSettings
   type: Class
-  summary: <p>Represents the configuration settings for the <xref uid="system.fabric.FabricClient" data-throw-if-not-resolved="false">system.fabric.FabricClient</xref> class. </p>
+  summary: "<p>Represents the configuration settings for the <xref uid=\"system.fabric.FabricClient\" data-throw-if-not-resolved=\"false\">system.fabric.FabricClient</xref> class. </p>"
   syntax:
     content: public class FabricClientSettings
 - uid: system.fabric.FabricClientRole
@@ -574,6 +569,6 @@ references:
   nameWithType: FabricClientRole
   fullName: system.fabric.FabricClientRole
   type: Enum
-  summary: <p>Represents the fabric client security role. </p>
+  summary: "<p>Represents the fabric client security role. </p>"
   syntax:
     content: public enum FabricClientRole

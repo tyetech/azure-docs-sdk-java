@@ -40,10 +40,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.WithDiskSource<ParentT>.withExistingVhd(String storageAccountName, String containerName, String vhdName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.WithDiskSource<ParentT>.withExistingVhd(String storageAccountName, String containerName, String vhdName)
   type: Method
-  summary: >-
-    <p>Specifies the existing source VHD of the disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the existing source VHD of the disk.</p>\r\n<p></p>"
   syntax:
     content: public WithVhdAttachedDiskSettings<ParentT> withExistingVhd(String storageAccountName, String containerName, String vhdName)
     parameters:
@@ -66,10 +63,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.WithDiskSource<ParentT>.withNewVhd(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.WithDiskSource<ParentT>.withNewVhd(int sizeInGB)
   type: Method
-  summary: >-
-    <p>specifies that disk needs to be created with a new VHD of given size.</p>
-
-    <p></p>
+  summary: "<p>specifies that disk needs to be created with a new VHD of given size.</p>\r\n<p></p>"
   syntax:
     content: public WithNewVhdDiskSettings<ParentT> withNewVhd(int sizeInGB)
     parameters:
@@ -86,10 +80,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.WithDiskSource<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.UpdateDefinitionStages.WithDiskSource<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the data disk definition allowing to choose the source.</p>
-
-    <p></p>
+  summary: "<p>The stage of the data disk definition allowing to choose the source.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDiskSource<ParentT>
     typeParameters:
@@ -103,7 +94,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.UpdateDefinitionWithExistingVhd<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.UpdateDefinitionWithExistingVhd<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set update. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set update. </p>"
   syntax:
     content: public interface UpdateDefinitionWithExistingVhd<ParentT>
     typeParameters:
@@ -117,7 +108,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.UpdateDefinitionWithNewVhd<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.UpdateDefinitionWithNewVhd<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set update. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set update. </p>"
   syntax:
     content: public interface UpdateDefinitionWithNewVhd<ParentT>
     typeParameters:

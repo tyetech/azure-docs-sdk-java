@@ -59,10 +59,7 @@ references:
   nameWithType: NicIPConfigurationBase.getNetworkSecurityGroup()
   fullName: com.microsoft.azure.management.network.NicIPConfigurationBase.getNetworkSecurityGroup()
   type: Method
-  summary: >-
-    <p>
-
-    (Note that this results in additional calls to Azure.) </p>
+  summary: "<p>\r\n(Note that this results in additional calls to Azure.) </p>"
   syntax:
     content: public NetworkSecurityGroup getNetworkSecurityGroup()
     return:
@@ -255,7 +252,7 @@ references:
   nameWithType: NicIPConfigurationBase
   fullName: com.microsoft.azure.management.network.NicIPConfigurationBase
   type: Interface
-  summary: <p>The base IP configuration shared across IP configurations in regular and virtual machine scale set network interface. </p>
+  summary: "<p>The base IP configuration shared across IP configurations in regular and virtual machine scale set network interface. </p>"
   syntax:
     content: public interface NicIPConfigurationBase
 - uid: com.microsoft.azure.management.resources.fluentcore.model.HasInner
@@ -265,10 +262,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -282,7 +276,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT> extends Indexable,HasName,HasParent<ParentT>
     typeParameters:
@@ -296,6 +290,6 @@ references:
   nameWithType: HasPublicIPAddress
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a public IP address. </p>
+  summary: "<p>An interface representing a model's ability to reference a public IP address. </p>"
   syntax:
     content: public interface HasPublicIPAddress

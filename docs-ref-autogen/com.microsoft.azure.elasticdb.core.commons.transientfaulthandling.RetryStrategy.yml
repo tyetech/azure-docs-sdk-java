@@ -464,7 +464,7 @@ references:
   nameWithType: ExponentialBackoff
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ExponentialBackoff
   type: Class
-  summary: <p>A retry strategy with backoff parameters for calculating the exponential delay between retries. </p>
+  summary: "<p>A retry strategy with backoff parameters for calculating the exponential delay between retries. </p>"
   syntax:
     content: public class ExponentialBackoff extends RetryStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.FixedInterval
@@ -474,7 +474,7 @@ references:
   nameWithType: FixedInterval
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.FixedInterval
   type: Class
-  summary: <p>Represents a retry strategy with a specified number of retry attempts and a default, fixed time interval between retries. </p>
+  summary: "<p>Represents a retry strategy with a specified number of retry attempts and a default, fixed time interval between retries. </p>"
   syntax:
     content: public class FixedInterval extends RetryStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.Incremental
@@ -484,7 +484,7 @@ references:
   nameWithType: Incremental
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.Incremental
   type: Class
-  summary: <p>A retry strategy with a specified number of retry attempts and an incremental time interval between retries. </p>
+  summary: "<p>A retry strategy with a specified number of retry attempts and an incremental time interval between retries. </p>"
   syntax:
     content: public class Incremental extends RetryStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
@@ -494,7 +494,7 @@ references:
   nameWithType: RetryStrategy
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
   type: Class
-  summary: <p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>
+  summary: "<p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INTERVAL
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
@@ -503,7 +503,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_RETRY_INTERVAL
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INTERVAL
   type: Field
-  summary: <p>Represents the default interval between retries. </p>
+  summary: "<p>Represents the default interval between retries. </p>"
   syntax: *o2
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
@@ -512,7 +512,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT
   type: Field
-  summary: <p>region Public members </p><p>Represents the default number of retry attempts. </p>
+  summary: "<p>region Public members </p><p>Represents the default number of retry attempts. </p>"
   syntax: *o3
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INCREMENT
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
@@ -521,7 +521,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_RETRY_INCREMENT
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INCREMENT
   type: Field
-  summary: <p>Represents the default time increment between retry attempts in the progressive delay policy. </p>
+  summary: "<p>Represents the default time increment between retry attempts in the progressive delay policy. </p>"
   syntax: *o4
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MIN_BACKOFF
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
@@ -530,7 +530,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_MIN_BACKOFF
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MIN_BACKOFF
   type: Field
-  summary: <p>Represents the default minimum amount of time used when calculating the exponential delay between retries. </p>
+  summary: "<p>Represents the default minimum amount of time used when calculating the exponential delay between retries. </p>"
   syntax: *o5
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MAX_BACKOFF
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
@@ -539,7 +539,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_MAX_BACKOFF
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MAX_BACKOFF
   type: Field
-  summary: <p>Represents the default maximum amount of time used when calculating the exponential delay between retries. </p>
+  summary: "<p>Represents the default maximum amount of time used when calculating the exponential delay between retries. </p>"
   syntax: *o6
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_BACKOFF
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
@@ -548,7 +548,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_CLIENT_BACKOFF
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_BACKOFF
   type: Field
-  summary: <p>Represents the default amount of time used when calculating a random delta in the exponential delay between retries. </p>
+  summary: "<p>Represents the default amount of time used when calculating a random delta in the exponential delay between retries. </p>"
   syntax: *o7
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ShouldRetry
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling
@@ -557,6 +557,6 @@ references:
   nameWithType: ShouldRetry
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ShouldRetry
   type: Interface
-  summary: <p>Defines a callback delegate that will be invoked whenever a retry condition is encountered. </p>
+  summary: "<p>Defines a callback delegate that will be invoked whenever a retry condition is encountered. </p>"
   syntax:
     content: public interface ShouldRetry

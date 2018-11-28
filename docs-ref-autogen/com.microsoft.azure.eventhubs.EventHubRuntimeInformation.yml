@@ -209,18 +209,7 @@ references:
   nameWithType: EventHubClient.createPartitionSender(final String partitionId)
   fullName: com.microsoft.azure.eventhubs.EventHubClient.createPartitionSender(final String partitionId)
   type: Method
-  summary: >-
-    <p>Create a <xref uid="com.microsoft.azure.eventhubs.PartitionSender" data-throw-if-not-resolved="false">PartitionSender</xref> which can publish <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>'s directly to a specific EventHub partition (sender type iii. in the below list). </p>
-
-    <p>There are 3 patterns/ways to send to EventHubs: <pre>
-
-    i.   <xref uid="com.microsoft.azure.eventhubs.EventHubClient.send(final EventData)" data-throw-if-not-resolved="false">send(EventData)</xref> or <xref uid="" data-throw-if-not-resolved="false">send(Iterable)</xref>
-
-    ii.  <xref uid="com.microsoft.azure.eventhubs.EventHubClient.send(final EventData,final String)" data-throw-if-not-resolved="false">send(EventData, String)</xref> or <xref uid="" data-throw-if-not-resolved="false">send(Iterable, String)</xref>
-
-    iii. <xref uid="com.microsoft.azure.eventhubs.PartitionSender.send(EventData)" data-throw-if-not-resolved="false">PartitionSender#send(EventData)</xref> or <xref uid="" data-throw-if-not-resolved="false">PartitionSender#send(Iterable)</xref></pre></p>
-
-    <p></p>
+  summary: "<p>Create a <xref uid=\"com.microsoft.azure.eventhubs.PartitionSender\" data-throw-if-not-resolved=\"false\">PartitionSender</xref> which can publish <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref>'s directly to a specific EventHub partition (sender type iii. in the below list). </p>\r\n<p>There are 3 patterns/ways to send to EventHubs: <pre>\r\ni.   <xref uid=\"com.microsoft.azure.eventhubs.EventHubClient.send(final EventData)\" data-throw-if-not-resolved=\"false\">send(EventData)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">send(Iterable)</xref>\r\nii.  <xref uid=\"com.microsoft.azure.eventhubs.EventHubClient.send(final EventData,final String)\" data-throw-if-not-resolved=\"false\">send(EventData, String)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">send(Iterable, String)</xref>\r\niii. <xref uid=\"com.microsoft.azure.eventhubs.PartitionSender.send(EventData)\" data-throw-if-not-resolved=\"false\">PartitionSender#send(EventData)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">PartitionSender#send(Iterable)</xref></pre></p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<PartitionSender> createPartitionSender(final String partitionId)
     parameters:
@@ -237,10 +226,7 @@ references:
   nameWithType: EventHubClient.createReceiver(final String consumerGroupName, final String partitionId, final EventPosition eventPosition)
   fullName: com.microsoft.azure.eventhubs.EventHubClient.createReceiver(final String consumerGroupName, final String partitionId, final EventPosition eventPosition)
   type: Method
-  summary: >-
-    <p>Create the EventHub receiver with given partition id and start receiving from the specified starting offset. The receiver is created for a specific EventHub Partition from the specific consumer group.</p>
-
-    <p></p>
+  summary: "<p>Create the EventHub receiver with given partition id and start receiving from the specified starting offset. The receiver is created for a specific EventHub Partition from the specific consumer group.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<PartitionReceiver> createReceiver(final String consumerGroupName, final String partitionId, final EventPosition eventPosition)
     parameters:

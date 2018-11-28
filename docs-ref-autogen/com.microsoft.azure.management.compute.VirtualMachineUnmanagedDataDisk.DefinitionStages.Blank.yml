@@ -41,10 +41,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.fromImage(int imageLun)
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.fromImage(int imageLun)
   type: Method
-  summary: >-
-    <p>Specifies the image LUN identifier of the source disk image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the image LUN identifier of the source disk image.</p>\r\n<p></p>"
   syntax:
     content: public WithFromImageDiskSettings<ParentT> fromImage(int imageLun)
     parameters:
@@ -61,10 +58,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.withExistingVhd(String storageAccountName, String containerName, String vhdName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.withExistingVhd(String storageAccountName, String containerName, String vhdName)
   type: Method
-  summary: >-
-    <p>Specifies the existing source VHD of the disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the existing source VHD of the disk.</p>\r\n<p></p>"
   syntax:
     content: public WithVhdAttachedDiskSettings<ParentT> withExistingVhd(String storageAccountName, String containerName, String vhdName)
     parameters:
@@ -87,10 +81,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.withNewVhd(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.withNewVhd(int sizeInGB)
   type: Method
-  summary: >-
-    <p>specifies that disk needs to be created with a new VHD of given size.</p>
-
-    <p></p>
+  summary: "<p>specifies that disk needs to be created with a new VHD of given size.</p>\r\n<p></p>"
   syntax:
     content: public WithNewVhdDiskSettings<ParentT> withNewVhd(int sizeInGB)
     parameters:
@@ -107,10 +98,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the data disk definition allowing to choose the source.</p>
-
-    <p></p>
+  summary: "<p>The stage of the data disk definition allowing to choose the source.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDiskSource<ParentT>
     typeParameters:
@@ -124,7 +112,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionWithExistingVhd<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionWithExistingVhd<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>"
   syntax:
     content: public interface DefinitionWithExistingVhd<ParentT>
     typeParameters:
@@ -138,7 +126,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionWithImage<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionWithImage<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>"
   syntax:
     content: public interface DefinitionWithImage<ParentT>
     typeParameters:
@@ -152,7 +140,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk.DefinitionWithNewVhd<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk.DefinitionWithNewVhd<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>"
   syntax:
     content: public interface DefinitionWithNewVhd<ParentT>
     typeParameters:

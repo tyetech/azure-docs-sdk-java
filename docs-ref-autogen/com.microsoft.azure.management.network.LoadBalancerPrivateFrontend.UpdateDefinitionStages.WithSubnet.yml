@@ -85,7 +85,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of a private frontend definition as part of a load balancer update. </p>
+  summary: "<p>The entirety of a private frontend definition as part of a load balancer update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends LoadBalancerPrivateFrontend.UpdateDefinitionStages.Blank<ParentT>,LoadBalancerPrivateFrontend.UpdateDefinitionStages.WithAttach<ParentT>,LoadBalancerPrivateFrontend.UpdateDefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -99,7 +99,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a private frontend definition. </p>
+  summary: "<p>The first stage of a private frontend definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends LoadBalancerPrivateFrontend.UpdateDefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -113,10 +113,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an internal frontend definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the frontend definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of an internal frontend definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the frontend definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdateAlt,HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<WithAttach<ParentT>>,LoadBalancerPrivateFrontend.UpdateDefinitionStages.WithAvailabilityZone<ParentT>
     typeParameters:
@@ -130,6 +127,6 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>

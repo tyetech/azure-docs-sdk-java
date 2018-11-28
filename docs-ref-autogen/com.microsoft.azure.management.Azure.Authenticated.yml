@@ -197,10 +197,7 @@ references:
   nameWithType: AccessManagement.activeDirectoryApplications()
   fullName: com.microsoft.azure.management.AccessManagement.activeDirectoryApplications()
   type: Method
-  summary: >-
-    <p>Entry point to AD application management APIs.</p>
-
-    <p></p>
+  summary: "<p>Entry point to AD application management APIs.</p>\r\n<p></p>"
   syntax:
     content: public ActiveDirectoryApplications activeDirectoryApplications()
     return:
@@ -213,10 +210,7 @@ references:
   nameWithType: AccessManagement.activeDirectoryGroups()
   fullName: com.microsoft.azure.management.AccessManagement.activeDirectoryGroups()
   type: Method
-  summary: >-
-    <p>Entry point to AD group management APIs.</p>
-
-    <p></p>
+  summary: "<p>Entry point to AD group management APIs.</p>\r\n<p></p>"
   syntax:
     content: public ActiveDirectoryGroups activeDirectoryGroups()
     return:
@@ -229,10 +223,7 @@ references:
   nameWithType: AccessManagement.activeDirectoryUsers()
   fullName: com.microsoft.azure.management.AccessManagement.activeDirectoryUsers()
   type: Method
-  summary: >-
-    <p>Entry point to AD user management APIs.</p>
-
-    <p></p>
+  summary: "<p>Entry point to AD user management APIs.</p>\r\n<p></p>"
   syntax:
     content: public ActiveDirectoryUsers activeDirectoryUsers()
     return:
@@ -245,10 +236,7 @@ references:
   nameWithType: AccessManagement.roleAssignments()
   fullName: com.microsoft.azure.management.AccessManagement.roleAssignments()
   type: Method
-  summary: >-
-    <p>Entry point to role assignment management APIs.</p>
-
-    <p></p>
+  summary: "<p>Entry point to role assignment management APIs.</p>\r\n<p></p>"
   syntax:
     content: public RoleAssignments roleAssignments()
     return:
@@ -261,10 +249,7 @@ references:
   nameWithType: AccessManagement.roleDefinitions()
   fullName: com.microsoft.azure.management.AccessManagement.roleDefinitions()
   type: Method
-  summary: >-
-    <p>Entry point to role definition management APIs.</p>
-
-    <p></p>
+  summary: "<p>Entry point to role definition management APIs.</p>\r\n<p></p>"
   syntax:
     content: public RoleDefinitions roleDefinitions()
     return:
@@ -277,10 +262,7 @@ references:
   nameWithType: AccessManagement.servicePrincipals()
   fullName: com.microsoft.azure.management.AccessManagement.servicePrincipals()
   type: Method
-  summary: >-
-    <p>Entry point to AD service principal management APIs.</p>
-
-    <p></p>
+  summary: "<p>Entry point to AD service principal management APIs.</p>\r\n<p></p>"
   syntax:
     content: public ServicePrincipals servicePrincipals()
     return:
@@ -293,7 +275,7 @@ references:
   nameWithType: AccessManagement
   fullName: com.microsoft.azure.management.AccessManagement
   type: Interface
-  summary: <p>Exposes methods related to managing access permissions in Azure. </p>
+  summary: "<p>Exposes methods related to managing access permissions in Azure. </p>"
   syntax:
     content: public interface AccessManagement
 - uid: com.microsoft.azure.management.resources.Subscriptions
@@ -303,7 +285,7 @@ references:
   nameWithType: Subscriptions
   fullName: com.microsoft.azure.management.resources.Subscriptions
   type: Interface
-  summary: <p>Entry point to subscription management API. </p>
+  summary: "<p>Entry point to subscription management API. </p>"
   syntax:
     content: public interface Subscriptions
 - uid: com.microsoft.azure.management.resources.Tenants
@@ -313,7 +295,7 @@ references:
   nameWithType: Tenants
   fullName: com.microsoft.azure.management.resources.Tenants
   type: Interface
-  summary: <p>Entry point to tenant management API. </p>
+  summary: "<p>Entry point to tenant management API. </p>"
   syntax:
     content: public interface Tenants
 - uid: com.microsoft.azure.management.Azure
@@ -323,7 +305,7 @@ references:
   nameWithType: Azure
   fullName: com.microsoft.azure.management.Azure
   type: Class
-  summary: <p>The entry point for accessing resource management APIs in Azure. </p>
+  summary: "<p>The entry point for accessing resource management APIs in Azure. </p>"
   syntax:
     content: public class Azure
 - uid: com.microsoft.azure.management.Azure.authenticate(File)
@@ -333,7 +315,7 @@ references:
   nameWithType: Azure.authenticate(File credentialsFile)
   fullName: com.microsoft.azure.management.Azure.authenticate(File credentialsFile)
   type: Method
-  summary: <p>Authenticates API access using a properties file containing the required credentials. </p>
+  summary: "<p>Authenticates API access using a properties file containing the required credentials. </p>"
   syntax:
     content: public static Authenticated authenticate(File credentialsFile)
     parameters:
@@ -350,10 +332,7 @@ references:
   nameWithType: Azure.Authenticated.subscriptions()
   fullName: com.microsoft.azure.management.Azure.Authenticated.subscriptions()
   type: Method
-  summary: >-
-    <p>Entry point to subscription management APIs.</p>
-
-    <p></p>
+  summary: "<p>Entry point to subscription management APIs.</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.Azure.Authenticated.withSubscription(String)
   parent: com.microsoft.azure.management.Azure.Authenticated
@@ -362,8 +341,5 @@ references:
   nameWithType: Azure.Authenticated.withSubscription(String subscriptionId)
   fullName: com.microsoft.azure.management.Azure.Authenticated.withSubscription(String subscriptionId)
   type: Method
-  summary: >-
-    <p>Selects a specific subscription for the APIs to work with. </p>
-
-    <p>Most Azure APIs require a specific subscription to be selected. </p>
+  summary: "<p>Selects a specific subscription for the APIs to work with. </p>\r\n<p>Most Azure APIs require a specific subscription to be selected. </p>"
   syntax: *o2

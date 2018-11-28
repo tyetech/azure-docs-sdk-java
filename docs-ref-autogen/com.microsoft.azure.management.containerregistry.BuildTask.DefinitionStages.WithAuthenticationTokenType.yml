@@ -66,7 +66,7 @@ references:
   nameWithType: BuildTask.BuildTaskDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
   type: Interface
-  summary: <p>Grouping of the container register build task definitions. </p>
+  summary: "<p>Grouping of the container register build task definitions. </p>"
   syntax:
     content: public interface BuildTaskDefinition extends BuildTask.DefinitionStages.Blank,BuildTask.DefinitionStages.WithOSType,BuildTask.DefinitionStages.WithSourceControlType,BuildTask.DefinitionStages.WithRepositoryUrl,BuildTask.DefinitionStages.WithAuthenticationTokenType,BuildTask.DefinitionStages.WithAuthenticationToken,BuildTask.DefinitionStages.WithAlias,BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,BuildTask.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withAuthenticationTokenType(TokenType)
@@ -76,10 +76,7 @@ references:
   nameWithType: BuildTaskImpl.withAuthenticationTokenType(TokenType tokenType)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withAuthenticationTokenType(TokenType tokenType)
   type: Method
-  summary: >-
-    <p>Specifies the type of the authentication token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the type of the authentication token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withAuthenticationTokenType(TokenType tokenType)
     parameters:
@@ -96,6 +93,6 @@ references:
   nameWithType: TokenType
   fullName: com.microsoft.azure.management.containerregistry.TokenType
   type: Class
-  summary: <p>Defines values for TokenType. </p>
+  summary: "<p>Defines values for TokenType. </p>"
   syntax:
     content: public class TokenType extends ExpandableStringEnum<TokenType>

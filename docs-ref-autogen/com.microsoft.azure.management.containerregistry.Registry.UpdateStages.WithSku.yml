@@ -114,7 +114,7 @@ references:
   nameWithType: Registry.Update
   fullName: com.microsoft.azure.management.containerregistry.Registry.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Resource.UpdateWithTags<Update>,Appliable<Registry>,Registry.UpdateStages.WithAdminUserEnabled,Registry.UpdateStages.WithSku,Registry.UpdateStages.WithWebhook
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withBasicSku()
@@ -124,7 +124,7 @@ references:
   nameWithType: RegistryImpl.withBasicSku()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withBasicSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Basic' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Basic' SKU type. </p>"
   syntax:
     content: public RegistryImpl withBasicSku()
     return:
@@ -137,7 +137,7 @@ references:
   nameWithType: RegistryImpl.withStandardSku()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withStandardSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Standard' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Standard' SKU type. </p>"
   syntax:
     content: public RegistryImpl withStandardSku()
     return:
@@ -150,7 +150,7 @@ references:
   nameWithType: RegistryImpl.withPremiumSku()
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withPremiumSku()
   type: Method
-  summary: <p>Creates a 'managed' registry with a 'Premium' SKU type. </p>
+  summary: "<p>Creates a 'managed' registry with a 'Premium' SKU type. </p>"
   syntax:
     content: public RegistryImpl withPremiumSku()
     return:

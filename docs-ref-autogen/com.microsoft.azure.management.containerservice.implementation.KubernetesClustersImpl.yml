@@ -590,10 +590,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.create(Creatable<ResourceT>... creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.create(Creatable<ResourceT>... creatables)
   type: Method
-  summary: >-
-    <p>Executes the create requests on a collection (batch) of resources.</p>
-
-    <p></p>
+  summary: "<p>Executes the create requests on a collection (batch) of resources.</p>\r\n<p></p>"
   syntax:
     content: public CreatedResources<ResourceT> create(Creatable<ResourceT>... creatables)
     parameters:
@@ -610,10 +607,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.create(List<Creatable<ResourceT>> creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.create(List<Creatable<ResourceT>> creatables)
   type: Method
-  summary: >-
-    <p>Executes the create requests on a collection (batch) of resources.</p>
-
-    <p></p>
+  summary: "<p>Executes the create requests on a collection (batch) of resources.</p>\r\n<p></p>"
   syntax:
     content: public CreatedResources<ResourceT> create(List<Creatable<ResourceT>> creatables)
     parameters:
@@ -630,10 +624,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(Creatable<ResourceT>... creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(Creatable<ResourceT>... creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync(Creatable<ResourceT>... creatables)
     parameters:
@@ -650,10 +641,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(List<Creatable<ResourceT>> creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(List<Creatable<ResourceT>> creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync(List<Creatable<ResourceT>> creatables)
     parameters:
@@ -670,10 +658,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(ServiceCallback<CreatedResources<ResourceT>> callback, Creatable<ResourceT>... creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(ServiceCallback<CreatedResources<ResourceT>> callback, Creatable<ResourceT>... creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<CreatedResources<ResourceT>> createAsync(ServiceCallback<CreatedResources<ResourceT>> callback, Creatable<ResourceT>... creatables)
     parameters:
@@ -693,10 +678,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(final ServiceCallback<CreatedResources<ResourceT>> callback, List<Creatable<ResourceT>> creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(final ServiceCallback<CreatedResources<ResourceT>> callback, List<Creatable<ResourceT>> creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<CreatedResources<ResourceT>> createAsync(final ServiceCallback<CreatedResources<ResourceT>> callback, List<Creatable<ResourceT>> creatables)
     parameters:
@@ -716,10 +698,7 @@ references:
   nameWithType: SupportsDeletingById.deleteById(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingById.deleteById(String id)
   type: Method
-  summary: >-
-    <p>Deletes a resource from Azure, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Deletes a resource from Azure, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public void deleteById(String id)
     parameters:
@@ -733,10 +712,7 @@ references:
   nameWithType: SupportsDeletingById.deleteByIdAsync(String id, ServiceCallback<Void> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingById.deleteByIdAsync(String id, ServiceCallback<Void> callback)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<Void> deleteByIdAsync(String id, ServiceCallback<Void> callback)
     parameters:
@@ -756,10 +732,7 @@ references:
   nameWithType: SupportsDeletingById.deleteByIdAsync(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingById.deleteByIdAsync(String id)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteByIdAsync(String id)
     parameters:
@@ -776,10 +749,7 @@ references:
   nameWithType: SupportsDeletingByResourceGroup.deleteByResourceGroup(String resourceGroupName, String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsDeletingByResourceGroup.deleteByResourceGroup(String resourceGroupName, String name)
   type: Method
-  summary: >-
-    <p>Deletes a resource from Azure, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Deletes a resource from Azure, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public void deleteByResourceGroup(String resourceGroupName, String name)
     parameters:
@@ -796,10 +766,7 @@ references:
   nameWithType: SupportsDeletingByResourceGroup.deleteByResourceGroupAsync(String resourceGroupName, String name, ServiceCallback<Void> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsDeletingByResourceGroup.deleteByResourceGroupAsync(String resourceGroupName, String name, ServiceCallback<Void> callback)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<Void> deleteByResourceGroupAsync(String resourceGroupName, String name, ServiceCallback<Void> callback)
     parameters:
@@ -822,10 +789,7 @@ references:
   nameWithType: SupportsDeletingByResourceGroup.deleteByResourceGroupAsync(String resourceGroupName, String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsDeletingByResourceGroup.deleteByResourceGroupAsync(String resourceGroupName, String name)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteByResourceGroupAsync(String resourceGroupName, String name)
     parameters:
@@ -845,10 +809,7 @@ references:
   nameWithType: SupportsGettingById<T>.getById(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>.getById(String id)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource id.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource id.</p>\r\n<p></p>"
   syntax:
     content: public T getById(String id)
     parameters:
@@ -865,10 +826,7 @@ references:
   nameWithType: SupportsGettingById<T>.getByIdAsync(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>.getByIdAsync(String id)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource id.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource id.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getByIdAsync(String id)
     parameters:
@@ -885,10 +843,7 @@ references:
   nameWithType: SupportsGettingById<T>.getByIdAsync(String id, ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>.getByIdAsync(String id, ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource id.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource id.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> getByIdAsync(String id, ServiceCallback<T> callback)
     parameters:
@@ -908,10 +863,7 @@ references:
   nameWithType: SupportsGettingByResourceGroup<T>.getByResourceGroup(String resourceGroupName, String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByResourceGroup<T>.getByResourceGroup(String resourceGroupName, String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource name and the name of its resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource name and the name of its resource group.</p>\r\n<p></p>"
   syntax:
     content: public T getByResourceGroup(String resourceGroupName, String name)
     parameters:
@@ -931,10 +883,7 @@ references:
   nameWithType: SupportsGettingByResourceGroup<T>.getByResourceGroupAsync(String resourceGroupName, String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByResourceGroup<T>.getByResourceGroupAsync(String resourceGroupName, String name)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource name and the name of its resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource name and the name of its resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getByResourceGroupAsync(String resourceGroupName, String name)
     parameters:
@@ -954,10 +903,7 @@ references:
   nameWithType: SupportsGettingByResourceGroup<T>.getByResourceGroupAsync(String resourceGroupName, String name, ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByResourceGroup<T>.getByResourceGroupAsync(String resourceGroupName, String name, ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource name and the name of its resource group.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource name and the name of its resource group.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> getByResourceGroupAsync(String resourceGroupName, String name, ServiceCallback<T> callback)
     parameters:
@@ -1004,7 +950,7 @@ references:
   nameWithType: KubernetesClusters
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters
   type: Interface
-  summary: <p>Entry point to managed Kubernetes service management API. </p>
+  summary: "<p>Entry point to managed Kubernetes service management API. </p>"
   syntax:
     content: public interface KubernetesClusters extends HasManager<ContainerServiceManager>,HasInner<ManagedClustersInner>,SupportsCreating<KubernetesCluster.DefinitionStages.Blank>,SupportsBatchCreation<KubernetesCluster>,SupportsListing<KubernetesCluster>,SupportsGettingById<KubernetesCluster>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<KubernetesCluster>,SupportsGettingByResourceGroup<KubernetesCluster>
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
@@ -1014,7 +960,7 @@ references:
   nameWithType: ContainerServiceManager
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
   type: Class
-  summary: <p>Entry point to Azure Container Service management. </p>
+  summary: "<p>Entry point to Azure Container Service management. </p>"
   syntax:
     content: public class ContainerServiceManager
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster
@@ -1024,7 +970,7 @@ references:
   nameWithType: KubernetesCluster
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster
   type: Interface
-  summary: <p>A client-side representation for a managed Kubernetes cluster. </p>
+  summary: "<p>A client-side representation for a managed Kubernetes cluster. </p>"
   syntax:
     content: public interface KubernetesCluster extends GroupableResource<ContainerServiceManager, ManagedClusterInner>,Refreshable<KubernetesCluster>,Updatable<KubernetesCluster.Update>,OrchestratorServiceBase
 - uid: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing.list()
@@ -1034,10 +980,7 @@ references:
   nameWithType: SupportsListing<T>.list()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.list()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<T> list()
     return:
@@ -1050,10 +993,7 @@ references:
   nameWithType: SupportsListing<T>.listAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing<T>.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the currently selected subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the currently selected subscription.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listAsync()
     return:
@@ -1066,10 +1006,7 @@ references:
   nameWithType: SupportsListingByResourceGroup<T>.listByResourceGroup(String resourceGroupName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsListingByResourceGroup<T>.listByResourceGroup(String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Lists resources of the specified type in the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Lists resources of the specified type in the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<T> listByResourceGroup(String resourceGroupName)
     parameters:
@@ -1086,10 +1023,7 @@ references:
   nameWithType: SupportsListingByResourceGroup<T>.listByResourceGroupAsync(String resourceGroupName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsListingByResourceGroup<T>.listByResourceGroupAsync(String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Lists resources of the specified type in the specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Lists resources of the specified type in the specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listByResourceGroupAsync(String resourceGroupName)
     parameters:
@@ -1106,7 +1040,7 @@ references:
   nameWithType: KubernetesClusterImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
   type: Class
-  summary: <p>The implementation for KubernetesCluster and its create and update interfaces. </p>
+  summary: "<p>The implementation for KubernetesCluster and its create and update interfaces. </p>"
   syntax:
     content: public class KubernetesClusterImpl implements KubernetesCluster,KubernetesCluster.Definition,KubernetesCluster.Update
 - uid: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating.define(String)
@@ -1116,12 +1050,7 @@ references:
   nameWithType: SupportsCreating<T>.define(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating<T>.define(String name)
   type: Method
-  summary: >-
-    <p>Begins a definition for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref>. </p>
-
-    <p>Note that the <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word "with", for example:  and return the next stage of the resource definition, as an interface in the "fluent interface" style. </p>
+  summary: "<p>Begins a definition for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref>. </p>\r\n<p>Note that the <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word \"with\", for example:  and return the next stage of the resource definition, as an interface in the \"fluent interface\" style. </p>"
   syntax:
     content: public T define(String name)
     parameters:
@@ -1138,10 +1067,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -1154,10 +1080,7 @@ references:
   nameWithType: KubernetesClusters.listKubernetesVersions(Region region)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters.listKubernetesVersions(Region region)
   type: Method
-  summary: >-
-    <p>Returns the list of available Kubernetes versions available for the given Azure region.</p>
-
-    <p></p>
+  summary: "<p>Returns the list of available Kubernetes versions available for the given Azure region.</p>\r\n<p></p>"
   syntax:
     content: public Set<String> listKubernetesVersions(Region region)
     parameters:
@@ -1174,7 +1097,7 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusters.listKubernetesVersionsAsync(Region)
@@ -1184,10 +1107,7 @@ references:
   nameWithType: KubernetesClusters.listKubernetesVersionsAsync(Region region)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters.listKubernetesVersionsAsync(Region region)
   type: Method
-  summary: >-
-    <p>Returns the list of available Kubernetes versions available for the given Azure region.</p>
-
-    <p></p>
+  summary: "<p>Returns the list of available Kubernetes versions available for the given Azure region.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Set<String>> listKubernetesVersionsAsync(Region region)
     parameters:
@@ -1204,10 +1124,7 @@ references:
   nameWithType: KubernetesClusters.getAdminKubeConfigContent(String resourceGroupName, String kubernetesClusterName)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters.getAdminKubeConfigContent(String resourceGroupName, String kubernetesClusterName)
   type: Method
-  summary: >-
-    <p>Returns the admin Kube.config content which can be used with a Kubernetes client.</p>
-
-    <p></p>
+  summary: "<p>Returns the admin Kube.config content which can be used with a Kubernetes client.</p>\r\n<p></p>"
   syntax:
     content: public byte [] getAdminKubeConfigContent(String resourceGroupName, String kubernetesClusterName)
     parameters:
@@ -1227,10 +1144,7 @@ references:
   nameWithType: KubernetesClusters.getAdminKubeConfigContentAsync(String resourceGroupName, String kubernetesClusterName)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters.getAdminKubeConfigContentAsync(String resourceGroupName, String kubernetesClusterName)
   type: Method
-  summary: >-
-    <p>Returns asynchronously the admin Kube.config content which can be used with a Kubernetes client.</p>
-
-    <p></p>
+  summary: "<p>Returns asynchronously the admin Kube.config content which can be used with a Kubernetes client.</p>\r\n<p></p>"
   syntax:
     content: public Observable<byte[]> getAdminKubeConfigContentAsync(String resourceGroupName, String kubernetesClusterName)
     parameters:
@@ -1250,10 +1164,7 @@ references:
   nameWithType: KubernetesClusters.getUserKubeConfigContent(String resourceGroupName, String kubernetesClusterName)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters.getUserKubeConfigContent(String resourceGroupName, String kubernetesClusterName)
   type: Method
-  summary: >-
-    <p>Returns the user Kube.config content which can be used with a Kubernetes client.</p>
-
-    <p></p>
+  summary: "<p>Returns the user Kube.config content which can be used with a Kubernetes client.</p>\r\n<p></p>"
   syntax:
     content: public byte [] getUserKubeConfigContent(String resourceGroupName, String kubernetesClusterName)
     parameters:
@@ -1273,10 +1184,7 @@ references:
   nameWithType: KubernetesClusters.getUserKubeConfigContentAsync(String resourceGroupName, String kubernetesClusterName)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters.getUserKubeConfigContentAsync(String resourceGroupName, String kubernetesClusterName)
   type: Method
-  summary: >-
-    <p>Returns asynchronously the user Kube.config content which can be used with a Kubernetes client.</p>
-
-    <p></p>
+  summary: "<p>Returns asynchronously the user Kube.config content which can be used with a Kubernetes client.</p>\r\n<p></p>"
   syntax:
     content: public Observable<byte[]> getUserKubeConfigContentAsync(String resourceGroupName, String kubernetesClusterName)
     parameters:
@@ -1296,6 +1204,6 @@ references:
   nameWithType: ManagedClusterInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
   type: Class
-  summary: <p>Managed cluster. </p>
+  summary: "<p>Managed cluster. </p>"
   syntax:
     content: public class ManagedClusterInner

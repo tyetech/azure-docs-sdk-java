@@ -36,10 +36,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public List<EntityExtractor> execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<List<EntityExtractor>> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithAppId.withAppId(UUID appId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAppId.withAppId(UUID appId)
   type: Method
-  summary: >-
-    <p>The application ID.</p>
-
-    <p></p>
+  summary: "<p>The application ID.</p>\r\n<p></p>"
   syntax:
     content: public WithVersionId withAppId(UUID appId)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithAllOptions.withSkip(Integer skip)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAllOptions.withSkip(Integer skip)
   type: Method
-  summary: >-
-    <p>The number of entries to skip. Default value is 0.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to skip. Default value is 0.</p>\r\n<p></p>"
   syntax:
     content: public ModelsListEntitiesDefinitionStages.WithExecute withSkip(Integer skip)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithAllOptions.withTake(Integer take)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAllOptions.withTake(Integer take)
   type: Method
-  summary: >-
-    <p>The number of entries to return. Maximum page size is 500. Default is 100.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to return. Maximum page size is 500. Default is 100.</p>\r\n<p></p>"
   syntax:
     content: public ModelsListEntitiesDefinitionStages.WithExecute withTake(Integer take)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithVersionId.withVersionId(String versionId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId.withVersionId(String versionId)
   type: Method
-  summary: >-
-    <p>The version ID.</p>
-
-    <p></p>
+  summary: "<p>The version ID.</p>\r\n<p></p>"
   syntax:
     content: public ModelsListEntitiesDefinitionStages.WithExecute withVersionId(String versionId)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithAppId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAppId
   type: Interface
-  summary: <p>The stage of the definition to be specify appId. </p>
+  summary: "<p>The stage of the definition to be specify appId. </p>"
   syntax:
     content: public interface WithAppId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId
@@ -154,7 +136,7 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithVersionId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId
   type: Interface
-  summary: <p>The stage of the definition to be specify versionId. </p>
+  summary: "<p>The stage of the definition to be specify versionId. </p>"
   syntax:
     content: public interface WithVersionId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute
@@ -164,6 +146,6 @@ references:
   nameWithType: Models.ModelsListEntitiesDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

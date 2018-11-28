@@ -184,7 +184,7 @@ references:
   nameWithType: WebAppSourceControl.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a web app source control definition. </p>
+  summary: "<p>The entirety of a web app source control definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends WebAppSourceControl.DefinitionStages.Blank<ParentT>,WebAppSourceControl.DefinitionStages.WithAttach<ParentT>,WebAppSourceControl.DefinitionStages.GitHubWithAttach<ParentT>,WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>,WebAppSourceControl.DefinitionStages.WithBranch<ParentT>,WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
     typeParameters:
@@ -198,7 +198,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a web app source control definition as part of a definition of a web app. </p>
+  summary: "<p>The first stage of a web app source control definition as part of a definition of a web app. </p>"
   syntax:
     content: public interface Blank<ParentT> extends WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>
     typeParameters:
@@ -212,7 +212,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithBranch<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithBranch<ParentT>
   type: Interface
-  summary: <p>A web app source control definition allowing branch to be specified. </p>
+  summary: "<p>A web app source control definition allowing branch to be specified. </p>"
   syntax:
     content: public interface WithBranch<ParentT>
     typeParameters:
@@ -226,7 +226,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
   type: Interface
-  summary: <p>A web app source control definition allowing branch to be specified. </p>
+  summary: "<p>A web app source control definition allowing branch to be specified. </p>"
   syntax:
     content: public interface WithGitHubBranch<ParentT>
     typeParameters:

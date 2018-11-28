@@ -160,12 +160,7 @@ references:
   nameWithType: StatefulServicePartition.getReadStatus()
   fullName: system.fabric.StatefulServicePartition.getReadStatus()
   type: Method
-  summary: >-
-    <p>Used to check the readiness of the replica in regard to read operations.</p>
-
-    <p>
-
-      <b>Remarks:</b>The readStatus should be checked before the replica is servicing a customer request that is a read operation. </p>
+  summary: "<p>Used to check the readiness of the replica in regard to read operations.</p>\r\n<p>\r\n  <b>Remarks:</b>The readStatus should be checked before the replica is servicing a customer request that is a read operation. </p>"
   syntax:
     content: public PartitionAccessStatus getReadStatus()
     return:
@@ -181,12 +176,7 @@ references:
   nameWithType: StatefulServicePartition.getwriteStatus()
   fullName: system.fabric.StatefulServicePartition.getwriteStatus()
   type: Method
-  summary: >-
-    <p>Used to check the readiness of the partition in regard to write operations.</p>
-
-    <p>
-
-      <b>Remarks:</b>The WriteStatus should be checked before the replica services a customer request that is a write operation. </p>
+  summary: "<p>Used to check the readiness of the partition in regard to write operations.</p>\r\n<p>\r\n  <b>Remarks:</b>The WriteStatus should be checked before the replica services a customer request that is a write operation. </p>"
   syntax:
     content: public PartitionAccessStatus getwriteStatus()
     return:
@@ -202,7 +192,7 @@ references:
   nameWithType: StateReplicator.replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
   fullName: system.fabric.StateReplicator.replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Replicates state changes from Primary replica to the Secondary replicas and receives a quorum acknowledgement that those state changes have been applied. </p>
+  summary: "<p>Replicates state changes from Primary replica to the Secondary replicas and receives a quorum acknowledgement that those state changes have been applied. </p>"
   syntax:
     content: public CompletableFuture<SequenceNumber> replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
     parameters:

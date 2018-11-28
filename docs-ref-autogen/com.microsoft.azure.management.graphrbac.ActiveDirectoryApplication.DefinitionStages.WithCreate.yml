@@ -40,10 +40,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -56,10 +53,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -76,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -92,7 +83,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithCredential.defineCertificateCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithCredential.defineCertificateCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a certificate credential. </p>
+  summary: "<p>Starts the definition of a certificate credential. </p>"
   syntax:
     content: public CertificateCredential.DefinitionStages.Blank<WithCreate> defineCertificateCredential(String name)
     parameters:
@@ -109,7 +100,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithCredential.definePasswordCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithCredential.definePasswordCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a password credential. </p>
+  summary: "<p>Starts the definition of a password credential. </p>"
   syntax:
     content: public PasswordCredential.DefinitionStages.Blank<WithCreate> definePasswordCredential(String name)
     parameters:
@@ -150,7 +141,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithMultiTenant.withAvailableToOtherTenants(boolean availableToOtherTenants)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithMultiTenant.withAvailableToOtherTenants(boolean availableToOtherTenants)
   type: Method
-  summary: <p>Specifies if the application can be used in multiple tenants. </p>
+  summary: "<p>Specifies if the application can be used in multiple tenants. </p>"
   syntax:
     content: public WithCreate withAvailableToOtherTenants(boolean availableToOtherTenants)
     parameters:
@@ -167,10 +158,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithIdentifierUrl.withIdentifierUrl(String identifierUrl)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithIdentifierUrl.withIdentifierUrl(String identifierUrl)
   type: Method
-  summary: >-
-    <p>Adds an identifier URL to the application.</p>
-
-    <p></p>
+  summary: "<p>Adds an identifier URL to the application.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withIdentifierUrl(String identifierUrl)
     parameters:
@@ -187,10 +175,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithReplyUrl.withReplyUrl(String replyUrl)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithReplyUrl.withReplyUrl(String replyUrl)
   type: Method
-  summary: >-
-    <p>Adds a reply URL to the application.</p>
-
-    <p></p>
+  summary: "<p>Adds a reply URL to the application.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withReplyUrl(String replyUrl)
     parameters:
@@ -207,10 +192,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -224,7 +206,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithIdentifierUrl
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithIdentifierUrl
   type: Interface
-  summary: <p>The stage of application definition allowing specifying identifier URLs. </p>
+  summary: "<p>The stage of application definition allowing specifying identifier URLs. </p>"
   syntax:
     content: public interface WithIdentifierUrl
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithReplyUrl
@@ -234,7 +216,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithReplyUrl
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithReplyUrl
   type: Interface
-  summary: <p>The stage of application definition allowing specifying reply URLs. </p>
+  summary: "<p>The stage of application definition allowing specifying reply URLs. </p>"
   syntax:
     content: public interface WithReplyUrl
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithCredential
@@ -244,7 +226,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithCredential
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithCredential
   type: Interface
-  summary: <p>The stage of application definition allowing specifying identifier keys. </p>
+  summary: "<p>The stage of application definition allowing specifying identifier keys. </p>"
   syntax:
     content: public interface WithCredential
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithMultiTenant
@@ -254,7 +236,7 @@ references:
   nameWithType: ActiveDirectoryApplication.DefinitionStages.WithMultiTenant
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.DefinitionStages.WithMultiTenant
   type: Interface
-  summary: <p>The stage of application definition allowing specifying if the application can be used in multiple tenants. </p>
+  summary: "<p>The stage of application definition allowing specifying if the application can be used in multiple tenants. </p>"
   syntax:
     content: public interface WithMultiTenant
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.Definition
@@ -264,6 +246,6 @@ references:
   nameWithType: ActiveDirectoryApplication.Definition
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends ActiveDirectoryApplication.DefinitionStages.Blank,ActiveDirectoryApplication.DefinitionStages.WithCreate

@@ -102,7 +102,7 @@ references:
   nameWithType: ApplicationGatewayListener.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway HTTP listener definition. </p>
+  summary: "<p>The entirety of an application gateway HTTP listener definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayListener.DefinitionStages.Blank<ParentT>,ApplicationGatewayListener.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayListener.DefinitionStages.WithFrontend<ParentT>,ApplicationGatewayListener.DefinitionStages.WithFrontendPort<ParentT>,ApplicationGatewayListener.DefinitionStages.WithSslCertificate<ParentT>,ApplicationGatewayListener.DefinitionStages.WithSslPassword<ParentT>,ApplicationGatewayListener.DefinitionStages.WithHostName<ParentT>
     typeParameters:
@@ -116,7 +116,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway HTTP listener. </p>
+  summary: "<p>The first stage of an application gateway HTTP listener. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewayListener.DefinitionStages.WithFrontend<ParentT>
     typeParameters:
@@ -130,7 +130,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithFrontendPort<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithFrontendPort<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the frontend port to associate the listener with. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the frontend port to associate the listener with. </p>"
   syntax:
     content: public interface WithFrontendPort<ParentT>
     typeParameters:

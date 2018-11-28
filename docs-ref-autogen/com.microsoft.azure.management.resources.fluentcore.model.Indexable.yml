@@ -61,7 +61,7 @@ references:
   nameWithType: WebAppAuthentication
   fullName: com.microsoft.azure.management.appservice.WebAppAuthentication
   type: Interface
-  summary: <p>A web app authentication configuration in a web app. </p>
+  summary: "<p>A web app authentication configuration in a web app. </p>"
   syntax:
     content: public interface WebAppAuthentication
 - uid: com.microsoft.azure.management.batchai.AzureBlobFileSystem
@@ -71,7 +71,7 @@ references:
   nameWithType: AzureBlobFileSystem
   fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem
   type: Interface
-  summary: <p>Client-side representation for AzureBlobFileSystemReference. </p>
+  summary: "<p>Client-side representation for AzureBlobFileSystemReference. </p>"
   syntax:
     content: public interface AzureBlobFileSystem extends Indexable,HasInner<AzureBlobFileSystemReference>
 - uid: com.microsoft.azure.management.batchai.AzureFileShare
@@ -81,7 +81,7 @@ references:
   nameWithType: AzureFileShare
   fullName: com.microsoft.azure.management.batchai.AzureFileShare
   type: Interface
-  summary: <p>Client-side representation for AzureFileShareReference. </p>
+  summary: "<p>Client-side representation for AzureFileShareReference. </p>"
   syntax:
     content: public interface AzureFileShare extends Indexable,HasInner<AzureFileShareReference>
 - uid: com.microsoft.azure.management.batchai.BatchAICluster
@@ -91,7 +91,7 @@ references:
   nameWithType: BatchAICluster
   fullName: com.microsoft.azure.management.batchai.BatchAICluster
   type: Interface
-  summary: <p>Entry point for Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAICluster extends HasInner<ClusterInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAICluster>,Updatable<BatchAICluster.Update>
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiment
@@ -101,7 +101,7 @@ references:
   nameWithType: BatchAIExperiment
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiment
   type: Interface
-  summary: <p>Entry point for Batch AI Experiment management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI Experiment management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiment extends HasInner<ExperimentInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer
@@ -111,7 +111,7 @@ references:
   nameWithType: BatchAIFileServer
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer
   type: Interface
-  summary: <p>Entry point for Batch AI file server management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI file server management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServer extends HasInner<FileServerInner>,Indexable,HasId,HasName,HasManager<BatchAIManager>,Refreshable<BatchAIFileServer>
 - uid: com.microsoft.azure.management.batchai.BatchAIJob
@@ -121,7 +121,7 @@ references:
   nameWithType: BatchAIJob
   fullName: com.microsoft.azure.management.batchai.BatchAIJob
   type: Interface
-  summary: <p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>
+  summary: "<p>Client-side representation of Batch AI Job object, associated with Batch AI Cluster. </p>"
   syntax:
     content: public interface BatchAIJob extends HasInner<JobInner>,Indexable,HasId,HasName,Refreshable<BatchAIJob>
 - uid: com.microsoft.azure.management.batchai.ContainerImageSettings
@@ -131,7 +131,7 @@ references:
   nameWithType: ContainerImageSettings
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings
   type: Interface
-  summary: <p>Specifies settings for container image. </p>
+  summary: "<p>Specifies settings for container image. </p>"
   syntax:
     content: public interface ContainerImageSettings extends Indexable,HasParent<BatchAIJob>,HasInner<OutputDirectory>
 - uid: com.microsoft.azure.management.batchai.FileServer
@@ -141,7 +141,7 @@ references:
   nameWithType: FileServer
   fullName: com.microsoft.azure.management.batchai.FileServer
   type: Interface
-  summary: <p>Client-side representation for FileServerReference. </p>
+  summary: "<p>Client-side representation for FileServerReference. </p>"
   syntax:
     content: public interface FileServer extends Indexable,HasInner<FileServerReference>
 - uid: com.microsoft.azure.management.batchai.NodeSetupTask
@@ -151,7 +151,7 @@ references:
   nameWithType: NodeSetupTask
   fullName: com.microsoft.azure.management.batchai.NodeSetupTask
   type: Interface
-  summary: <p>A client-side representation of a mode setup task of a Batch AI cluster. </p>
+  summary: "<p>A client-side representation of a mode setup task of a Batch AI cluster. </p>"
   syntax:
     content: public interface NodeSetupTask
 - uid: com.microsoft.azure.management.batchai.OutputDirectorySettings
@@ -161,7 +161,7 @@ references:
   nameWithType: OutputDirectorySettings
   fullName: com.microsoft.azure.management.batchai.OutputDirectorySettings
   type: Interface
-  summary: <p>Specifies the settings for output directory. </p>
+  summary: "<p>Specifies the settings for output directory. </p>"
   syntax:
     content: public interface OutputDirectorySettings
 - uid: com.microsoft.azure.management.batchai.OutputFile
@@ -171,7 +171,7 @@ references:
   nameWithType: OutputFile
   fullName: com.microsoft.azure.management.batchai.OutputFile
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI output file. </p>
+  summary: "<p>An immutable client-side representation of Batch AI output file. </p>"
   syntax:
     content: public interface OutputFile
 - uid: com.microsoft.azure.management.batchai.RemoteLoginInformation
@@ -181,7 +181,7 @@ references:
   nameWithType: RemoteLoginInformation
   fullName: com.microsoft.azure.management.batchai.RemoteLoginInformation
   type: Interface
-  summary: <p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>
+  summary: "<p>An immutable client-side representation of Batch AI remote login details to SSH/RDP to a compute node in cluster. </p>"
   syntax:
     content: public interface RemoteLoginInformation
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe
@@ -191,7 +191,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe
   type: Interface
-  summary: <p>Specifies the settings for Caffe job. </p>
+  summary: "<p>Specifies the settings for Caffe job. </p>"
   syntax:
     content: public interface Caffe extends Indexable,HasParent<BatchAIJob>,HasInner<CaffeSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2
@@ -201,7 +201,7 @@ references:
   nameWithType: ToolTypeSettings.Caffe2
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2
   type: Interface
-  summary: <p>Specifies the settings for Caffe2 job. </p>
+  summary: "<p>Specifies the settings for Caffe2 job. </p>"
   syntax:
     content: public interface Caffe2 extends Indexable,HasParent<BatchAIJob>,HasInner<Caffe2Settings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer
@@ -211,7 +211,7 @@ references:
   nameWithType: ToolTypeSettings.Chainer
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer
   type: Interface
-  summary: <p>Specifies the settings for Chainer job. </p>
+  summary: "<p>Specifies the settings for Chainer job. </p>"
   syntax:
     content: public interface Chainer extends Indexable,HasParent<BatchAIJob>,HasInner<ChainerSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit
@@ -221,7 +221,7 @@ references:
   nameWithType: ToolTypeSettings.CognitiveToolkit
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit
   type: Interface
-  summary: <p>Client-side representation for Microsoft Cognitive Toolkit settings. </p>
+  summary: "<p>Client-side representation for Microsoft Cognitive Toolkit settings. </p>"
   syntax:
     content: public interface CognitiveToolkit extends Indexable,HasParent<BatchAIJob>,HasInner<CNTKsettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi
@@ -231,7 +231,7 @@ references:
   nameWithType: ToolTypeSettings.CustomMpi
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomMpi
   type: Interface
-  summary: <p>Client-side representation for the settings for a custom MPI job. </p>
+  summary: "<p>Client-side representation for the settings for a custom MPI job. </p>"
   syntax:
     content: public interface CustomMpi extends Indexable,HasParent<BatchAIJob>,HasInner<CustomMpiSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit
@@ -241,7 +241,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit
   type: Interface
-  summary: <p>Client-side representation for the settings for a custom toolkit job. </p>
+  summary: "<p>Client-side representation for the settings for a custom toolkit job. </p>"
   syntax:
     content: public interface CustomToolkit extends Indexable,HasParent<BatchAIJob>,HasInner<CustomToolkitSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod
@@ -251,7 +251,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod
   type: Interface
-  summary: <p>Client-side representation for Horovod job settings. </p>
+  summary: "<p>Client-side representation for Horovod job settings. </p>"
   syntax:
     content: public interface Horovod extends Indexable,HasParent<BatchAIJob>,HasInner<HorovodSettings>
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch
@@ -261,7 +261,7 @@ references:
   nameWithType: ToolTypeSettings.PyTorch
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.PyTorch
   type: Interface
-  summary: <p>Client-side representation for PyTorch toolkit settings. </p>
+  summary: "<p>Client-side representation for PyTorch toolkit settings. </p>"
   syntax:
     content: public interface PyTorch
 - uid: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow
@@ -271,7 +271,7 @@ references:
   nameWithType: ToolTypeSettings.TensorFlow
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow
   type: Interface
-  summary: <p>Specifies the settings for TensorFlow job. </p>
+  summary: "<p>Specifies the settings for TensorFlow job. </p>"
   syntax:
     content: public interface TensorFlow
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryObject
@@ -281,7 +281,7 @@ references:
   nameWithType: ActiveDirectoryObject
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryObject
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD object. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD object. </p>"
   syntax:
     content: public interface ActiveDirectoryObject extends Indexable,HasId,HasName,HasManager<GraphRbacManager>
 - uid: com.microsoft.azure.management.graphrbac.Credential
@@ -291,7 +291,7 @@ references:
   nameWithType: Credential
   fullName: com.microsoft.azure.management.graphrbac.Credential
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD credential. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD credential. </p>"
   syntax:
     content: public interface Credential extends Indexable,HasId,HasName
 - uid: com.microsoft.azure.management.graphrbac.RoleAssignment
@@ -301,7 +301,7 @@ references:
   nameWithType: RoleAssignment
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD role assignment. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD role assignment. </p>"
   syntax:
     content: public interface RoleAssignment
 - uid: com.microsoft.azure.management.network.PacketCapture
@@ -311,7 +311,7 @@ references:
   nameWithType: PacketCapture
   fullName: com.microsoft.azure.management.network.PacketCapture
   type: Interface
-  summary: <p>Client-side representation of Packet capture object, associated with Network Watcher. </p>
+  summary: "<p>Client-side representation of Packet capture object, associated with Network Watcher. </p>"
   syntax:
     content: public interface PacketCapture
 - uid: com.microsoft.azure.management.network.PCFilter
@@ -321,7 +321,7 @@ references:
   nameWithType: PCFilter
   fullName: com.microsoft.azure.management.network.PCFilter
   type: Interface
-  summary: <p>Client-side representation of packet capture filter. </p>
+  summary: "<p>Client-side representation of packet capture filter. </p>"
   syntax:
     content: public interface PCFilter
 - uid: com.microsoft.azure.management.resources.Deployment
@@ -331,7 +331,7 @@ references:
   nameWithType: Deployment
   fullName: com.microsoft.azure.management.resources.Deployment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment. </p>"
   syntax:
     content: public interface Deployment extends Indexable,Refreshable<Deployment>,Updatable<Deployment.Update>,HasInner<DeploymentExtendedInner>,HasManager<ResourceManager>,HasName
 - uid: com.microsoft.azure.management.resources.DeploymentOperation
@@ -341,7 +341,7 @@ references:
   nameWithType: DeploymentOperation
   fullName: com.microsoft.azure.management.resources.DeploymentOperation
   type: Interface
-  summary: <p>An immutable client-side representation of a deployment operation. </p>
+  summary: "<p>An immutable client-side representation of a deployment operation. </p>"
   syntax:
     content: public interface DeploymentOperation extends Indexable,Refreshable<DeploymentOperation>,HasInner<DeploymentOperationInner>
 - uid: com.microsoft.azure.management.resources.Feature
@@ -351,7 +351,7 @@ references:
   nameWithType: Feature
   fullName: com.microsoft.azure.management.resources.Feature
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure feature. </p>
+  summary: "<p>An immutable client-side representation of an Azure feature. </p>"
   syntax:
     content: public interface Feature extends Indexable,HasInner<FeatureResultInner>,HasName
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource
@@ -361,7 +361,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT> extends Indexable,HasName,HasParent<ParentT>
     typeParameters:
@@ -375,7 +375,7 @@ references:
   nameWithType: IndependentChild<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.IndependentChild<ManagerT>
   type: Interface
-  summary: <p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>
+  summary: "<p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>"
   syntax:
     content: public interface IndependentChild<ManagerT> extends HasName,HasId,Indexable,HasResourceGroup,HasManager<ManagerT>
     typeParameters:
@@ -389,7 +389,7 @@ references:
   nameWithType: ParentlessChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ParentlessChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources that do not immediately have their parent attached to them but are instead available directly off other entry points. </p>
+  summary: "<p>Base interface used by child resources that do not immediately have their parent attached to them but are instead available directly off other entry points. </p>"
   syntax:
     content: public interface ParentlessChildResource<ParentT>
     typeParameters:
@@ -403,7 +403,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
   type: Interface
-  summary: <p>Base interfaces for fluent resources. </p>
+  summary: "<p>Base interfaces for fluent resources. </p>"
   syntax:
     content: public interface Resource
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Appliable
@@ -413,10 +413,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -430,10 +427,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -447,10 +441,7 @@ references:
   nameWithType: Executable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support execute operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support execute operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Executable<T> extends Indexable
     typeParameters:
@@ -464,7 +455,7 @@ references:
   nameWithType: Location
   fullName: com.microsoft.azure.management.resources.Location
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure location. </p>
+  summary: "<p>An immutable client-side representation of an Azure location. </p>"
   syntax:
     content: public interface Location
 - uid: com.microsoft.azure.management.resources.PolicyAssignment
@@ -474,7 +465,7 @@ references:
   nameWithType: PolicyAssignment
   fullName: com.microsoft.azure.management.resources.PolicyAssignment
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy assignment. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy assignment. </p>"
   syntax:
     content: public interface PolicyAssignment
 - uid: com.microsoft.azure.management.resources.PolicyDefinition
@@ -484,7 +475,7 @@ references:
   nameWithType: PolicyDefinition
   fullName: com.microsoft.azure.management.resources.PolicyDefinition
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure policy. </p>"
   syntax:
     content: public interface PolicyDefinition
 - uid: com.microsoft.azure.management.resources.Provider
@@ -494,7 +485,7 @@ references:
   nameWithType: Provider
   fullName: com.microsoft.azure.management.resources.Provider
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource provider. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource provider. </p>"
   syntax:
     content: public interface Provider
 - uid: com.microsoft.azure.management.resources.ResourceGroup
@@ -504,7 +495,7 @@ references:
   nameWithType: ResourceGroup
   fullName: com.microsoft.azure.management.resources.ResourceGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource group. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource group. </p>"
   syntax:
     content: public interface ResourceGroup
 - uid: com.microsoft.azure.management.resources.Subscription
@@ -514,7 +505,7 @@ references:
   nameWithType: Subscription
   fullName: com.microsoft.azure.management.resources.Subscription
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure subscription. </p>
+  summary: "<p>An immutable client-side representation of an Azure subscription. </p>"
   syntax:
     content: public interface Subscription
 - uid: com.microsoft.azure.management.resources.Tenant
@@ -524,7 +515,7 @@ references:
   nameWithType: Tenant
   fullName: com.microsoft.azure.management.resources.Tenant
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure tenant. </p>
+  summary: "<p>An immutable client-side representation of an Azure tenant. </p>"
   syntax:
     content: public interface Tenant
 - uid: com.microsoft.azure.management.sql.SqlDatabaseImportExportResponse
@@ -534,7 +525,7 @@ references:
   nameWithType: SqlDatabaseImportExportResponse
   fullName: com.microsoft.azure.management.sql.SqlDatabaseImportExportResponse
   type: Interface
-  summary: <p>Response containing result of the Azure SQL Database import or export operation. </p>
+  summary: "<p>Response containing result of the Azure SQL Database import or export operation. </p>"
   syntax:
     content: public interface SqlDatabaseImportExportResponse
 - uid: com.microsoft.azure.management.sql.SqlEncryptionProtector
@@ -544,7 +535,7 @@ references:
   nameWithType: SqlEncryptionProtector
   fullName: com.microsoft.azure.management.sql.SqlEncryptionProtector
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>"
   syntax:
     content: public interface SqlEncryptionProtector
 - uid: com.microsoft.azure.management.sql.SqlServerDnsAlias
@@ -554,7 +545,7 @@ references:
   nameWithType: SqlServerDnsAlias
   fullName: com.microsoft.azure.management.sql.SqlServerDnsAlias
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>"
   syntax:
     content: public interface SqlServerDnsAlias
 - uid: com.microsoft.azure.management.sql.SqlServerKey
@@ -564,7 +555,7 @@ references:
   nameWithType: SqlServerKey
   fullName: com.microsoft.azure.management.sql.SqlServerKey
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Key. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Key. </p>"
   syntax:
     content: public interface SqlServerKey
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
@@ -574,6 +565,6 @@ references:
   nameWithType: SqlServerSecurityAlertPolicy
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>"
   syntax:
     content: public interface SqlServerSecurityAlertPolicy

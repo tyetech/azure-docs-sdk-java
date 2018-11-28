@@ -318,7 +318,7 @@ references:
   nameWithType: IotHubAuthenticationProvider.getDeviceId()
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider.getDeviceId()
   type: Method
-  summary: <p>Get the deviceId </p>
+  summary: "<p>Get the deviceId </p>"
   syntax:
     content: public String getDeviceId()
     return:
@@ -331,7 +331,7 @@ references:
   nameWithType: IotHubAuthenticationProvider.getGatewayHostname()
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider.getGatewayHostname()
   type: Method
-  summary: <p>Get the gatewayHostname </p>
+  summary: "<p>Get the gatewayHostname </p>"
   syntax:
     content: public String getGatewayHostname()
     return:
@@ -344,7 +344,7 @@ references:
   nameWithType: IotHubAuthenticationProvider.getHostname()
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider.getHostname()
   type: Method
-  summary: <p>Get the hostname </p>
+  summary: "<p>Get the hostname </p>"
   syntax:
     content: public String getHostname()
     return:
@@ -368,7 +368,7 @@ references:
   nameWithType: IotHubAuthenticationProvider.getModuleId()
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider.getModuleId()
   type: Method
-  summary: <p>Get the module id </p>
+  summary: "<p>Get the module id </p>"
   syntax:
     content: public String getModuleId()
     return:
@@ -560,7 +560,7 @@ references:
   nameWithType: IotHubAuthenticationProvider.setIotHubTrustedCert(String certificate)
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider.setIotHubTrustedCert(String certificate)
   type: Method
-  summary: <p>Setter for the user trusted certificate </p>
+  summary: "<p>Setter for the user trusted certificate </p>"
   syntax:
     content: public void setIotHubTrustedCert(String certificate)
     parameters:
@@ -574,7 +574,7 @@ references:
   nameWithType: IotHubAuthenticationProvider.setPathToIotHubTrustedCert(String pathToCertificate)
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider.setPathToIotHubTrustedCert(String pathToCertificate)
   type: Method
-  summary: <p>Setter for the providing trusted certificate. </p>
+  summary: "<p>Setter for the providing trusted certificate. </p>"
   syntax:
     content: public void setPathToIotHubTrustedCert(String pathToCertificate)
     parameters:
@@ -622,7 +622,7 @@ references:
   nameWithType: IotHubSasTokenAuthenticationProvider.timeBufferPercentage
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenAuthenticationProvider.timeBufferPercentage
   type: Field
-  summary: <p>The percentage of a sas token's life that will happen before it should be renewed. Between 1 and 100 </p>
+  summary: "<p>The percentage of a sas token's life that will happen before it should be renewed. Between 1 and 100 </p>"
   syntax:
     content: protected int timeBufferPercentage= 85
     return:
@@ -634,10 +634,7 @@ references:
   nameWithType: IotHubSasTokenAuthenticationProvider.tokenValidSecs
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenAuthenticationProvider.tokenValidSecs
   type: Field
-  summary: >-
-    <p>The number of seconds after which the generated SAS token for a message will become invalid. We also use the expiry time, which is computed as <code>currentTime() + DEVICE_KEY_VALID_LENGTH 
-
-        </code> , as a salt when generating our SAS token. </p>
+  summary: "<p>The number of seconds after which the generated SAS token for a message will become invalid. We also use the expiry time, which is computed as <code>currentTime() + DEVICE_KEY_VALID_LENGTH \r\n    </code> , as a salt when generating our SAS token. </p>"
   syntax:
     content: protected long tokenValidSecs= 3600
     return:
@@ -658,7 +655,7 @@ references:
   nameWithType: IotHubSasTokenHsmAuthenticationProvider
   fullName: com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider
   type: Class
-  summary: <p>Authentication method that uses HSM to get a SAS token. </p>
+  summary: "<p>Authentication method that uses HSM to get a SAS token. </p>"
   syntax:
     content: public class IotHubSasTokenHsmAuthenticationProvider extends IotHubSasTokenWithRefreshAuthenticationProvider
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.TransportException

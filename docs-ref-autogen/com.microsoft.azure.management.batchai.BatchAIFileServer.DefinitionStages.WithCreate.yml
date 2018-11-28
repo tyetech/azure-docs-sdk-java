@@ -39,10 +39,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -55,10 +52,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -75,10 +69,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -115,7 +106,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithUserCredentials.withPassword(String password)
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserCredentials.withPassword(String password)
   type: Method
-  summary: <p>Specifies admin user password. </p>
+  summary: "<p>Specifies admin user password. </p>"
   syntax:
     content: public WithCreate withPassword(String password)
     parameters:
@@ -132,7 +123,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithUserCredentials.withSshPublicKey(String sshPublicKey)
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserCredentials.withSshPublicKey(String sshPublicKey)
   type: Method
-  summary: <p>Specifies public key for authentication. </p>
+  summary: "<p>Specifies public key for authentication. </p>"
   syntax:
     content: public WithCreate withSshPublicKey(String sshPublicKey)
     parameters:
@@ -149,7 +140,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithSubnet.withSubnet(String subnetId)
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet.withSubnet(String subnetId)
   type: Method
-  summary: <p>Specifies subnet id. </p>
+  summary: "<p>Specifies subnet id. </p>"
   syntax:
     content: public WithCreate withSubnet(String subnetId)
     parameters:
@@ -166,7 +157,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: <p>Specifies network id and subnet name within this network. </p>
+  summary: "<p>Specifies network id and subnet name within this network. </p>"
   syntax:
     content: public WithCreate withSubnet(String networkId, String subnetName)
     parameters:
@@ -186,10 +177,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -203,7 +191,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithUserCredentials
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithUserCredentials
   type: Interface
-  summary: <p>This stage of a Batch AI file server definition allows to specify user credentials. </p>
+  summary: "<p>This stage of a Batch AI file server definition allows to specify user credentials. </p>"
   syntax:
     content: public interface WithUserCredentials
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet
@@ -213,7 +201,7 @@ references:
   nameWithType: BatchAIFileServer.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>Defines subnet for the file server. </p>
+  summary: "<p>Defines subnet for the file server. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServer.Definition
@@ -223,6 +211,6 @@ references:
   nameWithType: BatchAIFileServer.Definition
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.Definition
   type: Interface
-  summary: <p>The entirety of a Batch AI file server definition. </p>
+  summary: "<p>The entirety of a Batch AI file server definition. </p>"
   syntax:
     content: public interface Definition extends BatchAIFileServer.DefinitionStages.Blank,BatchAIFileServer.DefinitionStages.WithVMSize,BatchAIFileServer.DefinitionStages.WithUserName,BatchAIFileServer.DefinitionStages.WithUserCredentials,BatchAIFileServer.DefinitionStages.WithCreate

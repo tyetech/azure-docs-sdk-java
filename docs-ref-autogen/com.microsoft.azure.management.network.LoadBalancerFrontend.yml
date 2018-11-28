@@ -201,10 +201,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -218,7 +215,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT> extends Indexable,HasName,HasParent<ParentT>
     typeParameters:
@@ -232,7 +229,7 @@ references:
   nameWithType: HasLoadBalancingRules
   fullName: com.microsoft.azure.management.network.model.HasLoadBalancingRules
   type: Interface
-  summary: <p>An interface representing a model's ability to reference load balancing rules. </p>
+  summary: "<p>An interface representing a model's ability to reference load balancing rules. </p>"
   syntax:
     content: public interface HasLoadBalancingRules
 - uid: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend
@@ -242,7 +239,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend
   type: Interface
-  summary: <p>A client-side representation of a private frontend of an internal load balancer. </p>
+  summary: "<p>A client-side representation of a private frontend of an internal load balancer. </p>"
   syntax:
     content: public interface LoadBalancerPrivateFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancerPublicFrontend
@@ -252,7 +249,7 @@ references:
   nameWithType: LoadBalancerPublicFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancerPublicFrontend
   type: Interface
-  summary: <p>A client-side representation of a public frontend of an Internet-facing load balancer. </p>
+  summary: "<p>A client-side representation of a public frontend of an Internet-facing load balancer. </p>"
   syntax:
     content: public interface LoadBalancerPublicFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatPool
@@ -262,7 +259,7 @@ references:
   nameWithType: LoadBalancerInboundNatPool
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool
   type: Interface
-  summary: <p>A client-side representation of an inbound NAT pool. </p>
+  summary: "<p>A client-side representation of an inbound NAT pool. </p>"
   syntax:
     content: public interface LoadBalancerInboundNatPool
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatRule
@@ -272,6 +269,6 @@ references:
   nameWithType: LoadBalancerInboundNatRule
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule
   type: Interface
-  summary: <p>An immutable client-side representation of an inbound NAT rule. </p>
+  summary: "<p>An immutable client-side representation of an inbound NAT rule. </p>"
   syntax:
     content: public interface LoadBalancerInboundNatRule

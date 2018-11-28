@@ -36,10 +36,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public List<DetectedFace> execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<List<DetectedFace>> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
   type: Method
-  summary: >-
-    <p>Analyze and return the one or more specified face attributes in the comma-separated string like "returnFaceAttributes=age,gender". Supported face attributes include age, gender, headPose, smile, facialHair, glasses and emotion. Note that each face attribute analysis has additional computational and time cost.</p>
-
-    <p></p>
+  summary: "<p>Analyze and return the one or more specified face attributes in the comma-separated string like \"returnFaceAttributes=age,gender\". Supported face attributes include age, gender, headPose, smile, facialHair, glasses and emotion. Note that each face attribute analysis has additional computational and time cost.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithUrlDefinitionStages.WithExecute withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceId(Boolean returnFaceId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceId(Boolean returnFaceId)
   type: Method
-  summary: >-
-    <p>A value indicating whether the operation should return faceIds of detected faces.</p>
-
-    <p></p>
+  summary: "<p>A value indicating whether the operation should return faceIds of detected faces.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithUrlDefinitionStages.WithExecute withReturnFaceId(Boolean returnFaceId)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceLandmarks(Boolean returnFaceLandmarks)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceLandmarks(Boolean returnFaceLandmarks)
   type: Method
-  summary: >-
-    <p>A value indicating whether the operation should return landmarks of the detected faces.</p>
-
-    <p></p>
+  summary: "<p>A value indicating whether the operation should return landmarks of the detected faces.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithUrlDefinitionStages.WithExecute withReturnFaceLandmarks(Boolean returnFaceLandmarks)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithUrl.withUrl(String url)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithUrl.withUrl(String url)
   type: Method
-  summary: >-
-    <p>Publicly reachable URL of an image.</p>
-
-    <p></p>
+  summary: "<p>Publicly reachable URL of an image.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithUrlDefinitionStages.WithExecute withUrl(String url)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithUrl
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithUrl
   type: Interface
-  summary: <p>The stage of the definition to be specify url. </p>
+  summary: "<p>The stage of the definition to be specify url. </p>"
   syntax:
     content: public interface WithUrl
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithExecute
@@ -154,6 +136,6 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

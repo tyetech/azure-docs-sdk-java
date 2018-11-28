@@ -121,7 +121,7 @@ references:
   nameWithType: KubernetesCluster.Definition
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
   type: Interface
-  summary: <p>Interface for all the definitions related to a Kubernetes cluster. </p>
+  summary: "<p>Interface for all the definitions related to a Kubernetes cluster. </p>"
   syntax:
     content: public interface Definition extends KubernetesCluster.DefinitionStages.Blank,KubernetesCluster.DefinitionStages.WithGroup,KubernetesCluster.DefinitionStages.WithVersion,KubernetesCluster.DefinitionStages.WithLinuxRootUsername,KubernetesCluster.DefinitionStages.WithLinuxSshKey,KubernetesCluster.DefinitionStages.WithServicePrincipalClientId,KubernetesCluster.DefinitionStages.WithServicePrincipalProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAgentPool,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithAddOnProfiles,KubernetesCluster.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername
@@ -131,7 +131,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxRootUsername
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specific the Linux root username. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specific the Linux root username. </p>"
   syntax:
     content: public interface WithLinuxRootUsername
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withVersion(KubernetesVersion)
@@ -141,10 +141,7 @@ references:
   nameWithType: KubernetesClusterImpl.withVersion(KubernetesVersion kubernetesVersion)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withVersion(KubernetesVersion kubernetesVersion)
   type: Method
-  summary: >-
-    <p>Specifies the version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Specifies the version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withVersion(KubernetesVersion kubernetesVersion)
     parameters:
@@ -161,7 +158,7 @@ references:
   nameWithType: KubernetesVersion
   fullName: com.microsoft.azure.management.containerservice.KubernetesVersion
   type: Class
-  summary: <p>Defines values for Kubernetes versions. </p>
+  summary: "<p>Defines values for Kubernetes versions. </p>"
   syntax:
     content: public class KubernetesVersion
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withVersion(String)
@@ -171,10 +168,7 @@ references:
   nameWithType: KubernetesClusterImpl.withVersion(String kubernetesVersion)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withVersion(String kubernetesVersion)
   type: Method
-  summary: >-
-    <p>Specifies the version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Specifies the version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withVersion(String kubernetesVersion)
     parameters:
@@ -191,10 +185,7 @@ references:
   nameWithType: KubernetesClusterImpl.withLatestVersion()
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withLatestVersion()
   type: Method
-  summary: >-
-    <p>Uses the latest version for the Kubernetes cluster.</p>
-
-    <p></p>
+  summary: "<p>Uses the latest version for the Kubernetes cluster.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withLatestVersion()
     return:

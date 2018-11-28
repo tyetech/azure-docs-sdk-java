@@ -662,7 +662,7 @@ references:
   nameWithType: Telemetry
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry
   type: Interface
-  summary: <p>The base telemetry type interface for application insights. </p>
+  summary: "<p>The base telemetry type interface for application insights. </p>"
   syntax:
     content: public interface Telemetry
 - uid: com.microsoft.applicationinsights.telemetry.TelemetryContext
@@ -672,7 +672,7 @@ references:
   nameWithType: TelemetryContext
   fullName: com.microsoft.applicationinsights.telemetry.TelemetryContext
   type: Class
-  summary: <p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>
+  summary: "<p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>"
   syntax:
     content: public class TelemetryContext
 - uid: com.microsoft.applicationinsights.telemetry.JsonSerializable
@@ -682,7 +682,7 @@ references:
   nameWithType: JsonSerializable
   fullName: com.microsoft.applicationinsights.telemetry.JsonSerializable
   type: Interface
-  summary: <p>Represents objects that support serialization to JSON. </p>
+  summary: "<p>Represents objects that support serialization to JSON. </p>"
   syntax:
     content: public interface JsonSerializable
 - uid: com.microsoft.applicationinsights.telemetry.Telemetry.getSequence()
@@ -692,12 +692,7 @@ references:
   nameWithType: Telemetry.getSequence()
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.getSequence()
   type: Method
-  summary: >-
-    <p>Sequence field used to track absolute order of uploaded events. It is a two-part value that includes a stable identifier for the current boot session and an incrementing identifier for each event added to the upload queue</p>
-
-    <p>The Sequence helps track how many events were fired and how many events were uploaded and enables identification of data lost during upload and de-duplication of events on the ingress server.</p>
-
-    <p>Gets the current sequence. </p>
+  summary: "<p>Sequence field used to track absolute order of uploaded events. It is a two-part value that includes a stable identifier for the current boot session and an incrementing identifier for each event added to the upload queue</p>\r\n<p>The Sequence helps track how many events were fired and how many events were uploaded and enables identification of data lost during upload and de-duplication of events on the ingress server.</p>\r\n<p>Gets the current sequence. </p>"
   syntax:
     content: public String getSequence()
     return:
@@ -710,7 +705,7 @@ references:
   nameWithType: Telemetry.setSequence(String sequence)
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.setSequence(String sequence)
   type: Method
-  summary: <p>Sets the sequence. </p>
+  summary: "<p>Sets the sequence. </p>"
   syntax:
     content: public void setSequence(String sequence)
     parameters:
@@ -724,7 +719,7 @@ references:
   nameWithType: Telemetry.getTimestamp()
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.getTimestamp()
   type: Method
-  summary: <p>Gets the time when telemetry was recorded </p>
+  summary: "<p>Gets the time when telemetry was recorded </p>"
   syntax:
     content: public Date getTimestamp()
     return:
@@ -737,7 +732,7 @@ references:
   nameWithType: Telemetry.setTimestamp(Date date)
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.setTimestamp(Date date)
   type: Method
-  summary: <p>Sets the time when telemetry was recorded </p>
+  summary: "<p>Sets the time when telemetry was recorded </p>"
   syntax:
     content: public void setTimestamp(Date date)
     parameters:
@@ -751,7 +746,7 @@ references:
   nameWithType: Telemetry.getContext()
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.getContext()
   type: Method
-  summary: <p>Gets the context associated with this telemetry instance. </p>
+  summary: "<p>Gets the context associated with this telemetry instance. </p>"
   syntax:
     content: public TelemetryContext getContext()
     return:
@@ -764,7 +759,7 @@ references:
   nameWithType: Telemetry.getProperties()
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.getProperties()
   type: Method
-  summary: <p>Gets the map of application-defined property names and values. </p>
+  summary: "<p>Gets the map of application-defined property names and values. </p>"
   syntax:
     content: public Map<String, String> getProperties()
     return:
@@ -777,22 +772,7 @@ references:
   nameWithType: Telemetry.sanitize()
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.sanitize()
   type: Method
-  summary: >-
-    <p>
-
-      <xrefsect id="deprecated_1_deprecated000054">
-
-        <xreftitle>Deprecated</xreftitle>
-
-        <xrefdescription>
-
-          <p>Sanitizes the properties of the telemetry item based on DP constraints. </p>
-
-        </xrefdescription>
-
-      </xrefsect>
-
-    </p>
+  summary: "<p>\r\n  <xrefsect id=\"deprecated_1_deprecated000054\">\r\n    <xreftitle>Deprecated</xreftitle>\r\n    <xrefdescription>\r\n      <p>Sanitizes the properties of the telemetry item based on DP constraints. </p>\r\n    </xrefdescription>\r\n  </xrefsect>\r\n</p>"
   syntax:
     content: public void sanitize()
 - uid: com.microsoft.applicationinsights.telemetry.Telemetry.serialize(JsonTelemetryDataSerializer)
@@ -802,7 +782,7 @@ references:
   nameWithType: Telemetry.serialize(JsonTelemetryDataSerializer writer)
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry.serialize(JsonTelemetryDataSerializer writer)
   type: Method
-  summary: <p>Serializes itself to Json using the <xref uid="com.microsoft.applicationinsights.telemetry.JsonTelemetryDataSerializer" data-throw-if-not-resolved="false">JsonTelemetryDataSerializer</xref></p>
+  summary: "<p>Serializes itself to Json using the <xref uid=\"com.microsoft.applicationinsights.telemetry.JsonTelemetryDataSerializer\" data-throw-if-not-resolved=\"false\">JsonTelemetryDataSerializer</xref></p>"
   syntax:
     content: public void serialize(JsonTelemetryDataSerializer writer)
     parameters:
@@ -816,7 +796,7 @@ references:
   nameWithType: JsonTelemetryDataSerializer
   fullName: com.microsoft.applicationinsights.telemetry.JsonTelemetryDataSerializer
   type: Class
-  summary: <p>This class knows how to transform data that is relevant to <xref uid="com.microsoft.applicationinsights.telemetry.Telemetry" data-throw-if-not-resolved="false">Telemetry</xref> instances into JSON. </p>
+  summary: "<p>This class knows how to transform data that is relevant to <xref uid=\"com.microsoft.applicationinsights.telemetry.Telemetry\" data-throw-if-not-resolved=\"false\">Telemetry</xref> instances into JSON. </p>"
   syntax:
     content: public class JsonTelemetryDataSerializer
 - uid: com.microsoft.applicationinsights.telemetry.Telemetry.reset()

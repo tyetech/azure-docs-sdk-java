@@ -367,32 +367,5 @@ references:
   nameWithType: X509CertificateInfo
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
   type: Class
-  summary: >-
-    <p>Representation of a single X509 Certificate Info for the Device Provisioning Service.</p>
-
-    <p>User receive this info from the provisioning service as result of X509 operations.</p>
-
-    <p>This info contains a set of parameters, The following JSON is an example of the X509 certificate info. <pre><code>{
-
-            "subjectName": "CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US",
-
-            "sha1Thumbprint": "0000000000000000000000000000000000",
-
-            "sha256Thumbprint": "validEnrollmentGroupId",
-
-            "issuerName": "CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US",
-
-            "notBeforeUtc": "2017-11-14T12:34:182Z",
-
-            "notAfterUtc": "2017-11-20T12:34:183Z",
-
-            "serialNumber": "000000000000000000",
-
-            "version": 3
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Representation of a single X509 Certificate Info for the Device Provisioning Service.</p>\r\n<p>User receive this info from the provisioning service as result of X509 operations.</p>\r\n<p>This info contains a set of parameters, The following JSON is an example of the X509 certificate info. <pre><code>{\r\n        \"subjectName\": \"CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US\",\r\n        \"sha1Thumbprint\": \"0000000000000000000000000000000000\",\r\n        \"sha256Thumbprint\": \"validEnrollmentGroupId\",\r\n        \"issuerName\": \"CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US\",\r\n        \"notBeforeUtc\": \"2017-11-14T12:34:182Z\",\r\n        \"notAfterUtc\": \"2017-11-20T12:34:183Z\",\r\n        \"serialNumber\": \"000000000000000000\",\r\n        \"version\": 3\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax: *o1

@@ -70,7 +70,7 @@ references:
   nameWithType: BuildTask.BuildTaskDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
   type: Interface
-  summary: <p>Grouping of the container register build task definitions. </p>
+  summary: "<p>Grouping of the container register build task definitions. </p>"
   syntax:
     content: public interface BuildTaskDefinition extends BuildTask.DefinitionStages.Blank,BuildTask.DefinitionStages.WithOSType,BuildTask.DefinitionStages.WithSourceControlType,BuildTask.DefinitionStages.WithRepositoryUrl,BuildTask.DefinitionStages.WithAuthenticationTokenType,BuildTask.DefinitionStages.WithAuthenticationToken,BuildTask.DefinitionStages.WithAlias,BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,BuildTask.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
@@ -80,7 +80,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withAuthenticationTokenTypeAccessScope(String)
@@ -90,10 +90,7 @@ references:
   nameWithType: BuildTaskImpl.withAuthenticationTokenTypeAccessScope(String scope)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withAuthenticationTokenTypeAccessScope(String scope)
   type: Method
-  summary: >-
-    <p>Specifies the scope of the access token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of the access token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withAuthenticationTokenTypeAccessScope(String scope)
     parameters:

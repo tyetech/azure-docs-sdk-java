@@ -33,7 +33,7 @@ references:
   nameWithType: AzureActiveDirectoryTokenProvider
   fullName: com.microsoft.azure.servicebus.security.AzureActiveDirectoryTokenProvider
   type: Class
-  summary: <p>This is a token provider that obtains tokens from Azure Active Directory. It supports multiple modes of authentication with active directory to obtain tokens. </p>
+  summary: "<p>This is a token provider that obtains tokens from Azure Active Directory. It supports multiple modes of authentication with active directory to obtain tokens. </p>"
   syntax:
     content: public class AzureActiveDirectoryTokenProvider extends TokenProvider
 - uid: com.microsoft.azure.servicebus.security.ManagedServiceIdentityTokenProvider
@@ -43,7 +43,7 @@ references:
   nameWithType: ManagedServiceIdentityTokenProvider
   fullName: com.microsoft.azure.servicebus.security.ManagedServiceIdentityTokenProvider
   type: Class
-  summary: <p>This is a token provider that obtains token using Managed Service Identity(MSI). This token provider automatically detects MSI settings. </p>
+  summary: "<p>This is a token provider that obtains token using Managed Service Identity(MSI). This token provider automatically detects MSI settings. </p>"
   syntax:
     content: public class ManagedServiceIdentityTokenProvider extends TokenProvider
 - uid: com.microsoft.azure.servicebus.security.SecurityConstants
@@ -53,7 +53,7 @@ references:
   nameWithType: SecurityConstants
   fullName: com.microsoft.azure.servicebus.security.SecurityConstants
   type: Class
-  summary: <p>This class contains all security related constants. </p>
+  summary: "<p>This class contains all security related constants. </p>"
   syntax:
     content: public class SecurityConstants
 - uid: com.microsoft.azure.servicebus.security.SecurityToken
@@ -63,10 +63,7 @@ references:
   nameWithType: SecurityToken
   fullName: com.microsoft.azure.servicebus.security.SecurityToken
   type: Class
-  summary: >-
-    <p>This class encapsulates the details of a security token.</p>
-
-    <p></p>
+  summary: "<p>This class encapsulates the details of a security token.</p>\r\n<p></p>"
   syntax:
     content: public class SecurityToken
 - uid: com.microsoft.azure.servicebus.security.SecurityTokenType
@@ -76,7 +73,7 @@ references:
   nameWithType: SecurityTokenType
   fullName: com.microsoft.azure.servicebus.security.SecurityTokenType
   type: Enum
-  summary: <p>Enumeration representing security token types supported by Azure Service Bus. </p>
+  summary: "<p>Enumeration representing security token types supported by Azure Service Bus. </p>"
   syntax:
     content: public enum SecurityTokenType
 - uid: com.microsoft.azure.servicebus.security.SharedAccessSignatureTokenProvider
@@ -86,7 +83,7 @@ references:
   nameWithType: SharedAccessSignatureTokenProvider
   fullName: com.microsoft.azure.servicebus.security.SharedAccessSignatureTokenProvider
   type: Class
-  summary: <p>This is a token provider that generates Shared Access Signature(SAS) tokens or reuses an already generated SAS token. </p>
+  summary: "<p>This is a token provider that generates Shared Access Signature(SAS) tokens or reuses an already generated SAS token. </p>"
   syntax:
     content: public class SharedAccessSignatureTokenProvider extends TokenProvider
 - uid: com.microsoft.azure.servicebus.security.TokenProvider
@@ -96,6 +93,6 @@ references:
   nameWithType: TokenProvider
   fullName: com.microsoft.azure.servicebus.security.TokenProvider
   type: Class
-  summary: <p>This abstract class defines the contract of a token provider. All token providers should inherit from this class. An instance of token provider is used to obtain a security token for a given audience. </p>
+  summary: "<p>This abstract class defines the contract of a token provider. All token providers should inherit from this class. An instance of token provider is used to obtain a security token for a given audience. </p>"
   syntax:
     content: public class TokenProvider

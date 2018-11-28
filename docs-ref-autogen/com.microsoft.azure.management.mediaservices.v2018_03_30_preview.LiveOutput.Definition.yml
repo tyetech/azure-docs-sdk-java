@@ -37,7 +37,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithArchiveWindowLength.withArchiveWindowLength(Period archiveWindowLength)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithArchiveWindowLength.withArchiveWindowLength(Period archiveWindowLength)
   type: Method
-  summary: <p>Specifies archiveWindowLength. </p>
+  summary: "<p>Specifies archiveWindowLength. </p>"
   syntax:
     content: public WithAssetName withArchiveWindowLength(Period archiveWindowLength)
     parameters:
@@ -52,7 +52,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithAssetName.withAssetName(String assetName)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithAssetName.withAssetName(String assetName)
   type: Method
-  summary: <p>Specifies assetName. </p>
+  summary: "<p>Specifies assetName. </p>"
   syntax:
     content: public WithCreate withAssetName(String assetName)
     parameters:
@@ -67,7 +67,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithDescription.withDescription(String description)
   type: Method
-  summary: <p>Specifies description. </p>
+  summary: "<p>Specifies description. </p>"
   syntax:
     content: public WithCreate withDescription(String description)
     parameters:
@@ -82,7 +82,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithLiveEvent.withExistingLiveEvent(String resourceGroupName, String accountName, String liveEventName)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithLiveEvent.withExistingLiveEvent(String resourceGroupName, String accountName, String liveEventName)
   type: Method
-  summary: <p>Specifies resourceGroupName, accountName, liveEventName. </p>
+  summary: "<p>Specifies resourceGroupName, accountName, liveEventName. </p>"
   syntax:
     content: public WithArchiveWindowLength withExistingLiveEvent(String resourceGroupName, String accountName, String liveEventName)
     parameters:
@@ -101,7 +101,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithHls.withHls(Hls hls)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithHls.withHls(Hls hls)
   type: Method
-  summary: <p>Specifies hls. </p>
+  summary: "<p>Specifies hls. </p>"
   syntax:
     content: public WithCreate withHls(Hls hls)
     parameters:
@@ -116,7 +116,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithManifestName.withManifestName(String manifestName)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithManifestName.withManifestName(String manifestName)
   type: Method
-  summary: <p>Specifies manifestName. </p>
+  summary: "<p>Specifies manifestName. </p>"
   syntax:
     content: public WithCreate withManifestName(String manifestName)
     parameters:
@@ -131,7 +131,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithOutputSnapTime.withOutputSnapTime(Long outputSnapTime)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithOutputSnapTime.withOutputSnapTime(Long outputSnapTime)
   type: Method
-  summary: <p>Specifies outputSnapTime. </p>
+  summary: "<p>Specifies outputSnapTime. </p>"
   syntax:
     content: public WithCreate withOutputSnapTime(Long outputSnapTime)
     parameters:
@@ -146,7 +146,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a LiveOutput definition. </p>
+  summary: "<p>The first stage of a LiveOutput definition. </p>"
   syntax:
     content: public interface Blank extends LiveOutput.DefinitionStages.WithLiveEvent
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithLiveEvent
@@ -156,7 +156,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithLiveEvent
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithLiveEvent
   type: Interface
-  summary: <p>The stage of the liveoutput definition allowing to specify LiveEvent. </p>
+  summary: "<p>The stage of the liveoutput definition allowing to specify LiveEvent. </p>"
   syntax:
     content: public interface WithLiveEvent
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithArchiveWindowLength
@@ -166,7 +166,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithArchiveWindowLength
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithArchiveWindowLength
   type: Interface
-  summary: <p>The stage of the liveoutput definition allowing to specify ArchiveWindowLength. </p>
+  summary: "<p>The stage of the liveoutput definition allowing to specify ArchiveWindowLength. </p>"
   syntax:
     content: public interface WithArchiveWindowLength
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithAssetName
@@ -176,7 +176,7 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithAssetName
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithAssetName
   type: Interface
-  summary: <p>The stage of the liveoutput definition allowing to specify AssetName. </p>
+  summary: "<p>The stage of the liveoutput definition allowing to specify AssetName. </p>"
   syntax:
     content: public interface WithAssetName
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithCreate
@@ -186,6 +186,6 @@ references:
   nameWithType: LiveOutput.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.LiveOutput.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

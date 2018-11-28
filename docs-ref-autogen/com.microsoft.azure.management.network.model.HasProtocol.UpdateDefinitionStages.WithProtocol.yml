@@ -77,7 +77,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.UpdateDefinitionStages.WithProtocol<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.UpdateDefinitionStages.WithProtocol<ParentT>
   type: Interface
-  summary: <p>The stage of an inbound NAT rule definition allowing to specify the transport protocol. </p>
+  summary: "<p>The stage of an inbound NAT rule definition allowing to specify the transport protocol. </p>"
   syntax:
     content: public interface WithProtocol<ParentT>
     typeParameters:
@@ -91,9 +91,9 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithProtocol<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithProtocol<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the transport protocol to apply the rule to. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the transport protocol to apply the rule to. </p>"
   syntax:
-    content: public interface WithProtocol<ReturnT> extends HasProtocol<WithFrontend<ReturnT>, TransportProtocol>.UpdateDefinitionStages.WithProtocol
+    content: public interface WithProtocol<ReturnT>
     typeParameters:
     - id: ReturnT
       type: c1a5ebc4

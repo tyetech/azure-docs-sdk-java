@@ -1687,10 +1687,7 @@ references:
   nameWithType: ReceiveMode
   fullName: com.microsoft.azure.servicebus.ReceiveMode
   type: Enum
-  summary: >-
-    <p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>
-
-    <p></p>
+  summary: "<p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>\r\n<p></p>"
   syntax:
     content: public enum ReceiveMode
 - uid: com.microsoft.azure.servicebus.ReceiveMode.PEEKLOCK
@@ -1700,7 +1697,7 @@ references:
   nameWithType: ReceiveMode.PEEKLOCK
   fullName: com.microsoft.azure.servicebus.ReceiveMode.PEEKLOCK
   type: Field
-  summary: <p>In this mode, received message is not deleted from the queue or subscription, instead it is temporarily locked to the receiver, making it invisible to other receivers. Then the service waits for one of the three events <ul><li><p>If the receiver processes the message successfully, it calls  and the message will be deleted. </p></li><li><p>If the receiver decides that it can't process the message successfully, it calls  and the message will be unlocked and made available to other receivers. </p></li><li><p>If the receiver wants to defer the processing of the message to a later point in time, it calls  and the message will be deferred. A deferred can only be received by its sequence number. </p></li><li><p>If the receiver wants to dead-letter the message, it calls  and the message will be moved to a special sub-queue called deadletter queue. </p></li><li><p>If the receiver calls neither of these methods within a configurable period of time (by default, 60 seconds), the service assumes the receiver has failed. In this case, it behaves as if the receiver had called , making the message available to other receivers </p></li></ul></p>
+  summary: "<p>In this mode, received message is not deleted from the queue or subscription, instead it is temporarily locked to the receiver, making it invisible to other receivers. Then the service waits for one of the three events <ul><li><p>If the receiver processes the message successfully, it calls  and the message will be deleted. </p></li><li><p>If the receiver decides that it can't process the message successfully, it calls  and the message will be unlocked and made available to other receivers. </p></li><li><p>If the receiver wants to defer the processing of the message to a later point in time, it calls  and the message will be deferred. A deferred can only be received by its sequence number. </p></li><li><p>If the receiver wants to dead-letter the message, it calls  and the message will be moved to a special sub-queue called deadletter queue. </p></li><li><p>If the receiver calls neither of these methods within a configurable period of time (by default, 60 seconds), the service assumes the receiver has failed. In this case, it behaves as if the receiver had called , making the message available to other receivers </p></li></ul></p>"
   syntax:
     content: public PEEKLOCK
 - uid: com.microsoft.azure.servicebus.IMessageSender
@@ -1710,10 +1707,7 @@ references:
   nameWithType: IMessageSender
   fullName: com.microsoft.azure.servicebus.IMessageSender
   type: Interface
-  summary: >-
-    <p>Represents a message sender that sends messages to Azure Service Bus.</p>
-
-    <p></p>
+  summary: "<p>Represents a message sender that sends messages to Azure Service Bus.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessageSender
 - uid: com.microsoft.azure.servicebus.primitives.ServiceBusException
@@ -1723,7 +1717,7 @@ references:
   nameWithType: ServiceBusException
   fullName: com.microsoft.azure.servicebus.primitives.ServiceBusException
   type: Class
-  summary: <p>This is the base exception that service bus will generate for all error cases. </p>
+  summary: "<p>This is the base exception that service bus will generate for all error cases. </p>"
   syntax:
     content: public class ServiceBusException
 - uid: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
@@ -1733,26 +1727,7 @@ references:
   nameWithType: ConnectionStringBuilder
   fullName: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
   type: Class
-  summary: >-
-    <p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>
-
-    <p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(
-
-                                                 "ServiceBusNamespaceName", 
-
-                                                 "ServiceBusEntityName", // QueueName or TopicName or SubscriptionPath
-
-                                                 "SharedAccessSignatureKeyName", 
-
-                                                 "SharedAccessSignatureKey");
-
-         
-
-        String connectionString = connectionStringBuilder.toString();
-
-        </code></pre></p>
-
-    <p>A connection string is basically a string consisted of key-value pair separated by ";". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>
+  summary: "<p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>\r\n<p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(\r\n                                             \"ServiceBusNamespaceName\", \r\n                                             \"ServiceBusEntityName\", // QueueName or TopicName or SubscriptionPath\r\n                                             \"SharedAccessSignatureKeyName\", \r\n                                             \"SharedAccessSignatureKey\");\r\n     \r\n    String connectionString = connectionStringBuilder.toString();\r\n    </code></pre></p>\r\n<p>A connection string is basically a string consisted of key-value pair separated by \";\". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>"
   syntax:
     content: public class ConnectionStringBuilder
 - uid: com.microsoft.azure.servicebus.ClientSettings
@@ -1762,7 +1737,7 @@ references:
   nameWithType: ClientSettings
   fullName: com.microsoft.azure.servicebus.ClientSettings
   type: Class
-  summary: <p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>
+  summary: "<p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>"
   syntax:
     content: public class ClientSettings
 - uid: com.microsoft.azure.servicebus.primitives.MessagingFactory
@@ -1772,7 +1747,7 @@ references:
   nameWithType: MessagingFactory
   fullName: com.microsoft.azure.servicebus.primitives.MessagingFactory
   type: Class
-  summary: <p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>
+  summary: "<p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>"
   syntax:
     content: public class MessagingFactory
 - uid: com.microsoft.azure.servicebus.IMessageReceiver
@@ -1782,7 +1757,7 @@ references:
   nameWithType: IMessageReceiver
   fullName: com.microsoft.azure.servicebus.IMessageReceiver
   type: Interface
-  summary: <p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>
+  summary: "<p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>"
   syntax:
     content: public interface IMessageReceiver
 - uid: com.microsoft.azure.servicebus.IMessageSession
@@ -1792,14 +1767,7 @@ references:
   nameWithType: IMessageSession
   fullName: com.microsoft.azure.servicebus.IMessageSession
   type: Interface
-  summary: >-
-    <p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>
-
-    <p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>
-
-    <p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid="" data-throw-if-not-resolved="false">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>
-
-    <p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>
+  summary: "<p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>\r\n<p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>\r\n<p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>\r\n<p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>"
   syntax:
     content: public interface IMessageSession
 - uid: com.microsoft.azure.servicebus.primitives.MessagingEntityType

@@ -108,10 +108,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithExistingDatabaseAfterElasticPool<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithExistingDatabaseAfterElasticPool<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage to decide whether using existing database or not.</p>
-
-    <p></p>
+  summary: "<p>The stage to decide whether using existing database or not.</p>\r\n<p></p>"
   syntax:
     content: public interface WithExistingDatabaseAfterElasticPool<ParentT> extends SqlDatabase.DefinitionStages.WithImportFromAfterElasticPool<ParentT>,SqlDatabase.DefinitionStages.WithRestorePointDatabaseAfterElasticPool<ParentT>,SqlDatabase.DefinitionStages.WithSampleDatabaseAfterElasticPool<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithAttachAfterElasticPoolOptions<ParentT>
     typeParameters:
@@ -125,6 +122,6 @@ references:
   nameWithType: RestorePoint
   fullName: com.microsoft.azure.management.sql.RestorePoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>"
   syntax:
     content: public interface RestorePoint extends HasInner<RestorePointInner>,HasResourceGroup,HasName,HasId,HasInner<RestorePointInner>,HasResourceGroup,HasName,HasId

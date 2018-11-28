@@ -39,12 +39,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -57,7 +52,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithHost.withHost(String host)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithHost.withHost(String host)
   type: Method
-  summary: <p>Specifies the host name to send the probe to. </p>
+  summary: "<p>Specifies the host name to send the probe to. </p>"
   syntax:
     content: public Update withHost(String host)
     parameters:
@@ -74,7 +69,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithProtocol.withHttp()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithProtocol.withHttp()
   type: Method
-  summary: <p>Specifies HTTP as the probe protocol. </p>
+  summary: "<p>Specifies HTTP as the probe protocol. </p>"
   syntax:
     content: public Update withHttp()
     return:
@@ -87,7 +82,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithProtocol.withHttps()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithProtocol.withHttps()
   type: Method
-  summary: <p>Specifies HTTPS as the probe protocol. </p>
+  summary: "<p>Specifies HTTPS as the probe protocol. </p>"
   syntax:
     content: public Update withHttps()
     return:
@@ -100,10 +95,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithPath.withPath(String path)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithPath.withPath(String path)
   type: Method
-  summary: >-
-    <p>Specifies the relative path for the probe to call. </p>
-
-    <p>A probe is sent to &lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;&lt;path&gt;. </p>
+  summary: "<p>Specifies the relative path for the probe to call. </p>\r\n<p>A probe is sent to &lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;&lt;path&gt;. </p>"
   syntax:
     content: public Update withPath(String path)
     parameters:
@@ -120,7 +112,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -137,7 +129,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithRetries.withRetriesBeforeUnhealthy(int retryCount)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithRetries.withRetriesBeforeUnhealthy(int retryCount)
   type: Method
-  summary: <p>Specifies the number of retries before the server is considered unhealthy. </p>
+  summary: "<p>Specifies the number of retries before the server is considered unhealthy. </p>"
   syntax:
     content: public Update withRetriesBeforeUnhealthy(int retryCount)
     parameters:
@@ -154,7 +146,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithInterval.withTimeBetweenProbesInSeconds(int seconds)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithInterval.withTimeBetweenProbesInSeconds(int seconds)
   type: Method
-  summary: <p>Specifies the time interval in seconds between consecutive probes. </p>
+  summary: "<p>Specifies the time interval in seconds between consecutive probes. </p>"
   syntax:
     content: public Update withTimeBetweenProbesInSeconds(int seconds)
     parameters:
@@ -171,7 +163,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithTimeout.withTimeoutInSeconds(int seconds)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithTimeout.withTimeoutInSeconds(int seconds)
   type: Method
-  summary: <p>Specifies the amount of time in seconds waiting for a response before the probe is considered failed. </p>
+  summary: "<p>Specifies the amount of time in seconds waiting for a response before the probe is considered failed. </p>"
   syntax:
     content: public Update withTimeoutInSeconds(int seconds)
     parameters:
@@ -188,10 +180,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -205,7 +194,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithProtocol
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithProtocol
   type: Interface
-  summary: <p>Stage of an application gateway probe update allowing to specify the protocol of the probe. </p>
+  summary: "<p>Stage of an application gateway probe update allowing to specify the protocol of the probe. </p>"
   syntax:
     content: public interface WithProtocol
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithPath
@@ -215,7 +204,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithPath
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithPath
   type: Interface
-  summary: <p>Stage of an application gateway probe update allowing to specify the path to send the probe to. </p>
+  summary: "<p>Stage of an application gateway probe update allowing to specify the path to send the probe to. </p>"
   syntax:
     content: public interface WithPath
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithHost
@@ -225,7 +214,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithHost
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithHost
   type: Interface
-  summary: <p>Stage of an application gateway probe update allowing to specify the host to send the probe to. </p>
+  summary: "<p>Stage of an application gateway probe update allowing to specify the host to send the probe to. </p>"
   syntax:
     content: public interface WithHost
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithTimeout
@@ -235,7 +224,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithTimeout
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithTimeout
   type: Interface
-  summary: <p>Stage of an application gateway probe update allowing to specify the amount of time to after which the probe is considered failed. </p>
+  summary: "<p>Stage of an application gateway probe update allowing to specify the amount of time to after which the probe is considered failed. </p>"
   syntax:
     content: public interface WithTimeout
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithInterval
@@ -245,7 +234,7 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithInterval
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithInterval
   type: Interface
-  summary: <p>Stage of an application gateway probe update allowing to specify the time interval between consecutive probes. </p>
+  summary: "<p>Stage of an application gateway probe update allowing to specify the time interval between consecutive probes. </p>"
   syntax:
     content: public interface WithInterval
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithRetries
@@ -255,6 +244,6 @@ references:
   nameWithType: ApplicationGatewayProbe.UpdateStages.WithRetries
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProbe.UpdateStages.WithRetries
   type: Interface
-  summary: <p>Stage of an application gateway probe update allowing to specify the number of retries before the server is considered unhealthy. </p>
+  summary: "<p>Stage of an application gateway probe update allowing to specify the number of retries before the server is considered unhealthy. </p>"
   syntax:
     content: public interface WithRetries

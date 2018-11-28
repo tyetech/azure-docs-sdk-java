@@ -110,10 +110,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
   type: Method
-  summary: >-
-    <p>Analyze and return the one or more specified face attributes in the comma-separated string like "returnFaceAttributes=age,gender". Supported face attributes include age, gender, headPose, smile, facialHair, glasses and emotion. Note that each face attribute analysis has additional computational and time cost.</p>
-
-    <p></p>
+  summary: "<p>Analyze and return the one or more specified face attributes in the comma-separated string like \"returnFaceAttributes=age,gender\". Supported face attributes include age, gender, headPose, smile, facialHair, glasses and emotion. Note that each face attribute analysis has additional computational and time cost.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithUrlDefinitionStages.WithExecute withReturnFaceAttributes(List<FaceAttributeType> returnFaceAttributes)
     parameters:
@@ -129,10 +126,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceId(Boolean returnFaceId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceId(Boolean returnFaceId)
   type: Method
-  summary: >-
-    <p>A value indicating whether the operation should return faceIds of detected faces.</p>
-
-    <p></p>
+  summary: "<p>A value indicating whether the operation should return faceIds of detected faces.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithUrlDefinitionStages.WithExecute withReturnFaceId(Boolean returnFaceId)
     parameters:
@@ -148,10 +142,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceLandmarks(Boolean returnFaceLandmarks)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions.withReturnFaceLandmarks(Boolean returnFaceLandmarks)
   type: Method
-  summary: >-
-    <p>A value indicating whether the operation should return landmarks of the detected faces.</p>
-
-    <p></p>
+  summary: "<p>A value indicating whether the operation should return landmarks of the detected faces.</p>\r\n<p></p>"
   syntax:
     content: public FacesDetectWithUrlDefinitionStages.WithExecute withReturnFaceLandmarks(Boolean returnFaceLandmarks)
     parameters:
@@ -167,7 +158,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinition
@@ -177,7 +168,7 @@ references:
   nameWithType: Faces.FacesDetectWithUrlDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithUrlDefinition
   type: Interface
-  summary: <p>The entirety of detectWithUrl definition. </p>
+  summary: "<p>The entirety of detectWithUrl definition. </p>"
   syntax:
     content: public interface FacesDetectWithUrlDefinition extends Faces.FacesDetectWithUrlDefinitionStages.WithUrl,Faces.FacesDetectWithUrlDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.models.DetectedFace
@@ -187,6 +178,6 @@ references:
   nameWithType: DetectedFace
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.models.DetectedFace
   type: Class
-  summary: <p>Detected Face object. </p>
+  summary: "<p>Detected Face object. </p>"
   syntax:
     content: public class DetectedFace

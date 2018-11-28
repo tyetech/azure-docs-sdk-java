@@ -53,10 +53,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -69,10 +66,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -85,10 +79,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -117,10 +108,7 @@ references:
   nameWithType: Queue.UpdateStages.WithDefaultMessageTTL.withDefaultMessageTTL(Period ttl)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDefaultMessageTTL.withDefaultMessageTTL(Period ttl)
   type: Method
-  summary: >-
-    <p>Specifies the duration after which the message expires.</p>
-
-    <p></p>
+  summary: "<p>Specifies the duration after which the message expires.</p>\r\n<p></p>"
   syntax:
     content: public Update withDefaultMessageTTL(Period ttl)
     parameters:
@@ -137,10 +125,7 @@ references:
   nameWithType: Queue.UpdateStages.WithDeleteOnIdle.withDeleteOnIdleDurationInMinutes(int durationInMinutes)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDeleteOnIdle.withDeleteOnIdleDurationInMinutes(int durationInMinutes)
   type: Method
-  summary: >-
-    <p>The idle interval after which the queue is automatically deleted.</p>
-
-    <p></p>
+  summary: "<p>The idle interval after which the queue is automatically deleted.</p>\r\n<p></p>"
   syntax:
     content: public Update withDeleteOnIdleDurationInMinutes(int durationInMinutes)
     parameters:
@@ -157,10 +142,7 @@ references:
   nameWithType: Queue.UpdateStages.WithDuplicateMessageDetection.withDuplicateMessageDetectionHistoryDuration(Period duration)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDuplicateMessageDetection.withDuplicateMessageDetectionHistoryDuration(Period duration)
   type: Method
-  summary: >-
-    <p>Specifies the duration of the duplicate message detection history.</p>
-
-    <p></p>
+  summary: "<p>Specifies the duration of the duplicate message detection history.</p>\r\n<p></p>"
   syntax:
     content: public Update withDuplicateMessageDetectionHistoryDuration(Period duration)
     parameters:
@@ -177,10 +159,7 @@ references:
   nameWithType: Queue.UpdateStages.WithExpiredMessageMovedToDeadLetterQueue.withExpiredMessageMovedToDeadLetterQueue()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpiredMessageMovedToDeadLetterQueue.withExpiredMessageMovedToDeadLetterQueue()
   type: Method
-  summary: >-
-    <p>Specifies that expired message must be moved to dead-letter queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies that expired message must be moved to dead-letter queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withExpiredMessageMovedToDeadLetterQueue()
     return:
@@ -193,10 +172,7 @@ references:
   nameWithType: Queue.UpdateStages.WithExpressMessage.withExpressMessage()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpressMessage.withExpressMessage()
   type: Method
-  summary: >-
-    <p>Specifies that messages in this queue are express hence they can be cached in memory for some time before storing it in messaging store.</p>
-
-    <p></p>
+  summary: "<p>Specifies that messages in this queue are express hence they can be cached in memory for some time before storing it in messaging store.</p>\r\n<p></p>"
   syntax:
     content: public Update withExpressMessage()
     return:
@@ -209,10 +185,7 @@ references:
   nameWithType: Queue.UpdateStages.WithMessageBatching.withMessageBatching()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageBatching.withMessageBatching()
   type: Method
-  summary: >-
-    <p>Specifies that Service Bus can batch multiple message when it write messages to or delete messages from it's internal store. This increases the throughput.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Service Bus can batch multiple message when it write messages to or delete messages from it's internal store. This increases the throughput.</p>\r\n<p></p>"
   syntax:
     content: public Update withMessageBatching()
     return:
@@ -225,10 +198,7 @@ references:
   nameWithType: Queue.UpdateStages.WithMessageLockDuration.withMessageLockDurationInSeconds(int durationInSeconds)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageLockDuration.withMessageLockDurationInSeconds(int durationInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the amount of time that the message is locked for other receivers.</p>
-
-    <p></p>
+  summary: "<p>Specifies the amount of time that the message is locked for other receivers.</p>\r\n<p></p>"
   syntax:
     content: public Update withMessageLockDurationInSeconds(int durationInSeconds)
     parameters:
@@ -245,10 +215,7 @@ references:
   nameWithType: Queue.UpdateStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount.withMessageMovedToDeadLetterQueueOnMaxDeliveryCount(int deliveryCount)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount.withMessageMovedToDeadLetterQueueOnMaxDeliveryCount(int deliveryCount)
   type: Method
-  summary: >-
-    <p>Specifies maximum number of times a message can be delivered. Once this count has exceeded, message will be moved to dead-letter queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies maximum number of times a message can be delivered. Once this count has exceeded, message will be moved to dead-letter queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withMessageMovedToDeadLetterQueueOnMaxDeliveryCount(int deliveryCount)
     parameters:
@@ -265,10 +232,7 @@ references:
   nameWithType: Queue.UpdateStages.WithAuthorizationRule.withNewListenRule(String name)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithAuthorizationRule.withNewListenRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a listen authorization rule for the queue.</p>
-
-    <p></p>
+  summary: "<p>Creates a listen authorization rule for the queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewListenRule(String name)
     parameters:
@@ -285,10 +249,7 @@ references:
   nameWithType: Queue.UpdateStages.WithAuthorizationRule.withNewManageRule(String name)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithAuthorizationRule.withNewManageRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a manage authorization rule for the queue.</p>
-
-    <p></p>
+  summary: "<p>Creates a manage authorization rule for the queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewManageRule(String name)
     parameters:
@@ -305,10 +266,7 @@ references:
   nameWithType: Queue.UpdateStages.WithAuthorizationRule.withNewSendRule(String name)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithAuthorizationRule.withNewSendRule(String name)
   type: Method
-  summary: >-
-    <p>Creates a send authorization rule for the queue.</p>
-
-    <p></p>
+  summary: "<p>Creates a send authorization rule for the queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewSendRule(String name)
     parameters:
@@ -325,10 +283,7 @@ references:
   nameWithType: Queue.UpdateStages.WithAuthorizationRule.withoutAuthorizationRule(String name)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithAuthorizationRule.withoutAuthorizationRule(String name)
   type: Method
-  summary: >-
-    <p>Removes an authorization rule for the queue.</p>
-
-    <p></p>
+  summary: "<p>Removes an authorization rule for the queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutAuthorizationRule(String name)
     parameters:
@@ -345,10 +300,7 @@ references:
   nameWithType: Queue.UpdateStages.WithDuplicateMessageDetection.withoutDuplicateMessageDetection()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDuplicateMessageDetection.withoutDuplicateMessageDetection()
   type: Method
-  summary: >-
-    <p>Specifies that duplicate message detection needs to be disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that duplicate message detection needs to be disabled.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutDuplicateMessageDetection()
     return:
@@ -361,10 +313,7 @@ references:
   nameWithType: Queue.UpdateStages.WithExpiredMessageMovedToDeadLetterQueue.withoutExpiredMessageMovedToDeadLetterQueue()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpiredMessageMovedToDeadLetterQueue.withoutExpiredMessageMovedToDeadLetterQueue()
   type: Method
-  summary: >-
-    <p>Specifies that expired message should not be moved to dead-letter queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies that expired message should not be moved to dead-letter queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutExpiredMessageMovedToDeadLetterQueue()
     return:
@@ -377,10 +326,7 @@ references:
   nameWithType: Queue.UpdateStages.WithExpressMessage.withoutExpressMessage()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpressMessage.withoutExpressMessage()
   type: Method
-  summary: >-
-    <p>Specifies that messages in this queue are not express hence they should be cached in memory.</p>
-
-    <p></p>
+  summary: "<p>Specifies that messages in this queue are not express hence they should be cached in memory.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutExpressMessage()
     return:
@@ -393,10 +339,7 @@ references:
   nameWithType: Queue.UpdateStages.WithMessageBatching.withoutMessageBatching()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageBatching.withoutMessageBatching()
   type: Method
-  summary: >-
-    <p>Specifies that batching of messages should be disabled when Service Bus write messages to or delete messages from it's internal store.</p>
-
-    <p></p>
+  summary: "<p>Specifies that batching of messages should be disabled when Service Bus write messages to or delete messages from it's internal store.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutMessageBatching()
     return:
@@ -409,10 +352,7 @@ references:
   nameWithType: Queue.UpdateStages.WithSession.withoutSession()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithSession.withoutSession()
   type: Method
-  summary: >-
-    <p>Specifies that session support should be disabled for the queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies that session support should be disabled for the queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutSession()
     return:
@@ -425,10 +365,7 @@ references:
   nameWithType: Queue.UpdateStages.WithSession.withSession()
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithSession.withSession()
   type: Method
-  summary: >-
-    <p>Specifies that session support should be enabled for the queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies that session support should be enabled for the queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withSession()
     return:
@@ -441,10 +378,7 @@ references:
   nameWithType: Queue.UpdateStages.WithSize.withSizeInMB(long sizeInMB)
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithSize.withSizeInMB(long sizeInMB)
   type: Method
-  summary: >-
-    <p>Specifies the maximum size of memory allocated for the queue.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum size of memory allocated for the queue.</p>\r\n<p></p>"
   syntax:
     content: public Update withSizeInMB(long sizeInMB)
     parameters:
@@ -461,10 +395,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -478,7 +409,7 @@ references:
   nameWithType: Queue.UpdateStages.WithSize
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithSize
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify size. </p>
+  summary: "<p>The stage of the queue definition allowing to specify size. </p>"
   syntax:
     content: public interface WithSize
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDeleteOnIdle
@@ -488,7 +419,7 @@ references:
   nameWithType: Queue.UpdateStages.WithDeleteOnIdle
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDeleteOnIdle
   type: Interface
-  summary: <p>The stage of the queue definition allowing to define auto delete behaviour. </p>
+  summary: "<p>The stage of the queue definition allowing to define auto delete behaviour. </p>"
   syntax:
     content: public interface WithDeleteOnIdle
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageLockDuration
@@ -498,7 +429,7 @@ references:
   nameWithType: Queue.UpdateStages.WithMessageLockDuration
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageLockDuration
   type: Interface
-  summary: <p>The stage of the queue definition allowing to define duration for message lock. </p>
+  summary: "<p>The stage of the queue definition allowing to define duration for message lock. </p>"
   syntax:
     content: public interface WithMessageLockDuration
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDefaultMessageTTL
@@ -508,7 +439,7 @@ references:
   nameWithType: Queue.UpdateStages.WithDefaultMessageTTL
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDefaultMessageTTL
   type: Interface
-  summary: <p>The stage of the queue definition allowing to define default TTL for messages. </p>
+  summary: "<p>The stage of the queue definition allowing to define default TTL for messages. </p>"
   syntax:
     content: public interface WithDefaultMessageTTL
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithSession
@@ -518,7 +449,7 @@ references:
   nameWithType: Queue.UpdateStages.WithSession
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithSession
   type: Interface
-  summary: <p>The stage of the queue definition allowing to enable session support. </p>
+  summary: "<p>The stage of the queue definition allowing to enable session support. </p>"
   syntax:
     content: public interface WithSession
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpressMessage
@@ -528,7 +459,7 @@ references:
   nameWithType: Queue.UpdateStages.WithExpressMessage
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpressMessage
   type: Interface
-  summary: <p>The stage of the queue definition allowing to mark it as either holding regular or express messages. </p>
+  summary: "<p>The stage of the queue definition allowing to mark it as either holding regular or express messages. </p>"
   syntax:
     content: public interface WithExpressMessage
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageBatching
@@ -538,7 +469,7 @@ references:
   nameWithType: Queue.UpdateStages.WithMessageBatching
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageBatching
   type: Interface
-  summary: <p>The stage of the queue definition allowing configure message batching behaviour. </p>
+  summary: "<p>The stage of the queue definition allowing configure message batching behaviour. </p>"
   syntax:
     content: public interface WithMessageBatching
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDuplicateMessageDetection
@@ -548,7 +479,7 @@ references:
   nameWithType: Queue.UpdateStages.WithDuplicateMessageDetection
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithDuplicateMessageDetection
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify duration of the duplicate message detection history. </p>
+  summary: "<p>The stage of the queue definition allowing to specify duration of the duplicate message detection history. </p>"
   syntax:
     content: public interface WithDuplicateMessageDetection
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpiredMessageMovedToDeadLetterQueue
@@ -558,7 +489,7 @@ references:
   nameWithType: Queue.UpdateStages.WithExpiredMessageMovedToDeadLetterQueue
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithExpiredMessageMovedToDeadLetterQueue
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify whether expired message can be moved to secondary dead-letter queue. </p>
+  summary: "<p>The stage of the queue definition allowing to specify whether expired message can be moved to secondary dead-letter queue. </p>"
   syntax:
     content: public interface WithExpiredMessageMovedToDeadLetterQueue
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
@@ -568,7 +499,7 @@ references:
   nameWithType: Queue.UpdateStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
   type: Interface
-  summary: <p>The stage of the queue definition allowing to specify maximum delivery count of message before moving it to dead-letter queue. </p>
+  summary: "<p>The stage of the queue definition allowing to specify maximum delivery count of message before moving it to dead-letter queue. </p>"
   syntax:
     content: public interface WithMessageMovedToDeadLetterQueueOnMaxDeliveryCount
 - uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithAuthorizationRule
@@ -578,6 +509,6 @@ references:
   nameWithType: Queue.UpdateStages.WithAuthorizationRule
   fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages.WithAuthorizationRule
   type: Interface
-  summary: <p>The stage of the queue definition allowing to add an authorization rule for accessing the queue. </p>
+  summary: "<p>The stage of the queue definition allowing to add an authorization rule for accessing the queue. </p>"
   syntax:
     content: public interface WithAuthorizationRule

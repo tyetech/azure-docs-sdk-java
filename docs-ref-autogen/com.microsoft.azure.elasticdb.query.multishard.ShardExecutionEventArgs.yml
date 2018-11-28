@@ -226,7 +226,7 @@ references:
   nameWithType: ShardLocation
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardLocation
   type: Class
-  summary: <p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid="com.microsoft.azure.elasticdb.shard.base.Shard" data-throw-if-not-resolved="false">Shard</xref>, a shard location is not registered with the shard map. </p>
+  summary: "<p>Represents the location of a shard in terms of its server name and database name. This is used to manage connections to the shard and to support other operations on shards. As opposed to a <xref uid=\"com.microsoft.azure.elasticdb.shard.base.Shard\" data-throw-if-not-resolved=\"false\">Shard</xref>, a shard location is not registered with the shard map. </p>"
   syntax:
     content: public class ShardLocation
 - uid: com.microsoft.azure.elasticdb.query.multishard.LabeledResultSet
@@ -236,6 +236,6 @@ references:
   nameWithType: LabeledResultSet
   fullName: com.microsoft.azure.elasticdb.query.multishard.LabeledResultSet
   type: Class
-  summary: '<p>Simple, immutable class for affiliating a ResultSet with additional information related to the reader (e.g. Statement, shard, exceptions encountered etc) Useful when grabbing ResultSets asynchronously. Purpose: Convenience class that holds a ResultSet along with a string label for the shard that the data underlying the ResultSet came from. Notes: This is useful for keeping the ResultSet and the label together when executing asynchronously. </p>'
+  summary: "<p>Simple, immutable class for affiliating a ResultSet with additional information related to the reader (e.g. Statement, shard, exceptions encountered etc) Useful when grabbing ResultSets asynchronously. Purpose: Convenience class that holds a ResultSet along with a string label for the shard that the data underlying the ResultSet came from. Notes: This is useful for keeping the ResultSet and the label together when executing asynchronously. </p>"
   syntax:
     content: public class LabeledResultSet

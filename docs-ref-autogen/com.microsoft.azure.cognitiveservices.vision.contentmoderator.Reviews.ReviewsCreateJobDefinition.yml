@@ -39,10 +39,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public JobId execute()
     return:
@@ -55,10 +52,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<JobId> executeAsync()
     return:
@@ -71,10 +65,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithAllOptions.withCallBackEndpoint(String callBackEndpoint)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithAllOptions.withCallBackEndpoint(String callBackEndpoint)
   type: Method
-  summary: >-
-    <p>Callback endpoint for posting the create job result.</p>
-
-    <p></p>
+  summary: "<p>Callback endpoint for posting the create job result.</p>\r\n<p></p>"
   syntax:
     content: public ReviewsCreateJobDefinitionStages.WithExecute withCallBackEndpoint(String callBackEndpoint)
     parameters:
@@ -90,10 +81,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithContentId.withContentId(String contentId)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentId.withContentId(String contentId)
   type: Method
-  summary: >-
-    <p>Id/Name to identify the content submitted.</p>
-
-    <p></p>
+  summary: "<p>Id/Name to identify the content submitted.</p>\r\n<p></p>"
   syntax:
     content: public WithWorkflowName withContentId(String contentId)
     parameters:
@@ -109,10 +97,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithContentType.withContentType(String contentType)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentType.withContentType(String contentType)
   type: Method
-  summary: >-
-    <p>Image, Text or Video. Possible values include: 'Image', 'Text', 'Video'.</p>
-
-    <p></p>
+  summary: "<p>Image, Text or Video. Possible values include: 'Image', 'Text', 'Video'.</p>\r\n<p></p>"
   syntax:
     content: public WithContentId withContentType(String contentType)
     parameters:
@@ -128,10 +113,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithContentValue.withContentValue(String contentValue)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentValue.withContentValue(String contentValue)
   type: Method
-  summary: >-
-    <p>Content to evaluate for a job.</p>
-
-    <p></p>
+  summary: "<p>Content to evaluate for a job.</p>\r\n<p></p>"
   syntax:
     content: public ReviewsCreateJobDefinitionStages.WithExecute withContentValue(String contentValue)
     parameters:
@@ -147,10 +129,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithJobContentType.withJobContentType(String jobContentType)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithJobContentType.withJobContentType(String jobContentType)
   type: Method
-  summary: >-
-    <p>The content type. Possible values include: 'application/json', 'image/jpeg'.</p>
-
-    <p></p>
+  summary: "<p>The content type. Possible values include: 'application/json', 'image/jpeg'.</p>\r\n<p></p>"
   syntax:
     content: public WithContentValue withJobContentType(String jobContentType)
     parameters:
@@ -166,10 +145,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithTeamName.withTeamName(String teamName)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithTeamName.withTeamName(String teamName)
   type: Method
-  summary: >-
-    <p>Your team name.</p>
-
-    <p></p>
+  summary: "<p>Your team name.</p>\r\n<p></p>"
   syntax:
     content: public WithContentType withTeamName(String teamName)
     parameters:
@@ -185,10 +161,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithWorkflowName.withWorkflowName(String workflowName)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithWorkflowName.withWorkflowName(String workflowName)
   type: Method
-  summary: >-
-    <p>Workflow Name that you want to invoke.</p>
-
-    <p></p>
+  summary: "<p>Workflow Name that you want to invoke.</p>\r\n<p></p>"
   syntax:
     content: public WithJobContentType withWorkflowName(String workflowName)
     parameters:
@@ -204,7 +177,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithTeamName
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithTeamName
   type: Interface
-  summary: <p>The stage of the definition to be specify teamName. </p>
+  summary: "<p>The stage of the definition to be specify teamName. </p>"
   syntax:
     content: public interface WithTeamName
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentType
@@ -214,7 +187,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithContentType
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentType
   type: Interface
-  summary: <p>The stage of the definition to be specify contentType. </p>
+  summary: "<p>The stage of the definition to be specify contentType. </p>"
   syntax:
     content: public interface WithContentType
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentId
@@ -224,7 +197,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithContentId
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentId
   type: Interface
-  summary: <p>The stage of the definition to be specify contentId. </p>
+  summary: "<p>The stage of the definition to be specify contentId. </p>"
   syntax:
     content: public interface WithContentId
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithWorkflowName
@@ -234,7 +207,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithWorkflowName
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithWorkflowName
   type: Interface
-  summary: <p>The stage of the definition to be specify workflowName. </p>
+  summary: "<p>The stage of the definition to be specify workflowName. </p>"
   syntax:
     content: public interface WithWorkflowName
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithJobContentType
@@ -244,7 +217,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithJobContentType
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithJobContentType
   type: Interface
-  summary: <p>The stage of the definition to be specify jobContentType. </p>
+  summary: "<p>The stage of the definition to be specify jobContentType. </p>"
   syntax:
     content: public interface WithJobContentType
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentValue
@@ -254,7 +227,7 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithContentValue
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithContentValue
   type: Interface
-  summary: <p>The stage of the definition to be specify contentValue. </p>
+  summary: "<p>The stage of the definition to be specify contentValue. </p>"
   syntax:
     content: public interface WithContentValue
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithExecute
@@ -264,6 +237,6 @@ references:
   nameWithType: Reviews.ReviewsCreateJobDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

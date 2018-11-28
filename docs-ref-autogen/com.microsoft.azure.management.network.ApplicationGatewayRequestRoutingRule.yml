@@ -359,10 +359,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -376,7 +373,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT>
     typeParameters:
@@ -390,7 +387,7 @@ references:
   nameWithType: HasPublicIPAddress
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a public IP address. </p>
+  summary: "<p>An interface representing a model's ability to reference a public IP address. </p>"
   syntax:
     content: public interface HasPublicIPAddress
 - uid: com.microsoft.azure.management.network.model.HasSslCertificate
@@ -400,7 +397,7 @@ references:
   nameWithType: HasSslCertificate<T>
   fullName: com.microsoft.azure.management.network.model.HasSslCertificate<T>
   type: Interface
-  summary: <p>An interface representing a model's ability to reference an SSL certificate. </p>
+  summary: "<p>An interface representing a model's ability to reference an SSL certificate. </p>"
   syntax:
     content: public interface HasSslCertificate<T>
     typeParameters:
@@ -414,7 +411,7 @@ references:
   nameWithType: HasFrontendPort
   fullName: com.microsoft.azure.management.network.model.HasFrontendPort
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a frontend port. </p>
+  summary: "<p>An interface representing a model's ability to reference a frontend port. </p>"
   syntax:
     content: public interface HasFrontendPort
 - uid: com.microsoft.azure.management.network.model.HasBackendPort
@@ -424,7 +421,7 @@ references:
   nameWithType: HasBackendPort
   fullName: com.microsoft.azure.management.network.model.HasBackendPort
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a backend port. </p>
+  summary: "<p>An interface representing a model's ability to reference a backend port. </p>"
   syntax:
     content: public interface HasBackendPort
 - uid: com.microsoft.azure.management.network.model.HasHostName
@@ -434,7 +431,7 @@ references:
   nameWithType: HasHostName
   fullName: com.microsoft.azure.management.network.model.HasHostName
   type: Interface
-  summary: <p>An interface representing a model's ability to reference a host name. </p>
+  summary: "<p>An interface representing a model's ability to reference a host name. </p>"
   syntax:
     content: public interface HasHostName
 - uid: com.microsoft.azure.management.network.model.HasCookieBasedAffinity
@@ -444,7 +441,7 @@ references:
   nameWithType: HasCookieBasedAffinity
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity
   type: Interface
-  summary: <p>An interface representing a model's ability to support cookie based affinity. </p>
+  summary: "<p>An interface representing a model's ability to support cookie based affinity. </p>"
   syntax:
     content: public interface HasCookieBasedAffinity
 - uid: com.microsoft.azure.management.network.model.HasServerNameIndication
@@ -454,7 +451,7 @@ references:
   nameWithType: HasServerNameIndication
   fullName: com.microsoft.azure.management.network.model.HasServerNameIndication
   type: Interface
-  summary: <p>An interface representing a model's ability to require server name indication. </p>
+  summary: "<p>An interface representing a model's ability to require server name indication. </p>"
   syntax:
     content: public interface HasServerNameIndication
 - uid: com.microsoft.azure.management.network.ApplicationGatewayProtocol
@@ -464,7 +461,7 @@ references:
   nameWithType: ApplicationGatewayProtocol
   fullName: com.microsoft.azure.management.network.ApplicationGatewayProtocol
   type: Class
-  summary: <p>Defines values for ApplicationGatewayProtocol. </p>
+  summary: "<p>Defines values for ApplicationGatewayProtocol. </p>"
   syntax:
     content: public class ApplicationGatewayProtocol
 - uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRuleType
@@ -474,7 +471,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRuleType
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRuleType
   type: Class
-  summary: <p>Defines values for ApplicationGatewayRequestRoutingRuleType. </p>
+  summary: "<p>Defines values for ApplicationGatewayRequestRoutingRuleType. </p>"
   syntax:
     content: public class ApplicationGatewayRequestRoutingRuleType
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackend
@@ -484,7 +481,7 @@ references:
   nameWithType: ApplicationGatewayBackend
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend
   type: Interface
-  summary: <p>A client-side representation of an application gateway backend. </p>
+  summary: "<p>A client-side representation of an application gateway backend. </p>"
   syntax:
     content: public interface ApplicationGatewayBackend extends HasInner<ApplicationGatewayBackendAddressPoolInner>,ChildResource<ApplicationGateway>,HasBackendNics
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration
@@ -494,7 +491,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration
   type: Interface
-  summary: <p>A client-side representation of an application gateway's backend HTTP configuration. </p>
+  summary: "<p>A client-side representation of an application gateway's backend HTTP configuration. </p>"
   syntax:
     content: public interface ApplicationGatewayBackendHttpConfiguration extends HasInner<ApplicationGatewayBackendHttpSettingsInner>,ChildResource<ApplicationGateway>,HasProtocol<ApplicationGatewayProtocol>,HasPort
 - uid: com.microsoft.azure.management.network.ApplicationGatewayListener
@@ -504,7 +501,7 @@ references:
   nameWithType: ApplicationGatewayListener
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener
   type: Interface
-  summary: <p>A client-side representation of an application gateway's HTTP listener. </p>
+  summary: "<p>A client-side representation of an application gateway's HTTP listener. </p>"
   syntax:
     content: public interface ApplicationGatewayListener extends HasInner<ApplicationGatewayHttpListenerInner>,ChildResource<ApplicationGateway>,HasSslCertificate<ApplicationGatewaySslCertificate>,HasPublicIPAddress,HasProtocol<ApplicationGatewayProtocol>,HasHostName,HasServerNameIndication,HasSubnet
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendAddress
@@ -514,6 +511,6 @@ references:
   nameWithType: ApplicationGatewayBackendAddress
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendAddress
   type: Class
-  summary: <p>Backend address of an application gateway. </p>
+  summary: "<p>Backend address of an application gateway. </p>"
   syntax:
     content: public class ApplicationGatewayBackendAddress

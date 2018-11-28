@@ -45,10 +45,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -61,10 +58,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -81,10 +75,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -121,10 +112,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithBlobStorageAccountKind.withBlobStorageAccountKind()
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlobStorageAccountKind.withBlobStorageAccountKind()
   type: Method
-  summary: >-
-    <p>Specifies the storage account kind to be "BlobStorage". The access tier is defaulted to be "Hot".</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage account kind to be \"BlobStorage\". The access tier is defaulted to be \"Hot\".</p>\r\n<p></p>"
   syntax:
     content: public WithCreateAndAccessTier withBlobStorageAccountKind()
     return:
@@ -137,10 +125,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(CustomDomain customDomain)
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(CustomDomain customDomain)
   type: Method
-  summary: >-
-    <p>Specifies the user domain assigned to the storage account.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user domain assigned to the storage account.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCustomDomain(CustomDomain customDomain)
     parameters:
@@ -157,10 +142,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(String name)
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(String name)
   type: Method
-  summary: >-
-    <p>Specifies the user domain assigned to the storage account.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user domain assigned to the storage account.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCustomDomain(String name)
     parameters:
@@ -177,10 +159,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(String name, boolean useSubDomain)
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(String name, boolean useSubDomain)
   type: Method
-  summary: >-
-    <p>Specifies the user domain assigned to the storage account.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user domain assigned to the storage account.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCustomDomain(String name, boolean useSubDomain)
     parameters:
@@ -200,10 +179,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithEncryption.withEncryption(Encryption encryption)
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption.withEncryption(Encryption encryption)
   type: Method
-  summary: >-
-    <p>Specifies the encryption settings on the account. The default setting is unencrypted. TODO: This overload should be deprecated and removed (the new fully fluent encryption withers replaces this)</p>
-
-    <p></p>
+  summary: "<p>Specifies the encryption settings on the account. The default setting is unencrypted. TODO: This overload should be deprecated and removed (the new fully fluent encryption withers replaces this)</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withEncryption(Encryption encryption)
     parameters:
@@ -220,10 +196,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithEncryption.withEncryption()
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption.withEncryption()
   type: Method
-  summary: >-
-    <p>Enables encryption for all storage services in the account that supports encryption.</p>
-
-    <p></p>
+  summary: "<p>Enables encryption for all storage services in the account that supports encryption.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withEncryption()
     return:
@@ -236,10 +209,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind.withGeneralPurposeAccountKind()
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind.withGeneralPurposeAccountKind()
   type: Method
-  summary: >-
-    <p>Specifies the storage account kind to be "Storage", the kind for general purposes.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage account kind to be \"Storage\", the kind for general purposes.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withGeneralPurposeAccountKind()
     return:
@@ -252,10 +222,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithSku.withSku(SkuName skuName)
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithSku.withSku(SkuName skuName)
   type: Method
-  summary: >-
-    <p>Specifies the sku of the storage account. This used to be called account types.</p>
-
-    <p></p>
+  summary: "<p>Specifies the sku of the storage account. This used to be called account types.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(SkuName skuName)
     parameters:
@@ -272,7 +239,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -292,7 +259,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -309,10 +276,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -326,7 +290,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithSku
   type: Interface
-  summary: <p>A storage account definition allowing the sku to be set. </p>
+  summary: "<p>A storage account definition allowing the sku to be set. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlobStorageAccountKind
@@ -336,7 +300,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithBlobStorageAccountKind
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlobStorageAccountKind
   type: Interface
-  summary: <p>A storage account definition specifying the account kind to be blob. </p>
+  summary: "<p>A storage account definition specifying the account kind to be blob. </p>"
   syntax:
     content: public interface WithBlobStorageAccountKind
 - uid: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind
@@ -346,7 +310,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind
   type: Interface
-  summary: <p>A storage account definition selecting the general purpose account kind. </p>
+  summary: "<p>A storage account definition selecting the general purpose account kind. </p>"
   syntax:
     content: public interface WithGeneralPurposeAccountKind
 - uid: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption
@@ -356,7 +320,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithEncryption
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption
   type: Interface
-  summary: <p>A storage account definition specifying encryption setting. </p>
+  summary: "<p>A storage account definition specifying encryption setting. </p>"
   syntax:
     content: public interface WithEncryption
 - uid: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain
@@ -366,7 +330,7 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithCustomDomain
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain
   type: Interface
-  summary: <p>A storage account definition specifying a custom domain to associate with the account. </p>
+  summary: "<p>A storage account definition specifying a custom domain to associate with the account. </p>"
   syntax:
     content: public interface WithCustomDomain
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags
@@ -376,10 +340,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -393,7 +354,7 @@ references:
   nameWithType: StorageAccount.Definition
   fullName: com.microsoft.azure.management.storage.StorageAccount.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends StorageAccount.DefinitionStages.Blank,StorageAccount.DefinitionStages.WithGroup,StorageAccount.DefinitionStages.WithCreate,StorageAccount.DefinitionStages.WithCreateAndAccessTier
 - uid: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier
@@ -403,6 +364,6 @@ references:
   nameWithType: StorageAccount.DefinitionStages.WithCreateAndAccessTier
   fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier
   type: Interface
-  summary: <p>A storage account definition allowing access tier to be set. </p>
+  summary: "<p>A storage account definition allowing access tier to be set. </p>"
   syntax:
     content: public interface WithCreateAndAccessTier

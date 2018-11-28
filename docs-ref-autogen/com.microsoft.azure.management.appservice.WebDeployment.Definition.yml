@@ -39,10 +39,7 @@ references:
   nameWithType: Executable<T>.execute()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public T execute()
     return:
@@ -55,10 +52,7 @@ references:
   nameWithType: Executable<T>.executeAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> executeAsync()
     return:
@@ -71,10 +65,7 @@ references:
   nameWithType: Executable<T>.executeAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> executeAsync(final ServiceCallback<T> callback)
     parameters:
@@ -103,10 +94,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithAddOnPackage.withAddOnPackage(String packageUri)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithAddOnPackage.withAddOnPackage(String packageUri)
   type: Method
-  summary: >-
-    <p>Adds an extra package to the deployment.</p>
-
-    <p></p>
+  summary: "<p>Adds an extra package to the deployment.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withAddOnPackage(String packageUri)
     parameters:
@@ -123,10 +111,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted.withExistingDeploymentsDeleted(boolean deleteExisting)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted.withExistingDeploymentsDeleted(boolean deleteExisting)
   type: Method
-  summary: >-
-    <p>Specifies whether existing deployed files on the web app should be deleted.</p>
-
-    <p></p>
+  summary: "<p>Specifies whether existing deployed files on the web app should be deleted.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withExistingDeploymentsDeleted(boolean deleteExisting)
     parameters:
@@ -143,10 +128,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithPackageUri.withPackageUri(String packageUri)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithPackageUri.withPackageUri(String packageUri)
   type: Method
-  summary: >-
-    <p>Specifies the zipped package to deploy.</p>
-
-    <p></p>
+  summary: "<p>Specifies the zipped package to deploy.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withPackageUri(String packageUri)
     parameters:
@@ -163,7 +145,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithSetParameters.withSetParameter(String name, String value)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters.withSetParameter(String name, String value)
   type: Method
-  summary: <p>Adds a parameter for the deployment. </p>
+  summary: "<p>Adds a parameter for the deployment. </p>"
   syntax:
     content: public WithExecute withSetParameter(String name, String value)
     parameters:
@@ -183,10 +165,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithSetParameters.withSetParametersXmlFile(String fileUri)
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters.withSetParametersXmlFile(String fileUri)
   type: Method
-  summary: >-
-    <p>Specifies the XML file containing the parameters.</p>
-
-    <p></p>
+  summary: "<p>Specifies the XML file containing the parameters.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withSetParametersXmlFile(String fileUri)
     parameters:
@@ -203,7 +182,7 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithPackageUri
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithPackageUri
   type: Interface
-  summary: <p>The first stage of a web deployment definition. </p>
+  summary: "<p>The first stage of a web deployment definition. </p>"
   syntax:
     content: public interface WithPackageUri
 - uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExecute
@@ -213,6 +192,6 @@ references:
   nameWithType: WebDeployment.DefinitionStages.WithExecute
   fullName: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExecute
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithExecute

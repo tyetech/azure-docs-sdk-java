@@ -165,10 +165,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -181,10 +178,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -209,7 +203,7 @@ references:
   nameWithType: DnsRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet
   type: Interface
-  summary: <p>An immutable client-side representation of a record set in Azure DNS Zone. </p>
+  summary: "<p>An immutable client-side representation of a record set in Azure DNS Zone. </p>"
   syntax:
     content: public interface DnsRecordSet extends ExternalChildResource<DnsRecordSet, DnsZone>,HasInner<RecordSetInner>
 - uid: com.microsoft.azure.management.dns.SoaRecord
@@ -219,6 +213,6 @@ references:
   nameWithType: SoaRecord
   fullName: com.microsoft.azure.management.dns.SoaRecord
   type: Class
-  summary: <p>An SOA record. </p>
+  summary: "<p>An SOA record. </p>"
   syntax:
     content: public class SoaRecord

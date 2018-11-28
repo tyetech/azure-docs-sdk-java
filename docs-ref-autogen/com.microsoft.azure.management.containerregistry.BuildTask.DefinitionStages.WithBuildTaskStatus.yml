@@ -90,7 +90,7 @@ references:
   nameWithType: BuildTask.BuildTaskDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
   type: Interface
-  summary: <p>Grouping of the container register build task definitions. </p>
+  summary: "<p>Grouping of the container register build task definitions. </p>"
   syntax:
     content: public interface BuildTaskDefinition extends BuildTask.DefinitionStages.Blank,BuildTask.DefinitionStages.WithOSType,BuildTask.DefinitionStages.WithSourceControlType,BuildTask.DefinitionStages.WithRepositoryUrl,BuildTask.DefinitionStages.WithAuthenticationTokenType,BuildTask.DefinitionStages.WithAuthenticationToken,BuildTask.DefinitionStages.WithAlias,BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,BuildTask.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
@@ -100,7 +100,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withBuildTaskStatusEnabled()
@@ -110,10 +110,7 @@ references:
   nameWithType: BuildTaskImpl.withBuildTaskStatusEnabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withBuildTaskStatusEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the current status of build task is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the current status of build task is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withBuildTaskStatusEnabled()
     return:
@@ -126,10 +123,7 @@ references:
   nameWithType: BuildTaskImpl.withBuildTaskStatusDisabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withBuildTaskStatusDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the current status of build task is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the current status of build task is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withBuildTaskStatusDisabled()
     return:

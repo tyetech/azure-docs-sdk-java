@@ -40,7 +40,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromBytes(byte[] pfxData)
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromBytes(byte[] pfxData)
   type: Method
-  summary: <p>Specifies the contents of the private key in the PFX (PKCS#12) format, not base64-encoded. </p>
+  summary: "<p>Specifies the contents of the private key in the PFX (PKCS#12) format, not base64-encoded. </p>"
   syntax:
     content: public WithPassword<ParentT> withPfxFromBytes(byte[] pfxData)
     parameters:
@@ -57,7 +57,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromFile(File pfxFile)
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromFile(File pfxFile)
   type: Method
-  summary: <p>Specifies the PFX (PKCS#12) file to get the private key content from. </p>
+  summary: "<p>Specifies the PFX (PKCS#12) file to get the private key content from. </p>"
   syntax:
     content: public WithPassword<ParentT> withPfxFromFile(File pfxFile)
     parameters:
@@ -74,7 +74,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>
   type: Interface
-  summary: <p>The stage of an SSL certificate definition allowing to specify the contents of the SSL certificate. </p>
+  summary: "<p>The stage of an SSL certificate definition allowing to specify the contents of the SSL certificate. </p>"
   syntax:
     content: public interface WithData<ParentT>
     typeParameters:
@@ -88,7 +88,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway SSL certificate definition. </p>
+  summary: "<p>The entirety of an application gateway SSL certificate definition. </p>"
   syntax:
     content: public interface Definition<ParentT>
     typeParameters:

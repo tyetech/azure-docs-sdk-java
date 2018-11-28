@@ -96,10 +96,7 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithAllOptions.withAppName(String appName)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithAllOptions.withAppName(String appName)
   type: Method
-  summary: >-
-    <p>The application name to create. If not specified, the application name will be read from the imported object.</p>
-
-    <p></p>
+  summary: "<p>The application name to create. If not specified, the application name will be read from the imported object.</p>\r\n<p></p>"
   syntax:
     content: public AppsImportMethodDefinitionStages.WithExecute withAppName(String appName)
     parameters:
@@ -115,7 +112,7 @@ references:
   nameWithType: Apps.AppsImportMethodDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinition
@@ -125,6 +122,6 @@ references:
   nameWithType: Apps.AppsImportMethodDefinition
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinition
   type: Interface
-  summary: <p>The entirety of importMethod definition. </p>
+  summary: "<p>The entirety of importMethod definition. </p>"
   syntax:
     content: public interface AppsImportMethodDefinition extends Apps.AppsImportMethodDefinitionStages.WithLuisApp,Apps.AppsImportMethodDefinitionStages.WithExecute

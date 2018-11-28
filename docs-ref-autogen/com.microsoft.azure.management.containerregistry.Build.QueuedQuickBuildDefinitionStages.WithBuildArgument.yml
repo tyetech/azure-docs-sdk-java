@@ -70,7 +70,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinition
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface QueuedQuickBuildDefinition extends Build.QueuedQuickBuildDefinitionStages.Blank,Build.QueuedQuickBuildDefinitionStages.WithOSType,Build.QueuedQuickBuildDefinitionStages.WithSourceLocation,Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath,Build.QueuedQuickBuildDefinitionStages.WithBuildArgument,Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount,Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds,Build.QueuedQuickBuildDefinitionStages.WithImageNames,Build.QueuedQuickBuildDefinitionStages.WithImageCache,Build.QueuedQuickBuildDefinitionStages.WithImagePush,Build.QueuedQuickBuildDefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCreate
@@ -80,7 +80,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildImpl.defineBuildArgument(String)
@@ -90,10 +90,7 @@ references:
   nameWithType: BuildImpl.defineBuildArgument(String name)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildImpl.defineBuildArgument(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of the build argument settings.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of the build argument settings.</p>\r\n<p></p>"
   syntax:
     content: public BuildArgumentImpl defineBuildArgument(String name)
     parameters:

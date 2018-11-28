@@ -290,7 +290,7 @@ references:
   nameWithType: Replicator.updateEpochAsync(Epoch epoch, CancellationToken cancellationToken)
   fullName: system.fabric.Replicator.updateEpochAsync(Epoch epoch, CancellationToken cancellationToken)
   type: Method
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public CompletableFuture updateEpochAsync(Epoch epoch, CancellationToken cancellationToken)
     parameters:
@@ -310,12 +310,7 @@ references:
   nameWithType: Epoch
   fullName: system.fabric.Epoch
   type: Class
-  summary: >-
-    <p>Represents the current version of the partition in Service Fabric. </p>
-
-    <p>
-
-      <b>Remarks:</b>An Epoch is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new Epoch from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid="system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the Epoch as it is usually sufficient to know that the Epoch has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>
+  summary: "<p>Represents the current version of the partition in Service Fabric. </p>\r\n<p>\r\n  <b>Remarks:</b>An Epoch is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new Epoch from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid=\"system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the Epoch as it is usually sufficient to know that the Epoch has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>"
   syntax: *o1
 - uid: system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)
   parent: system.fabric.StateProvider
@@ -324,12 +319,7 @@ references:
   nameWithType: StateProvider.updateEpochAsync(Epoch epoch, SequenceNumber previousEpochLastSequenceNumber, CancellationToken cancellationToken)
   fullName: system.fabric.StateProvider.updateEpochAsync(Epoch epoch, SequenceNumber previousEpochLastSequenceNumber, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Indicates to a replica that the configuration of a replica set has changed due to a change or attempted change to the Primary replica. The change occurs due to failure or load balancing of the previous Primary replica. Epoch changes act as a barrier by segmenting operations into the exact configuration periods in which they were sent by a specific Primary replica.</p>
-
-    <p>
-
-      <b>Remarks:</b>The information in the <xref uid="system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateProvider#updateEpochAsync(Epoch, SequenceNumber, CancellationToken)</xref> method enables the service to maintain a progress vector, which is a list of each epoch that the replica has received, and the maximum LSN that they contained. The progress vector data along with the current applied maximum LSN is useful for a Secondary replica to send during the copy operation to describe the state of the replica. Comparing progress vectors that are received from Secondary replicas during the copy operation enables Primary replicas to determine whether the Secondary replica is up-to-date, what state must be sent to the Secondary replica, and whether the Secondary replica has made false progress. False progress means that a secondary replica reports an LSN in a previous epoch was greater than the LSN that the Primary replica has in its progress vector. </p>
+  summary: "<p>Indicates to a replica that the configuration of a replica set has changed due to a change or attempted change to the Primary replica. The change occurs due to failure or load balancing of the previous Primary replica. Epoch changes act as a barrier by segmenting operations into the exact configuration periods in which they were sent by a specific Primary replica.</p>\r\n<p>\r\n  <b>Remarks:</b>The information in the <xref uid=\"system.fabric.StateProvider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider#updateEpochAsync(Epoch, SequenceNumber, CancellationToken)</xref> method enables the service to maintain a progress vector, which is a list of each epoch that the replica has received, and the maximum LSN that they contained. The progress vector data along with the current applied maximum LSN is useful for a Secondary replica to send during the copy operation to describe the state of the replica. Comparing progress vectors that are received from Secondary replicas during the copy operation enables Primary replicas to determine whether the Secondary replica is up-to-date, what state must be sent to the Secondary replica, and whether the Secondary replica has made false progress. False progress means that a secondary replica reports an LSN in a previous epoch was greater than the LSN that the Primary replica has in its progress vector. </p>"
   syntax:
     content: public CompletableFuture<?> updateEpochAsync(Epoch epoch, SequenceNumber previousEpochLastSequenceNumber, CancellationToken cancellationToken)
     parameters:

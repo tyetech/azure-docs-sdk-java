@@ -41,10 +41,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -57,10 +54,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -77,10 +71,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -93,10 +84,7 @@ references:
   nameWithType: BatchAccount.DefinitionStages.WithApplication.defineNewApplication(String applicationId)
   fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplication.defineNewApplication(String applicationId)
   type: Method
-  summary: >-
-    <p>The stage of a Batch account definition allowing to add a Batch application.</p>
-
-    <p></p>
+  summary: "<p>The stage of a Batch account definition allowing to add a Batch application.</p>\r\n<p></p>"
   syntax:
     content: public Application.DefinitionStages.Blank<WithApplicationAndStorage> defineNewApplication(String applicationId)
     parameters:
@@ -137,10 +125,7 @@ references:
   nameWithType: BatchAccount.DefinitionStages.WithStorage.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>Specifies an existing storage account to associate with the Batch account.</p>
-
-    <p></p>
+  summary: "<p>Specifies an existing storage account to associate with the Batch account.</p>\r\n<p></p>"
   syntax:
     content: public DefinitionStages.WithCreate withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -157,10 +142,7 @@ references:
   nameWithType: BatchAccount.DefinitionStages.WithStorage.withNewStorageAccount(Creatable<StorageAccount> storageAccountCreatable)
   fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage.withNewStorageAccount(Creatable<StorageAccount> storageAccountCreatable)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account to associate with the Batch account.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account to associate with the Batch account.</p>\r\n<p></p>"
   syntax:
     content: public DefinitionStages.WithCreate withNewStorageAccount(Creatable<StorageAccount> storageAccountCreatable)
     parameters:
@@ -177,10 +159,7 @@ references:
   nameWithType: BatchAccount.DefinitionStages.WithStorage.withNewStorageAccount(String storageAccountName)
   fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage.withNewStorageAccount(String storageAccountName)
   type: Method
-  summary: >-
-    <p>Specifies the name of a new storage account to be created and associated with this Batch account.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name of a new storage account to be created and associated with this Batch account.</p>\r\n<p></p>"
   syntax:
     content: public DefinitionStages.WithCreate withNewStorageAccount(String storageAccountName)
     parameters:
@@ -197,7 +176,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -217,7 +196,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -234,7 +213,7 @@ references:
   nameWithType: BatchAccount.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A Batch account definition with sufficient inputs to create a new Batch account in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A Batch account definition with sufficient inputs to create a new Batch account in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<BatchAccount>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage
@@ -244,7 +223,7 @@ references:
   nameWithType: BatchAccount.DefinitionStages.WithApplicationAndStorage
   fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage
   type: Interface
-  summary: <p>The stage of a Batch account definition allowing adding an application and a storage account. </p>
+  summary: "<p>The stage of a Batch account definition allowing adding an application and a storage account. </p>"
   syntax:
     content: public interface WithApplicationAndStorage extends BatchAccount.DefinitionStages.WithStorage,BatchAccount.DefinitionStages.WithApplication
 - uid: com.microsoft.azure.management.batch.BatchAccount.Definition
@@ -254,6 +233,6 @@ references:
   nameWithType: BatchAccount.Definition
   fullName: com.microsoft.azure.management.batch.BatchAccount.Definition
   type: Interface
-  summary: <p>The entirety of a Batch account definition. </p>
+  summary: "<p>The entirety of a Batch account definition. </p>"
   syntax:
     content: public interface Definition extends BatchAccount.DefinitionStages.Blank,BatchAccount.DefinitionStages.WithGroup,BatchAccount.DefinitionStages.WithCreate,BatchAccount.DefinitionStages.WithApplicationAndStorage,BatchAccount.DefinitionStages.WithCreateAndApplication,BatchAccount.DefinitionStages.WithApplication,BatchAccount.DefinitionStages.WithStorage

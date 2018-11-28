@@ -62,7 +62,7 @@ references:
   nameWithType: AppServiceDomain.Definition
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends AppServiceDomain.DefinitionStages.Blank,AppServiceDomain.DefinitionStages.WithAdminContact,AppServiceDomain.DefinitionStages.WithBillingContact,AppServiceDomain.DefinitionStages.WithRegistrantContact,AppServiceDomain.DefinitionStages.WithTechContact,AppServiceDomain.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithCreate
@@ -72,7 +72,7 @@ references:
   nameWithType: AppServiceDomain.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A domain definition with sufficient inputs to create a new domain in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A domain definition with sufficient inputs to create a new domain in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends AppServiceDomain.DefinitionStages.WithDomainPrivacy,AppServiceDomain.DefinitionStages.WithAutoRenew,AppServiceDomain.DefinitionStages.WithAdminContact,AppServiceDomain.DefinitionStages.WithBillingContact,AppServiceDomain.DefinitionStages.WithTechContact,Creatable<AppServiceDomain>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.appservice.Contact
@@ -82,6 +82,6 @@ references:
   nameWithType: Contact
   fullName: com.microsoft.azure.management.appservice.Contact
   type: Class
-  summary: <p>Contact information for domain registration. If 'Domain Privacy' option is not selected then the contact information is made publicly available through the Whois directories as per ICANN requirements. </p>
+  summary: "<p>Contact information for domain registration. If 'Domain Privacy' option is not selected then the contact information is made publicly available through the Whois directories as per ICANN requirements. </p>"
   syntax:
     content: public class Contact

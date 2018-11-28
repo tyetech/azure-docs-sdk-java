@@ -45,10 +45,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -61,10 +58,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -77,10 +71,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -109,12 +100,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithAccessTier.withAccessTier(AccessTier accessTier)
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTier.withAccessTier(AccessTier accessTier)
   type: Method
-  summary: >-
-    <p>Specifies the access tier used for billing. </p>
-
-    <p>Access tier cannot be changed more than once every 7 days (168 hours). Access tier cannot be set for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS account types.</p>
-
-    <p></p>
+  summary: "<p>Specifies the access tier used for billing. </p>\r\n<p>Access tier cannot be changed more than once every 7 days (168 hours). Access tier cannot be set for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS account types.</p>\r\n<p></p>"
   syntax:
     content: public Update withAccessTier(AccessTier accessTier)
     parameters:
@@ -131,10 +117,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(CustomDomain customDomain)
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(CustomDomain customDomain)
   type: Method
-  summary: >-
-    <p>Specifies the user domain assigned to the storage account.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user domain assigned to the storage account.</p>\r\n<p></p>"
   syntax:
     content: public Update withCustomDomain(CustomDomain customDomain)
     parameters:
@@ -151,10 +134,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(String name)
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(String name)
   type: Method
-  summary: >-
-    <p>Specifies the user domain assigned to the storage account.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user domain assigned to the storage account.</p>\r\n<p></p>"
   syntax:
     content: public Update withCustomDomain(String name)
     parameters:
@@ -171,10 +151,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(String name, boolean useSubDomain)
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain.withCustomDomain(String name, boolean useSubDomain)
   type: Method
-  summary: >-
-    <p>Specifies the user domain assigned to the storage account.</p>
-
-    <p></p>
+  summary: "<p>Specifies the user domain assigned to the storage account.</p>\r\n<p></p>"
   syntax:
     content: public Update withCustomDomain(String name, boolean useSubDomain)
     parameters:
@@ -194,12 +171,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithEncryption.withEncryption(Encryption encryption)
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption.withEncryption(Encryption encryption)
   type: Method
-  summary: >-
-    <p>Specifies the encryption setting on the account. </p>
-
-    <p>The default setting is unencrypted. TODO: This overload should be deprecated and removed (the new fully fluent encryption withers replaces this)</p>
-
-    <p></p>
+  summary: "<p>Specifies the encryption setting on the account. </p>\r\n<p>The default setting is unencrypted. TODO: This overload should be deprecated and removed (the new fully fluent encryption withers replaces this)</p>\r\n<p></p>"
   syntax:
     content: public Update withEncryption(Encryption encryption)
     parameters:
@@ -216,10 +188,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithEncryption.withEncryption()
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption.withEncryption()
   type: Method
-  summary: >-
-    <p>Enables encryption for all storage services in the account that supports encryption.</p>
-
-    <p></p>
+  summary: "<p>Enables encryption for all storage services in the account that supports encryption.</p>\r\n<p></p>"
   syntax:
     content: public Update withEncryption()
     return:
@@ -232,10 +201,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithEncryption.withoutEncryption()
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption.withoutEncryption()
   type: Method
-  summary: >-
-    <p>Disables encryption for all storage services in the account that supports encryption.</p>
-
-    <p></p>
+  summary: "<p>Disables encryption for all storage services in the account that supports encryption.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutEncryption()
     return:
@@ -248,7 +214,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -265,7 +231,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithSku.withSku(SkuName skuName)
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithSku.withSku(SkuName skuName)
   type: Method
-  summary: <p>Specifies the sku of the storage account. This used to be called account types. * </p>
+  summary: "<p>Specifies the sku of the storage account. This used to be called account types. * </p>"
   syntax:
     content: public Update withSku(SkuName skuName)
     parameters:
@@ -282,7 +248,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -302,7 +268,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -319,10 +285,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -336,7 +299,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithSku
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithSku
   type: Interface
-  summary: <p>A storage account update stage allowing to change the parameters. </p>
+  summary: "<p>A storage account update stage allowing to change the parameters. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain
@@ -346,7 +309,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithCustomDomain
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain
   type: Interface
-  summary: <p>A storage account update stage allowing to change the parameters. </p>
+  summary: "<p>A storage account update stage allowing to change the parameters. </p>"
   syntax:
     content: public interface WithCustomDomain
 - uid: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption
@@ -356,7 +319,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithEncryption
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption
   type: Interface
-  summary: <p>A storage account update allowing encryption to be specified. </p>
+  summary: "<p>A storage account update allowing encryption to be specified. </p>"
   syntax:
     content: public interface WithEncryption
 - uid: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTier
@@ -366,7 +329,7 @@ references:
   nameWithType: StorageAccount.UpdateStages.WithAccessTier
   fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTier
   type: Interface
-  summary: <p>A blob storage account update stage allowing access tier to be specified. </p>
+  summary: "<p>A blob storage account update stage allowing access tier to be specified. </p>"
   syntax:
     content: public interface WithAccessTier
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags
@@ -376,10 +339,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:

@@ -254,12 +254,7 @@ references:
   nameWithType: SupportsCreating<T>.define(String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating<T>.define(String name)
   type: Method
-  summary: >-
-    <p>Begins a definition for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref>. </p>
-
-    <p>Note that the <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word "with", for example:  and return the next stage of the resource definition, as an interface in the "fluent interface" style. </p>
+  summary: "<p>Begins a definition for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to create top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref>. </p>\r\n<p>Note that the <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> method is only available at the stage of the resource definition that has the minimum set of input parameters specified. If you do not see <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">Creatable#create()</xref> among the available methods, it means you have not yet specified all the required input settings. Input settings generally begin with the word \"with\", for example:  and return the next stage of the resource definition, as an interface in the \"fluent interface\" style. </p>"
   syntax:
     content: public T define(String name)
     parameters:
@@ -276,10 +271,7 @@ references:
   nameWithType: SupportsCreating<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating<T>
   type: Interface
-  summary: >-
-    <p>Providing access to creating Azure top level resources. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code) </p>
+  summary: "<p>Providing access to creating Azure top level resources. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code) </p>"
   syntax:
     content: public interface SupportsCreating<T>
     typeParameters:
@@ -293,7 +285,7 @@ references:
   nameWithType: SqlSyncGroup
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>"
   syntax:
     content: public interface SqlSyncGroup extends ExternalChildResource<SqlSyncGroup, SqlDatabase>,HasInner<SyncGroupInner>,HasResourceGroup,Refreshable<SqlSyncGroup>,Updatable<SqlSyncGroup.Update>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.Region
@@ -303,6 +295,6 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region

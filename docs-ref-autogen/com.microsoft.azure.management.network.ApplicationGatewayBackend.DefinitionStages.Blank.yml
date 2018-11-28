@@ -41,7 +41,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -54,10 +54,7 @@ references:
   nameWithType: ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withFqdn(String fqdn)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withFqdn(String fqdn)
   type: Method
-  summary: >-
-    <p>Adds the specified existing fully qualified domain name (FQDN) to the backend. </p>
-
-    <p>This call can be made in a sequence to add multiple FQDNs. </p>
+  summary: "<p>Adds the specified existing fully qualified domain name (FQDN) to the backend. </p>\r\n<p>This call can be made in a sequence to add multiple FQDNs. </p>"
   syntax:
     content: public WithAttach<ParentT> withFqdn(String fqdn)
     parameters:
@@ -74,10 +71,7 @@ references:
   nameWithType: ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withIPAddress(String ipAddress)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.DefinitionStages.WithAddress<ParentT>.withIPAddress(String ipAddress)
   type: Method
-  summary: >-
-    <p>Adds the specified existing IP address to the backend. </p>
-
-    <p>This call can be made in a sequence to add multiple IP addresses. </p>
+  summary: "<p>Adds the specified existing IP address to the backend. </p>\r\n<p>This call can be made in a sequence to add multiple IP addresses. </p>"
   syntax:
     content: public WithAttach<ParentT> withIPAddress(String ipAddress)
     parameters:
@@ -94,10 +88,7 @@ references:
   nameWithType: ApplicationGatewayBackend.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway backend definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway backend definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -111,7 +102,7 @@ references:
   nameWithType: ApplicationGatewayBackend.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackend.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway backend definition. </p>
+  summary: "<p>The entirety of an application gateway backend definition. </p>"
   syntax:
     content: public interface Definition<ParentT>
     typeParameters:

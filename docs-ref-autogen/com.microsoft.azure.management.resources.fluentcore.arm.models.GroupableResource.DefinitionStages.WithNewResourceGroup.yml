@@ -99,7 +99,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithCreatableResourceGroup<T>.withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithCreatableResourceGroup<T>.withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
   type: Method
-  summary: <p>Creates a new resource group to put the resource in, based on the definition specified. </p>
+  summary: "<p>Creates a new resource group to put the resource in, based on the definition specified. </p>"
   syntax:
     content: public T withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
     parameters:
@@ -116,10 +116,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithCreatableResourceGroup<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithCreatableResourceGroup<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing a new creatable resource group to be specified.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing a new creatable resource group to be specified.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCreatableResourceGroup<T>
     typeParameters:
@@ -133,12 +130,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithGroup<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.DefinitionStages.WithGroup<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing a resource group to be selected. </p>
-
-    <p>Region of the groupable resource will be used for new resource group</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing a resource group to be selected. </p>\r\n<p>Region of the groupable resource will be used for new resource group</p>\r\n<p></p>"
   syntax:
     content: public interface WithGroup<T> extends GroupableResource<T>.DefinitionStages.WithExistingResourceGroup,GroupableResource<T>.DefinitionStages.WithNewResourceGroup
     typeParameters:

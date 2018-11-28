@@ -39,10 +39,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -55,10 +52,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -75,10 +69,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -115,10 +106,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithCapacity.withCapacity(int capacity)
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCapacity.withCapacity(int capacity)
   type: Method
-  summary: >-
-    <p>Specifies the maximum number of instances running for this app service plan.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum number of instances running for this app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCapacity(int capacity)
     parameters:
@@ -135,10 +123,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithPerSiteScaling.withPerSiteScaling(boolean perSiteScaling)
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPerSiteScaling.withPerSiteScaling(boolean perSiteScaling)
   type: Method
-  summary: >-
-    <p>Specifies whether per-site scaling will be turned on.</p>
-
-    <p></p>
+  summary: "<p>Specifies whether per-site scaling will be turned on.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPerSiteScaling(boolean perSiteScaling)
     parameters:
@@ -155,7 +140,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -175,7 +160,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -192,7 +177,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithPerSiteScaling
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPerSiteScaling
   type: Interface
-  summary: <p>An app service plan definition allowing per site scaling configuration to be set. </p>
+  summary: "<p>An app service plan definition allowing per site scaling configuration to be set. </p>"
   syntax:
     content: public interface WithPerSiteScaling
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCapacity
@@ -202,7 +187,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithCapacity
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCapacity
   type: Interface
-  summary: <p>An app service plan definition allowing instance capacity to be set. </p>
+  summary: "<p>An app service plan definition allowing instance capacity to be set. </p>"
   syntax:
     content: public interface WithCapacity
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -212,10 +197,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -229,10 +211,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -246,6 +225,6 @@ references:
   nameWithType: AppServicePlan.Definition
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends AppServicePlan.DefinitionStages.Blank,AppServicePlan.DefinitionStages.WithGroup,AppServicePlan.DefinitionStages.WithPricingTier,AppServicePlan.DefinitionStages.WithOperatingSystem,AppServicePlan.DefinitionStages.WithCreate

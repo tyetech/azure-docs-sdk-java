@@ -114,7 +114,7 @@ references:
   nameWithType: HostNameSslBinding.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a hostname SSL binding definition. </p>
+  summary: "<p>The entirety of a hostname SSL binding definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends HostNameSslBinding.DefinitionStages.Blank<ParentT>,HostNameSslBinding.DefinitionStages.WithHostname<ParentT>,HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>,HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>,HostNameSslBinding.DefinitionStages.WithSslType<ParentT>,HostNameSslBinding.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -128,7 +128,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithSslType<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithSslType<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing SSL type to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing SSL type to be specified. </p>"
   syntax:
     content: public interface WithSslType<ParentT>
     typeParameters:
@@ -142,6 +142,6 @@ references:
   nameWithType: Vault
   fullName: com.microsoft.azure.management.keyvault.Vault
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Key Vault. </p>
+  summary: "<p>An immutable client-side representation of an Azure Key Vault. </p>"
   syntax:
     content: public interface Vault extends GroupableResource<KeyVaultManager, VaultInner>,Refreshable<Vault>,Updatable<Vault.Update>

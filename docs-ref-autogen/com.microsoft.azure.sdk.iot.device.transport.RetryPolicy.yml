@@ -69,7 +69,7 @@ references:
   nameWithType: ExponentialBackoffWithJitter
   fullName: com.microsoft.azure.sdk.iot.device.transport.ExponentialBackoffWithJitter
   type: Class
-  summary: <p>Represents a retry policy that performs exponential backoff with jitter retries. </p>
+  summary: "<p>Represents a retry policy that performs exponential backoff with jitter retries. </p>"
   syntax:
     content: public class ExponentialBackoffWithJitter implements RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.transport.NoRetry
@@ -79,7 +79,7 @@ references:
   nameWithType: NoRetry
   fullName: com.microsoft.azure.sdk.iot.device.transport.NoRetry
   type: Class
-  summary: <p>Represents a retry policy that performs no retries. </p>
+  summary: "<p>Represents a retry policy that performs no retries. </p>"
   syntax:
     content: public class NoRetry implements RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.transport.RetryDecision
@@ -89,7 +89,7 @@ references:
   nameWithType: RetryDecision
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryDecision
   type: Class
-  summary: <p>Represents the retry details </p>
+  summary: "<p>Represents the retry details </p>"
   syntax:
     content: public class RetryDecision
 - uid: com.microsoft.azure.sdk.iot.device.transport.NoRetry.getRetryDecision(int,TransportException)
@@ -99,10 +99,7 @@ references:
   nameWithType: NoRetry.getRetryDecision(int currentRetryCount, TransportException lastException)
   fullName: com.microsoft.azure.sdk.iot.device.transport.NoRetry.getRetryDecision(int currentRetryCount, TransportException lastException)
   type: Method
-  summary: >-
-    <p>Always says to not retry.</p>
-
-    <p></p>
+  summary: "<p>Always says to not retry.</p>\r\n<p></p>"
   syntax:
     content: public RetryDecision getRetryDecision(int currentRetryCount, TransportException lastException)
     parameters:
@@ -122,10 +119,7 @@ references:
   nameWithType: ExponentialBackoffWithJitter.getRetryDecision(int currentRetryCount, TransportException lastException)
   fullName: com.microsoft.azure.sdk.iot.device.transport.ExponentialBackoffWithJitter.getRetryDecision(int currentRetryCount, TransportException lastException)
   type: Method
-  summary: >-
-    <p>Determines whether the operation should be retried and the interval until the next retry.</p>
-
-    <p></p>
+  summary: "<p>Determines whether the operation should be retried and the interval until the next retry.</p>\r\n<p></p>"
   syntax:
     content: public RetryDecision getRetryDecision(int currentRetryCount, TransportException lastException)
     parameters:

@@ -36,10 +36,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public OperationStatus execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<OperationStatus> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithAppId.withAppId(UUID appId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAppId.withAppId(UUID appId)
   type: Method
-  summary: >-
-    <p>The application ID.</p>
-
-    <p></p>
+  summary: "<p>The application ID.</p>\r\n<p></p>"
   syntax:
     content: public WithVersionId withAppId(UUID appId)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithAllOptions.withDeleteUtterances(Boolean deleteUtterances)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAllOptions.withDeleteUtterances(Boolean deleteUtterances)
   type: Method
-  summary: >-
-    <p>Also delete the intent's utterances (true). Or move the utterances to the None intent (false - the default value).</p>
-
-    <p></p>
+  summary: "<p>Also delete the intent's utterances (true). Or move the utterances to the None intent (false - the default value).</p>\r\n<p></p>"
   syntax:
     content: public ModelsDeleteIntentDefinitionStages.WithExecute withDeleteUtterances(Boolean deleteUtterances)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithIntentId.withIntentId(UUID intentId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId.withIntentId(UUID intentId)
   type: Method
-  summary: >-
-    <p>The intent classifier ID.</p>
-
-    <p></p>
+  summary: "<p>The intent classifier ID.</p>\r\n<p></p>"
   syntax:
     content: public ModelsDeleteIntentDefinitionStages.WithExecute withIntentId(UUID intentId)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithVersionId.withVersionId(String versionId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId.withVersionId(String versionId)
   type: Method
-  summary: >-
-    <p>The version ID.</p>
-
-    <p></p>
+  summary: "<p>The version ID.</p>\r\n<p></p>"
   syntax:
     content: public WithIntentId withVersionId(String versionId)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithAppId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAppId
   type: Interface
-  summary: <p>The stage of the definition to be specify appId. </p>
+  summary: "<p>The stage of the definition to be specify appId. </p>"
   syntax:
     content: public interface WithAppId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId
@@ -154,7 +136,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithVersionId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId
   type: Interface
-  summary: <p>The stage of the definition to be specify versionId. </p>
+  summary: "<p>The stage of the definition to be specify versionId. </p>"
   syntax:
     content: public interface WithVersionId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId
@@ -164,7 +146,7 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithIntentId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId
   type: Interface
-  summary: <p>The stage of the definition to be specify intentId. </p>
+  summary: "<p>The stage of the definition to be specify intentId. </p>"
   syntax:
     content: public interface WithIntentId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute
@@ -174,6 +156,6 @@ references:
   nameWithType: Models.ModelsDeleteIntentDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

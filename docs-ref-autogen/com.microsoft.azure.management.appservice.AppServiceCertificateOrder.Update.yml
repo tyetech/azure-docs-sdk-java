@@ -35,10 +35,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -51,10 +48,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -67,10 +61,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -99,7 +90,7 @@ references:
   nameWithType: AppServiceCertificateOrder.UpdateStages.WithAutoRenew.withAutoRenew(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.UpdateStages.WithAutoRenew.withAutoRenew(boolean enabled)
   type: Method
-  summary: <p>Specifies if the certificate should be auto-renewed. </p>
+  summary: "<p>Specifies if the certificate should be auto-renewed. </p>"
   syntax:
     content: public Update withAutoRenew(boolean enabled)
     parameters:
@@ -116,10 +107,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -133,6 +121,6 @@ references:
   nameWithType: AppServiceCertificateOrder.UpdateStages.WithAutoRenew
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.UpdateStages.WithAutoRenew
   type: Interface
-  summary: <p>An app service certificate order definition allowing auto-renew settings to be set. </p>
+  summary: "<p>An app service certificate order definition allowing auto-renew settings to be set. </p>"
   syntax:
     content: public interface WithAutoRenew

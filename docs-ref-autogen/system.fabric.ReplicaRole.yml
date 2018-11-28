@@ -187,12 +187,7 @@ references:
   nameWithType: StatefulServiceReplica.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   fullName: system.fabric.StatefulServiceReplica.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Changes the role of a Primary or Secondary replica.</p>
-
-    <p>
-
-      <b>Remarks:</b>The new role is indicated as a parameter. When the service transitions to the new role, the service has a chance to update its current listening address. The listening address is the address where clients connect to it. This enables the service when it is a Primary replica to only claim some resources such as ports when communication from clients is expected. </p>
+  summary: "<p>Changes the role of a Primary or Secondary replica.</p>\r\n<p>\r\n  <b>Remarks:</b>The new role is indicated as a parameter. When the service transitions to the new role, the service has a chance to update its current listening address. The listening address is the address where clients connect to it. This enables the service when it is a Primary replica to only claim some resources such as ports when communication from clients is expected. </p>"
   syntax:
     content: public CompletableFuture<String> changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
@@ -215,10 +210,5 @@ references:
   nameWithType: ReplicaRole
   fullName: system.fabric.ReplicaRole
   type: Enum
-  summary: >-
-    <p>Indicates the role of a stateful service replica. </p>
-
-    <p>
-
-      <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>
+  summary: "<p>Indicates the role of a stateful service replica. </p>\r\n<p>\r\n  <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>"
   syntax: *o1

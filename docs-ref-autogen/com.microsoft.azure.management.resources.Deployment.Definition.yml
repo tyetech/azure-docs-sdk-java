@@ -58,10 +58,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -74,10 +71,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -94,10 +88,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -134,7 +125,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(String groupName)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(String groupName)
     parameters:
@@ -151,7 +142,7 @@ references:
   nameWithType: GroupableResource.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   fullName: T com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager, InnerT>.DefinitionStages.WithExistingResourceGroup<T>.withExistingResourceGroup(ResourceGroup group)
   type: Method
-  summary: <p>Associates the resource with an existing resource group. </p>
+  summary: "<p>Associates the resource with an existing resource group. </p>"
   syntax:
     content: public T withExistingResourceGroup(ResourceGroup group)
     parameters:
@@ -168,10 +159,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithMode.withMode(DeploymentMode mode)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithMode.withMode(DeploymentMode mode)
   type: Method
-  summary: >-
-    <p>Specifies the deployment mode.</p>
-
-    <p></p>
+  summary: "<p>Specifies the deployment mode.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMode(DeploymentMode mode)
     parameters:
@@ -188,7 +176,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithGroup.withNewResourceGroup(String name, Region region)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithGroup.withNewResourceGroup(String name, Region region)
   type: Method
-  summary: <p>Creates a new resource group to put the deployment in. </p>
+  summary: "<p>Creates a new resource group to put the deployment in. </p>"
   syntax:
     content: public WithTemplate withNewResourceGroup(String name, Region region)
     parameters:
@@ -208,7 +196,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithGroup.withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithGroup.withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
   type: Method
-  summary: <p>Creates a new resource group to put the resource in, based on the definition specified. </p>
+  summary: "<p>Creates a new resource group to put the resource in, based on the definition specified. </p>"
   syntax:
     content: public WithTemplate withNewResourceGroup(Creatable<ResourceGroup> groupDefinition)
     parameters:
@@ -225,10 +213,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithParameters.withParameters(Object parameters)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters.withParameters(Object parameters)
   type: Method
-  summary: >-
-    <p>Specifies the parameters as a Java object.</p>
-
-    <p></p>
+  summary: "<p>Specifies the parameters as a Java object.</p>\r\n<p></p>"
   syntax:
     content: public WithMode withParameters(Object parameters)
     parameters:
@@ -245,7 +230,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithParameters.withParameters(String parametersJson)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters.withParameters(String parametersJson)
   type: Method
-  summary: <p>Specifies the parameters as a JSON string. </p>
+  summary: "<p>Specifies the parameters as a JSON string. </p>"
   syntax:
     content: public WithMode withParameters(String parametersJson)
     parameters:
@@ -262,10 +247,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithParameters.withParametersLink(String uri, String contentVersion)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters.withParametersLink(String uri, String contentVersion)
   type: Method
-  summary: >-
-    <p>Specifies the parameters as a URL.</p>
-
-    <p></p>
+  summary: "<p>Specifies the parameters as a URL.</p>\r\n<p></p>"
   syntax:
     content: public WithMode withParametersLink(String uri, String contentVersion)
     parameters:
@@ -285,10 +267,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithTemplate.withTemplate(Object template)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate.withTemplate(Object template)
   type: Method
-  summary: >-
-    <p>Specifies the template as a Java object.</p>
-
-    <p></p>
+  summary: "<p>Specifies the template as a Java object.</p>\r\n<p></p>"
   syntax:
     content: public WithParameters withTemplate(Object template)
     parameters:
@@ -305,10 +284,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithTemplate.withTemplate(String templateJson)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate.withTemplate(String templateJson)
   type: Method
-  summary: >-
-    <p>Specifies the template as a JSON string.</p>
-
-    <p></p>
+  summary: "<p>Specifies the template as a JSON string.</p>\r\n<p></p>"
   syntax:
     content: public WithParameters withTemplate(String templateJson)
     parameters:
@@ -325,10 +301,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithTemplate.withTemplateLink(String uri, String contentVersion)
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate.withTemplateLink(String uri, String contentVersion)
   type: Method
-  summary: >-
-    <p>Specifies the template as a URL.</p>
-
-    <p></p>
+  summary: "<p>Specifies the template as a URL.</p>\r\n<p></p>"
   syntax:
     content: public WithParameters withTemplateLink(String uri, String contentVersion)
     parameters:
@@ -348,7 +321,7 @@ references:
   nameWithType: Deployment.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of deployment definition. </p>
+  summary: "<p>The first stage of deployment definition. </p>"
   syntax:
     content: public interface Blank extends Deployment.DefinitionStages.WithGroup
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithGroup
@@ -358,7 +331,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>A deployment definition allowing resource group to be specified. </p>
+  summary: "<p>A deployment definition allowing resource group to be specified. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
@@ -368,7 +341,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithTemplate
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
   type: Interface
-  summary: <p>A deployment definition allowing the template to be specified. </p>
+  summary: "<p>A deployment definition allowing the template to be specified. </p>"
   syntax:
     content: public interface WithTemplate
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
@@ -378,7 +351,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithParameters
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
   type: Interface
-  summary: <p>A deployment definition allowing the parameters to be specified. </p>
+  summary: "<p>A deployment definition allowing the parameters to be specified. </p>"
   syntax:
     content: public interface WithParameters
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithMode
@@ -388,7 +361,7 @@ references:
   nameWithType: Deployment.DefinitionStages.WithMode
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithMode
   type: Interface
-  summary: <p>A deployment definition allowing the deployment mode to be specified. </p>
+  summary: "<p>A deployment definition allowing the deployment mode to be specified. </p>"
   syntax:
     content: public interface WithMode
 - uid: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
@@ -398,6 +371,6 @@ references:
   nameWithType: Deployment.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A deployment definition with sufficient inputs to create a new deployment in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

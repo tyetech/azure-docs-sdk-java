@@ -93,10 +93,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.create(Creatable<ResourceT>... creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.create(Creatable<ResourceT>... creatables)
   type: Method
-  summary: >-
-    <p>Executes the create requests on a collection (batch) of resources.</p>
-
-    <p></p>
+  summary: "<p>Executes the create requests on a collection (batch) of resources.</p>\r\n<p></p>"
   syntax:
     content: public CreatedResources<ResourceT> create(Creatable<ResourceT>... creatables)
     parameters:
@@ -113,10 +110,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.create(List<Creatable<ResourceT>> creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.create(List<Creatable<ResourceT>> creatables)
   type: Method
-  summary: >-
-    <p>Executes the create requests on a collection (batch) of resources.</p>
-
-    <p></p>
+  summary: "<p>Executes the create requests on a collection (batch) of resources.</p>\r\n<p></p>"
   syntax:
     content: public CreatedResources<ResourceT> create(List<Creatable<ResourceT>> creatables)
     parameters:
@@ -133,10 +127,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(Creatable<ResourceT>... creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(Creatable<ResourceT>... creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync(Creatable<ResourceT>... creatables)
     parameters:
@@ -153,10 +144,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(List<Creatable<ResourceT>> creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(List<Creatable<ResourceT>> creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync(List<Creatable<ResourceT>> creatables)
     parameters:
@@ -173,10 +161,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(ServiceCallback<CreatedResources<ResourceT>> callback, Creatable<ResourceT>... creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(ServiceCallback<CreatedResources<ResourceT>> callback, Creatable<ResourceT>... creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<CreatedResources<ResourceT>> createAsync(ServiceCallback<CreatedResources<ResourceT>> callback, Creatable<ResourceT>... creatables)
     parameters:
@@ -196,10 +181,7 @@ references:
   nameWithType: SupportsBatchCreation<ResourceT>.createAsync(final ServiceCallback<CreatedResources<ResourceT>> callback, List<Creatable<ResourceT>> creatables)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsBatchCreation<ResourceT extends Indexable>.createAsync(final ServiceCallback<CreatedResources<ResourceT>> callback, List<Creatable<ResourceT>> creatables)
   type: Method
-  summary: >-
-    <p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the requests to create a batch of resources into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<CreatedResources<ResourceT>> createAsync(final ServiceCallback<CreatedResources<ResourceT>> callback, List<Creatable<ResourceT>> creatables)
     parameters:
@@ -219,10 +201,7 @@ references:
   nameWithType: SupportsDeletingById.deleteById(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingById.deleteById(String id)
   type: Method
-  summary: >-
-    <p>Deletes a resource from Azure, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Deletes a resource from Azure, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public void deleteById(String id)
     parameters:
@@ -236,10 +215,7 @@ references:
   nameWithType: SupportsDeletingById.deleteByIdAsync(String id, ServiceCallback<Void> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingById.deleteByIdAsync(String id, ServiceCallback<Void> callback)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<Void> deleteByIdAsync(String id, ServiceCallback<Void> callback)
     parameters:
@@ -259,10 +235,7 @@ references:
   nameWithType: SupportsDeletingById.deleteByIdAsync(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingById.deleteByIdAsync(String id)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its resource ID.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteByIdAsync(String id)
     parameters:
@@ -279,10 +252,7 @@ references:
   nameWithType: SupportsDeletingByParent.deleteByParent(String groupName, String parentName, String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsDeletingByParent.deleteByParent(String groupName, String parentName, String name)
   type: Method
-  summary: >-
-    <p>Deletes a resource from Azure, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Deletes a resource from Azure, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public void deleteByParent(String groupName, String parentName, String name)
     parameters:
@@ -302,10 +272,7 @@ references:
   nameWithType: SupportsDeletingByParent.deleteByParentAsync(String groupName, String parentName, String name, ServiceCallback<Void> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsDeletingByParent.deleteByParentAsync(String groupName, String parentName, String name, ServiceCallback<Void> callback)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<Void> deleteByParentAsync(String groupName, String parentName, String name, ServiceCallback<Void> callback)
     parameters:
@@ -331,10 +298,7 @@ references:
   nameWithType: SupportsDeletingByParent.deleteByParentAsync(String groupName, String parentName, String name)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsDeletingByParent.deleteByParentAsync(String groupName, String parentName, String name)
   type: Method
-  summary: >-
-    <p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously delete a resource from Azure, identifying it by its name and its resource group.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteByParentAsync(String groupName, String parentName, String name)
     parameters:
@@ -357,10 +321,7 @@ references:
   nameWithType: SupportsGettingById<T>.getById(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>.getById(String id)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource id.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource id.</p>\r\n<p></p>"
   syntax:
     content: public T getById(String id)
     parameters:
@@ -377,10 +338,7 @@ references:
   nameWithType: SupportsGettingById<T>.getByIdAsync(String id)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>.getByIdAsync(String id)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource id.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource id.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> getByIdAsync(String id)
     parameters:
@@ -397,10 +355,7 @@ references:
   nameWithType: SupportsGettingById<T>.getByIdAsync(String id, ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingById<T>.getByIdAsync(String id, ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Gets the information about a resource from Azure based on the resource id.</p>
-
-    <p></p>
+  summary: "<p>Gets the information about a resource from Azure based on the resource id.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> getByIdAsync(String id, ServiceCallback<T> callback)
     parameters:
@@ -420,10 +375,7 @@ references:
   nameWithType: SqlFirewallRules.getBySqlServer(String resourceGroup, String sqlServerName, String name)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRules.getBySqlServer(String resourceGroup, String sqlServerName, String name)
   type: Method
-  summary: >-
-    <p>Gets the SQLDatabase based on the resource group name, SQLServer name and FirewallRule name.</p>
-
-    <p></p>
+  summary: "<p>Gets the SQLDatabase based on the resource group name, SQLServer name and FirewallRule name.</p>\r\n<p></p>"
   syntax:
     content: public SqlFirewallRule getBySqlServer(String resourceGroup, String sqlServerName, String name)
     parameters:
@@ -446,10 +398,7 @@ references:
   nameWithType: SqlFirewallRules.getBySqlServer(SqlServer sqlServer, String name)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRules.getBySqlServer(SqlServer sqlServer, String name)
   type: Method
-  summary: >-
-    <p>Gets the SQLDatabase based on the SQLServer instance and FirewallRule name.</p>
-
-    <p></p>
+  summary: "<p>Gets the SQLDatabase based on the SQLServer instance and FirewallRule name.</p>\r\n<p></p>"
   syntax:
     content: public SqlFirewallRule getBySqlServer(SqlServer sqlServer, String name)
     parameters:
@@ -481,10 +430,7 @@ references:
   nameWithType: SqlFirewallRules.listBySqlServer(String resourceGroupName, String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRules.listBySqlServer(String resourceGroupName, String sqlServerName)
   type: Method
-  summary: >-
-    <p>Lists resources of the specified type in the specified resource group and SQLServer.</p>
-
-    <p></p>
+  summary: "<p>Lists resources of the specified type in the specified resource group and SQLServer.</p>\r\n<p></p>"
   syntax:
     content: public List<SqlFirewallRule> listBySqlServer(String resourceGroupName, String sqlServerName)
     parameters:
@@ -504,10 +450,7 @@ references:
   nameWithType: SqlFirewallRules.listBySqlServer(SqlServer sqlServer)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRules.listBySqlServer(SqlServer sqlServer)
   type: Method
-  summary: >-
-    <p>Gets the SQLDatabase based on the SQLServer.</p>
-
-    <p></p>
+  summary: "<p>Gets the SQLDatabase based on the SQLServer.</p>\r\n<p></p>"
   syntax:
     content: public List<SqlFirewallRule> listBySqlServer(SqlServer sqlServer)
     parameters:
@@ -536,6 +479,6 @@ references:
   nameWithType: SqlFirewallRules
   fullName: com.microsoft.azure.management.sql.SqlFirewallRules
   type: Interface
-  summary: <p>Entry point to SQL FirewallRule management API. </p>
+  summary: "<p>Entry point to SQL FirewallRule management API. </p>"
   syntax:
     content: public interface SqlFirewallRules extends SupportsDeletingById,SupportsGettingById<SqlFirewallRule>,SupportsBatchCreation<SqlFirewallRule>,SupportsDeletingByParent,HasManager<SqlServerManager>,HasInner<ServersInner>

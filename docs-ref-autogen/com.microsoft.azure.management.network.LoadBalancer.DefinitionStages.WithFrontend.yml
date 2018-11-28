@@ -32,10 +32,7 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithPrivateFrontend.definePrivateFrontend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithPrivateFrontend.definePrivateFrontend(String name)
   type: Method
-  summary: >-
-    <p>Begins an explicit definition of a new private (internal) load balancer frontend. </p>
-
-    <p>(Note that private frontends can also be created implicitly as part of a load balancing rule, inbound NAT rule or inbound NAT pool definition, by referencing an existing subnet within those definitions.) </p>
+  summary: "<p>Begins an explicit definition of a new private (internal) load balancer frontend. </p>\r\n<p>(Note that private frontends can also be created implicitly as part of a load balancing rule, inbound NAT rule or inbound NAT pool definition, by referencing an existing subnet within those definitions.) </p>"
   syntax:
     content: public LoadBalancerPrivateFrontend.DefinitionStages.Blank<WithCreate> definePrivateFrontend(String name)
     parameters:
@@ -52,10 +49,7 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithPublicFrontend.definePublicFrontend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithPublicFrontend.definePublicFrontend(String name)
   type: Method
-  summary: >-
-    <p>Begins an explicit definition of a new public (Internet-facing) load balancer frontend. </p>
-
-    <p>(Note that frontends can also be created implicitly as part of a load balancing rule, inbound NAT rule or inbound NAT pool definition, by referencing an existing public IP address within those definitions.) </p>
+  summary: "<p>Begins an explicit definition of a new public (Internet-facing) load balancer frontend. </p>\r\n<p>(Note that frontends can also be created implicitly as part of a load balancing rule, inbound NAT rule or inbound NAT pool definition, by referencing an existing public IP address within those definitions.) </p>"
   syntax:
     content: public LoadBalancerPublicFrontend.DefinitionStages.Blank<WithCreate> definePublicFrontend(String name)
     parameters:
@@ -72,7 +66,7 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithPublicFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithPublicFrontend
   type: Interface
-  summary: <p>The stage of an Internet-facing load balancer definition allowing to define one or more public frontends. </p>
+  summary: "<p>The stage of an Internet-facing load balancer definition allowing to define one or more public frontends. </p>"
   syntax:
     content: public interface WithPublicFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithPrivateFrontend
@@ -82,7 +76,7 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithPrivateFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithPrivateFrontend
   type: Interface
-  summary: <p>The stage of an internal load balancer definition allowing to define one or more private frontends. </p>
+  summary: "<p>The stage of an internal load balancer definition allowing to define one or more private frontends. </p>"
   syntax:
     content: public interface WithPrivateFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreate
@@ -92,6 +86,6 @@ references:
   nameWithType: LoadBalancer.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.LoadBalancer.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of a load balancer definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>
+  summary: "<p>The stage of a load balancer definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<LoadBalancer>,Resource.DefinitionWithTags<WithCreate>,LoadBalancer.DefinitionStages.WithBackend,LoadBalancer.DefinitionStages.WithFrontend,LoadBalancer.DefinitionStages.WithProbe,LoadBalancer.DefinitionStages.WithSku

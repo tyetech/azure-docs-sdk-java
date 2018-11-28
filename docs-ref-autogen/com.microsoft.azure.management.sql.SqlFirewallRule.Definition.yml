@@ -37,10 +37,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -53,10 +50,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -73,10 +67,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -113,10 +104,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>.withIPAddress(String ipAddress)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>.withIPAddress(String ipAddress)
   type: Method
-  summary: >-
-    <p>Sets the ending IP address of SQL server's Firewall Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the ending IP address of SQL server's Firewall Rule.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withIPAddress(String ipAddress)
     parameters:
@@ -133,10 +121,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>.withIPAddressRange(String startIPAddress, String endIPAddress)
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>.withIPAddressRange(String startIPAddress, String endIPAddress)
   type: Method
-  summary: >-
-    <p>Sets the starting IP address of SQL server's Firewall Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the starting IP address of SQL server's Firewall Rule.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withIPAddressRange(String startIPAddress, String endIPAddress)
     parameters:
@@ -156,12 +141,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the SQL Server Firewall Rule definition.</p>
-
-    <p>
-
-    The first stage of the SQL Server definition. </p>
+  summary: "<p>The first stage of the SQL Server Firewall Rule definition.</p>\r\n<p>\r\nThe first stage of the SQL Server definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>,SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>
     typeParameters:
@@ -175,10 +155,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddress<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Firewall Rule definition to set the IP address for the parent SQL Server.</p>
-
-    <p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>
+  summary: "<p>The SQL Firewall Rule definition to set the IP address for the parent SQL Server.</p>\r\n<p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>"
   syntax:
     content: public interface WithIPAddress<ParentT>
     typeParameters:
@@ -191,10 +168,7 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithIPAddressRange<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Firewall Rule definition to set the IP address range for the parent SQL Server.</p>
-
-    <p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>
+  summary: "<p>The SQL Firewall Rule definition to set the IP address range for the parent SQL Server.</p>\r\n<p>The SQL Firewall Rule definition to set the starting IP Address for the server. </p>"
   syntax:
     content: public interface WithIPAddressRange<ParentT>
     typeParameters:
@@ -207,6 +181,6 @@ references:
   nameWithType: SqlFirewallRule.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

@@ -240,7 +240,7 @@ references:
   nameWithType: PartitionResolver
   fullName: com.microsoft.azure.documentdb.PartitionResolver
   type: Interface
-  summary: <p>This is an interface to be implemented for partitioning scenarios and register it at the document client level in the Azure Cosmos DB database service. </p>
+  summary: "<p>This is an interface to be implemented for partitioning scenarios and register it at the document client level in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public interface PartitionResolver
 - uid: com.microsoft.azure.documentdb.PartitionKeyExtractor
@@ -250,7 +250,7 @@ references:
   nameWithType: PartitionKeyExtractor
   fullName: com.microsoft.azure.documentdb.PartitionKeyExtractor
   type: Interface
-  summary: <p>PartitionKeyExtractor interface is used for getting the partition key from a document in the Azure Cosmos DB database service. </p>
+  summary: "<p>PartitionKeyExtractor interface is used for getting the partition key from a document in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public interface PartitionKeyExtractor
 - uid: com.microsoft.azure.documentdb.HashGenerator
@@ -260,7 +260,7 @@ references:
   nameWithType: HashGenerator
   fullName: com.microsoft.azure.documentdb.HashGenerator
   type: Interface
-  summary: <p>HashGenerator interface to be implemented for computing the hash used in the hashing algorithm for the Azure Cosmos DB database service. </p>
+  summary: "<p>HashGenerator interface to be implemented for computing the hash used in the hashing algorithm for the Azure Cosmos DB database service. </p>"
   syntax:
     content: public interface HashGenerator
 - uid: com.microsoft.azure.documentdb.PartitionResolver.resolveForCreate(Object)
@@ -270,10 +270,7 @@ references:
   nameWithType: PartitionResolver.resolveForCreate(Object document)
   fullName: com.microsoft.azure.documentdb.PartitionResolver.resolveForCreate(Object document)
   type: Method
-  summary: >-
-    <p>Gets the collection Self Link or ID based link on which create operation should be directed</p>
-
-    <p></p>
+  summary: "<p>Gets the collection Self Link or ID based link on which create operation should be directed</p>\r\n<p></p>"
   syntax:
     content: public String resolveForCreate(Object document)
     parameters:
@@ -290,10 +287,7 @@ references:
   nameWithType: PartitionResolver.resolveForRead(Object partitionKey)
   fullName: com.microsoft.azure.documentdb.PartitionResolver.resolveForRead(Object partitionKey)
   type: Method
-  summary: >-
-    <p>Gets an iterator of strings representing SelfLink(s) or ID based link(s) on which read/query operation should be directed</p>
-
-    <p></p>
+  summary: "<p>Gets an iterator of strings representing SelfLink(s) or ID based link(s) on which read/query operation should be directed</p>\r\n<p></p>"
   syntax:
     content: public Iterable<String> resolveForRead(Object partitionKey)
     parameters:

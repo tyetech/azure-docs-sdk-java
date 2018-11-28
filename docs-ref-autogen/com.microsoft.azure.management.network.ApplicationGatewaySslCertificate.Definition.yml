@@ -42,7 +42,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -55,7 +55,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromBytes(byte[] pfxData)
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromBytes(byte[] pfxData)
   type: Method
-  summary: <p>Specifies the contents of the private key in the PFX (PKCS#12) format, not base64-encoded. </p>
+  summary: "<p>Specifies the contents of the private key in the PFX (PKCS#12) format, not base64-encoded. </p>"
   syntax:
     content: public WithPassword<ParentT> withPfxFromBytes(byte[] pfxData)
     parameters:
@@ -72,7 +72,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromFile(File pfxFile)
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>.withPfxFromFile(File pfxFile)
   type: Method
-  summary: <p>Specifies the PFX (PKCS#12) file to get the private key content from. </p>
+  summary: "<p>Specifies the PFX (PKCS#12) file to get the private key content from. </p>"
   syntax:
     content: public WithPassword<ParentT> withPfxFromFile(File pfxFile)
     parameters:
@@ -89,7 +89,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithPassword<ParentT>.withPfxPassword(String password)
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithPassword<ParentT>.withPfxPassword(String password)
   type: Method
-  summary: <p>Specifies the password currently used to protect the provided PFX content of the SSL certificate. </p>
+  summary: "<p>Specifies the password currently used to protect the provided PFX content of the SSL certificate. </p>"
   syntax:
     content: public WithAttach<ParentT> withPfxPassword(String password)
     parameters:
@@ -106,7 +106,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway SSL certificate. </p>
+  summary: "<p>The first stage of an application gateway SSL certificate. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>
     typeParameters:
@@ -120,10 +120,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway SSL certificate definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway SSL certificate definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -137,7 +134,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>
   type: Interface
-  summary: <p>The stage of an SSL certificate definition allowing to specify the contents of the SSL certificate. </p>
+  summary: "<p>The stage of an SSL certificate definition allowing to specify the contents of the SSL certificate. </p>"
   syntax:
     content: public interface WithData<ParentT>
     typeParameters:
@@ -151,7 +148,7 @@ references:
   nameWithType: ApplicationGatewaySslCertificate.DefinitionStages.WithPassword<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewaySslCertificate.DefinitionStages.WithPassword<ParentT>
   type: Interface
-  summary: <p>The stage of an SSL certificate definition allowing to specify the password for the private key (PFX) content of the certificate. </p>
+  summary: "<p>The stage of an SSL certificate definition allowing to specify the password for the private key (PFX) content of the certificate. </p>"
   syntax:
     content: public interface WithPassword<ParentT>
     typeParameters:

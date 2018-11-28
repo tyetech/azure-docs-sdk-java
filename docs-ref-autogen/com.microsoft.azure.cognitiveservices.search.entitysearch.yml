@@ -35,7 +35,7 @@ references:
   nameWithType: com.microsoft.azure.cognitiveservices.search.entitysearch.models
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.models
   type: Namespace
-  summary: <p>This package contains the models classes for BingEntitySearchAPI. The Entity Search API lets you send a search query to Bing and get back search results that include entities and places. Place results include restaurants, hotel, or other local businesses. For places, the query can specify the name of the local business or it can ask for a list (for example, restaurants near me). Entity results include persons, places, or things. Place in this context is tourist attractions, states, countries, etc. </p>
+  summary: "<p>This package contains the models classes for BingEntitySearchAPI. The Entity Search API lets you send a search query to Bing and get back search results that include entities and places. Place results include restaurants, hotel, or other local businesses. For places, the query can specify the name of the local business or it can ask for a list (for example, restaurants near me). Entity results include persons, places, or things. Place in this context is tourist attractions, states, countries, etc. </p>"
   syntax:
     content: package com.microsoft.azure.cognitiveservices.search.entitysearch.models
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities
@@ -45,7 +45,7 @@ references:
   nameWithType: BingEntities
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities
   type: Interface
-  summary: <p>An instance of this class provides access to all the operations defined in BingEntities. </p>
+  summary: "<p>An instance of this class provides access to all the operations defined in BingEntities. </p>"
   syntax:
     content: public interface BingEntities
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI
@@ -55,7 +55,7 @@ references:
   nameWithType: BingEntitySearchAPI
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchAPI
   type: Interface
-  summary: <p>The interface for BingEntitySearchAPI class. </p>
+  summary: "<p>The interface for BingEntitySearchAPI class. </p>"
   syntax:
     content: public interface BingEntitySearchAPI
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager
@@ -65,7 +65,7 @@ references:
   nameWithType: BingEntitySearchManager
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntitySearchManager
   type: Class
-  summary: <p>Entry point to Azure Cognitive Services Bing Entity Search manager. </p>
+  summary: "<p>Entry point to Azure Cognitive Services Bing Entity Search manager. </p>"
   syntax:
     content: public class BingEntitySearchManager
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinition
@@ -75,7 +75,7 @@ references:
   nameWithType: BingEntities.BingEntitiesSearchDefinition
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinition
   type: Interface
-  summary: <p>The entirety of search definition. </p>
+  summary: "<p>The entirety of search definition. </p>"
   syntax:
     content: public interface BingEntitiesSearchDefinition extends BingEntities.BingEntitiesSearchDefinitionStages.WithQuery,BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages
@@ -85,7 +85,7 @@ references:
   nameWithType: BingEntities.BingEntitiesSearchDefinitionStages
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages
   type: Interface
-  summary: <p>Grouping of search definition stages. </p>
+  summary: "<p>Grouping of search definition stages. </p>"
   syntax:
     content: public interface BingEntitiesSearchDefinitionStages
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions
@@ -95,7 +95,7 @@ references:
   nameWithType: BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
@@ -105,7 +105,7 @@ references:
   nameWithType: BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute extends BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithQuery
@@ -115,6 +115,6 @@ references:
   nameWithType: BingEntities.BingEntitiesSearchDefinitionStages.WithQuery
   fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithQuery
   type: Interface
-  summary: <p>The stage of the definition to be specify query. </p>
+  summary: "<p>The stage of the definition to be specify query. </p>"
   syntax:
     content: public interface WithQuery

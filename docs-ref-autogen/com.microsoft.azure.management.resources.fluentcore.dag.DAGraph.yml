@@ -409,10 +409,7 @@ references:
   nameWithType: Graph<DataT,NodeT,NodeT>.addNode(NodeT node)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.Graph<DataT, NodeT extends Node<DataT, NodeT>.addNode(NodeT node)
   type: Method
-  summary: >-
-    <p>Adds a node to this graph.</p>
-
-    <p></p>
+  summary: "<p>Adds a node to this graph.</p>\r\n<p></p>"
   syntax:
     content: public void addNode(NodeT node)
     parameters:
@@ -454,7 +451,7 @@ references:
   nameWithType: Graph<DataT,NodeT,NodeT>.graph
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.Graph<DataT, NodeT extends Node<DataT, NodeT>.graph
   type: Field
-  summary: <p>the underlying graph. </p>
+  summary: "<p>the underlying graph. </p>"
   syntax:
     content: protected Map<String, NodeT> graph
     return:
@@ -466,7 +463,7 @@ references:
   nameWithType: Graph<DataT,NodeT,NodeT>.Graph()
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.Graph<DataT, NodeT extends Node<DataT, NodeT>.Graph()
   type: Constructor
-  summary: <p>Creates a directed graph. </p>
+  summary: "<p>Creates a directed graph. </p>"
   syntax:
     content: public Graph()
 - uid: com.microsoft.azure.management.resources.fluentcore.dag.Graph.visit(Visitor)
@@ -476,12 +473,7 @@ references:
   nameWithType: Graph<DataT,NodeT,NodeT>.visit(Visitor visitor)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.Graph<DataT, NodeT extends Node<DataT, NodeT>.visit(Visitor visitor)
   type: Method
-  summary: >-
-    <p>Perform DFS visit in this graph. </p>
-
-    <p>The directed graph will be traversed in DFS order and the visitor will be notified as search explores each node and edge.</p>
-
-    <p></p>
+  summary: "<p>Perform DFS visit in this graph. </p>\r\n<p>The directed graph will be traversed in DFS order and the visitor will be notified as search explores each node and edge.</p>\r\n<p></p>"
   syntax:
     content: public void visit(Visitor visitor)
     parameters:
@@ -495,12 +487,7 @@ references:
   nameWithType: Graph<DataT,NodeT,NodeT>
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.Graph<DataT,NodeT,NodeT>
   type: Class
-  summary: >-
-    <p>Type representing a directed graph data structure. </p>
-
-    <p>Each node in a graph is represented by <xref uid="com.microsoft.azure.management.resources.fluentcore.dag.Node" data-throw-if-not-resolved="false">Node</xref></p>
-
-    <p></p>
+  summary: "<p>Type representing a directed graph data structure. </p>\r\n<p>Each node in a graph is represented by <xref uid=\"com.microsoft.azure.management.resources.fluentcore.dag.Node\" data-throw-if-not-resolved=\"false\">Node</xref></p>\r\n<p></p>"
   syntax:
     content: public class Graph<DataT,NodeT extends Node<DataT,NodeT>>
     typeParameters:
@@ -520,10 +507,7 @@ references:
   nameWithType: DAGNode<DataT,NodeT,NodeT>
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGNode<DataT,NodeT,NodeT>
   type: Class
-  summary: >-
-    <p>The type representing node in a <xref uid="com.microsoft.azure.management.resources.fluentcore.dag.DAGraph" data-throw-if-not-resolved="false">DAGraph</xref>.</p>
-
-    <p></p>
+  summary: "<p>The type representing node in a <xref uid=\"com.microsoft.azure.management.resources.fluentcore.dag.DAGraph\" data-throw-if-not-resolved=\"false\">DAGraph</xref>.</p>\r\n<p></p>"
   syntax:
     content: public class DAGNode<DataT,NodeT extends DAGNode<DataT,NodeT>> extends Node<DataT, NodeT>
     typeParameters:
@@ -543,10 +527,5 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT,NodeT,NodeT>
   type: Class
-  summary: >-
-    <p>Type representing a DAG (directed acyclic graph). </p>
-
-    <p>each node in a DAG is represented by <xref uid="com.microsoft.azure.management.resources.fluentcore.dag.DAGNode" data-throw-if-not-resolved="false">DAGNode</xref></p>
-
-    <p></p>
+  summary: "<p>Type representing a DAG (directed acyclic graph). </p>\r\n<p>each node in a DAG is represented by <xref uid=\"com.microsoft.azure.management.resources.fluentcore.dag.DAGNode\" data-throw-if-not-resolved=\"false\">DAGNode</xref></p>\r\n<p></p>"
   syntax: *o1

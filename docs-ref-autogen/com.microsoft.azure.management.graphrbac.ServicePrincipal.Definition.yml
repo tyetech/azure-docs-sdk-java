@@ -44,10 +44,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -60,10 +57,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -80,10 +74,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -96,7 +87,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithCredential.defineCertificateCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithCredential.defineCertificateCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a certificate credential. </p>
+  summary: "<p>Starts the definition of a certificate credential. </p>"
   syntax:
     content: public CertificateCredential.DefinitionStages.Blank<WithCreate> defineCertificateCredential(String name)
     parameters:
@@ -113,7 +104,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithCredential.definePasswordCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithCredential.definePasswordCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a password credential. </p>
+  summary: "<p>Starts the definition of a password credential. </p>"
   syntax:
     content: public PasswordCredential.DefinitionStages.Blank<WithCreate> definePasswordCredential(String name)
     parameters:
@@ -154,7 +145,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(String id)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(String id)
   type: Method
-  summary: <p>Specifies an existing application by its app ID. </p>
+  summary: "<p>Specifies an existing application by its app ID. </p>"
   syntax:
     content: public WithCreate withExistingApplication(String id)
     parameters:
@@ -171,7 +162,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(ActiveDirectoryApplication application)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(ActiveDirectoryApplication application)
   type: Method
-  summary: <p>Specifies an existing application to use by the service principal. </p>
+  summary: "<p>Specifies an existing application to use by the service principal. </p>"
   syntax:
     content: public WithCreate withExistingApplication(ActiveDirectoryApplication application)
     parameters:
@@ -188,7 +179,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(Creatable<ActiveDirectoryApplication> applicationCreatable)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(Creatable<ActiveDirectoryApplication> applicationCreatable)
   type: Method
-  summary: <p>Specifies a new application to create and use by the service principal. </p>
+  summary: "<p>Specifies a new application to create and use by the service principal. </p>"
   syntax:
     content: public WithCreate withNewApplication(Creatable<ActiveDirectoryApplication> applicationCreatable)
     parameters:
@@ -205,7 +196,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(String signOnUrl)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(String signOnUrl)
   type: Method
-  summary: <p>Specifies a new application to create and use by the service principal. </p>
+  summary: "<p>Specifies a new application to create and use by the service principal. </p>"
   syntax:
     content: public WithCreate withNewApplication(String signOnUrl)
     parameters:
@@ -222,7 +213,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithRoleAssignment.withNewRole(BuiltInRole role, String scope)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithRoleAssignment.withNewRole(BuiltInRole role, String scope)
   type: Method
-  summary: <p>Assigns a new role to the service principal. </p>
+  summary: "<p>Assigns a new role to the service principal. </p>"
   syntax:
     content: public WithCreate withNewRole(BuiltInRole role, String scope)
     parameters:
@@ -242,7 +233,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithRoleAssignment.withNewRoleInResourceGroup(BuiltInRole role, ResourceGroup resourceGroup)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithRoleAssignment.withNewRoleInResourceGroup(BuiltInRole role, ResourceGroup resourceGroup)
   type: Method
-  summary: <p>Assigns a new role to the service principal. </p>
+  summary: "<p>Assigns a new role to the service principal. </p>"
   syntax:
     content: public WithCreate withNewRoleInResourceGroup(BuiltInRole role, ResourceGroup resourceGroup)
     parameters:
@@ -262,7 +253,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithRoleAssignment.withNewRoleInSubscription(BuiltInRole role, String subscriptionId)
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithRoleAssignment.withNewRoleInSubscription(BuiltInRole role, String subscriptionId)
   type: Method
-  summary: <p>Assigns a new role to the service principal. </p>
+  summary: "<p>Assigns a new role to the service principal. </p>"
   syntax:
     content: public WithCreate withNewRoleInSubscription(BuiltInRole role, String subscriptionId)
     parameters:
@@ -282,7 +273,7 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the service principal definition. </p>
+  summary: "<p>The first stage of the service principal definition. </p>"
   syntax:
     content: public interface Blank extends ServicePrincipal.DefinitionStages.WithApplication
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithCreate
@@ -292,6 +283,6 @@ references:
   nameWithType: ServicePrincipal.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A service principal definition with sufficient inputs to create a new service principal in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A service principal definition with sufficient inputs to create a new service principal in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

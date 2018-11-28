@@ -39,10 +39,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>.withValue(String value)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>.withValue(String value)
   type: Method
-  summary: >-
-    <p>Specifies the value of the build argument.</p>
-
-    <p></p>
+  summary: "<p>Specifies the value of the build argument.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT> withValue(String value)
     parameters:
@@ -59,7 +56,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>
   type: Interface
-  summary: <p>The stage of the build argument definition allowing to specify the value of the build argument. </p>
+  summary: "<p>The stage of the build argument definition allowing to specify the value of the build argument. </p>"
   syntax:
     content: public interface WithValue<ParentT>
     typeParameters:
@@ -73,7 +70,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the build argument definition stages. </p>
+  summary: "<p>Grouping of the build argument definition stages. </p>"
   syntax:
     content: public interface BuildArgumentDefinition<ParentT> extends Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
     typeParameters:

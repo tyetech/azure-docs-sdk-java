@@ -59,10 +59,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -75,10 +72,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -91,10 +85,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -111,7 +102,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithBackend.defineBackend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithBackend.defineBackend(String name)
   type: Method
-  summary: <p>Begins the definition of a new backend as part of this load balancer update. </p>
+  summary: "<p>Begins the definition of a new backend as part of this load balancer update. </p>"
   syntax:
     content: public LoadBalancerBackend.UpdateDefinitionStages.Blank<Update> defineBackend(String name)
     parameters:
@@ -128,10 +119,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithProbe.defineHttpProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithProbe.defineHttpProbe(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new HTTP probe to add to the load balancer. </p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">LoadBalancerHttpProbe.DefinitionStages.WithAttach#attach()</xref></p>
+  summary: "<p>Begins the definition of a new HTTP probe to add to the load balancer. </p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">LoadBalancerHttpProbe.DefinitionStages.WithAttach#attach()</xref></p>"
   syntax:
     content: public LoadBalancerHttpProbe.UpdateDefinitionStages.Blank<Update> defineHttpProbe(String name)
     parameters:
@@ -148,7 +136,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatPool.defineInboundNatPool(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatPool.defineInboundNatPool(String name)
   type: Method
-  summary: <p>Begins the definition of a new inbound NAT pool. </p>
+  summary: "<p>Begins the definition of a new inbound NAT pool. </p>"
   syntax:
     content: public LoadBalancerInboundNatPool.UpdateDefinitionStages.Blank<Update> defineInboundNatPool(String name)
     parameters:
@@ -165,10 +153,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatRule.defineInboundNatRule(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatRule.defineInboundNatRule(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new inbound NAT rule. </p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">LoadBalancerInboundNatRule.UpdateDefinitionStages.WithAttach#attach()</xref></p>
+  summary: "<p>Begins the definition of a new inbound NAT rule. </p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">LoadBalancerInboundNatRule.UpdateDefinitionStages.WithAttach#attach()</xref></p>"
   syntax:
     content: public LoadBalancerInboundNatRule.UpdateDefinitionStages.Blank<Update> defineInboundNatRule(String name)
     parameters:
@@ -185,7 +170,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithLoadBalancingRule.defineLoadBalancingRule(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithLoadBalancingRule.defineLoadBalancingRule(String name)
   type: Method
-  summary: <p>Begins the definition of a new load balancing rule to add to the load balancer. </p>
+  summary: "<p>Begins the definition of a new load balancing rule to add to the load balancer. </p>"
   syntax:
     content: public LoadBalancingRule.UpdateDefinitionStages.Blank<Update> defineLoadBalancingRule(String name)
     parameters:
@@ -202,7 +187,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithPrivateFrontend.definePrivateFrontend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPrivateFrontend.definePrivateFrontend(String name)
   type: Method
-  summary: <p>Begins the update of an internal load balancer frontend. </p>
+  summary: "<p>Begins the update of an internal load balancer frontend. </p>"
   syntax:
     content: public LoadBalancerPrivateFrontend.UpdateDefinitionStages.Blank<Update> definePrivateFrontend(String name)
     parameters:
@@ -219,10 +204,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithPublicFrontend.definePublicFrontend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPublicFrontend.definePublicFrontend(String name)
   type: Method
-  summary: >-
-    <p>Begins the update of a load balancer frontend. </p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">LoadBalancerPublicFrontend.UpdateDefinitionStages.WithAttach#attach()</xref></p>
+  summary: "<p>Begins the update of a load balancer frontend. </p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">LoadBalancerPublicFrontend.UpdateDefinitionStages.WithAttach#attach()</xref></p>"
   syntax:
     content: public LoadBalancerPublicFrontend.UpdateDefinitionStages.Blank<Update> definePublicFrontend(String name)
     parameters:
@@ -239,10 +221,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithProbe.defineTcpProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithProbe.defineTcpProbe(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new TCP probe to add to the load balancer. </p>
-
-    <p>The definition must be completed with a call to <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">LoadBalancerHttpProbe.DefinitionStages.WithAttach#attach()</xref></p>
+  summary: "<p>Begins the definition of a new TCP probe to add to the load balancer. </p>\r\n<p>The definition must be completed with a call to <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">LoadBalancerHttpProbe.DefinitionStages.WithAttach#attach()</xref></p>"
   syntax:
     content: public LoadBalancerTcpProbe.UpdateDefinitionStages.Blank<Update> defineTcpProbe(String name)
     parameters:
@@ -271,7 +250,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithBackend.updateBackend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithBackend.updateBackend(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing backend of this load balancer. </p>
+  summary: "<p>Begins the description of an update to an existing backend of this load balancer. </p>"
   syntax:
     content: public LoadBalancerBackend.Update updateBackend(String name)
     parameters:
@@ -288,7 +267,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithProbe.updateHttpProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithProbe.updateHttpProbe(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing HTTP probe on this load balancer. </p>
+  summary: "<p>Begins the description of an update to an existing HTTP probe on this load balancer. </p>"
   syntax:
     content: public LoadBalancerHttpProbe.Update updateHttpProbe(String name)
     parameters:
@@ -305,7 +284,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatPool.updateInboundNatPool(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatPool.updateInboundNatPool(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing inbound NAT pool. </p>
+  summary: "<p>Begins the description of an update to an existing inbound NAT pool. </p>"
   syntax:
     content: public LoadBalancerInboundNatPool.Update updateInboundNatPool(String name)
     parameters:
@@ -322,7 +301,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatRule.updateInboundNatRule(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatRule.updateInboundNatRule(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing inbound NAT rule. </p>
+  summary: "<p>Begins the description of an update to an existing inbound NAT rule. </p>"
   syntax:
     content: public LoadBalancerInboundNatRule.Update updateInboundNatRule(String name)
     parameters:
@@ -339,7 +318,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithLoadBalancingRule.updateLoadBalancingRule(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithLoadBalancingRule.updateLoadBalancingRule(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing load balancing rule on this load balancer. </p>
+  summary: "<p>Begins the description of an update to an existing load balancing rule on this load balancer. </p>"
   syntax:
     content: public LoadBalancingRule.Update updateLoadBalancingRule(String name)
     parameters:
@@ -356,7 +335,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithPrivateFrontend.updatePrivateFrontend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPrivateFrontend.updatePrivateFrontend(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing internal frontend. </p>
+  summary: "<p>Begins the description of an update to an existing internal frontend. </p>"
   syntax:
     content: public LoadBalancerPrivateFrontend.Update updatePrivateFrontend(String name)
     parameters:
@@ -373,7 +352,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithPublicFrontend.updatePublicFrontend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPublicFrontend.updatePublicFrontend(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing Internet-facing frontend. </p>
+  summary: "<p>Begins the description of an update to an existing Internet-facing frontend. </p>"
   syntax:
     content: public LoadBalancerPublicFrontend.Update updatePublicFrontend(String name)
     parameters:
@@ -390,7 +369,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithProbe.updateTcpProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithProbe.updateTcpProbe(String name)
   type: Method
-  summary: <p>Begins the description of an update to an existing TCP probe on this load balancer. </p>
+  summary: "<p>Begins the description of an update to an existing TCP probe on this load balancer. </p>"
   syntax:
     content: public LoadBalancerTcpProbe.Update updateTcpProbe(String name)
     parameters:
@@ -407,7 +386,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithBackend.withoutBackend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithBackend.withoutBackend(String name)
   type: Method
-  summary: <p>Removes the specified backend from the load balancer. </p>
+  summary: "<p>Removes the specified backend from the load balancer. </p>"
   syntax:
     content: public Update withoutBackend(String name)
     parameters:
@@ -424,7 +403,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithPublicFrontend.withoutFrontend(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPublicFrontend.withoutFrontend(String name)
   type: Method
-  summary: <p>Removes the specified frontend from the load balancer. </p>
+  summary: "<p>Removes the specified frontend from the load balancer. </p>"
   syntax:
     content: public Update withoutFrontend(String name)
     parameters:
@@ -441,7 +420,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatPool.withoutInboundNatPool(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatPool.withoutInboundNatPool(String name)
   type: Method
-  summary: <p>Removes the specified inbound NAT pool from the load balancer. </p>
+  summary: "<p>Removes the specified inbound NAT pool from the load balancer. </p>"
   syntax:
     content: public Update withoutInboundNatPool(String name)
     parameters:
@@ -458,7 +437,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatRule.withoutInboundNatRule(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatRule.withoutInboundNatRule(String name)
   type: Method
-  summary: <p>Removes the specified inbound NAT rule from the load balancer. </p>
+  summary: "<p>Removes the specified inbound NAT rule from the load balancer. </p>"
   syntax:
     content: public Update withoutInboundNatRule(String name)
     parameters:
@@ -475,7 +454,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithLoadBalancingRule.withoutLoadBalancingRule(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithLoadBalancingRule.withoutLoadBalancingRule(String name)
   type: Method
-  summary: <p>Removes the specified load balancing rule from the load balancer, if present. </p>
+  summary: "<p>Removes the specified load balancing rule from the load balancer, if present. </p>"
   syntax:
     content: public Update withoutLoadBalancingRule(String name)
     parameters:
@@ -492,7 +471,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithProbe.withoutProbe(String name)
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithProbe.withoutProbe(String name)
   type: Method
-  summary: <p>Removes the specified probe from the load balancer, if present. </p>
+  summary: "<p>Removes the specified probe from the load balancer, if present. </p>"
   syntax:
     content: public Update withoutProbe(String name)
     parameters:
@@ -509,7 +488,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -526,7 +505,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -546,7 +525,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -563,10 +542,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -580,10 +556,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -597,7 +570,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithProbe
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithProbe
   type: Interface
-  summary: <p>The stage of the load balancer update allowing to add, remove or modify probes. </p>
+  summary: "<p>The stage of the load balancer update allowing to add, remove or modify probes. </p>"
   syntax:
     content: public interface WithProbe
 - uid: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithBackend
@@ -607,7 +580,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithBackend
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithBackend
   type: Interface
-  summary: <p>The stage of the load balancer update allowing to add or remove backends. </p>
+  summary: "<p>The stage of the load balancer update allowing to add or remove backends. </p>"
   syntax:
     content: public interface WithBackend
 - uid: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithLoadBalancingRule
@@ -617,7 +590,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithLoadBalancingRule
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithLoadBalancingRule
   type: Interface
-  summary: <p>The stage of the load balancer update allowing to add, remove or modify load balancing rules. </p>
+  summary: "<p>The stage of the load balancer update allowing to add, remove or modify load balancing rules. </p>"
   syntax:
     content: public interface WithLoadBalancingRule
 - uid: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPublicFrontend
@@ -627,7 +600,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithPublicFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPublicFrontend
   type: Interface
-  summary: <p>The stage of a load balancer update allowing to define, remove or edit Internet-facing frontends. </p>
+  summary: "<p>The stage of a load balancer update allowing to define, remove or edit Internet-facing frontends. </p>"
   syntax:
     content: public interface WithPublicFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPrivateFrontend
@@ -637,7 +610,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithPrivateFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithPrivateFrontend
   type: Interface
-  summary: <p>The stage of a load balancer update allowing to define one or more private frontends. </p>
+  summary: "<p>The stage of a load balancer update allowing to define one or more private frontends. </p>"
   syntax:
     content: public interface WithPrivateFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatRule
@@ -647,7 +620,7 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatRule
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatRule
   type: Interface
-  summary: <p>The stage of a load balancer update allowing to define, remove or edit inbound NAT rules. </p>
+  summary: "<p>The stage of a load balancer update allowing to define, remove or edit inbound NAT rules. </p>"
   syntax:
     content: public interface WithInboundNatRule
 - uid: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatPool
@@ -657,6 +630,6 @@ references:
   nameWithType: LoadBalancer.UpdateStages.WithInboundNatPool
   fullName: com.microsoft.azure.management.network.LoadBalancer.UpdateStages.WithInboundNatPool
   type: Interface
-  summary: <p>The stage of a load balancer update allowing to create a new inbound NAT pool for a virtual machine scale set. </p>
+  summary: "<p>The stage of a load balancer update allowing to create a new inbound NAT pool for a virtual machine scale set. </p>"
   syntax:
     content: public interface WithInboundNatPool

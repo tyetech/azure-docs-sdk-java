@@ -286,7 +286,7 @@ references:
   nameWithType: Registries.WebhooksClient
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient
   type: Interface
-  summary: <p>Grouping of registry webhook actions. </p>
+  summary: "<p>Grouping of registry webhook actions. </p>"
   syntax:
     content: public interface WebhooksClient
 - uid: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
@@ -296,7 +296,7 @@ references:
   nameWithType: ContainerRegistryManager
   fullName: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
   type: Class
-  summary: <p>Entry point to Azure container registry management. </p>
+  summary: "<p>Entry point to Azure container registry management. </p>"
   syntax:
     content: public class ContainerRegistryManager
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -306,7 +306,7 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax:
     content: public class RegistryImpl implements Registry,Registry.Definition,Registry.Update
 - uid: com.microsoft.azure.management.containerregistry.Webhook
@@ -316,7 +316,7 @@ references:
   nameWithType: Webhook
   fullName: com.microsoft.azure.management.containerregistry.Webhook
   type: Interface
-  summary: <p>An object that represents a webhook for a container registry. </p>
+  summary: "<p>An object that represents a webhook for a container registry. </p>"
   syntax:
     content: public interface Webhook extends ExternalChildResource<Webhook, Registry>,Resource,HasInner<WebhookInner>,Refreshable<Webhook>,Updatable<Webhook.Update>
 - uid: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient.get(String,String,String)
@@ -326,10 +326,7 @@ references:
   nameWithType: Registries.WebhooksClient.get(String resourceGroupName, String registryName, String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient.get(String resourceGroupName, String registryName, String webhookName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified webhook.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified webhook.</p>\r\n<p></p>"
   syntax:
     content: public Webhook get(String resourceGroupName, String registryName, String webhookName)
     parameters:
@@ -352,10 +349,7 @@ references:
   nameWithType: Registries.WebhooksClient.getAsync(String resourceGroupName, String registryName, String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient.getAsync(String resourceGroupName, String registryName, String webhookName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified webhook.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified webhook.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Webhook> getAsync(String resourceGroupName, String registryName, String webhookName)
     parameters:
@@ -378,10 +372,7 @@ references:
   nameWithType: Registries.WebhooksClient.delete(String resourceGroupName, String registryName, String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient.delete(String resourceGroupName, String registryName, String webhookName)
   type: Method
-  summary: >-
-    <p>Deletes a webhook from the container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a webhook from the container registry.</p>\r\n<p></p>"
   syntax:
     content: public void delete(String resourceGroupName, String registryName, String webhookName)
     parameters:
@@ -401,10 +392,7 @@ references:
   nameWithType: Registries.WebhooksClient.deleteAsync(String resourceGroupName, String registryName, String webhookName)
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient.deleteAsync(String resourceGroupName, String registryName, String webhookName)
   type: Method
-  summary: >-
-    <p>Deletes a webhook from the container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a webhook from the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteAsync(String resourceGroupName, String registryName, String webhookName)
     parameters:
@@ -427,10 +415,7 @@ references:
   nameWithType: Registries.WebhooksClient.list(String resourceGroupName, String registryName)
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient.list(String resourceGroupName, String registryName)
   type: Method
-  summary: >-
-    <p>Lists all the webhooks for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the webhooks for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<Webhook> list(String resourceGroupName, String registryName)
     parameters:
@@ -450,10 +435,7 @@ references:
   nameWithType: Registries.WebhooksClient.listAsync(String resourceGroupName, String registryName)
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient.listAsync(String resourceGroupName, String registryName)
   type: Method
-  summary: >-
-    <p>Lists all the webhooks for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the webhooks for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Webhook> listAsync(String resourceGroupName, String registryName)
     parameters:

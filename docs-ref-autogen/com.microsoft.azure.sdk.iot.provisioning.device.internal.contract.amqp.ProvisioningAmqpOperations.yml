@@ -402,7 +402,7 @@ references:
   nameWithType: AmqpDeviceOperations.AmqpDeviceOperations()
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.AmqpDeviceOperations()
   type: Constructor
-  summary: <p>Constructor for Amqp Device Operations </p>
+  summary: "<p>Constructor for Amqp Device Operations </p>"
   syntax:
     content: public AmqpDeviceOperations()
 - uid: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.amqpLinkAddress
@@ -443,7 +443,7 @@ references:
   nameWithType: AmqpDeviceOperations.closeLinks()
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.closeLinks()
   type: Method
-  summary: <p>Close the links </p>
+  summary: "<p>Close the links </p>"
   syntax:
     content: public synchronized void closeLinks()
     return:
@@ -455,7 +455,7 @@ references:
   nameWithType: AmqpDeviceOperations.initLink(Link link)
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.initLink(Link link)
   type: Method
-  summary: <p>Initializes the link's other endpoint according to its type </p>
+  summary: "<p>Initializes the link's other endpoint according to its type </p>"
   syntax:
     content: public synchronized void initLink(Link link)
     parameters:
@@ -471,7 +471,7 @@ references:
   nameWithType: AmqpDeviceOperations.isReceiverLinkTag(String name)
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.isReceiverLinkTag(String name)
   type: Method
-  summary: <p>Is this name a receiver Link </p>
+  summary: "<p>Is this name a receiver Link </p>"
   syntax:
     content: public synchronized boolean isReceiverLinkTag(String name)
     parameters:
@@ -488,7 +488,7 @@ references:
   nameWithType: AmqpDeviceOperations.openLinks(Session session)
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.openLinks(Session session)
   type: Method
-  summary: <p>Open the Session links for session </p>
+  summary: "<p>Open the Session links for session </p>"
   syntax:
     content: public void openLinks(Session session)
     parameters:
@@ -524,7 +524,7 @@ references:
   nameWithType: AmqpDeviceOperations.receiverMessageFromLink(String linkName)
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.receiverMessageFromLink(String linkName)
   type: Method
-  summary: <p>Retrieves a message from a link </p>
+  summary: "<p>Retrieves a message from a link </p>"
   syntax:
     content: public AmqpMessage receiverMessageFromLink(String linkName)
     parameters:
@@ -563,7 +563,7 @@ references:
   nameWithType: AmqpDeviceOperations.sendMessage(byte[] tag, byte[] data, int length, int offset)
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.sendMessage(byte[] tag, byte[] data, int length, int offset)
   type: Method
-  summary: <p>Sends a Message on the senderLink </p>
+  summary: "<p>Sends a Message on the senderLink </p>"
   syntax:
     content: public void sendMessage(byte[] tag, byte[] data, int length, int offset)
     parameters:
@@ -622,7 +622,7 @@ references:
   nameWithType: ObjectLock
   fullName: com.microsoft.azure.sdk.iot.deps.util.ObjectLock
   type: Class
-  summary: <p>This class enables mocking of the base class wait and notify functions </p>
+  summary: "<p>This class enables mocking of the base class wait and notify functions </p>"
   syntax:
     content: public class ObjectLock
 - uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
@@ -641,7 +641,7 @@ references:
   nameWithType: SaslHandler
   fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.SaslHandler
   type: Interface
-  summary: <p>Interface definition for what client events are expected to be handled during Sasl negotiation </p>
+  summary: "<p>Interface definition for what client events are expected to be handled during Sasl negotiation </p>"
   syntax:
     content: public interface SaslHandler
 - uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceConnectionException

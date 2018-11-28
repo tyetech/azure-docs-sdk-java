@@ -78,7 +78,7 @@ references:
   nameWithType: DomainContact.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a domain contact definition. </p>
+  summary: "<p>The entirety of a domain contact definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends DomainContact.DefinitionStages.Blank<ParentT>,DomainContact.DefinitionStages.WithFirstName<ParentT>,DomainContact.DefinitionStages.WithMiddleName<ParentT>,DomainContact.DefinitionStages.WithAddressLine1<ParentT>,DomainContact.DefinitionStages.WithAddressLine2<ParentT>,DomainContact.DefinitionStages.WithCity<ParentT>,DomainContact.DefinitionStages.WithStateOrProvince<ParentT>,DomainContact.DefinitionStages.WithCountry<ParentT>,DomainContact.DefinitionStages.WithPostalCode<ParentT>,DomainContact.DefinitionStages.WithEmail<ParentT>,DomainContact.DefinitionStages.WithPhoneCountryCode<ParentT>,DomainContact.DefinitionStages.WithPhoneNumber<ParentT>,DomainContact.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -92,7 +92,7 @@ references:
   nameWithType: DomainContact.DefinitionStages.WithPostalCode<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPostalCode<ParentT>
   type: Interface
-  summary: <p>The stage of contact definition allowing postal/zip code to be set. </p>
+  summary: "<p>The stage of contact definition allowing postal/zip code to be set. </p>"
   syntax:
     content: public interface WithPostalCode<ParentT>
     typeParameters:
@@ -106,6 +106,6 @@ references:
   nameWithType: CountryIsoCode
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode
   type: Class
-  summary: <p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>
+  summary: "<p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>"
   syntax:
     content: public class CountryIsoCode extends ExpandableStringEnum<CountryIsoCode>

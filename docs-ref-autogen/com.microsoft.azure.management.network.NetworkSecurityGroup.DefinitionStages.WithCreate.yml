@@ -38,10 +38,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -74,10 +68,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -90,7 +81,7 @@ references:
   nameWithType: NetworkSecurityGroup.DefinitionStages.WithRule.defineRule(String name)
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionStages.WithRule.defineRule(String name)
   type: Method
-  summary: <p>Starts the definition of a new security rule. </p>
+  summary: "<p>Starts the definition of a new security rule. </p>"
   syntax:
     content: public NetworkSecurityRule.DefinitionStages.Blank<WithCreate> defineRule(String name)
     parameters:
@@ -131,7 +122,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -151,7 +142,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -168,10 +159,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -185,10 +173,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -202,10 +187,7 @@ references:
   nameWithType: NetworkSecurityGroup.DefinitionStages.WithRule
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.DefinitionStages.WithRule
   type: Interface
-  summary: >-
-    <p>The stage allowing to define a new security rule. </p>
-
-    <p>When the security rule description is complete enough, use <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.attach()" data-throw-if-not-resolved="false">Attachable#attach()</xref> to attach it to this network security group. </p>
+  summary: "<p>The stage allowing to define a new security rule. </p>\r\n<p>When the security rule description is complete enough, use <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.attach()\" data-throw-if-not-resolved=\"false\">Attachable#attach()</xref> to attach it to this network security group. </p>"
   syntax:
     content: public interface WithRule
 - uid: com.microsoft.azure.management.network.NetworkSecurityGroup.Definition
@@ -215,6 +197,6 @@ references:
   nameWithType: NetworkSecurityGroup.Definition
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.Definition
   type: Interface
-  summary: <p>The entirety of the network security group definition. </p>
+  summary: "<p>The entirety of the network security group definition. </p>"
   syntax:
     content: public interface Definition extends NetworkSecurityGroup.DefinitionStages.Blank,NetworkSecurityGroup.DefinitionStages.WithGroup,NetworkSecurityGroup.DefinitionStages.WithCreate

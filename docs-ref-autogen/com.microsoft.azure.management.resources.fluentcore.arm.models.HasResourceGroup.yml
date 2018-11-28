@@ -61,7 +61,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -78,7 +78,7 @@ references:
   nameWithType: IndependentChild<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.IndependentChild<ManagerT>
   type: Interface
-  summary: <p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>
+  summary: "<p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>"
   syntax:
     content: public interface IndependentChild<ManagerT>
     typeParameters:
@@ -92,7 +92,7 @@ references:
   nameWithType: ElasticPoolActivity
   fullName: com.microsoft.azure.management.sql.ElasticPoolActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ElasticPool's Activity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ElasticPool's Activity. </p>"
   syntax:
     content: public interface ElasticPoolActivity extends HasInner<ElasticPoolActivityInner>,HasResourceGroup,HasName,HasId,HasInner<ElasticPoolActivityInner>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.ElasticPoolDatabaseActivity
@@ -102,7 +102,7 @@ references:
   nameWithType: ElasticPoolDatabaseActivity
   fullName: com.microsoft.azure.management.sql.ElasticPoolDatabaseActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL ElasticPool's Database Activity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL ElasticPool's Database Activity. </p>"
   syntax:
     content: public interface ElasticPoolDatabaseActivity extends HasInner<ElasticPoolDatabaseActivityInner>,HasResourceGroup,HasName,HasId,HasInner<ElasticPoolDatabaseActivityInner>,HasResourceGroup,HasName,HasId
 - uid: com.microsoft.azure.management.sql.RecommendedElasticPool
@@ -112,7 +112,7 @@ references:
   nameWithType: RecommendedElasticPool
   fullName: com.microsoft.azure.management.sql.RecommendedElasticPool
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>"
   syntax:
     content: public interface RecommendedElasticPool
 - uid: com.microsoft.azure.management.sql.ReplicationLink
@@ -122,7 +122,7 @@ references:
   nameWithType: ReplicationLink
   fullName: com.microsoft.azure.management.sql.ReplicationLink
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Replication link. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Replication link. </p>"
   syntax:
     content: public interface ReplicationLink
 - uid: com.microsoft.azure.management.sql.RestorePoint
@@ -132,7 +132,7 @@ references:
   nameWithType: RestorePoint
   fullName: com.microsoft.azure.management.sql.RestorePoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>"
   syntax:
     content: public interface RestorePoint
 - uid: com.microsoft.azure.management.sql.ServiceObjective
@@ -142,7 +142,7 @@ references:
   nameWithType: ServiceObjective
   fullName: com.microsoft.azure.management.sql.ServiceObjective
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Service Objective. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Service Objective. </p>"
   syntax:
     content: public interface ServiceObjective
 - uid: com.microsoft.azure.management.sql.ServiceTierAdvisor
@@ -152,7 +152,7 @@ references:
   nameWithType: ServiceTierAdvisor
   fullName: com.microsoft.azure.management.sql.ServiceTierAdvisor
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Service tier advisor. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Service tier advisor. </p>"
   syntax:
     content: public interface ServiceTierAdvisor
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -162,10 +162,7 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase
 - uid: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy
@@ -175,7 +172,7 @@ references:
   nameWithType: SqlDatabaseThreatDetectionPolicy
   fullName: com.microsoft.azure.management.sql.SqlDatabaseThreatDetectionPolicy
   type: Interface
-  summary: <p>A representation of the Azure SQL Database threat detection policy. </p>
+  summary: "<p>A representation of the Azure SQL Database threat detection policy. </p>"
   syntax:
     content: public interface SqlDatabaseThreatDetectionPolicy
 - uid: com.microsoft.azure.management.sql.SqlElasticPool
@@ -185,10 +182,7 @@ references:
   nameWithType: SqlElasticPool
   fullName: com.microsoft.azure.management.sql.SqlElasticPool
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>
-
-    <p>An immutable client-side representation of an Azure SQL ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>\r\n<p>An immutable client-side representation of an Azure SQL ElasticPool. </p>"
   syntax:
     content: public interface SqlElasticPool
 - uid: com.microsoft.azure.management.sql.SqlEncryptionProtector
@@ -198,7 +192,7 @@ references:
   nameWithType: SqlEncryptionProtector
   fullName: com.microsoft.azure.management.sql.SqlEncryptionProtector
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Encryption Protector. </p>"
   syntax:
     content: public interface SqlEncryptionProtector
 - uid: com.microsoft.azure.management.sql.SqlFailoverGroup
@@ -208,7 +202,7 @@ references:
   nameWithType: SqlFailoverGroup
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Failover Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Failover Group. </p>"
   syntax:
     content: public interface SqlFailoverGroup
 - uid: com.microsoft.azure.management.sql.SqlFirewallRule
@@ -218,10 +212,7 @@ references:
   nameWithType: SqlFirewallRule
   fullName: com.microsoft.azure.management.sql.SqlFirewallRule
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Firewall Rule.</p>\r\n<p>An immutable client-side representation of an Azure SQL Server FirewallRule. </p>"
   syntax:
     content: public interface SqlFirewallRule
 - uid: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
@@ -231,7 +222,7 @@ references:
   nameWithType: SqlRestorableDroppedDatabase
   fullName: com.microsoft.azure.management.sql.SqlRestorableDroppedDatabase
   type: Interface
-  summary: <p>Response containing Azure SQL restorable dropped database. </p>
+  summary: "<p>Response containing Azure SQL restorable dropped database. </p>"
   syntax:
     content: public interface SqlRestorableDroppedDatabase
 - uid: com.microsoft.azure.management.sql.SqlServerDnsAlias
@@ -241,7 +232,7 @@ references:
   nameWithType: SqlServerDnsAlias
   fullName: com.microsoft.azure.management.sql.SqlServerDnsAlias
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server DNS alias. </p>"
   syntax:
     content: public interface SqlServerDnsAlias
 - uid: com.microsoft.azure.management.sql.SqlServerKey
@@ -251,7 +242,7 @@ references:
   nameWithType: SqlServerKey
   fullName: com.microsoft.azure.management.sql.SqlServerKey
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Key. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Key. </p>"
   syntax:
     content: public interface SqlServerKey
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
@@ -261,7 +252,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicy
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Security Alert Policy. </p>"
   syntax:
     content: public interface SqlServerSecurityAlertPolicy
 - uid: com.microsoft.azure.management.sql.SqlSyncGroup
@@ -271,7 +262,7 @@ references:
   nameWithType: SqlSyncGroup
   fullName: com.microsoft.azure.management.sql.SqlSyncGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Group. </p>"
   syntax:
     content: public interface SqlSyncGroup
 - uid: com.microsoft.azure.management.sql.SqlSyncMember
@@ -281,7 +272,7 @@ references:
   nameWithType: SqlSyncMember
   fullName: com.microsoft.azure.management.sql.SqlSyncMember
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Sync Member. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Sync Member. </p>"
   syntax:
     content: public interface SqlSyncMember
 - uid: com.microsoft.azure.management.sql.SqlVirtualNetworkRule
@@ -291,7 +282,7 @@ references:
   nameWithType: SqlVirtualNetworkRule
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server Virtual Network Rule. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Virtual Network Rule. </p>"
   syntax:
     content: public interface SqlVirtualNetworkRule
 - uid: com.microsoft.azure.management.sql.TransparentDataEncryption
@@ -301,7 +292,7 @@ references:
   nameWithType: TransparentDataEncryption
   fullName: com.microsoft.azure.management.sql.TransparentDataEncryption
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryption. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryption. </p>"
   syntax:
     content: public interface TransparentDataEncryption
 - uid: com.microsoft.azure.management.sql.TransparentDataEncryptionActivity
@@ -311,6 +302,6 @@ references:
   nameWithType: TransparentDataEncryptionActivity
   fullName: com.microsoft.azure.management.sql.TransparentDataEncryptionActivity
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryptionActivity. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's TransparentDataEncryptionActivity. </p>"
   syntax:
     content: public interface TransparentDataEncryptionActivity

@@ -40,10 +40,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -56,10 +53,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -72,10 +66,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -92,7 +83,7 @@ references:
   nameWithType: NetworkSecurityGroup.UpdateStages.WithRule.defineRule(String name)
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.UpdateStages.WithRule.defineRule(String name)
   type: Method
-  summary: <p>Begins the definition of a new security rule to be added to this network security group. </p>
+  summary: "<p>Begins the definition of a new security rule to be added to this network security group. </p>"
   syntax:
     content: public NetworkSecurityRule.UpdateDefinitionStages.Blank<Update> defineRule(String name)
     parameters:
@@ -121,7 +112,7 @@ references:
   nameWithType: NetworkSecurityGroup.UpdateStages.WithRule.updateRule(String name)
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.UpdateStages.WithRule.updateRule(String name)
   type: Method
-  summary: <p>Begins the description of an update of an existing security rule of this network security group. </p>
+  summary: "<p>Begins the description of an update of an existing security rule of this network security group. </p>"
   syntax:
     content: public NetworkSecurityRule.Update updateRule(String name)
     parameters:
@@ -138,7 +129,7 @@ references:
   nameWithType: NetworkSecurityGroup.UpdateStages.WithRule.withoutRule(String name)
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.UpdateStages.WithRule.withoutRule(String name)
   type: Method
-  summary: <p>Removes an existing security rule. </p>
+  summary: "<p>Removes an existing security rule. </p>"
   syntax:
     content: public Update withoutRule(String name)
     parameters:
@@ -155,7 +146,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -172,7 +163,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -192,7 +183,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -209,10 +200,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -226,10 +214,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -243,6 +228,6 @@ references:
   nameWithType: NetworkSecurityGroup.UpdateStages.WithRule
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup.UpdateStages.WithRule
   type: Interface
-  summary: <p>The stage of the resource definition allowing to add or remove security rules. </p>
+  summary: "<p>The stage of the resource definition allowing to add or remove security rules. </p>"
   syntax:
     content: public interface WithRule

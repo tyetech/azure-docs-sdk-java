@@ -84,7 +84,7 @@ references:
   nameWithType: DomainContact.DefinitionStages.WithLastName<ParentT>.withLastName(String lastName)
   fullName: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithLastName<ParentT>.withLastName(String lastName)
   type: Method
-  summary: <p>Specifies the last name. </p>
+  summary: "<p>Specifies the last name. </p>"
   syntax:
     content: public WithEmail<ParentT> withLastName(String lastName)
     parameters:
@@ -101,7 +101,7 @@ references:
   nameWithType: DomainContact.DefinitionStages.WithLastName<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithLastName<ParentT>
   type: Interface
-  summary: <p>The stage of contact definition allowing last name to be set. </p>
+  summary: "<p>The stage of contact definition allowing last name to be set. </p>"
   syntax:
     content: public interface WithLastName<ParentT>
     typeParameters:
@@ -115,7 +115,7 @@ references:
   nameWithType: DomainContact.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a domain contact definition. </p>
+  summary: "<p>The entirety of a domain contact definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends DomainContact.DefinitionStages.Blank<ParentT>,DomainContact.DefinitionStages.WithFirstName<ParentT>,DomainContact.DefinitionStages.WithMiddleName<ParentT>,DomainContact.DefinitionStages.WithAddressLine1<ParentT>,DomainContact.DefinitionStages.WithAddressLine2<ParentT>,DomainContact.DefinitionStages.WithCity<ParentT>,DomainContact.DefinitionStages.WithStateOrProvince<ParentT>,DomainContact.DefinitionStages.WithCountry<ParentT>,DomainContact.DefinitionStages.WithPostalCode<ParentT>,DomainContact.DefinitionStages.WithEmail<ParentT>,DomainContact.DefinitionStages.WithPhoneCountryCode<ParentT>,DomainContact.DefinitionStages.WithPhoneNumber<ParentT>,DomainContact.DefinitionStages.WithAttach<ParentT>
     typeParameters:

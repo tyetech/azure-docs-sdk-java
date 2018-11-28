@@ -66,7 +66,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicy.Update
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicy.Update
   type: Interface
-  summary: <p>The template for a SQL Server Security Alert Policy update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a SQL Server Security Alert Policy update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends SqlServerSecurityAlertPolicy.UpdateStages.WithState,SqlServerSecurityAlertPolicy.UpdateStages.WithEmailAccountAdmins,SqlServerSecurityAlertPolicy.UpdateStages.WithStorageAccount,SqlServerSecurityAlertPolicy.UpdateStages.WithEmailAddresses,SqlServerSecurityAlertPolicy.UpdateStages.WithDisabledAlerts,SqlServerSecurityAlertPolicy.UpdateStages.WithRetentionDays,Appliable<SqlServerSecurityAlertPolicy>
 - uid: com.microsoft.azure.management.sql.SecurityAlertPolicyState
@@ -76,6 +76,6 @@ references:
   nameWithType: SecurityAlertPolicyState
   fullName: com.microsoft.azure.management.sql.SecurityAlertPolicyState
   type: Enum
-  summary: <p>Defines values for SecurityAlertPolicyState. </p>
+  summary: "<p>Defines values for SecurityAlertPolicyState. </p>"
   syntax:
     content: public enum SecurityAlertPolicyState

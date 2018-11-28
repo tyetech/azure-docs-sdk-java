@@ -74,7 +74,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -87,10 +87,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -103,10 +100,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -123,10 +117,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -139,12 +130,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>.fromRestorableDroppedDatabase(SqlRestorableDroppedDatabase restorableDroppedDatabase)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>.fromRestorableDroppedDatabase(SqlRestorableDroppedDatabase restorableDroppedDatabase)
   type: Method
-  summary: >-
-    <p>Creates a new database from a previously deleted database (see restorable dropped database). </p>
-
-    <p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a previously deleted database (see restorable dropped database). </p>\r\n<p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachFinal<ParentT> fromRestorableDroppedDatabase(SqlRestorableDroppedDatabase restorableDroppedDatabase)
     parameters:
@@ -161,10 +147,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>.fromRestorePoint(RestorePoint restorePoint)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>.fromRestorePoint(RestorePoint restorePoint)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT> fromRestorePoint(RestorePoint restorePoint)
     parameters:
@@ -181,10 +164,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>.fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>.fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT> fromRestorePoint(RestorePoint restorePoint, DateTime restorePointDateTime)
     parameters:
@@ -204,10 +184,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSampleDatabase<ParentT>.fromSample(SampleName sampleName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSampleDatabase<ParentT>.fromSample(SampleName sampleName)
   type: Method
-  summary: >-
-    <p>Creates a new database from a restore point.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a restore point.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT> fromSample(SampleName sampleName)
     parameters:
@@ -224,10 +201,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithImportFrom<ParentT>.importFrom(String storageUri)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithImportFrom<ParentT>.importFrom(String storageUri)
   type: Method
-  summary: >-
-    <p>Creates a new database from a BACPAC file.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a BACPAC file.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithStorageKey<ParentT> importFrom(String storageUri)
     parameters:
@@ -244,10 +218,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithImportFrom<ParentT>.importFrom(StorageAccount storageAccount, String containerName, String fileName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithImportFrom<ParentT>.importFrom(StorageAccount storageAccount, String containerName, String fileName)
   type: Method
-  summary: >-
-    <p>Creates a new database from a BACPAC file.</p>
-
-    <p></p>
+  summary: "<p>Creates a new database from a BACPAC file.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAuthentication<ParentT> importFrom(StorageAccount storageAccount, String containerName, String fileName)
     parameters:
@@ -313,10 +284,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withBasicEdition()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withBasicEdition()
   type: Method
-  summary: >-
-    <p>Sets a "Basic" edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Basic\" edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT> withBasicEdition()
     return:
@@ -329,10 +297,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withBasicEdition(SqlDatabaseBasicStorage maxStorageCapacity)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withBasicEdition(SqlDatabaseBasicStorage maxStorageCapacity)
   type: Method
-  summary: >-
-    <p>Sets a "Basic" edition and maximum storage capacity for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Basic\" edition and maximum storage capacity for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT> withBasicEdition(SqlDatabaseBasicStorage maxStorageCapacity)
     parameters:
@@ -348,10 +313,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithCollation<ParentT>.withCollation(String collation)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollation<ParentT>.withCollation(String collation)
   type: Method
-  summary: >-
-    <p>Sets the collation for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the collation for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT> withCollation(String collation)
     parameters:
@@ -368,10 +330,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithCollationAllCreateOptions.withCollation(String collation)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollationAllCreateOptions.withCollation(String collation)
   type: Method
-  summary: >-
-    <p>Sets the collation for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the collation for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCollation(String collation)
     parameters:
@@ -388,10 +347,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithEdition<ParentT>.withEdition(DatabaseEditions edition)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEdition<ParentT>.withEdition(DatabaseEditions edition)
   type: Method
-  summary: >-
-    <p>Sets the edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT> withEdition(DatabaseEditions edition)
     parameters:
@@ -408,10 +364,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>.withExistingElasticPool(String elasticPoolName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>.withExistingElasticPool(String elasticPoolName)
   type: Method
-  summary: >-
-    <p>Sets the existing elastic pool for the SQLDatabase.</p>
-
-    <p></p>
+  summary: "<p>Sets the existing elastic pool for the SQLDatabase.</p>\r\n<p></p>"
   syntax:
     content: public WithExistingDatabaseAfterElasticPool<ParentT> withExistingElasticPool(String elasticPoolName)
     parameters:
@@ -428,10 +381,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>.withExistingElasticPool(SqlElasticPool sqlElasticPool)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>.withExistingElasticPool(SqlElasticPool sqlElasticPool)
   type: Method
-  summary: >-
-    <p>Sets the existing elastic pool for the SQLDatabase.</p>
-
-    <p></p>
+  summary: "<p>Sets the existing elastic pool for the SQLDatabase.</p>\r\n<p></p>"
   syntax:
     content: public WithExistingDatabaseAfterElasticPool<ParentT> withExistingElasticPool(SqlElasticPool sqlElasticPool)
     parameters:
@@ -448,10 +398,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithMaxSizeBytes<ParentT>.withMaxSizeBytes(long maxSizeBytes)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytes<ParentT>.withMaxSizeBytes(long maxSizeBytes)
   type: Method
-  summary: >-
-    <p>Sets the max size in bytes for SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the max size in bytes for SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT> withMaxSizeBytes(long maxSizeBytes)
     parameters:
@@ -468,10 +415,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithMaxSizeBytesAllCreateOptions.withMaxSizeBytes(long maxSizeBytes)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytesAllCreateOptions.withMaxSizeBytes(long maxSizeBytes)
   type: Method
-  summary: >-
-    <p>Sets the max size in bytes for SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the max size in bytes for SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMaxSizeBytes(long maxSizeBytes)
     parameters:
@@ -488,10 +432,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithCreateMode<ParentT>.withMode(CreateMode createMode)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreateMode<ParentT>.withMode(CreateMode createMode)
   type: Method
-  summary: >-
-    <p>Sets the create mode for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the create mode for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachFinal<ParentT> withMode(CreateMode createMode)
     parameters:
@@ -508,10 +449,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>.withNewElasticPool(Creatable<SqlElasticPool> sqlElasticPool)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>.withNewElasticPool(Creatable<SqlElasticPool> sqlElasticPool)
   type: Method
-  summary: >-
-    <p>Sets the new elastic pool for the SQLDatabase, this will create a new elastic pool while creating database.</p>
-
-    <p></p>
+  summary: "<p>Sets the new elastic pool for the SQLDatabase, this will create a new elastic pool while creating database.</p>\r\n<p></p>"
   syntax:
     content: public WithExistingDatabaseAfterElasticPool<ParentT> withNewElasticPool(Creatable<SqlElasticPool> sqlElasticPool)
     parameters:
@@ -528,10 +466,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective)
   type: Method
-  summary: >-
-    <p>Sets a "Premium" edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Premium\" edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT> withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective)
     parameters:
@@ -548,10 +483,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective, SqlDatabasePremiumStorage maxStorageCapacity)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective, SqlDatabasePremiumStorage maxStorageCapacity)
   type: Method
-  summary: >-
-    <p>Sets a "Premium" edition and maximum storage capacity for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Premium\" edition and maximum storage capacity for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT> withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective, SqlDatabasePremiumStorage maxStorageCapacity)
     parameters:
@@ -571,10 +503,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithServiceObjective<ParentT>.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective<ParentT>.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
   type: Method
-  summary: >-
-    <p>Sets the service level objective for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the service level objective for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT> withServiceObjective(ServiceObjectiveName serviceLevelObjective)
     parameters:
@@ -607,12 +536,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(String sourceDatabaseId)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(String sourceDatabaseId)
   type: Method
-  summary: >-
-    <p>Sets the resource if of source database for the SQL Database. </p>
-
-    <p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>
-
-    <p></p>
+  summary: "<p>Sets the resource if of source database for the SQL Database. </p>\r\n<p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithCreateMode<ParentT> withSourceDatabase(String sourceDatabaseId)
     parameters:
@@ -629,12 +553,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(SqlDatabase sourceDatabase)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>.withSourceDatabase(SqlDatabase sourceDatabase)
   type: Method
-  summary: >-
-    <p>Sets the resource if of source database for the SQL Database. </p>
-
-    <p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>
-
-    <p></p>
+  summary: "<p>Sets the resource if of source database for the SQL Database. </p>\r\n<p>Collation, Edition, and MaxSizeBytes must remain the same while the link is active. Values specified for these parameters will be ignored.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithCreateMode<ParentT> withSourceDatabase(SqlDatabase sourceDatabase)
     parameters:
@@ -670,10 +589,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective)
   type: Method
-  summary: >-
-    <p>Sets a "Standard" edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Standard\" edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT> withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective)
     parameters:
@@ -690,10 +606,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective, SqlDatabaseStandardStorage maxStorageCapacity)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective, SqlDatabaseStandardStorage maxStorageCapacity)
   type: Method
-  summary: >-
-    <p>Sets a "Standard" edition and maximum storage capacity for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Standard\" edition and maximum storage capacity for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT> withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective, SqlDatabaseStandardStorage maxStorageCapacity)
     parameters:
@@ -729,7 +642,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -749,7 +662,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -766,12 +679,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the SQL Server Firewall rule definition.</p>
-
-    <p>
-
-    The first stage of the SQL database definition. </p>
+  summary: "<p>The first stage of the SQL Server Firewall rule definition.</p>\r\n<p>\r\nThe first stage of the SQL database definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>,SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>
     typeParameters:
@@ -785,12 +693,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL database interface with all starting options for definition.</p>
-
-    <p>
-
-    The SQL database interface with all starting options for definition. </p>
+  summary: "<p>The SQL database interface with all starting options for definition.</p>\r\n<p>\r\nThe SQL database interface with all starting options for definition. </p>"
   syntax:
     content: public interface WithAllDifferentOptions<ParentT>
     typeParameters:
@@ -804,12 +707,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set the elastic pool for database.</p>
-
-    <p>
-
-    The SQL Database definition to set the elastic pool for database. </p>
+  summary: "<p>The SQL Database definition to set the elastic pool for database.</p>\r\n<p>\r\nThe SQL Database definition to set the elastic pool for database. </p>"
   syntax:
     content: public interface WithElasticPoolName<ParentT>
     typeParameters:
@@ -823,10 +721,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set a restorable dropped database as the source database.</p>
-
-    <p></p>
+  summary: "<p>The SQL Database definition to set a restorable dropped database as the source database.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRestorableDroppedDatabase<ParentT>
     typeParameters:
@@ -840,10 +735,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithImportFrom<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithImportFrom<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to import a BACPAC file as the source database.</p>
-
-    <p></p>
+  summary: "<p>The SQL Database definition to import a BACPAC file as the source database.</p>\r\n<p></p>"
   syntax:
     content: public interface WithImportFrom<ParentT>
     typeParameters:
@@ -857,10 +749,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithStorageKey<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithStorageKey<ParentT>
   type: Interface
-  summary: >-
-    <p>Sets the storage key type and value to use.</p>
-
-    <p></p>
+  summary: "<p>Sets the storage key type and value to use.</p>\r\n<p></p>"
   syntax:
     content: public interface WithStorageKey<ParentT>
     typeParameters:
@@ -874,10 +763,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAuthentication<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAuthentication<ParentT>
   type: Interface
-  summary: >-
-    <p>Sets the authentication type and SQL or Active Directory administrator login and password.</p>
-
-    <p></p>
+  summary: "<p>Sets the authentication type and SQL or Active Directory administrator login and password.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAuthentication<ParentT>
     typeParameters:
@@ -891,10 +777,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set a restore point as the source database.</p>
-
-    <p></p>
+  summary: "<p>The SQL Database definition to set a restore point as the source database.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRestorePointDatabase<ParentT>
     typeParameters:
@@ -908,12 +791,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set the source database id for database.</p>
-
-    <p>
-
-    The SQL Database definition to set the source database id for database. </p>
+  summary: "<p>The SQL Database definition to set the source database id for database.</p>\r\n<p>\r\nThe SQL Database definition to set the source database id for database. </p>"
   syntax:
     content: public interface WithSourceDatabaseId<ParentT>
     typeParameters:
@@ -927,12 +805,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithCreateMode<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreateMode<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL Database definition to set the create mode for database.</p>
-
-    <p>
-
-    The SQL Database definition to set the create mode for database. </p>
+  summary: "<p>The SQL Database definition to set the create mode for database.</p>\r\n<p>\r\nThe SQL Database definition to set the create mode for database. </p>"
   syntax:
     content: public interface WithCreateMode<ParentT>
     typeParameters:
@@ -946,10 +819,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Database definition with all the other options.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the SQL Database definition with all the other options.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttachAllOptions<ParentT>
     typeParameters:
@@ -963,12 +833,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Database definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the SQL Database definition can be attached to the parent SQL Server definition.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the SQL Database definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the SQL Database definition can be attached to the parent SQL Server definition.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttachFinal<ParentT>
     typeParameters:

@@ -68,10 +68,7 @@ references:
   nameWithType: StatelessServiceBase.createServiceInstanceListeners()
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.createServiceInstanceListeners()
   type: Method
-  summary: >-
-    <p>Override this method to supply the communication listeners for the service instance. The endpoints returned by the communication listener's are stored as a JSON string of ListenerName, Endpoint string pairs like {"Endpoints":{"Listener1":"Endpoint1","Listener2":"Endpoint2" ...}}</p>
-
-    <p></p>
+  summary: "<p>Override this method to supply the communication listeners for the service instance. The endpoints returned by the communication listener's are stored as a JSON string of ListenerName, Endpoint string pairs like {\"Endpoints\":{\"Listener1\":\"Endpoint1\",\"Listener2\":\"Endpoint2\" ...}}</p>\r\n<p></p>"
   syntax:
     content: protected List<ServiceInstanceListener> createServiceInstanceListeners()
     return:
@@ -84,10 +81,7 @@ references:
   nameWithType: StatelessServiceBase.getAddresses()
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.getAddresses()
   type: Method
-  summary: >-
-    <p>Gets list of all the addresses for this service instances as (ListenerName, Endpoint) key-value pair.</p>
-
-    <p></p>
+  summary: "<p>Gets list of all the addresses for this service instances as (ListenerName, Endpoint) key-value pair.</p>\r\n<p></p>"
   syntax:
     content: protected Map<String, String> getAddresses()
     return:
@@ -100,10 +94,7 @@ references:
   nameWithType: StatelessServiceBase.getPartition()
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.getPartition()
   type: Method
-  summary: >-
-    <p>Gets the service partition to which current service instance belongs.</p>
-
-    <p></p>
+  summary: "<p>Gets the service partition to which current service instance belongs.</p>\r\n<p></p>"
   syntax:
     content: protected StatelessServicePartition getPartition()
     return:
@@ -116,10 +107,7 @@ references:
   nameWithType: StatelessServiceBase.getServiceContext()
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.getServiceContext()
   type: Method
-  summary: >-
-    <p>Gets the service context that this stateless service is operating under. It provides information like InstanceId, PartitionId, ServiceName etc.</p>
-
-    <p></p>
+  summary: "<p>Gets the service context that this stateless service is operating under. It provides information like InstanceId, PartitionId, ServiceName etc.</p>\r\n<p></p>"
   syntax:
     content: public StatelessServiceContext getServiceContext()
     return:
@@ -132,7 +120,7 @@ references:
   nameWithType: StatelessServiceBase.onAbort()
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.onAbort()
   type: Method
-  summary: <p>Notification that the service is being aborted. RunAsync MAY be running concurrently with the execution of this method, as cancellation is not awaited on the abort path. </p>
+  summary: "<p>Notification that the service is being aborted. RunAsync MAY be running concurrently with the execution of this method, as cancellation is not awaited on the abort path. </p>"
   syntax:
     content: protected void onAbort()
 - uid: microsoft.servicefabric.services.runtime.StatelessServiceBase.onCloseAsync(CancellationToken)
@@ -142,10 +130,7 @@ references:
   nameWithType: StatelessServiceBase.onCloseAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.onCloseAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is called as the final step of closing the service. Override this method to be notified that Close has completed for this instance's internal components.</p>
-
-    <p></p>
+  summary: "<p>This method is called as the final step of closing the service. Override this method to be notified that Close has completed for this instance's internal components.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<?> onCloseAsync(CancellationToken cancellationToken)
     parameters:
@@ -165,10 +150,7 @@ references:
   nameWithType: StatelessServiceBase.onOpenAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.onOpenAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is called as the final step of opening the service. Override this method to be notified that Open has completed for this instance's internal components.</p>
-
-    <p></p>
+  summary: "<p>This method is called as the final step of opening the service. Override this method to be notified that Open has completed for this instance's internal components.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<?> onOpenAsync(CancellationToken cancellationToken)
     parameters:
@@ -188,10 +170,7 @@ references:
   nameWithType: StatelessServiceBase.runAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.runAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Services that want to implement a background task which runs when it is opened, just override this method with their logic.</p>
-
-    <p></p>
+  summary: "<p>Services that want to implement a background task which runs when it is opened, just override this method with their logic.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<?> runAsync(CancellationToken cancellationToken)
     parameters:
@@ -211,10 +190,7 @@ references:
   nameWithType: StatelessServiceBase.setAddresses(Map<String, String> addresses)
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase.setAddresses(Map<String, String> addresses)
   type: Method
-  summary: >-
-    <p>Sets list of all the addresses for this service instance as (ListenerName, Endpoint) key-value pair.</p>
-
-    <p></p>
+  summary: "<p>Sets list of all the addresses for this service instance as (ListenerName, Endpoint) key-value pair.</p>\r\n<p></p>"
   syntax:
     content: protected void setAddresses(Map<String, String> addresses)
     parameters:
@@ -237,6 +213,6 @@ references:
   nameWithType: StatelessServiceBase
   fullName: microsoft.servicefabric.services.runtime.StatelessServiceBase
   type: Class
-  summary: <p>Represents base class for Microsoft Service Fabric based stateless reliable service. </p>
+  summary: "<p>Represents base class for Microsoft Service Fabric based stateless reliable service. </p>"
   syntax:
     content: public class StatelessServiceBase

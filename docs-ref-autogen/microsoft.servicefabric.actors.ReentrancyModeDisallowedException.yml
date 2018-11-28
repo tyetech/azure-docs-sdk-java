@@ -362,7 +362,7 @@ references:
   nameWithType: ReentrancyMode.Disallowed
   fullName: microsoft.servicefabric.actors.runtime.ReentrancyMode.Disallowed
   type: Field
-  summary: <p>Disallows actors to be reentrant. In this case if an actor sends a reentrant message to another actor an exception of type <xref uid="system.fabric.exception.FabricException" data-throw-if-not-resolved="false">system.fabric.exception.FabricException</xref> will be thrown. </p>
+  summary: "<p>Disallows actors to be reentrant. In this case if an actor sends a reentrant message to another actor an exception of type <xref uid=\"system.fabric.exception.FabricException\" data-throw-if-not-resolved=\"false\">system.fabric.exception.FabricException</xref> will be thrown. </p>"
   syntax:
     content: public Disallowed=(2)
 - uid: microsoft.servicefabric.actors.ReentrancyModeDisallowedException
@@ -372,5 +372,5 @@ references:
   nameWithType: ReentrancyModeDisallowedException
   fullName: microsoft.servicefabric.actors.ReentrancyModeDisallowedException
   type: Class
-  summary: <p>Exception thrown by actor runtime when reentrant call is made for an actor and its <xref uid="" data-throw-if-not-resolved="false">ReentrancyMode</xref> is set to <xref uid="microsoft.servicefabric.actors.runtime.ReentrancyMode.Disallowed" data-throw-if-not-resolved="false">ReentrancyMode#Disallowed</xref>. </p>
+  summary: "<p>Exception thrown by actor runtime when reentrant call is made for an actor and its <xref uid=\"\" data-throw-if-not-resolved=\"false\">ReentrancyMode</xref> is set to <xref uid=\"microsoft.servicefabric.actors.runtime.ReentrancyMode.Disallowed\" data-throw-if-not-resolved=\"false\">ReentrancyMode#Disallowed</xref>. </p>"
   syntax: *o1

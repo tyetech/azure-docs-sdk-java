@@ -39,7 +39,7 @@ references:
   nameWithType: HasProtocol.DefinitionStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.DefinitionStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -56,7 +56,7 @@ references:
   nameWithType: HasProtocol.DefinitionStages.WithProtocol<ReturnT,ProtocolT>
   fullName: com.microsoft.azure.management.network.model.HasProtocol.DefinitionStages.WithProtocol<ReturnT,ProtocolT>
   type: Interface
-  summary: <p>The stage of a definition allowing to specify the protocol. </p>
+  summary: "<p>The stage of a definition allowing to specify the protocol. </p>"
   syntax:
     content: public interface WithProtocol<ReturnT,ProtocolT>
     typeParameters:
@@ -73,7 +73,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an inbound NAT rule definition. </p>
+  summary: "<p>The entirety of an inbound NAT rule definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends LoadBalancerInboundNatRule.DefinitionStages.Blank<ParentT>,LoadBalancerInboundNatRule.DefinitionStages.WithProtocol<ParentT>,LoadBalancerInboundNatRule.DefinitionStages.WithFrontend<ParentT>,LoadBalancerInboundNatRule.DefinitionStages.WithFrontendPort<ParentT>,LoadBalancerInboundNatRule.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -87,7 +87,7 @@ references:
   nameWithType: LoadBalancerInboundNatRule.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatRule.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the inbound NAT rule definition. </p>
+  summary: "<p>The first stage of the inbound NAT rule definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends LoadBalancerInboundNatRule.DefinitionStages.WithProtocol<ParentT>
     typeParameters:

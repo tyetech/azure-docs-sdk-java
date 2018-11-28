@@ -539,7 +539,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.AttachableStandard<ParentT>.attach()
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.AttachableStandard<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the defined endpoint to the parent CDN profile. </p>
+  summary: "<p>Attaches the defined endpoint to the parent CDN profile. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -552,10 +552,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.AttachableStandard<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.AttachableStandard<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of a Standard endpoint definition, at which it can be attached to the parent.</p>
-
-    <p></p>
+  summary: "<p>The final stage of a Standard endpoint definition, at which it can be attached to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface AttachableStandard<ParentT>
     typeParameters:
@@ -569,10 +566,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.WithStandardAttach<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.WithStandardAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the CDN profile Standard Akamai or Standard Verizon endpoint definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>
+  summary: "<p>The final stage of the CDN profile Standard Akamai or Standard Verizon endpoint definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.cdn.QueryStringCachingBehavior
   parent: com.microsoft.azure.management.cdn
@@ -581,7 +575,7 @@ references:
   nameWithType: QueryStringCachingBehavior
   fullName: com.microsoft.azure.management.cdn.QueryStringCachingBehavior
   type: Enum
-  summary: <p>Defines values for QueryStringCachingBehavior. </p>
+  summary: "<p>Defines values for QueryStringCachingBehavior. </p>"
   syntax:
     content: public enum QueryStringCachingBehavior
 - uid: com.microsoft.azure.management.cdn.GeoFilter
@@ -591,7 +585,7 @@ references:
   nameWithType: GeoFilter
   fullName: com.microsoft.azure.management.cdn.GeoFilter
   type: Class
-  summary: <p>Rules defining user geo access within a CDN endpoint. </p>
+  summary: "<p>Rules defining user geo access within a CDN endpoint. </p>"
   syntax:
     content: public class GeoFilter
 - uid: com.microsoft.azure.management.cdn.GeoFilterActions
@@ -601,7 +595,7 @@ references:
   nameWithType: GeoFilterActions
   fullName: com.microsoft.azure.management.cdn.GeoFilterActions
   type: Enum
-  summary: <p>Defines values for GeoFilterActions. </p>
+  summary: "<p>Defines values for GeoFilterActions. </p>"
   syntax:
     content: public enum GeoFilterActions
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode
@@ -611,6 +605,6 @@ references:
   nameWithType: CountryIsoCode
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.CountryIsoCode
   type: Class
-  summary: <p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>
+  summary: "<p>Defines values for country codes in ISO standard. E.g. the country code for United Kingdom is 'GB'. </p>"
   syntax:
     content: public class CountryIsoCode extends ExpandableStringEnum<CountryIsoCode>

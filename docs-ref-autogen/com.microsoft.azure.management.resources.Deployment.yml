@@ -674,10 +674,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -690,10 +687,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -706,12 +700,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -724,7 +713,7 @@ references:
   nameWithType: Indexable
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Indexable
   type: Interface
-  summary: <p>Base interface for all models that can be indexed by a key. </p>
+  summary: "<p>Base interface for all models that can be indexed by a key. </p>"
   syntax:
     content: public interface Indexable
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
@@ -734,10 +723,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -751,10 +737,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -768,10 +751,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -785,7 +765,7 @@ references:
   nameWithType: HasManager<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager<ManagerT>
   type: Interface
-  summary: <p>An interface representing a model that exposes a management client. </p>
+  summary: "<p>An interface representing a model that exposes a management client. </p>"
   syntax:
     content: public interface HasManager<ManagerT>
     typeParameters:
@@ -799,7 +779,7 @@ references:
   nameWithType: HasName
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
   type: Interface
-  summary: <p>An interface representing a model that has a name. </p>
+  summary: "<p>An interface representing a model that has a name. </p>"
   syntax:
     content: public interface HasName
 - uid: com.microsoft.azure.management.resources.Provider
@@ -809,7 +789,7 @@ references:
   nameWithType: Provider
   fullName: com.microsoft.azure.management.resources.Provider
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure resource provider. </p>
+  summary: "<p>An immutable client-side representation of an Azure resource provider. </p>"
   syntax:
     content: public interface Provider
 - uid: com.microsoft.azure.management.resources.Dependency
@@ -819,7 +799,7 @@ references:
   nameWithType: Dependency
   fullName: com.microsoft.azure.management.resources.Dependency
   type: Class
-  summary: <p>Deployment dependency information. </p>
+  summary: "<p>Deployment dependency information. </p>"
   syntax:
     content: public class Dependency
 - uid: com.microsoft.azure.management.resources.TemplateLink
@@ -829,7 +809,7 @@ references:
   nameWithType: TemplateLink
   fullName: com.microsoft.azure.management.resources.TemplateLink
   type: Class
-  summary: <p>Entity representing the reference to the template. </p>
+  summary: "<p>Entity representing the reference to the template. </p>"
   syntax:
     content: public class TemplateLink
 - uid: com.microsoft.azure.management.resources.ParametersLink
@@ -839,7 +819,7 @@ references:
   nameWithType: ParametersLink
   fullName: com.microsoft.azure.management.resources.ParametersLink
   type: Class
-  summary: <p>Entity representing the reference to the deployment paramaters. </p>
+  summary: "<p>Entity representing the reference to the deployment paramaters. </p>"
   syntax:
     content: public class ParametersLink
 - uid: com.microsoft.azure.management.resources.DeploymentMode
@@ -849,7 +829,7 @@ references:
   nameWithType: DeploymentMode
   fullName: com.microsoft.azure.management.resources.DeploymentMode
   type: Enum
-  summary: <p>Defines values for DeploymentMode. </p>
+  summary: "<p>Defines values for DeploymentMode. </p>"
   syntax:
     content: public enum DeploymentMode
 - uid: com.microsoft.azure.management.resources.DeploymentOperations
@@ -859,7 +839,7 @@ references:
   nameWithType: DeploymentOperations
   fullName: com.microsoft.azure.management.resources.DeploymentOperations
   type: Interface
-  summary: <p>Entry point to deployment operation management API. </p>
+  summary: "<p>Entry point to deployment operation management API. </p>"
   syntax:
     content: public interface DeploymentOperations
 - uid: com.microsoft.azure.management.resources.DeploymentExportResult
@@ -869,6 +849,6 @@ references:
   nameWithType: DeploymentExportResult
   fullName: com.microsoft.azure.management.resources.DeploymentExportResult
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure deployment template export result. </p>
+  summary: "<p>An immutable client-side representation of an Azure deployment template export result. </p>"
   syntax:
     content: public interface DeploymentExportResult

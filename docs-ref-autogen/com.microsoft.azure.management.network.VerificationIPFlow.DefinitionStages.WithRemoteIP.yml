@@ -66,7 +66,7 @@ references:
   nameWithType: VerificationIPFlow.Definition
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.Definition
   type: Interface
-  summary: <p>The entirety of verification ip flow parameters definition. </p>
+  summary: "<p>The entirety of verification ip flow parameters definition. </p>"
   syntax:
     content: public interface Definition extends VerificationIPFlow.DefinitionStages.WithTargetResource,VerificationIPFlow.DefinitionStages.WithDirection,VerificationIPFlow.DefinitionStages.WithProtocol,VerificationIPFlow.DefinitionStages.WithLocalIP,VerificationIPFlow.DefinitionStages.WithRemoteIP,VerificationIPFlow.DefinitionStages.WithLocalPort,VerificationIPFlow.DefinitionStages.WithRemotePort,VerificationIPFlow.DefinitionStages.WithExecute
 - uid: com.microsoft.azure.management.network.VerificationIPFlow.DefinitionStages.WithLocalPort
@@ -76,6 +76,6 @@ references:
   nameWithType: VerificationIPFlow.DefinitionStages.WithLocalPort
   fullName: com.microsoft.azure.management.network.VerificationIPFlow.DefinitionStages.WithLocalPort
   type: Interface
-  summary: <p>The local port. Acceptable values are a single integer in the range (0-65535). Support for * for the source port, which depends on the direction. </p>
+  summary: "<p>The local port. Acceptable values are a single integer in the range (0-65535). Support for * for the source port, which depends on the direction. </p>"
   syntax:
     content: public interface WithLocalPort

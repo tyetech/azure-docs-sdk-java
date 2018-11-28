@@ -63,7 +63,7 @@ references:
   nameWithType: StateReplicator.getCopyStream()
   fullName: system.fabric.StateReplicator.getCopyStream()
   type: Method
-  summary: <p>Gets copy stream </p>
+  summary: "<p>Gets copy stream </p>"
   syntax:
     content: public OperationStream getCopyStream()
     return:
@@ -76,7 +76,7 @@ references:
   nameWithType: StateReplicator.getReplicationStream()
   fullName: system.fabric.StateReplicator.getReplicationStream()
   type: Method
-  summary: <p>Gets replication stream. </p>
+  summary: "<p>Gets replication stream. </p>"
   syntax:
     content: public OperationStream getReplicationStream()
     return:
@@ -89,7 +89,7 @@ references:
   nameWithType: StateReplicator.replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
   fullName: system.fabric.StateReplicator.replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Replicates state changes from Primary replica to the Secondary replicas and receives a quorum acknowledgement that those state changes have been applied. </p>
+  summary: "<p>Replicates state changes from Primary replica to the Secondary replicas and receives a quorum acknowledgement that those state changes have been applied. </p>"
   syntax:
     content: public CompletableFuture<SequenceNumber> replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
     parameters:
@@ -112,7 +112,7 @@ references:
   nameWithType: StateReplicator.updateReplicatorSettings(ReplicatorSettings settings)
   fullName: system.fabric.StateReplicator.updateReplicatorSettings(ReplicatorSettings settings)
   type: Method
-  summary: <p>Enables modification of replicator settings during runtime. The only setting which can be modified is the security credentials. </p>
+  summary: "<p>Enables modification of replicator settings during runtime. The only setting which can be modified is the security credentials. </p>"
   syntax:
     content: public void updateReplicatorSettings(ReplicatorSettings settings)
     parameters:
@@ -126,7 +126,7 @@ references:
   nameWithType: StateReplicator
   fullName: system.fabric.StateReplicator
   type: Interface
-  summary: <p>Exposes replication related functions of the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">FabricReplicator</xref> class that are used by <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">StateProvider</xref> to replicate state to ensure high availability. </p>
+  summary: "<p>Exposes replication related functions of the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">FabricReplicator</xref> class that are used by <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">StateProvider</xref> to replicate state to ensure high availability. </p>"
   syntax:
     content: public interface StateReplicator
 - uid: system.fabric.ReplicatorSettings
@@ -136,7 +136,7 @@ references:
   nameWithType: ReplicatorSettings
   fullName: system.fabric.ReplicatorSettings
   type: Class
-  summary: <p>Allows a stateful replica to configure the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> when creating it <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator(system.fabric.StateProvider,system.fabric.ReplicatorSettings)</xref></p>
+  summary: "<p>Allows a stateful replica to configure the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> when creating it <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator(system.fabric.StateProvider,system.fabric.ReplicatorSettings)</xref></p>"
   syntax:
     content: public class ReplicatorSettings
 - uid: system.fabric.FabricReplicator
@@ -146,12 +146,7 @@ references:
   nameWithType: FabricReplicator
   fullName: system.fabric.FabricReplicator
   type: Class
-  summary: >-
-    <p>Replicates state for high availability and reliability. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provides the default implementation of the <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref>, <xref uid="system.fabric.Replicator" data-throw-if-not-resolved="false">system.fabric.Replicator</xref>, and <xref uid="system.fabric.PrimaryReplicator" data-throw-if-not-resolved="false">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> interface. An instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> for use. </p>
+  summary: "<p>Replicates state for high availability and reliability. </p>\r\n<p>\r\n  <b>Remarks:</b>Provides the default implementation of the <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref>, <xref uid=\"system.fabric.Replicator\" data-throw-if-not-resolved=\"false\">system.fabric.Replicator</xref>, and <xref uid=\"system.fabric.PrimaryReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> interface. An instance of the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> for use. </p>"
   syntax:
     content: public class FabricReplicator implements Replicator
 - uid: system.fabric.StateProvider
@@ -161,6 +156,6 @@ references:
   nameWithType: StateProvider
   fullName: system.fabric.StateProvider
   type: Interface
-  summary: <p>Defines the behavior that a service must implement to interact with the <xref uid="system.fabric.FabricReplicator" data-throw-if-not-resolved="false">FabricReplicator</xref>. </p>
+  summary: "<p>Defines the behavior that a service must implement to interact with the <xref uid=\"system.fabric.FabricReplicator\" data-throw-if-not-resolved=\"false\">FabricReplicator</xref>. </p>"
   syntax:
     content: public interface StateProvider

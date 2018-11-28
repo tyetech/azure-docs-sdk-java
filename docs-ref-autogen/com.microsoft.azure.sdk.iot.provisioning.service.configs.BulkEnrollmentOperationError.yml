@@ -139,45 +139,6 @@ references:
   nameWithType: BulkEnrollmentOperationResult
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult
   type: Class
-  summary: >-
-    <p>Representation of a single Device Provisioning Service bulk operation result with a JSON deserializer.</p>
-
-    <p>This result is returned as a result of the <xref uid="" data-throw-if-not-resolved="false">ProvisioningServiceClient#runBulkEnrollmentOperation(BulkOperationMode, Collection)</xref>.</p>
-
-    <p>The provisioning service provides general bulk result in the isSuccessful, and a individual error result for each enrolment in the bulk.</p>
-
-    <p>The following JSON is an example of the result from a bulk operation. <pre><code>{
-
-            "isSuccessful":true,
-
-            "errors": [
-
-                {
-
-                    "registrationId":"validRegistrationId1",
-
-                    "errorCode":200,
-
-                    "errorStatus":"Succeeded"
-
-                },
-
-                {
-
-                    "registrationId":"validRegistrationId2",
-
-                    "errorCode":200,
-
-                    "errorStatus":"Succeeded"
-
-                }
-
-            ]
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Representation of a single Device Provisioning Service bulk operation result with a JSON deserializer.</p>\r\n<p>This result is returned as a result of the <xref uid=\"\" data-throw-if-not-resolved=\"false\">ProvisioningServiceClient#runBulkEnrollmentOperation(BulkOperationMode, Collection)</xref>.</p>\r\n<p>The provisioning service provides general bulk result in the isSuccessful, and a individual error result for each enrolment in the bulk.</p>\r\n<p>The following JSON is an example of the result from a bulk operation. <pre><code>{\r\n        \"isSuccessful\":true,\r\n        \"errors\": [\r\n            {\r\n                \"registrationId\":\"validRegistrationId1\",\r\n                \"errorCode\":200,\r\n                \"errorStatus\":\"Succeeded\"\r\n            },\r\n            {\r\n                \"registrationId\":\"validRegistrationId2\",\r\n                \"errorCode\":200,\r\n                \"errorStatus\":\"Succeeded\"\r\n            }\r\n        ]\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public class BulkEnrollmentOperationResult

@@ -67,10 +67,7 @@ references:
   nameWithType: ActorReminder.getDueTime()
   fullName: microsoft.servicefabric.actors.runtime.ActorReminder.getDueTime()
   type: Method
-  summary: >-
-    <p>Time when Reminder is first due.</p>
-
-    <p></p>
+  summary: "<p>Time when Reminder is first due.</p>\r\n<p></p>"
   syntax:
     content: public Duration getDueTime()
     return:
@@ -83,10 +80,7 @@ references:
   nameWithType: ActorReminder.getName()
   fullName: microsoft.servicefabric.actors.runtime.ActorReminder.getName()
   type: Method
-  summary: >-
-    <p>Name of Reminder set on Actor. The name is unique per actor.</p>
-
-    <p></p>
+  summary: "<p>Name of Reminder set on Actor. The name is unique per actor.</p>\r\n<p></p>"
   syntax:
     content: public String getName()
     return:
@@ -99,10 +93,7 @@ references:
   nameWithType: ActorReminder.getPeriod()
   fullName: microsoft.servicefabric.actors.runtime.ActorReminder.getPeriod()
   type: Method
-  summary: >-
-    <p>Periodic time when Reminder will be invoked.</p>
-
-    <p></p>
+  summary: "<p>Periodic time when Reminder will be invoked.</p>\r\n<p></p>"
   syntax:
     content: public Duration getPeriod()
     return:
@@ -115,10 +106,7 @@ references:
   nameWithType: ActorReminder.getState()
   fullName: microsoft.servicefabric.actors.runtime.ActorReminder.getState()
   type: Method
-  summary: >-
-    <p>State to be passed into reminder invocation.</p>
-
-    <p></p>
+  summary: "<p>State to be passed into reminder invocation.</p>\r\n<p></p>"
   syntax:
     content: public byte [] getState()
     return:
@@ -131,7 +119,7 @@ references:
   nameWithType: ActorReminder
   fullName: microsoft.servicefabric.actors.runtime.ActorReminder
   type: Interface
-  summary: <p>Encapsulates Reminder set on an Actor </p>
+  summary: "<p>Encapsulates Reminder set on an Actor </p>"
   syntax:
     content: public interface ActorReminder
 - uid: microsoft.servicefabric.actors.runtime.ActorReminderStateImpl

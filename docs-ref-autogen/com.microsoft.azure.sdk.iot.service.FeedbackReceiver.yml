@@ -368,7 +368,7 @@ references:
   nameWithType: Receiver
   fullName: com.microsoft.azure.sdk.iot.service.Receiver
   type: Class
-  summary: <p>A receiver is a class abstracting the methods to receive messages, in order to use it for multiple endpoints, e.g. feedback endpoint, "alerts" (i.e. D2C). </p>
+  summary: "<p>A receiver is a class abstracting the methods to receive messages, in order to use it for multiple endpoints, e.g. feedback endpoint, \"alerts\" (i.e. D2C). </p>"
   syntax:
     content: public class Receiver
 - uid: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpReceive
@@ -378,7 +378,7 @@ references:
   nameWithType: AmqpReceive
   fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpReceive
   type: Class
-  summary: <p>Instance of the QPID-Proton-J BaseHandler class overriding the events what are needed to handle high level open, close methods and feedback received event. </p>
+  summary: "<p>Instance of the QPID-Proton-J BaseHandler class overriding the events what are needed to handle high level open, close methods and feedback received event. </p>"
   syntax:
     content: public class AmqpReceive implements AmqpFeedbackReceivedEvent
 - uid: com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol
@@ -388,7 +388,7 @@ references:
   nameWithType: IotHubServiceClientProtocol
   fullName: com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the service client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the service client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubServiceClientProtocol
 - uid: com.microsoft.azure.sdk.iot.service.FeedbackReceiver.FeedbackReceiver(String,String,String,IotHubServiceClientProtocol)
@@ -398,10 +398,7 @@ references:
   nameWithType: FeedbackReceiver.FeedbackReceiver(String hostName, String userName, String sasToken, IotHubServiceClientProtocol iotHubServiceClientProtocol)
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackReceiver.FeedbackReceiver(String hostName, String userName, String sasToken, IotHubServiceClientProtocol iotHubServiceClientProtocol)
   type: Constructor
-  summary: >-
-    <p>Constructor to verify initialization parameters Create instance of AmqpReceive</p>
-
-    <p></p>
+  summary: "<p>Constructor to verify initialization parameters Create instance of AmqpReceive</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.sdk.iot.service.FeedbackBatch
   parent: com.microsoft.azure.sdk.iot.service
@@ -410,6 +407,6 @@ references:
   nameWithType: FeedbackBatch
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackBatch
   type: Class
-  summary: <p>Data structure for feedback messages received in Json array Provide getters and setters for batch properties and messages </p>
+  summary: "<p>Data structure for feedback messages received in Json array Provide getters and setters for batch properties and messages </p>"
   syntax:
     content: public class FeedbackBatch

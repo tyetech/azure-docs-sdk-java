@@ -346,12 +346,7 @@ references:
   nameWithType: Logger
   fullName: com.microsoft.identity.client.Logger
   type: Class
-  summary: >-
-    <p>Override public void log(String tag, Logger.LogLevel logLevel, String message, boolean containsPII) { } });   Loglevel can be specified at <xref uid="com.microsoft.identity.client.Logger.LogLevel.ERROR" data-throw-if-not-resolved="false">LogLevel#ERROR</xref>, <xref uid="com.microsoft.identity.client.Logger.LogLevel.WARNING" data-throw-if-not-resolved="false">LogLevel#WARNING</xref>, <xref uid="com.microsoft.identity.client.Logger.LogLevel.INFO" data-throw-if-not-resolved="false">LogLevel#INFO</xref> and <xref uid="com.microsoft.identity.client.Logger.LogLevel.VERBOSE" data-throw-if-not-resolved="false">LogLevel#VERBOSE</xref>. The sdk enables the verbose level logging by default, to set different level logging: <pre><code>Logger.getInstance().setLogLevel(Loglevel)
-
-        </code></pre> By default, the sdk doesn't send any log messages that contain PII (personal identifiable information) info. To enable PII logging: <pre><code>Logger.getInstance().setEnablePII(true);
-
-        </code></pre></p>
+  summary: "<p>Override public void log(String tag, Logger.LogLevel logLevel, String message, boolean containsPII) { } });   Loglevel can be specified at <xref uid=\"com.microsoft.identity.client.Logger.LogLevel.ERROR\" data-throw-if-not-resolved=\"false\">LogLevel#ERROR</xref>, <xref uid=\"com.microsoft.identity.client.Logger.LogLevel.WARNING\" data-throw-if-not-resolved=\"false\">LogLevel#WARNING</xref>, <xref uid=\"com.microsoft.identity.client.Logger.LogLevel.INFO\" data-throw-if-not-resolved=\"false\">LogLevel#INFO</xref> and <xref uid=\"com.microsoft.identity.client.Logger.LogLevel.VERBOSE\" data-throw-if-not-resolved=\"false\">LogLevel#VERBOSE</xref>. The sdk enables the verbose level logging by default, to set different level logging: <pre><code>Logger.getInstance().setLogLevel(Loglevel)\r\n    </code></pre> By default, the sdk doesn't send any log messages that contain PII (personal identifiable information) info. To enable PII logging: <pre><code>Logger.getInstance().setEnablePII(true);\r\n    </code></pre></p>"
   syntax: *o1
 - uid: com.microsoft.identity.client.ILoggerCallback
   parent: com.microsoft.identity.client
@@ -360,7 +355,7 @@ references:
   nameWithType: ILoggerCallback
   fullName: com.microsoft.identity.client.ILoggerCallback
   type: Interface
-  summary: <p>Interface for apps to configure the external logging and implement the callback to designate the output of the log messages. </p>
+  summary: "<p>Interface for apps to configure the external logging and implement the callback to designate the output of the log messages. </p>"
   syntax:
     content: public interface ILoggerCallback
 - uid: com.microsoft.identity.client.Logger.LogLevel.ERROR
@@ -370,7 +365,7 @@ references:
   nameWithType: Logger.LogLevel.ERROR
   fullName: com.microsoft.identity.client.Logger.LogLevel.ERROR
   type: Field
-  summary: <p>Error level logging. </p>
+  summary: "<p>Error level logging. </p>"
   syntax:
     content: public ERROR
 - uid: com.microsoft.identity.client.Logger.LogLevel.WARNING
@@ -380,7 +375,7 @@ references:
   nameWithType: Logger.LogLevel.WARNING
   fullName: com.microsoft.identity.client.Logger.LogLevel.WARNING
   type: Field
-  summary: <p>Warning level logging. </p>
+  summary: "<p>Warning level logging. </p>"
   syntax:
     content: public WARNING
 - uid: com.microsoft.identity.client.Logger.LogLevel
@@ -390,7 +385,7 @@ references:
   nameWithType: Logger.LogLevel
   fullName: com.microsoft.identity.client.Logger.LogLevel
   type: Enum
-  summary: <p>Enum class for LogLevel that the sdk recognizes. </p>
+  summary: "<p>Enum class for LogLevel that the sdk recognizes. </p>"
   syntax:
     content: public enum LogLevel
 - uid: com.microsoft.identity.client.Logger.LogLevel.INFO
@@ -400,7 +395,7 @@ references:
   nameWithType: Logger.LogLevel.INFO
   fullName: com.microsoft.identity.client.Logger.LogLevel.INFO
   type: Field
-  summary: <p>Info level logging. </p>
+  summary: "<p>Info level logging. </p>"
   syntax:
     content: public INFO
 - uid: com.microsoft.identity.client.Logger.LogLevel.VERBOSE
@@ -410,6 +405,6 @@ references:
   nameWithType: Logger.LogLevel.VERBOSE
   fullName: com.microsoft.identity.client.Logger.LogLevel.VERBOSE
   type: Field
-  summary: <p>Verbose level logging. </p>
+  summary: "<p>Verbose level logging. </p>"
   syntax:
     content: public VERBOSE

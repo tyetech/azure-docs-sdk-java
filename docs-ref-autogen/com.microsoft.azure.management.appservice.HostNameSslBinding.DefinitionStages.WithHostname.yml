@@ -82,7 +82,7 @@ references:
   nameWithType: HostNameSslBinding.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a hostname SSL binding definition. </p>
+  summary: "<p>The entirety of a hostname SSL binding definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends HostNameSslBinding.DefinitionStages.Blank<ParentT>,HostNameSslBinding.DefinitionStages.WithHostname<ParentT>,HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>,HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>,HostNameSslBinding.DefinitionStages.WithSslType<ParentT>,HostNameSslBinding.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -96,7 +96,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a hostname SSL binding definition. </p>
+  summary: "<p>The first stage of a hostname SSL binding definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
     typeParameters:
@@ -110,7 +110,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing certificate information to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing certificate information to be specified. </p>"
   syntax:
     content: public interface WithCertificate<ParentT>
     typeParameters:

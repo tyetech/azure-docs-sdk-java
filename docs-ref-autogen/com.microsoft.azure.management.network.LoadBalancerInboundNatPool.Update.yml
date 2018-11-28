@@ -35,7 +35,7 @@ references:
   nameWithType: HasFrontend.UpdateStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   fullName: com.microsoft.azure.management.network.model.HasFrontend.UpdateStages.WithFrontend<ReturnT>.fromFrontend(String frontendName)
   type: Method
-  summary: <p>Specifies the frontend. </p>
+  summary: "<p>Specifies the frontend. </p>"
   syntax:
     content: public ReturnT fromFrontend(String frontendName)
     parameters:
@@ -52,7 +52,7 @@ references:
   nameWithType: LoadBalancerInboundNatPool.UpdateStages.WithFrontendPortRange.fromFrontendPortRange(int from, int to)
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithFrontendPortRange.fromFrontendPortRange(int from, int to)
   type: Method
-  summary: <p>Specifies the frontend port range. </p>
+  summary: "<p>Specifies the frontend port range. </p>"
   syntax:
     content: public Update fromFrontendPortRange(int from, int to)
     parameters:
@@ -72,12 +72,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -90,7 +85,7 @@ references:
   nameWithType: HasBackendPort.UpdateStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   fullName: com.microsoft.azure.management.network.model.HasBackendPort.UpdateStages.WithBackendPort<ReturnT>.toBackendPort(int port)
   type: Method
-  summary: <p>Specifies a backend port to send network traffic to. </p>
+  summary: "<p>Specifies a backend port to send network traffic to. </p>"
   syntax:
     content: public ReturnT toBackendPort(int port)
     parameters:
@@ -107,7 +102,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -124,10 +119,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -141,7 +133,7 @@ references:
   nameWithType: LoadBalancerInboundNatPool.UpdateStages.WithProtocol
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithProtocol
   type: Interface
-  summary: <p>The stage of an inbound NAT pool update allowing to specify the transport protocol for the pool to apply to. </p>
+  summary: "<p>The stage of an inbound NAT pool update allowing to specify the transport protocol for the pool to apply to. </p>"
   syntax:
     content: public interface WithProtocol
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithFrontend
@@ -151,7 +143,7 @@ references:
   nameWithType: LoadBalancerInboundNatPool.UpdateStages.WithFrontend
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithFrontend
   type: Interface
-  summary: <p>The stage of an inbound NAT pool update allowing to specify the frontend for the inbound NAT rules in the pool to apply to. </p>
+  summary: "<p>The stage of an inbound NAT pool update allowing to specify the frontend for the inbound NAT rules in the pool to apply to. </p>"
   syntax:
     content: public interface WithFrontend
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithBackendPort
@@ -161,7 +153,7 @@ references:
   nameWithType: LoadBalancerInboundNatPool.UpdateStages.WithBackendPort
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithBackendPort
   type: Interface
-  summary: <p>The stage of an inbound NAT pool update allowing to specify the backend port. </p>
+  summary: "<p>The stage of an inbound NAT pool update allowing to specify the backend port. </p>"
   syntax:
     content: public interface WithBackendPort
 - uid: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithFrontendPortRange
@@ -171,6 +163,6 @@ references:
   nameWithType: LoadBalancerInboundNatPool.UpdateStages.WithFrontendPortRange
   fullName: com.microsoft.azure.management.network.LoadBalancerInboundNatPool.UpdateStages.WithFrontendPortRange
   type: Interface
-  summary: <p>The stage of an inbound NAT pool update allowing to specify the frontend port range. </p>
+  summary: "<p>The stage of an inbound NAT pool update allowing to specify the frontend port range. </p>"
   syntax:
     content: public interface WithFrontendPortRange

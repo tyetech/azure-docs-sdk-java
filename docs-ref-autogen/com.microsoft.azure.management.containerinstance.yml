@@ -82,7 +82,7 @@ references:
   nameWithType: AzureFileVolume
   fullName: com.microsoft.azure.management.containerinstance.AzureFileVolume
   type: Class
-  summary: <p>The Azure file volume. </p>
+  summary: "<p>The Azure file volume. </p>"
   syntax:
     content: public class AzureFileVolume
 - uid: com.microsoft.azure.management.containerinstance.Container
@@ -92,7 +92,7 @@ references:
   nameWithType: Container
   fullName: com.microsoft.azure.management.containerinstance.Container
   type: Class
-  summary: <p>A container instance. </p>
+  summary: "<p>A container instance. </p>"
   syntax:
     content: public class Container
 - uid: com.microsoft.azure.management.containerinstance.ContainerEvent
@@ -102,7 +102,7 @@ references:
   nameWithType: ContainerEvent
   fullName: com.microsoft.azure.management.containerinstance.ContainerEvent
   type: Class
-  summary: <p>A container event. </p>
+  summary: "<p>A container event. </p>"
   syntax:
     content: public class ContainerEvent
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup
@@ -112,7 +112,7 @@ references:
   nameWithType: ContainerGroup
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Container Group. </p>
+  summary: "<p>An immutable client-side representation of an Azure Container Group. </p>"
   syntax:
     content: public interface ContainerGroup extends GroupableResource<ContainerInstanceManager, ContainerGroupInner>,Refreshable<ContainerGroup>
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroupNetworkProtocol
@@ -122,7 +122,7 @@ references:
   nameWithType: ContainerGroupNetworkProtocol
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroupNetworkProtocol
   type: Class
-  summary: <p>Defines values for ContainerGroupNetworkProtocol. </p>
+  summary: "<p>Defines values for ContainerGroupNetworkProtocol. </p>"
   syntax:
     content: public class ContainerGroupNetworkProtocol
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroups
@@ -132,7 +132,7 @@ references:
   nameWithType: ContainerGroups
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroups
   type: Interface
-  summary: <p>Entry point to the container instance management API. </p>
+  summary: "<p>Entry point to the container instance management API. </p>"
   syntax:
     content: public interface ContainerGroups extends SupportsCreating<ContainerGroup.DefinitionStages.Blank>,HasManager<ContainerInstanceManager>,HasInner<ContainerGroupsInner>,SupportsBatchCreation<ContainerGroup>,SupportsGettingByResourceGroup<ContainerGroup>,SupportsGettingById<ContainerGroup>,SupportsDeletingByResourceGroup,SupportsDeletingById,SupportsBatchDeletion,SupportsListingByResourceGroup<ContainerGroup>,SupportsListing<ContainerGroup>
 - uid: com.microsoft.azure.management.containerinstance.ContainerPort
@@ -142,7 +142,7 @@ references:
   nameWithType: ContainerPort
   fullName: com.microsoft.azure.management.containerinstance.ContainerPort
   type: Class
-  summary: <p>The container port. </p>
+  summary: "<p>The container port. </p>"
   syntax:
     content: public class ContainerPort
 - uid: com.microsoft.azure.management.containerinstance.ContainerPropertiesInstanceView
@@ -152,7 +152,7 @@ references:
   nameWithType: ContainerPropertiesInstanceView
   fullName: com.microsoft.azure.management.containerinstance.ContainerPropertiesInstanceView
   type: Class
-  summary: <p>The instance view of the container. Only valid in response. </p>
+  summary: "<p>The instance view of the container. Only valid in response. </p>"
   syntax:
     content: public class ContainerPropertiesInstanceView
 - uid: com.microsoft.azure.management.containerinstance.ContainerRestartPolicy
@@ -162,7 +162,7 @@ references:
   nameWithType: ContainerRestartPolicy
   fullName: com.microsoft.azure.management.containerinstance.ContainerRestartPolicy
   type: Class
-  summary: <p>Defines values for ContainerRestartPolicy. </p>
+  summary: "<p>Defines values for ContainerRestartPolicy. </p>"
   syntax:
     content: public class ContainerRestartPolicy
 - uid: com.microsoft.azure.management.containerinstance.ContainerState
@@ -172,7 +172,7 @@ references:
   nameWithType: ContainerState
   fullName: com.microsoft.azure.management.containerinstance.ContainerState
   type: Class
-  summary: <p>The container state. </p>
+  summary: "<p>The container state. </p>"
   syntax:
     content: public class ContainerState
 - uid: com.microsoft.azure.management.containerinstance.EnvironmentVariable
@@ -182,7 +182,7 @@ references:
   nameWithType: EnvironmentVariable
   fullName: com.microsoft.azure.management.containerinstance.EnvironmentVariable
   type: Class
-  summary: <p>Environment variable to set within the container. </p>
+  summary: "<p>Environment variable to set within the container. </p>"
   syntax:
     content: public class EnvironmentVariable
 - uid: com.microsoft.azure.management.containerinstance.ImageRegistryCredential
@@ -192,7 +192,7 @@ references:
   nameWithType: ImageRegistryCredential
   fullName: com.microsoft.azure.management.containerinstance.ImageRegistryCredential
   type: Class
-  summary: <p>Image registry credential. </p>
+  summary: "<p>Image registry credential. </p>"
   syntax:
     content: public class ImageRegistryCredential
 - uid: com.microsoft.azure.management.containerinstance.IpAddress
@@ -202,7 +202,7 @@ references:
   nameWithType: IpAddress
   fullName: com.microsoft.azure.management.containerinstance.IpAddress
   type: Class
-  summary: <p>IP address for the group. </p>
+  summary: "<p>IP address for the group. </p>"
   syntax:
     content: public class IpAddress
 - uid: com.microsoft.azure.management.containerinstance.OperatingSystemTypes
@@ -212,7 +212,7 @@ references:
   nameWithType: OperatingSystemTypes
   fullName: com.microsoft.azure.management.containerinstance.OperatingSystemTypes
   type: Class
-  summary: <p>Defines values for OperatingSystemTypes. </p>
+  summary: "<p>Defines values for OperatingSystemTypes. </p>"
   syntax:
     content: public class OperatingSystemTypes
 - uid: com.microsoft.azure.management.containerinstance.Port
@@ -222,7 +222,7 @@ references:
   nameWithType: Port
   fullName: com.microsoft.azure.management.containerinstance.Port
   type: Class
-  summary: <p>The port. </p>
+  summary: "<p>The port. </p>"
   syntax:
     content: public class Port
 - uid: com.microsoft.azure.management.containerinstance.ResourceLimits
@@ -232,7 +232,7 @@ references:
   nameWithType: ResourceLimits
   fullName: com.microsoft.azure.management.containerinstance.ResourceLimits
   type: Class
-  summary: <p>The resource limits. </p>
+  summary: "<p>The resource limits. </p>"
   syntax:
     content: public class ResourceLimits
 - uid: com.microsoft.azure.management.containerinstance.ResourceRequests
@@ -242,7 +242,7 @@ references:
   nameWithType: ResourceRequests
   fullName: com.microsoft.azure.management.containerinstance.ResourceRequests
   type: Class
-  summary: <p>The resource requests. </p>
+  summary: "<p>The resource requests. </p>"
   syntax:
     content: public class ResourceRequests
 - uid: com.microsoft.azure.management.containerinstance.ResourceRequirements
@@ -252,7 +252,7 @@ references:
   nameWithType: ResourceRequirements
   fullName: com.microsoft.azure.management.containerinstance.ResourceRequirements
   type: Class
-  summary: <p>The resource requirements. </p>
+  summary: "<p>The resource requirements. </p>"
   syntax:
     content: public class ResourceRequirements
 - uid: com.microsoft.azure.management.containerinstance.Volume
@@ -262,7 +262,7 @@ references:
   nameWithType: Volume
   fullName: com.microsoft.azure.management.containerinstance.Volume
   type: Class
-  summary: <p>The volume. </p>
+  summary: "<p>The volume. </p>"
   syntax:
     content: public class Volume
 - uid: com.microsoft.azure.management.containerinstance.VolumeMount
@@ -272,7 +272,7 @@ references:
   nameWithType: VolumeMount
   fullName: com.microsoft.azure.management.containerinstance.VolumeMount
   type: Class
-  summary: <p>The volume mount. </p>
+  summary: "<p>The volume mount. </p>"
   syntax:
     content: public class VolumeMount
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.Blank
@@ -282,7 +282,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the container group definition. </p>
+  summary: "<p>The first stage of the container group definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinition
@@ -292,7 +292,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container group's volume definition stages. </p>
+  summary: "<p>Grouping of the container group's volume definition stages. </p>"
   syntax:
     content: public interface ContainerInstanceDefinition<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPortsOrContainerInstanceAttach<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
     typeParameters:
@@ -305,10 +305,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the container instance definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the container instance definition.</p>\r\n<p></p>"
   syntax:
     content: public interface ContainerInstanceDefinitionBlank<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage<ParentT>
     typeParameters:
@@ -322,7 +319,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages
   type: Interface
-  summary: <p>Grouping of volume definition stages. </p>
+  summary: "<p>Grouping of volume definition stages. </p>"
   syntax:
     content: public interface ContainerInstanceDefinitionStages
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.Definition
@@ -332,7 +329,7 @@ references:
   nameWithType: ContainerGroup.Definition
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.Definition
   type: Interface
-  summary: <p>The entirety of the Azure Container Instance service container group definition. </p>
+  summary: "<p>The entirety of the Azure Container Instance service container group definition. </p>"
   syntax:
     content: public interface Definition extends ContainerGroup.DefinitionStages.Blank,ContainerGroup.DefinitionStages.WithGroup,ContainerGroup.DefinitionStages.WithOsType,ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry,ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume,ContainerGroup.DefinitionStages.WithVolume,ContainerGroup.DefinitionStages.WithFirstContainerInstance,ContainerGroup.DefinitionStages.WithNextContainerInstance,ContainerGroup.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages
@@ -342,7 +339,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages
   type: Interface
-  summary: <p>Grouping of the container group definition stages. </p>
+  summary: "<p>Grouping of the container group definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinition
@@ -352,7 +349,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container group's volume definition stages. </p>
+  summary: "<p>Grouping of the container group's volume definition stages. </p>"
   syntax:
     content: public interface VolumeDefinition<ParentT> extends ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountName<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountKey<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
     typeParameters:
@@ -365,10 +362,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the volume definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the volume definition.</p>\r\n<p></p>"
   syntax:
     content: public interface VolumeDefinitionBlank<ParentT> extends ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>
     typeParameters:
@@ -382,7 +376,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages
   type: Interface
-  summary: <p>Grouping of volume definition stages. </p>
+  summary: "<p>Grouping of volume definition stages. </p>"
   syntax:
     content: public interface VolumeDefinitionStages
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare
@@ -392,7 +386,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>
   type: Interface
-  summary: <p>The stage of the volume definition allowing to specify a read only Azure File Share name. </p>
+  summary: "<p>The stage of the volume definition allowing to specify a read only Azure File Share name. </p>"
   syntax:
     content: public interface WithAzureFileShare<ParentT>
     typeParameters:
@@ -406,10 +400,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the container instance definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the container instance definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithContainerInstanceAttach<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithCpuCoreCount<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithMemorySize<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithStartingCommandLine<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithEnvironmentVariables<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithVolumeMountSetting<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
@@ -423,12 +414,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithCpuCoreCount<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithCpuCoreCount<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify the number of CPU cores. </p>
-
-    <p>The CPU cores can be specified as a fraction, i.e. 1.5 represents one and a half atomic CPU cores will be assigned to this container instance.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify the number of CPU cores. </p>\r\n<p>The CPU cores can be specified as a fraction, i.e. 1.5 represents one and a half atomic CPU cores will be assigned to this container instance.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCpuCoreCount<ParentT>
     typeParameters:
@@ -442,7 +428,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<ContainerGroup>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithEnvironmentVariables
@@ -452,10 +438,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithEnvironmentVariables<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithEnvironmentVariables<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify the environment variables.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify the environment variables.</p>\r\n<p></p>"
   syntax:
     content: public interface WithEnvironmentVariables<ParentT>
     typeParameters:
@@ -469,7 +452,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithFirstContainerInstance
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithFirstContainerInstance
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify first required container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify first required container instance. </p>"
   syntax:
     content: public interface WithFirstContainerInstance
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithGroup
@@ -479,7 +462,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the container group definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<DefinitionStages.WithOsType>
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage
@@ -489,10 +472,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify the container image.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify the container image.</p>\r\n<p></p>"
   syntax:
     content: public interface WithImage<ParentT>
     typeParameters:
@@ -506,12 +486,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithMemorySize<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithMemorySize<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify the memory size in GB. </p>
-
-    <p>The memory size can be specified as a fraction, i.e. 1.5 represents one and a half GB of memory.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify the memory size in GB. </p>\r\n<p>The memory size can be specified as a fraction, i.e. 1.5 represents one and a half GB of memory.</p>\r\n<p></p>"
   syntax:
     content: public interface WithMemorySize<ParentT>
     typeParameters:
@@ -525,7 +500,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithNextContainerInstance
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithNextContainerInstance
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a container instance. </p>"
   syntax:
     content: public interface WithNextContainerInstance extends ContainerGroup.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts
@@ -535,10 +510,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify (or not) the container ports.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify (or not) the container ports.</p>\r\n<p></p>"
   syntax:
     content: public interface WithOrWithoutPorts<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts<ParentT>
     typeParameters:
@@ -552,7 +524,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithOsType
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithOsType
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify the OS type. </p>
+  summary: "<p>The stage of the container group definition allowing to specify the OS type. </p>"
   syntax:
     content: public interface WithOsType
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts
@@ -562,10 +534,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing not to specify any container ports internal or external.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing not to specify any container ports internal or external.</p>\r\n<p></p>"
   syntax:
     content: public interface WithoutPorts<ParentT>
     typeParameters:
@@ -579,10 +548,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify the container ports.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify the container ports.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPorts<ParentT>
     typeParameters:
@@ -596,10 +562,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPortsOrContainerInstanceAttach<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPortsOrContainerInstanceAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify one or more container ports.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify one or more container ports.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPortsOrContainerInstanceAttach<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
     typeParameters:
@@ -613,7 +576,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistry
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistry
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a private image registry. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a private image registry. </p>"
   syntax:
     content: public interface WithPrivateImageRegistry
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume
@@ -623,7 +586,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPrivateImageRegistryOrVolume
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a private image registry or a volume. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a private image registry or a volume. </p>"
   syntax:
     content: public interface WithPrivateImageRegistryOrVolume extends ContainerGroup.DefinitionStages.WithPrivateImageRegistry
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPublicImageRegistryOnly
@@ -633,7 +596,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPublicImageRegistryOnly
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPublicImageRegistryOnly
   type: Interface
-  summary: <p>The stage of the container group definition allowing to skip the private image registry. </p>
+  summary: "<p>The stage of the container group definition allowing to skip the private image registry. </p>"
   syntax:
     content: public interface WithPublicImageRegistryOnly
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry
@@ -643,7 +606,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithPublicOrPrivateImageRegistry
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a public only or private image registry. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a public only or private image registry. </p>"
   syntax:
     content: public interface WithPublicOrPrivateImageRegistry extends ContainerGroup.DefinitionStages.WithPublicImageRegistryOnly,ContainerGroup.DefinitionStages.WithPrivateImageRegistry
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithStartingCommandLine
@@ -653,10 +616,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithStartingCommandLine<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithStartingCommandLine<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify the starting command line.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify the starting command line.</p>\r\n<p></p>"
   syntax:
     content: public interface WithStartingCommandLine<ParentT>
     typeParameters:
@@ -670,10 +630,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountKey<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountKey<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the volume definition allowing to specify the storage account key to access to the Azure file.</p>
-
-    <p></p>
+  summary: "<p>The stage of the volume definition allowing to specify the storage account key to access to the Azure file.</p>\r\n<p></p>"
   syntax:
     content: public interface WithStorageAccountKey<ParentT>
     typeParameters:
@@ -687,7 +644,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountName<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountName<ParentT>
   type: Interface
-  summary: <p>The stage of the volume definition allowing to specify the storage account name to access to the Azure file. </p>
+  summary: "<p>The stage of the volume definition allowing to specify the storage account name to access to the Azure file. </p>"
   syntax:
     content: public interface WithStorageAccountName<ParentT>
     typeParameters:
@@ -701,7 +658,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.WithVolume
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.WithVolume
   type: Interface
-  summary: <p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>
+  summary: "<p>The stage of the container group definition allowing to specify a volume that can be mounted by a container instance. </p>"
   syntax:
     content: public interface WithVolume extends ContainerGroup.DefinitionStages.WithFirstContainerInstance
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach
@@ -711,10 +668,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the volume definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the volume definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithVolumeAttach<ParentT> extends Attachable<ParentT>.InDefinition
     typeParameters:
@@ -728,10 +682,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithVolumeMountSetting<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithVolumeMountSetting<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify volume mount setting.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify volume mount setting.</p>\r\n<p></p>"
   syntax:
     content: public interface WithVolumeMountSetting<ParentT>
     typeParameters:

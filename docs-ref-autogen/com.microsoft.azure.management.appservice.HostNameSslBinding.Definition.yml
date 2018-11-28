@@ -48,7 +48,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -61,7 +61,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithHostname<ParentT>.forHostname(String hostname)
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithHostname<ParentT>.forHostname(String hostname)
   type: Method
-  summary: <p>Specifies the hostname to bind SSL certificate to. </p>
+  summary: "<p>Specifies the hostname to bind SSL certificate to. </p>"
   syntax:
     content: public WithCertificate<ParentT> forHostname(String hostname)
     parameters:
@@ -78,7 +78,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withExistingAppServiceCertificateOrder(AppServiceCertificateOrder certificateOrder)
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withExistingAppServiceCertificateOrder(AppServiceCertificateOrder certificateOrder)
   type: Method
-  summary: <p>Specifies a ready-to-use certificate order to use. This is usually useful for reusing wildcard certificates. </p>
+  summary: "<p>Specifies a ready-to-use certificate order to use. This is usually useful for reusing wildcard certificates. </p>"
   syntax:
     content: public WithSslType<ParentT> withExistingAppServiceCertificateOrder(AppServiceCertificateOrder certificateOrder)
     parameters:
@@ -95,7 +95,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withExistingCertificate(String certificateName)
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withExistingCertificate(String certificateName)
   type: Method
-  summary: <p>Use an existing certificate in the resource group. </p>
+  summary: "<p>Use an existing certificate in the resource group. </p>"
   syntax:
     content: public WithSslType<ParentT> withExistingCertificate(String certificateName)
     parameters:
@@ -112,7 +112,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>.withExistingKeyVault(Vault vault)
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>.withExistingKeyVault(Vault vault)
   type: Method
-  summary: <p>Stores the certificate in an existing vault. </p>
+  summary: "<p>Stores the certificate in an existing vault. </p>"
   syntax:
     content: public WithSslType<ParentT> withExistingKeyVault(Vault vault)
     parameters:
@@ -129,7 +129,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithSslType<ParentT>.withIpBasedSsl()
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithSslType<ParentT>.withIpBasedSsl()
   type: Method
-  summary: <p>Uses IP based SSL. Only one hostname can be bound to IP based SSL. </p>
+  summary: "<p>Uses IP based SSL. Only one hostname can be bound to IP based SSL. </p>"
   syntax:
     content: public WithAttach<ParentT> withIpBasedSsl()
     return:
@@ -142,7 +142,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>.withNewKeyVault(String vaultName)
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>.withNewKeyVault(String vaultName)
   type: Method
-  summary: <p>Creates a new key vault to store the certificate. </p>
+  summary: "<p>Creates a new key vault to store the certificate. </p>"
   syntax:
     content: public WithSslType<ParentT> withNewKeyVault(String vaultName)
     parameters:
@@ -159,7 +159,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withNewStandardSslCertificateOrder(String certificateOrderName)
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withNewStandardSslCertificateOrder(String certificateOrderName)
   type: Method
-  summary: <p>Places a new App Service certificate order to use for the hostname. </p>
+  summary: "<p>Places a new App Service certificate order to use for the hostname. </p>"
   syntax:
     content: public WithKeyVault<ParentT> withNewStandardSslCertificateOrder(String certificateOrderName)
     parameters:
@@ -176,7 +176,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withPfxCertificateToUpload(File pfxFile, String password)
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>.withPfxCertificateToUpload(File pfxFile, String password)
   type: Method
-  summary: <p>Uploads a PFX certificate. </p>
+  summary: "<p>Uploads a PFX certificate. </p>"
   syntax:
     content: public WithSslType<ParentT> withPfxCertificateToUpload(File pfxFile, String password)
     parameters:
@@ -196,7 +196,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithSslType<ParentT>.withSniBasedSsl()
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithSslType<ParentT>.withSniBasedSsl()
   type: Method
-  summary: <p>Uses Server Name Indication (SNI) based SSL. </p>
+  summary: "<p>Uses Server Name Indication (SNI) based SSL. </p>"
   syntax:
     content: public WithAttach<ParentT> withSniBasedSsl()
     return:
@@ -209,7 +209,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of a hostname SSL binding definition. </p>
+  summary: "<p>The first stage of a hostname SSL binding definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
     typeParameters:
@@ -223,7 +223,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithHostname<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing hostname to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing hostname to be specified. </p>"
   syntax:
     content: public interface WithHostname<ParentT>
     typeParameters:
@@ -237,7 +237,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing certificate information to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing certificate information to be specified. </p>"
   syntax:
     content: public interface WithCertificate<ParentT>
     typeParameters:
@@ -251,7 +251,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing key vault for certificate store to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing key vault for certificate store to be specified. </p>"
   syntax:
     content: public interface WithKeyVault<ParentT>
     typeParameters:
@@ -265,7 +265,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithSslType<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithSslType<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing SSL type to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing SSL type to be specified. </p>"
   syntax:
     content: public interface WithSslType<ParentT>
     typeParameters:
@@ -279,10 +279,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the hostname SSL binding definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the hostname SSL binding definition can be attached to the parent web app definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the hostname SSL binding definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the hostname SSL binding definition can be attached to the parent web app definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -296,7 +293,7 @@ references:
   nameWithType: Attachable<ParentT>.attach()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.attach()
   type: Method
-  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  summary: "<p>Attaches this child object's definition to its parent's definition. </p>"
   syntax:
     content: public ParentT attach()
     return:

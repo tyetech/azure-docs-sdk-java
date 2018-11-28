@@ -66,7 +66,7 @@ references:
   nameWithType: KubernetesCluster.Update
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount,KubernetesCluster.UpdateStages.WithAddOnProfiles,KubernetesCluster.UpdateStages.WithNetworkProfile,KubernetesCluster.UpdateStages.WithRBAC,Resource.UpdateWithTags<KubernetesCluster.Update>,Appliable<KubernetesCluster>
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withNetworkProfile(ContainerServiceNetworkProfile)
@@ -76,10 +76,7 @@ references:
   nameWithType: KubernetesClusterImpl.withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
   type: Method
-  summary: >-
-    <p>Updates the cluster's network profile.</p>
-
-    <p></p>
+  summary: "<p>Updates the cluster's network profile.</p>\r\n<p></p>"
   syntax:
     content: public KubernetesClusterImpl withNetworkProfile(ContainerServiceNetworkProfile networkProfile)
     parameters:
@@ -96,6 +93,6 @@ references:
   nameWithType: ContainerServiceNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceNetworkProfile
   type: Class
-  summary: <p>Profile of network configuration. </p>
+  summary: "<p>Profile of network configuration. </p>"
   syntax:
     content: public class ContainerServiceNetworkProfile

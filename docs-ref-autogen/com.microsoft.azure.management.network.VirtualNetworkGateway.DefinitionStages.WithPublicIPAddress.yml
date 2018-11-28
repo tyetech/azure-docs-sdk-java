@@ -29,10 +29,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithPublicIPAddressNoDnsLabel<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithPublicIPAddressNoDnsLabel<ReturnT>
   type: Interface
-  summary: >-
-    <p>The stage of the definition allowing to associate the resource with a public IP address, but not allowing to create one with a DNS leaf label.</p>
-
-    <p></p>
+  summary: "<p>The stage of the definition allowing to associate the resource with a public IP address, but not allowing to create one with a DNS leaf label.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPublicIPAddressNoDnsLabel<ReturnT>
     typeParameters:
@@ -46,6 +43,6 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the virtual network gateway definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the virtual network gateway definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<VirtualNetworkGateway>,Resource.DefinitionWithTags<WithCreate>,VirtualNetworkGateway.DefinitionStages.WithPublicIPAddress,VirtualNetworkGateway.DefinitionStages.WithBgp

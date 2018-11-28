@@ -32,7 +32,7 @@ references:
   nameWithType: Job.DefinitionStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithDescription.withDescription(String description)
   type: Method
-  summary: <p>Specifies description. </p>
+  summary: "<p>Specifies description. </p>"
   syntax:
     content: public WithCreate withDescription(String description)
     parameters:
@@ -47,7 +47,7 @@ references:
   nameWithType: Job.DefinitionStages.WithPriority.withPriority(Priority priority)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithPriority.withPriority(Priority priority)
   type: Method
-  summary: <p>Specifies priority. </p>
+  summary: "<p>Specifies priority. </p>"
   syntax:
     content: public WithCreate withPriority(Priority priority)
     parameters:
@@ -62,7 +62,7 @@ references:
   nameWithType: Job.DefinitionStages.WithDescription
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithDescription
   type: Interface
-  summary: <p>The stage of the job definition allowing to specify Description. </p>
+  summary: "<p>The stage of the job definition allowing to specify Description. </p>"
   syntax:
     content: public interface WithDescription
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithPriority
@@ -72,7 +72,7 @@ references:
   nameWithType: Job.DefinitionStages.WithPriority
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithPriority
   type: Interface
-  summary: <p>The stage of the job definition allowing to specify Priority. </p>
+  summary: "<p>The stage of the job definition allowing to specify Priority. </p>"
   syntax:
     content: public interface WithPriority
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.Definition
@@ -82,6 +82,6 @@ references:
   nameWithType: Job.Definition
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.Definition
   type: Interface
-  summary: <p>The entirety of the Job definition. </p>
+  summary: "<p>The entirety of the Job definition. </p>"
   syntax:
     content: public interface Definition extends Job.DefinitionStages.Blank,Job.DefinitionStages.WithTransform,Job.DefinitionStages.WithInput,Job.DefinitionStages.WithOutputs,Job.DefinitionStages.WithCreate

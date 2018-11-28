@@ -88,7 +88,7 @@ references:
   nameWithType: Service
   fullName: microsoft.servicefabric.services.remoting.Service
   type: Interface
-  summary: <p>This is the marker interface for enabling interface Remoting for services. An <xref uid="microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener" data-throw-if-not-resolved="false">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>
+  summary: "<p>This is the marker interface for enabling interface Remoting for services. An <xref uid=\"microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener</xref> provides remoting for all interfaces implemented by the service that derive from this interface. The remoted interfaces can be accessed via Proxy on the client side. </p>"
   syntax:
     content: public interface Service
 - uid: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener
@@ -98,7 +98,7 @@ references:
   nameWithType: ServiceRemotingListener
   fullName: microsoft.servicefabric.services.remoting.runtime.ServiceRemotingListener
   type: Interface
-  summary: <p>Defines a base communication interface that enables interface remoting for stateless and stateful services. </p>
+  summary: "<p>Defines a base communication interface that enables interface remoting for stateless and stateful services. </p>"
   syntax:
     content: public interface ServiceRemotingListener extends CommunicationListener
 - uid: system.fabric.ServiceContext
@@ -108,7 +108,7 @@ references:
   nameWithType: ServiceContext
   fullName: system.fabric.ServiceContext
   type: Class
-  summary: <p>Represents the service context that the service is operating under. </p>
+  summary: "<p>Represents the service context that the service is operating under. </p>"
   syntax:
     content: public class ServiceContext
 - uid: microsoft.servicefabric.services.runtime.StatefulServiceBase
@@ -118,6 +118,6 @@ references:
   nameWithType: StatefulServiceBase
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase
   type: Class
-  summary: <p>Represents base class for Microsoft Service Fabric based stateful reliable service. </p>
+  summary: "<p>Represents base class for Microsoft Service Fabric based stateful reliable service. </p>"
   syntax:
     content: public class StatefulServiceBase

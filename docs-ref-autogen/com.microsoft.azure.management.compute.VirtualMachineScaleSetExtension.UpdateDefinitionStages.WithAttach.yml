@@ -45,7 +45,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -58,10 +58,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withMinorVersionAutoUpgrade()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withMinorVersionAutoUpgrade()
   type: Method
-  summary: >-
-    <p>Enables auto upgrading of the extension with minor versions.</p>
-
-    <p></p>
+  summary: "<p>Enables auto upgrading of the extension with minor versions.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withMinorVersionAutoUpgrade()
     return:
@@ -74,10 +71,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withoutMinorVersionAutoUpgrade()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithAutoUpgradeMinorVersion<ParentT>.withoutMinorVersionAutoUpgrade()
   type: Method
-  summary: >-
-    <p>Disables auto upgrade of the extension with minor versions.</p>
-
-    <p></p>
+  summary: "<p>Disables auto upgrade of the extension with minor versions.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withoutMinorVersionAutoUpgrade()
     return:
@@ -90,10 +84,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withProtectedSetting(String key, Object value)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withProtectedSetting(String key, Object value)
   type: Method
-  summary: >-
-    <p>Specifies a private settings entry.</p>
-
-    <p></p>
+  summary: "<p>Specifies a private settings entry.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withProtectedSetting(String key, Object value)
     parameters:
@@ -113,10 +104,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withProtectedSettings(HashMap<String, Object> settings)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withProtectedSettings(HashMap<String, Object> settings)
   type: Method
-  summary: >-
-    <p>Specifies private settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies private settings.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withProtectedSettings(HashMap<String, Object> settings)
     parameters:
@@ -133,10 +121,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withPublicSetting(String key, Object value)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withPublicSetting(String key, Object value)
   type: Method
-  summary: >-
-    <p>Specifies a public settings entry.</p>
-
-    <p></p>
+  summary: "<p>Specifies a public settings entry.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withPublicSetting(String key, Object value)
     parameters:
@@ -156,10 +141,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withPublicSettings(HashMap<String, Object> settings)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>.withPublicSettings(HashMap<String, Object> settings)
   type: Method
-  summary: >-
-    <p>Specifies public settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies public settings.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withPublicSettings(HashMap<String, Object> settings)
     parameters:
@@ -176,7 +158,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
@@ -190,10 +172,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithAutoUpgradeMinorVersion<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithAutoUpgradeMinorVersion<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a virtual machine scale set extension definition allowing to enable or disable auto upgrade of the extension when when a new minor version of virtual machine scale set extension image gets published.</p>
-
-    <p></p>
+  summary: "<p>The stage of a virtual machine scale set extension definition allowing to enable or disable auto upgrade of the extension when when a new minor version of virtual machine scale set extension image gets published.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAutoUpgradeMinorVersion<ParentT>
     typeParameters:
@@ -207,10 +186,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithSettings<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a virtual machine scale set extension definition allowing to specify the public and private settings.</p>
-
-    <p></p>
+  summary: "<p>The stage of a virtual machine scale set extension definition allowing to specify the public and private settings.</p>\r\n<p></p>"
   syntax:
     content: public interface WithSettings<ParentT>
     typeParameters:
@@ -224,7 +200,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of a virtual machine scale set extension definition as a part of parent update. </p>
+  summary: "<p>The entirety of a virtual machine scale set extension definition as a part of parent update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends VirtualMachineScaleSetExtension.UpdateDefinitionStages.Blank<ParentT>,VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithImageOrPublisher<ParentT>,VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithPublisher<ParentT>,VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithType<ParentT>,VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithVersion<ParentT>,VirtualMachineScaleSetExtension.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:

@@ -36,12 +36,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -54,10 +49,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
   type: Method
-  summary: >-
-    <p>Specifies that If-Match header needs to set to the current eTag value associated with the record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that If-Match header needs to set to the current eTag value associated with the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withETagCheck()
     return:
@@ -70,10 +62,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String eTagValue)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String eTagValue)
   type: Method
-  summary: >-
-    <p>Specifies that if-Match header needs to set to the given eTag value.</p>
-
-    <p></p>
+  summary: "<p>Specifies that if-Match header needs to set to the given eTag value.</p>\r\n<p></p>"
   syntax:
     content: public Update withETagCheck(String eTagValue)
     parameters:
@@ -90,10 +79,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String key, String value)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String key, String value)
   type: Method
-  summary: >-
-    <p>Adds a metadata to the record set.</p>
-
-    <p></p>
+  summary: "<p>Adds a metadata to the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withMetadata(String key, String value)
     parameters:
@@ -113,10 +99,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String key)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String key)
   type: Method
-  summary: >-
-    <p>Removes a metadata from the record set.</p>
-
-    <p></p>
+  summary: "<p>Removes a metadata from the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutMetadata(String key)
     parameters:
@@ -133,10 +116,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long ttlInSeconds)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long ttlInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the TTL for the records in the record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the TTL for the records in the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withTimeToLive(long ttlInSeconds)
     parameters:
@@ -153,10 +133,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -170,7 +147,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithTtl
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTtl
   type: Interface
-  summary: <p>The stage of the record set update allowing to specify TTL for the records in this record set. </p>
+  summary: "<p>The stage of the record set update allowing to specify TTL for the records in this record set. </p>"
   syntax:
     content: public interface WithTtl
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata
@@ -180,7 +157,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMetadata
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata
   type: Interface
-  summary: <p>An update allowing metadata to be modified for the resource. </p>
+  summary: "<p>An update allowing metadata to be modified for the resource. </p>"
   syntax:
     content: public interface WithMetadata
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck
@@ -190,7 +167,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithETagCheck
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck
   type: Interface
-  summary: <p>The stage of the record set update allowing to enable ETag validation. </p>
+  summary: "<p>The stage of the record set update allowing to enable ETag validation. </p>"
   syntax:
     content: public interface WithETagCheck
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet
@@ -200,7 +177,7 @@ references:
   nameWithType: DnsRecordSet.UpdateAaaaRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet
   type: Interface
-  summary: <p>The entirety of an AAAA record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of an AAAA record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateAaaaRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateARecordSet
@@ -210,7 +187,7 @@ references:
   nameWithType: DnsRecordSet.UpdateARecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateARecordSet
   type: Interface
-  summary: <p>The entirety of an A record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of an A record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateARecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCNameRecordSet
@@ -220,7 +197,7 @@ references:
   nameWithType: DnsRecordSet.UpdateCNameRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCNameRecordSet
   type: Interface
-  summary: <p>The entirety of CNAME record set update as part of parent DNS zone update. </p>
+  summary: "<p>The entirety of CNAME record set update as part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateCNameRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCombined
@@ -230,7 +207,7 @@ references:
   nameWithType: DnsRecordSet.UpdateCombined
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCombined
   type: Interface
-  summary: <p>The entirety of a record sets update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a record sets update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateCombined
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateMXRecordSet
@@ -240,7 +217,7 @@ references:
   nameWithType: DnsRecordSet.UpdateMXRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateMXRecordSet
   type: Interface
-  summary: <p>The entirety of a MX record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a MX record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateMXRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateNSRecordSet
@@ -250,7 +227,7 @@ references:
   nameWithType: DnsRecordSet.UpdateNSRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateNSRecordSet
   type: Interface
-  summary: <p>The entirety of a NS record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a NS record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateNSRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdatePtrRecordSet
@@ -260,7 +237,7 @@ references:
   nameWithType: DnsRecordSet.UpdatePtrRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdatePtrRecordSet
   type: Interface
-  summary: <p>The entirety of a PTR record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a PTR record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdatePtrRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSoaRecord
@@ -270,7 +247,7 @@ references:
   nameWithType: DnsRecordSet.UpdateSoaRecord
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSoaRecord
   type: Interface
-  summary: <p>The entirety of a SOA record update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a SOA record update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateSoaRecord
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet
@@ -280,7 +257,7 @@ references:
   nameWithType: DnsRecordSet.UpdateSrvRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet
   type: Interface
-  summary: <p>The entirety of a SRV record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a SRV record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateSrvRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateTxtRecordSet
@@ -290,7 +267,7 @@ references:
   nameWithType: DnsRecordSet.UpdateTxtRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateTxtRecordSet
   type: Interface
-  summary: <p>The entirety of a TXT record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a TXT record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateTxtRecordSet
 - uid: com.microsoft.azure.management.dns.RecordType
@@ -300,6 +277,6 @@ references:
   nameWithType: RecordType
   fullName: com.microsoft.azure.management.dns.RecordType
   type: Enum
-  summary: <p>Defines values for RecordType. </p>
+  summary: "<p>Defines values for RecordType. </p>"
   syntax:
     content: public enum RecordType

@@ -46,7 +46,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -59,10 +59,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocation(GeographicLocation geographicLocation)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocation(GeographicLocation geographicLocation)
   type: Method
-  summary: >-
-    <p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withGeographicLocation(GeographicLocation geographicLocation)
     parameters:
@@ -79,10 +76,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocation(String geographicLocationCode)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocation(String geographicLocationCode)
   type: Method
-  summary: >-
-    <p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withGeographicLocation(String geographicLocationCode)
     parameters:
@@ -99,10 +93,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocations(List<GeographicLocation> geographicLocations)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocations(List<GeographicLocation> geographicLocations)
   type: Method
-  summary: >-
-    <p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withGeographicLocations(List<GeographicLocation> geographicLocations)
     parameters:
@@ -119,10 +110,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocations(Collection<String> geographicLocationCodes)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>.withGeographicLocations(Collection<String> geographicLocationCodes)
   type: Method
-  summary: >-
-    <p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withGeographicLocations(Collection<String> geographicLocationCodes)
     parameters:
@@ -139,10 +127,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingPriority<ParentT>.withRoutingPriority(int priority)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingPriority<ParentT>.withRoutingPriority(int priority)
   type: Method
-  summary: >-
-    <p>Specifies the weight for the endpoint that will be used when priority-based routing method is <xref uid="com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PRIORITY" data-throw-if-not-resolved="false">TrafficRoutingMethod#PRIORITY</xref> enabled on the profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies the weight for the endpoint that will be used when priority-based routing method is <xref uid=\"com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PRIORITY\" data-throw-if-not-resolved=\"false\">TrafficRoutingMethod#PRIORITY</xref> enabled on the profile.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withRoutingPriority(int priority)
     parameters:
@@ -159,10 +144,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingWeight<ParentT>.withRoutingWeight(int weight)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingWeight<ParentT>.withRoutingWeight(int weight)
   type: Method
-  summary: >-
-    <p>Specifies the weight for the endpoint that will be used when the weight-based routing method <xref uid="com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.WEIGHTED" data-throw-if-not-resolved="false">TrafficRoutingMethod#WEIGHTED</xref> is enabled on the profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies the weight for the endpoint that will be used when the weight-based routing method <xref uid=\"com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.WEIGHTED\" data-throw-if-not-resolved=\"false\">TrafficRoutingMethod#WEIGHTED</xref> is enabled on the profile.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withRoutingWeight(int weight)
     parameters:
@@ -179,10 +161,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithTrafficDisabled<ParentT>.withTrafficDisabled()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithTrafficDisabled<ParentT>.withTrafficDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that this endpoint should be excluded from receiving traffic.</p>
-
-    <p></p>
+  summary: "<p>Specifies that this endpoint should be excluded from receiving traffic.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withTrafficDisabled()
     return:
@@ -195,7 +174,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
@@ -209,10 +188,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingWeight<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingWeight<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the traffic manager endpoint definition allowing to specify the endpoint weight.</p>
-
-    <p></p>
+  summary: "<p>The stage of the traffic manager endpoint definition allowing to specify the endpoint weight.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRoutingWeight<ParentT>
     typeParameters:
@@ -226,10 +202,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingPriority<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingPriority<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the traffic manager endpoint definition allowing to specify the endpoint priority.</p>
-
-    <p></p>
+  summary: "<p>The stage of the traffic manager endpoint definition allowing to specify the endpoint priority.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRoutingPriority<ParentT>
     typeParameters:
@@ -243,10 +216,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the traffic manager endpoint definition allowing to specify the geographic region.</p>
-
-    <p></p>
+  summary: "<p>The stage of the traffic manager endpoint definition allowing to specify the geographic region.</p>\r\n<p></p>"
   syntax:
     content: public interface WithGeographicLocation<ParentT>
     typeParameters:
@@ -260,10 +230,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithTrafficDisabled<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithTrafficDisabled<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the traffic manager endpoint definition allowing to disable the endpoint.</p>
-
-    <p></p>
+  summary: "<p>The stage of the traffic manager endpoint definition allowing to disable the endpoint.</p>\r\n<p></p>"
   syntax:
     content: public interface WithTrafficDisabled<ParentT>
     typeParameters:
@@ -277,10 +244,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>The entirety of a traffic manager profile endpoint definition as a part of parent update.</p>
-
-    <p></p>
+  summary: "<p>The entirety of a traffic manager profile endpoint definition as a part of parent update.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends TrafficManagerEndpoint.UpdateDefinitionStages.AzureTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.ExternalTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.NestedProfileTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithAzureResource<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithFqdn<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithSourceTrafficRegion<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithSourceTrafficRegionThenThreshold<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithEndpointThreshold<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -294,10 +258,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithEndpointThreshold<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithEndpointThreshold<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the nested traffic manager profile endpoint definition allowing to specify the minimum endpoints to be online in the nested profile to consider it as not degraded.</p>
-
-    <p></p>
+  summary: "<p>The stage of the nested traffic manager profile endpoint definition allowing to specify the minimum endpoints to be online in the nested profile to consider it as not degraded.</p>\r\n<p></p>"
   syntax:
     content: public interface WithEndpointThreshold<ParentT>
     typeParameters:
@@ -311,7 +272,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:

@@ -122,7 +122,7 @@ references:
   nameWithType: Remindable
   fullName: microsoft.servicefabric.actors.runtime.Remindable
   type: Interface
-  summary: <p>Interface which actors that use reminders must implement. </p>
+  summary: "<p>Interface which actors that use reminders must implement. </p>"
   syntax:
     content: public interface Remindable
 - uid: microsoft.servicefabric.actors.runtime.ActorMethodContext
@@ -132,7 +132,7 @@ references:
   nameWithType: ActorMethodContext
   fullName: microsoft.servicefabric.actors.runtime.ActorMethodContext
   type: Class
-  summary: <p>An <xref uid="microsoft.servicefabric.actors.runtime.ActorMethodContext" data-throw-if-not-resolved="false">ActorMethodContext</xref> contains information about the method that is invoked by actor runtime and is passed as an argument to <xref uid="microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext)" data-throw-if-not-resolved="false">ActorBase#onPreActorMethodAsync(ActorMethodContext)</xref> and <xref uid="microsoft.servicefabric.actors.runtime.ActorBase.onPostActorMethodAsync(ActorMethodContext)" data-throw-if-not-resolved="false">ActorBase#onPostActorMethodAsync(ActorMethodContext)</xref>. </p>
+  summary: "<p>An <xref uid=\"microsoft.servicefabric.actors.runtime.ActorMethodContext\" data-throw-if-not-resolved=\"false\">ActorMethodContext</xref> contains information about the method that is invoked by actor runtime and is passed as an argument to <xref uid=\"microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext)\" data-throw-if-not-resolved=\"false\">ActorBase#onPreActorMethodAsync(ActorMethodContext)</xref> and <xref uid=\"microsoft.servicefabric.actors.runtime.ActorBase.onPostActorMethodAsync(ActorMethodContext)\" data-throw-if-not-resolved=\"false\">ActorBase#onPostActorMethodAsync(ActorMethodContext)</xref>. </p>"
   syntax:
     content: public class ActorMethodContext
 - uid: microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext)
@@ -142,12 +142,7 @@ references:
   nameWithType: ActorBase.onPreActorMethodAsync(ActorMethodContext actorMethodContext)
   fullName: microsoft.servicefabric.actors.runtime.ActorBase.onPreActorMethodAsync(ActorMethodContext actorMethodContext)
   type: Method
-  summary: >-
-    <p>This method is invoked by actor runtime just before invoking an actor method. Override this method for performing any actions prior to an actor method is invoked.</p>
-
-    <p>
-
-      <b>Remarks:</b>This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors.runtime.Remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
+  summary: "<p>This method is invoked by actor runtime just before invoking an actor method. Override this method for performing any actions prior to an actor method is invoked.</p>\r\n<p>\r\n  <b>Remarks:</b>This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid=\"microsoft.servicefabric.actors.runtime.Remindable\" data-throw-if-not-resolved=\"false\">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>"
   syntax:
     content: protected CompletableFuture<?> onPreActorMethodAsync(ActorMethodContext actorMethodContext)
     parameters:
@@ -164,12 +159,7 @@ references:
   nameWithType: ActorBase.onPostActorMethodAsync(ActorMethodContext actorMethodContext)
   fullName: microsoft.servicefabric.actors.runtime.ActorBase.onPostActorMethodAsync(ActorMethodContext actorMethodContext)
   type: Method
-  summary: >-
-    <p>This method is invoked by actor runtime an actor method has finished execution. Override this method for performing any actions after an actor method has finished execution.</p>
-
-    <p>
-
-      <b>Remarks:</b> This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid="microsoft.servicefabric.actors.runtime.Remindable" data-throw-if-not-resolved="false">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>
+  summary: "<p>This method is invoked by actor runtime an actor method has finished execution. Override this method for performing any actions after an actor method has finished execution.</p>\r\n<p>\r\n  <b>Remarks:</b> This method is invoked by actor runtime prior to: <ul><li><p>Invoking an actor interface method when a client request comes. </p></li><li><p>Invoking a method on <xref uid=\"microsoft.servicefabric.actors.runtime.Remindable\" data-throw-if-not-resolved=\"false\">Remindable</xref> interface when a reminder fires. </p></li><li><p>Invoking a timer callback when timer fires. </p></li></ul></p>"
   syntax:
     content: protected CompletableFuture<?> onPostActorMethodAsync(ActorMethodContext actorMethodContext)
     parameters:

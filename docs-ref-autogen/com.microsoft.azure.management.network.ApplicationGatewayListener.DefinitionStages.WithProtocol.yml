@@ -110,10 +110,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway HTTP listener. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway HTTP listener. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ApplicationGatewayListener.DefinitionStages.WithProtocol<ParentT>,ApplicationGatewayListener.DefinitionStages.WithHostName<ParentT>,ApplicationGatewayListener.DefinitionStages.WithServerNameIndication<ParentT>
     typeParameters:
@@ -127,7 +124,7 @@ references:
   nameWithType: ApplicationGatewayListener.DefinitionStages.WithSslCertificate<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayListener.DefinitionStages.WithSslCertificate<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway frontend listener definition allowing to specify the SSL certificate to associate with the listener. </p>
+  summary: "<p>The stage of an application gateway frontend listener definition allowing to specify the SSL certificate to associate with the listener. </p>"
   syntax:
     content: public interface WithSslCertificate<ParentT>
     typeParameters:

@@ -45,10 +45,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -61,10 +58,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -81,10 +75,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -121,10 +112,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithCapacity.withCapacity(int capacity)
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCapacity.withCapacity(int capacity)
   type: Method
-  summary: >-
-    <p>Specifies the maximum number of instances running for this app service plan.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum number of instances running for this app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCapacity(int capacity)
     parameters:
@@ -141,10 +129,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithPricingTier.withFreePricingTier()
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier.withFreePricingTier()
   type: Method
-  summary: >-
-    <p>Specifies free pricing tier for the app service plan.</p>
-
-    <p></p>
+  summary: "<p>Specifies free pricing tier for the app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withFreePricingTier()
     return:
@@ -157,10 +142,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithOperatingSystem.withOperatingSystem(OperatingSystem operatingSystem)
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithOperatingSystem.withOperatingSystem(OperatingSystem operatingSystem)
   type: Method
-  summary: >-
-    <p>Specifies the operating system of the app service plan.</p>
-
-    <p></p>
+  summary: "<p>Specifies the operating system of the app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOperatingSystem(OperatingSystem operatingSystem)
     parameters:
@@ -177,10 +159,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithPerSiteScaling.withPerSiteScaling(boolean perSiteScaling)
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPerSiteScaling.withPerSiteScaling(boolean perSiteScaling)
   type: Method
-  summary: >-
-    <p>Specifies whether per-site scaling will be turned on.</p>
-
-    <p></p>
+  summary: "<p>Specifies whether per-site scaling will be turned on.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPerSiteScaling(boolean perSiteScaling)
     parameters:
@@ -197,10 +176,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithPricingTier.withPricingTier(PricingTier pricingTier)
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier.withPricingTier(PricingTier pricingTier)
   type: Method
-  summary: >-
-    <p>Specifies the pricing tier for the app service plan.</p>
-
-    <p></p>
+  summary: "<p>Specifies the pricing tier for the app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithOperatingSystem withPricingTier(PricingTier pricingTier)
     parameters:
@@ -217,7 +193,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -234,7 +210,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -251,10 +227,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithPricingTier.withSharedPricingTier()
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier.withSharedPricingTier()
   type: Method
-  summary: >-
-    <p>Specifies shared pricing tier for the app service plan.</p>
-
-    <p></p>
+  summary: "<p>Specifies shared pricing tier for the app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSharedPricingTier()
     return:
@@ -267,7 +240,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -287,7 +260,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -304,7 +277,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the app service plan definition. </p>
+  summary: "<p>The first stage of the app service plan definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithGroup
@@ -314,7 +287,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>An app service plan definition allowing resource group to be set. </p>
+  summary: "<p>An app service plan definition allowing resource group to be set. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier
@@ -324,7 +297,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithPricingTier
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier
   type: Interface
-  summary: <p>An app service plan definition allowing pricing tier to be set. </p>
+  summary: "<p>An app service plan definition allowing pricing tier to be set. </p>"
   syntax:
     content: public interface WithPricingTier
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithOperatingSystem
@@ -334,7 +307,7 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithOperatingSystem
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithOperatingSystem
   type: Interface
-  summary: <p>An app service plan definition allowing the operating system to be set. </p>
+  summary: "<p>An app service plan definition allowing the operating system to be set. </p>"
   syntax:
     content: public interface WithOperatingSystem
 - uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate
@@ -344,6 +317,6 @@ references:
   nameWithType: AppServicePlan.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>An app service plan definition with sufficient inputs to create a new website in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>An app service plan definition with sufficient inputs to create a new website in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

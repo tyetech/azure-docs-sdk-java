@@ -82,7 +82,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container group's volume definition stages. </p>
+  summary: "<p>Grouping of the container group's volume definition stages. </p>"
   syntax:
     content: public interface ContainerInstanceDefinition<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPortsOrContainerInstanceAttach<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
     typeParameters:
@@ -95,10 +95,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the container instance definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the container instance definition.</p>\r\n<p></p>"
   syntax:
     content: public interface ContainerInstanceDefinitionBlank<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage<ParentT>
     typeParameters:
@@ -112,10 +109,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify (or not) the container ports.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify (or not) the container ports.</p>\r\n<p></p>"
   syntax:
     content: public interface WithOrWithoutPorts<ParentT>
     typeParameters:

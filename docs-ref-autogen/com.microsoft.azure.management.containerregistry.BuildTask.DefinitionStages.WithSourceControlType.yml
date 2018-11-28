@@ -66,7 +66,7 @@ references:
   nameWithType: BuildTask.BuildTaskDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
   type: Interface
-  summary: <p>Grouping of the container register build task definitions. </p>
+  summary: "<p>Grouping of the container register build task definitions. </p>"
   syntax:
     content: public interface BuildTaskDefinition extends BuildTask.DefinitionStages.Blank,BuildTask.DefinitionStages.WithOSType,BuildTask.DefinitionStages.WithSourceControlType,BuildTask.DefinitionStages.WithRepositoryUrl,BuildTask.DefinitionStages.WithAuthenticationTokenType,BuildTask.DefinitionStages.WithAuthenticationToken,BuildTask.DefinitionStages.WithAlias,BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,BuildTask.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withSourceControlType(SourceControlType)
@@ -76,10 +76,7 @@ references:
   nameWithType: BuildTaskImpl.withSourceControlType(SourceControlType sourceControlType)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withSourceControlType(SourceControlType sourceControlType)
   type: Method
-  summary: >-
-    <p>Specifies full URL to the source code repository.</p>
-
-    <p></p>
+  summary: "<p>Specifies full URL to the source code repository.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withSourceControlType(SourceControlType sourceControlType)
     parameters:
@@ -96,6 +93,6 @@ references:
   nameWithType: SourceControlType
   fullName: com.microsoft.azure.management.containerregistry.SourceControlType
   type: Class
-  summary: <p>Defines values for SourceControlType. </p>
+  summary: "<p>Defines values for SourceControlType. </p>"
   syntax:
     content: public class SourceControlType extends ExpandableStringEnum<SourceControlType>

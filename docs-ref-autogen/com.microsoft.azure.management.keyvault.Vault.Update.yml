@@ -47,10 +47,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -63,10 +60,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -79,10 +73,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -99,10 +90,7 @@ references:
   nameWithType: Vault.UpdateStages.WithAccessPolicy.defineAccessPolicy()
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithAccessPolicy.defineAccessPolicy()
   type: Method
-  summary: >-
-    <p>Begins the definition of a new access policy to be added to this key vault.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new access policy to be added to this key vault.</p>\r\n<p></p>"
   syntax:
     content: public AccessPolicy.UpdateDefinitionStages.Blank<Update> defineAccessPolicy()
     return:
@@ -127,10 +115,7 @@ references:
   nameWithType: Vault.UpdateStages.WithAccessPolicy.updateAccessPolicy(String objectId)
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithAccessPolicy.updateAccessPolicy(String objectId)
   type: Method
-  summary: >-
-    <p>Begins the update of an existing access policy attached to this key vault.</p>
-
-    <p></p>
+  summary: "<p>Begins the update of an existing access policy attached to this key vault.</p>\r\n<p></p>"
   syntax:
     content: public AccessPolicy.Update updateAccessPolicy(String objectId)
     parameters:
@@ -147,10 +132,7 @@ references:
   nameWithType: Vault.UpdateStages.WithAccessPolicy.withAccessPolicy(AccessPolicy accessPolicy)
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithAccessPolicy.withAccessPolicy(AccessPolicy accessPolicy)
   type: Method
-  summary: >-
-    <p>Attach an existing access policy.</p>
-
-    <p></p>
+  summary: "<p>Attach an existing access policy.</p>\r\n<p></p>"
   syntax:
     content: public Update withAccessPolicy(AccessPolicy accessPolicy)
     parameters:
@@ -167,10 +149,7 @@ references:
   nameWithType: Vault.UpdateStages.WithConfigurations.withDeploymentDisabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations.withDeploymentDisabled()
   type: Method
-  summary: >-
-    <p>Disable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Disable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public Update withDeploymentDisabled()
     return:
@@ -183,10 +162,7 @@ references:
   nameWithType: Vault.UpdateStages.WithConfigurations.withDeploymentEnabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations.withDeploymentEnabled()
   type: Method
-  summary: >-
-    <p>Enable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Enable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public Update withDeploymentEnabled()
     return:
@@ -199,10 +175,7 @@ references:
   nameWithType: Vault.UpdateStages.WithConfigurations.withDiskEncryptionDisabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations.withDiskEncryptionDisabled()
   type: Method
-  summary: >-
-    <p>Disable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>
-
-    <p></p>
+  summary: "<p>Disable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>\r\n<p></p>"
   syntax:
     content: public Update withDiskEncryptionDisabled()
     return:
@@ -215,10 +188,7 @@ references:
   nameWithType: Vault.UpdateStages.WithConfigurations.withDiskEncryptionEnabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations.withDiskEncryptionEnabled()
   type: Method
-  summary: >-
-    <p>Enable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>
-
-    <p></p>
+  summary: "<p>Enable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>\r\n<p></p>"
   syntax:
     content: public Update withDiskEncryptionEnabled()
     return:
@@ -231,10 +201,7 @@ references:
   nameWithType: Vault.UpdateStages.WithAccessPolicy.withoutAccessPolicy(String objectId)
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithAccessPolicy.withoutAccessPolicy(String objectId)
   type: Method
-  summary: >-
-    <p>Remove an access policy from the access policy list.</p>
-
-    <p></p>
+  summary: "<p>Remove an access policy from the access policy list.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutAccessPolicy(String objectId)
     parameters:
@@ -251,7 +218,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -268,7 +235,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -288,7 +255,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -305,10 +272,7 @@ references:
   nameWithType: Vault.UpdateStages.WithConfigurations.withTemplateDeploymentDisabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations.withTemplateDeploymentDisabled()
   type: Method
-  summary: >-
-    <p>Disable Azure Resource Manager to retrieve secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Disable Azure Resource Manager to retrieve secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public Update withTemplateDeploymentDisabled()
     return:
@@ -321,10 +285,7 @@ references:
   nameWithType: Vault.UpdateStages.WithConfigurations.withTemplateDeploymentEnabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations.withTemplateDeploymentEnabled()
   type: Method
-  summary: >-
-    <p>Enable Azure Resource Manager to retrieve secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Enable Azure Resource Manager to retrieve secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public Update withTemplateDeploymentEnabled()
     return:
@@ -337,10 +298,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -354,10 +312,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -371,7 +326,7 @@ references:
   nameWithType: Vault.UpdateStages.WithAccessPolicy
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithAccessPolicy
   type: Interface
-  summary: <p>A key vault update allowing access policies to be modified, attached, or removed. </p>
+  summary: "<p>A key vault update allowing access policies to be modified, attached, or removed. </p>"
   syntax:
     content: public interface WithAccessPolicy
 - uid: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations
@@ -381,6 +336,6 @@ references:
   nameWithType: Vault.UpdateStages.WithConfigurations
   fullName: com.microsoft.azure.management.keyvault.Vault.UpdateStages.WithConfigurations
   type: Interface
-  summary: <p>A key vault update allowing various configurations to be set. </p>
+  summary: "<p>A key vault update allowing various configurations to be set. </p>"
   syntax:
     content: public interface WithConfigurations

@@ -42,7 +42,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -55,7 +55,7 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages.WithAttach<ParentT>.withRegistryUrl(String serverUrl)
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach<ParentT>.withRegistryUrl(String serverUrl)
   type: Method
-  summary: <p>Specifies url for container registry. </p>
+  summary: "<p>Specifies url for container registry. </p>"
   syntax:
     content: public WithAttach<ParentT> withRegistryUrl(String serverUrl)
     parameters:
@@ -72,7 +72,7 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages.WithAttach<ParentT>.withRegistryUsername(String username)
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach<ParentT>.withRegistryUsername(String username)
   type: Method
-  summary: <p>Specifies username to login to container registry. </p>
+  summary: "<p>Specifies username to login to container registry. </p>"
   syntax:
     content: public WithRegistryCredentials<ParentT> withRegistryUsername(String username)
     parameters:
@@ -89,7 +89,7 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages.WithShmSize<ParentT>.withShmSize(String shmSize)
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithShmSize<ParentT>.withShmSize(String shmSize)
   type: Method
-  summary: <p>Specifies size of /dev/shm. </p>
+  summary: "<p>Specifies size of /dev/shm. </p>"
   syntax:
     content: public WithAttach<ParentT> withShmSize(String shmSize)
     parameters:
@@ -106,10 +106,7 @@ references:
   nameWithType: ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the output directory settings definition. At this stage, any remaining optional settings can be specified, or the output directory settings definition can be attached to the parent Batch AI job definition.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the output directory settings definition. At this stage, any remaining optional settings can be specified, or the output directory settings definition can be attached to the parent Batch AI job definition.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -123,10 +120,7 @@ references:
   nameWithType: ContainerImageSettings.Definition<ParentT>
   fullName: com.microsoft.azure.management.batchai.ContainerImageSettings.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>Definition of ContainerImage settings.</p>
-
-    <p></p>
+  summary: "<p>Definition of ContainerImage settings.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT>
     typeParameters:

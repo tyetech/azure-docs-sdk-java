@@ -512,7 +512,7 @@ references:
   nameWithType: MsalException.getMessage()
   fullName: com.microsoft.identity.client.exception.MsalException.getMessage()
   type: Method
-  summary: <p>Return the detailed description explaining why the exception is returned back. </p>
+  summary: "<p>Return the detailed description explaining why the exception is returned back. </p>"
   syntax:
     content: public String getMessage()
     return:
@@ -524,10 +524,7 @@ references:
   nameWithType: MsalException
   fullName: com.microsoft.identity.client.exception.MsalException
   type: Class
-  summary: >-
-    <p>
-
-      <xref uid="com.microsoft.identity.client.exception.MsalException" data-throw-if-not-resolved="false">MsalException</xref> thrown or sent back via callback, representing the detailed exception thrown by the sdk. It will contain the error code, error description (could be null) or throwable (could be null). </p>
+  summary: "<p>\r\n  <xref uid=\"com.microsoft.identity.client.exception.MsalException\" data-throw-if-not-resolved=\"false\">MsalException</xref> thrown or sent back via callback, representing the detailed exception thrown by the sdk. It will contain the error code, error description (could be null) or throwable (could be null). </p>"
   syntax:
     content: public class MsalException
 - uid: com.microsoft.identity.client.AuthenticationActivity
@@ -537,6 +534,6 @@ references:
   nameWithType: AuthenticationActivity
   fullName: com.microsoft.identity.client.AuthenticationActivity
   type: Class
-  summary: <p>Custom tab requires the device to have a browser with custom tab support, chrome with version&gt;= 45 comes with the support and is available on all devices with API version&gt;= 16 . The sdk use chrome custom tab, and before launching chrome custom tab, we need to check if chrome package is in the device. If it is, it's safe to launch the chrome custom tab; Otherwise the sdk will launch chrome. AuthenticationActivity will be responsible for checking if it's safe to launch chrome custom tab, if not, will go with chrome browser, if chrome is not installed, we throw error back. </p>
+  summary: "<p>Custom tab requires the device to have a browser with custom tab support, chrome with version&gt;= 45 comes with the support and is available on all devices with API version&gt;= 16 . The sdk use chrome custom tab, and before launching chrome custom tab, we need to check if chrome package is in the device. If it is, it's safe to launch the chrome custom tab; Otherwise the sdk will launch chrome. AuthenticationActivity will be responsible for checking if it's safe to launch chrome custom tab, if not, will go with chrome browser, if chrome is not installed, we throw error back. </p>"
   syntax:
     content: public class AuthenticationActivity

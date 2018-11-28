@@ -380,7 +380,7 @@ references:
   nameWithType: AmqpsDeviceOperations.closeLinks()
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.closeLinks()
   type: Method
-  summary: <p>Closes receiver and sender link if they are not null </p>
+  summary: "<p>Closes receiver and sender link if they are not null </p>"
   syntax:
     content: protected void closeLinks()
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.initLink(Link)
@@ -390,7 +390,7 @@ references:
   nameWithType: AmqpsDeviceOperations.initLink(Link link)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.initLink(Link link)
   type: Method
-  summary: <p>Initializes the link's other endpoint according to its type </p>
+  summary: "<p>Initializes the link's other endpoint according to its type </p>"
   syntax:
     content: protected synchronized void initLink(Link link)
     parameters:
@@ -417,7 +417,7 @@ references:
   nameWithType: AmqpsDeviceOperations.openLinks(Session session)
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.openLinks(Session session)
   type: Method
-  summary: <p>Opens receiver and sender link </p>
+  summary: "<p>Opens receiver and sender link </p>"
   syntax:
     content: protected synchronized void openLinks(Session session)
     parameters:
@@ -433,7 +433,7 @@ references:
   nameWithType: AmqpsDeviceOperations.operationLinksOpened()
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations.operationLinksOpened()
   type: Method
-  summary: <p>Gets the status of the operation's links </p>
+  summary: "<p>Gets the status of the operation's links </p>"
   syntax:
     content: public Boolean operationLinksOpened()
     return:
@@ -576,7 +576,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsSendReturnValue
@@ -595,7 +595,7 @@ references:
   nameWithType: MessageType
   fullName: com.microsoft.azure.sdk.iot.device.MessageType
   type: Enum
-  summary: <p>The IoTHub message type </p>
+  summary: "<p>The IoTHub message type </p>"
   syntax:
     content: public enum MessageType
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsMessage
@@ -605,7 +605,7 @@ references:
   nameWithType: AmqpsMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsMessage
   type: Class
-  summary: <p>Extension of the QPID-Proton-J MessageImpl class which implements the Message interface. Adds a Delivery object as a private member variable and adds a new ACK_TYPE enum. Adds the ability to easily acknowledge a single message. </p>
+  summary: "<p>Extension of the QPID-Proton-J MessageImpl class which implements the Message interface. Adds a Delivery object as a private member variable and adds a new ACK_TYPE enum. Adds the ability to easily acknowledge a single message. </p>"
   syntax:
     content: public class AmqpsMessage
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.TransportException
@@ -651,6 +651,6 @@ references:
   nameWithType: IotHubTransportMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage
   type: Class
-  summary: <p>Extends Message, adding transport artifacts. </p>
+  summary: "<p>Extends Message, adding transport artifacts. </p>"
   syntax:
     content: public class IotHubTransportMessage

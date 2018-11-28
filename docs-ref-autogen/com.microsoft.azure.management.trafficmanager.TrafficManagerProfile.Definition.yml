@@ -52,10 +52,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -68,10 +65,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -88,10 +82,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -104,10 +95,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithEndpoint.defineAzureTargetEndpoint(String name)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithEndpoint.defineAzureTargetEndpoint(String name)
   type: Method
-  summary: >-
-    <p>Specifies definition of an Azure endpoint to be attached to the traffic manager profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies definition of an Azure endpoint to be attached to the traffic manager profile.</p>\r\n<p></p>"
   syntax:
     content: public TrafficManagerEndpoint.DefinitionStages.AzureTargetEndpointBlank<WithCreate> defineAzureTargetEndpoint(String name)
     parameters:
@@ -124,10 +112,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithEndpoint.defineExternalTargetEndpoint(String name)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithEndpoint.defineExternalTargetEndpoint(String name)
   type: Method
-  summary: >-
-    <p>Specifies definition of an external endpoint to be attached to the traffic manager profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies definition of an external endpoint to be attached to the traffic manager profile.</p>\r\n<p></p>"
   syntax:
     content: public TrafficManagerEndpoint.DefinitionStages.ExternalTargetEndpointBlank<WithCreate> defineExternalTargetEndpoint(String name)
     parameters:
@@ -144,10 +129,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithEndpoint.defineNestedTargetEndpoint(String name)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithEndpoint.defineNestedTargetEndpoint(String name)
   type: Method
-  summary: >-
-    <p>Specifies definition of an nested profile endpoint to be attached to the traffic manager profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies definition of an nested profile endpoint to be attached to the traffic manager profile.</p>\r\n<p></p>"
   syntax:
     content: public TrafficManagerEndpoint.DefinitionStages.NestedProfileTargetEndpointBlank<WithCreate> defineNestedTargetEndpoint(String name)
     parameters:
@@ -188,10 +170,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withGeographicBasedRouting()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withGeographicBasedRouting()
   type: Method
-  summary: >-
-    <p>Specifies that end user traffic should be routed to the endpoint that is designated to serve users geographic region.</p>
-
-    <p></p>
+  summary: "<p>Specifies that end user traffic should be routed to the endpoint that is designated to serve users geographic region.</p>\r\n<p></p>"
   syntax:
     content: public WithEndpoint withGeographicBasedRouting()
     return:
@@ -204,10 +183,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpMonitoring()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpMonitoring()
   type: Method
-  summary: >-
-    <p>Specify to use HTTP monitoring for the endpoints that checks for HTTP 200 response from the path '/' at regular intervals, using port 80.</p>
-
-    <p></p>
+  summary: "<p>Specify to use HTTP monitoring for the endpoints that checks for HTTP 200 response from the path '/' at regular intervals, using port 80.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withHttpMonitoring()
     return:
@@ -220,10 +196,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpMonitoring(int port, String path)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpMonitoring(int port, String path)
   type: Method
-  summary: >-
-    <p>Specify the HTTP monitoring for the endpoints that checks for HTTP 200 response from the specified path at regular intervals, using the specified port.</p>
-
-    <p></p>
+  summary: "<p>Specify the HTTP monitoring for the endpoints that checks for HTTP 200 response from the specified path at regular intervals, using the specified port.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withHttpMonitoring(int port, String path)
     parameters:
@@ -243,10 +216,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpsMonitoring()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpsMonitoring()
   type: Method
-  summary: >-
-    <p>Specify to use HTTPS monitoring for the endpoints that checks for HTTPS 200 response from the path '/' at regular intervals, using port 443.</p>
-
-    <p></p>
+  summary: "<p>Specify to use HTTPS monitoring for the endpoints that checks for HTTPS 200 response from the path '/' at regular intervals, using port 443.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withHttpsMonitoring()
     return:
@@ -259,10 +229,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpsMonitoring(int port, String path)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithMonitoringConfiguration.withHttpsMonitoring(int port, String path)
   type: Method
-  summary: >-
-    <p>Specify the HTTPS monitoring for the endpoints that checks for HTTPS 200 response from the specified path at regular intervals, using the specified port.</p>
-
-    <p></p>
+  summary: "<p>Specify the HTTPS monitoring for the endpoints that checks for HTTPS 200 response from the specified path at regular intervals, using the specified port.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withHttpsMonitoring(int port, String path)
     parameters:
@@ -282,12 +249,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithLeafDomainLabel.withLeafDomainLabel(String dnsLabel)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithLeafDomainLabel.withLeafDomainLabel(String dnsLabel)
   type: Method
-  summary: >-
-    <p>Specify the relative DNS name of the profile. </p>
-
-    <p>The fully qualified domain name (FQDN) will be constructed automatically by appending the rest of the domain to this label.</p>
-
-    <p></p>
+  summary: "<p>Specify the relative DNS name of the profile. </p>\r\n<p>The fully qualified domain name (FQDN) will be constructed automatically by appending the rest of the domain to this label.</p>\r\n<p></p>"
   syntax:
     content: public WithTrafficRoutingMethod withLeafDomainLabel(String dnsLabel)
     parameters:
@@ -304,10 +266,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withPerformanceBasedRouting()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withPerformanceBasedRouting()
   type: Method
-  summary: >-
-    <p>Specifies that end user traffic should be routed based on the closest available endpoint in terms of the lowest network latency.</p>
-
-    <p></p>
+  summary: "<p>Specifies that end user traffic should be routed based on the closest available endpoint in terms of the lowest network latency.</p>\r\n<p></p>"
   syntax:
     content: public WithEndpoint withPerformanceBasedRouting()
     return:
@@ -320,10 +279,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withPriorityBasedRouting()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withPriorityBasedRouting()
   type: Method
-  summary: >-
-    <p>Specifies that end user traffic should be routed to the endpoint based on its priority i.e. use the endpoint with highest priority and if it is not available fallback to next highest priority endpoint.</p>
-
-    <p></p>
+  summary: "<p>Specifies that end user traffic should be routed to the endpoint based on its priority i.e. use the endpoint with highest priority and if it is not available fallback to next highest priority endpoint.</p>\r\n<p></p>"
   syntax:
     content: public WithEndpoint withPriorityBasedRouting()
     return:
@@ -336,12 +292,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithProfileStatus.withProfileStatusDisabled()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithProfileStatus.withProfileStatusDisabled()
   type: Method
-  summary: >-
-    <p>Specify that the profile needs to be disabled. </p>
-
-    <p>Disabling the profile will disables traffic to all endpoints in the profile</p>
-
-    <p></p>
+  summary: "<p>Specify that the profile needs to be disabled. </p>\r\n<p>Disabling the profile will disables traffic to all endpoints in the profile</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withProfileStatusDisabled()
     return:
@@ -354,7 +305,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -374,7 +325,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -391,10 +342,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithTtl.withTimeToLive(int ttlInSeconds)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTtl.withTimeToLive(int ttlInSeconds)
   type: Method
-  summary: >-
-    <p>Specify the DNS TTL in seconds.</p>
-
-    <p></p>
+  summary: "<p>Specify the DNS TTL in seconds.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withTimeToLive(int ttlInSeconds)
     parameters:
@@ -411,10 +359,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withTrafficRoutingMethod(TrafficRoutingMethod routingMethod)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withTrafficRoutingMethod(TrafficRoutingMethod routingMethod)
   type: Method
-  summary: >-
-    <p>Specify the traffic routing method for the profile.</p>
-
-    <p></p>
+  summary: "<p>Specify the traffic routing method for the profile.</p>\r\n<p></p>"
   syntax:
     content: public WithEndpoint withTrafficRoutingMethod(TrafficRoutingMethod routingMethod)
     parameters:
@@ -431,10 +376,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withWeightBasedRouting()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod.withWeightBasedRouting()
   type: Method
-  summary: >-
-    <p>Specifies that end user traffic should be distributed to the endpoints based on the weight assigned to the endpoint.</p>
-
-    <p></p>
+  summary: "<p>Specifies that end user traffic should be distributed to the endpoints based on the weight assigned to the endpoint.</p>\r\n<p></p>"
   syntax:
     content: public WithEndpoint withWeightBasedRouting()
     return:
@@ -447,7 +389,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.Blank
   type: Interface
-  summary: <p>The stage of the traffic manager profile definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the traffic manager profile definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface Blank extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroupAndRegion<WithLeafDomainLabel>
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithLeafDomainLabel
@@ -457,7 +399,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithLeafDomainLabel
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithLeafDomainLabel
   type: Interface
-  summary: <p>The stage of the traffic manager profile definition allowing to specify the relative DNS name. </p>
+  summary: "<p>The stage of the traffic manager profile definition allowing to specify the relative DNS name. </p>"
   syntax:
     content: public interface WithLeafDomainLabel
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod
@@ -467,7 +409,7 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithTrafficRoutingMethod
   type: Interface
-  summary: <p>The stage of the traffic manager profile definition allowing to specify the traffic routing method for the profile. </p>
+  summary: "<p>The stage of the traffic manager profile definition allowing to specify the traffic routing method for the profile. </p>"
   syntax:
     content: public interface WithTrafficRoutingMethod
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithCreate
@@ -477,6 +419,6 @@ references:
   nameWithType: TrafficManagerProfile.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfile.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

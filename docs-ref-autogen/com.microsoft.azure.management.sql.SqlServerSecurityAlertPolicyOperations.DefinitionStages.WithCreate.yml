@@ -38,10 +38,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -74,10 +68,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -114,10 +105,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts.withDisabledAlerts(String... disabledAlerts)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts.withDisabledAlerts(String... disabledAlerts)
   type: Method
-  summary: >-
-    <p>Specifies an array of alerts that are disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies an array of alerts that are disabled.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate withDisabledAlerts(String... disabledAlerts)
     parameters:
@@ -134,10 +122,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses.withEmailAddresses(String... emailAddresses)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses.withEmailAddresses(String... emailAddresses)
   type: Method
-  summary: >-
-    <p>Specifies an array of e-mail addresses to which the alert is sent.</p>
-
-    <p></p>
+  summary: "<p>Specifies an array of e-mail addresses to which the alert is sent.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate withEmailAddresses(String... emailAddresses)
     parameters:
@@ -154,10 +139,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays.withRetentionDays(int days)
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays.withRetentionDays(int days)
   type: Method
-  summary: >-
-    <p>Specifies the number of days to keep in the Threat Detection audit logs.</p>
-
-    <p></p>
+  summary: "<p>Specifies the number of days to keep in the Threat Detection audit logs.</p>\r\n<p></p>"
   syntax:
     content: public SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate withRetentionDays(int days)
     parameters:
@@ -174,7 +156,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set an array of e-mail addresses to which the alert is sent. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set an array of e-mail addresses to which the alert is sent. </p>"
   syntax:
     content: public interface WithEmailAddresses
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts
@@ -184,7 +166,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set an array of alerts that are disabled. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set an array of alerts that are disabled. </p>"
   syntax:
     content: public interface WithDisabledAlerts
 - uid: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays
@@ -194,7 +176,7 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays
   type: Interface
-  summary: <p>The SQL Server Security Alert Policy definition to set the number of days to keep in the Threat Detection audit logs. </p>
+  summary: "<p>The SQL Server Security Alert Policy definition to set the number of days to keep in the Threat Detection audit logs. </p>"
   syntax:
     content: public interface WithRetentionDays
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -204,10 +186,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -221,6 +200,6 @@ references:
   nameWithType: SqlServerSecurityAlertPolicyOperations.SqlServerSecurityAlertPolicyOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlServerSecurityAlertPolicyOperations.SqlServerSecurityAlertPolicyOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlServerSecurityAlertPolicyOperationsDefinition extends SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithSqlServer,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithState,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAccountAdmins,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithStorageAccount,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithEmailAddresses,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithDisabledAlerts,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithRetentionDays,SqlServerSecurityAlertPolicyOperations.DefinitionStages.WithCreate

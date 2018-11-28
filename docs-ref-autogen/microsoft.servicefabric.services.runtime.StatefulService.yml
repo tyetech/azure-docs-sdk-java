@@ -138,10 +138,7 @@ references:
   nameWithType: StatefulServiceBase.backupAsync(BackupDescription backupDescription)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.backupAsync(BackupDescription backupDescription)
   type: Method
-  summary: >-
-    <p>Performs a backup of all reliable state managed by this <xref uid="microsoft.servicefabric.services.runtime.StatefulServiceBase" data-throw-if-not-resolved="false">StatefulServiceBase</xref>.</p>
-
-    <p></p>
+  summary: "<p>Performs a backup of all reliable state managed by this <xref uid=\"microsoft.servicefabric.services.runtime.StatefulServiceBase\" data-throw-if-not-resolved=\"false\">StatefulServiceBase</xref>.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> backupAsync(BackupDescription backupDescription)
     parameters:
@@ -158,10 +155,7 @@ references:
   nameWithType: StatefulServiceBase.backupAsync(BackupDescription backupDescription, Duration timeout, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.backupAsync(BackupDescription backupDescription, Duration timeout, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Performs a backup of all reliable state managed by this <xref uid="microsoft.servicefabric.services.runtime.StatefulServiceBase" data-throw-if-not-resolved="false">StatefulServiceBase</xref>.</p>
-
-    <p></p>
+  summary: "<p>Performs a backup of all reliable state managed by this <xref uid=\"microsoft.servicefabric.services.runtime.StatefulServiceBase\" data-throw-if-not-resolved=\"false\">StatefulServiceBase</xref>.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<?> backupAsync(BackupDescription backupDescription, Duration timeout, CancellationToken cancellationToken)
     parameters:
@@ -184,10 +178,7 @@ references:
   nameWithType: StatefulServiceBase.createServiceReplicaListeners()
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.createServiceReplicaListeners()
   type: Method
-  summary: >-
-    <p>Override this method to supply the communication listeners for the service replica. The endpoints returned by the communication listener's are stored as a JSON string of ListenerName, Endpoint string pairs like {"Endpoints":{"Listener1":"Endpoint1","Listener2":"Endpoint2" ...}}</p>
-
-    <p></p>
+  summary: "<p>Override this method to supply the communication listeners for the service replica. The endpoints returned by the communication listener's are stored as a JSON string of ListenerName, Endpoint string pairs like {\"Endpoints\":{\"Listener1\":\"Endpoint1\",\"Listener2\":\"Endpoint2\" ...}}</p>\r\n<p></p>"
   syntax:
     content: protected List<ServiceReplicaListener> createServiceReplicaListeners()
     return:
@@ -200,10 +191,7 @@ references:
   nameWithType: StatefulServiceBase.getAddresses()
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.getAddresses()
   type: Method
-  summary: >-
-    <p>Gets list of all the addresses for this service replica as (ListenerName, Endpoint) key-value pair.</p>
-
-    <p></p>
+  summary: "<p>Gets list of all the addresses for this service replica as (ListenerName, Endpoint) key-value pair.</p>\r\n<p></p>"
   syntax:
     content: protected Map<String, String> getAddresses()
     return:
@@ -216,10 +204,7 @@ references:
   nameWithType: StatefulServiceBase.getPartition()
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.getPartition()
   type: Method
-  summary: >-
-    <p>Service partition to which current service replica belongs.</p>
-
-    <p></p>
+  summary: "<p>Service partition to which current service replica belongs.</p>\r\n<p></p>"
   syntax:
     content: protected StatefulServicePartition getPartition()
     return:
@@ -232,10 +217,7 @@ references:
   nameWithType: StatefulServiceBase.getServiceContext()
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.getServiceContext()
   type: Method
-  summary: >-
-    <p>Gets the service context that this stateful service is operating under. It provides information like ReplicaId, PartitionId, ServiceName etc.</p>
-
-    <p></p>
+  summary: "<p>Gets the service context that this stateful service is operating under. It provides information like ReplicaId, PartitionId, ServiceName etc.</p>\r\n<p></p>"
   syntax:
     content: public StatefulServiceContext getServiceContext()
     return:
@@ -259,7 +241,7 @@ references:
   nameWithType: StatefulServiceBase.onAbort()
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.onAbort()
   type: Method
-  summary: <p>Notification that the service is being aborted. RunAsync MAY be running concurrently with the execution of this method, as cancellation is not awaited on the abort path. </p>
+  summary: "<p>Notification that the service is being aborted. RunAsync MAY be running concurrently with the execution of this method, as cancellation is not awaited on the abort path. </p>"
   syntax:
     content: protected void onAbort()
 - uid: microsoft.servicefabric.services.runtime.StatefulServiceBase.onChangeRoleAsync(ReplicaRole,CancellationToken)
@@ -269,10 +251,7 @@ references:
   nameWithType: StatefulServiceBase.onChangeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.onChangeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is called as the final step before completing <xref uid="system.fabric.StatefulServiceReplica.changeRoleAsync(ReplicaRole,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StatefulServiceReplica#changeRoleAsync(ReplicaRole, CancellationToken)</xref> . Override this method to be notified that ChangeRole has completed for this replica's internal components.</p>
-
-    <p></p>
+  summary: "<p>This method is called as the final step before completing <xref uid=\"system.fabric.StatefulServiceReplica.changeRoleAsync(ReplicaRole,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServiceReplica#changeRoleAsync(ReplicaRole, CancellationToken)</xref> . Override this method to be notified that ChangeRole has completed for this replica's internal components.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<?> onChangeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
@@ -295,10 +274,7 @@ references:
   nameWithType: StatefulServiceBase.onCloseAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.onCloseAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is called as the final step of closing the service. Override this method to be notified that Close has completed for this replica's internal components.</p>
-
-    <p></p>
+  summary: "<p>This method is called as the final step of closing the service. Override this method to be notified that Close has completed for this replica's internal components.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<?> onCloseAsync(CancellationToken cancellationToken)
     parameters:
@@ -318,10 +294,7 @@ references:
   nameWithType: StatefulServiceBase.onDataLossAsync(RestoreContext context, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.onDataLossAsync(RestoreContext context, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is called during suspected data loss. You can override this method to restore the service in case of data loss.</p>
-
-    <p></p>
+  summary: "<p>This method is called during suspected data loss. You can override this method to restore the service in case of data loss.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<Boolean> onDataLossAsync(RestoreContext context, CancellationToken cancellationToken)
     parameters:
@@ -344,10 +317,7 @@ references:
   nameWithType: StatefulServiceBase.onOpenAsync(ReplicaOpenMode openMode, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.onOpenAsync(ReplicaOpenMode openMode, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is called as the final step of opening the service. Override this method to be notified that Open has completed for this replica's internal components.</p>
-
-    <p></p>
+  summary: "<p>This method is called as the final step of opening the service. Override this method to be notified that Open has completed for this replica's internal components.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<?> onOpenAsync(ReplicaOpenMode openMode, CancellationToken cancellationToken)
     parameters:
@@ -370,10 +340,7 @@ references:
   nameWithType: StatefulServiceBase.runAsync(CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.runAsync(CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Services that want to implement a processing loop which runs when it is primary and has write status, just override this method with their logic.</p>
-
-    <p></p>
+  summary: "<p>Services that want to implement a processing loop which runs when it is primary and has write status, just override this method with their logic.</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<?> runAsync(CancellationToken cancellationToken)
     parameters:
@@ -393,10 +360,7 @@ references:
   nameWithType: StatefulServiceBase.setAddresses(Map<String, String> addresses)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.setAddresses(Map<String, String> addresses)
   type: Method
-  summary: >-
-    <p>Sets list of all the addresses for this service replica as (ListenerName, Endpoint) key-value pair.</p>
-
-    <p></p>
+  summary: "<p>Sets list of all the addresses for this service replica as (ListenerName, Endpoint) key-value pair.</p>\r\n<p></p>"
   syntax:
     content: protected void setAddresses(Map<String, String> addresses)
     parameters:
@@ -410,10 +374,7 @@ references:
   nameWithType: StatefulServiceBase.setPartition(StatefulServicePartition partition)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.setPartition(StatefulServicePartition partition)
   type: Method
-  summary: >-
-    <p>Service partition to which current service replica belongs.</p>
-
-    <p></p>
+  summary: "<p>Service partition to which current service replica belongs.</p>\r\n<p></p>"
   syntax:
     content: protected void setPartition(StatefulServicePartition partition)
     parameters:
@@ -427,10 +388,7 @@ references:
   nameWithType: StatefulServiceBase.StatefulServiceBase(StatefulServiceContext serviceContext, StateProviderReplica stateProviderReplica)
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase.StatefulServiceBase(StatefulServiceContext serviceContext, StateProviderReplica stateProviderReplica)
   type: Constructor
-  summary: >-
-    <p>Creates a new StatefulService.</p>
-
-    <p></p>
+  summary: "<p>Creates a new StatefulService.</p>\r\n<p></p>"
   syntax:
     content: protected StatefulServiceBase(StatefulServiceContext serviceContext, StateProviderReplica stateProviderReplica)
     parameters:
@@ -447,7 +405,7 @@ references:
   nameWithType: StatefulServiceBase
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase
   type: Class
-  summary: <p>Represents base class for Microsoft Service Fabric based stateful reliable service. </p>
+  summary: "<p>Represents base class for Microsoft Service Fabric based stateful reliable service. </p>"
   syntax:
     content: public class StatefulServiceBase
 - uid: microsoft.servicefabric.data.ReliableStateManager
@@ -466,6 +424,6 @@ references:
   nameWithType: StatefulServiceContext
   fullName: system.fabric.StatefulServiceContext
   type: Class
-  summary: <p>Represents the service context that the stateful service is operating under. </p>
+  summary: "<p>Represents the service context that the stateful service is operating under. </p>"
   syntax:
     content: public class StatefulServiceContext

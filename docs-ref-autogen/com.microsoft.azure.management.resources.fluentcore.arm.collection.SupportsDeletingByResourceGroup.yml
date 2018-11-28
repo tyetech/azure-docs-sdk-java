@@ -146,7 +146,7 @@ references:
   nameWithType: AppServiceCertificateOrders
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrders
   type: Interface
-  summary: <p>Entry point for app service certificate order management API. </p>
+  summary: "<p>Entry point for app service certificate order management API. </p>"
   syntax:
     content: public interface AppServiceCertificateOrders extends SupportsCreating<AppServiceCertificateOrder.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<AppServiceCertificateOrder>,SupportsGettingByResourceGroup<AppServiceCertificateOrder>,SupportsListing<AppServiceCertificateOrder>,SupportsGettingById<AppServiceCertificateOrder>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<AppServiceCertificateOrdersInner>
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificates
@@ -156,7 +156,7 @@ references:
   nameWithType: AppServiceCertificates
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificates
   type: Interface
-  summary: <p>Entry point for certificate management API. </p>
+  summary: "<p>Entry point for certificate management API. </p>"
   syntax:
     content: public interface AppServiceCertificates extends SupportsCreating<AppServiceCertificate.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<AppServiceCertificate>,SupportsListing<AppServiceCertificate>,SupportsGettingByResourceGroup<AppServiceCertificate>,SupportsGettingById<AppServiceCertificate>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<CertificatesInner>
 - uid: com.microsoft.azure.management.appservice.AppServiceDomains
@@ -166,7 +166,7 @@ references:
   nameWithType: AppServiceDomains
   fullName: com.microsoft.azure.management.appservice.AppServiceDomains
   type: Interface
-  summary: <p>Entry point for domain management API. </p>
+  summary: "<p>Entry point for domain management API. </p>"
   syntax:
     content: public interface AppServiceDomains extends SupportsCreating<AppServiceDomain.DefinitionStages.Blank>,SupportsListing<AppServiceDomain>,SupportsListingByResourceGroup<AppServiceDomain>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsGettingByResourceGroup<AppServiceDomain>,SupportsGettingById<AppServiceDomain>,HasManager<AppServiceManager>,HasInner<DomainsInner>
 - uid: com.microsoft.azure.management.appservice.AppServicePlans
@@ -176,7 +176,7 @@ references:
   nameWithType: AppServicePlans
   fullName: com.microsoft.azure.management.appservice.AppServicePlans
   type: Interface
-  summary: <p>Entry point for App Service plan management API. </p>
+  summary: "<p>Entry point for App Service plan management API. </p>"
   syntax:
     content: public interface AppServicePlans extends SupportsCreating<AppServicePlan.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<AppServicePlan>,SupportsListing<AppServicePlan>,SupportsGettingByResourceGroup<AppServicePlan>,SupportsGettingById<AppServicePlan>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<AppServicePlansInner>
 - uid: com.microsoft.azure.management.appservice.FunctionApps
@@ -186,7 +186,7 @@ references:
   nameWithType: FunctionApps
   fullName: com.microsoft.azure.management.appservice.FunctionApps
   type: Interface
-  summary: <p>Entry point for web app management API. </p>
+  summary: "<p>Entry point for web app management API. </p>"
   syntax:
     content: public interface FunctionApps extends SupportsCreating<FunctionApp.DefinitionStages.Blank>,SupportsDeletingById,SupportsListing<FunctionApp>,SupportsListingByResourceGroup<FunctionApp>,SupportsGettingByResourceGroup<FunctionApp>,SupportsGettingById<FunctionApp>,SupportsDeletingByResourceGroup,HasManager<AppServiceManager>,HasInner<WebAppsInner>
 - uid: com.microsoft.azure.management.appservice.WebApps
@@ -196,7 +196,7 @@ references:
   nameWithType: WebApps
   fullName: com.microsoft.azure.management.appservice.WebApps
   type: Interface
-  summary: <p>Entry point for web app management API. </p>
+  summary: "<p>Entry point for web app management API. </p>"
   syntax:
     content: public interface WebApps
 - uid: com.microsoft.azure.management.batch.BatchAccounts
@@ -206,7 +206,7 @@ references:
   nameWithType: BatchAccounts
   fullName: com.microsoft.azure.management.batch.BatchAccounts
   type: Interface
-  summary: <p>Entry point to Azure Batch account management API. </p>
+  summary: "<p>Entry point to Azure Batch account management API. </p>"
   syntax:
     content: public interface BatchAccounts extends SupportsCreating<BatchAccount.DefinitionStages.Blank>,SupportsListing<BatchAccount>,SupportsListingByResourceGroup<BatchAccount>,SupportsGettingByResourceGroup<BatchAccount>,SupportsGettingById<BatchAccount>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<BatchAccount>,SupportsBatchDeletion,HasManager<BatchManager>,HasInner<BatchAccountsInner>
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspaces
@@ -216,7 +216,7 @@ references:
   nameWithType: BatchAIWorkspaces
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspaces
   type: Interface
-  summary: <p>Entry point to virtual network gateways management API in Azure. </p>
+  summary: "<p>Entry point to virtual network gateways management API in Azure. </p>"
   syntax:
     content: public interface BatchAIWorkspaces extends SupportsCreating<BatchAIWorkspace.DefinitionStages.Blank>,SupportsListing<BatchAIWorkspace>,SupportsListingByResourceGroup<BatchAIWorkspace>,SupportsGettingByResourceGroup<BatchAIWorkspace>,SupportsGettingById<BatchAIWorkspace>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<BatchAIWorkspace>,HasManager<BatchAIManager>,HasInner<WorkspacesInner>
 - uid: com.microsoft.azure.management.cdn.CdnProfiles
@@ -226,7 +226,7 @@ references:
   nameWithType: CdnProfiles
   fullName: com.microsoft.azure.management.cdn.CdnProfiles
   type: Interface
-  summary: <p>Entry point for CDN profile management API. </p>
+  summary: "<p>Entry point for CDN profile management API. </p>"
   syntax:
     content: public interface CdnProfiles extends SupportsCreating<CdnProfile.DefinitionStages.Blank>,SupportsListing<CdnProfile>,SupportsListingByResourceGroup<CdnProfile>,SupportsGettingByResourceGroup<CdnProfile>,SupportsGettingById<CdnProfile>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<CdnProfile>,SupportsBatchDeletion,HasManager<CdnManager>,HasInner<ProfilesInner>
 - uid: com.microsoft.azure.management.compute.AvailabilitySets
@@ -236,7 +236,7 @@ references:
   nameWithType: AvailabilitySets
   fullName: com.microsoft.azure.management.compute.AvailabilitySets
   type: Interface
-  summary: <p>Entry point to availability set management API. </p>
+  summary: "<p>Entry point to availability set management API. </p>"
   syntax:
     content: public interface AvailabilitySets extends SupportsListingByResourceGroup<AvailabilitySet>,SupportsGettingByResourceGroup<AvailabilitySet>,SupportsGettingById<AvailabilitySet>,SupportsListing<AvailabilitySet>,SupportsCreating<AvailabilitySet.DefinitionStages.Blank>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<AvailabilitySet>,HasManager<ComputeManager>,HasInner<AvailabilitySetsInner>
 - uid: com.microsoft.azure.management.compute.ContainerServices
@@ -246,7 +246,7 @@ references:
   nameWithType: ContainerServices
   fullName: com.microsoft.azure.management.compute.ContainerServices
   type: Interface
-  summary: <p>Entry point to container service management API. </p>
+  summary: "<p>Entry point to container service management API. </p>"
   syntax:
     content: public interface ContainerServices extends SupportsCreating<ContainerService.DefinitionStages.Blank>,HasManager<ComputeManager>,HasInner<ContainerServicesInner>,SupportsBatchCreation<ContainerService>,SupportsListing<ContainerService>,SupportsGettingById<ContainerService>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<ContainerService>,SupportsGettingByResourceGroup<ContainerService>
 - uid: com.microsoft.azure.management.compute.Disks
@@ -256,7 +256,7 @@ references:
   nameWithType: Disks
   fullName: com.microsoft.azure.management.compute.Disks
   type: Interface
-  summary: <p>Entry point to managed disk management API in Azure. </p>
+  summary: "<p>Entry point to managed disk management API in Azure. </p>"
   syntax:
     content: public interface Disks extends SupportsCreating<Disk.DefinitionStages.Blank>,SupportsListing<Disk>,SupportsListingByResourceGroup<Disk>,SupportsGettingByResourceGroup<Disk>,SupportsGettingById<Disk>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<Disk>,SupportsBatchDeletion,HasManager<ComputeManager>,HasInner<DisksInner>
 - uid: com.microsoft.azure.management.compute.Snapshots
@@ -266,7 +266,7 @@ references:
   nameWithType: Snapshots
   fullName: com.microsoft.azure.management.compute.Snapshots
   type: Interface
-  summary: <p>Entry point to managed snapshot management API in Azure. </p>
+  summary: "<p>Entry point to managed snapshot management API in Azure. </p>"
   syntax:
     content: public interface Snapshots extends SupportsCreating<Snapshot.DefinitionStages.Blank>,SupportsListing<Snapshot>,SupportsListingByResourceGroup<Snapshot>,SupportsGettingByResourceGroup<Snapshot>,SupportsGettingById<Snapshot>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<Snapshot>,SupportsBatchDeletion,HasManager<ComputeManager>,HasInner<SnapshotsInner>
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImages
@@ -276,7 +276,7 @@ references:
   nameWithType: VirtualMachineCustomImages
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImages
   type: Interface
-  summary: <p>Entry point to custom virtual machine image management. </p>
+  summary: "<p>Entry point to custom virtual machine image management. </p>"
   syntax:
     content: public interface VirtualMachineCustomImages
 - uid: com.microsoft.azure.management.compute.VirtualMachines
@@ -286,7 +286,7 @@ references:
   nameWithType: VirtualMachines
   fullName: com.microsoft.azure.management.compute.VirtualMachines
   type: Interface
-  summary: <p>Entry point to virtual machine management API. </p>
+  summary: "<p>Entry point to virtual machine management API. </p>"
   syntax:
     content: public interface VirtualMachines
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSets
@@ -296,7 +296,7 @@ references:
   nameWithType: VirtualMachineScaleSets
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSets
   type: Interface
-  summary: <p>Entry point to virtual machine scale set management API. </p>
+  summary: "<p>Entry point to virtual machine scale set management API. </p>"
   syntax:
     content: public interface VirtualMachineScaleSets
 - uid: com.microsoft.azure.management.containerinstance.ContainerGroups
@@ -306,7 +306,7 @@ references:
   nameWithType: ContainerGroups
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroups
   type: Interface
-  summary: <p>Entry point to the container instance management API. </p>
+  summary: "<p>Entry point to the container instance management API. </p>"
   syntax:
     content: public interface ContainerGroups extends SupportsCreating<ContainerGroup.DefinitionStages.Blank>,HasManager<ContainerInstanceManager>,HasInner<ContainerGroupsInner>,SupportsBatchCreation<ContainerGroup>,SupportsGettingByResourceGroup<ContainerGroup>,SupportsGettingById<ContainerGroup>,SupportsDeletingByResourceGroup,SupportsDeletingById,SupportsBatchDeletion,SupportsListingByResourceGroup<ContainerGroup>,SupportsListing<ContainerGroup>
 - uid: com.microsoft.azure.management.containerregistry.Registries
@@ -316,7 +316,7 @@ references:
   nameWithType: Registries
   fullName: com.microsoft.azure.management.containerregistry.Registries
   type: Interface
-  summary: <p>Entry point to the registry management API. </p>
+  summary: "<p>Entry point to the registry management API. </p>"
   syntax:
     content: public interface Registries extends SupportsCreating<Registry.DefinitionStages.Blank>,HasManager<ContainerRegistryManager>,HasInner<RegistriesInner>,SupportsBatchCreation<Registry>,SupportsGettingById<Registry>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<Registry>,SupportsGettingByResourceGroup<Registry>,SupportsListing<Registry>
 - uid: com.microsoft.azure.management.containerservice.ContainerServices
@@ -326,7 +326,7 @@ references:
   nameWithType: ContainerServices
   fullName: com.microsoft.azure.management.containerservice.ContainerServices
   type: Interface
-  summary: <p>Entry point to container service management API. </p>
+  summary: "<p>Entry point to container service management API. </p>"
   syntax:
     content: public interface ContainerServices extends SupportsCreating<ContainerService.DefinitionStages.Blank>,HasManager<ContainerServiceManager>,HasInner<ContainerServicesInner>,SupportsBatchCreation<ContainerService>,SupportsListing<ContainerService>,SupportsGettingById<ContainerService>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<ContainerService>,SupportsGettingByResourceGroup<ContainerService>
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusters
@@ -336,7 +336,7 @@ references:
   nameWithType: KubernetesClusters
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters
   type: Interface
-  summary: <p>Entry point to managed Kubernetes service management API. </p>
+  summary: "<p>Entry point to managed Kubernetes service management API. </p>"
   syntax:
     content: public interface KubernetesClusters extends HasManager<ContainerServiceManager>,HasInner<ManagedClustersInner>,SupportsCreating<KubernetesCluster.DefinitionStages.Blank>,SupportsBatchCreation<KubernetesCluster>,SupportsListing<KubernetesCluster>,SupportsGettingById<KubernetesCluster>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<KubernetesCluster>,SupportsGettingByResourceGroup<KubernetesCluster>
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccounts
@@ -346,7 +346,7 @@ references:
   nameWithType: CosmosDBAccounts
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccounts
   type: Interface
-  summary: <p>Entry point to Cosmos DB management API. </p>
+  summary: "<p>Entry point to Cosmos DB management API. </p>"
   syntax:
     content: public interface CosmosDBAccounts extends SupportsCreating<CosmosDBAccount.DefinitionStages.Blank>,HasManager<CosmosDBManager>,HasInner<DatabaseAccountsInner>,SupportsBatchCreation<CosmosDBAccount>,SupportsGettingById<CosmosDBAccount>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListing<CosmosDBAccount>,SupportsListingByResourceGroup<CosmosDBAccount>,SupportsGettingByResourceGroup<CosmosDBAccount>
 - uid: com.microsoft.azure.management.dns.DnsZones
@@ -356,7 +356,7 @@ references:
   nameWithType: DnsZones
   fullName: com.microsoft.azure.management.dns.DnsZones
   type: Interface
-  summary: <p>Entry point to DNS zone management API in Azure. </p>
+  summary: "<p>Entry point to DNS zone management API in Azure. </p>"
   syntax:
     content: public interface DnsZones extends SupportsCreating<DnsZone.DefinitionStages.Blank>,SupportsListing<DnsZone>,SupportsListingByResourceGroup<DnsZone>,SupportsGettingByResourceGroup<DnsZone>,SupportsGettingById<DnsZone>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<DnsZone>,SupportsBatchDeletion,HasManager<DnsZoneManager>,HasInner<ZonesInner>
 - uid: com.microsoft.azure.management.keyvault.Vaults
@@ -366,7 +366,7 @@ references:
   nameWithType: Vaults
   fullName: com.microsoft.azure.management.keyvault.Vaults
   type: Interface
-  summary: <p>Entry point for key vaults management API. </p>
+  summary: "<p>Entry point for key vaults management API. </p>"
   syntax:
     content: public interface Vaults
 - uid: com.microsoft.azure.management.network.ApplicationGateways
@@ -376,7 +376,7 @@ references:
   nameWithType: ApplicationGateways
   fullName: com.microsoft.azure.management.network.ApplicationGateways
   type: Interface
-  summary: <p>Entry point to application gateway management API in Azure. </p>
+  summary: "<p>Entry point to application gateway management API in Azure. </p>"
   syntax:
     content: public interface ApplicationGateways extends SupportsCreating<ApplicationGateway.DefinitionStages.Blank>,SupportsListing<ApplicationGateway>,SupportsListingByResourceGroup<ApplicationGateway>,SupportsGettingByResourceGroup<ApplicationGateway>,SupportsGettingById<ApplicationGateway>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<ApplicationGateway>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<ApplicationGatewaysInner>
 - uid: com.microsoft.azure.management.network.LoadBalancers
@@ -386,7 +386,7 @@ references:
   nameWithType: LoadBalancers
   fullName: com.microsoft.azure.management.network.LoadBalancers
   type: Interface
-  summary: <p>Entry point to load balancer management API in Azure. </p>
+  summary: "<p>Entry point to load balancer management API in Azure. </p>"
   syntax:
     content: public interface LoadBalancers extends SupportsCreating<LoadBalancer.DefinitionStages.Blank>,SupportsListing<LoadBalancer>,SupportsListingByResourceGroup<LoadBalancer>,SupportsGettingByResourceGroup<LoadBalancer>,SupportsGettingById<LoadBalancer>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<LoadBalancer>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<LoadBalancersInner>
 - uid: com.microsoft.azure.management.network.LocalNetworkGateways
@@ -396,7 +396,7 @@ references:
   nameWithType: LocalNetworkGateways
   fullName: com.microsoft.azure.management.network.LocalNetworkGateways
   type: Interface
-  summary: <p>Entry point to local network gateways management API in Azure. </p>
+  summary: "<p>Entry point to local network gateways management API in Azure. </p>"
   syntax:
     content: public interface LocalNetworkGateways extends SupportsCreating<LocalNetworkGateway.DefinitionStages.Blank>,SupportsListing<LocalNetworkGateway>,SupportsListingByResourceGroup<LocalNetworkGateway>,SupportsGettingByResourceGroup<LocalNetworkGateway>,SupportsGettingById<LocalNetworkGateway>,SupportsDeletingById,SupportsDeletingByResourceGroup,HasManager<NetworkManager>,HasInner<LocalNetworkGatewaysInner>
 - uid: com.microsoft.azure.management.network.NetworkInterfaces
@@ -406,7 +406,7 @@ references:
   nameWithType: NetworkInterfaces
   fullName: com.microsoft.azure.management.network.NetworkInterfaces
   type: Interface
-  summary: <p>Entry point to network interface management. </p>
+  summary: "<p>Entry point to network interface management. </p>"
   syntax:
     content: public interface NetworkInterfaces extends SupportsCreating<NetworkInterface.DefinitionStages.Blank>,SupportsListing<NetworkInterface>,SupportsListingByResourceGroup<NetworkInterface>,SupportsGettingByResourceGroup<NetworkInterface>,SupportsGettingById<NetworkInterface>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<NetworkInterface>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<NetworkInterfacesInner>
 - uid: com.microsoft.azure.management.network.Networks
@@ -416,7 +416,7 @@ references:
   nameWithType: Networks
   fullName: com.microsoft.azure.management.network.Networks
   type: Interface
-  summary: <p>Entry point to virtual network management API in Azure. </p>
+  summary: "<p>Entry point to virtual network management API in Azure. </p>"
   syntax:
     content: public interface Networks extends SupportsCreating<Network.DefinitionStages.Blank>,SupportsListing<Network>,SupportsListingByResourceGroup<Network>,SupportsGettingByResourceGroup<Network>,SupportsGettingById<Network>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<Network>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<VirtualNetworksInner>
 - uid: com.microsoft.azure.management.network.NetworkSecurityGroups
@@ -426,7 +426,7 @@ references:
   nameWithType: NetworkSecurityGroups
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroups
   type: Interface
-  summary: <p>Entry point to network security group management. </p>
+  summary: "<p>Entry point to network security group management. </p>"
   syntax:
     content: public interface NetworkSecurityGroups extends SupportsCreating<NetworkSecurityGroup.DefinitionStages.Blank>,SupportsListing<NetworkSecurityGroup>,SupportsListingByResourceGroup<NetworkSecurityGroup>,SupportsGettingByResourceGroup<NetworkSecurityGroup>,SupportsGettingById<NetworkSecurityGroup>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<NetworkSecurityGroup>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<NetworkSecurityGroupsInner>
 - uid: com.microsoft.azure.management.network.NetworkWatchers
@@ -436,7 +436,7 @@ references:
   nameWithType: NetworkWatchers
   fullName: com.microsoft.azure.management.network.NetworkWatchers
   type: Interface
-  summary: <p>Entry point for Network Watcher API in Azure. </p>
+  summary: "<p>Entry point for Network Watcher API in Azure. </p>"
   syntax:
     content: public interface NetworkWatchers extends SupportsListing<NetworkWatcher>,SupportsCreating<NetworkWatcher.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<NetworkWatcher>,SupportsGettingByResourceGroup<NetworkWatcher>,SupportsGettingById<NetworkWatcher>,SupportsDeletingByResourceGroup,SupportsBatchCreation<NetworkWatcher>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<NetworkWatchersInner>
 - uid: com.microsoft.azure.management.network.PublicIPAddresses
@@ -446,7 +446,7 @@ references:
   nameWithType: PublicIPAddresses
   fullName: com.microsoft.azure.management.network.PublicIPAddresses
   type: Interface
-  summary: <p>Entry point to public IP address management. </p>
+  summary: "<p>Entry point to public IP address management. </p>"
   syntax:
     content: public interface PublicIPAddresses extends SupportsListing<PublicIPAddress>,SupportsCreating<PublicIPAddress.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<PublicIPAddress>,SupportsGettingByResourceGroup<PublicIPAddress>,SupportsGettingById<PublicIPAddress>,SupportsDeletingByResourceGroup,SupportsBatchCreation<PublicIPAddress>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<PublicIPAddressesInner>
 - uid: com.microsoft.azure.management.network.RouteTables
@@ -456,7 +456,7 @@ references:
   nameWithType: RouteTables
   fullName: com.microsoft.azure.management.network.RouteTables
   type: Interface
-  summary: <p>Entry point to route table management. </p>
+  summary: "<p>Entry point to route table management. </p>"
   syntax:
     content: public interface RouteTables extends SupportsCreating<RouteTable.DefinitionStages.Blank>,SupportsListing<RouteTable>,SupportsListingByResourceGroup<RouteTable>,SupportsGettingByResourceGroup<RouteTable>,SupportsGettingById<RouteTable>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<RouteTable>,SupportsBatchDeletion,HasManager<NetworkManager>,HasInner<RouteTablesInner>
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateways
@@ -466,7 +466,7 @@ references:
   nameWithType: VirtualNetworkGateways
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateways
   type: Interface
-  summary: <p>Entry point to virtual network gateways management API in Azure. </p>
+  summary: "<p>Entry point to virtual network gateways management API in Azure. </p>"
   syntax:
     content: public interface VirtualNetworkGateways
 - uid: com.microsoft.azure.management.redis.RedisCaches
@@ -476,7 +476,7 @@ references:
   nameWithType: RedisCaches
   fullName: com.microsoft.azure.management.redis.RedisCaches
   type: Interface
-  summary: <p>Entry point for Redis Cache management API. </p>
+  summary: "<p>Entry point for Redis Cache management API. </p>"
   syntax:
     content: public interface RedisCaches extends SupportsCreating<RedisCache.DefinitionStages.Blank>,SupportsListing<RedisCache>,SupportsListingByResourceGroup<RedisCache>,SupportsGettingByResourceGroup<RedisCache>,SupportsGettingById<RedisCache>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<RedisCache>,SupportsBatchDeletion,HasManager<RedisManager>,HasInner<RedisInner>
 - uid: com.microsoft.azure.management.resources.Deployments
@@ -486,7 +486,7 @@ references:
   nameWithType: Deployments
   fullName: com.microsoft.azure.management.resources.Deployments
   type: Interface
-  summary: <p>Entry point to template deployment in Azure. </p>
+  summary: "<p>Entry point to template deployment in Azure. </p>"
   syntax:
     content: public interface Deployments extends SupportsCreating<Deployment.DefinitionStages.Blank>,SupportsListing<Deployment>,SupportsListingByResourceGroup<Deployment>,SupportsGettingByName<Deployment>,SupportsGettingByResourceGroup<Deployment>,SupportsGettingById<Deployment>,SupportsDeletingById,SupportsDeletingByResourceGroup,HasManager<ResourceManager>
 - uid: com.microsoft.azure.management.search.SearchServices
@@ -496,7 +496,7 @@ references:
   nameWithType: SearchServices
   fullName: com.microsoft.azure.management.search.SearchServices
   type: Interface
-  summary: <p>Entry point to Search service management API in Azure. </p>
+  summary: "<p>Entry point to Search service management API in Azure. </p>"
   syntax:
     content: public interface SearchServices extends SupportsCreating<SearchService.DefinitionStages.Blank>,SupportsListing<SearchService>,SupportsListingByResourceGroup<SearchService>,SupportsGettingByResourceGroup<SearchService>,SupportsGettingById<SearchService>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<SearchService>,HasManager<SearchServiceManager>,HasInner<ServicesInner>
 - uid: com.microsoft.azure.management.servicebus.ServiceBusNamespaces
@@ -506,7 +506,7 @@ references:
   nameWithType: ServiceBusNamespaces
   fullName: com.microsoft.azure.management.servicebus.ServiceBusNamespaces
   type: Interface
-  summary: <p>Entry point to Service Bus namespace API in Azure. </p>
+  summary: "<p>Entry point to Service Bus namespace API in Azure. </p>"
   syntax:
     content: public interface ServiceBusNamespaces extends SupportsCreating<ServiceBusNamespace.DefinitionStages.Blank>,SupportsBatchCreation<ServiceBusNamespace>,SupportsBatchDeletion,SupportsListing<ServiceBusNamespace>,SupportsListingByResourceGroup<ServiceBusNamespace>,SupportsGettingByResourceGroup<ServiceBusNamespace>,SupportsGettingById<ServiceBusNamespace>,SupportsDeletingById,SupportsDeletingByResourceGroup,HasManager<ServiceBusManager>,HasInner<NamespacesInner>
 - uid: com.microsoft.azure.management.sql.SqlServers
@@ -516,7 +516,7 @@ references:
   nameWithType: SqlServers
   fullName: com.microsoft.azure.management.sql.SqlServers
   type: Interface
-  summary: <p>Entry point to SQL Server management API. </p>
+  summary: "<p>Entry point to SQL Server management API. </p>"
   syntax:
     content: public interface SqlServers extends SupportsCreating<SqlServer.DefinitionStages.Blank>,SupportsListing<SqlServer>,SupportsListingByResourceGroup<SqlServer>,SupportsGettingByResourceGroup<SqlServer>,SupportsGettingById<SqlServer>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<SqlServer>,SupportsBatchDeletion,HasManager<SqlServerManager>,HasInner<ServersInner>,SupportsCreating<SqlServer.DefinitionStages.Blank>,SupportsListing<SqlServer>,SupportsListingByResourceGroup<SqlServer>,SupportsGettingByResourceGroup<SqlServer>,SupportsGettingById<SqlServer>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<SqlServer>,SupportsBatchDeletion,HasManager<SqlServerManager>,HasInner<ServersInner>
 - uid: com.microsoft.azure.management.storage.StorageAccounts
@@ -526,7 +526,7 @@ references:
   nameWithType: StorageAccounts
   fullName: com.microsoft.azure.management.storage.StorageAccounts
   type: Interface
-  summary: <p>Entry point for storage accounts management API. </p>
+  summary: "<p>Entry point for storage accounts management API. </p>"
   syntax:
     content: public interface StorageAccounts extends SupportsListing<StorageAccount>,SupportsCreating<StorageAccount.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<StorageAccount>,SupportsGettingByResourceGroup<StorageAccount>,SupportsGettingById<StorageAccount>,SupportsDeletingByResourceGroup,SupportsBatchCreation<StorageAccount>,SupportsBatchDeletion,HasManager<StorageManager>,HasInner<StorageAccountsInner>
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerProfiles
@@ -536,6 +536,6 @@ references:
   nameWithType: TrafficManagerProfiles
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerProfiles
   type: Interface
-  summary: <p>Entry point to traffic manager profile management API in Azure. </p>
+  summary: "<p>Entry point to traffic manager profile management API in Azure. </p>"
   syntax:
     content: public interface TrafficManagerProfiles

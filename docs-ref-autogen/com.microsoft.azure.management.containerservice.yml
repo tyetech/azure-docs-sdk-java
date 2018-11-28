@@ -137,7 +137,7 @@ references:
   nameWithType: com.microsoft.azure.management.containerservice.implementation
   fullName: com.microsoft.azure.management.containerservice.implementation
   type: Namespace
-  summary: <p>This package contains the implementation classes for ContainerServiceManagementClient. Container Service Client. </p>
+  summary: "<p>This package contains the implementation classes for ContainerServiceManagementClient. Container Service Client. </p>"
   syntax:
     content: package com.microsoft.azure.management.containerservice.implementation
 - uid: com.microsoft.azure.management.containerservice.ContainerService
@@ -147,7 +147,7 @@ references:
   nameWithType: ContainerService
   fullName: com.microsoft.azure.management.containerservice.ContainerService
   type: Interface
-  summary: <p>A client-side representation for a container service. </p>
+  summary: "<p>A client-side representation for a container service. </p>"
   syntax:
     content: public interface ContainerService extends GroupableResource<ContainerServiceManager, ContainerServiceInner>,Refreshable<ContainerService>,Updatable<ContainerService.Update>,OrchestratorServiceBase
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool
@@ -157,7 +157,7 @@ references:
   nameWithType: ContainerServiceAgentPool
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool
   type: Interface
-  summary: <p>A client-side representation for a container service agent pool. </p>
+  summary: "<p>A client-side representation for a container service agent pool. </p>"
   syntax:
     content: public interface ContainerServiceAgentPool extends ChildResource<OrchestratorServiceBase>,HasInner<ContainerServiceAgentPoolProfile>
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPoolProfile
@@ -167,7 +167,7 @@ references:
   nameWithType: ContainerServiceAgentPoolProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPoolProfile
   type: Class
-  summary: <p>Profile for the container service agent pool. </p>
+  summary: "<p>Profile for the container service agent pool. </p>"
   syntax:
     content: public class ContainerServiceAgentPoolProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceCustomProfile
@@ -177,7 +177,7 @@ references:
   nameWithType: ContainerServiceCustomProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceCustomProfile
   type: Class
-  summary: <p>Properties to configure a custom container service cluster. </p>
+  summary: "<p>Properties to configure a custom container service cluster. </p>"
   syntax:
     content: public class ContainerServiceCustomProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceDiagnosticsProfile
@@ -187,7 +187,7 @@ references:
   nameWithType: ContainerServiceDiagnosticsProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceDiagnosticsProfile
   type: Class
-  summary: <p>Profile for diagnostics on the container service cluster. </p>
+  summary: "<p>Profile for diagnostics on the container service cluster. </p>"
   syntax:
     content: public class ContainerServiceDiagnosticsProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceLinuxProfile
@@ -197,7 +197,7 @@ references:
   nameWithType: ContainerServiceLinuxProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceLinuxProfile
   type: Class
-  summary: <p>Profile for Linux VMs in the container service cluster. </p>
+  summary: "<p>Profile for Linux VMs in the container service cluster. </p>"
   syntax:
     content: public class ContainerServiceLinuxProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceMasterProfile
@@ -207,7 +207,7 @@ references:
   nameWithType: ContainerServiceMasterProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceMasterProfile
   type: Class
-  summary: <p>Profile for the container service master. </p>
+  summary: "<p>Profile for the container service master. </p>"
   syntax:
     content: public class ContainerServiceMasterProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceMasterProfileCount
@@ -217,7 +217,7 @@ references:
   nameWithType: ContainerServiceMasterProfileCount
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceMasterProfileCount
   type: Enum
-  summary: <p>The minimum valid number of master nodes. </p>
+  summary: "<p>The minimum valid number of master nodes. </p>"
   syntax:
     content: public enum ContainerServiceMasterProfileCount
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceNetworkProfile
@@ -227,7 +227,7 @@ references:
   nameWithType: ContainerServiceNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceNetworkProfile
   type: Class
-  summary: <p>Profile of network configuration. </p>
+  summary: "<p>Profile of network configuration. </p>"
   syntax:
     content: public class ContainerServiceNetworkProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceOrchestratorProfile
@@ -237,7 +237,7 @@ references:
   nameWithType: ContainerServiceOrchestratorProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceOrchestratorProfile
   type: Class
-  summary: <p>Profile for the container service orchestrator. </p>
+  summary: "<p>Profile for the container service orchestrator. </p>"
   syntax:
     content: public class ContainerServiceOrchestratorProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceOrchestratorTypes
@@ -247,7 +247,7 @@ references:
   nameWithType: ContainerServiceOrchestratorTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceOrchestratorTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceOrchestratorTypes. </p>
+  summary: "<p>Defines values for ContainerServiceOrchestratorTypes. </p>"
   syntax:
     content: public class ContainerServiceOrchestratorTypes
 - uid: com.microsoft.azure.management.containerservice.ContainerServices
@@ -257,7 +257,7 @@ references:
   nameWithType: ContainerServices
   fullName: com.microsoft.azure.management.containerservice.ContainerServices
   type: Interface
-  summary: <p>Entry point to container service management API. </p>
+  summary: "<p>Entry point to container service management API. </p>"
   syntax:
     content: public interface ContainerServices extends SupportsCreating<ContainerService.DefinitionStages.Blank>,HasManager<ContainerServiceManager>,HasInner<ContainerServicesInner>,SupportsBatchCreation<ContainerService>,SupportsListing<ContainerService>,SupportsGettingById<ContainerService>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<ContainerService>,SupportsGettingByResourceGroup<ContainerService>
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceServicePrincipalProfile
@@ -267,7 +267,7 @@ references:
   nameWithType: ContainerServiceServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceServicePrincipalProfile
   type: Class
-  summary: <p>Information about a service principal identity for the cluster to use for manipulating Azure APIs. Either secret or keyVaultSecretRef must be specified. </p>
+  summary: "<p>Information about a service principal identity for the cluster to use for manipulating Azure APIs. Either secret or keyVaultSecretRef must be specified. </p>"
   syntax:
     content: public class ContainerServiceServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceSshConfiguration
@@ -277,7 +277,7 @@ references:
   nameWithType: ContainerServiceSshConfiguration
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceSshConfiguration
   type: Class
-  summary: <p>SSH configuration for Linux-based VMs running on Azure. </p>
+  summary: "<p>SSH configuration for Linux-based VMs running on Azure. </p>"
   syntax:
     content: public class ContainerServiceSshConfiguration
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceSshPublicKey
@@ -287,7 +287,7 @@ references:
   nameWithType: ContainerServiceSshPublicKey
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceSshPublicKey
   type: Class
-  summary: <p>Contains information about SSH certificate public key data. </p>
+  summary: "<p>Contains information about SSH certificate public key data. </p>"
   syntax:
     content: public class ContainerServiceSshPublicKey
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceStorageProfileTypes
@@ -297,7 +297,7 @@ references:
   nameWithType: ContainerServiceStorageProfileTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceStorageProfileTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceStorageProfileTypes. </p>
+  summary: "<p>Defines values for ContainerServiceStorageProfileTypes. </p>"
   syntax:
     content: public class ContainerServiceStorageProfileTypes
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceVMDiagnostics
@@ -307,7 +307,7 @@ references:
   nameWithType: ContainerServiceVMDiagnostics
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceVMDiagnostics
   type: Class
-  summary: <p>Profile for diagnostics on the container service VMs. </p>
+  summary: "<p>Profile for diagnostics on the container service VMs. </p>"
   syntax:
     content: public class ContainerServiceVMDiagnostics
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceVMSizeTypes
@@ -317,7 +317,7 @@ references:
   nameWithType: ContainerServiceVMSizeTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceVMSizeTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceVMSizeTypes. </p>
+  summary: "<p>Defines values for ContainerServiceVMSizeTypes. </p>"
   syntax:
     content: public class ContainerServiceVMSizeTypes
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceWindowsProfile
@@ -327,7 +327,7 @@ references:
   nameWithType: ContainerServiceWindowsProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceWindowsProfile
   type: Class
-  summary: <p>Profile for Windows VMs in the container service cluster. </p>
+  summary: "<p>Profile for Windows VMs in the container service cluster. </p>"
   syntax:
     content: public class ContainerServiceWindowsProfile
 - uid: com.microsoft.azure.management.containerservice.CredentialResult
@@ -337,7 +337,7 @@ references:
   nameWithType: CredentialResult
   fullName: com.microsoft.azure.management.containerservice.CredentialResult
   type: Class
-  summary: <p>The credential result response. </p>
+  summary: "<p>The credential result response. </p>"
   syntax:
     content: public class CredentialResult
 - uid: com.microsoft.azure.management.containerservice.KeyVaultSecretRef
@@ -347,7 +347,7 @@ references:
   nameWithType: KeyVaultSecretRef
   fullName: com.microsoft.azure.management.containerservice.KeyVaultSecretRef
   type: Class
-  summary: <p>Reference to a secret stored in Azure Key Vault. </p>
+  summary: "<p>Reference to a secret stored in Azure Key Vault. </p>"
   syntax:
     content: public class KeyVaultSecretRef
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster
@@ -357,7 +357,7 @@ references:
   nameWithType: KubernetesCluster
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster
   type: Interface
-  summary: <p>A client-side representation for a managed Kubernetes cluster. </p>
+  summary: "<p>A client-side representation for a managed Kubernetes cluster. </p>"
   syntax:
     content: public interface KubernetesCluster extends GroupableResource<ContainerServiceManager, ManagedClusterInner>,Refreshable<KubernetesCluster>,Updatable<KubernetesCluster.Update>,OrchestratorServiceBase
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAccessProfileRole
@@ -367,7 +367,7 @@ references:
   nameWithType: KubernetesClusterAccessProfileRole
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAccessProfileRole
   type: Class
-  summary: <p>Defines values for Kubernetes cluster access profile roles. </p>
+  summary: "<p>Defines values for Kubernetes cluster access profile roles. </p>"
   syntax:
     content: public class KubernetesClusterAccessProfileRole
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool
@@ -377,7 +377,7 @@ references:
   nameWithType: KubernetesClusterAgentPool
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool
   type: Interface
-  summary: <p>A client-side representation for a Kubernetes cluster agent pool. </p>
+  summary: "<p>A client-side representation for a Kubernetes cluster agent pool. </p>"
   syntax:
     content: public interface KubernetesClusterAgentPool extends ChildResource<OrchestratorServiceBase>,HasInner<ManagedClusterAgentPoolProfile>
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusters
@@ -387,7 +387,7 @@ references:
   nameWithType: KubernetesClusters
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusters
   type: Interface
-  summary: <p>Entry point to managed Kubernetes service management API. </p>
+  summary: "<p>Entry point to managed Kubernetes service management API. </p>"
   syntax:
     content: public interface KubernetesClusters extends HasManager<ContainerServiceManager>,HasInner<ManagedClustersInner>,SupportsCreating<KubernetesCluster.DefinitionStages.Blank>,SupportsBatchCreation<KubernetesCluster>,SupportsListing<KubernetesCluster>,SupportsGettingById<KubernetesCluster>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<KubernetesCluster>,SupportsGettingByResourceGroup<KubernetesCluster>
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterUpgradeProfile
@@ -397,7 +397,7 @@ references:
   nameWithType: KubernetesClusterUpgradeProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterUpgradeProfile
   type: Interface
-  summary: <p>The result of checking for the Kubernetes cluster's upgrade profile. </p>
+  summary: "<p>The result of checking for the Kubernetes cluster's upgrade profile. </p>"
   syntax:
     content: public interface KubernetesClusterUpgradeProfile extends HasInner<ManagedClusterUpgradeProfileInner>
 - uid: com.microsoft.azure.management.containerservice.KubernetesVersion
@@ -407,7 +407,7 @@ references:
   nameWithType: KubernetesVersion
   fullName: com.microsoft.azure.management.containerservice.KubernetesVersion
   type: Class
-  summary: <p>Defines values for Kubernetes versions. </p>
+  summary: "<p>Defines values for Kubernetes versions. </p>"
   syntax:
     content: public class KubernetesVersion
 - uid: com.microsoft.azure.management.containerservice.ManagedClusterAADProfile
@@ -417,7 +417,7 @@ references:
   nameWithType: ManagedClusterAADProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterAADProfile
   type: Class
-  summary: <p>AADProfile specifies attributes for Azure Active Directory integration. </p>
+  summary: "<p>AADProfile specifies attributes for Azure Active Directory integration. </p>"
   syntax:
     content: public class ManagedClusterAADProfile
 - uid: com.microsoft.azure.management.containerservice.ManagedClusterAddonProfile
@@ -427,7 +427,7 @@ references:
   nameWithType: ManagedClusterAddonProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterAddonProfile
   type: Class
-  summary: <p>A Kubernetes add-on profile for a managed cluster. </p>
+  summary: "<p>A Kubernetes add-on profile for a managed cluster. </p>"
   syntax:
     content: public class ManagedClusterAddonProfile
 - uid: com.microsoft.azure.management.containerservice.ManagedClusterAgentPoolProfile
@@ -437,7 +437,7 @@ references:
   nameWithType: ManagedClusterAgentPoolProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterAgentPoolProfile
   type: Class
-  summary: <p>Profile for the container service agent pool. </p>
+  summary: "<p>Profile for the container service agent pool. </p>"
   syntax:
     content: public class ManagedClusterAgentPoolProfile
 - uid: com.microsoft.azure.management.containerservice.ManagedClusterPoolUpgradeProfile
@@ -447,7 +447,7 @@ references:
   nameWithType: ManagedClusterPoolUpgradeProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterPoolUpgradeProfile
   type: Class
-  summary: <p>The list of available upgrade versions. </p>
+  summary: "<p>The list of available upgrade versions. </p>"
   syntax:
     content: public class ManagedClusterPoolUpgradeProfile
 - uid: com.microsoft.azure.management.containerservice.ManagedClusterServicePrincipalProfile
@@ -457,7 +457,7 @@ references:
   nameWithType: ManagedClusterServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterServicePrincipalProfile
   type: Class
-  summary: <p>Information about a service principal identity for the cluster to use for manipulating Azure APIs. </p>
+  summary: "<p>Information about a service principal identity for the cluster to use for manipulating Azure APIs. </p>"
   syntax:
     content: public class ManagedClusterServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.NetworkPlugin
@@ -467,7 +467,7 @@ references:
   nameWithType: NetworkPlugin
   fullName: com.microsoft.azure.management.containerservice.NetworkPlugin
   type: Class
-  summary: <p>Defines values for NetworkPlugin. </p>
+  summary: "<p>Defines values for NetworkPlugin. </p>"
   syntax:
     content: public class NetworkPlugin
 - uid: com.microsoft.azure.management.containerservice.NetworkPolicy
@@ -477,7 +477,7 @@ references:
   nameWithType: NetworkPolicy
   fullName: com.microsoft.azure.management.containerservice.NetworkPolicy
   type: Class
-  summary: <p>Defines values for NetworkPolicy. </p>
+  summary: "<p>Defines values for NetworkPolicy. </p>"
   syntax:
     content: public class NetworkPolicy
 - uid: com.microsoft.azure.management.containerservice.OrchestratorProfile
@@ -487,7 +487,7 @@ references:
   nameWithType: OrchestratorProfile
   fullName: com.microsoft.azure.management.containerservice.OrchestratorProfile
   type: Class
-  summary: <p>Contains information about orchestrator. </p>
+  summary: "<p>Contains information about orchestrator. </p>"
   syntax:
     content: public class OrchestratorProfile
 - uid: com.microsoft.azure.management.containerservice.OrchestratorServiceBase
@@ -497,7 +497,7 @@ references:
   nameWithType: OrchestratorServiceBase
   fullName: com.microsoft.azure.management.containerservice.OrchestratorServiceBase
   type: Interface
-  summary: <p>A common representation for Azure container services orchestrators. </p>
+  summary: "<p>A common representation for Azure container services orchestrators. </p>"
   syntax:
     content: public interface OrchestratorServiceBase
 - uid: com.microsoft.azure.management.containerservice.OrchestratorVersionProfile
@@ -507,7 +507,7 @@ references:
   nameWithType: OrchestratorVersionProfile
   fullName: com.microsoft.azure.management.containerservice.OrchestratorVersionProfile
   type: Class
-  summary: <p>The profile of an orchestrator and its available versions. </p>
+  summary: "<p>The profile of an orchestrator and its available versions. </p>"
   syntax:
     content: public class OrchestratorVersionProfile
 - uid: com.microsoft.azure.management.containerservice.OSType
@@ -517,7 +517,7 @@ references:
   nameWithType: OSType
   fullName: com.microsoft.azure.management.containerservice.OSType
   type: Class
-  summary: <p>Defines values for OSType. </p>
+  summary: "<p>Defines values for OSType. </p>"
   syntax:
     content: public class OSType
 - uid: com.microsoft.azure.management.containerservice.TagsObject
@@ -527,7 +527,7 @@ references:
   nameWithType: TagsObject
   fullName: com.microsoft.azure.management.containerservice.TagsObject
   type: Class
-  summary: <p>Tags object for patch operations. </p>
+  summary: "<p>Tags object for patch operations. </p>"
   syntax:
     content: public class TagsObject
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.Blank
@@ -537,7 +537,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a container service definition. </p>
+  summary: "<p>The first stage of a container service definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.Blank
@@ -547,10 +547,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a container service agent pool definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a container service agent pool definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT>
     typeParameters:
@@ -564,7 +561,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a container service definition. </p>
+  summary: "<p>The first stage of a container service definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank
@@ -574,10 +571,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a network profile definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a network profile definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -591,10 +585,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a container service agent pool definition allowing to specify the agent virtual machine size.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a container service agent pool definition allowing to specify the agent virtual machine size.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT>
     typeParameters:
@@ -608,7 +599,7 @@ references:
   nameWithType: ContainerService.Definition
   fullName: com.microsoft.azure.management.containerservice.ContainerService.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a container service. </p>
+  summary: "<p>Container interface for all the definitions related to a container service. </p>"
   syntax:
     content: public interface Definition extends ContainerService.DefinitionStages.Blank,ContainerService.DefinitionStages.WithGroup,ContainerService.DefinitionStages.WithOrchestrator,ContainerService.DefinitionStages.WithMasterNodeCount,ContainerService.DefinitionStages.WithLinux,ContainerService.DefinitionStages.WithLinuxRootUsername,ContainerService.DefinitionStages.WithLinuxSshKey,ContainerService.DefinitionStages.WithAgentPool,ContainerService.DefinitionStages.WithServicePrincipalProfile,ContainerService.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.Definition
@@ -618,7 +609,7 @@ references:
   nameWithType: ContainerServiceAgentPool.Definition<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a container service agent pool definition as a part of a parent definition. </p>
+  summary: "<p>The entirety of a container service agent pool definition as a part of a parent definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>,ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
     typeParameters:
@@ -632,7 +623,7 @@ references:
   nameWithType: KubernetesCluster.Definition
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Definition
   type: Interface
-  summary: <p>Interface for all the definitions related to a Kubernetes cluster. </p>
+  summary: "<p>Interface for all the definitions related to a Kubernetes cluster. </p>"
   syntax:
     content: public interface Definition extends KubernetesCluster.DefinitionStages.Blank,KubernetesCluster.DefinitionStages.WithGroup,KubernetesCluster.DefinitionStages.WithVersion,KubernetesCluster.DefinitionStages.WithLinuxRootUsername,KubernetesCluster.DefinitionStages.WithLinuxSshKey,KubernetesCluster.DefinitionStages.WithServicePrincipalClientId,KubernetesCluster.DefinitionStages.WithServicePrincipalProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAgentPool,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithAddOnProfiles,KubernetesCluster.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.Definition
@@ -642,7 +633,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.Definition<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a container service agent pool definition as a part of a parent definition. </p>
+  summary: "<p>The entirety of a container service agent pool definition as a part of a parent definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends KubernetesClusterAgentPool.DefinitionStages.Blank<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithOSType<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -656,7 +647,7 @@ references:
   nameWithType: ContainerService.DefinitionStages
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages
   type: Interface
-  summary: <p>Grouping of container service definition stages. </p>
+  summary: "<p>Grouping of container service definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages
@@ -666,7 +657,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages
   type: Interface
-  summary: <p>Grouping of container service agent pool definition stages as a part of parent container service definition. </p>
+  summary: "<p>Grouping of container service agent pool definition stages as a part of parent container service definition. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages
@@ -676,7 +667,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages
   type: Interface
-  summary: <p>Grouping of Kubernetes cluster definition stages. </p>
+  summary: "<p>Grouping of Kubernetes cluster definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages
@@ -686,7 +677,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages
   type: Interface
-  summary: <p>Grouping of container service agent pool definition stages as a part of parent container service definition. </p>
+  summary: "<p>Grouping of container service agent pool definition stages as a part of parent container service definition. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinition
@@ -696,7 +687,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   type: Interface
-  summary: <p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>
+  summary: "<p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>"
   syntax:
     content: public interface NetworkProfileDefinition<ParentT> extends KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -710,19 +701,9 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages
   type: Interface
-  summary: <p>The Kubernetes cluster definition allowing to specify a network profile. </p>
+  summary: "<p>The Kubernetes cluster definition allowing to specify a network profile. </p>"
   syntax:
     content: public interface NetworkProfileDefinitionStages
-- uid: com.microsoft.azure.management.containerservice.ContainerService.Update
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.ContainerService.Update.yml
-  name: ContainerService.Update
-  nameWithType: ContainerService.Update
-  fullName: com.microsoft.azure.management.containerservice.ContainerService.Update
-  type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
-  syntax:
-    content: public interface Update extends Resource.UpdateWithTags<Update>,Appliable<ContainerService>,ContainerService.UpdateStages.WithUpdateAgentPoolCount,ContainerService.UpdateStages.WithDiagnostics
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.KubernetesCluster.Update.yml
@@ -730,9 +711,19 @@ references:
   nameWithType: KubernetesCluster.Update
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount,KubernetesCluster.UpdateStages.WithAddOnProfiles,KubernetesCluster.UpdateStages.WithNetworkProfile,KubernetesCluster.UpdateStages.WithRBAC,Resource.UpdateWithTags<KubernetesCluster.Update>,Appliable<KubernetesCluster>
+- uid: com.microsoft.azure.management.containerservice.ContainerService.Update
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.ContainerService.Update.yml
+  name: ContainerService.Update
+  nameWithType: ContainerService.Update
+  fullName: com.microsoft.azure.management.containerservice.ContainerService.Update
+  type: Interface
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
+  syntax:
+    content: public interface Update extends Resource.UpdateWithTags<Update>,Appliable<ContainerService>,ContainerService.UpdateStages.WithUpdateAgentPoolCount,ContainerService.UpdateStages.WithDiagnostics
 - uid: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.yml
@@ -740,7 +731,7 @@ references:
   nameWithType: ContainerService.UpdateStages
   fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages
   type: Interface
-  summary: <p>Grouping of container service update stages. </p>
+  summary: "<p>Grouping of container service update stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages
@@ -750,19 +741,9 @@ references:
   nameWithType: KubernetesCluster.UpdateStages
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages
   type: Interface
-  summary: <p>Grouping of the Kubernetes cluster update stages. </p>
+  summary: "<p>Grouping of the Kubernetes cluster update stages. </p>"
   syntax:
     content: public interface UpdateStages
-- uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles.yml
-  name: KubernetesCluster.DefinitionStages.WithAddOnProfiles
-  nameWithType: KubernetesCluster.DefinitionStages.WithAddOnProfiles
-  fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
-  type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the cluster's add-on's profiles. </p>
-  syntax:
-    content: public interface WithAddOnProfiles
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithAddOnProfiles
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithAddOnProfiles.yml
@@ -770,7 +751,17 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithAddOnProfiles
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithAddOnProfiles
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's add-on's profiles. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's add-on's profiles. </p>"
+  syntax:
+    content: public interface WithAddOnProfiles
+- uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles.yml
+  name: KubernetesCluster.DefinitionStages.WithAddOnProfiles
+  nameWithType: KubernetesCluster.DefinitionStages.WithAddOnProfiles
+  fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAddOnProfiles
+  type: Interface
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the cluster's add-on's profiles. </p>"
   syntax:
     content: public interface WithAddOnProfiles
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAgentPool
@@ -780,7 +771,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithAgentPool
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithAgentPool
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify an agent pool profile. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify an agent pool profile. </p>"
   syntax:
     content: public interface WithAgentPool
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool
@@ -790,7 +781,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithAgentPool
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify an agent pool profile. </p>
+  summary: "<p>The stage of the container service definition allowing to specify an agent pool profile. </p>"
   syntax:
     content: public interface WithAgentPool
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount
@@ -800,28 +791,9 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the number of agents (Virtual Machines) to host docker containers. </p>
-
-    <p>Allowed values must be in the range of 1 to 100 (inclusive); the default value is 1.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the number of agents (Virtual Machines) to host docker containers. </p>\r\n<p>Allowed values must be in the range of 1 to 100 (inclusive); the default value is 1.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAgentPoolVirtualMachineCount<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the container service definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithAttach
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithAttach.yml
-  name: ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
-  nameWithType: ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: <p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends ContainerServiceAgentPool.DefinitionStages.WithOSType<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithPorts<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithStorageProfile<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -833,9 +805,23 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>
+  summary: "<p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends KubernetesClusterAgentPool.DefinitionStages.WithOSType<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>,Attachable<ParentT>.InDefinition
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the container service definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithAttach
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithAttach.yml
+  name: ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: "<p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>"
+  syntax:
+    content: public interface WithAttach<ParentT> extends ContainerServiceAgentPool.DefinitionStages.WithOSType<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithPorts<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithStorageProfile<ParentT>,ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -847,7 +833,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of a network profile definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>
+  summary: "<p>The final stage of a network profile definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
@@ -861,7 +847,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<KubernetesCluster>,KubernetesCluster.DefinitionStages.WithNetworkProfile,KubernetesCluster.DefinitionStages.WithDnsPrefix,KubernetesCluster.DefinitionStages.WithAddOnProfiles,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
@@ -871,19 +857,9 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends ContainerService.DefinitionStages.WithMasterDnsPrefix,ContainerService.DefinitionStages.WithDiagnostics,ContainerService.DefinitionStages.WithMasterVMSize,ContainerService.DefinitionStages.WithMasterStorageProfile,ContainerService.DefinitionStages.WithMasterOSDiskSize,ContainerService.DefinitionStages.WithSubnet,Creatable<ContainerService>,Resource.DefinitionWithTags<WithCreate>
-- uid: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics.yml
-  name: ContainerService.UpdateStages.WithDiagnostics
-  nameWithType: ContainerService.UpdateStages.WithDiagnostics
-  fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics
-  type: Interface
-  summary: <p>The stage of the container service update allowing to enable or disable diagnostics. </p>
-  syntax:
-    content: public interface WithDiagnostics
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithDiagnostics
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithDiagnostics.yml
@@ -891,7 +867,17 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithDiagnostics
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithDiagnostics
   type: Interface
-  summary: <p>The stage of the container service definition allowing to enable diagnostics. </p>
+  summary: "<p>The stage of the container service definition allowing to enable diagnostics. </p>"
+  syntax:
+    content: public interface WithDiagnostics
+- uid: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics.yml
+  name: ContainerService.UpdateStages.WithDiagnostics
+  nameWithType: ContainerService.UpdateStages.WithDiagnostics
+  fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithDiagnostics
+  type: Interface
+  summary: "<p>The stage of the container service update allowing to enable or disable diagnostics. </p>"
   syntax:
     content: public interface WithDiagnostics
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix
@@ -901,7 +887,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithDnsPrefix
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithDnsPrefix
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the DNS prefix label. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the DNS prefix label. </p>"
   syntax:
     content: public interface WithDnsPrefix
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP
@@ -911,10 +897,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify an IP address assigned to the Kubernetes DNS service.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify an IP address assigned to the Kubernetes DNS service.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDnsServiceIP<ParentT>
     typeParameters:
@@ -928,10 +911,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify a CIDR notation IP range assigned to the Docker bridge network.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify a CIDR notation IP range assigned to the Docker bridge network.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDockerBridgeCidr<ParentT>
     typeParameters:
@@ -945,7 +925,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithVersion>
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithGroup
@@ -955,7 +935,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithOrchestrator>
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel
@@ -965,10 +945,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the DNS prefix.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the DNS prefix.</p>\r\n<p></p>"
   syntax:
     content: public interface WithLeafDomainLabel<ParentT>
     typeParameters:
@@ -982,7 +959,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinux
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux
   type: Interface
-  summary: <p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>
+  summary: "<p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>"
   syntax:
     content: public interface WithLinux
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxRootUsername
@@ -992,7 +969,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxRootUsername
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxRootUsername
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specific the Linux root username. </p>
+  summary: "<p>The stage of the container service definition allowing to specific the Linux root username. </p>"
   syntax:
     content: public interface WithLinuxRootUsername
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername
@@ -1002,19 +979,9 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithLinuxRootUsername
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxRootUsername
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specific the Linux root username. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specific the Linux root username. </p>"
   syntax:
     content: public interface WithLinuxRootUsername
-- uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey.yml
-  name: KubernetesCluster.DefinitionStages.WithLinuxSshKey
-  nameWithType: KubernetesCluster.DefinitionStages.WithLinuxSshKey
-  fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
-  type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specific the Linux SSH key. </p>
-  syntax:
-    content: public interface WithLinuxSshKey
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxSshKey
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxSshKey.yml
@@ -1022,7 +989,17 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxSshKey
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxSshKey
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specific the Linux SSH key. </p>
+  summary: "<p>The stage of the container service definition allowing to specific the Linux SSH key. </p>"
+  syntax:
+    content: public interface WithLinuxSshKey
+- uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey.yml
+  name: KubernetesCluster.DefinitionStages.WithLinuxSshKey
+  nameWithType: KubernetesCluster.DefinitionStages.WithLinuxSshKey
+  fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithLinuxSshKey
+  type: Interface
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specific the Linux SSH key. </p>"
   syntax:
     content: public interface WithLinuxSshKey
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterDnsPrefix
@@ -1032,7 +1009,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterDnsPrefix
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterDnsPrefix
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the master DNS prefix label. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the master DNS prefix label. </p>"
   syntax:
     content: public interface WithMasterDnsPrefix
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount
@@ -1042,7 +1019,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterNodeCount
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the master node count. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the master node count. </p>"
   syntax:
     content: public interface WithMasterNodeCount
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterOSDiskSize
@@ -1052,7 +1029,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterOSDiskSize
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterOSDiskSize
   type: Interface
-  summary: <p>The stage of a container service definition allowing to specify the master pool OS disk size. </p>
+  summary: "<p>The stage of a container service definition allowing to specify the master pool OS disk size. </p>"
   syntax:
     content: public interface WithMasterOSDiskSize
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile
@@ -1062,7 +1039,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterStorageProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile
   type: Interface
-  summary: <p>The stage of a container service definition allowing to specify the master's virtual machine storage kind. </p>
+  summary: "<p>The stage of a container service definition allowing to specify the master's virtual machine storage kind. </p>"
   syntax:
     content: public interface WithMasterStorageProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterVMSize
@@ -1072,7 +1049,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterVMSize
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterVMSize
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the master VM size. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the master VM size. </p>"
   syntax:
     content: public interface WithMasterVMSize
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount
@@ -1082,10 +1059,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the maximum number of pods that can run on a node.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the maximum number of pods that can run on a node.</p>\r\n<p></p>"
   syntax:
     content: public interface WithMaxPodsCount<ParentT>
     typeParameters:
@@ -1099,10 +1073,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify the network policy.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify the network policy.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNetworkPolicy<ParentT>
     typeParameters:
@@ -1116,7 +1087,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithNetworkProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify a network profile. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify a network profile. </p>"
   syntax:
     content: public interface WithNetworkProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithNetworkProfile
@@ -1126,7 +1097,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithNetworkProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithNetworkProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's network profile. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify the cluster's network profile. </p>"
   syntax:
     content: public interface WithNetworkProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator
@@ -1136,26 +1107,9 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify orchestration type. </p>
+  summary: "<p>The stage of the container service definition allowing to specify orchestration type. </p>"
   syntax:
     content: public interface WithOrchestrator
-- uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize.yml
-  name: ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
-  nameWithType: ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
-  fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent pool OS disk size.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithOSDiskSize<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the container service definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize.yml
@@ -1163,10 +1117,21 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent pool OS disk size.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent pool OS disk size.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithOSDiskSize<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the container service definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize.yml
+  name: ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
+  nameWithType: ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
+  fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>
+  type: Interface
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent pool OS disk size.</p>\r\n<p></p>"
   syntax:
     content: public interface WithOSDiskSize<ParentT>
     typeParameters:
@@ -1180,10 +1145,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithOSType<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithOSType<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent pool OS type.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent pool OS type.</p>\r\n<p></p>"
   syntax:
     content: public interface WithOSType<ParentT>
     typeParameters:
@@ -1197,10 +1159,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithOSType<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSType<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent pool OS type.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent pool OS type.</p>\r\n<p></p>"
   syntax:
     content: public interface WithOSType<ParentT>
     typeParameters:
@@ -1214,10 +1173,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign pod IPs when kubenet is used.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPodCidr<ParentT>
     typeParameters:
@@ -1231,10 +1187,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithPorts<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithPorts<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent pool ports to be exposed.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent pool ports to be exposed.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPorts<ParentT>
     typeParameters:
@@ -1248,7 +1201,7 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithRBAC
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithRBAC
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify if Kubernetes Role-Based Access Control is enabled or disabled. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify if Kubernetes Role-Based Access Control is enabled or disabled. </p>"
   syntax:
     content: public interface WithRBAC
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr
@@ -1258,10 +1211,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign service cluster IPs.</p>
-
-    <p></p>
+  summary: "<p>The stage of a network profile definition allowing to specify a CIDR notation IP range from which to assign service cluster IPs.</p>\r\n<p></p>"
   syntax:
     content: public interface WithServiceCidr<ParentT>
     typeParameters:
@@ -1275,7 +1225,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalClientId
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalClientId
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the service principal client ID. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the service principal client ID. </p>"
   syntax:
     content: public interface WithServicePrincipalClientId
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithServicePrincipalProfile
@@ -1285,7 +1235,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithServicePrincipalProfile
   type: Interface
-  summary: <p>The stage allowing properties for cluster service principals to be specified. </p>
+  summary: "<p>The stage allowing properties for cluster service principals to be specified. </p>"
   syntax:
     content: public interface WithServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
@@ -1295,7 +1245,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithServicePrincipalProfile
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify the service principal secret. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify the service principal secret. </p>"
   syntax:
     content: public interface WithServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithStorageProfile
@@ -1305,10 +1255,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithStorageProfile<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithStorageProfile<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent pool storage kind.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent pool storage kind.</p>\r\n<p></p>"
   syntax:
     content: public interface WithStorageProfile<ParentT>
     typeParameters:
@@ -1322,19 +1269,9 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the virtual network and subnet for the machines. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the virtual network and subnet for the machines. </p>"
   syntax:
     content: public interface WithSubnet
-- uid: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithUpdateAgentPoolCount
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithUpdateAgentPoolCount.yml
-  name: ContainerService.UpdateStages.WithUpdateAgentPoolCount
-  nameWithType: ContainerService.UpdateStages.WithUpdateAgentPoolCount
-  fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithUpdateAgentPoolCount
-  type: Interface
-  summary: <p>The stage of the container service update allowing to specify the number of agents in the specified pool. </p>
-  syntax:
-    content: public interface WithUpdateAgentPoolCount
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.yml
@@ -1342,7 +1279,17 @@ references:
   nameWithType: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster update definition allowing to specify the number of agents in the specified pool. </p>
+  summary: "<p>The stage of the Kubernetes cluster update definition allowing to specify the number of agents in the specified pool. </p>"
+  syntax:
+    content: public interface WithUpdateAgentPoolCount
+- uid: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithUpdateAgentPoolCount
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithUpdateAgentPoolCount.yml
+  name: ContainerService.UpdateStages.WithUpdateAgentPoolCount
+  nameWithType: ContainerService.UpdateStages.WithUpdateAgentPoolCount
+  fullName: com.microsoft.azure.management.containerservice.ContainerService.UpdateStages.WithUpdateAgentPoolCount
+  type: Interface
+  summary: "<p>The stage of the container service update allowing to specify the number of agents in the specified pool. </p>"
   syntax:
     content: public interface WithUpdateAgentPoolCount
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion
@@ -1352,26 +1299,9 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.WithVersion
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.WithVersion
   type: Interface
-  summary: <p>The stage of the Kubernetes cluster definition allowing to specify orchestration type. </p>
+  summary: "<p>The stage of the Kubernetes cluster definition allowing to specify orchestration type. </p>"
   syntax:
     content: public interface WithVersion
-- uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork
-  parent: com.microsoft.azure.management.containerservice
-  href: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork.yml
-  name: KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
-  nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
-  fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify a virtual network to be used for the agents.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithVirtualNetwork<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the container service definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork
   parent: com.microsoft.azure.management.containerservice
   href: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork.yml
@@ -1379,10 +1309,21 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify a virtual network to be used for the agents.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify a virtual network to be used for the agents.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithVirtualNetwork<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the container service definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork
+  parent: com.microsoft.azure.management.containerservice
+  href: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork.yml
+  name: KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
+  nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
+  fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>
+  type: Interface
+  summary: "<p>The stage of a container service agent pool definition allowing to specify a virtual network to be used for the agents.</p>\r\n<p></p>"
   syntax:
     content: public interface WithVirtualNetwork<ParentT>
     typeParameters:
@@ -1396,10 +1337,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent virtual machine size.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent virtual machine size.</p>\r\n<p></p>"
   syntax:
     content: public interface WithVMSize<ParentT>
     typeParameters:

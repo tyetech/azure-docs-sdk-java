@@ -40,7 +40,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.DefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.DefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this private frontend of an internal load balancer. </p>
+  summary: "<p>Assigns the specified subnet to this private frontend of an internal load balancer. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -60,7 +60,7 @@ references:
   nameWithType: HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.DefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -80,7 +80,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.DefinitionStages.WithSubnet<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.DefinitionStages.WithSubnet<ParentT>
   type: Interface
-  summary: <p>The stage of a private frontend definition allowing to specify a subnet from the selected network. </p>
+  summary: "<p>The stage of a private frontend definition allowing to specify a subnet from the selected network. </p>"
   syntax:
     content: public interface WithSubnet<ParentT>
     typeParameters:
@@ -94,7 +94,7 @@ references:
   nameWithType: LoadBalancerPrivateFrontend.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a private frontend definition. </p>
+  summary: "<p>The entirety of a private frontend definition. </p>"
   syntax:
     content: public interface Definition<ParentT>
     typeParameters:

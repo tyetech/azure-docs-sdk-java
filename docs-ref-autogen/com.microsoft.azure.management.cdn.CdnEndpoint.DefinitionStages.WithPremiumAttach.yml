@@ -284,7 +284,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.AttachablePremium<ParentT>.attach()
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.AttachablePremium<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the defined endpoint to the parent CDN profile. </p>
+  summary: "<p>Attaches the defined endpoint to the parent CDN profile. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -297,10 +297,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.AttachablePremium<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.AttachablePremium<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the Premium Verizon endpoint definition, at which it can be attached to the parent.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the Premium Verizon endpoint definition, at which it can be attached to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface AttachablePremium<ParentT>
     typeParameters:
@@ -314,8 +311,5 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.WithPremiumAttach<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.WithPremiumAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the CDN profile Premium Verizon endpoint definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition. </p>
+  summary: "<p>The final stage of the CDN profile Premium Verizon endpoint definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition. </p>"
   syntax: *o1

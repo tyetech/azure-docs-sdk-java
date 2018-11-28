@@ -209,10 +209,7 @@ references:
   nameWithType: JsonSerializable.get(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.get(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets a property value as Object.</p>
-
-    <p></p>
+  summary: "<p>Gets a property value as Object.</p>\r\n<p></p>"
   syntax:
     content: public Object get(String propertyName)
     parameters:
@@ -229,10 +226,7 @@ references:
   nameWithType: JsonSerializable.getBoolean(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getBoolean(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets a boolean value.</p>
-
-    <p></p>
+  summary: "<p>Gets a boolean value.</p>\r\n<p></p>"
   syntax:
     content: public Boolean getBoolean(String propertyName)
     parameters:
@@ -249,10 +243,7 @@ references:
   nameWithType: JsonSerializable.getCollection(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getCollection(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets a JSONObject collection.</p>
-
-    <p></p>
+  summary: "<p>Gets a JSONObject collection.</p>\r\n<p></p>"
   syntax:
     content: public Collection<JSONObject> getCollection(String propertyName)
     parameters:
@@ -269,10 +260,7 @@ references:
   nameWithType: JsonSerializable.getDouble(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getDouble(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets a double value.</p>
-
-    <p></p>
+  summary: "<p>Gets a double value.</p>\r\n<p></p>"
   syntax:
     content: public Double getDouble(String propertyName)
     parameters:
@@ -289,10 +277,7 @@ references:
   nameWithType: JsonSerializable.getHashMap()
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getHashMap()
   type: Method
-  summary: >-
-    <p>Returns the propertybag(JSONObject) in a hashMap</p>
-
-    <p></p>
+  summary: "<p>Returns the propertybag(JSONObject) in a hashMap</p>\r\n<p></p>"
   syntax:
     content: public HashMap<String, Object> getHashMap()
     return:
@@ -305,10 +290,7 @@ references:
   nameWithType: JsonSerializable.getInt(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getInt(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets an integer value.</p>
-
-    <p></p>
+  summary: "<p>Gets an integer value.</p>\r\n<p></p>"
   syntax:
     content: public Integer getInt(String propertyName)
     parameters:
@@ -325,10 +307,7 @@ references:
   nameWithType: Index.getKind()
   fullName: com.microsoft.azure.documentdb.Index.getKind()
   type: Method
-  summary: >-
-    <p>Gets index kind.</p>
-
-    <p></p>
+  summary: "<p>Gets index kind.</p>\r\n<p></p>"
   syntax:
     content: public IndexKind getKind()
     return:
@@ -352,10 +331,7 @@ references:
   nameWithType: JsonSerializable.getLong(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getLong(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets a long value.</p>
-
-    <p></p>
+  summary: "<p>Gets a long value.</p>\r\n<p></p>"
   syntax:
     content: public Long getLong(String propertyName)
     parameters:
@@ -383,10 +359,7 @@ references:
   nameWithType: JsonSerializable.getObject(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getObject(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets a JSONObject.</p>
-
-    <p></p>
+  summary: "<p>Gets a JSONObject.</p>\r\n<p></p>"
   syntax:
     content: public JSONObject getObject(String propertyName)
     parameters:
@@ -403,10 +376,7 @@ references:
   nameWithType: JsonSerializable.getObjectByPath(Collection<String> propertyNames)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getObjectByPath(Collection<String> propertyNames)
   type: Method
-  summary: >-
-    <p>Gets the value of a property identified by an array of property names that forms the path.</p>
-
-    <p></p>
+  summary: "<p>Gets the value of a property identified by an array of property names that forms the path.</p>\r\n<p></p>"
   syntax:
     content: public Object getObjectByPath(Collection<String> propertyNames)
     parameters:
@@ -423,10 +393,7 @@ references:
   nameWithType: JsonSerializable.getString(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.getString(String propertyName)
   type: Method
-  summary: >-
-    <p>Gets a string value.</p>
-
-    <p></p>
+  summary: "<p>Gets a string value.</p>\r\n<p></p>"
   syntax:
     content: public String getString(String propertyName)
     parameters:
@@ -443,10 +410,7 @@ references:
   nameWithType: JsonSerializable.has(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.has(String propertyName)
   type: Method
-  summary: >-
-    <p>Checks whether a property exists.</p>
-
-    <p></p>
+  summary: "<p>Checks whether a property exists.</p>\r\n<p></p>"
   syntax:
     content: public boolean has(String propertyName)
     parameters:
@@ -463,14 +427,7 @@ references:
   nameWithType: Index.Hash(DataType dataType)
   fullName: com.microsoft.azure.documentdb.Index.Hash(DataType dataType)
   type: Method
-  summary: >-
-    <p>Returns an instance of HashIndex class with specified DataType. </p>
-
-    <p>Here is an example to create HashIndex instance passing in the DataType: <pre><code>HashIndex hashIndex = Index.Hash(DataType.String);
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Returns an instance of HashIndex class with specified DataType. </p>\r\n<p>Here is an example to create HashIndex instance passing in the DataType: <pre><code>HashIndex hashIndex = Index.Hash(DataType.String);\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public static HashIndex Hash(DataType dataType)
     parameters:
@@ -487,14 +444,7 @@ references:
   nameWithType: Index.Hash(DataType dataType, int precision)
   fullName: com.microsoft.azure.documentdb.Index.Hash(DataType dataType, int precision)
   type: Method
-  summary: >-
-    <p>Returns an instance of HashIndex class with specified DataType and precision. </p>
-
-    <p>Here is an example to create HashIndex instance passing in the DataType and precision: </p>
-
-    <p>HashIndex hashIndex = Index.Hash(DataType.String, 3);</p>
-
-    <p></p>
+  summary: "<p>Returns an instance of HashIndex class with specified DataType and precision. </p>\r\n<p>Here is an example to create HashIndex instance passing in the DataType and precision: </p>\r\n<p>HashIndex hashIndex = Index.Hash(DataType.String, 3);</p>\r\n<p></p>"
   syntax:
     content: public static HashIndex Hash(DataType dataType, int precision)
     parameters:
@@ -514,10 +464,7 @@ references:
   nameWithType: Index.Index(IndexKind indexKind)
   fullName: com.microsoft.azure.documentdb.Index.Index(IndexKind indexKind)
   type: Constructor
-  summary: >-
-    <p>Constructor.</p>
-
-    <p></p>
+  summary: "<p>Constructor.</p>\r\n<p></p>"
   syntax:
     content: protected Index(IndexKind indexKind)
     parameters:
@@ -531,10 +478,7 @@ references:
   nameWithType: Index.Index(String jsonString, IndexKind indexKind)
   fullName: com.microsoft.azure.documentdb.Index.Index(String jsonString, IndexKind indexKind)
   type: Constructor
-  summary: >-
-    <p>Constructor.</p>
-
-    <p></p>
+  summary: "<p>Constructor.</p>\r\n<p></p>"
   syntax:
     content: protected Index(String jsonString, IndexKind indexKind)
     parameters:
@@ -551,10 +495,7 @@ references:
   nameWithType: Index.Index(JSONObject jsonObject, IndexKind indexKind)
   fullName: com.microsoft.azure.documentdb.Index.Index(JSONObject jsonObject, IndexKind indexKind)
   type: Constructor
-  summary: >-
-    <p>Constructor.</p>
-
-    <p></p>
+  summary: "<p>Constructor.</p>\r\n<p></p>"
   syntax:
     content: protected Index(JSONObject jsonObject, IndexKind indexKind)
     parameters:
@@ -580,10 +521,7 @@ references:
   nameWithType: JsonSerializable.JsonSerializable(String jsonString, ObjectMapper objectMapper)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.JsonSerializable(String jsonString, ObjectMapper objectMapper)
   type: Constructor
-  summary: >-
-    <p>Constructor.</p>
-
-    <p></p>
+  summary: "<p>Constructor.</p>\r\n<p></p>"
   syntax:
     content: protected JsonSerializable(String jsonString, ObjectMapper objectMapper)
     parameters:
@@ -600,10 +538,7 @@ references:
   nameWithType: JsonSerializable.JsonSerializable(String jsonString)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.JsonSerializable(String jsonString)
   type: Constructor
-  summary: >-
-    <p>Constructor.</p>
-
-    <p></p>
+  summary: "<p>Constructor.</p>\r\n<p></p>"
   syntax:
     content: protected JsonSerializable(String jsonString)
     parameters:
@@ -617,10 +552,7 @@ references:
   nameWithType: JsonSerializable.JsonSerializable(JSONObject jsonObject)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.JsonSerializable(JSONObject jsonObject)
   type: Constructor
-  summary: >-
-    <p>Constructor.</p>
-
-    <p></p>
+  summary: "<p>Constructor.</p>\r\n<p></p>"
   syntax:
     content: protected JsonSerializable(JSONObject jsonObject)
     parameters:
@@ -634,14 +566,7 @@ references:
   nameWithType: Index.Range(DataType dataType)
   fullName: com.microsoft.azure.documentdb.Index.Range(DataType dataType)
   type: Method
-  summary: >-
-    <p>Returns an instance of RangeIndex class with specified DataType. </p>
-
-    <p>Here is an example to create RangeIndex instance passing in the DataType: <pre><code>RangeIndex rangeIndex = Index.Range(DataType.Number);
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Returns an instance of RangeIndex class with specified DataType. </p>\r\n<p>Here is an example to create RangeIndex instance passing in the DataType: <pre><code>RangeIndex rangeIndex = Index.Range(DataType.Number);\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public static RangeIndex Range(DataType dataType)
     parameters:
@@ -658,14 +583,7 @@ references:
   nameWithType: Index.Range(DataType dataType, int precision)
   fullName: com.microsoft.azure.documentdb.Index.Range(DataType dataType, int precision)
   type: Method
-  summary: >-
-    <p>Returns an instance of RangeIndex class with specified DataType and precision. </p>
-
-    <p>Here is an example to create RangeIndex instance passing in the DataType and precision: <pre><code>RangeIndex rangeIndex = Index.Range(DataType.Number, -1);
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>Returns an instance of RangeIndex class with specified DataType and precision. </p>\r\n<p>Here is an example to create RangeIndex instance passing in the DataType and precision: <pre><code>RangeIndex rangeIndex = Index.Range(DataType.Number, -1);\r\n    </code></pre></p>\r\n<p></p>"
   syntax:
     content: public static RangeIndex Range(DataType dataType, int precision)
     parameters:
@@ -685,10 +603,7 @@ references:
   nameWithType: JsonSerializable.remove(String propertyName)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.remove(String propertyName)
   type: Method
-  summary: >-
-    <p>Removes a value by propertyName.</p>
-
-    <p></p>
+  summary: "<p>Removes a value by propertyName.</p>\r\n<p></p>"
   syntax:
     content: public void remove(String propertyName)
     parameters:
@@ -702,14 +617,7 @@ references:
   nameWithType: Index.Spatial(DataType dataType)
   fullName: com.microsoft.azure.documentdb.Index.Spatial(DataType dataType)
   type: Method
-  summary: >-
-    <p>Returns an instance of SpatialIndex class with specified DataType. </p>
-
-    <p>Here is an example to create SpatialIndex instance passing in the DataType: </p>
-
-    <p>SpatialIndex spatialIndex = Index.Spatial(DataType.Point);</p>
-
-    <p></p>
+  summary: "<p>Returns an instance of SpatialIndex class with specified DataType. </p>\r\n<p>Here is an example to create SpatialIndex instance passing in the DataType: </p>\r\n<p>SpatialIndex spatialIndex = Index.Spatial(DataType.Point);</p>\r\n<p></p>"
   syntax:
     content: public static SpatialIndex Spatial(DataType dataType)
     parameters:
@@ -726,10 +634,7 @@ references:
   nameWithType: JsonSerializable.toJson()
   fullName: com.microsoft.azure.documentdb.JsonSerializable.toJson()
   type: Method
-  summary: >-
-    <p>Converts to a JSON string.</p>
-
-    <p></p>
+  summary: "<p>Converts to a JSON string.</p>\r\n<p></p>"
   syntax:
     content: public String toJson()
     return:
@@ -742,7 +647,7 @@ references:
   nameWithType: JsonSerializable.toJson(SerializationFormattingPolicy formattingPolicy)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.toJson(SerializationFormattingPolicy formattingPolicy)
   type: Method
-  summary: <p>Converts to a JSON string. </p>
+  summary: "<p>Converts to a JSON string. </p>"
   syntax:
     content: public String toJson(SerializationFormattingPolicy formattingPolicy)
     parameters:
@@ -759,12 +664,7 @@ references:
   nameWithType: JsonSerializable.toString()
   fullName: com.microsoft.azure.documentdb.JsonSerializable.toString()
   type: Method
-  summary: >-
-    <p>Gets Simple String representation of property bag.</p>
-
-    <p>For proper conversion to json and inclusion of the default values use <xref uid="com.microsoft.azure.documentdb.JsonSerializable.toJson()" data-throw-if-not-resolved="false">toJson()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Gets Simple String representation of property bag.</p>\r\n<p>For proper conversion to json and inclusion of the default values use <xref uid=\"com.microsoft.azure.documentdb.JsonSerializable.toJson()\" data-throw-if-not-resolved=\"false\">toJson()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public String toString()
     return:
@@ -777,24 +677,7 @@ references:
   nameWithType: JsonSerializable.toString(int indentFactor)
   fullName: com.microsoft.azure.documentdb.JsonSerializable.toString(int indentFactor)
   type: Method
-  summary: >-
-    <p>Gets formatted String representation of property bag.</p>
-
-    <p>
-
-      <xrefsect id="deprecated_1_deprecated000063">
-
-        <xreftitle>Deprecated</xreftitle>
-
-        <xrefdescription>
-
-          <p>For proper conversion to json and inclusion of the default values use <xref uid="com.microsoft.azure.documentdb.JsonSerializable.toJson(SerializationFormattingPolicy)" data-throw-if-not-resolved="false">toJson(SerializationFormattingPolicy)</xref>.</p>
-
-        </xrefdescription>
-
-      </xrefsect>
-
-    </p>
+  summary: "<p>Gets formatted String representation of property bag.</p>\r\n<p>\r\n  <xrefsect id=\"deprecated_1_deprecated000063\">\r\n    <xreftitle>Deprecated</xreftitle>\r\n    <xrefdescription>\r\n      <p>For proper conversion to json and inclusion of the default values use <xref uid=\"com.microsoft.azure.documentdb.JsonSerializable.toJson(SerializationFormattingPolicy)\" data-throw-if-not-resolved=\"false\">toJson(SerializationFormattingPolicy)</xref>.</p>\r\n    </xrefdescription>\r\n  </xrefsect>\r\n</p>"
   syntax:
     content: public String toString(int indentFactor)
     parameters:
@@ -811,7 +694,7 @@ references:
   nameWithType: Index
   fullName: com.microsoft.azure.documentdb.Index
   type: Class
-  summary: <p>Represents the index of a collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the index of a collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Index extends JsonSerializable
 - uid: com.microsoft.azure.documentdb.DataType
@@ -821,6 +704,6 @@ references:
   nameWithType: DataType
   fullName: com.microsoft.azure.documentdb.DataType
   type: Enum
-  summary: <p>Data types in the Azure Cosmos DB database service. </p>
+  summary: "<p>Data types in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum DataType

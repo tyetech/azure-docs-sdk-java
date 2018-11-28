@@ -178,7 +178,7 @@ references:
   nameWithType: ActorReentrancyMode
   fullName: microsoft.servicefabric.actors.runtime.ActorReentrancyMode
   type: Enum
-  summary: <p>Specifies Reentrancy mode for actor method calls. </p>
+  summary: "<p>Specifies Reentrancy mode for actor method calls. </p>"
   syntax:
     content: public enum ActorReentrancyMode
 - uid: microsoft.servicefabric.actors.ActorConcurrencyLockTimeoutException
@@ -188,7 +188,7 @@ references:
   nameWithType: ActorConcurrencyLockTimeoutException
   fullName: microsoft.servicefabric.actors.ActorConcurrencyLockTimeoutException
   type: Class
-  summary: <p>Exception thrown by actor runtime when runtime cannot acquire the turn based concurrency lock to dispatch the method. </p>
+  summary: "<p>Exception thrown by actor runtime when runtime cannot acquire the turn based concurrency lock to dispatch the method. </p>"
   syntax:
     content: public class ActorConcurrencyLockTimeoutException extends FabricException
 - uid: microsoft.servicefabric.actors.runtime.ActorConcurrencySettings
@@ -198,5 +198,5 @@ references:
   nameWithType: ActorConcurrencySettings
   fullName: microsoft.servicefabric.actors.runtime.ActorConcurrencySettings
   type: Class
-  summary: <p>The method calls on an actor dispatched via in turn with support for logical call context based reentrancy. This class provides the settings to configure the turn based concurrency lock for actors. </p>
+  summary: "<p>The method calls on an actor dispatched via in turn with support for logical call context based reentrancy. This class provides the settings to configure the turn based concurrency lock for actors. </p>"
   syntax: *o1

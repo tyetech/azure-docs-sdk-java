@@ -939,7 +939,7 @@ references:
   nameWithType: IotHubAuthenticationProvider
   fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubAuthenticationProvider
   type: Class
-  summary: <p>Base class for providing authentication for a Device Client or Module Client, including x509 and SAS based authentication. </p>
+  summary: "<p>Base class for providing authentication for a Device Client or Module Client, including x509 and SAS based authentication. </p>"
   syntax:
     content: public class IotHubAuthenticationProvider
 - uid: com.microsoft.azure.sdk.iot.device.MessageCallback
@@ -949,10 +949,7 @@ references:
   nameWithType: MessageCallback
   fullName: com.microsoft.azure.sdk.iot.device.MessageCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub message callback. </p>
-
-    <p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)" data-throw-if-not-resolved="false">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub message callback. </p>\r\n<p>The developer is expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.MessageCallback.execute(Message,Object)\" data-throw-if-not-resolved=\"false\">MessageCallback#execute(Message, Object)</xref> upon receiving a message from an IoT Hub. </p>"
   syntax:
     content: public interface MessageCallback
 - uid: com.microsoft.azure.sdk.iot.device.DeviceTwin.Pair
@@ -985,7 +982,7 @@ references:
   nameWithType: ProductInfo
   fullName: com.microsoft.azure.sdk.iot.device.ProductInfo
   type: Class
-  summary: <p>Represents the complete user agent string to be included in all D2C communication. </p>
+  summary: "<p>Represents the complete user agent string to be included in all D2C communication. </p>"
   syntax:
     content: public class ProductInfo
 - uid: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
@@ -995,7 +992,7 @@ references:
   nameWithType: IotHubClientProtocol
   fullName: com.microsoft.azure.sdk.iot.device.IotHubClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubClientProtocol
 - uid: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
@@ -1005,7 +1002,7 @@ references:
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.sdk.iot.device.transport.RetryPolicy
   type: Interface
-  summary: <p>An interface for the retry policy. </p>
+  summary: "<p>An interface for the retry policy. </p>"
   syntax:
     content: public interface RetryPolicy
 - uid: com.microsoft.azure.sdk.iot.device.transport.ExponentialBackoffWithJitter
@@ -1015,7 +1012,7 @@ references:
   nameWithType: ExponentialBackoffWithJitter
   fullName: com.microsoft.azure.sdk.iot.device.transport.ExponentialBackoffWithJitter
   type: Class
-  summary: <p>Represents a retry policy that performs exponential backoff with jitter retries. </p>
+  summary: "<p>Represents a retry policy that performs exponential backoff with jitter retries. </p>"
   syntax:
     content: public class ExponentialBackoffWithJitter
 - uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionString
@@ -1025,7 +1022,7 @@ references:
   nameWithType: IotHubConnectionString
   fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionString
   type: Class
-  summary: <p>Parser for the Iothub connection string. </p>
+  summary: "<p>Parser for the Iothub connection string. </p>"
   syntax:
     content: public class IotHubConnectionString
 - uid: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenAuthenticationProvider

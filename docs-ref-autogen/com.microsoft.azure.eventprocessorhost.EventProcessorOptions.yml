@@ -478,7 +478,7 @@ references:
   nameWithType: ExceptionReceivedEventArgs
   fullName: com.microsoft.azure.eventprocessorhost.ExceptionReceivedEventArgs
   type: Class
-  summary: <p>Passed as an argument to the general exception handler that can be set via EventProcessorOptions. </p>
+  summary: "<p>Passed as an argument to the general exception handler that can be set via EventProcessorOptions. </p>"
   syntax:
     content: public class ExceptionReceivedEventArgs
 - uid: com.microsoft.azure.eventhubs.EventPosition
@@ -488,7 +488,7 @@ references:
   nameWithType: EventPosition
   fullName: com.microsoft.azure.eventhubs.EventPosition
   type: Interface
-  summary: <p>Defines a position of an <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> in the event hub partition. The position can be an Offset, Sequence Number, or EnqueuedTime. </p>
+  summary: "<p>Defines a position of an <xref uid=\"com.microsoft.azure.eventhubs.EventData\" data-throw-if-not-resolved=\"false\">EventData</xref> in the event hub partition. The position can be an Offset, Sequence Number, or EnqueuedTime. </p>"
   syntax:
     content: public interface EventPosition
 - uid: com.microsoft.azure.eventhubs.EventPosition.fromStartOfStream()
@@ -498,10 +498,7 @@ references:
   nameWithType: EventPosition.fromStartOfStream()
   fullName: com.microsoft.azure.eventhubs.EventPosition.fromStartOfStream()
   type: Method
-  summary: >-
-    <p>Returns the position for the start of a stream. Provide this position in receiver creation to start receiving from the first available event in the partition.</p>
-
-    <p></p>
+  summary: "<p>Returns the position for the start of a stream. Provide this position in receiver creation to start receiving from the first available event in the partition.</p>\r\n<p></p>"
   syntax:
     content: public static EventPosition fromStartOfStream()
     return:

@@ -198,7 +198,7 @@ references:
   nameWithType: Range
   fullName: com.microsoft.azure.elasticdb.shard.base.Range
   type: Class
-  summary: <p>Represents a left-inclusive, right-exclusive range of values. </p>
+  summary: "<p>Represents a left-inclusive, right-exclusive range of values. </p>"
   syntax:
     content: public class Range
 - uid: com.microsoft.azure.elasticdb.shard.base.Shard
@@ -208,7 +208,7 @@ references:
   nameWithType: Shard
   fullName: com.microsoft.azure.elasticdb.shard.base.Shard
   type: Class
-  summary: <p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid="com.microsoft.azure.elasticdb.shard.base.ShardLocation" data-throw-if-not-resolved="false">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid="com.microsoft.azure.elasticdb.shard.base.PointMapping" data-throw-if-not-resolved="false">PointMapping</xref> and <xref uid="com.microsoft.azure.elasticdb.shard.base.RangeMapping" data-throw-if-not-resolved="false">RangeMapping</xref>). </p>
+  summary: "<p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid=\"com.microsoft.azure.elasticdb.shard.base.ShardLocation\" data-throw-if-not-resolved=\"false\">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid=\"com.microsoft.azure.elasticdb.shard.base.PointMapping\" data-throw-if-not-resolved=\"false\">PointMapping</xref> and <xref uid=\"com.microsoft.azure.elasticdb.shard.base.RangeMapping\" data-throw-if-not-resolved=\"false\">RangeMapping</xref>). </p>"
   syntax:
     content: public class Shard
 - uid: com.microsoft.azure.elasticdb.shard.base.MappingStatus
@@ -218,7 +218,7 @@ references:
   nameWithType: MappingStatus
   fullName: com.microsoft.azure.elasticdb.shard.base.MappingStatus
   type: Enum
-  summary: <p>Status of a mapping. </p>
+  summary: "<p>Status of a mapping. </p>"
   syntax:
     content: public enum MappingStatus
 - uid: com.microsoft.azure.elasticdb.shard.base.ShardRange
@@ -228,7 +228,7 @@ references:
   nameWithType: ShardRange
   fullName: com.microsoft.azure.elasticdb.shard.base.ShardRange
   type: Class
-  summary: <p>A range of shard keys between a low key and a high key. The low key is inclusive (part of the range) while the high key is exclusive (not part of the range). The ShardRange class is immutable. </p>
+  summary: "<p>A range of shard keys between a low key and a high key. The low key is inclusive (part of the range) while the high key is exclusive (not part of the range). The ShardRange class is immutable. </p>"
   syntax:
     content: public class ShardRange
 - uid: com.microsoft.azure.elasticdb.shard.base.RangeMapping
@@ -238,6 +238,6 @@ references:
   nameWithType: RangeMapping
   fullName: com.microsoft.azure.elasticdb.shard.base.RangeMapping
   type: Class
-  summary: <p>Represents a mapping between a range of key values and a <xref uid="com.microsoft.azure.elasticdb.shard.base.Shard" data-throw-if-not-resolved="false">Shard</xref>. </p>
+  summary: "<p>Represents a mapping between a range of key values and a <xref uid=\"com.microsoft.azure.elasticdb.shard.base.Shard\" data-throw-if-not-resolved=\"false\">Shard</xref>. </p>"
   syntax:
     content: public class RangeMapping implements IShardProvider<Range>,IMappingInfoProvider

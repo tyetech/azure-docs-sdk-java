@@ -657,10 +657,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -673,10 +670,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -737,12 +731,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -755,10 +744,7 @@ references:
   nameWithType: ExternalChildResource<FluentModelT,ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource<FluentModelT,ParentT>
   type: Interface
-  summary: >-
-    <p>Represents an external child resource.</p>
-
-    <p></p>
+  summary: "<p>Represents an external child resource.</p>\r\n<p></p>"
   syntax:
     content: public interface ExternalChildResource<FluentModelT,ParentT>
     typeParameters:
@@ -775,7 +761,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
   type: Interface
-  summary: <p>Base interfaces for fluent resources. </p>
+  summary: "<p>Base interfaces for fluent resources. </p>"
   syntax:
     content: public interface Resource
 - uid: com.microsoft.azure.management.resources.fluentcore.model.HasInner
@@ -785,10 +771,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -802,10 +785,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -819,10 +799,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -836,7 +813,7 @@ references:
   nameWithType: BuildTaskImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
   type: Class
-  summary: <p>Implementation for BuildTask. </p>
+  summary: "<p>Implementation for BuildTask. </p>"
   syntax:
     content: public class BuildTaskImpl
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.parentId()
@@ -858,7 +835,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.containerregistry.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.provisioningState()
@@ -904,7 +881,7 @@ references:
   nameWithType: BuildTaskStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildTaskStatus
   type: Class
-  summary: <p>Defines values for BuildTaskStatus. </p>
+  summary: "<p>Defines values for BuildTaskStatus. </p>"
   syntax:
     content: public class BuildTaskStatus
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.status()
@@ -938,7 +915,7 @@ references:
   nameWithType: OsType
   fullName: com.microsoft.azure.management.containerregistry.OsType
   type: Class
-  summary: <p>Defines values for OsType. </p>
+  summary: "<p>Defines values for OsType. </p>"
   syntax:
     content: public class OsType
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.osType()
@@ -972,7 +949,7 @@ references:
   nameWithType: SourceControlType
   fullName: com.microsoft.azure.management.containerregistry.SourceControlType
   type: Class
-  summary: <p>Defines values for SourceControlType. </p>
+  summary: "<p>Defines values for SourceControlType. </p>"
   syntax:
     content: public class SourceControlType
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.sourceControlType()
@@ -1018,7 +995,7 @@ references:
   nameWithType: TokenType
   fullName: com.microsoft.azure.management.containerregistry.TokenType
   type: Class
-  summary: <p>Defines values for TokenType. </p>
+  summary: "<p>Defines values for TokenType. </p>"
   syntax:
     content: public class TokenType
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.authenticationTokenType()
@@ -1088,7 +1065,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.queueBuildTask()
@@ -1098,10 +1075,7 @@ references:
   nameWithType: BuildTaskImpl.queueBuildTask()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.queueBuildTask()
   type: Method
-  summary: >-
-    <p>Queues the current build task to build for the current container registry.</p>
-
-    <p></p>
+  summary: "<p>Queues the current build task to build for the current container registry.</p>\r\n<p></p>"
   syntax:
     content: public Build queueBuildTask()
     return:
@@ -1114,10 +1088,7 @@ references:
   nameWithType: BuildTaskImpl.queueBuildTaskAsync()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.queueBuildTaskAsync()
   type: Method
-  summary: >-
-    <p>Queues the current build task to build for the current container registry.</p>
-
-    <p></p>
+  summary: "<p>Queues the current build task to build for the current container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Build> queueBuildTaskAsync()
     return:
@@ -1130,7 +1101,7 @@ references:
   nameWithType: BuildStepOperations
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations
   type: Interface
-  summary: <p>Grouping of container registry build steps actions. </p>
+  summary: "<p>Grouping of container registry build steps actions. </p>"
   syntax:
     content: public interface BuildStepOperations
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.buildSteps()

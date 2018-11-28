@@ -44,10 +44,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -60,10 +57,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -76,10 +70,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -108,7 +99,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withBoundedStalenessConsistency(int maxStalenessPrefix, int maxIntervalInSeconds)
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withBoundedStalenessConsistency(int maxStalenessPrefix, int maxIntervalInSeconds)
   type: Method
-  summary: <p>The consistency policy for the CosmosDB account. </p>
+  summary: "<p>The consistency policy for the CosmosDB account. </p>"
   syntax:
     content: public WithOptionals withBoundedStalenessConsistency(int maxStalenessPrefix, int maxIntervalInSeconds)
     parameters:
@@ -128,7 +119,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withEventualConsistency()
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withEventualConsistency()
   type: Method
-  summary: <p>The consistency policy for the CosmosDB account. </p>
+  summary: "<p>The consistency policy for the CosmosDB account. </p>"
   syntax:
     content: public WithOptionals withEventualConsistency()
     return:
@@ -141,7 +132,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithIpRangeFilter.withIpRangeFilter(String ipRangeFilter)
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithIpRangeFilter.withIpRangeFilter(String ipRangeFilter)
   type: Method
-  summary: '<p>CosmosDB Firewall Support: This value specifies the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account. IP addresses/ranges must be comma separated and must not contain any spaces. </p>'
+  summary: "<p>CosmosDB Firewall Support: This value specifies the set of IP addresses or IP address ranges in CIDR form to be included as the allowed list of client IPs for a given database account. IP addresses/ranges must be comma separated and must not contain any spaces. </p>"
   syntax:
     content: public WithOptionals withIpRangeFilter(String ipRangeFilter)
     parameters:
@@ -158,7 +149,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithReadLocations.withoutReadReplication(Region region)
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithReadLocations.withoutReadReplication(Region region)
   type: Method
-  summary: <p>A georeplication location for the CosmosDB account. </p>
+  summary: "<p>A georeplication location for the CosmosDB account. </p>"
   syntax:
     content: public WithReadLocations withoutReadReplication(Region region)
     parameters:
@@ -175,7 +166,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -192,7 +183,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithReadLocations.withReadReplication(Region region)
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithReadLocations.withReadReplication(Region region)
   type: Method
-  summary: <p>A georeplication location for the CosmosDB account. </p>
+  summary: "<p>A georeplication location for the CosmosDB account. </p>"
   syntax:
     content: public WithReadLocations withReadReplication(Region region)
     parameters:
@@ -209,7 +200,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withSessionConsistency()
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withSessionConsistency()
   type: Method
-  summary: <p>The consistency policy for the CosmosDB account. </p>
+  summary: "<p>The consistency policy for the CosmosDB account. </p>"
   syntax:
     content: public WithOptionals withSessionConsistency()
     return:
@@ -222,7 +213,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withStrongConsistency()
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithConsistencyPolicy.withStrongConsistency()
   type: Method
-  summary: <p>The consistency policy for the CosmosDB account. </p>
+  summary: "<p>The consistency policy for the CosmosDB account. </p>"
   syntax:
     content: public WithOptionals withStrongConsistency()
     return:
@@ -235,7 +226,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -255,7 +246,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -272,7 +263,7 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithReadLocations
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithReadLocations
   type: Interface
-  summary: <p>The stage of the cosmos db definition allowing the definition of a write location. </p>
+  summary: "<p>The stage of the cosmos db definition allowing the definition of a write location. </p>"
   syntax:
     content: public interface WithReadLocations
 - uid: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithOptionals
@@ -282,6 +273,6 @@ references:
   nameWithType: CosmosDBAccount.UpdateStages.WithOptionals
   fullName: com.microsoft.azure.management.cosmosdb.CosmosDBAccount.UpdateStages.WithOptionals
   type: Interface
-  summary: <p>Grouping of cosmos db update stages. </p>
+  summary: "<p>Grouping of cosmos db update stages. </p>"
   syntax:
     content: public interface WithOptionals

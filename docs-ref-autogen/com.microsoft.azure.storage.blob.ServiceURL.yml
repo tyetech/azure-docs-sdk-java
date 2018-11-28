@@ -576,10 +576,7 @@ references:
   nameWithType: StorageURL.appendToURLPath(URL baseURL, String name)
   fullName: com.microsoft.azure.storage.blob.StorageURL.appendToURLPath(URL baseURL, String name)
   type: Method
-  summary: >-
-    <p>Appends a string to the end of a URL's path (prefixing the string with a '/' if required).</p>
-
-    <p></p>
+  summary: "<p>Appends a string to the end of a URL's path (prefixing the string with a '/' if required).</p>\r\n<p></p>"
   syntax:
     content: protected static URL appendToURLPath(URL baseURL, String name)
     parameters:
@@ -599,10 +596,7 @@ references:
   nameWithType: StorageURL.createPipeline()
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline()
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline()
     return:
@@ -615,10 +609,7 @@ references:
   nameWithType: StorageURL.createPipeline(ICredentials credentials)
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline(ICredentials credentials)
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline(ICredentials credentials)
     parameters:
@@ -635,10 +626,7 @@ references:
   nameWithType: StorageURL.createPipeline(PipelineOptions pipelineOptions)
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline(PipelineOptions pipelineOptions)
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline(PipelineOptions pipelineOptions)
     parameters:
@@ -655,10 +643,7 @@ references:
   nameWithType: StorageURL.createPipeline(ICredentials credentials, PipelineOptions pipelineOptions)
   fullName: com.microsoft.azure.storage.blob.StorageURL.createPipeline(ICredentials credentials, PipelineOptions pipelineOptions)
   type: Method
-  summary: >-
-    <p>Creates an pipeline to process the HTTP requests and Responses.</p>
-
-    <p></p>
+  summary: "<p>Creates an pipeline to process the HTTP requests and Responses.</p>\r\n<p></p>"
   syntax:
     content: public static HttpPipeline createPipeline(ICredentials credentials, PipelineOptions pipelineOptions)
     parameters:
@@ -726,7 +711,7 @@ references:
   nameWithType: StorageURL
   fullName: com.microsoft.azure.storage.blob.StorageURL
   type: Class
-  summary: <p>Represents a URL to a Azure storage object. Typically this class is only needed to generate a new pipeline. In most cases, one of the other URL types will be more useful. </p>
+  summary: "<p>Represents a URL to a Azure storage object. Typically this class is only needed to generate a new pipeline. In most cases, one of the other URL types will be more useful. </p>"
   syntax:
     content: public class StorageURL
 - uid: com.microsoft.azure.storage.blob.ContainerURL
@@ -736,7 +721,7 @@ references:
   nameWithType: ContainerURL
   fullName: com.microsoft.azure.storage.blob.ContainerURL
   type: Class
-  summary: <p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ServiceURL" data-throw-if-not-resolved="false">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">Azure Docs</a> for more information on containers. </p>
+  summary: "<p>Represents a URL to a container. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ServiceURL\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs. Please refer to the <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">Azure Docs</a> for more information on containers. </p>"
   syntax:
     content: public class ContainerURL extends StorageURL
 - uid: com.microsoft.azure.storage.blob.ServiceURL
@@ -746,7 +731,7 @@ references:
   nameWithType: ServiceURL
   fullName: com.microsoft.azure.storage.blob.ServiceURL
   type: Class
-  summary: <p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please see <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">here</a> for more information on containers. </p>
+  summary: "<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please see <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">here</a> for more information on containers. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.models.ServiceListContainersSegmentResponse
   parent: com.microsoft.azure.storage.blob.models
@@ -755,7 +740,7 @@ references:
   nameWithType: ServiceListContainersSegmentResponse
   fullName: com.microsoft.azure.storage.blob.models.ServiceListContainersSegmentResponse
   type: Class
-  summary: <p>Contains all response data for the listContainersSegment operation. </p>
+  summary: "<p>Contains all response data for the listContainersSegment operation. </p>"
   syntax:
     content: public class ServiceListContainersSegmentResponse
 - uid: com.microsoft.azure.storage.blob.ListContainersOptions
@@ -765,7 +750,7 @@ references:
   nameWithType: ListContainersOptions
   fullName: com.microsoft.azure.storage.blob.ListContainersOptions
   type: Class
-  summary: <p>Defines options available to configure the behavior of a call to listContainersSegment on a <xref uid="com.microsoft.azure.storage.blob.ServiceURL" data-throw-if-not-resolved="false">ServiceURL</xref> object. See the constructor for details on each of the options. Null may be passed in place of an object of this type if no options are desirable. </p>
+  summary: "<p>Defines options available to configure the behavior of a call to listContainersSegment on a <xref uid=\"com.microsoft.azure.storage.blob.ServiceURL\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> object. See the constructor for details on each of the options. Null may be passed in place of an object of this type if no options are desirable. </p>"
   syntax:
     content: public class ListContainersOptions
 - uid: com.microsoft.azure.storage.blob.models.ServiceGetPropertiesResponse
@@ -775,7 +760,7 @@ references:
   nameWithType: ServiceGetPropertiesResponse
   fullName: com.microsoft.azure.storage.blob.models.ServiceGetPropertiesResponse
   type: Class
-  summary: <p>Contains all response data for the getProperties operation. </p>
+  summary: "<p>Contains all response data for the getProperties operation. </p>"
   syntax:
     content: public class ServiceGetPropertiesResponse
 - uid: com.microsoft.azure.storage.blob.models.ServiceSetPropertiesResponse
@@ -785,7 +770,7 @@ references:
   nameWithType: ServiceSetPropertiesResponse
   fullName: com.microsoft.azure.storage.blob.models.ServiceSetPropertiesResponse
   type: Class
-  summary: <p>Contains all response data for the setProperties operation. </p>
+  summary: "<p>Contains all response data for the setProperties operation. </p>"
   syntax:
     content: public class ServiceSetPropertiesResponse
 - uid: com.microsoft.azure.storage.blob.models.StorageServiceProperties
@@ -795,7 +780,7 @@ references:
   nameWithType: StorageServiceProperties
   fullName: com.microsoft.azure.storage.blob.models.StorageServiceProperties
   type: Class
-  summary: <p>Storage Service Properties. </p>
+  summary: "<p>Storage Service Properties. </p>"
   syntax:
     content: public class StorageServiceProperties
 - uid: com.microsoft.azure.storage.blob.models.ServiceGetStatisticsResponse
@@ -805,7 +790,7 @@ references:
   nameWithType: ServiceGetStatisticsResponse
   fullName: com.microsoft.azure.storage.blob.models.ServiceGetStatisticsResponse
   type: Class
-  summary: <p>Contains all response data for the getStatistics operation. </p>
+  summary: "<p>Contains all response data for the getStatistics operation. </p>"
   syntax:
     content: public class ServiceGetStatisticsResponse
 - uid: com.microsoft.azure.storage.blob.models.ServiceGetAccountInfoResponse
@@ -815,6 +800,6 @@ references:
   nameWithType: ServiceGetAccountInfoResponse
   fullName: com.microsoft.azure.storage.blob.models.ServiceGetAccountInfoResponse
   type: Class
-  summary: <p>Contains all response data for the getAccountInfo operation. </p>
+  summary: "<p>Contains all response data for the getAccountInfo operation. </p>"
   syntax:
     content: public class ServiceGetAccountInfoResponse

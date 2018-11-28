@@ -206,7 +206,7 @@ references:
   nameWithType: CommonRestResponse
   fullName: com.microsoft.azure.storage.blob.CommonRestResponse
   type: Class
-  summary: <p>A generic wrapper for any type of blob REST API response. Used and returned by methods in the <xref uid="com.microsoft.azure.storage.blob.TransferManager" data-throw-if-not-resolved="false">TransferManager</xref> class. The methods there return this type because they represent composite operations which may conclude with any of several possible REST calls depending on the data provided. </p>
+  summary: "<p>A generic wrapper for any type of blob REST API response. Used and returned by methods in the <xref uid=\"com.microsoft.azure.storage.blob.TransferManager\" data-throw-if-not-resolved=\"false\">TransferManager</xref> class. The methods there return this type because they represent composite operations which may conclude with any of several possible REST calls depending on the data provided. </p>"
   syntax:
     content: public class CommonRestResponse
 - uid: com.microsoft.azure.storage.blob.BlockBlobURL
@@ -216,7 +216,7 @@ references:
   nameWithType: BlockBlobURL
   fullName: com.microsoft.azure.storage.blob.BlockBlobURL
   type: Class
-  summary: <p>Represents a URL to a block blob. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ContainerURL" data-throw-if-not-resolved="false">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs">Azure Docs</a> for more information on block blobs. </p>
+  summary: "<p>Represents a URL to a block blob. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ContainerURL\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs\">Azure Docs</a> for more information on block blobs. </p>"
   syntax:
     content: public class BlockBlobURL extends BlobURL
 - uid: com.microsoft.azure.storage.blob.TransferManagerUploadToBlockBlobOptions
@@ -226,7 +226,7 @@ references:
   nameWithType: TransferManagerUploadToBlockBlobOptions
   fullName: com.microsoft.azure.storage.blob.TransferManagerUploadToBlockBlobOptions
   type: Class
-  summary: <p>Configures the parallel upload behavior for methods on the <xref uid="com.microsoft.azure.storage.blob.TransferManager" data-throw-if-not-resolved="false">TransferManager</xref>. </p>
+  summary: "<p>Configures the parallel upload behavior for methods on the <xref uid=\"com.microsoft.azure.storage.blob.TransferManager\" data-throw-if-not-resolved=\"false\">TransferManager</xref>. </p>"
   syntax:
     content: public class TransferManagerUploadToBlockBlobOptions
 - uid: com.microsoft.azure.storage.blob.BlockBlobURL.MAX_STAGE_BLOCK_BYTES
@@ -236,7 +236,7 @@ references:
   nameWithType: BlockBlobURL.MAX_STAGE_BLOCK_BYTES
   fullName: com.microsoft.azure.storage.blob.BlockBlobURL.MAX_STAGE_BLOCK_BYTES
   type: Field
-  summary: <p>Indicates the maximum number of bytes that can be sent in a call to stageBlock. </p>
+  summary: "<p>Indicates the maximum number of bytes that can be sent in a call to stageBlock. </p>"
   syntax:
     content: public static final int MAX_STAGE_BLOCK_BYTES= 100 * Constants.MB
     return:
@@ -248,7 +248,7 @@ references:
   nameWithType: BlockBlobURL.MAX_BLOCKS
   fullName: com.microsoft.azure.storage.blob.BlockBlobURL.MAX_BLOCKS
   type: Field
-  summary: <p>Indicates the maximum number of blocks allowed in a block blob. </p>
+  summary: "<p>Indicates the maximum number of blocks allowed in a block blob. </p>"
   syntax:
     content: public static final int MAX_BLOCKS= 50000
     return:
@@ -260,7 +260,7 @@ references:
   nameWithType: BlobDownloadHeaders
   fullName: com.microsoft.azure.storage.blob.models.BlobDownloadHeaders
   type: Class
-  summary: <p>Defines headers for Download operation. </p>
+  summary: "<p>Defines headers for Download operation. </p>"
   syntax:
     content: public class BlobDownloadHeaders
 - uid: com.microsoft.azure.storage.blob.BlobURL
@@ -270,7 +270,7 @@ references:
   nameWithType: BlobURL
   fullName: com.microsoft.azure.storage.blob.BlobURL
   type: Class
-  summary: '<p>Represents a URL to a blob of any type: block, append, or page. It may be obtained by direct construction or via the create method on a <xref uid="com.microsoft.azure.storage.blob.ContainerURL" data-throw-if-not-resolved="false">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs">Azure Docs</a> for more information. </p>'
+  summary: "<p>Represents a URL to a blob of any type: block, append, or page. It may be obtained by direct construction or via the create method on a <xref uid=\"com.microsoft.azure.storage.blob.ContainerURL\" data-throw-if-not-resolved=\"false\">ContainerURL</xref> object. This class does not hold any state about a particular blob but is instead a convenient way of sending off appropriate requests to the resource on the service. Please refer to the <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/understanding-block-blobs&amp;ndash;append-blobs&amp;ndash;and-page-blobs\">Azure Docs</a> for more information. </p>"
   syntax:
     content: public class BlobURL extends StorageURL
 - uid: com.microsoft.azure.storage.blob.BlobRange
@@ -280,7 +280,7 @@ references:
   nameWithType: BlobRange
   fullName: com.microsoft.azure.storage.blob.BlobRange
   type: Class
-  summary: <p>This is a representation of a range of bytes on a blob, typically used during a download operation. This type is immutable to ensure thread-safety of requests, so changing the values for a different operation requires construction of a new object. Passing null as a BlobRange value will default to the entire range of the blob. </p>
+  summary: "<p>This is a representation of a range of bytes on a blob, typically used during a download operation. This type is immutable to ensure thread-safety of requests, so changing the values for a different operation requires construction of a new object. Passing null as a BlobRange value will default to the entire range of the blob. </p>"
   syntax:
     content: public class BlobRange
 - uid: com.microsoft.azure.storage.blob.TransferManagerDownloadFromBlobOptions
@@ -290,6 +290,6 @@ references:
   nameWithType: TransferManagerDownloadFromBlobOptions
   fullName: com.microsoft.azure.storage.blob.TransferManagerDownloadFromBlobOptions
   type: Class
-  summary: <p>Configures the parallel download behavior for methods on the <xref uid="com.microsoft.azure.storage.blob.TransferManager" data-throw-if-not-resolved="false">TransferManager</xref>. </p>
+  summary: "<p>Configures the parallel download behavior for methods on the <xref uid=\"com.microsoft.azure.storage.blob.TransferManager\" data-throw-if-not-resolved=\"false\">TransferManager</xref>. </p>"
   syntax:
     content: public class TransferManagerDownloadFromBlobOptions

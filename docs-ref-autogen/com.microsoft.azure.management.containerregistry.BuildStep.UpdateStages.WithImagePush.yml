@@ -90,7 +90,7 @@ references:
   nameWithType: BuildStep.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update extends BuildStep.UpdateStages.WithBranch,BuildStep.UpdateStages.WithContext,BuildStep.UpdateStages.WithDockerFilePath,BuildStep.UpdateStages.WithImageNames,BuildStep.UpdateStages.WithImageCache,BuildStep.UpdateStages.WithImagePush,BuildStep.UpdateStages.WithBuildArgument,Appliable<BuildStep>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImagePushEnabled()
@@ -100,10 +100,7 @@ references:
   nameWithType: BuildStepImpl.withImagePushEnabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImagePushEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withImagePushEnabled()
     return:
@@ -116,10 +113,7 @@ references:
   nameWithType: BuildStepImpl.withImagePushDisabled()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withImagePushDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should not be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should not be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withImagePushDisabled()
     return:

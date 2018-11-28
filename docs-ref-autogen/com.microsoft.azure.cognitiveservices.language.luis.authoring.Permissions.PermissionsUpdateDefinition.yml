@@ -34,10 +34,7 @@ references:
   nameWithType: Permissions.PermissionsUpdateDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.PermissionsUpdateDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public OperationStatus execute()
     return:
@@ -50,10 +47,7 @@ references:
   nameWithType: Permissions.PermissionsUpdateDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.PermissionsUpdateDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<OperationStatus> executeAsync()
     return:
@@ -66,10 +60,7 @@ references:
   nameWithType: Permissions.PermissionsUpdateDefinitionStages.WithAppId.withAppId(UUID appId)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.PermissionsUpdateDefinitionStages.WithAppId.withAppId(UUID appId)
   type: Method
-  summary: >-
-    <p>The application ID.</p>
-
-    <p></p>
+  summary: "<p>The application ID.</p>\r\n<p></p>"
   syntax:
     content: public PermissionsUpdateDefinitionStages.WithExecute withAppId(UUID appId)
     parameters:
@@ -85,10 +76,7 @@ references:
   nameWithType: Permissions.PermissionsUpdateDefinitionStages.WithAllOptions.withEmails(List<String> emails)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.PermissionsUpdateDefinitionStages.WithAllOptions.withEmails(List<String> emails)
   type: Method
-  summary: >-
-    <p>The email address of the users.</p>
-
-    <p></p>
+  summary: "<p>The email address of the users.</p>\r\n<p></p>"
   syntax:
     content: public PermissionsUpdateDefinitionStages.WithExecute withEmails(List<String> emails)
     parameters:
@@ -104,7 +92,7 @@ references:
   nameWithType: Permissions.PermissionsUpdateDefinitionStages.WithAppId
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.PermissionsUpdateDefinitionStages.WithAppId
   type: Interface
-  summary: <p>The stage of the definition to be specify appId. </p>
+  summary: "<p>The stage of the definition to be specify appId. </p>"
   syntax:
     content: public interface WithAppId
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.PermissionsUpdateDefinitionStages.WithExecute
@@ -114,6 +102,6 @@ references:
   nameWithType: Permissions.PermissionsUpdateDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.PermissionsUpdateDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

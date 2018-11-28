@@ -42,10 +42,7 @@ references:
   nameWithType: NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withExistingNetwork(Network network)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withExistingNetwork(Network network)
   type: Method
-  summary: >-
-    <p>Associate an existing virtual network with the network interface IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Associate an existing virtual network with the network interface IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithSubnet<ParentT> withExistingNetwork(Network network)
     parameters:
@@ -62,10 +59,7 @@ references:
   nameWithType: NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withNewNetwork(Creatable<Network> creatable)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withNewNetwork(Creatable<Network> creatable)
   type: Method
-  summary: >-
-    <p>Create a new virtual network to associate with the network interface IP configuration, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Create a new virtual network to associate with the network interface IP configuration, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP<ParentT> withNewNetwork(Creatable<Network> creatable)
     parameters:
@@ -82,12 +76,7 @@ references:
   nameWithType: NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withNewNetwork(String name, String addressSpace)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withNewNetwork(String name, String addressSpace)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the network interface IP configuration. </p>
-
-    <p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the network interface IP configuration. </p>\r\n<p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP<ParentT> withNewNetwork(String name, String addressSpace)
     parameters:
@@ -107,12 +96,7 @@ references:
   nameWithType: NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withNewNetwork(String addressSpace)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>.withNewNetwork(String addressSpace)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the network interface IP configuration. </p>
-
-    <p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the network interface IP configuration. </p>\r\n<p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP<ParentT> withNewNetwork(String addressSpace)
     parameters:
@@ -129,10 +113,7 @@ references:
   nameWithType: NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.DefinitionStages.WithNetwork<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the network interface IP configuration definition allowing to specify the virtual network.</p>
-
-    <p></p>
+  summary: "<p>The stage of the network interface IP configuration definition allowing to specify the virtual network.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNetwork<ParentT>
     typeParameters:
@@ -146,7 +127,7 @@ references:
   nameWithType: NicIPConfiguration.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of the network interface IP configuration definition. </p>
+  summary: "<p>The entirety of the network interface IP configuration definition. </p>"
   syntax:
     content: public interface Definition<ParentT>
     typeParameters:
@@ -160,7 +141,7 @@ references:
   nameWithType: Attachable<ParentT>.attach()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.attach()
   type: Method
-  summary: <p>Attaches this child object's definition to its parent's definition. </p>
+  summary: "<p>Attaches this child object's definition to its parent's definition. </p>"
   syntax:
     content: public ParentT attach()
     return:

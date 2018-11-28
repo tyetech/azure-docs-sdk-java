@@ -48,10 +48,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -64,10 +61,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -84,10 +78,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -100,10 +91,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureBlobFileSystem()
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureBlobFileSystem()
   type: Method
-  summary: >-
-    <p>Begins the definition of Azure blob file system reference to be mounted on each cluster node.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of Azure blob file system reference to be mounted on each cluster node.</p>\r\n<p></p>"
   syntax:
     content: public AzureBlobFileSystem.DefinitionStages.Blank<ReturnT> defineAzureBlobFileSystem()
     return:
@@ -116,10 +104,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureFileShare()
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineAzureFileShare()
   type: Method
-  summary: >-
-    <p>Begins the definition of Azure file share reference to be mounted on each cluster node.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of Azure file share reference to be mounted on each cluster node.</p>\r\n<p></p>"
   syntax:
     content: public AzureFileShare.DefinitionStages.Blank<ReturnT> defineAzureFileShare()
     return:
@@ -132,7 +117,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithContainerSettings.defineContainerSettings(String image)
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithContainerSettings.defineContainerSettings(String image)
   type: Method
-  summary: <p>Begins the definition of container settings. </p>
+  summary: "<p>Begins the definition of container settings. </p>"
   syntax:
     content: public ContainerImageSettings.DefinitionStages.Blank<BatchAIJob.DefinitionStages.WithCreate> defineContainerSettings(String image)
     parameters:
@@ -149,10 +134,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineFileServer()
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.defineFileServer()
   type: Method
-  summary: >-
-    <p>Begins the definition of Azure file server reference.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of Azure file server reference.</p>\r\n<p></p>"
   syntax:
     content: public FileServer.DefinitionStages.Blank<ReturnT> defineFileServer()
     return:
@@ -240,7 +222,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue.withEnvironmentVariableSecretValue(String name, String value)
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue.withEnvironmentVariableSecretValue(String name, String value)
   type: Method
-  summary: <p>Sets the value of the environment variable. This value will never be reported back by Batch AI. </p>
+  summary: "<p>Sets the value of the environment variable. This value will never be reported back by Batch AI. </p>"
   syntax:
     content: public WithCreate withEnvironmentVariableSecretValue(String name, String value)
     parameters:
@@ -260,7 +242,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue.withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue.withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
   type: Method
-  summary: <p>Specifies KeyVault Store and Secret which contains the value for the environment variable. </p>
+  summary: "<p>Specifies KeyVault Store and Secret which contains the value for the environment variable. </p>"
   syntax:
     content: public WithCreate withEnvironmentVariableSecretValue(String name, String keyVaultId, String secretUrl)
     parameters:
@@ -331,10 +313,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.withUnmanagedFileSystem(String mountCommand, String relativeMountPath)
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>.withUnmanagedFileSystem(String mountCommand, String relativeMountPath)
   type: Method
-  summary: >-
-    <p>Specifies the details of the file system to mount on the compute cluster nodes.</p>
-
-    <p></p>
+  summary: "<p>Specifies the details of the file system to mount on the compute cluster nodes.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withUnmanagedFileSystem(String mountCommand, String relativeMountPath)
     parameters:
@@ -354,10 +333,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -371,7 +347,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithJobPreparation
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithJobPreparation
   type: Interface
-  summary: <p>Specifies the command line to be executed before tool kit is launched. The specified actions will run on all the nodes that are part of the job. </p>
+  summary: "<p>Specifies the command line to be executed before tool kit is launched. The specified actions will run on all the nodes that are part of the job. </p>"
   syntax:
     content: public interface WithJobPreparation
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithInputDirectory
@@ -399,7 +375,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithContainerSettings
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithContainerSettings
   type: Interface
-  summary: <p>Specifies details of the container registry and image such as name, URL and credentials. </p>
+  summary: "<p>Specifies details of the container registry and image such as name, URL and credentials. </p>"
   syntax:
     content: public interface WithContainerSettings
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariable
@@ -409,7 +385,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithEnvironmentVariable
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariable
   type: Interface
-  summary: <p>Allows to specify environment variables. </p>
+  summary: "<p>Allows to specify environment variables. </p>"
   syntax:
     content: public interface WithEnvironmentVariable
 - uid: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue
@@ -419,7 +395,7 @@ references:
   nameWithType: BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue
   type: Interface
-  summary: <p>The stage of the Batch AI job definition allowing to specify environment variables with secrets. </p>
+  summary: "<p>The stage of the Batch AI job definition allowing to specify environment variables with secrets. </p>"
   syntax:
     content: public interface WithEnvironmentVariableSecretValue
 - uid: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes
@@ -429,7 +405,7 @@ references:
   nameWithType: HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>
   fullName: com.microsoft.azure.management.batchai.model.HasMountVolumes.DefinitionStages.WithMountVolumes<ReturnT>
   type: Interface
-  summary: <p>Defines the volumes to mount on the cluster. </p>
+  summary: "<p>Defines the volumes to mount on the cluster. </p>"
   syntax:
     content: public interface WithMountVolumes<ReturnT>
     typeParameters:
@@ -442,6 +418,6 @@ references:
   nameWithType: BatchAIJob.Definition
   fullName: com.microsoft.azure.management.batchai.BatchAIJob.Definition
   type: Interface
-  summary: <p>The entirety of the Batch AI job definition. </p>
+  summary: "<p>The entirety of the Batch AI job definition. </p>"
   syntax:
     content: public interface Definition extends BatchAIJob.DefinitionStages.Blank,BatchAIJob.DefinitionStages.WithStdOutErrPathPrefix,BatchAIJob.DefinitionStages.WithNodeCount,BatchAIJob.DefinitionStages.WithToolType,BatchAIJob.DefinitionStages.WithCreate

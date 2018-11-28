@@ -112,7 +112,7 @@ references:
   nameWithType: AmqpsDeviceAuthenticationState
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceAuthenticationState
   type: Enum
-  summary: <p>Authentication states. </p>
+  summary: "<p>Authentication states. </p>"
   syntax:
     content: public enum AmqpsDeviceAuthenticationState
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceAuthenticationX509
@@ -140,7 +140,7 @@ references:
   nameWithType: AmqpsDeviceOperationLinkState
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperationLinkState
   type: Enum
-  summary: <p>Operation link state. </p>
+  summary: "<p>Operation link state. </p>"
   syntax:
     content: public enum AmqpsDeviceOperationLinkState
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceOperations
@@ -186,7 +186,7 @@ references:
   nameWithType: AmqpsIotHubConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection
   type: Class
-  summary: <p>An AMQPS IotHub connection between a device and an IoTHub. This class contains functionality for sending/receiving a message, and logic to re-establish the connection with the IoTHub in case it gets lost. </p>
+  summary: "<p>An AMQPS IotHub connection between a device and an IoTHub. This class contains functionality for sending/receiving a message, and logic to re-establish the connection with the IoTHub in case it gets lost. </p>"
   syntax:
     content: public class AmqpsIotHubConnection implements IotHubTransportConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsMessage
@@ -196,7 +196,7 @@ references:
   nameWithType: AmqpsMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsMessage
   type: Class
-  summary: <p>Extension of the QPID-Proton-J MessageImpl class which implements the Message interface. Adds a Delivery object as a private member variable and adds a new ACK_TYPE enum. Adds the ability to easily acknowledge a single message. </p>
+  summary: "<p>Extension of the QPID-Proton-J MessageImpl class which implements the Message interface. Adds a Delivery object as a private member variable and adds a new ACK_TYPE enum. Adds the ability to easily acknowledge a single message. </p>"
   syntax:
     content: public class AmqpsMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsSendReturnValue
@@ -224,7 +224,7 @@ references:
   nameWithType: AmqpsSessionManager
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsSessionManager
   type: Class
-  summary: <p>Manage multiple device clients and the authentication mechanism </p>
+  summary: "<p>Manage multiple device clients and the authentication mechanism </p>"
   syntax:
     content: public class AmqpsSessionManager
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.IoTHubConnectionType
@@ -234,7 +234,7 @@ references:
   nameWithType: IoTHubConnectionType
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.IoTHubConnectionType
   type: Enum
-  summary: <p>Type of the connection </p>
+  summary: "<p>Type of the connection </p>"
   syntax:
     content: public enum IoTHubConnectionType
 - uid: com.microsoft.azure.sdk.iot.device.transport.amqps.IotHubReactor
@@ -262,6 +262,6 @@ references:
   nameWithType: AmqpsIotHubConnection.ReconnectionTask
   fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection.ReconnectionTask
   type: Class
-  summary: <p>Runnable task to restart the AMQPS connection. Cannot do this work synchronously because the proton reactor can't block and wait for itself to be closed. The thread spawning this thread will close the reactor thread while the spawned thread creates a new reactor once the old reactor closes </p>
+  summary: "<p>Runnable task to restart the AMQPS connection. Cannot do this work synchronously because the proton reactor can't block and wait for itself to be closed. The thread spawning this thread will close the reactor thread while the spawned thread creates a new reactor once the old reactor closes </p>"
   syntax:
     content: public class ReconnectionTask

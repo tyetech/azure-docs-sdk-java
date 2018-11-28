@@ -107,7 +107,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithExistingDatabaseAfterElasticPool
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithExistingDatabaseAfterElasticPool
   type: Interface
-  summary: <p>The stage to decide whether using existing database or not. </p>
+  summary: "<p>The stage to decide whether using existing database or not. </p>"
   syntax:
     content: public interface WithExistingDatabaseAfterElasticPool extends SqlDatabaseOperations.DefinitionStages.WithImportFromAfterElasticPool,SqlDatabaseOperations.DefinitionStages.WithRestorePointDatabaseAfterElasticPool,SqlDatabaseOperations.DefinitionStages.WithSampleDatabaseAfterElasticPool,SqlDatabaseOperations.DefinitionStages.WithSourceDatabaseId,SqlDatabaseOperations.DefinitionStages.WithCreateAfterElasticPoolOptions
 - uid: com.microsoft.azure.management.storage.StorageAccount
@@ -117,6 +117,6 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>

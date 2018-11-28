@@ -63,7 +63,7 @@ references:
   nameWithType: ContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.ContextInitializer
   type: Interface
-  summary: <p>Represents an object that implements supporting logic for TelemetryContext. <xref uid="com.microsoft.applicationinsights.telemetry.TelemetryContext" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref></p>
+  summary: "<p>Represents an object that implements supporting logic for TelemetryContext. <xref uid=\"com.microsoft.applicationinsights.telemetry.TelemetryContext\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref></p>"
   syntax:
     content: public interface ContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.ContextInitializer.initialize(TelemetryContext)
@@ -73,7 +73,7 @@ references:
   nameWithType: ContextInitializer.initialize(TelemetryContext context)
   fullName: com.microsoft.applicationinsights.extensibility.ContextInitializer.initialize(TelemetryContext context)
   type: Method
-  summary: <p>Initializes the given TelemetryContext. </p>
+  summary: "<p>Initializes the given TelemetryContext. </p>"
   syntax:
     content: public void initialize(TelemetryContext context)
     parameters:
@@ -87,6 +87,6 @@ references:
   nameWithType: TelemetryContext
   fullName: com.microsoft.applicationinsights.telemetry.TelemetryContext
   type: Class
-  summary: <p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>
+  summary: "<p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>"
   syntax:
     content: public class TelemetryContext

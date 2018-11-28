@@ -95,10 +95,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -111,10 +108,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -131,10 +125,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -147,10 +138,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithExtension.defineNewExtension(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithExtension.defineNewExtension(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public VirtualMachineScaleSetExtension.DefinitionStages.Blank<WithCreate> defineNewExtension(String name)
     parameters:
@@ -191,10 +179,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withAutoUpdate()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withAutoUpdate()
   type: Method
-  summary: >-
-    <p>Enables automatic updates.</p>
-
-    <p></p>
+  summary: "<p>Enables automatic updates.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateManaged withAutoUpdate()
     return:
@@ -207,10 +192,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   type: Method
-  summary: >-
-    <p>Specifies the availability zone for the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the availability zone for the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withAvailabilityZone(AvailabilityZoneId zoneId)
     parameters:
@@ -227,10 +209,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCapacity.withCapacity(int capacity)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCapacity.withCapacity(int capacity)
   type: Method
-  summary: >-
-    <p>Specifies the maximum number of virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum number of virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCapacity(int capacity)
     parameters:
@@ -247,10 +226,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix.withComputerNamePrefix(String namePrefix)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithComputerNamePrefix.withComputerNamePrefix(String namePrefix)
   type: Method
-  summary: >-
-    <p>Specifies the name prefix to use for auto-generating the names for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name prefix to use for auto-generating the names for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withComputerNamePrefix(String namePrefix)
     parameters:
@@ -267,10 +243,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithCustomData.withCustomData(String base64EncodedCustomData)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithCustomData.withCustomData(String base64EncodedCustomData)
   type: Method
-  summary: >-
-    <p>Specifies the custom data for the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the custom data for the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withCustomData(String base64EncodedCustomData)
     parameters:
@@ -287,10 +260,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDiskOptionals.withDataDiskDefaultCachingType(CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDiskOptionals.withDataDiskDefaultCachingType(CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the default caching type for the managed data disks.</p>
-
-    <p></p>
+  summary: "<p>Specifies the default caching type for the managed data disks.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withDataDiskDefaultCachingType(CachingTypes cachingType)
     parameters:
@@ -307,10 +277,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDiskOptionals.withDataDiskDefaultStorageAccountType(StorageAccountTypes storageAccountType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDiskOptionals.withDataDiskDefaultStorageAccountType(StorageAccountTypes storageAccountType)
   type: Method
-  summary: >-
-    <p>Specifies the default caching type for the managed data disks.</p>
-
-    <p></p>
+  summary: "<p>Specifies the default caching type for the managed data disks.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withDataDiskDefaultStorageAccountType(StorageAccountTypes storageAccountType)
     parameters:
@@ -327,10 +294,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>Specifies an existing storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies an existing storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -347,10 +311,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity()
     return:
@@ -363,10 +324,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrCreate withManagedServiceIdentity(int tokenPort)
     parameters:
@@ -383,10 +341,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB)
   type: Method
-  summary: >-
-    <p>Specifies that a managed disk needs to be created implicitly with the given size.</p>
-
-    <p></p>
+  summary: "<p>Specifies that a managed disk needs to be created implicitly with the given size.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withNewDataDisk(int sizeInGB)
     parameters:
@@ -403,10 +358,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType)
     parameters:
@@ -429,10 +381,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType, StorageAccountTypes storageAccountType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType, StorageAccountTypes storageAccountType)
   type: Method
-  summary: >-
-    <p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType, StorageAccountTypes storageAccountType)
     parameters:
@@ -458,10 +407,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDiskFromImage(int imageLun)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDiskFromImage(int imageLun)
   type: Method
-  summary: >-
-    <p>Specifies the data disk to be created from the data disk image in the virtual machine image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the data disk to be created from the data disk image in the virtual machine image.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withNewDataDiskFromImage(int imageLun)
     parameters:
@@ -478,10 +424,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDiskFromImage(int imageLun, int newSizeInGB, CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDiskFromImage(int imageLun, int newSizeInGB, CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the data disk to be created from the data disk image in the virtual machine image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the data disk to be created from the data disk image in the virtual machine image.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withNewDataDiskFromImage(int imageLun, int newSizeInGB, CachingTypes cachingType)
     parameters:
@@ -504,10 +447,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDiskFromImage(int imageLun, int newSizeInGB, CachingTypes cachingType, StorageAccountTypes storageAccountType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDataDisk.withNewDataDiskFromImage(int imageLun, int newSizeInGB, CachingTypes cachingType, StorageAccountTypes storageAccountType)
   type: Method
-  summary: >-
-    <p>Specifies the data disk to be created from the data disk image in the virtual machine image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the data disk to be created from the data disk image in the virtual machine image.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withNewDataDiskFromImage(int imageLun, int newSizeInGB, CachingTypes cachingType, StorageAccountTypes storageAccountType)
     parameters:
@@ -533,10 +473,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(String name)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(String name)
     parameters:
@@ -553,10 +490,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> creatable)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account for the OS and data disk VHDs of the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewStorageAccount(Creatable<StorageAccount> creatable)
     parameters:
@@ -573,10 +507,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskCaching(CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the caching type for the operating system disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the caching type for the operating system disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskCaching(CachingTypes cachingType)
     parameters:
@@ -593,10 +524,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOSDiskSettings.withOSDiskName(String name)
   type: Method
-  summary: >-
-    <p>Specifies the name for the OS disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name for the OS disk.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOSDiskName(String name)
     parameters:
@@ -613,10 +541,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithManagedDiskOptionals.withOSDiskStorageAccountType(StorageAccountTypes accountType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithManagedDiskOptionals.withOSDiskStorageAccountType(StorageAccountTypes accountType)
   type: Method
-  summary: >-
-    <p>Specifies the storage account type for managed OS disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage account type for managed OS disk.</p>\r\n<p></p>"
   syntax:
     content: public WithManagedCreate withOSDiskStorageAccountType(StorageAccountTypes accountType)
     parameters:
@@ -633,10 +558,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutAutoUpdate()
   type: Method
-  summary: >-
-    <p>Disables automatic updates.</p>
-
-    <p></p>
+  summary: "<p>Disables automatic updates.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateManaged withoutAutoUpdate()
     return:
@@ -649,10 +571,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withoutOverProvisioning()
   type: Method
-  summary: >-
-    <p>Disables over-provisioning of virtual machines.</p>
-
-    <p></p>
+  summary: "<p>Disables over-provisioning of virtual machines.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withoutOverProvisioning()
     return:
@@ -665,10 +584,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withoutVMAgent()
   type: Method
-  summary: >-
-    <p>Disables the VM agent.</p>
-
-    <p></p>
+  summary: "<p>Disables the VM agent.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateManaged withoutVMAgent()
     return:
@@ -681,10 +597,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean enabled)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvision(boolean enabled)
   type: Method
-  summary: >-
-    <p>Enables or disables over-provisioning of virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Enables or disables over-provisioning of virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOverProvision(boolean enabled)
     parameters:
@@ -701,10 +614,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvisioning()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithOverProvision.withOverProvisioning()
   type: Method
-  summary: >-
-    <p>Enables over-provisioning of virtual machines.</p>
-
-    <p></p>
+  summary: "<p>Enables over-provisioning of virtual machines.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withOverProvisioning()
     return:
@@ -717,7 +627,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -737,7 +647,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -754,10 +664,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withTimeZone(String timeZone)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withTimeZone(String timeZone)
   type: Method
-  summary: >-
-    <p>Specifies the time zone for the virtual machines to use.</p>
-
-    <p></p>
+  summary: "<p>Specifies the time zone for the virtual machines to use.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateManaged withTimeZone(String timeZone)
     parameters:
@@ -774,10 +681,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy.withUpgradeMode(UpgradeMode upgradeMode)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithUpgradePolicy.withUpgradeMode(UpgradeMode upgradeMode)
   type: Method
-  summary: >-
-    <p>Specifies the virtual machine scale set upgrade policy mode.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual machine scale set upgrade policy mode.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withUpgradeMode(UpgradeMode upgradeMode)
     parameters:
@@ -794,10 +698,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withVMAgent()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withVMAgent()
   type: Method
-  summary: >-
-    <p>Enables the VM agent.</p>
-
-    <p></p>
+  summary: "<p>Enables the VM agent.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateManaged withVMAgent()
     return:
@@ -810,12 +711,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withWinRM(WinRMListener listener)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged.withWinRM(WinRMListener listener)
   type: Method
-  summary: >-
-    <p>Specifies the WinRM listener. </p>
-
-    <p>Each call to this method adds the given listener to the list of VM's WinRM listeners.</p>
-
-    <p></p>
+  summary: "<p>Specifies the WinRM listener. </p>\r\n<p>Each call to this method adds the given listener to the list of VM's WinRM listeners.</p>\r\n<p></p>"
   syntax:
     content: public WithWindowsCreateManaged withWinRM(WinRMListener listener)
     parameters:
@@ -832,7 +728,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManaged
   type: Interface
-  summary: <p>The stage of a Windows virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of a Windows virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithWindowsCreateManaged extends VirtualMachineScaleSet.DefinitionStages.WithManagedCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionManagedOrUnmanaged
@@ -842,7 +738,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionManagedOrUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionManagedOrUnmanaged
   type: Interface
-  summary: <p>The entirety of the virtual machine scale set definition. </p>
+  summary: "<p>The entirety of the virtual machine scale set definition. </p>"
   syntax:
     content: public interface DefinitionManagedOrUnmanaged extends VirtualMachineScaleSet.DefinitionShared,VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged,VirtualMachineScaleSet.DefinitionStages.WithLinuxRootPasswordOrPublicKeyManagedOrUnmanaged,VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged,VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminPasswordManagedOrUnmanaged,VirtualMachineScaleSet.DefinitionStages.WithLinuxCreateManagedOrUnmanaged,VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateManagedOrUnmanaged,VirtualMachineScaleSet.DefinitionStages.WithManagedCreate,VirtualMachineScaleSet.DefinitionStages.WithUnmanagedCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged
@@ -852,6 +748,6 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsCreateUnmanaged
   type: Interface
-  summary: <p>The stage of a Windows virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of a Windows virtual machine scale set definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithWindowsCreateUnmanaged

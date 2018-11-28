@@ -99,10 +99,7 @@ references:
   nameWithType: ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithAllOptions.withCacheImage(Boolean cacheImage)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithAllOptions.withCacheImage(Boolean cacheImage)
   type: Method
-  summary: >-
-    <p>Whether to retain the submitted image for future use; defaults to false if omitted.</p>
-
-    <p></p>
+  summary: "<p>Whether to retain the submitted image for future use; defaults to false if omitted.</p>\r\n<p></p>"
   syntax:
     content: public ImageModerationsOCRUrlInputDefinitionStages.WithExecute withCacheImage(Boolean cacheImage)
     parameters:
@@ -118,10 +115,7 @@ references:
   nameWithType: ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithAllOptions.withEnhanced(Boolean enhanced)
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithAllOptions.withEnhanced(Boolean enhanced)
   type: Method
-  summary: >-
-    <p>When set to True, the image goes through additional processing to come with additional candidates. image/tiff is not supported when enhanced is set to true Note: This impacts the response time.</p>
-
-    <p></p>
+  summary: "<p>When set to True, the image goes through additional processing to come with additional candidates. image/tiff is not supported when enhanced is set to true Note: This impacts the response time.</p>\r\n<p></p>"
   syntax:
     content: public ImageModerationsOCRUrlInputDefinitionStages.WithExecute withEnhanced(Boolean enhanced)
     parameters:
@@ -137,7 +131,7 @@ references:
   nameWithType: ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinition
@@ -147,7 +141,7 @@ references:
   nameWithType: ImageModerations.ImageModerationsOCRUrlInputDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinition
   type: Interface
-  summary: <p>The entirety of oCRUrlInput definition. </p>
+  summary: "<p>The entirety of oCRUrlInput definition. </p>"
   syntax:
     content: public interface ImageModerationsOCRUrlInputDefinition extends ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithLanguage,ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithContentType,ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithImageUrl,ImageModerations.ImageModerationsOCRUrlInputDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.OCR
@@ -157,6 +151,6 @@ references:
   nameWithType: OCR
   fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.OCR
   type: Class
-  summary: <p>Contains the text found in image for the language specified. </p>
+  summary: "<p>Contains the text found in image for the language specified. </p>"
   syntax:
     content: public class OCR

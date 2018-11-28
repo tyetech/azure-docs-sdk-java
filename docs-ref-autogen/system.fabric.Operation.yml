@@ -172,7 +172,7 @@ references:
   nameWithType: OperationType
   fullName: system.fabric.OperationType
   type: Enum
-  summary: <p>Specifies the type of operation that is received via the copy or replication stream. </p>
+  summary: "<p>Specifies the type of operation that is received via the copy or replication stream. </p>"
   syntax:
     content: public enum OperationType
 - uid: system.fabric.Operation.getSequenceNumber()
@@ -182,12 +182,7 @@ references:
   nameWithType: Operation.getSequenceNumber()
   fullName: system.fabric.Operation.getSequenceNumber()
   type: Method
-  summary: >-
-    <p>Gets the sequence number of this operation.</p>
-
-    <p>
-
-      <b>Remarks:</b>The sequence number is provided as a part of the <xref uid="system.fabric.Operation.getSequenceNumber()" data-throw-if-not-resolved="false">system.fabric.Operation#getSequenceNumber()</xref> For operations received from the replication stream (<xref uid="system.fabric.StateReplicator.getReplicationStream()" data-throw-if-not-resolved="false">system.fabric.StateReplicator#getReplicationStream()</xref>) the sequence number is the same that the Primary replica that are receives from <xref uid="system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateReplicator#replicateAsync(OperationData, SequenceNumber, system.fabric.CancellationToken)</xref> method. </p>
+  summary: "<p>Gets the sequence number of this operation.</p>\r\n<p>\r\n  <b>Remarks:</b>The sequence number is provided as a part of the <xref uid=\"system.fabric.Operation.getSequenceNumber()\" data-throw-if-not-resolved=\"false\">system.fabric.Operation#getSequenceNumber()</xref> For operations received from the replication stream (<xref uid=\"system.fabric.StateReplicator.getReplicationStream()\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#getReplicationStream()</xref>) the sequence number is the same that the Primary replica that are receives from <xref uid=\"system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#replicateAsync(OperationData, SequenceNumber, system.fabric.CancellationToken)</xref> method. </p>"
   syntax: *o1
 - uid: system.fabric.StateReplicator.getReplicationStream()
   parent: system.fabric.StateReplicator
@@ -196,7 +191,7 @@ references:
   nameWithType: StateReplicator.getReplicationStream()
   fullName: system.fabric.StateReplicator.getReplicationStream()
   type: Method
-  summary: <p>Gets replication stream. </p>
+  summary: "<p>Gets replication stream. </p>"
   syntax:
     content: public OperationStream getReplicationStream()
     return:
@@ -209,7 +204,7 @@ references:
   nameWithType: StateReplicator.replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
   fullName: system.fabric.StateReplicator.replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Replicates state changes from Primary replica to the Secondary replicas and receives a quorum acknowledgement that those state changes have been applied. </p>
+  summary: "<p>Replicates state changes from Primary replica to the Secondary replicas and receives a quorum acknowledgement that those state changes have been applied. </p>"
   syntax:
     content: public CompletableFuture<SequenceNumber> replicateAsync(OperationData operationData, SequenceNumber sequenceNumber, CancellationToken cancellationToken)
     parameters:
@@ -241,12 +236,7 @@ references:
   nameWithType: FabricReplicator
   fullName: system.fabric.FabricReplicator
   type: Class
-  summary: >-
-    <p>Replicates state for high availability and reliability. </p>
-
-    <p>
-
-      <b>Remarks:</b>Provides the default implementation of the <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref>, <xref uid="system.fabric.Replicator" data-throw-if-not-resolved="false">system.fabric.Replicator</xref>, and <xref uid="system.fabric.PrimaryReplicator" data-throw-if-not-resolved="false">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid="system.fabric.StateProvider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> interface. An instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid="system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)" data-throw-if-not-resolved="false">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid="system.fabric.StateReplicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> for use. </p>
+  summary: "<p>Replicates state for high availability and reliability. </p>\r\n<p>\r\n  <b>Remarks:</b>Provides the default implementation of the <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref>, <xref uid=\"system.fabric.Replicator\" data-throw-if-not-resolved=\"false\">system.fabric.Replicator</xref>, and <xref uid=\"system.fabric.PrimaryReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.PrimaryReplicator</xref> interfaces, which user services can use, along with their implementation of the <xref uid=\"system.fabric.StateProvider\" data-throw-if-not-resolved=\"false\">system.fabric.StateProvider</xref> interface. An instance of the <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricReplicator</xref> class is obtained via the <xref uid=\"system.fabric.StatefulServicePartition.createReplicator(StateProvider,ReplicatorSettings)\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServicePartition#createReplicator( system.fabric.StateProvider, system.fabric.ReplicatorSettings)</xref> method, which can be cast to <xref uid=\"system.fabric.StateReplicator\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator</xref> for use. </p>"
   syntax:
     content: public class FabricReplicator implements Replicator
 - uid: system.fabric.ReplicatorSettings.isRequireServiceAck()
@@ -256,12 +246,7 @@ references:
   nameWithType: ReplicatorSettings.isRequireServiceAck()
   fullName: system.fabric.ReplicatorSettings.isRequireServiceAck()
   type: Method
-  summary: >-
-    <p>Prevents the optimistic acknowledgment of operations in non-persistent services by requiring that the service calls <xref uid="system.fabric.Operation.acknowledge()" data-throw-if-not-resolved="false">system.fabric.Operation#acknowledge()</xref> before it pumps the next operation.</p>
-
-    <p>
-
-      <b>Remarks:</b>Non-persistent services which require explicit acknowledgment can set this property to True in order to prevent optimistic acknowledgment of the operations by the Replicator. This setting has no effect for persistent services. The default value is false. </p>
+  summary: "<p>Prevents the optimistic acknowledgment of operations in non-persistent services by requiring that the service calls <xref uid=\"system.fabric.Operation.acknowledge()\" data-throw-if-not-resolved=\"false\">system.fabric.Operation#acknowledge()</xref> before it pumps the next operation.</p>\r\n<p>\r\n  <b>Remarks:</b>Non-persistent services which require explicit acknowledgment can set this property to True in order to prevent optimistic acknowledgment of the operations by the Replicator. This setting has no effect for persistent services. The default value is false. </p>"
   syntax:
     content: public boolean isRequireServiceAck()
     return:

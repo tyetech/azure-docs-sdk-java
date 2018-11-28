@@ -1274,7 +1274,7 @@ references:
   nameWithType: ICloseable.close()
   fullName: com.microsoft.azure.servicebus.ICloseable.close()
   type: Method
-  summary: <p>Synchronously closes and disposes any resources associated with this object. Calling this method is equivalent of calling . This method blocks until this object is closed. </p>
+  summary: "<p>Synchronously closes and disposes any resources associated with this object. Calling this method is equivalent of calling . This method blocks until this object is closed. </p>"
   syntax:
     content: public void close()
 - uid: com.microsoft.azure.servicebus.primitives.ClientEntity.closeAsync()
@@ -1295,7 +1295,7 @@ references:
   nameWithType: ICloseable.closeAsync()
   fullName: com.microsoft.azure.servicebus.ICloseable.closeAsync()
   type: Method
-  summary: <p>Closes and disposes any resources associated with this object. An object cannot be used after it is closed. This is an asynchronous method that returns a CompletableFuture immediately. This object is completely closed when the returned CompletableFuture is completed. </p>
+  summary: "<p>Closes and disposes any resources associated with this object. An object cannot be used after it is closed. This is an asynchronous method that returns a CompletableFuture immediately. This object is completely closed when the returned CompletableFuture is completed. </p>"
   syntax:
     content: public CompletableFuture<Void> closeAsync()
     return:
@@ -1376,7 +1376,7 @@ references:
   nameWithType: ISubscriptionClient
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient
   type: Interface
-  summary: <p>SubscriptionClient can be used for all basic interactions with a Service Bus Subscription. </p>
+  summary: "<p>SubscriptionClient can be used for all basic interactions with a Service Bus Subscription. </p>"
   syntax:
     content: public interface ISubscriptionClient extends IMessageEntityClient
 - uid: com.microsoft.azure.servicebus.ReceiveMode
@@ -1386,10 +1386,7 @@ references:
   nameWithType: ReceiveMode
   fullName: com.microsoft.azure.servicebus.ReceiveMode
   type: Enum
-  summary: >-
-    <p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>
-
-    <p></p>
+  summary: "<p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>\r\n<p></p>"
   syntax:
     content: public enum ReceiveMode
 - uid: com.microsoft.azure.servicebus.primitives.MessagingFactory
@@ -1399,7 +1396,7 @@ references:
   nameWithType: MessagingFactory
   fullName: com.microsoft.azure.servicebus.primitives.MessagingFactory
   type: Class
-  summary: <p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>
+  summary: "<p>Abstracts all AMQP related details and encapsulates an AMQP connection and manages its life cycle. Each instance of this class represent one AMQP connection to the namespace. If an application creates multiple senders, receivers or clients using the same MessagingFacotry instance, all those senders, receivers or clients will share the same connection to the namespace. </p>"
   syntax:
     content: public class MessagingFactory extends ClientEntity
 - uid: com.microsoft.azure.servicebus.primitives.MiscRequestResponseOperationHandler
@@ -1418,26 +1415,7 @@ references:
   nameWithType: ConnectionStringBuilder
   fullName: com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder
   type: Class
-  summary: >-
-    <p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>
-
-    <p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(
-
-                                                 "ServiceBusNamespaceName", 
-
-                                                 "ServiceBusEntityName", // QueueName or TopicName or SubscriptionPath
-
-                                                 "SharedAccessSignatureKeyName", 
-
-                                                 "SharedAccessSignatureKey");
-
-         
-
-        String connectionString = connectionStringBuilder.toString();
-
-        </code></pre></p>
-
-    <p>A connection string is basically a string consisted of key-value pair separated by ";". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>
+  summary: "<p>This class can be used to construct a connection string which can establish communication with ServiceBus entities. It can also be used to perform basic validation on an existing connection string. </p>\r\n<p>Sample Code: <pre><code>ConnectionStringBuilder connectionStringBuilder = new ConnectionStringBuilder(\r\n                                             \"ServiceBusNamespaceName\", \r\n                                             \"ServiceBusEntityName\", // QueueName or TopicName or SubscriptionPath\r\n                                             \"SharedAccessSignatureKeyName\", \r\n                                             \"SharedAccessSignatureKey\");\r\n     \r\n    String connectionString = connectionStringBuilder.toString();\r\n    </code></pre></p>\r\n<p>A connection string is basically a string consisted of key-value pair separated by \";\". Basic format is {{ &lt;}key{&gt;}={ &lt;}value{&gt;}[;{ &lt;}key{&gt;}={ &lt;}value{&gt;}]} where supported key name are as follow: <ul><li><p>Endpoint - URL that points to the servicebus namespace </p></li><li><p>EntityPath - Path to the service bus entity (queue/topic/subscription/). For queues and topics, it is just the entity name. For subscriptions, path is &lt;topicName&gt;/subscriptions/&lt;subscriptionName&gt; </p></li><li><p>SharedAccessKeyName - Key name to the corresponding shared access policy rule for the namespace, or entity. </p></li><li><p>SharedAccessKey - Key value for the corresponding shared access policy rule of the namespace or entity. </p></li><li><p>SharedAccessSignatureToken - Instead of a key name and key value, clients can provide an already generated SAS Token. </p></li><li><p>OperationTimeout - Default timeout to be used for all senders, receiver and clients created from this connection string. </p></li><li><p>RetryPolicy - Name of the retry policy. </p></li></ul></p>"
   syntax:
     content: public class ConnectionStringBuilder
 - uid: com.microsoft.azure.servicebus.primitives.ServiceBusException
@@ -1447,7 +1425,7 @@ references:
   nameWithType: ServiceBusException
   fullName: com.microsoft.azure.servicebus.primitives.ServiceBusException
   type: Class
-  summary: <p>This is the base exception that service bus will generate for all error cases. </p>
+  summary: "<p>This is the base exception that service bus will generate for all error cases. </p>"
   syntax:
     content: public class ServiceBusException
 - uid: com.microsoft.azure.servicebus.ClientSettings
@@ -1457,7 +1435,7 @@ references:
   nameWithType: ClientSettings
   fullName: com.microsoft.azure.servicebus.ClientSettings
   type: Class
-  summary: <p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>
+  summary: "<p>Class encapsulating common client level settings like TokenProvider, RetryPolicy, OperationTimeout. </p>"
   syntax:
     content: public class ClientSettings
 - uid: com.microsoft.azure.servicebus.ISubscriptionClient.getReceiveMode()
@@ -1467,10 +1445,7 @@ references:
   nameWithType: ISubscriptionClient.getReceiveMode()
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.getReceiveMode()
   type: Method
-  summary: >-
-    <p>Gets the <xref uid="com.microsoft.azure.servicebus.ReceiveMode" data-throw-if-not-resolved="false">ReceiveMode</xref> of the current receiver</p>
-
-    <p></p>
+  summary: "<p>Gets the <xref uid=\"com.microsoft.azure.servicebus.ReceiveMode\" data-throw-if-not-resolved=\"false\">ReceiveMode</xref> of the current receiver</p>\r\n<p></p>"
   syntax:
     content: public ReceiveMode getReceiveMode()
     return:
@@ -1483,10 +1458,7 @@ references:
   nameWithType: IMessageEntityClient.getEntityPath()
   fullName: com.microsoft.azure.servicebus.IMessageEntityClient.getEntityPath()
   type: Method
-  summary: >-
-    <p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>
-
-    <p></p>
+  summary: "<p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>\r\n<p></p>"
   syntax:
     content: public String getEntityPath()
     return:
@@ -1499,10 +1471,7 @@ references:
   nameWithType: ISubscriptionClient.addRule(RuleDescription ruleDescription)
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.addRule(RuleDescription ruleDescription)
   type: Method
-  summary: >-
-    <p>Adds a rule to the current subscription to filter the messages reaching from topic to the subscription.</p>
-
-    <p></p>
+  summary: "<p>Adds a rule to the current subscription to filter the messages reaching from topic to the subscription.</p>\r\n<p></p>"
   syntax:
     content: public void addRule(RuleDescription ruleDescription)
     parameters:
@@ -1516,10 +1485,7 @@ references:
   nameWithType: RuleDescription
   fullName: com.microsoft.azure.servicebus.rules.RuleDescription
   type: Class
-  summary: >-
-    <p>Representation of a rule defined on service bus topics.</p>
-
-    <p></p>
+  summary: "<p>Representation of a rule defined on service bus topics.</p>\r\n<p></p>"
   syntax:
     content: public class RuleDescription
 - uid: com.microsoft.azure.servicebus.ISubscriptionClient.addRuleAsync(RuleDescription)
@@ -1529,10 +1495,7 @@ references:
   nameWithType: ISubscriptionClient.addRuleAsync(RuleDescription ruleDescription)
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.addRuleAsync(RuleDescription ruleDescription)
   type: Method
-  summary: >-
-    <p>Asynchronously adds a rule to the current subscription to filter the messages reaching from topic to the subscription.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously adds a rule to the current subscription to filter the messages reaching from topic to the subscription.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Void> addRuleAsync(RuleDescription ruleDescription)
     parameters:
@@ -1549,10 +1512,7 @@ references:
   nameWithType: ISubscriptionClient.addRule(String ruleName, Filter filter)
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.addRule(String ruleName, Filter filter)
   type: Method
-  summary: >-
-    <p>Adds a rule with specified name and <xref uid="" data-throw-if-not-resolved="false">Filter</xref> to the current subscription to filter the messages reaching from topic to the subscription.</p>
-
-    <p></p>
+  summary: "<p>Adds a rule with specified name and <xref uid=\"\" data-throw-if-not-resolved=\"false\">Filter</xref> to the current subscription to filter the messages reaching from topic to the subscription.</p>\r\n<p></p>"
   syntax:
     content: public void addRule(String ruleName, Filter filter)
     parameters:
@@ -1569,10 +1529,7 @@ references:
   nameWithType: Filter
   fullName: com.microsoft.azure.servicebus.rules.Filter
   type: Class
-  summary: >-
-    <p>Represents a filter expression that is evaluated against a message on a topic. This client library provides support for creating only limited types of filters. This is an empty interface to serve as root interface for all supported filter types.</p>
-
-    <p></p>
+  summary: "<p>Represents a filter expression that is evaluated against a message on a topic. This client library provides support for creating only limited types of filters. This is an empty interface to serve as root interface for all supported filter types.</p>\r\n<p></p>"
   syntax:
     content: public class Filter
 - uid: com.microsoft.azure.servicebus.ISubscriptionClient.addRuleAsync(String,Filter)
@@ -1582,10 +1539,7 @@ references:
   nameWithType: ISubscriptionClient.addRuleAsync(String ruleName, Filter filter)
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.addRuleAsync(String ruleName, Filter filter)
   type: Method
-  summary: >-
-    <p>Asynchronously adds a rule with specified name and <xref uid="" data-throw-if-not-resolved="false">Filter</xref> to the current subscription to filter the messages reaching from topic to the subscription.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously adds a rule with specified name and <xref uid=\"\" data-throw-if-not-resolved=\"false\">Filter</xref> to the current subscription to filter the messages reaching from topic to the subscription.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Void> addRuleAsync(String ruleName, Filter filter)
     parameters:
@@ -1605,10 +1559,7 @@ references:
   nameWithType: ISubscriptionClient.removeRule(String ruleName)
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.removeRule(String ruleName)
   type: Method
-  summary: >-
-    <p>Removes the rule on the subscription identified by ruleName</p>
-
-    <p></p>
+  summary: "<p>Removes the rule on the subscription identified by ruleName</p>\r\n<p></p>"
   syntax:
     content: public void removeRule(String ruleName)
     parameters:
@@ -1622,10 +1573,7 @@ references:
   nameWithType: ISubscriptionClient.removeRuleAsync(String ruleName)
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.removeRuleAsync(String ruleName)
   type: Method
-  summary: >-
-    <p>Asynchronously removes the rule on the subscription identified by ruleName</p>
-
-    <p></p>
+  summary: "<p>Asynchronously removes the rule on the subscription identified by ruleName</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Void> removeRuleAsync(String ruleName)
     parameters:
@@ -1642,10 +1590,7 @@ references:
   nameWithType: ISubscriptionClient.getRules()
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.getRules()
   type: Method
-  summary: >-
-    <p>Get all rules associated with the subscription.</p>
-
-    <p></p>
+  summary: "<p>Get all rules associated with the subscription.</p>\r\n<p></p>"
   syntax:
     content: public Collection<RuleDescription> getRules()
     return:
@@ -1658,10 +1603,7 @@ references:
   nameWithType: ISubscriptionClient.getRulesAsync()
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.getRulesAsync()
   type: Method
-  summary: >-
-    <p>Get all rules associated with the subscription.</p>
-
-    <p></p>
+  summary: "<p>Get all rules associated with the subscription.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Collection<RuleDescription>> getRulesAsync()
     return:
@@ -1674,7 +1616,7 @@ references:
   nameWithType: IMessageHandler
   fullName: com.microsoft.azure.servicebus.IMessageHandler
   type: Interface
-  summary: <p>Defines the contract for registering the callback <xref uid="" data-throw-if-not-resolved="false">QueueClient#registerMessageHandler(IMessageHandler)</xref> and <xref uid="" data-throw-if-not-resolved="false">SubscriptionClient#registerMessageHandler(IMessageHandler)</xref> for <xref uid="com.microsoft.azure.servicebus.QueueClient" data-throw-if-not-resolved="false">QueueClient</xref> and <xref uid="com.microsoft.azure.servicebus.SubscriptionClient" data-throw-if-not-resolved="false">SubscriptionClient</xref>. </p>
+  summary: "<p>Defines the contract for registering the callback <xref uid=\"\" data-throw-if-not-resolved=\"false\">QueueClient#registerMessageHandler(IMessageHandler)</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">SubscriptionClient#registerMessageHandler(IMessageHandler)</xref> for <xref uid=\"com.microsoft.azure.servicebus.QueueClient\" data-throw-if-not-resolved=\"false\">QueueClient</xref> and <xref uid=\"com.microsoft.azure.servicebus.SubscriptionClient\" data-throw-if-not-resolved=\"false\">SubscriptionClient</xref>. </p>"
   syntax:
     content: public interface IMessageHandler
 - uid: com.microsoft.azure.servicebus.MessageHandlerOptions
@@ -1684,7 +1626,7 @@ references:
   nameWithType: MessageHandlerOptions
   fullName: com.microsoft.azure.servicebus.MessageHandlerOptions
   type: Class
-  summary: <p>The OnMessage handler processing options. </p>
+  summary: "<p>The OnMessage handler processing options. </p>"
   syntax:
     content: public class MessageHandlerOptions
 - uid: com.microsoft.azure.servicebus.ISessionHandler
@@ -1694,7 +1636,7 @@ references:
   nameWithType: ISessionHandler
   fullName: com.microsoft.azure.servicebus.ISessionHandler
   type: Interface
-  summary: <p>Defines the contract for registering the session message processing callback <xref uid="" data-throw-if-not-resolved="false">QueueClient#registerSessionHandler(ISessionHandler)</xref> or <xref uid="" data-throw-if-not-resolved="false">SubscriptionClient#registerSessionHandler(ISessionHandler)</xref> for <xref uid="com.microsoft.azure.servicebus.QueueClient" data-throw-if-not-resolved="false">QueueClient</xref> and <xref uid="com.microsoft.azure.servicebus.SubscriptionClient" data-throw-if-not-resolved="false">SubscriptionClient</xref>. </p>
+  summary: "<p>Defines the contract for registering the session message processing callback <xref uid=\"\" data-throw-if-not-resolved=\"false\">QueueClient#registerSessionHandler(ISessionHandler)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">SubscriptionClient#registerSessionHandler(ISessionHandler)</xref> for <xref uid=\"com.microsoft.azure.servicebus.QueueClient\" data-throw-if-not-resolved=\"false\">QueueClient</xref> and <xref uid=\"com.microsoft.azure.servicebus.SubscriptionClient\" data-throw-if-not-resolved=\"false\">SubscriptionClient</xref>. </p>"
   syntax:
     content: public interface ISessionHandler
 - uid: com.microsoft.azure.servicebus.SessionHandlerOptions
@@ -1704,7 +1646,7 @@ references:
   nameWithType: SessionHandlerOptions
   fullName: com.microsoft.azure.servicebus.SessionHandlerOptions
   type: Class
-  summary: <p>The OnSession handler processing options. </p>
+  summary: "<p>The OnSession handler processing options. </p>"
   syntax:
     content: public class SessionHandlerOptions
 - uid: com.microsoft.azure.servicebus.ISubscriptionClient.getTopicName()
@@ -1714,10 +1656,7 @@ references:
   nameWithType: ISubscriptionClient.getTopicName()
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.getTopicName()
   type: Method
-  summary: >-
-    <p>Gets the name of the topic, for this subscription.</p>
-
-    <p></p>
+  summary: "<p>Gets the name of the topic, for this subscription.</p>\r\n<p></p>"
   syntax:
     content: public String getTopicName()
     return:
@@ -1730,7 +1669,7 @@ references:
   nameWithType: ISubscriptionClient.getSubscriptionName()
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient.getSubscriptionName()
   type: Method
-  summary: <p>Gets the subscription name. </p>
+  summary: "<p>Gets the subscription name. </p>"
   syntax:
     content: public String getSubscriptionName()
     return:
@@ -1743,13 +1682,6 @@ references:
   nameWithType: IMessageSession
   fullName: com.microsoft.azure.servicebus.IMessageSession
   type: Interface
-  summary: >-
-    <p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>
-
-    <p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>
-
-    <p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid="" data-throw-if-not-resolved="false">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>
-
-    <p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>
+  summary: "<p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>\r\n<p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>\r\n<p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>\r\n<p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>"
   syntax:
     content: public interface IMessageSession extends IMessageReceiver

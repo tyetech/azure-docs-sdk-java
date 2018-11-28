@@ -38,10 +38,7 @@ references:
   nameWithType: Executable<T>.execute()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public T execute()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Executable<T>.executeAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> executeAsync()
     return:
@@ -70,10 +64,7 @@ references:
   nameWithType: Executable<T>.executeAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>.executeAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> executeAsync(final ServiceCallback<T> callback)
     parameters:
@@ -102,10 +93,7 @@ references:
   nameWithType: NextHop.DefinitionStages.WithDestinationIP.withDestinationIPAddress(String destinationIPAddress)
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithDestinationIP.withDestinationIPAddress(String destinationIPAddress)
   type: Method
-  summary: >-
-    <p>Set the destinationIPAddress value.</p>
-
-    <p></p>
+  summary: "<p>Set the destinationIPAddress value.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withDestinationIPAddress(String destinationIPAddress)
     parameters:
@@ -122,10 +110,7 @@ references:
   nameWithType: NextHop.DefinitionStages.WithSourceIP.withSourceIPAddress(String sourceIPAddress)
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithSourceIP.withSourceIPAddress(String sourceIPAddress)
   type: Method
-  summary: >-
-    <p>Set the sourceIPAddress value.</p>
-
-    <p></p>
+  summary: "<p>Set the sourceIPAddress value.</p>\r\n<p></p>"
   syntax:
     content: public WithDestinationIP withSourceIPAddress(String sourceIPAddress)
     parameters:
@@ -142,10 +127,7 @@ references:
   nameWithType: NextHop.DefinitionStages.WithNetworkInterface.withTargetNetworkInterfaceId(String targetNetworkInterfaceId)
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithNetworkInterface.withTargetNetworkInterfaceId(String targetNetworkInterfaceId)
   type: Method
-  summary: >-
-    <p>Set the targetNetworkInterfaceId value.</p>
-
-    <p></p>
+  summary: "<p>Set the targetNetworkInterfaceId value.</p>\r\n<p></p>"
   syntax:
     content: public WithExecute withTargetNetworkInterfaceId(String targetNetworkInterfaceId)
     parameters:
@@ -162,10 +144,7 @@ references:
   nameWithType: NextHop.DefinitionStages.WithTargetResource.withTargetResourceId(String vmId)
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithTargetResource.withTargetResourceId(String vmId)
   type: Method
-  summary: >-
-    <p>Set the targetResourceId value.</p>
-
-    <p></p>
+  summary: "<p>Set the targetResourceId value.</p>\r\n<p></p>"
   syntax:
     content: public WithSourceIP withTargetResourceId(String vmId)
     parameters:
@@ -182,7 +161,7 @@ references:
   nameWithType: NextHop.DefinitionStages.WithTargetResource
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithTargetResource
   type: Interface
-  summary: <p>The first stage of next hop parameters definition. </p>
+  summary: "<p>The first stage of next hop parameters definition. </p>"
   syntax:
     content: public interface WithTargetResource
 - uid: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithSourceIP
@@ -192,7 +171,7 @@ references:
   nameWithType: NextHop.DefinitionStages.WithSourceIP
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithSourceIP
   type: Interface
-  summary: <p>Sets the source IP address. </p>
+  summary: "<p>Sets the source IP address. </p>"
   syntax:
     content: public interface WithSourceIP
 - uid: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithDestinationIP
@@ -202,7 +181,7 @@ references:
   nameWithType: NextHop.DefinitionStages.WithDestinationIP
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithDestinationIP
   type: Interface
-  summary: <p>Sets the destination IP address. </p>
+  summary: "<p>Sets the destination IP address. </p>"
   syntax:
     content: public interface WithDestinationIP
 - uid: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithExecute
@@ -212,6 +191,6 @@ references:
   nameWithType: NextHop.DefinitionStages.WithExecute
   fullName: com.microsoft.azure.management.network.NextHop.DefinitionStages.WithExecute
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for execution, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for execution, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithExecute

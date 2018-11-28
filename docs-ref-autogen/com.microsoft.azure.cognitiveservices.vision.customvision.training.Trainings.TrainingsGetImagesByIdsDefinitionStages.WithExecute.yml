@@ -109,10 +109,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions.withImageIds(List<String> imageIds)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions.withImageIds(List<String> imageIds)
   type: Method
-  summary: >-
-    <p>The list of image ids to retrieve. Limited to 256.</p>
-
-    <p></p>
+  summary: "<p>The list of image ids to retrieve. Limited to 256.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsGetImagesByIdsDefinitionStages.WithExecute withImageIds(List<String> imageIds)
     parameters:
@@ -128,10 +125,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions.withIterationId(UUID iterationId)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions.withIterationId(UUID iterationId)
   type: Method
-  summary: >-
-    <p>The iteration id. Defaults to workspace.</p>
-
-    <p></p>
+  summary: "<p>The iteration id. Defaults to workspace.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsGetImagesByIdsDefinitionStages.WithExecute withIterationId(UUID iterationId)
     parameters:
@@ -147,7 +141,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinition
@@ -157,7 +151,7 @@ references:
   nameWithType: Trainings.TrainingsGetImagesByIdsDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinition
   type: Interface
-  summary: <p>The entirety of getImagesByIds definition. </p>
+  summary: "<p>The entirety of getImagesByIds definition. </p>"
   syntax:
     content: public interface TrainingsGetImagesByIdsDefinition extends Trainings.TrainingsGetImagesByIdsDefinitionStages.WithProjectId,Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Image
@@ -167,6 +161,6 @@ references:
   nameWithType: Image
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Image
   type: Class
-  summary: <p>Image model to be sent as JSON. </p>
+  summary: "<p>Image model to be sent as JSON. </p>"
   syntax:
     content: public class Image

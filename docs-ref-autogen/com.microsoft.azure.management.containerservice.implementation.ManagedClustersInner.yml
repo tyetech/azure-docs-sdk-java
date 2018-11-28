@@ -3059,10 +3059,7 @@ references:
   nameWithType: InnerSupportsGet<InnerT>.getByResourceGroupAsync(String resourceGroupName, String resourceName, ServiceCallback<InnerT> serviceCallback)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsGet<InnerT>.getByResourceGroupAsync(String resourceGroupName, String resourceName, ServiceCallback<InnerT> serviceCallback)
   type: Method
-  summary: >-
-    <p>Returns the specific resource asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Returns the specific resource asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<InnerT> getByResourceGroupAsync(String resourceGroupName, String resourceName, ServiceCallback<InnerT> serviceCallback)
     parameters:
@@ -3085,12 +3082,7 @@ references:
   nameWithType: InnerSupportsGet<InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsGet<InnerT>
   type: Interface
-  summary: >-
-    <p>Provides access to listing Azure resources of a specific type in a subscription. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code)</p>
-
-    <p></p>
+  summary: "<p>Provides access to listing Azure resources of a specific type in a subscription. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code)</p>\r\n<p></p>"
   syntax:
     content: public interface InnerSupportsGet<InnerT>
     typeParameters:
@@ -3104,12 +3096,7 @@ references:
   nameWithType: InnerSupportsDelete<ResponseT>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsDelete<ResponseT>
   type: Interface
-  summary: >-
-    <p>Provides access to delete Azure resources of a specific type in a subscription. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code)</p>
-
-    <p></p>
+  summary: "<p>Provides access to delete Azure resources of a specific type in a subscription. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code)</p>\r\n<p></p>"
   syntax:
     content: public interface InnerSupportsDelete<ResponseT>
     typeParameters:
@@ -3123,12 +3110,7 @@ references:
   nameWithType: InnerSupportsListing<InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing<InnerT>
   type: Interface
-  summary: >-
-    <p>Provides access to listing Azure resources of a specific type in a subscription. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code)</p>
-
-    <p></p>
+  summary: "<p>Provides access to listing Azure resources of a specific type in a subscription. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code)</p>\r\n<p></p>"
   syntax:
     content: public interface InnerSupportsListing<InnerT>
     typeParameters:
@@ -3142,7 +3124,7 @@ references:
   nameWithType: ContainerServiceManagementClientImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the ContainerServiceManagementClientImpl class. </p>
+  summary: "<p>Initializes a new instance of the ContainerServiceManagementClientImpl class. </p>"
   syntax:
     content: public class ContainerServiceManagementClientImpl
 - uid: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
@@ -3152,7 +3134,7 @@ references:
   nameWithType: ManagedClusterInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
   type: Class
-  summary: <p>Managed cluster. </p>
+  summary: "<p>Managed cluster. </p>"
   syntax:
     content: public class ManagedClusterInner
 - uid: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing.list()
@@ -3162,10 +3144,7 @@ references:
   nameWithType: InnerSupportsListing<InnerT>.list()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing<InnerT>.list()
   type: Method
-  summary: >-
-    <p>Lists the page list of all resources of specific type available in subscription.</p>
-
-    <p></p>
+  summary: "<p>Lists the page list of all resources of specific type available in subscription.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<InnerT> list()
     return:
@@ -3178,10 +3157,7 @@ references:
   nameWithType: InnerSupportsListing<InnerT>.listAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing<InnerT>.listAsync()
   type: Method
-  summary: >-
-    <p>Returns the observable for the page list of all resources of specific type in subscription.</p>
-
-    <p></p>
+  summary: "<p>Returns the observable for the page list of all resources of specific type in subscription.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<InnerT>> listAsync()
     return:
@@ -3194,10 +3170,7 @@ references:
   nameWithType: InnerSupportsListing<InnerT>.listByResourceGroup(String resourceGroupName)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing<InnerT>.listByResourceGroup(String resourceGroupName)
   type: Method
-  summary: >-
-    <p>Lists the page list of all resources of specific type in specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Lists the page list of all resources of specific type in specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<InnerT> listByResourceGroup(String resourceGroupName)
     parameters:
@@ -3214,10 +3187,7 @@ references:
   nameWithType: InnerSupportsListing<InnerT>.listByResourceGroupAsync(String resourceGroup)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing<InnerT>.listByResourceGroupAsync(String resourceGroup)
   type: Method
-  summary: >-
-    <p>Returns the observable for the page list of all resources of specific type in specified resource group.</p>
-
-    <p></p>
+  summary: "<p>Returns the observable for the page list of all resources of specific type in specified resource group.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Page<InnerT>> listByResourceGroupAsync(String resourceGroup)
     parameters:
@@ -3234,7 +3204,7 @@ references:
   nameWithType: ManagedClusterUpgradeProfileInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterUpgradeProfileInner
   type: Class
-  summary: <p>The list of available upgrades for compute pools. </p>
+  summary: "<p>The list of available upgrades for compute pools. </p>"
   syntax:
     content: public class ManagedClusterUpgradeProfileInner
 - uid: com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner
@@ -3244,7 +3214,7 @@ references:
   nameWithType: ManagedClusterAccessProfileInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner
   type: Class
-  summary: <p>Managed cluster Access Profile. </p>
+  summary: "<p>Managed cluster Access Profile. </p>"
   syntax:
     content: public class ManagedClusterAccessProfileInner
 - uid: com.microsoft.azure.management.containerservice.implementation.CredentialResultsInner
@@ -3254,7 +3224,7 @@ references:
   nameWithType: CredentialResultsInner
   fullName: com.microsoft.azure.management.containerservice.implementation.CredentialResultsInner
   type: Class
-  summary: <p>The list of credential result response. </p>
+  summary: "<p>The list of credential result response. </p>"
   syntax:
     content: public class CredentialResultsInner
 - uid: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsGet.getByResourceGroup(String,String)
@@ -3264,10 +3234,7 @@ references:
   nameWithType: InnerSupportsGet<InnerT>.getByResourceGroup(String resourceGroupName, String resourceName)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsGet<InnerT>.getByResourceGroup(String resourceGroupName, String resourceName)
   type: Method
-  summary: >-
-    <p>Returns the specific resource.</p>
-
-    <p></p>
+  summary: "<p>Returns the specific resource.</p>\r\n<p></p>"
   syntax:
     content: public InnerT getByResourceGroup(String resourceGroupName, String resourceName)
     parameters:
@@ -3287,10 +3254,7 @@ references:
   nameWithType: InnerSupportsGet<InnerT>.getByResourceGroupAsync(String resourceGroupName, String resourceName)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsGet<InnerT>.getByResourceGroupAsync(String resourceGroupName, String resourceName)
   type: Method
-  summary: >-
-    <p>Returns the specific resource asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Returns the specific resource asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<InnerT> getByResourceGroupAsync(String resourceGroupName, String resourceName)
     parameters:
@@ -3310,10 +3274,7 @@ references:
   nameWithType: InnerSupportsDelete<ResponseT>.deleteAsync(String resourceGroupName, String resourceName)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsDelete<ResponseT>.deleteAsync(String resourceGroupName, String resourceName)
   type: Method
-  summary: >-
-    <p>Deletes a resource asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Deletes a resource asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<ResponseT> deleteAsync(String resourceGroupName, String resourceName)
     parameters:
@@ -3333,10 +3294,7 @@ references:
   nameWithType: PageImpl<T>
   fullName: com.microsoft.azure.management.containerservice.implementation.PageImpl<T>
   type: Class
-  summary: >-
-    <p>An instance of this class defines a page of Azure resources and a link to get the next page of resources, if any.</p>
-
-    <p></p>
+  summary: "<p>An instance of this class defines a page of Azure resources and a link to get the next page of resources, if any.</p>\r\n<p></p>"
   syntax:
     content: public class PageImpl<T>
     typeParameters:

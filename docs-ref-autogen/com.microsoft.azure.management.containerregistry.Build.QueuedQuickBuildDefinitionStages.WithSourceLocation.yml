@@ -70,7 +70,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinition
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface QueuedQuickBuildDefinition extends Build.QueuedQuickBuildDefinitionStages.Blank,Build.QueuedQuickBuildDefinitionStages.WithOSType,Build.QueuedQuickBuildDefinitionStages.WithSourceLocation,Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath,Build.QueuedQuickBuildDefinitionStages.WithBuildArgument,Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount,Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds,Build.QueuedQuickBuildDefinitionStages.WithImageNames,Build.QueuedQuickBuildDefinitionStages.WithImageCache,Build.QueuedQuickBuildDefinitionStages.WithImagePush,Build.QueuedQuickBuildDefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildImpl.withSourceLocation(String)
@@ -80,10 +80,7 @@ references:
   nameWithType: BuildImpl.withSourceLocation(String sourceLocation)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildImpl.withSourceLocation(String sourceLocation)
   type: Method
-  summary: >-
-    <p>Specifies the source location required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source location required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildImpl withSourceLocation(String sourceLocation)
     parameters:

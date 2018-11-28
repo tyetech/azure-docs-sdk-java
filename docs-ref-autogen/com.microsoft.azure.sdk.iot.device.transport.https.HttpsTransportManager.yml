@@ -348,7 +348,7 @@ references:
   nameWithType: IotHubTransportManager
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager
   type: Interface
-  summary: <p>An interface for an simple and synchronous IoT Hub transport. </p>
+  summary: "<p>An interface for an simple and synchronous IoT Hub transport. </p>"
   syntax:
     content: public interface IotHubTransportManager
 - uid: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
@@ -358,7 +358,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection
@@ -368,7 +368,7 @@ references:
   nameWithType: HttpsIotHubConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection
   type: Class
-  summary: <p>An HTTPS connection between a device and an IoT Hub. Contains functionality for synchronously connecting to the different IoT Hub resource URIs. </p>
+  summary: "<p>An HTTPS connection between a device and an IoT Hub. Contains functionality for synchronously connecting to the different IoT Hub resource URIs. </p>"
   syntax:
     content: public class HttpsIotHubConnection implements IotHubTransportConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.open()
@@ -378,10 +378,7 @@ references:
   nameWithType: IotHubTransportManager.open()
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.open()
   type: Method
-  summary: >-
-    <p>Establishes a communication channel with an IoT Hub. If a channel is already open, the function shall do nothing.</p>
-
-    <p></p>
+  summary: "<p>Establishes a communication channel with an IoT Hub. If a channel is already open, the function shall do nothing.</p>\r\n<p></p>"
   syntax:
     content: public void open()
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.open(String [])
@@ -391,10 +388,7 @@ references:
   nameWithType: IotHubTransportManager.open(String[] topics)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.open(String[] topics)
   type: Method
-  summary: >-
-    <p>Establishes a communication channel with an IoT Hub for a specific set of topics. If a channel is already open, the function shall do nothing.</p>
-
-    <p></p>
+  summary: "<p>Establishes a communication channel with an IoT Hub for a specific set of topics. If a channel is already open, the function shall do nothing.</p>\r\n<p></p>"
   syntax:
     content: public void open(String[] topics)
     parameters:
@@ -408,12 +402,7 @@ references:
   nameWithType: IotHubTransportManager.close()
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.close()
   type: Method
-  summary: >-
-    <p>Closes all resources used to communicate with an IoT Hub. Once<code>close() 
-
-        </code> is called, the transport is no longer usable. If the transport is already closed, the function shall do nothing.</p>
-
-    <p></p>
+  summary: "<p>Closes all resources used to communicate with an IoT Hub. Once<code>close() \r\n    </code> is called, the transport is no longer usable. If the transport is already closed, the function shall do nothing.</p>\r\n<p></p>"
   syntax:
     content: public void close()
 - uid: com.microsoft.azure.sdk.iot.device.ResponseMessage
@@ -423,7 +412,7 @@ references:
   nameWithType: ResponseMessage
   fullName: com.microsoft.azure.sdk.iot.device.ResponseMessage
   type: Class
-  summary: <p>Extend Message to support status response </p>
+  summary: "<p>Extend Message to support status response </p>"
   syntax:
     content: public class ResponseMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage
@@ -433,7 +422,7 @@ references:
   nameWithType: IotHubTransportMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage
   type: Class
-  summary: <p>Extends Message, adding transport artifacts. </p>
+  summary: "<p>Extends Message, adding transport artifacts. </p>"
   syntax:
     content: public class IotHubTransportMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.send(IotHubTransportMessage,Map<String, String>)
@@ -443,10 +432,7 @@ references:
   nameWithType: IotHubTransportManager.send(IotHubTransportMessage message, Map<String, String> additionalHeaders)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.send(IotHubTransportMessage message, Map<String, String> additionalHeaders)
   type: Method
-  summary: >-
-    <p>Synchronously send a message to the IoT Hub. And return the response with the status and message.</p>
-
-    <p></p>
+  summary: "<p>Synchronously send a message to the IoT Hub. And return the response with the status and message.</p>\r\n<p></p>"
   syntax:
     content: public ResponseMessage send(IotHubTransportMessage message, Map<String, String> additionalHeaders)
     parameters:
@@ -475,10 +461,7 @@ references:
   nameWithType: IotHubTransportManager.receive()
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.receive()
   type: Method
-  summary: >-
-    <p>Synchronously receive message from the IoT Hub.</p>
-
-    <p></p>
+  summary: "<p>Synchronously receive message from the IoT Hub.</p>\r\n<p></p>"
   syntax:
     content: public Message receive()
     return:
@@ -500,7 +483,7 @@ references:
   nameWithType: MethodRequest
   fullName: com.microsoft.azure.sdk.iot.device.edge.MethodRequest
   type: Class
-  summary: <p>Json parser for a method request. Used to invoke methods on other devices/modules </p>
+  summary: "<p>Json parser for a method request. Used to invoke methods on other devices/modules </p>"
   syntax:
     content: public class MethodRequest
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.TransportException

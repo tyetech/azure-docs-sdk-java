@@ -241,7 +241,7 @@ references:
   nameWithType: DefaultTokenCacheStore
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore
   type: Class
-  summary: <p>Store/Retrieve TokenCacheItem from SharedPreferencesFileManager. SharedPreferencesFileManager saves items when it is committed in an atomic operation. </p>
+  summary: "<p>Store/Retrieve TokenCacheItem from SharedPreferencesFileManager. SharedPreferencesFileManager saves items when it is committed in an atomic operation. </p>"
   syntax:
     content: public class DefaultTokenCacheStore implements ITokenCacheStore,ITokenStoreQuery
 - uid: com.microsoft.aad.adal.TokenCacheItem
@@ -251,7 +251,7 @@ references:
   nameWithType: TokenCacheItem
   fullName: com.microsoft.aad.adal.TokenCacheItem
   type: Class
-  summary: <p>Extended result to store more info Queries will be performed over this item not the key. </p>
+  summary: "<p>Extended result to store more info Queries will be performed over this item not the key. </p>"
   syntax:
     content: public class TokenCacheItem
 - uid: com.microsoft.aad.adal.DefaultTokenCacheStore.getAll()
@@ -261,10 +261,7 @@ references:
   nameWithType: DefaultTokenCacheStore.getAll()
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.getAll()
   type: Method
-  summary: >-
-    <p>User can query over iterator values.</p>
-
-    <p></p>
+  summary: "<p>User can query over iterator values.</p>\r\n<p></p>"
   syntax:
     content: public Iterator<TokenCacheItem> getAll()
     return:
@@ -277,10 +274,7 @@ references:
   nameWithType: DefaultTokenCacheStore.getUniqueUsersWithTokenCache()
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.getUniqueUsersWithTokenCache()
   type: Method
-  summary: >-
-    <p>Unique users with tokens.</p>
-
-    <p></p>
+  summary: "<p>Unique users with tokens.</p>\r\n<p></p>"
   syntax:
     content: public Set<String> getUniqueUsersWithTokenCache()
     return:
@@ -293,10 +287,7 @@ references:
   nameWithType: DefaultTokenCacheStore.getTokensForResource(String resource)
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.getTokensForResource(String resource)
   type: Method
-  summary: >-
-    <p>Tokens for resource.</p>
-
-    <p></p>
+  summary: "<p>Tokens for resource.</p>\r\n<p></p>"
   syntax:
     content: public List<TokenCacheItem> getTokensForResource(String resource)
     parameters:
@@ -313,10 +304,7 @@ references:
   nameWithType: DefaultTokenCacheStore.getTokensForUser(String userId)
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.getTokensForUser(String userId)
   type: Method
-  summary: >-
-    <p>Get tokens for user.</p>
-
-    <p></p>
+  summary: "<p>Get tokens for user.</p>\r\n<p></p>"
   syntax:
     content: public List<TokenCacheItem> getTokensForUser(String userId)
     parameters:
@@ -333,10 +321,7 @@ references:
   nameWithType: DefaultTokenCacheStore.clearTokensForUser(String userId)
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.clearTokensForUser(String userId)
   type: Method
-  summary: >-
-    <p>Clear tokens for user without additional retry.</p>
-
-    <p></p>
+  summary: "<p>Clear tokens for user without additional retry.</p>\r\n<p></p>"
   syntax:
     content: public void clearTokensForUser(String userId)
     parameters:
@@ -350,10 +335,7 @@ references:
   nameWithType: DefaultTokenCacheStore.getTokensAboutToExpire()
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.getTokensAboutToExpire()
   type: Method
-  summary: >-
-    <p>Get tokens about to expire.</p>
-
-    <p></p>
+  summary: "<p>Get tokens about to expire.</p>\r\n<p></p>"
   syntax:
     content: public List<TokenCacheItem> getTokensAboutToExpire()
     return:

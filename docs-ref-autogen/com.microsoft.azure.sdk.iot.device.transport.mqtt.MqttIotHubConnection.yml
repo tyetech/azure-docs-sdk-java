@@ -352,7 +352,7 @@ references:
   nameWithType: IotHubTransportConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection
   type: Interface
-  summary: <p>Interface of what all a Transport Connection object must do. Serves to decouple the Message Queueing of the Transport layer from the protocol specific details of the Connection layer. </p>
+  summary: "<p>Interface of what all a Transport Connection object must do. Serves to decouple the Message Queueing of the Transport layer from the protocol specific details of the Connection layer. </p>"
   syntax:
     content: public interface IotHubTransportConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttMessageListener
@@ -371,7 +371,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus
@@ -399,7 +399,7 @@ references:
   nameWithType: IotHubListener
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubListener
   type: Interface
-  summary: <p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>
+  summary: "<p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>"
   syntax:
     content: public interface IotHubListener
 - uid: com.microsoft.azure.sdk.iot.device.CustomLogger
@@ -445,7 +445,7 @@ references:
   nameWithType: IotHubTransportMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage
   type: Class
-  summary: <p>Extends Message, adding transport artifacts. </p>
+  summary: "<p>Extends Message, adding transport artifacts. </p>"
   syntax:
     content: public class IotHubTransportMessage extends Message
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.open(Queue<DeviceClientConfig>)
@@ -455,7 +455,7 @@ references:
   nameWithType: IotHubTransportConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.open(Queue<DeviceClientConfig> deviceClientConfigs)
   type: Method
-  summary: <p>Opens the transport connection object </p>
+  summary: "<p>Opens the transport connection object </p>"
   syntax:
     content: public void open(Queue<DeviceClientConfig> deviceClientConfigs)
     parameters:
@@ -478,7 +478,7 @@ references:
   nameWithType: IotHubTransportConnection.close(boolean isReconnecting)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.close(boolean isReconnecting)
   type: Method
-  summary: <p>Closes the transport connection. </p>
+  summary: "<p>Closes the transport connection. </p>"
   syntax:
     content: public void close(boolean isReconnecting)
     parameters:
@@ -492,7 +492,7 @@ references:
   nameWithType: IotHubStatusCode
   fullName: com.microsoft.azure.sdk.iot.device.IotHubStatusCode
   type: Enum
-  summary: <p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>
+  summary: "<p>An IoT Hub status code. Included in a message from an IoT Hub to a device. </p>"
   syntax:
     content: public enum IotHubStatusCode
 - uid: com.microsoft.azure.sdk.iot.device.Message
@@ -511,7 +511,7 @@ references:
   nameWithType: IotHubTransportConnection.setListener(IotHubListener listener)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.setListener(IotHubListener listener)
   type: Method
-  summary: <p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>
+  summary: "<p>Sets a listener into the Transport Connection object. This listener updates the Transport layer of connection status updates, message arrivals, and message acknowledgements </p>"
   syntax:
     content: public void setListener(IotHubListener listener)
     parameters:
@@ -525,7 +525,7 @@ references:
   nameWithType: IotHubTransportConnection.sendMessage(Message message)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.sendMessage(Message message)
   type: Method
-  summary: <p>Send a single message to the IotHub over the Transport Connection </p>
+  summary: "<p>Send a single message to the IotHub over the Transport Connection </p>"
   syntax:
     content: public IotHubStatusCode sendMessage(Message message)
     parameters:
@@ -542,7 +542,7 @@ references:
   nameWithType: IotHubTransportConnection.sendMessageResult(Message message, IotHubMessageResult result)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.sendMessageResult(Message message, IotHubMessageResult result)
   type: Method
-  summary: <p>Send an acknowledgement to the IotHub for a message that the Transport layer received </p>
+  summary: "<p>Send an acknowledgement to the IotHub for a message that the Transport layer received </p>"
   syntax:
     content: public boolean sendMessageResult(Message message, IotHubMessageResult result)
     parameters:
@@ -562,7 +562,7 @@ references:
   nameWithType: IotHubMessageResult
   fullName: com.microsoft.azure.sdk.iot.device.IotHubMessageResult
   type: Enum
-  summary: <p>A return value from a message callback that instructs an IoT Hub to complete, abandon, or reject the message. </p>
+  summary: "<p>A return value from a message callback that instructs an IoT Hub to complete, abandon, or reject the message. </p>"
   syntax:
     content: public enum IotHubMessageResult
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.getConnectionId()
@@ -572,10 +572,7 @@ references:
   nameWithType: IotHubTransportConnection.getConnectionId()
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.getConnectionId()
   type: Method
-  summary: >-
-    <p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>
-
-    <p></p>
+  summary: "<p>Gives the UUID associated with this connection instance. This string is used in conjunction with the callbacks with connection status updates to ensure that all connection status updates are relevant to this connection object</p>\r\n<p></p>"
   syntax:
     content: public String getConnectionId()
     return:

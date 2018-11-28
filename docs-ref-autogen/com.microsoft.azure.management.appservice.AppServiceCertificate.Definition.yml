@@ -40,10 +40,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -56,10 +53,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -76,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -116,7 +107,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithCertificate.withExistingCertificateOrder(AppServiceCertificateOrder certificateOrder)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate.withExistingCertificateOrder(AppServiceCertificateOrder certificateOrder)
   type: Method
-  summary: <p>Specifies the app service certificate. </p>
+  summary: "<p>Specifies the app service certificate. </p>"
   syntax:
     content: public WithCreate withExistingCertificateOrder(AppServiceCertificateOrder certificateOrder)
     parameters:
@@ -133,7 +124,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithCertificate.withPfxByteArray(byte[] pfxByteArray)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate.withPfxByteArray(byte[] pfxByteArray)
   type: Method
-  summary: <p>Specifies the PFX byte array to upload. </p>
+  summary: "<p>Specifies the PFX byte array to upload. </p>"
   syntax:
     content: public WithPfxFilePassword withPfxByteArray(byte[] pfxByteArray)
     parameters:
@@ -150,7 +141,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithCertificate.withPfxFile(File file)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate.withPfxFile(File file)
   type: Method
-  summary: <p>Specifies the PFX certificate file to upload. </p>
+  summary: "<p>Specifies the PFX certificate file to upload. </p>"
   syntax:
     content: public WithPfxFilePassword withPfxFile(File file)
     parameters:
@@ -167,7 +158,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithCertificate.withPfxFileFromUrl(String url)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate.withPfxFileFromUrl(String url)
   type: Method
-  summary: <p>Specifies the PFX file from a URL. </p>
+  summary: "<p>Specifies the PFX file from a URL. </p>"
   syntax:
     content: public WithPfxFilePassword withPfxFileFromUrl(String url)
     parameters:
@@ -184,7 +175,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithPfxFilePassword.withPfxPassword(String password)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithPfxFilePassword.withPfxPassword(String password)
   type: Method
-  summary: <p>Specifies the password to the PFX certificate. </p>
+  summary: "<p>Specifies the password to the PFX certificate. </p>"
   syntax:
     content: public WithCreate withPfxPassword(String password)
     parameters:
@@ -201,7 +192,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.Blank
   type: Interface
-  summary: <p>An app service certificate definition allowing region to be set. </p>
+  summary: "<p>An app service certificate definition allowing region to be set. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithGroup
@@ -211,7 +202,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>An app service certificate definition allowing resource group to be set. </p>
+  summary: "<p>An app service certificate definition allowing resource group to be set. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate
@@ -221,7 +212,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithCertificate
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate
   type: Interface
-  summary: <p>An app service certificate definition allowing PFX certificate file to be set. </p>
+  summary: "<p>An app service certificate definition allowing PFX certificate file to be set. </p>"
   syntax:
     content: public interface WithCertificate
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithPfxFilePassword
@@ -231,7 +222,7 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithPfxFilePassword
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithPfxFilePassword
   type: Interface
-  summary: <p>An app service certificate definition allowing PFX certificate password to be set. </p>
+  summary: "<p>An app service certificate definition allowing PFX certificate password to be set. </p>"
   syntax:
     content: public interface WithPfxFilePassword
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCreate
@@ -241,6 +232,6 @@ references:
   nameWithType: AppServiceCertificate.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>An app service certificate definition with sufficient inputs to create a new app service certificate in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>An app service certificate definition with sufficient inputs to create a new app service certificate in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

@@ -316,7 +316,7 @@ references:
   nameWithType: ActorConcurrencyLockTimeoutException
   fullName: microsoft.servicefabric.actors.ActorConcurrencyLockTimeoutException
   type: Class
-  summary: <p>Exception thrown by actor runtime when runtime cannot acquire the turn based concurrency lock to dispatch the method. </p>
+  summary: "<p>Exception thrown by actor runtime when runtime cannot acquire the turn based concurrency lock to dispatch the method. </p>"
   syntax:
     content: public class ActorConcurrencyLockTimeoutException extends FabricException
 - uid: microsoft.servicefabric.actors.DuplicateMessageException
@@ -326,7 +326,7 @@ references:
   nameWithType: DuplicateMessageException
   fullName: microsoft.servicefabric.actors.DuplicateMessageException
   type: Class
-  summary: <p>Exception indicates that Actor recieved Duplicate Message </p>
+  summary: "<p>Exception indicates that Actor recieved Duplicate Message </p>"
   syntax:
     content: public class DuplicateMessageException extends FabricException
 - uid: microsoft.servicefabric.actors.ReentrancyModeDisallowedException
@@ -336,7 +336,7 @@ references:
   nameWithType: ReentrancyModeDisallowedException
   fullName: microsoft.servicefabric.actors.ReentrancyModeDisallowedException
   type: Class
-  summary: <p>Exception thrown by actor runtime when reentrant call is made for an actor and its <xref uid="" data-throw-if-not-resolved="false">ReentrancyMode</xref> is set to <xref uid="microsoft.servicefabric.actors.runtime.ReentrancyMode.Disallowed" data-throw-if-not-resolved="false">ReentrancyMode#Disallowed</xref>. </p>
+  summary: "<p>Exception thrown by actor runtime when reentrant call is made for an actor and its <xref uid=\"\" data-throw-if-not-resolved=\"false\">ReentrancyMode</xref> is set to <xref uid=\"microsoft.servicefabric.actors.runtime.ReentrancyMode.Disallowed\" data-throw-if-not-resolved=\"false\">ReentrancyMode#Disallowed</xref>. </p>"
   syntax:
     content: public class ReentrancyModeDisallowedException
 - uid: microsoft.servicefabric.actors.ReminderNotFoundException
@@ -346,7 +346,7 @@ references:
   nameWithType: ReminderNotFoundException
   fullName: microsoft.servicefabric.actors.ReminderNotFoundException
   type: Class
-  summary: <p>Exception thrown by actor runtime when a specified reminder is not found for the actor. </p>
+  summary: "<p>Exception thrown by actor runtime when a specified reminder is not found for the actor. </p>"
   syntax:
     content: public class ReminderNotFoundException
 - uid: microsoft.servicefabric.actors.runtime.FabricWrapperException
@@ -357,7 +357,7 @@ references:
   nameWithType: FabricBackupDirectoryNotEmptyException
   fullName: system.fabric.exception.FabricBackupDirectoryNotEmptyException
   type: Class
-  summary: <p>The exception that is thrown when the user provided backup directory is not empty. </p>
+  summary: "<p>The exception that is thrown when the user provided backup directory is not empty. </p>"
   syntax:
     content: public class FabricBackupDirectoryNotEmptyException extends FabricException
 - uid: system.fabric.exception.FabricBackupInProgressException
@@ -367,7 +367,7 @@ references:
   nameWithType: FabricBackupInProgressException
   fullName: system.fabric.exception.FabricBackupInProgressException
   type: Class
-  summary: <p>The exception that is thrown when an attempt is made to create a backup when a previous backup is in progress. </p>
+  summary: "<p>The exception that is thrown when an attempt is made to create a backup when a previous backup is in progress. </p>"
   syntax:
     content: public class FabricBackupInProgressException extends FabricException
 - uid: system.fabric.exception.FabricCannotConnectException
@@ -386,7 +386,7 @@ references:
   nameWithType: FabricConnectionDeniedException
   fullName: system.fabric.exception.FabricConnectionDeniedException
   type: Class
-  summary: <p>The exception that is thrown when connection is denied. </p>
+  summary: "<p>The exception that is thrown when connection is denied. </p>"
   syntax:
     content: public class FabricConnectionDeniedException extends FabricException
 - uid: system.fabric.exception.FabricDeleteBackupFileFailedException
@@ -423,7 +423,7 @@ references:
   nameWithType: FabricEndpointNotFoundException
   fullName: system.fabric.exception.FabricEndpointNotFoundException
   type: Class
-  summary: <p>Exception indicating that the specified endpoint was not found. </p>
+  summary: "<p>Exception indicating that the specified endpoint was not found. </p>"
   syntax:
     content: public class FabricEndpointNotFoundException extends FabricException
 - uid: system.fabric.exception.FabricInvalidAddressException
@@ -433,7 +433,7 @@ references:
   nameWithType: FabricInvalidAddressException
   fullName: system.fabric.exception.FabricInvalidAddressException
   type: Class
-  summary: <p>The exception that is thrown when an address is not recognized by Service fabric. </p>
+  summary: "<p>The exception that is thrown when an address is not recognized by Service fabric. </p>"
   syntax:
     content: public class FabricInvalidAddressException
 - uid: system.fabric.exception.FabricInvalidPartitionKeyException
@@ -470,7 +470,7 @@ references:
   nameWithType: FabricMissingFullBackupException
   fullName: system.fabric.exception.FabricMissingFullBackupException
   type: Class
-  summary: <p>The exception that is thrown when an attempt is made to create an incremental backup of the key-value store before an initial full backup is created. </p>
+  summary: "<p>The exception that is thrown when an attempt is made to create an incremental backup of the key-value store before an initial full backup is created. </p>"
   syntax:
     content: public class FabricMissingFullBackupException
 - uid: system.fabric.exception.FabricNodePrimaryException
@@ -516,7 +516,7 @@ references:
   nameWithType: FabricReplicationOperationTooLargeException
   fullName: system.fabric.exception.FabricReplicationOperationTooLargeException
   type: Class
-  summary: <p>Exception indicating that the associated replication operation is larger than the configured limit </p>
+  summary: "<p>Exception indicating that the associated replication operation is larger than the configured limit </p>"
   syntax:
     content: public class FabricReplicationOperationTooLargeException
 - uid: system.fabric.exception.FabricServerAuthenticationFailedException
@@ -526,7 +526,7 @@ references:
   nameWithType: FabricServerAuthenticationFailedException
   fullName: system.fabric.exception.FabricServerAuthenticationFailedException
   type: Class
-  summary: <p>The exception that is thrown when server authentication failed. </p>
+  summary: "<p>The exception that is thrown when server authentication failed. </p>"
   syntax:
     content: public class FabricServerAuthenticationFailedException
 - uid: system.fabric.exception.FabricTransientException

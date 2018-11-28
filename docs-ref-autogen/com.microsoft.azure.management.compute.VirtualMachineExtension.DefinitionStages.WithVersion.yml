@@ -82,10 +82,7 @@ references:
   nameWithType: VirtualMachineExtension.Definition<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>The entirety of a virtual machine extension definition as a part of parent definition.</p>
-
-    <p></p>
+  summary: "<p>The entirety of a virtual machine extension definition as a part of parent definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends VirtualMachineExtension.DefinitionStages.Blank<ParentT>,VirtualMachineExtension.DefinitionStages.WithImageOrPublisher<ParentT>,VirtualMachineExtension.DefinitionStages.WithPublisher<ParentT>,VirtualMachineExtension.DefinitionStages.WithType<ParentT>,VirtualMachineExtension.DefinitionStages.WithVersion<ParentT>,VirtualMachineExtension.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -99,7 +96,7 @@ references:
   nameWithType: VirtualMachineExtension.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtension.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the virtual machine extension definition. </p>
+  summary: "<p>The final stage of the virtual machine extension definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,VirtualMachineExtension.DefinitionStages.WithAutoUpgradeMinorVersion<ParentT>,VirtualMachineExtension.DefinitionStages.WithSettings<ParentT>,VirtualMachineExtension.DefinitionStages.WithTags<ParentT>
     typeParameters:

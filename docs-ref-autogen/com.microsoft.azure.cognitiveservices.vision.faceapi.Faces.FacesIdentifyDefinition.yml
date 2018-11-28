@@ -36,10 +36,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public List<IdentifyResult> execute()
     return:
@@ -52,10 +49,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<List<IdentifyResult>> executeAsync()
     return:
@@ -68,10 +62,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithAllOptions.withConfidenceThreshold(Double confidenceThreshold)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithAllOptions.withConfidenceThreshold(Double confidenceThreshold)
   type: Method
-  summary: >-
-    <p>Confidence threshold of identification, used to judge whether one face belong to one person. The range of confidenceThreshold is [0, 1] (default specified by algorithm).</p>
-
-    <p></p>
+  summary: "<p>Confidence threshold of identification, used to judge whether one face belong to one person. The range of confidenceThreshold is [0, 1] (default specified by algorithm).</p>\r\n<p></p>"
   syntax:
     content: public FacesIdentifyDefinitionStages.WithExecute withConfidenceThreshold(Double confidenceThreshold)
     parameters:
@@ -87,10 +78,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithFaceIds.withFaceIds(List<UUID> faceIds)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithFaceIds.withFaceIds(List<UUID> faceIds)
   type: Method
-  summary: >-
-    <p>Array of query faces faceIds, created by the Face - Detect. Each of the faces are identified independently. The valid number of faceIds is between [1, 10].</p>
-
-    <p></p>
+  summary: "<p>Array of query faces faceIds, created by the Face - Detect. Each of the faces are identified independently. The valid number of faceIds is between [1, 10].</p>\r\n<p></p>"
   syntax:
     content: public FacesIdentifyDefinitionStages.WithExecute withFaceIds(List<UUID> faceIds)
     parameters:
@@ -106,10 +94,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithAllOptions.withMaxNumOfCandidatesReturned(Integer maxNumOfCandidatesReturned)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithAllOptions.withMaxNumOfCandidatesReturned(Integer maxNumOfCandidatesReturned)
   type: Method
-  summary: >-
-    <p>The range of maxNumOfCandidatesReturned is between 1 and 5 (default is 1).</p>
-
-    <p></p>
+  summary: "<p>The range of maxNumOfCandidatesReturned is between 1 and 5 (default is 1).</p>\r\n<p></p>"
   syntax:
     content: public FacesIdentifyDefinitionStages.WithExecute withMaxNumOfCandidatesReturned(Integer maxNumOfCandidatesReturned)
     parameters:
@@ -125,10 +110,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithPersonGroupId.withPersonGroupId(String personGroupId)
   type: Method
-  summary: >-
-    <p>PersonGroupId of the target person group, created by PersonGroups.Create.</p>
-
-    <p></p>
+  summary: "<p>PersonGroupId of the target person group, created by PersonGroups.Create.</p>\r\n<p></p>"
   syntax:
     content: public WithFaceIds withPersonGroupId(String personGroupId)
     parameters:
@@ -144,7 +126,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithPersonGroupId
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithPersonGroupId
   type: Interface
-  summary: <p>The stage of the definition to be specify personGroupId. </p>
+  summary: "<p>The stage of the definition to be specify personGroupId. </p>"
   syntax:
     content: public interface WithPersonGroupId
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithFaceIds
@@ -154,7 +136,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithFaceIds
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithFaceIds
   type: Interface
-  summary: <p>The stage of the definition to be specify faceIds. </p>
+  summary: "<p>The stage of the definition to be specify faceIds. </p>"
   syntax:
     content: public interface WithFaceIds
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithExecute
@@ -164,6 +146,6 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

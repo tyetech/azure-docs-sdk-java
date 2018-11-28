@@ -78,7 +78,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinition<ParentT>
   type: Interface
-  summary: <p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>
+  summary: "<p>The Kubernetes cluster network profile definition. The entirety of a Kubernetes cluster network profile definition as a part of a parent definition. </p>"
   syntax:
     content: public interface NetworkProfileDefinition<ParentT> extends KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.Blank<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -92,7 +92,7 @@ references:
   nameWithType: KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of a network profile definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>
+  summary: "<p>The final stage of a network profile definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithNetworkPolicy<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithPodCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithServiceCidr<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDnsServiceIP<ParentT>,KubernetesCluster.DefinitionStages.NetworkProfileDefinitionStages.WithDockerBridgeCidr<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
@@ -106,6 +106,6 @@ references:
   nameWithType: NetworkPolicy
   fullName: com.microsoft.azure.management.containerservice.NetworkPolicy
   type: Class
-  summary: <p>Defines values for NetworkPolicy. </p>
+  summary: "<p>Defines values for NetworkPolicy. </p>"
   syntax:
     content: public class NetworkPolicy

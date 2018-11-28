@@ -499,7 +499,7 @@ references:
   nameWithType: Telemetry
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry
   type: Interface
-  summary: <p>The base telemetry type interface for application insights. </p>
+  summary: "<p>The base telemetry type interface for application insights. </p>"
   syntax:
     content: public interface Telemetry extends JsonSerializable
 - uid: com.microsoft.applicationinsights.TelemetryConfiguration
@@ -509,10 +509,7 @@ references:
   nameWithType: TelemetryConfiguration
   fullName: com.microsoft.applicationinsights.TelemetryConfiguration
   type: Class
-  summary: >-
-    <p>Encapsulates the global telemetry configuration typically loaded from the ApplicationInsights.xml file.</p>
-
-    <p>All <xref uid="com.microsoft.applicationinsights.telemetry.TelemetryContext" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>
+  summary: "<p>Encapsulates the global telemetry configuration typically loaded from the ApplicationInsights.xml file.</p>\r\n<p>All <xref uid=\"com.microsoft.applicationinsights.telemetry.TelemetryContext\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>"
   syntax:
     content: public class TelemetryConfiguration
 - uid: com.microsoft.applicationinsights.TelemetryClient
@@ -522,7 +519,7 @@ references:
   nameWithType: TelemetryClient
   fullName: com.microsoft.applicationinsights.TelemetryClient
   type: Class
-  summary: <p>Create an instance of this class to send telemetry to Azure Application Insights. General overview <a href="https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics">https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics</a></p>
+  summary: "<p>Create an instance of this class to send telemetry to Azure Application Insights. General overview <a href=\"https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics\">https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics</a></p>"
   syntax:
     content: public class TelemetryClient
 - uid: com.microsoft.applicationinsights.telemetry.TelemetryContext
@@ -532,5 +529,5 @@ references:
   nameWithType: TelemetryContext
   fullName: com.microsoft.applicationinsights.telemetry.TelemetryContext
   type: Class
-  summary: <p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>
+  summary: "<p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>"
   syntax: *o1

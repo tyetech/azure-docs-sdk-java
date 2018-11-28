@@ -188,7 +188,7 @@ references:
   nameWithType: RecoveryToken
   fullName: com.microsoft.azure.elasticdb.shard.recovery.RecoveryToken
   type: Class
-  summary: <p>Recovery token generated and used by methods of the <xref uid="com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager" data-throw-if-not-resolved="false">RecoveryManager</xref> to perform conflict detection and resolution for shard maps. </p>
+  summary: "<p>Recovery token generated and used by methods of the <xref uid=\"com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager\" data-throw-if-not-resolved=\"false\">RecoveryManager</xref> to perform conflict detection and resolution for shard maps. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager
   parent: com.microsoft.azure.elasticdb.shard.recovery
@@ -197,6 +197,6 @@ references:
   nameWithType: RecoveryManager
   fullName: com.microsoft.azure.elasticdb.shard.recovery.RecoveryManager
   type: Class
-  summary: <p>Manages various recovery related tasks for a shard map manager. It helps resolving data corruption issues between shard map information stored locally on the shards and in the global shard map manager database. It also helps with certain 'oops' recovery scenarios where reconstruction of shard maps from database backups or database copies is necessary. Note that some of the recovery methods can cause unrecoverable data loss when not used properly. It is recommend to take backups or copies of all databases that participate in recovery operations. </p>
+  summary: "<p>Manages various recovery related tasks for a shard map manager. It helps resolving data corruption issues between shard map information stored locally on the shards and in the global shard map manager database. It also helps with certain 'oops' recovery scenarios where reconstruction of shard maps from database backups or database copies is necessary. Note that some of the recovery methods can cause unrecoverable data loss when not used properly. It is recommend to take backups or copies of all databases that participate in recovery operations. </p>"
   syntax:
     content: public class RecoveryManager

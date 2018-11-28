@@ -79,7 +79,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the custom toolkit job settings definition. </p>
+  summary: "<p>The first stage of the custom toolkit job settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.CustomToolkit.DefinitionStages.WithCommandLine<ParentT>
     typeParameters:
@@ -93,7 +93,7 @@ references:
   nameWithType: ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CustomToolkit.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the custom toolkit job settings definition. At this stage, any remaining optional settings can be specified, or the custom toolkit job settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the custom toolkit job settings definition. At this stage, any remaining optional settings can be specified, or the custom toolkit job settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition
     typeParameters:

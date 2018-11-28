@@ -362,6 +362,49 @@
   - uid: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer
     name: DockerContextInitializer
     href: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer.yml
+- uid: com.microsoft.applicationinsights.internal.logger
+  name: com.microsoft.applicationinsights.internal.logger
+  href: com.microsoft.applicationinsights.internal.logger.yml
+  items:
+  - uid: com.microsoft.applicationinsights.internal.logger.ConsoleLoggerOutput
+    name: ConsoleLoggerOutput
+    href: com.microsoft.applicationinsights.internal.logger.ConsoleLoggerOutput.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.DefaultLogFileProxy
+    name: DefaultLogFileProxy
+    href: com.microsoft.applicationinsights.internal.logger.DefaultLogFileProxy.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.DefaultLogFileProxyFactory
+    name: DefaultLogFileProxyFactory
+    href: com.microsoft.applicationinsights.internal.logger.DefaultLogFileProxyFactory.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.FileLoggerOutput
+    name: FileLoggerOutput
+    href: com.microsoft.applicationinsights.internal.logger.FileLoggerOutput.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.FileLoggerOutputTest
+    name: FileLoggerOutputTest
+    href: com.microsoft.applicationinsights.internal.logger.FileLoggerOutputTest.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.InternalLogger
+    name: InternalLogger
+    href: com.microsoft.applicationinsights.internal.logger.InternalLogger.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.InternalLogger.LoggerOutputType
+    name: InternalLogger.LoggerOutputType
+    href: com.microsoft.applicationinsights.internal.logger.InternalLogger.LoggerOutputType.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.InternalLogger.LoggingLevel
+    name: InternalLogger.LoggingLevel
+    href: com.microsoft.applicationinsights.internal.logger.InternalLogger.LoggingLevel.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.InternalLoggerTest
+    name: InternalLoggerTest
+    href: com.microsoft.applicationinsights.internal.logger.InternalLoggerTest.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.LocalFileSystemUtils
+    name: LocalFileSystemUtils
+    href: com.microsoft.applicationinsights.internal.logger.LocalFileSystemUtils.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.LogFileProxy
+    name: LogFileProxy
+    href: com.microsoft.applicationinsights.internal.logger.LogFileProxy.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.LogFileProxyFactory
+    name: LogFileProxyFactory
+    href: com.microsoft.applicationinsights.internal.logger.LogFileProxyFactory.yml
+  - uid: com.microsoft.applicationinsights.internal.logger.LoggerOutput
+    name: LoggerOutput
+    href: com.microsoft.applicationinsights.internal.logger.LoggerOutput.yml
 - uid: com.microsoft.applicationinsights.telemetry
   name: com.microsoft.applicationinsights.telemetry
   href: com.microsoft.applicationinsights.telemetry.yml
@@ -8419,12 +8462,6 @@
   - uid: com.microsoft.azure.functions.annotation.HttpTrigger
     name: HttpTrigger
     href: com.microsoft.azure.functions.annotation.HttpTrigger.yml
-  - uid: com.microsoft.azure.functions.annotation.MobileTableInput
-    name: MobileTableInput
-    href: com.microsoft.azure.functions.annotation.MobileTableInput.yml
-  - uid: com.microsoft.azure.functions.annotation.MobileTableOutput
-    name: MobileTableOutput
-    href: com.microsoft.azure.functions.annotation.MobileTableOutput.yml
   - uid: com.microsoft.azure.functions.annotation.QueueOutput
     name: QueueOutput
     href: com.microsoft.azure.functions.annotation.QueueOutput.yml

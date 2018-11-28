@@ -38,10 +38,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -54,10 +51,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -74,10 +68,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -114,10 +105,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDescription.withDescription(String description)
   type: Method
-  summary: >-
-    <p>Specifies the description of the policy.</p>
-
-    <p></p>
+  summary: "<p>Specifies the description of the policy.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDescription(String description)
     parameters:
@@ -134,10 +122,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithDisplayName.withDisplayName(String displayName)
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDisplayName.withDisplayName(String displayName)
   type: Method
-  summary: >-
-    <p>Specifies the display name of the policy.</p>
-
-    <p></p>
+  summary: "<p>Specifies the display name of the policy.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDisplayName(String displayName)
     parameters:
@@ -154,10 +139,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithPolicyType.withPolicyType(PolicyType policyType)
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyType.withPolicyType(PolicyType policyType)
   type: Method
-  summary: >-
-    <p>Specifies the type of the policy. The default value is 'NotSpecified'.</p>
-
-    <p></p>
+  summary: "<p>Specifies the type of the policy. The default value is 'NotSpecified'.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPolicyType(PolicyType policyType)
     parameters:
@@ -174,10 +156,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -191,7 +170,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithDescription
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDescription
   type: Interface
-  summary: <p>A policy definition allowing policy description to be set. </p>
+  summary: "<p>A policy definition allowing policy description to be set. </p>"
   syntax:
     content: public interface WithDescription
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDisplayName
@@ -201,7 +180,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithDisplayName
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithDisplayName
   type: Interface
-  summary: <p>A policy definition allowing the display name to be set. </p>
+  summary: "<p>A policy definition allowing the display name to be set. </p>"
   syntax:
     content: public interface WithDisplayName
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyType
@@ -211,7 +190,7 @@ references:
   nameWithType: PolicyDefinition.DefinitionStages.WithPolicyType
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyType
   type: Interface
-  summary: <p>A policy definition specifying the policy type to be blob. </p>
+  summary: "<p>A policy definition specifying the policy type to be blob. </p>"
   syntax:
     content: public interface WithPolicyType
 - uid: com.microsoft.azure.management.resources.PolicyDefinition.Definition
@@ -221,6 +200,6 @@ references:
   nameWithType: PolicyDefinition.Definition
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends PolicyDefinition.DefinitionStages.Blank,PolicyDefinition.DefinitionStages.WithCreate

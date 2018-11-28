@@ -109,10 +109,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the subnet definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the subnet definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,Subnet.DefinitionStages.WithNetworkSecurityGroup<ParentT>,Subnet.DefinitionStages.WithRouteTable<ParentT>
     typeParameters:
@@ -126,6 +123,6 @@ references:
   nameWithType: NetworkSecurityGroup
   fullName: com.microsoft.azure.management.network.NetworkSecurityGroup
   type: Interface
-  summary: <p>Network security group. </p>
+  summary: "<p>Network security group. </p>"
   syntax:
     content: public interface NetworkSecurityGroup extends GroupableResource<NetworkManager, NetworkSecurityGroupInner>,Refreshable<NetworkSecurityGroup>,Updatable<NetworkSecurityGroup.Update>,HasAssociatedSubnets

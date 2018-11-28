@@ -40,10 +40,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -56,10 +53,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -76,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -92,12 +83,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithServiceEndpoint.ignoreMissingSqlServiceEndpoint()
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithServiceEndpoint.ignoreMissingSqlServiceEndpoint()
   type: Method
-  summary: >-
-    <p>Sets the flag to ignore the missing subnet's SQL service endpoint entry. </p>
-
-    <p>Virtual Machines in the subnet will not be able to connect to the SQL server until Microsoft.Sql service endpoint is added to the subnet</p>
-
-    <p></p>
+  summary: "<p>Sets the flag to ignore the missing subnet's SQL service endpoint entry. </p>\r\n<p>Virtual Machines in the subnet will not be able to connect to the SQL server until Microsoft.Sql service endpoint is added to the subnet</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRuleOperations.DefinitionStages.WithCreate ignoreMissingSqlServiceEndpoint()
     return:
@@ -134,10 +120,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String resourceGroupName, String sqlServerName)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server name and resource group it belongs to.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server name and resource group it belongs to.</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet withExistingSqlServer(String resourceGroupName, String sqlServerName)
     parameters:
@@ -157,10 +140,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(SqlServer sqlServer)
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(SqlServer sqlServer)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server for the new Virtual Network Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server for the new Virtual Network Rule.</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet withExistingSqlServer(SqlServer sqlServer)
     parameters:
@@ -177,10 +157,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer.withExistingSqlServerId(String sqlServerId)
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer.withExistingSqlServerId(String sqlServerId)
   type: Method
-  summary: >-
-    <p>Sets the parent SQL server for the new Virtual Network Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the parent SQL server for the new Virtual Network Rule.</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet withExistingSqlServerId(String sqlServerId)
     parameters:
@@ -197,10 +174,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Sets the virtual network ID and the subnet name for the SQL server Virtual Network Rule.</p>
-
-    <p></p>
+  summary: "<p>Sets the virtual network ID and the subnet name for the SQL server Virtual Network Rule.</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRuleOperations.DefinitionStages.WithServiceEndpoint withSubnet(String networkId, String subnetName)
     parameters:
@@ -220,7 +194,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithSqlServer
   type: Interface
-  summary: <p>The first stage of the SQL Server Virtual Network Rule definition. </p>
+  summary: "<p>The first stage of the SQL Server Virtual Network Rule definition. </p>"
   syntax:
     content: public interface WithSqlServer
 - uid: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet
@@ -230,7 +204,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>The SQL Virtual Network Rule definition to set the virtual network ID and the subnet name. </p>
+  summary: "<p>The SQL Virtual Network Rule definition to set the virtual network ID and the subnet name. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithServiceEndpoint
@@ -240,7 +214,7 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithServiceEndpoint
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithServiceEndpoint
   type: Interface
-  summary: <p>The SQL Virtual Network Rule definition to set ignore flag for the missing subnet's SQL service endpoint entry. </p>
+  summary: "<p>The SQL Virtual Network Rule definition to set ignore flag for the missing subnet's SQL service endpoint entry. </p>"
   syntax:
     content: public interface WithServiceEndpoint
 - uid: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithCreate
@@ -250,6 +224,6 @@ references:
   nameWithType: SqlVirtualNetworkRuleOperations.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRuleOperations.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The final stage of the SQL Virtual Network Rule definition. </p>
+  summary: "<p>The final stage of the SQL Virtual Network Rule definition. </p>"
   syntax:
     content: public interface WithCreate

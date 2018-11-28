@@ -38,12 +38,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -56,7 +51,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity.withCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity.withCookieBasedAffinity()
   type: Method
-  summary: <p>Enables cookie based affinity. </p>
+  summary: "<p>Enables cookie based affinity. </p>"
   syntax:
     content: public Update withCookieBasedAffinity()
     return:
@@ -69,7 +64,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity.withoutCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity.withoutCookieBasedAffinity()
   type: Method
-  summary: <p>Disables cookie based affinity. </p>
+  summary: "<p>Disables cookie based affinity. </p>"
   syntax:
     content: public Update withoutCookieBasedAffinity()
     return:
@@ -82,7 +77,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withoutProbe()
   type: Method
-  summary: <p>Removes the association with a probe. </p>
+  summary: "<p>Removes the association with a probe. </p>"
   syntax:
     content: public Update withoutProbe()
     return:
@@ -95,7 +90,7 @@ references:
   nameWithType: HasPort.UpdateStages.WithPort<ReturnT>.withPort(int portNumber)
   fullName: com.microsoft.azure.management.network.model.HasPort.UpdateStages.WithPort<ReturnT>.withPort(int portNumber)
   type: Method
-  summary: <p>Specifies the port number. </p>
+  summary: "<p>Specifies the port number. </p>"
   syntax:
     content: public ReturnT withPort(int portNumber)
     parameters:
@@ -112,10 +107,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withProbe(String name)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe.withProbe(String name)
   type: Method
-  summary: >-
-    <p>Specifies an existing probe on this application gateway to associate with this backend. </p>
-
-    <p>If the probe with the specified name does not yet exist, it must be defined separately in the optional part of the application gateway definition. This only adds a reference to the probe by its name. </p>
+  summary: "<p>Specifies an existing probe on this application gateway to associate with this backend. </p>\r\n<p>If the probe with the specified name does not yet exist, it must be defined separately in the optional part of the application gateway definition. This only adds a reference to the probe by its name. </p>"
   syntax:
     content: public Update withProbe(String name)
     parameters:
@@ -132,7 +124,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -149,7 +141,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithRequestTimeout.withRequestTimeout(int seconds)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithRequestTimeout.withRequestTimeout(int seconds)
   type: Method
-  summary: <p>Specifies the request timeout. </p>
+  summary: "<p>Specifies the request timeout. </p>"
   syntax:
     content: public Update withRequestTimeout(int seconds)
     parameters:
@@ -166,10 +158,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -183,7 +172,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithPort
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithPort
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to specify the port number. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to specify the port number. </p>"
   syntax:
     content: public interface WithPort
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity
@@ -193,7 +182,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to enable or disable cookie based affinity. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to enable or disable cookie based affinity. </p>"
   syntax:
     content: public interface WithAffinity
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProtocol
@@ -203,7 +192,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProtocol
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProtocol
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to specify the protocol. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to specify the protocol. </p>"
   syntax:
     content: public interface WithProtocol
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithRequestTimeout
@@ -213,7 +202,7 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithRequestTimeout
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithRequestTimeout
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to specify the request timeout. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to specify the request timeout. </p>"
   syntax:
     content: public interface WithRequestTimeout
 - uid: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe
@@ -223,6 +212,6 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe
   type: Interface
-  summary: <p>The stage of an application gateway backend HTTP configuration allowing to associate an existing probe. </p>
+  summary: "<p>The stage of an application gateway backend HTTP configuration allowing to associate an existing probe. </p>"
   syntax:
     content: public interface WithProbe

@@ -47,10 +47,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -63,10 +60,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -83,10 +77,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -123,10 +114,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithApiVersion.withApiVersion(String apiVersion)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion.withApiVersion(String apiVersion)
   type: Method
-  summary: >-
-    <p>Specifies the api version.</p>
-
-    <p></p>
+  summary: "<p>Specifies the api version.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withApiVersion(String apiVersion)
     parameters:
@@ -143,10 +131,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithPlan.withoutPlan()
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withoutPlan()
   type: Method
-  summary: >-
-    <p>Specifies the plan of the resource.</p>
-
-    <p></p>
+  summary: "<p>Specifies the plan of the resource.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withoutPlan()
     return:
@@ -159,10 +144,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithParentResource.withParentResourceId(String parentResourceId)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource.withParentResourceId(String parentResourceId)
   type: Method
-  summary: >-
-    <p>Specifies the parent resource.</p>
-
-    <p></p>
+  summary: "<p>Specifies the parent resource.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withParentResourceId(String parentResourceId)
     parameters:
@@ -179,10 +161,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithParentResource.withParentResourcePath(String parentResourcePath)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource.withParentResourcePath(String parentResourcePath)
   type: Method
-  summary: >-
-    <p>Specifies the parent resource relative path.</p>
-
-    <p></p>
+  summary: "<p>Specifies the parent resource relative path.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withParentResourcePath(String parentResourcePath)
     parameters:
@@ -199,10 +178,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithPlan.withPlan(String name, String publisher, String product, String promotionCode)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan.withPlan(String name, String publisher, String product, String promotionCode)
   type: Method
-  summary: >-
-    <p>Specifies the plan of the resource. The plan can only be set for 3rd party resources.</p>
-
-    <p></p>
+  summary: "<p>Specifies the plan of the resource. The plan can only be set for 3rd party resources.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPlan(String name, String publisher, String product, String promotionCode)
     parameters:
@@ -228,10 +204,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithCreate.withProperties(Object properties)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate.withProperties(Object properties)
   type: Method
-  summary: >-
-    <p>Specifies other properties.</p>
-
-    <p></p>
+  summary: "<p>Specifies other properties.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withProperties(Object properties)
     parameters:
@@ -248,10 +221,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithProviderNamespace.withProviderNamespace(String resourceProviderNamespace)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithProviderNamespace.withProviderNamespace(String resourceProviderNamespace)
   type: Method
-  summary: >-
-    <p>Specifies the resource provider's namespace.</p>
-
-    <p></p>
+  summary: "<p>Specifies the resource provider's namespace.</p>\r\n<p></p>"
   syntax:
     content: public WithPlan withProviderNamespace(String resourceProviderNamespace)
     parameters:
@@ -268,7 +238,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -285,7 +255,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -302,10 +272,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithResourceType.withResourceType(String resourceType)
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithResourceType.withResourceType(String resourceType)
   type: Method
-  summary: >-
-    <p>Specifies the resource's type.</p>
-
-    <p></p>
+  summary: "<p>Specifies the resource's type.</p>\r\n<p></p>"
   syntax:
     content: public WithProviderNamespace withResourceType(String resourceType)
     parameters:
@@ -322,7 +289,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -342,7 +309,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -359,7 +326,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.Blank
   type: Interface
-  summary: <p>A generic resource definition allowing region to be specified. </p>
+  summary: "<p>A generic resource definition allowing region to be specified. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithGroup
@@ -369,7 +336,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>A generic resource definition allowing resource group to be specified. </p>
+  summary: "<p>A generic resource definition allowing resource group to be specified. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithResourceType
@@ -379,7 +346,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithResourceType
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithResourceType
   type: Interface
-  summary: <p>A generic resource definition allowing resource type to be specified. </p>
+  summary: "<p>A generic resource definition allowing resource type to be specified. </p>"
   syntax:
     content: public interface WithResourceType
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithProviderNamespace
@@ -389,7 +356,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithProviderNamespace
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithProviderNamespace
   type: Interface
-  summary: <p>A generic resource definition allowing provider namespace to be specified. </p>
+  summary: "<p>A generic resource definition allowing provider namespace to be specified. </p>"
   syntax:
     content: public interface WithProviderNamespace
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
@@ -399,7 +366,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithParentResource
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithParentResource
   type: Interface
-  summary: <p>A generic resource definition allowing parent resource to be specified. </p>
+  summary: "<p>A generic resource definition allowing parent resource to be specified. </p>"
   syntax:
     content: public interface WithParentResource
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan
@@ -409,7 +376,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithPlan
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithPlan
   type: Interface
-  summary: <p>A generic resource definition allowing plan to be specified. </p>
+  summary: "<p>A generic resource definition allowing plan to be specified. </p>"
   syntax:
     content: public interface WithPlan
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion
@@ -419,7 +386,7 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithApiVersion
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithApiVersion
   type: Interface
-  summary: <p>A generic resource definition allowing api version to be specified. </p>
+  summary: "<p>A generic resource definition allowing api version to be specified. </p>"
   syntax:
     content: public interface WithApiVersion
 - uid: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
@@ -429,6 +396,6 @@ references:
   nameWithType: GenericResource.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.resources.GenericResource.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A deployment definition with sufficient inputs to create a new resource in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

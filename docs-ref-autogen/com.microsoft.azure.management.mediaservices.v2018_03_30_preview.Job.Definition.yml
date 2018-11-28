@@ -35,7 +35,7 @@ references:
   nameWithType: Job.DefinitionStages.WithDescription.withDescription(String description)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithDescription.withDescription(String description)
   type: Method
-  summary: <p>Specifies description. </p>
+  summary: "<p>Specifies description. </p>"
   syntax:
     content: public WithCreate withDescription(String description)
     parameters:
@@ -50,7 +50,7 @@ references:
   nameWithType: Job.DefinitionStages.WithTransform.withExistingTransform(String resourceGroupName, String accountName, String transformName)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithTransform.withExistingTransform(String resourceGroupName, String accountName, String transformName)
   type: Method
-  summary: <p>Specifies resourceGroupName, accountName, transformName. </p>
+  summary: "<p>Specifies resourceGroupName, accountName, transformName. </p>"
   syntax:
     content: public WithInput withExistingTransform(String resourceGroupName, String accountName, String transformName)
     parameters:
@@ -69,7 +69,7 @@ references:
   nameWithType: Job.DefinitionStages.WithInput.withInput(JobInput input)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithInput.withInput(JobInput input)
   type: Method
-  summary: <p>Specifies input. </p>
+  summary: "<p>Specifies input. </p>"
   syntax:
     content: public WithOutputs withInput(JobInput input)
     parameters:
@@ -84,7 +84,7 @@ references:
   nameWithType: Job.DefinitionStages.WithOutputs.withOutputs(List<JobOutput> outputs)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithOutputs.withOutputs(List<JobOutput> outputs)
   type: Method
-  summary: <p>Specifies outputs. </p>
+  summary: "<p>Specifies outputs. </p>"
   syntax:
     content: public WithCreate withOutputs(List<JobOutput> outputs)
     parameters:
@@ -99,7 +99,7 @@ references:
   nameWithType: Job.DefinitionStages.WithPriority.withPriority(Priority priority)
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithPriority.withPriority(Priority priority)
   type: Method
-  summary: <p>Specifies priority. </p>
+  summary: "<p>Specifies priority. </p>"
   syntax:
     content: public WithCreate withPriority(Priority priority)
     parameters:
@@ -114,7 +114,7 @@ references:
   nameWithType: Job.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a Job definition. </p>
+  summary: "<p>The first stage of a Job definition. </p>"
   syntax:
     content: public interface Blank extends Job.DefinitionStages.WithTransform
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithTransform
@@ -124,7 +124,7 @@ references:
   nameWithType: Job.DefinitionStages.WithTransform
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithTransform
   type: Interface
-  summary: <p>The stage of the job definition allowing to specify Transform. </p>
+  summary: "<p>The stage of the job definition allowing to specify Transform. </p>"
   syntax:
     content: public interface WithTransform
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithInput
@@ -134,7 +134,7 @@ references:
   nameWithType: Job.DefinitionStages.WithInput
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithInput
   type: Interface
-  summary: <p>The stage of the job definition allowing to specify Input. </p>
+  summary: "<p>The stage of the job definition allowing to specify Input. </p>"
   syntax:
     content: public interface WithInput
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithOutputs
@@ -144,7 +144,7 @@ references:
   nameWithType: Job.DefinitionStages.WithOutputs
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithOutputs
   type: Interface
-  summary: <p>The stage of the job definition allowing to specify Outputs. </p>
+  summary: "<p>The stage of the job definition allowing to specify Outputs. </p>"
   syntax:
     content: public interface WithOutputs
 - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithCreate
@@ -154,6 +154,6 @@ references:
   nameWithType: Job.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.Job.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

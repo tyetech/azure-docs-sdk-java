@@ -46,10 +46,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -82,10 +76,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -122,10 +113,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   type: Method
-  summary: >-
-    <p>Specifies the availability zone for the IP address.</p>
-
-    <p></p>
+  summary: "<p>Specifies the availability zone for the IP address.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withAvailabilityZone(AvailabilityZoneId zoneId)
     parameters:
@@ -142,10 +130,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithIPAddress.withDynamicIP()
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithIPAddress.withDynamicIP()
   type: Method
-  summary: >-
-    <p>Enables dynamic IP address allocation.</p>
-
-    <p></p>
+  summary: "<p>Enables dynamic IP address allocation.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDynamicIP()
     return:
@@ -158,10 +143,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithIdleTimeout.withIdleTimeoutInMinutes(int minutes)
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithIdleTimeout.withIdleTimeoutInMinutes(int minutes)
   type: Method
-  summary: >-
-    <p>Specifies the timeout (in minutes) for an idle connection.</p>
-
-    <p></p>
+  summary: "<p>Specifies the timeout (in minutes) for an idle connection.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withIdleTimeoutInMinutes(int minutes)
     parameters:
@@ -178,10 +160,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithLeafDomainLabel.withLeafDomainLabel(String dnsName)
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithLeafDomainLabel.withLeafDomainLabel(String dnsName)
   type: Method
-  summary: >-
-    <p>Specifies the leaf domain label to associate with this public IP address. </p>
-
-    <p>The fully qualified domain name (FQDN) will be constructed automatically by appending the rest of the domain to this label. </p>
+  summary: "<p>Specifies the leaf domain label to associate with this public IP address. </p>\r\n<p>The fully qualified domain name (FQDN) will be constructed automatically by appending the rest of the domain to this label. </p>"
   syntax:
     content: public WithCreate withLeafDomainLabel(String dnsName)
     parameters:
@@ -198,10 +177,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithLeafDomainLabel.withoutLeafDomainLabel()
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithLeafDomainLabel.withoutLeafDomainLabel()
   type: Method
-  summary: >-
-    <p>Ensures that no leaf domain label will be used. </p>
-
-    <p>This means that this public IP address will not be associated with a domain name. </p>
+  summary: "<p>Ensures that no leaf domain label will be used. </p>\r\n<p>This means that this public IP address will not be associated with a domain name. </p>"
   syntax:
     content: public WithCreate withoutLeafDomainLabel()
     return:
@@ -214,7 +190,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithReverseFQDN.withoutReverseFqdn()
   type: Method
-  summary: <p>Ensures that no reverse FQDN will be used. </p>
+  summary: "<p>Ensures that no reverse FQDN will be used. </p>"
   syntax:
     content: public WithCreate withoutReverseFqdn()
     return:
@@ -227,10 +203,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithReverseFQDN.withReverseFqdn(String reverseFQDN)
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithReverseFQDN.withReverseFqdn(String reverseFQDN)
   type: Method
-  summary: >-
-    <p>Specifies the reverse FQDN to assign to this public IP address. </p>
-
-    <p></p>
+  summary: "<p>Specifies the reverse FQDN to assign to this public IP address. </p>\r\n<p></p>"
   syntax:
     content: public WithCreate withReverseFqdn(String reverseFQDN)
     parameters:
@@ -247,10 +220,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithSku.withSku(PublicIPSkuType skuType)
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithSku.withSku(PublicIPSkuType skuType)
   type: Method
-  summary: >-
-    <p>Specifies the SKU for the IP address.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU for the IP address.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(PublicIPSkuType skuType)
     parameters:
@@ -267,12 +237,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithIPAddress.withStaticIP()
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithIPAddress.withStaticIP()
   type: Method
-  summary: >-
-    <p>Enables static IP address allocation. </p>
-
-    <p>Use <xref uid="com.microsoft.azure.management.network.PublicIPAddress.ipAddress()" data-throw-if-not-resolved="false">PublicIPAddress#ipAddress()</xref> after the public IP address is created to obtain the actual IP address allocated for this resource by Azure</p>
-
-    <p></p>
+  summary: "<p>Enables static IP address allocation. </p>\r\n<p>Use <xref uid=\"com.microsoft.azure.management.network.PublicIPAddress.ipAddress()\" data-throw-if-not-resolved=\"false\">PublicIPAddress#ipAddress()</xref> after the public IP address is created to obtain the actual IP address allocated for this resource by Azure</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withStaticIP()
     return:
@@ -285,7 +250,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -305,7 +270,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -322,7 +287,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a public IP address definition. </p>
+  summary: "<p>The first stage of a public IP address definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithGroup
@@ -332,7 +297,7 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the public IP address definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the public IP address definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithCreate
@@ -342,6 +307,6 @@ references:
   nameWithType: PublicIPAddress.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.PublicIPAddress.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the public IP definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

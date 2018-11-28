@@ -59,16 +59,7 @@ references:
   nameWithType: SpringBootTelemetryInitializer
   fullName: com.microsoft.applicationinsights.autoconfigure.initializer.SpringBootTelemetryInitializer
   type: Class
-  summary: >-
-    <p>
-
-      <heading level="1">TelemetryInitializer to set the CloudRoleName Instance</heading>
-
-    </p>
-
-    <p>This Telemetry Initializer is used to auto-configure cloud_RoleName field to get a logical component on AppMap. </p>
-
-    <p></p>
+  summary: "<p>\r\n  <heading level=\"1\">TelemetryInitializer to set the CloudRoleName Instance</heading>\r\n</p>\r\n<p>This Telemetry Initializer is used to auto-configure cloud_RoleName field to get a logical component on AppMap. </p>\r\n<p></p>"
   syntax:
     content: public class SpringBootTelemetryInitializer implements TelemetryInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer
@@ -78,7 +69,7 @@ references:
   nameWithType: DockerContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer
   type: Class
-  summary: '<p>This initializer is required for Docker awareness. The initializer has two goals: 1) Identify Docker context file injected by Application Insight for Docker container and initialize telemetries with Docker context. 2) Write SDK context file which enables the Application Insights for Docker container to discover containers with integrated SDK, and stop sending performance counters in that case (SDK provides OOB performance counters). </p>'
+  summary: "<p>This initializer is required for Docker awareness. The initializer has two goals: 1) Identify Docker context file injected by Application Insight for Docker container and initialize telemetries with Docker context. 2) Write SDK context file which enables the Application Insights for Docker container to discover containers with integrated SDK, and stop sending performance counters in that case (SDK provides OOB performance counters). </p>"
   syntax:
     content: public class DockerContextInitializer implements TelemetryInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.SequencePropertyInitializer
@@ -88,7 +79,7 @@ references:
   nameWithType: SequencePropertyInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.SequencePropertyInitializer
   type: Class
-  summary: <p>An <xref uid="com.microsoft.applicationinsights.extensibility.TelemetryInitializer" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.extensibility.TelemetryInitializer</xref> implementation that populates Sequence property to ensure correct ordering of the telemetry in the portal. </p>
+  summary: "<p>An <xref uid=\"com.microsoft.applicationinsights.extensibility.TelemetryInitializer\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.extensibility.TelemetryInitializer</xref> implementation that populates Sequence property to ensure correct ordering of the telemetry in the portal. </p>"
   syntax:
     content: public class SequencePropertyInitializer implements TelemetryInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.TimestampPropertyInitializer
@@ -98,7 +89,7 @@ references:
   nameWithType: TimestampPropertyInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.TimestampPropertyInitializer
   type: Class
-  summary: <p>An <xref uid="com.microsoft.applicationinsights.extensibility.TelemetryInitializer" data-throw-if-not-resolved="false">TelemetryInitializer</xref> implementation that sets the timestamp on the <xref uid="com.microsoft.applicationinsights.telemetry.Telemetry" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.Telemetry</xref> unless the timestamp is already set. </p>
+  summary: "<p>An <xref uid=\"com.microsoft.applicationinsights.extensibility.TelemetryInitializer\" data-throw-if-not-resolved=\"false\">TelemetryInitializer</xref> implementation that sets the timestamp on the <xref uid=\"com.microsoft.applicationinsights.telemetry.Telemetry\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.telemetry.Telemetry</xref> unless the timestamp is already set. </p>"
   syntax:
     content: public class TimestampPropertyInitializer
 - uid: com.microsoft.applicationinsights.autoconfigure.initializer.SpringBootTelemetryInitializer.initialize(Telemetry)
@@ -108,7 +99,7 @@ references:
   nameWithType: SpringBootTelemetryInitializer.initialize(Telemetry telemetry)
   fullName: com.microsoft.applicationinsights.autoconfigure.initializer.SpringBootTelemetryInitializer.initialize(Telemetry telemetry)
   type: Method
-  summary: <p>Initializes properties of the specified object. </p>
+  summary: "<p>Initializes properties of the specified object. </p>"
   syntax:
     content: public void initialize(Telemetry telemetry)
     parameters:
@@ -122,7 +113,7 @@ references:
   nameWithType: TimestampPropertyInitializer.initialize(Telemetry telemetry)
   fullName: com.microsoft.applicationinsights.extensibility.initializer.TimestampPropertyInitializer.initialize(Telemetry telemetry)
   type: Method
-  summary: <p>Sets the timestamp to 'now' unless the timestamp is already set. </p>
+  summary: "<p>Sets the timestamp to 'now' unless the timestamp is already set. </p>"
   syntax:
     content: public void initialize(Telemetry telemetry)
     parameters:
@@ -136,7 +127,7 @@ references:
   nameWithType: SequencePropertyInitializer.initialize(Telemetry telemetry)
   fullName: com.microsoft.applicationinsights.extensibility.initializer.SequencePropertyInitializer.initialize(Telemetry telemetry)
   type: Method
-  summary: <p>Sets the Telemetry's sequence if there that sequence is null or empty. </p>
+  summary: "<p>Sets the Telemetry's sequence if there that sequence is null or empty. </p>"
   syntax:
     content: public void initialize(Telemetry telemetry)
     parameters:
@@ -150,7 +141,7 @@ references:
   nameWithType: DockerContextInitializer.initialize(Telemetry telemetry)
   fullName: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer.initialize(Telemetry telemetry)
   type: Method
-  summary: <p>Initialize the given telemetry with the Docker context. </p>
+  summary: "<p>Initialize the given telemetry with the Docker context. </p>"
   syntax:
     content: public void initialize(Telemetry telemetry)
     parameters:
@@ -164,6 +155,6 @@ references:
   nameWithType: Telemetry
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry
   type: Interface
-  summary: <p>The base telemetry type interface for application insights. </p>
+  summary: "<p>The base telemetry type interface for application insights. </p>"
   syntax:
     content: public interface Telemetry extends JsonSerializable

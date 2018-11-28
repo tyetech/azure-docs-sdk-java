@@ -82,7 +82,7 @@ references:
   nameWithType: Subnet.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a Subnet definition. </p>
+  summary: "<p>The entirety of a Subnet definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends Subnet.DefinitionStages.Blank<ParentT>,Subnet.DefinitionStages.WithAddressPrefix<ParentT>,Subnet.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -96,7 +96,7 @@ references:
   nameWithType: Subnet.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the subnet definition. </p>
+  summary: "<p>The first stage of the subnet definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends Subnet.DefinitionStages.WithAddressPrefix<ParentT>
     typeParameters:
@@ -110,10 +110,7 @@ references:
   nameWithType: Subnet.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.Subnet.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the subnet definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the subnet definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

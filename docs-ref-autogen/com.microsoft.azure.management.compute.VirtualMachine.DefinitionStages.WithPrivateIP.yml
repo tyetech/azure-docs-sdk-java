@@ -94,7 +94,7 @@ references:
   nameWithType: VirtualMachine.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachine.DefinitionStages.Blank,VirtualMachine.DefinitionStages.WithGroup,VirtualMachine.DefinitionStages.WithNetwork,VirtualMachine.DefinitionStages.WithSubnet,VirtualMachine.DefinitionStages.WithPrivateIP,VirtualMachine.DefinitionStages.WithPublicIPAddress,VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface,VirtualMachine.DefinitionStages.WithOS,VirtualMachine.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionUnmanaged
@@ -104,7 +104,7 @@ references:
   nameWithType: VirtualMachine.DefinitionUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionUnmanaged
   type: Interface
-  summary: <p>The entirety of the unmanaged disk based virtual machine definition. </p>
+  summary: "<p>The entirety of the unmanaged disk based virtual machine definition. </p>"
   syntax:
     content: public interface DefinitionUnmanaged extends VirtualMachine.DefinitionStages.Blank,VirtualMachine.DefinitionStages.WithGroup,VirtualMachine.DefinitionStages.WithNetwork,VirtualMachine.DefinitionStages.WithSubnet,VirtualMachine.DefinitionStages.WithPrivateIP,VirtualMachine.DefinitionStages.WithPublicIPAddress,VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface,VirtualMachine.DefinitionStages.WithOS,VirtualMachine.DefinitionStages.WithLinuxRootUsernameUnmanaged,VirtualMachine.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminUsernameUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminPasswordUnmanaged,VirtualMachine.DefinitionStages.WithFromImageCreateOptionsUnmanaged,VirtualMachine.DefinitionStages.WithLinuxCreateUnmanaged,VirtualMachine.DefinitionStages.WithWindowsCreateUnmanaged,VirtualMachine.DefinitionStages.WithUnmanagedCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress
@@ -114,6 +114,6 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithPublicIPAddress
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithPublicIPAddress
   type: Interface
-  summary: <p>The stage of a virtual machine definition allowing to associate a public IP address with its primary network interface. </p>
+  summary: "<p>The stage of a virtual machine definition allowing to associate a public IP address with its primary network interface. </p>"
   syntax:
     content: public interface WithPublicIPAddress

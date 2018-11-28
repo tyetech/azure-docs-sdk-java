@@ -94,7 +94,7 @@ references:
   nameWithType: NetworkInterface.Definition
   fullName: com.microsoft.azure.management.network.NetworkInterface.Definition
   type: Interface
-  summary: <p>The entirety of the network interface definition. </p>
+  summary: "<p>The entirety of the network interface definition. </p>"
   syntax:
     content: public interface Definition extends NetworkInterface.DefinitionStages.Blank,NetworkInterface.DefinitionStages.WithGroup,NetworkInterface.DefinitionStages.WithPrimaryNetwork,NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet,NetworkInterface.DefinitionStages.WithPrimaryPrivateIP,NetworkInterface.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate
@@ -104,6 +104,6 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<NetworkInterface>,Resource.DefinitionWithTags<WithCreate>,NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress,NetworkInterface.DefinitionStages.WithNetworkSecurityGroup,NetworkInterface.DefinitionStages.WithSecondaryIPConfiguration,NetworkInterface.DefinitionStages.WithAcceleratedNetworking,NetworkInterface.DefinitionStages.WithLoadBalancer

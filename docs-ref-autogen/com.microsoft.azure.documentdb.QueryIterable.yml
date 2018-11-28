@@ -346,7 +346,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.documentdb.Resource
   type: Class
-  summary: <p>Represents the base resource in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the base resource in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Resource
 - uid: com.microsoft.azure.documentdb.DocumentClient
@@ -356,10 +356,7 @@ references:
   nameWithType: DocumentClient
   fullName: com.microsoft.azure.documentdb.DocumentClient
   type: Class
-  summary: >-
-    <p>Provides a client-side logical representation of the Azure Cosmos DB service. This client is used to configure and execute requests against the service. </p>
-
-    <p>The service client encapsulates the endpoint and credentials used to access the Azure Cosmos DB service. </p>
+  summary: "<p>Provides a client-side logical representation of the Azure Cosmos DB service. This client is used to configure and execute requests against the service. </p>\r\n<p>The service client encapsulates the endpoint and credentials used to access the Azure Cosmos DB service. </p>"
   syntax:
     content: public class DocumentClient
 - uid: com.microsoft.azure.documentdb.SqlQuerySpec
@@ -369,7 +366,7 @@ references:
   nameWithType: SqlQuerySpec
   fullName: com.microsoft.azure.documentdb.SqlQuerySpec
   type: Class
-  summary: <p>Represents a SQL query in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a SQL query in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SqlQuerySpec
 - uid: com.microsoft.azure.documentdb.FeedOptionsBase
@@ -379,7 +376,7 @@ references:
   nameWithType: FeedOptionsBase
   fullName: com.microsoft.azure.documentdb.FeedOptionsBase
   type: Class
-  summary: <p>Specifies the common options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>
+  summary: "<p>Specifies the common options associated with feed methods (enumeration operations) in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class FeedOptionsBase
 - uid: com.microsoft.azure.documentdb.DocumentClientException
@@ -389,13 +386,6 @@ references:
   nameWithType: DocumentClientException
   fullName: com.microsoft.azure.documentdb.DocumentClientException
   type: Class
-  summary: >-
-    <p>This class defines a custom exception type for all operations on DocumentClient in the Azure Cosmos DB database service. Applications are expected to catch DocumentClientException and handle errors as appropriate when calling methods on DocumentClient. </p>
-
-    <p>Errors coming from the service during normal execution are converted to DocumentClientException before returning to the application with the following exception: </p>
-
-    <p>When a BE error is encountered during a QueryIterable&lt;T&gt; iteration, an IllegalStateException is thrown instead of DocumentClientException. </p>
-
-    <p>When a transport level error happens that request is not able to reach the service, an IllegalStateException is thrown instead of DocumentClientException. </p>
+  summary: "<p>This class defines a custom exception type for all operations on DocumentClient in the Azure Cosmos DB database service. Applications are expected to catch DocumentClientException and handle errors as appropriate when calling methods on DocumentClient. </p>\r\n<p>Errors coming from the service during normal execution are converted to DocumentClientException before returning to the application with the following exception: </p>\r\n<p>When a BE error is encountered during a QueryIterable&lt;T&gt; iteration, an IllegalStateException is thrown instead of DocumentClientException. </p>\r\n<p>When a transport level error happens that request is not able to reach the service, an IllegalStateException is thrown instead of DocumentClientException. </p>"
   syntax:
     content: public class DocumentClientException

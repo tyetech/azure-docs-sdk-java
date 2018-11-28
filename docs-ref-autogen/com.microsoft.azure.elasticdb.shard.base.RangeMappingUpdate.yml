@@ -105,7 +105,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.getShard()
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.getShard()
   type: Method
-  summary: <p>Gets the Shard property. </p>
+  summary: "<p>Gets the Shard property. </p>"
   syntax:
     content: public final Shard getShard()
     return:
@@ -117,7 +117,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.getStatus()
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.getStatus()
   type: Method
-  summary: <p>Gets the Status property. </p>
+  summary: "<p>Gets the Status property. </p>"
   syntax:
     content: public final StatusT getStatus()
     return:
@@ -129,10 +129,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.isAnyPropertySet(MappingUpdatedProperties properties)
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.isAnyPropertySet(MappingUpdatedProperties properties)
   type: Method
-  summary: >-
-    <p>Checks if any property is set in the given bitmap.</p>
-
-    <p></p>
+  summary: "<p>Checks if any property is set in the given bitmap.</p>\r\n<p></p>"
   syntax:
     content: public final boolean isAnyPropertySet(MappingUpdatedProperties properties)
     parameters:
@@ -149,10 +146,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.isBeingTakenOffline(StatusT originalStatus, StatusT updatedStatus)
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.isBeingTakenOffline(StatusT originalStatus, StatusT updatedStatus)
   type: Method
-  summary: >-
-    <p>Detects if the current mapping is being taken offline.</p>
-
-    <p></p>
+  summary: "<p>Detects if the current mapping is being taken offline.</p>\r\n<p></p>"
   syntax:
     content: protected abstract boolean isBeingTakenOffline(StatusT originalStatus, StatusT updatedStatus)
     parameters:
@@ -172,10 +166,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.isMappingBeingTakenOffline(StatusT originalStatus)
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.isMappingBeingTakenOffline(StatusT originalStatus)
   type: Method
-  summary: >-
-    <p>Checks if the mapping is being taken offline.</p>
-
-    <p></p>
+  summary: "<p>Checks if the mapping is being taken offline.</p>\r\n<p></p>"
   syntax:
     content: public final boolean isMappingBeingTakenOffline(StatusT originalStatus)
     parameters:
@@ -192,7 +183,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.setShard(Shard value)
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.setShard(Shard value)
   type: Method
-  summary: <p>Sets the Shard property. </p>
+  summary: "<p>Sets the Shard property. </p>"
   syntax:
     content: public final void setShard(Shard value)
     parameters:
@@ -207,7 +198,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>.setStatus(StatusT value)
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>.setStatus(StatusT value)
   type: Method
-  summary: <p>Sets the Status property. </p>
+  summary: "<p>Sets the Status property. </p>"
   syntax:
     content: public final void setStatus(StatusT value)
     parameters:
@@ -222,7 +213,7 @@ references:
   nameWithType: BaseMappingUpdate<StatusT>
   fullName: com.microsoft.azure.elasticdb.shard.base.BaseMappingUpdate<StatusT>
   type: Class
-  summary: <p>Base class for updates to mappings from shardlets to shards. </p>
+  summary: "<p>Base class for updates to mappings from shardlets to shards. </p>"
   syntax:
     content: public class BaseMappingUpdate<StatusT> implements IMappingUpdate<StatusT>
     typeParameters:
@@ -235,7 +226,7 @@ references:
   nameWithType: MappingStatus
   fullName: com.microsoft.azure.elasticdb.shard.base.MappingStatus
   type: Enum
-  summary: <p>Status of a mapping. </p>
+  summary: "<p>Status of a mapping. </p>"
   syntax:
     content: public enum MappingStatus
 - uid: com.microsoft.azure.elasticdb.shard.base.Range
@@ -245,7 +236,7 @@ references:
   nameWithType: Range
   fullName: com.microsoft.azure.elasticdb.shard.base.Range
   type: Class
-  summary: <p>Represents a left-inclusive, right-exclusive range of values. </p>
+  summary: "<p>Represents a left-inclusive, right-exclusive range of values. </p>"
   syntax:
     content: public class Range
 - uid: com.microsoft.azure.elasticdb.shard.base.Shard
@@ -255,7 +246,7 @@ references:
   nameWithType: Shard
   fullName: com.microsoft.azure.elasticdb.shard.base.Shard
   type: Class
-  summary: <p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid="com.microsoft.azure.elasticdb.shard.base.ShardLocation" data-throw-if-not-resolved="false">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid="com.microsoft.azure.elasticdb.shard.base.PointMapping" data-throw-if-not-resolved="false">PointMapping</xref> and <xref uid="com.microsoft.azure.elasticdb.shard.base.RangeMapping" data-throw-if-not-resolved="false">RangeMapping</xref>). </p>
+  summary: "<p>Representation of a single shard. Shards are basically locators for data sources i.e. <xref uid=\"com.microsoft.azure.elasticdb.shard.base.ShardLocation\" data-throw-if-not-resolved=\"false\">ShardLocation</xref>s that have been registered with a shard map. Shards are used in mapping as targets of mappings (see <xref uid=\"com.microsoft.azure.elasticdb.shard.base.PointMapping\" data-throw-if-not-resolved=\"false\">PointMapping</xref> and <xref uid=\"com.microsoft.azure.elasticdb.shard.base.RangeMapping\" data-throw-if-not-resolved=\"false\">RangeMapping</xref>). </p>"
   syntax:
     content: public class Shard
 - uid: com.microsoft.azure.elasticdb.shard.base.RangeMapping
@@ -265,6 +256,6 @@ references:
   nameWithType: RangeMapping
   fullName: com.microsoft.azure.elasticdb.shard.base.RangeMapping
   type: Class
-  summary: <p>Represents a mapping between a range of key values and a <xref uid="com.microsoft.azure.elasticdb.shard.base.Shard" data-throw-if-not-resolved="false">Shard</xref>. </p>
+  summary: "<p>Represents a mapping between a range of key values and a <xref uid=\"com.microsoft.azure.elasticdb.shard.base.Shard\" data-throw-if-not-resolved=\"false\">Shard</xref>. </p>"
   syntax:
     content: public class RangeMapping implements IShardProvider<Range>,IMappingInfoProvider

@@ -82,7 +82,7 @@ references:
   nameWithType: Webhook.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container registry's webhook update definition. </p>
+  summary: "<p>Grouping of the container registry's webhook update definition. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Webhook.UpdateDefinitionStages.Blank<ParentT>,Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>,Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>,Webhook.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -96,10 +96,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the webhook definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the webhook definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
     typeParameters:
@@ -113,10 +110,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithServiceUri<ParentT>
     typeParameters:

@@ -873,10 +873,7 @@ references:
   nameWithType: TelemetryConfiguration
   fullName: com.microsoft.applicationinsights.TelemetryConfiguration
   type: Class
-  summary: >-
-    <p>Encapsulates the global telemetry configuration typically loaded from the ApplicationInsights.xml file.</p>
-
-    <p>All <xref uid="com.microsoft.applicationinsights.telemetry.TelemetryContext" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>
+  summary: "<p>Encapsulates the global telemetry configuration typically loaded from the ApplicationInsights.xml file.</p>\r\n<p>All <xref uid=\"com.microsoft.applicationinsights.telemetry.TelemetryContext\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>"
   syntax:
     content: public class TelemetryConfiguration
 - uid: com.microsoft.applicationinsights.telemetry.TelemetryContext
@@ -886,7 +883,7 @@ references:
   nameWithType: TelemetryContext
   fullName: com.microsoft.applicationinsights.telemetry.TelemetryContext
   type: Class
-  summary: <p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>
+  summary: "<p>Represents a context for sending telemetry to the Application Insights service. The context holds data that is sent with every telemetry item. It includes the instrumentation key; the current operation id, for correlating related telemetry items; and user, session and device data. You can also set properties that are added to every telemetry item, and can be used in the portal to filter the telemetry that used this context. </p>"
   syntax:
     content: public class TelemetryContext
 - uid: com.microsoft.applicationinsights.channel.TelemetryChannel
@@ -896,7 +893,7 @@ references:
   nameWithType: TelemetryChannel
   fullName: com.microsoft.applicationinsights.channel.TelemetryChannel
   type: Interface
-  summary: <p>Represents a communication channel for sending telemetry to Azure Application Insights. </p>
+  summary: "<p>Represents a communication channel for sending telemetry to Azure Application Insights. </p>"
   syntax:
     content: public interface TelemetryChannel
 - uid: com.microsoft.applicationinsights.telemetry.SessionState
@@ -906,7 +903,7 @@ references:
   nameWithType: SessionState
   fullName: com.microsoft.applicationinsights.telemetry.SessionState
   type: Enum
-  summary: <p>Session states. </p>
+  summary: "<p>Session states. </p>"
   syntax:
     content: public enum SessionState
 - uid: com.microsoft.applicationinsights.TelemetryClient.trackEvent(String)
@@ -916,7 +913,7 @@ references:
   nameWithType: TelemetryClient.trackEvent(String name)
   fullName: com.microsoft.applicationinsights.TelemetryClient.trackEvent(String name)
   type: Method
-  summary: <p>Sends a custom event record to Application Insights. Appears in "custom events" in Analytics, Search and Metrics Explorer. </p>
+  summary: "<p>Sends a custom event record to Application Insights. Appears in \"custom events\" in Analytics, Search and Metrics Explorer. </p>"
   syntax: *o1
 - uid: com.microsoft.applicationinsights.telemetry.EventTelemetry
   parent: com.microsoft.applicationinsights.telemetry
@@ -925,7 +922,7 @@ references:
   nameWithType: EventTelemetry
   fullName: com.microsoft.applicationinsights.telemetry.EventTelemetry
   type: Class
-  summary: <p>Telemetry type used to track custom events in Azure Application Insights. </p>
+  summary: "<p>Telemetry type used to track custom events in Azure Application Insights. </p>"
   syntax:
     content: public class EventTelemetry extends BaseSampleSourceTelemetry<EventData>
 - uid: com.microsoft.applicationinsights.telemetry.SeverityLevel
@@ -935,7 +932,7 @@ references:
   nameWithType: SeverityLevel
   fullName: com.microsoft.applicationinsights.telemetry.SeverityLevel
   type: Enum
-  summary: <p>Enum SeverityLevel. </p>
+  summary: "<p>Enum SeverityLevel. </p>"
   syntax:
     content: public enum SeverityLevel
 - uid: com.microsoft.applicationinsights.telemetry.TraceTelemetry
@@ -945,7 +942,7 @@ references:
   nameWithType: TraceTelemetry
   fullName: com.microsoft.applicationinsights.telemetry.TraceTelemetry
   type: Class
-  summary: <p>Telemetry type used for log messages. </p>
+  summary: "<p>Telemetry type used for log messages. </p>"
   syntax:
     content: public class TraceTelemetry
 - uid: com.microsoft.applicationinsights.telemetry.Telemetry
@@ -955,7 +952,7 @@ references:
   nameWithType: Telemetry
   fullName: com.microsoft.applicationinsights.telemetry.Telemetry
   type: Interface
-  summary: <p>The base telemetry type interface for application insights. </p>
+  summary: "<p>The base telemetry type interface for application insights. </p>"
   syntax:
     content: public interface Telemetry extends JsonSerializable
 - uid: com.microsoft.applicationinsights.telemetry.MetricTelemetry
@@ -965,10 +962,7 @@ references:
   nameWithType: MetricTelemetry
   fullName: com.microsoft.applicationinsights.telemetry.MetricTelemetry
   type: Class
-  summary: >-
-    <p>Telemetry type used to track metrics sent to Azure Application Insights. </p>
-
-    <p>This represents a Measurement, if only Name and Value are set. If Count, Min, Max or Standard Deviation are set, this represents an Aggregation; a sampled set of points summarized by these statistic fields. In an Aggregation metric, the value, i.e. <xref uid="com.microsoft.applicationinsights.telemetry.MetricTelemetry.getValue()" data-throw-if-not-resolved="false">getValue()</xref>, represents the sum of sampled data points. </p>
+  summary: "<p>Telemetry type used to track metrics sent to Azure Application Insights. </p>\r\n<p>This represents a Measurement, if only Name and Value are set. If Count, Min, Max or Standard Deviation are set, this represents an Aggregation; a sampled set of points summarized by these statistic fields. In an Aggregation metric, the value, i.e. <xref uid=\"com.microsoft.applicationinsights.telemetry.MetricTelemetry.getValue()\" data-throw-if-not-resolved=\"false\">getValue()</xref>, represents the sum of sampled data points. </p>"
   syntax:
     content: public class MetricTelemetry extends BaseTelemetry<MetricData>
 - uid: com.microsoft.applicationinsights.telemetry.ExceptionTelemetry
@@ -978,7 +972,7 @@ references:
   nameWithType: ExceptionTelemetry
   fullName: com.microsoft.applicationinsights.telemetry.ExceptionTelemetry
   type: Class
-  summary: <p>Telemetry type used to track exceptions sent to Azure Application Insights. </p>
+  summary: "<p>Telemetry type used to track exceptions sent to Azure Application Insights. </p>"
   syntax:
     content: public class ExceptionTelemetry extends BaseSampleSourceTelemetry<ExceptionData>
 - uid: com.microsoft.applicationinsights.telemetry.RequestTelemetry
@@ -988,10 +982,7 @@ references:
   nameWithType: RequestTelemetry
   fullName: com.microsoft.applicationinsights.telemetry.RequestTelemetry
   type: Class
-  summary: >-
-    <p>Encapsulates information about a web request handled by the application.</p>
-
-    <p>You can send information about requests processed by your web application to Application Insights by passing an instance of this class to the 'trackRequest' method of the <xref uid="com.microsoft.applicationinsights.TelemetryClient" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.TelemetryClient</xref></p>
+  summary: "<p>Encapsulates information about a web request handled by the application.</p>\r\n<p>You can send information about requests processed by your web application to Application Insights by passing an instance of this class to the 'trackRequest' method of the <xref uid=\"com.microsoft.applicationinsights.TelemetryClient\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.TelemetryClient</xref></p>"
   syntax:
     content: public class RequestTelemetry extends BaseSampleSourceTelemetry<RequestData>
 - uid: com.microsoft.applicationinsights.telemetry.Duration
@@ -1001,10 +992,7 @@ references:
   nameWithType: Duration
   fullName: com.microsoft.applicationinsights.telemetry.Duration
   type: Class
-  summary: >-
-    <p>This class lets its users to define an interval of time which can be defined in terms of days, hours, minutes, seconds and milliseconds.</p>
-
-    <p>It has various constructors to let the user easily define an interval of time. </p>
+  summary: "<p>This class lets its users to define an interval of time which can be defined in terms of days, hours, minutes, seconds and milliseconds.</p>\r\n<p>It has various constructors to let the user easily define an interval of time. </p>"
   syntax:
     content: public class Duration
 - uid: com.microsoft.applicationinsights.telemetry.RemoteDependencyTelemetry
@@ -1014,7 +1002,7 @@ references:
   nameWithType: RemoteDependencyTelemetry
   fullName: com.microsoft.applicationinsights.telemetry.RemoteDependencyTelemetry
   type: Class
-  summary: <p>Telemetry sent to Azure Application Insights about dependencies - that is, calls from your application to external services such as databases or REST APIs. </p>
+  summary: "<p>Telemetry sent to Azure Application Insights about dependencies - that is, calls from your application to external services such as databases or REST APIs. </p>"
   syntax:
     content: public class RemoteDependencyTelemetry extends BaseSampleSourceTelemetry<RemoteDependencyData>
 - uid: com.microsoft.applicationinsights.telemetry.PageViewTelemetry
@@ -1024,9 +1012,6 @@ references:
   nameWithType: PageViewTelemetry
   fullName: com.microsoft.applicationinsights.telemetry.PageViewTelemetry
   type: Class
-  summary: >-
-    <p>Telemetry type used to track page views.</p>
-
-    <p>You can send information about pages viewed by your application to Application Insights by passing an instance of this class to the 'trackPageView' method of the <xref uid="com.microsoft.applicationinsights.TelemetryClient" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.TelemetryClient</xref></p>
+  summary: "<p>Telemetry type used to track page views.</p>\r\n<p>You can send information about pages viewed by your application to Application Insights by passing an instance of this class to the 'trackPageView' method of the <xref uid=\"com.microsoft.applicationinsights.TelemetryClient\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.TelemetryClient</xref></p>"
   syntax:
     content: public class PageViewTelemetry extends BaseSampleSourceTelemetry<PageViewData>

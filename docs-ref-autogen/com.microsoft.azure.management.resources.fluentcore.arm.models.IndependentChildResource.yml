@@ -110,7 +110,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -127,7 +127,7 @@ references:
   nameWithType: IndependentChild<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.IndependentChild<ManagerT>
   type: Interface
-  summary: <p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>
+  summary: "<p>Interface for the child resource which can be CRUDed independently from the parent resource. </p>"
   syntax:
     content: public interface IndependentChild<ManagerT> extends HasName,HasId,Indexable,HasResourceGroup,HasManager<ManagerT>
     typeParameters:
@@ -141,7 +141,7 @@ references:
   nameWithType: AppServiceCertificateKeyVaultBinding
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateKeyVaultBinding
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure App Service Key Vault binding. </p>
+  summary: "<p>An immutable client-side representation of an Azure App Service Key Vault binding. </p>"
   syntax:
     content: public interface AppServiceCertificateKeyVaultBinding extends IndependentChildResource<AppServiceManager, AppServiceCertificateResourceInner>
 - uid: com.microsoft.azure.management.appservice.DeploymentSlot
@@ -151,7 +151,7 @@ references:
   nameWithType: DeploymentSlot
   fullName: com.microsoft.azure.management.appservice.DeploymentSlot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Web App deployment slot. </p>
+  summary: "<p>An immutable client-side representation of an Azure Web App deployment slot. </p>"
   syntax:
     content: public interface DeploymentSlot extends IndependentChildResource<AppServiceManager, SiteInner>,WebAppBase,Refreshable<DeploymentSlot>,Updatable<DeploymentSlot.Update>,HasParent<WebApp>
 - uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot
@@ -161,7 +161,7 @@ references:
   nameWithType: FunctionDeploymentSlot
   fullName: com.microsoft.azure.management.appservice.FunctionDeploymentSlot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Function App deployment slot. </p>
+  summary: "<p>An immutable client-side representation of an Azure Function App deployment slot. </p>"
   syntax:
     content: public interface FunctionDeploymentSlot extends IndependentChildResource<AppServiceManager, SiteInner>,WebAppBase,Refreshable<FunctionDeploymentSlot>,Updatable<FunctionDeploymentSlot.Update>,HasParent<FunctionApp>
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewayConnection
@@ -171,7 +171,7 @@ references:
   nameWithType: VirtualNetworkGatewayConnection
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayConnection
   type: Interface
-  summary: <p>Client-side representation of Virtual Network Gateway Connection object, associated with Virtual Network Gateway. </p>
+  summary: "<p>Client-side representation of Virtual Network Gateway Connection object, associated with Virtual Network Gateway. </p>"
   syntax:
     content: public interface VirtualNetworkGatewayConnection
 - uid: com.microsoft.azure.management.servicebus.AuthorizationRule
@@ -181,10 +181,7 @@ references:
   nameWithType: AuthorizationRule<RuleT>
   fullName: com.microsoft.azure.management.servicebus.AuthorizationRule<RuleT>
   type: Interface
-  summary: >-
-    <p>Type representing authorization rule.</p>
-
-    <p></p>
+  summary: "<p>Type representing authorization rule.</p>\r\n<p></p>"
   syntax:
     content: public interface AuthorizationRule<RuleT extends AuthorizationRule<RuleT>> extends IndependentChildResource<ServiceBusManager, SharedAccessAuthorizationRuleInner>,Refreshable<RuleT>
     typeParameters:
@@ -198,7 +195,7 @@ references:
   nameWithType: Queue
   fullName: com.microsoft.azure.management.servicebus.Queue
   type: Interface
-  summary: <p>Type representing Service Bus queue. </p>
+  summary: "<p>Type representing Service Bus queue. </p>"
   syntax:
     content: public interface Queue
 - uid: com.microsoft.azure.management.servicebus.ServiceBusSubscription
@@ -208,7 +205,7 @@ references:
   nameWithType: ServiceBusSubscription
   fullName: com.microsoft.azure.management.servicebus.ServiceBusSubscription
   type: Interface
-  summary: <p>Type representing service bus topic subscription. </p>
+  summary: "<p>Type representing service bus topic subscription. </p>"
   syntax:
     content: public interface ServiceBusSubscription
 - uid: com.microsoft.azure.management.servicebus.Topic
@@ -218,7 +215,7 @@ references:
   nameWithType: Topic
   fullName: com.microsoft.azure.management.servicebus.Topic
   type: Interface
-  summary: <p>Type representing Service Bus topic. </p>
+  summary: "<p>Type representing Service Bus topic. </p>"
   syntax:
     content: public interface Topic
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -228,10 +225,7 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase
 - uid: com.microsoft.azure.management.sql.SqlElasticPool
@@ -241,9 +235,6 @@ references:
   nameWithType: SqlElasticPool
   fullName: com.microsoft.azure.management.sql.SqlElasticPool
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>
-
-    <p>An immutable client-side representation of an Azure SQL ElasticPool. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Elastic Pool.</p>\r\n<p>An immutable client-side representation of an Azure SQL ElasticPool. </p>"
   syntax:
     content: public interface SqlElasticPool

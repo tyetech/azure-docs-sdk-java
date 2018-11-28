@@ -453,10 +453,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -469,10 +466,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -545,12 +539,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -563,7 +552,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -580,10 +569,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -597,10 +583,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -614,7 +597,7 @@ references:
   nameWithType: PacketCaptures
   fullName: com.microsoft.azure.management.network.PacketCaptures
   type: Interface
-  summary: <p>Entry point to packet captures management API in Azure. </p>
+  summary: "<p>Entry point to packet captures management API in Azure. </p>"
   syntax:
     content: public interface PacketCaptures
 - uid: com.microsoft.azure.management.network.Topology
@@ -624,7 +607,7 @@ references:
   nameWithType: Topology
   fullName: com.microsoft.azure.management.network.Topology
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure Topology info object, associated with network watcher. </p>
+  summary: "<p>An immutable client-side representation of an Azure Topology info object, associated with network watcher. </p>"
   syntax:
     content: public interface Topology
 - uid: com.microsoft.azure.management.network.SecurityGroupView
@@ -634,7 +617,7 @@ references:
   nameWithType: SecurityGroupView
   fullName: com.microsoft.azure.management.network.SecurityGroupView
   type: Interface
-  summary: <p>The information about security rules applied to the specified VM.. </p>
+  summary: "<p>The information about security rules applied to the specified VM.. </p>"
   syntax:
     content: public interface SecurityGroupView
 - uid: com.microsoft.azure.management.network.FlowLogSettings
@@ -644,6 +627,6 @@ references:
   nameWithType: FlowLogSettings
   fullName: com.microsoft.azure.management.network.FlowLogSettings
   type: Interface
-  summary: <p>Client-side representation of the configuration of flow log, associated with network watcher and an Azure resource. </p>
+  summary: "<p>Client-side representation of the configuration of flow log, associated with network watcher and an Azure resource. </p>"
   syntax:
     content: public interface FlowLogSettings extends HasParent<NetworkWatcher>,HasInner<FlowLogInformationInner>,Updatable<FlowLogSettings.Update>,Refreshable<FlowLogSettings>

@@ -73,7 +73,7 @@ references:
   nameWithType: ADALError
   fullName: com.microsoft.aad.adal.ADALError
   type: Enum
-  summary: <p>ADAL Error codes. </p>
+  summary: "<p>ADAL Error codes. </p>"
   syntax:
     content: public enum ADALError
 - uid: com.microsoft.aad.adal.AuthenticationActivity
@@ -83,7 +83,7 @@ references:
   nameWithType: AuthenticationActivity
   fullName: com.microsoft.aad.adal.AuthenticationActivity
   type: Class
-  summary: <p>Authentication Activity to launch <xref uid="" data-throw-if-not-resolved="false">WebView</xref> for authentication. </p>
+  summary: "<p>Authentication Activity to launch <xref uid=\"\" data-throw-if-not-resolved=\"false\">WebView</xref> for authentication. </p>"
   syntax:
     content: public class AuthenticationActivity
 - uid: com.microsoft.aad.adal.AuthenticationCallback
@@ -93,10 +93,7 @@ references:
   nameWithType: AuthenticationCallback<T>
   fullName: com.microsoft.aad.adal.AuthenticationCallback<T>
   type: Interface
-  summary: >-
-    <p>Callback to use with token request. User implements this callback to use result in their context.</p>
-
-    <p></p>
+  summary: "<p>Callback to use with token request. User implements this callback to use result in their context.</p>\r\n<p></p>"
   syntax:
     content: public interface AuthenticationCallback<T>
     typeParameters:
@@ -109,7 +106,7 @@ references:
   nameWithType: AuthenticationCancelError
   fullName: com.microsoft.aad.adal.AuthenticationCancelError
   type: Class
-  summary: <p>Cancellation error. </p>
+  summary: "<p>Cancellation error. </p>"
   syntax:
     content: public class AuthenticationCancelError extends AuthenticationException
 - uid: com.microsoft.aad.adal.AuthenticationConstants
@@ -119,10 +116,7 @@ references:
   nameWithType: AuthenticationConstants
   fullName: com.microsoft.aad.adal.AuthenticationConstants
   type: Class
-  summary: >-
-    <p>
-
-      <xref uid="com.microsoft.aad.adal.AuthenticationConstants" data-throw-if-not-resolved="false">AuthenticationConstants</xref> contains all the constant value the SDK is using. </p>
+  summary: "<p>\r\n  <xref uid=\"com.microsoft.aad.adal.AuthenticationConstants\" data-throw-if-not-resolved=\"false\">AuthenticationConstants</xref> contains all the constant value the SDK is using. </p>"
   syntax:
     content: public class AuthenticationConstants
 - uid: com.microsoft.aad.adal.AuthenticationContext
@@ -132,7 +126,7 @@ references:
   nameWithType: AuthenticationContext
   fullName: com.microsoft.aad.adal.AuthenticationContext
   type: Class
-  summary: <p>ADAL context to get access token, refresh token, and lookup from cache. </p>
+  summary: "<p>ADAL context to get access token, refresh token, and lookup from cache. </p>"
   syntax:
     content: public class AuthenticationContext
 - uid: com.microsoft.aad.adal.AuthenticationException
@@ -142,7 +136,7 @@ references:
   nameWithType: AuthenticationException
   fullName: com.microsoft.aad.adal.AuthenticationException
   type: Class
-  summary: <p>ADAL exception. </p>
+  summary: "<p>ADAL exception. </p>"
   syntax:
     content: public class AuthenticationException
 - uid: com.microsoft.aad.adal.AuthenticationParameters
@@ -152,7 +146,7 @@ references:
   nameWithType: AuthenticationParameters
   fullName: com.microsoft.aad.adal.AuthenticationParameters
   type: Class
-  summary: <p>Matching to ADAL.NET It provides helper methods to get the authorization_endpoint from resource address. </p>
+  summary: "<p>Matching to ADAL.NET It provides helper methods to get the authorization_endpoint from resource address. </p>"
   syntax:
     content: public class AuthenticationParameters
 - uid: com.microsoft.aad.adal.AuthenticationResult
@@ -162,7 +156,7 @@ references:
   nameWithType: AuthenticationResult
   fullName: com.microsoft.aad.adal.AuthenticationResult
   type: Class
-  summary: <p>Result class to keep code, token and other info Serializable properties Mark temp properties as Transient if you dont want to keep them in serialization. </p>
+  summary: "<p>Result class to keep code, token and other info Serializable properties Mark temp properties as Transient if you dont want to keep them in serialization. </p>"
   syntax:
     content: public class AuthenticationResult
 - uid: com.microsoft.aad.adal.AuthenticationSettings
@@ -172,7 +166,7 @@ references:
   nameWithType: AuthenticationSettings
   fullName: com.microsoft.aad.adal.AuthenticationSettings
   type: Enum
-  summary: <p>Settings to be used in AuthenticationContext. </p>
+  summary: "<p>Settings to be used in AuthenticationContext. </p>"
   syntax:
     content: public enum AuthenticationSettings
 - uid: com.microsoft.aad.adal.CacheKey
@@ -182,7 +176,7 @@ references:
   nameWithType: CacheKey
   fullName: com.microsoft.aad.adal.CacheKey
   type: Class
-  summary: <p>CacheKey will be the object for key. </p>
+  summary: "<p>CacheKey will be the object for key. </p>"
   syntax:
     content: public class CacheKey
 - uid: com.microsoft.aad.adal.DateTimeAdapter
@@ -201,7 +195,7 @@ references:
   nameWithType: DefaultTokenCacheStore
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore
   type: Class
-  summary: <p>Store/Retrieve TokenCacheItem from SharedPreferencesFileManager. SharedPreferencesFileManager saves items when it is committed in an atomic operation. </p>
+  summary: "<p>Store/Retrieve TokenCacheItem from SharedPreferencesFileManager. SharedPreferencesFileManager saves items when it is committed in an atomic operation. </p>"
   syntax:
     content: public class DefaultTokenCacheStore implements ITokenCacheStore,ITokenStoreQuery
 - uid: com.microsoft.aad.adal.FileTokenCacheStore
@@ -211,7 +205,7 @@ references:
   nameWithType: FileTokenCacheStore
   fullName: com.microsoft.aad.adal.FileTokenCacheStore
   type: Class
-  summary: <p>Persisted cache that keeps cache in-memory until write operation. Filename should not be used on another instance of FileTokenCacheStore since read operations are not synced to file. </p>
+  summary: "<p>Persisted cache that keeps cache in-memory until write operation. Filename should not be used on another instance of FileTokenCacheStore since read operations are not synced to file. </p>"
   syntax:
     content: public class FileTokenCacheStore implements ITokenCacheStore
 - uid: com.microsoft.aad.adal.IDeviceCertificate
@@ -221,7 +215,7 @@ references:
   nameWithType: IDeviceCertificate
   fullName: com.microsoft.aad.adal.IDeviceCertificate
   type: Interface
-  summary: <p>Work place join related certificate is required to respond device challenge. </p>
+  summary: "<p>Work place join related certificate is required to respond device challenge. </p>"
   syntax:
     content: public interface IDeviceCertificate
 - uid: com.microsoft.aad.adal.IJWSBuilder
@@ -231,7 +225,7 @@ references:
   nameWithType: IJWSBuilder
   fullName: com.microsoft.aad.adal.IJWSBuilder
   type: Interface
-  summary: <p>Interface to construct jws message for responding certificate challenge. </p>
+  summary: "<p>Interface to construct jws message for responding certificate challenge. </p>"
   syntax:
     content: public interface IJWSBuilder
 - uid: com.microsoft.aad.adal.IntuneAppProtectionPolicyRequiredException
@@ -250,7 +244,7 @@ references:
   nameWithType: ITokenCacheStore
   fullName: com.microsoft.aad.adal.ITokenCacheStore
   type: Interface
-  summary: <p>Minimal interface needed by ADAL for cache. </p>
+  summary: "<p>Minimal interface needed by ADAL for cache. </p>"
   syntax:
     content: public interface ITokenCacheStore
 - uid: com.microsoft.aad.adal.ITokenStoreQuery
@@ -269,7 +263,7 @@ references:
   nameWithType: IWindowComponent
   fullName: com.microsoft.aad.adal.IWindowComponent
   type: Interface
-  summary: <p>Implement this interface to pass fragment. </p>
+  summary: "<p>Implement this interface to pass fragment. </p>"
   syntax:
     content: public interface IWindowComponent
 - uid: com.microsoft.aad.adal.Logger
@@ -279,7 +273,7 @@ references:
   nameWithType: Logger
   fullName: com.microsoft.aad.adal.Logger
   type: Class
-  summary: '<p>Android log output can. If externalLogger is set, it will use that as well. Usage: Logger.v(tag, message, additionalMessage, errorCode) to log. Set custom logger: Logger.setExternalLogger(..); </p>'
+  summary: "<p>Android log output can. If externalLogger is set, it will use that as well. Usage: Logger.v(tag, message, additionalMessage, errorCode) to log. Set custom logger: Logger.setExternalLogger(..); </p>"
   syntax:
     content: public class Logger
 - uid: com.microsoft.aad.adal.MemoryTokenCacheStore
@@ -289,7 +283,7 @@ references:
   nameWithType: MemoryTokenCacheStore
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore
   type: Class
-  summary: <p>tokenCacheItem is not persisted. Memory cache does not keep static items. </p>
+  summary: "<p>tokenCacheItem is not persisted. Memory cache does not keep static items. </p>"
   syntax:
     content: public class MemoryTokenCacheStore implements ITokenCacheStore
 - uid: com.microsoft.aad.adal.PackageHelper
@@ -299,7 +293,7 @@ references:
   nameWithType: PackageHelper
   fullName: com.microsoft.aad.adal.PackageHelper
   type: Class
-  summary: <p>Gets information about calling activity. </p>
+  summary: "<p>Gets information about calling activity. </p>"
   syntax:
     content: public class PackageHelper
 - uid: com.microsoft.aad.adal.PromptBehavior
@@ -309,7 +303,7 @@ references:
   nameWithType: PromptBehavior
   fullName: com.microsoft.aad.adal.PromptBehavior
   type: Enum
-  summary: <p>Prompt Behaviors that sets the behavior for authentication activity launch. </p>
+  summary: "<p>Prompt Behaviors that sets the behavior for authentication activity launch. </p>"
   syntax:
     content: public enum PromptBehavior
 - uid: com.microsoft.aad.adal.ResourceAuthenticationChallengeException
@@ -319,7 +313,7 @@ references:
   nameWithType: ResourceAuthenticationChallengeException
   fullName: com.microsoft.aad.adal.ResourceAuthenticationChallengeException
   type: Class
-  summary: <p>ADAL exception for the case when server response doesn't have expected data e.g. missing header, wrong status code, invalid format </p>
+  summary: "<p>ADAL exception for the case when server response doesn't have expected data e.g. missing header, wrong status code, invalid format </p>"
   syntax:
     content: public class ResourceAuthenticationChallengeException extends AuthenticationException
 - uid: com.microsoft.aad.adal.StorageHelper
@@ -348,7 +342,7 @@ references:
   nameWithType: TokenCacheItem
   fullName: com.microsoft.aad.adal.TokenCacheItem
   type: Class
-  summary: <p>Extended result to store more info Queries will be performed over this item not the key. </p>
+  summary: "<p>Extended result to store more info Queries will be performed over this item not the key. </p>"
   syntax:
     content: public class TokenCacheItem
 - uid: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater
@@ -358,7 +352,7 @@ references:
   nameWithType: TokenCacheItemSerializationAdapater
   fullName: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater
   type: Class
-  summary: <p>This TokenCacheItemAdapter class is a customized serializer for the family token cache item into GSON where we are trying to keep a lightweight form of tokenCacheItem by parsing the raw idToken, we can get all the claims in it, including userInfo, and tenantId. </p>
+  summary: "<p>This TokenCacheItemAdapter class is a customized serializer for the family token cache item into GSON where we are trying to keep a lightweight form of tokenCacheItem by parsing the raw idToken, we can get all the claims in it, including userInfo, and tenantId. </p>"
   syntax:
     content: public class TokenCacheItemSerializationAdapater
 - uid: com.microsoft.aad.adal.UsageAuthenticationException
@@ -368,7 +362,7 @@ references:
   nameWithType: UsageAuthenticationException
   fullName: com.microsoft.aad.adal.UsageAuthenticationException
   type: Class
-  summary: <p>usage authentication error. </p>
+  summary: "<p>usage authentication error. </p>"
   syntax:
     content: public class UsageAuthenticationException extends AuthenticationException
 - uid: com.microsoft.aad.adal.UserInfo
@@ -378,7 +372,7 @@ references:
   nameWithType: UserInfo
   fullName: com.microsoft.aad.adal.UserInfo
   type: Class
-  summary: <p>Contains information of a single user. </p>
+  summary: "<p>Contains information of a single user. </p>"
   syntax:
     content: public class UserInfo
 - uid: com.microsoft.aad.adal.WebviewHelper
@@ -388,7 +382,7 @@ references:
   nameWithType: WebviewHelper
   fullName: com.microsoft.aad.adal.WebviewHelper
   type: Class
-  summary: <p>Wrapper class to handle internals for request intent and response for custom webview usage. </p>
+  summary: "<p>Wrapper class to handle internals for request intent and response for custom webview usage. </p>"
   syntax:
     content: public class WebviewHelper
 - uid: com.microsoft.aad.adal.AuthenticationConstants.AAD
@@ -398,7 +392,7 @@ references:
   nameWithType: AuthenticationConstants.AAD
   fullName: com.microsoft.aad.adal.AuthenticationConstants.AAD
   type: Class
-  summary: <p>Represents the constants value for Active Directory. </p>
+  summary: "<p>Represents the constants value for Active Directory. </p>"
   syntax:
     content: public class AAD
 - uid: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback
@@ -408,7 +402,7 @@ references:
   nameWithType: AuthenticationParameters.AuthenticationParamCallback
   fullName: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback
   type: Interface
-  summary: <p>Callback to use for async request. </p>
+  summary: "<p>Callback to use for async request. </p>"
   syntax:
     content: public interface AuthenticationParamCallback
 - uid: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus
@@ -418,7 +412,7 @@ references:
   nameWithType: AuthenticationResult.AuthenticationStatus
   fullName: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus
   type: Enum
-  summary: <p>Status for authentication. </p>
+  summary: "<p>Status for authentication. </p>"
   syntax:
     content: public enum AuthenticationStatus
 - uid: com.microsoft.aad.adal.AuthenticationConstants.Broker
@@ -428,7 +422,7 @@ references:
   nameWithType: AuthenticationConstants.Broker
   fullName: com.microsoft.aad.adal.AuthenticationConstants.Broker
   type: Class
-  summary: <p>Represents the constants for broker. </p>
+  summary: "<p>Represents the constants for broker. </p>"
   syntax:
     content: public class Broker
 - uid: com.microsoft.aad.adal.AuthenticationConstants.Browser
@@ -438,7 +432,7 @@ references:
   nameWithType: AuthenticationConstants.Browser
   fullName: com.microsoft.aad.adal.AuthenticationConstants.Browser
   type: Class
-  summary: <p>Holding all the constant value involved in the webview. </p>
+  summary: "<p>Holding all the constant value involved in the webview. </p>"
   syntax:
     content: public class Browser
 - uid: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo
@@ -448,7 +442,7 @@ references:
   nameWithType: AuthenticationConstants.Broker.CliTelemInfo
   fullName: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo
   type: Class
-  summary: <p>Bundle identifiers for x-ms-clitelem info. </p>
+  summary: "<p>Bundle identifiers for x-ms-clitelem info. </p>"
   syntax:
     content: public class CliTelemInfo
 - uid: com.microsoft.aad.adal.Logger.ILogger
@@ -458,7 +452,7 @@ references:
   nameWithType: Logger.ILogger
   fullName: com.microsoft.aad.adal.Logger.ILogger
   type: Interface
-  summary: <p>Interface for apps to configure the external logging. </p>
+  summary: "<p>Interface for apps to configure the external logging. </p>"
   syntax:
     content: public interface ILogger
 - uid: com.microsoft.aad.adal.Logger.LogLevel
@@ -468,7 +462,7 @@ references:
   nameWithType: Logger.LogLevel
   fullName: com.microsoft.aad.adal.Logger.LogLevel
   type: Enum
-  summary: <p>Enum class for LogLevel that the sdk recognizes. </p>
+  summary: "<p>Enum class for LogLevel that the sdk recognizes. </p>"
   syntax:
     content: public enum LogLevel
 - uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2
@@ -478,7 +472,7 @@ references:
   nameWithType: AuthenticationConstants.OAuth2
   fullName: com.microsoft.aad.adal.AuthenticationConstants.OAuth2
   type: Class
-  summary: <p>Represents the constant value of oauth2 params. </p>
+  summary: "<p>Represents the constant value of oauth2 params. </p>"
   syntax:
     content: public class OAuth2
 - uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode
@@ -488,7 +482,7 @@ references:
   nameWithType: AuthenticationConstants.OAuth2ErrorCode
   fullName: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode
   type: Class
-  summary: <p>Represents the oauth2 error code. </p>
+  summary: "<p>Represents the oauth2 error code. </p>"
   syntax:
     content: protected class OAuth2ErrorCode
 - uid: com.microsoft.aad.adal.WebviewHelper.PreKeyAuthInfo
@@ -507,7 +501,7 @@ references:
   nameWithType: AuthenticationConstants.UIRequest
   fullName: com.microsoft.aad.adal.AuthenticationConstants.UIRequest
   type: Class
-  summary: <p>Represents the request code. </p>
+  summary: "<p>Represents the request code. </p>"
   syntax:
     content: public class UIRequest
 - uid: com.microsoft.aad.adal.AuthenticationConstants.UIResponse
@@ -517,6 +511,6 @@ references:
   nameWithType: AuthenticationConstants.UIResponse
   fullName: com.microsoft.aad.adal.AuthenticationConstants.UIResponse
   type: Class
-  summary: <p>Represents the response code. </p>
+  summary: "<p>Represents the response code. </p>"
   syntax:
     content: public class UIResponse

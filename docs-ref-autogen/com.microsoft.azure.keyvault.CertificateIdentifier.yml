@@ -201,7 +201,7 @@ references:
   nameWithType: ObjectIdentifier.getFullAuthority(URI uri)
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier.getFullAuthority(URI uri)
   type: Method
-  summary: <p>Gets full authority for a URL by appending port to the url authority. </p>
+  summary: "<p>Gets full authority for a URL by appending port to the url authority. </p>"
   syntax:
     content: protected String getFullAuthority(URI uri)
     parameters:
@@ -241,7 +241,7 @@ references:
   nameWithType: ObjectIdentifier.isObjectIdentifier(String collection, String identifier)
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier.isObjectIdentifier(String collection, String identifier)
   type: Method
-  summary: <p>Verifies whether the identifier belongs to a key vault object. </p>
+  summary: "<p>Verifies whether the identifier belongs to a key vault object. </p>"
   syntax:
     content: protected static boolean isObjectIdentifier(String collection, String identifier)
     parameters:
@@ -284,7 +284,7 @@ references:
   nameWithType: ObjectIdentifier.ObjectIdentifier()
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier.ObjectIdentifier()
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: protected ObjectIdentifier()
 - uid: com.microsoft.azure.keyvault.ObjectIdentifier.ObjectIdentifier(String,String,String)
@@ -294,7 +294,7 @@ references:
   nameWithType: ObjectIdentifier.ObjectIdentifier(String vault, String collection, String name)
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier.ObjectIdentifier(String vault, String collection, String name)
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: protected ObjectIdentifier(String vault, String collection, String name)
     parameters:
@@ -314,7 +314,7 @@ references:
   nameWithType: ObjectIdentifier.ObjectIdentifier(String vault, String collection, String name, String version)
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier.ObjectIdentifier(String vault, String collection, String name, String version)
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: protected ObjectIdentifier(String vault, String collection, String name, String version)
     parameters:
@@ -337,7 +337,7 @@ references:
   nameWithType: ObjectIdentifier.ObjectIdentifier(String collection, String identifier)
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier.ObjectIdentifier(String collection, String identifier)
   type: Constructor
-  summary: <p>Constructor. </p>
+  summary: "<p>Constructor. </p>"
   syntax:
     content: protected ObjectIdentifier(String collection, String identifier)
     parameters:
@@ -388,7 +388,7 @@ references:
   nameWithType: ObjectIdentifier.verifyNonEmpty(String value, String argName)
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier.verifyNonEmpty(String value, String argName)
   type: Method
-  summary: <p>Verifies a value is null or empty. Returns the value if non-empty and throws exception if empty. </p>
+  summary: "<p>Verifies a value is null or empty. Returns the value if non-empty and throws exception if empty. </p>"
   syntax:
     content: protected static String verifyNonEmpty(String value, String argName)
     parameters:
@@ -431,6 +431,6 @@ references:
   nameWithType: ObjectIdentifier
   fullName: com.microsoft.azure.keyvault.ObjectIdentifier
   type: Class
-  summary: <p>The key vault object identifier. </p>
+  summary: "<p>The key vault object identifier. </p>"
   syntax:
     content: public class ObjectIdentifier

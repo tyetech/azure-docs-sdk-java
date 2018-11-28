@@ -61,10 +61,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -77,10 +74,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -93,10 +87,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -113,10 +104,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithIPConfiguration.defineSecondaryIPConfiguration(String name)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPConfiguration.defineSecondaryIPConfiguration(String name)
   type: Method
-  summary: >-
-    <p>Starts definition of a secondary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Starts definition of a secondary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public NicIPConfiguration.UpdateDefinitionStages.Blank<NetworkInterface.Update> defineSecondaryIPConfiguration(String name)
     parameters:
@@ -145,10 +133,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithIPConfiguration.updateIPConfiguration(String name)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPConfiguration.updateIPConfiguration(String name)
   type: Method
-  summary: >-
-    <p>Starts update of an IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Starts update of an IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public NicIPConfiguration.Update updateIPConfiguration(String name)
     parameters:
@@ -165,12 +150,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithDnsServer.withAzureDnsServer()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithDnsServer.withAzureDnsServer()
   type: Method
-  summary: >-
-    <p>Specifies to use the default Azure DNS server for the network interface. </p>
-
-    <p>Using azure DNS server will remove any custom DNS server associated with this network interface.</p>
-
-    <p></p>
+  summary: "<p>Specifies to use the default Azure DNS server for the network interface. </p>\r\n<p>Using azure DNS server will remove any custom DNS server associated with this network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withAzureDnsServer()
     return:
@@ -183,12 +163,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithDnsServer.withDnsServer(String ipAddress)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithDnsServer.withDnsServer(String ipAddress)
   type: Method
-  summary: >-
-    <p>Specifies the IP address of the custom DNS server to associate with the network interface. </p>
-
-    <p>Note this method's effect is additive, i.e. each time it is used, the new dns server is added to the network interface.</p>
-
-    <p></p>
+  summary: "<p>Specifies the IP address of the custom DNS server to associate with the network interface. </p>\r\n<p>Note this method's effect is additive, i.e. each time it is used, the new dns server is added to the network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withDnsServer(String ipAddress)
     parameters:
@@ -205,7 +180,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithLoadBalancer.withExistingLoadBalancerBackend(LoadBalancer loadBalancer, String backendName)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithLoadBalancer.withExistingLoadBalancerBackend(LoadBalancer loadBalancer, String backendName)
   type: Method
-  summary: <p>Associates the network interface's primary IP configuration with a backend of an existing load balancer. </p>
+  summary: "<p>Associates the network interface's primary IP configuration with a backend of an existing load balancer. </p>"
   syntax:
     content: public Update withExistingLoadBalancerBackend(LoadBalancer loadBalancer, String backendName)
     parameters:
@@ -225,7 +200,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithLoadBalancer.withExistingLoadBalancerInboundNatRule(LoadBalancer loadBalancer, String inboundNatRuleName)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithLoadBalancer.withExistingLoadBalancerInboundNatRule(LoadBalancer loadBalancer, String inboundNatRuleName)
   type: Method
-  summary: <p>Associates the network interface's primary IP configuration with an inbound NAT rule of an existing load balancer. </p>
+  summary: "<p>Associates the network interface's primary IP configuration with an inbound NAT rule of an existing load balancer. </p>"
   syntax:
     content: public Update withExistingLoadBalancerInboundNatRule(LoadBalancer loadBalancer, String inboundNatRuleName)
     parameters:
@@ -245,10 +220,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithNetworkSecurityGroup.withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithNetworkSecurityGroup.withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
   type: Method
-  summary: >-
-    <p>Associates an existing network security group with the network interface.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing network security group with the network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
     parameters:
@@ -265,10 +237,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the network interface's primary IP configuration. if there is an existing public IP association then that will be removed in favour of this</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the network interface's primary IP configuration. if there is an existing public IP association then that will be removed in favour of this</p>\r\n<p></p>"
   syntax:
     content: public Update withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -285,10 +254,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithIPForwarding.withIPForwarding()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPForwarding.withIPForwarding()
   type: Method
-  summary: >-
-    <p>Enable IP forwarding in the network interface.</p>
-
-    <p></p>
+  summary: "<p>Enable IP forwarding in the network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withIPForwarding()
     return:
@@ -301,10 +267,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithNetworkSecurityGroup.withNewNetworkSecurityGroup(Creatable<NetworkSecurityGroup> creatable)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithNetworkSecurityGroup.withNewNetworkSecurityGroup(Creatable<NetworkSecurityGroup> creatable)
   type: Method
-  summary: >-
-    <p>Create a new network security group to associate with network interface, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Create a new network security group to associate with network interface, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewNetworkSecurityGroup(Creatable<NetworkSecurityGroup> creatable)
     parameters:
@@ -321,12 +284,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
   type: Method
-  summary: >-
-    <p>Create a new public IP address to associate the network interface's primary IP configuration, based on the provided definition. </p>
-
-    <p>if there is public IP associated with the primary IP configuration then that will be removed in favour of this</p>
-
-    <p></p>
+  summary: "<p>Create a new public IP address to associate the network interface's primary IP configuration, based on the provided definition. </p>\r\n<p>if there is public IP associated with the primary IP configuration then that will be removed in favour of this</p>\r\n<p></p>"
   syntax:
     content: public Update withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
     parameters:
@@ -343,12 +301,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Creates a new public IP address in the same region and group as the resource and associate it with the network interface's primary IP configuration. </p>
-
-    <p>the internal name and DNS label for the public IP address will be derived from the network interface name, if there is an existing public IP association then that will be removed in favour of this</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address in the same region and group as the resource and associate it with the network interface's primary IP configuration. </p>\r\n<p>the internal name and DNS label for the public IP address will be derived from the network interface name, if there is an existing public IP association then that will be removed in favour of this</p>\r\n<p></p>"
   syntax:
     content: public Update withNewPrimaryPublicIPAddress()
     return:
@@ -361,12 +314,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(String leafDnsLabel)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(String leafDnsLabel)
   type: Method
-  summary: >-
-    <p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the network interface's primary IP configuration. </p>
-
-    <p>the internal name for the public IP address will be derived from the DNS label, if there is an existing public IP association then that will be removed in favour of this</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the network interface's primary IP configuration. </p>\r\n<p>the internal name for the public IP address will be derived from the DNS label, if there is an existing public IP association then that will be removed in favour of this</p>\r\n<p></p>"
   syntax:
     content: public Update withNewPrimaryPublicIPAddress(String leafDnsLabel)
     parameters:
@@ -383,7 +331,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithAcceleratedNetworking.withoutAcceleratedNetworking()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithAcceleratedNetworking.withoutAcceleratedNetworking()
   type: Method
-  summary: <p>Disables accelerated networking. </p>
+  summary: "<p>Disables accelerated networking. </p>"
   syntax:
     content: public Update withoutAcceleratedNetworking()
     return:
@@ -396,10 +344,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithDnsServer.withoutDnsServer(String ipAddress)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithDnsServer.withoutDnsServer(String ipAddress)
   type: Method
-  summary: >-
-    <p>Removes a DNS server associated with the network interface.</p>
-
-    <p></p>
+  summary: "<p>Removes a DNS server associated with the network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutDnsServer(String ipAddress)
     parameters:
@@ -416,7 +361,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithIPConfiguration.withoutIPConfiguration(String name)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPConfiguration.withoutIPConfiguration(String name)
   type: Method
-  summary: <p>Removes the specified IP configuration. </p>
+  summary: "<p>Removes the specified IP configuration. </p>"
   syntax:
     content: public Update withoutIPConfiguration(String name)
     parameters:
@@ -433,10 +378,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithIPForwarding.withoutIPForwarding()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPForwarding.withoutIPForwarding()
   type: Method
-  summary: >-
-    <p>Disable IP forwarding in the network interface.</p>
-
-    <p></p>
+  summary: "<p>Disable IP forwarding in the network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutIPForwarding()
     return:
@@ -449,7 +391,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithLoadBalancer.withoutLoadBalancerBackends()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithLoadBalancer.withoutLoadBalancerBackends()
   type: Method
-  summary: <p>Removes all the existing associations with any load balancer backends. </p>
+  summary: "<p>Removes all the existing associations with any load balancer backends. </p>"
   syntax:
     content: public Update withoutLoadBalancerBackends()
     return:
@@ -462,7 +404,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithLoadBalancer.withoutLoadBalancerInboundNatRules()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithLoadBalancer.withoutLoadBalancerInboundNatRules()
   type: Method
-  summary: <p>Removes all the existing associations with any load balancer inbound NAT rules. </p>
+  summary: "<p>Removes all the existing associations with any load balancer inbound NAT rules. </p>"
   syntax:
     content: public Update withoutLoadBalancerInboundNatRules()
     return:
@@ -475,10 +417,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithNetworkSecurityGroup.withoutNetworkSecurityGroup()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithNetworkSecurityGroup.withoutNetworkSecurityGroup()
   type: Method
-  summary: >-
-    <p>Specifies that remove any network security group associated with the network interface.</p>
-
-    <p></p>
+  summary: "<p>Specifies that remove any network security group associated with the network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutNetworkSecurityGroup()
     return:
@@ -491,10 +430,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withoutPrimaryPublicIPAddress()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress.withoutPrimaryPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Specifies that remove any public IP associated with the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Specifies that remove any public IP associated with the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutPrimaryPublicIPAddress()
     return:
@@ -507,7 +443,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -524,10 +460,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressDynamic()
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressDynamic()
   type: Method
-  summary: >-
-    <p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public Update withPrimaryPrivateIPAddressDynamic()
     return:
@@ -540,10 +473,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
   type: Method
-  summary: >-
-    <p>Assigns the specified static private IP address within the specified existing virtual network subnet to the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Assigns the specified static private IP address within the specified existing virtual network subnet to the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public Update withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
     parameters:
@@ -560,10 +490,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet.withSubnet(String name)
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet.withSubnet(String name)
   type: Method
-  summary: >-
-    <p>Associate a subnet with the network interface.</p>
-
-    <p></p>
+  summary: "<p>Associate a subnet with the network interface.</p>\r\n<p></p>"
   syntax:
     content: public Update withSubnet(String name)
     parameters:
@@ -580,7 +507,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -600,7 +527,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -617,10 +544,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -634,10 +558,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -651,7 +572,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet
   type: Interface
-  summary: <p>The stage of the network interface update allowing to specify subnet. </p>
+  summary: "<p>The stage of the network interface update allowing to specify subnet. </p>"
   syntax:
     content: public interface WithPrimaryNetworkSubnet
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPrivateIP
@@ -661,7 +582,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPrivateIP
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPrivateIP
   type: Interface
-  summary: <p>The stage of the network interface update allowing to specify private IP address within a virtual network subnet. </p>
+  summary: "<p>The stage of the network interface update allowing to specify private IP address within a virtual network subnet. </p>"
   syntax:
     content: public interface WithPrimaryPrivateIP
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress
@@ -671,7 +592,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress
   type: Interface
-  summary: <p>The stage of the network interface update allowing to associate public IP address with it's primary IP configuration. </p>
+  summary: "<p>The stage of the network interface update allowing to associate public IP address with it's primary IP configuration. </p>"
   syntax:
     content: public interface WithPrimaryPublicIPAddress
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithNetworkSecurityGroup
@@ -681,7 +602,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithNetworkSecurityGroup
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithNetworkSecurityGroup
   type: Interface
-  summary: <p>The stage of the network interface update allowing to associate network security group. </p>
+  summary: "<p>The stage of the network interface update allowing to associate network security group. </p>"
   syntax:
     content: public interface WithNetworkSecurityGroup
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPForwarding
@@ -691,7 +612,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithIPForwarding
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPForwarding
   type: Interface
-  summary: <p>The stage of the network interface update allowing to enable or disable IP forwarding. </p>
+  summary: "<p>The stage of the network interface update allowing to enable or disable IP forwarding. </p>"
   syntax:
     content: public interface WithIPForwarding
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithDnsServer
@@ -701,7 +622,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithDnsServer
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithDnsServer
   type: Interface
-  summary: <p>The stage of the network interface update allowing to specify DNS servers. </p>
+  summary: "<p>The stage of the network interface update allowing to specify DNS servers. </p>"
   syntax:
     content: public interface WithDnsServer
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPConfiguration
@@ -711,7 +632,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithIPConfiguration
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithIPConfiguration
   type: Interface
-  summary: <p>The stage of the network interface update allowing to configure IP configuration. </p>
+  summary: "<p>The stage of the network interface update allowing to configure IP configuration. </p>"
   syntax:
     content: public interface WithIPConfiguration
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithLoadBalancer
@@ -721,7 +642,7 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithLoadBalancer
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithLoadBalancer
   type: Interface
-  summary: <p>The stage of the network interface update allowing to associate it with a load balancer. </p>
+  summary: "<p>The stage of the network interface update allowing to associate it with a load balancer. </p>"
   syntax:
     content: public interface WithLoadBalancer
 - uid: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithAcceleratedNetworking
@@ -731,6 +652,6 @@ references:
   nameWithType: NetworkInterface.UpdateStages.WithAcceleratedNetworking
   fullName: com.microsoft.azure.management.network.NetworkInterface.UpdateStages.WithAcceleratedNetworking
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to disable accelerated networking. </p>
+  summary: "<p>The stage of the network interface definition allowing to disable accelerated networking. </p>"
   syntax:
     content: public interface WithAcceleratedNetworking

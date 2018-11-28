@@ -1275,7 +1275,7 @@ references:
   nameWithType: CodePackageActivationContext
   fullName: system.fabric.CodePackageActivationContext
   type: Interface
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax:
     content: public interface CodePackageActivationContext
 - uid: system.fabric.Observable
@@ -1285,7 +1285,7 @@ references:
   nameWithType: Observable<T>
   fullName: system.fabric.Observable<T>
   type: Class
-  summary: <p>This class represents an observable object </p>
+  summary: "<p>This class represents an observable object </p>"
   syntax:
     content: public class Observable<T>
     typeParameters:
@@ -1299,7 +1299,7 @@ references:
   nameWithType: PackageAddedEventArgs<T>
   fullName: system.fabric.PackageAddedEventArgs<T>
   type: Class
-  summary: <p>Describes a package added event. </p>
+  summary: "<p>Describes a package added event. </p>"
   syntax:
     content: public class PackageAddedEventArgs<T>
     typeParameters:
@@ -1313,7 +1313,7 @@ references:
   nameWithType: CodePackage
   fullName: system.fabric.CodePackage
   type: Class
-  summary: <p>Represents the code package definition. </p>
+  summary: "<p>Represents the code package definition. </p>"
   syntax:
     content: public class CodePackage
 - uid: system.fabric.PackageRemovedEventArgs
@@ -1323,7 +1323,7 @@ references:
   nameWithType: PackageRemovedEventArgs<T>
   fullName: system.fabric.PackageRemovedEventArgs<T>
   type: Class
-  summary: <p>Describes a package removed event. </p>
+  summary: "<p>Describes a package removed event. </p>"
   syntax:
     content: public class PackageRemovedEventArgs<T>
     typeParameters:
@@ -1337,7 +1337,7 @@ references:
   nameWithType: PackageModifiedEventArgs<T>
   fullName: system.fabric.PackageModifiedEventArgs<T>
   type: Class
-  summary: <p>Describes a package modified event. </p>
+  summary: "<p>Describes a package modified event. </p>"
   syntax:
     content: public class PackageModifiedEventArgs<T>
     typeParameters:
@@ -1351,7 +1351,7 @@ references:
   nameWithType: ConfigurationPackage
   fullName: system.fabric.ConfigurationPackage
   type: Class
-  summary: <p>Represents a configuration package. </p>
+  summary: "<p>Represents a configuration package. </p>"
   syntax:
     content: public class ConfigurationPackage
 - uid: system.fabric.DataPackage
@@ -1361,7 +1361,7 @@ references:
   nameWithType: DataPackage
   fullName: system.fabric.DataPackage
   type: Class
-  summary: <p>Defines a data package of an application. </p>
+  summary: "<p>Defines a data package of an application. </p>"
   syntax:
     content: public class DataPackage
 - uid: system.fabric.FabricCodePackageActivationContext
@@ -1371,7 +1371,7 @@ references:
   nameWithType: FabricCodePackageActivationContext
   fullName: system.fabric.FabricCodePackageActivationContext
   type: Class
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax: *o1
 - uid: system.fabric.description.ServiceTypeDescription
   parent: system.fabric.description
@@ -1380,7 +1380,7 @@ references:
   nameWithType: ServiceTypeDescription
   fullName: system.fabric.description.ServiceTypeDescription
   type: Class
-  summary: <p>Describes the service type. </p>
+  summary: "<p>Describes the service type. </p>"
   syntax:
     content: public class ServiceTypeDescription
 - uid: system.fabric.description.EndpointResourceDescription
@@ -1390,7 +1390,7 @@ references:
   nameWithType: EndpointResourceDescription
   fullName: system.fabric.description.EndpointResourceDescription
   type: Class
-  summary: <p>Describes the endpoint resource. </p>
+  summary: "<p>Describes the endpoint resource. </p>"
   syntax:
     content: public class EndpointResourceDescription
 - uid: system.fabric.CodePackageActivationContext.getServiceListenAddress()
@@ -1400,10 +1400,7 @@ references:
   nameWithType: CodePackageActivationContext.getServiceListenAddress()
   fullName: system.fabric.CodePackageActivationContext.getServiceListenAddress()
   type: Method
-  summary: >-
-    <p>The address at which the service should start the communication listener.</p>
-
-    <p></p>
+  summary: "<p>The address at which the service should start the communication listener.</p>\r\n<p></p>"
   syntax:
     content: public String getServiceListenAddress()
     return:
@@ -1416,10 +1413,7 @@ references:
   nameWithType: CodePackageActivationContext.getServicePublishAddress()
   fullName: system.fabric.CodePackageActivationContext.getServicePublishAddress()
   type: Method
-  summary: >-
-    <p>The address which the service should publish as the listen address.</p>
-
-    <p></p>
+  summary: "<p>The address which the service should publish as the listen address.</p>\r\n<p></p>"
   syntax:
     content: public String getServicePublishAddress()
     return:
@@ -1432,10 +1426,7 @@ references:
   nameWithType: CodePackageActivationContext.getWorkDirectory()
   fullName: system.fabric.CodePackageActivationContext.getWorkDirectory()
   type: Method
-  summary: >-
-    <p>Gets the path to the Work directory that the Application can use.</p>
-
-    <p></p>
+  summary: "<p>Gets the path to the Work directory that the Application can use.</p>\r\n<p></p>"
   syntax:
     content: public String getWorkDirectory()
     return:
@@ -1448,10 +1439,7 @@ references:
   nameWithType: CodePackageActivationContext.getLogDirectory()
   fullName: system.fabric.CodePackageActivationContext.getLogDirectory()
   type: Method
-  summary: >-
-    <p>Gets the path to the log directory that the application can use.</p>
-
-    <p></p>
+  summary: "<p>Gets the path to the log directory that the application can use.</p>\r\n<p></p>"
   syntax:
     content: public String getLogDirectory()
     return:
@@ -1464,10 +1452,7 @@ references:
   nameWithType: CodePackageActivationContext.getTempDirectory()
   fullName: system.fabric.CodePackageActivationContext.getTempDirectory()
   type: Method
-  summary: >-
-    <p>Gets the path to the Temp directory that the Application can use.</p>
-
-    <p></p>
+  summary: "<p>Gets the path to the Temp directory that the Application can use.</p>\r\n<p></p>"
   syntax:
     content: public String getTempDirectory()
     return:
@@ -1480,10 +1465,7 @@ references:
   nameWithType: CodePackageActivationContext.getContextId()
   fullName: system.fabric.CodePackageActivationContext.getContextId()
   type: Method
-  summary: >-
-    <p>Gets the ID that represents the service package name qualified with Application package name.</p>
-
-    <p></p>
+  summary: "<p>Gets the ID that represents the service package name qualified with Application package name.</p>\r\n<p></p>"
   syntax:
     content: public String getContextId()
     return:
@@ -1496,10 +1478,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageName()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageName()
   type: Method
-  summary: >-
-    <p>Gets the name of the fabric activated code package.</p>
-
-    <p></p>
+  summary: "<p>Gets the name of the fabric activated code package.</p>\r\n<p></p>"
   syntax:
     content: public String getCodePackageName()
     return:
@@ -1512,10 +1491,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageVersion()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageVersion()
   type: Method
-  summary: >-
-    <p>Gets the version of the fabric activated code package</p>
-
-    <p></p>
+  summary: "<p>Gets the version of the fabric activated code package</p>\r\n<p></p>"
   syntax:
     content: public String getCodePackageVersion()
     return:
@@ -1528,10 +1504,7 @@ references:
   nameWithType: CodePackageActivationContext.getApplicationName()
   fullName: system.fabric.CodePackageActivationContext.getApplicationName()
   type: Method
-  summary: >-
-    <p>Gets the name of the application.</p>
-
-    <p></p>
+  summary: "<p>Gets the name of the application.</p>\r\n<p></p>"
   syntax:
     content: public String getApplicationName()
     return:
@@ -1544,10 +1517,7 @@ references:
   nameWithType: CodePackageActivationContext.getApplicationTypeName()
   fullName: system.fabric.CodePackageActivationContext.getApplicationTypeName()
   type: Method
-  summary: >-
-    <p>Gets the name of the application type.</p>
-
-    <p></p>
+  summary: "<p>Gets the name of the application type.</p>\r\n<p></p>"
   syntax:
     content: public String getApplicationTypeName()
     return:
@@ -1560,10 +1530,7 @@ references:
   nameWithType: CodePackageActivationContext.getServiceTypes()
   fullName: system.fabric.CodePackageActivationContext.getServiceTypes()
   type: Method
-  summary: >-
-    <p>Retrieves the list of Service Group types in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>Retrieves the list of Service Group types in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public LinkedHashMap<String, ServiceTypeDescription> getServiceTypes()
     return:
@@ -1576,10 +1543,7 @@ references:
   nameWithType: CodePackageActivationContext.getEndpoints()
   fullName: system.fabric.CodePackageActivationContext.getEndpoints()
   type: Method
-  summary: >-
-    <p>Retrieves all the end point names in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>Retrieves all the end point names in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public LinkedHashMap<String, EndpointResourceDescription> getEndpoints()
     return:
@@ -1592,10 +1556,7 @@ references:
   nameWithType: CodePackageActivationContext.getEndpoint(String endpointName)
   fullName: system.fabric.CodePackageActivationContext.getEndpoint(String endpointName)
   type: Method
-  summary: >-
-    <p>Retrieves the endpoint by name.</p>
-
-    <p></p>
+  summary: "<p>Retrieves the endpoint by name.</p>\r\n<p></p>"
   syntax:
     content: public EndpointResourceDescription getEndpoint(String endpointName)
     parameters:
@@ -1612,10 +1573,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageNames()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageNames()
   type: Method
-  summary: >-
-    <p>Retrieves the list of code package names in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>Retrieves the list of code package names in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public List<String> getCodePackageNames()
     return:
@@ -1628,10 +1586,7 @@ references:
   nameWithType: CodePackageActivationContext.getConfigurationPackageNames()
   fullName: system.fabric.CodePackageActivationContext.getConfigurationPackageNames()
   type: Method
-  summary: >-
-    <p>Retrieves the list of configuration package names in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>Retrieves the list of configuration package names in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public List<String> getConfigurationPackageNames()
     return:
@@ -1644,10 +1599,7 @@ references:
   nameWithType: CodePackageActivationContext.getDataPackageNames()
   fullName: system.fabric.CodePackageActivationContext.getDataPackageNames()
   type: Method
-  summary: >-
-    <p>Retrieves all data packages by name.</p>
-
-    <p></p>
+  summary: "<p>Retrieves all data packages by name.</p>\r\n<p></p>"
   syntax:
     content: public List<String> getDataPackageNames()
     return:
@@ -1660,10 +1612,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageObject(String packageName)
   fullName: system.fabric.CodePackageActivationContext.getCodePackageObject(String packageName)
   type: Method
-  summary: >-
-    <p>Returns the CodePackage object from Service Package that matches the packageName parameter</p>
-
-    <p></p>
+  summary: "<p>Returns the CodePackage object from Service Package that matches the packageName parameter</p>\r\n<p></p>"
   syntax:
     content: public CodePackage getCodePackageObject(String packageName)
     parameters:
@@ -1680,10 +1629,7 @@ references:
   nameWithType: CodePackageActivationContext.getConfigurationPackageObject(String packageName)
   fullName: system.fabric.CodePackageActivationContext.getConfigurationPackageObject(String packageName)
   type: Method
-  summary: >-
-    <p>Returns ConfigurationPackage object from Service Package that matches the packageName parameter</p>
-
-    <p></p>
+  summary: "<p>Returns ConfigurationPackage object from Service Package that matches the packageName parameter</p>\r\n<p></p>"
   syntax:
     content: public ConfigurationPackage getConfigurationPackageObject(String packageName)
     parameters:
@@ -1700,10 +1646,7 @@ references:
   nameWithType: CodePackageActivationContext.getDataPackageObject(String packageName)
   fullName: system.fabric.CodePackageActivationContext.getDataPackageObject(String packageName)
   type: Method
-  summary: >-
-    <p>Returns DataPackage object from Service Package that matches the packageName parameter</p>
-
-    <p></p>
+  summary: "<p>Returns DataPackage object from Service Package that matches the packageName parameter</p>\r\n<p></p>"
   syntax:
     content: public DataPackage getDataPackageObject(String packageName)
     parameters:
@@ -1720,10 +1663,7 @@ references:
   nameWithType: CodePackageActivationContext.getServiceManifestName()
   fullName: system.fabric.CodePackageActivationContext.getServiceManifestName()
   type: Method
-  summary: >-
-    <p>Retrieves the name of the service manifest.</p>
-
-    <p></p>
+  summary: "<p>Retrieves the name of the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public String getServiceManifestName()
     return:
@@ -1736,10 +1676,7 @@ references:
   nameWithType: CodePackageActivationContext.getServiceManifestVersion()
   fullName: system.fabric.CodePackageActivationContext.getServiceManifestVersion()
   type: Method
-  summary: >-
-    <p>Retrieves the version of the service manifest.</p>
-
-    <p></p>
+  summary: "<p>Retrieves the version of the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public String getServiceManifestVersion()
     return:
@@ -1752,10 +1689,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageAddedEvent()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageAddedEvent()
   type: Method
-  summary: >-
-    <p>CodePackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Code package to service manifest.</p>
-
-    <p></p>
+  summary: "<p>CodePackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Code package to service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageAddedEventArgs<CodePackage>> getCodePackageAddedEvent()
     return:
@@ -1768,10 +1702,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageRemovedEvent()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageRemovedEvent()
   type: Method
-  summary: >-
-    <p>CodePackageRemovedEvent should be used to register listeners to listen to the events that are generated on removing a Code package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>CodePackageRemovedEvent should be used to register listeners to listen to the events that are generated on removing a Code package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageRemovedEventArgs<CodePackage>> getCodePackageRemovedEvent()
     return:
@@ -1784,10 +1715,7 @@ references:
   nameWithType: CodePackageActivationContext.getCodePackageModifiedEvent()
   fullName: system.fabric.CodePackageActivationContext.getCodePackageModifiedEvent()
   type: Method
-  summary: >-
-    <p>CodePackageRemovedEvent should be used to register listeners to listen to the events that are generated on modifying a Code package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>CodePackageRemovedEvent should be used to register listeners to listen to the events that are generated on modifying a Code package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageModifiedEventArgs<CodePackage>> getCodePackageModifiedEvent()
     return:
@@ -1800,10 +1728,7 @@ references:
   nameWithType: CodePackageActivationContext.getConfigurationPackageAddedEvent()
   fullName: system.fabric.CodePackageActivationContext.getConfigurationPackageAddedEvent()
   type: Method
-  summary: >-
-    <p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Config package to service manifest.</p>
-
-    <p></p>
+  summary: "<p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Config package to service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageAddedEventArgs<ConfigurationPackage>> getConfigurationPackageAddedEvent()
     return:
@@ -1816,10 +1741,7 @@ references:
   nameWithType: CodePackageActivationContext.getConfigurationPackageRemovedEvent()
   fullName: system.fabric.CodePackageActivationContext.getConfigurationPackageRemovedEvent()
   type: Method
-  summary: >-
-    <p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Config package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Config package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageRemovedEventArgs<ConfigurationPackage>> getConfigurationPackageRemovedEvent()
     return:
@@ -1832,10 +1754,7 @@ references:
   nameWithType: CodePackageActivationContext.getConfigurationPackageModifiedEvent()
   fullName: system.fabric.CodePackageActivationContext.getConfigurationPackageModifiedEvent()
   type: Method
-  summary: >-
-    <p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on modifying a Config package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>ConfigurationPackageAddedEvent should be used to register listeners to listen to the events that are generated on modifying a Config package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageModifiedEventArgs<ConfigurationPackage>> getConfigurationPackageModifiedEvent()
     return:
@@ -1848,10 +1767,7 @@ references:
   nameWithType: CodePackageActivationContext.getDataPackageAddedEvent()
   fullName: system.fabric.CodePackageActivationContext.getDataPackageAddedEvent()
   type: Method
-  summary: >-
-    <p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Data package to service manifest.</p>
-
-    <p></p>
+  summary: "<p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on adding new Data package to service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageAddedEventArgs<DataPackage>> getDataPackageAddedEvent()
     return:
@@ -1864,10 +1780,7 @@ references:
   nameWithType: CodePackageActivationContext.getDataPackageRemovedEvent()
   fullName: system.fabric.CodePackageActivationContext.getDataPackageRemovedEvent()
   type: Method
-  summary: >-
-    <p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Data package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on removing a Data package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageRemovedEventArgs<DataPackage>> getDataPackageRemovedEvent()
     return:
@@ -1880,10 +1793,7 @@ references:
   nameWithType: CodePackageActivationContext.getDataPackageModifiedEvent()
   fullName: system.fabric.CodePackageActivationContext.getDataPackageModifiedEvent()
   type: Method
-  summary: >-
-    <p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on modifying a Data package in the service manifest.</p>
-
-    <p></p>
+  summary: "<p>DataPackageAddedEvent should be used to register listeners to listen to the events that are generated on modifying a Data package in the service manifest.</p>\r\n<p></p>"
   syntax:
     content: public Observable<PackageModifiedEventArgs<DataPackage>> getDataPackageModifiedEvent()
     return:
@@ -1896,7 +1806,7 @@ references:
   nameWithType: CodePackageActivationContext.reportApplicationHealth(HealthInformation healthInfo)
   fullName: system.fabric.CodePackageActivationContext.reportApplicationHealth(HealthInformation healthInfo)
   type: Method
-  summary: <p>Reports health for current application. </p>
+  summary: "<p>Reports health for current application. </p>"
   syntax:
     content: public void reportApplicationHealth(HealthInformation healthInfo)
     parameters:
@@ -1910,7 +1820,7 @@ references:
   nameWithType: HealthInformation
   fullName: system.fabric.health.HealthInformation
   type: Class
-  summary: <p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>
+  summary: "<p>Contains the health information about the entity. This information is included in the health report. It is also provided as part of the health event. </p>"
   syntax:
     content: public class HealthInformation
 - uid: system.fabric.CodePackageActivationContext.reportDeployedApplicationHealth(HealthInformation)
@@ -1920,7 +1830,7 @@ references:
   nameWithType: CodePackageActivationContext.reportDeployedApplicationHealth(HealthInformation healthInfo)
   fullName: system.fabric.CodePackageActivationContext.reportDeployedApplicationHealth(HealthInformation healthInfo)
   type: Method
-  summary: <p>Reports health for current deployed application. </p>
+  summary: "<p>Reports health for current deployed application. </p>"
   syntax:
     content: public void reportDeployedApplicationHealth(HealthInformation healthInfo)
     parameters:
@@ -1934,7 +1844,7 @@ references:
   nameWithType: CodePackageActivationContext.reportDeployedServicePackageHealth(HealthInformation healthInfo)
   fullName: system.fabric.CodePackageActivationContext.reportDeployedServicePackageHealth(HealthInformation healthInfo)
   type: Method
-  summary: <p>Reports health for current deployed service package. </p>
+  summary: "<p>Reports health for current deployed service package. </p>"
   syntax:
     content: public void reportDeployedServicePackageHealth(HealthInformation healthInfo)
     parameters:

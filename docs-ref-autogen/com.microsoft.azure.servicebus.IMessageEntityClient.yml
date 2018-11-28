@@ -65,7 +65,7 @@ references:
   nameWithType: ICloseable.close()
   fullName: com.microsoft.azure.servicebus.ICloseable.close()
   type: Method
-  summary: <p>Synchronously closes and disposes any resources associated with this object. Calling this method is equivalent of calling . This method blocks until this object is closed. </p>
+  summary: "<p>Synchronously closes and disposes any resources associated with this object. Calling this method is equivalent of calling . This method blocks until this object is closed. </p>"
   syntax:
     content: public void close()
 - uid: com.microsoft.azure.servicebus.ICloseable.closeAsync()
@@ -75,7 +75,7 @@ references:
   nameWithType: ICloseable.closeAsync()
   fullName: com.microsoft.azure.servicebus.ICloseable.closeAsync()
   type: Method
-  summary: <p>Closes and disposes any resources associated with this object. An object cannot be used after it is closed. This is an asynchronous method that returns a CompletableFuture immediately. This object is completely closed when the returned CompletableFuture is completed. </p>
+  summary: "<p>Closes and disposes any resources associated with this object. An object cannot be used after it is closed. This is an asynchronous method that returns a CompletableFuture immediately. This object is completely closed when the returned CompletableFuture is completed. </p>"
   syntax:
     content: public CompletableFuture<Void> closeAsync()
     return:
@@ -88,7 +88,7 @@ references:
   nameWithType: ICloseable
   fullName: com.microsoft.azure.servicebus.ICloseable
   type: Interface
-  summary: <p>Defines a standard way of properly closing and disposing objects. </p>
+  summary: "<p>Defines a standard way of properly closing and disposing objects. </p>"
   syntax:
     content: public interface ICloseable
 - uid: com.microsoft.azure.servicebus.IMessageReceiver
@@ -98,7 +98,7 @@ references:
   nameWithType: IMessageReceiver
   fullName: com.microsoft.azure.servicebus.IMessageReceiver
   type: Interface
-  summary: <p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>
+  summary: "<p>Defines message receiver interface. The MessageReceiver can be used to receive messages from Queues and Subscriptions and acknowledge them. </p>"
   syntax:
     content: public interface IMessageReceiver
 - uid: com.microsoft.azure.servicebus.IMessageSender
@@ -108,10 +108,7 @@ references:
   nameWithType: IMessageSender
   fullName: com.microsoft.azure.servicebus.IMessageSender
   type: Interface
-  summary: >-
-    <p>Represents a message sender that sends messages to Azure Service Bus.</p>
-
-    <p></p>
+  summary: "<p>Represents a message sender that sends messages to Azure Service Bus.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessageSender
 - uid: com.microsoft.azure.servicebus.IQueueClient
@@ -121,7 +118,7 @@ references:
   nameWithType: IQueueClient
   fullName: com.microsoft.azure.servicebus.IQueueClient
   type: Interface
-  summary: <p>QueueClient can be used for all basic interactions with a Service Bus Queue. </p>
+  summary: "<p>QueueClient can be used for all basic interactions with a Service Bus Queue. </p>"
   syntax:
     content: public interface IQueueClient
 - uid: com.microsoft.azure.servicebus.ISubscriptionClient
@@ -131,7 +128,7 @@ references:
   nameWithType: ISubscriptionClient
   fullName: com.microsoft.azure.servicebus.ISubscriptionClient
   type: Interface
-  summary: <p>SubscriptionClient can be used for all basic interactions with a Service Bus Subscription. </p>
+  summary: "<p>SubscriptionClient can be used for all basic interactions with a Service Bus Subscription. </p>"
   syntax:
     content: public interface ISubscriptionClient
 - uid: com.microsoft.azure.servicebus.ITopicClient
@@ -141,7 +138,7 @@ references:
   nameWithType: ITopicClient
   fullName: com.microsoft.azure.servicebus.ITopicClient
   type: Interface
-  summary: <p>TopicClient can be used for all basic interactions with a Service Bus topic. <code></code></p>
+  summary: "<p>TopicClient can be used for all basic interactions with a Service Bus topic. <code></code></p>"
   syntax:
     content: public interface ITopicClient
 - uid: com.microsoft.azure.servicebus.SubscriptionClient.getEntityPath()
@@ -151,10 +148,7 @@ references:
   nameWithType: SubscriptionClient.getEntityPath()
   fullName: com.microsoft.azure.servicebus.SubscriptionClient.getEntityPath()
   type: Method
-  summary: >-
-    <p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>
-
-    <p></p>
+  summary: "<p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>\r\n<p></p>"
   syntax:
     content: public String getEntityPath()
     return:
@@ -167,10 +161,7 @@ references:
   nameWithType: TopicClient.getEntityPath()
   fullName: com.microsoft.azure.servicebus.TopicClient.getEntityPath()
   type: Method
-  summary: >-
-    <p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>
-
-    <p></p>
+  summary: "<p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>\r\n<p></p>"
   syntax:
     content: public String getEntityPath()
     return:
@@ -183,10 +174,7 @@ references:
   nameWithType: QueueClient.getEntityPath()
   fullName: com.microsoft.azure.servicebus.QueueClient.getEntityPath()
   type: Method
-  summary: >-
-    <p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>
-
-    <p></p>
+  summary: "<p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>\r\n<p></p>"
   syntax:
     content: public String getEntityPath()
     return:

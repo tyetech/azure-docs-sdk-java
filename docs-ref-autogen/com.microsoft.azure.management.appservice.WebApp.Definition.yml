@@ -49,10 +49,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -65,10 +62,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -85,10 +79,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -125,7 +116,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithDockerContainerImage.withBuiltInImage(RuntimeStack runtimeStack)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage.withBuiltInImage(RuntimeStack runtimeStack)
   type: Method
-  summary: <p>Specifies the docker container image to be a built in one. </p>
+  summary: "<p>Specifies the docker container image to be a built in one. </p>"
   syntax:
     content: public WithCreate withBuiltInImage(RuntimeStack runtimeStack)
     parameters:
@@ -142,7 +133,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithCredentials.withCredentials(String username, String password)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCredentials.withCredentials(String username, String password)
   type: Method
-  summary: <p>Specifies the username and password for Docker Hub or the docker registry. </p>
+  summary: "<p>Specifies the username and password for Docker Hub or the docker registry. </p>"
   syntax:
     content: public WithStartUpCommand withCredentials(String username, String password)
     parameters:
@@ -162,7 +153,7 @@ references:
   nameWithType: WebApp.DefinitionStages.Blank.withExistingLinuxPlan(AppServicePlan appServicePlan)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.Blank.withExistingLinuxPlan(AppServicePlan appServicePlan)
   type: Method
-  summary: <p>Uses an existing app service plan for the web app. </p>
+  summary: "<p>Uses an existing app service plan for the web app. </p>"
   syntax:
     content: public ExistingLinuxPlanWithGroup withExistingLinuxPlan(AppServicePlan appServicePlan)
     parameters:
@@ -179,7 +170,7 @@ references:
   nameWithType: WebApp.DefinitionStages.Blank.withExistingWindowsPlan(AppServicePlan appServicePlan)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.Blank.withExistingWindowsPlan(AppServicePlan appServicePlan)
   type: Method
-  summary: <p>Uses an existing app service plan for the web app. </p>
+  summary: "<p>Uses an existing app service plan for the web app. </p>"
   syntax:
     content: public ExistingWindowsPlanWithGroup withExistingWindowsPlan(AppServicePlan appServicePlan)
     parameters:
@@ -196,10 +187,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithNewAppServicePlan.withNewFreeAppServicePlan()
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan.withNewFreeAppServicePlan()
   type: Method
-  summary: >-
-    <p>Creates a new free app service plan. This will fail if there are 10 or more free plans in the current subscription.</p>
-
-    <p></p>
+  summary: "<p>Creates a new free app service plan. This will fail if there are 10 or more free plans in the current subscription.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewFreeAppServicePlan()
     return:
@@ -212,10 +200,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(PricingTier pricingTier)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(PricingTier pricingTier)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public WithDockerContainerImage withNewLinuxPlan(PricingTier pricingTier)
     parameters:
@@ -232,10 +217,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan.withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public WithDockerContainerImage withNewLinuxPlan(Creatable<AppServicePlan> appServicePlanCreatable)
     parameters:
@@ -252,10 +234,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithNewAppServicePlan.withNewSharedAppServicePlan()
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan.withNewSharedAppServicePlan()
   type: Method
-  summary: >-
-    <p>Creates a new shared app service plan.</p>
-
-    <p></p>
+  summary: "<p>Creates a new shared app service plan.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewSharedAppServicePlan()
     return:
@@ -268,10 +247,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(PricingTier pricingTier)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(PricingTier pricingTier)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewWindowsPlan(PricingTier pricingTier)
     parameters:
@@ -288,10 +264,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan.withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)
   type: Method
-  summary: >-
-    <p>Creates a new app service plan to use.</p>
-
-    <p></p>
+  summary: "<p>Creates a new app service plan to use.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewWindowsPlan(Creatable<AppServicePlan> appServicePlanCreatable)
     parameters:
@@ -308,7 +281,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithDockerContainerImage.withPrivateDockerHubImage(String imageAndTag)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage.withPrivateDockerHubImage(String imageAndTag)
   type: Method
-  summary: <p>Specifies the docker container image to be one from Docker Hub. </p>
+  summary: "<p>Specifies the docker container image to be one from Docker Hub. </p>"
   syntax:
     content: public WithCredentials withPrivateDockerHubImage(String imageAndTag)
     parameters:
@@ -325,7 +298,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithDockerContainerImage.withPrivateRegistryImage(String imageAndTag, String serverUrl)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage.withPrivateRegistryImage(String imageAndTag, String serverUrl)
   type: Method
-  summary: <p>Specifies the docker container image to be one from a private registry. </p>
+  summary: "<p>Specifies the docker container image to be one from a private registry. </p>"
   syntax:
     content: public WithCredentials withPrivateRegistryImage(String imageAndTag, String serverUrl)
     parameters:
@@ -345,7 +318,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithDockerContainerImage.withPublicDockerHubImage(String imageAndTag)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage.withPublicDockerHubImage(String imageAndTag)
   type: Method
-  summary: <p>Specifies the docker container image to be one from Docker Hub. </p>
+  summary: "<p>Specifies the docker container image to be one from Docker Hub. </p>"
   syntax:
     content: public WithStartUpCommand withPublicDockerHubImage(String imageAndTag)
     parameters:
@@ -362,7 +335,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithStartUpCommand.withStartUpCommand(String startUpCommand)
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithStartUpCommand.withStartUpCommand(String startUpCommand)
   type: Method
-  summary: <p>Specifies the startup command. </p>
+  summary: "<p>Specifies the startup command. </p>"
   syntax:
     content: public WithCreate withStartUpCommand(String startUpCommand)
     parameters:
@@ -379,7 +352,7 @@ references:
   nameWithType: WebApp.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the web app definition. </p>
+  summary: "<p>The first stage of the web app definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.NewAppServicePlanWithGroup
@@ -389,7 +362,7 @@ references:
   nameWithType: WebApp.DefinitionStages.NewAppServicePlanWithGroup
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.NewAppServicePlanWithGroup
   type: Interface
-  summary: <p>A web app definition allowing resource group to be specified when an existing app service plan is used. </p>
+  summary: "<p>A web app definition allowing resource group to be specified when an existing app service plan is used. </p>"
   syntax:
     content: public interface NewAppServicePlanWithGroup
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan
@@ -399,7 +372,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithNewAppServicePlan
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan
   type: Interface
-  summary: <p>A web app definition allowing app service plan to be set. </p>
+  summary: "<p>A web app definition allowing app service plan to be set. </p>"
   syntax:
     content: public interface WithNewAppServicePlan
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage
@@ -409,7 +382,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithDockerContainerImage
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage
   type: Interface
-  summary: <p>A web app definition allowing docker image source to be specified. </p>
+  summary: "<p>A web app definition allowing docker image source to be specified. </p>"
   syntax:
     content: public interface WithDockerContainerImage
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCredentials
@@ -419,7 +392,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithCredentials
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCredentials
   type: Interface
-  summary: <p>A web app definition allowing docker registry credentials to be set. </p>
+  summary: "<p>A web app definition allowing docker registry credentials to be set. </p>"
   syntax:
     content: public interface WithCredentials
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithStartUpCommand
@@ -429,7 +402,7 @@ references:
   nameWithType: WebApp.DefinitionStages.WithStartUpCommand
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithStartUpCommand
   type: Interface
-  summary: <p>A web app definition allowing docker startup command to be specified. This will replace the "CMD" section in the Dockerfile. </p>
+  summary: "<p>A web app definition allowing docker startup command to be specified. This will replace the \"CMD\" section in the Dockerfile. </p>"
   syntax:
     content: public interface WithStartUpCommand
 - uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCreate
@@ -439,6 +412,6 @@ references:
   nameWithType: WebApp.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A site definition with sufficient inputs to create a new web app / deployments slot in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate

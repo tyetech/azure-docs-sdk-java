@@ -82,7 +82,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway request routing rule definition. </p>
+  summary: "<p>The entirety of an application gateway request routing rule definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayRequestRoutingRule.DefinitionStages.Blank<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListener<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontendPort<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListenerOrFrontend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddress<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendOrAddress<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddressOrAttach<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendHttpConfiguration<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslCertificate<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslPassword<DefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>>
     typeParameters:
@@ -96,7 +96,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendOrAddress<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendOrAddress<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to add an address to specify an existing backend to associate with this request routing rule or create a new backend with an auto-generated name and addresses to it. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to add an address to specify an existing backend to associate with this request routing rule or create a new backend with an auto-generated name and addresses to it. </p>"
   syntax:
     content: public interface WithBackendOrAddress<ParentT>
     typeParameters:
@@ -110,10 +110,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway request routing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway request routing rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithHostName<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithCookieBasedAffinity<ParentT>
     typeParameters:

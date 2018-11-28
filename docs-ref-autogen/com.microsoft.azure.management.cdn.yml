@@ -89,7 +89,7 @@ references:
   nameWithType: CdnEndpoint
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure CDN endpoint. </p>
+  summary: "<p>An immutable client-side representation of an Azure CDN endpoint. </p>"
   syntax:
     content: public interface CdnEndpoint extends ExternalChildResource<CdnEndpoint, CdnProfile>,HasInner<EndpointInner>
 - uid: com.microsoft.azure.management.cdn.CdnProfile
@@ -99,7 +99,7 @@ references:
   nameWithType: CdnProfile
   fullName: com.microsoft.azure.management.cdn.CdnProfile
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure CDN profile. </p>
+  summary: "<p>An immutable client-side representation of an Azure CDN profile. </p>"
   syntax:
     content: public interface CdnProfile extends GroupableResource<CdnManager, ProfileInner>,Refreshable<CdnProfile>,Updatable<CdnProfile.Update>
 - uid: com.microsoft.azure.management.cdn.CdnProfiles
@@ -109,7 +109,7 @@ references:
   nameWithType: CdnProfiles
   fullName: com.microsoft.azure.management.cdn.CdnProfiles
   type: Interface
-  summary: <p>Entry point for CDN profile management API. </p>
+  summary: "<p>Entry point for CDN profile management API. </p>"
   syntax:
     content: public interface CdnProfiles extends SupportsCreating<CdnProfile.DefinitionStages.Blank>,SupportsListing<CdnProfile>,SupportsListingByResourceGroup<CdnProfile>,SupportsGettingByResourceGroup<CdnProfile>,SupportsGettingById<CdnProfile>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<CdnProfile>,SupportsBatchDeletion,HasManager<CdnManager>,HasInner<ProfilesInner>
 - uid: com.microsoft.azure.management.cdn.CheckNameAvailabilityInput
@@ -119,7 +119,7 @@ references:
   nameWithType: CheckNameAvailabilityInput
   fullName: com.microsoft.azure.management.cdn.CheckNameAvailabilityInput
   type: Class
-  summary: <p>Input of CheckNameAvailability API. </p>
+  summary: "<p>Input of CheckNameAvailability API. </p>"
   syntax:
     content: public class CheckNameAvailabilityInput
 - uid: com.microsoft.azure.management.cdn.CheckNameAvailabilityResult
@@ -129,7 +129,7 @@ references:
   nameWithType: CheckNameAvailabilityResult
   fullName: com.microsoft.azure.management.cdn.CheckNameAvailabilityResult
   type: Class
-  summary: <p>Result of the custom domain validation. </p>
+  summary: "<p>Result of the custom domain validation. </p>"
   syntax:
     content: public class CheckNameAvailabilityResult
 - uid: com.microsoft.azure.management.cdn.CidrIpAddress
@@ -139,7 +139,7 @@ references:
   nameWithType: CidrIpAddress
   fullName: com.microsoft.azure.management.cdn.CidrIpAddress
   type: Class
-  summary: <p>CIDR Ip address. </p>
+  summary: "<p>CIDR Ip address. </p>"
   syntax:
     content: public class CidrIpAddress
 - uid: com.microsoft.azure.management.cdn.CustomDomainParameters
@@ -149,7 +149,7 @@ references:
   nameWithType: CustomDomainParameters
   fullName: com.microsoft.azure.management.cdn.CustomDomainParameters
   type: Class
-  summary: <p>The customDomain JSON object required for custom domain creation or update. </p>
+  summary: "<p>The customDomain JSON object required for custom domain creation or update. </p>"
   syntax:
     content: public class CustomDomainParameters
 - uid: com.microsoft.azure.management.cdn.CustomDomainResourceState
@@ -159,7 +159,7 @@ references:
   nameWithType: CustomDomainResourceState
   fullName: com.microsoft.azure.management.cdn.CustomDomainResourceState
   type: Class
-  summary: <p>Defines values for CustomDomainResourceState. </p>
+  summary: "<p>Defines values for CustomDomainResourceState. </p>"
   syntax:
     content: public class CustomDomainResourceState
 - uid: com.microsoft.azure.management.cdn.CustomDomainValidationResult
@@ -169,7 +169,7 @@ references:
   nameWithType: CustomDomainValidationResult
   fullName: com.microsoft.azure.management.cdn.CustomDomainValidationResult
   type: Class
-  summary: <p>The <xref uid="com.microsoft.azure.management.cdn.CdnProfile.validateEndpointCustomDomain(String,String)" data-throw-if-not-resolved="false">com.microsoft.azure.management.cdn.CdnProfile#validateEndpointCustomDomain(String, String)</xref> action result. </p>
+  summary: "<p>The <xref uid=\"com.microsoft.azure.management.cdn.CdnProfile.validateEndpointCustomDomain(String,String)\" data-throw-if-not-resolved=\"false\">com.microsoft.azure.management.cdn.CdnProfile#validateEndpointCustomDomain(String, String)</xref> action result. </p>"
   syntax:
     content: public class CustomDomainValidationResult
 - uid: com.microsoft.azure.management.cdn.CustomHttpsProvisioningState
@@ -179,7 +179,7 @@ references:
   nameWithType: CustomHttpsProvisioningState
   fullName: com.microsoft.azure.management.cdn.CustomHttpsProvisioningState
   type: Class
-  summary: <p>Defines values for CustomHttpsProvisioningState. </p>
+  summary: "<p>Defines values for CustomHttpsProvisioningState. </p>"
   syntax:
     content: public class CustomHttpsProvisioningState
 - uid: com.microsoft.azure.management.cdn.DeepCreatedOrigin
@@ -189,7 +189,7 @@ references:
   nameWithType: DeepCreatedOrigin
   fullName: com.microsoft.azure.management.cdn.DeepCreatedOrigin
   type: Class
-  summary: <p>Origin to be added when creating a CDN endpoint. </p>
+  summary: "<p>Origin to be added when creating a CDN endpoint. </p>"
   syntax:
     content: public class DeepCreatedOrigin
 - uid: com.microsoft.azure.management.cdn.EdgeNode
@@ -199,7 +199,7 @@ references:
   nameWithType: EdgeNode
   fullName: com.microsoft.azure.management.cdn.EdgeNode
   type: Class
-  summary: <p>Provides information about edge node of CDN service. </p>
+  summary: "<p>Provides information about edge node of CDN service. </p>"
   syntax:
     content: public class EdgeNode
 - uid: com.microsoft.azure.management.cdn.EndpointResourceState
@@ -209,7 +209,7 @@ references:
   nameWithType: EndpointResourceState
   fullName: com.microsoft.azure.management.cdn.EndpointResourceState
   type: Class
-  summary: <p>Defines values for EndpointResourceState. </p>
+  summary: "<p>Defines values for EndpointResourceState. </p>"
   syntax:
     content: public class EndpointResourceState
 - uid: com.microsoft.azure.management.cdn.ErrorResponse
@@ -219,7 +219,7 @@ references:
   nameWithType: ErrorResponse
   fullName: com.microsoft.azure.management.cdn.ErrorResponse
   type: Class
-  summary: <p>Error reponse indicates CDN service is not able to process the incoming request. The reason is provided in the error message. </p>
+  summary: "<p>Error reponse indicates CDN service is not able to process the incoming request. The reason is provided in the error message. </p>"
   syntax:
     content: public class ErrorResponse
 - uid: com.microsoft.azure.management.cdn.ErrorResponseException
@@ -229,7 +229,7 @@ references:
   nameWithType: ErrorResponseException
   fullName: com.microsoft.azure.management.cdn.ErrorResponseException
   type: Class
-  summary: <p>Exception thrown for an invalid response with ErrorResponse information. </p>
+  summary: "<p>Exception thrown for an invalid response with ErrorResponse information. </p>"
   syntax:
     content: public class ErrorResponseException
 - uid: com.microsoft.azure.management.cdn.GeoFilter
@@ -239,7 +239,7 @@ references:
   nameWithType: GeoFilter
   fullName: com.microsoft.azure.management.cdn.GeoFilter
   type: Class
-  summary: <p>Rules defining user geo access within a CDN endpoint. </p>
+  summary: "<p>Rules defining user geo access within a CDN endpoint. </p>"
   syntax:
     content: public class GeoFilter
 - uid: com.microsoft.azure.management.cdn.GeoFilterActions
@@ -249,7 +249,7 @@ references:
   nameWithType: GeoFilterActions
   fullName: com.microsoft.azure.management.cdn.GeoFilterActions
   type: Enum
-  summary: <p>Defines values for GeoFilterActions. </p>
+  summary: "<p>Defines values for GeoFilterActions. </p>"
   syntax:
     content: public enum GeoFilterActions
 - uid: com.microsoft.azure.management.cdn.IpAddressGroup
@@ -259,7 +259,7 @@ references:
   nameWithType: IpAddressGroup
   fullName: com.microsoft.azure.management.cdn.IpAddressGroup
   type: Class
-  summary: <p>CDN Ip address group. </p>
+  summary: "<p>CDN Ip address group. </p>"
   syntax:
     content: public class IpAddressGroup
 - uid: com.microsoft.azure.management.cdn.LoadParameters
@@ -269,7 +269,7 @@ references:
   nameWithType: LoadParameters
   fullName: com.microsoft.azure.management.cdn.LoadParameters
   type: Class
-  summary: <p>Parameters required for content load. </p>
+  summary: "<p>Parameters required for content load. </p>"
   syntax:
     content: public class LoadParameters
 - uid: com.microsoft.azure.management.cdn.Operation
@@ -279,7 +279,7 @@ references:
   nameWithType: Operation
   fullName: com.microsoft.azure.management.cdn.Operation
   type: Class
-  summary: <p>Operation that CDN service supports. </p>
+  summary: "<p>Operation that CDN service supports. </p>"
   syntax:
     content: public class Operation
 - uid: com.microsoft.azure.management.cdn.OperationDisplay
@@ -289,7 +289,7 @@ references:
   nameWithType: OperationDisplay
   fullName: com.microsoft.azure.management.cdn.OperationDisplay
   type: Class
-  summary: <p>The object that represents the operation. </p>
+  summary: "<p>The object that represents the operation. </p>"
   syntax:
     content: public class OperationDisplay
 - uid: com.microsoft.azure.management.cdn.OriginResourceState
@@ -299,7 +299,7 @@ references:
   nameWithType: OriginResourceState
   fullName: com.microsoft.azure.management.cdn.OriginResourceState
   type: Class
-  summary: <p>Defines values for OriginResourceState. </p>
+  summary: "<p>Defines values for OriginResourceState. </p>"
   syntax:
     content: public class OriginResourceState
 - uid: com.microsoft.azure.management.cdn.ProfileResourceState
@@ -309,7 +309,7 @@ references:
   nameWithType: ProfileResourceState
   fullName: com.microsoft.azure.management.cdn.ProfileResourceState
   type: Class
-  summary: <p>Defines values for ProfileResourceState. </p>
+  summary: "<p>Defines values for ProfileResourceState. </p>"
   syntax:
     content: public class ProfileResourceState
 - uid: com.microsoft.azure.management.cdn.ProfileUpdateParameters
@@ -319,7 +319,7 @@ references:
   nameWithType: ProfileUpdateParameters
   fullName: com.microsoft.azure.management.cdn.ProfileUpdateParameters
   type: Class
-  summary: <p>Properties required to update a profile. </p>
+  summary: "<p>Properties required to update a profile. </p>"
   syntax:
     content: public class ProfileUpdateParameters
 - uid: com.microsoft.azure.management.cdn.PurgeParameters
@@ -329,7 +329,7 @@ references:
   nameWithType: PurgeParameters
   fullName: com.microsoft.azure.management.cdn.PurgeParameters
   type: Class
-  summary: <p>Parameters required for content purge. </p>
+  summary: "<p>Parameters required for content purge. </p>"
   syntax:
     content: public class PurgeParameters
 - uid: com.microsoft.azure.management.cdn.QueryStringCachingBehavior
@@ -339,7 +339,7 @@ references:
   nameWithType: QueryStringCachingBehavior
   fullName: com.microsoft.azure.management.cdn.QueryStringCachingBehavior
   type: Enum
-  summary: <p>Defines values for QueryStringCachingBehavior. </p>
+  summary: "<p>Defines values for QueryStringCachingBehavior. </p>"
   syntax:
     content: public enum QueryStringCachingBehavior
 - uid: com.microsoft.azure.management.cdn.ResourceType
@@ -349,7 +349,7 @@ references:
   nameWithType: ResourceType
   fullName: com.microsoft.azure.management.cdn.ResourceType
   type: Enum
-  summary: <p>Defines values for ResourceType. </p>
+  summary: "<p>Defines values for ResourceType. </p>"
   syntax:
     content: public enum ResourceType
 - uid: com.microsoft.azure.management.cdn.ResourceUsage
@@ -359,7 +359,7 @@ references:
   nameWithType: ResourceUsage
   fullName: com.microsoft.azure.management.cdn.ResourceUsage
   type: Class
-  summary: <p>Provides information about CDN resource usages. </p>
+  summary: "<p>Provides information about CDN resource usages. </p>"
   syntax:
     content: public class ResourceUsage
 - uid: com.microsoft.azure.management.cdn.Sku
@@ -369,7 +369,7 @@ references:
   nameWithType: Sku
   fullName: com.microsoft.azure.management.cdn.Sku
   type: Class
-  summary: <p>The pricing tier (defines a CDN provider, feature list and rate) of the CDN profile. </p>
+  summary: "<p>The pricing tier (defines a CDN provider, feature list and rate) of the CDN profile. </p>"
   syntax:
     content: public class Sku
 - uid: com.microsoft.azure.management.cdn.SkuName
@@ -379,7 +379,7 @@ references:
   nameWithType: SkuName
   fullName: com.microsoft.azure.management.cdn.SkuName
   type: Class
-  summary: <p>Defines values for SkuName. </p>
+  summary: "<p>Defines values for SkuName. </p>"
   syntax:
     content: public class SkuName
 - uid: com.microsoft.azure.management.cdn.ValidateCustomDomainInput
@@ -389,7 +389,7 @@ references:
   nameWithType: ValidateCustomDomainInput
   fullName: com.microsoft.azure.management.cdn.ValidateCustomDomainInput
   type: Class
-  summary: <p>Input of the custom domain to be validated for DNS mapping. </p>
+  summary: "<p>Input of the custom domain to be validated for DNS mapping. </p>"
   syntax:
     content: public class ValidateCustomDomainInput
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.AttachablePremium
@@ -399,10 +399,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.AttachablePremium<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.AttachablePremium<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the Premium Verizon endpoint definition, at which it can be attached to the parent.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the Premium Verizon endpoint definition, at which it can be attached to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface AttachablePremium<ParentT>
     typeParameters:
@@ -416,10 +413,7 @@ references:
   nameWithType: CdnEndpoint.UpdateDefinitionStages.AttachablePremium<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.AttachablePremium<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the Premium Verizon endpoint object definition, at which it can be attached to the parent.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the Premium Verizon endpoint object definition, at which it can be attached to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface AttachablePremium<ParentT>
     typeParameters:
@@ -433,10 +427,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.AttachableStandard<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.AttachableStandard<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of a Standard endpoint definition, at which it can be attached to the parent.</p>
-
-    <p></p>
+  summary: "<p>The final stage of a Standard endpoint definition, at which it can be attached to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface AttachableStandard<ParentT>
     typeParameters:
@@ -450,10 +441,7 @@ references:
   nameWithType: CdnEndpoint.UpdateDefinitionStages.AttachableStandard<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.AttachableStandard<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the Standard endpoint object definition, at which it can be attached to the parent.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the Standard endpoint object definition, at which it can be attached to the parent.</p>\r\n<p></p>"
   syntax:
     content: public interface AttachableStandard<ParentT>
     typeParameters:
@@ -467,7 +455,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a CDN profile endpoint definition. </p>
+  summary: "<p>The first stage of a CDN profile endpoint definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank
@@ -477,7 +465,7 @@ references:
   nameWithType: CdnEndpoint.UpdateDefinitionStages.Blank
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a CDN profile endpoint definition. </p>
+  summary: "<p>The first stage of a CDN profile endpoint definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.Blank
@@ -487,7 +475,7 @@ references:
   nameWithType: CdnProfile.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a CDN profile definition. </p>
+  summary: "<p>The first stage of a CDN profile definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.cdn.CdnProfile.Definition
@@ -497,7 +485,7 @@ references:
   nameWithType: CdnProfile.Definition
   fullName: com.microsoft.azure.management.cdn.CdnProfile.Definition
   type: Interface
-  summary: <p>The entirety of a CDN profile definition. </p>
+  summary: "<p>The entirety of a CDN profile definition. </p>"
   syntax:
     content: public interface Definition extends CdnProfile.DefinitionStages.Blank,CdnProfile.DefinitionStages.WithGroup,CdnProfile.DefinitionStages.WithSku,CdnProfile.DefinitionStages.WithStandardCreate,CdnProfile.DefinitionStages.WithPremiumVerizonCreate,CdnProfile.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages
@@ -507,7 +495,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages
   type: Interface
-  summary: <p>Grouping of CDN profile endpoint definition stages as a part of parent CDN profile definition. </p>
+  summary: "<p>Grouping of CDN profile endpoint definition stages as a part of parent CDN profile definition. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages
@@ -517,7 +505,7 @@ references:
   nameWithType: CdnProfile.DefinitionStages
   fullName: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages
   type: Interface
-  summary: <p>Grouping of CDN profile definition stages. </p>
+  summary: "<p>Grouping of CDN profile definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.Blank.PremiumEndpoint
@@ -527,10 +515,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.Blank.PremiumEndpoint<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.Blank.PremiumEndpoint<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a CDN profile endpoint definition allowing to specify the origin for the CDN profile with teh Premium Verizon SKU.</p>
-
-    <p></p>
+  summary: "<p>The stage of a CDN profile endpoint definition allowing to specify the origin for the CDN profile with teh Premium Verizon SKU.</p>\r\n<p></p>"
   syntax:
     content: public interface PremiumEndpoint<ParentT>
     typeParameters:
@@ -544,10 +529,7 @@ references:
   nameWithType: CdnEndpoint.UpdateDefinitionStages.Blank.PremiumEndpoint<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank.PremiumEndpoint<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the CDN profile endpoint definition allowing to specify the origin for CDN Profile with the Premium Verizon SKU.</p>
-
-    <p></p>
+  summary: "<p>The stage of the CDN profile endpoint definition allowing to specify the origin for CDN Profile with the Premium Verizon SKU.</p>\r\n<p></p>"
   syntax:
     content: public interface PremiumEndpoint<ParentT>
     typeParameters:
@@ -561,10 +543,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.Blank.StandardEndpoint<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.Blank.StandardEndpoint<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a CDN profile endpoint definition allowing to specify the origin.</p>
-
-    <p></p>
+  summary: "<p>The stage of a CDN profile endpoint definition allowing to specify the origin.</p>\r\n<p></p>"
   syntax:
     content: public interface StandardEndpoint<ParentT>
     typeParameters:
@@ -578,10 +557,7 @@ references:
   nameWithType: CdnEndpoint.UpdateDefinitionStages.Blank.StandardEndpoint<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank.StandardEndpoint<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the CDN profile endpoint definition allowing to specify the origin.</p>
-
-    <p></p>
+  summary: "<p>The stage of the CDN profile endpoint definition allowing to specify the origin.</p>\r\n<p></p>"
   syntax:
     content: public interface StandardEndpoint<ParentT>
     typeParameters:
@@ -595,7 +571,7 @@ references:
   nameWithType: CdnEndpoint.Update
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.Update
   type: Interface
-  summary: <p>The entirety of a CDN endpoint update as part of a CDN profile update. </p>
+  summary: "<p>The entirety of a CDN endpoint update as part of a CDN profile update. </p>"
   syntax:
     content: public interface Update extends Settable<CdnProfile.Update>
 - uid: com.microsoft.azure.management.cdn.CdnProfile.Update
@@ -605,7 +581,7 @@ references:
   nameWithType: CdnProfile.Update
   fullName: com.microsoft.azure.management.cdn.CdnProfile.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<CdnProfile>,CdnProfile.UpdateStages.WithEndpoint,Resource.UpdateWithTags<Update>
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages
@@ -615,7 +591,7 @@ references:
   nameWithType: CdnEndpoint.UpdateDefinitionStages
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages
   type: Interface
-  summary: <p>The entirety of a CDN profile endpoint definition as a part of a parent CDN profile update. </p>
+  summary: "<p>The entirety of a CDN profile endpoint definition as a part of a parent CDN profile update. </p>"
   syntax:
     content: public interface UpdateDefinitionStages
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdatePremiumEndpoint
@@ -625,7 +601,7 @@ references:
   nameWithType: CdnEndpoint.UpdatePremiumEndpoint
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdatePremiumEndpoint
   type: Interface
-  summary: <p>The stage of an CDN profile endpoint update allowing to specify endpoint properties. </p>
+  summary: "<p>The stage of an CDN profile endpoint update allowing to specify endpoint properties. </p>"
   syntax:
     content: public interface UpdatePremiumEndpoint extends CdnEndpoint.Update
 - uid: com.microsoft.azure.management.cdn.CdnProfile.UpdateStages
@@ -635,7 +611,7 @@ references:
   nameWithType: CdnProfile.UpdateStages
   fullName: com.microsoft.azure.management.cdn.CdnProfile.UpdateStages
   type: Interface
-  summary: <p>Grouping of CDN manager update stages. </p>
+  summary: "<p>Grouping of CDN manager update stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateStandardEndpoint
@@ -645,7 +621,7 @@ references:
   nameWithType: CdnEndpoint.UpdateStandardEndpoint
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateStandardEndpoint
   type: Interface
-  summary: <p>The stage of an CDN profile endpoint update allowing to specify endpoint properties. </p>
+  summary: "<p>The stage of an CDN profile endpoint update allowing to specify endpoint properties. </p>"
   syntax:
     content: public interface UpdateStandardEndpoint extends CdnEndpoint.Update
 - uid: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithCreate
@@ -655,7 +631,7 @@ references:
   nameWithType: CdnProfile.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<CdnProfile>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.cdn.CdnProfile.UpdateStages.WithEndpoint
@@ -665,7 +641,7 @@ references:
   nameWithType: CdnProfile.UpdateStages.WithEndpoint
   fullName: com.microsoft.azure.management.cdn.CdnProfile.UpdateStages.WithEndpoint
   type: Interface
-  summary: <p>The stage of a CDN profile update allowing to modify the endpoints for the profile. </p>
+  summary: "<p>The stage of a CDN profile update allowing to modify the endpoints for the profile. </p>"
   syntax:
     content: public interface WithEndpoint
 - uid: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithGroup
@@ -675,26 +651,9 @@ references:
   nameWithType: CdnProfile.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of a CDN profile definition allowing the resource group to be specified. </p>
+  summary: "<p>The stage of a CDN profile definition allowing the resource group to be specified. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithSku>
-- uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach
-  parent: com.microsoft.azure.management.cdn
-  href: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach.yml
-  name: CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach<ParentT>
-  nameWithType: CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach<ParentT>
-  fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach<ParentT>
-  type: Interface
-  summary: >-
-    <p>The final stage of a CDN profile Premium Verizon endpoint definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>
-  syntax:
-    content: public interface WithPremiumAttach<ParentT> extends CdnEndpoint.UpdateDefinitionStages.AttachablePremium<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent CDN profile update to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.WithPremiumAttach
   parent: com.microsoft.azure.management.cdn
   href: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.WithPremiumAttach.yml
@@ -702,16 +661,27 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.WithPremiumAttach<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.WithPremiumAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the CDN profile Premium Verizon endpoint definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition. </p>
+  summary: "<p>The final stage of the CDN profile Premium Verizon endpoint definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition. </p>"
   syntax:
     content: public interface WithPremiumAttach<ParentT> extends CdnEndpoint.DefinitionStages.AttachablePremium<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent CDN profile definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach
+  parent: com.microsoft.azure.management.cdn
+  href: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach.yml
+  name: CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach<ParentT>
+  nameWithType: CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach<ParentT>
+  fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithPremiumAttach<ParentT>
+  type: Interface
+  summary: "<p>The final stage of a CDN profile Premium Verizon endpoint definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>"
+  syntax:
+    content: public interface WithPremiumAttach<ParentT> extends CdnEndpoint.UpdateDefinitionStages.AttachablePremium<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent CDN profile update to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithPremiumVerizonCreate
   parent: com.microsoft.azure.management.cdn
   href: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithPremiumVerizonCreate.yml
@@ -719,7 +689,7 @@ references:
   nameWithType: CdnProfile.DefinitionStages.WithPremiumVerizonCreate
   fullName: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithPremiumVerizonCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithPremiumVerizonCreate extends CdnProfile.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithSku
@@ -729,7 +699,7 @@ references:
   nameWithType: CdnProfile.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithSku
   type: Interface
-  summary: <p>A CDN profile definition allowing the SKU to be specified. </p>
+  summary: "<p>A CDN profile definition allowing the SKU to be specified. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.WithStandardAttach
@@ -739,10 +709,7 @@ references:
   nameWithType: CdnEndpoint.DefinitionStages.WithStandardAttach<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.DefinitionStages.WithStandardAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the CDN profile Standard Akamai or Standard Verizon endpoint definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>
+  summary: "<p>The final stage of the CDN profile Standard Akamai or Standard Verizon endpoint definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>"
   syntax:
     content: public interface WithStandardAttach<ParentT> extends CdnEndpoint.DefinitionStages.AttachableStandard<ParentT>
     typeParameters:
@@ -756,10 +723,7 @@ references:
   nameWithType: CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>
   fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.WithStandardAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the CDN profile Standard Akamai or Standard Verizon endpoint definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>
+  summary: "<p>The final stage of the CDN profile Standard Akamai or Standard Verizon endpoint definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the CDN profile endpoint definition can be attached to the parent CDN profile definition </p>"
   syntax:
     content: public interface WithStandardAttach<ParentT> extends CdnEndpoint.UpdateDefinitionStages.AttachableStandard<ParentT>
     typeParameters:
@@ -773,6 +737,6 @@ references:
   nameWithType: CdnProfile.DefinitionStages.WithStandardCreate
   fullName: com.microsoft.azure.management.cdn.CdnProfile.DefinitionStages.WithStandardCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithStandardCreate extends CdnProfile.DefinitionStages.WithCreate

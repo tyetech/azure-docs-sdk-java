@@ -106,7 +106,7 @@ references:
   nameWithType: HashPartitionResolver
   fullName: com.microsoft.azure.documentdb.HashPartitionResolver
   type: Class
-  summary: <p>HashPartitionResolver implements partitioning based on the value of a hash function, allowing you to evenly distribute requests and data across a number of partitions by implementing PartitionResolver interface in the Azure Cosmos DB database service. </p>
+  summary: "<p>HashPartitionResolver implements partitioning based on the value of a hash function, allowing you to evenly distribute requests and data across a number of partitions by implementing PartitionResolver interface in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class HashPartitionResolver implements PartitionResolver
 - uid: com.microsoft.azure.documentdb.RangePartitionResolver
@@ -116,7 +116,7 @@ references:
   nameWithType: RangePartitionResolver<T>
   fullName: com.microsoft.azure.documentdb.RangePartitionResolver<T>
   type: Class
-  summary: <p>RangePartitionResolver implements partitioning based on the ranges in the Azure Cosmos DB database service. It allows you to distribute requests and data across a number of partitions by implementing PartitionResolver interface. </p>
+  summary: "<p>RangePartitionResolver implements partitioning based on the ranges in the Azure Cosmos DB database service. It allows you to distribute requests and data across a number of partitions by implementing PartitionResolver interface. </p>"
   syntax:
     content: public class RangePartitionResolver<T extends Comparable<T>>
     typeParameters:
@@ -129,10 +129,7 @@ references:
   nameWithType: RangePartitionResolver<T>.resolveForCreate(Object document)
   fullName: com.microsoft.azure.documentdb.RangePartitionResolver<T extends Comparable<T>.resolveForCreate(Object document)
   type: Method
-  summary: >-
-    <p>Resolves the collection for creating the document based on the partition key.</p>
-
-    <p></p>
+  summary: "<p>Resolves the collection for creating the document based on the partition key.</p>\r\n<p></p>"
   syntax:
     content: public String resolveForCreate(Object document)
     parameters:
@@ -149,10 +146,7 @@ references:
   nameWithType: HashPartitionResolver.resolveForCreate(Object document)
   fullName: com.microsoft.azure.documentdb.HashPartitionResolver.resolveForCreate(Object document)
   type: Method
-  summary: >-
-    <p>Resolves the collection for creating the document based on the partition key.</p>
-
-    <p></p>
+  summary: "<p>Resolves the collection for creating the document based on the partition key.</p>\r\n<p></p>"
   syntax:
     content: public String resolveForCreate(Object document)
     parameters:
@@ -169,10 +163,7 @@ references:
   nameWithType: RangePartitionResolver<T>.resolveForRead(Object partitionKey)
   fullName: com.microsoft.azure.documentdb.RangePartitionResolver<T extends Comparable<T>.resolveForRead(Object partitionKey)
   type: Method
-  summary: >-
-    <p>Resolves the collection for reading/querying the documents based on the partition key.</p>
-
-    <p></p>
+  summary: "<p>Resolves the collection for reading/querying the documents based on the partition key.</p>\r\n<p></p>"
   syntax:
     content: public Iterable<String> resolveForRead(Object partitionKey)
     parameters:
@@ -189,10 +180,7 @@ references:
   nameWithType: HashPartitionResolver.resolveForRead(Object partitionKey)
   fullName: com.microsoft.azure.documentdb.HashPartitionResolver.resolveForRead(Object partitionKey)
   type: Method
-  summary: >-
-    <p>Resolves the collection for reading/querying the documents based on the partition key.</p>
-
-    <p></p>
+  summary: "<p>Resolves the collection for reading/querying the documents based on the partition key.</p>\r\n<p></p>"
   syntax:
     content: public Iterable<String> resolveForRead(Object partitionKey)
     parameters:

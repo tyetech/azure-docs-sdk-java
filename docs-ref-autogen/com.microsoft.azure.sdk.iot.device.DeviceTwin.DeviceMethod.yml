@@ -136,10 +136,7 @@ references:
   nameWithType: IotHubEventCallback
   fullName: com.microsoft.azure.sdk.iot.device.IotHubEventCallback
   type: Interface
-  summary: >-
-    <p>An interface for an IoT Hub event callback.</p>
-
-    <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)" data-throw-if-not-resolved="false">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>
+  summary: "<p>An interface for an IoT Hub event callback.</p>\r\n<p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid=\"com.microsoft.azure.sdk.iot.device.IotHubEventCallback.execute(IotHubStatusCode,Object)\" data-throw-if-not-resolved=\"false\">IotHubEventCallback#execute(IotHubStatusCode, Object)</xref> upon receiving a response from an IoT Hub. </p>"
   syntax:
     content: public interface IotHubEventCallback
 - uid: com.microsoft.azure.sdk.iot.device.ObjectLock
@@ -149,7 +146,7 @@ references:
   nameWithType: ObjectLock
   fullName: com.microsoft.azure.sdk.iot.device.ObjectLock
   type: Class
-  summary: <p>This class enables mocking of the base class wait and notify functions </p>
+  summary: "<p>This class enables mocking of the base class wait and notify functions </p>"
   syntax:
     content: public class ObjectLock
 - uid: com.microsoft.azure.sdk.iot.device.DeviceIO
@@ -159,7 +156,7 @@ references:
   nameWithType: DeviceIO
   fullName: com.microsoft.azure.sdk.iot.device.DeviceIO
   type: Class
-  summary: <p>The task scheduler for sending and receiving messages for the Device Client </p>
+  summary: "<p>The task scheduler for sending and receiving messages for the Device Client </p>"
   syntax:
     content: public class DeviceIO
 - uid: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
@@ -169,7 +166,7 @@ references:
   nameWithType: DeviceClientConfig
   fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig
   type: Class
-  summary: <p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>
+  summary: "<p>Configuration settings for an IoT Hub client. Validates all user-defined settings. </p>"
   syntax:
     content: public class DeviceClientConfig
 - uid: com.microsoft.azure.sdk.iot.device.CustomLogger

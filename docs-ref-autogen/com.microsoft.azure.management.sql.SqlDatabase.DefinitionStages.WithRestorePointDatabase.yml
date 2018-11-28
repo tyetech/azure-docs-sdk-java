@@ -108,12 +108,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL database interface with all starting options for definition.</p>
-
-    <p>
-
-    The SQL database interface with all starting options for definition. </p>
+  summary: "<p>The SQL database interface with all starting options for definition.</p>\r\n<p>\r\nThe SQL database interface with all starting options for definition. </p>"
   syntax:
     content: public interface WithAllDifferentOptions<ParentT> extends SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>,SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>,SqlDatabase.DefinitionStages.WithImportFrom<ParentT>,SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>,SqlDatabase.DefinitionStages.WithSampleDatabase<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>,SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>,SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithCreate
     typeParameters:
@@ -127,10 +122,7 @@ references:
   nameWithType: SqlDatabase.SqlDatabaseDefinition<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.SqlDatabaseDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Container interface for all the definitions that need to be implemented.</p>
-
-    <p></p>
+  summary: "<p>Container interface for all the definitions that need to be implemented.</p>\r\n<p></p>"
   syntax:
     content: public interface SqlDatabaseDefinition<ParentT> extends SqlDatabase.DefinitionStages.Blank<ParentT>,SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>,SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>,SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>,SqlDatabase.DefinitionStages.WithImportFrom<ParentT>,SqlDatabase.DefinitionStages.WithStorageKey<ParentT>,SqlDatabase.DefinitionStages.WithAuthentication<ParentT>,SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithCreateMode<ParentT>,SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>,SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
     typeParameters:
@@ -144,6 +136,6 @@ references:
   nameWithType: RestorePoint
   fullName: com.microsoft.azure.management.sql.RestorePoint
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL database's Restore Point. </p>"
   syntax:
     content: public interface RestorePoint extends HasInner<RestorePointInner>,HasResourceGroup,HasName,HasId,HasInner<RestorePointInner>,HasResourceGroup,HasName,HasId

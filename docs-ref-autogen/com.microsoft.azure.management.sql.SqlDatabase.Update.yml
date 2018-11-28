@@ -50,10 +50,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -66,10 +63,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -82,10 +76,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -114,10 +105,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition.withBasicEdition()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition.withBasicEdition()
   type: Method
-  summary: >-
-    <p>Sets a "Basic" edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Basic\" edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withBasicEdition()
     return:
@@ -130,10 +118,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition.withBasicEdition(SqlDatabaseBasicStorage maxStorageCapacity)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition.withBasicEdition(SqlDatabaseBasicStorage maxStorageCapacity)
   type: Method
-  summary: >-
-    <p>Sets a "Basic" edition and maximum storage capacity for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Basic\" edition and maximum storage capacity for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withBasicEdition(SqlDatabaseBasicStorage maxStorageCapacity)
     parameters:
@@ -149,10 +134,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition.withEdition(DatabaseEditions edition)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition.withEdition(DatabaseEditions edition)
   type: Method
-  summary: >-
-    <p>Sets the edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withEdition(DatabaseEditions edition)
     parameters:
@@ -169,10 +151,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithElasticPoolName.withExistingElasticPool(String elasticPoolName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithElasticPoolName.withExistingElasticPool(String elasticPoolName)
   type: Method
-  summary: >-
-    <p>Sets the existing elastic pool for the SQLDatabase.</p>
-
-    <p></p>
+  summary: "<p>Sets the existing elastic pool for the SQLDatabase.</p>\r\n<p></p>"
   syntax:
     content: public Update withExistingElasticPool(String elasticPoolName)
     parameters:
@@ -189,10 +168,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithElasticPoolName.withExistingElasticPool(SqlElasticPool sqlElasticPool)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithElasticPoolName.withExistingElasticPool(SqlElasticPool sqlElasticPool)
   type: Method
-  summary: >-
-    <p>Sets the existing elastic pool for the SQLDatabase.</p>
-
-    <p></p>
+  summary: "<p>Sets the existing elastic pool for the SQLDatabase.</p>\r\n<p></p>"
   syntax:
     content: public Update withExistingElasticPool(SqlElasticPool sqlElasticPool)
     parameters:
@@ -209,7 +185,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithMaxSizeBytes.withMaxSizeBytes(long maxSizeBytes)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithMaxSizeBytes.withMaxSizeBytes(long maxSizeBytes)
   type: Method
-  summary: <p>Sets the max size in bytes for SQL Database. </p>
+  summary: "<p>Sets the max size in bytes for SQL Database. </p>"
   syntax:
     content: public Update withMaxSizeBytes(long maxSizeBytes)
     parameters:
@@ -226,10 +202,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithElasticPoolName.withNewElasticPool(Creatable<SqlElasticPool> sqlElasticPool)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithElasticPoolName.withNewElasticPool(Creatable<SqlElasticPool> sqlElasticPool)
   type: Method
-  summary: >-
-    <p>Sets the new elastic pool for the SQLDatabase, this will create a new elastic pool while creating database.</p>
-
-    <p></p>
+  summary: "<p>Sets the new elastic pool for the SQLDatabase, this will create a new elastic pool while creating database.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewElasticPool(Creatable<SqlElasticPool> sqlElasticPool)
     parameters:
@@ -246,10 +219,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithElasticPoolName.withoutElasticPool()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithElasticPoolName.withoutElasticPool()
   type: Method
-  summary: >-
-    <p>Removes database from it's elastic pool.</p>
-
-    <p></p>
+  summary: "<p>Removes database from it's elastic pool.</p>\r\n<p></p>"
   syntax:
     content: public WithEdition withoutElasticPool()
     return:
@@ -262,7 +232,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -279,10 +249,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective)
   type: Method
-  summary: >-
-    <p>Sets a "Premium" edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Premium\" edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective)
     parameters:
@@ -299,10 +266,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective, SqlDatabasePremiumStorage maxStorageCapacity)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition.withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective, SqlDatabasePremiumStorage maxStorageCapacity)
   type: Method
-  summary: >-
-    <p>Sets a "Premium" edition and maximum storage capacity for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Premium\" edition and maximum storage capacity for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withPremiumEdition(SqlDatabasePremiumServiceObjective serviceObjective, SqlDatabasePremiumStorage maxStorageCapacity)
     parameters:
@@ -322,10 +286,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
   type: Method
-  summary: >-
-    <p>Sets the service level objective for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets the service level objective for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withServiceObjective(ServiceObjectiveName serviceLevelObjective)
     parameters:
@@ -342,10 +303,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective)
   type: Method
-  summary: >-
-    <p>Sets a "Standard" edition for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Standard\" edition for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective)
     parameters:
@@ -362,10 +320,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective, SqlDatabaseStandardStorage maxStorageCapacity)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition.withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective, SqlDatabaseStandardStorage maxStorageCapacity)
   type: Method
-  summary: >-
-    <p>Sets a "Standard" edition and maximum storage capacity for the SQL Database.</p>
-
-    <p></p>
+  summary: "<p>Sets a \"Standard\" edition and maximum storage capacity for the SQL Database.</p>\r\n<p></p>"
   syntax:
     content: public Update withStandardEdition(SqlDatabaseStandardServiceObjective serviceObjective, SqlDatabaseStandardStorage maxStorageCapacity)
     parameters:
@@ -385,7 +340,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -405,7 +360,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -422,7 +377,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithEdition
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithEdition
   type: Interface
-  summary: <p>The SQL Database definition to set the edition for database. </p>
+  summary: "<p>The SQL Database definition to set the edition for database. </p>"
   syntax:
     content: public interface WithEdition
 - uid: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithElasticPoolName
@@ -432,7 +387,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithElasticPoolName
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithElasticPoolName
   type: Interface
-  summary: <p>The SQL Database definition to set the elastic pool for database. </p>
+  summary: "<p>The SQL Database definition to set the elastic pool for database. </p>"
   syntax:
     content: public interface WithElasticPoolName
 - uid: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithMaxSizeBytes
@@ -442,7 +397,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithMaxSizeBytes
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithMaxSizeBytes
   type: Interface
-  summary: <p>The SQL Database definition to set the Max Size in Bytes for database. </p>
+  summary: "<p>The SQL Database definition to set the Max Size in Bytes for database. </p>"
   syntax:
     content: public interface WithMaxSizeBytes
 - uid: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithServiceObjective
@@ -452,7 +407,7 @@ references:
   nameWithType: SqlDatabase.UpdateStages.WithServiceObjective
   fullName: com.microsoft.azure.management.sql.SqlDatabase.UpdateStages.WithServiceObjective
   type: Interface
-  summary: <p>The SQL Database definition to set the service level objective. </p>
+  summary: "<p>The SQL Database definition to set the service level objective. </p>"
   syntax:
     content: public interface WithServiceObjective
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Appliable
@@ -462,10 +417,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -479,10 +431,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:

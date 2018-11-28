@@ -224,7 +224,7 @@ references:
   nameWithType: com.microsoft.azure.management.containerregistry.implementation
   fullName: com.microsoft.azure.management.containerregistry.implementation
   type: Namespace
-  summary: <p>This package contains the implementation classes for ContainerRegistryManagementClient. </p>
+  summary: "<p>This package contains the implementation classes for ContainerRegistryManagementClient. </p>"
   syntax:
     content: package com.microsoft.azure.management.containerregistry.implementation
 - uid: com.microsoft.azure.management.containerregistry.AccessKeyType
@@ -234,7 +234,7 @@ references:
   nameWithType: AccessKeyType
   fullName: com.microsoft.azure.management.containerregistry.AccessKeyType
   type: Class
-  summary: <p>Defines values for admin user access key names. </p>
+  summary: "<p>Defines values for admin user access key names. </p>"
   syntax:
     content: public class AccessKeyType extends ExpandableStringEnum<AccessKeyType>
 - uid: com.microsoft.azure.management.containerregistry.Actor
@@ -244,7 +244,7 @@ references:
   nameWithType: Actor
   fullName: com.microsoft.azure.management.containerregistry.Actor
   type: Class
-  summary: <p>The agent that initiated the event. For most situations, this could be from the authorization context of the request. </p>
+  summary: "<p>The agent that initiated the event. For most situations, this could be from the authorization context of the request. </p>"
   syntax:
     content: public class Actor
 - uid: com.microsoft.azure.management.containerregistry.BaseImageDependency
@@ -254,7 +254,7 @@ references:
   nameWithType: BaseImageDependency
   fullName: com.microsoft.azure.management.containerregistry.BaseImageDependency
   type: Class
-  summary: <p>Properties that describe a base image dependency. </p>
+  summary: "<p>Properties that describe a base image dependency. </p>"
   syntax:
     content: public class BaseImageDependency
 - uid: com.microsoft.azure.management.containerregistry.BaseImageDependencyType
@@ -264,7 +264,7 @@ references:
   nameWithType: BaseImageDependencyType
   fullName: com.microsoft.azure.management.containerregistry.BaseImageDependencyType
   type: Class
-  summary: <p>Defines values for BaseImageDependencyType. </p>
+  summary: "<p>Defines values for BaseImageDependencyType. </p>"
   syntax:
     content: public class BaseImageDependencyType extends ExpandableStringEnum<BaseImageDependencyType>
 - uid: com.microsoft.azure.management.containerregistry.BaseImageTriggerType
@@ -274,7 +274,7 @@ references:
   nameWithType: BaseImageTriggerType
   fullName: com.microsoft.azure.management.containerregistry.BaseImageTriggerType
   type: Class
-  summary: <p>Defines values for BaseImageTriggerType. </p>
+  summary: "<p>Defines values for BaseImageTriggerType. </p>"
   syntax:
     content: public class BaseImageTriggerType extends ExpandableStringEnum<BaseImageTriggerType>
 - uid: com.microsoft.azure.management.containerregistry.Build
@@ -284,7 +284,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildFilter
@@ -294,7 +294,7 @@ references:
   nameWithType: BuildFilter
   fullName: com.microsoft.azure.management.containerregistry.BuildFilter
   type: Class
-  summary: <p>Properties that are enabled for Odata querying. </p>
+  summary: "<p>Properties that are enabled for Odata querying. </p>"
   syntax:
     content: public class BuildFilter
 - uid: com.microsoft.azure.management.containerregistry.BuildStatus
@@ -304,7 +304,7 @@ references:
   nameWithType: BuildStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildStatus
   type: Class
-  summary: <p>Defines values for BuildStatus. </p>
+  summary: "<p>Defines values for BuildStatus. </p>"
   syntax:
     content: public class BuildStatus extends ExpandableStringEnum<BuildStatus>
 - uid: com.microsoft.azure.management.containerregistry.BuildStep
@@ -314,7 +314,7 @@ references:
   nameWithType: BuildStep
   fullName: com.microsoft.azure.management.containerregistry.BuildStep
   type: Interface
-  summary: <p>An object that represents a build step for a build task in a container registry. </p>
+  summary: "<p>An object that represents a build step for a build task in a container registry. </p>"
   syntax:
     content: public interface BuildStep extends ExternalChildResource<BuildStep, BuildTask>,HasName,HasId,HasInner<BuildStepInner>,Refreshable<BuildStep>,Updatable<BuildStep.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildStepOperations
@@ -324,7 +324,7 @@ references:
   nameWithType: BuildStepOperations
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations
   type: Interface
-  summary: <p>Grouping of container registry build steps actions. </p>
+  summary: "<p>Grouping of container registry build steps actions. </p>"
   syntax:
     content: public interface BuildStepOperations
 - uid: com.microsoft.azure.management.containerregistry.BuildStepPropertiesUpdateParameters
@@ -334,7 +334,7 @@ references:
   nameWithType: BuildStepPropertiesUpdateParameters
   fullName: com.microsoft.azure.management.containerregistry.BuildStepPropertiesUpdateParameters
   type: Class
-  summary: <p>The properties for updating a build step. </p>
+  summary: "<p>The properties for updating a build step. </p>"
   syntax:
     content: public class BuildStepPropertiesUpdateParameters
 - uid: com.microsoft.azure.management.containerregistry.BuildTask
@@ -344,7 +344,7 @@ references:
   nameWithType: BuildTask
   fullName: com.microsoft.azure.management.containerregistry.BuildTask
   type: Interface
-  summary: <p>An object that represents a build task for a container registry. </p>
+  summary: "<p>An object that represents a build task for a container registry. </p>"
   syntax:
     content: public interface BuildTask extends ExternalChildResource<BuildTask, Registry>,Resource,HasInner<BuildTaskInner>,Refreshable<BuildTask>,Updatable<BuildTask.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildTaskBuildRequest
@@ -354,7 +354,7 @@ references:
   nameWithType: BuildTaskBuildRequest
   fullName: com.microsoft.azure.management.containerregistry.BuildTaskBuildRequest
   type: Class
-  summary: <p>The queue build parameters based on a build task. </p>
+  summary: "<p>The queue build parameters based on a build task. </p>"
   syntax:
     content: public class BuildTaskBuildRequest extends QueueBuildRequestInner
 - uid: com.microsoft.azure.management.containerregistry.BuildTaskFilter
@@ -364,7 +364,7 @@ references:
   nameWithType: BuildTaskFilter
   fullName: com.microsoft.azure.management.containerregistry.BuildTaskFilter
   type: Class
-  summary: <p>The filter that can be used for listing build tasks. </p>
+  summary: "<p>The filter that can be used for listing build tasks. </p>"
   syntax:
     content: public class BuildTaskFilter
 - uid: com.microsoft.azure.management.containerregistry.BuildTaskOperations
@@ -374,7 +374,7 @@ references:
   nameWithType: BuildTaskOperations
   fullName: com.microsoft.azure.management.containerregistry.BuildTaskOperations
   type: Interface
-  summary: <p>Grouping of container registry build task actions. </p>
+  summary: "<p>Grouping of container registry build task actions. </p>"
   syntax:
     content: public interface BuildTaskOperations
 - uid: com.microsoft.azure.management.containerregistry.BuildTaskStatus
@@ -384,7 +384,7 @@ references:
   nameWithType: BuildTaskStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildTaskStatus
   type: Class
-  summary: <p>Defines values for BuildTaskStatus. </p>
+  summary: "<p>Defines values for BuildTaskStatus. </p>"
   syntax:
     content: public class BuildTaskStatus extends ExpandableStringEnum<BuildTaskStatus>
 - uid: com.microsoft.azure.management.containerregistry.BuildType
@@ -394,7 +394,7 @@ references:
   nameWithType: BuildType
   fullName: com.microsoft.azure.management.containerregistry.BuildType
   type: Class
-  summary: <p>Defines values for BuildType. </p>
+  summary: "<p>Defines values for BuildType. </p>"
   syntax:
     content: public class BuildType extends ExpandableStringEnum<BuildType>
 - uid: com.microsoft.azure.management.containerregistry.BuildUpdateParameters
@@ -404,7 +404,7 @@ references:
   nameWithType: BuildUpdateParameters
   fullName: com.microsoft.azure.management.containerregistry.BuildUpdateParameters
   type: Class
-  summary: <p>The set of build properties that can be updated. </p>
+  summary: "<p>The set of build properties that can be updated. </p>"
   syntax:
     content: public class BuildUpdateParameters
 - uid: com.microsoft.azure.management.containerregistry.CheckNameAvailabilityResult
@@ -414,7 +414,7 @@ references:
   nameWithType: CheckNameAvailabilityResult
   fullName: com.microsoft.azure.management.containerregistry.CheckNameAvailabilityResult
   type: Interface
-  summary: <p>The result of checking for container registry name availability. </p>
+  summary: "<p>The result of checking for container registry name availability. </p>"
   syntax:
     content: public interface CheckNameAvailabilityResult extends HasInner<RegistryNameStatusInner>
 - uid: com.microsoft.azure.management.containerregistry.DockerBuildStep
@@ -424,7 +424,7 @@ references:
   nameWithType: DockerBuildStep
   fullName: com.microsoft.azure.management.containerregistry.DockerBuildStep
   type: Class
-  summary: <p>The Docker build step. </p>
+  summary: "<p>The Docker build step. </p>"
   syntax:
     content: public class DockerBuildStep extends BuildStepPropertiesInner
 - uid: com.microsoft.azure.management.containerregistry.DockerBuildStepUpdateParameters
@@ -434,7 +434,7 @@ references:
   nameWithType: DockerBuildStepUpdateParameters
   fullName: com.microsoft.azure.management.containerregistry.DockerBuildStepUpdateParameters
   type: Class
-  summary: <p>The properties for updating a docker build step. </p>
+  summary: "<p>The properties for updating a docker build step. </p>"
   syntax:
     content: public class DockerBuildStepUpdateParameters extends BuildStepPropertiesUpdateParameters
 - uid: com.microsoft.azure.management.containerregistry.EventContent
@@ -444,7 +444,7 @@ references:
   nameWithType: EventContent
   fullName: com.microsoft.azure.management.containerregistry.EventContent
   type: Class
-  summary: <p>The content of the event request message. </p>
+  summary: "<p>The content of the event request message. </p>"
   syntax:
     content: public class EventContent
 - uid: com.microsoft.azure.management.containerregistry.EventRequestMessage
@@ -454,7 +454,7 @@ references:
   nameWithType: EventRequestMessage
   fullName: com.microsoft.azure.management.containerregistry.EventRequestMessage
   type: Class
-  summary: <p>The event request message sent to the service URI. </p>
+  summary: "<p>The event request message sent to the service URI. </p>"
   syntax:
     content: public class EventRequestMessage
 - uid: com.microsoft.azure.management.containerregistry.EventResponseMessage
@@ -464,7 +464,7 @@ references:
   nameWithType: EventResponseMessage
   fullName: com.microsoft.azure.management.containerregistry.EventResponseMessage
   type: Class
-  summary: <p>The event response message received from the service URI. </p>
+  summary: "<p>The event response message received from the service URI. </p>"
   syntax:
     content: public class EventResponseMessage
 - uid: com.microsoft.azure.management.containerregistry.GitCommitTrigger
@@ -474,7 +474,7 @@ references:
   nameWithType: GitCommitTrigger
   fullName: com.microsoft.azure.management.containerregistry.GitCommitTrigger
   type: Class
-  summary: <p>The git commit trigger that caused a build. </p>
+  summary: "<p>The git commit trigger that caused a build. </p>"
   syntax:
     content: public class GitCommitTrigger
 - uid: com.microsoft.azure.management.containerregistry.ImageDescriptor
@@ -484,7 +484,7 @@ references:
   nameWithType: ImageDescriptor
   fullName: com.microsoft.azure.management.containerregistry.ImageDescriptor
   type: Class
-  summary: <p>Properties for a registry image. </p>
+  summary: "<p>Properties for a registry image. </p>"
   syntax:
     content: public class ImageDescriptor
 - uid: com.microsoft.azure.management.containerregistry.ImageUpdateTrigger
@@ -494,7 +494,7 @@ references:
   nameWithType: ImageUpdateTrigger
   fullName: com.microsoft.azure.management.containerregistry.ImageUpdateTrigger
   type: Class
-  summary: <p>The image update trigger that caused a build. </p>
+  summary: "<p>The image update trigger that caused a build. </p>"
   syntax:
     content: public class ImageUpdateTrigger
 - uid: com.microsoft.azure.management.containerregistry.ImportMode
@@ -504,7 +504,7 @@ references:
   nameWithType: ImportMode
   fullName: com.microsoft.azure.management.containerregistry.ImportMode
   type: Class
-  summary: <p>Defines values for ImportMode. </p>
+  summary: "<p>Defines values for ImportMode. </p>"
   syntax:
     content: public class ImportMode extends ExpandableStringEnum<ImportMode>
 - uid: com.microsoft.azure.management.containerregistry.ImportSource
@@ -514,7 +514,7 @@ references:
   nameWithType: ImportSource
   fullName: com.microsoft.azure.management.containerregistry.ImportSource
   type: Class
-  summary: <p>The ImportSource model. </p>
+  summary: "<p>The ImportSource model. </p>"
   syntax:
     content: public class ImportSource
 - uid: com.microsoft.azure.management.containerregistry.OperationDisplayDefinition
@@ -524,7 +524,7 @@ references:
   nameWithType: OperationDisplayDefinition
   fullName: com.microsoft.azure.management.containerregistry.OperationDisplayDefinition
   type: Class
-  summary: <p>The display information for a container registry operation. </p>
+  summary: "<p>The display information for a container registry operation. </p>"
   syntax:
     content: public class OperationDisplayDefinition
 - uid: com.microsoft.azure.management.containerregistry.OperationMetricSpecificationDefinition
@@ -534,7 +534,7 @@ references:
   nameWithType: OperationMetricSpecificationDefinition
   fullName: com.microsoft.azure.management.containerregistry.OperationMetricSpecificationDefinition
   type: Class
-  summary: <p>The definition of Azure Monitoring metric. </p>
+  summary: "<p>The definition of Azure Monitoring metric. </p>"
   syntax:
     content: public class OperationMetricSpecificationDefinition
 - uid: com.microsoft.azure.management.containerregistry.OperationServiceSpecificationDefinition
@@ -544,7 +544,7 @@ references:
   nameWithType: OperationServiceSpecificationDefinition
   fullName: com.microsoft.azure.management.containerregistry.OperationServiceSpecificationDefinition
   type: Class
-  summary: <p>The definition of Azure Monitoring metrics list. </p>
+  summary: "<p>The definition of Azure Monitoring metrics list. </p>"
   syntax:
     content: public class OperationServiceSpecificationDefinition
 - uid: com.microsoft.azure.management.containerregistry.OsType
@@ -554,7 +554,7 @@ references:
   nameWithType: OsType
   fullName: com.microsoft.azure.management.containerregistry.OsType
   type: Class
-  summary: <p>Defines values for OsType. </p>
+  summary: "<p>Defines values for OsType. </p>"
   syntax:
     content: public class OsType extends ExpandableStringEnum<OsType>
 - uid: com.microsoft.azure.management.containerregistry.PasswordName
@@ -564,7 +564,7 @@ references:
   nameWithType: PasswordName
   fullName: com.microsoft.azure.management.containerregistry.PasswordName
   type: Enum
-  summary: <p>Defines values for PasswordName. </p>
+  summary: "<p>Defines values for PasswordName. </p>"
   syntax:
     content: public enum PasswordName
 - uid: com.microsoft.azure.management.containerregistry.PlatformProperties
@@ -574,7 +574,7 @@ references:
   nameWithType: PlatformProperties
   fullName: com.microsoft.azure.management.containerregistry.PlatformProperties
   type: Class
-  summary: <p>The platform properties against which the build has to happen. </p>
+  summary: "<p>The platform properties against which the build has to happen. </p>"
   syntax:
     content: public class PlatformProperties
 - uid: com.microsoft.azure.management.containerregistry.PolicyStatus
@@ -584,7 +584,7 @@ references:
   nameWithType: PolicyStatus
   fullName: com.microsoft.azure.management.containerregistry.PolicyStatus
   type: Class
-  summary: <p>Defines values for PolicyStatus. </p>
+  summary: "<p>Defines values for PolicyStatus. </p>"
   syntax:
     content: public class PolicyStatus extends ExpandableStringEnum<PolicyStatus>
 - uid: com.microsoft.azure.management.containerregistry.ProvisioningState
@@ -594,7 +594,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.containerregistry.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState extends ExpandableStringEnum<ProvisioningState>
 - uid: com.microsoft.azure.management.containerregistry.ProxyResource
@@ -604,7 +604,7 @@ references:
   nameWithType: ProxyResource
   fullName: com.microsoft.azure.management.containerregistry.ProxyResource
   type: Class
-  summary: <p>The resource model definition for a ARM proxy resource. It will have everything other than required location and tags. </p>
+  summary: "<p>The resource model definition for a ARM proxy resource. It will have everything other than required location and tags. </p>"
   syntax:
     content: public class ProxyResource
 - uid: com.microsoft.azure.management.containerregistry.QuarantinePolicy
@@ -614,7 +614,7 @@ references:
   nameWithType: QuarantinePolicy
   fullName: com.microsoft.azure.management.containerregistry.QuarantinePolicy
   type: Class
-  summary: <p>An object that represents quarantine policy for a container registry. </p>
+  summary: "<p>An object that represents quarantine policy for a container registry. </p>"
   syntax:
     content: public class QuarantinePolicy
 - uid: com.microsoft.azure.management.containerregistry.QueuedBuildOperations
@@ -624,7 +624,7 @@ references:
   nameWithType: QueuedBuildOperations
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations
   type: Interface
-  summary: <p>Grouping of container registry queued build actions. </p>
+  summary: "<p>Grouping of container registry queued build actions. </p>"
   syntax:
     content: public interface QueuedBuildOperations
 - uid: com.microsoft.azure.management.containerregistry.QuickBuildRequest
@@ -634,7 +634,7 @@ references:
   nameWithType: QuickBuildRequest
   fullName: com.microsoft.azure.management.containerregistry.QuickBuildRequest
   type: Class
-  summary: <p>The queue build request parameters for a quick build. </p>
+  summary: "<p>The queue build request parameters for a quick build. </p>"
   syntax:
     content: public class QuickBuildRequest extends QueueBuildRequestInner
 - uid: com.microsoft.azure.management.containerregistry.RegenerateCredentialParameters
@@ -644,7 +644,7 @@ references:
   nameWithType: RegenerateCredentialParameters
   fullName: com.microsoft.azure.management.containerregistry.RegenerateCredentialParameters
   type: Class
-  summary: <p>The parameters used to regenerate the login credential. </p>
+  summary: "<p>The parameters used to regenerate the login credential. </p>"
   syntax:
     content: public class RegenerateCredentialParameters
 - uid: com.microsoft.azure.management.containerregistry.Registries
@@ -654,7 +654,7 @@ references:
   nameWithType: Registries
   fullName: com.microsoft.azure.management.containerregistry.Registries
   type: Interface
-  summary: <p>Entry point to the registry management API. </p>
+  summary: "<p>Entry point to the registry management API. </p>"
   syntax:
     content: public interface Registries extends SupportsCreating<Registry.DefinitionStages.Blank>,HasManager<ContainerRegistryManager>,HasInner<RegistriesInner>,SupportsBatchCreation<Registry>,SupportsGettingById<Registry>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsListingByResourceGroup<Registry>,SupportsGettingByResourceGroup<Registry>,SupportsListing<Registry>
 - uid: com.microsoft.azure.management.containerregistry.Registry
@@ -664,7 +664,7 @@ references:
   nameWithType: Registry
   fullName: com.microsoft.azure.management.containerregistry.Registry
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure registry. </p>
+  summary: "<p>An immutable client-side representation of an Azure registry. </p>"
   syntax:
     content: public interface Registry extends GroupableResource<ContainerRegistryManager, RegistryInner>,Refreshable<Registry>,Updatable<Registry.Update>
 - uid: com.microsoft.azure.management.containerregistry.RegistryCredentials
@@ -674,7 +674,7 @@ references:
   nameWithType: RegistryCredentials
   fullName: com.microsoft.azure.management.containerregistry.RegistryCredentials
   type: Interface
-  summary: <p>Response containing the login credentials for a container registry. </p>
+  summary: "<p>Response containing the login credentials for a container registry. </p>"
   syntax:
     content: public interface RegistryCredentials
 - uid: com.microsoft.azure.management.containerregistry.RegistryNameCheckRequest
@@ -684,7 +684,7 @@ references:
   nameWithType: RegistryNameCheckRequest
   fullName: com.microsoft.azure.management.containerregistry.RegistryNameCheckRequest
   type: Class
-  summary: <p>A request to check whether a container registry name is available. </p>
+  summary: "<p>A request to check whether a container registry name is available. </p>"
   syntax:
     content: public class RegistryNameCheckRequest
 - uid: com.microsoft.azure.management.containerregistry.RegistryPassword
@@ -694,7 +694,7 @@ references:
   nameWithType: RegistryPassword
   fullName: com.microsoft.azure.management.containerregistry.RegistryPassword
   type: Class
-  summary: <p>The login password for the container registry. </p>
+  summary: "<p>The login password for the container registry. </p>"
   syntax:
     content: public class RegistryPassword
 - uid: com.microsoft.azure.management.containerregistry.RegistryUsage
@@ -704,7 +704,7 @@ references:
   nameWithType: RegistryUsage
   fullName: com.microsoft.azure.management.containerregistry.RegistryUsage
   type: Class
-  summary: <p>The quota usage for a container registry. </p>
+  summary: "<p>The quota usage for a container registry. </p>"
   syntax:
     content: public class RegistryUsage
 - uid: com.microsoft.azure.management.containerregistry.RegistryUsageUnit
@@ -714,7 +714,7 @@ references:
   nameWithType: RegistryUsageUnit
   fullName: com.microsoft.azure.management.containerregistry.RegistryUsageUnit
   type: Class
-  summary: <p>Defines values for RegistryUsageUnit. </p>
+  summary: "<p>Defines values for RegistryUsageUnit. </p>"
   syntax:
     content: public class RegistryUsageUnit extends ExpandableStringEnum<RegistryUsageUnit>
 - uid: com.microsoft.azure.management.containerregistry.ReplicationUpdateParameters
@@ -724,7 +724,7 @@ references:
   nameWithType: ReplicationUpdateParameters
   fullName: com.microsoft.azure.management.containerregistry.ReplicationUpdateParameters
   type: Class
-  summary: <p>The parameters for updating a replication. </p>
+  summary: "<p>The parameters for updating a replication. </p>"
   syntax:
     content: public class ReplicationUpdateParameters
 - uid: com.microsoft.azure.management.containerregistry.Request
@@ -734,7 +734,7 @@ references:
   nameWithType: Request
   fullName: com.microsoft.azure.management.containerregistry.Request
   type: Class
-  summary: <p>The request that generated the event. </p>
+  summary: "<p>The request that generated the event. </p>"
   syntax:
     content: public class Request
 - uid: com.microsoft.azure.management.containerregistry.Sku
@@ -744,7 +744,7 @@ references:
   nameWithType: Sku
   fullName: com.microsoft.azure.management.containerregistry.Sku
   type: Class
-  summary: <p>The SKU of a container registry. </p>
+  summary: "<p>The SKU of a container registry. </p>"
   syntax:
     content: public class Sku
 - uid: com.microsoft.azure.management.containerregistry.SkuName
@@ -754,7 +754,7 @@ references:
   nameWithType: SkuName
   fullName: com.microsoft.azure.management.containerregistry.SkuName
   type: Class
-  summary: <p>Defines values for SkuName. </p>
+  summary: "<p>Defines values for SkuName. </p>"
   syntax:
     content: public class SkuName extends ExpandableStringEnum<SkuName>
 - uid: com.microsoft.azure.management.containerregistry.SkuTier
@@ -764,7 +764,7 @@ references:
   nameWithType: SkuTier
   fullName: com.microsoft.azure.management.containerregistry.SkuTier
   type: Class
-  summary: <p>Defines values for SkuTier. </p>
+  summary: "<p>Defines values for SkuTier. </p>"
   syntax:
     content: public class SkuTier extends ExpandableStringEnum<SkuTier>
 - uid: com.microsoft.azure.management.containerregistry.Source
@@ -774,7 +774,7 @@ references:
   nameWithType: Source
   fullName: com.microsoft.azure.management.containerregistry.Source
   type: Class
-  summary: <p>The registry node that generated the event. Put differently, while the actor initiates the event, the source generates it. </p>
+  summary: "<p>The registry node that generated the event. Put differently, while the actor initiates the event, the source generates it. </p>"
   syntax:
     content: public class Source
 - uid: com.microsoft.azure.management.containerregistry.SourceControlAuthInfo
@@ -784,7 +784,7 @@ references:
   nameWithType: SourceControlAuthInfo
   fullName: com.microsoft.azure.management.containerregistry.SourceControlAuthInfo
   type: Class
-  summary: <p>The authorization properties for accessing the source code repository. </p>
+  summary: "<p>The authorization properties for accessing the source code repository. </p>"
   syntax:
     content: public class SourceControlAuthInfo
 - uid: com.microsoft.azure.management.containerregistry.SourceControlType
@@ -794,7 +794,7 @@ references:
   nameWithType: SourceControlType
   fullName: com.microsoft.azure.management.containerregistry.SourceControlType
   type: Class
-  summary: <p>Defines values for SourceControlType. </p>
+  summary: "<p>Defines values for SourceControlType. </p>"
   syntax:
     content: public class SourceControlType extends ExpandableStringEnum<SourceControlType>
 - uid: com.microsoft.azure.management.containerregistry.SourceRepositoryProperties
@@ -804,7 +804,7 @@ references:
   nameWithType: SourceRepositoryProperties
   fullName: com.microsoft.azure.management.containerregistry.SourceRepositoryProperties
   type: Interface
-  summary: <p>The source repository properties for a build task. </p>
+  summary: "<p>The source repository properties for a build task. </p>"
   syntax:
     content: public interface SourceRepositoryProperties extends HasInner<SourceRepositoryPropertiesInner>
 - uid: com.microsoft.azure.management.containerregistry.SourceRepositoryUpdateParameters
@@ -814,7 +814,7 @@ references:
   nameWithType: SourceRepositoryUpdateParameters
   fullName: com.microsoft.azure.management.containerregistry.SourceRepositoryUpdateParameters
   type: Class
-  summary: <p>The properties for updating the source code repository configuration. </p>
+  summary: "<p>The properties for updating the source code repository configuration. </p>"
   syntax:
     content: public class SourceRepositoryUpdateParameters
 - uid: com.microsoft.azure.management.containerregistry.SourceUploadDefinition
@@ -824,7 +824,7 @@ references:
   nameWithType: SourceUploadDefinition
   fullName: com.microsoft.azure.management.containerregistry.SourceUploadDefinition
   type: Interface
-  summary: <p>The source repository properties for a build task. </p>
+  summary: "<p>The source repository properties for a build task. </p>"
   syntax:
     content: public interface SourceUploadDefinition extends HasInner<SourceUploadDefinitionInner>
 - uid: com.microsoft.azure.management.containerregistry.Status
@@ -834,7 +834,7 @@ references:
   nameWithType: Status
   fullName: com.microsoft.azure.management.containerregistry.Status
   type: Class
-  summary: <p>The status of an Azure resource at the time the operation was called. </p>
+  summary: "<p>The status of an Azure resource at the time the operation was called. </p>"
   syntax:
     content: public class Status
 - uid: com.microsoft.azure.management.containerregistry.StorageAccountProperties
@@ -844,7 +844,7 @@ references:
   nameWithType: StorageAccountProperties
   fullName: com.microsoft.azure.management.containerregistry.StorageAccountProperties
   type: Class
-  summary: <p>The properties of a storage account for a container registry. Only applicable to Classic SKU. </p>
+  summary: "<p>The properties of a storage account for a container registry. Only applicable to Classic SKU. </p>"
   syntax:
     content: public class StorageAccountProperties
 - uid: com.microsoft.azure.management.containerregistry.Target
@@ -854,7 +854,7 @@ references:
   nameWithType: Target
   fullName: com.microsoft.azure.management.containerregistry.Target
   type: Class
-  summary: <p>The target of the event. </p>
+  summary: "<p>The target of the event. </p>"
   syntax:
     content: public class Target
 - uid: com.microsoft.azure.management.containerregistry.TokenType
@@ -864,7 +864,7 @@ references:
   nameWithType: TokenType
   fullName: com.microsoft.azure.management.containerregistry.TokenType
   type: Class
-  summary: <p>Defines values for TokenType. </p>
+  summary: "<p>Defines values for TokenType. </p>"
   syntax:
     content: public class TokenType extends ExpandableStringEnum<TokenType>
 - uid: com.microsoft.azure.management.containerregistry.TrustPolicy
@@ -874,7 +874,7 @@ references:
   nameWithType: TrustPolicy
   fullName: com.microsoft.azure.management.containerregistry.TrustPolicy
   type: Class
-  summary: <p>An object that represents content trust policy for a container registry. </p>
+  summary: "<p>An object that represents content trust policy for a container registry. </p>"
   syntax:
     content: public class TrustPolicy
 - uid: com.microsoft.azure.management.containerregistry.TrustPolicyType
@@ -884,7 +884,7 @@ references:
   nameWithType: TrustPolicyType
   fullName: com.microsoft.azure.management.containerregistry.TrustPolicyType
   type: Class
-  summary: <p>Defines values for TrustPolicyType. </p>
+  summary: "<p>Defines values for TrustPolicyType. </p>"
   syntax:
     content: public class TrustPolicyType extends ExpandableStringEnum<TrustPolicyType>
 - uid: com.microsoft.azure.management.containerregistry.Webhook
@@ -894,7 +894,7 @@ references:
   nameWithType: Webhook
   fullName: com.microsoft.azure.management.containerregistry.Webhook
   type: Interface
-  summary: <p>An object that represents a webhook for a container registry. </p>
+  summary: "<p>An object that represents a webhook for a container registry. </p>"
   syntax:
     content: public interface Webhook extends ExternalChildResource<Webhook, Registry>,Resource,HasInner<WebhookInner>,Refreshable<Webhook>,Updatable<Webhook.Update>
 - uid: com.microsoft.azure.management.containerregistry.WebhookAction
@@ -904,7 +904,7 @@ references:
   nameWithType: WebhookAction
   fullName: com.microsoft.azure.management.containerregistry.WebhookAction
   type: Class
-  summary: <p>Defines values for WebhookAction. </p>
+  summary: "<p>Defines values for WebhookAction. </p>"
   syntax:
     content: public class WebhookAction extends ExpandableStringEnum<WebhookAction>
 - uid: com.microsoft.azure.management.containerregistry.WebhookEventInfo
@@ -914,7 +914,7 @@ references:
   nameWithType: WebhookEventInfo
   fullName: com.microsoft.azure.management.containerregistry.WebhookEventInfo
   type: Interface
-  summary: <p>Response containing the primary and secondary admin API keys for a given Azure Search service. </p>
+  summary: "<p>Response containing the primary and secondary admin API keys for a given Azure Search service. </p>"
   syntax:
     content: public interface WebhookEventInfo
 - uid: com.microsoft.azure.management.containerregistry.WebhookOperations
@@ -924,7 +924,7 @@ references:
   nameWithType: WebhookOperations
   fullName: com.microsoft.azure.management.containerregistry.WebhookOperations
   type: Interface
-  summary: <p>Grouping of container registry webhook actions. </p>
+  summary: "<p>Grouping of container registry webhook actions. </p>"
   syntax:
     content: public interface WebhookOperations
 - uid: com.microsoft.azure.management.containerregistry.WebhookStatus
@@ -934,9 +934,19 @@ references:
   nameWithType: WebhookStatus
   fullName: com.microsoft.azure.management.containerregistry.WebhookStatus
   type: Class
-  summary: <p>Defines values for WebhookStatus. </p>
+  summary: "<p>Defines values for WebhookStatus. </p>"
   syntax:
     content: public class WebhookStatus extends ExpandableStringEnum<WebhookStatus>
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.Blank
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.Blank.yml
+  name: BuildTask.DefinitionStages.Blank
+  nameWithType: BuildTask.DefinitionStages.Blank
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.Blank
+  type: Interface
+  summary: "<p>The first stage of the build task definition. </p>"
+  syntax:
+    content: public interface Blank extends BuildTask.DefinitionStages.WithOSType
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.Blank
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.Blank.yml
@@ -944,7 +954,7 @@ references:
   nameWithType: Registry.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a container service definition. </p>
+  summary: "<p>The first stage of a container service definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.Blank
@@ -954,10 +964,7 @@ references:
   nameWithType: Webhook.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the webhook definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the webhook definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends Webhook.DefinitionStages.WithTriggerWhen<ParentT>
     typeParameters:
@@ -971,10 +978,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the webhook definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the webhook definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
     typeParameters:
@@ -988,7 +992,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the webhook definition. </p>
+  summary: "<p>The first stage of the webhook definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends Webhook.UpdateResourceStages.WithAttach<ParentT>
     typeParameters:
@@ -1002,7 +1006,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the queued quick build definition. </p>
+  summary: "<p>The first stage of the queued quick build definition. </p>"
   syntax:
     content: public interface Blank extends Build.QueuedQuickBuildDefinitionStages.WithOSType
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.Blank
@@ -1012,19 +1016,9 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the build task build steps definition. </p>
+  summary: "<p>The first stage of the build task build steps definition. </p>"
   syntax:
     content: public interface Blank extends BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.Blank
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.Blank.yml
-  name: BuildTask.DefinitionStages.Blank
-  nameWithType: BuildTask.DefinitionStages.Blank
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.Blank
-  type: Interface
-  summary: <p>The first stage of the build task definition. </p>
-  syntax:
-    content: public interface Blank extends BuildTask.DefinitionStages.WithOSType
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition.yml
@@ -1032,7 +1026,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the build argument definition stages. </p>
+  summary: "<p>Grouping of the build argument definition stages. </p>"
   syntax:
     content: public interface BuildArgumentDefinition<ParentT> extends Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
     typeParameters:
@@ -1045,10 +1039,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the build argument definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the build argument definition.</p>\r\n<p></p>"
   syntax:
     content: public interface BuildArgumentDefinitionBlank<ParentT> extends Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>
     typeParameters:
@@ -1062,7 +1053,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface BuildTaskBuildStepsDefinition extends BuildStep.BuildTaskBuildStepsDefinitionStages.Blank,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch,BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext,BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument,BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages
@@ -1072,7 +1063,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages
   type: Interface
-  summary: <p>Grouping of build task build steps definition stages. </p>
+  summary: "<p>Grouping of build task build steps definition stages. </p>"
   syntax:
     content: public interface BuildTaskBuildStepsDefinitionStages
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
@@ -1082,7 +1073,7 @@ references:
   nameWithType: BuildTask.BuildTaskDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.BuildTaskDefinition
   type: Interface
-  summary: <p>Grouping of the container register build task definitions. </p>
+  summary: "<p>Grouping of the container register build task definitions. </p>"
   syntax:
     content: public interface BuildTaskDefinition extends BuildTask.DefinitionStages.Blank,BuildTask.DefinitionStages.WithOSType,BuildTask.DefinitionStages.WithSourceControlType,BuildTask.DefinitionStages.WithRepositoryUrl,BuildTask.DefinitionStages.WithAuthenticationTokenType,BuildTask.DefinitionStages.WithAuthenticationToken,BuildTask.DefinitionStages.WithAlias,BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,BuildTask.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.Registry.Definition
@@ -1092,9 +1083,19 @@ references:
   nameWithType: Registry.Definition
   fullName: com.microsoft.azure.management.containerregistry.Registry.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a registry. </p>
+  summary: "<p>Container interface for all the definitions related to a registry. </p>"
   syntax:
     content: public interface Definition extends Registry.DefinitionStages.Blank,Registry.DefinitionStages.WithGroup,Registry.DefinitionStages.WithSku,Registry.DefinitionStages.WithStorageAccount,Registry.DefinitionStages.WithCreate
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.yml
+  name: BuildTask.DefinitionStages
+  nameWithType: BuildTask.DefinitionStages
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages
+  type: Interface
+  summary: "<p>Grouping of build task definition stages. </p>"
+  syntax:
+    content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.yml
@@ -1102,7 +1103,7 @@ references:
   nameWithType: Registry.DefinitionStages
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages
   type: Interface
-  summary: <p>Grouping of registry definition stages. </p>
+  summary: "<p>Grouping of registry definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages
@@ -1112,17 +1113,7 @@ references:
   nameWithType: Webhook.DefinitionStages
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages
   type: Interface
-  summary: <p>Grouping of webhook definition stages. </p>
-  syntax:
-    content: public interface DefinitionStages
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.yml
-  name: BuildTask.DefinitionStages
-  nameWithType: BuildTask.DefinitionStages
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages
-  type: Interface
-  summary: <p>Grouping of build task definition stages. </p>
+  summary: "<p>Grouping of webhook definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages
@@ -1132,7 +1123,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages
   type: Interface
-  summary: <p>Grouping of build argument definition stages for a queued build. </p>
+  summary: "<p>Grouping of build argument definition stages for a queued build. </p>"
   syntax:
     content: public interface QueuedQuickBuildArgumentDefinitionStages
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinition
@@ -1142,7 +1133,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinition
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface QueuedQuickBuildDefinition extends Build.QueuedQuickBuildDefinitionStages.Blank,Build.QueuedQuickBuildDefinitionStages.WithOSType,Build.QueuedQuickBuildDefinitionStages.WithSourceLocation,Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath,Build.QueuedQuickBuildDefinitionStages.WithBuildArgument,Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount,Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds,Build.QueuedQuickBuildDefinitionStages.WithImageNames,Build.QueuedQuickBuildDefinitionStages.WithImageCache,Build.QueuedQuickBuildDefinitionStages.WithImagePush,Build.QueuedQuickBuildDefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages
@@ -1152,7 +1143,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages
   type: Interface
-  summary: <p>Grouping of queued build task definition stages. </p>
+  summary: "<p>Grouping of queued build task definition stages. </p>"
   syntax:
     content: public interface QueuedQuickBuildDefinitionStages
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.Update
@@ -1162,7 +1153,7 @@ references:
   nameWithType: BuildTask.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update extends BuildTask.UpdateStages.WithOSType,BuildTask.UpdateStages.WithSourceControlType,BuildTask.UpdateStages.WithRepositoryUrl,BuildTask.UpdateStages.WithAuthenticationTokenType,BuildTask.UpdateStages.WithAuthenticationToken,BuildTask.UpdateStages.WithAlias,BuildTask.UpdateStages.WithAuthenticationRefreshToken,BuildTask.UpdateStages.WithTokenExpirationTimeInSeconds,BuildTask.UpdateStages.WithAuthenticationTokenAccessScope,BuildTask.UpdateStages.WithCommitTrigger,BuildTask.UpdateStages.WithCpuCoresCount,BuildTask.UpdateStages.WithBuildTimeoutInSeconds,BuildTask.UpdateStages.WithBuildTaskStatus,Resource.UpdateWithTags<Update>,Appliable<BuildTask>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.Update
@@ -1172,19 +1163,9 @@ references:
   nameWithType: Webhook.Update
   fullName: com.microsoft.azure.management.containerregistry.Webhook.Update
   type: Interface
-  summary: <p>The entirety of a webhook update. </p>
+  summary: "<p>The entirety of a webhook update. </p>"
   syntax:
     content: public interface Update extends Webhook.UpdateStages.WithTriggerWhen,Webhook.UpdateStages.WithServiceUri,Webhook.UpdateStages.WithCustomHeaders,Webhook.UpdateStages.WithRepositoriesScope,Webhook.UpdateStages.WithDefaultStatus,Resource.UpdateWithTags<Update>,Appliable<Webhook>
-- uid: com.microsoft.azure.management.containerregistry.BuildStep.Update
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildStep.Update.yml
-  name: BuildStep.Update
-  nameWithType: BuildStep.Update
-  fullName: com.microsoft.azure.management.containerregistry.BuildStep.Update
-  type: Interface
-  summary: <p>The entirety of a build task update. </p>
-  syntax:
-    content: public interface Update extends BuildStep.UpdateStages.WithBranch,BuildStep.UpdateStages.WithContext,BuildStep.UpdateStages.WithDockerFilePath,BuildStep.UpdateStages.WithImageNames,BuildStep.UpdateStages.WithImageCache,BuildStep.UpdateStages.WithImagePush,BuildStep.UpdateStages.WithBuildArgument,Appliable<BuildStep>
 - uid: com.microsoft.azure.management.containerregistry.Registry.Update
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Registry.Update.yml
@@ -1192,7 +1173,7 @@ references:
   nameWithType: Registry.Update
   fullName: com.microsoft.azure.management.containerregistry.Registry.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Resource.UpdateWithTags<Update>,Appliable<Registry>,Registry.UpdateStages.WithAdminUserEnabled,Registry.UpdateStages.WithSku,Registry.UpdateStages.WithWebhook
 - uid: com.microsoft.azure.management.containerregistry.Build.Update
@@ -1202,9 +1183,19 @@ references:
   nameWithType: Build.Update
   fullName: com.microsoft.azure.management.containerregistry.Build.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update extends Build.UpdateStages.WithArchiving,Appliable<Build>
+- uid: com.microsoft.azure.management.containerregistry.BuildStep.Update
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildStep.Update.yml
+  name: BuildStep.Update
+  nameWithType: BuildStep.Update
+  fullName: com.microsoft.azure.management.containerregistry.BuildStep.Update
+  type: Interface
+  summary: "<p>The entirety of a build task update. </p>"
+  syntax:
+    content: public interface Update extends BuildStep.UpdateStages.WithBranch,BuildStep.UpdateStages.WithContext,BuildStep.UpdateStages.WithDockerFilePath,BuildStep.UpdateStages.WithImageNames,BuildStep.UpdateStages.WithImageCache,BuildStep.UpdateStages.WithImagePush,BuildStep.UpdateStages.WithBuildArgument,Appliable<BuildStep>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinition
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinition.yml
@@ -1212,7 +1203,7 @@ references:
   nameWithType: Webhook.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container registry's webhook update definition. </p>
+  summary: "<p>Grouping of the container registry's webhook update definition. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Webhook.UpdateDefinitionStages.Blank<ParentT>,Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>,Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>,Webhook.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1226,7 +1217,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages
   type: Interface
-  summary: <p>Grouping of webhook update definition stages. </p>
+  summary: "<p>Grouping of webhook update definition stages. </p>"
   syntax:
     content: public interface UpdateDefinitionStages
 - uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateResource
@@ -1236,7 +1227,7 @@ references:
   nameWithType: Webhook.UpdateResource<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResource<ParentT>
   type: Interface
-  summary: <p>The entirety of a webhook resource update as part of a container registry update. </p>
+  summary: "<p>The entirety of a webhook resource update as part of a container registry update. </p>"
   syntax:
     content: public interface UpdateResource<ParentT> extends Webhook.UpdateResourceStages.Blank<ParentT>,Webhook.UpdateResourceStages.WithAttach<ParentT>
     typeParameters:
@@ -1250,7 +1241,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages
   type: Interface
-  summary: <p>Grouping of webhook update stages applicable as part of a container registry update. </p>
+  summary: "<p>Grouping of webhook update stages applicable as part of a container registry update. </p>"
   syntax:
     content: public interface UpdateResourceStages
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages
@@ -1260,37 +1251,7 @@ references:
   nameWithType: BuildTask.UpdateStages
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages
   type: Interface
-  summary: <p>Grouping of build task update stages. </p>
-  syntax:
-    content: public interface UpdateStages
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.yml
-  name: Webhook.UpdateStages
-  nameWithType: Webhook.UpdateStages
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages
-  type: Interface
-  summary: <p>Grouping of webhook update stages. </p>
-  syntax:
-    content: public interface UpdateStages
-- uid: com.microsoft.azure.management.containerregistry.Build.UpdateStages
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Build.UpdateStages.yml
-  name: Build.UpdateStages
-  nameWithType: Build.UpdateStages
-  fullName: com.microsoft.azure.management.containerregistry.Build.UpdateStages
-  type: Interface
-  summary: <p>Grouping of queued build update stages. </p>
-  syntax:
-    content: public interface UpdateStages
-- uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.yml
-  name: BuildStep.UpdateStages
-  nameWithType: BuildStep.UpdateStages
-  fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages
-  type: Interface
-  summary: <p>Grouping of queued build update stages. </p>
+  summary: "<p>Grouping of build task update stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages
@@ -1300,7 +1261,37 @@ references:
   nameWithType: Registry.UpdateStages
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages
   type: Interface
-  summary: <p>Grouping of container service update stages. </p>
+  summary: "<p>Grouping of container service update stages. </p>"
+  syntax:
+    content: public interface UpdateStages
+- uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.yml
+  name: BuildStep.UpdateStages
+  nameWithType: BuildStep.UpdateStages
+  fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages
+  type: Interface
+  summary: "<p>Grouping of queued build update stages. </p>"
+  syntax:
+    content: public interface UpdateStages
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.yml
+  name: Webhook.UpdateStages
+  nameWithType: Webhook.UpdateStages
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages
+  type: Interface
+  summary: "<p>Grouping of webhook update stages. </p>"
+  syntax:
+    content: public interface UpdateStages
+- uid: com.microsoft.azure.management.containerregistry.Build.UpdateStages
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Build.UpdateStages.yml
+  name: Build.UpdateStages
+  nameWithType: Build.UpdateStages
+  fullName: com.microsoft.azure.management.containerregistry.Build.UpdateStages
+  type: Interface
+  summary: "<p>Grouping of queued build update stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.containerregistry.Webhook.WebhookDefinition
@@ -1310,10 +1301,7 @@ references:
   nameWithType: Webhook.WebhookDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.WebhookDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Grouping of the container register webhook definitions.</p>
-
-    <p></p>
+  summary: "<p>Grouping of the container register webhook definitions.</p>\r\n<p></p>"
   syntax:
     content: public interface WebhookDefinition<ParentT> extends Webhook.DefinitionStages.Blank<ParentT>,Webhook.DefinitionStages.WithTriggerWhen<ParentT>,Webhook.DefinitionStages.WithServiceUri<ParentT>,Webhook.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1327,7 +1315,7 @@ references:
   nameWithType: Registries.WebhooksClient
   fullName: com.microsoft.azure.management.containerregistry.Registries.WebhooksClient
   type: Interface
-  summary: <p>Grouping of registry webhook actions. </p>
+  summary: "<p>Grouping of registry webhook actions. </p>"
   syntax:
     content: public interface WebhooksClient
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithAdminUserEnabled
@@ -1337,7 +1325,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithAdminUserEnabled
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithAdminUserEnabled
   type: Interface
-  summary: <p>The stage of the registry definition allowing to enable admin user. </p>
+  summary: "<p>The stage of the registry definition allowing to enable admin user. </p>"
   syntax:
     content: public interface WithAdminUserEnabled
 - uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithAdminUserEnabled
@@ -1347,7 +1335,7 @@ references:
   nameWithType: Registry.UpdateStages.WithAdminUserEnabled
   fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithAdminUserEnabled
   type: Interface
-  summary: <p>The stage of the registry update allowing to enable admin user. </p>
+  summary: "<p>The stage of the registry update allowing to enable admin user. </p>"
   syntax:
     content: public interface WithAdminUserEnabled
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAlias
@@ -1357,7 +1345,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAlias
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAlias
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the alternative name for a build task. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the alternative name for a build task. </p>"
   syntax:
     content: public interface WithAlias
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAlias
@@ -1367,7 +1355,7 @@ references:
   nameWithType: BuildTask.UpdateStages.WithAlias
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAlias
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the alternative name for a build task. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the alternative name for a build task. </p>"
   syntax:
     content: public interface WithAlias
 - uid: com.microsoft.azure.management.containerregistry.Build.UpdateStages.WithArchiving
@@ -1377,26 +1365,9 @@ references:
   nameWithType: Build.UpdateStages.WithArchiving
   fullName: com.microsoft.azure.management.containerregistry.Build.UpdateStages.WithArchiving
   type: Interface
-  summary: <p>The stage of the queue build update definition allowing to specify whether archiving is enabled or not. </p>
+  summary: "<p>The stage of the queue build update definition allowing to specify whether archiving is enabled or not. </p>"
   syntax:
     content: public interface WithArchiving
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach.yml
-  name: Webhook.UpdateResourceStages.WithAttach<ParentT>
-  nameWithType: Webhook.UpdateResourceStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach<ParentT>
-  type: Interface
-  summary: >-
-    <p>The final stage of the webhook definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container registry definition. </p>
-  syntax:
-    content: public interface WithAttach<ParentT> extends Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>,Webhook.UpdateResourceStages.WithServiceUri<ParentT>,Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>,Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>,Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>,Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>,Settable<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithAttach
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithAttach.yml
@@ -1404,10 +1375,7 @@ references:
   nameWithType: Webhook.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the webhook definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>
+  summary: "<p>The final stage of the webhook definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Webhook.DefinitionStages.WithCustomHeaders<ParentT>,Webhook.DefinitionStages.WithRepositoriesScope<ParentT>,Webhook.DefinitionStages.WithDefaultStatus<ParentT>,Resource.DefinitionWithTags<WithAttach<ParentT>>,Attachable<ParentT>.InDefinition
     typeParameters:
@@ -1421,26 +1389,27 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the webhook definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>
+  summary: "<p>The final stage of the webhook definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>,Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>,Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>,Webhook.UpdateDefinitionStages.WithTags<ParentT>,Attachable<ParentT>.InUpdate
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationRefreshToken
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationRefreshToken.yml
-  name: BuildTask.UpdateStages.WithAuthenticationRefreshToken
-  nameWithType: BuildTask.UpdateStages.WithAuthenticationRefreshToken
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationRefreshToken
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach.yml
+  name: Webhook.UpdateResourceStages.WithAttach<ParentT>
+  nameWithType: Webhook.UpdateResourceStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the authentication refresh token. </p>
+  summary: "<p>The final stage of the webhook definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container registry definition. </p>"
   syntax:
-    content: public interface WithAuthenticationRefreshToken
+    content: public interface WithAttach<ParentT> extends Webhook.UpdateResourceStages.WithTriggerWhen<ParentT>,Webhook.UpdateResourceStages.WithServiceUri<ParentT>,Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>,Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>,Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>,Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>,Settable<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationRefreshToken
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationRefreshToken.yml
@@ -1448,19 +1417,19 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationRefreshToken
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationRefreshToken
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the authentication refresh token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the authentication refresh token. </p>"
   syntax:
     content: public interface WithAuthenticationRefreshToken
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationToken
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationRefreshToken
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationToken.yml
-  name: BuildTask.UpdateStages.WithAuthenticationToken
-  nameWithType: BuildTask.UpdateStages.WithAuthenticationToken
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationToken
+  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationRefreshToken.yml
+  name: BuildTask.UpdateStages.WithAuthenticationRefreshToken
+  nameWithType: BuildTask.UpdateStages.WithAuthenticationRefreshToken
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationRefreshToken
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the authentication token. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the authentication refresh token. </p>"
   syntax:
-    content: public interface WithAuthenticationToken
+    content: public interface WithAuthenticationRefreshToken
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationToken
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationToken.yml
@@ -1468,19 +1437,19 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationToken
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationToken
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the authentication token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the authentication token. </p>"
   syntax:
     content: public interface WithAuthenticationToken
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationToken
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenAccessScope.yml
-  name: BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
-  nameWithType: BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
+  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationToken.yml
+  name: BuildTask.UpdateStages.WithAuthenticationToken
+  nameWithType: BuildTask.UpdateStages.WithAuthenticationToken
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationToken
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the scope of the access token. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the authentication token. </p>"
   syntax:
-    content: public interface WithAuthenticationTokenAccessScope
+    content: public interface WithAuthenticationToken
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope.yml
@@ -1488,19 +1457,19 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the scope of the access token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the scope of the access token. </p>"
   syntax:
     content: public interface WithAuthenticationTokenAccessScope
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenType
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenType.yml
-  name: BuildTask.UpdateStages.WithAuthenticationTokenType
-  nameWithType: BuildTask.UpdateStages.WithAuthenticationTokenType
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenType
+  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenAccessScope.yml
+  name: BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
+  nameWithType: BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenAccessScope
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the type of the authentication token. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the scope of the access token. </p>"
   syntax:
-    content: public interface WithAuthenticationTokenType
+    content: public interface WithAuthenticationTokenAccessScope
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenType
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenType.yml
@@ -1508,19 +1477,19 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenType
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenType
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the type of the authentication token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the type of the authentication token. </p>"
   syntax:
     content: public interface WithAuthenticationTokenType
-- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenType
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch.yml
-  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
-  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
-  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
+  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenType.yml
+  name: BuildTask.UpdateStages.WithAuthenticationTokenType
+  nameWithType: BuildTask.UpdateStages.WithAuthenticationTokenType
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithAuthenticationTokenType
   type: Interface
-  summary: <p>The stage of the build task build steps definition allowing to specify the branch. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the type of the authentication token. </p>"
   syntax:
-    content: public interface WithBranch
+    content: public interface WithAuthenticationTokenType
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBranch
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBranch.yml
@@ -1528,17 +1497,27 @@ references:
   nameWithType: BuildStep.UpdateStages.WithBranch
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBranch
   type: Interface
-  summary: <p>The stage of the build task build steps update definition allowing to specify the branch. </p>
+  summary: "<p>The stage of the build task build steps update definition allowing to specify the branch. </p>"
   syntax:
     content: public interface WithBranch
-- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
+- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument.yml
-  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
-  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
-  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
+  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch.yml
+  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
+  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
+  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch
   type: Interface
-  summary: <p>The stage of the queued build definition allowing to specify the build arguments. </p>
+  summary: "<p>The stage of the build task build steps definition allowing to specify the branch. </p>"
+  syntax:
+    content: public interface WithBranch
+- uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBuildArgument
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBuildArgument.yml
+  name: BuildStep.UpdateStages.WithBuildArgument
+  nameWithType: BuildStep.UpdateStages.WithBuildArgument
+  fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBuildArgument
+  type: Interface
+  summary: "<p>The stage of the queued build update definition allowing to specify the build arguments. </p>"
   syntax:
     content: public interface WithBuildArgument
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildArgument
@@ -1548,17 +1527,17 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildArgument
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildArgument
   type: Interface
-  summary: <p>The stage of the queued build definition allowing to specify the build arguments. </p>
+  summary: "<p>The stage of the queued build definition allowing to specify the build arguments. </p>"
   syntax:
     content: public interface WithBuildArgument
-- uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBuildArgument
+- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBuildArgument.yml
-  name: BuildStep.UpdateStages.WithBuildArgument
-  nameWithType: BuildStep.UpdateStages.WithBuildArgument
-  fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithBuildArgument
+  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument.yml
+  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
+  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
+  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument
   type: Interface
-  summary: <p>The stage of the queued build update definition allowing to specify the build arguments. </p>
+  summary: "<p>The stage of the queued build definition allowing to specify the build arguments. </p>"
   syntax:
     content: public interface WithBuildArgument
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach
@@ -1568,10 +1547,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the build argument definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the build argument definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithBuildArgumentAttach<ParentT> extends Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
@@ -1585,7 +1561,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTaskStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTaskStatus
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify current status of build task. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify current status of build task. </p>"
   syntax:
     content: public interface WithBuildTaskStatus
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithBuildTaskStatus
@@ -1595,9 +1571,19 @@ references:
   nameWithType: BuildTask.UpdateStages.WithBuildTaskStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithBuildTaskStatus
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify current status of build task. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify current status of build task. </p>"
   syntax:
     content: public interface WithBuildTaskStatus
+- uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds.yml
+  name: Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
+  nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
+  fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
+  type: Interface
+  summary: "<p>The stage of the queue build update definition allowing to specify the build timeout. </p>"
+  syntax:
+    content: public interface WithBuildTimeoutInSeconds
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTimeoutInSeconds
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTimeoutInSeconds.yml
@@ -1605,7 +1591,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTimeoutInSeconds
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTimeoutInSeconds
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the build timeout. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the build timeout. </p>"
   syntax:
     content: public interface WithBuildTimeoutInSeconds
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithBuildTimeoutInSeconds
@@ -1615,29 +1601,9 @@ references:
   nameWithType: BuildTask.UpdateStages.WithBuildTimeoutInSeconds
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithBuildTimeoutInSeconds
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the build timeout. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the build timeout. </p>"
   syntax:
     content: public interface WithBuildTimeoutInSeconds
-- uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds.yml
-  name: Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
-  nameWithType: Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
-  fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds
-  type: Interface
-  summary: <p>The stage of the queue build update definition allowing to specify the build timeout. </p>
-  syntax:
-    content: public interface WithBuildTimeoutInSeconds
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger.yml
-  name: BuildTask.DefinitionStages.WithCommitTrigger
-  nameWithType: BuildTask.DefinitionStages.WithCommitTrigger
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger
-  type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify whether the source control commit trigger is enabled or not. </p>
-  syntax:
-    content: public interface WithCommitTrigger
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCommitTrigger
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCommitTrigger.yml
@@ -1645,7 +1611,17 @@ references:
   nameWithType: BuildTask.UpdateStages.WithCommitTrigger
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCommitTrigger
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify whether the source control commit trigger is enabled or not. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify whether the source control commit trigger is enabled or not. </p>"
+  syntax:
+    content: public interface WithCommitTrigger
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger.yml
+  name: BuildTask.DefinitionStages.WithCommitTrigger
+  nameWithType: BuildTask.DefinitionStages.WithCommitTrigger
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger
+  type: Interface
+  summary: "<p>The stage of the BuildTask definition allowing to specify whether the source control commit trigger is enabled or not. </p>"
   syntax:
     content: public interface WithCommitTrigger
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext
@@ -1655,7 +1631,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext
   type: Interface
-  summary: <p>The stage of the build task build steps definition allowing to specify the relative context path for a docker build in the source. </p>
+  summary: "<p>The stage of the build task build steps definition allowing to specify the relative context path for a docker build in the source. </p>"
   syntax:
     content: public interface WithContext
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithContext
@@ -1665,19 +1641,9 @@ references:
   nameWithType: BuildStep.UpdateStages.WithContext
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithContext
   type: Interface
-  summary: <p>The stage of the build task build steps update definition allowing to specify the relative context path for a docker build in the source. </p>
+  summary: "<p>The stage of the build task build steps update definition allowing to specify the relative context path for a docker build in the source. </p>"
   syntax:
     content: public interface WithContext
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCpuCoresCount
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCpuCoresCount.yml
-  name: BuildTask.UpdateStages.WithCpuCoresCount
-  nameWithType: BuildTask.UpdateStages.WithCpuCoresCount
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCpuCoresCount
-  type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the CPU configuration required for the build. </p>
-  syntax:
-    content: public interface WithCpuCoresCount
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount.yml
@@ -1685,7 +1651,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the CPU configuration required for the build. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the CPU configuration required for the build. </p>"
   syntax:
     content: public interface WithCpuCoresCount
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCpuCoresCount
@@ -1695,19 +1661,19 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCpuCoresCount
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCpuCoresCount
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the CPU configuration required for the build. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the CPU configuration required for the build. </p>"
   syntax:
     content: public interface WithCpuCoresCount
-- uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCpuCoresCount
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate.yml
-  name: Registry.DefinitionStages.WithCreate
-  nameWithType: Registry.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate
+  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCpuCoresCount.yml
+  name: BuildTask.UpdateStages.WithCpuCoresCount
+  nameWithType: BuildTask.UpdateStages.WithCpuCoresCount
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithCpuCoresCount
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the CPU configuration required for the build. </p>"
   syntax:
-    content: public interface WithCreate extends Creatable<Registry>,Registry.DefinitionStages.WithAdminUserEnabled,Registry.DefinitionStages.WithWebhook,Resource.DefinitionWithTags<WithCreate>
+    content: public interface WithCpuCoresCount
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCreate
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCreate.yml
@@ -1715,7 +1681,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Build.QueuedQuickBuildDefinitionStages.WithBuildArgument,Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount,Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds,Build.QueuedQuickBuildDefinitionStages.WithImageNames,Build.QueuedQuickBuildDefinitionStages.WithImageCache,Build.QueuedQuickBuildDefinitionStages.WithImagePush,Creatable<Build>
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
@@ -1725,9 +1691,19 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends BuildTask.DefinitionStages.WithAuthenticationRefreshToken,BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds,BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope,BuildTask.DefinitionStages.WithCommitTrigger,BuildTask.DefinitionStages.WithCpuCoresCount,BuildTask.DefinitionStages.WithBuildTimeoutInSeconds,BuildTask.DefinitionStages.WithBuildTaskStatus,Resource.DefinitionWithTags<BuildTask.DefinitionStages.WithCreate>,Creatable<BuildTask>
+- uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate.yml
+  name: Registry.DefinitionStages.WithCreate
+  nameWithType: Registry.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithCreate
+  type: Interface
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
+  syntax:
+    content: public interface WithCreate extends Creatable<Registry>,Registry.DefinitionStages.WithAdminUserEnabled,Registry.DefinitionStages.WithWebhook,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate.yml
@@ -1735,9 +1711,19 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch,BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext,BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache,BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush,BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument,Creatable<BuildStep>
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders.yml
+  name: Webhook.UpdateStages.WithCustomHeaders
+  nameWithType: Webhook.UpdateStages.WithCustomHeaders
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders
+  type: Interface
+  summary: "<p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications. </p>"
+  syntax:
+    content: public interface WithCustomHeaders
 - uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithCustomHeaders
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithCustomHeaders.yml
@@ -1745,10 +1731,21 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithCustomHeaders<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders.yml
+  name: Webhook.DefinitionStages.WithCustomHeaders<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithCustomHeaders<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders<ParentT>
+  type: Interface
+  summary: "<p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCustomHeaders<ParentT>
     typeParameters:
@@ -1762,56 +1759,9 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithCustomHeaders<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithCustomHeaders<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders.yml
-  name: Webhook.UpdateStages.WithCustomHeaders
-  nameWithType: Webhook.UpdateStages.WithCustomHeaders
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders
-  type: Interface
-  summary: <p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications. </p>
-  syntax:
-    content: public interface WithCustomHeaders
-- uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders.yml
-  name: Webhook.DefinitionStages.WithCustomHeaders<ParentT>
-  nameWithType: Webhook.DefinitionStages.WithCustomHeaders<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithCustomHeaders<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the custom headers that will be added to the notifications.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithCustomHeaders<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus.yml
-  name: Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
-  nameWithType: Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithDefaultStatus<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
@@ -1823,10 +1773,21 @@ references:
   nameWithType: Webhook.DefinitionStages.WithDefaultStatus<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithDefaultStatus<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithDefaultStatus<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus.yml
+  name: Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
+  nameWithType: Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>
+  type: Interface
+  summary: "<p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDefaultStatus<ParentT>
     typeParameters:
@@ -1840,10 +1801,7 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithDefaultStatus<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the default status of the webhook after being created.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDefaultStatus<ParentT>
     typeParameters:
@@ -1857,19 +1815,9 @@ references:
   nameWithType: Webhook.UpdateStages.WithDefaultStatus
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithDefaultStatus
   type: Interface
-  summary: <p>The stage of the webhook definition allowing to specify the default status of the webhook after being created. </p>
+  summary: "<p>The stage of the webhook definition allowing to specify the default status of the webhook after being created. </p>"
   syntax:
     content: public interface WithDefaultStatus
-- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath.yml
-  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
-  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
-  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
-  type: Interface
-  summary: <p>The stage of the build task build steps definition allowing to specify the Docker file path. </p>
-  syntax:
-    content: public interface WithDockerFilePath
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath.yml
@@ -1877,7 +1825,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the Docker file path. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the Docker file path. </p>"
   syntax:
     content: public interface WithDockerFilePath
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithDockerFilePath
@@ -1887,7 +1835,17 @@ references:
   nameWithType: BuildStep.UpdateStages.WithDockerFilePath
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithDockerFilePath
   type: Interface
-  summary: <p>The stage of the build task build steps update definition allowing to specify the Docker file path. </p>
+  summary: "<p>The stage of the build task build steps update definition allowing to specify the Docker file path. </p>"
+  syntax:
+    content: public interface WithDockerFilePath
+- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath.yml
+  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
+  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
+  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath
+  type: Interface
+  summary: "<p>The stage of the build task build steps definition allowing to specify the Docker file path. </p>"
   syntax:
     content: public interface WithDockerFilePath
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithGroup
@@ -1897,7 +1855,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithSku>
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithImageCache
@@ -1907,17 +1865,7 @@ references:
   nameWithType: BuildStep.UpdateStages.WithImageCache
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithImageCache
   type: Interface
-  summary: <p>The stage of the build task build steps update definition allowing to specify if the image cache is enabled or not. </p>
-  syntax:
-    content: public interface WithImageCache
-- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.yml
-  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
-  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
-  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
-  type: Interface
-  summary: <p>The stage of the build task build steps definition allowing to specify if the image cache is enabled or not. </p>
+  summary: "<p>The stage of the build task build steps update definition allowing to specify if the image cache is enabled or not. </p>"
   syntax:
     content: public interface WithImageCache
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache
@@ -1927,7 +1875,17 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageCache
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageCache
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify if the image cache is enabled or not. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify if the image cache is enabled or not. </p>"
+  syntax:
+    content: public interface WithImageCache
+- uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.yml
+  name: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
+  nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
+  fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache
+  type: Interface
+  summary: "<p>The stage of the build task build steps definition allowing to specify if the image cache is enabled or not. </p>"
   syntax:
     content: public interface WithImageCache
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithImageNames
@@ -1937,17 +1895,7 @@ references:
   nameWithType: BuildStep.UpdateStages.WithImageNames
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithImageNames
   type: Interface
-  summary: <p>The stage of the build task build steps update definition allowing to specify the image names for the build. </p>
-  syntax:
-    content: public interface WithImageNames
-- uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames.yml
-  name: Build.QueuedQuickBuildDefinitionStages.WithImageNames
-  nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageNames
-  fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames
-  type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the image names for the build. </p>
+  summary: "<p>The stage of the build task build steps update definition allowing to specify the image names for the build. </p>"
   syntax:
     content: public interface WithImageNames
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames
@@ -1957,7 +1905,17 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames
   type: Interface
-  summary: <p>The stage of the build task build steps definition allowing to specify the image names for the build. </p>
+  summary: "<p>The stage of the build task build steps definition allowing to specify the image names for the build. </p>"
+  syntax:
+    content: public interface WithImageNames
+- uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames.yml
+  name: Build.QueuedQuickBuildDefinitionStages.WithImageNames
+  nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImageNames
+  fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImageNames
+  type: Interface
+  summary: "<p>The stage of the queue build definition allowing to specify the image names for the build. </p>"
   syntax:
     content: public interface WithImageNames
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush
@@ -1967,7 +1925,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush
   type: Interface
-  summary: <p>The stage of the build task build steps definition allowing to specify if the image built should be pushed to the registry or not. </p>
+  summary: "<p>The stage of the build task build steps definition allowing to specify if the image built should be pushed to the registry or not. </p>"
   syntax:
     content: public interface WithImagePush
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush
@@ -1977,7 +1935,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithImagePush
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithImagePush
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify if the image built should be pushed to the registry or not. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify if the image built should be pushed to the registry or not. </p>"
   syntax:
     content: public interface WithImagePush
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithImagePush
@@ -1987,7 +1945,7 @@ references:
   nameWithType: BuildStep.UpdateStages.WithImagePush
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.UpdateStages.WithImagePush
   type: Interface
-  summary: <p>The stage of the build task build steps update definition allowing to specify if the image built should be pushed to the registry or not. </p>
+  summary: "<p>The stage of the build task build steps update definition allowing to specify if the image built should be pushed to the registry or not. </p>"
   syntax:
     content: public interface WithImagePush
 - uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags
@@ -1997,24 +1955,21 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithOrWithoutTags<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the tags.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the tags.</p>\r\n<p></p>"
   syntax:
     content: public interface WithOrWithoutTags<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithOSType
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithOSType.yml
-  name: BuildTask.UpdateStages.WithOSType
-  nameWithType: BuildTask.UpdateStages.WithOSType
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithOSType
+  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType.yml
+  name: BuildTask.DefinitionStages.WithOSType
+  nameWithType: BuildTask.DefinitionStages.WithOSType
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the OS type required for the build. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the OS type required for the build. </p>"
   syntax:
     content: public interface WithOSType
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithOSType
@@ -2024,36 +1979,19 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithOSType
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithOSType
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the OS type required for the build. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the OS type required for the build. </p>"
   syntax:
     content: public interface WithOSType
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithOSType
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType.yml
-  name: BuildTask.DefinitionStages.WithOSType
-  nameWithType: BuildTask.DefinitionStages.WithOSType
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType
+  href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithOSType.yml
+  name: BuildTask.UpdateStages.WithOSType
+  nameWithType: BuildTask.UpdateStages.WithOSType
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithOSType
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the OS type required for the build. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the OS type required for the build. </p>"
   syntax:
     content: public interface WithOSType
-- uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope.yml
-  name: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
-  nameWithType: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithRepositoriesScope<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithRepositoriesScope
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithRepositoriesScope.yml
@@ -2061,10 +1999,35 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithRepositoriesScope<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithRepositoriesScope<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope.yml
+  name: Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
+  nameWithType: Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
+  type: Interface
+  summary: "<p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithRepositoriesScope<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope.yml
+  name: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithRepositoriesScope<ParentT>
+  type: Interface
+  summary: "<p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>\r\n<p></p>"
   syntax:
     content: public interface WithRepositoriesScope<ParentT>
     typeParameters:
@@ -2078,26 +2041,9 @@ references:
   nameWithType: Webhook.UpdateStages.WithRepositoriesScope
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithRepositoriesScope
   type: Interface
-  summary: <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered. </p>
+  summary: "<p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered. </p>"
   syntax:
     content: public interface WithRepositoriesScope
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope.yml
-  name: Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
-  nameWithType: Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the scope of repositories where the event can be triggered.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithRepositoriesScope<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithRepositoryUrl
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithRepositoryUrl.yml
@@ -2105,7 +2051,7 @@ references:
   nameWithType: BuildTask.UpdateStages.WithRepositoryUrl
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithRepositoryUrl
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the full URL to the source code repository. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the full URL to the source code repository. </p>"
   syntax:
     content: public interface WithRepositoryUrl
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithRepositoryUrl
@@ -2115,7 +2061,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithRepositoryUrl
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithRepositoryUrl
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the full URL to the source code repository. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the full URL to the source code repository. </p>"
   syntax:
     content: public interface WithRepositoryUrl
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy
@@ -2125,7 +2071,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>
   type: Interface
-  summary: <p>The stage of the build argument definition allowing to specify the secrecy of the build argument. </p>
+  summary: "<p>The stage of the build argument definition allowing to specify the secrecy of the build argument. </p>"
   syntax:
     content: public interface WithSecrecy<ParentT>
     typeParameters:
@@ -2139,27 +2085,21 @@ references:
   nameWithType: Webhook.UpdateResourceStages.WithServiceUri<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithServiceUri<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithServiceUri<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri
+- uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri.yml
-  name: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
-  nameWithType: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
+  href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri.yml
+  name: Webhook.DefinitionStages.WithServiceUri<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithServiceUri<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithServiceUri<ParentT>
     typeParameters:
@@ -2173,36 +2113,23 @@ references:
   nameWithType: Webhook.UpdateStages.WithServiceUri
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithServiceUri
   type: Interface
-  summary: <p>The stage of the webhook definition allowing to specify the service URI for post notifications. </p>
+  summary: "<p>The stage of the webhook definition allowing to specify the service URI for post notifications. </p>"
   syntax:
     content: public interface WithServiceUri
-- uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri
   parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri.yml
-  name: Webhook.DefinitionStages.WithServiceUri<ParentT>
-  nameWithType: Webhook.DefinitionStages.WithServiceUri<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithServiceUri<ParentT>
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri.yml
+  name: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
+  nameWithType: Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the service URI for post notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithServiceUri<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku.yml
-  name: Registry.UpdateStages.WithSku
-  nameWithType: Registry.UpdateStages.WithSku
-  fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku
-  type: Interface
-  summary: <p>The stage of the registry definition allowing to specify the SKU type. </p>
-  syntax:
-    content: public interface WithSku
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithSku
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithSku.yml
@@ -2210,7 +2137,17 @@ references:
   nameWithType: Registry.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithSku
   type: Interface
-  summary: <p>The stage of the registry definition allowing to specify the SKU type. </p>
+  summary: "<p>The stage of the registry definition allowing to specify the SKU type. </p>"
+  syntax:
+    content: public interface WithSku
+- uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku.yml
+  name: Registry.UpdateStages.WithSku
+  nameWithType: Registry.UpdateStages.WithSku
+  fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithSku
+  type: Interface
+  summary: "<p>The stage of the registry definition allowing to specify the SKU type. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithSourceControlType
@@ -2220,7 +2157,7 @@ references:
   nameWithType: BuildTask.UpdateStages.WithSourceControlType
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithSourceControlType
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the source control type. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the source control type. </p>"
   syntax:
     content: public interface WithSourceControlType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithSourceControlType
@@ -2230,7 +2167,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithSourceControlType
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithSourceControlType
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the source control type. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the source control type. </p>"
   syntax:
     content: public interface WithSourceControlType
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithSourceLocation
@@ -2240,7 +2177,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.WithSourceLocation
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.WithSourceLocation
   type: Interface
-  summary: <p>The stage of the queue build definition allowing to specify the source location. </p>
+  summary: "<p>The stage of the queue build definition allowing to specify the source location. </p>"
   syntax:
     content: public interface WithSourceLocation
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount
@@ -2250,7 +2187,7 @@ references:
   nameWithType: Registry.DefinitionStages.WithStorageAccount
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithStorageAccount
   type: Interface
-  summary: <p>The stage of the registry definition allowing to specify the storage account. </p>
+  summary: "<p>The stage of the registry definition allowing to specify the storage account. </p>"
   syntax:
     content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTags
@@ -2260,26 +2197,13 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithTags<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTags<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the tags.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the tags.</p>\r\n<p></p>"
   syntax:
     content: public interface WithTags<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds.yml
-  name: BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
-  nameWithType: BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
-  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
-  type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the time in seconds that the token remains valid. </p>
-  syntax:
-    content: public interface WithTokenExpirationTimeInSeconds
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithTokenExpirationTimeInSeconds
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithTokenExpirationTimeInSeconds.yml
@@ -2287,9 +2211,28 @@ references:
   nameWithType: BuildTask.UpdateStages.WithTokenExpirationTimeInSeconds
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.UpdateStages.WithTokenExpirationTimeInSeconds
   type: Interface
-  summary: <p>The stage of the BuildTask update definition allowing to specify the time in seconds that the token remains valid. </p>
+  summary: "<p>The stage of the BuildTask update definition allowing to specify the time in seconds that the token remains valid. </p>"
   syntax:
     content: public interface WithTokenExpirationTimeInSeconds
+- uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds.yml
+  name: BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
+  nameWithType: BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
+  fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
+  type: Interface
+  summary: "<p>The stage of the BuildTask definition allowing to specify the time in seconds that the token remains valid. </p>"
+  syntax:
+    content: public interface WithTokenExpirationTimeInSeconds
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithTriggerWhen
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithTriggerWhen.yml
+  name: Webhook.UpdateStages.WithTriggerWhen
+  nameWithType: Webhook.UpdateStages.WithTriggerWhen
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithTriggerWhen
+  type: Interface
+  syntax:
+    content: public interface WithTriggerWhen
 - uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithTriggerWhen
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Webhook.UpdateResourceStages.WithTriggerWhen.yml
@@ -2302,32 +2245,6 @@ references:
     typeParameters:
     - id: ParentT
       type: 18a275b1
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTriggerWhen
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTriggerWhen.yml
-  name: Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
-  nameWithType: Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
-  type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the actions that will trigger the webhook notifications.</p>
-
-    <p></p>
-  syntax:
-    content: public interface WithTriggerWhen<ParentT>
-    typeParameters:
-    - id: ParentT
-      type: 18a275b1
-      description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithTriggerWhen
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithTriggerWhen.yml
-  name: Webhook.UpdateStages.WithTriggerWhen
-  nameWithType: Webhook.UpdateStages.WithTriggerWhen
-  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithTriggerWhen
-  type: Interface
-  syntax:
-    content: public interface WithTriggerWhen
 - uid: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithTriggerWhen
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithTriggerWhen.yml
@@ -2335,10 +2252,21 @@ references:
   nameWithType: Webhook.DefinitionStages.WithTriggerWhen<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithTriggerWhen<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the webhook definition allowing to specify the actions that will trigger the webhook notifications.</p>
-
-    <p></p>
+  summary: "<p>The stage of the webhook definition allowing to specify the actions that will trigger the webhook notifications.</p>\r\n<p></p>"
+  syntax:
+    content: public interface WithTriggerWhen<ParentT>
+    typeParameters:
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTriggerWhen
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTriggerWhen.yml
+  name: Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
+  nameWithType: Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>
+  type: Interface
+  summary: "<p>The stage of the webhook definition allowing to specify the actions that will trigger the webhook notifications.</p>\r\n<p></p>"
   syntax:
     content: public interface WithTriggerWhen<ParentT>
     typeParameters:
@@ -2352,7 +2280,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>
   type: Interface
-  summary: <p>The stage of the build argument definition allowing to specify the type of the build argument. </p>
+  summary: "<p>The stage of the build argument definition allowing to specify the type of the build argument. </p>"
   syntax:
     content: public interface WithType<ParentT>
     typeParameters:
@@ -2366,23 +2294,13 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>
   type: Interface
-  summary: <p>The stage of the build argument definition allowing to specify the value of the build argument. </p>
+  summary: "<p>The stage of the build argument definition allowing to specify the value of the build argument. </p>"
   syntax:
     content: public interface WithValue<ParentT>
     typeParameters:
     - id: ParentT
       type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
-- uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook
-  parent: com.microsoft.azure.management.containerregistry
-  href: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.yml
-  name: Registry.UpdateStages.WithWebhook
-  nameWithType: Registry.UpdateStages.WithWebhook
-  fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook
-  type: Interface
-  summary: <p>The stage of the container registry update allowing to add or remove a webhook. </p>
-  syntax:
-    content: public interface WithWebhook
 - uid: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithWebhook
   parent: com.microsoft.azure.management.containerregistry
   href: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithWebhook.yml
@@ -2390,6 +2308,16 @@ references:
   nameWithType: Registry.DefinitionStages.WithWebhook
   fullName: com.microsoft.azure.management.containerregistry.Registry.DefinitionStages.WithWebhook
   type: Interface
-  summary: <p>The stage of the container registry definition allowing to add or remove a webhook. </p>
+  summary: "<p>The stage of the container registry definition allowing to add or remove a webhook. </p>"
+  syntax:
+    content: public interface WithWebhook
+- uid: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook.yml
+  name: Registry.UpdateStages.WithWebhook
+  nameWithType: Registry.UpdateStages.WithWebhook
+  fullName: com.microsoft.azure.management.containerregistry.Registry.UpdateStages.WithWebhook
+  type: Interface
+  summary: "<p>The stage of the container registry update allowing to add or remove a webhook. </p>"
   syntax:
     content: public interface WithWebhook

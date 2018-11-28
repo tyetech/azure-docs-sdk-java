@@ -35,10 +35,7 @@ references:
   nameWithType: Trainings.TrainingsQuickTestImageDefinitionStages.WithExecute.execute()
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithExecute.execute()
   type: Method
-  summary: >-
-    <p>Execute the request.</p>
-
-    <p></p>
+  summary: "<p>Execute the request.</p>\r\n<p></p>"
   syntax:
     content: public ImagePrediction execute()
     return:
@@ -51,10 +48,7 @@ references:
   nameWithType: Trainings.TrainingsQuickTestImageDefinitionStages.WithExecute.executeAsync()
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithExecute.executeAsync()
   type: Method
-  summary: >-
-    <p>Execute the request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<ImagePrediction> executeAsync()
     return:
@@ -82,10 +76,7 @@ references:
   nameWithType: Trainings.TrainingsQuickTestImageDefinitionStages.WithAllOptions.withIterationId(UUID iterationId)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithAllOptions.withIterationId(UUID iterationId)
   type: Method
-  summary: >-
-    <p>Optional. Specifies the id of a particular iteration to evaluate against. The default iteration for the project will be used when not specified.</p>
-
-    <p></p>
+  summary: "<p>Optional. Specifies the id of a particular iteration to evaluate against. The default iteration for the project will be used when not specified.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsQuickTestImageDefinitionStages.WithExecute withIterationId(UUID iterationId)
     parameters:
@@ -101,10 +92,7 @@ references:
   nameWithType: Trainings.TrainingsQuickTestImageDefinitionStages.WithProjectId.withProjectId(UUID projectId)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithProjectId.withProjectId(UUID projectId)
   type: Method
-  summary: >-
-    <p>The project id.</p>
-
-    <p></p>
+  summary: "<p>The project id.</p>\r\n<p></p>"
   syntax:
     content: public WithImageData withProjectId(UUID projectId)
     parameters:
@@ -120,7 +108,7 @@ references:
   nameWithType: Trainings.TrainingsQuickTestImageDefinitionStages.WithProjectId
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithProjectId
   type: Interface
-  summary: <p>The stage of the definition to be specify projectId. </p>
+  summary: "<p>The stage of the definition to be specify projectId. </p>"
   syntax:
     content: public interface WithProjectId
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithImageData
@@ -130,7 +118,7 @@ references:
   nameWithType: Trainings.TrainingsQuickTestImageDefinitionStages.WithImageData
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithImageData
   type: Interface
-  summary: <p>The stage of the definition to be specify imageData. </p>
+  summary: "<p>The stage of the definition to be specify imageData. </p>"
   syntax:
     content: public interface WithImageData
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithExecute
@@ -140,6 +128,6 @@ references:
   nameWithType: Trainings.TrainingsQuickTestImageDefinitionStages.WithExecute
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsQuickTestImageDefinitionStages.WithExecute
   type: Interface
-  summary: <p>The last stage of the definition which will make the operation call. </p>
+  summary: "<p>The last stage of the definition which will make the operation call. </p>"
   syntax:
     content: public interface WithExecute

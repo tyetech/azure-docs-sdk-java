@@ -524,10 +524,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -540,10 +537,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -616,12 +610,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -634,7 +623,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -651,10 +640,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -668,10 +654,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -685,7 +668,7 @@ references:
   nameWithType: VirtualNetworkGatewayConnection
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayConnection
   type: Interface
-  summary: <p>Client-side representation of Virtual Network Gateway Connection object, associated with Virtual Network Gateway. </p>
+  summary: "<p>Client-side representation of Virtual Network Gateway Connection object, associated with Virtual Network Gateway. </p>"
   syntax:
     content: public interface VirtualNetworkGatewayConnection
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewayConnections
@@ -695,7 +678,7 @@ references:
   nameWithType: VirtualNetworkGatewayConnections
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayConnections
   type: Interface
-  summary: <p>Entry point for virtual network gateway connections management API in Azure. </p>
+  summary: "<p>Entry point for virtual network gateway connections management API in Azure. </p>"
   syntax:
     content: public interface VirtualNetworkGatewayConnections
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewayType
@@ -705,7 +688,7 @@ references:
   nameWithType: VirtualNetworkGatewayType
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayType
   type: Class
-  summary: <p>Defines values for VirtualNetworkGatewayType. </p>
+  summary: "<p>Defines values for VirtualNetworkGatewayType. </p>"
   syntax:
     content: public class VirtualNetworkGatewayType
 - uid: com.microsoft.azure.management.network.VpnType
@@ -715,7 +698,7 @@ references:
   nameWithType: VpnType
   fullName: com.microsoft.azure.management.network.VpnType
   type: Class
-  summary: <p>Defines values for VpnType. </p>
+  summary: "<p>Defines values for VpnType. </p>"
   syntax:
     content: public class VpnType
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewaySku
@@ -725,7 +708,7 @@ references:
   nameWithType: VirtualNetworkGatewaySku
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewaySku
   type: Class
-  summary: <p>VirtualNetworkGatewaySku details. </p>
+  summary: "<p>VirtualNetworkGatewaySku details. </p>"
   syntax:
     content: public class VirtualNetworkGatewaySku
 - uid: com.microsoft.azure.management.network.VpnClientConfiguration
@@ -735,7 +718,7 @@ references:
   nameWithType: VpnClientConfiguration
   fullName: com.microsoft.azure.management.network.VpnClientConfiguration
   type: Class
-  summary: <p>VpnClientConfiguration for P2S client. </p>
+  summary: "<p>VpnClientConfiguration for P2S client. </p>"
   syntax:
     content: public class VpnClientConfiguration
 - uid: com.microsoft.azure.management.network.BgpSettings
@@ -745,7 +728,7 @@ references:
   nameWithType: BgpSettings
   fullName: com.microsoft.azure.management.network.BgpSettings
   type: Class
-  summary: <p>BGP settings details. </p>
+  summary: "<p>BGP settings details. </p>"
   syntax:
     content: public class BgpSettings
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration
@@ -755,6 +738,6 @@ references:
   nameWithType: VirtualNetworkGatewayIPConfiguration
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration
   type: Interface
-  summary: <p>A client-side representation of an virtual network gateway IP configuration. </p>
+  summary: "<p>A client-side representation of an virtual network gateway IP configuration. </p>"
   syntax:
     content: public interface VirtualNetworkGatewayIPConfiguration

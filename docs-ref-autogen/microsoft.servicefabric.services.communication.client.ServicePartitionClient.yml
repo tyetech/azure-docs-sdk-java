@@ -221,7 +221,7 @@ references:
   nameWithType: ServiceRemotingPartitionClient
   fullName: microsoft.servicefabric.services.remoting.client.ServiceRemotingPartitionClient
   type: Interface
-  summary: <p>Defines the interface for the client that communicate over remoting to a particular replica of a service partition. </p>
+  summary: "<p>Defines the interface for the client that communicate over remoting to a particular replica of a service partition. </p>"
   syntax:
     content: public interface ServiceRemotingPartitionClient
 - uid: microsoft.servicefabric.services.communication.client.CommunicationClient
@@ -231,7 +231,7 @@ references:
   nameWithType: CommunicationClient
   fullName: microsoft.servicefabric.services.communication.client.CommunicationClient
   type: Interface
-  summary: <p>Defines the interface that represents the communication client for reliable services. </p>
+  summary: "<p>Defines the interface that represents the communication client for reliable services. </p>"
   syntax:
     content: public interface CommunicationClient
 - uid: microsoft.servicefabric.services.client.ServicePartitionKey
@@ -241,7 +241,7 @@ references:
   nameWithType: ServicePartitionKey
   fullName: microsoft.servicefabric.services.client.ServicePartitionKey
   type: Class
-  summary: <p>Defines a key to address a service partition. </p>
+  summary: "<p>Defines a key to address a service partition. </p>"
   syntax:
     content: public class ServicePartitionKey
 - uid: microsoft.servicefabric.services.communication.client.TargetReplicaSelector
@@ -251,7 +251,7 @@ references:
   nameWithType: TargetReplicaSelector
   fullName: microsoft.servicefabric.services.communication.client.TargetReplicaSelector
   type: Enum
-  summary: <p>This enumeration specifies how the target replica or instance should be chosen when creating a communication channel for a particular partition. </p>
+  summary: "<p>This enumeration specifies how the target replica or instance should be chosen when creating a communication channel for a particular partition. </p>"
   syntax:
     content: public enum TargetReplicaSelector
 - uid: microsoft.servicefabric.services.communication.client.CommunicationClientFactory
@@ -261,7 +261,7 @@ references:
   nameWithType: CommunicationClientFactory<TCommunicationClient>
   fullName: microsoft.servicefabric.services.communication.client.CommunicationClientFactory<TCommunicationClient>
   type: Interface
-  summary: <p>Defines the interface that must be implemented to provide a factory for communication clients to talk to a service fabric service. </p>
+  summary: "<p>Defines the interface that must be implemented to provide a factory for communication clients to talk to a service fabric service. </p>"
   syntax:
     content: public interface CommunicationClientFactory<TCommunicationClient extends CommunicationClient>
     typeParameters:
@@ -274,9 +274,6 @@ references:
   nameWithType: ResolvedServicePartition
   fullName: system.fabric.ResolvedServicePartition
   type: Class
-  summary: >-
-    <p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>
-
-    <p></p>
+  summary: "<p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>\r\n<p></p>"
   syntax:
     content: public class ResolvedServicePartition

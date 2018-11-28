@@ -37,7 +37,7 @@ references:
   nameWithType: HttpsBatchMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsBatchMessage
   type: Class
-  summary: <p>Builds a batched IoT Hub request body as a JSON array. The batched message has a maximum size of 256 kb. </p>
+  summary: "<p>Builds a batched IoT Hub request body as a JSON array. The batched message has a maximum size of 256 kb. </p>"
   syntax:
     content: public class HttpsBatchMessage implements HttpsMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection
@@ -47,10 +47,7 @@ references:
   nameWithType: HttpsConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection
   type: Class
-  summary: >-
-    <p>A wrapper for the Java SE class <xref uid="" data-throw-if-not-resolved="false">HttpsURLConnection</xref>. Used to avoid compatibility issues when testing with the mocking framework JMockit, as well as to avoid some undocumented side effects when using HttpsURLConnection. </p>
-
-    <p>The underlying <xref uid="" data-throw-if-not-resolved="false">HttpsURLConnection</xref> is transparently managed by Java. To reuse connections, for each time <xref uid="com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection.connect()" data-throw-if-not-resolved="false">connect()</xref> is called, the input streams (input stream or error stream, if input stream is not accessible) must be completely read. Otherwise, the data remains in the stream and the connection will not be reusable. </p>
+  summary: "<p>A wrapper for the Java SE class <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpsURLConnection</xref>. Used to avoid compatibility issues when testing with the mocking framework JMockit, as well as to avoid some undocumented side effects when using HttpsURLConnection. </p>\r\n<p>The underlying <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpsURLConnection</xref> is transparently managed by Java. To reuse connections, for each time <xref uid=\"com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection.connect()\" data-throw-if-not-resolved=\"false\">connect()</xref> is called, the input streams (input stream or error stream, if input stream is not accessible) must be completely read. Otherwise, the data remains in the stream and the connection will not be reusable. </p>"
   syntax:
     content: public class HttpsConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection
@@ -60,7 +57,7 @@ references:
   nameWithType: HttpsIotHubConnection
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection
   type: Class
-  summary: <p>An HTTPS connection between a device and an IoT Hub. Contains functionality for synchronously connecting to the different IoT Hub resource URIs. </p>
+  summary: "<p>An HTTPS connection between a device and an IoT Hub. Contains functionality for synchronously connecting to the different IoT Hub resource URIs. </p>"
   syntax:
     content: public class HttpsIotHubConnection implements IotHubTransportConnection
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage
@@ -70,7 +67,7 @@ references:
   nameWithType: HttpsMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMessage
   type: Interface
-  summary: <p>An HTTPS message. An HTTPS message is distinguished from a plain IoT Hub message by its property names, which are prefixed with 'iothub-app-'; and by the explicit specification of a content-type. </p>
+  summary: "<p>An HTTPS message. An HTTPS message is distinguished from a plain IoT Hub message by its property names, which are prefixed with 'iothub-app-'; and by the explicit specification of a content-type. </p>"
   syntax:
     content: public interface HttpsMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMethod
@@ -80,7 +77,7 @@ references:
   nameWithType: HttpsMethod
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsMethod
   type: Enum
-  summary: <p>The HTTPS request method (i.e. GET). </p>
+  summary: "<p>The HTTPS request method (i.e. GET). </p>"
   syntax:
     content: public enum HttpsMethod
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest
@@ -90,7 +87,7 @@ references:
   nameWithType: HttpsRequest
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest
   type: Class
-  summary: <p>An HTTPS request. </p>
+  summary: "<p>An HTTPS request. </p>"
   syntax:
     content: public class HttpsRequest
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse
@@ -100,7 +97,7 @@ references:
   nameWithType: HttpsResponse
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse
   type: Class
-  summary: <p>An HTTPS response. Contains the status code, body, header fields, and error reason (if any). </p>
+  summary: "<p>An HTTPS response. Contains the status code, body, header fields, and error reason (if any). </p>"
   syntax:
     content: public class HttpsResponse
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage
@@ -110,7 +107,7 @@ references:
   nameWithType: HttpsSingleMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage
   type: Class
-  summary: <p>A single HTTPS message. </p>
+  summary: "<p>A single HTTPS message. </p>"
   syntax:
     content: public class HttpsSingleMessage implements HttpsMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsTransportManager
@@ -120,6 +117,6 @@ references:
   nameWithType: HttpsTransportManager
   fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsTransportManager
   type: Class
-  summary: <p>Implementation of the transport manager for https. </p>
+  summary: "<p>Implementation of the transport manager for https. </p>"
   syntax:
     content: public class HttpsTransportManager implements IotHubTransportManager

@@ -93,14 +93,7 @@ references:
   nameWithType: ReliableDownloadOptions
   fullName: com.microsoft.azure.storage.blob.ReliableDownloadOptions
   type: Class
-  summary: >-
-    <p>
-
-      <code>ReliableDownloadOptions 
-
-        </code> contains properties which help the<code>Flowable 
-
-        </code> returned from <xref uid="com.microsoft.azure.storage.blob.DownloadResponse.body(ReliableDownloadOptions)" data-throw-if-not-resolved="false">DownloadResponse#body(ReliableDownloadOptions)</xref> determine when to retry. </p>
+  summary: "<p>\r\n  <code>ReliableDownloadOptions \r\n    </code> contains properties which help the<code>Flowable \r\n    </code> returned from <xref uid=\"com.microsoft.azure.storage.blob.DownloadResponse.body(ReliableDownloadOptions)\" data-throw-if-not-resolved=\"false\">DownloadResponse#body(ReliableDownloadOptions)</xref> determine when to retry. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.DownloadResponse.body(ReliableDownloadOptions)
   parent: com.microsoft.azure.storage.blob.DownloadResponse
@@ -109,12 +102,7 @@ references:
   nameWithType: DownloadResponse.body(ReliableDownloadOptions options)
   fullName: com.microsoft.azure.storage.blob.DownloadResponse.body(ReliableDownloadOptions options)
   type: Method
-  summary: >-
-    <p>Returns the response body which has been modified to enable reliably reading data if desired (if <code>options.maxRetryRequests &gt; 0 
-
-        </code> . If retries are enabled, if a connection fails while reading, the stream will make additional requests to reestablish a connection and continue reading.</p>
-
-    <p></p>
+  summary: "<p>Returns the response body which has been modified to enable reliably reading data if desired (if <code>options.maxRetryRequests &gt; 0 \r\n    </code> . If retries are enabled, if a connection fails while reading, the stream will make additional requests to reestablish a connection and continue reading.</p>\r\n<p></p>"
   syntax:
     content: public Flowable<ByteBuffer> body(ReliableDownloadOptions options)
     parameters:

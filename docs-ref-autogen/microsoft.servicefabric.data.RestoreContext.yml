@@ -134,7 +134,7 @@ references:
   nameWithType: StateProviderReplica
   fullName: microsoft.servicefabric.data.StateProviderReplica
   type: Interface
-  summary: <p>Defines methods a reliable state provider replica must implement for Service Fabric to interact with it. </p>
+  summary: "<p>Defines methods a reliable state provider replica must implement for Service Fabric to interact with it. </p>"
   syntax:
     content: public interface StateProviderReplica
 - uid: microsoft.servicefabric.data.RestoreContext
@@ -144,10 +144,7 @@ references:
   nameWithType: RestoreContext
   fullName: microsoft.servicefabric.data.RestoreContext
   type: Class
-  summary: >-
-    <p>
-
-      <xref uid="microsoft.servicefabric.data.RestoreContext" data-throw-if-not-resolved="false">RestoreContext</xref> contains the <xref uid="microsoft.servicefabric.data.RestoreContext.restoreAsync(RestoreDescription)" data-throw-if-not-resolved="false">RestoreContext#restoreAsync(RestoreDescription)</xref> that can be used to restore the state of the replica from a backup. </p>
+  summary: "<p>\r\n  <xref uid=\"microsoft.servicefabric.data.RestoreContext\" data-throw-if-not-resolved=\"false\">RestoreContext</xref> contains the <xref uid=\"microsoft.servicefabric.data.RestoreContext.restoreAsync(RestoreDescription)\" data-throw-if-not-resolved=\"false\">RestoreContext#restoreAsync(RestoreDescription)</xref> that can be used to restore the state of the replica from a backup. </p>"
   syntax: *o1
 - uid: microsoft.servicefabric.data.RestoreDescription
   parent: microsoft.servicefabric.data
@@ -156,7 +153,7 @@ references:
   nameWithType: RestoreDescription
   fullName: microsoft.servicefabric.data.RestoreDescription
   type: Class
-  summary: <p>A RestoreDescription contains all of the information necessary to restore a stateful service replica. </p>
+  summary: "<p>A RestoreDescription contains all of the information necessary to restore a stateful service replica. </p>"
   syntax:
     content: public class RestoreDescription
 - uid: system.fabric.CancellationToken
@@ -166,7 +163,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: microsoft.servicefabric.data.RestoreContext.restoreAsync(RestoreDescription)
@@ -176,8 +173,5 @@ references:
   nameWithType: RestoreContext.restoreAsync(RestoreDescription restoreDescription)
   fullName: microsoft.servicefabric.data.RestoreContext.restoreAsync(RestoreDescription restoreDescription)
   type: Method
-  summary: >-
-    <p>Restores a backup described by <xref uid="microsoft.servicefabric.data.RestoreDescription" data-throw-if-not-resolved="false">RestoreDescription</xref>.</p>
-
-    <p></p>
+  summary: "<p>Restores a backup described by <xref uid=\"microsoft.servicefabric.data.RestoreDescription\" data-throw-if-not-resolved=\"false\">RestoreDescription</xref>.</p>\r\n<p></p>"
   syntax: *o2

@@ -42,7 +42,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -55,7 +55,7 @@ references:
   nameWithType: HasCookieBasedAffinity.DefinitionStages.WithCookieBasedAffinity<ReturnT>.withCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity.DefinitionStages.WithCookieBasedAffinity<ReturnT>.withCookieBasedAffinity()
   type: Method
-  summary: <p>Enables cookie based affinity. </p>
+  summary: "<p>Enables cookie based affinity. </p>"
   syntax:
     content: public ReturnT withCookieBasedAffinity()
     return:
@@ -68,7 +68,7 @@ references:
   nameWithType: HasHostName.DefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   fullName: com.microsoft.azure.management.network.model.HasHostName.DefinitionStages.WithHostName<ReturnT>.withHostName(String hostName)
   type: Method
-  summary: <p>Specifies the hostname to reference. </p>
+  summary: "<p>Specifies the hostname to reference. </p>"
   syntax:
     content: public ReturnT withHostName(String hostName)
     parameters:
@@ -85,7 +85,7 @@ references:
   nameWithType: HasCookieBasedAffinity.DefinitionStages.WithCookieBasedAffinity<ReturnT>.withoutCookieBasedAffinity()
   fullName: com.microsoft.azure.management.network.model.HasCookieBasedAffinity.DefinitionStages.WithCookieBasedAffinity<ReturnT>.withoutCookieBasedAffinity()
   type: Method
-  summary: <p>Disables cookie based affinity. </p>
+  summary: "<p>Disables cookie based affinity. </p>"
   syntax:
     content: public ReturnT withoutCookieBasedAffinity()
     return:
@@ -98,7 +98,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -112,7 +112,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithHostName<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithHostName<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to specify the host name of a backend website for the listener to receive traffic for. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to specify the host name of a backend website for the listener to receive traffic for. </p>"
   syntax:
     content: public interface WithHostName<ParentT>
     typeParameters:
@@ -126,7 +126,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithCookieBasedAffinity<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithCookieBasedAffinity<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule allowing to enable cookie based affinity. </p>
+  summary: "<p>The stage of an application gateway request routing rule allowing to enable cookie based affinity. </p>"
   syntax:
     content: public interface WithCookieBasedAffinity<ParentT>
     typeParameters:
@@ -140,7 +140,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway request routing rule definition. </p>
+  summary: "<p>The entirety of an application gateway request routing rule definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayRequestRoutingRule.DefinitionStages.Blank<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListener<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontendPort<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListenerOrFrontend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddress<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendOrAddress<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddressOrAttach<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendHttpConfiguration<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslCertificate<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslPassword<DefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>>
     typeParameters:
@@ -154,7 +154,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddressOrAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddressOrAttach<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to add more backend addresses, start specifying optional settings, or finish the definition by attaching it to the parent application gateway. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to add more backend addresses, start specifying optional settings, or finish the definition by attaching it to the parent application gateway. </p>"
   syntax:
     content: public interface WithBackendAddressOrAttach<ParentT>
     typeParameters:

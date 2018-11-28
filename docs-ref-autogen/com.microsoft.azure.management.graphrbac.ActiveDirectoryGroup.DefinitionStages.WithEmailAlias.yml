@@ -63,7 +63,7 @@ references:
   nameWithType: ActiveDirectoryGroup.Definition
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends ActiveDirectoryGroup.DefinitionStages.Blank,ActiveDirectoryGroup.DefinitionStages.WithEmailAlias,ActiveDirectoryGroup.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.DefinitionStages.Blank
@@ -73,7 +73,7 @@ references:
   nameWithType: ActiveDirectoryGroup.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the AD group definition. </p>
+  summary: "<p>The first stage of the AD group definition. </p>"
   syntax:
     content: public interface Blank extends ActiveDirectoryGroup.DefinitionStages.WithEmailAlias
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.DefinitionStages.WithCreate
@@ -83,6 +83,6 @@ references:
   nameWithType: ActiveDirectoryGroup.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>An AD group definition with sufficient inputs to create a new group in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>An AD group definition with sufficient inputs to create a new group in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<ActiveDirectoryGroup>,ActiveDirectoryGroup.DefinitionStages.WithMember

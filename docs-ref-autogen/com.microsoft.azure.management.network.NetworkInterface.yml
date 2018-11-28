@@ -145,12 +145,7 @@ references:
   nameWithType: NetworkInterfaceBase.getNetworkSecurityGroup()
   fullName: com.microsoft.azure.management.network.NetworkInterfaceBase.getNetworkSecurityGroup()
   type: Method
-  summary: >-
-    <p>Gets the network security group associated this network interface. </p>
-
-    <p>This method makes a rest API call to fetch the Network Security Group resource.</p>
-
-    <p></p>
+  summary: "<p>Gets the network security group associated this network interface. </p>\r\n<p>This method makes a rest API call to fetch the Network Security Group resource.</p>\r\n<p></p>"
   syntax:
     content: public NetworkSecurityGroup getNetworkSecurityGroup()
     return:
@@ -211,12 +206,7 @@ references:
   nameWithType: NetworkInterfaceBase.internalFqdn()
   fullName: com.microsoft.azure.management.network.NetworkInterfaceBase.internalFqdn()
   type: Method
-  summary: >-
-    <p>Gets the fully qualified domain name of this network interface. </p>
-
-    <p>A network interface receives FQDN as a part of assigning it to a virtual machine.</p>
-
-    <p></p>
+  summary: "<p>Gets the fully qualified domain name of this network interface. </p>\r\n<p>A network interface receives FQDN as a part of assigning it to a virtual machine.</p>\r\n<p></p>"
   syntax:
     content: public String internalFqdn()
     return:
@@ -313,12 +303,7 @@ references:
   nameWithType: NetworkInterfaceBase.primaryPrivateIP()
   fullName: com.microsoft.azure.management.network.NetworkInterfaceBase.primaryPrivateIP()
   type: Method
-  summary: >-
-    <p>Gets the private IP address allocated to this network interface's primary IP configuration. </p>
-
-    <p>The private IP will be within the virtual network subnet of this network interface.</p>
-
-    <p></p>
+  summary: "<p>Gets the private IP address allocated to this network interface's primary IP configuration. </p>\r\n<p>The private IP will be within the virtual network subnet of this network interface.</p>\r\n<p></p>"
   syntax:
     content: public String primaryPrivateIP()
     return:
@@ -343,10 +328,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -359,10 +341,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -435,12 +414,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -465,7 +439,7 @@ references:
   nameWithType: NetworkInterfaceBase
   fullName: com.microsoft.azure.management.network.NetworkInterfaceBase
   type: Interface
-  summary: <p>The base network interface shared across regular and virtual machine scale set network interface. </p>
+  summary: "<p>The base network interface shared across regular and virtual machine scale set network interface. </p>"
   syntax:
     content: public interface NetworkInterfaceBase
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource
@@ -475,7 +449,7 @@ references:
   nameWithType: GroupableResource<TManager,InnerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
   type: Interface
-  summary: <p>Base interface for resources in resource groups. </p>
+  summary: "<p>Base interface for resources in resource groups. </p>"
   syntax:
     content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
     typeParameters:
@@ -492,10 +466,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -509,10 +480,7 @@ references:
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resource that can be updated.</p>
-
-    <p></p>
+  summary: "<p>Base class for resource that can be updated.</p>\r\n<p></p>"
   syntax:
     content: public interface Updatable<T>
     typeParameters:
@@ -526,6 +494,6 @@ references:
   nameWithType: NicIPConfiguration
   fullName: com.microsoft.azure.management.network.NicIPConfiguration
   type: Interface
-  summary: <p>An IP configuration in a network interface. </p>
+  summary: "<p>An IP configuration in a network interface. </p>"
   syntax:
     content: public interface NicIPConfiguration

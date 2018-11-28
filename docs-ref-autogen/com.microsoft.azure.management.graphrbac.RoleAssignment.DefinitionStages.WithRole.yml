@@ -98,7 +98,7 @@ references:
   nameWithType: RoleAssignment.Definition
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignment.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends RoleAssignment.DefinitionStages.Blank,RoleAssignment.DefinitionStages.WithRole,RoleAssignment.DefinitionStages.WithScope,RoleAssignment.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.graphrbac.RoleAssignment.DefinitionStages.WithScope
@@ -108,7 +108,7 @@ references:
   nameWithType: RoleAssignment.DefinitionStages.WithScope
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignment.DefinitionStages.WithScope
   type: Interface
-  summary: <p>The stage of role assignment definition allowing specifying the scope of the assignment. </p>
+  summary: "<p>The stage of role assignment definition allowing specifying the scope of the assignment. </p>"
   syntax:
     content: public interface WithScope
 - uid: com.microsoft.azure.management.graphrbac.BuiltInRole
@@ -118,6 +118,6 @@ references:
   nameWithType: BuiltInRole
   fullName: com.microsoft.azure.management.graphrbac.BuiltInRole
   type: Class
-  summary: <p>Defines values for roles. </p>
+  summary: "<p>Defines values for roles. </p>"
   syntax:
     content: public class BuiltInRole extends ExpandableStringEnum<BuiltInRole>

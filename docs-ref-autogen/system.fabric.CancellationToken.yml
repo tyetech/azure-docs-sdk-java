@@ -294,10 +294,7 @@ references:
   nameWithType: CancellationTokenSource.getToken()
   fullName: system.fabric.CancellationTokenSource.getToken()
   type: Method
-  summary: >-
-    <p>Returns the cancellation token which is being by this <xref uid="" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object.</p>
-
-    <p></p>
+  summary: "<p>Returns the cancellation token which is being by this <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object.</p>\r\n<p></p>"
   syntax:
     content: public CancellationToken getToken()
     return:
@@ -315,7 +312,7 @@ references:
   nameWithType: CancellationTokenSource.cancel()
   fullName: system.fabric.CancellationTokenSource.cancel()
   type: Method
-  summary: <p>Requests cancel on the <xref uid="system.fabric.CancellationToken" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> being managed by this object. </p>
+  summary: "<p>Requests cancel on the <xref uid=\"system.fabric.CancellationToken\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationToken</xref> being managed by this object. </p>"
   syntax:
     content: public void cancel()
 - uid: system.fabric.CancellationToken.getDefault()
@@ -325,10 +322,7 @@ references:
   nameWithType: CancellationToken.getDefault()
   fullName: system.fabric.CancellationToken.getDefault()
   type: Method
-  summary: >-
-    <p>Creates and returns a Cancellation token object. This method should be used when the CancellationToken doesn't support cancellation. Only Cancellation tokens created through <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">CancellationTokenSource#getToken()</xref> supports cancellations.</p>
-
-    <p></p>
+  summary: "<p>Creates and returns a Cancellation token object. This method should be used when the CancellationToken doesn't support cancellation. Only Cancellation tokens created through <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">CancellationTokenSource#getToken()</xref> supports cancellations.</p>\r\n<p></p>"
   syntax: *o1
 - uid: system.fabric.CancellationToken
   parent: system.fabric
@@ -337,7 +331,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax: *o2
 - uid: system.fabric.CancellationTokenSource
   parent: system.fabric
@@ -346,6 +340,6 @@ references:
   nameWithType: CancellationTokenSource
   fullName: system.fabric.CancellationTokenSource
   type: Class
-  summary: <p>A CancellationTokenSource is used to create <xref uid="system.fabric.CancellationToken" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> object and manage it. </p>
+  summary: "<p>A CancellationTokenSource is used to create <xref uid=\"system.fabric.CancellationToken\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationToken</xref> object and manage it. </p>"
   syntax:
     content: public class CancellationTokenSource

@@ -150,7 +150,7 @@ references:
   nameWithType: Registry.Update
   fullName: com.microsoft.azure.management.containerregistry.Registry.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Resource.UpdateWithTags<Update>,Appliable<Registry>,Registry.UpdateStages.WithAdminUserEnabled,Registry.UpdateStages.WithSku,Registry.UpdateStages.WithWebhook
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.defineWebhook(String)
@@ -160,7 +160,7 @@ references:
   nameWithType: RegistryImpl.defineWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.defineWebhook(String name)
   type: Method
-  summary: <p>Begins the definition of a new webhook to be added to this container registry. </p>
+  summary: "<p>Begins the definition of a new webhook to be added to this container registry. </p>"
   syntax:
     content: public WebhookImpl defineWebhook(String name)
     parameters:
@@ -177,7 +177,7 @@ references:
   nameWithType: RegistryImpl.withoutWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.withoutWebhook(String name)
   type: Method
-  summary: <p>Removes a webhook from the container registry. </p>
+  summary: "<p>Removes a webhook from the container registry. </p>"
   syntax:
     content: public RegistryImpl withoutWebhook(String name)
     parameters:
@@ -194,7 +194,7 @@ references:
   nameWithType: RegistryImpl.updateWebhook(String name)
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.updateWebhook(String name)
   type: Method
-  summary: <p>Begins the description of an update of an existing webhook of this container registry. </p>
+  summary: "<p>Begins the description of an update of an existing webhook of this container registry. </p>"
   syntax:
     content: public WebhookImpl updateWebhook(String name)
     parameters:

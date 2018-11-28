@@ -37,12 +37,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -55,10 +50,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithAutoUpgradeMinorVersion.withMinorVersionAutoUpgrade()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithAutoUpgradeMinorVersion.withMinorVersionAutoUpgrade()
   type: Method
-  summary: >-
-    <p>Enables auto-upgrading of the extension with minor versions.</p>
-
-    <p></p>
+  summary: "<p>Enables auto-upgrading of the extension with minor versions.</p>\r\n<p></p>"
   syntax:
     content: public Update withMinorVersionAutoUpgrade()
     return:
@@ -71,10 +63,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithAutoUpgradeMinorVersion.withoutMinorVersionAutoUpgrade()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithAutoUpgradeMinorVersion.withoutMinorVersionAutoUpgrade()
   type: Method
-  summary: >-
-    <p>Disables auto upgrading of the extension with minor versions.</p>
-
-    <p></p>
+  summary: "<p>Disables auto upgrading of the extension with minor versions.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutMinorVersionAutoUpgrade()
     return:
@@ -87,10 +76,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withProtectedSetting(String key, Object value)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withProtectedSetting(String key, Object value)
   type: Method
-  summary: >-
-    <p>Specifies a private settings entry.</p>
-
-    <p></p>
+  summary: "<p>Specifies a private settings entry.</p>\r\n<p></p>"
   syntax:
     content: public Update withProtectedSetting(String key, Object value)
     parameters:
@@ -110,10 +96,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withProtectedSettings(HashMap<String, Object> settings)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withProtectedSettings(HashMap<String, Object> settings)
   type: Method
-  summary: >-
-    <p>Specifies private settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies private settings.</p>\r\n<p></p>"
   syntax:
     content: public Update withProtectedSettings(HashMap<String, Object> settings)
     parameters:
@@ -130,10 +113,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withPublicSetting(String key, Object value)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withPublicSetting(String key, Object value)
   type: Method
-  summary: >-
-    <p>Specifies a public settings entry.</p>
-
-    <p></p>
+  summary: "<p>Specifies a public settings entry.</p>\r\n<p></p>"
   syntax:
     content: public Update withPublicSetting(String key, Object value)
     parameters:
@@ -153,10 +133,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withPublicSettings(HashMap<String, Object> settings)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithSettings.withPublicSettings(HashMap<String, Object> settings)
   type: Method
-  summary: >-
-    <p>Specifies public settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies public settings.</p>\r\n<p></p>"
   syntax:
     content: public Update withPublicSettings(HashMap<String, Object> settings)
     parameters:
@@ -173,10 +150,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -190,7 +164,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithAutoUpgradeMinorVersion
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithAutoUpgradeMinorVersion
   type: Interface
-  summary: <p>The stage of a virtual machine scale set extension update allowing to enable or disable auto upgrade of the extension when when a new minor version of virtual machine scale set extension image gets published. </p>
+  summary: "<p>The stage of a virtual machine scale set extension update allowing to enable or disable auto upgrade of the extension when when a new minor version of virtual machine scale set extension image gets published. </p>"
   syntax:
     content: public interface WithAutoUpgradeMinorVersion
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithSettings
@@ -200,6 +174,6 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.UpdateStages.WithSettings
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.UpdateStages.WithSettings
   type: Interface
-  summary: <p>The stage of a virtual machine scale set extension update allowing to add or update public and private settings. </p>
+  summary: "<p>The stage of a virtual machine scale set extension update allowing to add or update public and private settings. </p>"
   syntax:
     content: public interface WithSettings

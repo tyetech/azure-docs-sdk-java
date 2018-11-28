@@ -53,7 +53,7 @@ references:
   nameWithType: AdminKeyKind
   fullName: com.microsoft.azure.management.search.AdminKeyKind
   type: Enum
-  summary: <p>Defines values for AdminKeyKind. </p>
+  summary: "<p>Defines values for AdminKeyKind. </p>"
   syntax:
     content: public enum AdminKeyKind
 - uid: com.microsoft.azure.management.search.AdminKeys
@@ -63,7 +63,7 @@ references:
   nameWithType: AdminKeys
   fullName: com.microsoft.azure.management.search.AdminKeys
   type: Interface
-  summary: <p>Response containing the primary and secondary admin API keys for a given Azure Search service. </p>
+  summary: "<p>Response containing the primary and secondary admin API keys for a given Azure Search service. </p>"
   syntax:
     content: public interface AdminKeys
 - uid: com.microsoft.azure.management.search.CheckNameAvailabilityInput
@@ -73,7 +73,7 @@ references:
   nameWithType: CheckNameAvailabilityInput
   fullName: com.microsoft.azure.management.search.CheckNameAvailabilityInput
   type: Class
-  summary: <p>Input of check name availability API. </p>
+  summary: "<p>Input of check name availability API. </p>"
   syntax:
     content: public class CheckNameAvailabilityInput
 - uid: com.microsoft.azure.management.search.CheckNameAvailabilityResult
@@ -83,7 +83,7 @@ references:
   nameWithType: CheckNameAvailabilityResult
   fullName: com.microsoft.azure.management.search.CheckNameAvailabilityResult
   type: Interface
-  summary: <p>The result of checking for Search service name availability. </p>
+  summary: "<p>The result of checking for Search service name availability. </p>"
   syntax:
     content: public interface CheckNameAvailabilityResult extends HasInner<CheckNameAvailabilityOutputInner>
 - uid: com.microsoft.azure.management.search.HostingMode
@@ -93,7 +93,7 @@ references:
   nameWithType: HostingMode
   fullName: com.microsoft.azure.management.search.HostingMode
   type: Enum
-  summary: <p>Defines values for HostingMode. </p>
+  summary: "<p>Defines values for HostingMode. </p>"
   syntax:
     content: public enum HostingMode
 - uid: com.microsoft.azure.management.search.ProvisioningState
@@ -103,7 +103,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.search.ProvisioningState
   type: Enum
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public enum ProvisioningState
 - uid: com.microsoft.azure.management.search.QueryKey
@@ -113,7 +113,7 @@ references:
   nameWithType: QueryKey
   fullName: com.microsoft.azure.management.search.QueryKey
   type: Interface
-  summary: <p>Describes an API key for a given Azure Search service that has permissions for query operations only. </p>
+  summary: "<p>Describes an API key for a given Azure Search service that has permissions for query operations only. </p>"
   syntax:
     content: public interface QueryKey
 - uid: com.microsoft.azure.management.search.SearchService
@@ -123,7 +123,7 @@ references:
   nameWithType: SearchService
   fullName: com.microsoft.azure.management.search.SearchService
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure registry. </p>
+  summary: "<p>An immutable client-side representation of an Azure registry. </p>"
   syntax:
     content: public interface SearchService extends GroupableResource<SearchServiceManager, SearchServiceInner>,Refreshable<SearchService>,Updatable<SearchService.Update>
 - uid: com.microsoft.azure.management.search.SearchServices
@@ -133,7 +133,7 @@ references:
   nameWithType: SearchServices
   fullName: com.microsoft.azure.management.search.SearchServices
   type: Interface
-  summary: <p>Entry point to Search service management API in Azure. </p>
+  summary: "<p>Entry point to Search service management API in Azure. </p>"
   syntax:
     content: public interface SearchServices extends SupportsCreating<SearchService.DefinitionStages.Blank>,SupportsListing<SearchService>,SupportsListingByResourceGroup<SearchService>,SupportsGettingByResourceGroup<SearchService>,SupportsGettingById<SearchService>,SupportsDeletingById,SupportsDeletingByResourceGroup,SupportsBatchCreation<SearchService>,HasManager<SearchServiceManager>,HasInner<ServicesInner>
 - uid: com.microsoft.azure.management.search.SearchServiceStatus
@@ -143,7 +143,7 @@ references:
   nameWithType: SearchServiceStatus
   fullName: com.microsoft.azure.management.search.SearchServiceStatus
   type: Enum
-  summary: <p>Defines values for SearchServiceStatus. </p>
+  summary: "<p>Defines values for SearchServiceStatus. </p>"
   syntax:
     content: public enum SearchServiceStatus
 - uid: com.microsoft.azure.management.search.Sku
@@ -153,7 +153,7 @@ references:
   nameWithType: Sku
   fullName: com.microsoft.azure.management.search.Sku
   type: Class
-  summary: <p>Defines the SKU of an Azure Search Service, which determines price tier and capacity limits. </p>
+  summary: "<p>Defines the SKU of an Azure Search Service, which determines price tier and capacity limits. </p>"
   syntax:
     content: public class Sku
 - uid: com.microsoft.azure.management.search.SkuName
@@ -163,7 +163,7 @@ references:
   nameWithType: SkuName
   fullName: com.microsoft.azure.management.search.SkuName
   type: Enum
-  summary: <p>Defines values for SkuName. </p>
+  summary: "<p>Defines values for SkuName. </p>"
   syntax:
     content: public enum SkuName
 - uid: com.microsoft.azure.management.search.UnavailableNameReason
@@ -173,7 +173,7 @@ references:
   nameWithType: UnavailableNameReason
   fullName: com.microsoft.azure.management.search.UnavailableNameReason
   type: Class
-  summary: <p>Defines values for UnavailableNameReason. </p>
+  summary: "<p>Defines values for UnavailableNameReason. </p>"
   syntax:
     content: public class UnavailableNameReason
 - uid: com.microsoft.azure.management.search.SearchService.DefinitionStages.Blank
@@ -183,7 +183,7 @@ references:
   nameWithType: SearchService.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.search.SearchService.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the Search service definition. </p>
+  summary: "<p>The first stage of the Search service definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.search.SearchService.Definition
@@ -193,7 +193,7 @@ references:
   nameWithType: SearchService.Definition
   fullName: com.microsoft.azure.management.search.SearchService.Definition
   type: Interface
-  summary: <p>The entirety of the Search service definition. </p>
+  summary: "<p>The entirety of the Search service definition. </p>"
   syntax:
     content: public interface Definition extends SearchService.DefinitionStages.Blank,SearchService.DefinitionStages.WithGroup,SearchService.DefinitionStages.WithSku,SearchService.DefinitionStages.WithPartitionsAndCreate,SearchService.DefinitionStages.WithReplicasAndCreate,SearchService.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.search.SearchService.DefinitionStages
@@ -203,7 +203,7 @@ references:
   nameWithType: SearchService.DefinitionStages
   fullName: com.microsoft.azure.management.search.SearchService.DefinitionStages
   type: Interface
-  summary: <p>Grouping of virtual network definition stages. </p>
+  summary: "<p>Grouping of virtual network definition stages. </p>"
   syntax:
     content: public interface DefinitionStages
 - uid: com.microsoft.azure.management.search.SearchService.Update
@@ -213,7 +213,7 @@ references:
   nameWithType: SearchService.Update
   fullName: com.microsoft.azure.management.search.SearchService.Update
   type: Interface
-  summary: <p>The template for a Search service update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a Search service update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<SearchService>,Resource.UpdateWithTags<Update>,SearchService.UpdateStages.WithReplicaCount,SearchService.UpdateStages.WithPartitionCount
 - uid: com.microsoft.azure.management.search.SearchService.UpdateStages
@@ -223,7 +223,7 @@ references:
   nameWithType: SearchService.UpdateStages
   fullName: com.microsoft.azure.management.search.SearchService.UpdateStages
   type: Interface
-  summary: <p>Grouping of all the Search service update stages. </p>
+  summary: "<p>Grouping of all the Search service update stages. </p>"
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.search.SearchService.DefinitionStages.WithCreate
@@ -233,7 +233,7 @@ references:
   nameWithType: SearchService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.search.SearchService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<SearchService>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.search.SearchService.DefinitionStages.WithGroup
@@ -243,7 +243,7 @@ references:
   nameWithType: SearchService.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.search.SearchService.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the Search service definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the Search service definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<DefinitionStages.WithSku>
 - uid: com.microsoft.azure.management.search.SearchService.UpdateStages.WithPartitionCount
@@ -253,7 +253,7 @@ references:
   nameWithType: SearchService.UpdateStages.WithPartitionCount
   fullName: com.microsoft.azure.management.search.SearchService.UpdateStages.WithPartitionCount
   type: Interface
-  summary: <p>The stage of the Search service update allowing to modify the number of partitions used. </p>
+  summary: "<p>The stage of the Search service update allowing to modify the number of partitions used. </p>"
   syntax:
     content: public interface WithPartitionCount
 - uid: com.microsoft.azure.management.search.SearchService.DefinitionStages.WithPartitionsAndCreate
@@ -272,7 +272,7 @@ references:
   nameWithType: SearchService.UpdateStages.WithReplicaCount
   fullName: com.microsoft.azure.management.search.SearchService.UpdateStages.WithReplicaCount
   type: Interface
-  summary: <p>The stage of the Search service update allowing to modify the number of replicas used. </p>
+  summary: "<p>The stage of the Search service update allowing to modify the number of replicas used. </p>"
   syntax:
     content: public interface WithReplicaCount
 - uid: com.microsoft.azure.management.search.SearchService.DefinitionStages.WithReplicasAndCreate
@@ -291,6 +291,6 @@ references:
   nameWithType: SearchService.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.search.SearchService.DefinitionStages.WithSku
   type: Interface
-  summary: <p>The stage of the Search service definition allowing to specify the SKU. </p>
+  summary: "<p>The stage of the Search service definition allowing to specify the SKU. </p>"
   syntax:
     content: public interface WithSku

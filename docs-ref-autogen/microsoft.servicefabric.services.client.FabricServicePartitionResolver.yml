@@ -514,7 +514,7 @@ references:
   nameWithType: ServicePartitionResolver
   fullName: microsoft.servicefabric.services.client.ServicePartitionResolver
   type: Interface
-  summary: <p>Implements the class that helps in determining the endpoint of a service. </p>
+  summary: "<p>Implements the class that helps in determining the endpoint of a service. </p>"
   syntax:
     content: public interface ServicePartitionResolver
 - uid: system.fabric.FabricClient
@@ -524,12 +524,7 @@ references:
   nameWithType: FabricClient
   fullName: system.fabric.FabricClient
   type: Class
-  summary: >-
-    <p>Client for a Service Fabric cluster. </p>
-
-    <p>
-
-      <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>
+  summary: "<p>Client for a Service Fabric cluster. </p>\r\n<p>\r\n  <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>"
   syntax:
     content: public class FabricClient
 - uid: system.fabric.FabricClientSettings
@@ -539,7 +534,7 @@ references:
   nameWithType: FabricClientSettings
   fullName: system.fabric.FabricClientSettings
   type: Class
-  summary: <p>Represents the configuration settings for the <xref uid="system.fabric.FabricClient" data-throw-if-not-resolved="false">system.fabric.FabricClient</xref> class. </p>
+  summary: "<p>Represents the configuration settings for the <xref uid=\"system.fabric.FabricClient\" data-throw-if-not-resolved=\"false\">system.fabric.FabricClient</xref> class. </p>"
   syntax:
     content: public class FabricClientSettings
 - uid: system.fabric.ResolvedServicePartition
@@ -549,10 +544,7 @@ references:
   nameWithType: ResolvedServicePartition
   fullName: system.fabric.ResolvedServicePartition
   type: Class
-  summary: >-
-    <p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>
-
-    <p></p>
+  summary: "<p>Represents a data structure that contains information on the partitioning and set of endpoints to which the specified Service partition listens.</p>\r\n<p></p>"
   syntax:
     content: public class ResolvedServicePartition
 - uid: microsoft.servicefabric.services.client.ServicePartitionKey
@@ -562,7 +554,7 @@ references:
   nameWithType: ServicePartitionKey
   fullName: microsoft.servicefabric.services.client.ServicePartitionKey
   type: Class
-  summary: <p>Defines a key to address a service partition. </p>
+  summary: "<p>Defines a key to address a service partition. </p>"
   syntax:
     content: public class ServicePartitionKey
 - uid: microsoft.servicefabric.services.client.ServicePartitionResolver.resolveAsync(URI,ServicePartitionKey,Duration,Duration)
@@ -572,10 +564,7 @@ references:
   nameWithType: ServicePartitionResolver.resolveAsync(URI serviceName, ServicePartitionKey partitionKey, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   fullName: microsoft.servicefabric.services.client.ServicePartitionResolver.resolveAsync(URI serviceName, ServicePartitionKey partitionKey, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   type: Method
-  summary: >-
-    <p>Resolves a partition of the specified service.</p>
-
-    <p></p>
+  summary: "<p>Resolves a partition of the specified service.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ResolvedServicePartition> resolveAsync(URI serviceName, ServicePartitionKey partitionKey, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
     parameters:
@@ -601,10 +590,7 @@ references:
   nameWithType: ServicePartitionResolver.resolveAsync(ResolvedServicePartition previousRsp, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   fullName: microsoft.servicefabric.services.client.ServicePartitionResolver.resolveAsync(ResolvedServicePartition previousRsp, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
   type: Method
-  summary: >-
-    <p>Resolves a partition of the specified service.</p>
-
-    <p></p>
+  summary: "<p>Resolves a partition of the specified service.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<ResolvedServicePartition> resolveAsync(ResolvedServicePartition previousRsp, Duration resolveTimeoutPerTry, Duration maxRetryBackoffInterval)
     parameters:

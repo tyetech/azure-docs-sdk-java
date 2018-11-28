@@ -308,10 +308,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -324,10 +321,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -388,10 +382,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -405,10 +396,7 @@ references:
   nameWithType: ExternalChildResource<FluentModelT,ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource<FluentModelT,ParentT>
   type: Interface
-  summary: >-
-    <p>Represents an external child resource.</p>
-
-    <p></p>
+  summary: "<p>Represents an external child resource.</p>\r\n<p></p>"
   syntax:
     content: public interface ExternalChildResource<FluentModelT,ParentT> extends ChildResource<ParentT>,Refreshable<FluentModelT>
     typeParameters:
@@ -425,7 +413,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
   type: Interface
-  summary: <p>Base interfaces for fluent resources. </p>
+  summary: "<p>Base interfaces for fluent resources. </p>"
   syntax:
     content: public interface Resource
 - uid: com.microsoft.azure.management.appservice.AzureResourceType
@@ -435,7 +423,7 @@ references:
   nameWithType: AzureResourceType
   fullName: com.microsoft.azure.management.appservice.AzureResourceType
   type: Enum
-  summary: <p>Defines values for AzureResourceType. </p>
+  summary: "<p>Defines values for AzureResourceType. </p>"
   syntax:
     content: public enum AzureResourceType
 - uid: com.microsoft.azure.management.appservice.CustomHostNameDnsRecordType
@@ -445,7 +433,7 @@ references:
   nameWithType: CustomHostNameDnsRecordType
   fullName: com.microsoft.azure.management.appservice.CustomHostNameDnsRecordType
   type: Enum
-  summary: <p>Defines values for CustomHostNameDnsRecordType. </p>
+  summary: "<p>Defines values for CustomHostNameDnsRecordType. </p>"
   syntax:
     content: public enum CustomHostNameDnsRecordType
 - uid: com.microsoft.azure.management.appservice.HostNameType
@@ -455,6 +443,6 @@ references:
   nameWithType: HostNameType
   fullName: com.microsoft.azure.management.appservice.HostNameType
   type: Enum
-  summary: <p>Defines values for HostNameType. </p>
+  summary: "<p>Defines values for HostNameType. </p>"
   syntax:
     content: public enum HostNameType

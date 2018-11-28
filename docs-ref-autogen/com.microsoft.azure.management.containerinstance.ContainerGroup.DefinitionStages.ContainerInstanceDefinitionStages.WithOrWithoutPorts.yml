@@ -45,12 +45,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalTcpPort(int port)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalTcpPort(int port)
   type: Method
-  summary: >-
-    <p>Specifies the container's TCP port available to external clients. </p>
-
-    <p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>
-
-    <p></p>
+  summary: "<p>Specifies the container's TCP port available to external clients. </p>\r\n<p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>\r\n<p></p>"
   syntax:
     content: public WithPortsOrContainerInstanceAttach<ParentT> withExternalTcpPort(int port)
     parameters:
@@ -67,12 +62,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalTcpPorts(int... ports)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalTcpPorts(int... ports)
   type: Method
-  summary: >-
-    <p>Specifies the container's TCP ports available to external clients. </p>
-
-    <p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>
-
-    <p></p>
+  summary: "<p>Specifies the container's TCP ports available to external clients. </p>\r\n<p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>\r\n<p></p>"
   syntax:
     content: public WithPortsOrContainerInstanceAttach<ParentT> withExternalTcpPorts(int... ports)
     parameters:
@@ -89,12 +79,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalUdpPort(int port)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalUdpPort(int port)
   type: Method
-  summary: >-
-    <p>Specifies the container's UDP port available to external clients. </p>
-
-    <p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>
-
-    <p></p>
+  summary: "<p>Specifies the container's UDP port available to external clients. </p>\r\n<p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>\r\n<p></p>"
   syntax:
     content: public WithPortsOrContainerInstanceAttach<ParentT> withExternalUdpPort(int port)
     parameters:
@@ -111,12 +96,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalUdpPorts(int... ports)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withExternalUdpPorts(int... ports)
   type: Method
-  summary: >-
-    <p>Specifies the container's UDP ports available to external clients. </p>
-
-    <p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>
-
-    <p></p>
+  summary: "<p>Specifies the container's UDP ports available to external clients. </p>\r\n<p>A public IP address will be create to allow external clients to reach the containers within the group. To enable external clients to reach a container within the group, you must expose the port on the IP address and from the container. Because containers within the group share a port namespace, port mapping is not supported.</p>\r\n<p></p>"
   syntax:
     content: public WithPortsOrContainerInstanceAttach<ParentT> withExternalUdpPorts(int... ports)
     parameters:
@@ -133,12 +113,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withInternalPort(int port)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withInternalPort(int port)
   type: Method
-  summary: >-
-    <p>Specifies the container's port is available to internal clients only (other container instances within the container group). </p>
-
-    <p>Containers within a group can reach each other via localhost on the ports that they have exposed, even if those ports are not exposed externally on the group's IP address.</p>
-
-    <p></p>
+  summary: "<p>Specifies the container's port is available to internal clients only (other container instances within the container group). </p>\r\n<p>Containers within a group can reach each other via localhost on the ports that they have exposed, even if those ports are not exposed externally on the group's IP address.</p>\r\n<p></p>"
   syntax:
     content: public WithPortsOrContainerInstanceAttach<ParentT> withInternalPort(int port)
     parameters:
@@ -155,12 +130,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withInternalPorts(int... ports)
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>.withInternalPorts(int... ports)
   type: Method
-  summary: >-
-    <p>Specifies the container's ports are available to internal clients only (other container instances within the container group). </p>
-
-    <p>Containers within a group can reach each other via localhost on the ports that they have exposed, even if those ports are not exposed externally on the group's IP address.</p>
-
-    <p></p>
+  summary: "<p>Specifies the container's ports are available to internal clients only (other container instances within the container group). </p>\r\n<p>Containers within a group can reach each other via localhost on the ports that they have exposed, even if those ports are not exposed externally on the group's IP address.</p>\r\n<p></p>"
   syntax:
     content: public WithPortsOrContainerInstanceAttach<ParentT> withInternalPorts(int... ports)
     parameters:
@@ -177,10 +147,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts<ParentT>.withoutPorts()
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts<ParentT>.withoutPorts()
   type: Method
-  summary: >-
-    <p>Specifies that not ports will be opened internally or externally for this container instance.</p>
-
-    <p></p>
+  summary: "<p>Specifies that not ports will be opened internally or externally for this container instance.</p>\r\n<p></p>"
   syntax:
     content: public WithContainerInstanceAttach<ParentT> withoutPorts()
     return:
@@ -193,10 +160,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPorts<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing to specify the container ports.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing to specify the container ports.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPorts<ParentT>
     typeParameters:
@@ -210,10 +174,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithoutPorts<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the container instance definition allowing not to specify any container ports internal or external.</p>
-
-    <p></p>
+  summary: "<p>The stage of the container instance definition allowing not to specify any container ports internal or external.</p>\r\n<p></p>"
   syntax:
     content: public interface WithoutPorts<ParentT>
     typeParameters:
@@ -227,7 +188,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container group's volume definition stages. </p>
+  summary: "<p>Grouping of the container group's volume definition stages. </p>"
   syntax:
     content: public interface ContainerInstanceDefinition<ParentT> extends ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.ContainerInstanceDefinitionBlank<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithImage<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithOrWithoutPorts<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithPortsOrContainerInstanceAttach<ParentT>,ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
     typeParameters:

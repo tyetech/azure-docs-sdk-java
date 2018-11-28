@@ -1605,10 +1605,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1621,10 +1618,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1685,7 +1679,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
   type: Interface
-  summary: <p>Base interfaces for fluent resources. </p>
+  summary: "<p>Base interfaces for fluent resources. </p>"
   syntax:
     content: public interface Resource extends Indexable,HasId,HasName
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource
@@ -1695,7 +1689,7 @@ references:
   nameWithType: ChildResource<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.ChildResource<ParentT>
   type: Interface
-  summary: <p>Base interface used by child resources. </p>
+  summary: "<p>Base interface used by child resources. </p>"
   syntax:
     content: public interface ChildResource<ParentT> extends Indexable,HasName,HasParent<ParentT>
     typeParameters:
@@ -1709,10 +1703,7 @@ references:
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
   type: Interface
-  summary: >-
-    <p>Base class for resources that can be refreshed to get the latest state.</p>
-
-    <p></p>
+  summary: "<p>Base class for resources that can be refreshed to get the latest state.</p>\r\n<p></p>"
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
@@ -1726,10 +1717,7 @@ references:
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
   type: Interface
-  summary: >-
-    <p>The wrapper around an inner object providing extended functionalities.</p>
-
-    <p></p>
+  summary: "<p>The wrapper around an inner object providing extended functionalities.</p>\r\n<p></p>"
   syntax:
     content: public interface HasInner<T>
     typeParameters:
@@ -1743,7 +1731,7 @@ references:
   nameWithType: Sku
   fullName: com.microsoft.azure.management.compute.Sku
   type: Class
-  summary: <p>Describes a virtual machine scale set sku. </p>
+  summary: "<p>Describes a virtual machine scale set sku. </p>"
   syntax:
     content: public class Sku
 - uid: com.microsoft.azure.management.compute.VirtualMachineSizeTypes
@@ -1753,7 +1741,7 @@ references:
   nameWithType: VirtualMachineSizeTypes
   fullName: com.microsoft.azure.management.compute.VirtualMachineSizeTypes
   type: Class
-  summary: <p>Defines values for VirtualMachineSizeTypes. </p>
+  summary: "<p>Defines values for VirtualMachineSizeTypes. </p>"
   syntax:
     content: public class VirtualMachineSizeTypes
 - uid: com.microsoft.azure.management.compute.ImageReference
@@ -1763,7 +1751,7 @@ references:
   nameWithType: ImageReference
   fullName: com.microsoft.azure.management.compute.ImageReference
   type: Class
-  summary: <p>The image reference. </p>
+  summary: "<p>The image reference. </p>"
   syntax:
     content: public class ImageReference
 - uid: com.microsoft.azure.management.compute.VirtualMachineImage
@@ -1773,7 +1761,7 @@ references:
   nameWithType: VirtualMachineImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineImage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine image. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine image. </p>"
   syntax:
     content: public interface VirtualMachineImage extends HasInner<VirtualMachineImageInner>
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImage
@@ -1783,7 +1771,7 @@ references:
   nameWithType: VirtualMachineCustomImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine custom image. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine custom image. </p>"
   syntax:
     content: public interface VirtualMachineCustomImage extends GroupableResource<ComputeManager, ImageInner>,Refreshable<VirtualMachineCustomImage>
 - uid: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk
@@ -1793,7 +1781,7 @@ references:
   nameWithType: VirtualMachineUnmanagedDataDisk
   fullName: com.microsoft.azure.management.compute.VirtualMachineUnmanagedDataDisk
   type: Interface
-  summary: <p>A native data disk of a virtual machine. </p>
+  summary: "<p>A native data disk of a virtual machine. </p>"
   syntax:
     content: public interface VirtualMachineUnmanagedDataDisk
 - uid: com.microsoft.azure.management.compute.VirtualMachineDataDisk
@@ -1803,7 +1791,7 @@ references:
   nameWithType: VirtualMachineDataDisk
   fullName: com.microsoft.azure.management.compute.VirtualMachineDataDisk
   type: Interface
-  summary: <p>A managed data disk of a virtual machine. </p>
+  summary: "<p>A managed data disk of a virtual machine. </p>"
   syntax:
     content: public interface VirtualMachineDataDisk extends HasInner<DataDisk>,HasName,HasId
 - uid: com.microsoft.azure.management.compute.CachingTypes
@@ -1813,7 +1801,7 @@ references:
   nameWithType: CachingTypes
   fullName: com.microsoft.azure.management.compute.CachingTypes
   type: Enum
-  summary: <p>Defines values for CachingTypes. </p>
+  summary: "<p>Defines values for CachingTypes. </p>"
   syntax:
     content: public enum CachingTypes
 - uid: com.microsoft.azure.management.compute.OperatingSystemTypes
@@ -1823,7 +1811,7 @@ references:
   nameWithType: OperatingSystemTypes
   fullName: com.microsoft.azure.management.compute.OperatingSystemTypes
   type: Enum
-  summary: <p>Defines values for OperatingSystemTypes. </p>
+  summary: "<p>Defines values for OperatingSystemTypes. </p>"
   syntax:
     content: public enum OperatingSystemTypes
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSetVMInstanceExtension
@@ -1833,7 +1821,7 @@ references:
   nameWithType: VirtualMachineScaleSetVMInstanceExtension
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetVMInstanceExtension
   type: Interface
-  summary: <p>An immutable client-side representation of an extension associated with virtual machine instance in a scale set. </p>
+  summary: "<p>An immutable client-side representation of an extension associated with virtual machine instance in a scale set. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetVMInstanceExtension
 - uid: com.microsoft.azure.management.compute.StorageProfile
@@ -1843,7 +1831,7 @@ references:
   nameWithType: StorageProfile
   fullName: com.microsoft.azure.management.compute.StorageProfile
   type: Class
-  summary: <p>Describes a storage profile. </p>
+  summary: "<p>Describes a storage profile. </p>"
   syntax:
     content: public class StorageProfile
 - uid: com.microsoft.azure.management.compute.OSProfile
@@ -1853,7 +1841,7 @@ references:
   nameWithType: OSProfile
   fullName: com.microsoft.azure.management.compute.OSProfile
   type: Class
-  summary: <p>Describes an OS profile. </p>
+  summary: "<p>Describes an OS profile. </p>"
   syntax:
     content: public class OSProfile
 - uid: com.microsoft.azure.management.compute.DiagnosticsProfile
@@ -1863,7 +1851,7 @@ references:
   nameWithType: DiagnosticsProfile
   fullName: com.microsoft.azure.management.compute.DiagnosticsProfile
   type: Class
-  summary: <p>Describes a diagnostics profile. </p>
+  summary: "<p>Describes a diagnostics profile. </p>"
   syntax:
     content: public class DiagnosticsProfile
 - uid: com.microsoft.azure.management.compute.VirtualMachineInstanceView
@@ -1873,7 +1861,7 @@ references:
   nameWithType: VirtualMachineInstanceView
   fullName: com.microsoft.azure.management.compute.VirtualMachineInstanceView
   type: Class
-  summary: <p>The instance view of a virtual machine. </p>
+  summary: "<p>The instance view of a virtual machine. </p>"
   syntax:
     content: public class VirtualMachineInstanceView
 - uid: com.microsoft.azure.management.compute.PowerState
@@ -1883,7 +1871,7 @@ references:
   nameWithType: PowerState
   fullName: com.microsoft.azure.management.compute.PowerState
   type: Class
-  summary: <p>Possible power states of a virtual machine. </p>
+  summary: "<p>Possible power states of a virtual machine. </p>"
   syntax:
     content: public class PowerState extends ExpandableStringEnum<PowerState>
 - uid: com.microsoft.azure.management.network.VirtualMachineScaleSetNetworkInterface
@@ -1893,6 +1881,6 @@ references:
   nameWithType: VirtualMachineScaleSetNetworkInterface
   fullName: com.microsoft.azure.management.network.VirtualMachineScaleSetNetworkInterface
   type: Interface
-  summary: <p>Virtual machine scale set network interface. </p>
+  summary: "<p>Virtual machine scale set network interface. </p>"
   syntax:
     content: public interface VirtualMachineScaleSetNetworkInterface extends NetworkInterfaceBase,Resource,Refreshable<VirtualMachineScaleSetNetworkInterface>

@@ -1266,7 +1266,7 @@ references:
   nameWithType: ICloseable.close()
   fullName: com.microsoft.azure.servicebus.ICloseable.close()
   type: Method
-  summary: <p>Synchronously closes and disposes any resources associated with this object. Calling this method is equivalent of calling . This method blocks until this object is closed. </p>
+  summary: "<p>Synchronously closes and disposes any resources associated with this object. Calling this method is equivalent of calling . This method blocks until this object is closed. </p>"
   syntax:
     content: public void close()
 - uid: com.microsoft.azure.servicebus.ICloseable.closeAsync()
@@ -1276,7 +1276,7 @@ references:
   nameWithType: ICloseable.closeAsync()
   fullName: com.microsoft.azure.servicebus.ICloseable.closeAsync()
   type: Method
-  summary: <p>Closes and disposes any resources associated with this object. An object cannot be used after it is closed. This is an asynchronous method that returns a CompletableFuture immediately. This object is completely closed when the returned CompletableFuture is completed. </p>
+  summary: "<p>Closes and disposes any resources associated with this object. An object cannot be used after it is closed. This is an asynchronous method that returns a CompletableFuture immediately. This object is completely closed when the returned CompletableFuture is completed. </p>"
   syntax:
     content: public CompletableFuture<Void> closeAsync()
     return:
@@ -1289,10 +1289,7 @@ references:
   nameWithType: IMessageEntityClient.getEntityPath()
   fullName: com.microsoft.azure.servicebus.IMessageEntityClient.getEntityPath()
   type: Method
-  summary: >-
-    <p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>
-
-    <p></p>
+  summary: "<p>Gets the path of the entity this client is sending messages to or receiving messages from.</p>\r\n<p></p>"
   syntax:
     content: public String getEntityPath()
     return:
@@ -1305,10 +1302,7 @@ references:
   nameWithType: IMessageBrowser.peek()
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peek()
   type: Method
-  summary: >-
-    <p>reads next the active message without changing the state of the receiver or the message source. The first call to <xref uid="com.microsoft.azure.servicebus.IMessageBrowser.peek()" data-throw-if-not-resolved="false">IMessageBrowser#peek()</xref> fetches the first active message for this receiver. Each subsequent call fetches the subsequent message in the entity.</p>
-
-    <p></p>
+  summary: "<p>reads next the active message without changing the state of the receiver or the message source. The first call to <xref uid=\"com.microsoft.azure.servicebus.IMessageBrowser.peek()\" data-throw-if-not-resolved=\"false\">IMessageBrowser#peek()</xref> fetches the first active message for this receiver. Each subsequent call fetches the subsequent message in the entity.</p>\r\n<p></p>"
   syntax:
     content: public IMessage peek()
     return:
@@ -1324,10 +1318,7 @@ references:
   nameWithType: IMessageBrowser.peek(long fromSequenceNumber)
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peek(long fromSequenceNumber)
   type: Method
-  summary: >-
-    <p>Reads next the active message without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Reads next the active message without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public IMessage peek(long fromSequenceNumber)
     parameters:
@@ -1347,10 +1338,7 @@ references:
   nameWithType: IMessageBrowser.peekAsync()
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peekAsync()
   type: Method
-  summary: >-
-    <p>Asynchronously reads the active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads the active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<IMessage> peekAsync()
     return:
@@ -1366,10 +1354,7 @@ references:
   nameWithType: IMessageBrowser.peekAsync(long fromSequenceNumber)
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peekAsync(long fromSequenceNumber)
   type: Method
-  summary: >-
-    <p>Asynchronously reads next the active message without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads next the active message without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<IMessage> peekAsync(long fromSequenceNumber)
     parameters:
@@ -1386,10 +1371,7 @@ references:
   nameWithType: IMessageBrowser.peekBatch(int messageCount)
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peekBatch(int messageCount)
   type: Method
-  summary: >-
-    <p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public Collection<IMessage> peekBatch(int messageCount)
     parameters:
@@ -1406,10 +1388,7 @@ references:
   nameWithType: IMessageBrowser.peekBatch(long fromSequenceNumber, int messageCount)
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peekBatch(long fromSequenceNumber, int messageCount)
   type: Method
-  summary: >-
-    <p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public Collection<IMessage> peekBatch(long fromSequenceNumber, int messageCount)
     parameters:
@@ -1429,10 +1408,7 @@ references:
   nameWithType: IMessageBrowser.peekBatchAsync(int messageCount)
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peekBatchAsync(int messageCount)
   type: Method
-  summary: >-
-    <p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Collection<IMessage>> peekBatchAsync(int messageCount)
     parameters:
@@ -1449,10 +1425,7 @@ references:
   nameWithType: IMessageBrowser.peekBatchAsync(long fromSequenceNumber, int messageCount)
   fullName: com.microsoft.azure.servicebus.IMessageBrowser.peekBatchAsync(long fromSequenceNumber, int messageCount)
   type: Method
-  summary: >-
-    <p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Collection<IMessage>> peekBatchAsync(long fromSequenceNumber, int messageCount)
     parameters:
@@ -1472,10 +1445,7 @@ references:
   nameWithType: IMessageEntityClient
   fullName: com.microsoft.azure.servicebus.IMessageEntityClient
   type: Interface
-  summary: >-
-    <p>Represents a messaging client to an Azure Service Bus entity.</p>
-
-    <p></p>
+  summary: "<p>Represents a messaging client to an Azure Service Bus entity.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessageEntityClient extends ICloseable
 - uid: com.microsoft.azure.servicebus.IMessageBrowser
@@ -1485,7 +1455,7 @@ references:
   nameWithType: IMessageBrowser
   fullName: com.microsoft.azure.servicebus.IMessageBrowser
   type: Interface
-  summary: <p>Represents a message browser that can browse messages from Azure Service Bus. </p>
+  summary: "<p>Represents a message browser that can browse messages from Azure Service Bus. </p>"
   syntax:
     content: public interface IMessageBrowser
 - uid: com.microsoft.azure.servicebus.IMessageSession
@@ -1495,14 +1465,7 @@ references:
   nameWithType: IMessageSession
   fullName: com.microsoft.azure.servicebus.IMessageSession
   type: Interface
-  summary: >-
-    <p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>
-
-    <p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>
-
-    <p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid="" data-throw-if-not-resolved="false">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>
-
-    <p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>
+  summary: "<p>Describes a Session object. IMessageSession can be used to perform operations on sessions. </p>\r\n<p>Service Bus Sessions, also called 'Groups' in the AMQP 1.0 protocol, are unbounded sequences of related messages. ServiceBus guarantees ordering of messages in a session. </p>\r\n<p>Any sender can create a session when submitting messages into a Topic or Queue by setting the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Message#sessionId</xref> property on Message to some application defined unique identifier. At the AMQP 1.0 protocol level, this value maps to the group-id property. </p>\r\n<p>Sessions come into existence when there is at least one message with the session's SessionId in the Queue or Topic subscription. Once a Session exists, there is no defined moment or gesture for when the session expires or disappears. </p>"
   syntax:
     content: public interface IMessageSession
 - uid: com.microsoft.azure.servicebus.MessageReceiver
@@ -1513,10 +1476,7 @@ references:
   nameWithType: ReceiveMode
   fullName: com.microsoft.azure.servicebus.ReceiveMode
   type: Enum
-  summary: >-
-    <p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>
-
-    <p></p>
+  summary: "<p>Enumeration to represent the two receive modes Azure Service Bus supports.</p>\r\n<p></p>"
   syntax:
     content: public enum ReceiveMode
 - uid: com.microsoft.azure.servicebus.primitives.ServiceBusException
@@ -1526,7 +1486,7 @@ references:
   nameWithType: ServiceBusException
   fullName: com.microsoft.azure.servicebus.primitives.ServiceBusException
   type: Class
-  summary: <p>This is the base exception that service bus will generate for all error cases. </p>
+  summary: "<p>This is the base exception that service bus will generate for all error cases. </p>"
   syntax:
     content: public class ServiceBusException
 - uid: com.microsoft.azure.servicebus.Message
@@ -1545,12 +1505,7 @@ references:
   nameWithType: Message.getLockToken()
   fullName: com.microsoft.azure.servicebus.Message.getLockToken()
   type: Method
-  summary: >-
-    <p>Gets the lock token for the current message.</p>
-
-    <p>The lock token is a reference to the lock that is being held by the broker in PEEKLOCK mode. Locks are used to explicitly settle messages as explained in the <a href="https://docs.microsoft.com/azure/service-bus-messaging/message-transfers-locks-settlement">product documentation in more detail</a>. The token can also be used to pin the lock permanently through the <a href="https://docs.microsoft.com/azure/service-bus-messaging/message-deferral">Deferral API</a> and, with that, take the message out of the regular delivery state flow. This property is read-only.</p>
-
-    <p></p>
+  summary: "<p>Gets the lock token for the current message.</p>\r\n<p>The lock token is a reference to the lock that is being held by the broker in PEEKLOCK mode. Locks are used to explicitly settle messages as explained in the <a href=\"https://docs.microsoft.com/azure/service-bus-messaging/message-transfers-locks-settlement\">product documentation in more detail</a>. The token can also be used to pin the lock permanently through the <a href=\"https://docs.microsoft.com/azure/service-bus-messaging/message-deferral\">Deferral API</a> and, with that, take the message out of the regular delivery state flow. This property is read-only.</p>\r\n<p></p>"
   syntax:
     content: public UUID getLockToken()
     return:
@@ -1563,10 +1518,7 @@ references:
   nameWithType: IMessage
   fullName: com.microsoft.azure.servicebus.IMessage
   type: Interface
-  summary: >-
-    <p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>
-
-    <p></p>
+  summary: "<p>Represents the message that is exchanged between Azure Service Bus and its clients.</p>\r\n<p></p>"
   syntax:
     content: public interface IMessage
 - uid: com.microsoft.azure.servicebus.Message.getSequenceNumber()
@@ -1576,12 +1528,7 @@ references:
   nameWithType: Message.getSequenceNumber()
   fullName: com.microsoft.azure.servicebus.Message.getSequenceNumber()
   type: Method
-  summary: >-
-    <p>Gets the unique number assigned to a message by Service Bus.</p>
-
-    <p>The sequence number is a unique 64-bit integer assigned to a message as it is accepted and stored by the broker and functions as its true identifier. For partitioned entities, the topmost 16 bits reflect the partition identifier. Sequence numbers monotonically increase and are gapless. They roll over to 0 when the 48-64 bit range is exhausted. This property is read-only.</p>
-
-    <p></p>
+  summary: "<p>Gets the unique number assigned to a message by Service Bus.</p>\r\n<p>The sequence number is a unique 64-bit integer assigned to a message as it is accepted and stored by the broker and functions as its true identifier. For partitioned entities, the topmost 16 bits reflect the partition identifier. Sequence numbers monotonically increase and are gapless. They roll over to 0 when the 48-64 bit range is exhausted. This property is read-only.</p>\r\n<p></p>"
   syntax:
     content: public long getSequenceNumber()
     return:
@@ -1594,6 +1541,6 @@ references:
   nameWithType: ReceiveMode.PEEKLOCK
   fullName: com.microsoft.azure.servicebus.ReceiveMode.PEEKLOCK
   type: Field
-  summary: <p>In this mode, received message is not deleted from the queue or subscription, instead it is temporarily locked to the receiver, making it invisible to other receivers. Then the service waits for one of the three events <ul><li><p>If the receiver processes the message successfully, it calls  and the message will be deleted. </p></li><li><p>If the receiver decides that it can't process the message successfully, it calls  and the message will be unlocked and made available to other receivers. </p></li><li><p>If the receiver wants to defer the processing of the message to a later point in time, it calls  and the message will be deferred. A deferred can only be received by its sequence number. </p></li><li><p>If the receiver wants to dead-letter the message, it calls  and the message will be moved to a special sub-queue called deadletter queue. </p></li><li><p>If the receiver calls neither of these methods within a configurable period of time (by default, 60 seconds), the service assumes the receiver has failed. In this case, it behaves as if the receiver had called , making the message available to other receivers </p></li></ul></p>
+  summary: "<p>In this mode, received message is not deleted from the queue or subscription, instead it is temporarily locked to the receiver, making it invisible to other receivers. Then the service waits for one of the three events <ul><li><p>If the receiver processes the message successfully, it calls  and the message will be deleted. </p></li><li><p>If the receiver decides that it can't process the message successfully, it calls  and the message will be unlocked and made available to other receivers. </p></li><li><p>If the receiver wants to defer the processing of the message to a later point in time, it calls  and the message will be deferred. A deferred can only be received by its sequence number. </p></li><li><p>If the receiver wants to dead-letter the message, it calls  and the message will be moved to a special sub-queue called deadletter queue. </p></li><li><p>If the receiver calls neither of these methods within a configurable period of time (by default, 60 seconds), the service assumes the receiver has failed. In this case, it behaves as if the receiver had called , making the message available to other receivers </p></li></ul></p>"
   syntax:
     content: public PEEKLOCK

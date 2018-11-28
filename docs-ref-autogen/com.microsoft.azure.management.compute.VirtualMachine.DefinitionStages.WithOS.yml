@@ -436,7 +436,7 @@ references:
   nameWithType: VirtualMachine.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachine.DefinitionStages.Blank,VirtualMachine.DefinitionStages.WithGroup,VirtualMachine.DefinitionStages.WithNetwork,VirtualMachine.DefinitionStages.WithSubnet,VirtualMachine.DefinitionStages.WithPrivateIP,VirtualMachine.DefinitionStages.WithPublicIPAddress,VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface,VirtualMachine.DefinitionStages.WithOS,VirtualMachine.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionUnmanaged
@@ -446,7 +446,7 @@ references:
   nameWithType: VirtualMachine.DefinitionUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionUnmanaged
   type: Interface
-  summary: <p>The entirety of the unmanaged disk based virtual machine definition. </p>
+  summary: "<p>The entirety of the unmanaged disk based virtual machine definition. </p>"
   syntax:
     content: public interface DefinitionUnmanaged extends VirtualMachine.DefinitionStages.Blank,VirtualMachine.DefinitionStages.WithGroup,VirtualMachine.DefinitionStages.WithNetwork,VirtualMachine.DefinitionStages.WithSubnet,VirtualMachine.DefinitionStages.WithPrivateIP,VirtualMachine.DefinitionStages.WithPublicIPAddress,VirtualMachine.DefinitionStages.WithPrimaryNetworkInterface,VirtualMachine.DefinitionStages.WithOS,VirtualMachine.DefinitionStages.WithLinuxRootUsernameUnmanaged,VirtualMachine.DefinitionStages.WithLinuxRootPasswordOrPublicKeyUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminUsernameUnmanaged,VirtualMachine.DefinitionStages.WithWindowsAdminPasswordUnmanaged,VirtualMachine.DefinitionStages.WithFromImageCreateOptionsUnmanaged,VirtualMachine.DefinitionStages.WithLinuxCreateUnmanaged,VirtualMachine.DefinitionStages.WithWindowsCreateUnmanaged,VirtualMachine.DefinitionStages.WithUnmanagedCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged
@@ -456,7 +456,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged
   type: Interface
-  summary: <p>The stage of a Windows virtual machine definition allowing to specify an administrator user name. </p>
+  summary: "<p>The stage of a Windows virtual machine definition allowing to specify an administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminUsernameManagedOrUnmanaged
 - uid: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage
@@ -466,7 +466,7 @@ references:
   nameWithType: KnownWindowsVirtualMachineImage
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage
   type: Enum
-  summary: <p>The popular Azure Windows images. </p>
+  summary: "<p>The popular Azure Windows images. </p>"
   syntax:
     content: public enum KnownWindowsVirtualMachineImage
 - uid: com.microsoft.azure.management.compute.ImageReference
@@ -476,7 +476,7 @@ references:
   nameWithType: ImageReference
   fullName: com.microsoft.azure.management.compute.ImageReference
   type: Class
-  summary: <p>The image reference. </p>
+  summary: "<p>The image reference. </p>"
   syntax:
     content: public class ImageReference
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManaged
@@ -486,7 +486,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithWindowsAdminUsernameManaged
   type: Interface
-  summary: <p>The stage of a Windows virtual machine definition allowing to specify an administrator user name. </p>
+  summary: "<p>The stage of a Windows virtual machine definition allowing to specify an administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminUsernameManaged
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithWindowsAdminUsernameUnmanaged
@@ -496,7 +496,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithWindowsAdminUsernameUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithWindowsAdminUsernameUnmanaged
   type: Interface
-  summary: <p>The stage of the Windows virtual machine definition allowing to specify an administrator user name. </p>
+  summary: "<p>The stage of the Windows virtual machine definition allowing to specify an administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminUsernameUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged
@@ -506,7 +506,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged
   type: Interface
-  summary: <p>The stage of a Linux virtual machine definition allowing to specify an SSH root user name. </p>
+  summary: "<p>The stage of a Linux virtual machine definition allowing to specify an SSH root user name. </p>"
   syntax:
     content: public interface WithLinuxRootUsernameManagedOrUnmanaged
 - uid: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage
@@ -516,7 +516,7 @@ references:
   nameWithType: KnownLinuxVirtualMachineImage
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage
   type: Enum
-  summary: <p>The popular Azure Linux images. </p>
+  summary: "<p>The popular Azure Linux images. </p>"
   syntax:
     content: public enum KnownLinuxVirtualMachineImage
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithLinuxRootUsernameManaged
@@ -526,7 +526,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithLinuxRootUsernameManaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithLinuxRootUsernameManaged
   type: Interface
-  summary: <p>The stage of a Linux virtual machine definition allowing to specify an SSH root user name. </p>
+  summary: "<p>The stage of a Linux virtual machine definition allowing to specify an SSH root user name. </p>"
   syntax:
     content: public interface WithLinuxRootUsernameManaged
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithLinuxRootUsernameUnmanaged
@@ -536,7 +536,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithLinuxRootUsernameUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithLinuxRootUsernameUnmanaged
   type: Interface
-  summary: <p>The stage of a Linux virtual machine definition allowing to specify an SSH root user name. </p>
+  summary: "<p>The stage of a Linux virtual machine definition allowing to specify an SSH root user name. </p>"
   syntax:
     content: public interface WithLinuxRootUsernameUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithUnmanagedCreate
@@ -546,7 +546,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithUnmanagedCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithUnmanagedCreate
   type: Interface
-  summary: <p>The stage of a virtual machine definition which contains all the minimum required inputs for the VM using storage account (unmanaged based OS disk to be created and optionally allow unmanaged data disk and settings specific to unmanaged OS disk to be specified. </p>
+  summary: "<p>The stage of a virtual machine definition which contains all the minimum required inputs for the VM using storage account (unmanaged based OS disk to be created and optionally allow unmanaged data disk and settings specific to unmanaged OS disk to be specified. </p>"
   syntax:
     content: public interface WithUnmanagedCreate
 - uid: com.microsoft.azure.management.compute.OperatingSystemTypes
@@ -556,7 +556,7 @@ references:
   nameWithType: OperatingSystemTypes
   fullName: com.microsoft.azure.management.compute.OperatingSystemTypes
   type: Enum
-  summary: <p>Defines values for OperatingSystemTypes. </p>
+  summary: "<p>Defines values for OperatingSystemTypes. </p>"
   syntax:
     content: public enum OperatingSystemTypes
 - uid: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithManagedCreate
@@ -566,7 +566,7 @@ references:
   nameWithType: VirtualMachine.DefinitionStages.WithManagedCreate
   fullName: com.microsoft.azure.management.compute.VirtualMachine.DefinitionStages.WithManagedCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the VM using managed OS disk to be created and optionally allow managed data disks specific settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the VM using managed OS disk to be created and optionally allow managed data disks specific settings to be specified. </p>"
   syntax:
     content: public interface WithManagedCreate extends VirtualMachine.DefinitionStages.WithManagedDataDisk,VirtualMachine.DefinitionStages.WithAvailabilityZone,VirtualMachine.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.Disk
@@ -576,6 +576,6 @@ references:
   nameWithType: Disk
   fullName: com.microsoft.azure.management.compute.Disk
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure managed disk. </p>
+  summary: "<p>An immutable client-side representation of an Azure managed disk. </p>"
   syntax:
     content: public interface Disk extends GroupableResource<ComputeManager, DiskInner>,Refreshable<Disk>,Updatable<Disk.Update>

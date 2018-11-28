@@ -249,7 +249,7 @@ references:
   nameWithType: DefaultTokenCacheStore
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore
   type: Class
-  summary: <p>Store/Retrieve TokenCacheItem from SharedPreferencesFileManager. SharedPreferencesFileManager saves items when it is committed in an atomic operation. </p>
+  summary: "<p>Store/Retrieve TokenCacheItem from SharedPreferencesFileManager. SharedPreferencesFileManager saves items when it is committed in an atomic operation. </p>"
   syntax:
     content: public class DefaultTokenCacheStore implements ITokenCacheStore,ITokenStoreQuery
 - uid: com.microsoft.aad.adal.FileTokenCacheStore
@@ -259,7 +259,7 @@ references:
   nameWithType: FileTokenCacheStore
   fullName: com.microsoft.aad.adal.FileTokenCacheStore
   type: Class
-  summary: <p>Persisted cache that keeps cache in-memory until write operation. Filename should not be used on another instance of FileTokenCacheStore since read operations are not synced to file. </p>
+  summary: "<p>Persisted cache that keeps cache in-memory until write operation. Filename should not be used on another instance of FileTokenCacheStore since read operations are not synced to file. </p>"
   syntax:
     content: public class FileTokenCacheStore implements ITokenCacheStore
 - uid: com.microsoft.aad.adal.MemoryTokenCacheStore
@@ -269,7 +269,7 @@ references:
   nameWithType: MemoryTokenCacheStore
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore
   type: Class
-  summary: <p>tokenCacheItem is not persisted. Memory cache does not keep static items. </p>
+  summary: "<p>tokenCacheItem is not persisted. Memory cache does not keep static items. </p>"
   syntax:
     content: public class MemoryTokenCacheStore
 - uid: com.microsoft.aad.adal.TokenCacheItem
@@ -279,7 +279,7 @@ references:
   nameWithType: TokenCacheItem
   fullName: com.microsoft.aad.adal.TokenCacheItem
   type: Class
-  summary: <p>Extended result to store more info Queries will be performed over this item not the key. </p>
+  summary: "<p>Extended result to store more info Queries will be performed over this item not the key. </p>"
   syntax:
     content: public class TokenCacheItem
 - uid: com.microsoft.aad.adal.MemoryTokenCacheStore.getItem(String)
@@ -289,10 +289,7 @@ references:
   nameWithType: MemoryTokenCacheStore.getItem(String key)
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore.getItem(String key)
   type: Method
-  summary: >-
-    <p>Get cache item.</p>
-
-    <p></p>
+  summary: "<p>Get cache item.</p>\r\n<p></p>"
   syntax:
     content: public TokenCacheItem getItem(String key)
     parameters:
@@ -314,10 +311,7 @@ references:
   nameWithType: FileTokenCacheStore.getItem(String key)
   fullName: com.microsoft.aad.adal.FileTokenCacheStore.getItem(String key)
   type: Method
-  summary: >-
-    <p>Get cache item.</p>
-
-    <p></p>
+  summary: "<p>Get cache item.</p>\r\n<p></p>"
   syntax:
     content: public TokenCacheItem getItem(String key)
     parameters:
@@ -339,10 +333,7 @@ references:
   nameWithType: DefaultTokenCacheStore.getItem(String key)
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.getItem(String key)
   type: Method
-  summary: >-
-    <p>Get cache item.</p>
-
-    <p></p>
+  summary: "<p>Get cache item.</p>\r\n<p></p>"
   syntax:
     content: public TokenCacheItem getItem(String key)
     parameters:
@@ -364,7 +355,7 @@ references:
   nameWithType: CacheKey
   fullName: com.microsoft.aad.adal.CacheKey
   type: Class
-  summary: <p>CacheKey will be the object for key. </p>
+  summary: "<p>CacheKey will be the object for key. </p>"
   syntax:
     content: public class CacheKey
 - uid: com.microsoft.aad.adal.MemoryTokenCacheStore.getAll()
@@ -374,10 +365,7 @@ references:
   nameWithType: MemoryTokenCacheStore.getAll()
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore.getAll()
   type: Method
-  summary: >-
-    <p>Get all cached token items.</p>
-
-    <p></p>
+  summary: "<p>Get all cached token items.</p>\r\n<p></p>"
   syntax:
     content: public Iterator<TokenCacheItem> getAll()
     return:
@@ -393,10 +381,7 @@ references:
   nameWithType: FileTokenCacheStore.getAll()
   fullName: com.microsoft.aad.adal.FileTokenCacheStore.getAll()
   type: Method
-  summary: >-
-    <p>Get all cached token items.</p>
-
-    <p></p>
+  summary: "<p>Get all cached token items.</p>\r\n<p></p>"
   syntax:
     content: public Iterator<TokenCacheItem> getAll()
     return:
@@ -412,10 +397,7 @@ references:
   nameWithType: DefaultTokenCacheStore.getAll()
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.getAll()
   type: Method
-  summary: >-
-    <p>User can query over iterator values.</p>
-
-    <p></p>
+  summary: "<p>User can query over iterator values.</p>\r\n<p></p>"
   syntax:
     content: public Iterator<TokenCacheItem> getAll()
     return:
@@ -428,10 +410,7 @@ references:
   nameWithType: MemoryTokenCacheStore.contains(String key)
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore.contains(String key)
   type: Method
-  summary: >-
-    <p>Checks if cache key exists.</p>
-
-    <p></p>
+  summary: "<p>Checks if cache key exists.</p>\r\n<p></p>"
   syntax:
     content: public boolean contains(String key)
     parameters:
@@ -453,10 +432,7 @@ references:
   nameWithType: FileTokenCacheStore.contains(String key)
   fullName: com.microsoft.aad.adal.FileTokenCacheStore.contains(String key)
   type: Method
-  summary: >-
-    <p>Checks if cache key exists.</p>
-
-    <p></p>
+  summary: "<p>Checks if cache key exists.</p>\r\n<p></p>"
   syntax:
     content: public boolean contains(String key)
     parameters:
@@ -478,10 +454,7 @@ references:
   nameWithType: DefaultTokenCacheStore.contains(String key)
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.contains(String key)
   type: Method
-  summary: >-
-    <p>Checks if cache key exists.</p>
-
-    <p></p>
+  summary: "<p>Checks if cache key exists.</p>\r\n<p></p>"
   syntax:
     content: public boolean contains(String key)
     parameters:
@@ -503,10 +476,7 @@ references:
   nameWithType: MemoryTokenCacheStore.setItem(String key, TokenCacheItem item)
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore.setItem(String key, TokenCacheItem item)
   type: Method
-  summary: >-
-    <p>Sets item.</p>
-
-    <p></p>
+  summary: "<p>Sets item.</p>\r\n<p></p>"
   syntax:
     content: public void setItem(String key, TokenCacheItem item)
     parameters:
@@ -528,10 +498,7 @@ references:
   nameWithType: FileTokenCacheStore.setItem(String key, TokenCacheItem item)
   fullName: com.microsoft.aad.adal.FileTokenCacheStore.setItem(String key, TokenCacheItem item)
   type: Method
-  summary: >-
-    <p>Sets item.</p>
-
-    <p></p>
+  summary: "<p>Sets item.</p>\r\n<p></p>"
   syntax:
     content: public void setItem(String key, TokenCacheItem item)
     parameters:
@@ -553,10 +520,7 @@ references:
   nameWithType: DefaultTokenCacheStore.setItem(String key, TokenCacheItem item)
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.setItem(String key, TokenCacheItem item)
   type: Method
-  summary: >-
-    <p>Sets item.</p>
-
-    <p></p>
+  summary: "<p>Sets item.</p>\r\n<p></p>"
   syntax:
     content: public void setItem(String key, TokenCacheItem item)
     parameters:
@@ -578,10 +542,7 @@ references:
   nameWithType: MemoryTokenCacheStore.removeItem(String key)
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore.removeItem(String key)
   type: Method
-  summary: >-
-    <p>Removes item with key.</p>
-
-    <p></p>
+  summary: "<p>Removes item with key.</p>\r\n<p></p>"
   syntax:
     content: public void removeItem(String key)
     parameters:
@@ -600,10 +561,7 @@ references:
   nameWithType: FileTokenCacheStore.removeItem(String key)
   fullName: com.microsoft.aad.adal.FileTokenCacheStore.removeItem(String key)
   type: Method
-  summary: >-
-    <p>Removes item with key.</p>
-
-    <p></p>
+  summary: "<p>Removes item with key.</p>\r\n<p></p>"
   syntax:
     content: public void removeItem(String key)
     parameters:
@@ -622,10 +580,7 @@ references:
   nameWithType: DefaultTokenCacheStore.removeItem(String key)
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.removeItem(String key)
   type: Method
-  summary: >-
-    <p>Removes item with key.</p>
-
-    <p></p>
+  summary: "<p>Removes item with key.</p>\r\n<p></p>"
   syntax:
     content: public void removeItem(String key)
     parameters:
@@ -644,7 +599,7 @@ references:
   nameWithType: MemoryTokenCacheStore.removeAll()
   fullName: com.microsoft.aad.adal.MemoryTokenCacheStore.removeAll()
   type: Method
-  summary: <p>Removes all items from cache. </p>
+  summary: "<p>Removes all items from cache. </p>"
   syntax:
     content: public void removeAll()
 - uid: com.microsoft.aad.adal.FileTokenCacheStore.removeAll()
@@ -654,7 +609,7 @@ references:
   nameWithType: FileTokenCacheStore.removeAll()
   fullName: com.microsoft.aad.adal.FileTokenCacheStore.removeAll()
   type: Method
-  summary: <p>Removes all items from cache. </p>
+  summary: "<p>Removes all items from cache. </p>"
   syntax:
     content: public void removeAll()
 - uid: com.microsoft.aad.adal.DefaultTokenCacheStore.removeAll()
@@ -664,6 +619,6 @@ references:
   nameWithType: DefaultTokenCacheStore.removeAll()
   fullName: com.microsoft.aad.adal.DefaultTokenCacheStore.removeAll()
   type: Method
-  summary: <p>Removes all items from cache. </p>
+  summary: "<p>Removes all items from cache. </p>"
   syntax:
     content: public void removeAll()

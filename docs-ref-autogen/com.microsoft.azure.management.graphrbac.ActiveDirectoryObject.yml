@@ -82,7 +82,7 @@ references:
   nameWithType: Indexable
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Indexable
   type: Interface
-  summary: <p>Base interface for all models that can be indexed by a key. </p>
+  summary: "<p>Base interface for all models that can be indexed by a key. </p>"
   syntax:
     content: public interface Indexable
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId
@@ -92,7 +92,7 @@ references:
   nameWithType: HasId
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId
   type: Interface
-  summary: <p>An interface representing a model that has a resource group name. </p>
+  summary: "<p>An interface representing a model that has a resource group name. </p>"
   syntax:
     content: public interface HasId
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
@@ -102,7 +102,7 @@ references:
   nameWithType: HasName
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
   type: Interface
-  summary: <p>An interface representing a model that has a name. </p>
+  summary: "<p>An interface representing a model that has a name. </p>"
   syntax:
     content: public interface HasName
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager
@@ -112,7 +112,7 @@ references:
   nameWithType: HasManager<ManagerT>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager<ManagerT>
   type: Interface
-  summary: <p>An interface representing a model that exposes a management client. </p>
+  summary: "<p>An interface representing a model that exposes a management client. </p>"
   syntax:
     content: public interface HasManager<ManagerT>
     typeParameters:
@@ -126,7 +126,7 @@ references:
   nameWithType: ActiveDirectoryApplication
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD application. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD application. </p>"
   syntax:
     content: public interface ActiveDirectoryApplication extends ActiveDirectoryObject,HasInner<ApplicationInner>,Updatable<ActiveDirectoryApplication.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
@@ -136,7 +136,7 @@ references:
   nameWithType: ActiveDirectoryGroup
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD group. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD group. </p>"
   syntax:
     content: public interface ActiveDirectoryGroup extends ActiveDirectoryObject,HasInner<ADGroupInner>,Updatable<ActiveDirectoryGroup.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser
@@ -146,7 +146,7 @@ references:
   nameWithType: ActiveDirectoryUser
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD user. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD user. </p>"
   syntax:
     content: public interface ActiveDirectoryUser
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal
@@ -156,6 +156,6 @@ references:
   nameWithType: ServicePrincipal
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD service principal. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD service principal. </p>"
   syntax:
     content: public interface ServicePrincipal

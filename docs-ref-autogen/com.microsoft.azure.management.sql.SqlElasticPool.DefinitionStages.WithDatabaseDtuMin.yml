@@ -82,10 +82,7 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Elastic Pool definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the SQL Elastic Pool definition can be attached to the parent SQL Server definition. </p>
+  summary: "<p>The final stage of the SQL Elastic Pool definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the SQL Elastic Pool definition can be attached to the parent SQL Server definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends SqlElasticPool.DefinitionStages.WithDatabaseDtuMin<ParentT>,SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>,SqlElasticPool.DefinitionStages.WithDtu<ParentT>,SqlElasticPool.DefinitionStages.WithStorageCapacity<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:
@@ -99,6 +96,6 @@ references:
   nameWithType: SqlElasticPool.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Server definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<SqlElasticPool>,Resource.DefinitionWithTags<WithCreate>,SqlElasticPool.DefinitionStages.WithDatabaseDtuMin<ParentT>,SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>,SqlElasticPool.DefinitionStages.WithDtu<ParentT>,SqlElasticPool.DefinitionStages.WithStorageCapacity<ParentT>,SqlElasticPool.DefinitionStages.WithDatabase

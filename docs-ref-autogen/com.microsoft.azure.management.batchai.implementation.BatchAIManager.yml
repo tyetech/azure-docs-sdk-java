@@ -192,7 +192,7 @@ references:
   nameWithType: BatchAIClusters
   fullName: com.microsoft.azure.management.batchai.BatchAIClusters
   type: Interface
-  summary: <p>Entry point to Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAIClusters extends SupportsCreating<BatchAICluster.DefinitionStages.Blank>,SupportsListing<BatchAICluster>,SupportsGettingById<BatchAICluster>,SupportsGettingByNameAsync<BatchAICluster>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<ClustersInner>,HasParent<BatchAIWorkspace>
 - uid: com.microsoft.azure.management.batchai.BatchAIJobs
@@ -202,7 +202,7 @@ references:
   nameWithType: BatchAIJobs
   fullName: com.microsoft.azure.management.batchai.BatchAIJobs
   type: Interface
-  summary: <p>Entry point for Batch AI jobs management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI jobs management API in Azure. </p>"
   syntax:
     content: public interface BatchAIJobs extends SupportsCreating<BatchAIJob.DefinitionStages.Blank>,SupportsListing<BatchAIJob>,SupportsGettingByName<BatchAIJob>,SupportsGettingById<BatchAIJob>,SupportsGettingByNameAsync<BatchAIJob>,SupportsDeletingByName,SupportsDeletingById,HasInner<JobsInner>,HasManager<BatchAIManager>,HasParent<BatchAIExperiment>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServers
@@ -212,7 +212,7 @@ references:
   nameWithType: BatchAIFileServers
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServers
   type: Interface
-  summary: <p>Entry point to Batch AI file servers management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI file servers management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServers extends SupportsCreating<BatchAIFileServer.DefinitionStages.Blank>,SupportsListing<BatchAIFileServer>,SupportsGettingById<BatchAIFileServer>,SupportsGettingByNameAsync<BatchAIFileServer>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<FileServersInner>
 - uid: com.microsoft.azure.management.batchai.BatchAIUsages
@@ -222,7 +222,7 @@ references:
   nameWithType: BatchAIUsages
   fullName: com.microsoft.azure.management.batchai.BatchAIUsages
   type: Interface
-  summary: <p>Entry point for Batch AI resource usage management API. </p>
+  summary: "<p>Entry point for Batch AI resource usage management API. </p>"
   syntax:
     content: public interface BatchAIUsages
 - uid: com.microsoft.azure.management.batchai.BatchAIWorkspaces
@@ -232,7 +232,7 @@ references:
   nameWithType: BatchAIWorkspaces
   fullName: com.microsoft.azure.management.batchai.BatchAIWorkspaces
   type: Interface
-  summary: <p>Entry point to virtual network gateways management API in Azure. </p>
+  summary: "<p>Entry point to virtual network gateways management API in Azure. </p>"
   syntax:
     content: public interface BatchAIWorkspaces
 - uid: com.microsoft.azure.management.batchai.implementation.BatchAIManager.Configurable
@@ -242,7 +242,7 @@ references:
   nameWithType: BatchAIManager.Configurable
   fullName: com.microsoft.azure.management.batchai.implementation.BatchAIManager.Configurable
   type: Interface
-  summary: <p>The interface allowing configurations to be set. </p>
+  summary: "<p>The interface allowing configurations to be set. </p>"
   syntax:
     content: public interface Configurable
 - uid: com.microsoft.azure.management.batchai.implementation.BatchAIManager
@@ -252,5 +252,5 @@ references:
   nameWithType: BatchAIManager
   fullName: com.microsoft.azure.management.batchai.implementation.BatchAIManager
   type: Class
-  summary: <p>Entry point to Azure BatchAI resource management. </p>
+  summary: "<p>Entry point to Azure BatchAI resource management. </p>"
   syntax: *o1

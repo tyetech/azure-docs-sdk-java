@@ -74,7 +74,7 @@ references:
   nameWithType: ITransientErrorDetectionStrategy
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ITransientErrorDetectionStrategy
   type: Interface
-  summary: <p>Defines an interface that must be implemented by custom components responsible for detecting specific transient conditions. </p>
+  summary: "<p>Defines an interface that must be implemented by custom components responsible for detecting specific transient conditions. </p>"
   syntax:
     content: public interface ITransientErrorDetectionStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ITransientErrorDetectionStrategy.isTransient(Exception)
@@ -84,10 +84,7 @@ references:
   nameWithType: ITransientErrorDetectionStrategy.isTransient(Exception ex)
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ITransientErrorDetectionStrategy.isTransient(Exception ex)
   type: Method
-  summary: >-
-    <p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>
-
-    <p></p>
+  summary: "<p>Determines whether the specified exception represents a transient failure that can be compensated by a retry.</p>\r\n<p></p>"
   syntax:
     content: public boolean isTransient(Exception ex)
     parameters:

@@ -46,7 +46,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -59,10 +59,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromManagedDisk(String sourceManagedDiskId)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromManagedDisk(String sourceManagedDiskId)
   type: Method
-  summary: >-
-    <p>Specifies the source managed disk for the data disk image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source managed disk for the data disk image.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> fromManagedDisk(String sourceManagedDiskId)
     parameters:
@@ -79,10 +76,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromManagedDisk(Disk sourceManagedDisk)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromManagedDisk(Disk sourceManagedDisk)
   type: Method
-  summary: >-
-    <p>Specifies the source managed disk for the data disk image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source managed disk for the data disk image.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> fromManagedDisk(Disk sourceManagedDisk)
     parameters:
@@ -99,10 +93,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromSnapshot(String sourceSnapshotId)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromSnapshot(String sourceSnapshotId)
   type: Method
-  summary: >-
-    <p>Specifies the source snapshot for the data disk image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source snapshot for the data disk image.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> fromSnapshot(String sourceSnapshotId)
     parameters:
@@ -119,10 +110,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromVhd(String sourceVhdUrl)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>.fromVhd(String sourceVhdUrl)
   type: Method
-  summary: >-
-    <p>Specifies the source VHD for the data disk image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the source VHD for the data disk image.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> fromVhd(String sourceVhdUrl)
     parameters:
@@ -139,10 +127,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskCaching(CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskCaching(CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies the caching type for data disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the caching type for data disk.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDiskCaching(CachingTypes cachingType)
     parameters:
@@ -159,10 +144,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskSizeInGB(int diskSizeGB)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>.withDiskSizeInGB(int diskSizeGB)
   type: Method
-  summary: >-
-    <p>Specifies the size in GB for data disk.</p>
-
-    <p></p>
+  summary: "<p>Specifies the size in GB for data disk.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withDiskSizeInGB(int diskSizeGB)
     parameters:
@@ -179,10 +161,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>.withLun(int lun)
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>.withLun(int lun)
   type: Method
-  summary: >-
-    <p>Specifies the LUN for the data disk to be created from the disk image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the LUN for the data disk to be created from the disk image.</p>\r\n<p></p>"
   syntax:
     content: public WithImageSource<ParentT> withLun(int lun)
     parameters:
@@ -199,7 +178,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the data disk image definition. </p>
+  summary: "<p>The first stage of the data disk image definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>
     typeParameters:
@@ -213,10 +192,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskLun<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the image definition allowing to specify the LUN for the disk image.</p>
-
-    <p></p>
+  summary: "<p>The stage of the image definition allowing to specify the LUN for the disk image.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDiskLun<ParentT>
     typeParameters:
@@ -230,10 +206,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithImageSource<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the image definition allowing to choose the source of the data disk image.</p>
-
-    <p></p>
+  summary: "<p>The stage of the image definition allowing to choose the source of the data disk image.</p>\r\n<p></p>"
   syntax:
     content: public interface WithImageSource<ParentT>
     typeParameters:
@@ -247,10 +220,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithDiskSettings<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of data disk image definition allowing to specify configurations for the data disk when it is created from the same data disk image.</p>
-
-    <p></p>
+  summary: "<p>The stage of data disk image definition allowing to specify configurations for the data disk when it is created from the same data disk image.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDiskSettings<ParentT>
     typeParameters:
@@ -264,10 +234,7 @@ references:
   nameWithType: VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.CustomImageDataDisk.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the data disk image definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the data disk definition can be attached to the parent image definition. </p>
+  summary: "<p>The final stage of the data disk image definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the data disk definition can be attached to the parent image definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

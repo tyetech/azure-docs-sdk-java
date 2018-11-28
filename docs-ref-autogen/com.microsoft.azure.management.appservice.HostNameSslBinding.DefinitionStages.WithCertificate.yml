@@ -193,7 +193,7 @@ references:
   nameWithType: HostNameSslBinding.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a hostname SSL binding definition. </p>
+  summary: "<p>The entirety of a hostname SSL binding definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends HostNameSslBinding.DefinitionStages.Blank<ParentT>,HostNameSslBinding.DefinitionStages.WithHostname<ParentT>,HostNameSslBinding.DefinitionStages.WithCertificate<ParentT>,HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>,HostNameSslBinding.DefinitionStages.WithSslType<ParentT>,HostNameSslBinding.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -207,7 +207,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithSslType<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithSslType<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing SSL type to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing SSL type to be specified. </p>"
   syntax:
     content: public interface WithSslType<ParentT>
     typeParameters:
@@ -221,7 +221,7 @@ references:
   nameWithType: HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
   fullName: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault<ParentT>
   type: Interface
-  summary: <p>The stage of a hostname SSL binding definition allowing key vault for certificate store to be specified. </p>
+  summary: "<p>The stage of a hostname SSL binding definition allowing key vault for certificate store to be specified. </p>"
   syntax:
     content: public interface WithKeyVault<ParentT>
     typeParameters:
@@ -235,6 +235,6 @@ references:
   nameWithType: AppServiceCertificateOrder
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure App Service certificate order. </p>
+  summary: "<p>An immutable client-side representation of an Azure App Service certificate order. </p>"
   syntax:
     content: public interface AppServiceCertificateOrder extends GroupableResource<AppServiceManager, AppServiceCertificateOrderInner>,Refreshable<AppServiceCertificateOrder>,Updatable<AppServiceCertificateOrder.Update>

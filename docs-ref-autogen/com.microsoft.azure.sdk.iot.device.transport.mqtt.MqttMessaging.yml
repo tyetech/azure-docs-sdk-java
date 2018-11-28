@@ -88,7 +88,7 @@ items:
   source:
     remote: *o0
     path: device/iot-device-client/src/main/java/com/microsoft/azure/sdk/iot/device/transport/mqtt/MqttMessaging.java
-    startLine: 82
+    startLine: 81
   package: com.microsoft.azure.sdk.iot.device.transport.mqtt
   summary: "<p>Sends the provided telemetry message over the mqtt connection</p>\r\n<p></p>"
   syntax:
@@ -132,7 +132,7 @@ items:
   source:
     remote: *o0
     path: device/iot-device-client/src/main/java/com/microsoft/azure/sdk/iot/device/transport/mqtt/MqttMessaging.java
-    startLine: 70
+    startLine: 69
   package: com.microsoft.azure.sdk.iot.device.transport.mqtt
   syntax:
     content: public void stop()
@@ -176,10 +176,7 @@ references:
   nameWithType: Mqtt.connect()
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.connect()
   type: Method
-  summary: >-
-    <p>Method to connect to mqtt broker connection.</p>
-
-    <p></p>
+  summary: "<p>Method to connect to mqtt broker connection.</p>\r\n<p></p>"
   syntax:
     content: protected void connect()
 - uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.connectionLost(Throwable)
@@ -189,7 +186,7 @@ references:
   nameWithType: Mqtt.connectionLost(Throwable throwable)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.connectionLost(Throwable throwable)
   type: Method
-  summary: <p>Event fired when the connection with the MQTT broker is lost. </p>
+  summary: "<p>Event fired when the connection with the MQTT broker is lost. </p>"
   syntax:
     content: public void connectionLost(Throwable throwable)
     parameters:
@@ -203,7 +200,7 @@ references:
   nameWithType: Mqtt.deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken)
   type: Method
-  summary: <p>Event fired when the message arrived on the MQTT broker. </p>
+  summary: "<p>Event fired when the message arrived on the MQTT broker. </p>"
   syntax:
     content: public void deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken)
     parameters:
@@ -217,10 +214,7 @@ references:
   nameWithType: Mqtt.disconnect()
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.disconnect()
   type: Method
-  summary: >-
-    <p>Method to disconnect to mqtt broker connection.</p>
-
-    <p></p>
+  summary: "<p>Method to disconnect to mqtt broker connection.</p>\r\n<p></p>"
   syntax:
     content: protected void disconnect()
 - uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.messageArrived(String,MqttMessage)
@@ -230,7 +224,7 @@ references:
   nameWithType: Mqtt.messageArrived(String topic, MqttMessage mqttMessage)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.messageArrived(String topic, MqttMessage mqttMessage)
   type: Method
-  summary: <p>Event fired when the message arrived on the MQTT broker. </p>
+  summary: "<p>Event fired when the message arrived on the MQTT broker. </p>"
   syntax:
     content: public void messageArrived(String topic, MqttMessage mqttMessage)
     parameters:
@@ -247,7 +241,7 @@ references:
   nameWithType: Mqtt.Mqtt(MqttConnection mqttConnection, IotHubListener listener, MqttMessageListener messageListener, String connectionId)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.Mqtt(MqttConnection mqttConnection, IotHubListener listener, MqttMessageListener messageListener, String connectionId)
   type: Constructor
-  summary: <p>Constructor to instantiate mqtt broker connection. </p>
+  summary: "<p>Constructor to instantiate mqtt broker connection. </p>"
   syntax:
     content: public Mqtt(MqttConnection mqttConnection, IotHubListener listener, MqttMessageListener messageListener, String connectionId)
     parameters:
@@ -281,10 +275,7 @@ references:
   nameWithType: Mqtt.publish(String publishTopic, Message message)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.publish(String publishTopic, Message message)
   type: Method
-  summary: >-
-    <p>Method to publish to mqtt broker connection.</p>
-
-    <p></p>
+  summary: "<p>Method to publish to mqtt broker connection.</p>\r\n<p></p>"
   syntax:
     content: protected void publish(String publishTopic, Message message)
     parameters:
@@ -301,10 +292,7 @@ references:
   nameWithType: Mqtt.receive()
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.receive()
   type: Method
-  summary: >-
-    <p>Method to receive messages on mqtt broker connection.</p>
-
-    <p></p>
+  summary: "<p>Method to receive messages on mqtt broker connection.</p>\r\n<p></p>"
   syntax:
     content: public IotHubTransportMessage receive()
     return:
@@ -320,7 +308,7 @@ references:
   nameWithType: Mqtt.sendMessageAcknowledgement(int messageId)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.sendMessageAcknowledgement(int messageId)
   type: Method
-  summary: <p>Attempts to send ack for the provided message. If the message does not have a saved messageId in this layer, this function shall return false. </p>
+  summary: "<p>Attempts to send ack for the provided message. If the message does not have a saved messageId in this layer, this function shall return false. </p>"
   syntax:
     content: protected boolean sendMessageAcknowledgement(int messageId)
     parameters:
@@ -337,10 +325,7 @@ references:
   nameWithType: Mqtt.subscribe(String topic)
   fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.subscribe(String topic)
   type: Method
-  summary: >-
-    <p>Method to subscribe to mqtt broker connection.</p>
-
-    <p></p>
+  summary: "<p>Method to subscribe to mqtt broker connection.</p>\r\n<p></p>"
   syntax:
     content: protected void subscribe(String topic)
     parameters:
@@ -372,7 +357,7 @@ references:
   nameWithType: IotHubListener
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubListener
   type: Interface
-  summary: <p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>
+  summary: "<p>Callback interface for communicating connection and message status updates from individual protocol clients (mqtt, https, amqps) to the Tranpsort layer that handles queueing of messages and connecting/reconnecting/disconnecting </p>"
   syntax:
     content: public interface IotHubListener
 - uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttMessageListener

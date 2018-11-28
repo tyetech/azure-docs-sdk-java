@@ -43,10 +43,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -59,10 +56,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -75,10 +69,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -95,7 +86,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithCredential.defineCertificateCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential.defineCertificateCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a certificate credential. </p>
+  summary: "<p>Starts the definition of a certificate credential. </p>"
   syntax:
     content: public CertificateCredential.UpdateDefinitionStages.Blank<Update> defineCertificateCredential(String name)
     parameters:
@@ -112,7 +103,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithCredential.definePasswordCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential.definePasswordCredential(String name)
   type: Method
-  summary: <p>Starts the definition of a password credential. </p>
+  summary: "<p>Starts the definition of a password credential. </p>"
   syntax:
     content: public PasswordCredential.UpdateDefinitionStages.Blank<Update> definePasswordCredential(String name)
     parameters:
@@ -141,7 +132,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithMultiTenant.withAvailableToOtherTenants(boolean availableToOtherTenants)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant.withAvailableToOtherTenants(boolean availableToOtherTenants)
   type: Method
-  summary: <p>Specifies if the application can be used in multiple tenants. </p>
+  summary: "<p>Specifies if the application can be used in multiple tenants. </p>"
   syntax:
     content: public Update withAvailableToOtherTenants(boolean availableToOtherTenants)
     parameters:
@@ -158,10 +149,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl.withIdentifierUrl(String identifierUrl)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl.withIdentifierUrl(String identifierUrl)
   type: Method
-  summary: >-
-    <p>Adds an identifier URL to the application.</p>
-
-    <p></p>
+  summary: "<p>Adds an identifier URL to the application.</p>\r\n<p></p>"
   syntax:
     content: public Update withIdentifierUrl(String identifierUrl)
     parameters:
@@ -178,7 +166,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithCredential.withoutCredential(String name)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential.withoutCredential(String name)
   type: Method
-  summary: <p>Removes a key. </p>
+  summary: "<p>Removes a key. </p>"
   syntax:
     content: public Update withoutCredential(String name)
     parameters:
@@ -195,10 +183,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl.withoutIdentifierUrl(String identifierUrl)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl.withoutIdentifierUrl(String identifierUrl)
   type: Method
-  summary: >-
-    <p>Removes an identifier URL from the application.</p>
-
-    <p></p>
+  summary: "<p>Removes an identifier URL from the application.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutIdentifierUrl(String identifierUrl)
     parameters:
@@ -215,10 +200,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithReplyUrl.withoutReplyUrl(String replyUrl)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl.withoutReplyUrl(String replyUrl)
   type: Method
-  summary: >-
-    <p>Removes a reply URL.</p>
-
-    <p></p>
+  summary: "<p>Removes a reply URL.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutReplyUrl(String replyUrl)
     parameters:
@@ -235,10 +217,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithReplyUrl.withReplyUrl(String replyUrl)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl.withReplyUrl(String replyUrl)
   type: Method
-  summary: >-
-    <p>Adds a reply URL to the application.</p>
-
-    <p></p>
+  summary: "<p>Adds a reply URL to the application.</p>\r\n<p></p>"
   syntax:
     content: public Update withReplyUrl(String replyUrl)
     parameters:
@@ -255,10 +234,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithSignOnUrl.withSignOnUrl(String signOnUrl)
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithSignOnUrl.withSignOnUrl(String signOnUrl)
   type: Method
-  summary: >-
-    <p>Specifies the sign on URL.</p>
-
-    <p></p>
+  summary: "<p>Specifies the sign on URL.</p>\r\n<p></p>"
   syntax:
     content: public Update withSignOnUrl(String signOnUrl)
     parameters:
@@ -275,10 +251,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -292,7 +265,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithSignOnUrl
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithSignOnUrl
   type: Interface
-  summary: <p>The stage of application update allowing specifying the sign on URL. </p>
+  summary: "<p>The stage of application update allowing specifying the sign on URL. </p>"
   syntax:
     content: public interface WithSignOnUrl
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl
@@ -302,7 +275,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl
   type: Interface
-  summary: <p>The stage of application update allowing specifying identifier URLs. </p>
+  summary: "<p>The stage of application update allowing specifying identifier URLs. </p>"
   syntax:
     content: public interface WithIdentifierUrl
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl
@@ -312,7 +285,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithReplyUrl
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl
   type: Interface
-  summary: <p>The stage of application update allowing specifying reply URLs. </p>
+  summary: "<p>The stage of application update allowing specifying reply URLs. </p>"
   syntax:
     content: public interface WithReplyUrl
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential
@@ -322,7 +295,7 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithCredential
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential
   type: Interface
-  summary: <p>The stage of application update allowing specifying identifier keys. </p>
+  summary: "<p>The stage of application update allowing specifying identifier keys. </p>"
   syntax:
     content: public interface WithCredential
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant
@@ -332,6 +305,6 @@ references:
   nameWithType: ActiveDirectoryApplication.UpdateStages.WithMultiTenant
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant
   type: Interface
-  summary: <p>The stage of application update allowing specifying if the application can be used in multiple tenants. </p>
+  summary: "<p>The stage of application update allowing specifying if the application can be used in multiple tenants. </p>"
   syntax:
     content: public interface WithMultiTenant

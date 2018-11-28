@@ -77,34 +77,7 @@ references:
   nameWithType: ExponentialBackoffPolicy
   fullName: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicy
   type: Class
-  summary: >-
-    <p>implements different retry decisions based on the error.</p>
-
-    <p>
-
-      <ul>
-
-        <li>
-
-          <p>For nonretryable errors (3xx, most 4xx, and some 5xx return codes), do no retry. </p>
-
-        </li>
-
-        <li>
-
-          <p>For throttling error, do a retry with exponential backoff </p>
-
-        </li>
-
-        <li>
-
-          <p>for all other errors, do a retry with linear backoff </p>
-
-        </li>
-
-      </ul>
-
-    </p>
+  summary: "<p>implements different retry decisions based on the error.</p>\r\n<p>\r\n  <ul>\r\n    <li>\r\n      <p>For nonretryable errors (3xx, most 4xx, and some 5xx return codes), do no retry. </p>\r\n    </li>\r\n    <li>\r\n      <p>For throttling error, do a retry with exponential backoff </p>\r\n    </li>\r\n    <li>\r\n      <p>for all other errors, do a retry with linear backoff </p>\r\n    </li>\r\n  </ul>\r\n</p>"
   syntax:
     content: public class ExponentialBackoffPolicy implements RetryPolicy
 - uid: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicyforMSI
@@ -114,34 +87,7 @@ references:
   nameWithType: ExponentialBackoffPolicyforMSI
   fullName: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicyforMSI
   type: Class
-  summary: >-
-    <p>implements different retry decisions based on the error.</p>
-
-    <p>
-
-      <ul>
-
-        <li>
-
-          <p>For nonretryable errors (3xx, most 4xx, and some 5xx return codes), do no retry. </p>
-
-        </li>
-
-        <li>
-
-          <p>For throttling error, do a retry with exponential backoff </p>
-
-        </li>
-
-        <li>
-
-          <p>for all other errors, do a retry with linear backoff </p>
-
-        </li>
-
-      </ul>
-
-    </p>
+  summary: "<p>implements different retry decisions based on the error.</p>\r\n<p>\r\n  <ul>\r\n    <li>\r\n      <p>For nonretryable errors (3xx, most 4xx, and some 5xx return codes), do no retry. </p>\r\n    </li>\r\n    <li>\r\n      <p>For throttling error, do a retry with exponential backoff </p>\r\n    </li>\r\n    <li>\r\n      <p>for all other errors, do a retry with linear backoff </p>\r\n    </li>\r\n  </ul>\r\n</p>"
   syntax:
     content: public class ExponentialBackoffPolicyforMSI implements RetryPolicy
 - uid: com.microsoft.azure.datalake.store.retrypolicies.NonIdempotentRetryPolicy
@@ -151,10 +97,7 @@ references:
   nameWithType: NonIdempotentRetryPolicy
   fullName: com.microsoft.azure.datalake.store.retrypolicies.NonIdempotentRetryPolicy
   type: Class
-  summary: >-
-    <p>No retry ever. Always returns false, indicating that erequest should not be retried.</p>
-
-    <p>This should be used when retrying is not safe, and user wants at-most-once semantics with the call. This is useful for non-idempotent methods, where the error returned by the last call does not conclusively indicate success or failure of the call. For example, if an append times out but succeeds on the back-end , then retrying it may append the data twice to the file. </p>
+  summary: "<p>No retry ever. Always returns false, indicating that erequest should not be retried.</p>\r\n<p>This should be used when retrying is not safe, and user wants at-most-once semantics with the call. This is useful for non-idempotent methods, where the error returned by the last call does not conclusively indicate success or failure of the call. For example, if an append times out but succeeds on the back-end , then retrying it may append the data twice to the file. </p>"
   syntax:
     content: public class NonIdempotentRetryPolicy implements RetryPolicy
 - uid: com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy
@@ -164,10 +107,7 @@ references:
   nameWithType: NoRetryPolicy
   fullName: com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy
   type: Class
-  summary: >-
-    <p>No retry ever. Always returns false, indicating that erequest should not be retried.</p>
-
-    <p>This should be used when retrying is not safe, and user wants at-most-once semantics with the call. This is useful for non-idempotent methods, where the error returned by the last call does not conclusively indicate success or failure of the call. For example, if an append times out but succeeds on the back-end , then retrying it may append the data twice to the file. </p>
+  summary: "<p>No retry ever. Always returns false, indicating that erequest should not be retried.</p>\r\n<p>This should be used when retrying is not safe, and user wants at-most-once semantics with the call. This is useful for non-idempotent methods, where the error returned by the last call does not conclusively indicate success or failure of the call. For example, if an append times out but succeeds on the back-end , then retrying it may append the data twice to the file. </p>"
   syntax:
     content: public class NoRetryPolicy implements RetryPolicy
 - uid: com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy.shouldRetry(int,Exception)
@@ -177,16 +117,7 @@ references:
   nameWithType: NoRetryPolicy.shouldRetry(int httpResponseCode, Exception lastException)
   fullName: com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy.shouldRetry(int httpResponseCode, Exception lastException)
   type: Method
-  summary: >-
-    <p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>
-
-    <p>If the retry policy requires a wait before the next try, then the<code>shouldRetry 
-
-        </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry 
-
-        </code> method to return. </p>
-
-    <p></p>
+  summary: "<p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>\r\n<p>If the retry policy requires a wait before the next try, then the<code>shouldRetry \r\n    </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry \r\n    </code> method to return. </p>\r\n<p></p>"
   syntax:
     content: public boolean shouldRetry(int httpResponseCode, Exception lastException)
     parameters:
@@ -206,16 +137,7 @@ references:
   nameWithType: NonIdempotentRetryPolicy.shouldRetry(int httpResponseCode, Exception lastException)
   fullName: com.microsoft.azure.datalake.store.retrypolicies.NonIdempotentRetryPolicy.shouldRetry(int httpResponseCode, Exception lastException)
   type: Method
-  summary: >-
-    <p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>
-
-    <p>If the retry policy requires a wait before the next try, then the<code>shouldRetry 
-
-        </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry 
-
-        </code> method to return. </p>
-
-    <p></p>
+  summary: "<p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>\r\n<p>If the retry policy requires a wait before the next try, then the<code>shouldRetry \r\n    </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry \r\n    </code> method to return. </p>\r\n<p></p>"
   syntax:
     content: public boolean shouldRetry(int httpResponseCode, Exception lastException)
     parameters:
@@ -235,16 +157,7 @@ references:
   nameWithType: ExponentialBackoffPolicyforMSI.shouldRetry(int httpResponseCode, Exception lastException)
   fullName: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicyforMSI.shouldRetry(int httpResponseCode, Exception lastException)
   type: Method
-  summary: >-
-    <p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>
-
-    <p>If the retry policy requires a wait before the next try, then the<code>shouldRetry 
-
-        </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry 
-
-        </code> method to return. </p>
-
-    <p></p>
+  summary: "<p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>\r\n<p>If the retry policy requires a wait before the next try, then the<code>shouldRetry \r\n    </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry \r\n    </code> method to return. </p>\r\n<p></p>"
   syntax:
     content: public boolean shouldRetry(int httpResponseCode, Exception lastException)
     parameters:
@@ -264,16 +177,7 @@ references:
   nameWithType: ExponentialBackoffPolicy.shouldRetry(int httpResponseCode, Exception lastException)
   fullName: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicy.shouldRetry(int httpResponseCode, Exception lastException)
   type: Method
-  summary: >-
-    <p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>
-
-    <p>If the retry policy requires a wait before the next try, then the<code>shouldRetry 
-
-        </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry 
-
-        </code> method to return. </p>
-
-    <p></p>
+  summary: "<p>boolean indicating whether a failed request should be retried. Implementations can use the HTTP response code and any exceptions from the last failure to decide whether to retry. </p>\r\n<p>If the retry policy requires a wait before the next try, then the<code>shouldRetry \r\n    </code> method should wait for the appropriate time before responding back. i.e., there is not an explicit contract for waits, but it is implicit in the time taken by the<code>shouldRetry \r\n    </code> method to return. </p>\r\n<p></p>"
   syntax:
     content: public boolean shouldRetry(int httpResponseCode, Exception lastException)
     parameters:

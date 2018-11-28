@@ -413,7 +413,7 @@ references:
   nameWithType: BuildTaskOperationsImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl
   type: Class
-  summary: <p>Represents a build task collection of operations associated with a container registry. </p>
+  summary: "<p>Represents a build task collection of operations associated with a container registry. </p>"
   syntax:
     content: public class BuildTaskOperationsImpl
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.define(String)
@@ -423,10 +423,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.define(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.define(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new build task for the current container registry.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new build task for the current container registry.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.Blank define(String buildTaskName)
     parameters:
@@ -443,7 +440,7 @@ references:
   nameWithType: BuildTask
   fullName: com.microsoft.azure.management.containerregistry.BuildTask
   type: Interface
-  summary: <p>An object that represents a build task for a container registry. </p>
+  summary: "<p>An object that represents a build task for a container registry. </p>"
   syntax:
     content: public interface BuildTask extends ExternalChildResource<BuildTask, Registry>,Resource,HasInner<BuildTaskInner>,Refreshable<BuildTask>,Updatable<BuildTask.Update>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.get(String)
@@ -453,10 +450,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.get(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.get(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified build task.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified build task.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask get(String buildTaskName)
     parameters:
@@ -473,10 +467,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.getAsync(final String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.getAsync(final String buildTaskName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified build task.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified build task.</p>\r\n<p></p>"
   syntax:
     content: public Observable<BuildTask> getAsync(final String buildTaskName)
     parameters:
@@ -493,7 +484,7 @@ references:
   nameWithType: SourceRepositoryProperties
   fullName: com.microsoft.azure.management.containerregistry.SourceRepositoryProperties
   type: Interface
-  summary: <p>The source repository properties for a build task. </p>
+  summary: "<p>The source repository properties for a build task. </p>"
   syntax:
     content: public interface SourceRepositoryProperties
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.getSourceRepositoryProperties(String)
@@ -503,10 +494,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.getSourceRepositoryProperties(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.getSourceRepositoryProperties(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Gets the source control properties for a build task.</p>
-
-    <p></p>
+  summary: "<p>Gets the source control properties for a build task.</p>\r\n<p></p>"
   syntax:
     content: public SourceRepositoryProperties getSourceRepositoryProperties(String buildTaskName)
     parameters:
@@ -523,10 +511,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.getSourceRepositoryPropertiesAsync(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.getSourceRepositoryPropertiesAsync(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Gets the source control properties for a build task.</p>
-
-    <p></p>
+  summary: "<p>Gets the source control properties for a build task.</p>\r\n<p></p>"
   syntax:
     content: public Observable<SourceRepositoryProperties> getSourceRepositoryPropertiesAsync(String buildTaskName)
     parameters:
@@ -543,10 +528,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.delete(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.delete(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Deletes a build task from the container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a build task from the container registry.</p>\r\n<p></p>"
   syntax:
     content: public void delete(String buildTaskName)
     parameters:
@@ -560,10 +542,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.deleteAsync(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.deleteAsync(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Deletes a build task from the container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a build task from the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteAsync(String buildTaskName)
     parameters:
@@ -580,10 +559,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.list()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.list()
   type: Method
-  summary: >-
-    <p>Lists all the build tasks for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the build tasks for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<BuildTask> list()
     return:
@@ -596,10 +572,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.listAsync()
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the build tasks for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the build tasks for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<BuildTask> listAsync()
     return:
@@ -612,10 +585,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.listWithFilter(String filter)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.listWithFilter(String filter)
   type: Method
-  summary: >-
-    <p>Lists all the build tasks for the container registry matching the specified filter.</p>
-
-    <p></p>
+  summary: "<p>Lists all the build tasks for the container registry matching the specified filter.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<BuildTask> listWithFilter(String filter)
     parameters:
@@ -632,10 +602,7 @@ references:
   nameWithType: BuildTaskOperationsImpl.listWithFilterAsync(String filter)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskOperationsImpl.listWithFilterAsync(String filter)
   type: Method
-  summary: >-
-    <p>Lists all the build tasks for the container registry matching the specified filter.</p>
-
-    <p></p>
+  summary: "<p>Lists all the build tasks for the container registry matching the specified filter.</p>\r\n<p></p>"
   syntax:
     content: public Observable<BuildTask> listWithFilterAsync(String filter)
     parameters:

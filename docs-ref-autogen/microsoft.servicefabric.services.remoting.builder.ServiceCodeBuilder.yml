@@ -229,7 +229,7 @@ references:
   nameWithType: CodeBuilderBase.getNames()
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderBase.getNames()
   type: Method
-  summary: <p>Get code builder names. </p>
+  summary: "<p>Get code builder names. </p>"
   syntax:
     content: public CodeBuilderNames getNames()
     return:
@@ -242,7 +242,7 @@ references:
   nameWithType: CodeBuilderBase.getOrBuildMethodBodyTypes(Class<?> interfaceType)
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderBase.getOrBuildMethodBodyTypes(Class<?> interfaceType)
   type: Method
-  summary: <p>Get or Build method body type. </p>
+  summary: "<p>Get or Build method body type. </p>"
   syntax:
     content: public MethodBodyTypesBuildResult getOrBuildMethodBodyTypes(Class<?> interfaceType)
     parameters:
@@ -259,7 +259,7 @@ references:
   nameWithType: CodeBuilderBase.getOrBuildMethodDispatcher(Class<?> interfaceType)
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderBase.getOrBuildMethodDispatcher(Class<?> interfaceType)
   type: Method
-  summary: <p>Get or Build Method Dispatcher. </p>
+  summary: "<p>Get or Build Method Dispatcher. </p>"
   syntax:
     content: public MethodDispatcherBuildResult getOrBuildMethodDispatcher(Class<?> interfaceType)
     parameters:
@@ -276,7 +276,7 @@ references:
   nameWithType: CodeBuilderBase.getOrBuildProxyGenerator(Class<?> interfaceType)
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderBase.getOrBuildProxyGenerator(Class<?> interfaceType)
   type: Method
-  summary: <p>Get or build the proxy generator. </p>
+  summary: "<p>Get or build the proxy generator. </p>"
   syntax:
     content: public ProxyGeneratorBuildResult getOrBuildProxyGenerator(Class<?> interfaceType)
     parameters:
@@ -293,7 +293,7 @@ references:
   nameWithType: CodeBuilderBase
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilderBase
   type: Class
-  summary: <p>Base class from which Actor and Services Code Builder classes extend. </p>
+  summary: "<p>Base class from which Actor and Services Code Builder classes extend. </p>"
   syntax:
     content: public class CodeBuilderBase implements CodeBuilder
 - uid: microsoft.servicefabric.services.remoting.builder.CodeBuilder
@@ -303,7 +303,7 @@ references:
   nameWithType: CodeBuilder
   fullName: microsoft.servicefabric.services.remoting.builder.CodeBuilder
   type: Interface
-  summary: <p>Base interface for Actor and Services code builder singleton classes. </p>
+  summary: "<p>Base interface for Actor and Services code builder singleton classes. </p>"
   syntax:
     content: public interface CodeBuilder
 - uid: microsoft.servicefabric.services.remoting.builder.ServiceCodeBuilder
@@ -313,7 +313,7 @@ references:
   nameWithType: ServiceCodeBuilder
   fullName: microsoft.servicefabric.services.remoting.builder.ServiceCodeBuilder
   type: Class
-  summary: <p>Used to create service proxy object and method dispatcher object. For internal use only. </p>
+  summary: "<p>Used to create service proxy object and method dispatcher object. For internal use only. </p>"
   syntax: *o1
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBuilder
   parent: microsoft.servicefabric.services.remoting.builder
@@ -322,10 +322,7 @@ references:
   nameWithType: MethodDispatcherBuilder<T>
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBuilder<T>
   type: Class
-  summary: >-
-    <p>Used in Actor and Services code builder as Method dispatcher builder. For internal use only.</p>
-
-    <p></p>
+  summary: "<p>Used in Actor and Services code builder as Method dispatcher builder. For internal use only.</p>\r\n<p></p>"
   syntax:
     content: public class MethodDispatcherBuilder<T extends MethodDispatcherBase>
     typeParameters:
@@ -339,7 +336,7 @@ references:
   nameWithType: ServiceMethodDispatcherBase
   fullName: microsoft.servicefabric.services.remoting.builder.ServiceMethodDispatcherBase
   type: Class
-  summary: <p>Abstract class to create Service method dispatcher object. For internal use only. </p>
+  summary: "<p>Abstract class to create Service method dispatcher object. For internal use only. </p>"
   syntax:
     content: public class ServiceMethodDispatcherBase
 - uid: microsoft.servicefabric.services.remoting.builder.MethodBodyTypesBuilder
@@ -349,7 +346,7 @@ references:
   nameWithType: MethodBodyTypesBuilder
   fullName: microsoft.servicefabric.services.remoting.builder.MethodBodyTypesBuilder
   type: Class
-  summary: <p>Method body type builder for Actors and Services. </p>
+  summary: "<p>Method body type builder for Actors and Services. </p>"
   syntax:
     content: public class MethodBodyTypesBuilder
 - uid: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBuildResult
@@ -359,7 +356,7 @@ references:
   nameWithType: MethodDispatcherBuildResult
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBuildResult
   type: Class
-  summary: <p>Method dispatcher build result to be used in Actors and Services. For internal use only. </p>
+  summary: "<p>Method dispatcher build result to be used in Actors and Services. For internal use only. </p>"
   syntax:
     content: public class MethodDispatcherBuildResult
 - uid: microsoft.servicefabric.services.remoting.builder.ProxyGeneratorBuildResult
@@ -369,7 +366,7 @@ references:
   nameWithType: ProxyGeneratorBuildResult
   fullName: microsoft.servicefabric.services.remoting.builder.ProxyGeneratorBuildResult
   type: Class
-  summary: <p>Used in Actor and Services Code builder. For internal use only. </p>
+  summary: "<p>Used in Actor and Services Code builder. For internal use only. </p>"
   syntax:
     content: public class ProxyGeneratorBuildResult
 - uid: microsoft.servicefabric.services.remoting.builder.ServiceProxyGenerator
@@ -379,6 +376,6 @@ references:
   nameWithType: ServiceProxyGenerator
   fullName: microsoft.servicefabric.services.remoting.builder.ServiceProxyGenerator
   type: Class
-  summary: <p>Used in Service code builder to create service proxy base object. For internal use only. </p>
+  summary: "<p>Used in Service code builder to create service proxy base object. For internal use only. </p>"
   syntax:
     content: public class ServiceProxyGenerator

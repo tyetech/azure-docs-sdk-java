@@ -40,10 +40,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -56,10 +53,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -72,10 +66,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -104,10 +95,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithEnabled.withLogging()
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithEnabled.withLogging()
   type: Method
-  summary: >-
-    <p>Enable flow logging.</p>
-
-    <p></p>
+  summary: "<p>Enable flow logging.</p>\r\n<p></p>"
   syntax:
     content: public Update withLogging()
     return:
@@ -120,10 +108,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithEnabled.withoutLogging()
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithEnabled.withoutLogging()
   type: Method
-  summary: >-
-    <p>Disable flow logging.</p>
-
-    <p></p>
+  summary: "<p>Disable flow logging.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutLogging()
     return:
@@ -136,7 +121,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithRetentionPolicy.withRetentionPolicyDays(int days)
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithRetentionPolicy.withRetentionPolicyDays(int days)
   type: Method
-  summary: <p>Set the number of days to store flow log. </p>
+  summary: "<p>Set the number of days to store flow log. </p>"
   syntax:
     content: public Update withRetentionPolicyDays(int days)
     parameters:
@@ -153,7 +138,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithRetentionPolicy.withRetentionPolicyDisabled()
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithRetentionPolicy.withRetentionPolicyDisabled()
   type: Method
-  summary: <p>Disable retention policy. </p>
+  summary: "<p>Disable retention policy. </p>"
   syntax:
     content: public Update withRetentionPolicyDisabled()
     return:
@@ -166,7 +151,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithRetentionPolicy.withRetentionPolicyEnabled()
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithRetentionPolicy.withRetentionPolicyEnabled()
   type: Method
-  summary: <p>Enable retention policy. </p>
+  summary: "<p>Enable retention policy. </p>"
   syntax:
     content: public Update withRetentionPolicyEnabled()
     return:
@@ -179,7 +164,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithStorageAccount.withStorageAccount(String storageId)
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithStorageAccount.withStorageAccount(String storageId)
   type: Method
-  summary: <p>Specifies the storage account to use for storing log. </p>
+  summary: "<p>Specifies the storage account to use for storing log. </p>"
   syntax:
     content: public Update withStorageAccount(String storageId)
     parameters:
@@ -196,10 +181,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -213,7 +195,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithEnabled
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithEnabled
   type: Interface
-  summary: <p>The stage of the flow log information update allowing to set enable/disable property. </p>
+  summary: "<p>The stage of the flow log information update allowing to set enable/disable property. </p>"
   syntax:
     content: public interface WithEnabled
 - uid: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithStorageAccount
@@ -223,7 +205,7 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithStorageAccount
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithStorageAccount
   type: Interface
-  summary: <p>The stage of the flow log information update allowing to specify storage account. </p>
+  summary: "<p>The stage of the flow log information update allowing to specify storage account. </p>"
   syntax:
     content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithRetentionPolicy
@@ -233,6 +215,6 @@ references:
   nameWithType: FlowLogSettings.UpdateStages.WithRetentionPolicy
   fullName: com.microsoft.azure.management.network.FlowLogSettings.UpdateStages.WithRetentionPolicy
   type: Interface
-  summary: <p>The stage of the flow log information update allowing to configure retention policy. </p>
+  summary: "<p>The stage of the flow log information update allowing to configure retention policy. </p>"
   syntax:
     content: public interface WithRetentionPolicy

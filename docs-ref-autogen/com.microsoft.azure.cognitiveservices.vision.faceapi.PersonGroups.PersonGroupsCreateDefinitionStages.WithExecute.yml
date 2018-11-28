@@ -90,10 +90,7 @@ references:
   nameWithType: PersonGroups.PersonGroupsCreateDefinitionStages.WithAllOptions.withName(String name)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinitionStages.WithAllOptions.withName(String name)
   type: Method
-  summary: >-
-    <p>User defined name, maximum length is 128.</p>
-
-    <p></p>
+  summary: "<p>User defined name, maximum length is 128.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupsCreateDefinitionStages.WithExecute withName(String name)
     parameters:
@@ -109,10 +106,7 @@ references:
   nameWithType: PersonGroups.PersonGroupsCreateDefinitionStages.WithAllOptions.withUserData(String userData)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinitionStages.WithAllOptions.withUserData(String userData)
   type: Method
-  summary: >-
-    <p>User specified data. Length should not exceed 16KB.</p>
-
-    <p></p>
+  summary: "<p>User specified data. Length should not exceed 16KB.</p>\r\n<p></p>"
   syntax:
     content: public PersonGroupsCreateDefinitionStages.WithExecute withUserData(String userData)
     parameters:
@@ -128,7 +122,7 @@ references:
   nameWithType: PersonGroups.PersonGroupsCreateDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinition
@@ -138,6 +132,6 @@ references:
   nameWithType: PersonGroups.PersonGroupsCreateDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinition
   type: Interface
-  summary: <p>The entirety of create definition. </p>
+  summary: "<p>The entirety of create definition. </p>"
   syntax:
     content: public interface PersonGroupsCreateDefinition extends PersonGroups.PersonGroupsCreateDefinitionStages.WithPersonGroupId,PersonGroups.PersonGroupsCreateDefinitionStages.WithExecute

@@ -560,12 +560,7 @@ references:
   nameWithType: FabricActorService
   fullName: microsoft.servicefabric.actors.runtime.FabricActorService
   type: Class
-  summary: >-
-    <p>Represents the base class for Microsoft Service Fabric based reliable actors service. </p>
-
-    <p>
-
-      <b>Remarks:</b>Derive from this class to implement your own custom actor service if you want to override any service level behavior for your actors. </p>
+  summary: "<p>Represents the base class for Microsoft Service Fabric based reliable actors service. </p>\r\n<p>\r\n  <b>Remarks:</b>Derive from this class to implement your own custom actor service if you want to override any service level behavior for your actors. </p>"
   syntax:
     content: public class FabricActorService extends StatefulServiceBase implements ActorService
 - uid: microsoft.servicefabric.services.runtime.StatefulService
@@ -575,7 +570,7 @@ references:
   nameWithType: StatefulService
   fullName: microsoft.servicefabric.services.runtime.StatefulService
   type: Class
-  summary: <p>Represents the base class for Microsoft Service Fabric based stateful reliable service which provides an <xref uid="microsoft.servicefabric.data.ReliableStateManager" data-throw-if-not-resolved="false">microsoft.servicefabric.data.ReliableStateManager</xref> to manager service's state Derive from this class to implement a Microsoft Service Fabric based stateful reliable service. </p>
+  summary: "<p>Represents the base class for Microsoft Service Fabric based stateful reliable service which provides an <xref uid=\"microsoft.servicefabric.data.ReliableStateManager\" data-throw-if-not-resolved=\"false\">microsoft.servicefabric.data.ReliableStateManager</xref> to manager service's state Derive from this class to implement a Microsoft Service Fabric based stateful reliable service. </p>"
   syntax:
     content: public class StatefulService extends StatefulServiceBase
 - uid: microsoft.servicefabric.data.RestoreContext
@@ -585,10 +580,7 @@ references:
   nameWithType: RestoreContext
   fullName: microsoft.servicefabric.data.RestoreContext
   type: Class
-  summary: >-
-    <p>
-
-      <xref uid="microsoft.servicefabric.data.RestoreContext" data-throw-if-not-resolved="false">RestoreContext</xref> contains the <xref uid="microsoft.servicefabric.data.RestoreContext.restoreAsync(RestoreDescription)" data-throw-if-not-resolved="false">RestoreContext#restoreAsync(RestoreDescription)</xref> that can be used to restore the state of the replica from a backup. </p>
+  summary: "<p>\r\n  <xref uid=\"microsoft.servicefabric.data.RestoreContext\" data-throw-if-not-resolved=\"false\">RestoreContext</xref> contains the <xref uid=\"microsoft.servicefabric.data.RestoreContext.restoreAsync(RestoreDescription)\" data-throw-if-not-resolved=\"false\">RestoreContext#restoreAsync(RestoreDescription)</xref> that can be used to restore the state of the replica from a backup. </p>"
   syntax:
     content: public class RestoreContext
 - uid: system.fabric.StatefulServiceContext
@@ -598,7 +590,7 @@ references:
   nameWithType: StatefulServiceContext
   fullName: system.fabric.StatefulServiceContext
   type: Class
-  summary: <p>Represents the service context that the stateful service is operating under. </p>
+  summary: "<p>Represents the service context that the stateful service is operating under. </p>"
   syntax:
     content: public class StatefulServiceContext
 - uid: microsoft.servicefabric.data.StateProviderReplica
@@ -608,7 +600,7 @@ references:
   nameWithType: StateProviderReplica
   fullName: microsoft.servicefabric.data.StateProviderReplica
   type: Interface
-  summary: <p>Defines methods a reliable state provider replica must implement for Service Fabric to interact with it. </p>
+  summary: "<p>Defines methods a reliable state provider replica must implement for Service Fabric to interact with it. </p>"
   syntax:
     content: public interface StateProviderReplica
 - uid: system.fabric.StatefulServicePartition
@@ -627,7 +619,7 @@ references:
   nameWithType: ServiceReplicaListener
   fullName: microsoft.servicefabric.services.communication.runtime.ServiceReplicaListener
   type: Class
-  summary: <p>Represents the communication listener and its properties for a Stateful Service Replica. Endpoints given out by the communication listener are associated with name of the communication listener. </p>
+  summary: "<p>Represents the communication listener and its properties for a Stateful Service Replica. Endpoints given out by the communication listener are associated with name of the communication listener. </p>"
   syntax:
     content: public class ServiceReplicaListener
 - uid: system.fabric.ReplicaOpenMode
@@ -637,7 +629,7 @@ references:
   nameWithType: ReplicaOpenMode
   fullName: system.fabric.ReplicaOpenMode
   type: Enum
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public enum ReplicaOpenMode
 - uid: system.fabric.CancellationToken
@@ -647,7 +639,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: system.fabric.ReplicaRole
@@ -657,12 +649,7 @@ references:
   nameWithType: ReplicaRole
   fullName: system.fabric.ReplicaRole
   type: Enum
-  summary: >-
-    <p>Indicates the role of a stateful service replica. </p>
-
-    <p>
-
-      <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>
+  summary: "<p>Indicates the role of a stateful service replica. </p>\r\n<p>\r\n  <b>Remarks:</b>Service Fabric requires different behaviors from a service replica depending on what role it currently performs. </p>"
   syntax:
     content: public enum ReplicaRole
 - uid: system.fabric.StatefulServiceReplica.changeRoleAsync(ReplicaRole,CancellationToken)
@@ -672,12 +659,7 @@ references:
   nameWithType: StatefulServiceReplica.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   fullName: system.fabric.StatefulServiceReplica.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>Changes the role of a Primary or Secondary replica.</p>
-
-    <p>
-
-      <b>Remarks:</b>The new role is indicated as a parameter. When the service transitions to the new role, the service has a chance to update its current listening address. The listening address is the address where clients connect to it. This enables the service when it is a Primary replica to only claim some resources such as ports when communication from clients is expected. </p>
+  summary: "<p>Changes the role of a Primary or Secondary replica.</p>\r\n<p>\r\n  <b>Remarks:</b>The new role is indicated as a parameter. When the service transitions to the new role, the service has a chance to update its current listening address. The listening address is the address where clients connect to it. This enables the service when it is a Primary replica to only claim some resources such as ports when communication from clients is expected. </p>"
   syntax:
     content: public CompletableFuture<String> changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
@@ -700,7 +682,7 @@ references:
   nameWithType: BackupDescription
   fullName: microsoft.servicefabric.data.BackupDescription
   type: Class
-  summary: <p>A BackupDescription contains all of the information necessary to backup a stateful service replica. </p>
+  summary: "<p>A BackupDescription contains all of the information necessary to backup a stateful service replica. </p>"
   syntax:
     content: public class BackupDescription
 - uid: microsoft.servicefabric.services.runtime.StatefulServiceBase
@@ -710,5 +692,5 @@ references:
   nameWithType: StatefulServiceBase
   fullName: microsoft.servicefabric.services.runtime.StatefulServiceBase
   type: Class
-  summary: <p>Represents base class for Microsoft Service Fabric based stateful reliable service. </p>
+  summary: "<p>Represents base class for Microsoft Service Fabric based stateful reliable service. </p>"
   syntax: *o1

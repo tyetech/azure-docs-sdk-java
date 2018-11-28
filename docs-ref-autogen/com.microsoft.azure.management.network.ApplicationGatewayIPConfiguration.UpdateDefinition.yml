@@ -42,7 +42,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -55,7 +55,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Subnet subnet)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Subnet subnet)
   type: Method
-  summary: <p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>
+  summary: "<p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingSubnet(Subnet subnet)
     parameters:
@@ -72,7 +72,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>.withExistingSubnet(Network network, String subnetName)
   type: Method
-  summary: <p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>
+  summary: "<p>Specifies an existing subnet the application gateway should be part of and get its private IP address from. </p>"
   syntax:
     content: public WithAttach<ParentT> withExistingSubnet(Network network, String subnetName)
     parameters:
@@ -92,7 +92,7 @@ references:
   nameWithType: HasSubnet.UpdateDefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.UpdateDefinitionStages.WithSubnet<ReturnT>.withExistingSubnet(String parentNetworkResourceId, String subnetName)
   type: Method
-  summary: <p>Assigns the specified subnet to this resource. </p>
+  summary: "<p>Assigns the specified subnet to this resource. </p>"
   syntax:
     content: public ReturnT withExistingSubnet(String parentNetworkResourceId, String subnetName)
     parameters:
@@ -112,7 +112,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of an application gateway IP configuration definition. </p>
+  summary: "<p>The first stage of an application gateway IP configuration definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -126,7 +126,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway IP configuration definition allowing to specify the subnet the application gateway is on. </p>
+  summary: "<p>The stage of an application gateway IP configuration definition allowing to specify the subnet the application gateway is on. </p>"
   syntax:
     content: public interface WithSubnet<ParentT>
     typeParameters:
@@ -140,10 +140,7 @@ references:
   nameWithType: ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayIPConfiguration.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of an application gateway IP configuration definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>
+  summary: "<p>The final stage of an application gateway IP configuration definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent application gateway definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:

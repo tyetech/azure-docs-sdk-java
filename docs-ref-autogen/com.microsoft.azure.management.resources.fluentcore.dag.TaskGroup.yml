@@ -200,10 +200,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.DAGraph(NodeT rootNode)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.DAGraph(NodeT rootNode)
   type: Constructor
-  summary: >-
-    <p>Creates a new DAG.</p>
-
-    <p></p>
+  summary: "<p>Creates a new DAG.</p>\r\n<p></p>"
   syntax:
     content: public DAGraph(NodeT rootNode)
     parameters:
@@ -217,10 +214,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.getNext()
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.getNext()
   type: Method
-  summary: >-
-    <p>Gets next node in the DAG which has no dependency or all of it's dependencies are resolved and ready to be consumed.</p>
-
-    <p></p>
+  summary: "<p>Gets next node in the DAG which has no dependency or all of it's dependencies are resolved and ready to be consumed.</p>\r\n<p></p>"
   syntax:
     content: public NodeT getNext()
     return:
@@ -233,7 +227,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.getNode(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.getNode(String key)
   type: Method
-  summary: <p>Gets a node from the graph with the given key. </p>
+  summary: "<p>Gets a node from the graph with the given key. </p>"
   syntax:
     content: public NodeT getNode(String key)
     parameters:
@@ -280,10 +274,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.isRootNode(NodeT node)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.isRootNode(NodeT node)
   type: Method
-  summary: >-
-    <p>Checks whether the given node is root node of this DAG.</p>
-
-    <p></p>
+  summary: "<p>Checks whether the given node is root node of this DAG.</p>\r\n<p></p>"
   syntax:
     content: public boolean isRootNode(NodeT node)
     parameters:
@@ -303,12 +294,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.merge(DAGraph<DataT, NodeT> parent)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.merge(DAGraph<DataT, NodeT> parent)
   type: Method
-  summary: >-
-    <p>Merge this DAG with another DAG. </p>
-
-    <p>This will mark this DAG as a child DAG, the dependencies of nodes in this DAG will be merged with (copied to) the parent DAG</p>
-
-    <p></p>
+  summary: "<p>Merge this DAG with another DAG. </p>\r\n<p>This will mark this DAG as a child DAG, the dependencies of nodes in this DAG will be merged with (copied to) the parent DAG</p>\r\n<p></p>"
   syntax:
     content: public void merge(DAGraph<DataT, NodeT> parent)
     parameters:
@@ -322,10 +308,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.mergeChildToParent(String parentKey, NodeT childNode)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.mergeChildToParent(String parentKey, NodeT childNode)
   type: Method
-  summary: >-
-    <p>Merges DAG associated with childNode to DAG associated with a parent node of given key.</p>
-
-    <p></p>
+  summary: "<p>Merges DAG associated with childNode to DAG associated with a parent node of given key.</p>\r\n<p></p>"
   syntax:
     content: public void mergeChildToParent(String parentKey, NodeT childNode)
     parameters:
@@ -342,7 +325,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.prepare()
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.prepare()
   type: Method
-  summary: <p>Prepares this DAG for traversal using getNext method, each call to getNext returns next node in the DAG with no dependencies. </p>
+  summary: "<p>Prepares this DAG for traversal using getNext method, each call to getNext returns next node in the DAG with no dependencies. </p>"
   syntax:
     content: public void prepare()
 - uid: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph.reportCompletion(NodeT)
@@ -352,10 +335,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.reportCompletion(NodeT completed)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.reportCompletion(NodeT completed)
   type: Method
-  summary: >-
-    <p>Reports that a node is resolved hence other nodes depends on it can consume it.</p>
-
-    <p></p>
+  summary: "<p>Reports that a node is resolved hence other nodes depends on it can consume it.</p>\r\n<p></p>"
   syntax:
     content: public void reportCompletion(NodeT completed)
     parameters:
@@ -369,10 +349,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>.reportError(NodeT faulted, Throwable throwable)
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT, NodeT extends DAGNode<DataT, NodeT>.reportError(NodeT faulted, Throwable throwable)
   type: Method
-  summary: >-
-    <p>Reports that a node is faulted.</p>
-
-    <p></p>
+  summary: "<p>Reports that a node is faulted.</p>\r\n<p></p>"
   syntax:
     content: public void reportError(NodeT faulted, Throwable throwable)
     parameters:
@@ -389,12 +366,7 @@ references:
   nameWithType: DAGraph<DataT,NodeT,NodeT>
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.DAGraph<DataT,NodeT,NodeT>
   type: Class
-  summary: >-
-    <p>Type representing a DAG (directed acyclic graph). </p>
-
-    <p>each node in a DAG is represented by <xref uid="com.microsoft.azure.management.resources.fluentcore.dag.DAGNode" data-throw-if-not-resolved="false">DAGNode</xref></p>
-
-    <p></p>
+  summary: "<p>Type representing a DAG (directed acyclic graph). </p>\r\n<p>each node in a DAG is represented by <xref uid=\"com.microsoft.azure.management.resources.fluentcore.dag.DAGNode\" data-throw-if-not-resolved=\"false\">DAGNode</xref></p>\r\n<p></p>"
   syntax:
     content: public class DAGraph<DataT,NodeT extends DAGNode<DataT,NodeT>> extends Graph<DataT, NodeT>
     typeParameters:
@@ -414,10 +386,7 @@ references:
   nameWithType: TaskItem<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.TaskItem<T>
   type: Interface
-  summary: >-
-    <p>Type representing a task in a task group <xref uid="com.microsoft.azure.management.resources.fluentcore.dag.TaskGroup" data-throw-if-not-resolved="false">TaskGroup</xref>.</p>
-
-    <p></p>
+  summary: "<p>Type representing a task in a task group <xref uid=\"com.microsoft.azure.management.resources.fluentcore.dag.TaskGroup\" data-throw-if-not-resolved=\"false\">TaskGroup</xref>.</p>\r\n<p></p>"
   syntax:
     content: public interface TaskItem<T>
     typeParameters:
@@ -431,7 +400,7 @@ references:
   nameWithType: TaskGroupTerminateOnErrorStrategy
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.TaskGroupTerminateOnErrorStrategy
   type: Enum
-  summary: <p>Defines task group termination strategies to be used once a task error-ed. </p>
+  summary: "<p>Defines task group termination strategies to be used once a task error-ed. </p>"
   syntax:
     content: public enum TaskGroupTerminateOnErrorStrategy
 - uid: com.microsoft.azure.management.resources.fluentcore.dag.TaskGroupTerminateOnErrorStrategy.TERMINATE_ON_INPROGRESS_TASKS_COMPLETION
@@ -441,7 +410,7 @@ references:
   nameWithType: TaskGroupTerminateOnErrorStrategy.TERMINATE_ON_INPROGRESS_TASKS_COMPLETION
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.TaskGroupTerminateOnErrorStrategy.TERMINATE_ON_INPROGRESS_TASKS_COMPLETION
   type: Field
-  summary: <p>Indicate that on task error, allows for any currently executing tasks to finish and emit onError terminal event with <xref uid="" data-throw-if-not-resolved="false">rx.exceptions.CompositeException</xref>. </p>
+  summary: "<p>Indicate that on task error, allows for any currently executing tasks to finish and emit onError terminal event with <xref uid=\"\" data-throw-if-not-resolved=\"false\">rx.exceptions.CompositeException</xref>. </p>"
   syntax:
     content: public TERMINATE_ON_INPROGRESS_TASKS_COMPLETION
 - uid: com.microsoft.azure.management.resources.fluentcore.dag.TaskGroup
@@ -451,8 +420,5 @@ references:
   nameWithType: TaskGroup<ResultT,TaskT>
   fullName: com.microsoft.azure.management.resources.fluentcore.dag.TaskGroup<ResultT,TaskT>
   type: Class
-  summary: >-
-    <p>Type representing a group of task entries, each entry holds a <xref uid="com.microsoft.azure.management.resources.fluentcore.dag.TaskItem" data-throw-if-not-resolved="false">TaskItem</xref> and associated dependency information.</p>
-
-    <p></p>
+  summary: "<p>Type representing a group of task entries, each entry holds a <xref uid=\"com.microsoft.azure.management.resources.fluentcore.dag.TaskItem\" data-throw-if-not-resolved=\"false\">TaskItem</xref> and associated dependency information.</p>\r\n<p></p>"
   syntax: *o1

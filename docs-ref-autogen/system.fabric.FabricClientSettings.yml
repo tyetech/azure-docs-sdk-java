@@ -696,7 +696,7 @@ references:
   nameWithType: FabricClientSettings
   fullName: system.fabric.FabricClientSettings
   type: Class
-  summary: <p>Represents the configuration settings for the <xref uid="system.fabric.FabricClient" data-throw-if-not-resolved="false">system.fabric.FabricClient</xref> class. </p>
+  summary: "<p>Represents the configuration settings for the <xref uid=\"system.fabric.FabricClient\" data-throw-if-not-resolved=\"false\">system.fabric.FabricClient</xref> class. </p>"
   syntax: *o1
 - uid: system.fabric.FabricClientSettings.getServiceChangePollInterval()
   parent: system.fabric.FabricClientSettings
@@ -705,12 +705,7 @@ references:
   nameWithType: FabricClientSettings.getServiceChangePollInterval()
   fullName: system.fabric.FabricClientSettings.getServiceChangePollInterval()
   type: Method
-  summary: >-
-    <p>Gets the timeout on service change notification requests from the client to the gateway for all registered callbacks.</p>
-
-    <p>
-
-      <b>Remarks:</b>The default value of this property is 120 seconds. </p>
+  summary: "<p>Gets the timeout on service change notification requests from the client to the gateway for all registered callbacks.</p>\r\n<p>\r\n  <b>Remarks:</b>The default value of this property is 120 seconds. </p>"
   syntax: *o2
 - uid: system.fabric.FabricClient
   parent: system.fabric
@@ -719,11 +714,6 @@ references:
   nameWithType: FabricClient
   fullName: system.fabric.FabricClient
   type: Class
-  summary: >-
-    <p>Client for a Service Fabric cluster. </p>
-
-    <p>
-
-      <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>
+  summary: "<p>Client for a Service Fabric cluster. </p>\r\n<p>\r\n  <b>Remarks:</b>It is highly recommended that you share FabricClients as much as possible. This is because the FabricClient has multiple optimizations such as caching and batching that you would not be able to fully utilize otherwise. </p>"
   syntax:
     content: public class FabricClient

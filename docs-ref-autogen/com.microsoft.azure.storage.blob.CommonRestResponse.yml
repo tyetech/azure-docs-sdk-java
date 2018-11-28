@@ -237,7 +237,7 @@ references:
   nameWithType: BlockBlobUploadResponse
   fullName: com.microsoft.azure.storage.blob.models.BlockBlobUploadResponse
   type: Class
-  summary: <p>Contains all response data for the upload operation. </p>
+  summary: "<p>Contains all response data for the upload operation. </p>"
   syntax:
     content: public class BlockBlobUploadResponse
 - uid: com.microsoft.azure.storage.blob.models.BlockBlobCommitBlockListResponse
@@ -247,7 +247,7 @@ references:
   nameWithType: BlockBlobCommitBlockListResponse
   fullName: com.microsoft.azure.storage.blob.models.BlockBlobCommitBlockListResponse
   type: Class
-  summary: <p>Contains all response data for the commitBlockList operation. </p>
+  summary: "<p>Contains all response data for the commitBlockList operation. </p>"
   syntax:
     content: public class BlockBlobCommitBlockListResponse
 - uid: com.microsoft.azure.storage.blob.CommonRestResponse
@@ -257,7 +257,7 @@ references:
   nameWithType: CommonRestResponse
   fullName: com.microsoft.azure.storage.blob.CommonRestResponse
   type: Class
-  summary: <p>A generic wrapper for any type of blob REST API response. Used and returned by methods in the <xref uid="com.microsoft.azure.storage.blob.TransferManager" data-throw-if-not-resolved="false">TransferManager</xref> class. The methods there return this type because they represent composite operations which may conclude with any of several possible REST calls depending on the data provided. </p>
+  summary: "<p>A generic wrapper for any type of blob REST API response. Used and returned by methods in the <xref uid=\"com.microsoft.azure.storage.blob.TransferManager\" data-throw-if-not-resolved=\"false\">TransferManager</xref> class. The methods there return this type because they represent composite operations which may conclude with any of several possible REST calls depending on the data provided. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.TransferManager
   parent: com.microsoft.azure.storage.blob
@@ -266,6 +266,6 @@ references:
   nameWithType: TransferManager
   fullName: com.microsoft.azure.storage.blob.TransferManager
   type: Class
-  summary: <p>This class contains a collection of methods (and structures associated with those methods) which perform higher-level operations. Whereas operations on the URL types guarantee a single REST request and make no assumptions on desired behavior, these methods will often compose several requests to provide a convenient way of performing more complex operations. Further, we will make our own assumptions and optimizations for common cases that may not be ideal for rarer cases. </p>
+  summary: "<p>This class contains a collection of methods (and structures associated with those methods) which perform higher-level operations. Whereas operations on the URL types guarantee a single REST request and make no assumptions on desired behavior, these methods will often compose several requests to provide a convenient way of performing more complex operations. Further, we will make our own assumptions and optimizations for common cases that may not be ideal for rarer cases. </p>"
   syntax:
     content: public class TransferManager

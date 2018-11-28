@@ -334,10 +334,7 @@ references:
   nameWithType: SqlDatabase.defineThreatDetectionPolicy(String policyName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.defineThreatDetectionPolicy(String policyName)
   type: Method
-  summary: >-
-    <p>Begins a definition for a security alert policy.</p>
-
-    <p></p>
+  summary: "<p>Begins a definition for a security alert policy.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy.DefinitionStages.Blank defineThreatDetectionPolicy(String policyName)
     parameters:
@@ -354,7 +351,7 @@ references:
   nameWithType: SqlDatabase.delete()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.delete()
   type: Method
-  summary: <p>Deletes the database from the server. </p>
+  summary: "<p>Deletes the database from the server. </p>"
   syntax:
     content: public void delete()
 - uid: com.microsoft.azure.management.sql.SqlDatabase.deleteAsync()
@@ -364,10 +361,7 @@ references:
   nameWithType: SqlDatabase.deleteAsync()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.deleteAsync()
   type: Method
-  summary: >-
-    <p>Deletes the database asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Deletes the database asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteAsync()
     return:
@@ -416,10 +410,7 @@ references:
   nameWithType: SqlDatabase.exportTo(String storageUri)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.exportTo(String storageUri)
   type: Method
-  summary: >-
-    <p>Exports the current database to a specified URI path.</p>
-
-    <p></p>
+  summary: "<p>Exports the current database to a specified URI path.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseExportRequest.DefinitionStages.WithStorageTypeAndKey exportTo(String storageUri)
     parameters:
@@ -436,10 +427,7 @@ references:
   nameWithType: SqlDatabase.exportTo(StorageAccount storageAccount, String containerName, String fileName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.exportTo(StorageAccount storageAccount, String containerName, String fileName)
   type: Method
-  summary: >-
-    <p>Exports the current database to an existing storage account and relative path.</p>
-
-    <p></p>
+  summary: "<p>Exports the current database to an existing storage account and relative path.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseExportRequest.DefinitionStages.WithAuthenticationTypeAndLoginPassword exportTo(StorageAccount storageAccount, String containerName, String fileName)
     parameters:
@@ -462,10 +450,7 @@ references:
   nameWithType: SqlDatabase.exportTo(Creatable<StorageAccount> storageAccountCreatable, String containerName, String fileName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.exportTo(Creatable<StorageAccount> storageAccountCreatable, String containerName, String fileName)
   type: Method
-  summary: >-
-    <p>Exports the current database to a new storage account and relative path.</p>
-
-    <p></p>
+  summary: "<p>Exports the current database to a new storage account and relative path.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseExportRequest.DefinitionStages.WithAuthenticationTypeAndLoginPassword exportTo(Creatable<StorageAccount> storageAccountCreatable, String containerName, String fileName)
     parameters:
@@ -488,10 +473,7 @@ references:
   nameWithType: SqlDatabase.getDatabaseAutomaticTuning()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.getDatabaseAutomaticTuning()
   type: Method
-  summary: >-
-    <p>Gets a SQL database automatic tuning state and options.</p>
-
-    <p></p>
+  summary: "<p>Gets a SQL database automatic tuning state and options.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseAutomaticTuning getDatabaseAutomaticTuning()
     return:
@@ -504,10 +486,7 @@ references:
   nameWithType: SqlDatabase.getThreatDetectionPolicy()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.getThreatDetectionPolicy()
   type: Method
-  summary: >-
-    <p>Gets a SQL database threat detection policy.</p>
-
-    <p></p>
+  summary: "<p>Gets a SQL database threat detection policy.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseThreatDetectionPolicy getThreatDetectionPolicy()
     return:
@@ -520,10 +499,7 @@ references:
   nameWithType: SqlDatabase.getTransparentDataEncryption()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.getTransparentDataEncryption()
   type: Method
-  summary: >-
-    <p>Gets an Azure SQL Database Transparent Data Encryption for this database.</p>
-
-    <p></p>
+  summary: "<p>Gets an Azure SQL Database Transparent Data Encryption for this database.</p>\r\n<p></p>"
   syntax:
     content: public TransparentDataEncryption getTransparentDataEncryption()
     return:
@@ -536,10 +512,7 @@ references:
   nameWithType: SqlDatabase.getTransparentDataEncryptionAsync()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.getTransparentDataEncryptionAsync()
   type: Method
-  summary: >-
-    <p>Gets an Azure SQL Database Transparent Data Encryption for this database.</p>
-
-    <p></p>
+  summary: "<p>Gets an Azure SQL Database Transparent Data Encryption for this database.</p>\r\n<p></p>"
   syntax:
     content: public Observable<TransparentDataEncryption> getTransparentDataEncryptionAsync()
     return:
@@ -588,10 +561,7 @@ references:
   nameWithType: SqlDatabase.importBacpac(String storageUri)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.importBacpac(String storageUri)
   type: Method
-  summary: >-
-    <p>Imports into the current database from a specified URI path; the current database must be empty.</p>
-
-    <p></p>
+  summary: "<p>Imports into the current database from a specified URI path; the current database must be empty.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseImportRequest.DefinitionStages.WithStorageTypeAndKey importBacpac(String storageUri)
     parameters:
@@ -608,10 +578,7 @@ references:
   nameWithType: SqlDatabase.importBacpac(StorageAccount storageAccount, String containerName, String fileName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.importBacpac(StorageAccount storageAccount, String containerName, String fileName)
   type: Method
-  summary: >-
-    <p>Imports into the current database from an existing storage account and relative path; the current database must be empty.</p>
-
-    <p></p>
+  summary: "<p>Imports into the current database from an existing storage account and relative path; the current database must be empty.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabaseImportRequest.DefinitionStages.WithAuthenticationTypeAndLoginPassword importBacpac(StorageAccount storageAccount, String containerName, String fileName)
     parameters:
@@ -798,10 +765,7 @@ references:
   nameWithType: SqlDatabase.listUsageMetrics()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.listUsageMetrics()
   type: Method
-  summary: >-
-    <p>Lists the SQL database usage metrics.</p>
-
-    <p></p>
+  summary: "<p>Lists the SQL database usage metrics.</p>\r\n<p></p>"
   syntax:
     content: public List<SqlDatabaseUsageMetric> listUsageMetrics()
     return:
@@ -814,10 +778,7 @@ references:
   nameWithType: SqlDatabase.listUsageMetricsAsync()
   fullName: com.microsoft.azure.management.sql.SqlDatabase.listUsageMetricsAsync()
   type: Method
-  summary: >-
-    <p>Asynchronously lists the SQL database usage metrics.</p>
-
-    <p></p>
+  summary: "<p>Asynchronously lists the SQL database usage metrics.</p>\r\n<p></p>"
   syntax:
     content: public Observable<SqlDatabaseUsageMetric> listUsageMetricsAsync()
     return:
@@ -902,10 +863,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -918,10 +876,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -958,10 +913,7 @@ references:
   nameWithType: SqlDatabase.rename(String newDatabaseName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.rename(String newDatabaseName)
   type: Method
-  summary: >-
-    <p>Renames the database.</p>
-
-    <p></p>
+  summary: "<p>Renames the database.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase rename(String newDatabaseName)
     parameters:
@@ -978,10 +930,7 @@ references:
   nameWithType: SqlDatabase.renameAsync(String newDatabaseName)
   fullName: com.microsoft.azure.management.sql.SqlDatabase.renameAsync(String newDatabaseName)
   type: Method
-  summary: >-
-    <p>Renames the database asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Renames the database asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<SqlDatabase> renameAsync(String newDatabaseName)
     parameters:
@@ -1082,12 +1031,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1100,9 +1044,6 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase extends IndependentChildResource<SqlServerManager, DatabaseInner>,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>,ExternalChildResource<SqlDatabase, SqlServer>,HasInner<DatabaseInner>,HasResourceGroup,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>

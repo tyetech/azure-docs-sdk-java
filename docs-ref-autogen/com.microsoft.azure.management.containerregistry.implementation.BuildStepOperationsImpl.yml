@@ -289,7 +289,7 @@ references:
   nameWithType: BuildStepOperations
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations
   type: Interface
-  summary: <p>Grouping of container registry build steps actions. </p>
+  summary: "<p>Grouping of container registry build steps actions. </p>"
   syntax:
     content: public interface BuildStepOperations
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -299,7 +299,7 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax:
     content: public class RegistryImpl
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
@@ -309,7 +309,7 @@ references:
   nameWithType: BuildTaskImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
   type: Class
-  summary: <p>Implementation for BuildTask. </p>
+  summary: "<p>Implementation for BuildTask. </p>"
   syntax:
     content: public class BuildTaskImpl
 - uid: com.microsoft.azure.management.containerregistry.BuildStepOperations.define(String)
@@ -319,10 +319,7 @@ references:
   nameWithType: BuildStepOperations.define(String buildStepName)
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations.define(String buildStepName)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new build step for the current build task.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new build step for the current build task.</p>\r\n<p></p>"
   syntax:
     content: public BuildStep.BuildTaskBuildStepsDefinitionStages.Blank define(String buildStepName)
     parameters:
@@ -339,7 +336,7 @@ references:
   nameWithType: BuildStep
   fullName: com.microsoft.azure.management.containerregistry.BuildStep
   type: Interface
-  summary: <p>An object that represents a build step for a build task in a container registry. </p>
+  summary: "<p>An object that represents a build step for a build task in a container registry. </p>"
   syntax:
     content: public interface BuildStep extends ExternalChildResource<BuildStep, BuildTask>,HasName,HasId,HasInner<BuildStepInner>,Refreshable<BuildStep>,Updatable<BuildStep.Update>
 - uid: com.microsoft.azure.management.containerregistry.BuildStepOperations.get(String)
@@ -349,10 +346,7 @@ references:
   nameWithType: BuildStepOperations.get(String buildStepName)
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations.get(String buildStepName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified build step.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified build step.</p>\r\n<p></p>"
   syntax:
     content: public BuildStep get(String buildStepName)
     parameters:
@@ -369,10 +363,7 @@ references:
   nameWithType: BuildStepOperations.getAsync(String buildStepName)
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations.getAsync(String buildStepName)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified build step.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified build step.</p>\r\n<p></p>"
   syntax:
     content: public Observable<BuildStep> getAsync(String buildStepName)
     parameters:
@@ -389,10 +380,7 @@ references:
   nameWithType: BuildStepOperations.delete(String buildStepName)
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations.delete(String buildStepName)
   type: Method
-  summary: >-
-    <p>Deletes a build step from the build task of a container registry.</p>
-
-    <p></p>
+  summary: "<p>Deletes a build step from the build task of a container registry.</p>\r\n<p></p>"
   syntax:
     content: public void delete(String buildStepName)
     parameters:
@@ -406,10 +394,7 @@ references:
   nameWithType: BuildStepOperations.deleteAsync(String buildStepName)
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations.deleteAsync(String buildStepName)
   type: Method
-  summary: >-
-    <p>Deletes a build step from the build task of a container registry asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Deletes a build step from the build task of a container registry asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Completable deleteAsync(String buildStepName)
     parameters:
@@ -426,10 +411,7 @@ references:
   nameWithType: BuildStepOperations.list()
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations.list()
   type: Method
-  summary: >-
-    <p>Lists all the build steps for current build task of the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the build steps for current build task of the container registry.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<BuildStep> list()
     return:
@@ -442,10 +424,7 @@ references:
   nameWithType: BuildStepOperations.listAsync()
   fullName: com.microsoft.azure.management.containerregistry.BuildStepOperations.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the build steps for the current build task of the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the build steps for the current build task of the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<BuildStep> listAsync()
     return:

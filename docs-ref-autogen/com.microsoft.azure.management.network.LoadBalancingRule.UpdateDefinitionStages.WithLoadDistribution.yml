@@ -78,10 +78,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithAttach<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithAttach<ReturnT>
   type: Interface
-  summary: >-
-    <p>The final stage of the load balancing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the load balancing rule definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ReturnT> extends Attachable<ParentT>.InUpdate<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithFloatingIP<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithIdleTimeoutInMinutes<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithLoadDistribution<ReturnT>,LoadBalancingRule.UpdateDefinitionStages.WithProbe<ReturnT>
     typeParameters:
@@ -95,6 +92,6 @@ references:
   nameWithType: LoadDistribution
   fullName: com.microsoft.azure.management.network.LoadDistribution
   type: Class
-  summary: <p>Defines values for LoadDistribution. </p>
+  summary: "<p>Defines values for LoadDistribution. </p>"
   syntax:
     content: public class LoadDistribution

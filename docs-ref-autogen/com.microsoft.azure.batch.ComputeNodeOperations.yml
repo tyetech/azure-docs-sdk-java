@@ -1346,7 +1346,7 @@ references:
   nameWithType: IInheritedBehaviors
   fullName: com.microsoft.azure.batch.IInheritedBehaviors
   type: Interface
-  summary: <p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>
+  summary: "<p>This interface defines methods and properties that are inherited from the instantiating parent object. Classes that implement this interface inherit behaviors when they are instantiated. In this model, the collections are independent but the members are shared references. Members of this collection alter or customize various behaviors of Azure Batch service client objects. These behaviors are generally inherited by any child class instances. Modifications are applied in the order of the collection. The last write wins. </p>"
   syntax:
     content: public interface IInheritedBehaviors
 - uid: com.microsoft.azure.batch.BatchClientBehavior
@@ -1356,7 +1356,7 @@ references:
   nameWithType: BatchClientBehavior
   fullName: com.microsoft.azure.batch.BatchClientBehavior
   type: Class
-  summary: <p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>
+  summary: "<p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>"
   syntax:
     content: public class BatchClientBehavior
 - uid: com.microsoft.azure.batch.BatchClient
@@ -1366,7 +1366,7 @@ references:
   nameWithType: BatchClient
   fullName: com.microsoft.azure.batch.BatchClient
   type: Class
-  summary: <p>A client for an Azure Batch account, used to access the Batch service. </p>
+  summary: "<p>A client for an Azure Batch account, used to access the Batch service. </p>"
   syntax:
     content: public class BatchClient
 - uid: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
@@ -1376,10 +1376,7 @@ references:
   nameWithType: IInheritedBehaviors.customBehaviors()
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.customBehaviors()
   type: Method
-  summary: >-
-    <p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Gets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public Collection<BatchClientBehavior> customBehaviors()
     return:
@@ -1392,10 +1389,7 @@ references:
   nameWithType: IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   fullName: com.microsoft.azure.batch.IInheritedBehaviors.withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
   type: Method
-  summary: >-
-    <p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Sets a collection of behaviors that modify or customize requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public IInheritedBehaviors withCustomBehaviors(Collection<BatchClientBehavior> behaviors)
     parameters:
@@ -1412,7 +1406,7 @@ references:
   nameWithType: ComputeNodeUser
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeUser
   type: Class
-  summary: <p>A user account for RDP or SSH access on a compute node. </p>
+  summary: "<p>A user account for RDP or SSH access on a compute node. </p>"
   syntax:
     content: public class ComputeNodeUser
 - uid: com.microsoft.azure.batch.protocol.models.BatchErrorException
@@ -1422,7 +1416,7 @@ references:
   nameWithType: BatchErrorException
   fullName: com.microsoft.azure.batch.protocol.models.BatchErrorException
   type: Class
-  summary: <p>Exception thrown for an invalid response with BatchError information. </p>
+  summary: "<p>Exception thrown for an invalid response with BatchError information. </p>"
   syntax:
     content: public class BatchErrorException
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNode
@@ -1432,7 +1426,7 @@ references:
   nameWithType: ComputeNode
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNode
   type: Class
-  summary: <p>A compute node in the Batch service. </p>
+  summary: "<p>A compute node in the Batch service. </p>"
   syntax:
     content: public class ComputeNode
 - uid: com.microsoft.azure.batch.DetailLevel
@@ -1442,7 +1436,7 @@ references:
   nameWithType: DetailLevel
   fullName: com.microsoft.azure.batch.DetailLevel
   type: Class
-  summary: <p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>
+  summary: "<p>Controls the amount of detail requested from the Azure Batch service when listing or retrieving resources. </p>"
   syntax:
     content: public class DetailLevel
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeState.IDLE
@@ -1452,7 +1446,7 @@ references:
   nameWithType: ComputeNodeState.IDLE
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.IDLE
   type: Field
-  summary: <p>The node is not currently running a task. </p>
+  summary: "<p>The node is not currently running a task. </p>"
   syntax:
     content: public IDLE=("idle")
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeState.RUNNING
@@ -1462,7 +1456,7 @@ references:
   nameWithType: ComputeNodeState.RUNNING
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeState.RUNNING
   type: Field
-  summary: <p>The node is running one or more tasks (other than a start task). </p>
+  summary: "<p>The node is running one or more tasks (other than a start task). </p>"
   syntax:
     content: public RUNNING=("running")
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeRebootOption
@@ -1472,7 +1466,7 @@ references:
   nameWithType: ComputeNodeRebootOption
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeRebootOption
   type: Enum
-  summary: <p>Defines values for ComputeNodeRebootOption. </p>
+  summary: "<p>Defines values for ComputeNodeRebootOption. </p>"
   syntax:
     content: public enum ComputeNodeRebootOption
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeReimageOption
@@ -1482,7 +1476,7 @@ references:
   nameWithType: ComputeNodeReimageOption
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeReimageOption
   type: Enum
-  summary: <p>Defines values for ComputeNodeReimageOption. </p>
+  summary: "<p>Defines values for ComputeNodeReimageOption. </p>"
   syntax:
     content: public enum ComputeNodeReimageOption
 - uid: com.microsoft.azure.batch.protocol.models.DisableComputeNodeSchedulingOption
@@ -1492,7 +1486,7 @@ references:
   nameWithType: DisableComputeNodeSchedulingOption
   fullName: com.microsoft.azure.batch.protocol.models.DisableComputeNodeSchedulingOption
   type: Enum
-  summary: <p>Defines values for DisableComputeNodeSchedulingOption. </p>
+  summary: "<p>Defines values for DisableComputeNodeSchedulingOption. </p>"
   syntax:
     content: public enum DisableComputeNodeSchedulingOption
 - uid: com.microsoft.azure.batch.protocol.models.ComputeNodeGetRemoteLoginSettingsResult
@@ -1502,7 +1496,7 @@ references:
   nameWithType: ComputeNodeGetRemoteLoginSettingsResult
   fullName: com.microsoft.azure.batch.protocol.models.ComputeNodeGetRemoteLoginSettingsResult
   type: Class
-  summary: <p>The remote login settings for a compute node. </p>
+  summary: "<p>The remote login settings for a compute node. </p>"
   syntax:
     content: public class ComputeNodeGetRemoteLoginSettingsResult
 - uid: com.microsoft.azure.batch.protocol.models.UploadBatchServiceLogsResult
@@ -1512,7 +1506,7 @@ references:
   nameWithType: UploadBatchServiceLogsResult
   fullName: com.microsoft.azure.batch.protocol.models.UploadBatchServiceLogsResult
   type: Class
-  summary: <p>The result of uploading Batch service log files from a specific compute node. </p>
+  summary: "<p>The result of uploading Batch service log files from a specific compute node. </p>"
   syntax:
     content: public class UploadBatchServiceLogsResult
 - uid: com.microsoft.azure.batch.protocol.models.NodeUpdateUserParameter
@@ -1522,6 +1516,6 @@ references:
   nameWithType: NodeUpdateUserParameter
   fullName: com.microsoft.azure.batch.protocol.models.NodeUpdateUserParameter
   type: Class
-  summary: <p>The set of changes to be made to a user account on a node. </p>
+  summary: "<p>The set of changes to be made to a user account on a node. </p>"
   syntax:
     content: public class NodeUpdateUserParameter

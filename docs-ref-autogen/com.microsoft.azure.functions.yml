@@ -23,7 +23,7 @@ items:
     remote:
       path: '[generated]'
     path: '[generated]'
-  summary: "<p>The root package for the Java API for Azure Functions. </p>"
+  summary: "<p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information. Root package </p>"
   syntax:
     content: package com.microsoft.azure.functions
 references:
@@ -33,7 +33,7 @@ references:
   nameWithType: com.microsoft.azure.functions.annotation
   fullName: com.microsoft.azure.functions.annotation
   type: Namespace
-  summary: <p>Annotations and support classes for use as part of the Java API for Azure Functions. </p>
+  summary: "<p>Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. See License.txt in the project root for license information. Annotations and support classes for use as part of the Java API for Azure Functions. </p>"
   syntax:
     content: package com.microsoft.azure.functions.annotation
 - uid: com.microsoft.azure.functions.ExecutionContext
@@ -43,10 +43,7 @@ references:
   nameWithType: ExecutionContext
   fullName: com.microsoft.azure.functions.ExecutionContext
   type: Interface
-  summary: >-
-    <p>The execution context enables interaction with the Azure Functions execution environment.</p>
-
-    <p></p>
+  summary: "<p>The execution context enables interaction with the Azure Functions execution environment.</p>\r\n<p></p>"
   syntax:
     content: public interface ExecutionContext
 - uid: com.microsoft.azure.functions.HttpMethod
@@ -56,10 +53,6 @@ references:
   nameWithType: HttpMethod
   fullName: com.microsoft.azure.functions.HttpMethod
   type: Enum
-  summary: >-
-    <p>Enum for HTTP methods in the HTTP Binding of Azure Functions.</p>
-
-    <p></p>
   syntax:
     content: public enum HttpMethod
 - uid: com.microsoft.azure.functions.HttpRequestMessage
@@ -69,10 +62,7 @@ references:
   nameWithType: HttpRequestMessage<T>
   fullName: com.microsoft.azure.functions.HttpRequestMessage<T>
   type: Interface
-  summary: >-
-    <p>An HttpRequestMessage instance is provided to Azure functions that use <xref uid="com.microsoft.azure.functions.annotation.HttpTrigger" data-throw-if-not-resolved="false">HTTP Triggers</xref>. For an example of how to use the http functionality of Azure Functions, refer to the example in the <xref uid="com.microsoft.azure.functions.annotation.HttpTrigger" data-throw-if-not-resolved="false">com.microsoft.azure.functions.annotation.HttpTrigger</xref></p>
-
-    <p></p>
+  summary: "<p>An HttpRequestMessage instance is provided to Azure functions that use <xref uid=\"com.microsoft.azure.functions.annotation.HttpTrigger\" data-throw-if-not-resolved=\"false\">HTTP Triggers</xref>. For an example of how to use the http functionality of Azure Functions, refer to the example in the <xref uid=\"com.microsoft.azure.functions.annotation.HttpTrigger\" data-throw-if-not-resolved=\"false\">com.microsoft.azure.functions.annotation.HttpTrigger</xref></p>\r\n<p></p>"
   syntax:
     content: public interface HttpRequestMessage<T>
     typeParameters:
@@ -86,10 +76,7 @@ references:
   nameWithType: HttpResponseMessage
   fullName: com.microsoft.azure.functions.HttpResponseMessage
   type: Interface
-  summary: >-
-    <p>An HttpResponseMessage instance is returned by Azure Functions methods that are triggered by an <xref uid="com.microsoft.azure.functions.annotation.HttpTrigger" data-throw-if-not-resolved="false">com.microsoft.azure.functions.annotation.HttpTrigger</xref>.</p>
-
-    <p></p>
+  summary: "<p>An HttpResponseMessage instance is returned by Azure Functions methods that are triggered by an <xref uid=\"com.microsoft.azure.functions.annotation.HttpTrigger\" data-throw-if-not-resolved=\"false\">com.microsoft.azure.functions.annotation.HttpTrigger</xref>.</p>\r\n<p></p>"
   syntax:
     content: public interface HttpResponseMessage
 - uid: com.microsoft.azure.functions.HttpStatus
@@ -99,12 +86,7 @@ references:
   nameWithType: HttpStatus
   fullName: com.microsoft.azure.functions.HttpStatus
   type: Enum
-  summary: >-
-    <p>Enum to represent HTTP Status codes.</p>
-
-    <p>This enum lists all standard HTTP 1.1 status lines. For custom codes, please refer to <xref uid="com.microsoft.azure.functions.HttpStatusType.custom(final int)" data-throw-if-not-resolved="false">HttpStatusType#custom(int)</xref>.</p>
-
-    <p></p>
+  summary: "<p>Enum to represent HTTP Status codes.</p>\r\n<p>This enum lists all standard HTTP 1.1 status lines. For custom codes, please refer to <xref uid=\"com.microsoft.azure.functions.HttpStatusType.custom(final int)\" data-throw-if-not-resolved=\"false\">HttpStatusType#custom(int)</xref>.</p>\r\n<p></p>"
   syntax:
     content: public enum HttpStatus implements HttpStatusType
 - uid: com.microsoft.azure.functions.HttpStatusTest
@@ -114,7 +96,7 @@ references:
   nameWithType: HttpStatusTest
   fullName: com.microsoft.azure.functions.HttpStatusTest
   type: Class
-  summary: <p>Unit tests that enforce annotation contracts and conventions for Functions </p>
+  summary: "<p>Unit tests that enforce annotation contracts and conventions for Functions </p>"
   syntax:
     content: public class HttpStatusTest
 - uid: com.microsoft.azure.functions.HttpStatusType
@@ -124,10 +106,7 @@ references:
   nameWithType: HttpStatusType
   fullName: com.microsoft.azure.functions.HttpStatusType
   type: Interface
-  summary: >-
-    <p>Defines an HTTP Status Type</p>
-
-    <p></p>
+  summary: "<p>Defines an HTTP Status Type</p>\r\n<p></p>"
   syntax:
     content: public interface HttpStatusType
 - uid: com.microsoft.azure.functions.OutputBinding
@@ -137,10 +116,7 @@ references:
   nameWithType: OutputBinding<T>
   fullName: com.microsoft.azure.functions.OutputBinding<T>
   type: Interface
-  summary: >-
-    <p>This type should be used with the parameter of output bindings.</p>
-
-    <p></p>
+  summary: "<p>This type should be used with the parameter of output bindings.</p>\r\n<p></p>"
   syntax:
     content: public interface OutputBinding<T>
     typeParameters:
@@ -153,9 +129,6 @@ references:
   nameWithType: HttpResponseMessage.Builder
   fullName: com.microsoft.azure.functions.HttpResponseMessage.Builder
   type: Interface
-  summary: >-
-    <p>A builder to create an instance of HttpResponseMessage</p>
-
-    <p></p>
+  summary: "<p>A builder to create an instance of HttpResponseMessage </p>"
   syntax:
     content: public interface Builder

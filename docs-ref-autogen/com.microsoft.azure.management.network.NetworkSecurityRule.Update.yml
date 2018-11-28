@@ -120,7 +120,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDirectionAccess.allowInbound()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDirectionAccess.allowInbound()
   type: Method
-  summary: <p>Allows inbound traffic. </p>
+  summary: "<p>Allows inbound traffic. </p>"
   syntax:
     content: public Update allowInbound()
     return:
@@ -133,7 +133,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDirectionAccess.allowOutbound()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDirectionAccess.allowOutbound()
   type: Method
-  summary: <p>Allows outbound traffic. </p>
+  summary: "<p>Allows outbound traffic. </p>"
   syntax:
     content: public Update allowOutbound()
     return:
@@ -146,7 +146,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDirectionAccess.denyInbound()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDirectionAccess.denyInbound()
   type: Method
-  summary: <p>Blocks inbound traffic. </p>
+  summary: "<p>Blocks inbound traffic. </p>"
   syntax:
     content: public Update denyInbound()
     return:
@@ -159,7 +159,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDirectionAccess.denyOutbound()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDirectionAccess.denyOutbound()
   type: Method
-  summary: <p>Blocks outbound traffic. </p>
+  summary: "<p>Blocks outbound traffic. </p>"
   syntax:
     content: public Update denyOutbound()
     return:
@@ -172,7 +172,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithSourceAddress.fromAddress(String cidr)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourceAddress.fromAddress(String cidr)
   type: Method
-  summary: <p>Specifies the traffic source address prefix to which this rule applies. </p>
+  summary: "<p>Specifies the traffic source address prefix to which this rule applies. </p>"
   syntax:
     content: public Update fromAddress(String cidr)
     parameters:
@@ -189,7 +189,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithSourceAddress.fromAnyAddress()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourceAddress.fromAnyAddress()
   type: Method
-  summary: <p>Specifies that the rule applies to any traffic source address. </p>
+  summary: "<p>Specifies that the rule applies to any traffic source address. </p>"
   syntax:
     content: public Update fromAnyAddress()
     return:
@@ -202,7 +202,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithSourcePort.fromAnyPort()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourcePort.fromAnyPort()
   type: Method
-  summary: <p>Makes this rule apply to any source port. </p>
+  summary: "<p>Makes this rule apply to any source port. </p>"
   syntax:
     content: public Update fromAnyPort()
     return:
@@ -215,7 +215,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithSourcePort.fromPort(int port)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourcePort.fromPort(int port)
   type: Method
-  summary: <p>Specifies the source port to which this rule applies. </p>
+  summary: "<p>Specifies the source port to which this rule applies. </p>"
   syntax:
     content: public Update fromPort(int port)
     parameters:
@@ -232,7 +232,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithSourcePort.fromPortRange(int from, int to)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourcePort.fromPortRange(int from, int to)
   type: Method
-  summary: <p>Specifies the source port range to which this rule applies. </p>
+  summary: "<p>Specifies the source port range to which this rule applies. </p>"
   syntax:
     content: public Update fromPortRange(int from, int to)
     parameters:
@@ -252,12 +252,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -270,7 +265,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDestinationAddress.toAddress(String cidr)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationAddress.toAddress(String cidr)
   type: Method
-  summary: <p>Specifies the traffic destination address range to which this rule applies. </p>
+  summary: "<p>Specifies the traffic destination address range to which this rule applies. </p>"
   syntax:
     content: public Update toAddress(String cidr)
     parameters:
@@ -287,7 +282,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDestinationAddress.toAnyAddress()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationAddress.toAnyAddress()
   type: Method
-  summary: <p>Makes the rule apply to any traffic destination address. </p>
+  summary: "<p>Makes the rule apply to any traffic destination address. </p>"
   syntax:
     content: public Update toAnyAddress()
     return:
@@ -300,7 +295,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDestinationPort.toAnyPort()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationPort.toAnyPort()
   type: Method
-  summary: <p>Makes this rule apply to any destination port. </p>
+  summary: "<p>Makes this rule apply to any destination port. </p>"
   syntax:
     content: public Update toAnyPort()
     return:
@@ -313,7 +308,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDestinationPort.toPort(int port)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationPort.toPort(int port)
   type: Method
-  summary: <p>Specifies the destination port to which this rule applies. </p>
+  summary: "<p>Specifies the destination port to which this rule applies. </p>"
   syntax:
     content: public Update toPort(int port)
     parameters:
@@ -330,7 +325,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDestinationPort.toPortRange(int from, int to)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationPort.toPortRange(int from, int to)
   type: Method
-  summary: <p>Specifies the destination port range to which this rule applies. </p>
+  summary: "<p>Specifies the destination port range to which this rule applies. </p>"
   syntax:
     content: public Update toPortRange(int from, int to)
     parameters:
@@ -350,7 +345,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithProtocol.withAnyProtocol()
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithProtocol.withAnyProtocol()
   type: Method
-  summary: <p>Makes this rule apply to any supported protocol. </p>
+  summary: "<p>Makes this rule apply to any supported protocol. </p>"
   syntax:
     content: public Update withAnyProtocol()
     return:
@@ -363,7 +358,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithProtocol.withProtocol(SecurityRuleProtocol protocol)
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithProtocol.withProtocol(SecurityRuleProtocol protocol)
   type: Method
-  summary: <p>Specifies the protocol that this rule applies to. </p>
+  summary: "<p>Specifies the protocol that this rule applies to. </p>"
   syntax:
     content: public Update withProtocol(SecurityRuleProtocol protocol)
     parameters:
@@ -380,7 +375,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDirectionAccess
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDirectionAccess
   type: Interface
-  summary: <p>The stage of the network rule description allowing the direction and the access type to be specified. </p>
+  summary: "<p>The stage of the network rule description allowing the direction and the access type to be specified. </p>"
   syntax:
     content: public interface WithDirectionAccess
 - uid: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourceAddress
@@ -390,7 +385,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithSourceAddress
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourceAddress
   type: Interface
-  summary: <p>The stage of the network rule description allowing the source address to be specified. </p>
+  summary: "<p>The stage of the network rule description allowing the source address to be specified. </p>"
   syntax:
     content: public interface WithSourceAddress
 - uid: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourcePort
@@ -400,7 +395,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithSourcePort
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithSourcePort
   type: Interface
-  summary: <p>The stage of the network rule description allowing the source port(s) to be specified. </p>
+  summary: "<p>The stage of the network rule description allowing the source port(s) to be specified. </p>"
   syntax:
     content: public interface WithSourcePort
 - uid: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationAddress
@@ -410,7 +405,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDestinationAddress
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationAddress
   type: Interface
-  summary: <p>The stage of the network rule description allowing the destination address to be specified. </p>
+  summary: "<p>The stage of the network rule description allowing the destination address to be specified. </p>"
   syntax:
     content: public interface WithDestinationAddress
 - uid: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationPort
@@ -420,7 +415,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithDestinationPort
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithDestinationPort
   type: Interface
-  summary: <p>The stage of the network rule description allowing the destination port(s) to be specified. </p>
+  summary: "<p>The stage of the network rule description allowing the destination port(s) to be specified. </p>"
   syntax:
     content: public interface WithDestinationPort
 - uid: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithProtocol
@@ -430,7 +425,7 @@ references:
   nameWithType: NetworkSecurityRule.UpdateStages.WithProtocol
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.UpdateStages.WithProtocol
   type: Interface
-  summary: <p>The stage of the security rule description allowing the protocol that the rule applies to to be specified. </p>
+  summary: "<p>The stage of the security rule description allowing the protocol that the rule applies to to be specified. </p>"
   syntax:
     content: public interface WithProtocol
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Settable
@@ -440,10 +435,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -457,5 +449,5 @@ references:
   nameWithType: NetworkSecurityRule.Update
   fullName: com.microsoft.azure.management.network.NetworkSecurityRule.Update
   type: Interface
-  summary: <p>The entirety of a security rule update as part of a network security group update. </p>
+  summary: "<p>The entirety of a security rule update as part of a network security group update. </p>"
   syntax: *o1

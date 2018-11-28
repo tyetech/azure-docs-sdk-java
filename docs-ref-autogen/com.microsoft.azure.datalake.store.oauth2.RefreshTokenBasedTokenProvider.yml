@@ -149,10 +149,7 @@ references:
   nameWithType: AccessTokenProvider.getToken()
   fullName: com.microsoft.azure.datalake.store.oauth2.AccessTokenProvider.getToken()
   type: Method
-  summary: >-
-    <p>returns the <xref uid="com.microsoft.azure.datalake.store.oauth2.AzureADToken" data-throw-if-not-resolved="false">AzureADToken</xref> cached (or retrieved) by this instance.</p>
-
-    <p></p>
+  summary: "<p>returns the <xref uid=\"com.microsoft.azure.datalake.store.oauth2.AzureADToken\" data-throw-if-not-resolved=\"false\">AzureADToken</xref> cached (or retrieved) by this instance.</p>\r\n<p></p>"
   syntax:
     content: public synchronized AzureADToken getToken()
     return:
@@ -179,10 +176,7 @@ references:
   nameWithType: AccessTokenProvider
   fullName: com.microsoft.azure.datalake.store.oauth2.AccessTokenProvider
   type: Class
-  summary: >-
-    <p>Returns an Azure Active Directory token when requested. The provider can cache the token if it has already retrieved one. If it does, then the provider is responsible for checking expiry and refreshing as needed. </p>
-
-    <p>In other words, this is is a token cache that fetches tokens when requested, if the cached token has expired. </p>
+  summary: "<p>Returns an Azure Active Directory token when requested. The provider can cache the token if it has already retrieved one. If it does, then the provider is responsible for checking expiry and refreshing as needed. </p>\r\n<p>In other words, this is is a token cache that fetches tokens when requested, if the cached token has expired. </p>"
   syntax:
     content: public class AccessTokenProvider
 - uid: com.microsoft.azure.datalake.store.oauth2.RefreshTokenInfo
@@ -192,7 +186,7 @@ references:
   nameWithType: RefreshTokenInfo
   fullName: com.microsoft.azure.datalake.store.oauth2.RefreshTokenInfo
   type: Class
-  summary: <p>Information about the refresh token, and the associated access token </p>
+  summary: "<p>Information about the refresh token, and the associated access token </p>"
   syntax:
     content: public class RefreshTokenInfo
 - uid: com.microsoft.azure.datalake.store.oauth2.AzureADToken
@@ -202,6 +196,6 @@ references:
   nameWithType: AzureADToken
   fullName: com.microsoft.azure.datalake.store.oauth2.AzureADToken
   type: Class
-  summary: <p>Object represnting the AAD access token to use when making HTTP requests to Azure Data Lake Storage. </p>
+  summary: "<p>Object represnting the AAD access token to use when making HTTP requests to Azure Data Lake Storage. </p>"
   syntax:
     content: public class AzureADToken

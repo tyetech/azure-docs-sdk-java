@@ -47,7 +47,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -60,7 +60,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>.withDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>.withDnsPrefix(String dnsPrefix)
   type: Method
-  summary: <p>Specify the DNS prefix to be used in the FQDN for the agent pool. </p>
+  summary: "<p>Specify the DNS prefix to be used in the FQDN for the agent pool. </p>"
   syntax:
     content: public WithAttach<ParentT> withDnsPrefix(String dnsPrefix)
     parameters:
@@ -77,10 +77,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>.withOSDiskSizeInGB(int osDiskSizeInGB)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSDiskSize<ParentT>.withOSDiskSizeInGB(int osDiskSizeInGB)
   type: Method
-  summary: >-
-    <p>OS Disk Size in GB to be used for every machine in the agent pool.</p>
-
-    <p></p>
+  summary: "<p>OS Disk Size in GB to be used for every machine in the agent pool.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withOSDiskSizeInGB(int osDiskSizeInGB)
     parameters:
@@ -97,10 +94,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithOSType<ParentT>.withOSType(OSType osType)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithOSType<ParentT>.withOSType(OSType osType)
   type: Method
-  summary: >-
-    <p>OS type to be used for every machine in the agent pool.</p>
-
-    <p>Default is Linux. </p>
+  summary: "<p>OS type to be used for every machine in the agent pool.</p>\r\n<p>Default is Linux. </p>"
   syntax:
     content: public WithAttach<ParentT> withOSType(OSType osType)
     parameters:
@@ -117,10 +111,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithPorts<ParentT>.withPorts(int... ports)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithPorts<ParentT>.withPorts(int... ports)
   type: Method
-  summary: >-
-    <p>Ports to be exposed on this agent pool. </p>
-
-    <p>The default exposed ports are different based on your choice of orchestrator. </p>
+  summary: "<p>Ports to be exposed on this agent pool. </p>\r\n<p>The default exposed ports are different based on your choice of orchestrator. </p>"
   syntax:
     content: public WithAttach<ParentT> withPorts(int... ports)
     parameters:
@@ -137,10 +128,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithStorageProfile<ParentT>.withStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithStorageProfile<ParentT>.withStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   type: Method
-  summary: >-
-    <p>Specifies the storage kind to be used for each virtual machine in the agent pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage kind to be used for each virtual machine in the agent pool.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
     parameters:
@@ -157,10 +145,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>.withVirtualMachineCount(int count)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>.withVirtualMachineCount(int count)
   type: Method
-  summary: >-
-    <p>Specifies the number of agents (virtual machines) to host docker containers.</p>
-
-    <p></p>
+  summary: "<p>Specifies the number of agents (virtual machines) to host docker containers.</p>\r\n<p></p>"
   syntax:
     content: public WithVMSize<ParentT> withVirtualMachineCount(int count)
     parameters:
@@ -177,7 +162,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>.withVirtualMachineSize(ContainerServiceVMSizeTypes vmSize)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>.withVirtualMachineSize(ContainerServiceVMSizeTypes vmSize)
   type: Method
-  summary: <p>Specifies the size of the agent virtual machines. </p>
+  summary: "<p>Specifies the size of the agent virtual machines. </p>"
   syntax:
     content: public WithLeafDomainLabel<ParentT> withVirtualMachineSize(ContainerServiceVMSizeTypes vmSize)
     parameters:
@@ -194,10 +179,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>.withVirtualNetwork(String virtualNetworkId, String subnetName)
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>.withVirtualNetwork(String virtualNetworkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the virtual network to be used for the agents.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual network to be used for the agents.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withVirtualNetwork(String virtualNetworkId, String subnetName)
     parameters:
@@ -217,7 +199,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>
+  summary: "<p>The final stage of a container service agent pool definition. At this stage, any remaining optional settings can be specified, or the container service agent pool can be attached to the parent container service definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -231,10 +213,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a container service agent pool definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a container service agent pool definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT>
     typeParameters:
@@ -248,10 +227,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithVMSize<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the agent virtual machine size.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the agent virtual machine size.</p>\r\n<p></p>"
   syntax:
     content: public interface WithVMSize<ParentT>
     typeParameters:
@@ -265,10 +241,7 @@ references:
   nameWithType: ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceAgentPool.DefinitionStages.WithLeafDomainLabel<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a container service agent pool definition allowing to specify the DNS prefix.</p>
-
-    <p></p>
+  summary: "<p>The stage of a container service agent pool definition allowing to specify the DNS prefix.</p>\r\n<p></p>"
   syntax:
     content: public interface WithLeafDomainLabel<ParentT>
     typeParameters:

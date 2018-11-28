@@ -82,7 +82,7 @@ references:
   nameWithType: WebAppSourceControl.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a web app source control definition. </p>
+  summary: "<p>The entirety of a web app source control definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends WebAppSourceControl.DefinitionStages.Blank<ParentT>,WebAppSourceControl.DefinitionStages.WithAttach<ParentT>,WebAppSourceControl.DefinitionStages.GitHubWithAttach<ParentT>,WebAppSourceControl.DefinitionStages.WithRepositoryType<ParentT>,WebAppSourceControl.DefinitionStages.WithBranch<ParentT>,WebAppSourceControl.DefinitionStages.WithGitHubBranch<ParentT>
     typeParameters:
@@ -96,10 +96,7 @@ references:
   nameWithType: WebAppSourceControl.DefinitionStages.GitHubWithAttach<ParentT>
   fullName: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.GitHubWithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the web app source control definition that binds to a GitHub account. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the web app source control definition can be attached to the parent web app definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the web app source control definition that binds to a GitHub account. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the web app source control definition can be attached to the parent web app definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface GitHubWithAttach<ParentT> extends WebAppSourceControl.DefinitionStages.WithAttach<ParentT>,WebAppSourceControl.DefinitionStages.WithGitHubAccessToken<ParentT>
     typeParameters:

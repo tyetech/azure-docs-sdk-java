@@ -98,10 +98,7 @@ references:
   nameWithType: Trainings.TrainingsGetTagDefinitionStages.WithAllOptions.withIterationId(UUID iterationId)
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTagDefinitionStages.WithAllOptions.withIterationId(UUID iterationId)
   type: Method
-  summary: >-
-    <p>The iteration to retrieve this tag from. Optional, defaults to current training set.</p>
-
-    <p></p>
+  summary: "<p>The iteration to retrieve this tag from. Optional, defaults to current training set.</p>\r\n<p></p>"
   syntax:
     content: public TrainingsGetTagDefinitionStages.WithExecute withIterationId(UUID iterationId)
     parameters:
@@ -117,7 +114,7 @@ references:
   nameWithType: Trainings.TrainingsGetTagDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTagDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTagDefinition
@@ -127,7 +124,7 @@ references:
   nameWithType: Trainings.TrainingsGetTagDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTagDefinition
   type: Interface
-  summary: <p>The entirety of getTag definition. </p>
+  summary: "<p>The entirety of getTag definition. </p>"
   syntax:
     content: public interface TrainingsGetTagDefinition extends Trainings.TrainingsGetTagDefinitionStages.WithProjectId,Trainings.TrainingsGetTagDefinitionStages.WithTagId,Trainings.TrainingsGetTagDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Tag
@@ -137,6 +134,6 @@ references:
   nameWithType: Tag
   fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Tag
   type: Class
-  summary: <p>Represents a Tag. </p>
+  summary: "<p>Represents a Tag. </p>"
   syntax:
     content: public class Tag

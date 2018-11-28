@@ -366,7 +366,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionShared
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionShared
   type: Interface
-  summary: <p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>
+  summary: "<p>The virtual machine scale set stages shared between managed and unmanaged based virtual machine scale set definitions. </p>"
   syntax:
     content: public interface DefinitionShared extends VirtualMachineScaleSet.DefinitionStages.Blank,VirtualMachineScaleSet.DefinitionStages.WithGroup,VirtualMachineScaleSet.DefinitionStages.WithSku,VirtualMachineScaleSet.DefinitionStages.WithNetworkSubnet,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternalLoadBalancer,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalLoadBalancerBackendOrNatPool,VirtualMachineScaleSet.DefinitionStages.WithPrimaryInternetFacingLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool,VirtualMachineScaleSet.DefinitionStages.WithOS,VirtualMachineScaleSet.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool
@@ -376,7 +376,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithInternalInternalLoadBalancerNatPool
   type: Interface
-  summary: <p>The stage of the virtual machine scale set definition allowing to associate inbound NAT pools of the selected internal load balancer with the primary network interface of the virtual machines in the scale set. </p>
+  summary: "<p>The stage of the virtual machine scale set definition allowing to associate inbound NAT pools of the selected internal load balancer with the primary network interface of the virtual machines in the scale set. </p>"
   syntax:
     content: public interface WithInternalInternalLoadBalancerNatPool extends VirtualMachineScaleSet.DefinitionStages.WithOS
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged
@@ -386,7 +386,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameManagedOrUnmanaged
   type: Interface
-  summary: <p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>
+  summary: "<p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminUsernameManagedOrUnmanaged
 - uid: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage
@@ -396,7 +396,7 @@ references:
   nameWithType: KnownWindowsVirtualMachineImage
   fullName: com.microsoft.azure.management.compute.KnownWindowsVirtualMachineImage
   type: Enum
-  summary: <p>The popular Azure Windows images. </p>
+  summary: "<p>The popular Azure Windows images. </p>"
   syntax:
     content: public enum KnownWindowsVirtualMachineImage
 - uid: com.microsoft.azure.management.compute.ImageReference
@@ -406,7 +406,7 @@ references:
   nameWithType: ImageReference
   fullName: com.microsoft.azure.management.compute.ImageReference
   type: Class
-  summary: <p>The image reference. </p>
+  summary: "<p>The image reference. </p>"
   syntax:
     content: public class ImageReference
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameManaged
@@ -416,7 +416,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameManaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameManaged
   type: Interface
-  summary: <p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>
+  summary: "<p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminUsernameManaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged
@@ -426,7 +426,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithWindowsAdminUsernameUnmanaged
   type: Interface
-  summary: <p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>
+  summary: "<p>The stage of the Windows virtual machine scale set definition allowing to specify administrator user name. </p>"
   syntax:
     content: public interface WithWindowsAdminUsernameUnmanaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged
@@ -436,7 +436,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameManagedOrUnmanaged
   type: Interface
-  summary: <p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>
+  summary: "<p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>"
   syntax:
     content: public interface WithLinuxRootUsernameManagedOrUnmanaged
 - uid: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage
@@ -446,7 +446,7 @@ references:
   nameWithType: KnownLinuxVirtualMachineImage
   fullName: com.microsoft.azure.management.compute.KnownLinuxVirtualMachineImage
   type: Enum
-  summary: <p>The popular Azure Linux images. </p>
+  summary: "<p>The popular Azure Linux images. </p>"
   syntax:
     content: public enum KnownLinuxVirtualMachineImage
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameManaged
@@ -456,7 +456,7 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameManaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameManaged
   type: Interface
-  summary: <p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>
+  summary: "<p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>"
   syntax:
     content: public interface WithLinuxRootUsernameManaged
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged
@@ -466,6 +466,6 @@ references:
   nameWithType: VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.DefinitionStages.WithLinuxRootUsernameUnmanaged
   type: Interface
-  summary: <p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>
+  summary: "<p>The stage of the Linux virtual machine scale set definition allowing to specify SSH root user name. </p>"
   syntax:
     content: public interface WithLinuxRootUsernameUnmanaged

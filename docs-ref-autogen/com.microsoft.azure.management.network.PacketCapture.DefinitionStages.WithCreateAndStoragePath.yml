@@ -75,10 +75,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -91,10 +88,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -111,10 +105,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -127,7 +118,7 @@ references:
   nameWithType: PacketCapture.DefinitionStages.WithCreate.definePacketCaptureFilter()
   fullName: com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.definePacketCaptureFilter()
   type: Method
-  summary: <p>Begin the definition of packet capture filter. </p>
+  summary: "<p>Begin the definition of packet capture filter. </p>"
   syntax:
     content: public PCFilter.DefinitionStages.Blank<WithCreate> definePacketCaptureFilter()
     return:
@@ -164,10 +155,7 @@ references:
   nameWithType: PacketCapture.DefinitionStages.WithCreate.withBytesToCapturePerPacket(int bytesToCapturePerPacket)
   fullName: com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.withBytesToCapturePerPacket(int bytesToCapturePerPacket)
   type: Method
-  summary: >-
-    <p>Set number of bytes captured per packet, the remaining bytes are truncated.</p>
-
-    <p></p>
+  summary: "<p>Set number of bytes captured per packet, the remaining bytes are truncated.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withBytesToCapturePerPacket(int bytesToCapturePerPacket)
     parameters:
@@ -184,10 +172,7 @@ references:
   nameWithType: PacketCapture.DefinitionStages.WithCreate.withTimeLimitInSeconds(int timeLimitInSeconds)
   fullName: com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.withTimeLimitInSeconds(int timeLimitInSeconds)
   type: Method
-  summary: >-
-    <p>Set maximum duration of the capture session in seconds.</p>
-
-    <p></p>
+  summary: "<p>Set maximum duration of the capture session in seconds.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withTimeLimitInSeconds(int timeLimitInSeconds)
     parameters:
@@ -204,10 +189,7 @@ references:
   nameWithType: PacketCapture.DefinitionStages.WithCreate.withTotalBytesPerSession(int totalBytesPerSession)
   fullName: com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.withTotalBytesPerSession(int totalBytesPerSession)
   type: Method
-  summary: >-
-    <p>Set maximum size of the capture output.</p>
-
-    <p></p>
+  summary: "<p>Set maximum size of the capture output.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withTotalBytesPerSession(int totalBytesPerSession)
     parameters:
@@ -233,6 +215,6 @@ references:
   nameWithType: PacketCapture.Definition
   fullName: com.microsoft.azure.management.network.PacketCapture.Definition
   type: Interface
-  summary: <p>The entirety of the packet capture definition. </p>
+  summary: "<p>The entirety of the packet capture definition. </p>"
   syntax:
     content: public interface Definition extends PacketCapture.DefinitionStages.WithTarget,PacketCapture.DefinitionStages.WithStorageLocation,PacketCapture.DefinitionStages.WithCreateAndStoragePath

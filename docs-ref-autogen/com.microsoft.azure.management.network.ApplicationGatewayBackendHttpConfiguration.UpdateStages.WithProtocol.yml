@@ -31,7 +31,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>.withProtocol(ProtocolT protocol)
   fullName: ReturnT com.microsoft.azure.management.network.model.HasProtocol<ProtocolT>.UpdateStages.WithProtocol<ReturnT, ProtocolT>.withProtocol(ProtocolT protocol)
   type: Method
-  summary: <p>Specifies the transport protocol. </p>
+  summary: "<p>Specifies the transport protocol. </p>"
   syntax:
     content: public ReturnT withProtocol(ProtocolT protocol)
     parameters:
@@ -48,7 +48,7 @@ references:
   nameWithType: HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>
   fullName: com.microsoft.azure.management.network.model.HasProtocol.UpdateStages.WithProtocol<ReturnT,ProtocolT>
   type: Interface
-  summary: <p>The stage of an update allowing to modify the transport protocol. </p>
+  summary: "<p>The stage of an update allowing to modify the transport protocol. </p>"
   syntax:
     content: public interface WithProtocol<ReturnT,ProtocolT>
     typeParameters:
@@ -65,6 +65,6 @@ references:
   nameWithType: ApplicationGatewayBackendHttpConfiguration.Update
   fullName: com.microsoft.azure.management.network.ApplicationGatewayBackendHttpConfiguration.Update
   type: Interface
-  summary: <p>The entirety of an application gateway backend HTTP configuration update as part of an application gateway update. </p>
+  summary: "<p>The entirety of an application gateway backend HTTP configuration update as part of an application gateway update. </p>"
   syntax:
     content: public interface Update extends Settable<ApplicationGateway.Update>,ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithPort,ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithAffinity,ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProtocol,ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithRequestTimeout,ApplicationGatewayBackendHttpConfiguration.UpdateStages.WithProbe

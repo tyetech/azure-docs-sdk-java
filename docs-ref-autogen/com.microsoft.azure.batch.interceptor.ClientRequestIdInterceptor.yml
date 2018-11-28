@@ -64,10 +64,7 @@ references:
   nameWithType: RequestInterceptor.handler()
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.handler()
   type: Method
-  summary: >-
-    <p>Gets the handler which will intercept requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Gets the handler which will intercept requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public BatchRequestInterceptHandler handler()
     return:
@@ -80,7 +77,7 @@ references:
   nameWithType: RequestInterceptor.RequestInterceptor()
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.RequestInterceptor()
   type: Constructor
-  summary: <p>Initializes a new instance of RequestInterceptor. </p>
+  summary: "<p>Initializes a new instance of RequestInterceptor. </p>"
   syntax:
     content: public RequestInterceptor()
 - uid: com.microsoft.azure.batch.interceptor.RequestInterceptor.RequestInterceptor(BatchRequestInterceptHandler)
@@ -90,10 +87,7 @@ references:
   nameWithType: RequestInterceptor.RequestInterceptor(BatchRequestInterceptHandler handler)
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.RequestInterceptor(BatchRequestInterceptHandler handler)
   type: Constructor
-  summary: >-
-    <p>Initializes a new instance of RequestInterceptor.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of RequestInterceptor.</p>\r\n<p></p>"
   syntax:
     content: public RequestInterceptor(BatchRequestInterceptHandler handler)
     parameters:
@@ -107,10 +101,7 @@ references:
   nameWithType: RequestInterceptor.withHandler(BatchRequestInterceptHandler handler)
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor.withHandler(BatchRequestInterceptHandler handler)
   type: Method
-  summary: >-
-    <p>Sets the handler which will intercept requests to the Batch service.</p>
-
-    <p></p>
+  summary: "<p>Sets the handler which will intercept requests to the Batch service.</p>\r\n<p></p>"
   syntax:
     content: public RequestInterceptor withHandler(BatchRequestInterceptHandler handler)
     parameters:
@@ -127,7 +118,7 @@ references:
   nameWithType: RequestInterceptor
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor
   type: Class
-  summary: <p>A <xref uid="com.microsoft.azure.batch.BatchClientBehavior" data-throw-if-not-resolved="false">BatchClientBehavior</xref> that modifies requests to the Batch service. </p>
+  summary: "<p>A <xref uid=\"com.microsoft.azure.batch.BatchClientBehavior\" data-throw-if-not-resolved=\"false\">BatchClientBehavior</xref> that modifies requests to the Batch service. </p>"
   syntax:
     content: public class RequestInterceptor
 - uid: com.microsoft.azure.batch.interceptor.ClientRequestIdInterceptor
@@ -137,5 +128,5 @@ references:
   nameWithType: ClientRequestIdInterceptor
   fullName: com.microsoft.azure.batch.interceptor.ClientRequestIdInterceptor
   type: Class
-  summary: <p>Interceptor which contains a function used to generate a client request ID. If there are multiple instances of this then the last set wins. </p>
+  summary: "<p>Interceptor which contains a function used to generate a client request ID. If there are multiple instances of this then the last set wins. </p>"
   syntax: *o1

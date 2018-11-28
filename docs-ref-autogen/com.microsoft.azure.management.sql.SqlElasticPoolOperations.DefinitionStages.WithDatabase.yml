@@ -171,7 +171,7 @@ references:
   nameWithType: SqlElasticPoolOperations.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.sql.SqlElasticPoolOperations.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A SQL Server definition with sufficient inputs to create a new SQL Elastic Pool in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Server definition with sufficient inputs to create a new SQL Elastic Pool in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends SqlElasticPoolOperations.DefinitionStages.WithDatabaseDtuMin,SqlElasticPoolOperations.DefinitionStages.WithDatabaseDtuMax,SqlElasticPoolOperations.DefinitionStages.WithDtu,SqlElasticPoolOperations.DefinitionStages.WithStorageCapacity,SqlElasticPoolOperations.DefinitionStages.WithDatabase,Resource.DefinitionWithTags<SqlElasticPoolOperations.DefinitionStages.WithCreate>,Creatable<SqlElasticPool>
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -181,9 +181,6 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase extends IndependentChildResource<SqlServerManager, DatabaseInner>,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>,ExternalChildResource<SqlDatabase, SqlServer>,HasInner<DatabaseInner>,HasResourceGroup,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>

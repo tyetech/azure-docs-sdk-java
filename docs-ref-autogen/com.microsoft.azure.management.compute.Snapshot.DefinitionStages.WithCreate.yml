@@ -39,10 +39,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -55,10 +52,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -75,10 +69,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -115,10 +106,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithSize.withSizeInGB(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithSize.withSizeInGB(int sizeInGB)
   type: Method
-  summary: >-
-    <p>Specifies the disk size.</p>
-
-    <p></p>
+  summary: "<p>Specifies the disk size.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSizeInGB(int sizeInGB)
     parameters:
@@ -135,10 +123,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithSku.withSku(DiskSkuTypes sku)
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithSku.withSku(DiskSkuTypes sku)
   type: Method
-  summary: >-
-    <p>Specifies the SKU type.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU type.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(DiskSkuTypes sku)
     parameters:
@@ -155,7 +140,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -175,7 +160,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -192,10 +177,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -209,10 +191,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -226,7 +205,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithSize
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithSize
   type: Interface
-  summary: <p>The stage of the managed snapshot allowing to specify the size. </p>
+  summary: "<p>The stage of the managed snapshot allowing to specify the size. </p>"
   syntax:
     content: public interface WithSize
 - uid: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithSku
@@ -236,7 +215,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithSku
   type: Interface
-  summary: <p>The stage of the managed disk definition allowing to choose account type. </p>
+  summary: "<p>The stage of the managed disk definition allowing to choose account type. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.compute.Snapshot.Definition
@@ -246,6 +225,6 @@ references:
   nameWithType: Snapshot.Definition
   fullName: com.microsoft.azure.management.compute.Snapshot.Definition
   type: Interface
-  summary: <p>The entirety of the managed snapshot definition. </p>
+  summary: "<p>The entirety of the managed snapshot definition. </p>"
   syntax:
     content: public interface Definition extends Snapshot.DefinitionStages.Blank,Snapshot.DefinitionStages.WithGroup,Snapshot.DefinitionStages.WithSnapshotSource,Snapshot.DefinitionStages.WithWindowsSnapshotSource,Snapshot.DefinitionStages.WithLinuxSnapshotSource,Snapshot.DefinitionStages.WithDataSnapshotSource,Snapshot.DefinitionStages.WithDataSnapshotFromVhd,Snapshot.DefinitionStages.WithDataSnapshotFromDisk,Snapshot.DefinitionStages.WithDataSnapshotFromSnapshot,Snapshot.DefinitionStages.WithCreate

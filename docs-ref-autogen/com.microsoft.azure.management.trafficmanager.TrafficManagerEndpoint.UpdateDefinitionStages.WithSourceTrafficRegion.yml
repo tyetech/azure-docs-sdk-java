@@ -78,10 +78,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>The entirety of a traffic manager profile endpoint definition as a part of parent update.</p>
-
-    <p></p>
+  summary: "<p>The entirety of a traffic manager profile endpoint definition as a part of parent update.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends TrafficManagerEndpoint.UpdateDefinitionStages.AzureTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.ExternalTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.NestedProfileTargetEndpointBlank<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithAzureResource<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithFqdn<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithSourceTrafficRegion<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithSourceTrafficRegionThenThreshold<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithEndpointThreshold<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -95,10 +92,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the traffic manager profile endpoint definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the traffic manager profile endpoint definition can be attached to the parent traffic manager profile update using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()" data-throw-if-not-resolved="false">TrafficManagerEndpoint.DefinitionStages.WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of the traffic manager profile endpoint definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the traffic manager profile endpoint definition can be attached to the parent traffic manager profile update using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()\" data-throw-if-not-resolved=\"false\">TrafficManagerEndpoint.DefinitionStages.WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdate,TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingWeight<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithRoutingPriority<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithGeographicLocation<ParentT>,TrafficManagerEndpoint.UpdateDefinitionStages.WithTrafficDisabled<ParentT>
     typeParameters:
@@ -112,7 +106,7 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region
 - uid: com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PERFORMANCE
@@ -122,7 +116,7 @@ references:
   nameWithType: TrafficRoutingMethod.PERFORMANCE
   fullName: com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PERFORMANCE
   type: Field
-  summary: <p>Static value Performance for TrafficRoutingMethod. </p>
+  summary: "<p>Static value Performance for TrafficRoutingMethod. </p>"
   syntax:
     content: public static final TrafficRoutingMethod PERFORMANCE= new TrafficRoutingMethod("Performance")
     return:
@@ -134,7 +128,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:

@@ -39,10 +39,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -55,10 +52,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -75,10 +69,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -115,7 +106,7 @@ references:
   nameWithType: AppServiceCertificateOrder.DefinitionStages.WithAutoRenew.withAutoRenew(boolean enabled)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithAutoRenew.withAutoRenew(boolean enabled)
   type: Method
-  summary: <p>Specifies if the certificate should be auto-renewed. </p>
+  summary: "<p>Specifies if the certificate should be auto-renewed. </p>"
   syntax:
     content: public WithCreate withAutoRenew(boolean enabled)
     parameters:
@@ -132,7 +123,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -152,7 +143,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -169,7 +160,7 @@ references:
   nameWithType: AppServiceCertificateOrder.DefinitionStages.WithValidYears.withValidYears(int years)
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithValidYears.withValidYears(int years)
   type: Method
-  summary: <p>Specifies the valid years of the certificate. </p>
+  summary: "<p>Specifies the valid years of the certificate. </p>"
   syntax:
     content: public WithCreate withValidYears(int years)
     parameters:
@@ -186,10 +177,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -203,7 +191,7 @@ references:
   nameWithType: AppServiceCertificateOrder.DefinitionStages.WithValidYears
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithValidYears
   type: Interface
-  summary: <p>An app service certificate order definition allowing valid years to be set. </p>
+  summary: "<p>An app service certificate order definition allowing valid years to be set. </p>"
   syntax:
     content: public interface WithValidYears
 - uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithAutoRenew
@@ -213,7 +201,7 @@ references:
   nameWithType: AppServiceCertificateOrder.DefinitionStages.WithAutoRenew
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithAutoRenew
   type: Interface
-  summary: <p>An app service certificate order definition allowing auto-renew settings to be set. </p>
+  summary: "<p>An app service certificate order definition allowing auto-renew settings to be set. </p>"
   syntax:
     content: public interface WithAutoRenew
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags
@@ -223,10 +211,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -240,6 +225,6 @@ references:
   nameWithType: AppServiceCertificateOrder.Definition
   fullName: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends AppServiceCertificateOrder.DefinitionStages.Blank,AppServiceCertificateOrder.DefinitionStages.WithHostName,AppServiceCertificateOrder.DefinitionStages.WithCertificateSku,AppServiceCertificateOrder.DefinitionStages.WithDomainVerificationFromWebApp,AppServiceCertificateOrder.DefinitionStages.WithKeyVault,AppServiceCertificateOrder.DefinitionStages.WithCreate

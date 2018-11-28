@@ -46,10 +46,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -62,10 +59,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -82,10 +76,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -140,7 +131,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithNetwork.withExistingNetwork(Network network)
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withExistingNetwork(Network network)
   type: Method
-  summary: <p>Associate an existing virtual network with the virtual network gateway . </p>
+  summary: "<p>Associate an existing virtual network with the virtual network gateway . </p>"
   syntax:
     content: public WithGatewayType withExistingNetwork(Network network)
     parameters:
@@ -157,7 +148,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithGatewayType.withExpressRoute()
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType.withExpressRoute()
   type: Method
-  summary: <p>Use Express route gateway type. </p>
+  summary: "<p>Use Express route gateway type. </p>"
   syntax:
     content: public WithPublicIPAddress withExpressRoute()
     return:
@@ -170,10 +161,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(Creatable<Network> creatable)
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(Creatable<Network> creatable)
   type: Method
-  summary: >-
-    <p>Create a new virtual network to associate with the virtual network gateway, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Create a new virtual network to associate with the virtual network gateway, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithGatewayType withNewNetwork(Creatable<Network> creatable)
     parameters:
@@ -190,10 +178,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(String name, String addressSpace, String subnetAddressSpaceCidr)
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(String name, String addressSpace, String subnetAddressSpaceCidr)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the virtual network gateway. the virtual network will be created in the same resource group and region as of parent virtual network gateway, it will be created with the specified address space and a subnet for virtual network gateway.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the virtual network gateway. the virtual network will be created in the same resource group and region as of parent virtual network gateway, it will be created with the specified address space and a subnet for virtual network gateway.</p>\r\n<p></p>"
   syntax:
     content: public WithGatewayType withNewNetwork(String name, String addressSpace, String subnetAddressSpaceCidr)
     parameters:
@@ -215,10 +200,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(String addressSpaceCidr, String subnetAddressSpaceCidr)
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(String addressSpaceCidr, String subnetAddressSpaceCidr)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the virtual network gateway. the virtual network will be created in the same resource group and region as of parent virtual network gateway, it will be created with the specified address space and a default subnet for virtual network gateway.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the virtual network gateway. the virtual network will be created in the same resource group and region as of parent virtual network gateway, it will be created with the specified address space and a default subnet for virtual network gateway.</p>\r\n<p></p>"
   syntax:
     content: public WithGatewayType withNewNetwork(String addressSpaceCidr, String subnetAddressSpaceCidr)
     parameters:
@@ -237,7 +219,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithGatewayType.withPolicyBasedVpn()
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType.withPolicyBasedVpn()
   type: Method
-  summary: '<p>Use Policy-based VPN type. Note: this is available only for Basic SKU. </p>'
+  summary: "<p>Use Policy-based VPN type. Note: this is available only for Basic SKU. </p>"
   syntax:
     content: public WithCreate withPolicyBasedVpn()
     return:
@@ -250,7 +232,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithGatewayType.withRouteBasedVpn()
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType.withRouteBasedVpn()
   type: Method
-  summary: <p>Use Route-based VPN type. </p>
+  summary: "<p>Use Route-based VPN type. </p>"
   syntax:
     content: public WithSku withRouteBasedVpn()
     return:
@@ -277,7 +259,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -297,7 +279,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -314,7 +296,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a virtual network gateway definition. </p>
+  summary: "<p>The first stage of a virtual network gateway definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGroup
@@ -324,7 +306,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the virtual network gateway definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the virtual network gateway definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType
@@ -334,7 +316,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithGatewayType
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType
   type: Interface
-  summary: <p>The stage of virtual network gateway definition allowing to specify virtual network gateway type. </p>
+  summary: "<p>The stage of virtual network gateway definition allowing to specify virtual network gateway type. </p>"
   syntax:
     content: public interface WithGatewayType
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithSku
@@ -344,7 +326,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithSku
   type: Interface
-  summary: <p>The stage of virtual network gateway definition allowing to specify SKU. </p>
+  summary: "<p>The stage of virtual network gateway definition allowing to specify SKU. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork
@@ -354,7 +336,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithNetwork
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork
   type: Interface
-  summary: <p>The stage of the virtual network gateway definition allowing to specify the virtual network. </p>
+  summary: "<p>The stage of the virtual network gateway definition allowing to specify the virtual network. </p>"
   syntax:
     content: public interface WithNetwork
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithBgp
@@ -374,6 +356,6 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the virtual network gateway definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the virtual network gateway definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

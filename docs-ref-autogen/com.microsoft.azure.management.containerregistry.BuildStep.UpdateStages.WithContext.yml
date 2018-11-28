@@ -70,7 +70,7 @@ references:
   nameWithType: BuildStep.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update extends BuildStep.UpdateStages.WithBranch,BuildStep.UpdateStages.WithContext,BuildStep.UpdateStages.WithDockerFilePath,BuildStep.UpdateStages.WithImageNames,BuildStep.UpdateStages.WithImageCache,BuildStep.UpdateStages.WithImagePush,BuildStep.UpdateStages.WithBuildArgument,Appliable<BuildStep>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withContextPath(String)
@@ -80,10 +80,7 @@ references:
   nameWithType: BuildStepImpl.withContextPath(String contextPath)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildStepImpl.withContextPath(String contextPath)
   type: Method
-  summary: >-
-    <p>Specifies the relative context path for a docker build in the source required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the relative context path for a docker build in the source required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildStepImpl withContextPath(String contextPath)
     parameters:

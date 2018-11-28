@@ -80,10 +80,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of the SQL Server Virtual Network Rule definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of the SQL Server Virtual Network Rule definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends SqlVirtualNetworkRule.DefinitionStages.WithSubnet<ParentT>
     typeParameters:
@@ -97,10 +94,7 @@ references:
   nameWithType: SqlVirtualNetworkRule.SqlVirtualNetworkRuleDefinition<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlVirtualNetworkRule.SqlVirtualNetworkRuleDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Container interface for all the definitions that need to be implemented.</p>
-
-    <p></p>
+  summary: "<p>Container interface for all the definitions that need to be implemented.</p>\r\n<p></p>"
   syntax:
     content: public interface SqlVirtualNetworkRuleDefinition<ParentT> extends SqlVirtualNetworkRule.DefinitionStages.Blank<ParentT>,SqlVirtualNetworkRule.DefinitionStages.WithSubnet<ParentT>,SqlVirtualNetworkRule.DefinitionStages.WithServiceEndpoint<ParentT>,SqlVirtualNetworkRule.DefinitionStages.WithAttach<ParentT>
     typeParameters:

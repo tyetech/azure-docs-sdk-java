@@ -163,7 +163,7 @@ references:
   nameWithType: IotHubTransport
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport
   type: Class
-  summary: <p>Manages queueing of message sending, receiving and callbacks. Manages notifying users of connection status change updates </p>
+  summary: "<p>Manages queueing of message sending, receiving and callbacks. Manages notifying users of connection status change updates </p>"
   syntax:
     content: public class IotHubTransport
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.onMessageSent(Message,Throwable)
@@ -173,7 +173,7 @@ references:
   nameWithType: IotHubTransport.onMessageSent(Message message, Throwable e)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.onMessageSent(Message message, Throwable e)
   type: Method
-  summary: <p>Callback to be fired when a message that the transport client sent has been acknowledged by Iot Hub </p>
+  summary: "<p>Callback to be fired when a message that the transport client sent has been acknowledged by Iot Hub </p>"
   syntax:
     content: public void onMessageSent(Message message, Throwable e)
     parameters:
@@ -199,7 +199,7 @@ references:
   nameWithType: IotHubTransport.onMessageReceived(IotHubTransportMessage message, Throwable e)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.onMessageReceived(IotHubTransportMessage message, Throwable e)
   type: Method
-  summary: <p>Callback to be fired when a transport message has been received. </p>
+  summary: "<p>Callback to be fired when a transport message has been received. </p>"
   syntax:
     content: public void onMessageReceived(IotHubTransportMessage message, Throwable e)
     parameters:
@@ -216,7 +216,7 @@ references:
   nameWithType: IotHubTransportMessage
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage
   type: Class
-  summary: <p>Extends Message, adding transport artifacts. </p>
+  summary: "<p>Extends Message, adding transport artifacts. </p>"
   syntax:
     content: public class IotHubTransportMessage
 - uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.onConnectionLost(Throwable,String)
@@ -226,7 +226,7 @@ references:
   nameWithType: IotHubTransport.onConnectionLost(Throwable e, String connectionId)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.onConnectionLost(Throwable e, String connectionId)
   type: Method
-  summary: <p>Callback to be fired when connection has been lost </p>
+  summary: "<p>Callback to be fired when connection has been lost </p>"
   syntax:
     content: public void onConnectionLost(Throwable e, String connectionId)
     parameters:
@@ -243,7 +243,7 @@ references:
   nameWithType: IotHubTransport.onConnectionEstablished(String connectionId)
   fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.onConnectionEstablished(String connectionId)
   type: Method
-  summary: <p>Callback to be fired when the connection has been successfully established </p>
+  summary: "<p>Callback to be fired when the connection has been successfully established </p>"
   syntax:
     content: public void onConnectionEstablished(String connectionId)
     parameters:

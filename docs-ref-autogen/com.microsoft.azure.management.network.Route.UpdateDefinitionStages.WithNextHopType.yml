@@ -114,7 +114,7 @@ references:
   nameWithType: Route.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.network.Route.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>The entirety of a route definition as part of a route table update. </p>
+  summary: "<p>The entirety of a route definition as part of a route table update. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Route.UpdateDefinitionStages.Blank<ParentT>,Route.UpdateDefinitionStages.WithAttach<ParentT>,Route.UpdateDefinitionStages.WithNextHopType<ParentT>,Route.UpdateDefinitionStages.WithDestinationAddressPrefix<ParentT>
     typeParameters:
@@ -128,10 +128,7 @@ references:
   nameWithType: Route.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of a route definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the route definition can be attached to the parent route table definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+  summary: "<p>The final stage of a route definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the route definition can be attached to the parent route table definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InUpdate
     typeParameters:
@@ -145,7 +142,7 @@ references:
   nameWithType: RouteNextHopType
   fullName: com.microsoft.azure.management.network.RouteNextHopType
   type: Class
-  summary: <p>Defines values for RouteNextHopType. </p>
+  summary: "<p>Defines values for RouteNextHopType. </p>"
   syntax:
     content: public class RouteNextHopType
 - uid: com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithNextHopType.withNextHopToVirtualAppliance(String)
@@ -155,7 +152,7 @@ references:
   nameWithType: Route.UpdateDefinitionStages.WithNextHopType<ParentT>.withNextHopToVirtualAppliance(String ipAddress)
   fullName: com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithNextHopType<ParentT>.withNextHopToVirtualAppliance(String ipAddress)
   type: Method
-  summary: <p>Specifies the IP address of the virtual appliance for the next hop to go to. </p>
+  summary: "<p>Specifies the IP address of the virtual appliance for the next hop to go to. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()
   parent: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate
@@ -164,7 +161,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:

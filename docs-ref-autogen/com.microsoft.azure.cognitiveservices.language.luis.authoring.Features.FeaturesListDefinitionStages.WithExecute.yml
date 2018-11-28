@@ -99,10 +99,7 @@ references:
   nameWithType: Features.FeaturesListDefinitionStages.WithAllOptions.withSkip(Integer skip)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesListDefinitionStages.WithAllOptions.withSkip(Integer skip)
   type: Method
-  summary: >-
-    <p>The number of entries to skip. Default value is 0.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to skip. Default value is 0.</p>\r\n<p></p>"
   syntax:
     content: public FeaturesListDefinitionStages.WithExecute withSkip(Integer skip)
     parameters:
@@ -118,10 +115,7 @@ references:
   nameWithType: Features.FeaturesListDefinitionStages.WithAllOptions.withTake(Integer take)
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesListDefinitionStages.WithAllOptions.withTake(Integer take)
   type: Method
-  summary: >-
-    <p>The number of entries to return. Maximum page size is 500. Default is 100.</p>
-
-    <p></p>
+  summary: "<p>The number of entries to return. Maximum page size is 500. Default is 100.</p>\r\n<p></p>"
   syntax:
     content: public FeaturesListDefinitionStages.WithExecute withTake(Integer take)
     parameters:
@@ -137,7 +131,7 @@ references:
   nameWithType: Features.FeaturesListDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesListDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesListDefinition
@@ -147,7 +141,7 @@ references:
   nameWithType: Features.FeaturesListDefinition
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Features.FeaturesListDefinition
   type: Interface
-  summary: <p>The entirety of list definition. </p>
+  summary: "<p>The entirety of list definition. </p>"
   syntax:
     content: public interface FeaturesListDefinition extends Features.FeaturesListDefinitionStages.WithAppId,Features.FeaturesListDefinitionStages.WithVersionId,Features.FeaturesListDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.models.FeaturesResponseObject
@@ -157,6 +151,6 @@ references:
   nameWithType: FeaturesResponseObject
   fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.models.FeaturesResponseObject
   type: Class
-  summary: <p>Model Features, including Patterns and Phraselists. </p>
+  summary: "<p>Model Features, including Patterns and Phraselists. </p>"
   syntax:
     content: public class FeaturesResponseObject

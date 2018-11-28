@@ -54,10 +54,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -70,10 +67,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -90,10 +84,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -106,10 +97,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool.defineAgentPool(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of a agent pool profile to be attached to the container service.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a agent pool profile to be attached to the container service.</p>\r\n<p></p>"
   syntax:
     content: public ContainerServiceAgentPool.DefinitionStages.Blank<WithCreate> defineAgentPool(String name)
     parameters:
@@ -150,7 +138,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator.withDcosOrchestration()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator.withDcosOrchestration()
   type: Method
-  summary: <p>Specifies the DCOS orchestration type for the container service. </p>
+  summary: "<p>Specifies the DCOS orchestration type for the container service. </p>"
   syntax:
     content: public WithLinux withDcosOrchestration()
     return:
@@ -163,7 +151,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithDiagnostics.withDiagnostics()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithDiagnostics.withDiagnostics()
   type: Method
-  summary: <p>Enables diagnostics. </p>
+  summary: "<p>Enables diagnostics. </p>"
   syntax:
     content: public WithCreate withDiagnostics()
     return:
@@ -176,7 +164,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator.withKubernetesOrchestration()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator.withKubernetesOrchestration()
   type: Method
-  summary: <p>Specifies the Kubernetes orchestration type for the container service. </p>
+  summary: "<p>Specifies the Kubernetes orchestration type for the container service. </p>"
   syntax:
     content: public WithServicePrincipalProfile withKubernetesOrchestration()
     return:
@@ -189,7 +177,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinux.withLinux()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux.withLinux()
   type: Method
-  summary: <p>Begins the definition to specify Linux settings. </p>
+  summary: "<p>Begins the definition to specify Linux settings. </p>"
   syntax:
     content: public WithLinuxRootUsername withLinux()
     return:
@@ -202,10 +190,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterDnsPrefix.withMasterDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterDnsPrefix.withMasterDnsPrefix(String dnsPrefix)
   type: Method
-  summary: >-
-    <p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMasterDnsPrefix(String dnsPrefix)
     parameters:
@@ -222,7 +207,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterNodeCount.withMasterNodeCount(ContainerServiceMasterProfileCount count)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount.withMasterNodeCount(ContainerServiceMasterProfileCount count)
   type: Method
-  summary: <p>Specifies the master node count. </p>
+  summary: "<p>Specifies the master node count. </p>"
   syntax:
     content: public WithAgentPool withMasterNodeCount(ContainerServiceMasterProfileCount count)
     parameters:
@@ -239,10 +224,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterOSDiskSize.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterOSDiskSize.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   type: Method
-  summary: >-
-    <p>OS Disk Size in GB to be used for every machine in the master pool.</p>
-
-    <p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>
+  summary: "<p>OS Disk Size in GB to be used for every machine in the master pool.</p>\r\n<p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>"
   syntax:
     content: public WithCreate withMasterOSDiskSizeInGB(int osDiskSizeInGB)
     parameters:
@@ -259,10 +241,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterStorageProfile.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   type: Method
-  summary: >-
-    <p>Specifies the storage kind to be used for every machine in master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage kind to be used for every machine in master pool.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
     parameters:
@@ -279,7 +258,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterVMSize.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterVMSize.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   type: Method
-  summary: <p>Specifies the size of the master VMs, default set to "Standard_D2_v2". </p>
+  summary: "<p>Specifies the size of the master VMs, default set to \"Standard_D2_v2\". </p>"
   syntax:
     content: public WithCreate withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
     parameters:
@@ -296,7 +275,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(String regionName)
   type: Method
-  summary: <p>Specifies the region for the resource by name. </p>
+  summary: "<p>Specifies the region for the resource by name. </p>"
   syntax:
     content: public T withRegion(String regionName)
     parameters:
@@ -313,7 +292,7 @@ references:
   nameWithType: Resource.DefinitionWithRegion<T>.withRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion<T>.withRegion(Region region)
   type: Method
-  summary: <p>Specifies the region for the resource. </p>
+  summary: "<p>Specifies the region for the resource. </p>"
   syntax:
     content: public T withRegion(Region region)
     parameters:
@@ -330,7 +309,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxRootUsername.withRootUsername(String rootUserName)
   type: Method
-  summary: <p>Begins the definition to specify Linux root username. </p>
+  summary: "<p>Begins the definition to specify Linux root username. </p>"
   syntax:
     content: public WithLinuxSshKey withRootUsername(String rootUserName)
     parameters:
@@ -347,7 +326,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithServicePrincipalProfile.withServicePrincipal(String clientId, String secret)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithServicePrincipalProfile.withServicePrincipal(String clientId, String secret)
   type: Method
-  summary: <p>Properties for cluster service principals. </p>
+  summary: "<p>Properties for cluster service principals. </p>"
   syntax:
     content: public WithLinux withServicePrincipal(String clientId, String secret)
     parameters:
@@ -367,7 +346,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxSshKey.withSshKey(String sshKeyData)
   type: Method
-  summary: <p>Begins the definition to specify Linux ssh key. </p>
+  summary: "<p>Begins the definition to specify Linux ssh key. </p>"
   syntax:
     content: public WithMasterNodeCount withSshKey(String sshKeyData)
     parameters:
@@ -384,10 +363,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSubnet(String networkId, String subnetName)
     parameters:
@@ -407,7 +383,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator.withSwarmOrchestration()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator.withSwarmOrchestration()
   type: Method
-  summary: <p>Specifies the Swarm orchestration type for the container service. </p>
+  summary: "<p>Specifies the Swarm orchestration type for the container service. </p>"
   syntax:
     content: public WithLinux withSwarmOrchestration()
     return:
@@ -420,7 +396,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -440,7 +416,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -457,7 +433,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of a container service definition. </p>
+  summary: "<p>The first stage of a container service definition. </p>"
   syntax:
     content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithGroup
@@ -467,7 +443,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator
@@ -477,7 +453,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithOrchestrator
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithOrchestrator
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify orchestration type. </p>
+  summary: "<p>The stage of the container service definition allowing to specify orchestration type. </p>"
   syntax:
     content: public interface WithOrchestrator
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount
@@ -487,7 +463,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterNodeCount
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterNodeCount
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the master node count. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the master node count. </p>"
   syntax:
     content: public interface WithMasterNodeCount
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux
@@ -497,7 +473,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinux
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinux
   type: Interface
-  summary: <p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>
+  summary: "<p>The stage of the container service definition allowing the start of defining Linux specific settings. </p>"
   syntax:
     content: public interface WithLinux
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxRootUsername
@@ -507,7 +483,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxRootUsername
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxRootUsername
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specific the Linux root username. </p>
+  summary: "<p>The stage of the container service definition allowing to specific the Linux root username. </p>"
   syntax:
     content: public interface WithLinuxRootUsername
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxSshKey
@@ -517,7 +493,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithLinuxSshKey
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithLinuxSshKey
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specific the Linux SSH key. </p>
+  summary: "<p>The stage of the container service definition allowing to specific the Linux SSH key. </p>"
   syntax:
     content: public interface WithLinuxSshKey
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool
@@ -527,7 +503,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithAgentPool
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithAgentPool
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify an agent pool profile. </p>
+  summary: "<p>The stage of the container service definition allowing to specify an agent pool profile. </p>"
   syntax:
     content: public interface WithAgentPool
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithServicePrincipalProfile
@@ -537,7 +513,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithServicePrincipalProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithServicePrincipalProfile
   type: Interface
-  summary: <p>The stage allowing properties for cluster service principals to be specified. </p>
+  summary: "<p>The stage allowing properties for cluster service principals to be specified. </p>"
   syntax:
     content: public interface WithServicePrincipalProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
@@ -547,7 +523,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl
@@ -557,6 +533,6 @@ references:
   nameWithType: ContainerServiceImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl
   type: Class
-  summary: <p>The implementation for ContainerService and its create and update interfaces. </p>
+  summary: "<p>The implementation for ContainerService and its create and update interfaces. </p>"
   syntax:
     content: public class ContainerServiceImpl implements ContainerService,ContainerService.Definition,ContainerService.Update

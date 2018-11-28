@@ -102,7 +102,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.Definition<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of an application gateway request routing rule definition. </p>
+  summary: "<p>The entirety of an application gateway request routing rule definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends ApplicationGatewayRequestRoutingRule.DefinitionStages.Blank<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithAttach<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListener<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontendPort<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListenerOrFrontend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackend<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddress<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendOrAddress<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendAddressOrAttach<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendHttpConfiguration<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslCertificate<ParentT>,ApplicationGatewayRequestRoutingRule.DefinitionStages.WithSslPassword<DefinitionStages.WithBackendHttpConfigurationOrSni<ParentT>>
     typeParameters:
@@ -116,7 +116,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListenerOrFrontend<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithListenerOrFrontend<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to associate an existing listener with the rule, or create a new one implicitly by specifying the frontend to listen to. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to associate an existing listener with the rule, or create a new one implicitly by specifying the frontend to listen to. </p>"
   syntax:
     content: public interface WithListenerOrFrontend<ParentT>
     typeParameters:
@@ -130,7 +130,7 @@ references:
   nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontendPort<ParentT>
   fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithFrontendPort<ParentT>
   type: Interface
-  summary: <p>The stage of an application gateway request routing rule definition allowing to create an associate listener and frontend for a specific port number and protocol. </p>
+  summary: "<p>The stage of an application gateway request routing rule definition allowing to create an associate listener and frontend for a specific port number and protocol. </p>"
   syntax:
     content: public interface WithFrontendPort<ParentT>
     typeParameters:

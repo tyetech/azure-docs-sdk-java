@@ -59,7 +59,7 @@ references:
   nameWithType: VirtualNetworkGateway.Definition
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.Definition
   type: Interface
-  summary: <p>The entirety of the virtual network gateway definition. </p>
+  summary: "<p>The entirety of the virtual network gateway definition. </p>"
   syntax:
     content: public interface Definition extends VirtualNetworkGateway.DefinitionStages.Blank,VirtualNetworkGateway.DefinitionStages.WithGroup,VirtualNetworkGateway.DefinitionStages.WithGatewayType,VirtualNetworkGateway.DefinitionStages.WithSku,VirtualNetworkGateway.DefinitionStages.WithNetwork,VirtualNetworkGateway.DefinitionStages.WithBgp,VirtualNetworkGateway.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate
@@ -69,7 +69,7 @@ references:
   nameWithType: VirtualNetworkGateway.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the virtual network gateway definition which contains all the minimum required inputs for the resource to be created (via <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()" data-throw-if-not-resolved="false">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the virtual network gateway definition which contains all the minimum required inputs for the resource to be created (via <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()\" data-throw-if-not-resolved=\"false\">WithCreate#create()</xref>), but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<VirtualNetworkGateway>,Resource.DefinitionWithTags<WithCreate>,VirtualNetworkGateway.DefinitionStages.WithPublicIPAddress,VirtualNetworkGateway.DefinitionStages.WithBgp
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewaySkuName
@@ -79,6 +79,6 @@ references:
   nameWithType: VirtualNetworkGatewaySkuName
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewaySkuName
   type: Class
-  summary: <p>Defines values for VirtualNetworkGatewaySkuName. </p>
+  summary: "<p>Defines values for VirtualNetworkGatewaySkuName. </p>"
   syntax:
     content: public class VirtualNetworkGatewaySkuName

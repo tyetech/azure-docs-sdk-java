@@ -543,7 +543,7 @@ references:
   nameWithType: KubernetesClusterAgentPool
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool
   type: Interface
-  summary: <p>A client-side representation for a Kubernetes cluster agent pool. </p>
+  summary: "<p>A client-side representation for a Kubernetes cluster agent pool. </p>"
   syntax:
     content: public interface KubernetesClusterAgentPool extends ChildResource<OrchestratorServiceBase>,HasInner<ManagedClusterAgentPoolProfile>
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.Definition
@@ -553,7 +553,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.Definition<ParentT>
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a container service agent pool definition as a part of a parent definition. </p>
+  summary: "<p>The entirety of a container service agent pool definition as a part of a parent definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends KubernetesClusterAgentPool.DefinitionStages.Blank<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithOSType<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>,KubernetesClusterAgentPool.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -567,7 +567,7 @@ references:
   nameWithType: ManagedClusterAgentPoolProfile
   fullName: com.microsoft.azure.management.containerservice.ManagedClusterAgentPoolProfile
   type: Class
-  summary: <p>Profile for the container service agent pool. </p>
+  summary: "<p>Profile for the container service agent pool. </p>"
   syntax:
     content: public class ManagedClusterAgentPoolProfile
 - uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
@@ -577,7 +577,7 @@ references:
   nameWithType: KubernetesClusterImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
   type: Class
-  summary: <p>The implementation for KubernetesCluster and its create and update interfaces. </p>
+  summary: "<p>The implementation for KubernetesCluster and its create and update interfaces. </p>"
   syntax:
     content: public class KubernetesClusterImpl
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
@@ -611,7 +611,7 @@ references:
   nameWithType: ContainerServiceVMSizeTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceVMSizeTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceVMSizeTypes. </p>
+  summary: "<p>Defines values for ContainerServiceVMSizeTypes. </p>"
   syntax:
     content: public class ContainerServiceVMSizeTypes
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.vmSize()
@@ -645,7 +645,7 @@ references:
   nameWithType: OSType
   fullName: com.microsoft.azure.management.containerservice.OSType
   type: Class
-  summary: <p>Defines values for OSType. </p>
+  summary: "<p>Defines values for OSType. </p>"
   syntax:
     content: public class OSType
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.osType()
@@ -667,7 +667,7 @@ references:
   nameWithType: ContainerServiceStorageProfileTypes
   fullName: com.microsoft.azure.management.containerservice.ContainerServiceStorageProfileTypes
   type: Class
-  summary: <p>Defines values for ContainerServiceStorageProfileTypes. </p>
+  summary: "<p>Defines values for ContainerServiceStorageProfileTypes. </p>"
   syntax:
     content: public class ContainerServiceStorageProfileTypes
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.storageProfile()
@@ -713,7 +713,7 @@ references:
   nameWithType: KubernetesClusterAgentPoolImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterAgentPoolImpl
   type: Class
-  summary: <p>The implementation for KubernetesClusterAgentPool and its create and update interfaces. </p>
+  summary: "<p>The implementation for KubernetesClusterAgentPool and its create and update interfaces. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.Blank.withVirtualMachineSize(ContainerServiceVMSizeTypes)
   parent: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.Blank
@@ -722,7 +722,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.Blank<ParentT>.withVirtualMachineSize(ContainerServiceVMSizeTypes vmSize)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.Blank<ParentT>.withVirtualMachineSize(ContainerServiceVMSizeTypes vmSize)
   type: Method
-  summary: <p>Specifies the size of the virtual machines to be used as agents. </p>
+  summary: "<p>Specifies the size of the virtual machines to be used as agents. </p>"
   syntax:
     content: public WithAttach<ParentT> withVirtualMachineSize(ContainerServiceVMSizeTypes vmSize)
     parameters:
@@ -739,10 +739,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithOSType<ParentT>.withOSType(OSType osType)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithOSType<ParentT>.withOSType(OSType osType)
   type: Method
-  summary: >-
-    <p>OS type to be used for each virtual machine in the agent pool.</p>
-
-    <p>Default is Linux. </p>
+  summary: "<p>OS type to be used for each virtual machine in the agent pool.</p>\r\n<p>Default is Linux. </p>"
   syntax:
     content: public WithAttach<ParentT> withOSType(OSType osType)
     parameters:
@@ -759,10 +756,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize<ParentT>.withOSDiskSizeInGB(int osDiskSizeInGB)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithOSDiskSize<ParentT>.withOSDiskSizeInGB(int osDiskSizeInGB)
   type: Method
-  summary: >-
-    <p>OS disk size in GB to be used for each virtual machine in the agent pool.</p>
-
-    <p></p>
+  summary: "<p>OS disk size in GB to be used for each virtual machine in the agent pool.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withOSDiskSizeInGB(int osDiskSizeInGB)
     parameters:
@@ -779,10 +773,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount<ParentT>.withAgentPoolVirtualMachineCount(int count)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithAgentPoolVirtualMachineCount<ParentT>.withAgentPoolVirtualMachineCount(int count)
   type: Method
-  summary: >-
-    <p>Specifies the number of agents (Virtual Machines) to host docker containers.</p>
-
-    <p></p>
+  summary: "<p>Specifies the number of agents (Virtual Machines) to host docker containers.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withAgentPoolVirtualMachineCount(int count)
     parameters:
@@ -799,10 +790,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount<ParentT>.withMaxPodsCount(int podsCount)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithMaxPodsCount<ParentT>.withMaxPodsCount(int podsCount)
   type: Method
-  summary: >-
-    <p>Specifies the maximum number of pods that can run on a node.</p>
-
-    <p></p>
+  summary: "<p>Specifies the maximum number of pods that can run on a node.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withMaxPodsCount(int podsCount)
     parameters:
@@ -819,10 +807,7 @@ references:
   nameWithType: KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>.withVirtualNetwork(String virtualNetworkId, String subnetName)
   fullName: com.microsoft.azure.management.containerservice.KubernetesClusterAgentPool.DefinitionStages.WithVirtualNetwork<ParentT>.withVirtualNetwork(String virtualNetworkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the virtual network to be used for the agents.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual network to be used for the agents.</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> withVirtualNetwork(String virtualNetworkId, String subnetName)
     parameters:
@@ -842,7 +827,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:

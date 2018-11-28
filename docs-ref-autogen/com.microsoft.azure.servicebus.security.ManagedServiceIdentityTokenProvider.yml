@@ -82,7 +82,7 @@ references:
   nameWithType: TokenProvider.createAzureActiveDirectoryTokenProvider(String authorityUrl, String clientId, String userName, String password)
   fullName: com.microsoft.azure.servicebus.security.TokenProvider.createAzureActiveDirectoryTokenProvider(String authorityUrl, String clientId, String userName, String password)
   type: Method
-  summary: <p>Creates an Azure Active Directory token provider that acquires a token from the given active directory instance using the given clientId, username and password. This is a utility method. </p>
+  summary: "<p>Creates an Azure Active Directory token provider that acquires a token from the given active directory instance using the given clientId, username and password. This is a utility method. </p>"
   syntax:
     content: public static TokenProvider createAzureActiveDirectoryTokenProvider(String authorityUrl, String clientId, String userName, String password)
     parameters:
@@ -108,7 +108,7 @@ references:
   nameWithType: TokenProvider.createAzureActiveDirectoryTokenProvider(String authorityUrl, String clientId, String clientSecret)
   fullName: com.microsoft.azure.servicebus.security.TokenProvider.createAzureActiveDirectoryTokenProvider(String authorityUrl, String clientId, String clientSecret)
   type: Method
-  summary: <p>Creates an Azure Active Directory token provider that acquires a token from the given active directory instance using the given clientId and client secret. This is a utility method. </p>
+  summary: "<p>Creates an Azure Active Directory token provider that acquires a token from the given active directory instance using the given clientId and client secret. This is a utility method. </p>"
   syntax:
     content: public static TokenProvider createAzureActiveDirectoryTokenProvider(String authorityUrl, String clientId, String clientSecret)
     parameters:
@@ -131,7 +131,7 @@ references:
   nameWithType: TokenProvider.createManagedServiceIdentityTokenProvider()
   fullName: com.microsoft.azure.servicebus.security.TokenProvider.createManagedServiceIdentityTokenProvider()
   type: Method
-  summary: <p>Creates a Managed Service Identity token provider. This is a utility method. </p>
+  summary: "<p>Creates a Managed Service Identity token provider. This is a utility method. </p>"
   syntax:
     content: public static TokenProvider createManagedServiceIdentityTokenProvider()
     return:
@@ -144,7 +144,7 @@ references:
   nameWithType: TokenProvider.createSharedAccessSignatureTokenProvider(String sasKeyName, String sasKey)
   fullName: com.microsoft.azure.servicebus.security.TokenProvider.createSharedAccessSignatureTokenProvider(String sasKeyName, String sasKey)
   type: Method
-  summary: <p>Creates a Shared Access Signature token provider with the given key name and key value. Returned token provider creates tokens with validity of 20 minutes. This is a utility method. </p>
+  summary: "<p>Creates a Shared Access Signature token provider with the given key name and key value. Returned token provider creates tokens with validity of 20 minutes. This is a utility method. </p>"
   syntax:
     content: public static TokenProvider createSharedAccessSignatureTokenProvider(String sasKeyName, String sasKey)
     parameters:
@@ -164,7 +164,7 @@ references:
   nameWithType: TokenProvider.createSharedAccessSignatureTokenProvider(String sasToken, Instant sasTokenValidUntil)
   fullName: com.microsoft.azure.servicebus.security.TokenProvider.createSharedAccessSignatureTokenProvider(String sasToken, Instant sasTokenValidUntil)
   type: Method
-  summary: <p>Creates a Shared Access Signature token provider that always returns an already created token. This is a utility method. </p>
+  summary: "<p>Creates a Shared Access Signature token provider that always returns an already created token. This is a utility method. </p>"
   syntax:
     content: public static TokenProvider createSharedAccessSignatureTokenProvider(String sasToken, Instant sasTokenValidUntil)
     parameters:
@@ -184,7 +184,7 @@ references:
   nameWithType: TokenProvider
   fullName: com.microsoft.azure.servicebus.security.TokenProvider
   type: Class
-  summary: <p>This abstract class defines the contract of a token provider. All token providers should inherit from this class. An instance of token provider is used to obtain a security token for a given audience. </p>
+  summary: "<p>This abstract class defines the contract of a token provider. All token providers should inherit from this class. An instance of token provider is used to obtain a security token for a given audience. </p>"
   syntax:
     content: public class TokenProvider
 - uid: com.microsoft.azure.servicebus.security.SecurityToken
@@ -194,9 +194,6 @@ references:
   nameWithType: SecurityToken
   fullName: com.microsoft.azure.servicebus.security.SecurityToken
   type: Class
-  summary: >-
-    <p>This class encapsulates the details of a security token.</p>
-
-    <p></p>
+  summary: "<p>This class encapsulates the details of a security token.</p>\r\n<p></p>"
   syntax:
     content: public class SecurityToken

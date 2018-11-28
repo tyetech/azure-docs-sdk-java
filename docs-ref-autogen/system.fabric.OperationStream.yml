@@ -72,7 +72,7 @@ references:
   nameWithType: OperationStream2
   fullName: system.fabric.OperationStream2
   type: Interface
-  summary: <p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>
+  summary: "<p>This supports the Service Fabric infrastructure and is not meant to be used directly from your code. </p>"
   syntax:
     content: public interface OperationStream2
 - uid: system.fabric.Operation
@@ -82,12 +82,7 @@ references:
   nameWithType: Operation
   fullName: system.fabric.Operation
   type: Interface
-  summary: >-
-    <p>
-
-      <b>Remarks:</b>
-
-      <xref uid="" data-throw-if-not-resolved="false">system.fabric.Operation</xref> is the base interface that describes state changes that are delivered to a Secondary replica. They contain the <xref uid="system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateReplicator#replicateAsync(OperationData, SequenceNumber, system.fabric.CancellationToken)</xref> and the sequence number and other identifying information. </p>
+  summary: "<p>\r\n  <b>Remarks:</b>\r\n  <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.Operation</xref> is the base interface that describes state changes that are delivered to a Secondary replica. They contain the <xref uid=\"system.fabric.StateReplicator.replicateAsync(OperationData,SequenceNumber,CancellationToken)\" data-throw-if-not-resolved=\"false\">system.fabric.StateReplicator#replicateAsync(OperationData, SequenceNumber, system.fabric.CancellationToken)</xref> and the sequence number and other identifying information. </p>"
   syntax:
     content: public interface Operation
 - uid: system.fabric.CancellationToken
@@ -97,7 +92,7 @@ references:
   nameWithType: CancellationToken
   fullName: system.fabric.CancellationToken
   type: Class
-  summary: <p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid="system.fabric.CancellationTokenSource" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid="system.fabric.CancellationTokenSource.getToken()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid="system.fabric.CancellationTokenSource.cancel()" data-throw-if-not-resolved="false">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>
+  summary: "<p>A CancellationToken is used to propagate notification that operations should be canceled. You create a cancellation token by instantiating a <xref uid=\"system.fabric.CancellationTokenSource\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource</xref> object, which manages cancellation tokens retrieved from its <xref uid=\"system.fabric.CancellationTokenSource.getToken()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#getToken()</xref> method. You then pass the cancellation token to any number of operations that should receive notice of cancellation. The token cannot be used to initiate cancellation. When the owning object calls <xref uid=\"system.fabric.CancellationTokenSource.cancel()\" data-throw-if-not-resolved=\"false\">system.fabric.CancellationTokenSource#cancel()</xref>, the cancelled property on the cancellation token is set to true. The objects that receive the notification can respond in whatever manner is appropriate. </p>"
   syntax:
     content: public class CancellationToken
 - uid: system.fabric.StateReplicator.getCopyStream()
@@ -107,7 +102,7 @@ references:
   nameWithType: StateReplicator.getCopyStream()
   fullName: system.fabric.StateReplicator.getCopyStream()
   type: Method
-  summary: <p>Gets copy stream </p>
+  summary: "<p>Gets copy stream </p>"
   syntax:
     content: public OperationStream getCopyStream()
     return:
@@ -120,7 +115,7 @@ references:
   nameWithType: StateReplicator.getReplicationStream()
   fullName: system.fabric.StateReplicator.getReplicationStream()
   type: Method
-  summary: <p>Gets replication stream. </p>
+  summary: "<p>Gets replication stream. </p>"
   syntax:
     content: public OperationStream getReplicationStream()
     return:

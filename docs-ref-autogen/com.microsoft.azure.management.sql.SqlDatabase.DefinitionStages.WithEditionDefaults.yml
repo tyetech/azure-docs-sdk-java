@@ -222,7 +222,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -235,12 +235,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Database definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the SQL Database definition can be attached to the parent SQL Server definition.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the SQL Database definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the SQL Database definition can be attached to the parent SQL Server definition.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttachFinal<ParentT> extends Attachable<ParentT>.InDefinition
     typeParameters:
@@ -254,12 +249,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAllDifferentOptions<ParentT>
   type: Interface
-  summary: >-
-    <p>The SQL database interface with all starting options for definition.</p>
-
-    <p>
-
-    The SQL database interface with all starting options for definition. </p>
+  summary: "<p>The SQL database interface with all starting options for definition.</p>\r\n<p>\r\nThe SQL database interface with all starting options for definition. </p>"
   syntax:
     content: public interface WithAllDifferentOptions<ParentT> extends SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>,SqlDatabase.DefinitionStages.WithRestorableDroppedDatabase<ParentT>,SqlDatabase.DefinitionStages.WithImportFrom<ParentT>,SqlDatabase.DefinitionStages.WithRestorePointDatabase<ParentT>,SqlDatabase.DefinitionStages.WithSampleDatabase<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>,SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>,SqlDatabase.DefinitionStages.WithElasticPoolName<ParentT>,SqlDatabase.DefinitionStages.WithSourceDatabaseId<ParentT>,SqlDatabase.DefinitionStages.WithCreate
     typeParameters:
@@ -273,10 +263,7 @@ references:
   nameWithType: SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
   fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the SQL Database definition with all the other options.</p>
-
-    <p></p>
+  summary: "<p>The final stage of the SQL Database definition with all the other options.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttachAllOptions<ParentT> extends SqlDatabase.DefinitionStages.WithServiceObjective<ParentT>,SqlDatabase.DefinitionStages.WithEdition<ParentT>,SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>,SqlDatabase.DefinitionStages.WithCollation<ParentT>,SqlDatabase.DefinitionStages.WithMaxSizeBytes<ParentT>,SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
     typeParameters:
@@ -290,7 +277,7 @@ references:
   nameWithType: SqlDatabaseBasicStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabaseBasicStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Basic" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Basic\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabaseBasicStorage
 - uid: com.microsoft.azure.management.sql.SqlDatabaseStandardServiceObjective
@@ -300,7 +287,7 @@ references:
   nameWithType: SqlDatabaseStandardServiceObjective
   fullName: com.microsoft.azure.management.sql.SqlDatabaseStandardServiceObjective
   type: Class
-  summary: <p>The name of the configured Service Level Objective of a "Standard" Azure SQL Database. </p>
+  summary: "<p>The name of the configured Service Level Objective of a \"Standard\" Azure SQL Database. </p>"
   syntax:
     content: public class SqlDatabaseStandardServiceObjective
 - uid: com.microsoft.azure.management.sql.SqlDatabaseStandardStorage
@@ -310,7 +297,7 @@ references:
   nameWithType: SqlDatabaseStandardStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabaseStandardStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Standard" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Standard\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabaseStandardStorage
 - uid: com.microsoft.azure.management.sql.SqlDatabasePremiumServiceObjective
@@ -320,7 +307,7 @@ references:
   nameWithType: SqlDatabasePremiumServiceObjective
   fullName: com.microsoft.azure.management.sql.SqlDatabasePremiumServiceObjective
   type: Class
-  summary: <p>The name of the configured Service Level Objective of a "Premium" Azure SQL Database. </p>
+  summary: "<p>The name of the configured Service Level Objective of a \"Premium\" Azure SQL Database. </p>"
   syntax:
     content: public class SqlDatabasePremiumServiceObjective
 - uid: com.microsoft.azure.management.sql.SqlDatabasePremiumStorage
@@ -330,6 +317,6 @@ references:
   nameWithType: SqlDatabasePremiumStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabasePremiumStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Premium" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Premium\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabasePremiumStorage

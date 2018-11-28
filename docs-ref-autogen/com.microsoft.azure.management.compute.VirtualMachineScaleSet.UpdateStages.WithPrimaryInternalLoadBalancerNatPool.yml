@@ -93,10 +93,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -109,10 +106,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -125,10 +119,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -145,10 +136,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithExtension.defineNewExtension(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithExtension.defineNewExtension(String name)
   type: Method
-  summary: >-
-    <p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of an extension reference to be attached to the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public VirtualMachineScaleSetExtension.UpdateDefinitionStages.Blank<WithApply> defineNewExtension(String name)
     parameters:
@@ -177,10 +165,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithExtension.updateExtension(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithExtension.updateExtension(String name)
   type: Method
-  summary: >-
-    <p>Begins the description of an update of an existing extension assigned to the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Begins the description of an update of an existing extension assigned to the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public VirtualMachineScaleSetExtension.Update updateExtension(String name)
     parameters:
@@ -197,10 +182,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithAvailabilityZone.withAvailabilityZone(AvailabilityZoneId zoneId)
   type: Method
-  summary: >-
-    <p>Specifies the availability zone for the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the availability zone for the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withAvailabilityZone(AvailabilityZoneId zoneId)
     parameters:
@@ -217,10 +199,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithCapacity.withCapacity(int capacity)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithCapacity.withCapacity(int capacity)
   type: Method
-  summary: >-
-    <p>Specifies the new number of virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the new number of virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withCapacity(int capacity)
     parameters:
@@ -237,10 +216,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithManagedServiceIdentity.withManagedServiceIdentity()
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrApply withManagedServiceIdentity()
     return:
@@ -253,10 +229,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithManagedServiceIdentity.withManagedServiceIdentity(int tokenPort)
   type: Method
-  summary: >-
-    <p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that Managed Service Identity needs to be enabled in the virtual machine scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithRoleAndScopeOrApply withManagedServiceIdentity(int tokenPort)
     parameters:
@@ -273,10 +246,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB)
   type: Method
-  summary: >-
-    <p>Specifies that a managed disk needs to be created implicitly with the given size.</p>
-
-    <p></p>
+  summary: "<p>Specifies that a managed disk needs to be created implicitly with the given size.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withNewDataDisk(int sizeInGB)
     parameters:
@@ -293,10 +263,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType)
   type: Method
-  summary: >-
-    <p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType)
     parameters:
@@ -319,10 +286,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType, StorageAccountTypes storageAccountType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType, StorageAccountTypes storageAccountType)
   type: Method
-  summary: >-
-    <p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies that a managed disk needs to be created implicitly with the given settings.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withNewDataDisk(int sizeInGB, int lun, CachingTypes cachingType, StorageAccountTypes storageAccountType)
     parameters:
@@ -348,10 +312,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withoutDataDisk(int lun)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk.withoutDataDisk(int lun)
   type: Method
-  summary: >-
-    <p>Detaches managed data disk with the given LUN from the virtual machine scale set instances.</p>
-
-    <p></p>
+  summary: "<p>Detaches managed data disk with the given LUN from the virtual machine scale set instances.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutDataDisk(int lun)
     parameters:
@@ -368,10 +329,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithExtension.withoutExtension(String name)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithExtension.withoutExtension(String name)
   type: Method
-  summary: >-
-    <p>Removes the extension with the specified name from the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Removes the extension with the specified name from the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutExtension(String name)
     parameters:
@@ -388,12 +346,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancer.withoutPrimaryInternalLoadBalancer()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancer.withoutPrimaryInternalLoadBalancer()
   type: Method
-  summary: >-
-    <p>Removes the association between the internal load balancer and the primary network interface configuration. </p>
-
-    <p>This removes the association between primary network interface configuration and all the backends and inbound NAT pools in the load balancer.</p>
-
-    <p></p>
+  summary: "<p>Removes the association between the internal load balancer and the primary network interface configuration. </p>\r\n<p>This removes the association between primary network interface configuration and all the backends and inbound NAT pools in the load balancer.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutPrimaryInternalLoadBalancer()
     return:
@@ -406,10 +359,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerBackend.withoutPrimaryInternalLoadBalancerBackends(String...backendNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerBackend.withoutPrimaryInternalLoadBalancerBackends(String...backendNames)
   type: Method
-  summary: >-
-    <p>Removes the associations between the primary network interface configuration and the specified backends of the internal load balancer.</p>
-
-    <p></p>
+  summary: "<p>Removes the associations between the primary network interface configuration and the specified backends of the internal load balancer.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutPrimaryInternalLoadBalancerBackends(String...backendNames)
     parameters:
@@ -426,10 +376,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerNatPool.withoutPrimaryInternalLoadBalancerNatPools(String...natPoolNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerNatPool.withoutPrimaryInternalLoadBalancerNatPools(String...natPoolNames)
   type: Method
-  summary: >-
-    <p>Removes the associations between the primary network interface configuration and the specified inbound NAT pools of the internal load balancer.</p>
-
-    <p></p>
+  summary: "<p>Removes the associations between the primary network interface configuration and the specified inbound NAT pools of the internal load balancer.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutPrimaryInternalLoadBalancerNatPools(String...natPoolNames)
     parameters:
@@ -446,12 +393,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancer.withoutPrimaryInternetFacingLoadBalancer()
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancer.withoutPrimaryInternetFacingLoadBalancer()
   type: Method
-  summary: >-
-    <p>Removes the association between the Internet-facing load balancer and the primary network interface configuration. </p>
-
-    <p>This removes the association between primary network interface configuration and all the backends and inbound NAT pools in the load balancer.</p>
-
-    <p></p>
+  summary: "<p>Removes the association between the Internet-facing load balancer and the primary network interface configuration. </p>\r\n<p>This removes the association between primary network interface configuration and all the backends and inbound NAT pools in the load balancer.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutPrimaryInternetFacingLoadBalancer()
     return:
@@ -464,10 +406,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerBackend.withoutPrimaryInternetFacingLoadBalancerBackends(String...backendNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerBackend.withoutPrimaryInternetFacingLoadBalancerBackends(String...backendNames)
   type: Method
-  summary: >-
-    <p>Removes the associations between the primary network interface configuration and the specfied backends of the Internet-facing load balancer.</p>
-
-    <p></p>
+  summary: "<p>Removes the associations between the primary network interface configuration and the specfied backends of the Internet-facing load balancer.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutPrimaryInternetFacingLoadBalancerBackends(String...backendNames)
     parameters:
@@ -484,10 +423,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerNatPool.withoutPrimaryInternetFacingLoadBalancerNatPools(String...natPoolNames)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerNatPool.withoutPrimaryInternetFacingLoadBalancerNatPools(String...natPoolNames)
   type: Method
-  summary: >-
-    <p>Removes the associations between the primary network interface configuration and the specified inbound NAT pools of an Internet-facing load balancer.</p>
-
-    <p></p>
+  summary: "<p>Removes the associations between the primary network interface configuration and the specified inbound NAT pools of an Internet-facing load balancer.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withoutPrimaryInternetFacingLoadBalancerNatPools(String...natPoolNames)
     parameters:
@@ -504,7 +440,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -521,10 +457,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithSku.withSku(VirtualMachineScaleSetSkuTypes skuType)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithSku.withSku(VirtualMachineScaleSetSkuTypes skuType)
   type: Method
-  summary: >-
-    <p>Specifies the SKU for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withSku(VirtualMachineScaleSetSkuTypes skuType)
     parameters:
@@ -541,10 +474,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithSku.withSku(VirtualMachineScaleSetSku sku)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithSku.withSku(VirtualMachineScaleSetSku sku)
   type: Method
-  summary: >-
-    <p>Specifies the SKU for the virtual machines in the scale set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU for the virtual machines in the scale set.</p>\r\n<p></p>"
   syntax:
     content: public WithApply withSku(VirtualMachineScaleSetSku sku)
     parameters:
@@ -561,7 +491,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -581,7 +511,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -598,7 +528,7 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithApply
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithApply
   type: Interface
-  summary: <p>The stage of a virtual machine scale set update containing inputs for the resource to be updated. </p>
+  summary: "<p>The stage of a virtual machine scale set update containing inputs for the resource to be updated. </p>"
   syntax:
     content: public interface WithApply extends Appliable<VirtualMachineScaleSet>,Resource.UpdateWithTags<WithApply>,VirtualMachineScaleSet.UpdateStages.WithManagedDataDisk,VirtualMachineScaleSet.UpdateStages.WithUnmanagedDataDisk,VirtualMachineScaleSet.UpdateStages.WithSku,VirtualMachineScaleSet.UpdateStages.WithCapacity,VirtualMachineScaleSet.UpdateStages.WithExtension,VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancer,VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerBackend,VirtualMachineScaleSet.UpdateStages.WithoutPrimaryLoadBalancerNatPool,VirtualMachineScaleSet.UpdateStages.WithManagedServiceIdentity,VirtualMachineScaleSet.UpdateStages.WithAvailabilityZone
 - uid: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithPrimaryInternalLoadBalancerBackendOrNatPool
@@ -608,6 +538,6 @@ references:
   nameWithType: VirtualMachineScaleSet.UpdateStages.WithPrimaryInternalLoadBalancerBackendOrNatPool
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSet.UpdateStages.WithPrimaryInternalLoadBalancerBackendOrNatPool
   type: Interface
-  summary: <p>The stage of a virtual machine scale set update allowing to associate backend pools and/or inbound NAT pools of the selected internal load balancer with the primary network interface of the scale set virtual machines. </p>
+  summary: "<p>The stage of a virtual machine scale set update allowing to associate backend pools and/or inbound NAT pools of the selected internal load balancer with the primary network interface of the scale set virtual machines. </p>"
   syntax:
     content: public interface WithPrimaryInternalLoadBalancerBackendOrNatPool extends VirtualMachineScaleSet.UpdateStages.WithPrimaryInternalLoadBalancerNatPool

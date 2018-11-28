@@ -86,6 +86,6 @@ references:
   nameWithType: NetworkInterface.Update
   fullName: com.microsoft.azure.management.network.NetworkInterface.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<NetworkInterface>,Resource.UpdateWithTags<Update>,NetworkInterface.UpdateStages.WithPrimaryNetworkSubnet,NetworkInterface.UpdateStages.WithPrimaryPrivateIP,NetworkInterface.UpdateStages.WithPrimaryPublicIPAddress,NetworkInterface.UpdateStages.WithNetworkSecurityGroup,NetworkInterface.UpdateStages.WithIPForwarding,NetworkInterface.UpdateStages.WithDnsServer,NetworkInterface.UpdateStages.WithIPConfiguration,NetworkInterface.UpdateStages.WithLoadBalancer,NetworkInterface.UpdateStages.WithAcceleratedNetworking

@@ -70,7 +70,7 @@ references:
   nameWithType: BuildTask.Update
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.Update
   type: Interface
-  summary: <p>The entirety of a build task update. </p>
+  summary: "<p>The entirety of a build task update. </p>"
   syntax:
     content: public interface Update extends BuildTask.UpdateStages.WithOSType,BuildTask.UpdateStages.WithSourceControlType,BuildTask.UpdateStages.WithRepositoryUrl,BuildTask.UpdateStages.WithAuthenticationTokenType,BuildTask.UpdateStages.WithAuthenticationToken,BuildTask.UpdateStages.WithAlias,BuildTask.UpdateStages.WithAuthenticationRefreshToken,BuildTask.UpdateStages.WithTokenExpirationTimeInSeconds,BuildTask.UpdateStages.WithAuthenticationTokenAccessScope,BuildTask.UpdateStages.WithCommitTrigger,BuildTask.UpdateStages.WithCpuCoresCount,BuildTask.UpdateStages.WithBuildTimeoutInSeconds,BuildTask.UpdateStages.WithBuildTaskStatus,Resource.UpdateWithTags<Update>,Appliable<BuildTask>
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withCpuCoresCount(int)
@@ -80,10 +80,7 @@ references:
   nameWithType: BuildTaskImpl.withCpuCoresCount(int count)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl.withCpuCoresCount(int count)
   type: Method
-  summary: >-
-    <p>Specifies the CPU configuration in terms of number of cores required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the CPU configuration in terms of number of cores required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskImpl withCpuCoresCount(int count)
     parameters:

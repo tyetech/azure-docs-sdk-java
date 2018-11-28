@@ -185,7 +185,7 @@ references:
   nameWithType: VirtualMachine.Update
   fullName: com.microsoft.azure.management.compute.VirtualMachine.Update
   type: Interface
-  summary: <p>The template for an update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for an update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends Appliable<VirtualMachine>,Resource.UpdateWithTags<Update>,VirtualMachine.UpdateStages.WithUnmanagedDataDisk,VirtualMachine.UpdateStages.WithManagedDataDisk,VirtualMachine.UpdateStages.WithSecondaryNetworkInterface,VirtualMachine.UpdateStages.WithExtension,VirtualMachine.UpdateStages.WithBootDiagnostics,VirtualMachine.UpdateStages.WithManagedServiceIdentity
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -195,10 +195,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -212,6 +209,6 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>

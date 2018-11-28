@@ -137,7 +137,7 @@ references:
   nameWithType: DeploymentSlots
   fullName: com.microsoft.azure.management.appservice.DeploymentSlots
   type: Interface
-  summary: <p>Entry point for Azure web app deployment slot management API. </p>
+  summary: "<p>Entry point for Azure web app deployment slot management API. </p>"
   syntax:
     content: public interface DeploymentSlots extends SupportsCreating<DeploymentSlot.DefinitionStages.Blank>,SupportsListing<DeploymentSlot>,SupportsGettingByName<DeploymentSlot>,SupportsGettingById<DeploymentSlot>,SupportsDeletingById,SupportsDeletingByName,HasManager<AppServiceManager>,HasParent<WebApp>
 - uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlots
@@ -147,7 +147,7 @@ references:
   nameWithType: FunctionDeploymentSlots
   fullName: com.microsoft.azure.management.appservice.FunctionDeploymentSlots
   type: Interface
-  summary: <p>Entry point for Azure function app deployment slot management API. </p>
+  summary: "<p>Entry point for Azure function app deployment slot management API. </p>"
   syntax:
     content: public interface FunctionDeploymentSlots extends SupportsCreating<FunctionDeploymentSlot.DefinitionStages.Blank>,SupportsListing<FunctionDeploymentSlot>,SupportsGettingByName<FunctionDeploymentSlot>,SupportsGettingById<FunctionDeploymentSlot>,SupportsDeletingById,SupportsDeletingByName,HasManager<AppServiceManager>,HasParent<FunctionApp>
 - uid: com.microsoft.azure.management.batchai.BatchAIClusters
@@ -157,7 +157,7 @@ references:
   nameWithType: BatchAIClusters
   fullName: com.microsoft.azure.management.batchai.BatchAIClusters
   type: Interface
-  summary: <p>Entry point to Batch AI cluster management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI cluster management API in Azure. </p>"
   syntax:
     content: public interface BatchAIClusters extends SupportsCreating<BatchAICluster.DefinitionStages.Blank>,SupportsListing<BatchAICluster>,SupportsGettingById<BatchAICluster>,SupportsGettingByNameAsync<BatchAICluster>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<ClustersInner>,HasParent<BatchAIWorkspace>
 - uid: com.microsoft.azure.management.batchai.BatchAIExperiments
@@ -167,7 +167,7 @@ references:
   nameWithType: BatchAIExperiments
   fullName: com.microsoft.azure.management.batchai.BatchAIExperiments
   type: Interface
-  summary: <p>Entry point to Batch AI experiments management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI experiments management API in Azure. </p>"
   syntax:
     content: public interface BatchAIExperiments extends SupportsCreating<BatchAIExperiment.DefinitionStages.WithCreate>,SupportsListing<BatchAIExperiment>,SupportsGettingById<BatchAIExperiment>,SupportsGettingByNameAsync<BatchAIExperiment>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<ExperimentsInner>,HasParent<BatchAIWorkspace>
 - uid: com.microsoft.azure.management.batchai.BatchAIFileServers
@@ -177,7 +177,7 @@ references:
   nameWithType: BatchAIFileServers
   fullName: com.microsoft.azure.management.batchai.BatchAIFileServers
   type: Interface
-  summary: <p>Entry point to Batch AI file servers management API in Azure. </p>
+  summary: "<p>Entry point to Batch AI file servers management API in Azure. </p>"
   syntax:
     content: public interface BatchAIFileServers extends SupportsCreating<BatchAIFileServer.DefinitionStages.Blank>,SupportsListing<BatchAIFileServer>,SupportsGettingById<BatchAIFileServer>,SupportsGettingByNameAsync<BatchAIFileServer>,SupportsDeletingById,SupportsDeletingByName,HasManager<BatchAIManager>,HasInner<FileServersInner>
 - uid: com.microsoft.azure.management.batchai.BatchAIJobs
@@ -187,7 +187,7 @@ references:
   nameWithType: BatchAIJobs
   fullName: com.microsoft.azure.management.batchai.BatchAIJobs
   type: Interface
-  summary: <p>Entry point for Batch AI jobs management API in Azure. </p>
+  summary: "<p>Entry point for Batch AI jobs management API in Azure. </p>"
   syntax:
     content: public interface BatchAIJobs extends SupportsCreating<BatchAIJob.DefinitionStages.Blank>,SupportsListing<BatchAIJob>,SupportsGettingByName<BatchAIJob>,SupportsGettingById<BatchAIJob>,SupportsGettingByNameAsync<BatchAIJob>,SupportsDeletingByName,SupportsDeletingById,HasInner<JobsInner>,HasManager<BatchAIManager>,HasParent<BatchAIExperiment>
 - uid: com.microsoft.azure.management.network.PacketCaptures
@@ -197,7 +197,7 @@ references:
   nameWithType: PacketCaptures
   fullName: com.microsoft.azure.management.network.PacketCaptures
   type: Interface
-  summary: <p>Entry point to packet captures management API in Azure. </p>
+  summary: "<p>Entry point to packet captures management API in Azure. </p>"
   syntax:
     content: public interface PacketCaptures extends SupportsCreating<PacketCapture.DefinitionStages.WithTarget>,SupportsListing<PacketCapture>,SupportsGettingByNameAsync<PacketCapture>,SupportsDeletingByName,HasInner<PacketCapturesInner>
 - uid: com.microsoft.azure.management.network.VirtualNetworkGatewayConnections
@@ -207,7 +207,7 @@ references:
   nameWithType: VirtualNetworkGatewayConnections
   fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayConnections
   type: Interface
-  summary: <p>Entry point for virtual network gateway connections management API in Azure. </p>
+  summary: "<p>Entry point for virtual network gateway connections management API in Azure. </p>"
   syntax:
     content: public interface VirtualNetworkGatewayConnections
 - uid: com.microsoft.azure.management.resources.ResourceGroups
@@ -217,7 +217,7 @@ references:
   nameWithType: ResourceGroups
   fullName: com.microsoft.azure.management.resources.ResourceGroups
   type: Interface
-  summary: <p>Entry point to resource group management API. </p>
+  summary: "<p>Entry point to resource group management API. </p>"
   syntax:
     content: public interface ResourceGroups extends SupportsListing<ResourceGroup>,SupportsListingByTag<ResourceGroup>,SupportsGettingByName<ResourceGroup>,SupportsCreating<ResourceGroup.DefinitionStages.Blank>,SupportsDeletingByName,SupportsBeginDeletingByName,SupportsBatchCreation<ResourceGroup>
 - uid: com.microsoft.azure.management.servicebus.AuthorizationRules
@@ -227,10 +227,7 @@ references:
   nameWithType: AuthorizationRules<RuleT>
   fullName: com.microsoft.azure.management.servicebus.AuthorizationRules<RuleT>
   type: Interface
-  summary: >-
-    <p>Entry point to authorization rules management API.</p>
-
-    <p></p>
+  summary: "<p>Entry point to authorization rules management API.</p>\r\n<p></p>"
   syntax:
     content: public interface AuthorizationRules<RuleT> extends SupportsListing<RuleT>,SupportsGettingByNameAsync<RuleT>,SupportsDeletingByName,HasManager<ServiceBusManager>
     typeParameters:
@@ -244,7 +241,7 @@ references:
   nameWithType: Queues
   fullName: com.microsoft.azure.management.servicebus.Queues
   type: Interface
-  summary: <p>Entry point to service bus queue management API in Azure. </p>
+  summary: "<p>Entry point to service bus queue management API in Azure. </p>"
   syntax:
     content: public interface Queues extends SupportsCreating<Queue.DefinitionStages.Blank>,SupportsListing<Queue>,SupportsGettingByNameAsync<Queue>,SupportsDeletingByName,HasManager<ServiceBusManager>,HasInner<QueuesInner>
 - uid: com.microsoft.azure.management.servicebus.ServiceBusSubscriptions
@@ -254,7 +251,7 @@ references:
   nameWithType: ServiceBusSubscriptions
   fullName: com.microsoft.azure.management.servicebus.ServiceBusSubscriptions
   type: Interface
-  summary: <p>Entry point to service bus queue management API in Azure. </p>
+  summary: "<p>Entry point to service bus queue management API in Azure. </p>"
   syntax:
     content: public interface ServiceBusSubscriptions extends SupportsCreating<ServiceBusSubscription.DefinitionStages.Blank>,SupportsListing<ServiceBusSubscription>,SupportsGettingByNameAsync<ServiceBusSubscription>,SupportsDeletingByName,HasManager<ServiceBusManager>,HasInner<SubscriptionsInner>
 - uid: com.microsoft.azure.management.servicebus.Topics
@@ -264,6 +261,6 @@ references:
   nameWithType: Topics
   fullName: com.microsoft.azure.management.servicebus.Topics
   type: Interface
-  summary: <p>Entry point to Service Bus topic management API in Azure. </p>
+  summary: "<p>Entry point to Service Bus topic management API in Azure. </p>"
   syntax:
     content: public interface Topics

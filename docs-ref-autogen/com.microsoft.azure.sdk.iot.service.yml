@@ -99,7 +99,7 @@ references:
   nameWithType: AuthenticationMechanism
   fullName: com.microsoft.azure.sdk.iot.service.AuthenticationMechanism
   type: Class
-  summary: <p>Authentication mechanism, used to store the device symmetric key. </p>
+  summary: "<p>Authentication mechanism, used to store the device symmetric key. </p>"
   syntax:
     content: public class AuthenticationMechanism
 - uid: com.microsoft.azure.sdk.iot.service.AuthenticationMethod
@@ -109,7 +109,7 @@ references:
   nameWithType: AuthenticationMethod
   fullName: com.microsoft.azure.sdk.iot.service.AuthenticationMethod
   type: Class
-  summary: <p>Class used to abstract the different authentication methods used to use IoT Hub SDK. </p>
+  summary: "<p>Class used to abstract the different authentication methods used to use IoT Hub SDK. </p>"
   syntax:
     content: public class AuthenticationMethod
 - uid: com.microsoft.azure.sdk.iot.service.BaseDevice
@@ -119,7 +119,7 @@ references:
   nameWithType: BaseDevice
   fullName: com.microsoft.azure.sdk.iot.service.BaseDevice
   type: Class
-  summary: <p>The BaseDevice class implementing constructors and serialization functionality. </p>
+  summary: "<p>The BaseDevice class implementing constructors and serialization functionality. </p>"
   syntax:
     content: public class BaseDevice
 - uid: com.microsoft.azure.sdk.iot.service.Configuration
@@ -165,7 +165,7 @@ references:
   nameWithType: Device
   fullName: com.microsoft.azure.sdk.iot.service.Device
   type: Class
-  summary: <p>The Device class extends the Device class implementing constructors and serialization functionality. </p>
+  summary: "<p>The Device class extends the Device class implementing constructors and serialization functionality. </p>"
   syntax:
     content: public class Device extends BaseDevice
 - uid: com.microsoft.azure.sdk.iot.service.DeviceConnectionState
@@ -175,7 +175,7 @@ references:
   nameWithType: DeviceConnectionState
   fullName: com.microsoft.azure.sdk.iot.service.DeviceConnectionState
   type: Enum
-  summary: <p>Enum for device connection state </p>
+  summary: "<p>Enum for device connection state </p>"
   syntax:
     content: public enum DeviceConnectionState
 - uid: com.microsoft.azure.sdk.iot.service.DeviceStatus
@@ -185,7 +185,7 @@ references:
   nameWithType: DeviceStatus
   fullName: com.microsoft.azure.sdk.iot.service.DeviceStatus
   type: Enum
-  summary: <p>Enum for device status </p>
+  summary: "<p>Enum for device status </p>"
   syntax:
     content: public enum DeviceStatus
 - uid: com.microsoft.azure.sdk.iot.service.ExportImportDevice
@@ -204,7 +204,7 @@ references:
   nameWithType: FeedbackBatch
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackBatch
   type: Class
-  summary: <p>Data structure for feedback messages received in Json array Provide getters and setters for batch properties and messages </p>
+  summary: "<p>Data structure for feedback messages received in Json array Provide getters and setters for batch properties and messages </p>"
   syntax:
     content: public class FeedbackBatch
 - uid: com.microsoft.azure.sdk.iot.service.FeedbackBatchMessage
@@ -214,7 +214,7 @@ references:
   nameWithType: FeedbackBatchMessage
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackBatchMessage
   type: Class
-  summary: <p>Provide static function to parse Json string to FeedbackBatch object. </p>
+  summary: "<p>Provide static function to parse Json string to FeedbackBatch object. </p>"
   syntax:
     content: public class FeedbackBatchMessage
 - uid: com.microsoft.azure.sdk.iot.service.FeedbackReceiver
@@ -224,7 +224,7 @@ references:
   nameWithType: FeedbackReceiver
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackReceiver
   type: Class
-  summary: <p>FeedbackReceiver is a specialized receiver whose ReceiveAsync method returns a FeedbackBatch instead of a Message. </p>
+  summary: "<p>FeedbackReceiver is a specialized receiver whose ReceiveAsync method returns a FeedbackBatch instead of a Message. </p>"
   syntax:
     content: public class FeedbackReceiver extends Receiver
 - uid: com.microsoft.azure.sdk.iot.service.FeedbackRecord
@@ -234,7 +234,7 @@ references:
   nameWithType: FeedbackRecord
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackRecord
   type: Class
-  summary: <p>Data structure for feedback record received Provide getters and setters for feedback record batch properties </p>
+  summary: "<p>Data structure for feedback record received Provide getters and setters for feedback record batch properties </p>"
   syntax:
     content: public class FeedbackRecord
 - uid: com.microsoft.azure.sdk.iot.service.FeedbackStatusCode
@@ -244,7 +244,7 @@ references:
   nameWithType: FeedbackStatusCode
   fullName: com.microsoft.azure.sdk.iot.service.FeedbackStatusCode
   type: Enum
-  summary: <p>Enum for feedback status codes </p>
+  summary: "<p>Enum for feedback status codes </p>"
   syntax:
     content: public enum FeedbackStatusCode
 - uid: com.microsoft.azure.sdk.iot.service.FileUploadNotification
@@ -281,7 +281,7 @@ references:
   nameWithType: IotHubConnectionString
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionString
   type: Class
-  summary: <p>Expose all connections string properties and methods for user, device and connection string serialization. </p>
+  summary: "<p>Expose all connections string properties and methods for user, device and connection string serialization. </p>"
   syntax:
     content: public class IotHubConnectionString extends IotHubConnectionStringBuilder
 - uid: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder
@@ -291,7 +291,7 @@ references:
   nameWithType: IotHubConnectionStringBuilder
   fullName: com.microsoft.azure.sdk.iot.service.IotHubConnectionStringBuilder
   type: Class
-  summary: <p>Provide static constructors to create IotHubConnectionString object </p>
+  summary: "<p>Provide static constructors to create IotHubConnectionString object </p>"
   syntax:
     content: public class IotHubConnectionStringBuilder
 - uid: com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol
@@ -301,7 +301,7 @@ references:
   nameWithType: IotHubServiceClientProtocol
   fullName: com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol
   type: Enum
-  summary: <p>The application-layer protocol used by the service client to communicate with an IoT Hub. </p>
+  summary: "<p>The application-layer protocol used by the service client to communicate with an IoT Hub. </p>"
   syntax:
     content: public enum IotHubServiceClientProtocol
 - uid: com.microsoft.azure.sdk.iot.service.JobProperties
@@ -320,7 +320,7 @@ references:
   nameWithType: Message
   fullName: com.microsoft.azure.sdk.iot.service.Message
   type: Class
-  summary: <p>IotHub specific message container </p>
+  summary: "<p>IotHub specific message container </p>"
   syntax:
     content: public class Message
 - uid: com.microsoft.azure.sdk.iot.service.Module
@@ -339,7 +339,7 @@ references:
   nameWithType: Receiver
   fullName: com.microsoft.azure.sdk.iot.service.Receiver
   type: Class
-  summary: <p>A receiver is a class abstracting the methods to receive messages, in order to use it for multiple endpoints, e.g. feedback endpoint, "alerts" (i.e. D2C). </p>
+  summary: "<p>A receiver is a class abstracting the methods to receive messages, in order to use it for multiple endpoints, e.g. feedback endpoint, \"alerts\" (i.e. D2C). </p>"
   syntax:
     content: public class Receiver
 - uid: com.microsoft.azure.sdk.iot.service.RegistryManager
@@ -349,7 +349,7 @@ references:
   nameWithType: RegistryManager
   fullName: com.microsoft.azure.sdk.iot.service.RegistryManager
   type: Class
-  summary: <p>Use the RegistryManager class to manage the identity registry in IoT Hubs. </p>
+  summary: "<p>Use the RegistryManager class to manage the identity registry in IoT Hubs. </p>"
   syntax:
     content: public class RegistryManager
 - uid: com.microsoft.azure.sdk.iot.service.RegistryStatistics
@@ -368,7 +368,7 @@ references:
   nameWithType: ServiceAuthenticationWithSharedAccessPolicyKey
   fullName: com.microsoft.azure.sdk.iot.service.ServiceAuthenticationWithSharedAccessPolicyKey
   type: Class
-  summary: <p>Extend AuthenticationMethod class, provide getters for protected properties and implement populate function to set ServiceAuthenticationWithSharedAccessPolicyKey type policy on given IotHubConnectionString object. </p>
+  summary: "<p>Extend AuthenticationMethod class, provide getters for protected properties and implement populate function to set ServiceAuthenticationWithSharedAccessPolicyKey type policy on given IotHubConnectionString object. </p>"
   syntax:
     content: public class ServiceAuthenticationWithSharedAccessPolicyKey extends AuthenticationMethod
 - uid: com.microsoft.azure.sdk.iot.service.ServiceAuthenticationWithSharedAccessPolicyToken
@@ -378,7 +378,7 @@ references:
   nameWithType: ServiceAuthenticationWithSharedAccessPolicyToken
   fullName: com.microsoft.azure.sdk.iot.service.ServiceAuthenticationWithSharedAccessPolicyToken
   type: Class
-  summary: <p>Extend AuthenticationMethod class, provide getters for protected properties and implement populate function to set ServiceAuthenticationWithSharedAccessPolicyToken type policy on given IotHubConnectionString object. </p>
+  summary: "<p>Extend AuthenticationMethod class, provide getters for protected properties and implement populate function to set ServiceAuthenticationWithSharedAccessPolicyToken type policy on given IotHubConnectionString object. </p>"
   syntax:
     content: public class ServiceAuthenticationWithSharedAccessPolicyToken extends AuthenticationMethod
 - uid: com.microsoft.azure.sdk.iot.service.ServiceClient
@@ -388,7 +388,7 @@ references:
   nameWithType: ServiceClient
   fullName: com.microsoft.azure.sdk.iot.service.ServiceClient
   type: Class
-  summary: <p>Extend the ServiceClient class and provide AMPQ specific implementation. </p>
+  summary: "<p>Extend the ServiceClient class and provide AMPQ specific implementation. </p>"
   syntax:
     content: public class ServiceClient
 - uid: com.microsoft.azure.sdk.iot.service.ServiceStatistics
@@ -398,7 +398,7 @@ references:
   nameWithType: ServiceStatistics
   fullName: com.microsoft.azure.sdk.iot.service.ServiceStatistics
   type: Class
-  summary: <p>Data structure for service statistics received in Json array Provide getters and setters for statistics properties </p>
+  summary: "<p>Data structure for service statistics received in Json array Provide getters and setters for statistics properties </p>"
   syntax:
     content: public class ServiceStatistics
 - uid: com.microsoft.azure.sdk.iot.service.Tools
@@ -408,7 +408,7 @@ references:
   nameWithType: Tools
   fullName: com.microsoft.azure.sdk.iot.service.Tools
   type: Class
-  summary: <p>Collection of static helper functions </p>
+  summary: "<p>Collection of static helper functions </p>"
   syntax:
     content: public class Tools
 - uid: com.microsoft.azure.sdk.iot.service.JobProperties.JobStatus

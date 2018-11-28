@@ -29,10 +29,7 @@ references:
   nameWithType: HasPublicIPAddress.DefinitionStages.WithPublicIPAddressNoDnsLabel<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.DefinitionStages.WithPublicIPAddressNoDnsLabel<ReturnT>
   type: Interface
-  summary: >-
-    <p>The stage of the definition allowing to associate the resource with a public IP address, but not allowing to create one with a DNS leaf label.</p>
-
-    <p></p>
+  summary: "<p>The stage of the definition allowing to associate the resource with a public IP address, but not allowing to create one with a DNS leaf label.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPublicIPAddressNoDnsLabel<ReturnT>
     typeParameters:
@@ -46,7 +43,7 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of an application gateway definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>
+  summary: "<p>The stage of an application gateway definition containing all the required inputs for the resource to be created, but also allowing for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<ApplicationGateway>,Resource.DefinitionWithTags<WithCreate>,ApplicationGateway.DefinitionStages.WithSize,ApplicationGateway.DefinitionStages.WithInstanceCount,ApplicationGateway.DefinitionStages.WithSslCert,ApplicationGateway.DefinitionStages.WithFrontendPort,ApplicationGateway.DefinitionStages.WithListener,ApplicationGateway.DefinitionStages.WithBackendHttpConfig,ApplicationGateway.DefinitionStages.WithBackend,ApplicationGateway.DefinitionStages.WithExistingSubnet,ApplicationGateway.DefinitionStages.WithPrivateIPAddress,ApplicationGateway.DefinitionStages.WithPrivateFrontend,ApplicationGateway.DefinitionStages.WithPublicFrontend,ApplicationGateway.DefinitionStages.WithPublicIPAddress,ApplicationGateway.DefinitionStages.WithProbe,ApplicationGateway.DefinitionStages.WithDisabledSslProtocol
 - uid: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPublicFrontend
@@ -56,6 +53,6 @@ references:
   nameWithType: ApplicationGateway.DefinitionStages.WithPublicFrontend
   fullName: com.microsoft.azure.management.network.ApplicationGateway.DefinitionStages.WithPublicFrontend
   type: Interface
-  summary: <p>The stage of an application gateway definition allowing to define one or more public, or Internet-facing, frontends. </p>
+  summary: "<p>The stage of an application gateway definition allowing to define one or more public, or Internet-facing, frontends. </p>"
   syntax:
     content: public interface WithPublicFrontend extends ApplicationGateway.DefinitionStages.WithPublicIPAddress

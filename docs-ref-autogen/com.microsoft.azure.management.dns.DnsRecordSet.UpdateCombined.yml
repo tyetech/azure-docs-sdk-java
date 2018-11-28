@@ -58,12 +58,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -76,10 +71,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithCNameRecordAlias.withAlias(String alias)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithCNameRecordAlias.withAlias(String alias)
   type: Method
-  summary: >-
-    <p>The new alias for the CNAME record set.</p>
-
-    <p></p>
+  summary: "<p>The new alias for the CNAME record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateCNameRecordSet withAlias(String alias)
     parameters:
@@ -96,10 +88,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withEmailServer(String emailServerHostName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withEmailServer(String emailServerHostName)
   type: Method
-  summary: >-
-    <p>Specifies the email server associated with the SOA record.</p>
-
-    <p></p>
+  summary: "<p>Specifies the email server associated with the SOA record.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSoaRecord withEmailServer(String emailServerHostName)
     parameters:
@@ -116,10 +105,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
   type: Method
-  summary: >-
-    <p>Specifies that If-Match header needs to set to the current eTag value associated with the record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies that If-Match header needs to set to the current eTag value associated with the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withETagCheck()
     return:
@@ -132,10 +118,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String eTagValue)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String eTagValue)
   type: Method
-  summary: >-
-    <p>Specifies that if-Match header needs to set to the given eTag value.</p>
-
-    <p></p>
+  summary: "<p>Specifies that if-Match header needs to set to the given eTag value.</p>\r\n<p></p>"
   syntax:
     content: public Update withETagCheck(String eTagValue)
     parameters:
@@ -152,10 +135,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withExpireTimeInSeconds(long expireTimeInSeconds)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withExpireTimeInSeconds(long expireTimeInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the time in seconds that a secondary name server will treat its cached zone file as valid when the primary name server cannot be contacted.</p>
-
-    <p></p>
+  summary: "<p>Specifies the time in seconds that a secondary name server will treat its cached zone file as valid when the primary name server cannot be contacted.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSoaRecord withExpireTimeInSeconds(long expireTimeInSeconds)
     parameters:
@@ -172,10 +152,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithARecordIPv4Address.withIPv4Address(String ipv4Address)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithARecordIPv4Address.withIPv4Address(String ipv4Address)
   type: Method
-  summary: >-
-    <p>Creates an A record with the provided IPv4 address in the record set.</p>
-
-    <p></p>
+  summary: "<p>Creates an A record with the provided IPv4 address in the record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateARecordSet withIPv4Address(String ipv4Address)
     parameters:
@@ -192,10 +169,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address.withIPv6Address(String ipv6Address)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address.withIPv6Address(String ipv6Address)
   type: Method
-  summary: >-
-    <p>Creates an AAAA record with the provided IPv6 address in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates an AAAA record with the provided IPv6 address in this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateAaaaRecordSet withIPv6Address(String ipv6Address)
     parameters:
@@ -212,10 +186,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMXRecordMailExchange.withMailExchange(String mailExchangeHostName, int priority)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMXRecordMailExchange.withMailExchange(String mailExchangeHostName, int priority)
   type: Method
-  summary: >-
-    <p>Creates and assigns priority to a MX record with the provided mail exchange server in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates and assigns priority to a MX record with the provided mail exchange server in this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateMXRecordSet withMailExchange(String mailExchangeHostName, int priority)
     parameters:
@@ -235,10 +206,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String key, String value)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String key, String value)
   type: Method
-  summary: >-
-    <p>Adds a metadata to the record set.</p>
-
-    <p></p>
+  summary: "<p>Adds a metadata to the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withMetadata(String key, String value)
     parameters:
@@ -258,10 +226,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithNSRecordNameServer.withNameServer(String nameServerHostName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithNSRecordNameServer.withNameServer(String nameServerHostName)
   type: Method
-  summary: >-
-    <p>Creates a NS record with the provided name server in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates a NS record with the provided name server in this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateNSRecordSet withNameServer(String nameServerHostName)
     parameters:
@@ -278,10 +243,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withNegativeResponseCachingTimeToLiveInSeconds(long negativeCachingTimeToLive)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withNegativeResponseCachingTimeToLiveInSeconds(long negativeCachingTimeToLive)
   type: Method
-  summary: >-
-    <p>Specifies the time in seconds that any name server or resolver should cache a negative response.</p>
-
-    <p></p>
+  summary: "<p>Specifies the time in seconds that any name server or resolver should cache a negative response.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSoaRecord withNegativeResponseCachingTimeToLiveInSeconds(long negativeCachingTimeToLive)
     parameters:
@@ -298,10 +260,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithARecordIPv4Address.withoutIPv4Address(String ipv4Address)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithARecordIPv4Address.withoutIPv4Address(String ipv4Address)
   type: Method
-  summary: >-
-    <p>Removes the A record with the provided IPv4 address from the record set.</p>
-
-    <p></p>
+  summary: "<p>Removes the A record with the provided IPv4 address from the record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateARecordSet withoutIPv4Address(String ipv4Address)
     parameters:
@@ -318,10 +277,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address.withoutIPv6Address(String ipv6Address)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address.withoutIPv6Address(String ipv6Address)
   type: Method
-  summary: >-
-    <p>Removes an AAAA record with the provided IPv6 address from this record set.</p>
-
-    <p></p>
+  summary: "<p>Removes an AAAA record with the provided IPv6 address from this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateAaaaRecordSet withoutIPv6Address(String ipv6Address)
     parameters:
@@ -338,10 +294,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMXRecordMailExchange.withoutMailExchange(String mailExchangeHostName, int priority)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMXRecordMailExchange.withoutMailExchange(String mailExchangeHostName, int priority)
   type: Method
-  summary: >-
-    <p>Removes MX record with the provided mail exchange server and priority from this record set.</p>
-
-    <p></p>
+  summary: "<p>Removes MX record with the provided mail exchange server and priority from this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateMXRecordSet withoutMailExchange(String mailExchangeHostName, int priority)
     parameters:
@@ -361,10 +314,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String key)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String key)
   type: Method
-  summary: >-
-    <p>Removes a metadata from the record set.</p>
-
-    <p></p>
+  summary: "<p>Removes a metadata from the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutMetadata(String key)
     parameters:
@@ -381,10 +331,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithNSRecordNameServer.withoutNameServer(String nameServerHostName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithNSRecordNameServer.withoutNameServer(String nameServerHostName)
   type: Method
-  summary: >-
-    <p>Rmoves a NS record with the provided name server from this record set.</p>
-
-    <p></p>
+  summary: "<p>Rmoves a NS record with the provided name server from this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateNSRecordSet withoutNameServer(String nameServerHostName)
     parameters:
@@ -401,10 +348,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSrvRecordEntry.withoutRecord(String target, int port, int priority, int weight)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry.withoutRecord(String target, int port, int priority, int weight)
   type: Method
-  summary: >-
-    <p>Removes a service record for a service.</p>
-
-    <p></p>
+  summary: "<p>Removes a service record for a service.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSrvRecordSet withoutRecord(String target, int port, int priority, int weight)
     parameters:
@@ -430,10 +374,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withoutTargetDomainName(String targetDomainName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withoutTargetDomainName(String targetDomainName)
   type: Method
-  summary: >-
-    <p>Removes the CName record with the provided canonical name from this record set.</p>
-
-    <p></p>
+  summary: "<p>Removes the CName record with the provided canonical name from this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdatePtrRecordSet withoutTargetDomainName(String targetDomainName)
     parameters:
@@ -450,10 +391,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithTxtRecordTextValue.withoutText(String text)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTxtRecordTextValue.withoutText(String text)
   type: Method
-  summary: >-
-    <p>Removes a Txt record with the given text from this record set.</p>
-
-    <p></p>
+  summary: "<p>Removes a Txt record with the given text from this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateTxtRecordSet withoutText(String text)
     parameters:
@@ -470,10 +408,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithTxtRecordTextValue.withoutText(List<String> textChunks)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTxtRecordTextValue.withoutText(List<String> textChunks)
   type: Method
-  summary: >-
-    <p>Removes a Txt record with the given text (split into 255 char chunks) from this record set.</p>
-
-    <p></p>
+  summary: "<p>Removes a Txt record with the given text (split into 255 char chunks) from this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateTxtRecordSet withoutText(List<String> textChunks)
     parameters:
@@ -490,10 +425,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSrvRecordEntry.withRecord(String target, int port, int priority, int weight)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry.withRecord(String target, int port, int priority, int weight)
   type: Method
-  summary: >-
-    <p>Specifies a service record for a service.</p>
-
-    <p></p>
+  summary: "<p>Specifies a service record for a service.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSrvRecordSet withRecord(String target, int port, int priority, int weight)
     parameters:
@@ -519,10 +451,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withRefreshTimeInSeconds(long refreshTimeInSeconds)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withRefreshTimeInSeconds(long refreshTimeInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies time in seconds that a secondary name server should wait before trying to contact the the primary name server for a zone file update.</p>
-
-    <p></p>
+  summary: "<p>Specifies time in seconds that a secondary name server should wait before trying to contact the the primary name server for a zone file update.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSoaRecord withRefreshTimeInSeconds(long refreshTimeInSeconds)
     parameters:
@@ -539,10 +468,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withRetryTimeInSeconds(long refreshTimeInSeconds)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withRetryTimeInSeconds(long refreshTimeInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the time in seconds that a secondary name server should wait before trying to contact the primary name server again after a failed attempt to check for a zone file update.</p>
-
-    <p></p>
+  summary: "<p>Specifies the time in seconds that a secondary name server should wait before trying to contact the primary name server again after a failed attempt to check for a zone file update.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSoaRecord withRetryTimeInSeconds(long refreshTimeInSeconds)
     parameters:
@@ -559,10 +485,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withSerialNumber(long serialNumber)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSoaRecordAttributes.withSerialNumber(long serialNumber)
   type: Method
-  summary: >-
-    <p>Specifies the serial number for the zone file.</p>
-
-    <p></p>
+  summary: "<p>Specifies the serial number for the zone file.</p>\r\n<p></p>"
   syntax:
     content: public UpdateSoaRecord withSerialNumber(long serialNumber)
     parameters:
@@ -579,10 +502,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withTargetDomainName(String targetDomainName)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithPtrRecordTargetDomainName.withTargetDomainName(String targetDomainName)
   type: Method
-  summary: >-
-    <p>Creates a CName record with the provided canonical name in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates a CName record with the provided canonical name in this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdatePtrRecordSet withTargetDomainName(String targetDomainName)
     parameters:
@@ -599,10 +519,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithTxtRecordTextValue.withText(String text)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTxtRecordTextValue.withText(String text)
   type: Method
-  summary: >-
-    <p>Creates a Txt record with the given text in this record set.</p>
-
-    <p></p>
+  summary: "<p>Creates a Txt record with the given text in this record set.</p>\r\n<p></p>"
   syntax:
     content: public UpdateTxtRecordSet withText(String text)
     parameters:
@@ -619,10 +536,7 @@ references:
   nameWithType: DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long ttlInSeconds)
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long ttlInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the TTL for the records in the record set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the TTL for the records in the record set.</p>\r\n<p></p>"
   syntax:
     content: public Update withTimeToLive(long ttlInSeconds)
     parameters:
@@ -639,7 +553,7 @@ references:
   nameWithType: DnsRecordSet.UpdateARecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateARecordSet
   type: Interface
-  summary: <p>The entirety of an A record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of an A record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateARecordSet extends DnsRecordSet.UpdateStages.WithARecordIPv4Address,DnsRecordSet.Update
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet
@@ -649,7 +563,7 @@ references:
   nameWithType: DnsRecordSet.UpdateAaaaRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet
   type: Interface
-  summary: <p>The entirety of an AAAA record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of an AAAA record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateAaaaRecordSet extends DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address,DnsRecordSet.Update
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCNameRecordSet
@@ -659,7 +573,7 @@ references:
   nameWithType: DnsRecordSet.UpdateCNameRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateCNameRecordSet
   type: Interface
-  summary: <p>The entirety of CNAME record set update as part of parent DNS zone update. </p>
+  summary: "<p>The entirety of CNAME record set update as part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateCNameRecordSet extends DnsRecordSet.UpdateStages.WithCNameRecordAlias,DnsRecordSet.Update
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateMXRecordSet
@@ -669,7 +583,7 @@ references:
   nameWithType: DnsRecordSet.UpdateMXRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateMXRecordSet
   type: Interface
-  summary: <p>The entirety of a MX record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a MX record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateMXRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdatePtrRecordSet
@@ -679,7 +593,7 @@ references:
   nameWithType: DnsRecordSet.UpdatePtrRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdatePtrRecordSet
   type: Interface
-  summary: <p>The entirety of a PTR record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a PTR record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdatePtrRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateNSRecordSet
@@ -689,7 +603,7 @@ references:
   nameWithType: DnsRecordSet.UpdateNSRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateNSRecordSet
   type: Interface
-  summary: <p>The entirety of a NS record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a NS record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateNSRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet
@@ -699,7 +613,7 @@ references:
   nameWithType: DnsRecordSet.UpdateSrvRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet
   type: Interface
-  summary: <p>The entirety of a SRV record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a SRV record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateSrvRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateTxtRecordSet
@@ -709,7 +623,7 @@ references:
   nameWithType: DnsRecordSet.UpdateTxtRecordSet
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateTxtRecordSet
   type: Interface
-  summary: <p>The entirety of a TXT record set update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a TXT record set update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateTxtRecordSet
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSoaRecord
@@ -719,7 +633,7 @@ references:
   nameWithType: DnsRecordSet.UpdateSoaRecord
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSoaRecord
   type: Interface
-  summary: <p>The entirety of a SOA record update as a part of parent DNS zone update. </p>
+  summary: "<p>The entirety of a SOA record update as a part of parent DNS zone update. </p>"
   syntax:
     content: public interface UpdateSoaRecord
 - uid: com.microsoft.azure.management.dns.DnsRecordSet.Update
@@ -729,6 +643,6 @@ references:
   nameWithType: DnsRecordSet.Update
   fullName: com.microsoft.azure.management.dns.DnsRecordSet.Update
   type: Interface
-  summary: <p>the set of configurations that can be updated for DNS record set irrespective of their type <xref uid="com.microsoft.azure.management.dns.RecordType" data-throw-if-not-resolved="false">RecordType</xref>. </p>
+  summary: "<p>the set of configurations that can be updated for DNS record set irrespective of their type <xref uid=\"com.microsoft.azure.management.dns.RecordType\" data-throw-if-not-resolved=\"false\">RecordType</xref>. </p>"
   syntax:
     content: public interface Update extends Settable<DnsZone.Update>,DnsRecordSet.UpdateStages.WithTtl,DnsRecordSet.UpdateStages.WithMetadata,DnsRecordSet.UpdateStages.WithETagCheck

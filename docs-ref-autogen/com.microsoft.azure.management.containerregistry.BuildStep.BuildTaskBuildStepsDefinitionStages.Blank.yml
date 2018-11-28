@@ -44,10 +44,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument.buildArgument(String name, String value, boolean secrecy)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBuildArgument.buildArgument(String name, String value, boolean secrecy)
   type: Method
-  summary: >-
-    <p>Specifies the build argument settings.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build argument settings.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate buildArgument(String name, String value, boolean secrecy)
     parameters:
@@ -70,10 +67,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -86,10 +80,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -106,10 +97,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -146,10 +134,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch.withBranch(String branch)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithBranch.withBranch(String branch)
   type: Method
-  summary: >-
-    <p>Specifies the branch required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the branch required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withBranch(String branch)
     parameters:
@@ -166,10 +151,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext.withContextPath(String contextPath)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithContext.withContextPath(String contextPath)
   type: Method
-  summary: >-
-    <p>Specifies the relative context path for a docker build in the source required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the relative context path for a docker build in the source required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withContextPath(String contextPath)
     parameters:
@@ -186,10 +168,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithDockerFilePath.withDockerFilePath(String dockerFilePath)
   type: Method
-  summary: >-
-    <p>Specifies the Docker file path required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the Docker file path required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withDockerFilePath(String dockerFilePath)
     parameters:
@@ -206,10 +185,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImageCacheDisabled()
     return:
@@ -222,10 +198,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageCache.withImageCacheEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image cache is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image cache is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImageCacheEnabled()
     return:
@@ -238,10 +211,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImageNames.withImageNames(String... imageNames)
   type: Method
-  summary: >-
-    <p>Specifies the image names for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the image names for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImageNames(String... imageNames)
     parameters:
@@ -258,10 +228,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should not be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should not be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImagePushDisabled()
     return:
@@ -274,10 +241,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithImagePush.withImagePushEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the image built should be pushed to the registry.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the image built should be pushed to the registry.</p>\r\n<p></p>"
   syntax:
     content: public BuildTaskBuildStepsDefinitionStages.WithCreate withImagePushEnabled()
     return:
@@ -290,7 +254,7 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinition
@@ -300,6 +264,6 @@ references:
   nameWithType: BuildStep.BuildTaskBuildStepsDefinition
   fullName: com.microsoft.azure.management.containerregistry.BuildStep.BuildTaskBuildStepsDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface BuildTaskBuildStepsDefinition

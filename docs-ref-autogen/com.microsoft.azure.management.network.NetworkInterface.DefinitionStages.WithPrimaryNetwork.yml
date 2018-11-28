@@ -169,7 +169,7 @@ references:
   nameWithType: NetworkInterface.Definition
   fullName: com.microsoft.azure.management.network.NetworkInterface.Definition
   type: Interface
-  summary: <p>The entirety of the network interface definition. </p>
+  summary: "<p>The entirety of the network interface definition. </p>"
   syntax:
     content: public interface Definition extends NetworkInterface.DefinitionStages.Blank,NetworkInterface.DefinitionStages.WithGroup,NetworkInterface.DefinitionStages.WithPrimaryNetwork,NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet,NetworkInterface.DefinitionStages.WithPrimaryPrivateIP,NetworkInterface.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIP
@@ -179,7 +179,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPrivateIP
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIP
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
+  summary: "<p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>"
   syntax:
     content: public interface WithPrimaryPrivateIP
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -189,10 +189,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -206,7 +203,7 @@ references:
   nameWithType: Network
   fullName: com.microsoft.azure.management.network.Network
   type: Interface
-  summary: <p>Entry point for Virtual Network management API in Azure. </p>
+  summary: "<p>Entry point for Virtual Network management API in Azure. </p>"
   syntax:
     content: public interface Network extends GroupableResource<NetworkManager, VirtualNetworkInner>,Refreshable<Network>,Updatable<Network.Update>
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet
@@ -216,6 +213,6 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify subnet. </p>
+  summary: "<p>The stage of the network interface definition allowing to specify subnet. </p>"
   syntax:
     content: public interface WithPrimaryNetworkSubnet

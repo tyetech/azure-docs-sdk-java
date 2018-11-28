@@ -80,10 +80,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.DefinitionStages.WithPublisher<ParentT>.withPublisher(String extensionImagePublisherName)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.DefinitionStages.WithPublisher<ParentT>.withPublisher(String extensionImagePublisherName)
   type: Method
-  summary: >-
-    <p>Specifies the name of the publisher of the virtual machine scale set extension image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the name of the publisher of the virtual machine scale set extension image.</p>\r\n<p></p>"
   syntax:
     content: public WithType<ParentT> withPublisher(String extensionImagePublisherName)
     parameters:
@@ -100,10 +97,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.DefinitionStages.WithPublisher<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.DefinitionStages.WithPublisher<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of a virtual machine scale set extension definition allowing to specify the publisher of the extension image this extension is based on.</p>
-
-    <p></p>
+  summary: "<p>The stage of a virtual machine scale set extension definition allowing to specify the publisher of the extension image this extension is based on.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPublisher<ParentT>
     typeParameters:
@@ -117,10 +111,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.Definition<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>The entirety of a virtual machine scale set extension definition as a part of a parent definition.</p>
-
-    <p></p>
+  summary: "<p>The entirety of a virtual machine scale set extension definition as a part of a parent definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT> extends VirtualMachineScaleSetExtension.DefinitionStages.Blank<ParentT>,VirtualMachineScaleSetExtension.DefinitionStages.WithImageOrPublisher<ParentT>,VirtualMachineScaleSetExtension.DefinitionStages.WithPublisher<ParentT>,VirtualMachineScaleSetExtension.DefinitionStages.WithType<ParentT>,VirtualMachineScaleSetExtension.DefinitionStages.WithVersion<ParentT>,VirtualMachineScaleSetExtension.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -134,10 +125,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of a virtual machine scale set extension definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of a virtual machine scale set extension definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends VirtualMachineScaleSetExtension.DefinitionStages.WithImageOrPublisher<ParentT>
     typeParameters:
@@ -151,7 +139,7 @@ references:
   nameWithType: VirtualMachineScaleSetExtension.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetExtension.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of a virtual machine scale set extension definition. </p>
+  summary: "<p>The final stage of a virtual machine scale set extension definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,VirtualMachineScaleSetExtension.DefinitionStages.WithAutoUpgradeMinorVersion<ParentT>,VirtualMachineScaleSetExtension.DefinitionStages.WithSettings<ParentT>
     typeParameters:
@@ -165,9 +153,6 @@ references:
   nameWithType: VirtualMachineExtensionImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineExtensionImage
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure virtual machine extension image. </p>
-
-    <p>Note: Azure virtual machine extension image is also referred as virtual machine extension handler. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine extension image. </p>\r\n<p>Note: Azure virtual machine extension image is also referred as virtual machine extension handler. </p>"
   syntax:
     content: public interface VirtualMachineExtensionImage extends HasInner<VirtualMachineExtensionImageInner>

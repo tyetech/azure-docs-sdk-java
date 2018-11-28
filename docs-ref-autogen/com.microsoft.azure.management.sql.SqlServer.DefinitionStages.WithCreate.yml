@@ -50,10 +50,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -66,10 +63,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -86,10 +80,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -102,10 +93,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithDatabase.defineDatabase(String databaseName)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithDatabase.defineDatabase(String databaseName)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new SQL Database to be added to this server.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new SQL Database to be added to this server.</p>\r\n<p></p>"
   syntax:
     content: public SqlDatabase.DefinitionStages.Blank<WithCreate> defineDatabase(String databaseName)
     parameters:
@@ -122,10 +110,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithElasticPool.defineElasticPool(String elasticPoolName)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithElasticPool.defineElasticPool(String elasticPoolName)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new SQL Elastic Pool to be added to this server.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new SQL Elastic Pool to be added to this server.</p>\r\n<p></p>"
   syntax:
     content: public SqlElasticPool.DefinitionStages.Blank<WithCreate> defineElasticPool(String elasticPoolName)
     parameters:
@@ -142,10 +127,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithFirewallRule.defineFirewallRule(String firewallRuleName)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithFirewallRule.defineFirewallRule(String firewallRuleName)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new SQL Firewall rule to be added to this server.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new SQL Firewall rule to be added to this server.</p>\r\n<p></p>"
   syntax:
     content: public SqlFirewallRule.DefinitionStages.Blank<WithCreate> defineFirewallRule(String firewallRuleName)
     parameters:
@@ -162,10 +144,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithVirtualNetworkRule.defineVirtualNetworkRule(String virtualNetworkRuleName)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithVirtualNetworkRule.defineVirtualNetworkRule(String virtualNetworkRuleName)
   type: Method
-  summary: >-
-    <p>Begins the definition of a new SQL Virtual Network Rule to be added to this server.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new SQL Virtual Network Rule to be added to this server.</p>\r\n<p></p>"
   syntax:
     content: public SqlVirtualNetworkRule.DefinitionStages.Blank<WithCreate> defineVirtualNetworkRule(String virtualNetworkRuleName)
     parameters:
@@ -206,12 +185,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithActiveDirectoryAdministrator.withActiveDirectoryAdministrator(String userLogin, String id)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithActiveDirectoryAdministrator.withActiveDirectoryAdministrator(String userLogin, String id)
   type: Method
-  summary: >-
-    <p>Sets the SQL Active Directory administrator. </p>
-
-    <p>Azure Active Directory authentication allows you to centrally manage identity and access to your Azure SQL Database V12.</p>
-
-    <p></p>
+  summary: "<p>Sets the SQL Active Directory administrator. </p>\r\n<p>Azure Active Directory authentication allows you to centrally manage identity and access to your Azure SQL Database V12.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withActiveDirectoryAdministrator(String userLogin, String id)
     parameters:
@@ -231,7 +205,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithDatabase.withNewDatabase(String databaseName)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithDatabase.withNewDatabase(String databaseName)
   type: Method
-  summary: <p>Creates new database in the SQL Server. </p>
+  summary: "<p>Creates new database in the SQL Server. </p>"
   syntax:
     content: public WithCreate withNewDatabase(String databaseName)
     parameters:
@@ -248,7 +222,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithElasticPool.withNewElasticPool(String elasticPoolName, ElasticPoolEditions elasticPoolEdition, String... databaseNames)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithElasticPool.withNewElasticPool(String elasticPoolName, ElasticPoolEditions elasticPoolEdition, String... databaseNames)
   type: Method
-  summary: <p>Creates new elastic pool in the SQL Server. </p>
+  summary: "<p>Creates new elastic pool in the SQL Server. </p>"
   syntax:
     content: public WithCreate withNewElasticPool(String elasticPoolName, ElasticPoolEditions elasticPoolEdition, String... databaseNames)
     parameters:
@@ -271,7 +245,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithElasticPool.withNewElasticPool(String elasticPoolName, ElasticPoolEditions elasticPoolEdition)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithElasticPool.withNewElasticPool(String elasticPoolName, ElasticPoolEditions elasticPoolEdition)
   type: Method
-  summary: <p>Creates new elastic pool in the SQL Server. </p>
+  summary: "<p>Creates new elastic pool in the SQL Server. </p>"
   syntax:
     content: public WithCreate withNewElasticPool(String elasticPoolName, ElasticPoolEditions elasticPoolEdition)
     parameters:
@@ -291,10 +265,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithFirewallRule.withNewFirewallRule(String ipAddress)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithFirewallRule.withNewFirewallRule(String ipAddress)
   type: Method
-  summary: >-
-    <p>Creates new firewall rule in the SQL Server.</p>
-
-    <p></p>
+  summary: "<p>Creates new firewall rule in the SQL Server.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewFirewallRule(String ipAddress)
     parameters:
@@ -311,10 +282,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithFirewallRule.withNewFirewallRule(String startIPAddress, String endIPAddress)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithFirewallRule.withNewFirewallRule(String startIPAddress, String endIPAddress)
   type: Method
-  summary: >-
-    <p>Creates new firewall rule in the SQL Server.</p>
-
-    <p></p>
+  summary: "<p>Creates new firewall rule in the SQL Server.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewFirewallRule(String startIPAddress, String endIPAddress)
     parameters:
@@ -334,10 +302,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithFirewallRule.withNewFirewallRule(String startIPAddress, String endIPAddress, String firewallRuleName)
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithFirewallRule.withNewFirewallRule(String startIPAddress, String endIPAddress, String firewallRuleName)
   type: Method
-  summary: >-
-    <p>Creates new firewall rule in the SQL Server.</p>
-
-    <p></p>
+  summary: "<p>Creates new firewall rule in the SQL Server.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewFirewallRule(String startIPAddress, String endIPAddress, String firewallRuleName)
     parameters:
@@ -360,12 +325,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithFirewallRule.withoutAccessFromAzureServices()
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithFirewallRule.withoutAccessFromAzureServices()
   type: Method
-  summary: >-
-    <p>Sets the Azure services default access to this server to false. </p>
-
-    <p>The default is to allow Azure services default access to this server via a special firewall rule named "AllowAllWindowsAzureIps" with the start IP "0.0.0.0".</p>
-
-    <p></p>
+  summary: "<p>Sets the Azure services default access to this server to false. </p>\r\n<p>The default is to allow Azure services default access to this server via a special firewall rule named \"AllowAllWindowsAzureIps\" with the start IP \"0.0.0.0\".</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withoutAccessFromAzureServices()
     return:
@@ -378,10 +338,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithSystemAssignedManagedServiceIdentity.withSystemAssignedManagedServiceIdentity()
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithSystemAssignedManagedServiceIdentity.withSystemAssignedManagedServiceIdentity()
   type: Method
-  summary: >-
-    <p>Sets a system assigned (local) Managed Service Identity (MSI) for the SQL server resource.</p>
-
-    <p></p>
+  summary: "<p>Sets a system assigned (local) Managed Service Identity (MSI) for the SQL server resource.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSystemAssignedManagedServiceIdentity()
     return:
@@ -394,7 +351,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -414,7 +371,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -431,10 +388,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -448,10 +402,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -465,7 +416,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithElasticPool
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithElasticPool
   type: Interface
-  summary: <p>A SQL Server definition for specifying elastic pool. </p>
+  summary: "<p>A SQL Server definition for specifying elastic pool. </p>"
   syntax:
     content: public interface WithElasticPool
 - uid: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithDatabase
@@ -475,7 +426,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithDatabase
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithDatabase
   type: Interface
-  summary: <p>A SQL Server definition for specifying the databases. </p>
+  summary: "<p>A SQL Server definition for specifying the databases. </p>"
   syntax:
     content: public interface WithDatabase
 - uid: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithFirewallRule
@@ -485,10 +436,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithFirewallRule
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithFirewallRule
   type: Interface
-  summary: >-
-    <p>The stage of the SQL Server definition allowing to specify the SQL Firewall rules.</p>
-
-    <p>A SQL Server definition for specifying the firewall rule. </p>
+  summary: "<p>The stage of the SQL Server definition allowing to specify the SQL Firewall rules.</p>\r\n<p>A SQL Server definition for specifying the firewall rule. </p>"
   syntax:
     content: public interface WithFirewallRule
 - uid: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithActiveDirectoryAdministrator
@@ -498,7 +446,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithActiveDirectoryAdministrator
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithActiveDirectoryAdministrator
   type: Interface
-  summary: <p>A SQL Server definition setting the Active Directory administrator. </p>
+  summary: "<p>A SQL Server definition setting the Active Directory administrator. </p>"
   syntax:
     content: public interface WithActiveDirectoryAdministrator
 - uid: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithSystemAssignedManagedServiceIdentity
@@ -508,7 +456,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithSystemAssignedManagedServiceIdentity
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithSystemAssignedManagedServiceIdentity
   type: Interface
-  summary: <p>A SQL Server definition setting the managed service identity. </p>
+  summary: "<p>A SQL Server definition setting the managed service identity. </p>"
   syntax:
     content: public interface WithSystemAssignedManagedServiceIdentity
 - uid: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithVirtualNetworkRule
@@ -518,7 +466,7 @@ references:
   nameWithType: SqlServer.DefinitionStages.WithVirtualNetworkRule
   fullName: com.microsoft.azure.management.sql.SqlServer.DefinitionStages.WithVirtualNetworkRule
   type: Interface
-  summary: <p>The stage of the SQL Server definition allowing to specify the SQL Virtual Network Rules. </p>
+  summary: "<p>The stage of the SQL Server definition allowing to specify the SQL Virtual Network Rules. </p>"
   syntax:
     content: public interface WithVirtualNetworkRule
 - uid: com.microsoft.azure.management.sql.SqlServer.Definition
@@ -528,6 +476,6 @@ references:
   nameWithType: SqlServer.Definition
   fullName: com.microsoft.azure.management.sql.SqlServer.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends SqlServer.DefinitionStages.Blank,SqlServer.DefinitionStages.WithGroup,SqlServer.DefinitionStages.WithAdministratorLogin,SqlServer.DefinitionStages.WithAdministratorPassword,SqlServer.DefinitionStages.WithElasticPool,SqlServer.DefinitionStages.WithDatabase,SqlServer.DefinitionStages.WithFirewallRule,SqlServer.DefinitionStages.WithCreate,SqlServer.DefinitionStages.Blank,SqlServer.DefinitionStages.WithGroup,SqlServer.DefinitionStages.WithAdministratorLogin,SqlServer.DefinitionStages.WithAdministratorPassword,SqlServer.DefinitionStages.WithElasticPool,SqlServer.DefinitionStages.WithDatabase,SqlServer.DefinitionStages.WithFirewallRule,SqlServer.DefinitionStages.WithCreate

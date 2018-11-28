@@ -151,7 +151,7 @@ references:
   nameWithType: AudioInputStream.createPullStream(PullAudioInputStreamCallback callback)
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioInputStream.createPullStream(PullAudioInputStreamCallback callback)
   type: Method
-  summary: <p>Creates a PullAudioInputStream that delegates to the specified callback interface for read() and close() methods, using the default format (16Khz 16bit mono PCM). </p>
+  summary: "<p>Creates a PullAudioInputStream that delegates to the specified callback interface for read() and close() methods, using the default format (16Khz 16bit mono PCM). </p>"
   syntax:
     content: public static PullAudioInputStream createPullStream(PullAudioInputStreamCallback callback)
     parameters:
@@ -168,7 +168,7 @@ references:
   nameWithType: AudioInputStream.createPullStream(PullAudioInputStreamCallback callback, AudioStreamFormat format)
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioInputStream.createPullStream(PullAudioInputStreamCallback callback, AudioStreamFormat format)
   type: Method
-  summary: <p>Creates a PullAudioInputStream that delegates to the specified callback interface for read() and close() methods. </p>
+  summary: "<p>Creates a PullAudioInputStream that delegates to the specified callback interface for read() and close() methods. </p>"
   syntax:
     content: public static PullAudioInputStream createPullStream(PullAudioInputStreamCallback callback, AudioStreamFormat format)
     parameters:
@@ -188,7 +188,7 @@ references:
   nameWithType: AudioInputStream.createPushStream()
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioInputStream.createPushStream()
   type: Method
-  summary: <p>Creates a memory backed PushAudioInputStream using the default format (16Khz 16bit mono PCM). </p>
+  summary: "<p>Creates a memory backed PushAudioInputStream using the default format (16Khz 16bit mono PCM). </p>"
   syntax:
     content: public static PushAudioInputStream createPushStream()
     return:
@@ -201,7 +201,7 @@ references:
   nameWithType: AudioInputStream.createPushStream(AudioStreamFormat format)
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioInputStream.createPushStream(AudioStreamFormat format)
   type: Method
-  summary: <p>Creates a memory backed PushAudioInputStream with the specified audio format. </p>
+  summary: "<p>Creates a memory backed PushAudioInputStream with the specified audio format. </p>"
   syntax:
     content: public static PushAudioInputStream createPushStream(AudioStreamFormat format)
     parameters:
@@ -218,7 +218,7 @@ references:
   nameWithType: AudioInputStream
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioInputStream
   type: Class
-  summary: <p>Represents audio input stream used for custom audio input configurations. </p>
+  summary: "<p>Represents audio input stream used for custom audio input configurations. </p>"
   syntax:
     content: public class AudioInputStream
 - uid: com.microsoft.cognitiveservices.speech.audio.PushAudioInputStream
@@ -228,7 +228,7 @@ references:
   nameWithType: PushAudioInputStream
   fullName: com.microsoft.cognitiveservices.speech.audio.PushAudioInputStream
   type: Class
-  summary: <p>Represents memory backed push audio input stream used for custom audio input configurations. </p>
+  summary: "<p>Represents memory backed push audio input stream used for custom audio input configurations. </p>"
   syntax: *o1
 - uid: com.microsoft.cognitiveservices.speech.audio.AudioStreamFormat
   parent: com.microsoft.cognitiveservices.speech.audio
@@ -237,6 +237,6 @@ references:
   nameWithType: AudioStreamFormat
   fullName: com.microsoft.cognitiveservices.speech.audio.AudioStreamFormat
   type: Class
-  summary: <p>Represents audio stream format used for custom audio input configurations. </p>
+  summary: "<p>Represents audio stream format used for custom audio input configurations. </p>"
   syntax:
     content: public class AudioStreamFormat

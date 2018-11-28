@@ -423,7 +423,7 @@ references:
   nameWithType: QueuedBuildOperations
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations
   type: Interface
-  summary: <p>Grouping of container registry queued build actions. </p>
+  summary: "<p>Grouping of container registry queued build actions. </p>"
   syntax:
     content: public interface QueuedBuildOperations
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -433,7 +433,7 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax:
     content: public class RegistryImpl
 - uid: com.microsoft.azure.management.containerregistry.Build
@@ -443,7 +443,7 @@ references:
   nameWithType: Build
   fullName: com.microsoft.azure.management.containerregistry.Build
   type: Interface
-  summary: <p>An object that represents a queued build for a container registry. </p>
+  summary: "<p>An object that represents a queued build for a container registry. </p>"
   syntax:
     content: public interface Build extends ExternalChildResource<Build, Registry>,HasName,HasId,HasInner<BuildInner>,Refreshable<Build>,Updatable<Build.Update>
 - uid: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.queueBuildTask(String)
@@ -453,10 +453,7 @@ references:
   nameWithType: QueuedBuildOperations.queueBuildTask(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.queueBuildTask(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Queues a build task to build for the current container registry.</p>
-
-    <p></p>
+  summary: "<p>Queues a build task to build for the current container registry.</p>\r\n<p></p>"
   syntax:
     content: public Build queueBuildTask(String buildTaskName)
     parameters:
@@ -473,10 +470,7 @@ references:
   nameWithType: QueuedBuildOperations.queueBuildTaskAsync(String buildTaskName)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.queueBuildTaskAsync(String buildTaskName)
   type: Method
-  summary: >-
-    <p>Queues a build task to build for the current container registry.</p>
-
-    <p></p>
+  summary: "<p>Queues a build task to build for the current container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Build> queueBuildTaskAsync(String buildTaskName)
     parameters:
@@ -493,10 +487,7 @@ references:
   nameWithType: QueuedBuildOperations.queueQuickBuild()
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.queueQuickBuild()
   type: Method
-  summary: >-
-    <p>Creates a new quick build based on the request parameters and adds it to the build queue.</p>
-
-    <p></p>
+  summary: "<p>Creates a new quick build based on the request parameters and adds it to the build queue.</p>\r\n<p></p>"
   syntax:
     content: public Build.QueuedQuickBuildDefinitionStages.Blank queueQuickBuild()
     return:
@@ -509,10 +500,7 @@ references:
   nameWithType: QueuedBuildOperations.get(String buildId)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.get(String buildId)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified queued build.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified queued build.</p>\r\n<p></p>"
   syntax:
     content: public Build get(String buildId)
     parameters:
@@ -529,10 +517,7 @@ references:
   nameWithType: QueuedBuildOperations.getAsync(String buildId)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.getAsync(String buildId)
   type: Method
-  summary: >-
-    <p>Gets the properties of the specified queued build.</p>
-
-    <p></p>
+  summary: "<p>Gets the properties of the specified queued build.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Build> getAsync(String buildId)
     parameters:
@@ -549,10 +534,7 @@ references:
   nameWithType: QueuedBuildOperations.cancel(String buildId)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.cancel(String buildId)
   type: Method
-  summary: >-
-    <p>Cancels a queued build for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Cancels a queued build for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public void cancel(String buildId)
     parameters:
@@ -566,10 +548,7 @@ references:
   nameWithType: QueuedBuildOperations.cancelAsync(String buildId)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.cancelAsync(String buildId)
   type: Method
-  summary: >-
-    <p>Cancels a queued build for the container registry asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Cancels a queued build for the container registry asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Completable cancelAsync(String buildId)
     parameters:
@@ -586,10 +565,7 @@ references:
   nameWithType: QueuedBuildOperations.list()
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.list()
   type: Method
-  summary: >-
-    <p>Lists all the queued build for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the queued build for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<Build> list()
     return:
@@ -602,10 +578,7 @@ references:
   nameWithType: QueuedBuildOperations.listAsync()
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.listAsync()
   type: Method
-  summary: >-
-    <p>Lists all the build tasks for the container registry.</p>
-
-    <p></p>
+  summary: "<p>Lists all the build tasks for the container registry.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Build> listAsync()
     return:
@@ -618,10 +591,7 @@ references:
   nameWithType: QueuedBuildOperations.listWithFilterAndTop(String filter, int top)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.listWithFilterAndTop(String filter, int top)
   type: Method
-  summary: >-
-    <p>Lists all the queued builds for the container registry matching the specified filter.</p>
-
-    <p></p>
+  summary: "<p>Lists all the queued builds for the container registry matching the specified filter.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<Build> listWithFilterAndTop(String filter, int top)
     parameters:
@@ -641,10 +611,7 @@ references:
   nameWithType: QueuedBuildOperations.listWithFilterAndTopAsync(String filter, int top)
   fullName: com.microsoft.azure.management.containerregistry.QueuedBuildOperations.listWithFilterAndTopAsync(String filter, int top)
   type: Method
-  summary: >-
-    <p>Lists all the queued builds for the container registry matching the specified filter.</p>
-
-    <p></p>
+  summary: "<p>Lists all the queued builds for the container registry matching the specified filter.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Build> listWithFilterAndTopAsync(String filter, int top)
     parameters:

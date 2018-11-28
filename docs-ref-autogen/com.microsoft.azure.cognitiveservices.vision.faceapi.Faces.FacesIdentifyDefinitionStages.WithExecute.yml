@@ -109,10 +109,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithAllOptions.withConfidenceThreshold(Double confidenceThreshold)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithAllOptions.withConfidenceThreshold(Double confidenceThreshold)
   type: Method
-  summary: >-
-    <p>Confidence threshold of identification, used to judge whether one face belong to one person. The range of confidenceThreshold is [0, 1] (default specified by algorithm).</p>
-
-    <p></p>
+  summary: "<p>Confidence threshold of identification, used to judge whether one face belong to one person. The range of confidenceThreshold is [0, 1] (default specified by algorithm).</p>\r\n<p></p>"
   syntax:
     content: public FacesIdentifyDefinitionStages.WithExecute withConfidenceThreshold(Double confidenceThreshold)
     parameters:
@@ -128,10 +125,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithAllOptions.withMaxNumOfCandidatesReturned(Integer maxNumOfCandidatesReturned)
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithAllOptions.withMaxNumOfCandidatesReturned(Integer maxNumOfCandidatesReturned)
   type: Method
-  summary: >-
-    <p>The range of maxNumOfCandidatesReturned is between 1 and 5 (default is 1).</p>
-
-    <p></p>
+  summary: "<p>The range of maxNumOfCandidatesReturned is between 1 and 5 (default is 1).</p>\r\n<p></p>"
   syntax:
     content: public FacesIdentifyDefinitionStages.WithExecute withMaxNumOfCandidatesReturned(Integer maxNumOfCandidatesReturned)
     parameters:
@@ -147,7 +141,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinition
@@ -157,7 +151,7 @@ references:
   nameWithType: Faces.FacesIdentifyDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesIdentifyDefinition
   type: Interface
-  summary: <p>The entirety of identify definition. </p>
+  summary: "<p>The entirety of identify definition. </p>"
   syntax:
     content: public interface FacesIdentifyDefinition extends Faces.FacesIdentifyDefinitionStages.WithPersonGroupId,Faces.FacesIdentifyDefinitionStages.WithFaceIds,Faces.FacesIdentifyDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.faceapi.models.IdentifyResult
@@ -167,6 +161,6 @@ references:
   nameWithType: IdentifyResult
   fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.models.IdentifyResult
   type: Class
-  summary: <p>Response body for identify face operation. </p>
+  summary: "<p>Response body for identify face operation. </p>"
   syntax:
     content: public class IdentifyResult

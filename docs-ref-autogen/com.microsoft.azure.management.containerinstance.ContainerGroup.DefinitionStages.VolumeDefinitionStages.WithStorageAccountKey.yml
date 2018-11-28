@@ -82,7 +82,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container group's volume definition stages. </p>
+  summary: "<p>Grouping of the container group's volume definition stages. </p>"
   syntax:
     content: public interface VolumeDefinition<ParentT> extends ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountName<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithStorageAccountKey<ParentT>,ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
     typeParameters:
@@ -95,10 +95,7 @@ references:
   nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
   fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the volume definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the volume definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithVolumeAttach<ParentT>
     typeParameters:

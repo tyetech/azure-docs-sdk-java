@@ -94,9 +94,6 @@ references:
   nameWithType: PublicIPAddress.Update
   fullName: com.microsoft.azure.management.network.PublicIPAddress.Update
   type: Interface
-  summary: >-
-    <p>Container interface for all the updates. </p>
-
-    <p>Use <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Update#apply()</xref> to apply the changes to the resource in Azure. </p>
+  summary: "<p>Container interface for all the updates. </p>\r\n<p>Use <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Update#apply()</xref> to apply the changes to the resource in Azure. </p>"
   syntax:
     content: public interface Update extends Appliable<PublicIPAddress>,PublicIPAddress.UpdateStages.WithIPAddress,PublicIPAddress.UpdateStages.WithLeafDomainLabel,PublicIPAddress.UpdateStages.WithReverseFQDN,PublicIPAddress.UpdateStages.WithIdleTimout,Resource.UpdateWithTags<Update>

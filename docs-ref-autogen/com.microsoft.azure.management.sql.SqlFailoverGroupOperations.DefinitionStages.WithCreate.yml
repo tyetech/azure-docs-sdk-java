@@ -41,10 +41,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -57,10 +54,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -77,10 +71,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -117,10 +108,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithDatabase.withDatabaseId(String id)
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithDatabase.withDatabaseId(String id)
   type: Method
-  summary: >-
-    <p>Sets the SQL Failover Group database.</p>
-
-    <p></p>
+  summary: "<p>Sets the SQL Failover Group database.</p>\r\n<p></p>"
   syntax:
     content: public SqlFailoverGroupOperations.DefinitionStages.WithCreate withDatabaseId(String id)
     parameters:
@@ -137,10 +125,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithDatabase.withDatabaseIds(String... ids)
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithDatabase.withDatabaseIds(String... ids)
   type: Method
-  summary: >-
-    <p>Sets the SQL Failover Group partner servers.</p>
-
-    <p></p>
+  summary: "<p>Sets the SQL Failover Group partner servers.</p>\r\n<p></p>"
   syntax:
     content: public SqlFailoverGroupOperations.DefinitionStages.WithCreate withDatabaseIds(String... ids)
     parameters:
@@ -157,10 +142,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy.withReadOnlyEndpointPolicyDisabled()
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy.withReadOnlyEndpointPolicyDisabled()
   type: Method
-  summary: >-
-    <p>Sets the SQL Failover Group failover policy of the read-only endpoint to "Disabled".</p>
-
-    <p></p>
+  summary: "<p>Sets the SQL Failover Group failover policy of the read-only endpoint to \"Disabled\".</p>\r\n<p></p>"
   syntax:
     content: public SqlFailoverGroupOperations.DefinitionStages.WithCreate withReadOnlyEndpointPolicyDisabled()
     return:
@@ -173,10 +155,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy.withReadOnlyEndpointPolicyEnabled()
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy.withReadOnlyEndpointPolicyEnabled()
   type: Method
-  summary: >-
-    <p>Sets the SQL Failover Group failover policy of the read-only endpoint to "Enabled".</p>
-
-    <p></p>
+  summary: "<p>Sets the SQL Failover Group failover policy of the read-only endpoint to \"Enabled\".</p>\r\n<p></p>"
   syntax:
     content: public SqlFailoverGroupOperations.DefinitionStages.WithCreate withReadOnlyEndpointPolicyEnabled()
     return:
@@ -189,7 +168,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -209,7 +188,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -226,7 +205,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy
   type: Interface
-  summary: <p>The SQL Failover Group definition to set the failover policy of the read-only endpoint. </p>
+  summary: "<p>The SQL Failover Group definition to set the failover policy of the read-only endpoint. </p>"
   syntax:
     content: public interface WithReadOnlyEndpointPolicy
 - uid: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithDatabase
@@ -236,7 +215,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithDatabase
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithDatabase
   type: Interface
-  summary: <p>The SQL Failover Group definition to set the partner servers. </p>
+  summary: "<p>The SQL Failover Group definition to set the partner servers. </p>"
   syntax:
     content: public interface WithDatabase
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags
@@ -246,10 +225,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -263,10 +239,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -280,7 +253,7 @@ references:
   nameWithType: SqlFailoverGroupOperations.DefinitionStages.WithPartnerServer
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.DefinitionStages.WithPartnerServer
   type: Interface
-  summary: <p>The SQL Failover Group definition to set the partner servers. </p>
+  summary: "<p>The SQL Failover Group definition to set the partner servers. </p>"
   syntax:
     content: public interface WithPartnerServer
 - uid: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.SqlFailoverGroupOperationsDefinition
@@ -290,6 +263,6 @@ references:
   nameWithType: SqlFailoverGroupOperations.SqlFailoverGroupOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlFailoverGroupOperations.SqlFailoverGroupOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlFailoverGroupOperationsDefinition extends SqlFailoverGroupOperations.DefinitionStages.WithSqlServer,SqlFailoverGroupOperations.DefinitionStages.WithReadWriteEndpointPolicy,SqlFailoverGroupOperations.DefinitionStages.WithReadOnlyEndpointPolicy,SqlFailoverGroupOperations.DefinitionStages.WithPartnerServer,SqlFailoverGroupOperations.DefinitionStages.WithDatabase,SqlFailoverGroupOperations.DefinitionStages.WithCreate

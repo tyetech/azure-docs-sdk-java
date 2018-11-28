@@ -199,7 +199,7 @@ references:
   nameWithType: RedisCache.Definition
   fullName: com.microsoft.azure.management.redis.RedisCache.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends RedisCache.DefinitionStages.Blank,RedisCache.DefinitionStages.WithGroup,RedisCache.DefinitionStages.WithSku,RedisCache.DefinitionStages.WithCreate,RedisCache.DefinitionStages.WithPremiumSkuCreate
 - uid: com.microsoft.azure.management.redis.RedisCache.DefinitionStages.WithCreate
@@ -209,7 +209,7 @@ references:
   nameWithType: RedisCache.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.redis.RedisCache.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A Redis Cache definition with sufficient inputs to create a new Redis Cache in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A Redis Cache definition with sufficient inputs to create a new Redis Cache in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<RedisCache>,Resource.DefinitionWithTags<WithCreate>
 - uid: com.microsoft.azure.management.redis.RedisCache.DefinitionStages.WithPremiumSkuCreate
@@ -219,6 +219,6 @@ references:
   nameWithType: RedisCache.DefinitionStages.WithPremiumSkuCreate
   fullName: com.microsoft.azure.management.redis.RedisCache.DefinitionStages.WithPremiumSkuCreate
   type: Interface
-  summary: <p>A Redis Cache definition with Premium Sku specific functionality. </p>
+  summary: "<p>A Redis Cache definition with Premium Sku specific functionality. </p>"
   syntax:
     content: public interface WithPremiumSkuCreate extends RedisCache.DefinitionStages.WithCreate

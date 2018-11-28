@@ -33,10 +33,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -53,10 +50,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(String resourceId)
     parameters:
@@ -73,10 +67,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withoutPublicIPAddress()
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withoutPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Removes the existing reference to a public IP address.</p>
-
-    <p></p>
+  summary: "<p>Removes the existing reference to a public IP address.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withoutPublicIPAddress()
     return:
@@ -89,10 +80,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>
   type: Interface
-  summary: >-
-    <p>The stage of the update allowing to associate the resource with an existing public IP address.</p>
-
-    <p></p>
+  summary: "<p>The stage of the update allowing to associate the resource with an existing public IP address.</p>\r\n<p></p>"
   syntax:
     content: public interface WithExistingPublicIPAddress<ReturnT>
     typeParameters:
@@ -106,6 +94,6 @@ references:
   nameWithType: ApplicationGatewayFrontend.Update
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend.Update
   type: Interface
-  summary: <p>The entirety of an application gateway frontend update as part of an application gateway update. </p>
+  summary: "<p>The entirety of an application gateway frontend update as part of an application gateway update. </p>"
   syntax:
     content: public interface Update extends Settable<ApplicationGateway.Update>,ApplicationGatewayFrontend.UpdateStages.WithPublicIPAddress

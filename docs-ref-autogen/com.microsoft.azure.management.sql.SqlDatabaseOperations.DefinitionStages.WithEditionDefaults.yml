@@ -220,10 +220,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -236,10 +233,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -256,10 +250,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -296,7 +287,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -316,7 +307,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -333,7 +324,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithCreateFinal
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateFinal
   type: Interface
-  summary: <p>A SQL Database definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A SQL Database definition with sufficient inputs to create a new SQL Server in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreateFinal extends Resource.DefinitionWithTags<SqlDatabaseOperations.DefinitionStages.WithCreateFinal>,Creatable<SqlDatabase>
 - uid: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions
@@ -343,7 +334,7 @@ references:
   nameWithType: SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions
   fullName: com.microsoft.azure.management.sql.SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions
   type: Interface
-  summary: <p>A SQL Database definition with sufficient inputs to create a new SQL database in the cloud, but exposing additional optional settings to specify. </p>
+  summary: "<p>A SQL Database definition with sufficient inputs to create a new SQL database in the cloud, but exposing additional optional settings to specify. </p>"
   syntax:
     content: public interface WithCreateAllOptions extends SqlDatabaseOperations.DefinitionStages.WithServiceObjective,SqlDatabaseOperations.DefinitionStages.WithEdition,SqlDatabaseOperations.DefinitionStages.WithEditionDefaults,SqlDatabaseOperations.DefinitionStages.WithCollation,SqlDatabaseOperations.DefinitionStages.WithMaxSizeBytes,SqlDatabaseOperations.DefinitionStages.WithCreateFinal
 - uid: com.microsoft.azure.management.sql.SqlDatabaseBasicStorage
@@ -353,7 +344,7 @@ references:
   nameWithType: SqlDatabaseBasicStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabaseBasicStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Basic" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Basic\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabaseBasicStorage
 - uid: com.microsoft.azure.management.sql.SqlDatabaseStandardServiceObjective
@@ -363,7 +354,7 @@ references:
   nameWithType: SqlDatabaseStandardServiceObjective
   fullName: com.microsoft.azure.management.sql.SqlDatabaseStandardServiceObjective
   type: Class
-  summary: <p>The name of the configured Service Level Objective of a "Standard" Azure SQL Database. </p>
+  summary: "<p>The name of the configured Service Level Objective of a \"Standard\" Azure SQL Database. </p>"
   syntax:
     content: public class SqlDatabaseStandardServiceObjective
 - uid: com.microsoft.azure.management.sql.SqlDatabaseStandardStorage
@@ -373,7 +364,7 @@ references:
   nameWithType: SqlDatabaseStandardStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabaseStandardStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Standard" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Standard\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabaseStandardStorage
 - uid: com.microsoft.azure.management.sql.SqlDatabasePremiumServiceObjective
@@ -383,7 +374,7 @@ references:
   nameWithType: SqlDatabasePremiumServiceObjective
   fullName: com.microsoft.azure.management.sql.SqlDatabasePremiumServiceObjective
   type: Class
-  summary: <p>The name of the configured Service Level Objective of a "Premium" Azure SQL Database. </p>
+  summary: "<p>The name of the configured Service Level Objective of a \"Premium\" Azure SQL Database. </p>"
   syntax:
     content: public class SqlDatabasePremiumServiceObjective
 - uid: com.microsoft.azure.management.sql.SqlDatabasePremiumStorage
@@ -393,6 +384,6 @@ references:
   nameWithType: SqlDatabasePremiumStorage
   fullName: com.microsoft.azure.management.sql.SqlDatabasePremiumStorage
   type: Enum
-  summary: <p>The maximum allowed storage capacity for a "Premium" edition of an Azure SQL Elastic Pool. </p>
+  summary: "<p>The maximum allowed storage capacity for a \"Premium\" edition of an Azure SQL Elastic Pool. </p>"
   syntax:
     content: public enum SqlDatabasePremiumStorage

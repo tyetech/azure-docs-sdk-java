@@ -40,10 +40,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -56,10 +53,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -76,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -116,7 +107,7 @@ references:
   nameWithType: AvailabilitySet.DefinitionStages.WithFaultDomainCount.withFaultDomainCount(int faultDomainCount)
   fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithFaultDomainCount.withFaultDomainCount(int faultDomainCount)
   type: Method
-  summary: <p>Specifies the fault domain count for the availability set. </p>
+  summary: "<p>Specifies the fault domain count for the availability set. </p>"
   syntax:
     content: public WithCreate withFaultDomainCount(int faultDomainCount)
     parameters:
@@ -133,10 +124,7 @@ references:
   nameWithType: AvailabilitySet.DefinitionStages.WithSku.withSku(AvailabilitySetSkuTypes skuType)
   fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithSku.withSku(AvailabilitySetSkuTypes skuType)
   type: Method
-  summary: >-
-    <p>Specifies the SKU type for the availability set.</p>
-
-    <p></p>
+  summary: "<p>Specifies the SKU type for the availability set.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(AvailabilitySetSkuTypes skuType)
     parameters:
@@ -153,7 +141,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -173,7 +161,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -190,7 +178,7 @@ references:
   nameWithType: AvailabilitySet.DefinitionStages.WithUpdateDomainCount.withUpdateDomainCount(int updateDomainCount)
   fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithUpdateDomainCount.withUpdateDomainCount(int updateDomainCount)
   type: Method
-  summary: <p>Specifies the update domain count for the availability set. </p>
+  summary: "<p>Specifies the update domain count for the availability set. </p>"
   syntax:
     content: public WithCreate withUpdateDomainCount(int updateDomainCount)
     parameters:
@@ -207,7 +195,7 @@ references:
   nameWithType: AvailabilitySet.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of an availability set definition. </p>
+  summary: "<p>The first stage of an availability set definition. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithGroup
@@ -217,7 +205,7 @@ references:
   nameWithType: AvailabilitySet.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the availability set definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the availability set definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithCreate
@@ -227,6 +215,6 @@ references:
   nameWithType: AvailabilitySet.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.AvailabilitySet.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of an availability set definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of an availability set definition which contains all the minimum required inputs for the resource to be created but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

@@ -43,10 +43,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -59,10 +56,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -79,10 +73,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -119,7 +110,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithDiagnostics.withDiagnostics()
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithDiagnostics.withDiagnostics()
   type: Method
-  summary: <p>Enables diagnostics. </p>
+  summary: "<p>Enables diagnostics. </p>"
   syntax:
     content: public WithCreate withDiagnostics()
     return:
@@ -132,10 +123,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterDnsPrefix.withMasterDnsPrefix(String dnsPrefix)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterDnsPrefix.withMasterDnsPrefix(String dnsPrefix)
   type: Method
-  summary: >-
-    <p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the DNS prefix to be used to create the FQDN for the master pool.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMasterDnsPrefix(String dnsPrefix)
     parameters:
@@ -152,10 +140,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterOSDiskSize.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterOSDiskSize.withMasterOSDiskSizeInGB(int osDiskSizeInGB)
   type: Method
-  summary: >-
-    <p>OS Disk Size in GB to be used for every machine in the master pool.</p>
-
-    <p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>
+  summary: "<p>OS Disk Size in GB to be used for every machine in the master pool.</p>\r\n<p>If you specify 0, the default osDisk size will be used according to the vmSize specified. </p>"
   syntax:
     content: public WithCreate withMasterOSDiskSizeInGB(int osDiskSizeInGB)
     parameters:
@@ -172,10 +157,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterStorageProfile.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile.withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
   type: Method
-  summary: >-
-    <p>Specifies the storage kind to be used for every machine in master pool.</p>
-
-    <p></p>
+  summary: "<p>Specifies the storage kind to be used for every machine in master pool.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withMasterStorageProfile(ContainerServiceStorageProfileTypes storageProfile)
     parameters:
@@ -192,7 +174,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterVMSize.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterVMSize.withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
   type: Method
-  summary: <p>Specifies the size of the master VMs, default set to "Standard_D2_v2". </p>
+  summary: "<p>Specifies the size of the master VMs, default set to \"Standard_D2_v2\". </p>"
   syntax:
     content: public WithCreate withMasterVMSize(ContainerServiceVMSizeTypes vmSize)
     parameters:
@@ -209,10 +191,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithSubnet.withSubnet(String networkId, String subnetName)
   type: Method
-  summary: >-
-    <p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>
-
-    <p></p>
+  summary: "<p>Specifies the virtual network and subnet for the virtual machines in the master and agent pools.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSubnet(String networkId, String subnetName)
     parameters:
@@ -232,7 +211,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -252,7 +231,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -269,7 +248,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterDnsPrefix
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterDnsPrefix
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the master DNS prefix label. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the master DNS prefix label. </p>"
   syntax:
     content: public interface WithMasterDnsPrefix
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithDiagnostics
@@ -279,7 +258,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithDiagnostics
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithDiagnostics
   type: Interface
-  summary: <p>The stage of the container service definition allowing to enable diagnostics. </p>
+  summary: "<p>The stage of the container service definition allowing to enable diagnostics. </p>"
   syntax:
     content: public interface WithDiagnostics
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterVMSize
@@ -289,7 +268,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterVMSize
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterVMSize
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the master VM size. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the master VM size. </p>"
   syntax:
     content: public interface WithMasterVMSize
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile
@@ -299,7 +278,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterStorageProfile
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterStorageProfile
   type: Interface
-  summary: <p>The stage of a container service definition allowing to specify the master's virtual machine storage kind. </p>
+  summary: "<p>The stage of a container service definition allowing to specify the master's virtual machine storage kind. </p>"
   syntax:
     content: public interface WithMasterStorageProfile
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterOSDiskSize
@@ -309,7 +288,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithMasterOSDiskSize
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithMasterOSDiskSize
   type: Interface
-  summary: <p>The stage of a container service definition allowing to specify the master pool OS disk size. </p>
+  summary: "<p>The stage of a container service definition allowing to specify the master pool OS disk size. </p>"
   syntax:
     content: public interface WithMasterOSDiskSize
 - uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithSubnet
@@ -319,7 +298,7 @@ references:
   nameWithType: ContainerService.DefinitionStages.WithSubnet
   fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages.WithSubnet
   type: Interface
-  summary: <p>The stage of the container service definition allowing to specify the virtual network and subnet for the machines. </p>
+  summary: "<p>The stage of the container service definition allowing to specify the virtual network and subnet for the machines. </p>"
   syntax:
     content: public interface WithSubnet
 - uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
@@ -329,10 +308,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -346,10 +322,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -363,6 +336,6 @@ references:
   nameWithType: ContainerService.Definition
   fullName: com.microsoft.azure.management.containerservice.ContainerService.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions related to a container service. </p>
+  summary: "<p>Container interface for all the definitions related to a container service. </p>"
   syntax:
     content: public interface Definition extends ContainerService.DefinitionStages.Blank,ContainerService.DefinitionStages.WithGroup,ContainerService.DefinitionStages.WithOrchestrator,ContainerService.DefinitionStages.WithMasterNodeCount,ContainerService.DefinitionStages.WithLinux,ContainerService.DefinitionStages.WithLinuxRootUsername,ContainerService.DefinitionStages.WithLinuxSshKey,ContainerService.DefinitionStages.WithAgentPool,ContainerService.DefinitionStages.WithServicePrincipalProfile,ContainerService.DefinitionStages.WithCreate

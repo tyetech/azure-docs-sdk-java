@@ -29,7 +29,7 @@ references:
   nameWithType: ContainerService
   fullName: com.microsoft.azure.management.containerservice.ContainerService
   type: Interface
-  summary: <p>A client-side representation for a container service. </p>
+  summary: "<p>A client-side representation for a container service. </p>"
   syntax:
     content: public interface ContainerService extends GroupableResource<ContainerServiceManager, ContainerServiceInner>,Refreshable<ContainerService>,Updatable<ContainerService.Update>,OrchestratorServiceBase
 - uid: com.microsoft.azure.management.containerservice.KubernetesCluster
@@ -39,6 +39,6 @@ references:
   nameWithType: KubernetesCluster
   fullName: com.microsoft.azure.management.containerservice.KubernetesCluster
   type: Interface
-  summary: <p>A client-side representation for a managed Kubernetes cluster. </p>
+  summary: "<p>A client-side representation for a managed Kubernetes cluster. </p>"
   syntax:
     content: public interface KubernetesCluster extends GroupableResource<ContainerServiceManager, ManagedClusterInner>,Refreshable<KubernetesCluster>,Updatable<KubernetesCluster.Update>,OrchestratorServiceBase

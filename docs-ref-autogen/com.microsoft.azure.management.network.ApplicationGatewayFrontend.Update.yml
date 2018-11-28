@@ -34,12 +34,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -52,10 +47,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -72,10 +64,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withExistingPublicIPAddress(String resourceId)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the resource.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the resource.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withExistingPublicIPAddress(String resourceId)
     parameters:
@@ -92,10 +81,7 @@ references:
   nameWithType: HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withoutPublicIPAddress()
   fullName: com.microsoft.azure.management.network.model.HasPublicIPAddress.UpdateStages.WithExistingPublicIPAddress<ReturnT>.withoutPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Removes the existing reference to a public IP address.</p>
-
-    <p></p>
+  summary: "<p>Removes the existing reference to a public IP address.</p>\r\n<p></p>"
   syntax:
     content: public ReturnT withoutPublicIPAddress()
     return:
@@ -108,10 +94,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -125,6 +108,6 @@ references:
   nameWithType: ApplicationGatewayFrontend.UpdateStages.WithPublicIPAddress
   fullName: com.microsoft.azure.management.network.ApplicationGatewayFrontend.UpdateStages.WithPublicIPAddress
   type: Interface
-  summary: <p>The stage of an application gateway frontend definition allowing to specify an existing public IP address to make the application gateway available at as Internet-facing. </p>
+  summary: "<p>The stage of an application gateway frontend definition allowing to specify an existing public IP address to make the application gateway available at as Internet-facing. </p>"
   syntax:
     content: public interface WithPublicIPAddress

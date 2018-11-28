@@ -40,10 +40,7 @@ references:
   nameWithType: VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.fromImage(int imageLun)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.fromImage(int imageLun)
   type: Method
-  summary: >-
-    <p>Specifies the image LUN identifier of the source disk image.</p>
-
-    <p></p>
+  summary: "<p>Specifies the image LUN identifier of the source disk image.</p>\r\n<p></p>"
   syntax:
     content: public WithFromImageDiskSettings<ParentT> fromImage(int imageLun)
     parameters:
@@ -60,10 +57,7 @@ references:
   nameWithType: VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.withNewVhd(int sizeInGB)
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>.withNewVhd(int sizeInGB)
   type: Method
-  summary: >-
-    <p>specifies that unmanaged disk needs to be created with a new VHD of given size.</p>
-
-    <p></p>
+  summary: "<p>specifies that unmanaged disk needs to be created with a new VHD of given size.</p>\r\n<p></p>"
   syntax:
     content: public WithNewVhdDiskSettings<ParentT> withNewVhd(int sizeInGB)
     parameters:
@@ -80,10 +74,7 @@ references:
   nameWithType: VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages.WithDiskSource<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the unmanaged data disk definition allowing to choose the source.</p>
-
-    <p></p>
+  summary: "<p>The stage of the unmanaged data disk definition allowing to choose the source.</p>\r\n<p></p>"
   syntax:
     content: public interface WithDiskSource<ParentT>
     typeParameters:
@@ -97,7 +88,7 @@ references:
   nameWithType: VirtualMachineScaleSetUnmanagedDataDisk.DefinitionWithImage<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetUnmanagedDataDisk.DefinitionWithImage<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>"
   syntax:
     content: public interface DefinitionWithImage<ParentT>
     typeParameters:
@@ -111,7 +102,7 @@ references:
   nameWithType: VirtualMachineScaleSetUnmanagedDataDisk.DefinitionWithNewVhd<ParentT>
   fullName: com.microsoft.azure.management.compute.VirtualMachineScaleSetUnmanagedDataDisk.DefinitionWithNewVhd<ParentT>
   type: Interface
-  summary: <p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>
+  summary: "<p>The entirety of a unmanaged data disk of a virtual machine scale set definition. </p>"
   syntax:
     content: public interface DefinitionWithNewVhd<ParentT>
     typeParameters:

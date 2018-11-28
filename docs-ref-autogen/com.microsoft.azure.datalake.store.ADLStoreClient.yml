@@ -2016,10 +2016,7 @@ references:
   nameWithType: AccessTokenProvider
   fullName: com.microsoft.azure.datalake.store.oauth2.AccessTokenProvider
   type: Class
-  summary: >-
-    <p>Returns an Azure Active Directory token when requested. The provider can cache the token if it has already retrieved one. If it does, then the provider is responsible for checking expiry and refreshing as needed. </p>
-
-    <p>In other words, this is is a token cache that fetches tokens when requested, if the cached token has expired. </p>
+  summary: "<p>Returns an Azure Active Directory token when requested. The provider can cache the token if it has already retrieved one. If it does, then the provider is responsible for checking expiry and refreshing as needed. </p>\r\n<p>In other words, this is is a token cache that fetches tokens when requested, if the cached token has expired. </p>"
   syntax:
     content: public class AccessTokenProvider
 - uid: com.microsoft.azure.datalake.store.DirectoryEntry
@@ -2029,7 +2026,7 @@ references:
   nameWithType: DirectoryEntry
   fullName: com.microsoft.azure.datalake.store.DirectoryEntry
   type: Class
-  summary: <p>filesystem metadata of a directory enrty (a file or a directory) in ADL. </p>
+  summary: "<p>filesystem metadata of a directory enrty (a file or a directory) in ADL. </p>"
   syntax:
     content: public class DirectoryEntry
 - uid: com.microsoft.azure.datalake.store.UserGroupRepresentation
@@ -2039,7 +2036,7 @@ references:
   nameWithType: UserGroupRepresentation
   fullName: com.microsoft.azure.datalake.store.UserGroupRepresentation
   type: Enum
-  summary: <p>Enum specifying how user and group objects should be represented in calls that return user and group ID. </p>
+  summary: "<p>Enum specifying how user and group objects should be represented in calls that return user and group ID. </p>"
   syntax:
     content: public enum UserGroupRepresentation
 - uid: com.microsoft.azure.datalake.store.ADLStoreClient
@@ -2049,12 +2046,7 @@ references:
   nameWithType: ADLStoreClient
   fullName: com.microsoft.azure.datalake.store.ADLStoreClient
   type: Class
-  summary: >-
-    <p>
-
-      <code>ADLStoreClient 
-
-        </code> class represents a client to Azure Data Lake. It can be used to perform operations on files and directories. </p>
+  summary: "<p>\r\n  <code>ADLStoreClient \r\n    </code> class represents a client to Azure Data Lake. It can be used to perform operations on files and directories. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.datalake.store.oauth2.AzureADToken
   parent: com.microsoft.azure.datalake.store.oauth2
@@ -2063,7 +2055,7 @@ references:
   nameWithType: AzureADToken
   fullName: com.microsoft.azure.datalake.store.oauth2.AzureADToken
   type: Class
-  summary: <p>Object represnting the AAD access token to use when making HTTP requests to Azure Data Lake Storage. </p>
+  summary: "<p>Object represnting the AAD access token to use when making HTTP requests to Azure Data Lake Storage. </p>"
   syntax:
     content: public class AzureADToken
 - uid: com.microsoft.azure.datalake.store.oauth2.ClientCredsTokenProvider
@@ -2073,7 +2065,7 @@ references:
   nameWithType: ClientCredsTokenProvider
   fullName: com.microsoft.azure.datalake.store.oauth2.ClientCredsTokenProvider
   type: Class
-  summary: <p>Provides tokens based on client credentials </p>
+  summary: "<p>Provides tokens based on client credentials </p>"
   syntax:
     content: public class ClientCredsTokenProvider
 - uid: com.microsoft.azure.datalake.store.oauth2.RefreshTokenBasedTokenProvider
@@ -2083,7 +2075,7 @@ references:
   nameWithType: RefreshTokenBasedTokenProvider
   fullName: com.microsoft.azure.datalake.store.oauth2.RefreshTokenBasedTokenProvider
   type: Class
-  summary: <p>Provides tokens based on refresh token </p>
+  summary: "<p>Provides tokens based on refresh token </p>"
   syntax:
     content: public class RefreshTokenBasedTokenProvider
 - uid: com.microsoft.azure.datalake.store.oauth2.UserPasswordTokenProvider
@@ -2093,7 +2085,7 @@ references:
   nameWithType: UserPasswordTokenProvider
   fullName: com.microsoft.azure.datalake.store.oauth2.UserPasswordTokenProvider
   type: Class
-  summary: <p>Provides tokens based on username and password </p>
+  summary: "<p>Provides tokens based on username and password </p>"
   syntax:
     content: public class UserPasswordTokenProvider
 - uid: com.microsoft.azure.datalake.store.oauth2.DeviceCodeTokenProvider
@@ -2103,7 +2095,7 @@ references:
   nameWithType: DeviceCodeTokenProvider
   fullName: com.microsoft.azure.datalake.store.oauth2.DeviceCodeTokenProvider
   type: Class
-  summary: <p>Enables interactive login in non-browser based contexts. Displays a message asking the user to login using the browser, using the provided link and code. </p>
+  summary: "<p>Enables interactive login in non-browser based contexts. Displays a message asking the user to login using the browser, using the provided link and code. </p>"
   syntax:
     content: public class DeviceCodeTokenProvider
 - uid: com.microsoft.azure.datalake.store.oauth2.MsiTokenProvider
@@ -2113,7 +2105,7 @@ references:
   nameWithType: MsiTokenProvider
   fullName: com.microsoft.azure.datalake.store.oauth2.MsiTokenProvider
   type: Class
-  summary: <p>Provides tokens based on Azure VM's Managed Service Identity </p>
+  summary: "<p>Provides tokens based on Azure VM's Managed Service Identity </p>"
   syntax:
     content: public class MsiTokenProvider
 - uid: com.microsoft.azure.datalake.store.ADLFileOutputStream
@@ -2123,16 +2115,7 @@ references:
   nameWithType: ADLFileOutputStream
   fullName: com.microsoft.azure.datalake.store.ADLFileOutputStream
   type: Class
-  summary: >-
-    <p>
-
-      <code>ADLFileOutputStream 
-
-        </code> is used to add data to an Azure Data Lake File. It is a buffering stream that accumulates user writes, and then writes to the server in chunks. Default chunk size is 4MB.</p>
-
-    <p>
-
-      <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe.</p>
+  summary: "<p>\r\n  <code>ADLFileOutputStream \r\n    </code> is used to add data to an Azure Data Lake File. It is a buffering stream that accumulates user writes, and then writes to the server in chunks. Default chunk size is 4MB.</p>\r\n<p>\r\n  <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe.</p>"
   syntax:
     content: public class ADLFileOutputStream
 - uid: com.microsoft.azure.datalake.store.IfExists
@@ -2142,7 +2125,7 @@ references:
   nameWithType: IfExists
   fullName: com.microsoft.azure.datalake.store.IfExists
   type: Enum
-  summary: <p>Enum specifying actions to take if attempting to create a file that already exists. </p>
+  summary: "<p>Enum specifying actions to take if attempting to create a file that already exists. </p>"
   syntax:
     content: public enum IfExists
 - uid: com.microsoft.azure.datalake.store.ADLException
@@ -2152,7 +2135,7 @@ references:
   nameWithType: ADLException
   fullName: com.microsoft.azure.datalake.store.ADLException
   type: Class
-  summary: <p>Exception type returned by Azure Data Lake SDK methods. Derives from <xref uid="" data-throw-if-not-resolved="false">IOException</xref>. Contains a number of additional fields that contain information about the success or failure of a server call. </p>
+  summary: "<p>Exception type returned by Azure Data Lake SDK methods. Derives from <xref uid=\"\" data-throw-if-not-resolved=\"false\">IOException</xref>. Contains a number of additional fields that contain information about the success or failure of a server call. </p>"
   syntax:
     content: public class ADLException
 - uid: com.microsoft.azure.datalake.store.ADLFileInputStream
@@ -2162,12 +2145,7 @@ references:
   nameWithType: ADLFileInputStream
   fullName: com.microsoft.azure.datalake.store.ADLFileInputStream
   type: Class
-  summary: >-
-    <p>ADLFileInputStream can be used to read data from an open file on ADL. It is a buffering stream, that reads data from the server in bulk, and then satisfies user reads from the buffer. Default buffer size is 4MB.</p>
-
-    <p>
-
-      <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe. </p>
+  summary: "<p>ADLFileInputStream can be used to read data from an open file on ADL. It is a buffering stream, that reads data from the server in bulk, and then satisfies user reads from the buffer. Default buffer size is 4MB.</p>\r\n<p>\r\n  <b>Thread-safety</b>: Note that methods in this class are NOT thread-safe. </p>"
   syntax:
     content: public class ADLFileInputStream
 - uid: com.microsoft.azure.datalake.store.ExpiryOption
@@ -2177,7 +2155,7 @@ references:
   nameWithType: ExpiryOption
   fullName: com.microsoft.azure.datalake.store.ExpiryOption
   type: Enum
-  summary: <p>Enum specifying how to interpret the expiry time specified in setExpiry call. </p>
+  summary: "<p>Enum specifying how to interpret the expiry time specified in setExpiry call. </p>"
   syntax:
     content: public enum ExpiryOption
 - uid: com.microsoft.azure.datalake.store.ContentSummary
@@ -2187,7 +2165,7 @@ references:
   nameWithType: ContentSummary
   fullName: com.microsoft.azure.datalake.store.ContentSummary
   type: Class
-  summary: <p>structure that contains the return values from getContentSummary call. </p>
+  summary: "<p>structure that contains the return values from getContentSummary call. </p>"
   syntax:
     content: public class ContentSummary
 - uid: com.microsoft.azure.datalake.store.acl.AclEntry
@@ -2197,14 +2175,7 @@ references:
   nameWithType: AclEntry
   fullName: com.microsoft.azure.datalake.store.acl.AclEntry
   type: Class
-  summary: >-
-    <p>Contains one ACL entry. An ACL entry consists of a scope (access or default), the type of the ACL (user, group, other or mask), the name of the user or group associated with this ACL (can be blank to specify the default permissions for users and groups, and must be blank for mask entries), and the action permitted by this ACL entry. </p>
-
-    <p>An ACL for an object consists of a<code>List 
-
-        </code> of Acl entries. </p>
-
-    <p>This class also provides a number of convenience methods for converting ACL entries and ACLs to and back from strings. </p>
+  summary: "<p>Contains one ACL entry. An ACL entry consists of a scope (access or default), the type of the ACL (user, group, other or mask), the name of the user or group associated with this ACL (can be blank to specify the default permissions for users and groups, and must be blank for mask entries), and the action permitted by this ACL entry. </p>\r\n<p>An ACL for an object consists of a<code>List \r\n    </code> of Acl entries. </p>\r\n<p>This class also provides a number of convenience methods for converting ACL entries and ACLs to and back from strings. </p>"
   syntax:
     content: public class AclEntry
 - uid: com.microsoft.azure.datalake.store.acl.AclStatus
@@ -2214,7 +2185,7 @@ references:
   nameWithType: AclStatus
   fullName: com.microsoft.azure.datalake.store.acl.AclStatus
   type: Class
-  summary: <p>Object returned by the <xref uid="com.microsoft.azure.datalake.store.ADLStoreClient.getAclStatus(String)" data-throw-if-not-resolved="false">com.microsoft.azure.datalake.store.ADLStoreClient#getAclStatus(String)</xref> getAclStatus} call, that contains the Acl and Permission information for that file or directory. </p>
+  summary: "<p>Object returned by the <xref uid=\"com.microsoft.azure.datalake.store.ADLStoreClient.getAclStatus(String)\" data-throw-if-not-resolved=\"false\">com.microsoft.azure.datalake.store.ADLStoreClient#getAclStatus(String)</xref> getAclStatus} call, that contains the Acl and Permission information for that file or directory. </p>"
   syntax:
     content: public class AclStatus
 - uid: com.microsoft.azure.datalake.store.ADLStoreOptions
@@ -2224,7 +2195,7 @@ references:
   nameWithType: ADLStoreOptions
   fullName: com.microsoft.azure.datalake.store.ADLStoreOptions
   type: Class
-  summary: <p>Options to configure the behavior of <xref uid="com.microsoft.azure.datalake.store.ADLStoreClient" data-throw-if-not-resolved="false">ADLStoreClient</xref></p>
+  summary: "<p>Options to configure the behavior of <xref uid=\"com.microsoft.azure.datalake.store.ADLStoreClient\" data-throw-if-not-resolved=\"false\">ADLStoreClient</xref></p>"
   syntax:
     content: public class ADLStoreOptions
 - uid: com.microsoft.azure.datalake.store.OperationResponse
@@ -2234,9 +2205,6 @@ references:
   nameWithType: OperationResponse
   fullName: com.microsoft.azure.datalake.store.OperationResponse
   type: Class
-  summary: >-
-    <p>information about a response from a server call.</p>
-
-    <p>This class is a container for all the information from making a server call. </p>
+  summary: "<p>information about a response from a server call.</p>\r\n<p>This class is a container for all the information from making a server call. </p>"
   syntax:
     content: public class OperationResponse

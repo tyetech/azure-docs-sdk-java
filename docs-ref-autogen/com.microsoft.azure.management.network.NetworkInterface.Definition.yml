@@ -57,10 +57,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -73,10 +70,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -93,10 +87,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -109,10 +100,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithSecondaryIPConfiguration.defineSecondaryIPConfiguration(String name)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithSecondaryIPConfiguration.defineSecondaryIPConfiguration(String name)
   type: Method
-  summary: >-
-    <p>Starts definition of a secondary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Starts definition of a secondary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public NicIPConfiguration.DefinitionStages.Blank<WithCreate> defineSecondaryIPConfiguration(String name)
     parameters:
@@ -153,10 +141,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithAcceleratedNetworking.withAcceleratedNetworking()
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithAcceleratedNetworking.withAcceleratedNetworking()
   type: Method
-  summary: >-
-    <p>Enables accelerated networking. </p>
-
-    <p>Note that additional steps need to be taken in the virtual machine itself for the virtual machine associated with this network interface to be able to take advantage of accelerated networking. This feature might not be available in some regions, virtual machine sizes, or operating system versions. It can be enabled only during the creation of a network interface, not during an update. </p>
+  summary: "<p>Enables accelerated networking. </p>\r\n<p>Note that additional steps need to be taken in the virtual machine itself for the virtual machine associated with this network interface to be able to take advantage of accelerated networking. This feature might not be available in some regions, virtual machine sizes, or operating system versions. It can be enabled only during the creation of a network interface, not during an update. </p>"
   syntax:
     content: public WithCreate withAcceleratedNetworking()
     return:
@@ -169,12 +154,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithCreate.withDnsServer(String ipAddress)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate.withDnsServer(String ipAddress)
   type: Method
-  summary: >-
-    <p>Specifies the IP address of the custom DNS server to associate with the network interface. </p>
-
-    <p>Note this method's effect is additive, i.e. each time it is used, the new dns server is added to the network interface.</p>
-
-    <p></p>
+  summary: "<p>Specifies the IP address of the custom DNS server to associate with the network interface. </p>\r\n<p>Note this method's effect is additive, i.e. each time it is used, the new dns server is added to the network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDnsServer(String ipAddress)
     parameters:
@@ -191,7 +171,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithLoadBalancer.withExistingLoadBalancerBackend(LoadBalancer loadBalancer, String backendName)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithLoadBalancer.withExistingLoadBalancerBackend(LoadBalancer loadBalancer, String backendName)
   type: Method
-  summary: <p>Associates the network interface's primary IP configuration with a backend of an existing load balancer. </p>
+  summary: "<p>Associates the network interface's primary IP configuration with a backend of an existing load balancer. </p>"
   syntax:
     content: public WithCreate withExistingLoadBalancerBackend(LoadBalancer loadBalancer, String backendName)
     parameters:
@@ -211,7 +191,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithLoadBalancer.withExistingLoadBalancerInboundNatRule(LoadBalancer loadBalancer, String inboundNatRuleName)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithLoadBalancer.withExistingLoadBalancerInboundNatRule(LoadBalancer loadBalancer, String inboundNatRuleName)
   type: Method
-  summary: <p>Associates the network interface's primary IP configuration with an inbound NAT rule of an existing load balancer. </p>
+  summary: "<p>Associates the network interface's primary IP configuration with an inbound NAT rule of an existing load balancer. </p>"
   syntax:
     content: public WithCreate withExistingLoadBalancerInboundNatRule(LoadBalancer loadBalancer, String inboundNatRuleName)
     parameters:
@@ -231,10 +211,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithNetworkSecurityGroup.withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithNetworkSecurityGroup.withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
   type: Method
-  summary: >-
-    <p>Associates an existing network security group with the network interface.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing network security group with the network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingNetworkSecurityGroup(NetworkSecurityGroup networkSecurityGroup)
     parameters:
@@ -251,10 +228,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetwork.withExistingPrimaryNetwork(Network network)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetwork.withExistingPrimaryNetwork(Network network)
   type: Method
-  summary: >-
-    <p>Associate an existing virtual network with the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Associate an existing virtual network with the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryNetworkSubnet withExistingPrimaryNetwork(Network network)
     parameters:
@@ -271,10 +245,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
   type: Method
-  summary: >-
-    <p>Associates an existing public IP address with the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Associates an existing public IP address with the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withExistingPrimaryPublicIPAddress(PublicIPAddress publicIPAddress)
     parameters:
@@ -291,10 +262,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithCreate.withInternalDnsNameLabel(String dnsNameLabel)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate.withInternalDnsNameLabel(String dnsNameLabel)
   type: Method
-  summary: >-
-    <p>Specifies the internal DNS name label for the network interface.</p>
-
-    <p></p>
+  summary: "<p>Specifies the internal DNS name label for the network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withInternalDnsNameLabel(String dnsNameLabel)
     parameters:
@@ -311,10 +279,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate.withIPForwarding()
   type: Method
-  summary: >-
-    <p>Enables IP forwarding in the network interface.</p>
-
-    <p></p>
+  summary: "<p>Enables IP forwarding in the network interface.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withIPForwarding()
     return:
@@ -327,10 +292,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithNetworkSecurityGroup.withNewNetworkSecurityGroup(Creatable<NetworkSecurityGroup> creatable)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithNetworkSecurityGroup.withNewNetworkSecurityGroup(Creatable<NetworkSecurityGroup> creatable)
   type: Method
-  summary: >-
-    <p>Create a new network security group to associate with network interface, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Create a new network security group to associate with network interface, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewNetworkSecurityGroup(Creatable<NetworkSecurityGroup> creatable)
     parameters:
@@ -347,10 +309,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetwork.withNewPrimaryNetwork(Creatable<Network> creatable)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetwork.withNewPrimaryNetwork(Creatable<Network> creatable)
   type: Method
-  summary: >-
-    <p>Create a new virtual network to associate with the network interface's primary IP configuration, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Create a new virtual network to associate with the network interface's primary IP configuration, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryPrivateIP withNewPrimaryNetwork(Creatable<Network> creatable)
     parameters:
@@ -367,12 +326,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetwork.withNewPrimaryNetwork(String name, String addressSpace)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetwork.withNewPrimaryNetwork(String name, String addressSpace)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the network interface's primary IP configuration. </p>
-
-    <p>The virtual network will be created in the same resource group and region as of network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the network interface's primary IP configuration. </p>\r\n<p>The virtual network will be created in the same resource group and region as of network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryPrivateIP withNewPrimaryNetwork(String name, String addressSpace)
     parameters:
@@ -392,12 +346,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetwork.withNewPrimaryNetwork(String addressSpace)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetwork.withNewPrimaryNetwork(String addressSpace)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the network interface's primary IP configuration. </p>
-
-    <p>The virtual network will be created in the same resource group and region as of network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the network interface's primary IP configuration. </p>\r\n<p>The virtual network will be created in the same resource group and region as of network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryPrivateIP withNewPrimaryNetwork(String addressSpace)
     parameters:
@@ -414,10 +363,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
   type: Method
-  summary: >-
-    <p>Create a new public IP address to associate with network interface's primary IP configuration, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Create a new public IP address to associate with network interface's primary IP configuration, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewPrimaryPublicIPAddress(Creatable<PublicIPAddress> creatable)
     parameters:
@@ -434,12 +380,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress()
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress()
   type: Method
-  summary: >-
-    <p>Creates a new public IP address in the same region and group as the resource and associate it with the network interface's primary IP configuration. </p>
-
-    <p>the internal name and DNS label for the public IP address will be derived from the network interface name</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address in the same region and group as the resource and associate it with the network interface's primary IP configuration. </p>\r\n<p>the internal name and DNS label for the public IP address will be derived from the network interface name</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewPrimaryPublicIPAddress()
     return:
@@ -452,12 +393,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(String leafDnsLabel)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPublicIPAddress.withNewPrimaryPublicIPAddress(String leafDnsLabel)
   type: Method
-  summary: >-
-    <p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the network interface's primary IP configuration. </p>
-
-    <p>the internal name for the public IP address will be derived from the DNS label</p>
-
-    <p></p>
+  summary: "<p>Creates a new public IP address in the same region and group as the resource, with the specified DNS label and associate it with the network interface's primary IP configuration. </p>\r\n<p>the internal name for the public IP address will be derived from the DNS label</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withNewPrimaryPublicIPAddress(String leafDnsLabel)
     parameters:
@@ -474,10 +410,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressDynamic()
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressDynamic()
   type: Method
-  summary: >-
-    <p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Enables dynamic private IP address allocation within the specified existing virtual network subnet for the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPrimaryPrivateIPAddressDynamic()
     return:
@@ -490,10 +423,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIP.withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
   type: Method
-  summary: >-
-    <p>Assigns the specified static private IP address within the specified existing virtual network subnet to the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Assigns the specified static private IP address within the specified existing virtual network subnet to the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withPrimaryPrivateIPAddressStatic(String staticPrivateIPAddress)
     parameters:
@@ -510,10 +440,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet.withSubnet(String name)
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet.withSubnet(String name)
   type: Method
-  summary: >-
-    <p>Associate a subnet with the network interface's primary IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Associate a subnet with the network interface's primary IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithPrimaryPrivateIP withSubnet(String name)
     parameters:
@@ -530,7 +457,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -550,7 +477,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -567,7 +494,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the network interface. </p>
+  summary: "<p>The first stage of the network interface. </p>"
   syntax:
     content: public interface Blank
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup
@@ -577,7 +504,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithGroup
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify the resource group. </p>
+  summary: "<p>The stage of the network interface definition allowing to specify the resource group. </p>"
   syntax:
     content: public interface WithGroup
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetwork
@@ -587,7 +514,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetwork
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetwork
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify the virtual network for primary IP configuration. </p>
+  summary: "<p>The stage of the network interface definition allowing to specify the virtual network for primary IP configuration. </p>"
   syntax:
     content: public interface WithPrimaryNetwork
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet
@@ -597,7 +524,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryNetworkSubnet
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify subnet. </p>
+  summary: "<p>The stage of the network interface definition allowing to specify subnet. </p>"
   syntax:
     content: public interface WithPrimaryNetworkSubnet
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIP
@@ -607,7 +534,7 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithPrimaryPrivateIP
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithPrimaryPrivateIP
   type: Interface
-  summary: <p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>
+  summary: "<p>The stage of the network interface definition allowing to specify private IP address within a virtual network subnet. </p>"
   syntax:
     content: public interface WithPrimaryPrivateIP
 - uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate
@@ -617,6 +544,6 @@ references:
   nameWithType: NetworkInterface.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the network interface definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate

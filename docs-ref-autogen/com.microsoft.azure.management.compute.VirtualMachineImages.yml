@@ -149,10 +149,7 @@ references:
   nameWithType: SupportsListingByRegion<T>.listByRegion(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion<T>.listByRegion(Region region)
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the specified region.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the specified region.</p>\r\n<p></p>"
   syntax:
     content: public PagedList<T> listByRegion(Region region)
     parameters:
@@ -169,7 +166,7 @@ references:
   nameWithType: SupportsListingByRegion<T>.listByRegion(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion<T>.listByRegion(String regionName)
   type: Method
-  summary: <p>List all the resources of the specified type in the specified region. </p>
+  summary: "<p>List all the resources of the specified type in the specified region. </p>"
   syntax:
     content: public PagedList<T> listByRegion(String regionName)
     parameters:
@@ -186,10 +183,7 @@ references:
   nameWithType: SupportsListingByRegion<T>.listByRegionAsync(Region region)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion<T>.listByRegionAsync(Region region)
   type: Method
-  summary: >-
-    <p>Lists all the resources of the specified type in the specified region.</p>
-
-    <p></p>
+  summary: "<p>Lists all the resources of the specified type in the specified region.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> listByRegionAsync(Region region)
     parameters:
@@ -206,7 +200,7 @@ references:
   nameWithType: SupportsListingByRegion<T>.listByRegionAsync(String regionName)
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion<T>.listByRegionAsync(String regionName)
   type: Method
-  summary: <p>List all the resources of the specified type in the specified region. </p>
+  summary: "<p>List all the resources of the specified type in the specified region. </p>"
   syntax:
     content: public Observable<T> listByRegionAsync(String regionName)
     parameters:
@@ -223,12 +217,7 @@ references:
   nameWithType: SupportsListingByRegion<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.collection.SupportsListingByRegion<T>
   type: Interface
-  summary: >-
-    <p>Provides access to listing Azure resources of a specific type based on their region. </p>
-
-    <p>(Note: this interface is not intended to be implemented by user code)</p>
-
-    <p></p>
+  summary: "<p>Provides access to listing Azure resources of a specific type based on their region. </p>\r\n<p>(Note: this interface is not intended to be implemented by user code)</p>\r\n<p></p>"
   syntax:
     content: public interface SupportsListingByRegion<T>
     typeParameters:
@@ -242,7 +231,7 @@ references:
   nameWithType: VirtualMachineImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineImage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine image. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine image. </p>"
   syntax:
     content: public interface VirtualMachineImage extends HasInner<VirtualMachineImageInner>
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.Region
@@ -252,7 +241,7 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region
 - uid: com.microsoft.azure.management.compute.VirtualMachinePublishers
@@ -262,6 +251,6 @@ references:
   nameWithType: VirtualMachinePublishers
   fullName: com.microsoft.azure.management.compute.VirtualMachinePublishers
   type: Interface
-  summary: <p>Entry point to virtual machine image publishers. </p>
+  summary: "<p>Entry point to virtual machine image publishers. </p>"
   syntax:
     content: public interface VirtualMachinePublishers

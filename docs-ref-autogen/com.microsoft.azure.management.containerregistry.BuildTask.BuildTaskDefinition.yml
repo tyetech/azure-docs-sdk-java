@@ -52,10 +52,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -68,10 +65,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -88,10 +82,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -128,10 +119,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAlias.withAlias(String alias)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAlias.withAlias(String alias)
   type: Method
-  summary: >-
-    <p>Specifies the alternative name for a build task.</p>
-
-    <p></p>
+  summary: "<p>Specifies the alternative name for a build task.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withAlias(String alias)
     parameters:
@@ -148,10 +136,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationRefreshToken.withAuthenticationRefreshToken(String refreshToken)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationRefreshToken.withAuthenticationRefreshToken(String refreshToken)
   type: Method
-  summary: >-
-    <p>Specifies the authentication refresh token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the authentication refresh token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withAuthenticationRefreshToken(String refreshToken)
     parameters:
@@ -168,10 +153,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationToken.withAuthenticationToken(String token)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationToken.withAuthenticationToken(String token)
   type: Method
-  summary: >-
-    <p>Specifies the authentication token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the authentication token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithAlias withAuthenticationToken(String token)
     parameters:
@@ -188,10 +170,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenType.withAuthenticationTokenType(TokenType tokenType)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenType.withAuthenticationTokenType(TokenType tokenType)
   type: Method
-  summary: >-
-    <p>Specifies the type of the authentication token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the type of the authentication token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithAuthenticationToken withAuthenticationTokenType(TokenType tokenType)
     parameters:
@@ -208,10 +187,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope.withAuthenticationTokenTypeAccessScope(String scope)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope.withAuthenticationTokenTypeAccessScope(String scope)
   type: Method
-  summary: >-
-    <p>Specifies the scope of the access token.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of the access token.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withAuthenticationTokenTypeAccessScope(String scope)
     parameters:
@@ -228,10 +204,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the current status of build task is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the current status of build task is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withBuildTaskStatusDisabled()
     return:
@@ -244,10 +217,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTaskStatus.withBuildTaskStatusEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the current status of build task is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the current status of build task is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withBuildTaskStatusEnabled()
     return:
@@ -260,10 +230,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTimeoutInSeconds.withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the build timeout.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build timeout.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withBuildTimeoutInSeconds(int buildTimeoutInSeconds)
     parameters:
@@ -280,10 +247,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerDisabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the source control commit trigger is disabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the source control commit trigger is disabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withCommitTriggerDisabled()
     return:
@@ -296,10 +260,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerEnabled()
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger.withCommitTriggerEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the source control commit trigger is enabled.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the source control commit trigger is enabled.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withCommitTriggerEnabled()
     return:
@@ -312,10 +273,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCpuCoresCount.withCpuCoresCount(int count)
   type: Method
-  summary: >-
-    <p>Specifies the CPU configuration in terms of number of cores required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the CPU configuration in terms of number of cores required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withCpuCoresCount(int count)
     parameters:
@@ -332,10 +290,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithOSType.withOSType(OsType osType)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType.withOSType(OsType osType)
   type: Method
-  summary: >-
-    <p>Specifies the OS type required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the OS type required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithSourceControlType withOSType(OsType osType)
     parameters:
@@ -352,10 +307,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithRepositoryUrl.withRepositoryUrl(String repositoryUrl)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithRepositoryUrl.withRepositoryUrl(String repositoryUrl)
   type: Method
-  summary: >-
-    <p>Specifies the full URL to the source code repository.</p>
-
-    <p></p>
+  summary: "<p>Specifies the full URL to the source code repository.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithAuthenticationTokenType withRepositoryUrl(String repositoryUrl)
     parameters:
@@ -372,10 +324,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithSourceControlType.withSourceControlType(SourceControlType sourceControlType)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithSourceControlType.withSourceControlType(SourceControlType sourceControlType)
   type: Method
-  summary: >-
-    <p>Specifies full URL to the source code repository.</p>
-
-    <p></p>
+  summary: "<p>Specifies full URL to the source code repository.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithRepositoryUrl withSourceControlType(SourceControlType sourceControlType)
     parameters:
@@ -392,7 +341,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -412,7 +361,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -429,10 +378,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds.withTokenExpirationTimeInSeconds(int expirationTimeInSeconds)
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds.withTokenExpirationTimeInSeconds(int expirationTimeInSeconds)
   type: Method
-  summary: >-
-    <p>Specifies the time in seconds that the token remains valid.</p>
-
-    <p></p>
+  summary: "<p>Specifies the time in seconds that the token remains valid.</p>\r\n<p></p>"
   syntax:
     content: public BuildTask.DefinitionStages.WithCreate withTokenExpirationTimeInSeconds(int expirationTimeInSeconds)
     parameters:
@@ -449,7 +395,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the build task definition. </p>
+  summary: "<p>The first stage of the build task definition. </p>"
   syntax:
     content: public interface Blank extends BuildTask.DefinitionStages.WithOSType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType
@@ -459,7 +405,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithOSType
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithOSType
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the OS type required for the build. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the OS type required for the build. </p>"
   syntax:
     content: public interface WithOSType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithSourceControlType
@@ -469,7 +415,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithSourceControlType
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithSourceControlType
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the source control type. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the source control type. </p>"
   syntax:
     content: public interface WithSourceControlType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithRepositoryUrl
@@ -479,7 +425,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithRepositoryUrl
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithRepositoryUrl
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the full URL to the source code repository. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the full URL to the source code repository. </p>"
   syntax:
     content: public interface WithRepositoryUrl
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenType
@@ -489,7 +435,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenType
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenType
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the type of the authentication token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the type of the authentication token. </p>"
   syntax:
     content: public interface WithAuthenticationTokenType
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationToken
@@ -499,7 +445,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationToken
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationToken
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the authentication token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the authentication token. </p>"
   syntax:
     content: public interface WithAuthenticationToken
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAlias
@@ -509,7 +455,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAlias
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAlias
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the alternative name for a build task. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the alternative name for a build task. </p>"
   syntax:
     content: public interface WithAlias
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationRefreshToken
@@ -519,7 +465,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationRefreshToken
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationRefreshToken
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the authentication refresh token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the authentication refresh token. </p>"
   syntax:
     content: public interface WithAuthenticationRefreshToken
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
@@ -529,7 +475,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithTokenExpirationTimeInSeconds
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the time in seconds that the token remains valid. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the time in seconds that the token remains valid. </p>"
   syntax:
     content: public interface WithTokenExpirationTimeInSeconds
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope
@@ -539,7 +485,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithAuthenticationTokenAccessScope
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the scope of the access token. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the scope of the access token. </p>"
   syntax:
     content: public interface WithAuthenticationTokenAccessScope
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger
@@ -549,7 +495,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCommitTrigger
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCommitTrigger
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify whether the source control commit trigger is enabled or not. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify whether the source control commit trigger is enabled or not. </p>"
   syntax:
     content: public interface WithCommitTrigger
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCpuCoresCount
@@ -559,7 +505,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCpuCoresCount
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCpuCoresCount
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the CPU configuration required for the build. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the CPU configuration required for the build. </p>"
   syntax:
     content: public interface WithCpuCoresCount
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTimeoutInSeconds
@@ -569,7 +515,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTimeoutInSeconds
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTimeoutInSeconds
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify the build timeout. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify the build timeout. </p>"
   syntax:
     content: public interface WithBuildTimeoutInSeconds
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTaskStatus
@@ -579,7 +525,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithBuildTaskStatus
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithBuildTaskStatus
   type: Interface
-  summary: <p>The stage of the BuildTask definition allowing to specify current status of build task. </p>
+  summary: "<p>The stage of the BuildTask definition allowing to specify current status of build task. </p>"
   syntax:
     content: public interface WithBuildTaskStatus
 - uid: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
@@ -589,7 +535,7 @@ references:
   nameWithType: BuildTask.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.containerregistry.BuildTask.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
@@ -599,6 +545,6 @@ references:
   nameWithType: BuildTaskImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildTaskImpl
   type: Class
-  summary: <p>Implementation for BuildTask. </p>
+  summary: "<p>Implementation for BuildTask. </p>"
   syntax:
     content: public class BuildTaskImpl

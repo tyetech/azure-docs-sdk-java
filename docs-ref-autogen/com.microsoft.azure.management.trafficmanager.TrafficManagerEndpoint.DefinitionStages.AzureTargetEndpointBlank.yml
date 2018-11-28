@@ -39,12 +39,7 @@ references:
   nameWithType: TrafficManagerEndpoint.DefinitionStages.WithAzureResource<ParentT>.toResourceId(String resourceId)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.DefinitionStages.WithAzureResource<ParentT>.toResourceId(String resourceId)
   type: Method
-  summary: >-
-    <p>Specifies the resource ID of an Azure resource. </p>
-
-    <p>supported Azure resources are cloud service, web app or public ip</p>
-
-    <p></p>
+  summary: "<p>Specifies the resource ID of an Azure resource. </p>\r\n<p>supported Azure resources are cloud service, web app or public ip</p>\r\n<p></p>"
   syntax:
     content: public WithAttach<ParentT> toResourceId(String resourceId)
     parameters:
@@ -61,10 +56,7 @@ references:
   nameWithType: TrafficManagerEndpoint.DefinitionStages.WithAzureResource<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.DefinitionStages.WithAzureResource<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the traffic manager profile Azure endpoint definition allowing to specify the ID of the target Azure resource.</p>
-
-    <p></p>
+  summary: "<p>The stage of the traffic manager profile Azure endpoint definition allowing to specify the ID of the target Azure resource.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAzureResource<ParentT>
     typeParameters:
@@ -78,10 +70,7 @@ references:
   nameWithType: TrafficManagerEndpoint.Definition<ParentT>
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.Definition<ParentT>
   type: Interface
-  summary: >-
-    <p>The entirety of a traffic manager profile endpoint definition as a part of parent definition.</p>
-
-    <p></p>
+  summary: "<p>The entirety of a traffic manager profile endpoint definition as a part of parent definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Definition<ParentT>
     typeParameters:
@@ -95,7 +84,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:

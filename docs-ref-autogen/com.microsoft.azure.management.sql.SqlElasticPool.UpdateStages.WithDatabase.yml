@@ -125,10 +125,7 @@ references:
   nameWithType: SqlElasticPool.Update
   fullName: com.microsoft.azure.management.sql.SqlElasticPool.Update
   type: Interface
-  summary: >-
-    <p>The template for a SQL Elastic Pool update operation, containing all the settings that can be modified.</p>
-
-    <p>The template for a SQLElasticPool update operation, containing all the settings that can be modified. </p>
+  summary: "<p>The template for a SQL Elastic Pool update operation, containing all the settings that can be modified.</p>\r\n<p>The template for a SQLElasticPool update operation, containing all the settings that can be modified. </p>"
   syntax:
     content: public interface Update extends SqlElasticPool.UpdateStages.WithDatabaseDtuMax,SqlElasticPool.UpdateStages.WithDatabaseDtuMin,SqlElasticPool.UpdateStages.WithDtu,SqlElasticPool.UpdateStages.WithStorageCapacity,SqlElasticPool.UpdateStages.WithDatabase,Appliable<SqlElasticPool>,SqlElasticPool.UpdateStages.WithReservedDTUAndStorageCapacity,SqlElasticPool.UpdateStages.WithDatabaseDtuMax,SqlElasticPool.UpdateStages.WithDatabaseDtuMin,SqlElasticPool.UpdateStages.WithDtu,SqlElasticPool.UpdateStages.WithStorageCapacity,SqlElasticPool.UpdateStages.WithDatabase,Resource.UpdateWithTags<SqlElasticPool.Update>,Appliable<SqlElasticPool>
 - uid: com.microsoft.azure.management.sql.SqlDatabase
@@ -138,9 +135,6 @@ references:
   nameWithType: SqlDatabase
   fullName: com.microsoft.azure.management.sql.SqlDatabase
   type: Interface
-  summary: >-
-    <p>An immutable client-side representation of an Azure SQL Server Database.</p>
-
-    <p>An immutable client-side representation of an Azure SQL Database. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server Database.</p>\r\n<p>An immutable client-side representation of an Azure SQL Database. </p>"
   syntax:
     content: public interface SqlDatabase extends IndependentChildResource<SqlServerManager, DatabaseInner>,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>,ExternalChildResource<SqlDatabase, SqlServer>,HasInner<DatabaseInner>,HasResourceGroup,Refreshable<SqlDatabase>,Updatable<SqlDatabase.Update>

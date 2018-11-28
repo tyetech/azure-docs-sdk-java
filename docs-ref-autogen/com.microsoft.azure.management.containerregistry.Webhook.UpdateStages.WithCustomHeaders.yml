@@ -105,7 +105,7 @@ references:
   nameWithType: Webhook.Update
   fullName: com.microsoft.azure.management.containerregistry.Webhook.Update
   type: Interface
-  summary: <p>The entirety of a webhook update. </p>
+  summary: "<p>The entirety of a webhook update. </p>"
   syntax:
     content: public interface Update extends Webhook.UpdateStages.WithTriggerWhen,Webhook.UpdateStages.WithServiceUri,Webhook.UpdateStages.WithCustomHeaders,Webhook.UpdateStages.WithRepositoriesScope,Webhook.UpdateStages.WithDefaultStatus,Resource.UpdateWithTags<Update>,Appliable<Webhook>
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl.withCustomHeader(String,String)
@@ -115,12 +115,7 @@ references:
   nameWithType: WebhookImpl.withCustomHeader(String name, String value)
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl.withCustomHeader(String name, String value)
   type: Method
-  summary: >-
-    <p>Specifies a custom header that will be added to notifications. </p>
-
-    <p>Consecutive calls to this method will add additional headers.</p>
-
-    <p></p>
+  summary: "<p>Specifies a custom header that will be added to notifications. </p>\r\n<p>Consecutive calls to this method will add additional headers.</p>\r\n<p></p>"
   syntax:
     content: public WebhookImpl withCustomHeader(String name, String value)
     parameters:
@@ -140,10 +135,7 @@ references:
   nameWithType: WebhookImpl.withCustomHeaders(Map<String, String> customHeaders)
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl.withCustomHeaders(Map<String, String> customHeaders)
   type: Method
-  summary: >-
-    <p>Specifies custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public WebhookImpl withCustomHeaders(Map<String, String> customHeaders)
     parameters:

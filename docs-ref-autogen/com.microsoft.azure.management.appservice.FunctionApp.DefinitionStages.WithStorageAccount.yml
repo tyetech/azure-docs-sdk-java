@@ -101,7 +101,7 @@ references:
   nameWithType: FunctionApp.Definition
   fullName: com.microsoft.azure.management.appservice.FunctionApp.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends FunctionApp.DefinitionStages.Blank,FunctionApp.DefinitionStages.ExistingAppServicePlanWithGroup,FunctionApp.DefinitionStages.WithStorageAccount,FunctionApp.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithCreate
@@ -111,7 +111,7 @@ references:
   nameWithType: FunctionApp.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>A function app definition with sufficient inputs to create a new function app in the cloud, but exposing additional optional inputs to specify. </p>
+  summary: "<p>A function app definition with sufficient inputs to create a new function app in the cloud, but exposing additional optional inputs to specify. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<FunctionApp>,FunctionApp.DefinitionStages.WithNewAppServicePlan,FunctionApp.DefinitionStages.WithStorageAccount,FunctionApp.DefinitionStages.WithRuntimeVersion,FunctionApp.DefinitionStages.WithDailyUsageQuota,WebAppBase.DefinitionStages.WithCreate<FunctionApp>
 - uid: com.microsoft.azure.management.storage.SkuName
@@ -121,7 +121,7 @@ references:
   nameWithType: SkuName
   fullName: com.microsoft.azure.management.storage.SkuName
   type: Enum
-  summary: <p>Defines values for SkuName. </p>
+  summary: "<p>Defines values for SkuName. </p>"
   syntax:
     content: public enum SkuName
 - uid: com.microsoft.azure.management.storage.StorageAccount
@@ -131,6 +131,6 @@ references:
   nameWithType: StorageAccount
   fullName: com.microsoft.azure.management.storage.StorageAccount
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure storage account. </p>
+  summary: "<p>An immutable client-side representation of an Azure storage account. </p>"
   syntax:
     content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>

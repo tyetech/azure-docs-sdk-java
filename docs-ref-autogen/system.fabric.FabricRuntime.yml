@@ -528,7 +528,7 @@ references:
   nameWithType: FabricCodePackageActivationContext
   fullName: system.fabric.FabricCodePackageActivationContext
   type: Class
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax:
     content: public class FabricCodePackageActivationContext implements CodePackageActivationContext
 - uid: system.fabric.NodeContext
@@ -538,7 +538,7 @@ references:
   nameWithType: NodeContext
   fullName: system.fabric.NodeContext
   type: Class
-  summary: <p>Class to encapsulate a node context. </p>
+  summary: "<p>Class to encapsulate a node context. </p>"
   syntax:
     content: public class NodeContext
 - uid: system.fabric.FabricRuntime
@@ -548,7 +548,7 @@ references:
   nameWithType: FabricRuntime
   fullName: system.fabric.FabricRuntime
   type: Class
-  summary: <p>Allows user created hosts to obtain their <xref uid="system.fabric.CodePackageActivationContext" data-throw-if-not-resolved="false">system.fabric.CodePackageActivationContext</xref>, well as to register the necessary service factories [ <xref uid="system.fabric.StatelessServiceFactory" data-throw-if-not-resolved="false">system.fabric.StatelessServiceFactory</xref>, <xref uid="system.fabric.StatefulServiceFactory" data-throw-if-not-resolved="false">system.fabric.StatefulServiceFactory</xref> ] or service types directly. </p>
+  summary: "<p>Allows user created hosts to obtain their <xref uid=\"system.fabric.CodePackageActivationContext\" data-throw-if-not-resolved=\"false\">system.fabric.CodePackageActivationContext</xref>, well as to register the necessary service factories [ <xref uid=\"system.fabric.StatelessServiceFactory\" data-throw-if-not-resolved=\"false\">system.fabric.StatelessServiceFactory</xref>, <xref uid=\"system.fabric.StatefulServiceFactory\" data-throw-if-not-resolved=\"false\">system.fabric.StatefulServiceFactory</xref> ] or service types directly. </p>"
   syntax: *o1
 - uid: system.fabric.CodePackageActivationContext
   parent: system.fabric
@@ -557,7 +557,7 @@ references:
   nameWithType: CodePackageActivationContext
   fullName: system.fabric.CodePackageActivationContext
   type: Interface
-  summary: <p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>
+  summary: "<p>Represents activation context for the Service Fabric service. This is valid for fabric activated service only. </p>"
   syntax:
     content: public interface CodePackageActivationContext
 - uid: system.fabric.StatelessServiceFactory
@@ -567,12 +567,7 @@ references:
   nameWithType: StatelessServiceFactory
   fullName: system.fabric.StatelessServiceFactory
   type: Interface
-  summary: >-
-    <p>Represents a stateless service factory that is responsible for creating instances of a specific type of stateless service. </p>
-
-    <p>
-
-      <b>Remarks:</b>Stateless service factories are registered with the <xref uid="system.fabric.FabricRuntime" data-throw-if-not-resolved="false">system.fabric.FabricRuntime</xref> by service hosts via <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatelessServiceFactory(java.lang.String,system.fabric.StatelessServiceFactory)</xref> or <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatelessServiceFactoryAsync(java.lang.String,system.fabric.StatelessServiceFactory,java.time.Duration)</xref></p>
+  summary: "<p>Represents a stateless service factory that is responsible for creating instances of a specific type of stateless service. </p>\r\n<p>\r\n  <b>Remarks:</b>Stateless service factories are registered with the <xref uid=\"system.fabric.FabricRuntime\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime</xref> by service hosts via <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatelessServiceFactory(java.lang.String,system.fabric.StatelessServiceFactory)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatelessServiceFactoryAsync(java.lang.String,system.fabric.StatelessServiceFactory,java.time.Duration)</xref></p>"
   syntax:
     content: public interface StatelessServiceFactory
 - uid: system.fabric.StatefulServiceFactory
@@ -582,6 +577,6 @@ references:
   nameWithType: StatefulServiceFactory
   fullName: system.fabric.StatefulServiceFactory
   type: Interface
-  summary: <p>Represents a stateful service factory that is responsible for creating replicas of a specific type of stateful service. Stateful service factories are registered with the <xref uid="system.fabric.FabricRuntime" data-throw-if-not-resolved="false">system.fabric.FabricRuntime</xref> by service hosts via <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatefulServiceFactory(java.lang.String,system.fabric.StatefulServiceFactory)</xref> or <xref uid="" data-throw-if-not-resolved="false">system.fabric.FabricRuntime#registerStatefulServiceFactoryAsync(java.lang.String,system.fabric.StatefulServiceFactory,java.time.Duration)</xref></p>
+  summary: "<p>Represents a stateful service factory that is responsible for creating replicas of a specific type of stateful service. Stateful service factories are registered with the <xref uid=\"system.fabric.FabricRuntime\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime</xref> by service hosts via <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatefulServiceFactory(java.lang.String,system.fabric.StatefulServiceFactory)</xref> or <xref uid=\"\" data-throw-if-not-resolved=\"false\">system.fabric.FabricRuntime#registerStatefulServiceFactoryAsync(java.lang.String,system.fabric.StatefulServiceFactory,java.time.Duration)</xref></p>"
   syntax:
     content: public interface StatefulServiceFactory

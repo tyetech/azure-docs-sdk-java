@@ -169,10 +169,7 @@ references:
   nameWithType: MethodDispatcherBase.continueWith(CompletableFuture<?> future)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.continueWith(CompletableFuture<?> future)
   type: Method
-  summary: >-
-    <p>Internal - used by Service remoting</p>
-
-    <p></p>
+  summary: "<p>Internal - used by Service remoting</p>\r\n<p></p>"
   syntax:
     content: protected CompletableFuture<Object> continueWith(CompletableFuture<?> future)
     parameters:
@@ -189,10 +186,7 @@ references:
   nameWithType: MethodDispatcherBase.createResponseBody(int methodId, Object returnValue)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.createResponseBody(int methodId, Object returnValue)
   type: Method
-  summary: >-
-    <p>This method is implemented by the generated method dispatcher to create the response from the specified return value as a result of dispatching the method to the remoted object.</p>
-
-    <p></p>
+  summary: "<p>This method is implemented by the generated method dispatcher to create the response from the specified return value as a result of dispatching the method to the remoted object.</p>\r\n<p></p>"
   syntax:
     content: protected abstract Object createResponseBody(int methodId, Object returnValue)
     parameters:
@@ -212,10 +206,7 @@ references:
   nameWithType: MethodDispatcherBase.dispatch(Object objectImplementation, int methodId, Object requestMsgBody)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.dispatch(Object objectImplementation, int methodId, Object requestMsgBody)
   type: Method
-  summary: >-
-    <p>This method is used to dispatch one way messages to the specified methodId of the interface implemented by the remoted object.</p>
-
-    <p></p>
+  summary: "<p>This method is used to dispatch one way messages to the specified methodId of the interface implemented by the remoted object.</p>\r\n<p></p>"
   syntax:
     content: public void dispatch(Object objectImplementation, int methodId, Object requestMsgBody)
     parameters:
@@ -235,10 +226,7 @@ references:
   nameWithType: MethodDispatcherBase.dispatchAsync(Object objectImplementation, int methodId, Object requestMsgBody, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.dispatchAsync(Object objectImplementation, int methodId, Object requestMsgBody, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is implemented by the generated method dispatcher to dispatch request to the specified methodId of the interface implemented by the remoted object.</p>
-
-    <p></p>
+  summary: "<p>This method is implemented by the generated method dispatcher to dispatch request to the specified methodId of the interface implemented by the remoted object.</p>\r\n<p></p>"
   syntax:
     content: public CompletableFuture<Object> dispatchAsync(Object objectImplementation, int methodId, Object requestMsgBody, CancellationToken cancellationToken)
     parameters:
@@ -263,10 +251,7 @@ references:
   nameWithType: MethodDispatcherBase.getInterfaceId()
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.getInterfaceId()
   type: Method
-  summary: >-
-    <p>Interface Id is used to identify remoting Interfaces.</p>
-
-    <p></p>
+  summary: "<p>Interface Id is used to identify remoting Interfaces.</p>\r\n<p></p>"
   syntax:
     content: public int getInterfaceId()
     return:
@@ -307,10 +292,7 @@ references:
   nameWithType: MethodDispatcherBase.onDispatch(int methodId, Object remotedObject, Object requestBody)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.onDispatch(int methodId, Object remotedObject, Object requestBody)
   type: Method
-  summary: >-
-    <p>This method is implemented by the generated method dispatcher to dispatch one way messages to the specified methodId of the interface implemented by the remoted object.</p>
-
-    <p></p>
+  summary: "<p>This method is implemented by the generated method dispatcher to dispatch one way messages to the specified methodId of the interface implemented by the remoted object.</p>\r\n<p></p>"
   syntax:
     content: protected abstract void onDispatch(int methodId, Object remotedObject, Object requestBody)
     parameters:
@@ -332,10 +314,7 @@ references:
   nameWithType: MethodDispatcherBase.onDispatchAsync(int methodId, Object remotedObject, Object requestBody, CancellationToken cancellationToken)
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBase.onDispatchAsync(int methodId, Object remotedObject, Object requestBody, CancellationToken cancellationToken)
   type: Method
-  summary: >-
-    <p>This method is implemented by the generated method dispatcher to dispatch request to the specified methodId of the interface implemented by the remoted object.</p>
-
-    <p></p>
+  summary: "<p>This method is implemented by the generated method dispatcher to dispatch request to the specified methodId of the interface implemented by the remoted object.</p>\r\n<p></p>"
   syntax:
     content: protected abstract CompletableFuture<Object> onDispatchAsync(int methodId, Object remotedObject, Object requestBody, CancellationToken cancellationToken)
     parameters:
@@ -361,7 +340,7 @@ references:
   nameWithType: MethodDispatcherBaseWithSerializer
   fullName: microsoft.servicefabric.services.remoting.builder.MethodDispatcherBaseWithSerializer
   type: Class
-  summary: <p>The class dispatches the requests from the client to the interface/method of the remoted objectts. This class is used by remoting code generator. This class caches the Serializer. </p>
+  summary: "<p>The class dispatches the requests from the client to the interface/method of the remoted objectts. This class is used by remoting code generator. This class caches the Serializer. </p>"
   syntax:
     content: public class MethodDispatcherBaseWithSerializer extends MethodDispatcherBase
 - uid: microsoft.servicefabric.services.remoting.ServiceRemotingMessageBody
@@ -371,6 +350,6 @@ references:
   nameWithType: ServiceRemotingMessageBody
   fullName: microsoft.servicefabric.services.remoting.ServiceRemotingMessageBody
   type: Class
-  summary: <p>Message body for service remoting. </p>
+  summary: "<p>Message body for service remoting. </p>"
   syntax:
     content: public class ServiceRemotingMessageBody

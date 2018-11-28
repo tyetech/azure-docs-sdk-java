@@ -364,7 +364,7 @@ references:
   nameWithType: VirtualMachineCustomImage.Definition
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.Definition
   type: Interface
-  summary: <p>The entirety of the image definition. </p>
+  summary: "<p>The entirety of the image definition. </p>"
   syntax:
     content: public interface Definition extends VirtualMachineCustomImage.DefinitionStages.Blank,VirtualMachineCustomImage.DefinitionStages.WithGroup,VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource,VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSource,VirtualMachineCustomImage.DefinitionStages.WithSourceVirtualMachine,VirtualMachineCustomImage.DefinitionStages.WithCreateAndDataDiskImageOSDiskSettings
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource
@@ -374,7 +374,7 @@ references:
   nameWithType: VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithOSDiskImageSourceAltVirtualMachineSource
   type: Interface
-  summary: <p>The stage of the image definition that allows choosing between using a virtual machine as the source for OS and the data disk images or beginning an OS disk image definition. </p>
+  summary: "<p>The stage of the image definition that allows choosing between using a virtual machine as the source for OS and the data disk images or beginning an OS disk image definition. </p>"
   syntax:
     content: public interface WithOSDiskImageSourceAltVirtualMachineSource
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithCreateAndDataDiskImageOSDiskSettings
@@ -384,7 +384,7 @@ references:
   nameWithType: VirtualMachineCustomImage.DefinitionStages.WithCreateAndDataDiskImageOSDiskSettings
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage.DefinitionStages.WithCreateAndDataDiskImageOSDiskSettings
   type: Interface
-  summary: <p>The stage of an image definition allowing to create the image or add optional data disk images and configure OS disk settings. </p>
+  summary: "<p>The stage of an image definition allowing to create the image or add optional data disk images and configure OS disk settings. </p>"
   syntax:
     content: public interface WithCreateAndDataDiskImageOSDiskSettings extends VirtualMachineCustomImage.DefinitionStages.WithCreate,VirtualMachineCustomImage.DefinitionStages.WithOSDiskSettings,VirtualMachineCustomImage.DefinitionStages.WithDataDiskImage
 - uid: com.microsoft.azure.management.compute.OperatingSystemStateTypes
@@ -394,7 +394,7 @@ references:
   nameWithType: OperatingSystemStateTypes
   fullName: com.microsoft.azure.management.compute.OperatingSystemStateTypes
   type: Enum
-  summary: <p>Defines values for OperatingSystemStateTypes. </p>
+  summary: "<p>Defines values for OperatingSystemStateTypes. </p>"
   syntax:
     content: public enum OperatingSystemStateTypes
 - uid: com.microsoft.azure.management.compute.Snapshot
@@ -404,7 +404,7 @@ references:
   nameWithType: Snapshot
   fullName: com.microsoft.azure.management.compute.Snapshot
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure managed snapshot. </p>
+  summary: "<p>An immutable client-side representation of an Azure managed snapshot. </p>"
   syntax:
     content: public interface Snapshot extends GroupableResource<ComputeManager, SnapshotInner>,Refreshable<Snapshot>,Updatable<Snapshot.Update>
 - uid: com.microsoft.azure.management.compute.Disk
@@ -414,6 +414,6 @@ references:
   nameWithType: Disk
   fullName: com.microsoft.azure.management.compute.Disk
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure managed disk. </p>
+  summary: "<p>An immutable client-side representation of an Azure managed disk. </p>"
   syntax:
     content: public interface Disk extends GroupableResource<ComputeManager, DiskInner>,Refreshable<Disk>,Updatable<Disk.Update>

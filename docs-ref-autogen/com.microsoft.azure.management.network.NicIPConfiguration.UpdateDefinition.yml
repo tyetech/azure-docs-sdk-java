@@ -47,7 +47,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -60,10 +60,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withExistingNetwork(Network network)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withExistingNetwork(Network network)
   type: Method
-  summary: >-
-    <p>Associate an existing virtual network with the network interface IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Associate an existing virtual network with the network interface IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithSubnet<ParentT> withExistingNetwork(Network network)
     parameters:
@@ -80,10 +77,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withNewNetwork(Creatable<Network> creatable)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withNewNetwork(Creatable<Network> creatable)
   type: Method
-  summary: >-
-    <p>Create a new virtual network to associate with the network interface IP configuration, based on the provided definition.</p>
-
-    <p></p>
+  summary: "<p>Create a new virtual network to associate with the network interface IP configuration, based on the provided definition.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP<ParentT> withNewNetwork(Creatable<Network> creatable)
     parameters:
@@ -100,12 +94,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withNewNetwork(String name, String addressSpace)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withNewNetwork(String name, String addressSpace)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the network interface IP configuration. </p>
-
-    <p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the network interface IP configuration. </p>\r\n<p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP<ParentT> withNewNetwork(String name, String addressSpace)
     parameters:
@@ -125,12 +114,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withNewNetwork(String addressSpace)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>.withNewNetwork(String addressSpace)
   type: Method
-  summary: >-
-    <p>Creates a new virtual network to associate with the network interface IP configuration. </p>
-
-    <p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>
-
-    <p></p>
+  summary: "<p>Creates a new virtual network to associate with the network interface IP configuration. </p>\r\n<p>the virtual network will be created in the same resource group and region as of parent network interface, it will be created with the specified address space and a default subnet covering the entirety of the network IP address space.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP<ParentT> withNewNetwork(String addressSpace)
     parameters:
@@ -147,7 +131,7 @@ references:
   nameWithType: HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressDynamic()
   type: Method
-  summary: <p>Enables dynamic private IP address allocation within the associated subnet. </p>
+  summary: "<p>Enables dynamic private IP address allocation within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressDynamic()
     return:
@@ -160,7 +144,7 @@ references:
   nameWithType: HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   fullName: com.microsoft.azure.management.network.model.HasPrivateIPAddress.UpdateDefinitionStages.WithPrivateIPAddress<ReturnT>.withPrivateIPAddressStatic(String ipAddress)
   type: Method
-  summary: <p>Assigns the specified static private IP address within the associated subnet. </p>
+  summary: "<p>Assigns the specified static private IP address within the associated subnet. </p>"
   syntax:
     content: public ReturnT withPrivateIPAddressStatic(String ipAddress)
     parameters:
@@ -177,7 +161,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithPrivateIP<ParentT>.withPrivateIPVersion(IPVersion ipVersion)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithPrivateIP<ParentT>.withPrivateIPVersion(IPVersion ipVersion)
   type: Method
-  summary: <p>Specifies the IP version for the private IP address. </p>
+  summary: "<p>Specifies the IP version for the private IP address. </p>"
   syntax:
     content: public WithAttach<ParentT> withPrivateIPVersion(IPVersion ipVersion)
     parameters:
@@ -194,10 +178,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>.withSubnet(String name)
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>.withSubnet(String name)
   type: Method
-  summary: >-
-    <p>Associate a subnet with the network interface IP configuration.</p>
-
-    <p></p>
+  summary: "<p>Associate a subnet with the network interface IP configuration.</p>\r\n<p></p>"
   syntax:
     content: public WithPrivateIP<ParentT> withSubnet(String name)
     parameters:
@@ -214,10 +195,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: >-
-    <p>The first stage of network interface IP configuration definition.</p>
-
-    <p></p>
+  summary: "<p>The first stage of network interface IP configuration definition.</p>\r\n<p></p>"
   syntax:
     content: public interface Blank<ParentT> extends NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>
     typeParameters:
@@ -231,12 +209,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of network interface IP configuration. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the network interface IP configuration definition can be attached to the parent network interface definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>.</p>
-
-    <p></p>
+  summary: "<p>The final stage of network interface IP configuration. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the network interface IP configuration definition can be attached to the parent network interface definition using <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()\" data-throw-if-not-resolved=\"false\">WithAttach#attach()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -250,10 +223,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithNetwork<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the network interface IP configuration definition allowing to specify the virtual network.</p>
-
-    <p></p>
+  summary: "<p>The stage of the network interface IP configuration definition allowing to specify the virtual network.</p>\r\n<p></p>"
   syntax:
     content: public interface WithNetwork<ParentT>
     typeParameters:
@@ -267,10 +237,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithPrivateIP<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithPrivateIP<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the network interface IP configuration definition allowing to specify private IP address within a virtual network subnet.</p>
-
-    <p></p>
+  summary: "<p>The stage of the network interface IP configuration definition allowing to specify private IP address within a virtual network subnet.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPrivateIP<ParentT>
     typeParameters:
@@ -284,10 +251,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithSubnet<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the network interface IP configuration definition allowing to specify subnet.</p>
-
-    <p></p>
+  summary: "<p>The stage of the network interface IP configuration definition allowing to specify subnet.</p>\r\n<p></p>"
   syntax:
     content: public interface WithSubnet<ParentT>
     typeParameters:
@@ -301,10 +265,7 @@ references:
   nameWithType: NicIPConfiguration.UpdateDefinitionStages.WithPublicIPAddress<ParentT>
   fullName: com.microsoft.azure.management.network.NicIPConfiguration.UpdateDefinitionStages.WithPublicIPAddress<ParentT>
   type: Interface
-  summary: >-
-    <p>The stage of the network interface IP configuration definition allowing to associate it with a public IP address.</p>
-
-    <p></p>
+  summary: "<p>The stage of the network interface IP configuration definition allowing to associate it with a public IP address.</p>\r\n<p></p>"
   syntax:
     content: public interface WithPublicIPAddress<ParentT>
     typeParameters:

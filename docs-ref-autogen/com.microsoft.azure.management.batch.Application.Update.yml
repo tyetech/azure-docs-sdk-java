@@ -35,10 +35,7 @@ references:
   nameWithType: Application.UpdateStages.WithApplicationPackage.defineNewApplicationPackage(String version)
   fullName: com.microsoft.azure.management.batch.Application.UpdateStages.WithApplicationPackage.defineNewApplicationPackage(String version)
   type: Method
-  summary: >-
-    <p>First stage to create new application package in Batch account application.</p>
-
-    <p></p>
+  summary: "<p>First stage to create new application package in Batch account application.</p>\r\n<p></p>"
   syntax:
     content: public Update defineNewApplicationPackage(String version)
     parameters:
@@ -55,12 +52,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -73,10 +65,7 @@ references:
   nameWithType: Application.UpdateStages.WithOptionalProperties.withAllowUpdates(boolean allowUpdates)
   fullName: com.microsoft.azure.management.batch.Application.UpdateStages.WithOptionalProperties.withAllowUpdates(boolean allowUpdates)
   type: Method
-  summary: >-
-    <p>Allows automatic application updates.</p>
-
-    <p></p>
+  summary: "<p>Allows automatic application updates.</p>\r\n<p></p>"
   syntax:
     content: public Update withAllowUpdates(boolean allowUpdates)
     parameters:
@@ -93,10 +82,7 @@ references:
   nameWithType: Application.UpdateStages.WithOptionalProperties.withDisplayName(String displayName)
   fullName: com.microsoft.azure.management.batch.Application.UpdateStages.WithOptionalProperties.withDisplayName(String displayName)
   type: Method
-  summary: >-
-    <p>Specifies the display name for the application.</p>
-
-    <p></p>
+  summary: "<p>Specifies the display name for the application.</p>\r\n<p></p>"
   syntax:
     content: public Update withDisplayName(String displayName)
     parameters:
@@ -113,10 +99,7 @@ references:
   nameWithType: Application.UpdateStages.WithApplicationPackage.withoutApplicationPackage(String version)
   fullName: com.microsoft.azure.management.batch.Application.UpdateStages.WithApplicationPackage.withoutApplicationPackage(String version)
   type: Method
-  summary: >-
-    <p>Deletes specified application package from the application.</p>
-
-    <p></p>
+  summary: "<p>Deletes specified application package from the application.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutApplicationPackage(String version)
     parameters:
@@ -133,10 +116,7 @@ references:
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces for child resources that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces for child resources that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
@@ -150,7 +130,7 @@ references:
   nameWithType: Application.UpdateStages.WithOptionalProperties
   fullName: com.microsoft.azure.management.batch.Application.UpdateStages.WithOptionalProperties
   type: Interface
-  summary: <p>The stage of an application update allowing to enable or disable auto upgrade of the application. </p>
+  summary: "<p>The stage of an application update allowing to enable or disable auto upgrade of the application. </p>"
   syntax:
     content: public interface WithOptionalProperties
 - uid: com.microsoft.azure.management.batch.Application.UpdateStages.WithApplicationPackage
@@ -160,6 +140,6 @@ references:
   nameWithType: Application.UpdateStages.WithApplicationPackage
   fullName: com.microsoft.azure.management.batch.Application.UpdateStages.WithApplicationPackage
   type: Interface
-  summary: <p>The stage of a Batch application update allowing the creation of an application package. </p>
+  summary: "<p>The stage of a Batch application update allowing the creation of an application package. </p>"
   syntax:
     content: public interface WithApplicationPackage

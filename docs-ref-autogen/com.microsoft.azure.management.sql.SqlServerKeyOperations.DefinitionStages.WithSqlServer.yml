@@ -132,7 +132,7 @@ references:
   nameWithType: SqlServerKeyOperations.SqlServerKeyOperationsDefinition
   fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.SqlServerKeyOperationsDefinition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface SqlServerKeyOperationsDefinition extends SqlServerKeyOperations.DefinitionStages.WithSqlServer,SqlServerKeyOperations.DefinitionStages.WithServerKeyType,SqlServerKeyOperations.DefinitionStages.WithThumbprint,SqlServerKeyOperations.DefinitionStages.WithCreationDate,SqlServerKeyOperations.DefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.sql.SqlServer
@@ -142,6 +142,6 @@ references:
   nameWithType: SqlServer
   fullName: com.microsoft.azure.management.sql.SqlServer
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure SQL Server. </p>
+  summary: "<p>An immutable client-side representation of an Azure SQL Server. </p>"
   syntax:
     content: public interface SqlServer extends GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>,GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>

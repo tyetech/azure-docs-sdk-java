@@ -43,10 +43,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion.fromRegion(Region location)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion.fromRegion(Region location)
   type: Method
-  summary: >-
-    <p>Specifies the region of the endpoint that will be used when the performance-based routing method <xref uid="com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PERFORMANCE" data-throw-if-not-resolved="false">TrafficRoutingMethod#PERFORMANCE</xref> is enabled on the profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies the region of the endpoint that will be used when the performance-based routing method <xref uid=\"com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PERFORMANCE\" data-throw-if-not-resolved=\"false\">TrafficRoutingMethod#PERFORMANCE</xref> is enabled on the profile.</p>\r\n<p></p>"
   syntax:
     content: public Update fromRegion(Region location)
     parameters:
@@ -63,12 +60,7 @@ references:
   nameWithType: Settable<ParentT>.parent()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>.parent()
   type: Method
-  summary: >-
-    <p>Begins an update for a child resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a child resource. </p>\r\n<p>This is the beginning of the builder pattern used to update child resources The final method completing the update and continue the actual parent resource update process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()\" data-throw-if-not-resolved=\"false\">Settable#parent()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public ParentT parent()
     return:
@@ -81,10 +73,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithFqdn.toFqdn(String externalFqdn)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithFqdn.toFqdn(String externalFqdn)
   type: Method
-  summary: >-
-    <p>Specifies the FQDN of an external endpoint that is not hosted in Azure.</p>
-
-    <p></p>
+  summary: "<p>Specifies the FQDN of an external endpoint that is not hosted in Azure.</p>\r\n<p></p>"
   syntax:
     content: public UpdateExternalEndpoint toFqdn(String externalFqdn)
     parameters:
@@ -101,10 +90,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocation(GeographicLocation geographicLocation)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocation(GeographicLocation geographicLocation)
   type: Method
-  summary: >-
-    <p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public Update withGeographicLocation(GeographicLocation geographicLocation)
     parameters:
@@ -121,10 +107,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocation(String geographicLocationCode)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocation(String geographicLocationCode)
   type: Method
-  summary: >-
-    <p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public Update withGeographicLocation(String geographicLocationCode)
     parameters:
@@ -141,10 +124,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocations(List<GeographicLocation> geographicLocations)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocations(List<GeographicLocation> geographicLocations)
   type: Method
-  summary: >-
-    <p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public Update withGeographicLocations(List<GeographicLocation> geographicLocations)
     parameters:
@@ -161,10 +141,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocations(Collection<String> geographicLocationCodes)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withGeographicLocations(Collection<String> geographicLocationCodes)
   type: Method
-  summary: >-
-    <p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>
-
-    <p></p>
+  summary: "<p>Specifies the list of geographic location for the endpoint that will be used when the parent profile is configured with geographic based routing method.</p>\r\n<p></p>"
   syntax:
     content: public Update withGeographicLocations(Collection<String> geographicLocationCodes)
     parameters:
@@ -181,10 +158,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withoutGeographicLocation(GeographicLocation geographicLocation)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withoutGeographicLocation(GeographicLocation geographicLocation)
   type: Method
-  summary: >-
-    <p>Specifies the geographic location to be removed from the endpoint's geographic location entries.</p>
-
-    <p></p>
+  summary: "<p>Specifies the geographic location to be removed from the endpoint's geographic location entries.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutGeographicLocation(GeographicLocation geographicLocation)
     parameters:
@@ -201,10 +175,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withoutGeographicLocation(String geographicLocationCode)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithGeographicLocation.withoutGeographicLocation(String geographicLocationCode)
   type: Method
-  summary: >-
-    <p>Specifies the geographic location to be removed from the endpoint's geographic location entries.</p>
-
-    <p></p>
+  summary: "<p>Specifies the geographic location to be removed from the endpoint's geographic location entries.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutGeographicLocation(String geographicLocationCode)
     parameters:
@@ -221,10 +192,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithRoutingPriority.withRoutingPriority(int priority)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithRoutingPriority.withRoutingPriority(int priority)
   type: Method
-  summary: >-
-    <p>Specifies the weight for the endpoint that will be used when priority-based routing method is <xref uid="com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PRIORITY" data-throw-if-not-resolved="false">TrafficRoutingMethod#PRIORITY</xref> enabled on the profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies the weight for the endpoint that will be used when priority-based routing method is <xref uid=\"com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.PRIORITY\" data-throw-if-not-resolved=\"false\">TrafficRoutingMethod#PRIORITY</xref> enabled on the profile.</p>\r\n<p></p>"
   syntax:
     content: public Update withRoutingPriority(int priority)
     parameters:
@@ -241,10 +209,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithRoutingWeight.withRoutingWeight(int weight)
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithRoutingWeight.withRoutingWeight(int weight)
   type: Method
-  summary: >-
-    <p>Specifies the weight for the endpoint that will be used when the weight-based routing method <xref uid="com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.WEIGHTED" data-throw-if-not-resolved="false">TrafficRoutingMethod#WEIGHTED</xref> is enabled on the profile.</p>
-
-    <p></p>
+  summary: "<p>Specifies the weight for the endpoint that will be used when the weight-based routing method <xref uid=\"com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod.WEIGHTED\" data-throw-if-not-resolved=\"false\">TrafficRoutingMethod#WEIGHTED</xref> is enabled on the profile.</p>\r\n<p></p>"
   syntax:
     content: public Update withRoutingWeight(int weight)
     parameters:
@@ -261,10 +226,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithTrafficDisabledOrEnabled.withTrafficDisabled()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithTrafficDisabledOrEnabled.withTrafficDisabled()
   type: Method
-  summary: >-
-    <p>Specifies that the endpoint should be excluded from receiving traffic.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the endpoint should be excluded from receiving traffic.</p>\r\n<p></p>"
   syntax:
     content: public Update withTrafficDisabled()
     return:
@@ -277,10 +239,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithTrafficDisabledOrEnabled.withTrafficEnabled()
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithTrafficDisabledOrEnabled.withTrafficEnabled()
   type: Method
-  summary: >-
-    <p>Specifies that the endpoint should receive the traffic.</p>
-
-    <p></p>
+  summary: "<p>Specifies that the endpoint should receive the traffic.</p>\r\n<p></p>"
   syntax:
     content: public Update withTrafficEnabled()
     return:
@@ -293,7 +252,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithFqdn
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithFqdn
   type: Interface
-  summary: <p>The stage of an external endpoint update allowing to specify the FQDN. </p>
+  summary: "<p>The stage of an external endpoint update allowing to specify the FQDN. </p>"
   syntax:
     content: public interface WithFqdn
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion
@@ -303,7 +262,7 @@ references:
   nameWithType: TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.UpdateStages.WithSourceTrafficRegion
   type: Interface
-  summary: <p>The stage of the traffic manager endpoint update allowing to specify the location of the external or nested profile endpoints. </p>
+  summary: "<p>The stage of the traffic manager endpoint update allowing to specify the location of the external or nested profile endpoints. </p>"
   syntax:
     content: public interface WithSourceTrafficRegion
 - uid: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.Update
@@ -313,6 +272,6 @@ references:
   nameWithType: TrafficManagerEndpoint.Update
   fullName: com.microsoft.azure.management.trafficmanager.TrafficManagerEndpoint.Update
   type: Interface
-  summary: <p>the set of configurations that can be updated for all endpoint irrespective of their type (Azure, external, nested profile). </p>
+  summary: "<p>the set of configurations that can be updated for all endpoint irrespective of their type (Azure, external, nested profile). </p>"
   syntax:
     content: public interface Update extends Settable<TrafficManagerProfile.Update>,TrafficManagerEndpoint.UpdateStages.WithRoutingWeight,TrafficManagerEndpoint.UpdateStages.WithRoutingPriority,TrafficManagerEndpoint.UpdateStages.WithGeographicLocation,TrafficManagerEndpoint.UpdateStages.WithTrafficDisabledOrEnabled

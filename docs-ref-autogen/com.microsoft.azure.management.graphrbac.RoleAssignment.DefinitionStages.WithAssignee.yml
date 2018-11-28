@@ -216,7 +216,7 @@ references:
   nameWithType: RoleAssignment.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignment.DefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the role assignment definition. </p>
+  summary: "<p>The first stage of the role assignment definition. </p>"
   syntax:
     content: public interface Blank extends RoleAssignment.DefinitionStages.WithAssignee
 - uid: com.microsoft.azure.management.graphrbac.RoleAssignment.DefinitionStages.WithRole
@@ -226,7 +226,7 @@ references:
   nameWithType: RoleAssignment.DefinitionStages.WithRole
   fullName: com.microsoft.azure.management.graphrbac.RoleAssignment.DefinitionStages.WithRole
   type: Interface
-  summary: <p>The stage of role assignment definition allowing specifying the role. </p>
+  summary: "<p>The stage of role assignment definition allowing specifying the role. </p>"
   syntax:
     content: public interface WithRole
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser
@@ -236,7 +236,7 @@ references:
   nameWithType: ActiveDirectoryUser
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD user. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD user. </p>"
   syntax:
     content: public interface ActiveDirectoryUser extends ActiveDirectoryObject,HasInner<UserInner>,Updatable<ActiveDirectoryUser.Update>
 - uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
@@ -246,7 +246,7 @@ references:
   nameWithType: ActiveDirectoryGroup
   fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD group. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD group. </p>"
   syntax:
     content: public interface ActiveDirectoryGroup extends ActiveDirectoryObject,HasInner<ADGroupInner>,Updatable<ActiveDirectoryGroup.Update>
 - uid: com.microsoft.azure.management.graphrbac.ServicePrincipal
@@ -256,6 +256,6 @@ references:
   nameWithType: ServicePrincipal
   fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure AD service principal. </p>
+  summary: "<p>An immutable client-side representation of an Azure AD service principal. </p>"
   syntax:
     content: public interface ServicePrincipal extends ActiveDirectoryObject,HasInner<ServicePrincipalInner>,Updatable<ServicePrincipal.Update>

@@ -488,7 +488,7 @@ references:
   nameWithType: ITokenCacheStore
   fullName: com.microsoft.aad.adal.ITokenCacheStore
   type: Interface
-  summary: <p>Minimal interface needed by ADAL for cache. </p>
+  summary: "<p>Minimal interface needed by ADAL for cache. </p>"
   syntax:
     content: public interface ITokenCacheStore
 - uid: com.microsoft.aad.adal.ITokenStoreQuery
@@ -526,7 +526,7 @@ references:
   nameWithType: TokenCacheItem
   fullName: com.microsoft.aad.adal.TokenCacheItem
   type: Class
-  summary: <p>Extended result to store more info Queries will be performed over this item not the key. </p>
+  summary: "<p>Extended result to store more info Queries will be performed over this item not the key. </p>"
   syntax:
     content: public class TokenCacheItem
 - uid: com.microsoft.aad.adal.ITokenCacheStore.getItem(String)
@@ -536,10 +536,7 @@ references:
   nameWithType: ITokenCacheStore.getItem(String key)
   fullName: com.microsoft.aad.adal.ITokenCacheStore.getItem(String key)
   type: Method
-  summary: >-
-    <p>Get cache item.</p>
-
-    <p></p>
+  summary: "<p>Get cache item.</p>\r\n<p></p>"
   syntax:
     content: public TokenCacheItem getItem(String key)
     parameters:
@@ -561,7 +558,7 @@ references:
   nameWithType: CacheKey
   fullName: com.microsoft.aad.adal.CacheKey
   type: Class
-  summary: <p>CacheKey will be the object for key. </p>
+  summary: "<p>CacheKey will be the object for key. </p>"
   syntax:
     content: public class CacheKey
 - uid: com.microsoft.aad.adal.ITokenCacheStore.removeItem(String)
@@ -571,10 +568,7 @@ references:
   nameWithType: ITokenCacheStore.removeItem(String key)
   fullName: com.microsoft.aad.adal.ITokenCacheStore.removeItem(String key)
   type: Method
-  summary: >-
-    <p>Removes item with key.</p>
-
-    <p></p>
+  summary: "<p>Removes item with key.</p>\r\n<p></p>"
   syntax:
     content: public void removeItem(String key)
     parameters:
@@ -593,10 +587,7 @@ references:
   nameWithType: ITokenCacheStore.setItem(String key, TokenCacheItem item)
   fullName: com.microsoft.aad.adal.ITokenCacheStore.setItem(String key, TokenCacheItem item)
   type: Method
-  summary: >-
-    <p>Sets item.</p>
-
-    <p></p>
+  summary: "<p>Sets item.</p>\r\n<p></p>"
   syntax:
     content: public void setItem(String key, TokenCacheItem item)
     parameters:
@@ -618,7 +609,7 @@ references:
   nameWithType: ITokenCacheStore.removeAll()
   fullName: com.microsoft.aad.adal.ITokenCacheStore.removeAll()
   type: Method
-  summary: <p>Removes all items from cache. </p>
+  summary: "<p>Removes all items from cache. </p>"
   syntax:
     content: public void removeAll()
 - uid: com.microsoft.aad.adal.ITokenCacheStore.getAll()
@@ -628,10 +619,7 @@ references:
   nameWithType: ITokenCacheStore.getAll()
   fullName: com.microsoft.aad.adal.ITokenCacheStore.getAll()
   type: Method
-  summary: >-
-    <p>Get all cached token items.</p>
-
-    <p></p>
+  summary: "<p>Get all cached token items.</p>\r\n<p></p>"
   syntax:
     content: public Iterator<TokenCacheItem> getAll()
     return:
@@ -700,10 +688,7 @@ references:
   nameWithType: ITokenStoreQuery.clearTokensForUser(String userId)
   fullName: com.microsoft.aad.adal.ITokenStoreQuery.clearTokensForUser(String userId)
   type: Method
-  summary: >-
-    <p>Clear tokens for given user.</p>
-
-    <p></p>
+  summary: "<p>Clear tokens for given user.</p>\r\n<p></p>"
   syntax:
     content: public void clearTokensForUser(String userId)
     parameters:
@@ -729,10 +714,7 @@ references:
   nameWithType: ITokenCacheStore.contains(String key)
   fullName: com.microsoft.aad.adal.ITokenCacheStore.contains(String key)
   type: Method
-  summary: >-
-    <p>Checks if cache key exists.</p>
-
-    <p></p>
+  summary: "<p>Checks if cache key exists.</p>\r\n<p></p>"
   syntax:
     content: public boolean contains(String key)
     parameters:

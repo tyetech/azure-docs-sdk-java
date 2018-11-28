@@ -84,7 +84,7 @@ references:
   nameWithType: DomainContact.DefinitionStages.WithCity<ParentT>.withCity(String city)
   fullName: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithCity<ParentT>.withCity(String city)
   type: Method
-  summary: <p>Specifies the city of the address. </p>
+  summary: "<p>Specifies the city of the address. </p>"
   syntax:
     content: public WithStateOrProvince<ParentT> withCity(String city)
     parameters:
@@ -101,7 +101,7 @@ references:
   nameWithType: DomainContact.DefinitionStages.WithCity<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithCity<ParentT>
   type: Interface
-  summary: <p>The stage of contact definition allowing city to be set. </p>
+  summary: "<p>The stage of contact definition allowing city to be set. </p>"
   syntax:
     content: public interface WithCity<ParentT>
     typeParameters:
@@ -115,7 +115,7 @@ references:
   nameWithType: DomainContact.Definition<ParentT>
   fullName: com.microsoft.azure.management.appservice.DomainContact.Definition<ParentT>
   type: Interface
-  summary: <p>The entirety of a domain contact definition. </p>
+  summary: "<p>The entirety of a domain contact definition. </p>"
   syntax:
     content: public interface Definition<ParentT> extends DomainContact.DefinitionStages.Blank<ParentT>,DomainContact.DefinitionStages.WithFirstName<ParentT>,DomainContact.DefinitionStages.WithMiddleName<ParentT>,DomainContact.DefinitionStages.WithAddressLine1<ParentT>,DomainContact.DefinitionStages.WithAddressLine2<ParentT>,DomainContact.DefinitionStages.WithCity<ParentT>,DomainContact.DefinitionStages.WithStateOrProvince<ParentT>,DomainContact.DefinitionStages.WithCountry<ParentT>,DomainContact.DefinitionStages.WithPostalCode<ParentT>,DomainContact.DefinitionStages.WithEmail<ParentT>,DomainContact.DefinitionStages.WithPhoneCountryCode<ParentT>,DomainContact.DefinitionStages.WithPhoneNumber<ParentT>,DomainContact.DefinitionStages.WithAttach<ParentT>
     typeParameters:

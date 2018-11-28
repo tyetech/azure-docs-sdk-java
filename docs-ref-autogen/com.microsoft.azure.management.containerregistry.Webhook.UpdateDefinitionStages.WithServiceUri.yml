@@ -82,7 +82,7 @@ references:
   nameWithType: Webhook.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container registry's webhook update definition. </p>
+  summary: "<p>Grouping of the container registry's webhook update definition. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Webhook.UpdateDefinitionStages.Blank<ParentT>,Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>,Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>,Webhook.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -96,10 +96,7 @@ references:
   nameWithType: Webhook.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the webhook definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>
+  summary: "<p>The final stage of the webhook definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Webhook.UpdateDefinitionStages.WithCustomHeaders<ParentT>,Webhook.UpdateDefinitionStages.WithRepositoriesScope<ParentT>,Webhook.UpdateDefinitionStages.WithDefaultStatus<ParentT>,Webhook.UpdateDefinitionStages.WithTags<ParentT>,Attachable<ParentT>.InUpdate
     typeParameters:

@@ -232,7 +232,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_CLIENT_BACKOFF
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_BACKOFF
   type: Field
-  summary: <p>Represents the default amount of time used when calculating a random delta in the exponential delay between retries. </p>
+  summary: "<p>Represents the default amount of time used when calculating a random delta in the exponential delay between retries. </p>"
   syntax:
     content: public static final Duration DEFAULT_CLIENT_BACKOFF= Duration.ofSeconds(10)
     return:
@@ -244,7 +244,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT
   type: Field
-  summary: <p>region Public members </p><p>Represents the default number of retry attempts. </p>
+  summary: "<p>region Public members </p><p>Represents the default number of retry attempts. </p>"
   syntax:
     content: public static final int DEFAULT_CLIENT_RETRY_COUNT= 10
     return:
@@ -256,7 +256,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_FIRST_FAST_RETRY
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_FIRST_FAST_RETRY
   type: Field
-  summary: <p>Represents the default flag indicating whether the first retry attempt will be made immediately, whereas subsequent retries will remain subject to the retry interval. </p>
+  summary: "<p>Represents the default flag indicating whether the first retry attempt will be made immediately, whereas subsequent retries will remain subject to the retry interval. </p>"
   syntax:
     content: public static final boolean DEFAULT_FIRST_FAST_RETRY= true
     return:
@@ -268,7 +268,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_MAX_BACKOFF
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MAX_BACKOFF
   type: Field
-  summary: <p>Represents the default maximum amount of time used when calculating the exponential delay between retries. </p>
+  summary: "<p>Represents the default maximum amount of time used when calculating the exponential delay between retries. </p>"
   syntax:
     content: public static final Duration DEFAULT_MAX_BACKOFF= Duration.ofSeconds(30)
     return:
@@ -280,7 +280,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_MIN_BACKOFF
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MIN_BACKOFF
   type: Field
-  summary: <p>Represents the default minimum amount of time used when calculating the exponential delay between retries. </p>
+  summary: "<p>Represents the default minimum amount of time used when calculating the exponential delay between retries. </p>"
   syntax:
     content: public static final Duration DEFAULT_MIN_BACKOFF= Duration.ofSeconds(1)
     return:
@@ -292,7 +292,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_RETRY_INCREMENT
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INCREMENT
   type: Field
-  summary: <p>Represents the default time increment between retry attempts in the progressive delay policy. </p>
+  summary: "<p>Represents the default time increment between retry attempts in the progressive delay policy. </p>"
   syntax:
     content: public static final Duration DEFAULT_RETRY_INCREMENT= Duration.ofSeconds(1)
     return:
@@ -304,7 +304,7 @@ references:
   nameWithType: RetryStrategy.DEFAULT_RETRY_INTERVAL
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INTERVAL
   type: Field
-  summary: <p>Represents the default interval between retries. </p>
+  summary: "<p>Represents the default interval between retries. </p>"
   syntax:
     content: public static final Duration DEFAULT_RETRY_INTERVAL= Duration.ofSeconds(1)
     return:
@@ -316,7 +316,7 @@ references:
   nameWithType: RetryStrategy.getDefaultExponential()
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.getDefaultExponential()
   type: Method
-  summary: <p>Returns a default policy that implements a random exponential retry interval configured with the <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT</xref>, <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MIN_BACKOFF" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_MIN_BACKOFF</xref>, <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MAX_BACKOFF" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_MAX_BACKOFF</xref>, and <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_BACKOFF" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_CLIENT_BACKOFF</xref> parameters. The default retry policy treats all caught exceptions as transient errors. </p>
+  summary: "<p>Returns a default policy that implements a random exponential retry interval configured with the <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT</xref>, <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MIN_BACKOFF\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_MIN_BACKOFF</xref>, <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_MAX_BACKOFF\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_MAX_BACKOFF</xref>, and <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_BACKOFF\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_CLIENT_BACKOFF</xref> parameters. The default retry policy treats all caught exceptions as transient errors. </p>"
   syntax:
     content: public static RetryStrategy getDefaultExponential()
     return:
@@ -328,7 +328,7 @@ references:
   nameWithType: RetryStrategy.getDefaultFixed()
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.getDefaultFixed()
   type: Method
-  summary: <p>Returns a default policy that implements a fixed retry interval configured with the <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT</xref> and <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INTERVAL" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_RETRY_INTERVAL</xref> parameters. The default retry policy treats all caught exceptions as transient errors. </p>
+  summary: "<p>Returns a default policy that implements a fixed retry interval configured with the <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT</xref> and <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INTERVAL\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_RETRY_INTERVAL</xref> parameters. The default retry policy treats all caught exceptions as transient errors. </p>"
   syntax:
     content: public static RetryStrategy getDefaultFixed()
     return:
@@ -340,7 +340,7 @@ references:
   nameWithType: RetryStrategy.getDefaultProgressive()
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.getDefaultProgressive()
   type: Method
-  summary: <p>Returns a default policy that implements a progressive retry interval configured with the <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT</xref>, <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INTERVAL" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_RETRY_INTERVAL</xref>, and <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INCREMENT" data-throw-if-not-resolved="false">RetryStrategy.DEFAULT_RETRY_INCREMENT</xref> parameters. The default retry policy treats all caught exceptions as transient errors. </p>
+  summary: "<p>Returns a default policy that implements a progressive retry interval configured with the <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_CLIENT_RETRY_COUNT</xref>, <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INTERVAL\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_RETRY_INTERVAL</xref>, and <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.DEFAULT_RETRY_INCREMENT\" data-throw-if-not-resolved=\"false\">RetryStrategy.DEFAULT_RETRY_INCREMENT</xref> parameters. The default retry policy treats all caught exceptions as transient errors. </p>"
   syntax:
     content: public static RetryStrategy getDefaultProgressive()
     return:
@@ -374,7 +374,7 @@ references:
   nameWithType: RetryStrategy.getNoRetry()
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.getNoRetry()
   type: Method
-  summary: <p>Returns a default policy that performs no retries, but invokes the action only once. </p>
+  summary: "<p>Returns a default policy that performs no retries, but invokes the action only once. </p>"
   syntax:
     content: public static RetryStrategy getNoRetry()
     return:
@@ -386,10 +386,7 @@ references:
   nameWithType: RetryStrategy.RetryStrategy(String name, boolean firstFastRetry)
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy.RetryStrategy(String name, boolean firstFastRetry)
   type: Constructor
-  summary: >-
-    <p>Initializes a new instance of the <xref uid="com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy" data-throw-if-not-resolved="false">RetryStrategy</xref> class.</p>
-
-    <p></p>
+  summary: "<p>Initializes a new instance of the <xref uid=\"com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy\" data-throw-if-not-resolved=\"false\">RetryStrategy</xref> class.</p>\r\n<p></p>"
   syntax:
     content: protected RetryStrategy(String name, boolean firstFastRetry)
     parameters:
@@ -420,7 +417,7 @@ references:
   nameWithType: RetryStrategy
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.RetryStrategy
   type: Class
-  summary: <p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>
+  summary: "<p>Represents a retry strategy that determines the number of retry attempts and the interval between retries. </p>"
   syntax:
     content: public class RetryStrategy
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.FixedInterval
@@ -430,7 +427,7 @@ references:
   nameWithType: FixedInterval
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.FixedInterval
   type: Class
-  summary: <p>Represents a retry strategy with a specified number of retry attempts and a default, fixed time interval between retries. </p>
+  summary: "<p>Represents a retry strategy with a specified number of retry attempts and a default, fixed time interval between retries. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ShouldRetry
   parent: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling
@@ -439,6 +436,6 @@ references:
   nameWithType: ShouldRetry
   fullName: com.microsoft.azure.elasticdb.core.commons.transientfaulthandling.ShouldRetry
   type: Interface
-  summary: <p>Defines a callback delegate that will be invoked whenever a retry condition is encountered. </p>
+  summary: "<p>Defines a callback delegate that will be invoked whenever a retry condition is encountered. </p>"
   syntax:
     content: public interface ShouldRetry

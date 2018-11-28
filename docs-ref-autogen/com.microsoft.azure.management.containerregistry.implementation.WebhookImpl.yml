@@ -1229,10 +1229,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -1297,10 +1294,7 @@ references:
   nameWithType: Refreshable<T>.refresh()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public T refresh()
     return:
@@ -1313,10 +1307,7 @@ references:
   nameWithType: Refreshable<T>.refreshAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
   type: Method
-  summary: >-
-    <p>Refreshes the resource to sync with Azure.</p>
-
-    <p></p>
+  summary: "<p>Refreshes the resource to sync with Azure.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> refreshAsync()
     return:
@@ -1329,7 +1320,7 @@ references:
   nameWithType: Webhook
   fullName: com.microsoft.azure.management.containerregistry.Webhook
   type: Interface
-  summary: <p>An object that represents a webhook for a container registry. </p>
+  summary: "<p>An object that represents a webhook for a container registry. </p>"
   syntax:
     content: public interface Webhook extends ExternalChildResource<Webhook, Registry>,Resource,HasInner<WebhookInner>,Refreshable<Webhook>,Updatable<Webhook.Update>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.WebhookDefinition
@@ -1339,10 +1330,7 @@ references:
   nameWithType: Webhook.WebhookDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.WebhookDefinition<ParentT>
   type: Interface
-  summary: >-
-    <p>Grouping of the container register webhook definitions.</p>
-
-    <p></p>
+  summary: "<p>Grouping of the container register webhook definitions.</p>\r\n<p></p>"
   syntax:
     content: public interface WebhookDefinition<ParentT> extends Webhook.DefinitionStages.Blank<ParentT>,Webhook.DefinitionStages.WithTriggerWhen<ParentT>,Webhook.DefinitionStages.WithServiceUri<ParentT>,Webhook.DefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1356,7 +1344,7 @@ references:
   nameWithType: Webhook.UpdateDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the container registry's webhook update definition. </p>
+  summary: "<p>Grouping of the container registry's webhook update definition. </p>"
   syntax:
     content: public interface UpdateDefinition<ParentT> extends Webhook.UpdateDefinitionStages.Blank<ParentT>,Webhook.UpdateDefinitionStages.WithTriggerWhen<ParentT>,Webhook.UpdateDefinitionStages.WithServiceUri<ParentT>,Webhook.UpdateDefinitionStages.WithAttach<ParentT>
     typeParameters:
@@ -1370,7 +1358,7 @@ references:
   nameWithType: Webhook.UpdateResource<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateResource<ParentT>
   type: Interface
-  summary: <p>The entirety of a webhook resource update as part of a container registry update. </p>
+  summary: "<p>The entirety of a webhook resource update as part of a container registry update. </p>"
   syntax:
     content: public interface UpdateResource<ParentT> extends Webhook.UpdateResourceStages.Blank<ParentT>,Webhook.UpdateResourceStages.WithAttach<ParentT>
     typeParameters:
@@ -1384,7 +1372,7 @@ references:
   nameWithType: Webhook.Update
   fullName: com.microsoft.azure.management.containerregistry.Webhook.Update
   type: Interface
-  summary: <p>The entirety of a webhook update. </p>
+  summary: "<p>The entirety of a webhook update. </p>"
   syntax:
     content: public interface Update extends Webhook.UpdateStages.WithTriggerWhen,Webhook.UpdateStages.WithServiceUri,Webhook.UpdateStages.WithCustomHeaders,Webhook.UpdateStages.WithRepositoriesScope,Webhook.UpdateStages.WithDefaultStatus,Resource.UpdateWithTags<Update>,Appliable<Webhook>
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhookCreateParametersInner
@@ -1394,7 +1382,7 @@ references:
   nameWithType: WebhookCreateParametersInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookCreateParametersInner
   type: Class
-  summary: <p>The parameters for creating a webhook. </p>
+  summary: "<p>The parameters for creating a webhook. </p>"
   syntax:
     content: public class WebhookCreateParametersInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhookUpdateParametersInner
@@ -1404,7 +1392,7 @@ references:
   nameWithType: WebhookUpdateParametersInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookUpdateParametersInner
   type: Class
-  summary: <p>The parameters for updating a webhook. </p>
+  summary: "<p>The parameters for updating a webhook. </p>"
   syntax:
     content: public class WebhookUpdateParametersInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
@@ -1414,7 +1402,7 @@ references:
   nameWithType: ContainerRegistryManager
   fullName: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
   type: Class
-  summary: <p>Entry point to Azure container registry management. </p>
+  summary: "<p>Entry point to Azure container registry management. </p>"
   syntax:
     content: public class ContainerRegistryManager
 - uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -1424,7 +1412,7 @@ references:
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   type: Class
-  summary: <p>Implementation for Registry and its create and update interfaces. </p>
+  summary: "<p>Implementation for Registry and its create and update interfaces. </p>"
   syntax:
     content: public class RegistryImpl implements Registry,Registry.Definition,Registry.Update
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhookInner
@@ -1434,7 +1422,7 @@ references:
   nameWithType: WebhookInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookInner
   type: Class
-  summary: <p>An object that represents a webhook for a container registry. </p>
+  summary: "<p>An object that represents a webhook for a container registry. </p>"
   syntax:
     content: public class WebhookInner
 - uid: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl
@@ -1444,7 +1432,7 @@ references:
   nameWithType: WebhookImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl
   type: Class
-  summary: <p>Implementation for Webhook. </p>
+  summary: "<p>Implementation for Webhook. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner
   parent: com.microsoft.azure.management.containerregistry.implementation
@@ -1453,7 +1441,7 @@ references:
   nameWithType: CallbackConfigInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner
   type: Class
-  summary: <p>The configuration of service URI and custom headers for the webhook. </p>
+  summary: "<p>The configuration of service URI and custom headers for the webhook. </p>"
   syntax:
     content: public class CallbackConfigInner
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource.id()
@@ -1499,7 +1487,7 @@ references:
   nameWithType: Region
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.Region
   type: Class
-  summary: <p>Enumeration of the Azure datacenter regions. See <a href="https://azure.microsoft.com/regions/">https://azure.microsoft.com/regions/</a></p>
+  summary: "<p>Enumeration of the Azure datacenter regions. See <a href=\"https://azure.microsoft.com/regions/\">https://azure.microsoft.com/regions/</a></p>"
   syntax:
     content: public class Region
 - uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
@@ -1545,10 +1533,7 @@ references:
   nameWithType: Webhook.scope()
   fullName: com.microsoft.azure.management.containerregistry.Webhook.scope()
   type: Method
-  summary: >-
-    <p>
-
-    For example:<ul><li><p>'foo:*' means events for all tags under repository 'foo'</p></li><li><p>'foo:bar' means events for 'foo:bar' only</p></li><li><p>'foo' is equivalent to 'foo:latest'</p></li><li><p>empty means all events </p></li></ul></p>
+  summary: "<p>\r\nFor example:<ul><li><p>'foo:*' means events for all tags under repository 'foo'</p></li><li><p>'foo:bar' means events for 'foo:bar' only</p></li><li><p>'foo' is equivalent to 'foo:latest'</p></li><li><p>empty means all events </p></li></ul></p>"
   syntax:
     content: public String scope()
     return:
@@ -1585,7 +1570,7 @@ references:
   nameWithType: WebhookAction
   fullName: com.microsoft.azure.management.containerregistry.WebhookAction
   type: Class
-  summary: <p>Defines values for WebhookAction. </p>
+  summary: "<p>Defines values for WebhookAction. </p>"
   syntax:
     content: public class WebhookAction extends ExpandableStringEnum<WebhookAction>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.triggers()
@@ -1607,7 +1592,7 @@ references:
   nameWithType: ProvisioningState
   fullName: com.microsoft.azure.management.containerregistry.ProvisioningState
   type: Class
-  summary: <p>Defines values for ProvisioningState. </p>
+  summary: "<p>Defines values for ProvisioningState. </p>"
   syntax:
     content: public class ProvisioningState extends ExpandableStringEnum<ProvisioningState>
 - uid: com.microsoft.azure.management.containerregistry.Webhook.provisioningState()
@@ -1641,7 +1626,7 @@ references:
   nameWithType: Webhook.enable()
   fullName: com.microsoft.azure.management.containerregistry.Webhook.enable()
   type: Method
-  summary: <p>Changes the status of the webhook to "enabled". </p>
+  summary: "<p>Changes the status of the webhook to \"enabled\". </p>"
   syntax:
     content: public void enable()
 - uid: com.microsoft.azure.management.containerregistry.Webhook.enableAsync()
@@ -1651,10 +1636,7 @@ references:
   nameWithType: Webhook.enableAsync()
   fullName: com.microsoft.azure.management.containerregistry.Webhook.enableAsync()
   type: Method
-  summary: >-
-    <p>Changes the status of the webhook to "enabled".</p>
-
-    <p></p>
+  summary: "<p>Changes the status of the webhook to \"enabled\".</p>\r\n<p></p>"
   syntax:
     content: public Completable enableAsync()
     return:
@@ -1667,7 +1649,7 @@ references:
   nameWithType: Webhook.disable()
   fullName: com.microsoft.azure.management.containerregistry.Webhook.disable()
   type: Method
-  summary: <p>Changes the status of the webhook to "disabled". </p>
+  summary: "<p>Changes the status of the webhook to \"disabled\". </p>"
   syntax:
     content: public void disable()
 - uid: com.microsoft.azure.management.containerregistry.Webhook.disableAsync()
@@ -1677,10 +1659,7 @@ references:
   nameWithType: Webhook.disableAsync()
   fullName: com.microsoft.azure.management.containerregistry.Webhook.disableAsync()
   type: Method
-  summary: >-
-    <p>Changes the status of the webhook to "disabled".</p>
-
-    <p></p>
+  summary: "<p>Changes the status of the webhook to \"disabled\".</p>\r\n<p></p>"
   syntax:
     content: public Completable disableAsync()
     return:
@@ -1717,7 +1696,7 @@ references:
   nameWithType: WebhookEventInfo
   fullName: com.microsoft.azure.management.containerregistry.WebhookEventInfo
   type: Interface
-  summary: <p>Response containing the primary and secondary admin API keys for a given Azure Search service. </p>
+  summary: "<p>Response containing the primary and secondary admin API keys for a given Azure Search service. </p>"
   syntax:
     content: public interface WebhookEventInfo
 - uid: com.microsoft.azure.management.containerregistry.Webhook.listEvents()
@@ -1751,10 +1730,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -1767,10 +1743,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -1783,12 +1756,7 @@ references:
   nameWithType: Updatable<T>.update()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
   type: Method
-  summary: >-
-    <p>Begins an update for a new resource. </p>
-
-    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
-
-    <p></p>
+  summary: "<p>Begins an update for a new resource. </p>\r\n<p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()\" data-throw-if-not-resolved=\"false\">Appliable#apply()</xref>.</p>\r\n<p></p>"
   syntax:
     content: public T update()
     return:
@@ -1801,10 +1769,7 @@ references:
   nameWithType: Webhook.UpdateStages.WithTriggerWhen.withTriggerWhen(WebhookAction... webhookActions)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithTriggerWhen.withTriggerWhen(WebhookAction... webhookActions)
   type: Method
-  summary: >-
-    <p>Specifies the actions that will trigger the webhook notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the actions that will trigger the webhook notifications.</p>\r\n<p></p>"
   syntax:
     content: public Update withTriggerWhen(WebhookAction... webhookActions)
     parameters:
@@ -1821,10 +1786,7 @@ references:
   nameWithType: Webhook.UpdateStages.WithServiceUri.withServiceUri(String serviceUri)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithServiceUri.withServiceUri(String serviceUri)
   type: Method
-  summary: >-
-    <p>Specifies the service URI for post notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies the service URI for post notifications.</p>\r\n<p></p>"
   syntax:
     content: public Update withServiceUri(String serviceUri)
     parameters:
@@ -1841,12 +1803,7 @@ references:
   nameWithType: Webhook.UpdateStages.WithCustomHeaders.withCustomHeader(String name, String value)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders.withCustomHeader(String name, String value)
   type: Method
-  summary: >-
-    <p>Specifies a custom header that will be added to notifications. </p>
-
-    <p>Consecutive calls to this method will add additional headers.</p>
-
-    <p></p>
+  summary: "<p>Specifies a custom header that will be added to notifications. </p>\r\n<p>Consecutive calls to this method will add additional headers.</p>\r\n<p></p>"
   syntax:
     content: public Update withCustomHeader(String name, String value)
     parameters:
@@ -1866,10 +1823,7 @@ references:
   nameWithType: Webhook.UpdateStages.WithCustomHeaders.withCustomHeaders(Map<String, String> customHeaders)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithCustomHeaders.withCustomHeaders(Map<String, String> customHeaders)
   type: Method
-  summary: >-
-    <p>Specifies custom headers that will be added to the notifications.</p>
-
-    <p></p>
+  summary: "<p>Specifies custom headers that will be added to the notifications.</p>\r\n<p></p>"
   syntax:
     content: public Update withCustomHeaders(Map<String, String> customHeaders)
     parameters:
@@ -1886,12 +1840,7 @@ references:
   nameWithType: Webhook.UpdateStages.WithRepositoriesScope.withRepositoriesScope(String repositoriesScope)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithRepositoriesScope.withRepositoriesScope(String repositoriesScope)
   type: Method
-  summary: >-
-    <p>Specifies the scope of repositories where the event can be triggered. </p>
-
-    <p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>
-
-    <p></p>
+  summary: "<p>Specifies the scope of repositories where the event can be triggered. </p>\r\n<p>For example, 'foo:*' means events for all tags under repository 'foo'. 'foo:bar' means events for 'foo:bar' only. 'foo' is equivalent to 'foo:latest', empty means all events.</p>\r\n<p></p>"
   syntax:
     content: public Update withRepositoriesScope(String repositoriesScope)
     parameters:
@@ -1908,10 +1857,7 @@ references:
   nameWithType: Webhook.UpdateStages.WithDefaultStatus.enabled(boolean defaultStatus)
   fullName: com.microsoft.azure.management.containerregistry.Webhook.UpdateStages.WithDefaultStatus.enabled(boolean defaultStatus)
   type: Method
-  summary: >-
-    <p>Specifies the default status of the webhook; default is "enabled".</p>
-
-    <p></p>
+  summary: "<p>Specifies the default status of the webhook; default is \"enabled\".</p>\r\n<p></p>"
   syntax:
     content: public Update enabled(boolean defaultStatus)
     parameters:

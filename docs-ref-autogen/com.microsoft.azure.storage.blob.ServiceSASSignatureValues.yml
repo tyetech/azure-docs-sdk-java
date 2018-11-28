@@ -901,7 +901,7 @@ references:
   nameWithType: SASProtocol
   fullName: com.microsoft.azure.storage.blob.SASProtocol
   type: Enum
-  summary: <p>Specifies the set of possible permissions for a shared access signature protocol. Values of this type can be used to set the fields on the <xref uid="com.microsoft.azure.storage.blob.AccountSASSignatureValues" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> and <xref uid="com.microsoft.azure.storage.blob.ServiceSASSignatureValues" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> types. </p>
+  summary: "<p>Specifies the set of possible permissions for a shared access signature protocol. Values of this type can be used to set the fields on the <xref uid=\"com.microsoft.azure.storage.blob.AccountSASSignatureValues\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> and <xref uid=\"com.microsoft.azure.storage.blob.ServiceSASSignatureValues\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> types. </p>"
   syntax:
     content: public enum SASProtocol
 - uid: com.microsoft.azure.storage.blob.IPRange
@@ -911,7 +911,7 @@ references:
   nameWithType: IPRange
   fullName: com.microsoft.azure.storage.blob.IPRange
   type: Class
-  summary: <p>This type specifies a continuous range of IP addresses. It is used to limit permissions on SAS tokens. Null may be set if it is not desired to confine the sas permissions to an IP range. Please refer to <xref uid="com.microsoft.azure.storage.blob.AccountSASSignatureValues" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> or <xref uid="com.microsoft.azure.storage.blob.ServiceSASSignatureValues" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> for more information. </p>
+  summary: "<p>This type specifies a continuous range of IP addresses. It is used to limit permissions on SAS tokens. Null may be set if it is not desired to confine the sas permissions to an IP range. Please refer to <xref uid=\"com.microsoft.azure.storage.blob.AccountSASSignatureValues\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> or <xref uid=\"com.microsoft.azure.storage.blob.ServiceSASSignatureValues\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> for more information. </p>"
   syntax:
     content: public class IPRange
 - uid: com.microsoft.azure.storage.blob.ServiceSASSignatureValues
@@ -921,14 +921,7 @@ references:
   nameWithType: ServiceSASSignatureValues
   fullName: com.microsoft.azure.storage.blob.ServiceSASSignatureValues
   type: Class
-  summary: >-
-    <p>ServiceSASSignatureValues is used to generate a Shared Access Signature (SAS) for an Azure Storage service. Once all the values here are set appropriately, call generateSASQueryParameters to obtain a representation of the SAS which can actually be applied to blob urls. Note: that both this class and <xref uid="com.microsoft.azure.storage.blob.SASQueryParameters" data-throw-if-not-resolved="false">SASQueryParameters</xref> exist because the former is mutable and a logical representation while the latter is immutable and used to generate actual REST requests. </p>
-
-    <p>Please see <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1">here</a> for more conceptual information on SAS. </p>
-
-    <p>Please see <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/constructing-a-service-sas">here </a> for more details on each value, including which are required.</p>
-
-    <p></p>
+  summary: "<p>ServiceSASSignatureValues is used to generate a Shared Access Signature (SAS) for an Azure Storage service. Once all the values here are set appropriately, call generateSASQueryParameters to obtain a representation of the SAS which can actually be applied to blob urls. Note: that both this class and <xref uid=\"com.microsoft.azure.storage.blob.SASQueryParameters\" data-throw-if-not-resolved=\"false\">SASQueryParameters</xref> exist because the former is mutable and a logical representation while the latter is immutable and used to generate actual REST requests. </p>\r\n<p>Please see <a href=\"https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1\">here</a> for more conceptual information on SAS. </p>\r\n<p>Please see <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/constructing-a-service-sas\">here </a> for more details on each value, including which are required.</p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.ContainerSASPermission
   parent: com.microsoft.azure.storage.blob
@@ -937,7 +930,7 @@ references:
   nameWithType: ContainerSASPermission
   fullName: com.microsoft.azure.storage.blob.ContainerSASPermission
   type: Class
-  summary: <p>This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a container. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on a <xref uid="com.microsoft.azure.storage.blob.ServiceSASSignatureValues" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>
+  summary: "<p>This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a container. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on a <xref uid=\"com.microsoft.azure.storage.blob.ServiceSASSignatureValues\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>"
   syntax:
     content: public class ContainerSASPermission
 - uid: com.microsoft.azure.storage.blob.BlobSASPermission
@@ -947,7 +940,7 @@ references:
   nameWithType: BlobSASPermission
   fullName: com.microsoft.azure.storage.blob.BlobSASPermission
   type: Class
-  summary: <p>This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a blob. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on a <xref uid="com.microsoft.azure.storage.blob.ServiceSASSignatureValues" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>
+  summary: "<p>This is a helper class to construct a string representing the permissions granted by a ServiceSAS to a blob. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on a <xref uid=\"com.microsoft.azure.storage.blob.ServiceSASSignatureValues\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness. </p>"
   syntax:
     content: public class BlobSASPermission
 - uid: com.microsoft.azure.storage.blob.SASQueryParameters
@@ -957,10 +950,7 @@ references:
   nameWithType: SASQueryParameters
   fullName: com.microsoft.azure.storage.blob.SASQueryParameters
   type: Class
-  summary: >-
-    <p>Represents the components that make up an Azure Storage SAS' query parameters. This type is not constructed directly by the user; it is only generated by the <xref uid="com.microsoft.azure.storage.blob.AccountSASSignatureValues" data-throw-if-not-resolved="false">AccountSASSignatureValues</xref> and <xref uid="com.microsoft.azure.storage.blob.ServiceSASSignatureValues" data-throw-if-not-resolved="false">ServiceSASSignatureValues</xref> types. Once generated, it can be set on a <xref uid="com.microsoft.azure.storage.blob.BlobURLParts" data-throw-if-not-resolved="false">BlobURLParts</xref> object to be constructed as part of a URL or it can be encoded into a<code>String 
-
-        </code> and appended to a URL directly (though caution should be taken here in case there are existing query parameters, which might affect the appropriate means of appending these query parameters). NOTE: Instances of this class are immutable to ensure thread safety. </p>
+  summary: "<p>Represents the components that make up an Azure Storage SAS' query parameters. This type is not constructed directly by the user; it is only generated by the <xref uid=\"com.microsoft.azure.storage.blob.AccountSASSignatureValues\" data-throw-if-not-resolved=\"false\">AccountSASSignatureValues</xref> and <xref uid=\"com.microsoft.azure.storage.blob.ServiceSASSignatureValues\" data-throw-if-not-resolved=\"false\">ServiceSASSignatureValues</xref> types. Once generated, it can be set on a <xref uid=\"com.microsoft.azure.storage.blob.BlobURLParts\" data-throw-if-not-resolved=\"false\">BlobURLParts</xref> object to be constructed as part of a URL or it can be encoded into a<code>String \r\n    </code> and appended to a URL directly (though caution should be taken here in case there are existing query parameters, which might affect the appropriate means of appending these query parameters). NOTE: Instances of this class are immutable to ensure thread safety. </p>"
   syntax:
     content: public class SASQueryParameters
 - uid: com.microsoft.azure.storage.blob.SharedKeyCredentials
@@ -970,6 +960,6 @@ references:
   nameWithType: SharedKeyCredentials
   fullName: com.microsoft.azure.storage.blob.SharedKeyCredentials
   type: Class
-  summary: <p>SharedKeyCredentials are a means of signing and authenticating storage requests. The key can be obtained from the Azure portal. This factory will create policies which take care of all the details of creating strings to sign, signing them, and setting the Authentication header. While this is a common way of authenticating with the service, recommended practice is using <xref uid="com.microsoft.azure.storage.blob.TokenCredentials" data-throw-if-not-resolved="false">TokenCredentials</xref>. Pass this as the credentials in the construction of a new <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> via the <xref uid="com.microsoft.azure.storage.blob.StorageURL" data-throw-if-not-resolved="false">StorageURL</xref> type. </p>
+  summary: "<p>SharedKeyCredentials are a means of signing and authenticating storage requests. The key can be obtained from the Azure portal. This factory will create policies which take care of all the details of creating strings to sign, signing them, and setting the Authentication header. While this is a common way of authenticating with the service, recommended practice is using <xref uid=\"com.microsoft.azure.storage.blob.TokenCredentials\" data-throw-if-not-resolved=\"false\">TokenCredentials</xref>. Pass this as the credentials in the construction of a new <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref> via the <xref uid=\"com.microsoft.azure.storage.blob.StorageURL\" data-throw-if-not-resolved=\"false\">StorageURL</xref> type. </p>"
   syntax:
     content: public class SharedKeyCredentials

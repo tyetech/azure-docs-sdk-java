@@ -47,10 +47,7 @@ references:
   nameWithType: Creatable<T>.create()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.create()
   type: Method
-  summary: >-
-    <p>Execute the create request.</p>
-
-    <p></p>
+  summary: "<p>Execute the create request.</p>\r\n<p></p>"
   syntax:
     content: public T create()
     return:
@@ -63,10 +60,7 @@ references:
   nameWithType: Creatable<T>.createAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> createAsync(final ServiceCallback<T> callback)
     parameters:
@@ -83,10 +77,7 @@ references:
   nameWithType: Creatable<T>.createAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>.createAsync()
   type: Method
-  summary: >-
-    <p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>
-
-    <p></p>
+  summary: "<p>Puts the request into the queue and allow the HTTP client to execute it when system resources are available.</p>\r\n<p></p>"
   syntax:
     content: public Observable<Indexable> createAsync()
     return:
@@ -99,10 +90,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithAccessPolicy.defineAccessPolicy()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithAccessPolicy.defineAccessPolicy()
   type: Method
-  summary: >-
-    <p>Begins the definition of a new access policy to be added to this key vault.</p>
-
-    <p></p>
+  summary: "<p>Begins the definition of a new access policy to be added to this key vault.</p>\r\n<p></p>"
   syntax:
     content: public AccessPolicy.DefinitionStages.Blank<WithCreate> defineAccessPolicy()
     return:
@@ -139,10 +127,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithAccessPolicy.withAccessPolicy(AccessPolicy accessPolicy)
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithAccessPolicy.withAccessPolicy(AccessPolicy accessPolicy)
   type: Method
-  summary: >-
-    <p>Attach an existing access policy.</p>
-
-    <p></p>
+  summary: "<p>Attach an existing access policy.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withAccessPolicy(AccessPolicy accessPolicy)
     parameters:
@@ -159,10 +144,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithConfigurations.withDeploymentDisabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations.withDeploymentDisabled()
   type: Method
-  summary: >-
-    <p>Disable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Disable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDeploymentDisabled()
     return:
@@ -175,10 +157,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithConfigurations.withDeploymentEnabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations.withDeploymentEnabled()
   type: Method
-  summary: >-
-    <p>Enable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Enable Azure Virtual Machines to retrieve certificates stored as secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDeploymentEnabled()
     return:
@@ -191,10 +170,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithConfigurations.withDiskEncryptionDisabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations.withDiskEncryptionDisabled()
   type: Method
-  summary: >-
-    <p>Disable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>
-
-    <p></p>
+  summary: "<p>Disable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDiskEncryptionDisabled()
     return:
@@ -207,10 +183,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithConfigurations.withDiskEncryptionEnabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations.withDiskEncryptionEnabled()
   type: Method
-  summary: >-
-    <p>Enable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>
-
-    <p></p>
+  summary: "<p>Enable Azure Disk Encryption to retrieve secrets from the vault and unwrap keys.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withDiskEncryptionEnabled()
     return:
@@ -223,10 +196,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithAccessPolicy.withEmptyAccessPolicy()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithAccessPolicy.withEmptyAccessPolicy()
   type: Method
-  summary: >-
-    <p>Attach no access policy.</p>
-
-    <p></p>
+  summary: "<p>Attach no access policy.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withEmptyAccessPolicy()
     return:
@@ -239,10 +209,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithSku.withSku(SkuName skuName)
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithSku.withSku(SkuName skuName)
   type: Method
-  summary: >-
-    <p>Specifies the sku of the key vault.</p>
-
-    <p></p>
+  summary: "<p>Specifies the sku of the key vault.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withSku(SkuName skuName)
     parameters:
@@ -259,7 +226,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -279,7 +246,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -296,10 +263,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithConfigurations.withTemplateDeploymentDisabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations.withTemplateDeploymentDisabled()
   type: Method
-  summary: >-
-    <p>Disable Azure Resource Manager to retrieve secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Disable Azure Resource Manager to retrieve secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withTemplateDeploymentDisabled()
     return:
@@ -312,10 +276,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithConfigurations.withTemplateDeploymentEnabled()
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations.withTemplateDeploymentEnabled()
   type: Method
-  summary: >-
-    <p>Enable Azure Resource Manager to retrieve secrets from the key vault.</p>
-
-    <p></p>
+  summary: "<p>Enable Azure Resource Manager to retrieve secrets from the key vault.</p>\r\n<p></p>"
   syntax:
     content: public WithCreate withTemplateDeploymentEnabled()
     return:
@@ -328,10 +289,7 @@ references:
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
-  summary: >-
-    <p>The final stage of the resource definition, at which it can be created using create().</p>
-
-    <p></p>
+  summary: "<p>The final stage of the resource definition, at which it can be created using create().</p>\r\n<p></p>"
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
@@ -345,10 +303,7 @@ references:
   nameWithType: Resource.DefinitionWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags<T>
   type: Interface
-  summary: >-
-    <p>A resource definition allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>A resource definition allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface DefinitionWithTags<T>
     typeParameters:
@@ -362,7 +317,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithSku
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithSku
   type: Interface
-  summary: <p>A key vault definition allowing the sku to be set. </p>
+  summary: "<p>A key vault definition allowing the sku to be set. </p>"
   syntax:
     content: public interface WithSku
 - uid: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations
@@ -372,7 +327,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithConfigurations
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithConfigurations
   type: Interface
-  summary: <p>A key vault definition allowing various configurations to be set. </p>
+  summary: "<p>A key vault definition allowing various configurations to be set. </p>"
   syntax:
     content: public interface WithConfigurations
 - uid: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithAccessPolicy
@@ -382,7 +337,7 @@ references:
   nameWithType: Vault.DefinitionStages.WithAccessPolicy
   fullName: com.microsoft.azure.management.keyvault.Vault.DefinitionStages.WithAccessPolicy
   type: Interface
-  summary: <p>A key vault definition allowing access policies to be attached. </p>
+  summary: "<p>A key vault definition allowing access policies to be attached. </p>"
   syntax:
     content: public interface WithAccessPolicy
 - uid: com.microsoft.azure.management.keyvault.Vault.Definition
@@ -392,6 +347,6 @@ references:
   nameWithType: Vault.Definition
   fullName: com.microsoft.azure.management.keyvault.Vault.Definition
   type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  summary: "<p>Container interface for all the definitions that need to be implemented. </p>"
   syntax:
     content: public interface Definition extends Vault.DefinitionStages.Blank,Vault.DefinitionStages.WithGroup,Vault.DefinitionStages.WithAccessPolicy,Vault.DefinitionStages.WithCreate

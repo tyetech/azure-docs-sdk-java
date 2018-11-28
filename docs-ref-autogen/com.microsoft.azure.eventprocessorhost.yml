@@ -57,12 +57,7 @@ references:
   nameWithType: BaseLease
   fullName: com.microsoft.azure.eventprocessorhost.BaseLease
   type: Class
-  summary: >-
-    <p>BaseLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>
-
-    <p>This lightweight base exists to allow ILeaseManager.getAllLeases to operate as quickly as possible <ndash></ndash> for some lease manager implementations, loading the entire contents of a lease form the store may be expensive. BaseLease contains only the minimum amount of information required to allow PartitionScanner to operate. </p>
-
-    <p>Note that a Lease object just carries information about a partition lease. The APIs to acquire/renew/release a lease are all on ILeaseManager. </p>
+  summary: "<p>BaseLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>\r\n<p>This lightweight base exists to allow ILeaseManager.getAllLeases to operate as quickly as possible <ndash></ndash> for some lease manager implementations, loading the entire contents of a lease form the store may be expensive. BaseLease contains only the minimum amount of information required to allow PartitionScanner to operate. </p>\r\n<p>Note that a Lease object just carries information about a partition lease. The APIs to acquire/renew/release a lease are all on ILeaseManager. </p>"
   syntax:
     content: public class BaseLease
 - uid: com.microsoft.azure.eventprocessorhost.Checkpoint
@@ -72,10 +67,7 @@ references:
   nameWithType: Checkpoint
   fullName: com.microsoft.azure.eventprocessorhost.Checkpoint
   type: Class
-  summary: >-
-    <p>Checkpoint class is public so that advanced users can implement an ICheckpointManager. Unless you are implementing ICheckpointManager you should not have to deal with objects of this class directly. </p>
-
-    <p>A Checkpoint is essentially just a tuple. It has a fixed partition id, set at creation time and immutable thereafter, and associates that with an offset/sequenceNumber pair which indicates a position within the events in that partition. </p>
+  summary: "<p>Checkpoint class is public so that advanced users can implement an ICheckpointManager. Unless you are implementing ICheckpointManager you should not have to deal with objects of this class directly. </p>\r\n<p>A Checkpoint is essentially just a tuple. It has a fixed partition id, set at creation time and immutable thereafter, and associates that with an offset/sequenceNumber pair which indicates a position within the events in that partition. </p>"
   syntax:
     content: public class Checkpoint
 - uid: com.microsoft.azure.eventprocessorhost.CloseReason
@@ -94,10 +86,7 @@ references:
   nameWithType: CompleteLease
   fullName: com.microsoft.azure.eventprocessorhost.CompleteLease
   type: Class
-  summary: >-
-    <p>CompleteLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>
-
-    <p>CompleteLease carries around complete information about a lease. By itself, it has the epoch. Any lease manager implementation can derive from this class to add data which the lease manager needs to function <ndash></ndash> see AzureBlobLease for an example. Having two distinct classes allows the code to clearly express which variety of lease any variable holds or a method requires, and avoids the problem of accidentally supplying a lightweight BaseLease to a method which needs the lease-manager-specific fields. </p>
+  summary: "<p>CompleteLease class is public so that advanced users can implement an ILeaseManager. Unless you are implementing ILeaseManager you should not have to deal with objects of this class or derived classes directly. </p>\r\n<p>CompleteLease carries around complete information about a lease. By itself, it has the epoch. Any lease manager implementation can derive from this class to add data which the lease manager needs to function <ndash></ndash> see AzureBlobLease for an example. Having two distinct classes allows the code to clearly express which variety of lease any variable holds or a method requires, and avoids the problem of accidentally supplying a lightweight BaseLease to a method which needs the lease-manager-specific fields. </p>"
   syntax:
     content: public class CompleteLease extends BaseLease
 - uid: com.microsoft.azure.eventprocessorhost.EventProcessorHost
@@ -134,7 +123,7 @@ references:
   nameWithType: ExceptionReceivedEventArgs
   fullName: com.microsoft.azure.eventprocessorhost.ExceptionReceivedEventArgs
   type: Class
-  summary: <p>Passed as an argument to the general exception handler that can be set via EventProcessorOptions. </p>
+  summary: "<p>Passed as an argument to the general exception handler that can be set via EventProcessorOptions. </p>"
   syntax:
     content: public class ExceptionReceivedEventArgs
 - uid: com.microsoft.azure.eventprocessorhost.ICheckpointManager
@@ -153,14 +142,7 @@ references:
   nameWithType: IEventProcessor
   fullName: com.microsoft.azure.eventprocessorhost.IEventProcessor
   type: Interface
-  summary: >-
-    <p>Interface that must be implemented by event processor classes. </p>
-
-    <p>Any given instance of an event processor class will only process events from one partition of one Event Hub. A PartitionContext is provided with each call to the event processor because some parameters could change, but it will always be the same partition. </p>
-
-    <p>Although EventProcessorHost is multithreaded, calls to a given instance of an event processor class are serialized, except for onError(). onOpen() is called first, then onEvents() will be called zero or more times. When the event processor needs to be shut down, whether because there was a failure somewhere, or the lease for the partition has been lost, or because the entire processor host is being shut down, onClose() is called after the last onEvents() call returns. </p>
-
-    <p>onError() could be called while onEvents() or onClose() is executing. No synchronization is attempted in order to avoid possibly deadlocking. </p>
+  summary: "<p>Interface that must be implemented by event processor classes. </p>\r\n<p>Any given instance of an event processor class will only process events from one partition of one Event Hub. A PartitionContext is provided with each call to the event processor because some parameters could change, but it will always be the same partition. </p>\r\n<p>Although EventProcessorHost is multithreaded, calls to a given instance of an event processor class are serialized, except for onError(). onOpen() is called first, then onEvents() will be called zero or more times. When the event processor needs to be shut down, whether because there was a failure somewhere, or the lease for the partition has been lost, or because the entire processor host is being shut down, onClose() is called after the last onEvents() call returns. </p>\r\n<p>onError() could be called while onEvents() or onClose() is executing. No synchronization is attempted in order to avoid possibly deadlocking. </p>"
   syntax:
     content: public interface IEventProcessor
 - uid: com.microsoft.azure.eventprocessorhost.IEventProcessorFactory
@@ -170,12 +152,7 @@ references:
   nameWithType: IEventProcessorFactory<T>
   fullName: com.microsoft.azure.eventprocessorhost.IEventProcessorFactory<T>
   type: Interface
-  summary: >-
-    <p>Interface that must be implemented by an event processor factory class. </p>
-
-    <p>User-provided factories are needed if creating an event processor object requires more work than just a new with a parameterless constructor.</p>
-
-    <p></p>
+  summary: "<p>Interface that must be implemented by an event processor factory class. </p>\r\n<p>User-provided factories are needed if creating an event processor object requires more work than just a new with a parameterless constructor.</p>\r\n<p></p>"
   syntax:
     content: public interface IEventProcessorFactory<T extends IEventProcessor>
     typeParameters:
@@ -225,7 +202,7 @@ references:
   nameWithType: LoggingUtils
   fullName: com.microsoft.azure.eventprocessorhost.LoggingUtils
   type: Class
-  summary: <p>Centralize log message generation </p>
+  summary: "<p>Centralize log message generation </p>"
   syntax:
     content: public class LoggingUtils
 - uid: com.microsoft.azure.eventprocessorhost.PartitionContext

@@ -119,7 +119,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithBackend<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithBackend<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the backend to associate the rule with. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the backend to associate the rule with. </p>"
   syntax:
     content: public interface WithBackend<ReturnT> extends LoadBalancingRule.UpdateDefinitionStages.WithVirtualMachine<ReturnT>
     typeParameters:
@@ -133,7 +133,7 @@ references:
   nameWithType: LoadBalancingRule.UpdateDefinitionStages.WithBackendPort<ReturnT>
   fullName: com.microsoft.azure.management.network.LoadBalancingRule.UpdateDefinitionStages.WithBackendPort<ReturnT>
   type: Interface
-  summary: <p>The stage of a load balancing rule definition allowing to specify the backend port to send the load-balanced traffic to. </p>
+  summary: "<p>The stage of a load balancing rule definition allowing to specify the backend port to send the load-balanced traffic to. </p>"
   syntax:
     content: public interface WithBackendPort<ReturnT> extends HasBackendPort.UpdateDefinitionStages.WithBackendPort<WithAttach<ReturnT>>,LoadBalancingRule.UpdateDefinitionStages.WithAttach<ReturnT>
     typeParameters:
@@ -147,6 +147,6 @@ references:
   nameWithType: HasNetworkInterfaces
   fullName: com.microsoft.azure.management.network.model.HasNetworkInterfaces
   type: Interface
-  summary: <p>Interface exposing a list of network interfaces. </p>
+  summary: "<p>Interface exposing a list of network interfaces. </p>"
   syntax:
     content: public interface HasNetworkInterfaces extends HasId

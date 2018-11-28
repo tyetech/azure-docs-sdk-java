@@ -827,7 +827,7 @@ references:
   nameWithType: ConsistencyPolicy
   fullName: com.microsoft.azure.cosmosdb.ConsistencyPolicy
   type: Class
-  summary: <p>Encapsulates the settings for consistency policy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates the settings for consistency policy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ConsistencyPolicy extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.DatabaseAccountLocation
@@ -837,7 +837,7 @@ references:
   nameWithType: DatabaseAccountLocation
   fullName: com.microsoft.azure.cosmosdb.DatabaseAccountLocation
   type: Class
-  summary: <p>Represents the location of a database account in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the location of a database account in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class DatabaseAccountLocation extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.ExcludedPath
@@ -847,7 +847,7 @@ references:
   nameWithType: ExcludedPath
   fullName: com.microsoft.azure.cosmosdb.ExcludedPath
   type: Class
-  summary: <p>Represents an excluded path of the IndexingPolicy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents an excluded path of the IndexingPolicy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ExcludedPath extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.IncludedPath
@@ -857,7 +857,7 @@ references:
   nameWithType: IncludedPath
   fullName: com.microsoft.azure.cosmosdb.IncludedPath
   type: Class
-  summary: <p>Represents an included path of the IndexingPolicy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents an included path of the IndexingPolicy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class IncludedPath extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.Index
@@ -867,7 +867,7 @@ references:
   nameWithType: Index
   fullName: com.microsoft.azure.cosmosdb.Index
   type: Class
-  summary: <p>Represents the index of a collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the index of a collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Index extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.IndexingPolicy
@@ -877,7 +877,7 @@ references:
   nameWithType: IndexingPolicy
   fullName: com.microsoft.azure.cosmosdb.IndexingPolicy
   type: Class
-  summary: <p>Represents the indexing policy configuration for a collection in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the indexing policy configuration for a collection in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class IndexingPolicy extends JsonSerializable
 - uid: com.microsoft.azure.cosmosdb.PartitionKeyDefinition
@@ -887,7 +887,7 @@ references:
   nameWithType: PartitionKeyDefinition
   fullName: com.microsoft.azure.cosmosdb.PartitionKeyDefinition
   type: Class
-  summary: <p>Represents a partition key definition in the Azure Cosmos DB database service. A partition key definition specifies which document property is used as the partition key in a collection that has multiple partitions. </p>
+  summary: "<p>Represents a partition key definition in the Azure Cosmos DB database service. A partition key definition specifies which document property is used as the partition key in a collection that has multiple partitions. </p>"
   syntax:
     content: public class PartitionKeyDefinition
 - uid: com.microsoft.azure.cosmosdb.ReplicationPolicy
@@ -897,7 +897,7 @@ references:
   nameWithType: ReplicationPolicy
   fullName: com.microsoft.azure.cosmosdb.ReplicationPolicy
   type: Class
-  summary: <p>Encapsulates the replication policy in the Azure Cosmos DB database service. </p>
+  summary: "<p>Encapsulates the replication policy in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class ReplicationPolicy
 - uid: com.microsoft.azure.cosmosdb.Resource
@@ -907,7 +907,7 @@ references:
   nameWithType: Resource
   fullName: com.microsoft.azure.cosmosdb.Resource
   type: Class
-  summary: <p>Represents the base resource in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the base resource in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Resource
 - uid: com.microsoft.azure.cosmosdb.SqlParameter
@@ -917,7 +917,7 @@ references:
   nameWithType: SqlParameter
   fullName: com.microsoft.azure.cosmosdb.SqlParameter
   type: Class
-  summary: <p>Represents a SQL parameter in the SqlQuerySpec used for queries in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a SQL parameter in the SqlQuerySpec used for queries in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SqlParameter
 - uid: com.microsoft.azure.cosmosdb.SqlQuerySpec
@@ -927,7 +927,7 @@ references:
   nameWithType: SqlQuerySpec
   fullName: com.microsoft.azure.cosmosdb.SqlQuerySpec
   type: Class
-  summary: <p>Represents a SQL query in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents a SQL query in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class SqlQuerySpec
 - uid: com.microsoft.azure.cosmosdb.Undefined
@@ -937,7 +937,7 @@ references:
   nameWithType: Undefined
   fullName: com.microsoft.azure.cosmosdb.Undefined
   type: Class
-  summary: <p>Represents the 'Undefined' partition key in the Azure Cosmos DB database service. </p>
+  summary: "<p>Represents the 'Undefined' partition key in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public class Undefined
 - uid: com.microsoft.azure.cosmosdb.UniqueKey
@@ -947,10 +947,7 @@ references:
   nameWithType: UniqueKey
   fullName: com.microsoft.azure.cosmosdb.UniqueKey
   type: Class
-  summary: >-
-    <p>Represents a unique key on that enforces uniqueness constraint on documents in the collection in the Azure Cosmos DB service.</p>
-
-    <p>1) For partitioned collections, the value of partition key is implicitly a part of each unique key. 2) Uniqueness constraint is also enforced for missing values. For instance, if unique key policy defines a unique key with single property path, there could be only one document that has missing value for this property. </p>
+  summary: "<p>Represents a unique key on that enforces uniqueness constraint on documents in the collection in the Azure Cosmos DB service.</p>\r\n<p>1) For partitioned collections, the value of partition key is implicitly a part of each unique key. 2) Uniqueness constraint is also enforced for missing values. For instance, if unique key policy defines a unique key with single property path, there could be only one document that has missing value for this property. </p>"
   syntax:
     content: public class UniqueKey
 - uid: com.microsoft.azure.cosmosdb.UniqueKeyPolicy
@@ -960,7 +957,7 @@ references:
   nameWithType: UniqueKeyPolicy
   fullName: com.microsoft.azure.cosmosdb.UniqueKeyPolicy
   type: Class
-  summary: <p>Represents the unique key policy configuration for specifying uniqueness constraints on documents in the collection in the Azure Cosmos DB service. </p>
+  summary: "<p>Represents the unique key policy configuration for specifying uniqueness constraints on documents in the collection in the Azure Cosmos DB service. </p>"
   syntax:
     content: public class UniqueKeyPolicy
 - uid: com.microsoft.azure.cosmosdb.SerializationFormattingPolicy
@@ -970,7 +967,7 @@ references:
   nameWithType: SerializationFormattingPolicy
   fullName: com.microsoft.azure.cosmosdb.SerializationFormattingPolicy
   type: Enum
-  summary: <p>The formatting policy associated with JSON serialization in the Azure Cosmos DB database service. </p>
+  summary: "<p>The formatting policy associated with JSON serialization in the Azure Cosmos DB database service. </p>"
   syntax:
     content: public enum SerializationFormattingPolicy
 - uid: com.microsoft.azure.cosmosdb.JsonSerializable.toJson()
@@ -980,8 +977,5 @@ references:
   nameWithType: JsonSerializable.toJson()
   fullName: com.microsoft.azure.cosmosdb.JsonSerializable.toJson()
   type: Method
-  summary: >-
-    <p>Converts to a JSON string.</p>
-
-    <p></p>
+  summary: "<p>Converts to a JSON string.</p>\r\n<p></p>"
   syntax: *o1

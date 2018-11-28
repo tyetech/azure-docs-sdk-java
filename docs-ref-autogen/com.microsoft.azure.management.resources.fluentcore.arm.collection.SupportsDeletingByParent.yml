@@ -155,7 +155,7 @@ references:
   nameWithType: NetworkPeerings
   fullName: com.microsoft.azure.management.network.NetworkPeerings
   type: Interface
-  summary: <p>Entry point to network peering management API. </p>
+  summary: "<p>Entry point to network peering management API. </p>"
   syntax:
     content: public interface NetworkPeerings extends SupportsCreating<NetworkPeering.DefinitionStages.Blank>,SupportsDeletingById,SupportsGettingById<NetworkPeering>,SupportsBatchCreation<NetworkPeering>,SupportsDeletingByParent,SupportsListing<NetworkPeering>,HasManager<NetworkManager>,HasInner<VirtualNetworkPeeringsInner>
 - uid: com.microsoft.azure.management.sql.SqlDatabases
@@ -165,7 +165,7 @@ references:
   nameWithType: SqlDatabases
   fullName: com.microsoft.azure.management.sql.SqlDatabases
   type: Interface
-  summary: <p>Entry point to SQL Database management API. </p>
+  summary: "<p>Entry point to SQL Database management API. </p>"
   syntax:
     content: public interface SqlDatabases extends SupportsCreating<SqlDatabase.DefinitionStages.Blank>,SupportsDeletingById,SupportsGettingById<SqlDatabase>,SupportsBatchCreation<SqlDatabase>,SupportsDeletingByParent,HasManager<SqlServerManager>,HasInner<DatabasesInner>
 - uid: com.microsoft.azure.management.sql.SqlElasticPools
@@ -175,7 +175,7 @@ references:
   nameWithType: SqlElasticPools
   fullName: com.microsoft.azure.management.sql.SqlElasticPools
   type: Interface
-  summary: <p>Entry point to SQL Elastic Pool management API. </p>
+  summary: "<p>Entry point to SQL Elastic Pool management API. </p>"
   syntax:
     content: public interface SqlElasticPools extends SupportsCreating<SqlElasticPool.DefinitionStages.Blank>,SupportsDeletingById,SupportsGettingById<SqlElasticPool>,SupportsBatchCreation<SqlElasticPool>,SupportsDeletingByParent,HasManager<SqlServerManager>,HasInner<ElasticPoolsInner>
 - uid: com.microsoft.azure.management.sql.SqlFirewallRules
@@ -185,6 +185,6 @@ references:
   nameWithType: SqlFirewallRules
   fullName: com.microsoft.azure.management.sql.SqlFirewallRules
   type: Interface
-  summary: <p>Entry point to SQL FirewallRule management API. </p>
+  summary: "<p>Entry point to SQL FirewallRule management API. </p>"
   syntax:
     content: public interface SqlFirewallRules extends SupportsDeletingById,SupportsGettingById<SqlFirewallRule>,SupportsBatchCreation<SqlFirewallRule>,SupportsDeletingByParent,HasManager<SqlServerManager>,HasInner<ServersInner>

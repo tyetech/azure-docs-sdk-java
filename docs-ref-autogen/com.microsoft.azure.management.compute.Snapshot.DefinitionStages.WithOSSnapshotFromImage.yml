@@ -123,7 +123,7 @@ references:
   nameWithType: Snapshot.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.compute.Snapshot.DefinitionStages.WithCreate
   type: Interface
-  summary: <p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which contains all the minimum required inputs for the resource to be created, but also allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithCreate extends Creatable<Snapshot>,Resource.DefinitionWithTags<Snapshot.DefinitionStages.WithCreate>,Snapshot.DefinitionStages.WithSize,Snapshot.DefinitionStages.WithSku
 - uid: com.microsoft.azure.management.compute.OperatingSystemTypes
@@ -133,7 +133,7 @@ references:
   nameWithType: OperatingSystemTypes
   fullName: com.microsoft.azure.management.compute.OperatingSystemTypes
   type: Enum
-  summary: <p>Defines values for OperatingSystemTypes. </p>
+  summary: "<p>Defines values for OperatingSystemTypes. </p>"
   syntax:
     content: public enum OperatingSystemTypes
 - uid: com.microsoft.azure.management.compute.VirtualMachineImage
@@ -143,7 +143,7 @@ references:
   nameWithType: VirtualMachineImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineImage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine image. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine image. </p>"
   syntax:
     content: public interface VirtualMachineImage extends HasInner<VirtualMachineImageInner>
 - uid: com.microsoft.azure.management.compute.VirtualMachineCustomImage
@@ -153,6 +153,6 @@ references:
   nameWithType: VirtualMachineCustomImage
   fullName: com.microsoft.azure.management.compute.VirtualMachineCustomImage
   type: Interface
-  summary: <p>An immutable client-side representation of an Azure virtual machine custom image. </p>
+  summary: "<p>An immutable client-side representation of an Azure virtual machine custom image. </p>"
   syntax:
     content: public interface VirtualMachineCustomImage extends GroupableResource<ComputeManager, ImageInner>,Refreshable<VirtualMachineCustomImage>

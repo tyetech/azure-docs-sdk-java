@@ -39,10 +39,7 @@ references:
   nameWithType: DeviceLifeCycleEventProperties.deviceId()
   fullName: com.microsoft.azure.eventgrid.models.DeviceLifeCycleEventProperties.deviceId()
   type: Method
-  summary: >-
-    <p>Get the unique identifier of the device. This case-sensitive string can be up to 128 characters long, and supports ASCII 7-bit alphanumeric characters plus the following special characters: - : . + % _ &amp;#35; * ? ! ( ) , = @ ; $ '.</p>
-
-    <p></p>
+  summary: "<p>Get the unique identifier of the device. This case-sensitive string can be up to 128 characters long, and supports ASCII 7-bit alphanumeric characters plus the following special characters: - : . + % _ &amp;#35; * ? ! ( ) , = @ ; $ '.</p>\r\n<p></p>"
   syntax:
     content: public String deviceId()
     return:
@@ -55,10 +52,7 @@ references:
   nameWithType: DeviceLifeCycleEventProperties.hubName()
   fullName: com.microsoft.azure.eventgrid.models.DeviceLifeCycleEventProperties.hubName()
   type: Method
-  summary: >-
-    <p>Get name of the IoT Hub where the device was created or deleted.</p>
-
-    <p></p>
+  summary: "<p>Get name of the IoT Hub where the device was created or deleted.</p>\r\n<p></p>"
   syntax:
     content: public String hubName()
     return:
@@ -71,10 +65,7 @@ references:
   nameWithType: DeviceLifeCycleEventProperties.twin()
   fullName: com.microsoft.azure.eventgrid.models.DeviceLifeCycleEventProperties.twin()
   type: Method
-  summary: >-
-    <p>Get information about the device twin, which is the cloud representation of application device metadata.</p>
-
-    <p></p>
+  summary: "<p>Get information about the device twin, which is the cloud representation of application device metadata.</p>\r\n<p></p>"
   syntax:
     content: public DeviceTwinInfo twin()
     return:
@@ -87,10 +78,7 @@ references:
   nameWithType: DeviceLifeCycleEventProperties.withDeviceId(String deviceId)
   fullName: com.microsoft.azure.eventgrid.models.DeviceLifeCycleEventProperties.withDeviceId(String deviceId)
   type: Method
-  summary: >-
-    <p>Set the unique identifier of the device. This case-sensitive string can be up to 128 characters long, and supports ASCII 7-bit alphanumeric characters plus the following special characters: - : . + % _ &amp;#35; * ? ! ( ) , = @ ; $ '.</p>
-
-    <p></p>
+  summary: "<p>Set the unique identifier of the device. This case-sensitive string can be up to 128 characters long, and supports ASCII 7-bit alphanumeric characters plus the following special characters: - : . + % _ &amp;#35; * ? ! ( ) , = @ ; $ '.</p>\r\n<p></p>"
   syntax:
     content: public DeviceLifeCycleEventProperties withDeviceId(String deviceId)
     parameters:
@@ -107,10 +95,7 @@ references:
   nameWithType: DeviceLifeCycleEventProperties.withHubName(String hubName)
   fullName: com.microsoft.azure.eventgrid.models.DeviceLifeCycleEventProperties.withHubName(String hubName)
   type: Method
-  summary: >-
-    <p>Set name of the IoT Hub where the device was created or deleted.</p>
-
-    <p></p>
+  summary: "<p>Set name of the IoT Hub where the device was created or deleted.</p>\r\n<p></p>"
   syntax:
     content: public DeviceLifeCycleEventProperties withHubName(String hubName)
     parameters:
@@ -127,10 +112,7 @@ references:
   nameWithType: DeviceLifeCycleEventProperties.withTwin(DeviceTwinInfo twin)
   fullName: com.microsoft.azure.eventgrid.models.DeviceLifeCycleEventProperties.withTwin(DeviceTwinInfo twin)
   type: Method
-  summary: >-
-    <p>Set information about the device twin, which is the cloud representation of application device metadata.</p>
-
-    <p></p>
+  summary: "<p>Set information about the device twin, which is the cloud representation of application device metadata.</p>\r\n<p></p>"
   syntax:
     content: public DeviceLifeCycleEventProperties withTwin(DeviceTwinInfo twin)
     parameters:
@@ -147,6 +129,6 @@ references:
   nameWithType: DeviceLifeCycleEventProperties
   fullName: com.microsoft.azure.eventgrid.models.DeviceLifeCycleEventProperties
   type: Class
-  summary: <p>Schema of the Data property of an EventGridEvent for a device life cycle event (DeviceCreated, DeviceDeleted). </p>
+  summary: "<p>Schema of the Data property of an EventGridEvent for a device life cycle event (DeviceCreated, DeviceDeleted). </p>"
   syntax:
     content: public class DeviceLifeCycleEventProperties

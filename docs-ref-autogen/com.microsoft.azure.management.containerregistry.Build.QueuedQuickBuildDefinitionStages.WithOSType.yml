@@ -66,7 +66,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinition
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinition
   type: Interface
-  summary: <p>Grouping of the container register queued quick build definitions. </p>
+  summary: "<p>Grouping of the container register queued quick build definitions. </p>"
   syntax:
     content: public interface QueuedQuickBuildDefinition extends Build.QueuedQuickBuildDefinitionStages.Blank,Build.QueuedQuickBuildDefinitionStages.WithOSType,Build.QueuedQuickBuildDefinitionStages.WithSourceLocation,Build.QueuedQuickBuildDefinitionStages.WithDockerFilePath,Build.QueuedQuickBuildDefinitionStages.WithBuildArgument,Build.QueuedQuickBuildDefinitionStages.WithCpuCoresCount,Build.QueuedQuickBuildDefinitionStages.WithBuildTimeoutInSeconds,Build.QueuedQuickBuildDefinitionStages.WithImageNames,Build.QueuedQuickBuildDefinitionStages.WithImageCache,Build.QueuedQuickBuildDefinitionStages.WithImagePush,Build.QueuedQuickBuildDefinitionStages.WithCreate
 - uid: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.Blank
@@ -76,7 +76,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.Blank
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.Blank
   type: Interface
-  summary: <p>The first stage of the queued quick build definition. </p>
+  summary: "<p>The first stage of the queued quick build definition. </p>"
   syntax:
     content: public interface Blank extends Build.QueuedQuickBuildDefinitionStages.WithOSType
 - uid: com.microsoft.azure.management.containerregistry.implementation.BuildImpl.withOSType(OsType)
@@ -86,10 +86,7 @@ references:
   nameWithType: BuildImpl.withOSType(OsType osType)
   fullName: com.microsoft.azure.management.containerregistry.implementation.BuildImpl.withOSType(OsType osType)
   type: Method
-  summary: >-
-    <p>Specifies the OS type required for the build.</p>
-
-    <p></p>
+  summary: "<p>Specifies the OS type required for the build.</p>\r\n<p></p>"
   syntax:
     content: public BuildImpl withOSType(OsType osType)
     parameters:
@@ -106,6 +103,6 @@ references:
   nameWithType: OsType
   fullName: com.microsoft.azure.management.containerregistry.OsType
   type: Class
-  summary: <p>Defines values for OsType. </p>
+  summary: "<p>Defines values for OsType. </p>"
   syntax:
     content: public class OsType extends ExpandableStringEnum<OsType>

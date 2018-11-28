@@ -276,7 +276,7 @@ references:
   nameWithType: TransferManagerDownloadFromBlobOptions
   fullName: com.microsoft.azure.storage.blob.TransferManagerDownloadFromBlobOptions
   type: Class
-  summary: <p>Configures the parallel download behavior for methods on the <xref uid="com.microsoft.azure.storage.blob.TransferManager" data-throw-if-not-resolved="false">TransferManager</xref>. </p>
+  summary: "<p>Configures the parallel download behavior for methods on the <xref uid=\"com.microsoft.azure.storage.blob.TransferManager\" data-throw-if-not-resolved=\"false\">TransferManager</xref>. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.IProgressReceiver
   parent: com.microsoft.azure.storage.blob
@@ -285,12 +285,7 @@ references:
   nameWithType: IProgressReceiver
   fullName: com.microsoft.azure.storage.blob.IProgressReceiver
   type: Interface
-  summary: >-
-    <p>An<code>IProgressReceiver 
-
-        </code> is an object that can be used to report progress on network transfers. When specified on transfer operations, the<code>reportProgress 
-
-        </code> method will be called periodically with the total number of bytes transferred. The user may configure this method to report progress in whatever format desired. It is recommended that this type be used in conjunction with <xref uid="" data-throw-if-not-resolved="false">ProgressReporter#addProgressReporting(Flowable, IProgressReceiver)</xref>. </p>
+  summary: "<p>An<code>IProgressReceiver \r\n    </code> is an object that can be used to report progress on network transfers. When specified on transfer operations, the<code>reportProgress \r\n    </code> method will be called periodically with the total number of bytes transferred. The user may configure this method to report progress in whatever format desired. It is recommended that this type be used in conjunction with <xref uid=\"\" data-throw-if-not-resolved=\"false\">ProgressReporter#addProgressReporting(Flowable, IProgressReceiver)</xref>. </p>"
   syntax:
     content: public interface IProgressReceiver
 - uid: com.microsoft.azure.storage.blob.ReliableDownloadOptions
@@ -300,14 +295,7 @@ references:
   nameWithType: ReliableDownloadOptions
   fullName: com.microsoft.azure.storage.blob.ReliableDownloadOptions
   type: Class
-  summary: >-
-    <p>
-
-      <code>ReliableDownloadOptions 
-
-        </code> contains properties which help the<code>Flowable 
-
-        </code> returned from <xref uid="com.microsoft.azure.storage.blob.DownloadResponse.body(ReliableDownloadOptions)" data-throw-if-not-resolved="false">DownloadResponse#body(ReliableDownloadOptions)</xref> determine when to retry. </p>
+  summary: "<p>\r\n  <code>ReliableDownloadOptions \r\n    </code> contains properties which help the<code>Flowable \r\n    </code> returned from <xref uid=\"com.microsoft.azure.storage.blob.DownloadResponse.body(ReliableDownloadOptions)\" data-throw-if-not-resolved=\"false\">DownloadResponse#body(ReliableDownloadOptions)</xref> determine when to retry. </p>"
   syntax:
     content: public class ReliableDownloadOptions
 - uid: com.microsoft.azure.storage.blob.BlobAccessConditions
@@ -317,7 +305,7 @@ references:
   nameWithType: BlobAccessConditions
   fullName: com.microsoft.azure.storage.blob.BlobAccessConditions
   type: Class
-  summary: <p>This class contains values which will restrict the successful operation of a variety of requests to the conditions present. These conditions are entirely optional. The entire object or any of its properties may be set to null when passed to a method to indicate that those conditions are not desired. Please refer to the type of each field for more information on those particular access conditions. </p>
+  summary: "<p>This class contains values which will restrict the successful operation of a variety of requests to the conditions present. These conditions are entirely optional. The entire object or any of its properties may be set to null when passed to a method to indicate that those conditions are not desired. Please refer to the type of each field for more information on those particular access conditions. </p>"
   syntax:
     content: public class BlobAccessConditions
 - uid: com.microsoft.azure.storage.blob.TransferManager
@@ -327,6 +315,6 @@ references:
   nameWithType: TransferManager
   fullName: com.microsoft.azure.storage.blob.TransferManager
   type: Class
-  summary: <p>This class contains a collection of methods (and structures associated with those methods) which perform higher-level operations. Whereas operations on the URL types guarantee a single REST request and make no assumptions on desired behavior, these methods will often compose several requests to provide a convenient way of performing more complex operations. Further, we will make our own assumptions and optimizations for common cases that may not be ideal for rarer cases. </p>
+  summary: "<p>This class contains a collection of methods (and structures associated with those methods) which perform higher-level operations. Whereas operations on the URL types guarantee a single REST request and make no assumptions on desired behavior, these methods will often compose several requests to provide a convenient way of performing more complex operations. Further, we will make our own assumptions and optimizations for common cases that may not be ideal for rarer cases. </p>"
   syntax:
     content: public class TransferManager

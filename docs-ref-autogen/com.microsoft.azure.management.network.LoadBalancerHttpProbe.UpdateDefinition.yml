@@ -43,7 +43,7 @@ references:
   nameWithType: Attachable.InUpdate<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InUpdate<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource update. </p>
+  summary: "<p>Attaches the child definition to the parent resource update. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -56,7 +56,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.WithIntervalInSeconds<ParentT>.withIntervalInSeconds(int seconds)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.WithIntervalInSeconds<ParentT>.withIntervalInSeconds(int seconds)
   type: Method
-  summary: <p>Specifies the interval between probes, in seconds. </p>
+  summary: "<p>Specifies the interval between probes, in seconds. </p>"
   syntax:
     content: public WithAttach<ParentT> withIntervalInSeconds(int seconds)
     parameters:
@@ -73,7 +73,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.WithNumberOfProbes<ParentT>.withNumberOfProbes(int probes)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.WithNumberOfProbes<ParentT>.withNumberOfProbes(int probes)
   type: Method
-  summary: <p>Specifies the number of unsuccessful probes before failure is determined. </p>
+  summary: "<p>Specifies the number of unsuccessful probes before failure is determined. </p>"
   syntax:
     content: public WithAttach<ParentT> withNumberOfProbes(int probes)
     parameters:
@@ -90,7 +90,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.WithPort<ParentT>.withPort(int port)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.WithPort<ParentT>.withPort(int port)
   type: Method
-  summary: <p>Specifies the port number to call for health monitoring. </p>
+  summary: "<p>Specifies the port number to call for health monitoring. </p>"
   syntax:
     content: public WithAttach<ParentT> withPort(int port)
     parameters:
@@ -107,7 +107,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.WithRequestPath<ParentT>.withRequestPath(String requestPath)
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.WithRequestPath<ParentT>.withRequestPath(String requestPath)
   type: Method
-  summary: <p>Specifies the HTTP request path for the probe to monitor. </p>
+  summary: "<p>Specifies the HTTP request path for the probe to monitor. </p>"
   syntax:
     content: public WithAttach<ParentT> withRequestPath(String requestPath)
     parameters:
@@ -124,7 +124,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the probe definition. </p>
+  summary: "<p>The first stage of the probe definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends LoadBalancerHttpProbe.UpdateDefinitionStages.WithRequestPath<ParentT>
     typeParameters:
@@ -138,10 +138,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the probe definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>
+  summary: "<p>The final stage of the probe definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
@@ -155,7 +152,7 @@ references:
   nameWithType: LoadBalancerHttpProbe.UpdateDefinitionStages.WithRequestPath<ParentT>
   fullName: com.microsoft.azure.management.network.LoadBalancerHttpProbe.UpdateDefinitionStages.WithRequestPath<ParentT>
   type: Interface
-  summary: <p>The stage of the probe definition allowing to specify the HTTP request path for the probe to monitor. </p>
+  summary: "<p>The stage of the probe definition allowing to specify the HTTP request path for the probe to monitor. </p>"
   syntax:
     content: public interface WithRequestPath<ParentT>
     typeParameters:

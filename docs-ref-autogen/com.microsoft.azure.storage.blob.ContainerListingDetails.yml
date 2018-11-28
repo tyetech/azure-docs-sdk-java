@@ -146,7 +146,7 @@ references:
   nameWithType: ContainerListingDetails
   fullName: com.microsoft.azure.storage.blob.ContainerListingDetails
   type: Class
-  summary: <p>This type allows users to specify additional information the service should return with each container when listing containers in an account (via a <xref uid="com.microsoft.azure.storage.blob.ServiceURL" data-throw-if-not-resolved="false">ServiceURL</xref> object). This type is immutable to ensure thread-safety of requests, so changing the details for a different listing operation requires construction of a new object. Null may be passed if none of the options are desirable. </p>
+  summary: "<p>This type allows users to specify additional information the service should return with each container when listing containers in an account (via a <xref uid=\"com.microsoft.azure.storage.blob.ServiceURL\" data-throw-if-not-resolved=\"false\">ServiceURL</xref> object). This type is immutable to ensure thread-safety of requests, so changing the details for a different listing operation requires construction of a new object. Null may be passed if none of the options are desirable. </p>"
   syntax: *o1
 - uid: com.microsoft.azure.storage.blob.models.ListContainersIncludeType
   parent: com.microsoft.azure.storage.blob.models
@@ -155,7 +155,7 @@ references:
   nameWithType: ListContainersIncludeType
   fullName: com.microsoft.azure.storage.blob.models.ListContainersIncludeType
   type: Enum
-  summary: <p>Defines values for ListContainersIncludeType. </p>
+  summary: "<p>Defines values for ListContainersIncludeType. </p>"
   syntax:
     content: public enum ListContainersIncludeType
 - uid: com.microsoft.azure.storage.blob.ServiceURL
@@ -165,6 +165,6 @@ references:
   nameWithType: ServiceURL
   fullName: com.microsoft.azure.storage.blob.ServiceURL
   type: Class
-  summary: <p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please see <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction">here</a> for more information on containers. </p>
+  summary: "<p>Represents a URL to a blob service. This class does not hold any state about a particular storage account but is instead a convenient way of sending off appropriate requests to the resource on the service. It may also be used to construct URLs to blobs and containers. Please see <a href=\"https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction\">here</a> for more information on containers. </p>"
   syntax:
     content: public class ServiceURL

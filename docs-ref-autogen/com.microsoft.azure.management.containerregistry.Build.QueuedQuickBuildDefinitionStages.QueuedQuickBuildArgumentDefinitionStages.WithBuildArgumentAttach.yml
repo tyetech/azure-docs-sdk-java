@@ -42,7 +42,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>.attach()
   fullName: ParentT com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>.InDefinition<ParentT>.attach()
   type: Method
-  summary: <p>Attaches the child definition to the parent resource definiton. </p>
+  summary: "<p>Attaches the child definition to the parent resource definiton. </p>"
   syntax:
     content: public ParentT attach()
     return:
@@ -55,10 +55,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>.withSecrecyDisabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>.withSecrecyDisabled()
   type: Method
-  summary: >-
-    <p>Specifies the build argument is not a secret.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build argument is not a secret.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT> withSecrecyDisabled()
     return:
@@ -71,10 +68,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>.withSecrecyEnabled()
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>.withSecrecyEnabled()
   type: Method
-  summary: >-
-    <p>Specifies the build argument is secret and hides it from the logs.</p>
-
-    <p></p>
+  summary: "<p>Specifies the build argument is secret and hides it from the logs.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT> withSecrecyEnabled()
     return:
@@ -87,10 +81,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>.withType(String type)
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>.withType(String type)
   type: Method
-  summary: >-
-    <p>Specifies the type of the build argument.</p>
-
-    <p></p>
+  summary: "<p>Specifies the type of the build argument.</p>\r\n<p></p>"
   syntax:
     content: public QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT> withType(String type)
     parameters:
@@ -107,7 +98,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>
   type: Interface
-  summary: <p>The stage of the build argument definition allowing to specify the type of the build argument. </p>
+  summary: "<p>The stage of the build argument definition allowing to specify the type of the build argument. </p>"
   syntax:
     content: public interface WithType<ParentT>
     typeParameters:
@@ -121,7 +112,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>
   type: Interface
-  summary: <p>The stage of the build argument definition allowing to specify the secrecy of the build argument. </p>
+  summary: "<p>The stage of the build argument definition allowing to specify the secrecy of the build argument. </p>"
   syntax:
     content: public interface WithSecrecy<ParentT>
     typeParameters:
@@ -135,7 +126,7 @@ references:
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
   type: Interface
-  summary: <p>The final stage of the child object definition, as which it can be attached to the parent. </p>
+  summary: "<p>The final stage of the child object definition, as which it can be attached to the parent. </p>"
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
@@ -149,7 +140,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the build argument definition stages. </p>
+  summary: "<p>Grouping of the build argument definition stages. </p>"
   syntax:
     content: public interface BuildArgumentDefinition<ParentT> extends Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
     typeParameters:

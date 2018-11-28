@@ -44,10 +44,7 @@ references:
   nameWithType: Appliable<T>.apply()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.apply()
   type: Method
-  summary: >-
-    <p>Execute the update request.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request.</p>\r\n<p></p>"
   syntax:
     content: public T apply()
     return:
@@ -60,10 +57,7 @@ references:
   nameWithType: Appliable<T>.applyAsync()
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync()
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public Observable<T> applyAsync()
     return:
@@ -76,10 +70,7 @@ references:
   nameWithType: Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>.applyAsync(final ServiceCallback<T> callback)
   type: Method
-  summary: >-
-    <p>Execute the update request asynchronously.</p>
-
-    <p></p>
+  summary: "<p>Execute the update request asynchronously.</p>\r\n<p></p>"
   syntax:
     content: public ServiceFuture<T> applyAsync(final ServiceCallback<T> callback)
     parameters:
@@ -96,10 +87,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithApplication.defineNewApplication(String applicationId)
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithApplication.defineNewApplication(String applicationId)
   type: Method
-  summary: >-
-    <p>Starts a definition of an application to be created in the Batch account.</p>
-
-    <p></p>
+  summary: "<p>Starts a definition of an application to be created in the Batch account.</p>\r\n<p></p>"
   syntax:
     content: public Application.UpdateDefinitionStages.Blank<Update> defineNewApplication(String applicationId)
     parameters:
@@ -128,10 +116,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithApplication.updateApplication(String applicationId)
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithApplication.updateApplication(String applicationId)
   type: Method
-  summary: >-
-    <p>Begins the description of an update of an existing Batch application in this Batch account.</p>
-
-    <p></p>
+  summary: "<p>Begins the description of an update of an existing Batch application in this Batch account.</p>\r\n<p></p>"
   syntax:
     content: public Application.Update updateApplication(String applicationId)
     parameters:
@@ -148,10 +133,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithStorageAccount.withExistingStorageAccount(StorageAccount storageAccount)
   type: Method
-  summary: >-
-    <p>Specifies an existing storage account to associate with the Batch account.</p>
-
-    <p></p>
+  summary: "<p>Specifies an existing storage account to associate with the Batch account.</p>\r\n<p></p>"
   syntax:
     content: public Update withExistingStorageAccount(StorageAccount storageAccount)
     parameters:
@@ -168,10 +150,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> storageAccountCreatable)
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithStorageAccount.withNewStorageAccount(Creatable<StorageAccount> storageAccountCreatable)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account to create and associate with the Batch account.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account to create and associate with the Batch account.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewStorageAccount(Creatable<StorageAccount> storageAccountCreatable)
     parameters:
@@ -188,10 +167,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithStorageAccount.withNewStorageAccount(String storageAccountName)
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithStorageAccount.withNewStorageAccount(String storageAccountName)
   type: Method
-  summary: >-
-    <p>Specifies a new storage account to create and associate with the Batch account.</p>
-
-    <p></p>
+  summary: "<p>Specifies a new storage account to create and associate with the Batch account.</p>\r\n<p></p>"
   syntax:
     content: public Update withNewStorageAccount(String storageAccountName)
     parameters:
@@ -208,10 +184,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithApplication.withoutApplication(String applicationId)
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithApplication.withoutApplication(String applicationId)
   type: Method
-  summary: >-
-    <p>Removes the specified application from the Batch account.</p>
-
-    <p></p>
+  summary: "<p>Removes the specified application from the Batch account.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutApplication(String applicationId)
     parameters:
@@ -228,10 +201,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithStorageAccount.withoutStorageAccount()
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithStorageAccount.withoutStorageAccount()
   type: Method
-  summary: >-
-    <p>Removes the associated storage account.</p>
-
-    <p></p>
+  summary: "<p>Removes the associated storage account.</p>\r\n<p></p>"
   syntax:
     content: public Update withoutStorageAccount()
     return:
@@ -244,7 +214,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withoutTag(String key)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withoutTag(String key)
   type: Method
-  summary: <p>Removes a tag from the resource. </p>
+  summary: "<p>Removes a tag from the resource. </p>"
   syntax:
     content: public T withoutTag(String key)
     parameters:
@@ -261,7 +231,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTag(String key, String value)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTag(String key, String value)
   type: Method
-  summary: <p>Adds a tag to the resource. </p>
+  summary: "<p>Adds a tag to the resource. </p>"
   syntax:
     content: public T withTag(String key, String value)
     parameters:
@@ -281,7 +251,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>.withTags(Map<String, String> tags)
   type: Method
-  summary: <p>Specifies tags for the resource as a <xref uid="" data-throw-if-not-resolved="false">Map</xref>. </p>
+  summary: "<p>Specifies tags for the resource as a <xref uid=\"\" data-throw-if-not-resolved=\"false\">Map</xref>. </p>"
   syntax:
     content: public T withTags(Map<String, String> tags)
     parameters:
@@ -298,10 +268,7 @@ references:
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
   type: Interface
-  summary: >-
-    <p>The base interface for all template interfaces that support update operations.</p>
-
-    <p></p>
+  summary: "<p>The base interface for all template interfaces that support update operations.</p>\r\n<p></p>"
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
@@ -315,10 +282,7 @@ references:
   nameWithType: Resource.UpdateWithTags<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags<T>
   type: Interface
-  summary: >-
-    <p>An update allowing tags to be modified for the resource.</p>
-
-    <p></p>
+  summary: "<p>An update allowing tags to be modified for the resource.</p>\r\n<p></p>"
   syntax:
     content: public interface UpdateWithTags<T>
     typeParameters:
@@ -332,7 +296,7 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithStorageAccount
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithStorageAccount
   type: Interface
-  summary: <p>The stage of a Batch account update allowing to specify a storage account. </p>
+  summary: "<p>The stage of a Batch account update allowing to specify a storage account. </p>"
   syntax:
     content: public interface WithStorageAccount
 - uid: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithApplication
@@ -342,6 +306,6 @@ references:
   nameWithType: BatchAccount.UpdateStages.WithApplication
   fullName: com.microsoft.azure.management.batch.BatchAccount.UpdateStages.WithApplication
   type: Interface
-  summary: <p>The stage of a Batch account definition allowing the creation of a Batch application. </p>
+  summary: "<p>The stage of a Batch account definition allowing the creation of a Batch application. </p>"
   syntax:
     content: public interface WithApplication

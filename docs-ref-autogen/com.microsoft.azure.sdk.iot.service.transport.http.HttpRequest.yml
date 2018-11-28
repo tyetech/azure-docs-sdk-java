@@ -241,10 +241,7 @@ references:
   nameWithType: HttpConnection
   fullName: com.microsoft.azure.sdk.iot.service.transport.http.HttpConnection
   type: Class
-  summary: >-
-    <p>A wrapper for the Java SE class HttpsURLConnection. Used to avoid compatibility issues when testing with the mocking framework JMockit, as well as to avoid some undocumented side effects when using HttpsURLConnection. </p>
-
-    <p>The underlying HttpsURLConnection is transparently managed by Java. To reuse connections, for each time connect() is called, the input streams (input stream or error stream, if input stream is not accessible) must be completely read. Otherwise, the data remains in the stream and the connection will not be reusable. </p>
+  summary: "<p>A wrapper for the Java SE class HttpsURLConnection. Used to avoid compatibility issues when testing with the mocking framework JMockit, as well as to avoid some undocumented side effects when using HttpsURLConnection. </p>\r\n<p>The underlying HttpsURLConnection is transparently managed by Java. To reuse connections, for each time connect() is called, the input streams (input stream or error stream, if input stream is not accessible) must be completely read. Otherwise, the data remains in the stream and the connection will not be reusable. </p>"
   syntax:
     content: public class HttpConnection
 - uid: com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod
@@ -254,7 +251,7 @@ references:
   nameWithType: HttpMethod
   fullName: com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod
   type: Enum
-  summary: <p>The HTTPS request method (i.e. GET). </p>
+  summary: "<p>The HTTPS request method (i.e. GET). </p>"
   syntax:
     content: public enum HttpMethod
 - uid: com.microsoft.azure.sdk.iot.service.transport.http.HttpResponse
@@ -264,7 +261,7 @@ references:
   nameWithType: HttpResponse
   fullName: com.microsoft.azure.sdk.iot.service.transport.http.HttpResponse
   type: Class
-  summary: <p>An HTTPS response. Contains the status code, body, header fields, and error reason (if any). </p>
+  summary: "<p>An HTTPS response. Contains the status code, body, header fields, and error reason (if any). </p>"
   syntax:
     content: public class HttpResponse
 - uid: com.microsoft.azure.sdk.iot.service.transport.http.HttpRequest

@@ -191,7 +191,7 @@ references:
   nameWithType: QuerySpecificationBuilder.FromType
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilder.FromType
   type: Enum
-  summary: <p>From clause for Query </p>
+  summary: "<p>From clause for Query </p>"
   syntax:
     content: public enum FromType
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilder
@@ -201,32 +201,7 @@ references:
   nameWithType: QuerySpecificationBuilder
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilder
   type: Class
-  summary: >-
-    <p>This is a helper to create a new instance of the <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification" data-throw-if-not-resolved="false">QuerySpecification</xref>.</p>
-
-    <p>This helper will create a query forcing the correct sql format. It expects the <b>SELECT</b> and <b>FROM</b>, but optionally accepts <b>WHERE</b> and <b>GROUP BY</b>. As a result, it will return a <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification" data-throw-if-not-resolved="false">QuerySpecification</xref> object, accepted by the provisioning service.</p>
-
-    <p>
-
-      <b>Sample:</b>
-
-    </p>
-
-    <p>The follow line will create a <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification" data-throw-if-not-resolved="false">QuerySpecification</xref>. <pre><code>QuerySpecification querySpecification = new QuerySpecificationBuilder("*", QuerySpecificationBuilder.FromType.ENROLLMENTS)
-
-                .where("iotHubHostName=`ContosoIoTHub.azure-devices.net`").createSqlQuery();
-
-        </code></pre></p>
-
-    <p>Will generate the sql query: <pre><code>{
-
-            "query":"select * from enrollments where iotHubHostName=`ContosoIoTHub.azure-devices.net`"
-
-        }
-
-        </code></pre></p>
-
-    <p></p>
+  summary: "<p>This is a helper to create a new instance of the <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification\" data-throw-if-not-resolved=\"false\">QuerySpecification</xref>.</p>\r\n<p>This helper will create a query forcing the correct sql format. It expects the <b>SELECT</b> and <b>FROM</b>, but optionally accepts <b>WHERE</b> and <b>GROUP BY</b>. As a result, it will return a <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification\" data-throw-if-not-resolved=\"false\">QuerySpecification</xref> object, accepted by the provisioning service.</p>\r\n<p>\r\n  <b>Sample:</b>\r\n</p>\r\n<p>The follow line will create a <xref uid=\"com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification\" data-throw-if-not-resolved=\"false\">QuerySpecification</xref>. <pre><code>QuerySpecification querySpecification = new QuerySpecificationBuilder(\"*\", QuerySpecificationBuilder.FromType.ENROLLMENTS)\r\n            .where(\"iotHubHostName=`ContosoIoTHub.azure-devices.net`\").createSqlQuery();\r\n    </code></pre></p>\r\n<p>Will generate the sql query: <pre><code>{\r\n        \"query\":\"select * from enrollments where iotHubHostName=`ContosoIoTHub.azure-devices.net`\"\r\n    }\r\n    </code></pre></p>\r\n<p></p>"
   syntax: *o1
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
   parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
@@ -235,9 +210,6 @@ references:
   nameWithType: QuerySpecification
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
   type: Class
-  summary: >-
-    <p>Representation of a single Device Provisioning Service query specification with a JSON serializer.</p>
-
-    <p></p>
+  summary: "<p>Representation of a single Device Provisioning Service query specification with a JSON serializer.</p>\r\n<p></p>"
   syntax:
     content: public class QuerySpecification extends Serializable

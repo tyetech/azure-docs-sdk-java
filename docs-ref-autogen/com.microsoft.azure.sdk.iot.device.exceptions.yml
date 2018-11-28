@@ -91,7 +91,7 @@ references:
   nameWithType: IotHubException
   fullName: com.microsoft.azure.sdk.iot.device.exceptions.IotHubException
   type: Class
-  summary: <p>Super class for IotHub exceptions </p>
+  summary: "<p>Super class for IotHub exceptions </p>"
   syntax:
     content: public class IotHubException
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.IotHubServiceException
@@ -101,7 +101,7 @@ references:
   nameWithType: IotHubServiceException
   fullName: com.microsoft.azure.sdk.iot.device.exceptions.IotHubServiceException
   type: Class
-  summary: '<p>Exception class that covers all exceptions communicated from the IoT Hub that are not due to connection issues in the transport protocols. These exceptions map to standard status codes from the service (401 : unauthorized, 404 : not found, etc.) </p>'
+  summary: "<p>Exception class that covers all exceptions communicated from the IoT Hub that are not due to connection issues in the transport protocols. These exceptions map to standard status codes from the service (401 : unauthorized, 404 : not found, etc.) </p>"
   syntax:
     content: public class IotHubServiceException extends TransportException
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.IotHubSizeExceededException
@@ -111,10 +111,7 @@ references:
   nameWithType: IotHubSizeExceededException
   fullName: com.microsoft.azure.sdk.iot.device.exceptions.IotHubSizeExceededException
   type: Class
-  summary: >-
-    <p>Create IotHub size exceeded exceptions</p>
-
-    <p>This exception will be throw when a function tries to add content in a buffer or message and the final size will exceed the maximum size acceptable by the IotHub. </p>
+  summary: "<p>Create IotHub size exceeded exceptions</p>\r\n<p>This exception will be throw when a function tries to add content in a buffer or message and the final size will exceed the maximum size acceptable by the IotHub. </p>"
   syntax:
     content: public class IotHubSizeExceededException extends IotHubException
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.ModuleClientException
@@ -142,7 +139,7 @@ references:
   nameWithType: ProtocolException
   fullName: com.microsoft.azure.sdk.iot.device.exceptions.ProtocolException
   type: Class
-  summary: <p>Exception class that covers all exceptions that occur within transport protocol communication. For example, if a amqp:connection:forced exception is given by AMQP. </p>
+  summary: "<p>Exception class that covers all exceptions that occur within transport protocol communication. For example, if a amqp:connection:forced exception is given by AMQP. </p>"
   syntax:
     content: public class ProtocolException extends TransportException
 - uid: com.microsoft.azure.sdk.iot.device.exceptions.RequestEntityTooLargeException

@@ -79,7 +79,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod.DefinitionStages.Blank<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.Blank<ParentT>
   type: Interface
-  summary: <p>The first stage of the Horovode job settings definition. </p>
+  summary: "<p>The first stage of the Horovode job settings definition. </p>"
   syntax:
     content: public interface Blank<ParentT> extends ToolTypeSettings.Horovod.DefinitionStages.WithPython<ParentT>
     typeParameters:
@@ -93,7 +93,7 @@ references:
   nameWithType: ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
   fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Horovod.DefinitionStages.WithAttach<ParentT>
   type: Interface
-  summary: <p>The final stage of the Horovod job settings definition. At this stage, any remaining optional settings can be specified, or the Horovod job settings definition can be attached to the parent Batch AI job definition. </p>
+  summary: "<p>The final stage of the Horovod job settings definition. At this stage, any remaining optional settings can be specified, or the Horovod job settings definition can be attached to the parent Batch AI job definition. </p>"
   syntax:
     content: public interface WithAttach<ParentT> extends Attachable<ParentT>.InDefinition,ToolTypeSettings.DefinitionStages.WithPythonInterpreter<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithProcessCount<WithAttach<ParentT>>,ToolTypeSettings.DefinitionStages.WithCommandLineArgs<WithAttach<ParentT>>
     typeParameters:

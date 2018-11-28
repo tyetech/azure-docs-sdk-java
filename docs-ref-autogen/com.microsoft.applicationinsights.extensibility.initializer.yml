@@ -39,7 +39,7 @@ references:
   nameWithType: CloudInfoContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.CloudInfoContextInitializer
   type: Class
-  summary: <p>Initializes cloud context information. Currently setting RoleInstance to the hostname. </p>
+  summary: "<p>Initializes cloud context information. Currently setting RoleInstance to the hostname. </p>"
   syntax:
     content: public class CloudInfoContextInitializer implements ContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.DeviceInfoContextInitializer
@@ -49,7 +49,7 @@ references:
   nameWithType: DeviceInfoContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.DeviceInfoContextInitializer
   type: Class
-  summary: <p>Initializer class for device context information. </p>
+  summary: "<p>Initializer class for device context information. </p>"
   syntax:
     content: public class DeviceInfoContextInitializer implements ContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.SdkVersionContextInitializer
@@ -59,7 +59,7 @@ references:
   nameWithType: SdkVersionContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.SdkVersionContextInitializer
   type: Class
-  summary: <p>Initializer for SDK version. </p>
+  summary: "<p>Initializer for SDK version. </p>"
   syntax:
     content: public class SdkVersionContextInitializer implements ContextInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.SequencePropertyInitializer
@@ -69,7 +69,7 @@ references:
   nameWithType: SequencePropertyInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.SequencePropertyInitializer
   type: Class
-  summary: <p>An <xref uid="com.microsoft.applicationinsights.extensibility.TelemetryInitializer" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.extensibility.TelemetryInitializer</xref> implementation that populates Sequence property to ensure correct ordering of the telemetry in the portal. </p>
+  summary: "<p>An <xref uid=\"com.microsoft.applicationinsights.extensibility.TelemetryInitializer\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.extensibility.TelemetryInitializer</xref> implementation that populates Sequence property to ensure correct ordering of the telemetry in the portal. </p>"
   syntax:
     content: public class SequencePropertyInitializer implements TelemetryInitializer
 - uid: com.microsoft.applicationinsights.extensibility.initializer.TimestampPropertyInitializer
@@ -79,6 +79,6 @@ references:
   nameWithType: TimestampPropertyInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.TimestampPropertyInitializer
   type: Class
-  summary: <p>An <xref uid="com.microsoft.applicationinsights.extensibility.TelemetryInitializer" data-throw-if-not-resolved="false">TelemetryInitializer</xref> implementation that sets the timestamp on the <xref uid="com.microsoft.applicationinsights.telemetry.Telemetry" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.Telemetry</xref> unless the timestamp is already set. </p>
+  summary: "<p>An <xref uid=\"com.microsoft.applicationinsights.extensibility.TelemetryInitializer\" data-throw-if-not-resolved=\"false\">TelemetryInitializer</xref> implementation that sets the timestamp on the <xref uid=\"com.microsoft.applicationinsights.telemetry.Telemetry\" data-throw-if-not-resolved=\"false\">com.microsoft.applicationinsights.telemetry.Telemetry</xref> unless the timestamp is already set. </p>"
   syntax:
     content: public class TimestampPropertyInitializer implements TelemetryInitializer

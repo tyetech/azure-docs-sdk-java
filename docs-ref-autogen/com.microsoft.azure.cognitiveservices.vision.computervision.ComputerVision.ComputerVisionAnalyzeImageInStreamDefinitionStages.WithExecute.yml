@@ -100,10 +100,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions.withDetails(String details)
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions.withDetails(String details)
   type: Method
-  summary: >-
-    <p>A string indicating which domain-specific details to return. Multiple values should be comma-separated. Valid visual feature types include:Celebrities - identifies celebrities if detected in the image. Possible values include: 'Celebrities', 'Landmarks'.</p>
-
-    <p></p>
+  summary: "<p>A string indicating which domain-specific details to return. Multiple values should be comma-separated. Valid visual feature types include:Celebrities - identifies celebrities if detected in the image. Possible values include: 'Celebrities', 'Landmarks'.</p>\r\n<p></p>"
   syntax:
     content: public ComputerVisionAnalyzeImageInStreamDefinitionStages.WithExecute withDetails(String details)
     parameters:
@@ -119,10 +116,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions.withLanguage(String language)
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions.withLanguage(String language)
   type: Method
-  summary: >-
-    <p>The desired language for output generation. If this parameter is not specified, the default value is &amp;quot;en&amp;quot;.Supported languages:en - English, Default. es - Spanish, ja - Japanese, pt - Portuguese, zh - Simplified Chinese. Possible values include: 'en', 'es', 'ja', 'pt', 'zh'.</p>
-
-    <p></p>
+  summary: "<p>The desired language for output generation. If this parameter is not specified, the default value is &amp;quot;en&amp;quot;.Supported languages:en - English, Default. es - Spanish, ja - Japanese, pt - Portuguese, zh - Simplified Chinese. Possible values include: 'en', 'es', 'ja', 'pt', 'zh'.</p>\r\n<p></p>"
   syntax:
     content: public ComputerVisionAnalyzeImageInStreamDefinitionStages.WithExecute withLanguage(String language)
     parameters:
@@ -138,10 +132,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions.withVisualFeatures(List<VisualFeatureTypes> visualFeatures)
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions.withVisualFeatures(List<VisualFeatureTypes> visualFeatures)
   type: Method
-  summary: >-
-    <p>A string indicating what visual feature types to return. Multiple values should be comma-separated. Valid visual feature types include:Categories - categorizes image content according to a taxonomy defined in documentation. Tags - tags the image with a detailed list of words related to the image content. Description<ul><li><p>describes the image content with a complete English sentence. Faces - detects if faces are present. If present, generate coordinates, gender and age. ImageType - detects if image is clipart or a line drawing. Color - determines the accent color, dominant color, and whether an image is black&amp;white.Adult - detects if the image is pornographic in nature (depicts nudity or a sex act). Sexually suggestive content is also detected.</p></li></ul></p>
-
-    <p></p>
+  summary: "<p>A string indicating what visual feature types to return. Multiple values should be comma-separated. Valid visual feature types include:Categories - categorizes image content according to a taxonomy defined in documentation. Tags - tags the image with a detailed list of words related to the image content. Description<ul><li><p>describes the image content with a complete English sentence. Faces - detects if faces are present. If present, generate coordinates, gender and age. ImageType - detects if image is clipart or a line drawing. Color - determines the accent color, dominant color, and whether an image is black&amp;white.Adult - detects if the image is pornographic in nature (depicts nudity or a sex act). Sexually suggestive content is also detected.</p></li></ul></p>\r\n<p></p>"
   syntax:
     content: public ComputerVisionAnalyzeImageInStreamDefinitionStages.WithExecute withVisualFeatures(List<VisualFeatureTypes> visualFeatures)
     parameters:
@@ -157,7 +148,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithAllOptions
   type: Interface
-  summary: <p>The stage of the definition which allows for any other optional settings to be specified. </p>
+  summary: "<p>The stage of the definition which allows for any other optional settings to be specified. </p>"
   syntax:
     content: public interface WithAllOptions
 - uid: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionAnalyzeImageInStreamDefinition
@@ -167,7 +158,7 @@ references:
   nameWithType: ComputerVision.ComputerVisionAnalyzeImageInStreamDefinition
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.ComputerVision.ComputerVisionAnalyzeImageInStreamDefinition
   type: Interface
-  summary: <p>The entirety of analyzeImageInStream definition. </p>
+  summary: "<p>The entirety of analyzeImageInStream definition. </p>"
   syntax:
     content: public interface ComputerVisionAnalyzeImageInStreamDefinition extends ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithImage,ComputerVision.ComputerVisionAnalyzeImageInStreamDefinitionStages.WithExecute
 - uid: com.microsoft.azure.cognitiveservices.vision.computervision.models.ImageAnalysis
@@ -177,6 +168,6 @@ references:
   nameWithType: ImageAnalysis
   fullName: com.microsoft.azure.cognitiveservices.vision.computervision.models.ImageAnalysis
   type: Class
-  summary: <p>Result of AnalyzeImage operation. </p>
+  summary: "<p>Result of AnalyzeImage operation. </p>"
   syntax:
     content: public class ImageAnalysis

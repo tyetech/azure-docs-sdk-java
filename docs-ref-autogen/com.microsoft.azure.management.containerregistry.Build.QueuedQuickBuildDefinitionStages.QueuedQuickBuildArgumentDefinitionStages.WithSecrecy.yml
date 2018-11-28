@@ -98,7 +98,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinition<ParentT>
   type: Interface
-  summary: <p>Grouping of the build argument definition stages. </p>
+  summary: "<p>Grouping of the build argument definition stages. </p>"
   syntax:
     content: public interface BuildArgumentDefinition<ParentT> extends Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.BuildArgumentDefinitionBlank<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithValue<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
     typeParameters:
@@ -111,10 +111,7 @@ references:
   nameWithType: Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
   fullName: com.microsoft.azure.management.containerregistry.Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithBuildArgumentAttach<ParentT>
   type: Interface
-  summary: >-
-    <p>The final stage of the build argument definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  summary: "<p>The final stage of the build argument definition. </p>\r\n<p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>"
   syntax:
     content: public interface WithBuildArgumentAttach<ParentT> extends Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithType<ParentT>,Build.QueuedQuickBuildDefinitionStages.QueuedQuickBuildArgumentDefinitionStages.WithSecrecy<ParentT>,Attachable<ParentT>.InDefinition
     typeParameters:

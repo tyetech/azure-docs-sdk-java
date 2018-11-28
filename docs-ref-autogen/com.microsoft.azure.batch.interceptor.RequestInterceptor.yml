@@ -142,7 +142,7 @@ references:
   nameWithType: BatchClientBehavior
   fullName: com.microsoft.azure.batch.BatchClientBehavior
   type: Class
-  summary: <p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>
+  summary: "<p>Classes derived from the BatchClientBehavior class modify operational behaviors of an Azure Batch client. </p>"
   syntax:
     content: public class BatchClientBehavior
 - uid: com.microsoft.azure.batch.interceptor.ClientRequestIdInterceptor
@@ -152,7 +152,7 @@ references:
   nameWithType: ClientRequestIdInterceptor
   fullName: com.microsoft.azure.batch.interceptor.ClientRequestIdInterceptor
   type: Class
-  summary: <p>Interceptor which contains a function used to generate a client request ID. If there are multiple instances of this then the last set wins. </p>
+  summary: "<p>Interceptor which contains a function used to generate a client request ID. If there are multiple instances of this then the last set wins. </p>"
   syntax:
     content: public class ClientRequestIdInterceptor extends RequestInterceptor
 - uid: com.microsoft.azure.batch.interceptor.DetailLevelInterceptor
@@ -162,7 +162,7 @@ references:
   nameWithType: DetailLevelInterceptor
   fullName: com.microsoft.azure.batch.interceptor.DetailLevelInterceptor
   type: Class
-  summary: <p>Interceptor which contains a function used to apply the <xref uid="com.microsoft.azure.batch.DetailLevel" data-throw-if-not-resolved="false">DetailLevel</xref>. If there are multiple instances of this then the last set wins. </p>
+  summary: "<p>Interceptor which contains a function used to apply the <xref uid=\"com.microsoft.azure.batch.DetailLevel\" data-throw-if-not-resolved=\"false\">DetailLevel</xref>. If there are multiple instances of this then the last set wins. </p>"
   syntax:
     content: public class DetailLevelInterceptor extends RequestInterceptor
 - uid: com.microsoft.azure.batch.interceptor.PageSizeInterceptor
@@ -172,7 +172,7 @@ references:
   nameWithType: PageSizeInterceptor
   fullName: com.microsoft.azure.batch.interceptor.PageSizeInterceptor
   type: Class
-  summary: <p>Interceptor which contains a function used to set the maximum page size of a request. If there are multiple instances of this then the last set wins. </p>
+  summary: "<p>Interceptor which contains a function used to set the maximum page size of a request. If there are multiple instances of this then the last set wins. </p>"
   syntax:
     content: public class PageSizeInterceptor extends RequestInterceptor
 - uid: com.microsoft.azure.batch.interceptor.ServerTimeoutInterceptor
@@ -182,7 +182,7 @@ references:
   nameWithType: ServerTimeoutInterceptor
   fullName: com.microsoft.azure.batch.interceptor.ServerTimeoutInterceptor
   type: Class
-  summary: <p>Sets Batch service request timeouts. </p>
+  summary: "<p>Sets Batch service request timeouts. </p>"
   syntax:
     content: public class ServerTimeoutInterceptor
 - uid: com.microsoft.azure.batch.interceptor.BatchRequestInterceptHandler
@@ -192,7 +192,7 @@ references:
   nameWithType: BatchRequestInterceptHandler
   fullName: com.microsoft.azure.batch.interceptor.BatchRequestInterceptHandler
   type: Interface
-  summary: <p>This interface enables an interceptor to modify a request to the Batch service. </p>
+  summary: "<p>This interface enables an interceptor to modify a request to the Batch service. </p>"
   syntax:
     content: public interface BatchRequestInterceptHandler
 - uid: com.microsoft.azure.batch.interceptor.RequestInterceptor
@@ -202,5 +202,5 @@ references:
   nameWithType: RequestInterceptor
   fullName: com.microsoft.azure.batch.interceptor.RequestInterceptor
   type: Class
-  summary: <p>A <xref uid="com.microsoft.azure.batch.BatchClientBehavior" data-throw-if-not-resolved="false">BatchClientBehavior</xref> that modifies requests to the Batch service. </p>
+  summary: "<p>A <xref uid=\"com.microsoft.azure.batch.BatchClientBehavior\" data-throw-if-not-resolved=\"false\">BatchClientBehavior</xref> that modifies requests to the Batch service. </p>"
   syntax: *o1
